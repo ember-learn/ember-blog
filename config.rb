@@ -23,11 +23,8 @@ activate :bootstrap_navbar do |bootstrap_navbar|
   bootstrap_navbar.bootstrap_version = '3.3.7'
 end
 activate :directory_indexes
-activate :toc
-activate :sponsors
 activate :highlighter
 activate :column_balancer
-activate :versions
 ###
 # Build
 ###
@@ -42,9 +39,8 @@ end
 ###
 
 activate :blog do |blog|
-  blog.prefix = 'blog'
   blog.layout = 'layouts/blog'
-  blog.tag_template = 'blog/tag.html'
+  blog.tag_template = 'tag.html'
 
   blog.paginate = true
   blog.page_link = "page/{num}"
