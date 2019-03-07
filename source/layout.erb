@@ -37,7 +37,7 @@
     <%= yield_content :head %>
   </head>
 
-  <body class="<%= page_classes current_page.data %>">
+  <body class="blog <%= page_classes current_page.data %>">
 
     <!--[if lt IE 9]>
       <script type="text/javascript" src="/javascripts/common-old-ie.js"></script>
@@ -51,17 +51,14 @@
     <%= yield_content :outside_wrapper %>
 
     <div id="content-wrapper" class="content-wrapper">
-
-    <% sidebar = rendered_partial_for(:sidebar) || yield_content(:sidebar) %>
-      <div id="content" class="main<% if sidebar %> has-sidebar<% end %>" role="main">
+      <div id="content" class="main has-sidebar" role="main">
         <%= yield %>
       </div>
-      <% if sidebar %>
-        <aside class="sidebar" role="complementary">
-          <%= sidebar %>
-          <div id="back-to-top" class="back-to-top"><a id="back-top-top" href="#">&#11014; Back to Top</a></div>
-        </aside>
-      <% end %>
+
+      <aside class="sidebar" role="complementary">
+        <%= partial "sidebar" %>
+        <div id="back-to-top" class="back-to-top"><a id="back-top-top" href="#">&#11014; Back to Top</a></div>
+      </aside>
     </div>
 
     <div class="cta-contribute">
