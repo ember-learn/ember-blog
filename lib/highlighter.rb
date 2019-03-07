@@ -133,10 +133,6 @@ HEADER
   class HighlightedHTML < Redcarpet::Render::HTML
     include Helpers
 
-    def header(text, level)
-      "<h#{level} class='anchorable-toc' id='toc_#{TOC::TableOfContents.anchorify(text)}'>#{text}</h#{level}>"
-    end
-
     def block_code(code, language)
       _highlight(code, language)
     end

@@ -1,4 +1,4 @@
-  <div class="blog-sidebar">
+<div class="blog-sidebar">
   <h3 class="list-group-title" id="recent-posts">Recent Posts</h3>
   <ul class="list-group" aria-labelledby="recent-posts">
     <% blog.tags['Recent Posts'].sort_by(&:date).reverse.take(3).each_with_index do |article, i| %>
@@ -77,5 +77,3 @@
     <li class="list-item"><a href="<%= tag_path 'Testing'%>">Testing</a></li>
   </ul>
 </div>
-
-
