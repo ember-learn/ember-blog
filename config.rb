@@ -58,25 +58,8 @@ config.ignored_sitemap_matchers[:source_dotfiles] = proc { |file|
   file =~ %r{/\.} && file !~ %r{/\.well-known}
 }
 
-###
-# Pages
-###
-
-page 'community.html'
-
-page 'index.html', proxy: 'about.html'
-
-page '404.html', directory_index: false
-
 # Don't build layouts standalone
 ignore '*_layout.erb'
-
-###
-# Builds
-###
-['release', 'beta', 'canary', 'tagged'].each do |tab|
-  proxy "/builds/#{tab}.html", '/builds/index.html'
-end
 
 ###
 # Helpers
@@ -123,10 +106,3 @@ helpers do
     classes += ' responsive'
   end
 end
-
-###
-# Redirects (These must be last!)
-###
-activate :alias
-
-redirect "homepage-survey.html", to: "https://tilde.wufoo.com/forms/welcome-to-the-ember-homepage-survey/"
