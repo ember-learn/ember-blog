@@ -1,3 +1,4 @@
 {
-  "allow": ["color", "dad-mom", "her-him", "he-she", "hook", "hooks", "harder"] 
+  "allow": ["color", "dad-mom", "her-him", "he-she", "hook", "hooks", "harder"],
+  "profanitySureness": 1
 }
