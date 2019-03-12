@@ -55,7 +55,7 @@ it's fair to ask what happened and why we're making this decision now.
 
 [roadmap-rfc]: https://emberjs.github.io/rfcs/0364-roadmap-2018.html
 
-Heads up: this post gets long and detailed, so if you are only care about the
+Heads up: this post gets long and detailed, so if you only care about the
 plan going forward, you can safely skip the rest.
 
 In the spirit of transparency and overcommunication, though, I wanted to
@@ -368,7 +368,7 @@ author templates.
 
 Here is one example of a **very hypothetical** template imports syntax:
 
-```hbs
+```handlebars
 ---
 import UserProfile from './user-profile';
 import UserIcon from './icons/user';
@@ -383,7 +383,7 @@ example. Regardless, it shows the benefit of template imports clearly: we've
 imported two components—`UserProfile` and `UserIcon`—just like how we would
 refer to any other JavaScript module. This makes it very easy for
 everyone—from developer who are new to Ember, to IDEs, and other tooling in
-the JavaScript ecosystem`—to understand what came from where.
+the JavaScript ecosystem—to understand what came from where.
 
 You can even imagine an (again, **very hypothetical**) single-file component
 format that places the template right within the component's class. Here, a
