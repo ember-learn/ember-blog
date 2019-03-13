@@ -14,7 +14,7 @@ Polish up the Guides preview for Octane ⛽️, invoke nested components with an
 
 ## [Copy Editors For the Octane Guides Needed 📝](https://github.com/ember-learn/guides-source/issues/588)
 
-Do you have **a few minutes** to read a page of the [Work in Progress (WIP) of the new Octane Guides](https://github.com/ember-learn/guides-source/issues/588) and send a PR for any kind of **small fix**? It's all about **spelling, typos and factual accuracy** in this round of copy-editing for the Guides and your help - however big or small - is greatly appreciated! 🖤
+Do you have **a few minutes** to read a page of the [Work in Progress (WIP) of the new Octane Guides](https://github.com/ember-learn/guides-source/issues/588) and send a PR for any kind of **small fix**? It's all about **spelling, typos and factual accuracy** in this round of copy-editing for the Octane Guides, and your help - however big or small - is greatly appreciated! 🖤
 Your work will contribute to a big initiative the Learning Core team and friends have been working on for a while and which will be highlighted at [EmberConf](https://emberconf.com) next week!
 
 You can read more about how to contribute and what to look out for in the [description of the related Quest Issue](https://github.com/ember-learn/guides-source/issues/588) and thank you for your support - every little bit helps! ⭐️
