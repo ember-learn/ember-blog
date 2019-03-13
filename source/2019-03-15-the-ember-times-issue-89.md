@@ -23,7 +23,7 @@ You can read more about how to contribute and what to look out for in the [descr
 
 ## [Invoking Components From All the Directories With Angle Brackets 📂](https://github.com/emberjs/rfcs/pull/457)
 
-Even though [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) is the modern and already available way of invoking components in Ember, it is still not possible to invoke all your components in your Ember app this way (yet!).
+Even though the [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) is the modern and already available way of invoking components in Ember, it is still not possible to invoke all your components in your Ember app this way (yet!).
 
 In contrast to **curly invocation syntax**, or classic invocation syntax, **angle bracket syntax** does not allow you to invoke components from nested directories, e.g. `app/components/blog/post/comment.js`. A new [Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/457) aims to change exactly that. It paves a way for Ember developers to use angle bracket invocation syntax on components from all app directories - nested or not.
 
