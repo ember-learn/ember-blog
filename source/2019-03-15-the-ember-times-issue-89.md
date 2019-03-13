@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 89
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
@@ -8,16 +8,27 @@ responsive: true
 
 Talofa Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, ...
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Copy Editors For the Octane Guides Needed 📝](https://github.com/ember-learn/guides-source/issues/588)
 
+Do you have **a few minutes** to read a page of the [Work in Progress (WIP) of the new Octane Guides](https://github.com/ember-learn/guides-source/issues/588) and send a PR for any kind of **small fix**? It's all about **spelling, typos and factual accuracy** in this round of copy-editing for the Octane Guides, and your help - however big or small - is greatly appreciated! 🖤
+Your work will contribute to a big initiative the Learning Core team and friends have been working on for a while and which will be highlighted at [EmberConf](https://emberconf.com) next week!
+
+You can read more about how to contribute and what to look out for in the [description of the related Quest Issue](https://github.com/ember-learn/guides-source/issues/588) and thank you for your support - every little bit helps! ⭐️
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Invoking Components From All the Directories With Angle Brackets 📂](https://github.com/emberjs/rfcs/pull/457)
+
+Even though the [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) is the modern and already available way of invoking components in Ember, it is still not possible to invoke all your components in your Ember app this way (yet!).
+
+In contrast to **curly invocation syntax**, or classic invocation syntax, **angle bracket syntax** does not allow you to invoke components from nested directories, e.g. `app/components/blog/post/comment.js`. A new [Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/457) aims to change exactly that. It paves a way for Ember developers to use angle bracket invocation syntax on components from all app directories - nested or not.
+
+<!-- alex ignore period -->
+Be sure to read the full proposal and [leave your comments below](https://github.com/emberjs/rfcs/pull/457) before the **Final Comment Period (FCP)** ends!
 
 
 ---
@@ -90,4 +101,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
