@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 89
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 Talofa Emberistas! 🐹
 
-Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, ...
+Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝 ...
 
 ---
 
@@ -33,8 +33,12 @@ Be sure to read the full proposal and [leave your comments below](https://github
 
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Module Unification Update 📝](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) 
+If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that Tom Dale wrote will tell you all about it. 
+The blog tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work. 
+Unfortunately MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable. 
+With these challenges in mind and looking at the development of Angle bracket components there is a new path wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible. 
+So if you have a good idea to help make MU a success Ember, join the discussion and read the [Blog on Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html).
 
 ---
 
@@ -101,4 +105,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
