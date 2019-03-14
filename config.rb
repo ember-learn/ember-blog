@@ -47,7 +47,7 @@ activate :blog do |blog|
   blog.per_page = 10
 end
 
-page '/blog/feed.xml', layout: false
+page '/feed.xml', layout: false
 
 # For fastly cert verification
 config.ignored_sitemap_matchers[:source_dotfiles] = proc { |file|
