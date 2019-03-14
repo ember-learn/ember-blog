@@ -1,9 +1,10 @@
 # Ember Website
 [![Build Status](https://travis-ci.org/emberjs/website.svg?branch=master)](https://travis-ci.org/emberjs/website)
 
-This repository contains the source code and content for some of the [Ember.js public website](https://emberjs.com): the home, blog, community, and about pages.
+This repository contains the blog content for the [Ember.js public website](https://emberjs.com).
 
 Other parts of the public website are separate apps: 
+- [The Website](https://github.com/ember-learn/ember-website_
 - [API Docs](https://github.com/ember-learn/ember-api-docs) 
 - [Deprecations](https://github.com/ember-learn/deprecation-app) 
 - [The Guides](https://github.com/ember-learn/guides-source)
