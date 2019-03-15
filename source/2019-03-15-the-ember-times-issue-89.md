@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 89
-author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 Talofa Emberistas! 🐹 We hope to see you at EmberConf next week!
 
-Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝, check out the new Yieldable Named Blocks RFC 📇 and more!
+Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝, check out the new Yieldable Named Blocks RFC 📇, an Ember Data Development Plan RFC 💾 and more!
 
 ---
 
@@ -68,8 +68,12 @@ The RFC does not propose an extension to curly syntax, although a future extensi
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Ember Data Medium Term Development Plan RFC](https://github.com/emberjs/rfcs/pull/452)⚡️💾
+[@igorT](https://github.com/igorT) recently opened an RFC setting a medium term plan for Ember Data's development with the goals of increasing approachability, speed, stability flexibility and shedding some legacy layers.
 
+The RFC describes a tactical plan to refactor Ember Data's internals to isolate DS.Model to facilitate swapping it out in the future, replacing InternalModel functionality, introducing RecordIdentity to uniquely identify records and harden system boundaries.
+
+For more details and some interesting diagrams sketching out the architecture of what's involved, check out the [RFC on Ember Data's medium term development plan.](https://github.com/emberjs/rfcs/pull/452)
 
 ---
 
@@ -123,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam, Jared Galanis and the Learning Team
