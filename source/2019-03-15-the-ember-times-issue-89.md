@@ -77,22 +77,6 @@ For more details and some **interesting diagrams** sketching out the architectur
 
 ---
 
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/ppcano" target="gh-user">@ppcano</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/simonihmig" target="gh-user">@simonihmig</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/ryanto" target="gh-user">@ryanto</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/NullVoxPopuli" target="gh-user">@NullVoxPopuli</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/ygongdev" target="gh-user">@ygongdev</a>, <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/dfreeman" target="gh-user">@dfreeman</a>, <a href="https://github.com/kgautreaux" target="gh-user">@kgautreaux</a>, <a href="https://github.com/betocantu93" target="gh-user">@betocantu93</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/sukima" target="gh-user">@sukima</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a> and <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>  for their contributions to Ember and related repositories! 💖</p>
