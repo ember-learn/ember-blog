@@ -73,7 +73,7 @@ The RFC does not propose an extension to curly syntax, although a future extensi
 
 The RFC describes a tactical plan to refactor Ember Data's internals to isolate `DS.Model` to facilitate swapping it out in the future, replace`InternalModel` functionality, and introduce `RecordIdentity` to uniquely identify records and harden system boundaries.
 
-For more details and some interesting diagrams sketching out the architecture of what's involved, check out the [RFC on Ember Data's medium term development plan.](https://github.com/emberjs/rfcs/pull/452)
+For more details and some interesting diagrams sketching out the architecture of what's involved, check out the [RFC on Ember Data's medium term development plan](https://github.com/emberjs/rfcs/pull/452).
 
 ---
 
