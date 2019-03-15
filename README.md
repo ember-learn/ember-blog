@@ -1,12 +1,12 @@
 # Ember Website
-[![Build Status](https://travis-ci.org/emberjs/website.svg?branch=master)](https://travis-ci.org/emberjs/website)
+[![Build Status](https://travis-ci.org/ember-learn/ember-blog.svg?branch=master)](https://travis-ci.org/ember-learn/ember-blog)
 
 This repository contains the blog content for the [Ember.js public website](https://emberjs.com).
 
-Other parts of the public website are separate apps: 
+Other parts of the public website are separate apps:
 - [The Website](https://github.com/ember-learn/ember-website_
-- [API Docs](https://github.com/ember-learn/ember-api-docs) 
-- [Deprecations](https://github.com/ember-learn/deprecation-app) 
+- [API Docs](https://github.com/ember-learn/ember-api-docs)
+- [Deprecations](https://github.com/ember-learn/deprecation-app)
 - [The Guides](https://github.com/ember-learn/guides-source)
 - [Builds](https://github.com/ember-learn/builds)
 - [Status Board](https://github.com/ember-learn/statusboard)
@@ -34,7 +34,7 @@ First, install [Docker and Compose](https://store.docker.com/search?offering=com
 Next, the commands below will install all necessary dependencies for the website
 app and start a server. This will take a little while to run,
 possibly a few minutes. The dependencies will be installed inside a Docker
-container, and do not affect your normal developer environment. 
+container, and do not affect your normal developer environment.
 
 ```sh
 git clone git://github.com/emberjs/website.git
@@ -42,7 +42,7 @@ cd website
 docker-compose build
 docker-compose up
 ```
-Subsequent runs will be much faster once all the dependencies are installed. 
+Subsequent runs will be much faster once all the dependencies are installed.
 
 You can view the site locally at [http://localhost:4567](http://localhost:4567)
 
@@ -51,27 +51,13 @@ If you are unable to use Docker as described above, here's how to get started
 installing dependencies.
 
 ``` sh
-git clone https://github.com/emberjs/website.git
+git clone https://github.com/ember-learn/ember-blog.git
 cd website
 bundle
 bundle exec middleman
 ```
 
 Then visit [http://localhost:4567/](http://localhost:4567/)
-
-**Note**: unless you're working with the API docs, don't use `rake preview`—use `middleman` (aka `middleman server`) instead.
-
-To populate organizers data from meetup.com on [http://localhost:4567/meetups](http://localhost:4567/meetups)
-
-  * get a [meetup API Key](https://secure.meetup.com/meetup_api/key/)
-  * set `ENV["MEETUP_API_KEY"]`
-  * run the following rake command
-
-``` sh
-rake findorganizers [force=true]
-
-The force=true flag will overwrite all existing organizer data
-```
 
 ### Requirements
 
