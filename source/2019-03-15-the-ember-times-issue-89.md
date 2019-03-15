@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 89
-author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
@@ -33,11 +33,11 @@ Be sure to read the full proposal and [leave your comments below](https://github
 
 ---
 
-## [Module Unification Update 📝](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) 
-If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that Tom Dale wrote will tell you all about it. 
-The blog tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work. 
-Unfortunately MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable. 
-With these challenges in mind and looking at the development of Angle bracket components there is a new path wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible. 
+## [Module Unification Update 📝](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html)
+If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that Tom Dale wrote will tell you all about it.
+The blog tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work.
+Unfortunately MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable.
+With these challenges in mind and looking at the development of Angle bracket components there is a new path wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible.
 So if you have a good idea to help make MU a success Ember, join the discussion and read the [Blog on Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html).
 
 ---
@@ -96,11 +96,11 @@ The RFC does not propose an extension to curly syntax, although a future extensi
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/ppcano" target="gh-user">@ppcano</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/simonihmig" target="gh-user">@simonihmig</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/ryanto" target="gh-user">@ryanto</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/NullVoxPopuli" target="gh-user">@NullVoxPopuli</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/ygongdev" target="gh-user">@ygongdev</a>, <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/dfreeman" target="gh-user">@dfreeman</a>, <a href="https://github.com/kgautreaux" target="gh-user">@kgautreaux</a>, <a href="https://github.com/betocantu93" target="gh-user">@betocantu93</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/sukima" target="gh-user">@sukima</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a> and <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>  for their contributions to Ember and related repositories! 💖</p>
 
 <p>We would especially like to thank everyone who has contributed to the Octane Preview Guides! Their work will be showcased at EmberConf!</p>
 
-[@betocantu93](https://github.com/betocantu93), [@jenweber](https://github.com/jenweber), [@mansona](https://github.com/mansona), [@kgautreaux](https://github.com/kgautreaux), [@rwjblue](https://github.com/rwjblue), [@muziejus](https://github.com/muziejus), [@makepanic](https://github.com/makepanic), [@sukima](https://github.com/sukima), [efx](https://github.com/efx), [@mixonic](https://github.com/mixonic), [@kategengler](https://github.com/kategengler), [@MelSumner](https://github.com/MelSumner), [@locks](https://github.com/locks), [@pzuraq](https://github.com/pzuraq), [@bazzel](https://github.com/bazzel), [@jamescdavis](https://github.com/jamescdavis), [@rajasegar](https://github.com/rajasegar), [@CodingItWrong](https://github.com/CodingItWrong), [@acorncom](https://github.com/acorncom), [@toddjordan](https://github.com/toddjordan), [@ondrejsevcik](https://github.com/ondrejsevcik), [@enomws](https://github.com/enomws), [@kaeufl](https://github.com/kaeufl), [@bartocc](https://github.com/bartocc), [@DenisNazarenko](https://github.com/DenisNazarenko), [@EndangeredMassa](https://github.com/EndangeredMassa), [@knownasilya](https://github.com/knownasilya), [@jaredgalanis](https://github.com/jaredgalanis), [@dayton-bobbitt](https://github.com/dayton-bobbitt), [@dbendaou](https://github.com/dbendaou), [@MonsieurDart](https://github.com/MonsieurDart), [@chrisrng](https://github.com/chrisrng), [@cah-danmonroe](https://github.com/cah-danmonroe), [@jessica-jordan](https://github.com/jessica-jordan), [@Parrryy](https://github.com/Parrryy), [@KellyJohnBraun](https://github.com/KellyJohnBraun), [@kennethlarsen](https://github.com/kennethlarsen), [@sivakumar-kailasam](https://github.com/sivakumar-kailasam), [@pablobm](https://github.com/pablobm), [@maxwondercorn](https://github.com/maxwondercorn), and [@tomdale](https://github.com/tomdale)
+[@betocantu93](https://github.com/betocantu93), [@jenweber](https://github.com/jenweber), [@mansona](https://github.com/mansona), [@kgautreaux](https://github.com/kgautreaux), [@rwjblue](https://github.com/rwjblue), [@muziejus](https://github.com/muziejus), [@makepanic](https://github.com/makepanic), [@sukima](https://github.com/sukima), [efx](https://github.com/efx), [@mixonic](https://github.com/mixonic), [@kategengler](https://github.com/kategengler), [@MelSumner](https://github.com/MelSumner), [@locks](https://github.com/locks), [@pzuraq](https://github.com/pzuraq), [@bazzel](https://github.com/bazzel), [@jamescdavis](https://github.com/jamescdavis), [@rajasegar](https://github.com/rajasegar), [@CodingItWrong](https://github.com/CodingItWrong), [@acorncom](https://github.com/acorncom), [@toddjordan](https://github.com/toddjordan), [@ondrejsevcik](https://github.com/ondrejsevcik), [@enomws](https://github.com/enomws), [@kaeufl](https://github.com/kaeufl), [@bartocc](https://github.com/bartocc), [@DenisNazarenko](https://github.com/DenisNazarenko), [@EndangeredMassa](https://github.com/EndangeredMassa), [@knownasilya](https://github.com/knownasilya), [@jaredgalanis](https://github.com/jaredgalanis), [@dayton-bobbitt](https://github.com/dayton-bobbitt), [@dbendaou](https://github.com/dbendaou), [@MonsieurDart](https://github.com/MonsieurDart), [@chrisrng](https://github.com/chrisrng), [@cah-danmonroe](https://github.com/cah-danmonroe), [@jessica-jordan](https://github.com/jessica-jordan), [@Parrryy](https://github.com/Parrryy), [@KellyJohnBraun](https://github.com/KellyJohnBraun), [@kennethlarsen](https://github.com/kennethlarsen), [@sivakumar-kailasam](https://github.com/sivakumar-kailasam), [@pablobm](https://github.com/pablobm), [@maxwondercorn](https://github.com/maxwondercorn), and [@tomdale](https://github.com/tomdale).
 
 ---
 
@@ -130,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, the crowd and the Learning Team
