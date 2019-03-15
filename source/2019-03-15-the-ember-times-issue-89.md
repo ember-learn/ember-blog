@@ -34,11 +34,11 @@ Be sure to read the full proposal and [leave your comments below](https://github
 
 ## [Module Unification Update 📝](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html)
 
-If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog post](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that Tom Dale wrote will tell you all about it. Tom tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work.
+If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog post](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that [@tomdale](https://github.com/tomdale) wrote will tell you all about it. Tom tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work.
 
-Unfortunately, MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable. With these challenges in mind and looking at the development of Angle bracket components, there is a new path wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible.
+Unfortunately, MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable. With these challenges in mind and looking at the development of Angle bracket components, there is a **new path** wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible.
 
-So if you have a good idea to help make MU a success Ember, join the discussion and read the [Blog on Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html).
+So if you have a good idea to help make MU a success Ember, **join the discussion** and read the [Blog on Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html).
 
 ---
 
@@ -46,7 +46,7 @@ So if you have a good idea to help make MU a success Ember, join the discussion 
 
 [@wycats](https://github.com/wycats) opened an RFC around supporting [yieldable named blocks](https://github.com/emberjs/rfcs/pull/460). The proposed RFC amends the previously submitted [Named Blocks RFC](https://emberjs.github.io/rfcs/0226-named-blocks.html) to finalize the syntax of named blocks and reduce the scope of the feature in light of the [Angle Bracket Invocation](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html) changes.
 
-The RFC proposes an extension to the angle bracket invocation syntax, namely introducing a new syntax to handle named blocks as seen below using the `<:>` and `</:>` syntax.
+The RFC proposes an extension to the angle bracket invocation syntax, namely introducing a **new syntax to handle named blocks** as seen below using the `<:>` and `</:>` syntax.
 
 ```
 AngleBracketWithBlock :
@@ -64,7 +64,7 @@ NamedBlock :
   | "<:" Identifier BlockParams? ">" BlockBody "</:" Identifier ">"
 ```
 
-The RFC does not propose an extension to curly syntax, although a future extension to curly syntax is expected. Read more at the full [Yieldable Named Blocks RFC](https://github.com/emberjs/rfcs/pull/460) on GitHub!
+The RFC does not propose an extension to curly syntax, although a future extension to curly syntax is expected. **Read more** at the full [Yieldable Named Blocks RFC](https://github.com/emberjs/rfcs/pull/460) on GitHub!
 
 ---
 
