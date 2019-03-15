@@ -21,6 +21,8 @@ These aren't _all_ of the new features that will be part of Octane, just the one
 Now, let's move onto Glimmer Components!
 
 ## A Better Component API
+
+<!-- alex ignore primitive -->
 Near the end of the Ember@v1 cycle, the community started noticing some pain points around Ember's component API. While components were a big hit overall, and quickly overtook views to become the default rendering primitive in Ember, there were a few paper cuts here and there that made them feel more difficult to use than they should have. In particular:
 
 1. **Syntax**: The fact that components required the same `{{double-curly}}` syntax as helpers and bindings in templates could sometimes make them hard to parse out. There was a lot of visual clutter, and it could be hard to figure out what was being invoked where:
@@ -112,6 +114,7 @@ interface GlimmerComponent<T = object> {
 }
 ```
 
+<!-- alex ignore primitive -->
 You may be wondering how you can replace hooks like `didInsertElement` and `didUpdateAttrs`, or properties like `this.element`. After all, there were _13_ hooks, and that has to cover a lot of functionality right? In actuality, our case studies showed that many of these hooks had significant overlap with each other, and that most of their functionality could either be replaced by _getters_ and derived state, or by [Modifiers](https://www.pzuraq.com/coming-soon-in-ember-octane-part-4-modifiers/). I discussed Modifiers in depth in my last post, but the gist is that they're the new primitive for DOM manipulation, and with Glimmer Components they'll be the _only_ method for accessing the DOM.
 
 Reducing the number of lifecycle hooks makes designing a component that much simpler. There's no longer debating about which hooks to use, the benefits and tradeoffs and timing differences between `didRender` and `didReceiveAttrs`, when to use `willDestroyElement` and `didDestroyElement`. Instead, as much business logic should be pushed into getters and tracked properties as possible, with modifiers being used for any advanced side-effecting DOM logic.
@@ -153,6 +156,7 @@ This does bring up the question of attribute reflection though. As we learned ab
 <MyButton class="custom-btn" aria-labelledby="my-label"/>
 ```
 
+<!-- alex ignore special -->
 With Classic Components, the main component _is_ the wrapper element. In Glimmer Components, there is no clear main element - there could be multiple top level elements, or there could be _no_ elements, just text. This is what the special `...attributes` syntax is used for:
 
 ```hbs
