@@ -1,14 +1,14 @@
 ---
 title: The Ember Times - Issue No. 89
-author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
 ---
 
-Talofa Emberistas! 🐹
+Talofa Emberistas! 🐹 We hope to see you at EmberConf next week!
 
-Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝, check out the new Yieldable Named Blocks RFC 📇,  ...
+Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝, check out the new Yieldable Named Blocks RFC 📇 and more!
 
 ---
 
@@ -21,29 +21,24 @@ You can read more about how to contribute and what to look out for in the [descr
 
 ---
 
-## [Invoking Components From All the Directories With Angle Brackets 📂](https://github.com/emberjs/rfcs/pull/457)
+## [Invoking Components from All the Directories with Angle Brackets 📂](https://github.com/emberjs/rfcs/pull/457)
 
-Even though the [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) is the modern and already available way of invoking components in Ember, it is still not possible to invoke all your components in your Ember app this way (yet!).
+Even though [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) is the modern and already available way of invoking components in Ember, it is still not possible to invoke all your components in your Ember app this way (yet!).
 
 In contrast to **curly invocation syntax**, or classic invocation syntax, **angle bracket syntax** does not allow you to invoke components from nested directories, e.g. `app/components/blog/post/comment.js`. A new [Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/457) aims to change exactly that. It paves a way for Ember developers to use angle bracket invocation syntax on components from all app directories - nested or not.
 
 <!-- alex ignore period -->
 Be sure to read the full proposal and [leave your comments below](https://github.com/emberjs/rfcs/pull/457) before the **Final Comment Period (FCP)** ends!
 
-
 ---
 
 ## [Module Unification Update 📝](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html)
-If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that Tom Dale wrote will tell you all about it.
-The blog tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work.
-Unfortunately MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable.
-With these challenges in mind and looking at the development of Angle bracket components there is a new path wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible.
+
+If you are interested in Module Unification (MU) and the plans surrounding that topic, the [blog post](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html) that Tom Dale wrote will tell you all about it. Tom tells the story starting with the [Module Unification RFC](https://emberjs.github.io/rfcs/0143-module-unification.html) from 2016 and how the community worked really hard to make MU work.
+
+Unfortunately, MU will not be shipped in Octane. The implementation of MU, in for example Glimmer, showed that there are challenges in making MU work intuitively and useable. With these challenges in mind and looking at the development of Angle bracket components, there is a new path wide open. The first steps towards MU in Ember start with the [SFC & Template Imports RFC](https://github.com/emberjs/rfcs/pull/454) to make template imports possible.
+
 So if you have a good idea to help make MU a success Ember, join the discussion and read the [Blog on Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html).
-
----
-
-## [SECTION TITLE](#section-url)
-
 
 ---
 
@@ -130,4 +125,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam and the Learning Team
