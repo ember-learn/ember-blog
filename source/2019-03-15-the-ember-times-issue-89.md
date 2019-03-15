@@ -69,7 +69,7 @@ The RFC does not propose an extension to curly syntax, although a future extensi
 ---
 
 ## [Ember Data Medium Term Development Plan RFC](https://github.com/emberjs/rfcs/pull/452)⚡️💾
-[@igorT](https://github.com/igorT) recently opened an RFC setting a medium term plan for Ember Data's development with the goals of increasing approachability, speed, stability flexibility and shedding some legacy layers.
+[@igorT](https://github.com/igorT) recently opened an RFC setting a medium term plan for Ember Data's development with the goals of increasing approachability, speed, stability, flexibility and shedding some legacy layers.
 
 The RFC describes a tactical plan to refactor Ember Data's internals to isolate DS.Model to facilitate swapping it out in the future, replacing InternalModel functionality, introducing RecordIdentity to uniquely identify records and harden system boundaries.
 
