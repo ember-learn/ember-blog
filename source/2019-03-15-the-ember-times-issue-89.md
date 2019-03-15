@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 89
-author: Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 Talofa Emberistas! 🐹
 
-Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝 ...
+Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝, check out the new Yieldable Named Blocks RFC 📇,  ...
 
 ---
 
@@ -47,8 +47,29 @@ So if you have a good idea to help make MU a success Ember, join the discussion 
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Yieldable Named Blocks RFC 📇](https://github.com/emberjs/rfcs/pull/460)
 
+[@wycats](https://github.com/wycats) opened an RFC around supporting [yieldable named blocks](https://github.com/emberjs/rfcs/pull/460). The proposed RFC amends the previously submitted [Named Blocks RFC](https://emberjs.github.io/rfcs/0226-named-blocks.html) to finalize the syntax of named blocks and reduce the scope of the feature in light of the [Angle Bracket Invocation](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html) changes.
+
+The RFC proposes an extension to the angle bracket invocation syntax, namely introducing a new syntax to handle named blocks as seen below using the `<:>` and `</:>` syntax.
+
+```
+AngleBracketWithBlock :
+  "<" ComponentTag ComponentArgs? BlockParams? ">"
+  BlockBody
+  "</" ComponentTag ">"
+
+AngleBracketWithBlocks :
+  "<" ComponentTag ComponentArgs? BlockParams? ">"
+  NamedBlock+
+  "</" ComponentTag ">"
+
+NamedBlock :
+  | "<:" Identifier "/>"
+  | "<:" Identifier BlockParams? ">" BlockBody "</:" Identifier ">"
+```
+
+The RFC does not propose an extension to curly syntax, although a future extension to curly syntax is expected. Read more at the full [Yieldable Named Blocks RFC](https://github.com/emberjs/rfcs/pull/460) on GitHub!
 
 ---
 
@@ -105,4 +126,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
