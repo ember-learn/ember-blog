@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 90
-author: Jessica Jordan, Amy Lam, the crowd
+author: Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/22-the-ember-times-issue-90.html"
 responsive: true
@@ -99,4 +99,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Amy Lam, the crowd and the Learning Team
+Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd and the Learning Team
