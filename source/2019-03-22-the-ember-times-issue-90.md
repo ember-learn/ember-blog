@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 90
-author: Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd
+author: Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/22-the-ember-times-issue-90.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 هيلو Emberistas! 🐹
 
-This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️
+This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️, read and comment on the new Bind Helper RFC  💖💪, ...
 
 ---
 
@@ -26,8 +26,13 @@ Also The Ember Times will notify you, as soon as the full recordings of the conf
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Bind Helper RFC 💖💪](https://github.com/emberjs/rfcs/pull/470)
 
+Fresh off EmberConf, [@rtablada](https://github.com/rtablada) opened a new RFC that introduces a new helper `bind` to allow clear argument and context scope binding for functions passed in templates.
+
+The idea is for the `bind` helper to take in a function and then the set of arguments that will be partially applied to the function, similar to the JavaScript bind method.
+
+Check out the [full RFC](https://github.com/emberjs/rfcs/pull/470) on GitHub!
 
 ---
 
@@ -99,4 +104,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd and the Learning Team
