@@ -8,7 +8,7 @@ responsive: true
 
 هيلو Emberistas! 🐹
 
-This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️, read and comment on the new **Bind Helper** RFC 💖💪, Turn {{on}} the power with a new **{{On} Modifier** RFC 🔌, learn all about Octane in a series of blog posts 📖, ...
+This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing **highlights** from the conference with you 🐹, learn about **Ember Octane** ⛽️ in a series of blog posts 📖,read and comment on the new **Bind Helper** RFC 💖💪, and turn {{on}} the power with a new **{{On} Modifier** RFC 🔌.
 
 ---
 
@@ -18,21 +18,11 @@ This week [EmberConf - the biggest, annual Ember conference](https://emberconf.c
 
 <img src="/images/blog/emberjstimes/embertimes-team-2019.jpg" class="centered" alt="The Ember Times Team 2019 and the Zoey mascot posing on stage behind the Ember logo and looking cool as ever 😎"/>
 
-Pictured are Jared Galanis, Melanie Sumner, Kenneth Larsen, L. Preston Sego III, Anne-Greeth Van Herwijnen as Zoey(!), Jessica Jordan, Jen Weber, Ryan Mark, Chris Ng, Amy Lam, and Ricardo "locks" Mendes. Not pictured: Robert Wagner, Alon Bukai, Edward Faulkner, Gaurav Munjal, Migeul Braga Gomes, and Sivakumar Kailasam for contributing to three or more issues in the past year! 💛
+Pictured are Jared Galanis, Melanie Sumner, Kenneth Larsen, L. Preston Sego III, Anne-Greeth Van Herwijnen as Zoey(!), Jessica Jordan, Jen Weber, Ryan Mark, Chris Ng, Amy Lam, and Ricardo "locks" Mendes. Not pictured: Robert Wagner, Alon Bukai, Edward Faulkner, Gaurav Munjal, Migeul Braga Gomes, and Sivakumar Kailasam. Many thanks to all of these folks for contributing to three or more issues in the past year! 💛
 
 This year's [keynote by Tom Dale and Yehuda Katz](https://youtu.be/O3RKLHvpUAI?t=369) featured lots of insight into the **present and future of Ember** and the official announcement for the [**Edition Preview** of **Ember Octane**](https://octane-guides-preview.emberjs.com/release/getting-started/quick-start/). Wanna learn more about Ember Octane and the original RFC (Request for Comments)? Be sure to check out the [Ember Octane Edition website](https://emberjs.com/editions/octane/) and read all about it!
 
 Also The Ember Times will notify you, as soon as the full recordings of the conference sessions are online, so be sure to **stay tuned** and if you haven't done so, [subscribe today](https://the-emberjs-times.ongoodbits.com/)!
-
----
-
-## [Bind Helper RFC 💖💪](https://github.com/emberjs/rfcs/pull/470)
-
-Fresh off EmberConf, [@rtablada](https://github.com/rtablada) opened a new RFC that introduces a new helper `bind` to allow clear argument and context scope binding for functions passed in templates.
-
-The idea is for the `bind` helper to take in a function and then the set of arguments that will be partially applied to the function, similar to the JavaScript bind method.
-
-Check out the [full RFC](https://github.com/emberjs/rfcs/pull/470) on GitHub!
 
 ---
 
@@ -44,6 +34,16 @@ It's a five part series covering Native Classes and Decorators, Angle Brackets &
 Find all the parts at the Ember.js Blog: [part 1](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html), [part 2](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html), [part 3](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html), [part 4](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and [part 5](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html).
 
 ✨ Bonus ✨ also checkout a recent interview of [@pzuraq](https://github.com/pzuraq) on the [EmberMap podcast](https://embermap.com/podcast/chris-garrett-on-ember-octane), where he discusses many of these topics with the EmberMap crew.
+
+---
+
+## [Bind Helper RFC 💖💪](https://github.com/emberjs/rfcs/pull/470)
+
+Fresh off EmberConf, [@rtablada](https://github.com/rtablada) opened a new RFC that introduces a new helper `bind` to allow clear argument and context scope binding for functions passed in templates.
+
+The idea is for the `bind` helper to take in a function and then the set of arguments that will be partially applied to the function, similar to the JavaScript bind method.
+
+Check out the [full RFC](https://github.com/emberjs/rfcs/pull/470) on GitHub!
 
 ---
 
@@ -65,36 +65,6 @@ element.addEventListener('click', this.handleClick, { passive: true });
 ```
 
 So get your modify on today and **make your voice heard** on the [open RFC](https://github.com/emberjs/rfcs/pull/471) 
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
 
 ---
 
