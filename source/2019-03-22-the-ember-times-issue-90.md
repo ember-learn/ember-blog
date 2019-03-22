@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 90
-author: Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd
+author: Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/22-the-ember-times-issue-90.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 هيلو Emberistas! 🐹
 
-This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️, read and comment on the new Bind Helper RFC  💖💪, ...
+This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️, read and comment on the new Bind Helper RFC  💖💪, learn all about Octane in a series of blog posts 📖, ...
 
 ---
 
@@ -36,8 +36,14 @@ Check out the [full RFC](https://github.com/emberjs/rfcs/pull/470) on GitHub!
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Coming Soon in Ember Octane](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html)
+If you haven't seen them already, you won't want to miss the amazing 🎉 and in-depth **blog posts** 📖 that [@pzuraq](https://github.com/pzuraq) has been putting out covering many of the new features of **Ember Octane**!
 
+It's a five part series covering Native Classes and Decorators, Angle Brackets & Named Arguments, Tracked Properties, Element Modifiers and Glimmer Components, all broken out into separate blog posts.
+
+Find all the parts at the Ember.js Blog: [part 1](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html), [part 2](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html), [part 3](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html), [part 4](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and [part 5](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html).
+
+✨ Bonus ✨ also checkout a recent interview of [@pzuraq](https://github.com/pzuraq) on the [EmberMap podcast](https://embermap.com/podcast/chris-garrett-on-ember-octane), where he discusses many of these topics with the EmberMap crew.
 
 ---
 
@@ -104,4 +110,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, Jared Galanis the crowd and the Learning Team
