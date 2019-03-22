@@ -28,7 +28,7 @@ Also The Ember Times will notify you, as soon as the full recordings of the conf
 
 ## [Bind Helper RFC 💖💪](https://github.com/emberjs/rfcs/pull/470)
 
-Fresh off EmberConf, (@rtablada)[https://github.com/rtablada] opened a new RFC that introduces a new helper `bind` to allow clear argument and context scope binding for functions passed in templates.
+Fresh off EmberConf, [@rtablada](https://github.com/rtablada) opened a new RFC that introduces a new helper `bind` to allow clear argument and context scope binding for functions passed in templates.
 
 The idea is for the `bind` helper to take in a function and then the set of arguments that will be partially applied to the function, similar to the JavaScript bind method.
 
