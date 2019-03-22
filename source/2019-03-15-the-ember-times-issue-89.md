@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 89
 author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Jen Weber, Amy Lam, Jared Galanis
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/15-the-ember-times-issue-89.html"
 responsive: true
 ---
