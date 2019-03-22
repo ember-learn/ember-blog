@@ -64,7 +64,7 @@ An example: The following usages are equivalent:
 element.addEventListener('click', this.handleClick, { passive: true });
 ```
 
-So get your modify on today and **make your voice heard** on the [open RFC](https://github.com/emberjs/rfcs/pull/471) 
+So get your modify on today and **make your voice heard** on the [open RFC](https://github.com/emberjs/rfcs/pull/471). 
 
 ---
 
