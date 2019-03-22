@@ -18,7 +18,7 @@ This week [EmberConf - the biggest, annual Ember conference](https://emberconf.c
 
 <img src="/images/blog/emberjstimes/embertimes-team-2019.jpg" class="centered" alt="The Ember Times Team 2019 and the Zoey mascot posing on stage behind the Ember logo and looking cool as ever 😎"/>
 
-Pictured are Jared Galanis, Melanie Sumner, Kenneth Larsen, L. Preston Sego III, Anne-Greeth Van Herwijnen as Zoey(!), Jessica Jordan, Jen Weber, Ryan Mark, Chris Ng, Amy Lam, and Ricardo "locks" Mendes. Not pictured: Robert Wagner, Alon Bukai, Edward Faulkner, Gaurav Munjal, Migeul Braga Gomes, and Sivakumar Kailasam. Many thanks to all of these folks for contributing to three or more issues in the past year! 💛
+Pictured are Jared Galanis, Melanie Sumner, Kenneth Larsen, L. Preston Sego III, Anne-Greeth Van Herwijnen as Zoey(!), Jessica Jordan, Jen Weber, Ryan Mark, Chris Ng, Amy Lam, and Ricardo "locks" Mendes. Not pictured: Robert Wagner, Alon Bukai, Edward Faulkner, Gaurav Munjal, Miguel Braga Gomes, and Sivakumar Kailasam. Many thanks to all of these folks for contributing to three or more issues in the past year! 💛
 
 This year's [keynote by Tom Dale and Yehuda Katz](https://youtu.be/O3RKLHvpUAI?t=369) featured lots of insight into the **present and future of Ember** and the official announcement for the [**Edition Preview** of **Ember Octane**](https://octane-guides-preview.emberjs.com/release/getting-started/quick-start/). Wanna learn more about Ember Octane and the original RFC (Request for Comments)? Be sure to check out the [Ember Octane Edition website](https://emberjs.com/editions/octane/) and read all about it!
 
