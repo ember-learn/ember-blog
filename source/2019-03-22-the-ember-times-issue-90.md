@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 90
-author: Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd
+author: Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, Alon Bukai, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/22-the-ember-times-issue-90.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 هيلو Emberistas! 🐹
 
-This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️, read and comment on the new Bind Helper RFC  💖💪, ...
+This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing highlights from the conference and news on **Ember Octane** with you 🐹⛽️, read and comment on the new **Bind Helper** RFC 💖💪, Turn {{on}} the power with a new **{{On} Modifier** RFC 🔌...
 
 ---
 
@@ -36,7 +36,24 @@ Check out the [full RFC](https://github.com/emberjs/rfcs/pull/470) on GitHub!
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Power {{On}} your Ember App! 🔌](https://github.com/emberjs/rfcs/pull/471)
+
+A new RFC has been proposed by [@pzuraq](https://github.com/pzuraq) that proposes adding a new `{{on}}` modifier to Ember. This modifier will allow adding event listeners to elements in your templates. 
+
+You might be thinking, *"Hey Ember Times Writer, we already have those! We have the `{{action}}` element modifier and `on*=` property bindings."* However those have a [few downsides](https://github.com/emberjs/rfcs/blob/27ee4012b0bbf63d4d304e6942b91ce37107bd91/text/0000-on-modifier.md#motivation) that are fixed with the `{{on}}` modifier.
+
+The `{{on}}` modifier will explicitly add event listeners using the `addEventListener` API. It is based on the addon [ember-on-modifier](https://github.com/buschtoens/ember-on-modifier) by [@buschtoens](https://github.com/buschtoens).
+
+An example: The following usages are equivalent:
+
+```handlebars
+<div {{on "click" this.handleClick passive=true}}></div>
+```
+```js
+element.addEventListener('click', this.handleClick, { passive: true });
+```
+
+So get your modify on today and **make your voice heard** on the [open RFC](https://github.com/emberjs/rfcs/pull/471) 
 
 
 ---
@@ -104,4 +121,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, Alon Bukai, the crowd and the Learning Team
