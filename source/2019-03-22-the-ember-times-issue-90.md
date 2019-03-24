@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 90
 author: Chris Ng, Jessica Jordan, Kenneth Larsen, Amy Lam, Alon Bukai, Jared Galanis
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/22-the-ember-times-issue-90.html"
 responsive: true
 ---
