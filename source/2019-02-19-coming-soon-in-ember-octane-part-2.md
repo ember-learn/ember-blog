@@ -155,7 +155,7 @@ We can immediately tell now by looking at this template that `@todos` is an argu
 ```handlebars
 <!-- todo-list.hbs -->
 <ul>
-  {{#each uncompletedTodos as |todo index|}}
+  {{#each this.uncompletedTodos as |todo index|}}
     <li>
       {{yield (todo-item-component todo=todo) index}}
     </li>
