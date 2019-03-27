@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+read some RFCs around extending `EmberObject`💡
 
 ---
 
@@ -37,8 +38,15 @@ responsive: true
 
 ---
 
-## [SECTION TITLE](#section-url)
+## RFCs Around EmberObject Base Class 💡
 
+[@pzuraq](https://github.com/pzuraq) opened 2 new RFCs around using the `EmberObject` base class.
+
+The [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) adds a set of warnings for users who adopt native class syntax with `EmberObject` base classes. By using the `@classic` decorator, the warnings around edge cases such as `init` vs `constructor` or use of `Mixins` are turned off. These warnings are used as a guide for components to slowly migrate away from extending from `EmberObject` to more standalone such as `GlimmerComponent`.
+
+The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supercedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer how we should handle dependency injection (DI) when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
+
+Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) and [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) on GitHub!
 
 ---
 
@@ -90,4 +98,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
