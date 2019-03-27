@@ -146,10 +146,9 @@ body.blog.responsive {
     background-repeat: no-repeat;
     margin: 0 0 0.7em;
     &.large {
-      background-size: 75%;
+      background-size: contain;
       height: 155px;
       @media screen and (max-width: $small-breakpoint) {
-        background-size: 90%;
         height: 100px;
       }
     }
