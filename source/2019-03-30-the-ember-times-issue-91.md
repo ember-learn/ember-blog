@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: the crowd
+author: Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -17,8 +17,11 @@ responsive: true
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
+Mike North, together with his wife Lisa Huang did a [life stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They use Ember Octane and the Glimmer components that come with it. 
+
+This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing peer programming 😊.
 
 ---
 
@@ -90,4 +93,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
