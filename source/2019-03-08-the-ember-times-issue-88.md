@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 88
 author: Amy Lam, Chris Ng, Anne-Greeth van Herwijnen, Kenneth Larsen, Jared Galanis, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/08-the-ember-times-issue-88.html"
 responsive: true
 ---
