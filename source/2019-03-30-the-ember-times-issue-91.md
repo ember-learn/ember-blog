@@ -8,7 +8,7 @@ responsive: true
 
 හෙලෝ Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Learn how to build Hangman with Ember Octane 🎬.
 
 ---
 
