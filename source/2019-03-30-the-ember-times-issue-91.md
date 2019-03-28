@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read about the Record Data Errors RFC 📇, learn how to build Hangman with Ember Octane 🎬, 
+Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬, 
 
 ---
 
@@ -25,6 +25,18 @@ Read about the Record Data Errors RFC 📇, learn how to build Hangman with Embe
 [@igorT](https://github.com/igorT) created a RFC to expose the content of Invalid Errors on Record Data. This RFC suggests exposing the errors provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record. 
 
 For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
+
+---
+
+## [RFCs around EmberObject Base Class 💡](https://github.com/emberjs/rfcs/pulls)
+
+[@pzuraq](https://github.com/pzuraq) opened 2 new RFCs around using the `EmberObject` base class.
+
+The [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) adds a set of warnings for users who adopt native class syntax with `EmberObject` base classes. By using the `@classic` decorator, the warnings around edge cases such as `init` vs `constructor` or use of `Mixins` are turned off. These warnings are used as a guide for components to slowly migrate away from extending from `EmberObject` to more standalone such as `GlimmerComponent`.
+
+The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supercedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer how we should handle dependency injection (DI) when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
+
+Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) and [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) on GitHub!
 
 ---
 
@@ -49,12 +61,6 @@ This video is a nice introduction into the world of Ember Octane and Glimmer com
 ---
 
 ## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
 
 ---
 
@@ -106,4 +112,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
