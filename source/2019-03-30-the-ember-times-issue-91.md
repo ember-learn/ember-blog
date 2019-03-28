@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -10,7 +10,10 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬, 
+Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬,
+
+
+...and read the exclusive interview with Ember contributor **@kategengler**.
 
 ---
 
@@ -22,7 +25,7 @@ Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, 
 ## [Record Data Errors RFC 📇](https://github.com/emberjs/rfcs/pull/465)
 
 <!--alex ignore invalid-->
-[@igorT](https://github.com/igorT) created a RFC to expose the content of Invalid Errors on Record Data. This RFC suggests exposing the errors provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record. 
+[@igorT](https://github.com/igorT) created a RFC to expose the content of Invalid Errors on Record Data. This RFC suggests exposing the errors provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record.
 
 For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
 
@@ -44,7 +47,7 @@ Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/46
 ## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
 <!--alex ignore hangman-hangwoman-->
-Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it. 
+Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it.
 
 This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
 
@@ -74,15 +77,24 @@ This video is a nice introduction into the world of Ember Octane and Glimmer com
 
 ---
 
-## [SECTION TITLE](#section-url)
+## ["I contribute to Ember" with Katie Gengler ✍️](https://discuss.emberjs.com/t/i-contribute-to-ember-with-katie-gengler/16374)
 
+<div class="float-right padded portrait-frame">
+  <img alt="Katie Gengler" title="Katie Gengler - Contributor to Ember" src="/images/blog/emberjstimes/kategengler.jpeg" />
+</div>
+
+In our 8th edition of the contributor interview series, community member **Katie Gengler**, also known as [@kategengler](https://github.com/kategengler) talks about her work on **Ember Observer**, **Ember Try** and **RFC tracking** and why all kinds of contributions to Ember really matter.
+
+You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-katie-gengler/16374).
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-katie-gengler/16374">Read more</a>
 
 ---
 
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a>, <a href="https://github.com/zachgarwood" target="gh-user">@zachgarwood</a>, <a href="https://github.com/alexpark90" target="gh-user">@alexpark90</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/xjmdoo" target="gh-user">@xjmdoo</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/step2yeung" target="gh-user">@step2yeung</a>, <a href="https://github.com/mike-north" target="gh-user">@mike-north</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/tansongyang" target="gh-user">@tansongyang</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/mwpastore" target="gh-user">@mwpastore</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a> and <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -112,4 +124,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, the crowd and the Learning Team
