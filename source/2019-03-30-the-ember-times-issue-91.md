@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Chris Ng, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -9,7 +9,8 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-read some RFCs around extending `EmberObject`💡
+<!--alex ignore hangman-hangwoman-->
+Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬, 
 
 ---
 
@@ -18,27 +19,16 @@ read some RFCs around extending `EmberObject`💡
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Record Data Errors RFC 📇](https://github.com/emberjs/rfcs/pull/465)
 
+<!--alex ignore invalid-->
+[@igorT](https://github.com/igorT) created a RFC to expose the content of Invalid Errors on Record Data. This RFC suggests exposing the errors provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record. 
 
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
+For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
 
 ---
 
-## [SECTION TITLE](#section-url)
-
-
----
-
-## RFCs Around EmberObject Base Class 💡
+## [RFCs around EmberObject Base Class 💡](https://github.com/emberjs/rfcs/pulls)
 
 [@pzuraq](https://github.com/pzuraq) opened 2 new RFCs around using the `EmberObject` base class.
 
@@ -47,6 +37,30 @@ The [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) adds a se
 The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supercedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer how we should handle dependency injection (DI) when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
 
 Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) and [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) on GitHub!
+
+---
+
+<!--alex ignore hangman-hangwoman-->
+## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
+
+<!--alex ignore hangman-hangwoman-->
+Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it. 
+
+This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
+
+---
+
+## [SECTION TITLE](#section-url)
+
+
+---
+
+## [SECTION TITLE](#section-url)
+
+
+---
+
+## [SECTION TITLE](#section-url)
 
 ---
 
@@ -98,4 +112,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
