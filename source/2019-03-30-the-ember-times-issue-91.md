@@ -8,6 +8,7 @@ responsive: true
 
 හෙලෝ Emberistas! 🐹
 
+<!--alex ignore hangman-hangwoman-->
 Learn how to build Hangman with Ember Octane 🎬.
 
 ---
@@ -17,8 +18,10 @@ Learn how to build Hangman with Ember Octane 🎬.
 
 ---
 
+<!--alex ignore hangman-hangwoman-->
 ## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
+<!--alex ignore hangman-hangwoman-->
 Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it. 
 
 This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
