@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -11,6 +11,9 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
 Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬,
+
+
+...and read the exclusive interview with Ember contributor **@kategengler**.
 
 ---
 
@@ -121,4 +124,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, the crowd and the Learning Team
