@@ -9,6 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Read about the Record Data Errors RFC 📇
 
 ---
 
