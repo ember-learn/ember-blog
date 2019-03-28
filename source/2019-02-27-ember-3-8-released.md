@@ -1,11 +1,11 @@
 ---
 title: Ember 3.8 Released
 author: Melanie Sumner, Kenneth Larsen, Anne-Greeth van Herwijnen
-tags: Releases, 2018, 3, 3.8
+tags: Releases, 2019, 3, 3.8
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.8 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.8 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.8 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.9 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
