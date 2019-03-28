@@ -8,13 +8,23 @@ responsive: true
 
 හෙලෝ Emberistas! 🐹
 
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Learn how to build Hangman with Ember Octane 🎬.
+Read about the Record Data Errors RFC 📇, learn how to build Hangman with Ember Octane 🎬, 
 
 ---
 
 ## [SECTION TITLE](#section-url)
 
+
+---
+
+## [Record Data Errors RFC 📇](https://github.com/emberjs/rfcs/pull/465)
+
+<!--alex ignore invalid-->
+[@igorT](https://github.com/igorT) created a RFC to expose the content of Invalid Errors on Record Data. This RFC suggests exposing the errors provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record. 
+
+For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
 
 ---
 
