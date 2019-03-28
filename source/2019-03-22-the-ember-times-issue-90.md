@@ -49,7 +49,7 @@ Check out the [full RFC](https://github.com/emberjs/rfcs/pull/470) on GitHub!
 
 ## [Power {{On}} your Ember App! 🔌](https://github.com/emberjs/rfcs/pull/471)
 
-A new RFC has been proposed by [@pzuraq](https://github.com/pzuraq) that proposes adding a new `{{on}}` modifier to Ember. This modifier will allow adding event listeners to elements in your templates. 
+A new RFC has been proposed by [@pzuraq](https://github.com/pzuraq) that proposes adding a new `{{on}}` modifier to Ember. This modifier will allow adding event listeners to elements in your templates.
 
 You might be thinking, "Hey Ember Times Writer, we already have those! We have the `{{action}}` element modifier and `on*=` property bindings." However those have a [few downsides](https://github.com/emberjs/rfcs/blob/27ee4012b0bbf63d4d304e6942b91ce37107bd91/text/0000-on-modifier.md#motivation) that are fixed with the `{{on}}` modifier.
 
@@ -64,7 +64,7 @@ An example: The following usages are equivalent:
 element.addEventListener('click', this.handleClick, { passive: true });
 ```
 
-So get your modify on today and **make your voice heard** on the [open RFC](https://github.com/emberjs/rfcs/pull/471). 
+So get your modify on today and **make your voice heard** on the [open RFC](https://github.com/emberjs/rfcs/pull/471).
 
 ---
 
