@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: the crowd
+author: Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -8,7 +8,8 @@ responsive: true
 
 හෙලෝ Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+<!--alex ignore hangman-hangwoman-->
+Learn how to build Hangman with Ember Octane 🎬.
 
 ---
 
@@ -17,8 +18,13 @@ responsive: true
 
 ---
 
-## [SECTION TITLE](#section-url)
+<!--alex ignore hangman-hangwoman-->
+## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
+<!--alex ignore hangman-hangwoman-->
+Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it. 
+
+This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
 
 ---
 
@@ -90,4 +96,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
