@@ -8,7 +8,7 @@ responsive: true
 
 هيلو Emberistas! 🐹
 
-This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing **highlights** from the conference with you 🐹, learn about **Ember Octane** ⛽️ in a series of blog posts 📖, read and comment on the new **Bind Helper** RFC 💖💪, and turn {{on}} the power with a new **{{On}} Modifier** RFC 🔌.
+This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing **highlights** from the conference with you 🐹, learn about **Ember Octane** ⛽️ in a series of blog posts 📖, read and comment on the new **Bind Helper** RFC 💖💪, and turn {{on}} the power with a new **{{On}} Modifier** RFC 🔌, learn about the addon modules RFC
 
 ---
 
@@ -68,6 +68,13 @@ So get your modify on today and **make your voice heard** on the [open RFC](http
 
 ---
 
+## [Configuring addon modules in Module Unification layout](https://github.com/ppcano/rfcs/blob/addon-module-config/text/0000-addon-module-config.md)
+
+A new RFC is out which proposes to provide an API for addons to configure their module types and collections for Module Unification apps. The reason for this is that at this moment Classic addons that require apps to locate classes into a non-default app folder do not work "out of the box" in an Module Unification application.
+
+If you're looking to adopt Module Unification in the future then make sure to have a [look at the RFC](https://github.com/emberjs/rfcs/pull/462) and share your thoughts.
+
+---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
