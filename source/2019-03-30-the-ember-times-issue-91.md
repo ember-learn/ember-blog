@@ -52,10 +52,11 @@ Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaych
 This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
 
 ---
-<!--alex ignore middleman-middlewoman-->
+
 ## [Episode 129 of the EmberWeekend podcast](https://emberweekend.com/episodes/empress-the-ember-press)
 
-episode 129 of the EmberWeekend podcast featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the migration of moving the Ember guides from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the guides.
+<!--alex ignore middleman-middlewoman-->
+Episode 129 of the EmberWeekend podcast featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the migration of moving the Ember guides from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the guides.
 
 [@mansona](https://github.com/mansona) also talks about his journey using Broccoli Static JSON to convert markdown into JSON API. The ultimate goal was to use the Broccoli pipeline markdown to convert to JSON API and use static files!
 
