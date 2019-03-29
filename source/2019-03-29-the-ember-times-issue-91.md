@@ -1,27 +1,15 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/03/30-the-ember-times-issue-91.html"
+alias : "blog/2019/03/29-the-ember-times-issue-91.html"
 responsive: true
 ---
 
 හෙලෝ Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around **Record Data Errors** 📇 and extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬 and about the **addon modules** RFC, check out the "e"mpressive EmberWeekend podcast with **@mansona**, checkout the Singleton Record Data RFC for Ember Data 💾, ...
-
-
-...and read the exclusive interview with Ember contributor **@kategengler**.
-
----
-
-## [Configuring Addon Modules in Module Unification Layout](https://github.com/ppcano/rfcs/blob/addon-module-config/text/0000-addon-module-config.md)
-
-A new RFC is out which proposes to provide an **API for addons** to configure their **module types** and collections for **Module Unification apps**. The reason for this is that at this moment Classic addons that require apps to locate classes into a non-default `app/` folder do not work "out of the box" in a Module Unification application.
-
-If you're looking to adopt Module Unification in the future, make sure to have a [look at the RFC](https://github.com/emberjs/rfcs/pull/462) and share your thoughts.
+Read some RFCs around **Record Data Errors** 📇 and extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona**, the Singleton Record Data RFC for Ember Data 💾 and read the exclusive interview with Ember contributor **@kategengler**.
 
 ---
 
@@ -78,20 +66,6 @@ For these proposed changes and a detailed design, including changes to many of t
 
 ---
 
-## [SECTION TITLE](#section-url)
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
 ## ["I contribute to Ember" with Katie Gengler ✍️](https://discuss.emberjs.com/t/i-contribute-to-ember-with-katie-gengler/16374)
 
 <div class="float-right padded portrait-frame">
@@ -140,4 +114,4 @@ That's another wrap! ✨
 Be kind,
 
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler and the Learning Team
