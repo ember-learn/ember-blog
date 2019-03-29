@@ -9,7 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬, plus check out the Record Data Errors RFC 📇, "e"mpressive EmberWeekend podcast with **@mansona** 🎙, and the Singleton Record Data RFC for Ember Data 💾! Last, but not least, catch our exclusive interview with Ember contributor **@kategengler**. 🚀
+Read some RFCs around extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬, plus check out the Record Data Errors RFC 📇, an "e"mpressive EmberWeekend podcast with **@mansona** 🎙, and the Singleton Record Data RFC for Ember Data 💾! Last, but not least, catch our exclusive interview with Ember contributor **@kategengler**. 🚀
 
 ---
 
@@ -60,7 +60,7 @@ Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-embe
 ## [Singleton Record Data RFC 💾](https://github.com/emberjs/rfcs/pull/461)
 Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
 
-This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
+This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for **performance optimizations** ⚡️ and **improved feature sets**! ✨
 
 For these proposed changes and a detailed design, including changes to many of the methods involved, check out the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
 
