@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬,
+Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬, checkout the Singleton Record Data RFC for Ember Data 💾,
 
 
 ...and read the exclusive interview with Ember contributor **@kategengler**.
@@ -62,12 +62,16 @@ Episode 129 of the EmberWeekend podcast featured [@mansona](https://github.com/m
 
 [@mansona](https://github.com/mansona) also introduced Guidemaker:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
 
-Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press). 
+Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press).
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461) 💾
+Want to learn more about how some of Ember Data's API's are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
 
+This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant API's and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
+
+For these proposed changes and a detailed design, including changes to many of the methods involved, checkout the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
 
 ---
 
@@ -132,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Jared Galanis the crowd and the Learning Team
