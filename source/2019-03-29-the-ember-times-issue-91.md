@@ -9,7 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <!--alex ignore hangman-hangwoman-->
-This week: RFCs galore around **Record Data Errors** 📇, extending `EmberObject` 💡, and the Singleton Record Data RFC for Ember Data 💾. Learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona**,  and catch our exclusive interview with Ember contributor **@kategengler**!
+This week we have RFCs galore around **Record Data Errors** 📇, extending `EmberObject` 💡, and the Singleton Record Data RFC for Ember Data 💾. Learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona** 🎙,  and catch our exclusive interview with Ember contributor **@kategengler** 🚀!
 
 ---
 
@@ -39,7 +39,7 @@ Want to learn more about how some of Ember Data's APIs are developing? Take a pe
 
 This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
 
-For these proposed changes and a detailed design, including changes to many of the methods involved, checkout the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
+For these proposed changes and a detailed design, including changes to many of the methods involved, check out the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
 
 ---
 
@@ -47,9 +47,9 @@ For these proposed changes and a detailed design, including changes to many of t
 ## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
 <!--alex ignore hangman-hangwoman-->
-Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on **how to build** a simple **hangman game**. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it.
+Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on **how to build** a simple **hangman game**. They used the [Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it.
 
-This video is a nice introduction into the world of **Ember Octane** and **Glimmer components** and definitely shows the benefits of doing pair programming 😊.
+This video is a nice introduction into the world of **Ember Octane** and **Glimmer components** and definitely shows the benefits of doing pair programming. 😊
 
 ---
 
@@ -60,7 +60,7 @@ Episode 129 of the **EmberWeekend podcast** featured [@mansona](https://github.c
 
 [@mansona](https://github.com/mansona) also talks about his journey using Broccoli Static JSON to **convert markdown** into **JSON API**. The ultimate goal was to use the Broccoli pipeline markdown to convert to JSON API and use static files!
 
-[@mansona](https://github.com/mansona) also introduced **Guidemaker**:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
+[@mansona](https://github.com/mansona) also introduced **Guidemaker**:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [GitHub](https://github.com/empress/guidemaker) repo here.
 
 Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press).
 
