@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/29-the-ember-times-issue-91.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around **Record Data Errors** 📇 and extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona**, the Singleton Record Data RFC for Ember Data 💾 and read the exclusive interview with Ember contributor **@kategengler**.
+Read some RFCs around **Record Data Errors** 📇, extending `EmberObject` 💡, and the Singleton Record Data RFC for Ember Data 💾. Learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona**,  and catch our exclusive interview with Ember contributor **@kategengler**.
 
 ---
 
@@ -34,6 +34,15 @@ Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/46
 
 ---
 
+## [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461) 💾
+Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
+
+This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
+
+For these proposed changes and a detailed design, including changes to many of the methods involved, checkout the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
+
+---
+
 <!--alex ignore hangman-hangwoman-->
 ## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
@@ -44,7 +53,7 @@ This video is a nice introduction into the world of **Ember Octane** and **Glimm
 
 ---
 
-## [Episode 129 of the EmberWeekend podcast](https://emberweekend.com/episodes/empress-the-ember-press)
+## [Episode 129 of the EmberWeekend Podcast](https://emberweekend.com/episodes/empress-the-ember-press)
 
 <!--alex ignore middleman-middlewoman-->
 Episode 129 of the **EmberWeekend podcast** featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the **migration** of moving the **Ember Guides** from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the Guides.
@@ -54,15 +63,6 @@ Episode 129 of the **EmberWeekend podcast** featured [@mansona](https://github.c
 [@mansona](https://github.com/mansona) also introduced **Guidemaker**:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
 
 Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press).
-
----
-
-## [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461) 💾
-Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
-
-This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
-
-For these proposed changes and a detailed design, including changes to many of the methods involved, checkout the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
 
 ---
 
@@ -79,7 +79,6 @@ You can read the full interview on [the Ember Forum](https://discuss.emberjs.com
 <a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-katie-gengler/16374">Read more</a>
 
 ---
-
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
@@ -108,10 +107,9 @@ Keep on top of what's been going on in Emberland this week by subscribing to our
 
 ---
 
-
 That's another wrap! ✨
 
 Be kind,
 
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler, Amy Lam and the Learning Team
