@@ -9,16 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <!--alex ignore hangman-hangwoman-->
-This week we have RFCs galore around **Record Data Errors** 📇, extending `EmberObject` 💡, and the Singleton Record Data RFC for Ember Data 💾. Learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona** 🎙,  and catch our exclusive interview with Ember contributor **@kategengler** 🚀!
-
----
-
-## [Record Data Errors RFC 📇](https://github.com/emberjs/rfcs/pull/465)
-
-<!--alex ignore invalid-->
-[@igorT](https://github.com/igorT) created a RFC to expose the content of **Invalid Errors** on Record Data. This RFC suggests **exposing** the **errors** provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record.
-
-For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
+Read some RFCs around extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬, plus check out the Record Data Errors RFC 📇, "e"mpressive EmberWeekend podcast with **@mansona** 🎙, and the Singleton Record Data RFC for Ember Data 💾! Last, but not least, catch our exclusive interview with Ember contributor **@kategengler**. 🚀
 
 ---
 
@@ -34,15 +25,6 @@ Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/46
 
 ---
 
-## [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461) 💾
-Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
-
-This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
-
-For these proposed changes and a detailed design, including changes to many of the methods involved, check out the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
-
----
-
 <!--alex ignore hangman-hangwoman-->
 ## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
@@ -53,7 +35,16 @@ This video is a nice introduction into the world of **Ember Octane** and **Glimm
 
 ---
 
-## [Episode 129 of the EmberWeekend Podcast](https://emberweekend.com/episodes/empress-the-ember-press)
+## [Record Data Errors RFC 📇](https://github.com/emberjs/rfcs/pull/465)
+
+<!--alex ignore invalid-->
+[@igorT](https://github.com/igorT) created a RFC to expose the content of **Invalid Errors** on Record Data. This RFC suggests **exposing** the **errors** provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record.
+
+For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
+
+---
+
+## [Episode 129 of the EmberWeekend Podcast 🎙](https://emberweekend.com/episodes/empress-the-ember-press)
 
 <!--alex ignore middleman-middlewoman-->
 Episode 129 of the **EmberWeekend podcast** featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the **migration** of moving the **Ember Guides** from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the Guides.
@@ -63,6 +54,15 @@ Episode 129 of the **EmberWeekend podcast** featured [@mansona](https://github.c
 [@mansona](https://github.com/mansona) also introduced **Guidemaker**:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [GitHub](https://github.com/empress/guidemaker) repo here.
 
 Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press).
+
+---
+
+## [Singleton Record Data RFC 💾](https://github.com/emberjs/rfcs/pull/461)
+Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
+
+This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
+
+For these proposed changes and a detailed design, including changes to many of the methods involved, check out the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
 
 ---
 
@@ -99,7 +99,7 @@ You can read the full interview on [the Ember Forum](https://discuss.emberjs.com
 
 ---
 
-## [#embertimes](https://emberjs.com/blog/tags/newsletter.html) 📰
+## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
