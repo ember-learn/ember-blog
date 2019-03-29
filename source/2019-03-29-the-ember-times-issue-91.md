@@ -9,7 +9,7 @@ responsive: true
 හෙලෝ Emberistas! 🐹
 
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around **Record Data Errors** 📇, extending `EmberObject` 💡, and the Singleton Record Data RFC for Ember Data 💾. Learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona**,  and catch our exclusive interview with Ember contributor **@kategengler**.
+This week: RFCs galore around **Record Data Errors** 📇, extending `EmberObject` 💡, and the Singleton Record Data RFC for Ember Data 💾. Learn how to build Hangman with **Ember Octane** 🎬, check out the "e"mpressive EmberWeekend podcast with **@mansona**,  and catch our exclusive interview with Ember contributor **@kategengler**!
 
 ---
 
