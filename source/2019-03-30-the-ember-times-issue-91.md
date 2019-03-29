@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -53,8 +53,15 @@ This video is a nice introduction into the world of Ember Octane and Glimmer com
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Empress: the Ember Press Episode 129](https://emberweekend.com/episodes/empress-the-ember-press)
 
+Episode 129 of the Ember press featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the migration of moving the Ember guides from Middle man to be powered by Ember. Other areas include Middleman shortcomings and the rework of the guides.
+
+[@mansona](https://github.com/mansona) also talks about his journey using Broccoli Static JSON to convert markdown into JSON API. The ultimate goal was to use the Broccoli pipeline markdown to convert to JSON API and use static files!
+
+[@mansona](https://github.com/mansona) also introduced Guidemaker:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check it out [here](https://github.com/empress/guidemaker).
+
+Listen to the full podcast [here]( https://emberweekend.com/episodes/empress-the-ember-press). 
 
 ---
 
@@ -124,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, the crowd and the Learning Team
