@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -10,15 +10,18 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬,
+Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬 and about the addon modules RFC, check out the "e"mpressive EmberWeekend podcast with @mansona, ...
 
 
 ...and read the exclusive interview with Ember contributor **@kategengler**.
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Configuring addon modules in Module Unification layout](https://github.com/ppcano/rfcs/blob/addon-module-config/text/0000-addon-module-config.md)
 
+A new RFC is out which proposes to provide an API for addons to configure their module types and collections for Module Unification apps. The reason for this is that at this moment Classic addons that require apps to locate classes into a non-default app folder do not work "out of the box" in an Module Unification application.
+
+If you're looking to adopt Module Unification in the future then make sure to have a [look at the RFC](https://github.com/emberjs/rfcs/pull/462) and share your thoughts.
 
 ---
 
@@ -37,7 +40,7 @@ For more information about the getter for the errors and the `RecordDataStoreWra
 
 The [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) adds a set of warnings for users who adopt native class syntax with `EmberObject` base classes. By using the `@classic` decorator, the warnings around edge cases such as `init` vs `constructor` or use of `Mixins` are turned off. These warnings are used as a guide for components to slowly migrate away from extending from `EmberObject` to more standalone such as `GlimmerComponent`.
 
-The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supercedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer how we should handle dependency injection (DI) when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
+The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supersedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer how we should handle dependency injection (DI) when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
 
 Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) and [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) on GitHub!
 
@@ -62,7 +65,7 @@ Episode 129 of the EmberWeekend podcast featured [@mansona](https://github.com/m
 
 [@mansona](https://github.com/mansona) also introduced Guidemaker:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
 
-Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press). 
+Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press).
 
 ---
 
@@ -132,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, the crowd and the Learning Team
