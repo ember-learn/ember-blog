@@ -10,25 +10,25 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around Record Data Errors 📇 and extending `EmberObject` 💡, learn how to build Hangman with Ember Octane 🎬 and about the addon modules RFC, check out the "e"mpressive EmberWeekend podcast with @mansona, ...
+Read some RFCs around **Record Data Errors** 📇 and extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬 and about the **addon modules** RFC, check out the "e"mpressive EmberWeekend podcast with **@mansona**, ...
 
 
 ...and read the exclusive interview with Ember contributor **@kategengler**.
 
 ---
 
-## [Configuring addon modules in Module Unification layout](https://github.com/ppcano/rfcs/blob/addon-module-config/text/0000-addon-module-config.md)
+## [Configuring Addon Modules in Module Unification Layout](https://github.com/ppcano/rfcs/blob/addon-module-config/text/0000-addon-module-config.md)
 
-A new RFC is out which proposes to provide an API for addons to configure their module types and collections for Module Unification apps. The reason for this is that at this moment Classic addons that require apps to locate classes into a non-default app folder do not work "out of the box" in an Module Unification application.
+A new RFC is out which proposes to provide an **API for addons** to configure their **module types** and collections for **Module Unification apps**. The reason for this is that at this moment Classic addons that require apps to locate classes into a non-default `app/` folder do not work "out of the box" in a Module Unification application.
 
-If you're looking to adopt Module Unification in the future then make sure to have a [look at the RFC](https://github.com/emberjs/rfcs/pull/462) and share your thoughts.
+If you're looking to adopt Module Unification in the future, make sure to have a [look at the RFC](https://github.com/emberjs/rfcs/pull/462) and share your thoughts.
 
 ---
 
 ## [Record Data Errors RFC 📇](https://github.com/emberjs/rfcs/pull/465)
 
 <!--alex ignore invalid-->
-[@igorT](https://github.com/igorT) created a RFC to expose the content of Invalid Errors on Record Data. This RFC suggests exposing the errors provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record.
+[@igorT](https://github.com/igorT) created a RFC to expose the content of **Invalid Errors** on Record Data. This RFC suggests **exposing** the **errors** provided by the server if it returns a `422`. `InvalidError` payload follows the JSON API error object spec, and if the error payload contains pointers those get mapped to attributes on a record.
 
 For more information about the getter for the errors and the `RecordDataStoreWrapper` and an opportunity to give feedback, see the [Record Data Errors RFC](https://github.com/emberjs/rfcs/pull/465).
 
@@ -36,11 +36,11 @@ For more information about the getter for the errors and the `RecordDataStoreWra
 
 ## [RFCs around EmberObject Base Class 💡](https://github.com/emberjs/rfcs/pulls)
 
-[@pzuraq](https://github.com/pzuraq) opened 2 new RFCs around using the `EmberObject` base class.
+[@pzuraq](https://github.com/pzuraq) opened 2 new RFCs around using the `EmberObject` **base class**.
 
-The [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) adds a set of warnings for users who adopt native class syntax with `EmberObject` base classes. By using the `@classic` decorator, the warnings around edge cases such as `init` vs `constructor` or use of `Mixins` are turned off. These warnings are used as a guide for components to slowly migrate away from extending from `EmberObject` to more standalone such as `GlimmerComponent`.
+The [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) adds a **set of warnings** for users who adopt **native class syntax** with `EmberObject` base classes. By using the `@classic` decorator, the warnings around edge cases such as `init` vs `constructor` or use of `Mixins` are turned off. These warnings are used as a guide for components to slowly migrate away from extending from `EmberObject` to more standalone such as `GlimmerComponent`.
 
-The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supersedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer how we should handle dependency injection (DI) when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
+The [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) supersedes the submitted [Classic Class Owner Tunnel RFC](https://github.com/emberjs/rfcs/pull/451). This RFC looks to answer **how** we should **handle dependency injection (DI)** when we are not extending from the `EmberObject` base class. It proposes to assign values during construction by normalising the assignment of the `owner`, access to injected properties, and follow the same conventions as other popular DI frameworks.
 
 Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/468) and [Injection Hook Normalization RFC](https://github.com/emberjs/rfcs/pull/467) on GitHub!
 
@@ -50,20 +50,20 @@ Read more about [@classic Decorator RFC](https://github.com/emberjs/rfcs/pull/46
 ## [Building a Hangman Game with Ember Octane](https://www.twitch.tv/videos/400723351) 🎬
 
 <!--alex ignore hangman-hangwoman-->
-Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on how to build a simple hangman game. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it.
+Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaychuang](https://github.com/lisaychuang) did a [live stream](https://www.twitch.tv/videos/400723351) on **how to build** a simple **hangman game**. They used [the Ember Octane preview](https://emberjs.com/editions/octane/) and the Glimmer components that come with it.
 
-This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
+This video is a nice introduction into the world of **Ember Octane** and **Glimmer components** and definitely shows the benefits of doing pair programming 😊.
 
 ---
 
 ## [Episode 129 of the EmberWeekend podcast](https://emberweekend.com/episodes/empress-the-ember-press)
 
 <!--alex ignore middleman-middlewoman-->
-Episode 129 of the EmberWeekend podcast featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the migration of moving the Ember guides from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the guides.
+Episode 129 of the **EmberWeekend podcast** featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the **migration** of moving the **Ember Guides** from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the Guides.
 
-[@mansona](https://github.com/mansona) also talks about his journey using Broccoli Static JSON to convert markdown into JSON API. The ultimate goal was to use the Broccoli pipeline markdown to convert to JSON API and use static files!
+[@mansona](https://github.com/mansona) also talks about his journey using Broccoli Static JSON to **convert markdown** into **JSON API**. The ultimate goal was to use the Broccoli pipeline markdown to convert to JSON API and use static files!
 
-[@mansona](https://github.com/mansona) also introduced Guidemaker:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
+[@mansona](https://github.com/mansona) also introduced **Guidemaker**:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
 
 Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press).
 
