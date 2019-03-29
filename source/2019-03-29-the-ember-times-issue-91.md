@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 91
 author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/03/30-the-ember-times-issue-91.html"
+alias : "blog/2019/03/29-the-ember-times-issue-91.html"
 responsive: true
 ---
 
@@ -66,20 +66,6 @@ For these proposed changes and a detailed design, including changes to many of t
 
 ---
 
-## [SECTION TITLE](#section-url)
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
-
----
-
 ## ["I contribute to Ember" with Katie Gengler ✍️](https://discuss.emberjs.com/t/i-contribute-to-ember-with-katie-gengler/16374)
 
 <div class="float-right padded portrait-frame">
@@ -128,4 +114,4 @@ That's another wrap! ✨
 Be kind,
 
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler, and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler and the Learning Team
