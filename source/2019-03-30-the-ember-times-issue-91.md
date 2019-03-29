@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 91
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/30-the-ember-times-issue-91.html"
 responsive: true
@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 <!--alex ignore hangman-hangwoman-->
-Read some RFCs around **Record Data Errors** 📇 and extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬 and about the **addon modules** RFC, check out the "e"mpressive EmberWeekend podcast with **@mansona**, ...
+Read some RFCs around **Record Data Errors** 📇 and extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬 and about the **addon modules** RFC, check out the "e"mpressive EmberWeekend podcast with **@mansona**, checkout the Singleton Record Data RFC for Ember Data 💾, ...
 
 
 ...and read the exclusive interview with Ember contributor **@kategengler**.
@@ -69,8 +69,12 @@ Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-embe
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461) 💾
+Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
 
+This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for performance optimizations ⚡️ and improved feature sets! ✨
+
+For these proposed changes and a detailed design, including changes to many of the methods involved, checkout the [Singleton Record Data RFC](https://github.com/emberjs/rfcs/pull/461).
 
 ---
 
@@ -135,4 +139,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, the crowd and the Learning Team
+
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis the crowd and the Learning Team
