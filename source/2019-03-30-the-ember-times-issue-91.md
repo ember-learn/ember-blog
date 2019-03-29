@@ -52,16 +52,16 @@ Husband and wife team [@mike-north](https://github.com/mike-north) and [@lisaych
 This video is a nice introduction into the world of Ember Octane and Glimmer components and definitely shows the benefits of doing pair programming 😊.
 
 ---
+<!--alex ignore middleman-middlewoman-->
+## [Episode 129 of the EmberWeekend podcast](https://emberweekend.com/episodes/empress-the-ember-press)
 
-## [Empress: the Ember Press Episode 129](https://emberweekend.com/episodes/empress-the-ember-press)
-
-Episode 129 of the Ember press featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the migration of moving the Ember guides from Middle man to be powered by Ember. Other areas include Middleman shortcomings and the rework of the guides.
+episode 129 of the EmberWeekend podcast featured [@mansona](https://github.com/mansona) the creator of Authmaker. This episode included a range of topics including the migration of moving the Ember guides from Middleman to be powered by Ember. Other areas include Middleman shortcomings and the rework of the guides.
 
 [@mansona](https://github.com/mansona) also talks about his journey using Broccoli Static JSON to convert markdown into JSON API. The ultimate goal was to use the Broccoli pipeline markdown to convert to JSON API and use static files!
 
-[@mansona](https://github.com/mansona) also introduced Guidemaker:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check it out [here](https://github.com/empress/guidemaker).
+[@mansona](https://github.com/mansona) also introduced Guidemaker:  A fully functional, static site implementation of a documentation site and EmberJS with fully out of the box SEO friendly output! With support to be hosted on S3 or any other site hosting solution. Check out the [github](https://github.com/empress/guidemaker) repo here.
 
-Listen to the full podcast [here]( https://emberweekend.com/episodes/empress-the-ember-press). 
+Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-ember-press). 
 
 ---
 
