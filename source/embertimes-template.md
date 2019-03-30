@@ -12,51 +12,68 @@ responsive: true
 
 ---
 
-## [SECTION TITLE](#section-url)
-
-
----
-
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
+---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
@@ -77,14 +94,13 @@ responsive: true
 
 ---
 
-## [#embertimes](https://emberjs.com/blog/tags/newsletter.html) 📰
+## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
 Keep on top of what's been going on in Emberland this week by subscribing to our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/)! You can also find our posts on the [Ember blog](https://emberjs.com/blog/tags/newsletter.html).
 
 ---
-
 
 That's another wrap! ✨
 
