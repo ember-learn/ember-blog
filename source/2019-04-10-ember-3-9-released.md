@@ -21,14 +21,10 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.9
-Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, four (4) deprecations, and six (6) bugfixes in this version.
 
 #### New Features (2)
-
-First new feature (1 of 2)
-
-Second new feature (2 of 2)
-
+No new features introduced in Ember.js 3.9.
 
 #### Deprecations (4)
 
@@ -53,7 +49,7 @@ Ember's computed properties are overridable by default if no setter is defined. 
 
 To update, consider upgrading to native class syntax and using native getters directly instead. There's guide on how to do this in the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-volatile).
 
-**Deprecate `@ember/object#aliasMethod` (4 of 54**
+**Deprecate `@ember/object#aliasMethod` (4 of 4)
 
 `@ember/object#aliasMethod` is a little known and rarely used method that allows user's to add aliases to objects defined with EmberObject. The deprecation warning can be removed by refactoring it into having one function call the other directly. To see how to do this, please refer to the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_object-alias-method)
 
@@ -65,9 +61,13 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.9
 
-#### New Features (0)
+#### New Features (1)
 
-No new features introduced in Ember Data 3.9.
+Replace jQuery with `fetch` (1 of 1)
+
+As part of [the RFC for removing jQuery by default](https://github.com/emberjs/rfcs/pull/0386), Ember Data has now replaced all internal uses of jQuery and replaced it with `fetch` instead.
+
+You can follow the [progress of the RFC](https://github.com/emberjs/rfc-tracking/issues/3) on the RFC-tracking page.
 
 #### Deprecations (0)
 
