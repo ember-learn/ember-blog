@@ -12,40 +12,67 @@ responsive: true
 
 ---
 
-## [SECTION TITLE](#section-url)
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
-## [SECTION TITLE](#section-url)
-
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+  
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
