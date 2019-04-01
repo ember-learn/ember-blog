@@ -83,7 +83,6 @@ Curious to learn more? Check out her post on Medium:[3 reasons why you should vo
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
 
 ---
