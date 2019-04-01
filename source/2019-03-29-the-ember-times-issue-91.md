@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 91
 author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler, Amy Lam
-tags: Newsletter, Ember.js Times, Ember Times, 2019
+tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/29-the-ember-times-issue-91.html"
 responsive: true
 ---

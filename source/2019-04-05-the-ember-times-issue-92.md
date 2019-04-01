@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XX
-author: the crowd
+author: Lisa Huang-North, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
 responsive: true
@@ -12,10 +12,16 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [3 Reasons to Volunteer at a Tech Conference 💪🏼](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8)
+
+[@lisaychuang](https://twitter.com/lisaychuang) shares her experience from this year’s EmberConf, and encourages newcomers in any tech community to attend a tech conference (and possibly volunteer!)   
+
+As a volunteer, you can get:
+* A warm welcome to the community
+* Behind the scene access
+* A chill home base during the conference
+
+Curious to learn more? Check out her post on Medium: [3 reasons why you should volunteer at a tech conference](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8).
 
 ---
 
@@ -106,4 +112,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Lisa Huang-North, the crowd and the Learning Team
