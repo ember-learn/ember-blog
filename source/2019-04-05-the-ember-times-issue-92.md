@@ -21,7 +21,7 @@ As a volunteer, you can get:
 * Behind the scene access
 * A chill home base during the conference
 
-Curious to learn more? Check out her post on Medium:[3 reasons why you should volunteer at a tech conference](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8).
+Curious to learn more? Check out her post on Medium: [3 reasons why you should volunteer at a tech conference](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8).
 
 ---
 
