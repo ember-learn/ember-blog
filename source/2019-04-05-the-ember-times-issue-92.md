@@ -79,13 +79,12 @@ Curious to learn more? Check out her post on Medium:[3 reasons why you should vo
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
->>>>>>> 876a5acfe8a9dafc7db9a967f59acb48cb1ec053
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 
-=======
+---
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
 
 ---
@@ -116,4 +115,3 @@ That's another wrap! ✨
 Be kind,
 
 Lisa Huang-North, the crowd and the Learning Team
->>>>>>> 876a5acfe8a9dafc7db9a967f59acb48cb1ec053
