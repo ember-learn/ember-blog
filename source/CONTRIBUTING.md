@@ -64,7 +64,7 @@ The answers are posted on [discuss.emberjs.com](https://discuss.emberjs.com/) an
 
 ## Writing Style Guide
 
-* Use Title Case for section headings, when in doubt use https://titlecaseconverter.com/.
+* Use Title Case for section headings, when in doubt use https://titlecase.com/.
 * Please add an emoji at the end of your title, if you're having trouble finding an emoji use a search tool like https://emojipedia.org/.
 * In general, refer to people by their GitHub handle, e.g. `[@your_name_here](https://www.github.com/your_name_here)`. (If the person is mentioned more than one time in the same paragraph, feel free to deviate after one @ mention!]
 * We tend to refer to `Ember`, `Ember Data`, and `Ember CLI` as their name (versus the repo name) because we mention them so often. For most other repos, use the repo name e.g. `[machty/ember-concurrency](https://github.com/machty/ember-concurrency)`.
