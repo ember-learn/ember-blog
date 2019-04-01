@@ -50,11 +50,11 @@ It is part of the [Emberjs.com](https://emberjs.com/) website and managed by the
 
 ## Contributing
 
-Anyone can become an Ember times editor. The best way to start is to join [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) channel on [Ember Community Discord](https://discordapp.com/invite/zT3asNS). New blog posts are released every Friday.
+Anyone can become an Ember Times editor. The best way to start is to join [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) channel on [Ember Community Discord](https://discordapp.com/invite/zT3asNS). New blog posts are released every Friday.
 
 The process to publish a new weekly post is as follows:
 
-- The championing editor of the week creates a branch with the MD file containing next week blog post
+- The championing editor of the week creates a branch with the MD file containing next week's Ember Times post
 - Editors will then pull request against that branch with changes to that file
 - Once the new blog post file is complete, the newly created branch is merged back into the website
 - As a last step, the content is copied over to [Goodbits](https://the-emberjs-times.ongoodbits.com/), which is the tool currently being used to send the newsletter and manage its subscriptions
@@ -91,26 +91,43 @@ A typical Git forking workflow can be used to contribute:
 
 - Fork this repo
 - Clone the repo in your own machine
-- Commit changes to your own branch
-- Push the changes
-- Create a pull request to the new blog post branch on the original repo
+- Set upstream: `git remote add upstream https://github.com/ember-learn/ember-blog`
+- Fetch upstream: `git fetch upstream`
+- Switch to the most current Ember Times branch, they usually follow the format: `blog/embertimes-#` 
 
-To update your fork with the new weekly branch you can do:
+For example, switch to this branch for issue 92: `blog/embertimes-92`
 
-```sh
-git fetch upstream
-git checkout -b newblogpostbranch upstream/newblogpostbranch
-git push -u origin newblogpostbranch
-```
-To set the upstream you can use:
+`git checkout blog/embertimes-92` 
 
-```sh
-git remote add upstream https://github.com/emberjs/website
-```
+- Find the latest blog issue template at `source/YYYY-MM-DD-the-ember-times-issue-#.md`
 
-And last but not least, you can set the origin by doing:
+For example: `2019-04-05-the-ember-times-issue-92`
 
-```sh
-git remote add origin https://github.com/YOUR_USERNAME/website
+Add your section to the template. You'll see useful notes in the blank sections:
+
+```md
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 ```
 
+- Use `git` to add your file and commit changes:
+
+``` 
+git add .
+
+git commit -m "you-commit-message-here"
+```
+
+- Push changes, you may have to set your upstream origin first:
+
+`git push --set-upstream origin blog/embertimes-#`
+
+- Create a pull request from your repo on Github. 
+
+There should be an open pull request titled: `[WIP] The Ember Times No. #` Please include reference to this PR in your pull request. 
+
+For example: "Add a section to Ember Times [`#46`](https://github.com/ember-learn/ember-blog/pull/46)"
+
+Thank you for contributing to Ember Times!

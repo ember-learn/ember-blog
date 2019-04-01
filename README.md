@@ -22,6 +22,9 @@ to propose changes and iterate on ideas before investing time in coding.
 Some tips for working with git/GitHub can be found in
 [Making your first pull request](https://github.com/ember-learn/guides-source/blob/master/CONTRIBUTING.md#making-your-first-pull-request) in the Guides respository.
 
+To contribute to Ember Times, a blog newsletter with weekly updates from the Ember land, please refer to this [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/source/CONTRIBUTING.md).
+
+
 ## Running locally with Docker (recommended)
 
 This is the recommended method to run the website app locally.
