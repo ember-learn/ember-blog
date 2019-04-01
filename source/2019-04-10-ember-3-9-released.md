@@ -98,7 +98,11 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.9
 
-#### New Features (X)
+#### New Features (1)
+
+`ember-welcome-page` updated to use angle bracket invocation syntax (1 of 1)
+
+The welcome page that is generated in new Ember apps is now converted to use the angle bracket invocation syntax. This means that instead of adding `{{welcome-page}}` to `application.hbs` we now add `<WelcomePage />`.
 
 
 #### Deprecations (X)
