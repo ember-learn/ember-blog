@@ -105,12 +105,12 @@ git push -u origin newblogpostbranch
 To set the upstream you can use:
 
 ```sh
-git remote add upstream https://github.com/emberjs/website
+git remote add upstream https://github.com/ember-learn/ember-blog
 ```
 
 And last but not least, you can set the origin by doing:
 
 ```sh
-git remote add origin https://github.com/YOUR_USERNAME/website
+git remote add origin https://github.com/YOUR_USERNAME/ember-blog
 ```
 
