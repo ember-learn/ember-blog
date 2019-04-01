@@ -12,7 +12,7 @@ responsive: true
 
 ---
 
-## [3 Reasons To Volunteer At a Tech Conference 💪🏼](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8)
+## [3 Reasons to Volunteer at a Tech Conference 💪🏼](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8)
 
 [@lisaychuang](https://twitter.com/lisaychuang) shares her experience from this year’s EmberConf, and encourages newcomers in any tech community to attend a tech conference (and possibly volunteer!)   
 
