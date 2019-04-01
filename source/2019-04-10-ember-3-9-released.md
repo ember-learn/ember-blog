@@ -23,7 +23,7 @@ Ember.js is the core framework for building ambitious web applications.
 ### Changes in Ember.js 3.9
 Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, four (4) deprecations, and six (6) bugfixes in this version.
 
-#### New Features (2)
+#### New Features (0)
 No new features introduced in Ember.js 3.9.
 
 #### Deprecations (4)
@@ -105,7 +105,9 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 The welcome page that is generated in new Ember apps is now converted to use the angle bracket invocation syntax. This means that instead of adding `{{welcome-page}}` to `application.hbs` we now add `<WelcomePage />`.
 
 
-#### Deprecations (X)
+#### Deprecations (0)
+
+No new deprecations introduced in Ember CLI 3.9.
 
 ---
 
