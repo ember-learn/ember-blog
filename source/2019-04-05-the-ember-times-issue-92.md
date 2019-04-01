@@ -1,4 +1,4 @@
-=======
+---
 title: The Ember Times - Issue No. XX
 author: Lisa Huang-North, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
