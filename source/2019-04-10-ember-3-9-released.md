@@ -49,7 +49,7 @@ Ember's computed properties are overridable by default if no setter is defined. 
 
 To update, consider upgrading to native class syntax and using native getters directly instead. There's guide on how to do this in the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-volatile).
 
-**Deprecate `@ember/object#aliasMethod` (4 of 4)
+**Deprecate `@ember/object#aliasMethod` (4 of 4)**
 
 `@ember/object#aliasMethod` is a little known and rarely used method that allows user's to add aliases to objects defined with EmberObject. The deprecation warning can be removed by refactoring it into having one function call the other directly. To see how to do this, please refer to the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_object-alias-method)
 
