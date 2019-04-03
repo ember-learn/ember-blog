@@ -84,7 +84,7 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
   <img alt="Chris Garrett" title="Chris Garrett - Contributor to Ember" src="/images/blog/emberjstimes/pzuraq.jpg" />
 </div>
 
-In the 9th edition of the contributor interview series, community member **Chris Garrett** (also known as [@pzuraq](https://github.com/pzuraq)) talks about his story getting involved with working on **native classes** and **decorators** in Ember and why everyone in the community is eager to help **make your contribution** a real **success** as well ✨
+In the 9th edition of the contributor interview series, community member **Chris Garrett**, also known as [@pzuraq](https://github.com/pzuraq), talks about his story getting involved with **native classes** and **decorators** in Ember. Chris also explains why everyone in the community is eager to help **make your contribution** a real **success** as well ✨
 
 You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-chris-garrett/16395).
 
