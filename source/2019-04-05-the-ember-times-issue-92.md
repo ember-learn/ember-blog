@@ -1,14 +1,18 @@
 ---
-title: The Ember Times - Issue No. XX
-author: Lisa Huang-North, the crowd
+title: The Ember Times - Issue No. 92
+author: Lisa Huang-North, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
+alias : "blog/2019/04/05-the-ember-times-issue-92.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+
+Read about the benefits of **volunteering at a tech conference** 💪, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+...and an exclusive interview with Ember contributor **@pzuraq**! 💬
+
 
 ---
 
@@ -29,56 +33,63 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## ["I contribute to Ember" with Chris Garrett 💬](https://discuss.emberjs.com/t/i-contribute-to-ember-with-chris-garrett/16395)
+
+<div class="float-right padded portrait-frame">
+  <img alt="Chris Garrett" title="Chris Garrett - Contributor to Ember" src="/images/blog/emberjstimes/pzuraq.jpg" />
+</div>
+
+In the 9th edition of the contributor interview series, community member **Chris Garrett**, also known as [@pzuraq](https://github.com/pzuraq), talks about his story getting involved with **native classes** and **decorators** in Ember. Chris also explains why everyone in the community is eager to help **make your contribution** a real **success** as well ✨
+
+You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-chris-garrett/16395).
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-chris-garrett/16395">Read more</a>
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -100,7 +111,7 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
+## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -112,4 +123,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Lisa Huang-North, the crowd and the Learning Team
+Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
