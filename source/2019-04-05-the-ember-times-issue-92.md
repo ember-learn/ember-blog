@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 92
 author: Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/05-the-ember-times-issue-92.html"
+alias : "blog/2019/04/04-the-ember-times-issue-92.html"
 responsive: true
 ---
 
