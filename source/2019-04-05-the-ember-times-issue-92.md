@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/04-the-ember-times-issue-92.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 
-Read about the benefits of **volunteering at a tech conference** 💪, ...
+Read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...and an exclusive interview with Ember contributor **@pzuraq**! 💬
 
@@ -43,10 +43,13 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Dependency Lint RFC ✨](https://github.com/emberjs/rfcs/pull/464)
+
+[@Alonski](https://github.com/Alonski) proposed that the addon `ember-cli-dependency-lint` be added to the default blueprint.
+
+This lint helps us detect early if our addons rely on the same package but use different versions. In such cases, Ember CLI merges all versions into one. This can cause our app to behave unexpectedly and become hard to debug. 😨😰😱
+
+You can learn about `ember-cli-dependency-lint` addon and how to resolve dependency conflicts at [https://github.com/salsify/ember-cli-dependency-lint](https://github.com/salsify/ember-cli-dependency-lint). Be sure to leave your comments on [the current proposal to include it by default](https://github.com/emberjs/rfcs/pull/464).
 
 ---
 
@@ -125,4 +128,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
