@@ -14,6 +14,8 @@ You can read more about our general release process here:
 - [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
 - [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
 
+Additionally, versions 3.9 of Ember and Ember Data are now promoted to LTS, which stands for Long Term Support. An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version for Ember was 3.4.
+
 ---
 
 ## Ember.js
@@ -21,7 +23,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.9
-Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, four (4) deprecations, and six (6) bugfixes in this version.
+Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, four (4) deprecations, and eight (8) bugfixes in this version.
 
 #### New Features (0)
 No new features introduced in Ember.js 3.9.
