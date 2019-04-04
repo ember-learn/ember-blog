@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Lisa Huang-North, Jessica Jordan, the crowd
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/05-the-ember-times-issue-92.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 
 Read about the benefits of **volunteering at a tech conference** 💪, ...
+Read more about the `{{on}}` modifier RFC, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...and an exclusive interview with Ember contributor **@pzuraq**! 💬
 
@@ -50,10 +51,13 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [{{on}} Modifier RFC](https://github.com/emberjs/rfcs/pull/471)
+
+[@pzuraq](https://github.com/pzuraq) created an [RFC](https://github.com/emberjs/rfcs/pull/471) to add an {{on}} modifier for adding event listeners to elements based on the [ember-on-modifier](https://github.com/buschtoens/ember-on-modifier) addon by [@buschtoens](https://github.com/buschtoens).
+
+The proposed `{{on}}` modifier will receive the following positional params: the event name, the event listener function and any named parameters as options for the event listener (i.e. capture, once, and passive). Multiple event listeners can also be added to an element by adding the modifier more than once. 
+
+Read more about the `{{on}}` modifier [RFC on GitHub](https://github.com/emberjs/rfcs/pull/471)!
 
 ---
 
@@ -123,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
