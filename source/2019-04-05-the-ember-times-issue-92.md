@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/04-the-ember-times-issue-92.html"
 responsive: true
@@ -29,10 +29,9 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Reflecting on Being a Former Noob 👶](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae)
+
+While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what more experienced developers can do to help those newer to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a mentor at EmberConf! 
 
 ---
 
@@ -128,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, the crowd and the Learning Team
