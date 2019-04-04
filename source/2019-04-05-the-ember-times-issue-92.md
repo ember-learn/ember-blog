@@ -29,10 +29,15 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Animations and Predictable Data Loading in Ember 🐹](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/)
+
+[@ijlee2](https://github.com/ijlee2) a recent attendee at [Ember Conf 2019](https://emberconf.com/) shares an [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manor and how to use animations to liven up your ember applications. 
+
+The tutorial covers how you can use simple animations using [Ember animated](https://github.com/ember-animation/ember-animated] and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
+
+Another interesting area the tutorial explores is predictable data loading, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Defiantly worth checking out! 
+
+Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) alongside some video previews or checkout a preview of the [demo app](https://ember-animated.herokuapp.com/) from the tutorial.
 
 ---
 
@@ -123,4 +128,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
+Lisa Huang-North, Jessica Jordan, Bradley Leftley, the crowd and the Learning Team
