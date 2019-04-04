@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Lisa Huang-North, Jessica Jordan, the crowd
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/05-the-ember-times-issue-92.html"
 responsive: true
@@ -57,10 +57,12 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Ember Makes Coding Feel So Good Comic](https://twitter.com/delusioninabox/status/1111468497782091779)
+
+[@delusioninabox](https://github.com/delusioninabox) created a comic about being able to work with Ember again after a long time away. Like, retweet, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Daily 2,195! <a href="https://twitter.com/emberjs?ref_src=twsrc%5Etfw">@emberjs</a> just makes coding feel so good...so right. ❤😍 <a href="https://t.co/AJJ8UMIqY5">pic.twitter.com/AJJ8UMIqY5</a></p>&mdash; Laura Kajpust 👩‍💻🎨 (@delusioninabox) <a href="https://twitter.com/delusioninabox/status/1111468497782091779?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
@@ -123,4 +125,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, the crowd and the Learning Team
