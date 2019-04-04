@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 
-Read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint**, ...
+Read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...and an exclusive interview with Ember contributor **@pzuraq**! 💬
 
