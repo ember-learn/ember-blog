@@ -4,7 +4,7 @@
 This repository contains the blog content for the [Ember.js public website](https://emberjs.com).
 
 Other parts of the public website are separate apps:
-- [The Website](https://github.com/ember-learn/ember-website_
+- [The Website](https://github.com/ember-learn/ember-website)
 - [API Docs](https://github.com/ember-learn/ember-api-docs)
 - [Deprecations](https://github.com/ember-learn/deprecation-app)
 - [The Guides](https://github.com/ember-learn/guides-source)
