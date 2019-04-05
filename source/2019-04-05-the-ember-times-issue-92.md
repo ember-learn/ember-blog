@@ -8,7 +8,7 @@ responsive: true
 
 હેલો Emberistas! 🐹
 
-The **video** recordings of **EmberConf 2019** are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, a new **`{{fn}}` Helper** RFC 🎉, **data loading** and **animation patterns** in your Ember app, and you don't wanna miss ⭐️ and tips on **mentoring** Ember developers 👩‍🏫! Enjoy some ✨ fan art by **@delusioninabox** 👩‍🎨, and read the exclusive interview with Ember contributor **@pzuraq**! 💬
+The **video** recordings of **EmberConf 2019** are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, a new **`{{fn}}` Helper** RFC 🎉, **data loading** and **animation patterns** in your Ember app 🌟, and you don't wanna miss tips on **mentoring** Ember developers 👩‍🏫! Enjoy some ✨ fan art by **@delusioninabox** 👩‍🎨, and read the exclusive interview with Ember contributor **@pzuraq**! 💬
 
 ---
 
