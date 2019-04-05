@@ -35,7 +35,7 @@ While realizing she's no longer a beginner, [@danielleadams](https://github.com/
 
 ---
 
-## [EmberConf 2019 Videos Out 🎦](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYLl)
+## [EmberConf 2019 Videos Out 🎦](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL)
 
 If you missed the chance to see talks from [EmberConf 2019](https://emberconf.com/), do not fear! Starting today, you can watch all of them on [YouTube](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL). Please upvote the videos and share them with your teams, communities, family, and friends! 💜
 
