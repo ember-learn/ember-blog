@@ -65,8 +65,10 @@ You can learn about `ember-cli-dependency-lint` addon and how to resolve depende
 
 [@delusioninabox](https://github.com/delusioninabox) created a **comic** about being able to work with Ember again after a long time away. Like, **retweet**, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Daily 2,195! <a href="https://twitter.com/emberjs?ref_src=twsrc%5Etfw">@emberjs</a> just makes coding feel so good...so right. ❤😍 <a href="https://t.co/AJJ8UMIqY5">pic.twitter.com/AJJ8UMIqY5</a></p>&mdash; Laura Kajpust 👩‍💻🎨 (@delusioninabox) <a href="https://twitter.com/delusioninabox/status/1111468497782091779?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="centered">
+  <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Daily 2,195! <a href="https://twitter.com/emberjs?ref_src=twsrc%5Etfw">@emberjs</a> just makes coding feel so good...so right. ❤😍 <a href="https://t.co/AJJ8UMIqY5">pic.twitter.com/AJJ8UMIqY5</a></p>&mdash; Laura Kajpust 👩‍💻🎨 (@delusioninabox) <a href="https://twitter.com/delusioninabox/status/1111468497782091779?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 ---
 
