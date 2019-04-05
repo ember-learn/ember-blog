@@ -37,9 +37,9 @@ You can learn about `ember-cli-dependency-lint` addon and how to resolve depende
 
 ## [`{{fn}}` Helper RFC 🎉](https://github.com/emberjs/rfcs/pull/470)
 
-Also, checkout the `{{fn}}` Helper RFC opened by (@rtablada)[https://github.com/rtablada] that introduces clear argument passing for functions in templates.
+Check out the `{{fn}}` Helper RFC opened by [@rtablada](https://github.com/rtablada) that introduces clear argument passing for functions in templates.
 
-The `{{fn}}` RFC should solve for some of the complexity and confusion around the current action helper. The new `{{fn}}` helper will take in a function and set of arguments that are partially applied to the function (with no need for build time private APIs), and context binding will be done using the @action decorator in classes.
+The `{{fn}}` RFC should solve for some of the complexity and confusion around the current action helper. The new `{{fn}}` helper will take in a function and set of arguments that are partially applied to the function (with no need for build time private APIs), and context binding will be done using the `@action` decorator in classes.
 
 For more on the detailed design of the proposal, including comparisons to the action helper/modifier and some alternatives [see the full RFC](https://github.com/emberjs/rfcs/pull/470).
 
@@ -47,19 +47,19 @@ For more on the detailed design of the proposal, including comparisons to the ac
 
 ## [Animation and Predictable Data Loading in Ember 🐹](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/)
 
-[@ijlee2](https://github.com/ijlee2) a first time attendee at [EmberConf](https://emberconf.com/), shares a [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manner and how to **use animations** to liven up your Ember applications.
+[@ijlee2](https://github.com/ijlee2), a first time attendee at [EmberConf](https://emberconf.com/), shares a [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manner and how to **use animations** to liven up your Ember applications.
 
-The **tutorial** covers how you can use simple animations using [Ember Animated](https://github.com/ember-animation/ember-animated] and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
+The **tutorial** covers how you can use simple animations using [Ember Animated](https://github.com/ember-animation/ember-animated) and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
 
 Another interesting area the tutorial explores is **predictable data loading**, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Definitely worth checking out!
 
-Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) alongside some video previews or checkout a preview of the [demo app](https://ember-animated.herokuapp.com/) from the tutorial.
+Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) alongside some video previews or check out a preview of the [demo app](https://ember-animated.herokuapp.com/) from the tutorial.
 
 ---
 
 ## [Reflecting on Being a Former Noob 👶](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae)
 
-While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what **more experienced developers** can do to **help** those **newer** to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a **mentor** at EmberConf!
+While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams) documents her thoughts on what **more experienced developers** can do to **help** those **newer** to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a **mentor** at EmberConf!
 
 ---
 
