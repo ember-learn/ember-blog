@@ -44,7 +44,6 @@ Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-p
 ## [Reflecting on Being a Former Noob 👶](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae)
 
 While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what more experienced developers can do to help those newer to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a mentor at EmberConf! 
->>>>>>> bd07fd2773b661e7299168049776a3d0903fcb6a
 
 ---
 
@@ -140,8 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-<<<<<<< HEAD
-Lisa Huang-North, Jessica Jordan, Bradley Leftley, the crowd and the Learning Team
-=======
-Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, the crowd and the Learning Team
->>>>>>> bd07fd2773b661e7299168049776a3d0903fcb6a
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley the crowd and the Learning Team
