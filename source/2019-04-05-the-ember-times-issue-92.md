@@ -69,7 +69,7 @@ If you missed the chance to see talks from [EmberConf 2019](https://emberconf.co
 
 ---
 
-## [Ember Makes Coding Feel So Good Comic](https://twitter.com/delusioninabox/status/1111468497782091779)
+## [Ember Makes Coding Feel So Good Comic 💥](https://twitter.com/delusioninabox/status/1111468497782091779)
 
 [@delusioninabox](https://github.com/delusioninabox) created a **comic** about being able to work with Ember again after a long time away. Like, **retweet**, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
 
