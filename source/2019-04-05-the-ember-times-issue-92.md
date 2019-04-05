@@ -1,25 +1,22 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley, the crowd
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/04-the-ember-times-issue-92.html"
+alias : "blog/2019/04/05-the-ember-times-issue-92.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+હેલો Emberistas! 🐹
 
 
-The video recordings of EmberConf 2019 are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, **data loading** and **animation patterns** in your Ember app you don't wanna miss ⭐️ and tips on **mentoring** Ember developers 👩‍🏫! Enjoy some ✨ fan art by **@delusioninabox**, ...
-
-
-...and an exclusive interview with Ember contributor **@pzuraq**! 💬
+The **video** recordings of **EmberConf 2019** are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, **data loading** and **animation patterns** in your Ember app you don't wanna miss ⭐️ and tips on **mentoring** Ember developers 👩‍🏫! Enjoy some ✨ fan art by **@delusioninabox** 👩‍🎨 and read the exclusive interview with Ember contributor **@pzuraq**! 💬
 
 
 ---
 
 ## [3 Reasons to Volunteer at a Tech Conference 💪🏼](https://medium.com/@lisaychuang/3-reasons-why-you-should-volunteer-at-a-tech-conference-19a0c81d1d8)
 
-[@lisaychuang](https://twitter.com/lisaychuang) shares her experience from this year’s EmberConf, and encourages newcomers in any tech community to attend a tech conference (and possibly volunteer!)   
+[@lisaychuang](https://twitter.com/lisaychuang) shares her experience from this year’s EmberConf, and encourages newcomers in any tech community to **attend a tech conference** (and possibly **volunteer**!).
 
 As a volunteer, you can get:
 * A warm welcome to the community
@@ -32,11 +29,11 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ## [Animation and Predictable Data Loading in Ember 🐹](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/)
 
-[@ijlee2](https://github.com/ijlee2) a first time attendee at [Ember Conf](https://emberconf.com/), shares a [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manner and how to use animations to liven up your Ember applications.
+[@ijlee2](https://github.com/ijlee2) a first time attendee at [EmberConf](https://emberconf.com/), shares a [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manner and how to **use animations** to liven up your Ember applications.
 
-The tutorial covers how you can use simple animations using [Ember Animated](https://github.com/ember-animation/ember-animated] and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
+The **tutorial** covers how you can use simple animations using [Ember Animated](https://github.com/ember-animation/ember-animated] and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
 
-Another interesting area the tutorial explores is predictable data loading, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Definitely worth checking out!
+Another interesting area the tutorial explores is **predictable data loading**, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Definitely worth checking out!
 
 Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) alongside some video previews or checkout a preview of the [demo app](https://ember-animated.herokuapp.com/) from the tutorial.
 
@@ -44,53 +41,32 @@ Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-p
 
 ## [Reflecting on Being a Former Noob 👶](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae)
 
-While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what more experienced developers can do to help those newer to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a mentor at EmberConf!
+While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what **more experienced developers** can do to **help** those **newer** to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a **mentor** at EmberConf!
 
 ---
 
 ## [EmberConf 2019 Videos Out 🎦](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL)
 
-If you missed the chance to see talks from [EmberConf 2019](https://emberconf.com/), do not fear! Starting today, you can watch all of them on [YouTube](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL). Please upvote the videos and share them with your teams, communities, family, and friends! 💜
+If you missed the chance to see talks from [EmberConf 2019](https://emberconf.com/), worry no more! Starting today, you can **watch all of them** on [YouTube](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL). Please upvote the videos and **share them** with your teams, communities, family, and friends! 💜
 
 ---
 
 ## [Dependency Lint RFC ✨](https://github.com/emberjs/rfcs/pull/464)
 
-[@Alonski](https://github.com/Alonski) proposed that the addon `ember-cli-dependency-lint` be added to the default blueprint.
+[@Alonski](https://github.com/Alonski) proposed that the addon `ember-cli-dependency-lint` should be added to the **default blueprint**.
 
 This lint helps us detect early if our addons rely on the same package but use different versions. In such cases, Ember CLI merges all versions into one. This can cause our app to behave unexpectedly and become hard to debug. 😨😰😱
 
-You can learn about `ember-cli-dependency-lint` addon and how to resolve dependency conflicts at [https://github.com/salsify/ember-cli-dependency-lint](https://github.com/salsify/ember-cli-dependency-lint). Be sure to leave your comments on [the current proposal to include it by default](https://github.com/emberjs/rfcs/pull/464).
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can learn about `ember-cli-dependency-lint` addon and how to resolve dependency conflicts at [https://github.com/salsify/ember-cli-dependency-lint](https://github.com/salsify/ember-cli-dependency-lint). Be sure to leave your comments on [the current proposal](https://github.com/emberjs/rfcs/pull/464).
 
 ---
 
 ## [Ember Makes Coding Feel So Good Comic](https://twitter.com/delusioninabox/status/1111468497782091779)
 
-[@delusioninabox](https://github.com/delusioninabox) created a comic about being able to work with Ember again after a long time away. Like, retweet, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
+[@delusioninabox](https://github.com/delusioninabox) created a **comic** about being able to work with Ember again after a long time away. Like, **retweet**, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Daily 2,195! <a href="https://twitter.com/emberjs?ref_src=twsrc%5Etfw">@emberjs</a> just makes coding feel so good...so right. ❤😍 <a href="https://t.co/AJJ8UMIqY5">pic.twitter.com/AJJ8UMIqY5</a></p>&mdash; Laura Kajpust 👩‍💻🎨 (@delusioninabox) <a href="https://twitter.com/delusioninabox/status/1111468497782091779?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -139,4 +115,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley, the crowd and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley and the Learning Team
