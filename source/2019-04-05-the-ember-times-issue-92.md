@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/05-the-ember-times-issue-92.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 હેલો Emberistas! 🐹
 
 
-The **video** recordings of **EmberConf 2019** are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, **data loading** and **animation patterns** in your Ember app you don't wanna miss ⭐️ and tips on **mentoring** Ember developers 👩‍🏫! Enjoy some ✨ fan art by **@delusioninabox** 👩‍🎨 and read the exclusive interview with Ember contributor **@pzuraq**! 💬
+The **video** recordings of **EmberConf 2019** are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, a new **`{{fn}}` Helper** RFC, **data loading** and **animation patterns** in your Ember app you don't wanna miss ⭐️ and tips on **mentoring** Ember developers 👩‍🏫! Enjoy some ✨ fan art by **@delusioninabox** 👩‍🎨 and read the exclusive interview with Ember contributor **@pzuraq**! 💬
 
 
 ---
@@ -58,6 +58,16 @@ If you missed the chance to see talks from [EmberConf 2019](https://emberconf.co
 This lint helps us detect early if our addons rely on the same package but use different versions. In such cases, Ember CLI merges all versions into one. This can cause our app to behave unexpectedly and become hard to debug. 😨😰😱
 
 You can learn about `ember-cli-dependency-lint` addon and how to resolve dependency conflicts at [https://github.com/salsify/ember-cli-dependency-lint](https://github.com/salsify/ember-cli-dependency-lint). Be sure to leave your comments on [the current proposal](https://github.com/emberjs/rfcs/pull/464).
+
+---
+
+## [`{{fn}}` Helper RFC 🎉](https://github.com/emberjs/rfcs/pull/470)
+
+Also, checkout the `{{fn}}` Helper RFC opened by (@rtablada)[https://github.com/rtablada] that introduces clear argument passing for functions in templates.
+
+The `{{fn}}` RFC should solve for some of the complexity and confusion around the current action helper. The new `{{fn}}` helper will take in a function and set of arguments that are partially applied to the function (with no need for build time private APIs), and context binding will be done using the @action decorator in classes.
+
+For more on the detailed design of the proposal, including comparisons to the action helper/modifier and some alternatives [see the full RFC](https://github.com/emberjs/rfcs/pull/470).
 
 ---
 
@@ -117,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley, Jared Galanis and the Learning Team
