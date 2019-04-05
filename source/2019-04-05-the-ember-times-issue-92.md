@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/05-the-ember-times-issue-92.html"
 responsive: true
@@ -61,6 +61,16 @@ You can learn about `ember-cli-dependency-lint` addon and how to resolve depende
 
 ---
 
+## [`{{fn}}` Helper RFC 🎉](https://github.com/emberjs/rfcs/pull/470)
+
+Also, checkout the `{{fn}}` Helper RFC opened by (@rtablada)[https://github.com/rtablada] that introduces clear argument passing for functions in templates.
+
+The `{{fn}}` RFC should solve for some of the complexity and confusion around the current action helper. The new `{{fn}}` helper will take in a function and set of arguments that are partially applied to the function (with no need for build time private APIs), and context binding will be done using the @action decorator in classes.
+
+For more on the detailed design of the proposal, including comparisons to the action helper/modifier and some alternatives [see the full RFC](https://github.com/emberjs/rfcs/pull/470).
+
+---
+
 ## [Ember Makes Coding Feel So Good Comic](https://twitter.com/delusioninabox/status/1111468497782091779)
 
 [@delusioninabox](https://github.com/delusioninabox) created a **comic** about being able to work with Ember again after a long time away. Like, **retweet**, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
@@ -117,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley, Jared Galanis and the Learning Team
