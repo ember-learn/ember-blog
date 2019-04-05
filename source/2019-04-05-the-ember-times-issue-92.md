@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 
-Read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, ...
+The video recordings of EmberConf 2019 are now available! But first, read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...and an exclusive interview with Ember contributor **@pzuraq**! 💬
 
@@ -35,10 +35,9 @@ While realizing she's no longer a beginner, [@danielleadams](https://github.com/
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [EmberConf 2019 Videos Out 🎦](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYLl)
+
+If you missed the chance to see talks from [EmberConf 2019](https://emberconf.com/), do not fear! Starting today, you can watch all of them on [YouTube](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL). Please upvote the videos and share them with your teams, communities, family, and friends! 💜
 
 ---
 
