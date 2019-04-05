@@ -29,13 +29,13 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
-## [Animations and Predictable Data Loading in Ember 🐹](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/)
+## [Animation and Predictable Data Loading in Ember 🐹](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/)
 
-[@ijlee2](https://github.com/ijlee2) a recent attendee at [Ember Conf 2019](https://emberconf.com/) shares an [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manor and how to use animations to liven up your ember applications. 
+[@ijlee2](https://github.com/ijlee2) a first time attendee at [Ember Conf](https://emberconf.com/), shares a [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manner and how to use animations to liven up your Ember applications. 
 
 The tutorial covers how you can use simple animations using [Ember animated](https://github.com/ember-animation/ember-animated] and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
 
-Another interesting area the tutorial explores is predictable data loading, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Defiantly worth checking out! 
+Another interesting area the tutorial explores is predictable data loading, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Definitely worth checking out! 
 
 Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) alongside some video previews or checkout a preview of the [demo app](https://ember-animated.herokuapp.com/) from the tutorial.
 
