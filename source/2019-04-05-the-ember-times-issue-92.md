@@ -29,6 +29,18 @@ Curious to learn more? Check out her post on Medium: [3 reasons why you should v
 
 ---
 
+## [Animation and Predictable Data Loading in Ember 🐹](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/)
+
+[@ijlee2](https://github.com/ijlee2) a first time attendee at [Ember Conf](https://emberconf.com/), shares a [tutorial](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) on how to load complex data in a predictable manner and how to use animations to liven up your Ember applications. 
+
+The tutorial covers how you can use simple animations using [Ember Animated](https://github.com/ember-animation/ember-animated] and [Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API) to help make your applications feel more dynamic and polished!
+
+Another interesting area the tutorial explores is predictable data loading, overcoming bugs that you may encounter when having models and relationships and how you can use [Ember Data Storefront](https://github.com/embermap/ember-data-storefront) to aid tackling some of this issues! Definitely worth checking out! 
+
+Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-predictable-data-loading-in-ember/) alongside some video previews or checkout a preview of the [demo app](https://ember-animated.herokuapp.com/) from the tutorial.
+
+---
+
 ## [Reflecting on Being a Former Noob 👶](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae)
 
 While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what more experienced developers can do to help those newer to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a mentor at EmberConf! 
@@ -127,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, the crowd and the Learning Team
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, Bradley Leftley the crowd and the Learning Team
