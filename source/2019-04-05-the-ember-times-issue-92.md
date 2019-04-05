@@ -1,15 +1,15 @@
 ---
 title: The Ember Times - Issue No. 92
-author: Lisa Huang-North, Jessica Jordan, the crowd
+author: Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/05-the-ember-times-issue-92.html"
+alias : "blog/2019/04/04-the-ember-times-issue-92.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 
-Read about the benefits of **volunteering at a tech conference** 💪, ...
+Read about the benefits of **volunteering at a tech conference** 💪, an RFC on **adding npm dependency lint** ✨, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...and an exclusive interview with Ember contributor **@pzuraq**! 💬
 
@@ -41,10 +41,10 @@ Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-p
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Reflecting on Being a Former Noob 👶](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae)
+
+While realizing she's no longer a beginner, [@danielleadams](https://github.com/danielleadams)' documents her thoughts on what more experienced developers can do to help those newer to the tech industry and working as developers. Check out her [blog post](https://medium.com/@adamzdanielle/reflecting-on-being-a-former-noob-d5e192907ae) on the subject, stemming from her experience being a mentor at EmberConf! 
+>>>>>>> bd07fd2773b661e7299168049776a3d0903fcb6a
 
 ---
 
@@ -55,10 +55,13 @@ Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-p
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Dependency Lint RFC ✨](https://github.com/emberjs/rfcs/pull/464)
+
+[@Alonski](https://github.com/Alonski) proposed that the addon `ember-cli-dependency-lint` be added to the default blueprint.
+
+This lint helps us detect early if our addons rely on the same package but use different versions. In such cases, Ember CLI merges all versions into one. This can cause our app to behave unexpectedly and become hard to debug. 😨😰😱
+
+You can learn about `ember-cli-dependency-lint` addon and how to resolve dependency conflicts at [https://github.com/salsify/ember-cli-dependency-lint](https://github.com/salsify/ember-cli-dependency-lint). Be sure to leave your comments on [the current proposal to include it by default](https://github.com/emberjs/rfcs/pull/464).
 
 ---
 
@@ -66,6 +69,15 @@ Read the [full article](https://crunchingnumbers.live/2019/04/02/animation-and-p
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Ember Makes Coding Feel So Good Comic](https://twitter.com/delusioninabox/status/1111468497782091779)
+
+[@delusioninabox](https://github.com/delusioninabox) created a comic about being able to work with Ember again after a long time away. Like, retweet, or comment on the [post on Twitter](https://twitter.com/delusioninabox/status/1111468497782091779)!
+
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Daily 2,195! <a href="https://twitter.com/emberjs?ref_src=twsrc%5Etfw">@emberjs</a> just makes coding feel so good...so right. ❤😍 <a href="https://t.co/AJJ8UMIqY5">pic.twitter.com/AJJ8UMIqY5</a></p>&mdash; Laura Kajpust 👩‍💻🎨 (@delusioninabox) <a href="https://twitter.com/delusioninabox/status/1111468497782091779?ref_src=twsrc%5Etfw">March 29, 2019</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ---
 
@@ -128,4 +140,8 @@ That's another wrap! ✨
 
 Be kind,
 
+<<<<<<< HEAD
 Lisa Huang-North, Jessica Jordan, Bradley Leftley, the crowd and the Learning Team
+=======
+Chris Ng, Lisa Huang-North, Jessica Jordan, Isaac Lee, Danielle Adams, Amy Lam, the crowd and the Learning Team
+>>>>>>> bd07fd2773b661e7299168049776a3d0903fcb6a
