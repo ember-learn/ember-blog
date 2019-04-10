@@ -110,7 +110,7 @@ The welcome page that is generated in new Ember apps is now converted to use the
 
 **Support for Node 11 (2 of 2)**
 
-Ember CLI is now tested against Node 11. If developers use it for their apps and addons, the CLI will not show a warning.
+Ember CLI is now tested against Node 11. If developers use it for their apps and addons, the CLI will not show a warning anymore.
 
 #### Bugfixes (1)
 
