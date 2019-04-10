@@ -100,12 +100,23 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.9
 
-#### New Features (1)
+There are two (2) new features and one (1) bugfix.
 
-`ember-welcome-page` updated to use angle bracket invocation syntax (1 of 1)
+#### New Features (2)
+
+**`ember-welcome-page` updated to use angle bracket invocation syntax (1 of 2)**
 
 The welcome page that is generated in new Ember apps is now converted to use the angle bracket invocation syntax. This means that instead of adding `{{welcome-page}}` to `application.hbs` we now add `<WelcomePage />`.
 
+**Support for Node 11 (2 of 2)**
+
+Ember CLI is now tested against Node 11. If developers use it for their apps and addons, the CLI will not show a warning.
+
+#### Bugfixes (1)
+
+**Module unification blueprint updates (1 of 1)**
+
+The MU blueprints were not enabling the `EMBER_MODULE_UNIFICATION` Ember Feature Flag due to flag capitalization variations. This has been fixed.
 
 #### Deprecations (0)
 
