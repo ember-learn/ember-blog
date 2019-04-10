@@ -116,7 +116,7 @@ Ember CLI is now tested against Node 11. If developers use it for their apps and
 
 **Module unification blueprint updates (1 of 1)**
 
-The "Module Unification" blueprints have received several bugfixes and enhancements. For more details have a look at https://github.com/ember-cli/ember-cli/releases/tag/v3.9.0.
+The "Module Unification" blueprints have received several bugfixes and enhancements. For more details have a look at [the release notes](https://github.com/ember-cli/ember-cli/releases/tag/v3.9.0).
 
 #### Deprecations (0)
 
