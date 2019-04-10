@@ -14,7 +14,7 @@ You can read more about our general release process here:
 - [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
 - [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
 
-Additionally, versions 3.9 of Ember and Ember Data are now promoted to LTS, which stands for Long Term Support. An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version for Ember was 3.4.
+Additionally, versions 3.8 of Ember and Ember Data are now promoted to LTS, which stands for Long Term Support. An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version for Ember was 3.4.
 
 ---
 
