@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 93
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
@@ -15,10 +15,35 @@ Contribute to the Ember Engines Guides MVP 🚂,...
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Reason #1. Community 🏆](https://emberjs.com/community)
+
+One great reason to use Ember is the [community](https://emberjs.com/community) that you are/will be a part of. Ember provides a wide platform for everyone to be an active learner and contributor. Where will you discover yourself next?
+
+This year, we surveyed 10 different ways to [learn](https://emberjs.com/ember-community-survey-2019/#MS_Q103) and [contribute](https://emberjs.com/ember-community-survey-2019/#MS_Q112)!
+
+Our 5 most favorite places to learn: (drumrolls, please)
+
+- [Documentations](https://guides.emberjs.com/release/) (71%)
+- [Ember.js blog](https://blog.emberjs.com/) (54%)
+- [RFCs](https://github.com/emberjs/rfcs) (52%)
+- Code samples (51%)
+- Blog posts (47%)
+
+And our 5 most favorite ways to give back: 🥁🥁🥁
+
+- Attend Meetups and conferences (35%)
+- Open issues (35%)
+- Maintain addons (27%)
+- Open PRs (24%)
+- Answer community questions (16%)
+
+It's great to see that we all like to meet in person and share knowledge with each other. Each year, you can meet Ember devs from around the world at [EmberConf](https://emberconf.com/), [EmberCamp](http://embercamp.com/), and [EmberFest](https://emberfest.eu/). You can also meet them on a regular basis through [Meetups](https://emberjs.com/community/meetups/).
+
+What can you do if there isn't a Meetup in your area? We'd like to suggest that you start small. Get together with a few friends for coffee or food, and catch up over latest Ember news. You can also throw a viewing party and watch together (1) past talks and (2) live streams 🍿. If you'd like to know more about starting your own Meetup, you can join the `#meetup-organizers` channel on Discord where we'd be happy to help you.
+
+Side note 1. Please contact `#discord-server-admin` to join the `#meetup-organizers` channel.
+
+Side note 2. [If you haven't joined the Ember Community on Discord, do so today](https://discordapp.com/invite/zT3asNS)! 😉
 
 ---
 
@@ -26,7 +51,7 @@ Contribute to the Ember Engines Guides MVP 🚂,...
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -110,4 +135,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
+
