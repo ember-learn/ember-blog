@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 93
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/05-the-ember-times-issue-93.html"
 responsive: true
@@ -14,10 +14,31 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## Reason #1: [Community 🏆](https://emberjs.com/community)
+
+One great reason to use Ember is the [community](https://emberjs.com/community) that you will be a part of. Ember provides a wide platform for everyone to be an active learner and contributor. Where will you discover yourself next?
+
+This year, we surveyed 10 different ways to [learn](https://emberjs.com/ember-community-survey-2019/#MS_Q103) and [contribute](https://emberjs.com/ember-community-survey-2019/#MS_Q112)!
+
+Our 5 most favorite places to learn: (drumrolls, please)
+
+- Documentations (71%)
+- [Ember.js blog](https://blog.emberjs.com/) (54%)
+- RFCs (52%)
+- Code samples (51%)
+- Blog posts (47%)
+
+And our 5 most favorite ways to give back: 🥁🥁🥁
+
+- Attend Meetups and conferences (35%)
+- Open issues (35%)
+- Maintain addons (27%)
+- Open PRs (24%)
+- Answer community questions (16%)
+
+I think it's great to see that we like to meet in person and share knowledge. Each year, you can meet fellow Ember devs at [EmberConf](https://emberconf.com/), [EmberCamp] (http://embercamp.com/), and [EmberFest](https://emberfest.eu/). You can also meet them on a regular basis through Meetups ([find a Meetup near you](https://emberjs.com/community/meetups/)).
+
+What can you do if there isn't a Meetup in your area? We'd like to suggest that you start small. Get together with a few friends for coffee or food, and catch up over latest Ember news. You can also throw a viewing party and watch together (1) past talks or (2) live streams 🍿🥤. If you'd like to know more about starting your own Meetup, you can join the `#meetup-organizers` channel on Discord where we'd be happy to help you. (Please contact `#discord-server-admin` to join this Meetup channel.)
 
 ---
 
@@ -25,7 +46,7 @@ responsive: true
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -108,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
