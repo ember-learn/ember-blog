@@ -1,8 +1,8 @@
 ---
 title: The Ember Times - Issue No. 93
-author: Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/05-the-ember-times-issue-93.html"
+alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
 ---
 
@@ -11,6 +11,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Contribute to the Ember Engines Guides MVP 🚂,...
 
 ---
 
@@ -88,10 +89,11 @@ Side note 2. [If you haven't joined the Ember Community on Discord, do so today]
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Quest: Ember Engines Guides MVP 🚂](https://twitter.com/MVillander/status/1113833794237341696)
+
+[@villander](https://github.com/villander) started a [quest issue](https://github.com/ember-engines/ember-engines.com/issues/55) to track all the work left to do to get an MVP of the [Ember Engines](https://github.com/ember-engines/ember-engines) Guides out!
+
+There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.com](http://www.ember-engines.com/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines.com/issues/57) and intended uses for engines. Plenty for everyone with all levels of experience with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines.com/issues/55)!
   
 ---
 
@@ -133,4 +135,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
+
