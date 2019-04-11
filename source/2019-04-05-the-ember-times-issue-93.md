@@ -42,7 +42,7 @@ What can you do if there isn't a Meetup in your area? We'd like to suggest that 
 
 Side note 1. Please contact `#discord-server-admin` to join the `#meetup-organizers` channel.
 
-Side note 2. [If you haven't joined Ember Discord, do so today](https://discordapp.com/invite/zT3asNS)! 😉
+Side note 2. [If you haven't joined the Ember Community on Discord, do so today](https://discordapp.com/invite/zT3asNS)! 😉
 
 ---
 
