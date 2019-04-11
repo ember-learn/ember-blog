@@ -14,7 +14,7 @@ responsive: true
 
 ---
 
-## Reason #1. [Community](https://emberjs.com/community) 🏆
+## [Reason #1. Community 🏆](https://emberjs.com/community)
 
 One great reason to use Ember is the [community](https://emberjs.com/community) that you are/will be a part of. Ember provides a wide platform for everyone to be an active learner and contributor. Where will you discover yourself next?
 
