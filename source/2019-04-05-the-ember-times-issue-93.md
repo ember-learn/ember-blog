@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 93
 author: the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/05-the-ember-times-issue-93.html"
+alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
 ---
 
