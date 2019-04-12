@@ -161,4 +161,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam, Anne-Greeth van Herwijnen and the Learning Team
