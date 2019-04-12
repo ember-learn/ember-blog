@@ -8,7 +8,7 @@ responsive: true
 
 ഹായ് Emberistas! 🐹
 
-Welcome to our first **signature edition** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today. So enjoy the read 📜.
+Welcome to our first **signature edition** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today. So enjoy the read. 📜
 
 ---
 
