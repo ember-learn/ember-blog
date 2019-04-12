@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 93
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
@@ -47,10 +47,17 @@ Side note 2. [If you haven't joined the Ember Community on Discord, do so today]
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [How Can We Improve?💡 Looking Ahead...👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
+
+Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on things we can do better. 🤔
+
+Specifically the survey empowers community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
+
+Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL) we heard at EmberConf in 2019, like [@melsumner](https://github.com/melsumner)'s amazing talk [Don't Break The Web](https://www.youtube.com/watch?v=41TDfT6bAs4&list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL&index=15&t=0s), highlighted the importance of improving accessibility not just in Ember, but across the web as a whole.  
+
+The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-community-survey-2019/#stack-skills) underscore this point. While many survey participants identified themselves as possessing advanced skills in areas like Ember, JavaScript, HTML and CSS, almost 70% of participants self-identified at a beginner level skill regarding Accessible Rich Internet Applications (ARIA). So it turns out many of us can improve our skills in building accessible applications, let's seize the opportunity to improve and act on this data! ✨💪✨
+
+ A big, big thank you to all of those who participated in the 2019 Ember Community Survey! With your participation the survey provides all of us with a platform for discussion and ideas and is a truly important part of how we can all help move Ember.js forward in 2019 and beyond! 🚀🚀🚀
 
 ---
 
@@ -135,5 +142,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis the crowd and the Learning Team
 
