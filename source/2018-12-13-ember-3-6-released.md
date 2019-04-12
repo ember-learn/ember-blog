@@ -47,7 +47,7 @@ Stabilizing the behavior of classes gives early adopters an API to build on. For
 
 Early adopters have been helping tremendously to sort out the details here and make sure that the day the proposals advance, we are ready to land official support for them in Ember directly. Early adoption _does_ come with risks, so if you are considering it, be prepared to have to make changes in the future.
 
-For users who aren't ready to adopt, that's OK - the EmberObject model will continue to be supported for some time to come. In addition, work is progressing on a [codemod](https://github.com/scalvert/ember-es6-class-codemod) which will transform the old class model to the new one seamlessly, making the transition easy from day one.
+For users who aren't ready to adopt, that's OK - the EmberObject model will continue to be supported for some time to come. In addition, work is progressing on a [codemod](https://github.com/ember-codemods/ember-es6-class-codemod) which will transform the old class model to the new one seamlessly, making the transition easy from day one.
 
 **Usage Notes**
 
@@ -113,7 +113,7 @@ Ever since `Ember.assign` was released, `Ember.merge` became mostly unnecessary.
 
 If you need to support Ember <=2.4 you can use [ember-assign-polyfill](https://github.com/shipshapecode/ember-assign-polyfill) to make `Ember.assign` available to you.
 
-To see a code example of switching from `Ember.merge` to `Ember.assign` please refer to the [deprecation app](https://deprecations-app-prod.herokuapp.com/deprecations/v3.x/#toc_ember-polyfills-deprecate-merge).
+To see a code example of switching from `Ember.merge` to `Ember.assign` please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_ember-polyfills-deprecate-merge).
 
 
 **HandlerInfos Removal (4 of 6)**
@@ -121,7 +121,7 @@ To see a code example of switching from `Ember.merge` to `Ember.assign` please r
 Due to the [router service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) it is necessary to rename the private API `HandlerInfo` to `RouteInfo`. 
 
 If you need to access information about the routes you are most likely better served by injecting the router service as it exposes a publicly supported version of the `RouteInfo`s.
-For help on how to do this please refer to the [deprecation app](https://deprecations-app-prod.herokuapp.com/deprecations/v3.x/#toc_remove-handler-infos).
+For help on how to do this please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_remove-handler-infos).
 
 **Deprecate Router Events (5 of 6)**
 
@@ -132,7 +132,7 @@ That is the reason for the existing `willTransition` and `didTransition` hooks/e
 
 In addition, they receive `handlerInfos` in their arguments, which are an undocumented internal implementation detail of router.js that doesn't belong in Ember's public API. Everything you can do with handlerInfos can be done with the `RouteInfo`.
 
-For examples on how to transition both the `Route` and `Router` usages of `willTransition` and `didTransition`, please refer to the [deprecation app](https://deprecations-app-prod.herokuapp.com/deprecations/v3.x/#toc_deprecate-router-events).
+For examples on how to transition both the `Route` and `Router` usages of `willTransition` and `didTransition`, please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_deprecate-router-events).
 
 **Transition State Removal (6 of 6)**
 
@@ -140,7 +140,7 @@ The `Transition` object is a public interface that actually exposed internal sta
 
 Accessing `state`, `queryParams` or `params` on the `Transition` has been removed. If you need access to information about the routes, you are probably better served injecting the router service as it exposes a publically supported version of the `RouteInfo`s.
 
-For information on how to do this please refer to the [deprecation app](https://deprecations-app-prod.herokuapp.com/deprecations/v3.x/#toc_transition-state).
+For information on how to do this please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_transition-state).
 
 ---
 
