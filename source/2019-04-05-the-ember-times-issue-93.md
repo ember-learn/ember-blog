@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 93
-author: Chris Ng, Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
@@ -47,6 +47,22 @@ Side note 2. [If you haven't joined the Ember Community on Discord, do so today]
 
 ---
 
+## [Reason #2. Stable and More Reliable Than Ever 💪](https://emberjs.com/ember-community-survey-2019/#MS_Q401)
+
+According to the results of the latest community survey, modern Ember apps are everywhere: We can see that a great number of Ember apps has kept up with the latest releases. Most Ember apps beyond 3.x were locked in at [version 3.7, 3.4 and 3.8](https://emberjs.com/ember-community-survey-2019/#MS_Q401).
+
+Seeing that a great number of Ember apps has managed to keep up with some of the latest releases is quite striking. It shows that Ember continues to deliver on its promise of **Stability without Stagnation**. As a framework that has thrived in the fast-paced front-end ecosystem for over seven years, Ember has always promoted itself as a stable and reliable solution for developers who want to make sure that the applications they're building are not only functional, but also still easy to maintain and upgrade tomorrow.
+
+A major contributing factor for the project's stability is [the fine-tuned release process](https://emberjs.com/releases/) which offers a straightforward upgrade path. The release process has been refined several times in the past: A 6-week release cycle started with Ember 1.0 (that was more than 5 years ago!) and provided the community with beta and canary builds, as well as [feature flags for public API changes that aren't yet released](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) for every single release. A few years later, the [LTS releases](https://blog.emberjs.com/2016/02/25/announcing-embers-first-lts.html) made it even easier for developers to keep up with important updates and bug fixes while still being able to upgrade their applications smoothly in their own time.
+
+Additionally, community-maintained tools such as [Ember CLI Update](https://github.com/ember-cli/ember-cli-update) and a plethora of codemods support developers with their upgrades. The addon [Ember Try](https://github.com/ember-cli/ember-try) is another great way to continuously test projects against the latest Ember releases and to upgrade with confidence.
+
+The **success of the LTS release** is also reflected in the results of the latest survey, in which the [2.18 and the 3.4 LTS release](https://emberjs.com/ember-community-survey-2019/#MS_Q401) are among the most popular versions of Ember that today's apps depend on.
+
+Ember's success in providing stability and reliability shines also through the age of applications that the survey participants have built. Almost a third of the applications were [more than 4 years old](https://emberjs.com/ember-community-survey-2019/#MS_Q409). This emphasises that the community is not only able to build amazing products, but that it is also **empowered to maintain** those **apps over an extraordinary long time** without a rebuild.
+
+---
+
 ## [How Can We Improve?💡 Looking Ahead...👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
 Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on things we can do better. 🤔
@@ -65,35 +81,35 @@ The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Quest: Ember Engines Guides MVP 🚂](https://twitter.com/MVillander/status/1113833794237341696)
@@ -101,14 +117,14 @@ The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-
 [@villander](https://github.com/villander) started a [quest issue](https://github.com/ember-engines/ember-engines.com/issues/55) to track all the work left to do to get an MVP of the [Ember Engines](https://github.com/ember-engines/ember-engines) Guides out!
 
 There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.com](http://www.ember-engines.com/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines.com/issues/57) and intended uses for engines. Plenty for everyone with all levels of experience with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines.com/issues/55)!
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -130,7 +146,7 @@ There are tasks open from [moving docs](https://github.com/ember-engines/ember-e
 
 ---
 
-## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
+## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -142,5 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jared Galanis the crowd and the Learning Team
-
+Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
