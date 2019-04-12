@@ -6,13 +6,7 @@ alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Contribute to the Ember Engines Guides MVP 🚂,...
-
-
-Welcome to our first special edition of the Ember Times! Besides a call for contribution to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the results of this year's Ember Community Survey. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers tried to give you a nice overview and context of the result of this year. So enjoy the read 📜.
+Welcome to a special edition of the Ember Times! Besides a call for contribution to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the results of this year's Ember Community Survey. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are, and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers tried to give you a nice overview and context of the result of this year. So enjoy the read. 📜
 
 ---
 
@@ -42,7 +36,7 @@ It's great to see that we all like to meet in person and share knowledge with ea
 
 What can you do if there isn't a Meetup in your area? We'd like to suggest that you start small. Get together with a few friends for coffee or food, and catch up over latest Ember news. You can also throw a viewing party and watch together (1) past talks and (2) live streams 🍿. If you'd like to know more about starting your own Meetup, you can join the `#meetup-organizers` channel on Discord where we'd be happy to help you.
 
-Side note 1. Please contact `#discord-server-admin` to join the `#meetup-organizers` channel.
+Side note 1. Please contact [#discord-server-admin](https://discordapp.com/channels/480462759797063690/480499718330253342) to join the `#meetup-organizers` channel.
 
 Side note 2. [If you haven't joined the Ember Community on Discord, do so today](https://discordapp.com/invite/zT3asNS)! 😉
 
@@ -50,11 +44,11 @@ Side note 2. [If you haven't joined the Ember Community on Discord, do so today]
 
 ## [Reason #2. Stable and More Reliable Than Ever 💪](https://emberjs.com/ember-community-survey-2019/#MS_Q401)
 
-According to the results of the latest community survey, modern Ember apps are everywhere: We can see that a great number of Ember apps has kept up with the latest releases. Most Ember apps beyond 3.x were locked in at [version 3.7, 3.4 and 3.8](https://emberjs.com/ember-community-survey-2019/#MS_Q401).
+According to the results of the latest community survey, modern Ember apps are everywhere! We can see that a great number of Ember apps has kept up with the latest releases. Most Ember apps beyond 3.x were locked in at [version 3.7, 3.4 and 3.8](https://emberjs.com/ember-community-survey-2019/#MS_Q401).
 
 Seeing that a great number of Ember apps has managed to keep up with some of the latest releases is quite striking. It shows that Ember continues to deliver on its promise of **Stability without Stagnation**. As a framework that has thrived in the fast-paced front-end ecosystem for over seven years, Ember has always promoted itself as a stable and reliable solution for developers who want to make sure that the applications they're building are not only functional, but also still easy to maintain and upgrade tomorrow.
 
-A major contributing factor for the project's stability is [the fine-tuned release process](https://emberjs.com/releases/) which offers a straightforward upgrade path. The release process has been refined several times in the past: A 6-week release cycle started with Ember 1.0 (that was more than 5 years ago!) and provided the community with beta and canary builds, as well as [feature flags for public API changes that aren't yet released](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) for every single release. A few years later, the [LTS releases](https://blog.emberjs.com/2016/02/25/announcing-embers-first-lts.html) made it even easier for developers to keep up with important updates and bug fixes while still being able to upgrade their applications smoothly in their own time.
+A major contributing factor for the project's stability is [the fine-tuned release process](https://emberjs.com/releases/) which offers a straightforward upgrade path. The release process has been refined several times in the past. A 6-week release cycle started with Ember 1.0 (that was more than 5 years ago!) and provided the community with beta and canary builds, as well as [feature flags for public API changes that aren't yet released](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) for every single release. A few years later, the [LTS releases](https://blog.emberjs.com/2016/02/25/announcing-embers-first-lts.html) made it even easier for developers to keep up with important updates and bug fixes while still being able to upgrade their applications smoothly in their own time.
 
 Additionally, community-maintained tools such as [Ember CLI Update](https://github.com/ember-cli/ember-cli-update) and a plethora of codemods support developers with their upgrades. The addon [Ember Try](https://github.com/ember-cli/ember-try) is another great way to continuously test projects against the latest Ember releases and to upgrade with confidence.
 
@@ -64,49 +58,21 @@ Ember's success in providing stability and reliability shines also through the a
 
 ---
 
-## [How Can We Improve?💡 Looking Ahead...👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
+## [Reason #3. How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
 Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on things we can do better. 🤔
 
 Specifically the survey empowers community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
 
-Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL) we heard at EmberConf in 2019, like [@melsumner](https://github.com/melsumner)'s amazing talk [Don't Break The Web](https://noti.st/melsumner/Phhimm/dont-break-the-web), highlighted the importance of improving accessibility not just in Ember, but across the web as a whole.  
+Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL) we heard at EmberConf in 2019, like [@MelSumner](https://github.com/melsumner)'s amazing talk [Don't Break The Web](https://noti.st/melsumner/Phhimm/dont-break-the-web), highlighted the importance of improving accessibility not just in Ember, but across the web as a whole.  
 
 The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-community-survey-2019/#stack-skills) underscore this point. While many survey participants identified themselves as possessing advanced skills in areas like Ember, JavaScript, HTML and CSS, almost 70% of participants self-identified at a beginner level skill regarding Accessible Rich Internet Applications (ARIA). So it turns out many of us can improve our skills in building accessible applications, let's seize the opportunity to improve and act on this data! ✨💪✨
 
- A big, big thank you to all of those who participated in the 2019 Ember Community Survey! With your participation the survey provides all of us with a platform for discussion and ideas and is a truly important part of how we can all help move Ember.js forward in 2019 and beyond! 🚀🚀🚀
+A big, big thank you to all of those who participated in the 2019 Ember Community Survey! With your participation the survey provides all of us with a platform for discussion and ideas and is a truly important part of how we can all help move Ember.js forward in 2019 and beyond! 🚀🚀🚀
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
+## [Reason #4. Business Stability 🐹](#section-url)
 <change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -118,13 +84,6 @@ The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-
 [@villander](https://github.com/villander) started a [quest issue](https://github.com/ember-engines/ember-engines.com/issues/55) to track all the work left to do to get an MVP of the [Ember Engines](https://github.com/ember-engines/ember-engines) Guides out!
 
 There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.com](http://www.ember-engines.com/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines.com/issues/57) and intended uses for engines. Plenty for everyone with all levels of experience with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines.com/issues/55)!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
