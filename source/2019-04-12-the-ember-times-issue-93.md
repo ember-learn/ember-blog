@@ -60,7 +60,14 @@ Ember's success in providing stability and reliability shines also through the a
 
 ---
 
-## [Reason #3. How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
+## [Reason #3. Business Stability 🐹](#section-url)
+<change section title emoji>
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Reason #4. How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
 Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on things we can do better. 🤔
 
@@ -71,13 +78,6 @@ Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQ
 The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-community-survey-2019/#stack-skills) underscore this point. While many survey participants identified themselves as possessing advanced skills in areas like Ember, JavaScript, HTML and CSS, almost 70% of participants self-identified at a beginner level skill regarding Accessible Rich Internet Applications (ARIA). So it turns out many of us can improve our skills in building accessible applications, let's seize the opportunity to improve and act on this data! ✨💪✨
 
 A big, big thank you to all of those who participated in the 2019 Ember Community Survey! With your participation the survey provides all of us with a platform for discussion and ideas and is a truly important part of how we can all help move Ember.js forward in 2019 and beyond! 🚀🚀🚀
-
----
-
-## [Reason #4. Business Stability 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
