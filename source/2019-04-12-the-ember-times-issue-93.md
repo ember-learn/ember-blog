@@ -11,7 +11,6 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Contribute to the Ember Engines Guides MVP 🚂,...
 
----
 
 ## [Ember Community Survey 📜](https://emberjs.com/ember-community-survey-2019/)
 Welcome to our first special edition of the Ember Times! Besides a call for contribution to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the results of this year's Ember Community Survey. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers tried to give you a nice overview and context of the result of this year. So enjoy the read 📜.
