@@ -9,7 +9,7 @@ responsive: true
 ഹായ് Emberistas! 🐹
 
 <!--alex ignore special-->
-Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today. So enjoy the read. 📜
+Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today, as well as ways that we can reflect and improve. So enjoy the read. 📜
 
 ---
 
@@ -61,14 +61,31 @@ Ember's success in providing stability and reliability shines also through the a
 
 ---
 
-## [Reason #3. Business Stability 🐹](#section-url)
-<change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Reason #3. Business Case 💼](https://emberjs.com/ember-community-survey-2019/#how-likely-to-recommend-ember)
+
+Ember developers can make a strong case for choosing Ember at work. With stability comes peace of mind for business users, who "can relax knowing that deprecations & breaking changes will be flagged up months/years in advance."
+
+By choosing Ember, you can save your development team time, particularly once you're familiar with Ember. In recommending Ember, one respondent said: 
+
+> You can learn Ember once and apply your knowledge in any other Ember project. That is an achievement which can't even be remotely accomplished by (other frameworks). Ember is always a coherent experience as all addons can be authored and consumed via the same tools. Spending less brainpower on tooling, setting up a testing environment, or writing testable code is a very good thing.
+
+It can be challenging to sway folks outside of the community to Ember. For example, another survey respondent shared:
+
+> [Ember] just isn't used broadly enough in my part of the country to encourage people in that direction. The exception is for a large team that is starting from scratch - there I would recommend it still.
+
+This quote reminded us of our past Readers’ Question from [@kategengler](https://github.com/kategengler), where she discussed ["How do I pitch Ember at my company?"](https://discuss.emberjs.com/t/readers-questions-how-do-i-pitch-ember-at-my-company/14289) Here were some of her tips:
+
+* Ember is used by large corporations such as Netflix, Heroku, LinkedIn, Sony, and others. 
+* Everything you need is included out-of-the-box (router, data layer, build tool), but there’s also the flexibility to replace pieces if needed.
+* There are many high-quality community-contributed/maintained addons. There are well-established solutions for common needs such as deployment, internationalization, accessibility, user interface elements, etc. See more at [emberobserver.com](https://emberobserver.com/).
+* Ember CLI makes it simple to get a local development environment going.
+* LTS releases ensure you don’t have to constantly update Ember to get bug and security fixes.
+* Ember evolves without making sudden breaking changes. API changes are signaled well in advance of a major version through deprecations, with the major versions merely removing those deprecated APIs.
+* The Ember community is active, helpful, and easy to find in the [Ember Community on Discord](https://discordapp.com/invite/zT3asNS).
 
 ---
 
-## [Reason #4. How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
+## [How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
 Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on things we can do better. 🤔
 
