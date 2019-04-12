@@ -6,8 +6,10 @@ alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
 ---
 
+ഹായ് Emberistas! 🐹
+
 <!--alex ignore special-->
-Welcome to a special edition of the Ember Times! Besides a call for contribution to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the results of this year's Ember Community Survey. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are, and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers tried to give you a nice overview and context of the result of this year. So enjoy the read. 📜
+Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today. So enjoy the read. 📜
 
 ---
 
@@ -90,7 +92,7 @@ There are tasks open from [moving docs](https://github.com/ember-engines/ember-e
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/luxferresum" target="gh-user">@luxferresum</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>, <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a>, <a href="https://github.com/samselikoff" target="gh-user">@samselikoff</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/miguelcobain" target="gh-user">@miguelcobain</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/BradLeftley" target="gh-user">@BradLeftley</a>, <a href="https://github.com/uchihamalolan" target="gh-user">@uchihamalolan</a>, <a href="https://github.com/RichardOtvos" target="gh-user">@RichardOtvos</a> and <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
