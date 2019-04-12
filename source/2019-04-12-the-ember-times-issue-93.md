@@ -1,12 +1,10 @@
 ---
 title: The Ember Times - Issue No. 93
-author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
 ---
-
-<change the date and filename later so will appear in netlify!>
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
@@ -158,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam and the Learning Team
