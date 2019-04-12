@@ -65,11 +65,11 @@ Ember's success in providing stability and reliability shines also through the a
 
 Ember developers can make a strong case for choosing Ember at work. With stability comes peace of mind for business users, who "can relax knowing that deprecations & breaking changes will be flagged up months/years in advance."
 
-By choosing Ember, you can save your development team time, particularly once you're familiar with Ember. In recommending Ember, one respondent said: 
+By choosing Ember, you can **save your development team time**, particularly once you're familiar with Ember. In recommending Ember, one respondent said: 
 
 > You can learn Ember once and apply your knowledge in any other Ember project. That is an achievement which can't even be remotely accomplished by (other frameworks). Ember is always a coherent experience as all addons can be authored and consumed via the same tools. Spending less brainpower on tooling, setting up a testing environment, or writing testable code is a very good thing.
 
-It can be challenging to sway folks outside of the community to Ember. For example, another survey respondent shared:
+But it can be **challenging** to sway folks outside of the community to Ember. For example, another survey respondent shared:
 
 > [Ember] just isn't used broadly enough in my part of the country to encourage people in that direction. The exception is for a large team that is starting from scratch - there I would recommend it still.
 
@@ -87,15 +87,15 @@ This quote reminded us of our past Readers’ Question from [@kategengler](https
 
 ## [How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
-Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on things we can do better. 🤔
+Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on **things we can do better**. 🤔
 
-Specifically the survey empowers community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
+Specifically the survey **empowers** community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
 
 Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL) we heard at EmberConf in 2019, like [@MelSumner](https://github.com/melsumner)'s amazing talk [Don't Break The Web](https://noti.st/melsumner/Phhimm/dont-break-the-web), highlighted the importance of improving accessibility not just in Ember, but across the web as a whole.  
 
-The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-community-survey-2019/#stack-skills) underscore this point. While many survey participants identified themselves as possessing advanced skills in areas like Ember, JavaScript, HTML and CSS, almost 70% of participants self-identified at a beginner level skill regarding Accessible Rich Internet Applications (ARIA). So it turns out many of us can improve our skills in building accessible applications, let's seize the opportunity to improve and act on this data! ✨💪✨
+The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-community-survey-2019/#stack-skills) underscore this point. While many survey participants identified themselves as possessing advanced skills in areas like Ember, JavaScript, HTML and CSS, almost 70% of participants self-identified at a beginner level skill regarding Accessible Rich Internet Applications (ARIA). So it turns out many of us can improve our skills in building **accessible applications**, let's seize the opportunity to improve and act on this data! ✨💪✨
 
-A big, big thank you to all of those who participated in the 2019 Ember Community Survey! With your participation the survey provides all of us with a platform for discussion and ideas and is a truly important part of how we can all help move Ember.js forward in 2019 and beyond! 🚀🚀🚀
+A big, big **thank you** to all of those who participated in the 2019 Ember Community Survey! With your participation the survey provides all of us with a platform for discussion and ideas and is a truly important part of how we can all help move Ember.js forward in 2019 and beyond! 🚀🚀🚀
 
 ---
 
@@ -103,7 +103,7 @@ A big, big thank you to all of those who participated in the 2019 Ember Communit
 
 [@villander](https://github.com/villander) started a [quest issue](https://github.com/ember-engines/ember-engines.com/issues/55) to track all the work left to do to get an MVP of the [Ember Engines](https://github.com/ember-engines/ember-engines) Guides out!
 
-There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.com](http://www.ember-engines.com/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines.com/issues/57) and intended uses for engines. Plenty for everyone with all levels of experience with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines.com/issues/55)!
+There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.com](http://www.ember-engines.com/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines.com/issues/57) and intended uses for engines. Plenty for everyone with **all levels of experience** with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines.com/issues/55)!
 
 ---
 
