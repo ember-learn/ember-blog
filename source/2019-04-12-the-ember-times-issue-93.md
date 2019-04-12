@@ -75,7 +75,7 @@ It can be challenging to sway folks outside of the community to Ember. For examp
 
 This quote reminded us of our past Readers’ Question from [@kategengler](https://github.com/kategengler), where she discussed ["How do I pitch Ember at my company?"](https://discuss.emberjs.com/t/readers-questions-how-do-i-pitch-ember-at-my-company/14289) We thought it would be worthwhile to share some of her tips again:
 
-* Ember is used by large corporations such as Netflix, Heroku, LinkedIn, Sony, and others. 
+* Ember is used by large corporations such as LinkedIn, Intercom, Discourse, Sentry, and others.
 * Everything you need is included out-of-the-box (router, data layer, build tool), but there’s also the flexibility to replace pieces if needed.
 * There are many high-quality community-contributed/maintained addons. There are well-established solutions for common needs such as deployment, internationalization, accessibility, user interface elements, etc. See more at [emberobserver.com](https://emberobserver.com/).
 * Ember CLI makes it simple to get a local development environment going.
