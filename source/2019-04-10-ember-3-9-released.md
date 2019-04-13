@@ -23,7 +23,7 @@ Additionally, versions 3.8 of Ember and Ember Data are now promoted to LTS, whic
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.9
-Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, four (4) deprecations, and eight (8) bugfixes in this version.
+Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, six (6) deprecations, and eight (8) bugfixes in this version.
 
 #### New Features (0)
 No new features introduced in Ember.js 3.9.
