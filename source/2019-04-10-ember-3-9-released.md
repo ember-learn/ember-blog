@@ -28,7 +28,7 @@ Ember.js 3.9 is an incremental, backwards compatible release of Ember with bugfi
 #### New Features (0)
 No new features introduced in Ember.js 3.9.
 
-#### Deprecations (4)
+#### Deprecations (6)
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
@@ -37,23 +37,41 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 For more details on changes in Ember.js 3.9, please review the [Ember.js 3.9.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.9.0).
 
 
-**Computed Property Overridability (1 of 4)**
+**Computed Property Overridability (1 of 6)**
 
 Ember's computed properties are overridable by default if no setter is defined. This behavior is bug prone and has been deprecated. `readOnly()`, the modifier that prevents this behavior, will be deprecated once overridability has been removed. Please have a look at [the deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-override) for more information on this deprecation.
 
-**Computed Property `.property()` Modifier (2 of 4)**
+**Computed Property `.property()` Modifier (2 of 6)**
 
 `.property()` is a modifier that adds additional property dependencies to an existing computed property. To update, move the dependencies to the main computed property definition and you shouldn't see a deprecation warning any more. For more information please refer to [the deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-property).
 
-**Computed Property Volatility (3 of 4)**
+**Computed Property Volatility (3 of 6)**
 
 `.volatile()` is a computed property modifier which makes a computed property recalculate every time it is accessed, instead of caching. It also prevents property notifications from ever occuring on the property, which is generally not the behavior that developers are after. Volatile properties are usually used to simulate the behavior of native getters, which means that they would otherwise behave like normal properties.
 
 To update, consider upgrading to native class syntax and using native getters directly instead. There's guide on how to do this in the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-volatile).
 
-**Deprecate `@ember/object#aliasMethod` (4 of 4)**
+**Deprecate `@ember/object#aliasMethod` (4 of 6)**
 
 `@ember/object#aliasMethod` is a little known and rarely used method that allows user's to add aliases to objects defined with EmberObject. The deprecation warning can be removed by refactoring it into having one function call the other directly. To see how to do this, please refer to the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_object-alias-method)
+
+**Deprecate `this.$()` in curly components (5 of 6)**
+
+As part of the work in making Ember lean by default using `this.$()` in curly components is now deprecated. What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
+
+If you still would like to use jQuery in your application you will need to use the `@ember/jquery` package going forward.
+
+Read more about this deprecation in [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0386-remove-jquery.md).
+
+**Deprecate `Ember.$()` (6 of 6)**
+
+Using `Ember.$()` will now throw a deprecation warning. 
+
+What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
+
+If you still would like to use jQuery in your application you will need to use the `@ember/jquery` package going forward.
+
+Read more about this deprecation in [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0386-remove-jquery.md).
 
 ---
 
