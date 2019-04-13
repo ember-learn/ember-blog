@@ -6,6 +6,8 @@ alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
 responsive: true
 ---
 
+<change date in alias and filename on day of send>
+
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
@@ -14,6 +16,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -21,6 +25,17 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
@@ -28,6 +43,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
@@ -35,6 +52,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
@@ -42,6 +61,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
@@ -49,6 +70,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
@@ -56,6 +79,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
+<consider adding some bold to your paragraph>
+  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
@@ -63,13 +88,8 @@ responsive: true
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<consider adding some bold to your paragraph>
   
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
