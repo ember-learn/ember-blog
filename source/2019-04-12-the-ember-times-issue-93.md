@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 93
 author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam, Anne-Greeth van Herwijnen
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-93.html"
 responsive: true
 ---
