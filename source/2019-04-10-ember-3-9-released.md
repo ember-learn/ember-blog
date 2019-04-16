@@ -55,7 +55,7 @@ To update, consider upgrading to native class syntax and using native getters di
 
 `@ember/object#aliasMethod` is a little known and rarely used method that allows user's to add aliases to objects defined with EmberObject. The deprecation warning can be removed by refactoring it into having one function call the other directly. To see how to do this, please refer to the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_object-alias-method)
 
-**Deprecate `this.$()` in curly components (5 of 6)**
+**Deprecate `this.$()` in components (5 of 6)**
 
 As part of the work in making Ember lean by default using `this.$()` in curly components is now deprecated. What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
 
