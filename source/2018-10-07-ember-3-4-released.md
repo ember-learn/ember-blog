@@ -28,11 +28,15 @@ The 3.4.0 release is an Ember.js Long-Term Support candidate. In six weeks, the 
 
 For more information about Ember's LTS policies, see the [announcement blog post](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html) and [builds page](http://emberjs.com/builds/).
 
-Ember.js 3.4 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are two (2) new features, two (2) deprecations, and eight (8) bugfixes in this version.
+Ember.js 3.4 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are three (3) new features, two (2) deprecations, and eight (8) bugfixes in this version.
 
-#### New Features (2)
+#### New Features (3)
 
-**Angle Bracket Invocation (1 of 2)**
+**Implement optional jQuery Integration (1 of 3)**
+
+See [emberjs/rfcs#294](https://github.com/emberjs/rfcs/blob/master/text/0294-optional-jquery.md) to get more prose
+
+**Angle Bracket Invocation (2 of 3)**
 
 In Ember 3.4 it is now possible to use angle bracket invocation. This means that you're now able to replace the classic invocation syntax:
 
@@ -64,7 +68,7 @@ The main advantage of the angle bracket invocation syntax is clarity. Because co
 
 Guides will be updated to reflect the new syntax in the coming weeks.
 
-**Custom Component Manager (2 of 2)**
+**Custom Component Manager (3 of 3)**
 
 Ember 3.4 ships with the new Custom Component Manager feature enabled by default. This feature gives addon authors access to a low-level API for creating component base classes which addon users can re-use and extend components from. Addon authors gain finer-grained control over the semantics of the components exported from their addons by the means of the component manager API.
 
