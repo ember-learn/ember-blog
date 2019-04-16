@@ -57,7 +57,7 @@ To update, consider upgrading to native class syntax and using native getters di
 
 **Deprecate `this.$()` in components (5 of 6)**
 
-As part of the work in making Ember lean by default using `this.$()` in curly components is now deprecated. What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
+As part of the work in making Ember lean by default using `this.$()` in components is now deprecated. What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
 
 If you still would like to use jQuery in your application you will need to use the `@ember/jquery` package going forward.
 
