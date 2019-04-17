@@ -90,7 +90,7 @@ responsive: true
 
 When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help debugging issues and aid your support team in assisting users. 
 
-[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js ([Ember Simple Auth](https://ember-simple-auth.com/) with Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for 0Auth2). 
+[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js ([Ember Simple Auth](https://ember-simple-auth.com/) with Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2). 
 
 Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask DoorKeeper to issue a new token for the provided user directly. Lastly, we update our existing OAuth2 authorizer so that we can pass the token (instead of password) to log in as that user.
 
