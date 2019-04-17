@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: the crowd
+author: Bradley Leftley, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -86,13 +86,16 @@ responsive: true
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [User Impersonation in SaaS with Ember.js and Ruby on Rails 🐹](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/)
+
+When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help debugging issues and aid your support team in assisting users. 
+
+[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js ([Ember Simple Auth](https://ember-simple-auth.com/) with Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2). 
+
+Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask DoorKeeper to issue a new token for the provided user directly. Lastly, we update our existing OAuth2 authorizer so that we can pass the token (instead of password) to log in as that user.
+
+Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started! 
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -126,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Bradley Leftley, the crowd and the Learning Team
