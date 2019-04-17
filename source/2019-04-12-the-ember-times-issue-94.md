@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: the crowd
+author: Bradley Leftley, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -86,13 +86,16 @@ responsive: true
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [User Impersonation in SaaS with Ember.js and Ruby on Rails 🐹](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/)
+
+When developing applications it is important to be able to log in as one of your users and see exactly what they see. This can help debugging issues and aid your support team in assisting users. 
+
+[@matixmatix](https://github.com/matixmatix) has created a awesome tutorial on how this can be done using Ember.js ([Ember Simple Auth](https://ember-simple-auth.com/) with Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem FOR 0Auth2). 
+
+Achieving this is fairly simple process. Once the client is exchanging username and password for an access token we then call this 0Auth 2.0 Password grant flow. Then to impersonate a user we then create a new token by bypassing the part where the password is used. Then by asking DoorKeeper to issue a new token for the provided user directly. Now we have a token we then create a new authenticator by extending the existing 0Auth2 authorizer, so we can pass the tokenData directly to our Ember app. 
+
+Read [@matixmatix](https://github.com/matixmatix) full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started! 
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -126,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Bradley Leftley, the crowd and the Learning Team
