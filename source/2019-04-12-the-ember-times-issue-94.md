@@ -88,13 +88,13 @@ responsive: true
 
 ## [User Impersonation in SaaS with Ember.js and Ruby on Rails 🐹](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/)
 
-When developing applications it is important to be able to log in as one of your users and see exactly what they see. This can help debugging issues and aid your support team in assisting users. 
+When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help debugging issues and aid your support team in assisting users. 
 
-[@matixmatix](https://github.com/matixmatix) has created a awesome tutorial on how this can be done using Ember.js ([Ember Simple Auth](https://ember-simple-auth.com/) with Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem FOR 0Auth2). 
+[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js ([Ember Simple Auth](https://ember-simple-auth.com/) with Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for 0Auth2). 
 
-Achieving this is fairly simple process. Once the client is exchanging username and password for an access token we then call this 0Auth 2.0 Password grant flow. Then to impersonate a user we then create a new token by bypassing the part where the password is used. Then by asking DoorKeeper to issue a new token for the provided user directly. Now we have a token we then create a new authenticator by extending the existing 0Auth2 authorizer, so we can pass the tokenData directly to our Ember app. 
+Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask DoorKeeper to issue a new token for the provided user directly. Lastly, we update our existing OAuth2 authorizer so that we can pass the token (instead of password) to log in as that user.
 
-Read [@matixmatix](https://github.com/matixmatix) full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started! 
+Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started! 
 
 ---
 
