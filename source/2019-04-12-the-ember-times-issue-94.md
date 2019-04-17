@@ -53,7 +53,7 @@ would become,
 </Grid>
 ```
 
-The best news? You don't have to wait till your app is at 3.10. Thanks to @rwjblue[https://github.com/rwjblue], you can use a polyfill[https://github.com/rwjblue/ember-angle-bracket-invocation-polyfill] to get the full feature set of angle brackets today! 😃
+The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjblue](https://github.com/rwjblue), you can use a [polyfill](https://github.com/rwjblue/ember-angle-bracket-invocation-polyfill) to get the full feature set of angle brackets today! 😃
 
 [Learn more about angle bracket components from EmberMap.](https://embermap.com/video/angle-bracket-components-a-first-look)
 
