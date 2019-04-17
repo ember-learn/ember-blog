@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -9,6 +9,8 @@ responsive: true
 <change date in alias and filename on day of send>
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+
+calling nested components in angle brackets, ...
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -23,12 +25,37 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Nested Components in Angle Brackets: A First Look 🔍](https://embermap.com/video/angle-bracket-components-a-first-look)
+
+Starting Ember 3.10 (currently in beta), we can call nested components in angle brackets! 🎉🎉🎉 Recall, we want to use angle brackets to add clarity to code.
+
+EmberMap gave us [a first look](https://embermap.com/video/angle-bracket-components-a-first-look) at the new syntax and how to incrementally migrate our templates. For example, the template,
+
+```handlebars
+{{#ui-grid columns='md:2 lg:3' gutters='md:3' as |grid|}}
+  {{#each sortedEpisodes as |episode|}}
+    {{#grid.column}}
+      {{podcast/components/podcast-card episode=episode}}
+    {{/grid.column}}
+  {{/each}}
+{{/ui-grid}}
+```
+
+would become,
+
+```handlebars
+<Grid @columns='md:2 lg:3' @gutters='md:3' as |grid|>
+  {{#each sortedEpisodes as |episode|}}
+    <grid.Column>
+      <Podcast::Components::PodcastCard @episode={{episode}} />
+    </grid.Column>
+  {{/each}}
+</Grid>
+```
+
+The best news? You don't have to wait till your app is at 3.10. Thanks to @rwjblue[https://github.com/rwjblue], you can use a polyfill[https://github.com/rwjblue/ember-angle-bracket-invocation-polyfill] to get the full feature set of angle brackets today! 😃
+
+[Learn more about angle bracket components from EmberMap.](https://embermap.com/video/angle-bracket-components-a-first-look)
 
 ---
 
@@ -126,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
