@@ -27,7 +27,7 @@ calling nested components in angle brackets, ...
 
 ## [Nested Components in Angle Brackets: A First Look 🔍](https://embermap.com/video/angle-bracket-components-a-first-look)
 
-Starting Ember 3.10 (currently in beta), we can call nested components in angle brackets! 🎉🎉🎉 Recall, we want to use angle brackets to add clarity to code.
+Starting Ember 3.10 (currently in beta), we can call **nested components in angle brackets**! 🎉🎉🎉 Recall, we want to use angle brackets to **add clarity to code**.
 
 EmberMap gave us [a first look](https://embermap.com/video/angle-bracket-components-a-first-look) at the new syntax and how to incrementally migrate our templates. For example, the template,
 
