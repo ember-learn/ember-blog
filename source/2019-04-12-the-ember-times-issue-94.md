@@ -14,6 +14,7 @@ responsive: true
 
 This week:
 calling nested components in angle brackets 🔍, 
+RFCs to improve Record Data 💬,
 user impersonation with ember-simple-auth 👤, 
 EmberCamp videos are live 🍿, ...
 
@@ -71,12 +72,19 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## Record Data RFCs 💬
+
+In RFCs [#463](https://github.com/emberjs/rfcs/pull/463) and [#466](https://github.com/emberjs/rfcs/pull/466), [@igorT](https://github.com/igorT) asks for **your help with improving the Record Data interface** in Ember Data. [Introduced in Ember 3.5](https://blog.emberjs.com/2018/10/15/ember-3-5-released.html), Record Data was designed to ...
+
+- Help addons extend Ember Data without relying on its private APIs
+- Help apps manage relationships, dirty attributes, rollbacks, and specialized models using these addons
+
+[@igorT](https://github.com/igorT) proposes that we take these actions to improve Record Data:
+
+- Add methods that return the `created` and `deleted` states of a record
+- Add a service that returns the `in-flight` and `completed` states of a request
+
+If you'd like to learn more, please take a look at RFCs [#463](https://github.com/emberjs/rfcs/pull/463) and [#466](https://github.com/emberjs/rfcs/pull/466). Please give feedback on what you'd like to see in Record Data!
   
 ---
 
