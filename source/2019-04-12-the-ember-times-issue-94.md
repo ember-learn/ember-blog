@@ -76,10 +76,10 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
 
 In [RFC #463](https://github.com/emberjs/rfcs/pull/463), [@igorT](https://github.com/igorT) asks for **your help with improving the Record Data interface** in Ember Data.
 
-What is **Record Data**? [Introduced in Ember 3.5](https://blog.emberjs.com/2018/10/15/ember-3-5-released.html), Record Data was designed to ...
+What is Record Data? [Introduced in Ember 3.5](https://blog.emberjs.com/2018/10/15/ember-3-5-released.html), Record Data was designed to ...
 
-- Help addons extend Ember Data without relying on its private APIs
-- Help apps manage relationships, dirty attributes, rollbacks, and specialized models via these addons
+- Help addons extend Ember Data **without relying on private APIs**
+- Help apps **manage relationships, dirty attributes, rollbacks, and specialized models** via these addons
 
 In the RFC, [@igorT](https://github.com/igorT) proposes that we add methods that return the `created` and `deleted` states of a record. These methods would be consumed by the addons to make correct decisions.
 
