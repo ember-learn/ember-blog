@@ -13,7 +13,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 This week:
-calling nested components in angle brackets 🔍, 2 RFCs to help improve Ember Data 💬,
+calling nested components in angle brackets 🔍, 
+2 RFCs for improving Ember Data 💬,
 user impersonation with ember-simple-auth 👤, 
 EmberCamp videos are live 🍿, ...
 
@@ -71,7 +72,7 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
   
 ---
 
-## [Record State in Record Data RFC 💬](https://github.com/emberjs/rfcs/pull/463)
+## [Record Data RFC: Record State 💬](https://github.com/emberjs/rfcs/pull/463)
 
 In [RFC #463](https://github.com/emberjs/rfcs/pull/463), [@igorT](https://github.com/igorT) asks for **your help with improving the Record Data interface** in Ember Data.
 
@@ -80,15 +81,15 @@ What is **Record Data**? [Introduced in Ember 3.5](https://blog.emberjs.com/2018
 - Help addons extend Ember Data without relying on its private APIs
 - Help apps manage relationships, dirty attributes, rollbacks, and specialized models via these addons
 
-In the RFC, [@igorT](https://github.com/igorT) proposes that we add methods that return  `created` and `deleted` states of a record. These methods would be consumed by the addons to make correct decisions.
+In the RFC, [@igorT](https://github.com/igorT) proposes that we add methods that return the `created` and `deleted` states of a record. These methods would be consumed by the addons to make correct decisions.
 
-If you'd like to learn more, please take a look at [RFC #463](https://github.com/emberjs/rfcs/pull/463). Please also give feedback on what you'd like to see in Record Data! ✍️
+If you'd like to learn more, please take a look at [RFC #463](https://github.com/emberjs/rfcs/pull/463). Please also leave your feedback! ✍️
 
 ---
 
-## [Request State Service in Ember Data RFC 💬](https://github.com/emberjs/rfcs/pull/466)
+## [Ember Data RFC: Request State Service 💬](https://github.com/emberjs/rfcs/pull/466)
 
-On a related note, [@igorT](https://github.com/igorT) proposes in [RFC #466](https://github.com/emberjs/rfcs/pull/466) that we create a **Request State** service, which returns  `in-flight` and `completed` states of a request. This service would, not only simplify how we determine the state, but also help us manage data from multiple sources.
+On a related note, [@igorT](https://github.com/igorT) proposes in [RFC #466](https://github.com/emberjs/rfcs/pull/466) that we create a **Request State service**, which returns the `in-flight` and `completed` states of a request. The service would, not only simplify how we determine the state of a request, but also help us work with data from multiple sources.
 
 You can read more about the proposal in [RFC #466](https://github.com/emberjs/rfcs/pull/466). As always, feedbacks are welcome! 🙂
   
