@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: Isaac Lee, Bradley Leftley, the crowd
+author: Isaac Lee, Bradley Leftley, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -10,9 +10,10 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-calling nested components in angle brackets, ...
-
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+calling nested components in angle brackets, 
+EmberCamp videos are live 🍿, ...
 
 ---
 
@@ -104,15 +105,6 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
----
-
 ## [User Impersonation in SaaS with Ember.js and Ruby on Rails 🐹](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/)
 
 When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help debugging issues and aid your support team in assisting users. 
@@ -123,6 +115,20 @@ Achieving this is a fairly simple process. Normally, a client exchanges their us
 
 Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started! 
 
+---
+
+## [EmberCamp Videos are Live! 🍿](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW)
+
+Looking for some more Ember content to watch? The first batch of EmberCamp 2018 videos are now available! 
+
+We especially enjoyed [@toranb](https://github.com/toranb)'s talk [Fast Feedback, Forward Progress](https://www.youtube.com/watch?v=wX8PxE0BVjI&list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW&index=4) where he talks about ways to **work smarter, not harder** as developers. He shares ways to choose productivity with a few stories in Ember.
+
+* Test driven development: Choose a feedback loop designed for experimentation and learning
+* Hot reloading: Choose a feedback loop designed with layout in mind
+* User experience: Choose a feedback loop your customers will love 
+
+Stay tuned for future announcements by following [@embercamp](https://twitter.com/embercamp) on Twitter. And **save the date**, EmberCamp Chicago 2019 will be on August 23rd.
+  
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -156,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Bradley Leftley, the crowd and the Learning Team
+Isaac Lee, Bradley Leftley, Amy Lam, the crowd and the Learning Team
