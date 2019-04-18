@@ -24,13 +24,11 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.3
 
-Ember.js 3.3 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is one (1) new feature, three (3) deprecations, and eight (8) bugfixes in this version.
+Ember.js 3.3 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is zero (0) new feature, three (3) deprecations, and eight (8) bugfixes in this version.
 
-#### New Features (1)
+#### New Features (0)
 
-**Implement optional jQuery Integration (1 of 1)**
-
-See [emberjs/rfcs#294](https://github.com/emberjs/rfcs/blob/master/text/0294-optional-jquery.md) to get more prose
+There are no new features in Ember.js 3.3.
 
 #### Deprecations (3)
 
