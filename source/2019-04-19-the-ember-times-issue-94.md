@@ -2,22 +2,13 @@
 title: The Ember Times - Issue No. 94
 author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/12-the-ember-times-issue-94.html"
+alias : "blog/2019/04/19-the-ember-times-issue-94.html"
 responsive: true
 ---
 
-<change date in alias and filename on day of send>
-
 Bonghjornu Emberistas! 🐹
 
-This week:
-calling nested components in Angle Brackets Invocation Syntax 🔍,
-2 RFCs for improving Ember Data 💬,
-user impersonation with Ember Simple Auth 👤,
-EmberCamp videos are live 🍿,
-check out code splitting on routes 🖖,
-an exclusive interview with Ember contributor **@danielleadams** 🎙 and more about
-`@action`, `{{on}}` & `{{fn}}` in a brand-new blog post 🚀!
+This week: calling nested components in Angle Brackets Invocation Syntax 🔍, 2 RFCs for improving Ember Data 💬, an exclusive interview with Ember contributor **@danielleadams** 🎙, user impersonation with Ember Simple Auth 👤, check out code splitting on routes 🖖, a brand-new blog post about `@action`, `{{on}}` & `{{fn}}` 🚀, and last, but not least, EmberCamp videos are live! 🍿
 
 ---
 
@@ -104,31 +95,11 @@ Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://code
 
 ---
 
-## [EmberCamp Videos are Live! 🍿](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW)
-
-Looking for some more Ember content to watch? The first batch of EmberCamp 2018 videos are now available!
-
-We especially enjoyed [@toranb](https://github.com/toranb)'s talk [Fast Feedback, Forward Progress](https://www.youtube.com/watch?v=wX8PxE0BVjI&list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW&index=4) where he talks about ways to **work smarter, not harder** as developers. He shares ways to choose productivity with a few stories in Ember.
-
-* Test driven development: Choose a feedback loop designed for experimentation and learning
-* Hot reloading: Choose a feedback loop designed with layout in mind
-* User experience: Choose a feedback loop your customers will love
-
-Stay tuned for future announcements by following [@embercamp](https://twitter.com/embercamp) on Twitter. And **save the date**, EmberCamp Chicago 2019 will be on August 23rd.
-
----
-
 ## [Code Splitting on Routes 🖖](https://twitter.com/acorncom/status/1111827571803471872)
 
 In [Embroider](https://github.com/embroider-build/embroider), an experimental build system for EmberJS, [@ef4](https://github.com/ef4) [added](https://github.com/embroider-build/embroider/pull/109) the `splitAtRoutes` option along with the `@embroider/router` package to enable per **route code splitting**. Ember applications can start testing route code splitting by just sticking to community conventions.
 
 Try out [Embroider](https://github.com/embroider-build/embroider) today!
-
----
-
-## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
-
-<p>This week we'd like to thank <a href="https://github.com/nlfurniss" target="gh-user">@nlfurniss</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/raido" target="gh-user">@raido</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/CvX" target="gh-user">@CvX</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/ef4" target="gh-user">@ef4</a> and <a href="https://github.com/chiragpat" target="gh-user">@chiragpat</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -143,6 +114,26 @@ The post covers some of the rationales for changing the use of `{{action}}` and 
 You also won't want to miss coverage of the `{{on}}` modifier that replaces event handling responsibilities of `{{action}}` and the `{{fn}}` partial application helper, both of which have RFC's that have moved into **Final Comment Period (FCP)**.
 
 For more details, check out the full blog post [here](https://www.pzuraq.com/ember-octane-update-action/).
+
+---
+
+## [EmberCamp Videos are Live! 🍿](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW)
+
+Looking for some more Ember content to watch? The first batch of EmberCamp 2018 videos are now available!
+
+We especially enjoyed [@toranb](https://github.com/toranb)'s talk [Fast Feedback, Forward Progress](https://www.youtube.com/watch?v=wX8PxE0BVjI&list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW&index=4) where he talks about ways to **work smarter, not harder** as developers. He shares ways to choose productivity with a few stories in Ember.
+
+* Test driven development: Choose a feedback loop designed for experimentation and learning
+* Hot reloading: Choose a feedback loop designed with layout in mind
+* User experience: Choose a feedback loop your customers will love
+
+Stay tuned for future announcements by following [@embercamp](https://twitter.com/embercamp) on Twitter. And **save the date**, EmberCamp Chicago 2019 will be on August 23rd.
+
+---
+
+## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
+
+<p>This week we'd like to thank <a href="https://github.com/nlfurniss" target="gh-user">@nlfurniss</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/raido" target="gh-user">@raido</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/CvX" target="gh-user">@CvX</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/ef4" target="gh-user">@ef4</a> and <a href="https://github.com/chiragpat" target="gh-user">@chiragpat</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
