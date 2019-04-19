@@ -69,7 +69,7 @@ You can read more about the proposal in [RFC #466](https://github.com/emberjs/rf
 
 ---
 
-## ["I contribute to Ember" with Danielle Adams 💬](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473)
+## ["I contribute to Ember" with Danielle Adams 🎙](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473)
 
 <div class="float-right padded portrait-frame">
   <img alt="Danielle Adams" title="Danielle Adams - Contributor to Ember" src="/images/blog/emberjstimes/danielleadams.jpg" />
