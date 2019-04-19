@@ -91,7 +91,7 @@ If you'd like to learn more, please take a look at [RFC #463](https://github.com
 
 On a related note, [@igorT](https://github.com/igorT) proposes in [RFC #466](https://github.com/emberjs/rfcs/pull/466) that we create a **Request State service**, which returns the `in-flight` and `completed` states of a request. The service would, not only simplify how we determine the state of a request, but also help us work with data from multiple sources.
 
-You can read more about the proposal in [RFC #466](https://github.com/emberjs/rfcs/pull/466). As always, feedbacks are welcome! 🙂
+You can read more about the proposal in [RFC #466](https://github.com/emberjs/rfcs/pull/466). As always, feedback is welcome! 🙂
   
 ---
 
