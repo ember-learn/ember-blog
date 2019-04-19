@@ -8,7 +8,7 @@ responsive: true
 
 Bonghjornu Emberistas! 🐹
 
-This week: calling nested components in Angle Brackets Invocation Syntax 🔍, 2 RFCs for improving Ember Data 💬, an exclusive interview with Ember contributor **@danielleadams** 🎙, user impersonation with Ember Simple Auth 👤, check out code splitting on routes 🖖, a brand-new blog post about `@action`, `{{on}}` & `{{fn}}` 🚀, and last, but not least, EmberCamp videos are live! 🍿
+This week: calling nested components in Angle Brackets Invocation Syntax 🔍, 2 RFCs for improving Ember Data 💬, an exclusive interview with Ember contributor @danielleadams 🎙, user impersonation with Ember Simple Auth 👤, check out code splitting on routes 🖖, a brand-new blog post about `@action`, `{{on}}` & `{{fn}}` 🚀, and last, but not least, EmberCamp videos are live! 🍿
 
 ---
 
