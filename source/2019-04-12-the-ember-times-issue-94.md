@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis the crowd
+author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -18,8 +18,7 @@ calling nested components in angle brackets 🔍,
 user impersonation with ember-simple-auth 👤,
 EmberCamp videos are live 🍿,
 Check out code splitting on routes 🖖,
-an exclusive interview with Ember contributor **@danielleadams** 🎙,
-@action, {{on}} & {{fn}} blog post 🚀...
+an exclusive interview with Ember contributor **@danielleadams** 🎙, ...
 
 ---
 
@@ -170,17 +169,6 @@ Try out [Embroider](https://github.com/embroider-build/embroider) today!
 
 ---
 
-## [@action, {{on}} & {{fn}} blog post 🚀](https://www.pzuraq.com/ember-octane-update-action/)
-If you haven't been following the discussion on @action, {{on}}, and {{fn}}, this is the blog post for you!
-
-[@pzuraq](https://github.com/pzuraq) continues his wonderful series of blog posts with a new one that focuses on the evolution of @action, {{on}}, and {{fn}} in detail.
-
-The post covers some of the rationales for changing the use of {{action}} and how the use of the @action decorator will differ, including consideration of what the responsibilities of actions are and treatment of how binding works in this area of Ember. You also won't want to miss coverage of the {{on}} modifier that replaces event handling responsibilities of {{action}} and the {{fn}} partial application helper, both of which have RFC's that have moved into Final Comment Period.
-
-For more detail checkout the full blog post [here](https://www.pzuraq.com/ember-octane-update-action/).
-
----
-
 ## [Got a Question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
 
 <div class="blog-row">
@@ -206,4 +194,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, the crowd and the Learning Team
