@@ -157,7 +157,7 @@ Stay tuned for future announcements by following [@embercamp](https://twitter.co
 
 ## [Code Splitting on Routes 🖖](https://twitter.com/acorncom/status/1111827571803471872)
 
-In [embroider](https://github.com/embroider-build/embroider), an experimental build system for EmberJS, [@ef4](https://github.com/ef4) [added](https://github.com/embroider-build/embroider/pull/109) the `splitAtRoutes` option along with the `@embroider/router` package to enable per route code splitting. Ember applications can start testing route code splitting by just sticking to community conventions.
+In [Embroider](https://github.com/embroider-build/embroider), an experimental build system for EmberJS, [@ef4](https://github.com/ef4) [added](https://github.com/embroider-build/embroider/pull/109) the `splitAtRoutes` option along with the `@embroider/router` package to enable per route code splitting. Ember applications can start testing route code splitting by just sticking to community conventions.
 
 Try out [Embroider](https://github.com/embroider-build/embroider) today!
 
