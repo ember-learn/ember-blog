@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: Isaac Lee, Bradley Leftley, Amy Lam, the crowd
+author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -13,17 +13,18 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 This week:
-calling nested components in angle brackets 🔍, 
+calling nested components in angle brackets 🔍,
 2 RFCs for improving Ember Data 💬,
-user impersonation with ember-simple-auth 👤, 
-EmberCamp videos are live 🍿, ...
+user impersonation with ember-simple-auth 👤,
+EmberCamp videos are live 🍿,
+an exclusive interview with Ember contributor **@danielleadams** 🎙, ...
 
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -66,10 +67,10 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Record Data RFC: Record State 💬](https://github.com/emberjs/rfcs/pull/463)
@@ -92,60 +93,65 @@ If you'd like to learn more, please take a look at [RFC #463](https://github.com
 On a related note, [@igorT](https://github.com/igorT) proposes in [RFC #466](https://github.com/emberjs/rfcs/pull/466) that we create a **Request State service**, which returns the `in-flight` and `completed` states of a request. The service would, not only simplify how we determine the state of a request, but also help us work with data from multiple sources.
 
 You can read more about the proposal in [RFC #466](https://github.com/emberjs/rfcs/pull/466). As always, feedback is welcome! 🙂
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## ["I contribute to Ember" with Danielle Adams 💬](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473)
+
+<div class="float-right padded portrait-frame">
+  <img alt="Danielle Adams" title="Danielle Adams - Contributor to Ember" src="/images/blog/emberjstimes/danielleadams.jpg" />
+</div>
+
+In our 10th edition of the contributor interview series, community member **Danielle Adams**, also known as [@danielleadams](https://github.com/danielleadams), talks about her work as a **mentor**, conference **MC** and **public speaker** and shares tips to be present and confident when presenting your ideas. ✨
+
+You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473).
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473">Read more</a>
+
 ---
 
 ## [User Impersonation in SaaS with Ember.js and Ruby on Rails 👤](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/)
 
-When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help with debugging issues and aid your support team in assisting users. 
+When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help with debugging issues and aid your support team in assisting users.
 
-[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js (with [Ember Simple Auth](https://ember-simple-auth.com/)) and Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2). 
+[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js (with [Ember Simple Auth](https://ember-simple-auth.com/)) and Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2).
 
 Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask DoorKeeper to issue a new token for the provided user directly. Lastly, we update our existing OAuth2 authorizer so that we can pass the token (instead of password) to log in as that user.
 
-Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started! 
+Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started!
 
 ---
 
 ## [EmberCamp Videos are Live! 🍿](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW)
 
-Looking for some more Ember content to watch? The first batch of EmberCamp 2018 videos are now available! 
+Looking for some more Ember content to watch? The first batch of EmberCamp 2018 videos are now available!
 
 We especially enjoyed [@toranb](https://github.com/toranb)'s talk [Fast Feedback, Forward Progress](https://www.youtube.com/watch?v=wX8PxE0BVjI&list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW&index=4) where he talks about ways to **work smarter, not harder** as developers. He shares ways to choose productivity with a few stories in Ember.
 
 * Test driven development: Choose a feedback loop designed for experimentation and learning
 * Hot reloading: Choose a feedback loop designed with layout in mind
-* User experience: Choose a feedback loop your customers will love 
+* User experience: Choose a feedback loop your customers will love
 
 Stay tuned for future announcements by following [@embercamp](https://twitter.com/embercamp) on Twitter. And **save the date**, EmberCamp Chicago 2019 will be on August 23rd.
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -167,7 +173,7 @@ Stay tuned for future announcements by following [@embercamp](https://twitter.co
 
 ---
 
-## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
+## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -179,4 +185,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Bradley Leftley, Amy Lam, the crowd and the Learning Team
+Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, the crowd and the Learning Team
