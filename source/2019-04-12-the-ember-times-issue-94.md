@@ -175,7 +175,9 @@ If you haven't been following the discussion on @action, {{on}}, and {{fn}}, thi
 
 [@pzuraq](https://github.com/pzuraq) continues his wonderful series of blog posts with a new one that focuses on the evolution of @action, {{on}}, and {{fn}} in detail.
 
-The post covers some of the rationales for changing the use of {{action}} and how the use of the @action decorator will differ, including consideration of what the responsibilities of actions are and treatment of how binding works in this area of Ember. You also won't want to miss coverage of the {{on}} modifier that replaces event handling responsibilities of {{action}} and the {{fn}} partial application helper, both of which have RFC's that have moved into Final Comment Period.
+The post covers some of the rationales for changing the use of {{action}} and how the use of the @action decorator will differ, including consideration of what the responsibilities of actions are and treatment of how decorators can help improve binding context.
+
+You also won't want to miss coverage of the {{on}} modifier that replaces event handling responsibilities of {{action}} and the {{fn}} partial application helper, both of which have RFC's that have moved into Final Comment Period.
 
 For more details, check out the full blog post [here](https://www.pzuraq.com/ember-octane-update-action/).
 
