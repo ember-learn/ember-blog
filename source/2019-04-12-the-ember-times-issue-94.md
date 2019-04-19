@@ -14,6 +14,7 @@ responsive: true
 
 This week:
 calling nested components in angle brackets 🔍, 
+2 RFCs for improving Ember Data 💬,
 user impersonation with ember-simple-auth 👤, 
 EmberCamp videos are live 🍿, ...
 
@@ -71,12 +72,26 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Record Data RFC: Record State 💬](https://github.com/emberjs/rfcs/pull/463)
+
+In [RFC #463](https://github.com/emberjs/rfcs/pull/463), [@igorT](https://github.com/igorT) asks for **your help with improving the Record Data interface** in Ember Data.
+
+What is Record Data? [Introduced in Ember 3.5](https://blog.emberjs.com/2018/10/15/ember-3-5-released.html), Record Data was designed to...
+
+- Help addons **extend Ember Data without relying on private APIs**
+- Help apps **manage relationships, dirty attributes, rollbacks, and specialized models** via these addons
+
+In the RFC, [@igorT](https://github.com/igorT) proposes that we add methods that return the `created` and `deleted` states of a record. These methods would be consumed by the addons to make correct decisions.
+
+If you'd like to learn more, please take a look at [RFC #463](https://github.com/emberjs/rfcs/pull/463). Please also leave your feedback! ✍️
+
+---
+
+## [Ember Data RFC: Request State Service 💬](https://github.com/emberjs/rfcs/pull/466)
+
+On a related note, [@igorT](https://github.com/igorT) proposes in [RFC #466](https://github.com/emberjs/rfcs/pull/466) that we create a **Request State service**, which returns the `in-flight` and `completed` states of a request. The service would, not only simplify how we determine the state of a request, but also help us work with data from multiple sources.
+
+You can read more about the proposal in [RFC #466](https://github.com/emberjs/rfcs/pull/466). As always, feedback is welcome! 🙂
   
 ---
 
