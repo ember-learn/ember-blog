@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 94
-author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis the crowd
+author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/12-the-ember-times-issue-94.html"
 responsive: true
@@ -8,27 +8,16 @@ responsive: true
 
 <change date in alias and filename on day of send>
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Bonghjornu Emberistas! 🐹
 
 This week:
-calling nested components in angle brackets 🔍,
+calling nested components in Angle Brackets Invocation Syntax 🔍,
 2 RFCs for improving Ember Data 💬,
-user impersonation with ember-simple-auth 👤,
+user impersonation with Ember Simple Auth 👤,
 EmberCamp videos are live 🍿,
-Check out code splitting on routes 🖖,
-an exclusive interview with Ember contributor **@danielleadams** 🎙,
-@action, {{on}} & {{fn}} blog post 🚀...
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+check out code splitting on routes 🖖,
+an exclusive interview with Ember contributor **@danielleadams** 🎙 and more about
+`@action`, `{{on}}` & `{{fn}}` in a brand-new blog post 🚀!
 
 ---
 
@@ -66,15 +55,6 @@ The best news? You don't have to wait till your app is at 3.10. Thanks to [@rwjb
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Record Data RFC: Record State 💬](https://github.com/emberjs/rfcs/pull/463)
 
 In [RFC #463](https://github.com/emberjs/rfcs/pull/463), [@igorT](https://github.com/igorT) asks for **your help with improving the Record Data interface** in Ember Data.
@@ -98,24 +78,6 @@ You can read more about the proposal in [RFC #466](https://github.com/emberjs/rf
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## ["I contribute to Ember" with Danielle Adams 💬](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473)
 
 <div class="float-right padded portrait-frame">
@@ -134,9 +96,9 @@ You can read the full interview on [the Ember Forum](https://discuss.emberjs.com
 
 When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help with debugging issues and aid your support team in assisting users.
 
-[@matixmatix](https://github.com/matixmatix) has created an awesome tutorial on how this can be done using Ember.js (with [Ember Simple Auth](https://ember-simple-auth.com/)) and Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2).
+[@matixmatix](https://github.com/matixmatix) has created an **awesome tutorial** on how this can be done using Ember.js (with [Ember Simple Auth](https://ember-simple-auth.com/)) and Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2).
 
-Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask DoorKeeper to issue a new token for the provided user directly. Lastly, we update our existing OAuth2 authorizer so that we can pass the token (instead of password) to log in as that user.
+Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask _DoorKeeper_ to issue a new token for the provided user directly. Lastly, we update our existing _OAuth2_ authorizer so that we can pass the token (instead of a password) to log in as that user.
 
 Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started!
 
@@ -158,7 +120,7 @@ Stay tuned for future announcements by following [@embercamp](https://twitter.co
 
 ## [Code Splitting on Routes 🖖](https://twitter.com/acorncom/status/1111827571803471872)
 
-In [Embroider](https://github.com/embroider-build/embroider), an experimental build system for EmberJS, [@ef4](https://github.com/ef4) [added](https://github.com/embroider-build/embroider/pull/109) the `splitAtRoutes` option along with the `@embroider/router` package to enable per route code splitting. Ember applications can start testing route code splitting by just sticking to community conventions.
+In [Embroider](https://github.com/embroider-build/embroider), an experimental build system for EmberJS, [@ef4](https://github.com/ef4) [added](https://github.com/embroider-build/embroider/pull/109) the `splitAtRoutes` option along with the `@embroider/router` package to enable per **route code splitting**. Ember applications can start testing route code splitting by just sticking to community conventions.
 
 Try out [Embroider](https://github.com/embroider-build/embroider) today!
 
@@ -170,14 +132,15 @@ Try out [Embroider](https://github.com/embroider-build/embroider) today!
 
 ---
 
-## [@action, {{on}} & {{fn}} blog post 🚀](https://www.pzuraq.com/ember-octane-update-action/)
-If you haven't been following the discussion on @action, {{on}}, and {{fn}}, this is the blog post for you!
+## [@action, on & fn blog post 🚀](https://www.pzuraq.com/ember-octane-update-action/)
+If you haven't been following the discussion on `@action`, `{{on}}`, and `{{fn}}`, this is the **blog post for you**!
 
-[@pzuraq](https://github.com/pzuraq) continues his wonderful series of blog posts with a new one that focuses on the evolution of @action, {{on}}, and {{fn}} in detail.
+[@pzuraq](https://github.com/pzuraq) continues his wonderful series of blog posts with a new one that focuses on the evolution of `@action`, `{{on}}`, and `{{fn}}` in detail.
 
-The post covers some of the rationales for changing the use of {{action}} and how the use of the @action decorator will differ, including consideration of what the responsibilities of actions are and treatment of how decorators can help improve binding context.
+The post covers some of the rationales for changing the use of `{{action}}` and how the use of the `@action` decorator will differ, including consideration of what the **responsibilities of actions** are and treatment of how decorators can help improve binding context.
 
-You also won't want to miss coverage of the {{on}} modifier that replaces event handling responsibilities of {{action}} and the {{fn}} partial application helper, both of which have RFC's that have moved into Final Comment Period.
+<!-- alex ignore period -->
+You also won't want to miss coverage of the `{{on}}` modifier that replaces event handling responsibilities of `{{action}}` and the `{{fn}}` partial application helper, both of which have RFC's that have moved into **Final Comment Period (FCP)**.
 
 For more details, check out the full blog post [here](https://www.pzuraq.com/ember-octane-update-action/).
 
@@ -208,4 +171,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis and the Learning Team
