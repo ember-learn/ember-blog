@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 95
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/19-the-ember-times-issue-95.html"
 responsive: true
@@ -10,16 +10,16 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Read about the Component Templates Co-location RFC 🖇️, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Component Templates Co-location RFC 🖇️](https://github.com/emberjs/rfcs/pull/481)
+
+[@chancancode](https://github.com/chancancode) opened an RFC around placing the component’s class and template in the same directory on the file system. The proposed change is to move the templates from being located at `app/templates/components` into the `app/components` directory, co-locating it with the component’s JavaScript file.
+
+This change provides component class/template coupling, a single source of truth for components, resolves deviations from route template conventions, and the lack of a single import. If you'd like to learn more, please take a look at [RFC #481](https://github.com/emberjs/rfcs/pull/481). Read, comment, and spread the word about it! 🖊️
 
 ---
 
@@ -114,7 +114,7 @@ responsive: true
 
 ---
 
-## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -126,4 +126,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
