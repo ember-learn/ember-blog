@@ -65,7 +65,7 @@ This change provides component class/template coupling, a single source of truth
 
 This CLI tool can **find unused translations** in your component files. Soon, it will be able to **find broken and missing translations** too!
 
-[Try ember-intl-analyzer on your app today.](https://github.com/simplabs/ember-intl-analyzer)
+[Try ember-intl-analyzer on your app today. 💛](https://github.com/simplabs/ember-intl-analyzer)
   
 ---
 
