@@ -10,7 +10,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-Read about the Component Templates Co-location RFC 🖇️, the launch of ember-intl-analyzer 🔤, ...
+Read about the Component Templates Co-location RFC 🖇️, the launch of ember-intl-analyzer 🚀, ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -59,13 +59,13 @@ This change provides component class/template coupling, a single source of truth
   
 ---
 
-## [ember-intl-analyzer Launched 🔤](https://github.com/simplabs/ember-intl-analyzer)
+## [ember-intl-analyzer Launched! 🚀](https://github.com/simplabs/ember-intl-analyzer)
 
-[ember-intl-analyzer](https://github.com/simplabs/ember-intl-analyzer) is the newest addition to our i18n toolset, thanks to collaboration between [Simplabs](https://simplabs.com/) and [Qonto](https://qonto.eu/).
+[ember-intl-analyzer](https://github.com/simplabs/ember-intl-analyzer) is the newest addition to our [i18n toolset](https://github.com/ember-intl/ember-intl), thanks to collaboration between [Simplabs](https://simplabs.com/) and [Qonto](https://qonto.eu/).
 
 This CLI tool can **find unused translations** in your component files. Soon, it will be able to **find broken and missing translations** too!
 
-[Try ember-intl-analyzer on your app today!](https://github.com/simplabs/ember-intl-analyzer)
+[Try ember-intl-analyzer on your app today.](https://github.com/simplabs/ember-intl-analyzer)
   
 ---
 
