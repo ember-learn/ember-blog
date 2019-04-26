@@ -10,7 +10,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-Read about the Component Templates Co-location RFC 🖇️, the launch of ember-intl-analyzer 🚀, 
+Read about the Component Templates Co-location RFC 🖇️, the story behind ember-model-select 📔, the launch of ember-intl-analyzer 🚀, 
 EmberFest 2019 announced 🇩🇰,...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -33,7 +33,7 @@ This change provides component class/template coupling, a single source of truth
 
 ---
 
-## [The Story of ember-model-select 📔](https://nickschot.nl/blog/creating-ember-model-select)
+## [The Story Behind ember-model-select 📔](https://nickschot.nl/blog/creating-ember-model-select)
 
 Often, inspiration for a new idea comes from combining the best of existing ideas.
 
@@ -41,7 +41,7 @@ For his [first blog post](https://nickschot.nl/blog/creating-ember-model-select)
 
 We can use ember-model-select to create a `select` dropdown that lets users (1) **search for a model in Ember Data** and (2) **see an unlimited amount of data**. @nickschot combined three popular addons to solve this problem: [ember-power-select](https://ember-power-select.com/), [ember-concurrency](http://ember-concurrency.com), and [ember-infinity](https://github.com/ember-infinity/ember-infinity).
 
-To learn more about the motivation and solution behind ember-model-select, please have a look at [@nickschot's blog post](https://nickschot.nl/blog/creating-ember-model-select). 🙏
+To learn more about the motivation and solution behind ember-model-select, please take a look at [@nickschot's blog post](https://nickschot.nl/blog/creating-ember-model-select). 🙏
 
   
 ---
