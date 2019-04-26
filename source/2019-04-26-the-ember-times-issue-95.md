@@ -2,11 +2,9 @@
 title: The Ember Times - Issue No. 95
 author: Chris Ng, Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/04/19-the-ember-times-issue-95.html"
+alias : "blog/2019/04/26-the-ember-times-issue-95.html"
 responsive: true
 ---
-
-<change date in alias and filename on day of send>
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
@@ -102,7 +100,7 @@ Check out the videos from [EmberFest 2018](https://www.youtube.com/playlist?list
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/MonsieurDart" target="gh-user">@MonsieurDart</a>, <a href="https://github.com/step2yeung" target="gh-user">@step2yeung</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/RichardOtvos" target="gh-user">@RichardOtvos</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/mbinet" target="gh-user">@mbinet</a>, <a href="https://github.com/btecu" target="gh-user">@btecu</a>, <a href="https://github.com/romgere" target="gh-user">@romgere</a>, <a href="https://github.com/JonForest" target="gh-user">@JonForest</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/alexhancock" target="gh-user">@alexhancock</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/KamiKillertO" target="gh-user">@KamiKillertO</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/kgautreaux" target="gh-user">@kgautreaux</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/dbendaou" target="gh-user">@dbendaou</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/mikias10" target="gh-user">@mikias10</a>, <a href="https://github.com/zion" target="gh-user">@zion</a>, <a href="https://github.com/hakilebara" target="gh-user">@hakilebara</a>, <a href="https://github.com/dougbanville" target="gh-user">@dougbanville</a>, <a href="https://github.com/meanking" target="gh-user">@meanking</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
