@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 95
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/19-the-ember-times-issue-95.html"
 responsive: true
@@ -10,7 +10,8 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-Read about the Component Templates Co-location RFC 🖇️, the launch of ember-intl-analyzer 🚀, ...
+Read about the Component Templates Co-location RFC 🖇️, the launch of ember-intl-analyzer 🚀, 
+EmberFest 2019 announced 🇩🇰,...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -69,12 +70,11 @@ This CLI tool can **find unused translations** in your component files. Soon, it
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [EmberFest 2019 Announced 🇩🇰](https://emberfest.eu/)
   
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+EmberFest will be held in **Copenhagen** this year, October 17-18! EmberFest is the **European Community Ember Conference**. Looking for updates on the latest and greatest in Ember and Glimmer? This is the place to be! 
+
+Check out the videos from [EmberFest 2018](https://www.youtube.com/playlist?list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9) or follow [@EmberFest](https://twitter.com/EmberFest/) on Twitter. Tickets are on sale now, and you can take advantage of early-bird pricing (limited availability). Hope to see you there!
   
 ---
 
@@ -127,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
