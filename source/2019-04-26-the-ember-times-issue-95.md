@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 95
-author: Chris Ng, Isaac Lee, Amy Lam, the crowd
+author: Chris Ng, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/26-the-ember-times-issue-95.html"
 responsive: true
@@ -22,15 +22,6 @@ This change provides component class/template coupling, a single source of truth
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [The Story Behind ember-model-select 📔](https://nickschot.nl/blog/creating-ember-model-select)
 
 Often, inspiration for a new idea comes from combining the best of existing ideas.
@@ -41,25 +32,6 @@ We can use ember-model-select to create a `select` dropdown that lets users (1) 
 
 To learn more about @nickschot's motivation and solution behind ember-model-select, [please check out his blog post](https://nickschot.nl/blog/creating-ember-model-select). 🙏
 
-  
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
 ---
 
 ## [ember-intl-analyzer Launched! 🚀](https://github.com/simplabs/ember-intl-analyzer)
@@ -129,4 +101,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, and the Learning Team
