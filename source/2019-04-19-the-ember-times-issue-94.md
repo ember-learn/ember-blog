@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 94
 author: Isaac Lee, Bradley Leftley, Amy Lam, Jessica Jordan, Chris Ng, Jared Galanis
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/19-the-ember-times-issue-94.html"
 responsive: true
 ---
