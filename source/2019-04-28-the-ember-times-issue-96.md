@@ -14,7 +14,7 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url) {#data-headinga}
+## [test link 🐹](www.emberconf.com) {#data-headinga}
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -23,7 +23,7 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url) {#data-heading2}
+## [Section Title in Title Case 🐹] {#data-heading2} (www.emberconf.com) 
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
