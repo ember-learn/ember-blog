@@ -14,7 +14,7 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section Title in Title Case 🐹](#section-url) {#data-heading-1}
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -23,7 +23,7 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section Title in Title Case 🐹](#section-url) {#data-heading-2}
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
