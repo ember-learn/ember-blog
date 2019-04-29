@@ -14,7 +14,12 @@ responsive: true
 
 ---
 
-## test section title {#data-headinga}
+## test section title {#custom-id}
+
+blah blah
+
+<h2 id="custom-id2">My Great Heading</h2>
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
