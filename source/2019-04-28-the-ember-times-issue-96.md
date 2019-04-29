@@ -14,7 +14,7 @@ responsive: true
 
 ---
 
-## [test link 🐹](www.emberconf.com) {#data-headinga}
+## test section title {#data-headinga}
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
