@@ -6,19 +6,19 @@ alias : "blog/2019/04/28-the-ember-times-issue-96.html"
 responsive: true
 ---
 
+<span id="custom-id-intro">
+
 <change date in alias and filename on day of send>
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+  
+</span>
 
 ---
 
-## test section title {#custom-id}
-
-blah blah
-
-<h2 id="custom-id2">My Great Heading</h2>
+## test section title {#custom-id-p1}
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -28,7 +28,8 @@ blah blah
 
 ---
 
-## [Section Title in Title Case 🐹] {#data-heading2} (www.emberconf.com) 
+## Section Title in Title Case 🐹 {#custom-id-p2}
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
