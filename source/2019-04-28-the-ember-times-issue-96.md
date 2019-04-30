@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 96
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/28-the-ember-times-issue-96.html"
 responsive: true
@@ -10,15 +10,17 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-  
+This week:
+- **easier navigation through concurrency** 🕗 in your app tests,
+- ...
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -28,7 +30,25 @@ responsive: true
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [A New Milestone 💎 for Managing Concurrency in Your Test Suite 🕗](https://salsify.github.io/milestones/)
+
+Managing **concurrency** in your app can be hard (at least until you start using [ember-concurrency](http://ember-concurrency.com) ✨).
+But **managing concurrent behaviour** in your **tests** can be even harder.
+
+But there's a new hope, called [Milestones](https://twitter.com/__dfreeman/status/1120410100227878913). Celebrating its first public release, this library helps you to build apps with concurrent behaviour that's easy to navigate in both your dev and test environment. Check it out [today and give it a try](https://salsify.github.io/milestones/)!
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -37,64 +57,46 @@ responsive: true
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
----
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
----
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -116,7 +118,7 @@ responsive: true
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -128,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
