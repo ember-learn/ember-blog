@@ -28,7 +28,7 @@ This week:
 
 ## [Merci for Your Contributions at EmberJS Paris 🐹🇫🇷](https://twitter.com/EmberJSParis/status/1120760348485799939)
 
-Last week's **contributor workshop** organised by the folks over at the [EmberJS Paris meetup](https://twitter.com/EmberJSParis) has been a **real success**: with new changes to Ember CLI, improvements to Ember addons and even a brand-new RFC written, the Ember community gave back to the project, with some of the work even being made by first-time contributors! 🙌
+Last week's **contributor workshop**, organised by the folks over at the [EmberJS Paris meetup](https://twitter.com/EmberJSParis), was a **real success**: with new changes to Ember CLI, improvements to Ember addons and even a brand-new RFC written, the Ember community gave back to the project, with some of the work even being made by first-time contributors! 🙌
 
 Already feeling inspired to participate in or initiate your own **Ember contributor workshop**? Be sure to check out [these helpful resources to help you get you started](https://github.com/ember-learn/emberjs-contributors-workshop). And don't forget to check back on [#dev-ember-learning Discord channel](https://discordapp.com/invite/emberjs) and the [Ember Help Wanted app](https://help-wanted.emberjs.com/) to find something neat to work on. Codage heurex! 💻❤️
 
