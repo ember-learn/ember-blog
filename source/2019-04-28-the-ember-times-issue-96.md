@@ -32,14 +32,13 @@ This week:
 
 Last week's **contributor workshop**, organised by the folks over at the [EmberJS Paris meetup](https://twitter.com/EmberJSParis), was a **real success**: with new changes to Ember CLI, improvements to Ember addons and even a brand-new RFC written, the Ember community gave back to the project, with some of the work even being made by first-time contributors! 🙌
 
-Already feeling inspired to participate in or initiate your own **Ember contributor workshop**? Be sure to check out [these helpful resources to help you get you started](https://github.com/ember-learn/emberjs-contributors-workshop). And don't forget to check back on [#dev-ember-learning Discord channel](https://discordapp.com/invite/emberjs) and the [Ember Help Wanted app](https://help-wanted.emberjs.com/) to find something neat to work on. Codage heureux! 💻❤️
+Already feeling inspired to participate in or initiate your own **Ember contributor workshop**? Be sure to check out [these helpful resources to get you started](https://github.com/ember-learn/emberjs-contributors-workshop). And don't forget to check back on [#dev-ember-learning Discord channel](https://discordapp.com/invite/emberjs) and the [Ember Help Wanted app](https://help-wanted.emberjs.com/) to find something neat to work on. Codage heureux! 💻❤️
 
 ---
 
 ## [A New Milestone 💎 for Managing Concurrency in Your Test Suite 🕗](https://salsify.github.io/milestones/)
 
 Managing **concurrency in your app** can be hard (at least, until you start using [ember-concurrency](http://ember-concurrency.com) ✨). Managing **concurrency in your tests** can be even harder.
-But **managing concurrent behaviour** in your **tests** can be even harder.
 
 But there's a new hope, called [Milestones](https://twitter.com/__dfreeman/status/1120410100227878913). Celebrating its first public release, this library helps you build apps with concurrent behaviour that's easy to navigate in both your dev and test environment. Check it out [today and give it a try](https://salsify.github.io/milestones/)!
 
