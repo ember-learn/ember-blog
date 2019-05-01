@@ -32,13 +32,22 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
+## [Contributors Workshop on the Move 🇫🇷](#section-url)
+
 <consider adding some bold to your paragraph>
-  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+<add pic of paris tomster!>
+
+At the heart of open source are developers like you: people of all backgrounds, interests, and experience levels. Reminiscent of the Contributors Workshop at EmberConf BonusConf, Ember.js Paris held their own Contributors Workshop last week! Folks learned how to contribute to Ember, met other developers who shape our favorite framework such as [@Turbo87](https://github.com/turbo87) and [@locks](https://github.com/locks) from Ember Core, and made some pull requests!
+
+<add more folks and examples of some of the PR's?>
+
+Looking for some inspiration on contributing to open source?
+* [ember-learn/emberjs-contributors-workshop](https://github.com/ember-learn/emberjs-contributors-workshop) - Learn how to get started in open source by checking out the materials in this README, including a neat video on [becoming an open source contributor](https://www.youtube.com/watch?v=FgqXdsK6ohE)!
+* [https://help-wanted.emberjs.com/](https://help-wanted.emberjs.com/) - Repositiores with help-wanted issues
+* Attend the Ember Learning Team meeting to hear about what other folks are working on Thursdays at [everytimezone](https://everytimezone.com/s/e5fd00b8). See [#dev-ember-learning](https://discordapp.com/channels/480462759797063690/480777444203429888) for more info.
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
