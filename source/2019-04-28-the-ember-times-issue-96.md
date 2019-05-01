@@ -39,7 +39,7 @@ Already feeling inspired to participate in or initiate your own **Ember contribu
 Managing **concurrency in your app** can be hard (at least, until you start using [ember-concurrency](http://ember-concurrency.com) ✨). Managing **concurrency in your tests** can be even harder.
 But **managing concurrent behaviour** in your **tests** can be even harder.
 
-But there's a new hope, called [Milestones](https://twitter.com/__dfreeman/status/1120410100227878913). Celebrating its first public release, this library helps you to build apps with concurrent behaviour that's easy to navigate in both your dev and test environment. Check it out [today and give it a try](https://salsify.github.io/milestones/)!
+But there's a new hope, called [Milestones](https://twitter.com/__dfreeman/status/1120410100227878913). Celebrating its first public release, this library helps you build apps with concurrent behaviour that's easy to navigate in both your dev and test environment. Check it out [today and give it a try](https://salsify.github.io/milestones/)!
 
 ---
 
