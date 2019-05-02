@@ -62,9 +62,9 @@ Be sure to look out for an RFC to make Embroider the next build system for Ember
 
 ---
 
-## [Building with Octane, by Beto Cantu 🔥](https://www.youtube.com/watch?v=KnkWs18V9dA)
+## [Building with Octane, by Beto Cantú 🔥](https://www.youtube.com/watch?v=KnkWs18V9dA)
 
-At the inaugural [Ember San Antonio Meetup](https://www.meetup.com/EmberSA), Beto Cantu ([@betocantu93](https://github.com/betocantu93)) presented [an e-commerce app that he had built](https://github.com/betocantu93/octane-ecommerce) with [Octane](https://emberjs.com/editions/octane/) (in just hours!).
+At the inaugural [Ember San Antonio Meetup](https://www.meetup.com/EmberSA), Beto Cantú ([@betocantu93](https://github.com/betocantu93)) presented [an e-commerce app that he had built](https://github.com/betocantu93/octane-ecommerce) with [Octane](https://emberjs.com/editions/octane/) (in just hours!).
 
 In addition to new features such as `@tracked` and `{{on}}` modifier, Beto covered the fundamentals of Ember—from designing routes to deploying our app. This made a great introduction to attendees who had never used Ember before. 🤗
 
