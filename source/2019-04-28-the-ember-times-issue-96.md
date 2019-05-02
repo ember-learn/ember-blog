@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 96
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/04/28-the-ember-times-issue-96.html"
 responsive: true
@@ -14,6 +14,7 @@ This week:
 - ...
 - Ember **contributions** from the **EmberJS Paris** contributor workshop 🇫🇷,
 - **easier navigation through concurrency** 🕗 in your app tests,
+- **exclusive interview with Edward Faulkner** on **Embroider** 🎙️,
 - ...
 
 ---
@@ -44,12 +45,19 @@ But there's a new hope, called [Milestones](https://twitter.com/__dfreeman/statu
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Edward Faulkner on Embroider, Ember CLI's Modern Build System 🎙️](https://embermap.com/podcast/edward-faulkner-on-embroider-ember-cli-s-modern-build-system)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+At [EmberConf 2019](https://youtu.be/zYwdBcmz6VI?t=2855), we got the surprise announcement of [Embroider](https://github.com/embroider-build/embroider), the **next-gen build pipeline** for Ember applications. 🧡
+
+[Edward Faulkner](https://github.com/ef4), who created Embroider, sat down with [EmberMap to share more information](https://embermap.com/podcast/edward-faulkner-on-embroider-ember-cli-s-modern-build-system).
+
+Some key messages are:
+
+- Embroider embraces ES modules and pull-based builds. **It includes only the code that your app needs.** 💯
+- You can [try out Embroider on your app today](https://github.com/embroider-build/embroider#how-to-try-it)! Once you are able to build your app with the default settings, you can [try out various options](https://github.com/embroider-build/embroider#options) to **boost performance** and **allow route splitting**. 🖖
+- If you are an addon developer, please work towards [getting to the V2 format](https://github.com/embroider-build/embroider/blob/master/SPEC.md). This allows Embroider to skip the expensive 1st build stage for your addon. ⏭️
+
+Be sure to look out for an RFC to make Embroider the default build system. In the meantime, please check out [EmberMap's interview with Edward Faulkner](https://embermap.com/podcast/edward-faulkner-on-embroider-ember-cli-s-modern-build-system)!
 
 ---
 
@@ -129,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, the crowd and the Learning Team
