@@ -15,6 +15,7 @@ This week:
 - Ember **contributions** from the **EmberJS Paris** contributor workshop 🇫🇷,
 - **easier navigation through concurrency** 🕗 in your app tests,
 - interview with **Edward Faulkner on Embroider** 🎙️,
+- building an **e-commerce app with Octane** 🔥,
 - ...
 
 ---
@@ -61,12 +62,13 @@ Be sure to look out for an RFC to make Embroider the next build system for Ember
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Building with Octane, by Beto Cantu 🔥](https://www.youtube.com/watch?v=KnkWs18V9dA)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+At the inaugural [Ember San Antonio Meetup](https://www.meetup.com/EmberSA), Beto Cantu ([@betocantu93](https://github.com/betocantu93)) presented [an e-commerce app that he had built](https://github.com/betocantu93/octane-ecommerce) with [Octane](https://emberjs.com/editions/octane/) (in just hours!).
+
+In addition to new features such as `@tracked` and `{{on}}` modifier, Beto covered the fundamentals of Ember—from designing routes to deploying our app. This made a great introduction to attendees who had never used Ember before. 🤗
+
+Please watch Beto's talk to [learn more about building apps with Octane](https://www.youtube.com/watch?v=KnkWs18V9dA). Don't forget to upvote and share it with your friends!
 
 ---
 
