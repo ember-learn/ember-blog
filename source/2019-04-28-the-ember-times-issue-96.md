@@ -12,22 +12,22 @@ responsive: true
 
 This week:
 - ...
+- new season of **May I Ask a Question** 🙋,
 - Ember **contributions** from the **EmberJS Paris** contributor workshop 🇫🇷,
 - **easier navigation through concurrency** 🕗 in your app tests,
 - interview with **Edward Faulkner on Embroider** 🎙️,
 - building an **e-commerce app with Octane** 🔥,
-- new season of **May I Ask a Question** 🙋,
 - ...
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Season 2, "May I Ask a Question" Begins! 🙋](https://jenweber.netlify.com/ember.js-stack-overflow-livestreams-return/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Jen Weber](https://github.com/jenweber) and [Chris Manson](https://github.com/mansona) kicked off the month of May with a new season of [May I Ask a Question](https://www.youtube.com/channel/UCyErLHzPqLAkL1F-SivFDcA).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Each week, the two will discuss and solve [Ember-related questions on Stack Overflow](https://stackoverflow.com/questions/tagged/ember.js?sort=newest&pageSize=15)—show us how we can answer community questions in an **effective and encouraging** way. 💞
+
+To find out when the next live episode will air, please follow [@jwwweber](https://twitter.com/jwwweber) and [@real_ate](https://twitter.com/real_ate) on Twitter. Please read [Jen Weber's blog post](https://jenweber.netlify.com/ember.js-stack-overflow-livestreams-return/) to learn more about their initiative!
 
 ---
 
@@ -73,13 +73,13 @@ Please watch Beto's talk to [learn more about building apps with Octane](https:/
 
 ---
 
-## [Season 2, "May I Ask a Question" Begins! 🙋](https://jenweber.netlify.com/ember.js-stack-overflow-livestreams-return/)
+## [Section Title in Title Case 🐹](#section-url)
 
-[Jen Weber](https://github.com/jenweber) and [Chris Manson](https://github.com/mansona) kicked off May with a new season of [May I Ask a Question](https://www.youtube.com/channel/UCyErLHzPqLAkL1F-SivFDcA).
+<change section title emoji>
+<consider adding some bold to your paragraph>
 
-Each week, the two will discuss and solve [Ember-related questions on Stack Overflow](https://stackoverflow.com/questions/tagged/ember.js?sort=newest&pageSize=15)—show us how we can answer community questions in an **effective and encouraging** way. 💞
-
-To find out when the next live episode will air, please follow [@jwwweber](https://twitter.com/jwwweber) and [@real_ate](https://twitter.com/real_ate) on Twitter. Please also read [Jen Weber's blog post](https://jenweber.netlify.com/ember.js-stack-overflow-livestreams-return/) to learn more about their initiative!
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
