@@ -12,21 +12,23 @@ responsive: true
 
 This week:
 - ...
+- new season of **May I Ask a Question** 🙋,
 - Ember **contributions** from the **EmberJS Paris** contributor workshop 🇫🇷,
 - **easier navigation through concurrency** 🕗 in your app tests,
 - interview with **Edward Faulkner on Embroider** 🎙️,
 - building an **e-commerce app with Octane** 🔥,
+- arrival of **decorators in Ember 3.10 & Octane** ✨,
 - ...
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Season 2, "May I Ask a Question" Begins! 🙋](https://jenweber.netlify.com/ember.js-stack-overflow-livestreams-return/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Jen Weber](https://github.com/jenweber) and [Chris Manson](https://github.com/mansona) kicked off the month of May with a new season of [May I Ask a Question](https://www.youtube.com/channel/UCyErLHzPqLAkL1F-SivFDcA).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Each week, the two will discuss and solve [Ember-related questions on Stack Overflow](https://stackoverflow.com/questions/tagged/ember.js?sort=newest&pageSize=15)—show us how we can answer community questions in an **effective and encouraging** way. 💞
+
+To find out when the next live episode will air, please follow [@jwwweber](https://twitter.com/jwwweber) and [@real_ate](https://twitter.com/real_ate) on Twitter. Please read [Jen Weber's blog post](https://jenweber.netlify.com/ember.js-stack-overflow-livestreams-return/) to learn more about their initiative!
 
 ---
 
@@ -72,12 +74,15 @@ Please watch Beto's talk to [learn more about building apps with Octane](https:/
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Decorators Arrive in Ember 3.10 & Octane ✨](https://www.pzuraq.com/ember-octane-update-landing-decorators/)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+It's official: **Decorators** will be shipped with Ember 3.10 and Octane! 🎉
+
+In [his latest coverage of Octane](https://www.pzuraq.com/ember-octane-update-landing-decorators/), [Chris Garrett](https://github.com/pzuraq) explains which decorators Ember supports, why others from [ember-decorators](https://github.com/ember-decorators/ember-decorators) addon weren't included, and how [we can use a polyfill to start using decorators now](https://github.com/pzuraq/ember-decorators-polyfill).
+
+Please look forward to the launches of Ember 3.10 and Octane. [Learn more about decorators today!](https://www.pzuraq.com/ember-octane-update-landing-decorators/)
+
+P.S. Send your congratulations to Chris on his wedding and honeymoon! 💐
 
 ---
 
