@@ -76,13 +76,13 @@ Please watch Beto's talk to [learn more about building apps with Octane](https:/
 
 ## [Decorators Arrive in Ember 3.10 & Octane ✨](https://www.pzuraq.com/ember-octane-update-landing-decorators/)
 
-It's official: **Decorators** will be shipped in Ember 3.10 and Octane! 🎉
+It's official: **Decorators** will be shipped with Ember 3.10 and Octane! 🎉
 
-In [his latest blog post on Octane](https://www.pzuraq.com/ember-octane-update-landing-decorators/), Chris Garrett ([@pzuraq](https://github.com/pzuraq)) explains which decorators Ember supports, why others from [ember-decorators](https://github.com/ember-decorators/ember-decorators) addon weren't included, and how [we can use a polyfill to start using decorators now](https://github.com/pzuraq/ember-decorators-polyfill).
+In [his latest coverage of Octane](https://www.pzuraq.com/ember-octane-update-landing-decorators/), [Chris Garrett](https://github.com/pzuraq)) explains which decorators Ember supports, why others from [ember-decorators](https://github.com/ember-decorators/ember-decorators) addon weren't included, and how [we can use a polyfill to start using decorators now](https://github.com/pzuraq/ember-decorators-polyfill).
 
 Please look forward to the launches of Ember 3.10 and Octane. [Learn more about decorators today!](https://www.pzuraq.com/ember-octane-update-landing-decorators/)
 
-PS. Send your congratulations to Chris on his wedding and honeymoon! 💐
+P.S. Send your congratulations to Chris on his wedding and honeymoon! 💐
 
 ---
 
