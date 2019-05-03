@@ -76,13 +76,13 @@ Please watch Beto's talk to [learn more about building apps with Octane](https:/
 
 ## [Decorators Arrive in Ember 3.10 & Octane ✨](https://www.pzuraq.com/ember-octane-update-landing-decorators/)
 
-It's official: **Decorators** will be shipped in Ember 3.10 and Octane! 🎉 Decorators such as `@computed`, `@controller`, and `@service` will *just work*™️ in our native classes. We won't need to import them from a separate file path. 💯
+It's official: **Decorators** will be shipped in Ember 3.10 and Octane! 🎉
 
-In [his latest Octane coverage](https://www.pzuraq.com/ember-octane-update-landing-decorators/), Chris Garrett ([@pzuraq](https://github.com/pzuraq)) explains which decorators Ember officially supports, why others from [ember-decorators](https://github.com/ember-decorators/ember-decorators) didn't make it to the list, and how we can use a [polyfill to start using decorators now](https://github.com/pzuraq/ember-decorators-polyfill).
+In [his latest blog post on Octane](https://www.pzuraq.com/ember-octane-update-landing-decorators/), Chris Garrett ([@pzuraq](https://github.com/pzuraq)) explains which decorators Ember supports, why others from [ember-decorators](https://github.com/ember-decorators/ember-decorators) addon weren't included, and how [we can use a polyfill to start using decorators now](https://github.com/pzuraq/ember-decorators-polyfill).
 
 Please look forward to the launches of Ember 3.10 and Octane. [Learn more about decorators today!](https://www.pzuraq.com/ember-octane-update-landing-decorators/)
 
-PS. Congratulations to Chris on your wedding and honeymoon! 💐
+PS. Send your congratulations to Chris on his wedding and honeymoon! 💐
 
 ---
 
