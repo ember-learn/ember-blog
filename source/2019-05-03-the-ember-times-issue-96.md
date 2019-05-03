@@ -8,7 +8,7 @@ responsive: true
 
 Spring has sprung, Emberistas! 🐹
 
-This week: arrival of **decorators in Ember 3.10 & Octane** ✨, a new season of **May I Ask a Question** 🙋, **contributions** from the **EmberJS Paris** contributor workshop 🇫🇷, **easier navigation through concurrency** 🕗 in your app tests, interview with **Edward Faulkner on Embroider** 🎙️, and building an **e-commerce app with Octane** 🔥! Read on...
+This week: arrival of **decorators in Ember 3.10 & Octane** ✨, a new season of **May I Ask a Question** 🙋, **contributions** from the **EmberJS Paris** contributor workshop 🇫🇷, **easier navigation through concurrency** in your app tests 🕗, interview with **Edward Faulkner on Embroider** 🎙️, and building an **e-commerce app with Octane** 🔥! Read on...
 
 ---
 
