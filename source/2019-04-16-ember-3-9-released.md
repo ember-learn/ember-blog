@@ -30,13 +30,19 @@ First new feature (1 of 2)
 Second new feature (2 of 2)
 
 
-#### Deprecations (0)
+#### Deprecations (1)
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
 For more details on changes in Ember.js 3.10, please review the [Ember.js 3.10.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.10.0).
+
+Application Controller Router Properties (1 of 1)
+
+`ApplicationController#currentPath` and `ApplicationController#currentRouteName` are deprecated in Ember.js 3.10. They are no longer needed since the `RouterService` now has `RouterService#currentPath` and `RouterService#currentRouteName`.
+
+If you still rely on these deprecated APIs then please have a look at the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_application-controller-router-properties) to see how you can get the same functionality from the `Router` service.
 
 ---
 
