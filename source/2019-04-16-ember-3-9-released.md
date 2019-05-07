@@ -32,14 +32,14 @@ From Ember 3.10 onwards you can use **angle bracket invocation syntax** for **ne
 For example, if you had a component nested in your `app/` directory as follows:
 
 ```bash
-- app/
- |-- components/
-    |-- blog/
+-- app/
+  |-- components/
+     |-- blog/
         |-- post-item.js
- |-- templates/
-    |-- components/
+  |-- templates/
+     |-- components/
         |-- blog/
-            |-- post-item.hbs
+           |-- post-item.hbs
 ```
 
 you had to invoke the component in your template using the classic curly invocation syntax up until Ember 3.9. You can do so as follows:
@@ -69,7 +69,7 @@ With Ember 3.10 you can alternatively invoke the same, nested component in your 
 
 Use the `::` separator in the component's tag name to separate directory names and component title as seen in the example above.
 
-This feature has no impact on the way components are looked up on the container of your application. If e.g. you want to lookup the factory of a component using the [owner API](https://api.emberjs.com/ember/3.10/functions/@ember%2Fapplication/getOwner), you can continue using the traditional syntax (`component:blog/post-item`).
+This feature has no impact on the way components are looked up on the container of your application. If e.g. you want to lookup the factory of a component using the [owner API](https://api.emberjs.com/ember/release/functions/@ember%2Fapplication/getOwner), you can continue using the traditional syntax (`component:blog/post-item`).
 
 You can read more about this feature in the [original Request for Comments (RFC)](https://emberjs.github.io/rfcs/0457-nested-lookups.html).
 
@@ -106,13 +106,14 @@ You can read more about the API of built-in components when used with angle brac
 
 **RouteInfo Metadata (3 of 4)**
 
-An Ember application provides information about routes via the `RouteInfo` object. For example, the [`Transition`](https://api.emberjs.com/ember/release/classes/Transition) object that is available when setting up an [event listener for route changes](https://api.emberjs.com/ember/release/classes/RouterService/events/routeDidChange) provides a `from` and `to` property which also represent `RouteInfo` objects providing information about the past and the entry route.
+An Ember application provides information about routes via the `RouteInfo` object. For example, the [`Transition`](https://api.emberjs.com/ember/release/classes/Transition) object that is provided to [event listeners for route changes](https://api.emberjs.com/ember/release/classes/RouterService/events/routeDidChange) provides a `from` and `to` property representing a `RouteInfo` object. These provide information about the former and the entry route.
 
-With the new `RouteInfo` Metadata feature released in Ember 3.10 you can now bind application-specific information to `RouteInfo` objects. This new API is not only useful for addon authors who would like to provide ways to change application state depending on particular route configurations (a notable example is [Ember CLI Document Title](https://github.com/kimroen/ember-cli-document-title)), but also for Ember application developers in general.
+<!--alex ignore savage-->
+With the new `RouteInfo` Metadata feature released in Ember 3.10 you can bind **application-specific information** to `RouteInfo` objects. Despite being a low-level primitive, this new API is not only useful for addon authors, but also for Ember application developers in general.
 
-The `RouteInfo` Metadata feature provides a new `buildRouteInfoMetadata` method to the [Route API](https://api.emberjs.com/ember/release/classes/Route) whose return value will be added to the respective `RouteInfo` object as a `metadata` property.
+The `RouteInfo` Metadata feature adds a `buildRouteInfoMetadata` method to the [Route API](https://api.emberjs.com/ember/release/classes/Route) whose return value will be added to the respective `RouteInfo` object as a `metadata` property.
 
-If, for example, you wanted to track a user's details together with the tracking event of them visiting their profile page, you could leverage the `RouteInfo`'s metadata as follows:
+If, for example, you wanted to track a user's details together with a tracking event for visiting the profile page, you could leverage the `RouteInfo`'s metadata as follows:
 
 ```js
 // app/route/profile.js
