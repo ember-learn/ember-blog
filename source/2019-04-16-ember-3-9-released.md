@@ -23,7 +23,7 @@ Ember.js is the core framework for building ambitious web applications.
 ### Changes in Ember.js 3.10
 Ember.js 3.10 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are four (4) new features, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
-#### New Features (2)
+#### New Features (4)
 
 **Angle Bracket Invocation for Nested Components (1 of 4)**
 
@@ -104,7 +104,60 @@ With Ember 3.10 and higher, you may alternatively use the angle bracket invocati
 
 You can read more about the API of built-in components when used with angle bracket invocation syntax in [the original RFC](https://emberjs.github.io/rfcs/0459-angle-bracket-built-in-components.html).
 
-Third new feature (3 of 4)
+**RouteInfo Metadata (3 of 4)**
+
+An Ember application provides information about routes via the `RouteInfo` object. For example, the [`Transition`](https://api.emberjs.com/ember/release/classes/Transition) object that is available when setting up an [event listener for route changes](https://api.emberjs.com/ember/release/classes/RouterService/events/routeDidChange) provides a `from` and `to` property which also represent `RouteInfo` objects providing information about the past and the entry route.
+
+With the new `RouteInfo` Metadata feature released in Ember 3.10 you can now bind application-specific information to `RouteInfo` objects. This new API is not only useful for addon authors who would like to provide ways to change application state depending on particular route configurations (a notable example is [Ember CLI Document Title](https://github.com/kimroen/ember-cli-document-title)), but also for Ember application developers in general.
+
+The `RouteInfo` Metadata feature provides a new `buildRouteInfoMetadata` method to the [Route API](https://api.emberjs.com/ember/release/classes/Route) whose return value will be added to the respective `RouteInfo` object as a `metadata` property.
+
+If, for example, you wanted to track a user's details together with the tracking event of them visiting their profile page, you could leverage the `RouteInfo`'s metadata as follows:
+
+```js
+// app/route/profile.js
+import Route from '@ember/routing/route';
+import { inject } from '@ember/service';
+
+export default Route.extend({
+  user: inject('user'),
+  buildRouteInfoMetadata() {
+    return {
+      trackingKey: 'page_profile',
+      user: {
+        id: this.user.id,
+        type: this.user.type
+      }
+    }
+  }
+  // ...
+});
+```
+
+```js
+// app/services/analytics.js
+import Service, { inject } from '@ember/service';
+
+export default Service.extend({
+  router: inject('router'),
+  init() {
+    this._super(...arguments);
+    this.router.on('routeDidUpdate', (transition) => {
+      let { to, from } = transition;
+      let fromMeta = from.metadata;
+      let toMeta = to.metadata;
+      ga.sendEvent('pageView', {
+        from: fromMeta,
+        to: toMeta,
+        timestamp: Date.now(),
+      })
+    })
+  },
+  // ...
+});
+```
+
+We encourage you to give [the original RFC a read](https://emberjs.github.io/rfcs/0398-RouteInfo-Metadata.html) for more details about the API and other interesting use cases for `RouteInfo` metadata in your application.
 
 Fourth new feature (4 of 4)
 
