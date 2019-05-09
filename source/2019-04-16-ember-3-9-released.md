@@ -1,6 +1,6 @@
 ---
 title: Ember 3.10 Released
-author: Kenneth Larsen
+author: Kenneth Larsen, Jessica Jordan
 tags: Releases, 2019, 3, 3.10
 responsive: true
 ---
@@ -21,13 +21,146 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.10
-Ember.js 3.10 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.10 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are four (4) new features, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
-#### New Features (2)
+#### New Features (4)
 
-First new feature (1 of 2)
+**Angle Bracket Invocation for Nested Components (1 of 4)**
 
-Second new feature (2 of 2)
+From Ember 3.10 onwards you can use **angle bracket invocation syntax** for **nested** components. Nested components are components which are defined in a nested directory structure of your application.
+
+For example, if you had a component nested in your `app/` directory as follows:
+
+```bash
+-- app/
+  |-- components/
+     |-- blog/
+        |-- post-item.js
+  |-- templates/
+     |-- components/
+        |-- blog/
+           |-- post-item.hbs
+```
+
+you had to invoke the component in your template using the classic curly invocation syntax up until Ember 3.9. You can do so as follows:
+
+
+```hbs
+{{! simple invocation }}
+{{blog/post-item}}
+
+{{! invocation with block }}
+{{#blog/post-item}}
+  <span>block example</span>
+{{/blog/post-item}}
+```
+
+With Ember 3.10 you can alternatively invoke the same, nested component in your template with angle bracket invocation syntax:
+
+```hbs
+{{! simple invocation }}
+<Blog::PostItem />
+
+{{! invocation with block }}
+<Blog::PostItem>
+  <span>block example</span>
+</Blog::PostItem>
+```
+
+Use the `::` separator in the component's tag name to separate directory names and component title as seen in the example above.
+
+This feature has no impact on the way components are looked up on the container of your application. If e.g. you want to lookup the factory of a component using the [owner API](https://api.emberjs.com/ember/release/functions/@ember%2Fapplication/getOwner), you can continue using the traditional syntax (`component:blog/post-item`).
+
+You can read more about this feature in the [original Request for Comments (RFC)](https://emberjs.github.io/rfcs/0457-nested-lookups.html).
+
+
+**Angle Bracket Invocation for Built-In Components (2 of 4)**
+
+With Ember 3.10+ you can use **angle bracket invocation syntax** for the **three built-in components** that Ember itself provides to your application automatically: `input`, `link-to` and `textarea`. This version of Ember aligns the API of these built-ins with the requirements of the angle bracket invocation syntax.
+
+Previously, you were only able to invoke built-ins in your template using the classic, curly braces syntax:
+
+```hbs
+{{input type="text" value="Katie Gengler"}}
+
+{{link-to "photos.edit" photo}}
+
+{{textarea value=postComment cols="20" rows="6"}}
+```
+
+With Ember 3.10 and higher, you may alternatively use the angle bracket invocation syntax as follows:
+
+```hbs
+<Input @type="text" @value="Katie Gengler" />
+
+{{! link-to with a single model }}
+<LinkTo @route="photos.edit" @model={{photo}} />
+
+{{! link-to with several models }}
+<LinkTo @route="photos.edit" @models={{array photo anotherPhoto}} />
+
+<Textarea @value={{this.postComment}} @cols="20" @rows="6" />
+```
+
+You can read more about the API of built-in components when used with angle bracket invocation syntax in [the original RFC](https://emberjs.github.io/rfcs/0459-angle-bracket-built-in-components.html).
+
+**RouteInfo Metadata (3 of 4)**
+
+An Ember application provides information about routes via the `RouteInfo` object. For example, the [`Transition`](https://api.emberjs.com/ember/release/classes/Transition) object that is provided to [event listeners for route changes](https://api.emberjs.com/ember/release/classes/RouterService/events/routeDidChange) provides a `from` and `to` property representing a `RouteInfo` object. These provide information about the former and the entry route.
+
+<!--alex ignore savage-->
+With the new `RouteInfo` Metadata feature released in Ember 3.10 you can bind **application-specific information** to `RouteInfo` objects. Despite being a low-level primitive, this new API is not only useful for addon authors, but also for Ember application developers in general.
+
+The `RouteInfo` Metadata feature adds a `buildRouteInfoMetadata` method to the [Route API](https://api.emberjs.com/ember/release/classes/Route) whose return value will be added to the respective `RouteInfo` object as a `metadata` property.
+
+If, for example, you wanted to track a user's details together with a tracking event for visiting the profile page, you could leverage the `RouteInfo`'s metadata as follows:
+
+```js
+// app/route/profile.js
+import Route from '@ember/routing/route';
+import { inject } from '@ember/service';
+
+export default Route.extend({
+  user: inject('user'),
+  buildRouteInfoMetadata() {
+    return {
+      trackingKey: 'page_profile',
+      user: {
+        id: this.user.id,
+        type: this.user.type
+      }
+    }
+  }
+  // ...
+});
+```
+
+```js
+// app/services/analytics.js
+import Service, { inject } from '@ember/service';
+
+export default Service.extend({
+  router: inject('router'),
+  init() {
+    this._super(...arguments);
+    this.router.on('routeDidUpdate', (transition) => {
+      let { to, from } = transition;
+      let fromMeta = from.metadata;
+      let toMeta = to.metadata;
+      ga.sendEvent('pageView', {
+        from: fromMeta,
+        to: toMeta,
+        timestamp: Date.now(),
+      })
+    })
+  },
+  // ...
+});
+```
+
+We encourage you to give [the original RFC a read](https://emberjs.github.io/rfcs/0398-RouteInfo-Metadata.html) for more details about the API and other interesting use cases for `RouteInfo` metadata in your application.
+
+Fourth new feature (4 of 4)
 
 
 #### Deprecations (1)
