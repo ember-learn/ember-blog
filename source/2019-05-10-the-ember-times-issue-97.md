@@ -8,31 +8,8 @@ responsive: true
 
 Kaltxì Emberistas! 🐹
 
-This week:
-...
-the EmberFest 2019 CFP is now open 📝,
-build a GitHub Gist clone in Octane ⛽️,
-interview with **Yehuda Katz** 🎙️,
-RFC proposing **deprecation** of `mouseenter` + `mouseleave` **Ember Events** 🐁,
-...
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This week: the **EmberFest** 2019 CFP is now open 📝, build a GitHub Gist clone in **Octane** ⛽️,
+RFC proposing **deprecation** of `mouseenter` + `mouseleave` **Ember Events** 🐁, and last, but not least, an interview with **Yehuda Katz** 🎙️!
 
 ---
 
@@ -54,15 +31,6 @@ In addition to using the Octane blueprint, the tutorial makes use of [ember-pris
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Ember Event Dispatcher Clean Up for Several Mouse Events 🐁💥](https://github.com/emberjs/rfcs/pull/486)
 
 Since the early beginnings of Ember, the **Ember Event Dispatcher** handled the delegation of browser events in an application.
@@ -72,15 +40,6 @@ In a [new RFC](https://github.com/simonihmig/rfcs/blob/deprecate-mouseenter/text
 In his proposal, [@simonihmig](https://github.com/simonihmig) suggests the deprecation of `mouseleave` and `mouseenter` events in Ember's Event Dispatcher in favor of using native event listeners.
 
 Read more about the **motivation** and the **transition path** for the proposed change [in the original RFC](https://github.com/emberjs/rfcs/pull/486) and be sure to leave your questions, thoughts or suggestions in the comments below! ✍️
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -95,15 +54,6 @@ Some of the highlights are:
 - Where the web may be in 5 years
 
 To learn more, we encourage you to [listen to this podcast episode](https://copypasterepeat.simplecast.fm/4460c8fc)!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
