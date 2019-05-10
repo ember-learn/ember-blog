@@ -36,7 +36,7 @@ In addition to using the Octane blueprint, the tutorial makes use of [ember-pris
 Since the early beginnings of Ember, the **Ember Event Dispatcher** handled the delegation of browser events in an application.
 But some events are harder to delegate to the Dispatcher than others. In particular, the `mouseenter`🕳 ⬅️🐁 and the `mouseleave` 🕳🐁➡️ events need to be handled differently because they do not bubble up - a characteristic that Ember's Event Dispatcher usually relies on for event delegation.
 
-In a [new RFC](https://github.com/simonihmig/rfcs/blob/deprecate-mouseenter/text/0486-deprecate-mouseenter.md), the writer of [RFC#386](https://emberjs.github.io/rfcs/0386-remove-jquery.html) is back with a proposal to reduce the overhead of event handling for these rarely used event types.
+In a [new RFC](https://github.com/simonihmig/rfcs/blob/deprecate-mouseenter/text/0486-deprecate-mouseenter.md), the writer of [RFC #386](https://emberjs.github.io/rfcs/0386-remove-jquery.html) is back with a proposal to reduce the overhead of event handling for these rarely used event types.
 In his proposal, [@simonihmig](https://github.com/simonihmig) suggests the deprecation of `mouseleave` and `mouseenter` events in Ember's Event Dispatcher in favor of using native event listeners.
 
 Read more about the **motivation** and the **transition path** for the proposed change [in the original RFC](https://github.com/emberjs/rfcs/pull/486) and be sure to leave your questions, thoughts or suggestions in the comments below! ✍️
