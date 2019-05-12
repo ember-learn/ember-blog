@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 97
 author: Chris Ng, Isaac Lee, Amy Lam, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/10-the-ember-times-issue-97.html"
 responsive: true
 ---
