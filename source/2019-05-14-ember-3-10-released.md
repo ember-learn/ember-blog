@@ -160,7 +160,7 @@ export default Service.extend({
 
 We encourage you to give [the original RFC a read](https://emberjs.github.io/rfcs/0398-RouteInfo-Metadata.html) for more details about the API and other interesting use cases for `RouteInfo` metadata in your application.
 
-Native Decorator Support (4 of 4)
+**Native Decorator Support (4 of 4)**
 
 With Ember.js 3.10 you get the possibility to use native decorators in your application. To learn how to get started using native decorators, have a look at the [original RFC](https://emberjs.github.io/rfcs/0440-decorator-support.html).
 
@@ -172,7 +172,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.10, please review the [Ember.js 3.10.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.10.0).
 
-Application Controller Router Properties (1 of 1)
+**Application Controller Router Properties (1 of 1)**
 
 `ApplicationController#currentPath` and `ApplicationController#currentRouteName` are deprecated in Ember.js 3.10. They are no longer needed since the `RouterService` now has `RouterService#currentPath` and `RouterService#currentRouteName`.
 
@@ -221,11 +221,11 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### New Features (2)
 
-Native Decorator Support (1 of 2)
+**Native Decorator Support (1 of 2)**
 
 As with Ember.js, Ember CLI now supports native decorators.
 
-Drop Node 6 support (2 of 2)
+**Drop Node 6 support (2 of 2)**
 
 Ember CLI 3.10 officially drops support for Node 6. Ember.js still supports it until all the blueprints are updated.
 
