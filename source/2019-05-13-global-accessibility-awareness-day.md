@@ -19,7 +19,7 @@ My goal is that after you read this blog post, you will block off some amount of
 
 ## 30-60 minutes
 
-- Go mouseless: using only your keyboard, visit a website that you helped build (even if it's just a local build) and try to navigate around the app with only your keyboard. Don't have a website to visit? Visit our own website (emberjs.com) and try it out- and if you find things that don't work, file an issue or submit a PR!
+- Go mouseless: using only your keyboard, visit a website that you helped build (even if it's just a local build) and try to navigate around the app with only your keyboard. Don't have a website to visit? Visit our own website (emberjs.com) and try it out - and if you find things that don't work, file an issue or submit a PR!
 - Check the modals/dialogs/popups in your application. Do they trap focus? File an issue or submit a PR if they do not. Not sure what that means? Check out [this simple modal addon](https://github.com/melsumner/e-a11y-modal) for a demonstration. 
 
 ## 60+ minutes
