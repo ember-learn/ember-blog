@@ -28,7 +28,7 @@ My goal is that after you read this blog post, you will block off some amount of
 - Read [“Semantics to Screen Readers”](https://alistapart.com/article/semantics-to-screen-readers) and learn how the code we write influences what someone with a screen reader gets from our applications. 
 - Look for an un-accessible code sample in the Ember.js guides, and submit a PR to fix it. Or two. Or ten.
 
-As for me, I'll be spending May 16th in the `#topic-a11y` channel on the [Ember Community Discord](https://discord.gg/emberjs) chat server- ready to help you with whatever accessibility questions you might have. If you are able to help answer questions and knowledge share that day as well, please do join in!
+As for me, I'll be spending May 16th in the `#topic-a11y` channel on the [Ember Community Discord](https://discord.gg/emberjs) chat server - ready to help you with whatever accessibility questions you might have. If you are able to help answer questions and knowledge share that day as well, please do join in!
 
 Everything you do matters. Our community is well-known for being inclusive- let's make sure that our commitment to inclusion includes the digital accessibility of not only Ember.js, but the products we build with it. 
 
