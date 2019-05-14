@@ -184,18 +184,14 @@ If you still rely on these deprecated APIs then please have a look at the [depre
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-### Changes in Ember Data 3.10
+There are no changes in 3.10. It is a re-release of
+[3.9.3](https://github.com/emberjs/data/releases/tag/v3.9.3)
+to allow for an extended stabilization period for the
+[Packages RFC](https://emberjs.github.io/rfcs/0395-ember-data-packages.html).
+You can follow along with the remaining packages work
+[here](https://github.com/emberjs/data/labels/TRACK-packages).
 
-#### New Features (0)
-
-No new features introduced in Ember Data 3.10.
-
-#### Deprecations (0)
-
-No new deprecations introduced in Ember Data 3.10.
-
-
-For more details on changes in Ember Data 3.10, please review the
+This information is also available on the
 [Ember Data 3.10.0 release page](https://github.com/emberjs/data/releases/tag/v3.10.0).
 
 ---
