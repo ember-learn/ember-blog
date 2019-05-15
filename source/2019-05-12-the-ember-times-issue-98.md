@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -11,15 +11,25 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+...
+`model` hook illuminated in Ember.js Guides 💡,
+...
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [`model` Hook, Illuminated in Ember.js Guides 💡](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)
+
+If you haven't yet, please revisit and share the latest Ember.js Guides on [Specifying a Route's Model](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)! You will find **beginner-friendly, comprehensive explanation** of what you can do in a route's `model` hook. 💖
+
+In particular, our guide now shows:
+
+- Why we want to use the `model` hook
+- How to use `model`, depending on your use case and knowledge of Ember
+- How to use **dynamic segments** in `model`
+- How to debug `model`
+
+These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank Jen for her positive work, as well as [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
 
 ---
 
@@ -126,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
