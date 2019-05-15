@@ -13,14 +13,14 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
 ...
-illumination of `model` hook in the updated Ember.js Guides 💡,
+**model hook** illuminated in Ember.js Guides 💡,
 ...
 
 ---
 
-## [Ember.js Guides Update: `model` Hook Illuminated 💡](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)
+## [`model` Hook, Illuminated in Ember.js Guides 💡](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)
 
-If you haven't yet, please revisit and share the updated Ember.js Guides on [Specifying a Route's Model](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)! You will see **beginner-friendly, comprehensive explanation** of what you can do in a route's `model` hook. 💖
+If you haven't yet, please revisit and share the latest Ember.js Guides on [Specifying a Route's Model](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)! You will find **beginner-friendly, comprehensive explanation** of what you can do in a route's `model` hook. 💖
 
 In particular, our guide now shows:
 
@@ -29,7 +29,7 @@ In particular, our guide now shows:
 - How to use **dynamic segments** in `model`
 - How to debug `model`
 
-The update to Ember.js Guides is a stepping stone to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank [@jenweber](https://github.com/jenweber) for her positive work, and [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
+These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank @jenweber for her positive work, as well as [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
 
 ---
 
