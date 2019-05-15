@@ -13,7 +13,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
 ...
-**model hook** illuminated in Ember.js Guides 💡,
+`model` hook illuminated in Ember.js Guides 💡,
 ...
 
 ---
@@ -29,7 +29,7 @@ In particular, our guide now shows:
 - How to use **dynamic segments** in `model`
 - How to debug `model`
 
-These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank @jenweber for her positive work, as well as [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
+These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank Jen for her positive work, as well as [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
 
 ---
 
