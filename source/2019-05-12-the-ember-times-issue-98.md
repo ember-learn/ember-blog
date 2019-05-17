@@ -137,7 +137,7 @@ On May 16, the **Global Accessibility Awareness Day (GAAD)** inspired developers
 
 Addon author [@josemarluedke](https://github.com/josemarluedke) followed this call-to-action and just published [Ember Focus Trap](https://github.com/josemarluedke/ember-focus-trap)! It's based on the JavaScript library [Focus Trap](https://github.com/davidtheclark/focus-trap) that helps you to intentionally trap focus in certain DOM nodes. This makes it easy for you to improve the keyboard accessibility of otherwise inaccessible elements such as modal dialogs.
 
-And with **Ember Focus Trap** adding focus to interactive elements in your Ember app is only an `ember install` away. Check it [out today](https://josemarluedke.github.io/ember-focus-trap/)!
+With **Ember Focus Trap**, adding focus to interactive elements in your Ember app is only an `ember install` away. Check it [out today](https://josemarluedke.github.io/ember-focus-trap/)!
 
 
 
