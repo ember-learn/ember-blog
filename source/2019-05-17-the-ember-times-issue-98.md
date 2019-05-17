@@ -2,26 +2,21 @@
 title: The Ember Times - Issue No. 98
 author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/05/12-the-ember-times-issue-98.html"
+alias : "blog/2019/05/17-the-ember-times-issue-98.html"
 responsive: true
 ---
 
-<change date in alias and filename on day of send>
-
 Goeie dag Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
-...
 `model` hook illuminated in Ember.js Guides 💡,
 EmberCamp CFP Open 🏕,
 Ember Podcasts to keep us happy 📻🍩🎧,
-the new EmberWork.com ✌️,
 a proposal to use Empress to render the Ember RFCs 📃,
-FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️,
-a new release of the ember-shepherd addon🚢,
-trapping focus 💥 for better **a11y** in your Ember apps,
-...
+a new release of the ember-shepherd addon 🚢,
+the new EmberWork.com ✌️,
+FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️, and last, but not least,
+trapping focus 💥 for better **a11y** in your Ember apps!
 
 ---
 
