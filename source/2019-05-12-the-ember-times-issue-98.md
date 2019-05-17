@@ -50,7 +50,7 @@ Whether you want to come enjoy the breathtaking views, make new Ember friends, o
 ---
 
 ## [Jabber away about Javascript 📻](https://twitter.com/samselikoff/status/1128351412881063937)
-A new podcast episode of [Javascript Jabber](https://twitter.com/JSJabber) has been released in which [Sam Selikoff](https://twitter.com/samselikoff) is interviewed by [AJ ONeal](https://twitter.com/solderjs) about **Ember** 🐹. They go into detail regarding how Sam got started working with Ember and a little bit about the **history of the Ember framework**.
+A new podcast episode of [Javascript Jabber](https://twitter.com/JSJabber) has been released in which [Sam Selikoff](https://twitter.com/samselikoff) is interviewed by [AJ ONeal](https://twitter.com/solderjs) about **Ember** 🐹. They go into detail regarding how Sam got started working with Ember and they also talked a little bit about the **history of the Ember framework**.
 
 From the [shownotes](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/):
 "Sam mentions some of the biggest advantages in using Ember, and what it should and should not be used for. He explains the architecture of Ember apps, addresses some of the performance concerns and then dives into Octane in detail."
