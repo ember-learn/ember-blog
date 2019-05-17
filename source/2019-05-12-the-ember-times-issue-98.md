@@ -16,6 +16,7 @@ This week:
 `model` hook illuminated in Ember.js Guides 💡,
 EmberCamp CFP Open 🏕,
 the new EmberWork.com ✌️,
+FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️,
 ...
 
 ---
@@ -98,6 +99,16 @@ Whether you want to come enjoy the breathtaking views, make new Ember friends, o
 We often hear folks say they want to work in Ember, but they can't find an Ember role! There's a new community resource for that—[Ember Work](https://emberwork.com/). Ember Work was built to make things **a little easier** on you. No more scouring LinkedIn or other sources. And no more jobs that are not *quite* Ember. 
 
 Have an open role on your team? Share it on [Ember Work](https://emberwork.com/) for free. (While you're at it, post it on [#ember-jobs](https://discordapp.com/channels/480462759797063690/480523148102467623) on Discord too!) Thanks [@herzzanu](https://github.com/herzzanu) and [@Exelord](https://github.com/Exelord) for building this resource for the community. 💼
+  
+---
+
+## [FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6)
+
+As developers who have worked with Ember for years, we can sometimes forget that we had once approached Ember with a bit of curiosity 😋, a bit of caution 😧, and a bit of confusion 🤕. As Ember approaches its 8th birthday, we want to continue to reach out to the wider JavaScript community, welcome new developers, and help out with their questions.
+
+This week, [@jenweber](https://github.com/jenweber) took her time to [engage a wide audience on Medium](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6) and answer commonly asked questions about Ember. *What companies use Ember? What is Octane? How can I get started with learning Ember?*
+
+We encourage you to [read and share the blog post](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6)! If you have time, we encourage you to pen and share your Ember article as well. 🙏
 
 ---
 
