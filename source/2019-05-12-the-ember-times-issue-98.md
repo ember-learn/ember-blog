@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: Isaac Lee, the crowd
+author: Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -14,6 +14,8 @@ responsive: true
 This week:
 ...
 `model` hook illuminated in Ember.js Guides 💡,
+EmberCamp CFP Open 🏕,
+the new EmberWork.com ✌️,
 ...
 
 ---
@@ -30,24 +32,19 @@ In particular, our guide now shows:
 - How to debug `model`
 
 These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank Jen for her positive work, as well as [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
-
+  
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [EmberCamp CFP Open 🏕](http://embercamp.com/)
+Join us on September 16th for the second annual EmberCamp Chicago! We’ll be hosting **150+ of the world’s top Ember developers** for a full day of Ember talks. Have a talk idea? The EmberCamp Call For Proposals (CFP) is open now through **June 15th**. If you submit early, you'll be able to receive feedback before the CFP closes!
 
----
+Proposal types:
+* 30 minute talks
+* 10 minute talks
+* 30-90 minute workshops
+* 30-90 minute activities (new this year!)
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Whether you want to come enjoy the breathtaking views, make new Ember friends, or get the scoop on what's coming next—EmberCamp Chicago is the place to be!
   
 ---
 
@@ -96,13 +93,12 @@ These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s 
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [EmberWork.com ✌️](https://emberwork.com/)
   
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+We often hear folks say they want to work in Ember, but they can't find an Ember role! There's a new community resource for that—[Ember Work](https://emberwork.com/). Ember Work was built to make things **a little easier** on you. No more scouring LinkedIn or other sources. And no more jobs that are not *quite* Ember. 
+
+Have an open role on your team? Share it on [Ember Work](https://emberwork.com/) for free. (While you're at it, post it on [#ember-jobs](https://discordapp.com/channels/480462759797063690/480523148102467623) on Discord too!) Thanks [@herzzanu](https://github.com/herzzanu) and [@Exelord](https://github.com/Exelord) for building this resource for the community. 💼
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -136,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Amy Lam, the crowd and the Learning Team
