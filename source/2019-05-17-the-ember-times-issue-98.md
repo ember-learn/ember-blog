@@ -90,24 +90,6 @@ Check out the new release of ember-shepherd [here](https://github.com/shipshapec
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [EmberWork.com ✌️](https://emberwork.com/)
 
 We often hear folks say they want to work in Ember, but they can't find an Ember role! There's a new community resource for that—[Ember Work](https://emberwork.com/). Ember Work was built to make things **a little easier** on you. No more scouring LinkedIn or other sources. And no more jobs that are not *quite* Ember.
@@ -134,12 +116,11 @@ Addon author [@josemarluedke](https://github.com/josemarluedke) followed this ca
 
 With **Ember Focus Trap**, adding focus to interactive elements in your Ember app is only an `ember install` away. Check it [out today](https://josemarluedke.github.io/ember-focus-trap/)!
 
-
-
+---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/apps/greenkeeper" target="gh-user">@greenkeeper[bot]</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/tendermario" target="gh-user">@tendermario</a>, <a href="https://github.com/vasind" target="gh-user">@vasind</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/maurodibert" target="gh-user">@maurodibert</a>, <a href="https://github.com/2hu12" target="gh-user">@2hu12</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/NullVoxPopuli" target="gh-user">@NullVoxPopuli</a>, <a href="https://github.com/chiragpat" target="gh-user">@chiragpat</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/maxfierke" target="gh-user">@maxfierke</a>, <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>, <a href="https://github.com/jamescdavis" target="gh-user">@jamescdavis</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a> and <a href="https://github.com/ef4" target="gh-user">@ef4</a>  for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/tendermario" target="gh-user">@tendermario</a>, <a href="https://github.com/vasind" target="gh-user">@vasind</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/maurodibert" target="gh-user">@maurodibert</a>, <a href="https://github.com/2hu12" target="gh-user">@2hu12</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/NullVoxPopuli" target="gh-user">@NullVoxPopuli</a>, <a href="https://github.com/chiragpat" target="gh-user">@chiragpat</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/maxfierke" target="gh-user">@maxfierke</a>, <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>, <a href="https://github.com/jamescdavis" target="gh-user">@jamescdavis</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a> and <a href="https://github.com/ef4" target="gh-user">@ef4</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
