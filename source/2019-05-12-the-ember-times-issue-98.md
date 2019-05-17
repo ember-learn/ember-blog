@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: Isaac Lee, Amy Lam, the crowd
+author: Isaac Lee, Amy Lam, Alon Bukai the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -8,13 +8,14 @@ responsive: true
 
 <change date in alias and filename on day of send>
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Goeie dag Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
 ...
 `model` hook illuminated in Ember.js Guides 💡,
 EmberCamp CFP Open 🏕,
+Ember Podcasts to keep us happy 📻🍩🎧,
 the new EmberWork.com ✌️,
 ...
 
@@ -48,21 +49,20 @@ Whether you want to come enjoy the breathtaking views, make new Ember friends, o
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Jabber away about Javascript 📻](https://twitter.com/samselikoff/status/1128351412881063937)
+A new podcast episode of [Javascript Jabber](https://twitter.com/JSJabber) has been released in which [Sam Selikoff](https://twitter.com/samselikoff) is interviewed by [AJ ONeal](https://twitter.com/solderjs) about **Ember** 🐹. They go into detail regarding how Sam got started working with Ember and a little bit about the **history of the Ember framework**.
+
+From the [shownotes](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/):
+"Sam mentions some of the biggest advantages in using Ember, and what it should and should not be used for. He explains the architecture of Ember apps, addresses some of the performance concerns and then dives into Octane in detail."
+
+So make sure to check it out and [give it a listen 🎧](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/)! You can tell us, and Sam, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Do or Donut, there is no Sizzlepie 🍩](https://twitter.com/emberweekend/status/1116022639015940096)
+The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episode last month in which Chase, Robert, and Jonathan chat about various topics such as: **an EmberConf recap** (including *secret Donut* info and *Sizzlepies*! 🥧), the **Octane preview** (including a [video](https://www.youtube.com/watch?v=BV09blWlc64) by [@gavinjoyce](https://twitter.com/gavinjoyce), [Embroider](https://github.com/embroider-build/embroider), as well as an [EmberMap video "An Intro to Broccoli.js"](https://embermap.com/topics/intro-to-broccoli)
+
+[Give it a listen here 🎧](https://emberweekend.com/episodes/do-or-donut)! You can tell us, and the hosts, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
   
 ---
 
@@ -132,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Amy Lam, the crowd and the Learning Team
+Isaac Lee, Amy Lam, Alon Bukai, the crowd and the Learning Team
