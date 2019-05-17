@@ -40,10 +40,11 @@ These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s 
 Join us on September 16th for the second annual EmberCamp Chicago! We’ll be hosting **150+ of the world’s top Ember developers** for a full day of Ember talks. Have a talk idea? The EmberCamp Call For Proposals (CFP) is open now through **June 15th**. If you submit early, you'll be able to receive feedback before the CFP closes!
 
 Proposal types:
-* 30 minute talks
-* 10 minute talks
-* 30-90 minute workshops
-* 30-90 minute activities (new this year!)
+
+- 30 minute talks
+- 10 minute talks
+- 30-90 minute workshops
+- 30-90 minute activities (new this year!)
 
 Whether you want to come enjoy the breathtaking views, make new Ember friends, or get the scoop on what's coming next—EmberCamp Chicago is the place to be!
 
