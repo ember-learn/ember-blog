@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: Isaac Lee, Amy Lam, Alon Bukai the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -17,6 +17,8 @@ This week:
 EmberCamp CFP Open 🏕,
 Ember Podcasts to keep us happy 📻🍩🎧,
 the new EmberWork.com ✌️,
+a proposal to use Empress to render the Ember RFCs 📃,
+FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️,
 ...
 
 ---
@@ -64,6 +66,17 @@ The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episod
 
 <!--alex ignore hostesses-hosts-->
 [Give it a listen here 🎧](https://emberweekend.com/episodes/do-or-donut)! You can tell us, and the hosts, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
+
+---
+
+<!--alex ignore king-queen-->
+## [Use Empress to render the Ember RFCs 📃](https://github.com/emberjs/rfcs/pull/489)
+<!--alex ignore king-queen-->
+[@mansona](https://github.com/mansona) proposed an implementation change to how we currently "render" our RFCs in the [website](https://emberjs.github.io/rfcs/). The proposed change is to move from using `mdbook`, which provides better formatting for markdown files, to employing [Empress](https://github.com/empress) techniques to render the RFC pages.
+
+In the same proposal, the official URL of an RFC was proposed to move from `https://emberjs.github.io/rfcs/0425-website-redesign.html` to `https://rfcs.emberjs.com/0425-website-redesign/`. This would then be considered a stable URL and will require us to maintain redirects if we ever change them.
+
+Read and comment more on [GitHub](https://github.com/emberjs/rfcs/pull/489) about the proposed change!
   
 ---
 
@@ -99,6 +112,16 @@ The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episod
 We often hear folks say they want to work in Ember, but they can't find an Ember role! There's a new community resource for that—[Ember Work](https://emberwork.com/). Ember Work was built to make things **a little easier** on you. No more scouring LinkedIn or other sources. And no more jobs that are not *quite* Ember. 
 
 Have an open role on your team? Share it on [Ember Work](https://emberwork.com/) for free. (While you're at it, post it on [#ember-jobs](https://discordapp.com/channels/480462759797063690/480523148102467623) on Discord too!) Thanks [@herzzanu](https://github.com/herzzanu) and [@Exelord](https://github.com/Exelord) for building this resource for the community. 💼
+  
+---
+
+## [FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6)
+
+As developers who have worked with Ember for years, we can sometimes forget that we had once approached Ember with a bit of curiosity 😋, a bit of caution 😧, and a bit of confusion 🤕. As Ember approaches its 8th birthday, we want to continue to reach out to the wider JavaScript community, welcome new developers, and help out with their questions.
+
+This week, [@jenweber](https://github.com/jenweber) took her time to [engage a wide audience on Medium](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6) and answer commonly asked questions about Ember. *What companies use Ember? What is Octane? How can I get started with learning Ember?*
+
+We encourage you to [read and share the blog post](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6)! If you have time, we encourage you to pen and share your Ember article as well. 🙏
 
 ---
 
@@ -133,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Amy Lam, Alon Bukai, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd and the Learning Team
