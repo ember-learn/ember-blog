@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -19,6 +19,7 @@ Ember Podcasts to keep us happy 📻🍩🎧,
 the new EmberWork.com ✌️,
 a proposal to use Empress to render the Ember RFCs 📃,
 FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️,
+a new release of the ember-shepherd addon🚢,
 ...
 
 ---
@@ -80,13 +81,14 @@ Read and comment more on [GitHub](https://github.com/emberjs/rfcs/pull/489) abou
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [A new version of the ember-shepherd addon 🚀](https://twitter.com/shipshapecode/status/1124490696843583490)
+
+[@rwwagner90](https://github.com/rwwagner90) and the crew at [Ship Shape](https://github.com/shipshapecode) have released 🚢 version 5.0.0 of the **ember-shepherd addon**, an awesome site tour library. The updated version includes improved loading speeds⚡️ due to lazy loading with ember-auto-import.
+
+In related news, Shepherd, the JavaScript library that underlies the ember addon that **Ship Shape** also maintains, [has been trending📈 on Github](https://twitter.com/shipshapecode/status/1122673639932014593)!
+
+Check out the new release of ember-shepherd [here](https://github.com/shipshapecode/ember-shepherd).
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -156,4 +158,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd and the Learning Team
+
+Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis the crowd and the Learning Team
