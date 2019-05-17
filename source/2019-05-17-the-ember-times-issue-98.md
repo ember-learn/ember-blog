@@ -37,7 +37,8 @@ These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s 
 ---
 
 ## [EmberCamp CFP Open 🏕](http://embercamp.com/)
-Join us on September 16th for the second annual EmberCamp Chicago! We’ll be hosting **150+ of the world’s top Ember developers** for a full day of Ember talks. Have a talk idea? The EmberCamp Call For Proposals (CFP) is open now through **June 15th**. If you submit early, you'll be able to receive feedback before the CFP closes!
+
+Join us on September 16th for the second annual [EmberCamp Chicago](http://embercamp.com/)! We’ll be hosting **150+ of the world’s top Ember developers** for a full day of Ember talks. Have a talk idea? The EmberCamp Call For Proposals (CFP) is open now through **June 15th**. If you submit early, you'll be able to receive feedback before the CFP closes!
 
 Proposal types:
 
@@ -50,29 +51,29 @@ Whether you want to come enjoy the breathtaking views, make new Ember friends, o
 
 ---
 
-## [Jabber away about Javascript 📻](https://twitter.com/samselikoff/status/1128351412881063937)
+## [Jabber Away about Javascript 📻](https://twitter.com/samselikoff/status/1128351412881063937)
 
-A new podcast episode of [Javascript Jabber](https://twitter.com/JSJabber) has been released in which [Sam Selikoff](https://twitter.com/samselikoff) is interviewed by [AJ ONeal](https://twitter.com/solderjs) about **Ember** 🐹. They go into detail regarding how Sam got started working with Ember and they also talked a little bit about the **history of the Ember framework**.
+A new podcast episode of [Javascript Jabber](https://twitter.com/JSJabber) has been released in which [Sam Selikoff](https://twitter.com/samselikoff) is interviewed by [AJ ONeal](https://twitter.com/solderjs) about **Ember**. 🐹 They go into detail regarding how Sam got started working with Ember and they also talked a little bit about the **history of the Ember framework**.
 
 From the [shownotes](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/):
 
 > Sam mentions some of the biggest advantages in using Ember, and what it should and should not be used for. He explains the architecture of Ember apps, addresses some of the performance concerns and then goes into Octane in detail.
 
-So make sure to check it out and [give it a listen 🎧](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/)! You can tell us, and Sam, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
+So make sure to [give it a listen](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/)! 🎧 You can tell us, and Sam, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
 
 ---
 
-## [Do or Donut, there is no Sizzlepie 🍩](https://twitter.com/emberweekend/status/1116022639015940096)
+## [Do or Donut, There is No Sizzlepie 🍩](https://twitter.com/emberweekend/status/1116022639015940096)
 
-The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episode last month in which Chase, Robert, and Jonathan chat about various topics such as: **an EmberConf recap** (including *secret Donut* info and *Sizzlepies*! 🥧), the **Octane preview** (including a [video](https://www.youtube.com/watch?v=BV09blWlc64) by [@gavinjoyce](https://twitter.com/gavinjoyce), [Embroider](https://github.com/embroider-build/embroider), as well as an [EmberMap video "An Intro to Broccoli.js"](https://embermap.com/topics/intro-to-broccoli)
+The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episode last month in which Chase, Robert, and Jonathan chat about various topics such as: **an EmberConf recap** (including *secret donut* info and *Sizzlepies*! 🥧), the **Octane preview** (including a [video](https://www.youtube.com/watch?v=BV09blWlc64) by [@gavinjoyce](https://twitter.com/gavinjoyce), [Embroider](https://github.com/embroider-build/embroider), as well as an [EmberMap video "An Intro to Broccoli.js"](https://embermap.com/topics/intro-to-broccoli).
 
 <!--alex ignore hostesses-hosts-->
-[Give it a listen here 🎧](https://emberweekend.com/episodes/do-or-donut)! You can tell us, and the hosts, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
+[Check it out here](https://emberweekend.com/episodes/do-or-donut)! 🎧 And pop into [#media](https://discordapp.com/channels/480462759797063690/486955806588403773/) to share your thoughts with the community and the hosts!
 
 ---
 
 <!--alex ignore king-queen-->
-## [Use Empress to render the Ember RFCs 📃](https://github.com/emberjs/rfcs/pull/489)
+## [Use Empress to Render the Ember RFCs 📃](https://github.com/emberjs/rfcs/pull/489)
 
 <!--alex ignore king-queen-->
 [@mansona](https://github.com/mansona) proposed an implementation change to how we currently "render" our RFCs in the [website](https://emberjs.github.io/rfcs/). The proposed change is to move from using `mdbook`, which provides better formatting for markdown files, to employing [Empress](https://github.com/empress) techniques to render the RFC pages.
@@ -87,7 +88,7 @@ Read and comment more on [GitHub](https://github.com/emberjs/rfcs/pull/489) abou
 
 [@rwwagner90](https://github.com/rwwagner90) and the crew at [Ship Shape](https://github.com/shipshapecode) have released 🚢 version 5.0.0 of the **ember-shepherd addon**, an awesome site tour library. The updated version includes improved loading speeds⚡️ due to lazy loading with ember-auto-import.
 
-In related news, Shepherd, the JavaScript library that underlies the ember addon that **Ship Shape** also maintains, [has been trending📈 on Github](https://twitter.com/shipshapecode/status/1122673639932014593)!
+In related news, Shepherd, the JavaScript library that underlies the ember addon that **Ship Shape** also maintains, [has been trending 📈 on Github](https://twitter.com/shipshapecode/status/1122673639932014593)!
 
 Check out the new release of ember-shepherd [here](https://github.com/shipshapecode/ember-shepherd).
 
@@ -113,7 +114,7 @@ We encourage you to [read and share the blog post](https://medium.com/ember-ish/
 
 ## [Intentional Element Focus with Ember Focus Trap 💥](https://twitter.com/josemarluedke/status/1127967059415953408)
 
-On May 16, the **Global Accessibility Awareness Day (GAAD)** inspired developers all around the world to reflect on the way they use and build applications for the web. In her [recent call-to-action for GAAD](https://blog.emberjs.com/2019/05/13/global-accessibility-awareness-day.html) 📣, [@melsumner](https://github.com/MelSumner) encouraged the Ember community to take the time to browse the web using keyboard or an assistive technology, and to spend time to improve accessibility in their own projects.
+On May 16th, **Global Accessibility Awareness Day (GAAD)** inspired developers all around the world to reflect on the way they use and build applications for the web. In her [recent call-to-action for GAAD](https://blog.emberjs.com/2019/05/13/global-accessibility-awareness-day.html) 📣, [@MelSumner](https://github.com/MelSumner) encouraged the Ember community to take the time to browse the web using keyboard or an assistive technology, and to spend time to improve accessibility in their own projects.
 
 Addon author [@josemarluedke](https://github.com/josemarluedke) followed this call-to-action and just published [Ember Focus Trap](https://github.com/josemarluedke/ember-focus-trap)! It's based on the JavaScript library [Focus Trap](https://github.com/davidtheclark/focus-trap) that helps you to intentionally trap focus in certain DOM nodes. This makes it easy for you to improve the keyboard accessibility of otherwise inaccessible elements such as modal dialogs.
 
