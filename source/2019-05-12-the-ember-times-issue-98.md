@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: Isaac Lee, Amy Lam, the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -16,6 +16,7 @@ This week:
 `model` hook illuminated in Ember.js Guides 💡,
 EmberCamp CFP Open 🏕,
 the new EmberWork.com ✌️,
+a proposal to use Empress to render the Ember RFCs 📃,
 FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️,
 ...
 
@@ -58,12 +59,14 @@ Whether you want to come enjoy the breathtaking views, make new Ember friends, o
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!--alex ignore king-queen-->
+## [Use Empress to render the Ember RFCs 📃](https://github.com/emberjs/rfcs/pull/489)
+<!--alex ignore king-queen-->
+[@mansona](https://github.com/mansona) proposed an implementation change to how we currently "render" our RFCs in the [website](https://emberjs.github.io/rfcs/). The proposed change is to move from using `mdbook`, which provides better formatting for markdown files, to employing [Empress](https://github.com/empress) techniques to render the RFC pages.
+
+In the same proposal, the official URL of an RFC was proposed to move from `https://emberjs.github.io/rfcs/0425-website-redesign.html` to `https://rfcs.emberjs.com/0425-website-redesign/`. This would then be considered a stable URL and will require us to maintain redirects if we ever change them.
+
+Read and comment more on [GitHub](https://github.com/emberjs/rfcs/pull/489) about the proposed change!
   
 ---
 
@@ -143,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Amy Lam, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
