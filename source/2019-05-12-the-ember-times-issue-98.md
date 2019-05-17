@@ -59,6 +59,7 @@ Whether you want to come enjoy the breathtaking views, make new Ember friends, o
   
 ---
 
+<!--alex ignore king-queen-->
 ## [Use Empress to render the Ember RFCs 📃](https://github.com/emberjs/rfcs/pull/489)
 <!--alex ignore king-queen-->
 [@mansona](https://github.com/mansona) proposed an implementation change to how we currently "render" our RFCs in the [website](https://emberjs.github.io/rfcs/). The proposed change is to move from using `mdbook`, which provides better formatting for markdown files, to employing [Empress](https://github.com/empress) techniques to render the RFC pages.
