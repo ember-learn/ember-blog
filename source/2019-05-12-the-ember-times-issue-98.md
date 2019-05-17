@@ -62,6 +62,7 @@ So make sure to check it out and [give it a listen 🎧](https://devchat.tv/js-j
 ## [Do or Donut, there is no Sizzlepie 🍩](https://twitter.com/emberweekend/status/1116022639015940096)
 The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episode last month in which Chase, Robert, and Jonathan chat about various topics such as: **an EmberConf recap** (including *secret Donut* info and *Sizzlepies*! 🥧), the **Octane preview** (including a [video](https://www.youtube.com/watch?v=BV09blWlc64) by [@gavinjoyce](https://twitter.com/gavinjoyce), [Embroider](https://github.com/embroider-build/embroider), as well as an [EmberMap video "An Intro to Broccoli.js"](https://embermap.com/topics/intro-to-broccoli)
 
+<!--alex ignore hostesses-hosts-->
 [Give it a listen here 🎧](https://emberweekend.com/episodes/do-or-donut)! You can tell us, and the hosts, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
   
 ---
