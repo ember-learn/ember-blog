@@ -11,7 +11,7 @@ Goeie dag Emberistas! 🐹
 <!--alex ignore king-queen-->
 This week:
 `model` hook illuminated in Ember.js Guides 💡,
-EmberCamp CFP Open 🏕,
+EmberCamp CFP open 🏕,
 Ember podcasts to keep us happy 📻🍩🎧,
 a proposal to use Empress to render the Ember RFCs 📃,
 a new release of the ember-shepherd addon 🚢,
