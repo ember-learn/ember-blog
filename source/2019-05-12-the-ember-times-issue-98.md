@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 98
-author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/12-the-ember-times-issue-98.html"
 responsive: true
@@ -20,6 +20,7 @@ the new EmberWork.com ✌️,
 a proposal to use Empress to render the Ember RFCs 📃,
 FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️,
 a new release of the ember-shepherd addon🚢,
+trapping focus 💥 for better **a11y** in your Ember apps,
 ...
 
 ---
@@ -36,7 +37,7 @@ In particular, our guide now shows:
 - How to debug `model`
 
 These updates are stepping stones to [@jenweber](https://github.com/jenweber)'s [major initiative to help developers learn Ember Data easily](https://github.com/ember-learn/guides-source/issues/20). Please thank Jen for her positive work, as well as [@acorncom](https://github.com/acorncom), [@lisaychuang](https://github.com/lisaychuang), [@mike-north](https://github.com/mike-north), and [@zachgarwood](https://github.com/zachgarwood) for their help with reviews!
-  
+
 ---
 
 ## [EmberCamp CFP Open 🏕](http://embercamp.com/)
@@ -49,20 +50,23 @@ Proposal types:
 * 30-90 minute activities (new this year!)
 
 Whether you want to come enjoy the breathtaking views, make new Ember friends, or get the scoop on what's coming next—EmberCamp Chicago is the place to be!
-  
+
 ---
 
 ## [Jabber away about Javascript 📻](https://twitter.com/samselikoff/status/1128351412881063937)
+
 A new podcast episode of [Javascript Jabber](https://twitter.com/JSJabber) has been released in which [Sam Selikoff](https://twitter.com/samselikoff) is interviewed by [AJ ONeal](https://twitter.com/solderjs) about **Ember** 🐹. They go into detail regarding how Sam got started working with Ember and they also talked a little bit about the **history of the Ember framework**.
 
 From the [shownotes](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/):
-"Sam mentions some of the biggest advantages in using Ember, and what it should and should not be used for. He explains the architecture of Ember apps, addresses some of the performance concerns and then dives into Octane in detail."
+
+> Sam mentions some of the biggest advantages in using Ember, and what it should and should not be used for. He explains the architecture of Ember apps, addresses some of the performance concerns and then goes into Octane in detail.
 
 So make sure to check it out and [give it a listen 🎧](https://devchat.tv/js-jabber/jsj-364-ember-octane-with-sam-selikoff/)! You can tell us, and Sam, what you thought on the [#media channel](https://discordapp.com/channels/480462759797063690/486955806588403773/) on [Discord](https://discordapp.com/invite/zT3asNS).
-  
+
 ---
 
 ## [Do or Donut, there is no Sizzlepie 🍩](https://twitter.com/emberweekend/status/1116022639015940096)
+
 The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episode last month in which Chase, Robert, and Jonathan chat about various topics such as: **an EmberConf recap** (including *secret Donut* info and *Sizzlepies*! 🥧), the **Octane preview** (including a [video](https://www.youtube.com/watch?v=BV09blWlc64) by [@gavinjoyce](https://twitter.com/gavinjoyce), [Embroider](https://github.com/embroider-build/embroider), as well as an [EmberMap video "An Intro to Broccoli.js"](https://embermap.com/topics/intro-to-broccoli)
 
 <!--alex ignore hostesses-hosts-->
@@ -78,7 +82,7 @@ The [Ember Weekend Podcast](https://twitter.com/emberweekend) released an episod
 In the same proposal, the official URL of an RFC was proposed to move from `https://emberjs.github.io/rfcs/0425-website-redesign.html` to `https://rfcs.emberjs.com/0425-website-redesign/`. This would then be considered a stable URL and will require us to maintain redirects if we ever change them.
 
 Read and comment more on [GitHub](https://github.com/emberjs/rfcs/pull/489) about the proposed change!
-  
+
 ---
 
 ## [A new version of the ember-shepherd addon 🚀](https://twitter.com/shipshapecode/status/1124490696843583490)
@@ -94,27 +98,27 @@ Check out the new release of ember-shepherd [here](https://github.com/shipshapec
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [EmberWork.com ✌️](https://emberwork.com/)
-  
-We often hear folks say they want to work in Ember, but they can't find an Ember role! There's a new community resource for that—[Ember Work](https://emberwork.com/). Ember Work was built to make things **a little easier** on you. No more scouring LinkedIn or other sources. And no more jobs that are not *quite* Ember. 
+
+We often hear folks say they want to work in Ember, but they can't find an Ember role! There's a new community resource for that—[Ember Work](https://emberwork.com/). Ember Work was built to make things **a little easier** on you. No more scouring LinkedIn or other sources. And no more jobs that are not *quite* Ember.
 
 Have an open role on your team? Share it on [Ember Work](https://emberwork.com/) for free. (While you're at it, post it on [#ember-jobs](https://discordapp.com/channels/480462759797063690/480523148102467623) on Discord too!) Thanks [@herzzanu](https://github.com/herzzanu) and [@Exelord](https://github.com/Exelord) for building this resource for the community. 💼
-  
+
 ---
 
 ## [FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6)
@@ -126,6 +130,17 @@ This week, [@jenweber](https://github.com/jenweber) took her time to [engage a w
 We encourage you to [read and share the blog post](https://medium.com/ember-ish/faqs-about-ember-js-in-2019-64efabbf84e6)! If you have time, we encourage you to pen and share your Ember article as well. 🙏
 
 ---
+
+## [Intentional Element Focus with Ember Focus Trap 💥](https://twitter.com/josemarluedke/status/1127967059415953408)
+
+This week the **Global Accessibility Awareness Day (GAAD)** on May 16 inspired developers all around the world to reflect on the way they use and build applications for the web. In her [recent call-to-action for GAAD](https://blog.emberjs.com/2019/05/13/global-accessibility-awareness-day.html) 📣, [@melsumner](https://github.com/MelSumner) encouraged the Ember community to take the time to browse the web using only their keyboard and with the support of assistive technologies. Or to spend time to improve their own projects in regards to accessibility.
+
+Addon author [@josemarluedke](https://github.com/josemarluedke) followed this call-to-action and just published [Ember Focus Trap](https://github.com/josemarluedke/ember-focus-trap)! It's based on the JavaScript library [Focus Trap](https://github.com/davidtheclark/focus-trap) that helps you to intentionally trap focus in certain DOM nodes. This makes it easy for you to improve the keyboard accessibility of otherwise inaccessible elements such as modal dialogs.
+
+And with **Ember Focus Trap** adding focus to interactive elements in your Ember app is only an `ember install` away. Check it [out today](https://josemarluedke.github.io/ember-focus-trap/)!
+
+
+
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
@@ -146,7 +161,7 @@ We encourage you to [read and share the blog post](https://medium.com/ember-ish/
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -158,5 +173,4 @@ That's another wrap! ✨
 
 Be kind,
 
-
-Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jared Galanis, Jessica Jordan and the Learning Team
