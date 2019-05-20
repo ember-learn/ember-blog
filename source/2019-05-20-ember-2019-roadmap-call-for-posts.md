@@ -45,7 +45,7 @@ We strongly encourage posts replying to or building off of others' posts. Please
 
 To kickoff the process, we've collected some early posts:
 
-* [Melanie Sumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way)
+* [Melanie Sumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way/)
 * [Yehuda Katz](https://yehudakatz.com/2019/05/20/ember-2019)
 * [Preston Sego](https://nullvoxpopuli.com/2019-05-14-ember-2019-roadmap)
 
