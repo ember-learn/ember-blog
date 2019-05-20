@@ -11,6 +11,9 @@ responsive: true
 你好 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+...,
+...,
+new ways for you to **mock requests** in **Fastboot** tests 👢💨,
 
 ---
 
