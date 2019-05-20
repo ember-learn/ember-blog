@@ -224,6 +224,7 @@ As with Ember.js, Ember CLI now supports native decorators.
 **Drop Node 6 support (2 of 2)**
 
 Ember CLI 3.10 officially drops support for Node 6. Ember.js still supports it until all the blueprints are updated.
+Maintainers of addons are encouraged to make a _major version_ release of their addons when upgrading to 3.10, since dropping Node 6 support may be a breaking change for some of their library's users.
 
 #### Deprecations (0)
 
