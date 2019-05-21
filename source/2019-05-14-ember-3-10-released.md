@@ -199,6 +199,7 @@ This information is also available on the
 ## Ember CLI
 
 Ember CLI is the command line interface for managing and packaging Ember.js applications.
+3.10.0 had a small bug with blueprints that caused CI trouble for some platforms, which is fixed by a patch in version 3.10.1.
 
 ### Upgrading Ember CLI
 
