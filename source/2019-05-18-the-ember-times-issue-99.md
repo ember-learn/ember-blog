@@ -14,7 +14,7 @@ responsive: true
 Submit your input for Ember's 2019 Roadmap ✍️,
 ...,
 new ways for you to **mock requests** in **Fastboot** tests 👢💨,
-faster builds with Docker on Windows 🐳,
+faster builds on Windows with Docker 🐳,
 
 ---
 
@@ -53,7 +53,7 @@ Ember builds, which make use of temporary files, have traditionally been slow on
 
 The results? About **70% faster first build time** and **785% faster rebuild time**! 🙌
 
-Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-faster-ember-builds-with-docker-on-windows-7e1) and [GitHub repo](https://github.com/dustinsoftware/ember-docker-starter) to learn how you can set up Docker (with CI) for your app!
+Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-faster-ember-builds-with-docker-on-windows-7e1) and [GitHub repo](https://github.com/dustinsoftware/ember-docker-starter) to learn how you can set up Docker (with CI) for your Ember app!
 
 ---
 
