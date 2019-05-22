@@ -19,7 +19,7 @@ new ways for you to **mock requests** in **Fastboot** tests 👢💨,
 
 ## [Ember's 2019 Roadmap: Call for Blog Posts ✍️](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-It’s that time of the year again! With the [2018 roadmap](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md) underway, it’s time to think about what Ember will be in the roadmap for 2019! The Roadmap process is part of Ember’s ongoing effort to have shared, clear, and published project-wide goals.
+It’s that time of the year again! With the [2018 Roadmap](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md) underway, it’s time to think about what Ember will look like in 2019! The Roadmap process is part of Ember’s ongoing effort to have collaborative, clear, and published project-wide goals each year.
 
 The idea is to have community input on what the priorities are for Ember in 2019 including Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related. To start you off, check out some early 2019 blog posts from: [@MelSumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way/), [@wycats](https://yehudakatz.com/2019/05/20/ember-2019/), and [@NullVoxPopuli](https://nullvoxpopuli.com/2019-05-14-ember-2019-roadmap/)! Make sure you get yours in before the **June 17 deadline** (it can be anything from a company blog post to a [GitHub gist](https://gist.github.com/))!
 
