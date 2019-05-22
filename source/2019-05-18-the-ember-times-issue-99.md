@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 99
-author: Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/18-the-ember-times-issue-99.html"
 responsive: true
@@ -11,18 +11,19 @@ responsive: true
 你好 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-...,
+Submit your input for Ember's 2019 Roadmap ✍️,
 ...,
 new ways for you to **mock requests** in **Fastboot** tests 👢💨,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Ember's 2019 Roadmap: Call for Blog Posts ✍️](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+It’s that time of the year again! With the [2018 Roadmap](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md) underway, it’s time to think about what Ember will look like in 2019! The Roadmap process is part of Ember’s ongoing effort to have collaborative, clear, and published project-wide goals each year.
+
+We want your input on what the priorities are for Ember in 2019. You can talk about Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related. To start you off, we have early 2019 blog posts from [@MelSumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way/), [@wycats](https://yehudakatz.com/2019/05/20/ember-2019/), and [@NullVoxPopuli](https://nullvoxpopuli.com/2019-05-14-ember-2019-roadmap/)! Make sure you get yours in before the **June 17 deadline** (it can be anything from a company blog post to a [GitHub gist](https://gist.github.com/))!
+
+To contribute a post: **Tweet a link** to the post with the hashtag [#EmberJS2019](https://twitter.com/hashtag/emberjs2019) or **email a link** to roadmap@emberjs.com. These posts will be collected and categorized, and each one will be read by those working to draft the Roadmap RFC.
 
 ---
 
@@ -130,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
