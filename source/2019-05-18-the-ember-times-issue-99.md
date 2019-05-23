@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 99
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/18-the-ember-times-issue-99.html"
 responsive: true
@@ -14,6 +14,7 @@ responsive: true
 Submit your input for Ember's 2019 Roadmap ✍️,
 ...,
 new ways for you to **mock requests** in **Fastboot** tests 👢💨,
+faster builds on Windows with Docker 🐳,
 
 ---
 
@@ -46,12 +47,13 @@ Your testing dreams have just come true! [Ember CLI Fastboot Testing](https://em
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Faster Ember Builds with Docker on Windows 🐳](https://dev.to/dustinsoftware/build-hacks-faster-ember-builds-with-docker-on-windows-7e1)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember builds, which make use of temporary files, have traditionally been slow on Windows due to its file system. [@dustinsoftware](https://github.com/dustinsoftware), who wanted to empower Windows developers on his team, investigated using [Docker](https://docs.docker.com/docker-for-windows/) to speed up and simplify their builds.
+
+The results? About **70% faster first build time** and **785% faster rebuild time**! 🙌
+
+Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-faster-ember-builds-with-docker-on-windows-7e1) and [GitHub repo](https://github.com/dustinsoftware/ember-docker-starter) to learn how you can set up Docker (with CI) for your Ember app!
 
 ---
 
@@ -131,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
