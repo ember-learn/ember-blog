@@ -21,7 +21,7 @@ and last, but not least, Crash Log: a new Ember and more podcast 🎙!
 
 It’s that time of the year again! With the [2018 Roadmap](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md) underway, it’s time to think about what Ember will look like in 2019! The Roadmap process is part of Ember’s ongoing effort to have collaborative, clear, and published project-wide goals each year.
 
-We want your input on what the priorities are for Ember in 2019. You can talk about Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related. To start you off, we have early 2019 blog posts from [@MelSumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way/), [@wycats](https://yehudakatz.com/2019/05/20/ember-2019/), and [@NullVoxPopuli](https://nullvoxpopuli.com/2019-05-14-ember-2019-roadmap/)! Make sure you get yours in before the **June 17 deadline** (it can be anything from a company blog post to a [GitHub gist](https://gist.github.com/))!
+We want your input on what the priorities are for Ember in 2019. You can talk about Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related. To start you off, we have early 2019 blog posts from [@MelSumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way/), [@wycats](https://yehudakatz.com/2019/05/20/ember-2019/), and [@NullVoxPopuli](https://nullvoxpopuli.com/2019-05-14-ember-2019-roadmap/)! Make sure you get yours in before the **June 17th deadline** (it can be anything from a company blog post to a [GitHub gist](https://gist.github.com/))!
 
 To contribute a post: **Tweet a link** to the post with the hashtag [#EmberJS2019](https://twitter.com/hashtag/emberjs2019) or **email a link** to [roadmap@emberjs.com](mailto:roadmap@emberjs.com). These posts will be collected and categorized, and each one will be read by those working to draft the Roadmap RFC.
 
@@ -59,7 +59,7 @@ Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-
 
 Have you ever found yourself trying to implement changes to your application based on element resizing? Well, then we have good news for you: [ember-did-resize-modifier](https://github.com/gmurphey/ember-did-resize-modifier) is a great new addon that helps you by calling a callback whenever a given element is resized.
 
-Check out [the README](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon.
+Check out the [README](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon.
 
 ---
 
