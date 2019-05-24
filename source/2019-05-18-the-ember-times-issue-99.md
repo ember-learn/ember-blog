@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 99
-author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, Kenneth Larsen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/18-the-ember-times-issue-99.html"
 responsive: true
@@ -15,6 +15,7 @@ Submit your input for Ember's 2019 Roadmap ✍️,
 ...,
 new ways for you to **mock requests** in **Fastboot** tests 👢💨,
 faster builds on Windows with Docker 🐳,
+new addon ember-did-resize-modifier released 📐
 
 ---
 
@@ -57,12 +58,11 @@ Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Resizing Like a Pro 📐](https://github.com/gmurphey/ember-did-resize-modifier)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Have you ever found yourself trying to implement changes to your application based on element resizing? Well, then we have good news for you: [ember-did-resize-modifier](https://github.com/gmurphey/ember-did-resize-modifier) is a great new addon that helps you by calling a callback whenever a given element is resized.
+
+Check out [the readme](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon.
 
 ---
 
@@ -133,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, Kenneth Larsen, the crowd and the Learning Team
