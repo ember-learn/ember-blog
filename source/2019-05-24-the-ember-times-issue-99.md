@@ -8,12 +8,12 @@ responsive: true
 
 你好 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Submit your input for Ember's 2019 Roadmap ✍️,
 Ember 3.10 Released 🔟,
 new ways for you to **mock requests** in **Fastboot** tests 👢💨,
 faster builds on Windows with Docker 🐳,
-new addon ember-did-resize-modifier released 📐
+new addon ember-did-resize-modifier released 📐,
+and last, but not least, Crash Log - a new Ember and more podcast 🎙!  
 
 ---
 
@@ -63,39 +63,9 @@ Check out [the readme](https://github.com/gmurphey/ember-did-resize-modifier#rea
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [New Podcast: Crash Log 🎙](https://crashlog.transistor.fm/)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@davewasmer](https://github.com/davewasmer) and [@kwownasilya](https://github.com/knownasilya) silently launched **Crash Log**, a weekly podcast with the Crash Engineering team covering the journey of building an Ember and Node web app. Tune in to hear about development, startup life, Ember.js, GraphQL, functional CSS frameworks, EmberConf, data fetching in realtime, and more! Check out the first three episodes at [TransistorFM](https://crashlog.transistor.fm/), [iTunes](https://podcasts.apple.com/us/podcast/crash-log/id1462819338) or [Spotify](https://open.spotify.com/show/2gKJbmJCvCKJV0KfnUNI0b).
 
 ---
 
