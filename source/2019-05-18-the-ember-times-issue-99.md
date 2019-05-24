@@ -60,9 +60,9 @@ Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-
 
 ## [Resizing Like a Pro 📐](https://github.com/gmurphey/ember-did-resize-modifier)
 
-Have you ever found yourself trying to implement changes to your application based on element resizing? Well, then we have goo news for you: [ember-did-resize-modifier](https://github.com/gmurphey/ember-did-resize-modifier) is a great new addon that helps you by calling a callback whenever a given element is resized.
+Have you ever found yourself trying to implement changes to your application based on element resizing? Well, then we have good news for you: [ember-did-resize-modifier](https://github.com/gmurphey/ember-did-resize-modifier) is a great new addon that helps you by calling a callback whenever a given element is resized.
 
-Check out [the readme](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon
+Check out [the readme](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon.
 
 ---
 
