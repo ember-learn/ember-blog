@@ -1,12 +1,10 @@
 ---
 title: The Ember Times - Issue No. 99
-author: Chris Ng, Jessica Jordan, Isaac Lee, Kenneth Larsen, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, Kenneth Larsen, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/05/18-the-ember-times-issue-99.html"
+alias : "blog/2019/05/24-the-ember-times-issue-99.html"
 responsive: true
 ---
-
-<change date in alias and filename on day of send>
 
 你好 Emberistas! 🐹
 
@@ -133,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Isaac Lee, Kenneth Larsen, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, Kenneth Larsen, Amy Lam and the Learning Team
