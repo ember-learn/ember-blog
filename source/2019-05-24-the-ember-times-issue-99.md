@@ -13,7 +13,7 @@ Ember 3.10 Released 🔟,
 new ways for you to **mock requests** in **Fastboot** tests 👢💨,
 faster builds on Windows with Docker 🐳,
 new addon ember-did-resize-modifier released 📐,
-and last, but not least, Crash Log - a new Ember and more podcast 🎙!  
+and last, but not least, Crash Log: a new Ember and more podcast 🎙!  
 
 ---
 
@@ -23,7 +23,7 @@ It’s that time of the year again! With the [2018 Roadmap](https://github.com/e
 
 We want your input on what the priorities are for Ember in 2019. You can talk about Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related. To start you off, we have early 2019 blog posts from [@MelSumner](http://www.melsumner.com/blog/ember/the-road-goes-data-way/), [@wycats](https://yehudakatz.com/2019/05/20/ember-2019/), and [@NullVoxPopuli](https://nullvoxpopuli.com/2019-05-14-ember-2019-roadmap/)! Make sure you get yours in before the **June 17 deadline** (it can be anything from a company blog post to a [GitHub gist](https://gist.github.com/))!
 
-To contribute a post: **Tweet a link** to the post with the hashtag [#EmberJS2019](https://twitter.com/hashtag/emberjs2019) or **email a link** to roadmap@emberjs.com. These posts will be collected and categorized, and each one will be read by those working to draft the Roadmap RFC.
+To contribute a post: **Tweet a link** to the post with the hashtag [#EmberJS2019](https://twitter.com/hashtag/emberjs2019) or **email a link** to [roadmap@emberjs.com](mailto:roadmap@emberjs.com). These posts will be collected and categorized, and each one will be read by those working to draft the Roadmap RFC.
 
 ---
 
@@ -41,7 +41,7 @@ Building a [Fastboot](https://ember-fastboot.com/) powered Ember application? St
 
 Imagine if you could **mock network requests** for your Fastboot test suite with ease, just as you already do using [Ember CLI Mirage](https://www.ember-cli-mirage.com/) when testing the client-side of your app.
 
-Your testing dreams have just come true! [Ember CLI Fastboot Testing](https://embermap.github.io/ember-cli-fastboot-testing/) provides you with useful test helpers and a mock server for intercepting requests from your Fastboot app while testing. Learn how to mock network requests with it by checking out this [amazing introduction](https://embermap.com/video/fastboot-network-mocking) by [our friends at EmberMap](https://embermap.com) and test away ✨
+Your testing dreams have just come true! [Ember CLI Fastboot Testing](https://embermap.github.io/ember-cli-fastboot-testing/) provides you with useful test helpers and a mock server for intercepting requests from your Fastboot app while testing. Learn how to mock network requests with it by checking out this [amazing introduction](https://embermap.com/video/fastboot-network-mocking) by [our friends at EmberMap](https://embermap.com) and test away! ✨
 
 ---
 
@@ -59,7 +59,7 @@ Please check out [Dustin's blog post](https://dev.to/dustinsoftware/build-hacks-
 
 Have you ever found yourself trying to implement changes to your application based on element resizing? Well, then we have good news for you: [ember-did-resize-modifier](https://github.com/gmurphey/ember-did-resize-modifier) is a great new addon that helps you by calling a callback whenever a given element is resized.
 
-Check out [the readme](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon.
+Check out [the README](https://github.com/gmurphey/ember-did-resize-modifier#readme) for more information on what you can do with this addon.
 
 ---
 
