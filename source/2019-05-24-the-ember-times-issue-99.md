@@ -9,7 +9,7 @@ responsive: true
 你好 Emberistas! 🐹
 
 Submit your input for Ember's 2019 Roadmap ✍️,
-Ember 3.10 Released 🔟,
+Ember 3.10 released 🔟,
 new ways for you to mock requests in Fastboot tests 👢💨,
 faster builds on Windows with Docker 🐳,
 new addon ember-did-resize-modifier released 📐,
