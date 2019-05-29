@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 100
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/25-the-ember-times-issue-100.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+check out the Ember Sinon 4.0.0 release,
 
 ---
 
@@ -59,12 +60,9 @@ responsive: true
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Ember Sinon 4.0.0 Release! 💯](https://twitter.com/JordanHawker/status/1131293493492457472)
+
+Ember Sinon, a Ember CLI addon adding support for sinon.js, released breaking change in [version 4.0.0](https://github.com/csantero/ember-sinon/releases/tag/4.0.0) which includes the latest Sinon.JS release – [Sinon 7.3.2](https://github.com/sinonjs/sinon/releases/tag/v7.3.2), [EmberJS 3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html), and drops Node 6 support to match the latest [Ember CLI blueprints](https://github.com/ember-cli/ember-cli/pull/8563).
   
 ---
 
@@ -126,4 +124,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
