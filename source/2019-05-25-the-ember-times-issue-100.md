@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 100
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/25-the-ember-times-issue-100.html"
 responsive: true
@@ -10,7 +10,10 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week, find out
+...
+how to conditionally wrap components 💝,
+...
 
 ---
 
@@ -32,12 +35,13 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Conditionally Wrapping Components with Ember.js 💝](https://dockyard.com/blog/2019/05/21/conditionally-wrapping-components-with-ember-js)
+
+Last year, we learned [how to yield an Ember component in multiple places](https://dockyard.com/blog/2018/11/26/how-to-yield-an-ember-component-in-multiple-places). [Brandon Blaylock](https://github.com/baroquon) shares **step-by-step instructions** on how to extend this work so that [we can conditionally wrap components](https://dockyard.com/blog/2019/05/21/conditionally-wrapping-components-with-ember-js).
+
+The best news? With angle bracket syntax, we can dramatically simplify our template! 💯
+
+[Find out how today](https://dockyard.com/blog/2019/05/21/conditionally-wrapping-components-with-ember-js)!
   
 ---
 
@@ -126,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
