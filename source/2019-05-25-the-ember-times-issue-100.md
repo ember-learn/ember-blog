@@ -41,7 +41,7 @@ Last year, we learned [how to yield an Ember component in multiple places](https
 
 This month, [@baroquon](https://github.com/baroquon) shares **step-by-step instructions** on how to extend this work so that [we can conditionally wrap components](https://dockyard.com/blog/2019/05/21/conditionally-wrapping-components-with-ember-js).
 
-The best news? With [angle bracket syntax](https://github.com/rwjblue/ember-angle-bracket-invocation-polyfill), we can dramatically simplify our template! 💯
+The best news? With [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/#toc_angle-bracket-syntax), we can dramatically simplify our template! 💯
 
 [Find out how today](https://dockyard.com/blog/2019/05/21/conditionally-wrapping-components-with-ember-js)!
   
