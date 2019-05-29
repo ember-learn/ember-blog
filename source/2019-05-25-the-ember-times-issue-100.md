@@ -67,7 +67,11 @@ The best news? With [angle bracket syntax](https://guides.emberjs.com/release/re
 
 ## [Ember Sinon 4.0.0 Release! 💯](https://twitter.com/JordanHawker/status/1131293493492457472)
 
-Ember Sinon, an Ember CLI addon adding support for sinon.js, released breaking change in [version 4.0.0](https://github.com/csantero/ember-sinon/releases/tag/4.0.0) which includes the latest Sinon.JS release – [Sinon 7.3.2](https://github.com/sinonjs/sinon/releases/tag/v7.3.2), [EmberJS 3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html), and drops Node 6 support to match the latest [Ember CLI blueprints](https://github.com/ember-cli/ember-cli/pull/8563).
+Ember Sinon, an Ember CLI addon adding support for Sinon.JS, released breaking change in [version 4.0.0](https://github.com/csantero/ember-sinon/releases/tag/4.0.0) which includes the latest Sinon.JS release – [Sinon 7.3.2](https://github.com/sinonjs/sinon/releases/tag/v7.3.2), [EmberJS 3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html), and drops Node 6 support to match the latest [Ember CLI blueprints](https://github.com/ember-cli/ember-cli/pull/8563).
+
+[Sinon.JS](https://sinonjs.org/) provides standalone test spies, stubs, and mocks for JavaScript. It works for any unit testing framework, with [Ember Sinon](https://github.com/csantero/ember-sinon) providing an easy to integration with Sinon.JS.
+
+Try out [Ember Sinon](https://github.com/csantero/ember-sinon) today with `ember install ember-sinon`!
   
 ---
 
