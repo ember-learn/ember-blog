@@ -13,7 +13,9 @@ responsive: true
 This week, find out
 ...
 how to conditionally wrap components 💝,
-check out the Ember Sinon 4.0.0 release,
+check out the Ember Sinon 4.0.0 release 💯,
+Ember CLI Mirage 1.0.0 release 🎉,
+Ember File Upload 2.7.0 release 🆙,
 
 ---
 
@@ -75,13 +77,20 @@ Try out [Ember Sinon](https://github.com/csantero/ember-sinon) today with `ember
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Ember CLI Mirage 1.0.0 Release 🎉](https://twitter.com/samselikoff/status/1131306153764380673)
+
+After over four years and 1,442 commits from **174 contributors**, [Ember CLI Mirage](https://www.ember-cli-mirage.com/) has met its milestone 1.0.0 release! Big congratulations to [@samselikoff](https://github.com/samselikoff) and everyone who helped create one of our favorite addons. 🙌
+
+With 1.0.0 (or should we say 💯?), you will also find **updated documentation** and [instructions on how to upgrade](https://www.ember-cli-mirage.com/docs/getting-started/upgrade-guide). If you haven't tried out Mirage to mock your backend APIs, we encourage you to today!
   
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+---
+
+## [Ember File Upload 2.7.0 Release 🆙](https://twitter.com/Alonski/status/1128582603894923264)
+
+[Ember File Upload](https://github.com/adopted-ember-addons/ember-file-upload), which allows file uploads to continue over a route transition, announced its 2.7.0 release! You will see updated README (examples using angle bracket) and stability from updated dependencies and bug fixes. 🧡
+
+Please thank [@Alonski](https://github.com/Alonski), [@maxwondercorn](https://github.com/maxwondercorn), [@raido](https://github.com/raido), [@bendemboski](https://github.com/bendemboski), [@hakilebara](https://github.com/hakilebara), and [@andreyfel](https://github.com/andreyfel) for their work! 💯
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
