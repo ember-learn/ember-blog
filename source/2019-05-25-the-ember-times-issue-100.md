@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 100
-author: Chris Ng, Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/25-the-ember-times-issue-100.html"
 responsive: true
@@ -18,21 +18,22 @@ Ember CLI Mirage 1.0.0 release 🎉,
 Ember File Upload 2.7.0 release 🆙,
 ES6 Class Syntax Codemod 🤖,
 
+Mythical `null` and error handling with True Myth 3.0 🔮,
+
+---
+
+## [More Robust Null and Error Handling with True Myth 3.0 🔮](https://twitter.com/chriskrycho/status/1129485575621230592)
+
+[**True Myth**](https://true-myth.js.org/) - your go-to library for handling `null` values and errors in your app in a type-safe fashion - is out with the brand-new **3.0.0 release**!
+
+Check out which helper functions and methods are new in the latest release, by reviewing the [3.0 release page](https://github.com/true-myth/true-myth/releases/tag/v3.0.0) and **maybe.ify today**!
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -47,25 +48,25 @@ This month, [@baroquon](https://github.com/baroquon) shares **step-by-step instr
 The best news? With [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/#toc_angle-bracket-syntax), we can dramatically simplify our template! 💯
 
 [Find out how today](https://dockyard.com/blog/2019/05/21/conditionally-wrapping-components-with-ember-js)!
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Ember Sinon 4.0.0 Release! 💯](https://twitter.com/JordanHawker/status/1131293493492457472)
@@ -75,7 +76,7 @@ Ember Sinon, an Ember CLI addon adding support for Sinon.JS, released breaking c
 [Sinon.JS](https://sinonjs.org/) provides standalone test spies, stubs, and mocks for JavaScript. It works for any unit testing framework, with [Ember Sinon](https://github.com/csantero/ember-sinon) providing an easy to integration with Sinon.JS.
 
 Try out [Ember Sinon](https://github.com/csantero/ember-sinon) today with `ember install ember-sinon`!
-  
+
 ---
 
 ## [Ember CLI Mirage 1.0.0 Release 🎉](https://twitter.com/samselikoff/status/1131306153764380673)
@@ -83,7 +84,7 @@ Try out [Ember Sinon](https://github.com/csantero/ember-sinon) today with `ember
 After over four years and 1,442 commits from 174 contributors, [Ember CLI Mirage](https://www.ember-cli-mirage.com/) has met its milestone 1.0.0 release! Big congratulations to [@samselikoff](https://github.com/samselikoff) and everyone who helped create one of our favorite addons. 🙌
 
 With 1.0.0 (or should we say 💯?), you will find updated documentation and [instructions on how to upgrade](https://www.ember-cli-mirage.com/docs/getting-started/upgrade-guide). If you haven't tried out Mirage to mock your backend APIs, we encourage you to today!
-  
+
 ---
 
 ## [Ember File Upload 2.7.0 Release 🆙](https://twitter.com/Alonski/status/1128582603894923264)
@@ -106,15 +107,15 @@ If you're interested in learning more about the motivation for this adoption of 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/vasind" target="gh-user">@vasind</a>, <a href="https://github.com/shakirjames" target="gh-user">@shakirjames</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/villander" target="gh-user">@villander</a>, <a href="https://github.com/tendermario" target="gh-user">@tendermario</a> and <a href="https://github.com/konstankinollc" target="gh-user">@konstankinollc</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -131,7 +132,7 @@ If you're interested in learning more about the motivation for this adoption of 
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -143,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan and the Learning Team
