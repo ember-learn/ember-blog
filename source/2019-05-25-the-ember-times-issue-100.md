@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 100
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/25-the-ember-times-issue-100.html"
 responsive: true
@@ -16,6 +16,7 @@ how to conditionally wrap components 💝,
 check out the Ember Sinon 4.0.0 release 💯,
 Ember CLI Mirage 1.0.0 release 🎉,
 Ember File Upload 2.7.0 release 🆙,
+ES6 Class Syntax Codemod 🤖,
 
 ---
 
@@ -93,13 +94,13 @@ Please thank [@Alonski](https://github.com/Alonski), [@maxwondercorn](https://gi
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [Codemod for ES6 Class Syntax Including Decorators🤖](https://github.com/ember-codemods/ember-es6-class-codemod)
+Excited about the chance to try out the ✨**native decorator support**✨ announced as part of the [release of Ember.js 3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)? The good news is there's a [codemod](https://github.com/ember-codemods/ember-es6-class-codemod) to help you out with that!
+
+Note that this part of the codemod is a configurable option in the transforms. If set to true, it will transform an object's properties to decorators wherever required. Also note that, unless disabled, this codemod will by default handle transforming object properties to class fields.
+
+If you're interested in learning more about the motivation for this adoption of native decorator support in **Ember.js** **3.10** [check out the RFC](https://emberjs.github.io/rfcs/0440-decorator-support.html#motivation).
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -142,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis the crowd and the Learning Team
