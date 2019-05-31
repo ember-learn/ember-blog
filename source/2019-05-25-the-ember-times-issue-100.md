@@ -94,7 +94,7 @@ Please thank [@Alonski](https://github.com/Alonski), [@maxwondercorn](https://gi
 
 ---
 
-## [Codemod for ES6 Class Syntax Including Decorators🤖](https://github.com/ember-codemods/ember-es6-class-codemod)
+## [Codemod for ES6 Class Syntax Including Decorators 🤖](https://github.com/ember-codemods/ember-es6-class-codemod)
 Excited about the chance to try out the ✨**native decorator support**✨ announced as part of the [release of Ember.js 3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)? The good news is there's a [codemod](https://github.com/ember-codemods/ember-es6-class-codemod) to help you out with that!
 
 Note that this part of the codemod is a configurable option in the transforms. If set to true, it will transform an object's properties to decorators wherever required. Also note that, unless disabled, this codemod will by default handle transforming object properties to class fields.
