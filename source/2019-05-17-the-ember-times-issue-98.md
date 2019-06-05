@@ -86,7 +86,7 @@ Read and comment more on [GitHub](https://github.com/emberjs/rfcs/pull/489) abou
 
 ## [A New Version of the ember-shepherd Addon 🚀](https://twitter.com/shipshapecode/status/1124490696843583490)
 
-[@rwwagner90](https://github.com/rwwagner90) and the crew at [Ship Shape](https://github.com/shipshapecode) have released 🚢 version 5.0.0 of the **ember-shepherd addon**, an awesome site tour library. The updated version includes improved loading speeds⚡️ due to lazy loading with ember-auto-import.
+[@rwwagner90](https://github.com/rwwagner90), [@st-h](https://github.com/st-h), and the crew at [Ship Shape](https://github.com/shipshapecode) have released 🚢 version 5.0.0 of the **ember-shepherd addon**, an awesome site tour library. The updated version includes improved loading speeds⚡️ due to lazy loading with ember-auto-import.
 
 In related news, Shepherd, the JavaScript library that underlies the ember addon that **Ship Shape** also maintains, [has been trending 📈 on Github](https://twitter.com/shipshapecode/status/1122673639932014593)!
 
