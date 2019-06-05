@@ -53,7 +53,7 @@ With 1.0.0 (or should we say 💯?), you will find updated documentation and [in
 
 [Ember File Upload](https://github.com/adopted-ember-addons/ember-file-upload), which allows **file uploads that continue over a route transition**, announced its 2.7.0 release! You will see updated README (examples using angle bracket) and stability from updated dependencies and bug fixes. 🧡
 
-Please thank [@Alonski](https://github.com/Alonski), [@maxwondercorn](https://github.com/maxwondercorn), [@raido](https://github.com/raido), [@bendemboski](https://github.com/bendemboski), [@hakilebara](https://github.com/hakilebara), and [@andreyfel](https://github.com/andreyfel) for their work! 💯
+Please thank [@Alonski](https://github.com/Alonski), [@maxwondercorn](https://github.com/maxwondercorn), [@raido](https://github.com/raido), [@bendemboski](https://github.com/bendemboski), [@hakilebara](https://github.com/hakilebara), and [@andreyfel](https://github.com/andreyfel) for their work on this version! In addition, a big thanks to [@tim-evans](https://github.com/tim-evans) for the original authoring of the addon before it was [adopted](https://github.com/adopted-ember-addons/program-guidelines)! 💯
 
 ---
 
