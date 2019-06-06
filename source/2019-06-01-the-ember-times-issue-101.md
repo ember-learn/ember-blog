@@ -21,7 +21,7 @@ Put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺
   
 🚨 Blog posts wanted! 🚨 
 
-We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Please share your posts by **Monday, July 17th**. 
+We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**. 
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read more about the Roadmap RFC</a>
 
