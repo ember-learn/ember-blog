@@ -12,7 +12,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
-Put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺
+Put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺,
+a new addition to the Learning Team 👏,
 ...
 
 ---
@@ -45,12 +46,12 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Welcome Robert Wagner 👏](https://twitter.com/emberjs/status/1135585111817236492)  
+<div class="float-right padded portrait-frame">
+  <img alt="Robert Wagner" title="Robert Wagner - Ember Core Learning Team" src="/images/blog/emberjstimes/robertwagner.jpeg" />
+</div>
+
+We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has joined the [Learning Core Team](https://emberjs.com/team/) and will continue to champion the work on **[Ember Inspector](https://github.com/emberjs/ember-inspector)**! You may recall that [we featured Robert](https://discuss.emberjs.com/t/i-contribute-to-ember-with-robert-wagner/16143) in a past issue as part of our ["I contribute to Ember"](https://discuss.emberjs.com/c/community) series, where we interview members of our open source community. Congrats! 🎉
 
 ---
 
