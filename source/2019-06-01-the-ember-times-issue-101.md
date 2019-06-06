@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 101
-author: Amy Lam, the crowd
+author: Amy Lam, Preston Sego, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/01-the-ember-times-issue-101.html"
 responsive: true
@@ -55,12 +55,9 @@ We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [🧪 Preview Version of ember-query-params-service](https://github.com/NullVoxPopuli/ember-query-params-service)
+This is an experiment to see if using decorators and a separate service to manage query params is a feasible alternative
+to the existing query params implementation. We all **know** that query params in ember need to be fixed, and this is just one possible solution. It's a **very early** preview and is expected to have bugs. Should you choose to go on an adventure with this, please feel free to report weird or unexpected behavior. There will be an accompanying RFC to follow soon. 😉
   
 ---
 
