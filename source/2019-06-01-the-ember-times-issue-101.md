@@ -55,7 +55,7 @@ We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has
 
 ---
 
-## [🧪 Preview Version of ember-query-params-service](https://github.com/NullVoxPopuli/ember-query-params-service)
+## [Preview Version of ember-query-params-service 🧪](https://github.com/NullVoxPopuli/ember-query-params-service)
 This is an experiment to see if using decorators and a separate service to manage query params is a feasible alternative
 to the existing query params implementation. We all **know** that query params in ember need to be fixed, and this is just one possible solution. It's a **very early** preview and is expected to have bugs. Should you choose to go on an adventure with this, please feel free to report weird or unexpected behavior. There will be an accompanying RFC to follow soon. 😉
   
