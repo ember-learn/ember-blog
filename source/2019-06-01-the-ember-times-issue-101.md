@@ -115,45 +115,7 @@ Since the first issue The Ember Times gained over 1300 additional subscribers fo
 
 Most importantly, we'd also like to thank all the **amazing contributors** (in no particular order) who wrote for The Ember Times in the past three years:
 
-
-- Amy Lam
-- Isaac Lee
-- Chris Ng
-- Jared Galanis
-- Jessica Jordan
-- Kenneth Larsen
-- Alon Bukai
-- Bradley Leftley
-- Anne-Greeth van Herwijnen
-- Lisa Huang-North
-- Danielle Adams
-- Katie Gengler
-- Jen Weber
-- Gaurav Munjal
-- Ryan Mark
-- Michael Schinis
-- Robert Wagner
-- Melanie Sumner
-- Niels Rasmussen
-- Preston Sego
-- Bill Heaton
-- Miguel Braga Gomes
-- Nick Schot
-- Frédéric Soumaré
-- Edward Faulkner
-- Oli Griffiths
-- Ricardo Mendes
-- Ryan Toronto
-- Sivakumar Kailasam
-- Chris Manson
-- Miguel Gomes
-- Tobias Bieniek
-- Robert Jackson
-- Chris Garrett
-- Richard Wagner
-- Todd Jordan
-- Brian Runnells
-- Braden Lawrence
+Amy Lam, Isaac Lee, Chris Ng, Jared Galanis, Kenneth Larsen, Alon Bukai, Bradley Leftley, Anne-Greeth van Herwijnen, Lisa Huang-North, Danielle Adams, Katie Gengler, Jen Weber, Gaurav Munjal, Ryan Mark, Michael Schinis, Robert Wagner, Melanie Sumner, Niels Rasmussen, Preston Sego, Bill Heaton, Miguel Braga Gomes, Nick Schot, Frédéric Soumaré, Edward Faulkner, Oli Griffiths, Ricardo Mendes, Ryan Toronto, Sivakumar Kailasam, Chris Manson, Miguel Gomes, Tobias Bieniek, Robert Jackson, Chris Garrett, Todd Jordan, Brian Runnells, Braden Lawrence, Jessica Jordan ✨
 
 We're grateful for all the hard work that community members put in to keep The Ember Times going for the past 100 editions. And we're already looking forward to another 100 issues for the future! **Let us know** what you **enjoyed reading about the most** in the past 100 issues of The Ember Times using the [\#100EmberTimes hashtag on Twitter](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes) or chat with us on the [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) Discord channel!
 
