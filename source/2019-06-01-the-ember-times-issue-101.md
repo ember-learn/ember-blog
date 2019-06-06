@@ -80,6 +80,7 @@ He shares three concrete ideas to make growing Ember a reality:
 
 [@chadhietala](https://github.com/chadhietala) examines [routing, single file format, and shipping features that are due](https://gist.github.com/chadhietala/50b977a7d3476069892d351c65af418c).
 
+<!--alex ignore nuts-->
 > I believe it's time to re-think the routing layer and make it feel more cohesive with the rest of the framework. While there is a large portion of the API that is nice there are noticable warts around the mental model of the router, routes, controllers and templates, query params, redirects/aborts.
 
 ---
