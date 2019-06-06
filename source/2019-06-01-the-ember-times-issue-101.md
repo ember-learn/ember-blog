@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 101
-author: Amy Lam, Isaac Lee, Preston Sego, the crowd
+author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/01-the-ember-times-issue-101.html"
 responsive: true
@@ -14,20 +14,21 @@ responsive: true
 This week:
 Put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺,
 a new addition to the Learning Team 👏,
-a sneak preview of ember-query-params-service 🧪,
+a sneak preview of ember-query-params-service ❓,
+a retro of **100** Ember Times 🎉,
 ...
 
 ---
 
 ## [#EmberJS2019 🛣🗺](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
-  
-🚨 Blog posts wanted! 🚨 
 
-We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**. 
+🚨 Blog posts wanted! 🚨
+
+We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read more about the Roadmap RFC</a>
 
-Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We also wanted to share some highlights from posts out there in the Times. 
+Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We also wanted to share some highlights from posts out there in the Times.
 
 ---
 
@@ -101,66 +102,82 @@ We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has
 
 ## [Preview Version of ember-query-params-service 🧪](https://github.com/NullVoxPopuli/ember-query-params-service)
 This is an experiment to see if using decorators and a separate service to manage query params is a feasible alternative to the existing query params implementation. It's a **very early** preview and is expected to have bugs. Should you [choose to go on an adventure with this](https://github.com/NullVoxPopuli/ember-query-params-service), please feel free to report weird, unexpected behavior. There will be an accompanying RFC to follow soon. 😉
-  
+
+---
+
+## [One Hundred (And One) Editions of The Ember Times 📰 🎉](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes)
+
+ **The Ember Times**, one of your favourite news outlets about what's going on with Ember and its ecosystem, has just shipped its **one hundredth (and first) edition**! 🎉 The Ember Times now looks back at a long journey that started out over more than three years ago:
+
+In its [first release on May 2nd 2016](https://the-emberjs-times.ongoodbits.com/2016/05/03/issue-1), Ember Learning and Framework Core team member **Ricardo Mendes**, also known as [@locks](https://github.com/locks) 🔒, wrote - among many other topics - about the motivation of the newsletter, the recent issue triaging work by [@pixelhandler](https://github.com/pixelhandler) and the [recent implementation efforts](https://github.com/emberjs/ember.js/pull/13316) to get **Glimmer 2**, Ember's super-fast rendering engine, over the finish line. 🏁
+
+Since the first issue The Ember Times gained over 1300 additional subscribers for the e-mail format delivered by [Goodbits](https://the-emberjs-times.ongoodbits.com/) and many more readers on the official [Ember blog](https://blog.emberjs.com/tags/newsletter.html) and we'd like to thank all our interested readers who read, engage with and provide feedback for the news that we published so far.
+
+Most importantly, we'd also like to thank all the **amazing contributors** (in no particular order) who wrote for The Ember Times in the past three years:
+
+Amy Lam, Isaac Lee, Chris Ng, Jared Galanis, Kenneth Larsen, Alon Bukai, Bradley Leftley, Anne-Greeth van Herwijnen, Lisa Huang-North, Danielle Adams, Katie Gengler, Jen Weber, Gaurav Munjal, Ryan Mark, Michael Schinis, Robert Wagner, Melanie Sumner, Niels Rasmussen, Preston Sego, Bill Heaton, Miguel Braga Gomes, Nick Schot, Frédéric Soumaré, Edward Faulkner, Oli Griffiths, Ricardo Mendes, Ryan Toronto, Sivakumar Kailasam, Chris Manson, Miguel Gomes, Tobias Bieniek, Robert Jackson, Chris Garrett, Todd Jordan, Brian Runnells, Braden Lawrence, Jessica Jordan ✨
+
+We're grateful for all the hard work that community members put in to keep The Ember Times going for the past 100 editions. And we're already looking forward to another 100 issues for the future! **Let us know** what you **enjoyed reading about the most** in the past 100 issues of The Ember Times using the [\#100EmberTimes hashtag on Twitter](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes) or chat with us on the [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) Discord channel!
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/apps/greenkeeper" target="gh-user">@greenkeeper[bot]</a>, <a href="https://github.com/noslouch" target="gh-user">@noslouch</a>, <a href="https://github.com/danwenzel" target="gh-user">@danwenzel</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/dbendaou" target="gh-user">@dbendaou</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/vasind" target="gh-user">@vasind</a>, <a href="https://github.com/shermango" target="gh-user">@shermango</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>, <a href="https://github.com/teddyzeenny" target="gh-user">@teddyzeenny</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/abhilashlr" target="gh-user">@abhilashlr</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/thoov" target="gh-user">@thoov</a>, <a href="https://github.com/benblank" target="gh-user">@benblank</a> and <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -177,7 +194,7 @@ This is an experiment to see if using decorators and a separate service to manag
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -189,4 +206,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, Preston Sego, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, the crowd and the Learning Team
