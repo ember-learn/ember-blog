@@ -35,9 +35,9 @@ Looking to see what's already out there? Posts are being gathered at [this commu
 
 He shares three concrete ideas to make growing Ember a reality:
 
-> 1. Publish a better [website](https://emberjs.com/) - address design and content
-> 2. Promote [Octane](https://emberjs.com/editions/octane/) heavily
-> 3. Teach Ember at local and remote [Meetups](https://emberjs.com/community/meetups)
+1. Publish a better [website](https://emberjs.com/) - address design and content
+2. Promote [Octane](https://emberjs.com/editions/octane/) heavily
+3. Teach Ember at local and remote [Meetups](https://emberjs.com/community/meetups)
 
 ---
 
