@@ -42,13 +42,13 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
-[@robboclancy](https://twitter.com/robboclancy/status/1133411097279696902)
+[@robclancy](https://github.com/robclancy) on [query params](https://twitter.com/robboclancy/status/1133411097279696902):
 
-> I hope query params get some love in #EmberJS2019. Biggest pain point of the framework right now imo.
+> I hope query params get some love in #EmberJS2019. Biggest pain point of the framework right now imo. At least as development goes.
 
 ---
 
-[@sbatson5](https://github.com/sbatson5) addresses [lower employability when using Ember](https://imposter-syndrome.lol/posts/a-few-thoughts-on-ember/) and wishes that,
+[@sbatson5](https://github.com/sbatson5) addresses [lower employability when using Ember](https://imposter-syndrome.lol/posts/a-few-thoughts-on-ember/):
 
 > My hope is that Ember keeps leaning into the conventions that the rest of the JavaScript world have adopted and that those with experience in Vue or React can jump into an Ember project and not feel lost.
 
@@ -70,7 +70,7 @@ He shares three concrete ideas to make growing Ember a reality:
 
 [@andrewcallahan](https://github.com/andrewcallahan) analyzes why Ember lost popular adoption and [shares a solution to using components first and foremost](http://andrewcallahan.com/to-have-a-future-ember-must-kill-its-past/).
 
-> Instead of asking “what do we need to *add* to Ember to make it better” we should instead be asking “what do we need to *remove* from Ember to make it better”. **Specifically I believe that Ember 4.0 should eliminate the concepts of Routes, Controllers, and Templates in favor of Components.**
+> Instead of asking "what do we need to *add* to Ember to make it better" we should instead be asking "what do we need to *remove* from Ember to make it better". **Specifically I believe that Ember 4.0 should eliminate the concepts of Routes, Controllers, and Templates in favor of Components.**
 
 ---
 
@@ -78,7 +78,7 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
-[@chadhietala](https://github.com/chadhietala) examines [routing, single file format, and shipping what's due](https://gist.github.com/chadhietala/50b977a7d3476069892d351c65af418c).
+[@chadhietala](https://github.com/chadhietala) examines [routing, single file format, and shipping features that are due](https://gist.github.com/chadhietala/50b977a7d3476069892d351c65af418c).
 
 > I believe it's time to re-think the routing layer and make it feel more cohesive with the rest of the framework. While there is a large portion of the API that is nice there are noticable warts around the mental model of the router, routes, controllers and templates, query params, redirects/aborts.
 
