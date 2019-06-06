@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 101
-author: Amy Lam, the crowd
+author: Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/01-the-ember-times-issue-101.html"
 responsive: true
@@ -39,6 +39,48 @@ He shares three concrete ideas to make growing Ember a reality:
 1. Publish a better [website](https://emberjs.com/) - address design and content
 2. Promote [Octane](https://emberjs.com/editions/octane/) heavily
 3. Teach Ember at local and remote [Meetups](https://emberjs.com/community/meetups)
+
+---
+
+[@robboclancy](https://twitter.com/robboclancy/status/1133411097279696902)
+
+> I hope query params get some love in #EmberJS2019. Biggest pain point of the framework right now imo.
+
+---
+
+[@sbatson5](https://github.com/sbatson5) addresses [lower employability when using Ember](https://imposter-syndrome.lol/posts/a-few-thoughts-on-ember/) and wishes that,
+
+> My hope is that Ember keeps leaning into the conventions that the rest of the JavaScript world have adopted and that those with experience in Vue or React can jump into an Ember project and not feel lost.
+
+---
+
+<next post here>
+
+---
+
+[@astronomersiva](https://github.com/astronomersiva) suggests [several ideas for increasing developer experience](https://siva.dev/ember-2019/).
+
+> What I would like to see in this year's edition of Ember is developer friendliness. There are certain simple things that are annoyingly difficult to accomplish on EmberJS or are confusing to developers.
+
+---
+
+<next post here>
+
+---
+
+[@andrewcallahan](https://github.com/andrewcallahan) analyzes why Ember lost popular adoption and [shares a solution to using components first and foremost](http://andrewcallahan.com/to-have-a-future-ember-must-kill-its-past/).
+
+> Instead of asking “what do we need to *add* to Ember to make it better” we should instead be asking “what do we need to *remove* from Ember to make it better”. **Specifically I believe that Ember 4.0 should eliminate the concepts of Routes, Controllers, and Templates in favor of Components.**
+
+---
+
+<next post here>
+
+---
+
+[@chadhietala](https://github.com/chadhietala) examines [routing, single file format, and shipping what's due](https://gist.github.com/chadhietala/50b977a7d3476069892d351c65af418c).
+
+> I believe it's time to re-think the routing layer and make it feel more cohesive with the rest of the framework. While there is a large portion of the API that is nice there are noticable warts around the mental model of the router, routes, controllers and templates, query params, redirects/aborts.
 
 ---
 
@@ -149,4 +191,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Isaac Lee, the crowd and the Learning Team
