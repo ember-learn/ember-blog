@@ -105,7 +105,7 @@ This is an experiment to see if using decorators and a separate service to manag
 
 ---
 
-## [One Hundred (And One) Editions of The Ember Times 📰 🎉](#section-url)
+## [One Hundred (And One) Editions of The Ember Times 📰 🎉](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes)
 
  **The Ember Times**, one of your favourite news outlets about what's going on with Ember and its ecosystem, has just shipped its **one hundredth (and first) edition**! 🎉 The Ember Times now looks back at a long journey that started out over more than three years ago:
 
