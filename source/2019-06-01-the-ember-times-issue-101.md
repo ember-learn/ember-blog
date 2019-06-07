@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 101
-author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, the crowd
+author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/01-the-ember-times-issue-101.html"
 responsive: true
@@ -241,4 +241,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, the crowd and the Learning Team
