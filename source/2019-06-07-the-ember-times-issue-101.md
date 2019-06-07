@@ -12,17 +12,17 @@ This week:
 put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺,
 a new addition to the Learning Team 👏,
 a sneak preview of ember-query-params-service ❓,
-and a retro of **100** Ember Times 🎉.
+and a retro of **100** Ember Times. 🎉
 
 ---
 
 ## [#EmberJS2019 🛣🗺](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-🚨 Blog posts wanted! We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
+Blog posts wanted! 🚨 We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
-Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We also wanted to share some highlights from posts out there in the Times.
+Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We couldn't get through them them all this week(!), but we wanted to share some highlights from published posts in the Times.
 
 ---
 
@@ -116,7 +116,9 @@ He shares three concrete ideas to make growing Ember a reality:
   <img alt="Robert Wagner" title="Robert Wagner - Ember Core Learning Team" src="/images/blog/emberjstimes/robertwagner.jpeg" />
 </div>
 
-We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has joined the [Learning Core Team](https://emberjs.com/team/) and will continue to champion the work on **[Ember Inspector](https://github.com/emberjs/ember-inspector)**! You may recall that [we featured Robert](https://discuss.emberjs.com/t/i-contribute-to-ember-with-robert-wagner/16143) in a past issue as part of our ["I contribute to Ember"](https://discuss.emberjs.com/c/community) series, where we interview members of our open source community. Congrats! 🎉
+We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has joined the [Learning Core Team](https://emberjs.com/team/) and will continue to champion the work on **[Ember Inspector](https://github.com/emberjs/ember-inspector)**! 
+
+You may recall that [we featured Robert](https://discuss.emberjs.com/t/i-contribute-to-ember-with-robert-wagner/16143) in a past issue as part of our ["I contribute to Ember"](https://discuss.emberjs.com/c/community) series, where we interview members of our open source community. Congrats! 🎉
 
 ---
 
@@ -136,7 +138,7 @@ Since the first issue The Ember Times gained over 1300 additional subscribers fo
 
 Most importantly, we'd also like to thank all the **amazing contributors** (in no particular order) who wrote for The Ember Times in the past three years:
 
-Danielle Adams, Tobias Bieniek, Alon Bukai, Edward Faulkner, Jared Galanis, Chris Garrett, Katie Gengler, Miguel Braga Gomes, Oli Griffiths, Bill Heaton, Anne-Greeth van Herwijnen, Lisa Huang-North, Robert Jackson, Jessica Jordan, Todd Jordan, Sivakumar Kailasam, Amy Lam, Kenneth Larsen, Braden Lawrence, Isaac Lee, Bradley Leftley, Chris Manson, Ryan Mark, Ricardo Mendes, Gaurav Munjal, Chris Ng, Niels Rasmussen, Brian Runnells, Michael Schinis, Nick Schot, Preston Sego, Frédéric Soumaré, Melanie Sumner, Ryan Toronto, Robert Wagner, Jen Weber ✨
+> Danielle Adams, Tobias Bieniek, Alon Bukai, Edward Faulkner, Jared Galanis, Chris Garrett, Katie Gengler, Miguel Braga Gomes, Oli Griffiths, Bill Heaton, Anne-Greeth van Herwijnen, Lisa Huang-North, Robert Jackson, Jessica Jordan, Todd Jordan, Sivakumar Kailasam, Amy Lam, Kenneth Larsen, Braden Lawrence, Isaac Lee, Bradley Leftley, Chris Manson, Ryan Mark, Ricardo Mendes, Gaurav Munjal, Chris Ng, Niels Rasmussen, Brian Runnells, Michael Schinis, Nick Schot, Preston Sego, Frédéric Soumaré, Melanie Sumner, Ryan Toronto, Robert Wagner, Jen Weber
 
 We're grateful for all the hard work that community members put in to keep The Ember Times going for the past 100 editions. And we're already looking forward to another 100 issues for the future! **Let us know** what you **enjoyed reading about the most** in the past 100 issues of The Ember Times using the [#100EmberTimes hashtag on Twitter](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes) or chat with us on the [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) Discord channel!
 
