@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 100
 author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/05/31-the-ember-times-issue-100.html"
 responsive: true
 ---
