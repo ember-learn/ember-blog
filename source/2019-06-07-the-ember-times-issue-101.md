@@ -22,7 +22,7 @@ Blog posts wanted! 🚨 We would like you to write a blog post to propose **goal
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
-Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We wanted to share some highlights with you this week.
+Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We wanted to share some highlights with you from posts we've read this week.
 
 ---
 
