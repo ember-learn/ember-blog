@@ -101,7 +101,7 @@ We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has
 ---
 
 ## [Preview Version of ember-query-params-service 🧪](https://github.com/NullVoxPopuli/ember-query-params-service)
-This is an experiment to see if using decorators and a separate service to manage query params is a feasible alternative to the existing query params implementation. It's a **very early** preview and is expected to have bugs. Should you [choose to go on an adventure with this](https://github.com/NullVoxPopuli/ember-query-params-service), please feel free to report weird, unexpected behavior. There is an older RFC [https://github.com/NullVoxPopuli/rfcs/blob/router-computed-query-params/text/0000-router-service-computed-query-params.md](that proposed to add query params to the router service) that has been updated based on the experiences discoved by development the ember-query-params-service addon. All feedback welcome! 😊
+This is an experiment to see if using decorators and a separate service to manage query params is a feasible alternative to the existing query params implementation. It's a **very early** preview and is expected to have bugs. Should you [choose to go on an adventure with this](https://github.com/NullVoxPopuli/ember-query-params-service), please feel free to report weird, unexpected behavior. There is an older RFC [https://github.com/NullVoxPopuli/rfcs/blob/router-computed-query-params/text/0000-router-service-computed-query-params.md](it proposed to add query params to the router service) that has been updated based on development of the ember-query-params-service addon. All feedback welcome! 😊
 
 ---
 
