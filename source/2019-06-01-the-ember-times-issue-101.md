@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 101
-author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, the crowd
+author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/01-the-ember-times-issue-101.html"
 responsive: true
@@ -56,7 +56,13 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
-<next post here>
+[@rwjblue](https://github.com/rwjblue) had two blog posts, so far, on what we can improve on in the coming year. His first blog was around [packaging improvements](https://www.rwjblue.com/2019/05/30/ember-js-2019-roadmap-wishes-packaging-improvements/
+), namely [Embroider](https://github.com/embroider-build/embroider), and his second blog was around [policy changes](https://www.rwjblue.com/2019/05/31/ember-js-2019-roadmap-wishes-policy-changes/
+) on how “we can iteratively move forward into the future that can actually happen.”
+
+> Having a great packaging system is critical to Ember's success. This wish list is not long, but very important to land and 'get right'. [...] We really need to adopt Embroider!
+
+> The Ember project as a whole needs to get much better about closing the loop on these dead ends, and communicate more clearly with the community so that they can avoid known future pitfalls when developing their ambitious applications.
 
 ---
 
@@ -72,7 +78,10 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
-<next post here>
+[@pzuraq](https://github.com/pzuraq) proposes a [build-centric edition](https://www.pzuraq.com/ember-2019-the-next-edition/
+) to follow up on Octane's runtime-centric features.
+
+> The goal should be that new Ember apps don't need to pay the cost at all, and existing apps can slowly remove these features over the next couple of major versions.
 
 ---
 
@@ -232,4 +241,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, the crowd and the Learning Team
