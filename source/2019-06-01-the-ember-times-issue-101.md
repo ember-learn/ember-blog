@@ -60,6 +60,12 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
+[@gokatz](https://github.com/gokatz) examines [six areas where Ember can improve](https://gokatz.me/blog/emberjs-2019-roadmap/).
+
+> Experimenting with existing popular toolkits like Webpack with Embroider is so cool and the features that other framework users are enjoying for a long time such as HMR, Code Splitting at various levels (route, component, etc.,) can be brought into the ember ecosystem with Embroider. I love to see embroider being the default built tool in 2019.
+
+---
+
 [@astronomersiva](https://github.com/astronomersiva) suggests [several ideas for increasing developer experience](https://siva.dev/ember-2019/).
 
 > What I would like to see in this year's edition of Ember is developer friendliness. There are certain simple things that are annoyingly difficult to accomplish on EmberJS or are confusing to developers.
@@ -70,9 +76,27 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
+[@jenweber](https://github.com/jenweber) encourages [focusing on documentation, learning, and teaching accessibility through code examples](https://jenweber.netlify.com/the-ember-experience/).
+
+> The ideal Ember Experience is that things work as they should out-of-the-box, following modern web development patterns. It's easy to get ramped up using real-world code examples that teach the recommended practices used by experienced Ember developers, from day one.
+
+---
+
 [@andrewcallahan](https://github.com/andrewcallahan) analyzes why Ember lost popular adoption and [shares a solution to using components first and foremost](http://andrewcallahan.com/to-have-a-future-ember-must-kill-its-past/).
 
 > Instead of asking "what do we need to *add* to Ember to make it better" we should instead be asking "what do we need to *remove* from Ember to make it better". **Specifically I believe that Ember 4.0 should eliminate the concepts of Routes, Controllers, and Templates in favor of Components.**
+
+---
+
+[@chrisrng](https://github.com/chrisrng) asks Ember to focus on [increasing visibility in the JavaScript community](https://www.linkedin.com/pulse/my-hopes-ember-2019-better-javascript-community-visibility-chris-ng/).
+
+> As I pondered on what my hopes for Ember in 2019 would be, I realized that – for the most part – we are already working on them. [...] I believe a lot of the work that we have done to make Ember Octane a reality would attract a wider rate of adoption for Ember. *If developers knew about it.*
+
+---
+
+[@snewcomer](https://github.com/snewcomer) encourages Ember to [continue with its iterative improvements](https://twitter.com/puekey/status/1135693033729454080):
+
+> With Octane coming out, I have recently upgraded an old app to 3.9 with no huge issues. That is so cool. So 💯 on continuous improvement to the framework and ecosystem. [...] Iterative ease on the learning curve, iterative ease integrating new features and iterative ease in helping you avoid pitfalls.
 
 ---
 
