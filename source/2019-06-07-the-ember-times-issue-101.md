@@ -6,25 +6,21 @@ alias : "blog/2019/06/07-the-ember-times-issue-101.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
-Put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺,
+put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺,
 a new addition to the Learning Team 👏,
 a sneak preview of ember-query-params-service ❓,
-a retro of **100** Ember Times 🎉,
-...
+and a retro of **100** Ember Times 🎉.
 
 ---
 
 ## [#EmberJS2019 🛣🗺](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-🚨 Blog posts wanted! 🚨
+🚨 Blog posts wanted! We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
 
-We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
-
-<a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Readthe Roadmap RFC</a>
+<a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
 Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We also wanted to share some highlights from posts out there in the Times.
 
@@ -107,18 +103,10 @@ He shares three concrete ideas to make growing Ember a reality:
 
 ---
 
-<next post here>
-
----
-
 [@chadhietala](https://github.com/chadhietala) examines [routing, single file format, and shipping features that are due](https://gist.github.com/chadhietala/50b977a7d3476069892d351c65af418c).
 
 <!--alex ignore nuts-->
 > I believe it's time to re-think the routing layer and make it feel more cohesive with the rest of the framework. While there is a large portion of the API that is nice there are noticable warts around the mental model of the router, routes, controllers and templates, query params, redirects/aborts.
-
----
-
-<next post here>
 
 ---
 
