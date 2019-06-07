@@ -12,17 +12,17 @@ This week:
 put your thoughts to paper for the #EmberJS2019 Roadmap RFC 🛣🗺,
 a new addition to the Learning Team 👏,
 a sneak preview of ember-query-params-service ❓,
-and a retro of **100** Ember Times. 🎉
+and a retro of 💯 Ember Times. 🎉
 
 ---
 
 ## [#EmberJS2019 🛣🗺](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-Blog posts wanted! 🚨 We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
+Blog posts wanted! 🚨 We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? **#EmberJS2019** tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
-Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We couldn't get through them them all this week(!), but we wanted to share some highlights from published posts in the Times.
+Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We wanted to share some highlights with you this week.
 
 ---
 
@@ -128,7 +128,7 @@ This is an experiment to see if using decorators and a separate service to manag
 
 ---
 
-## [One Hundred (And One) Editions of The Ember Times 📰 🎉](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes)
+## [One Hundred (and One) Editions of The Ember Times 📰 🎉](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes)
 
  **The Ember Times**, one of your favourite news outlets about what's going on with Ember and its ecosystem, has just shipped its **one hundredth (and first) edition**! 🎉 The Ember Times now looks back at a long journey that started out over more than three years ago:
 
