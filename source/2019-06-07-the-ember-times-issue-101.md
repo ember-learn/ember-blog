@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 101
-author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, the crowd
+author: Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/07-the-ember-times-issue-101.html"
 responsive: true
@@ -24,7 +24,7 @@ a retro of **100** Ember Times 🎉,
 
 We would like you to write a blog post to propose **goals and direction** for Ember for the next year. The content of these posts will help the Core Team to draft their **next Roadmap RFC**. Don't have a blog? #EmberJS2019 tweets or GitHub Gists are a-ok! Please share your posts by **Monday, June 17th**.
 
-<a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read more about the Roadmap RFC</a>
+<a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Readthe Roadmap RFC</a>
 
 Looking to see what's already out there? Posts are being gathered at [this community repo](https://github.com/abhilashlr/emberjs2019-posts) - thanks [@abhilashlr](https://github.com/abhilashlr)! We also wanted to share some highlights from posts out there in the Times.
 
@@ -148,63 +148,9 @@ Since the first issue The Ember Times gained over 1300 additional subscribers fo
 
 Most importantly, we'd also like to thank all the **amazing contributors** (in no particular order) who wrote for The Ember Times in the past three years:
 
-Amy Lam, Isaac Lee, Chris Ng, Jared Galanis, Kenneth Larsen, Alon Bukai, Bradley Leftley, Anne-Greeth van Herwijnen, Lisa Huang-North, Danielle Adams, Katie Gengler, Jen Weber, Gaurav Munjal, Ryan Mark, Michael Schinis, Robert Wagner, Melanie Sumner, Niels Rasmussen, Preston Sego, Bill Heaton, Miguel Braga Gomes, Nick Schot, Frédéric Soumaré, Edward Faulkner, Oli Griffiths, Ricardo Mendes, Ryan Toronto, Sivakumar Kailasam, Chris Manson, Miguel Gomes, Tobias Bieniek, Robert Jackson, Chris Garrett, Todd Jordan, Brian Runnells, Braden Lawrence, Jessica Jordan ✨
+Danielle Adams, Tobias Bieniek, Alon Bukai, Edward Faulkner, Jared Galanis, Chris Garrett, Katie Gengler, Miguel Braga Gomes, Oli Griffiths, Bill Heaton, Anne-Greeth van Herwijnen, Lisa Huang-North, Robert Jackson, Jessica Jordan, Todd Jordan, Sivakumar Kailasam, Amy Lam, Kenneth Larsen, Braden Lawrence, Isaac Lee, Bradley Leftley, Chris Manson, Ryan Mark, Ricardo Mendes, Gaurav Munjal, Chris Ng, Niels Rasmussen, Brian Runnells, Michael Schinis, Nick Schot, Preston Sego, Frédéric Soumaré, Melanie Sumner, Ryan Toronto, Robert Wagner, Jen Weber ✨
 
 We're grateful for all the hard work that community members put in to keep The Ember Times going for the past 100 editions. And we're already looking forward to another 100 issues for the future! **Let us know** what you **enjoyed reading about the most** in the past 100 issues of The Ember Times using the [#100EmberTimes hashtag on Twitter](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes) or chat with us on the [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) Discord channel!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -239,4 +185,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Preston Sego, Jessica Jordan, Chris Ng, and the Learning Team
