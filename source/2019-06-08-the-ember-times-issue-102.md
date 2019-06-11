@@ -15,7 +15,7 @@ responsive: true
 ---
 
 ## [RFC for an alternative to Controllers 🥴](https://github.com/emberjs/rfcs/pull/499)
-There are **two** RFCs related to the possibility of eventually removing controllers from Ember.
+[@NullVoxPopuli](https://github.com/NullVoxPopuli) proposed **two** RFCs to outline how we can eventually remove controllers from Ember.
  - [RFC 499](https://github.com/emberjs/rfcs/pull/499) Proposes an alternative way of rendering templates for a particular route. (if some of you remember routable components, this isn't that 😉)
  - [RFC 380](https://github.com/emberjs/rfcs/pull/380) Proposas a service for handling query parameters, as well as a `@queryParam` **decorator** for accessing query parameters anywhere in your app: Routes, Components, etc. 🎉
  
