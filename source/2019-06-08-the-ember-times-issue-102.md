@@ -20,11 +20,13 @@ RFC for an alternative to Controllers 🥴,
 
 ## [More #EmberJS2019 Posts Wanted! ✏️](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-Don't forget. **June 17** is the deadline for your #EmberJS2019 post to be a part of Roadmap RFC! If time isn't on your side, feel free to write and share your post even after the deadline.
+Don't forget. **June 17** is the deadline for your #EmberJS2019 post to be a part of Roadmap RFC! Please write a blog post, GitHub Gist, or tweet, then share it with **roadmap@emberjs.com** and Discord community. 🧡
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
-For ideas and inspiration, you can check out the #EmberJS2019 posts at our [community repo](https://github.com/abhilashlr/emberjs2019-posts). Here are the highlights from this week's posts:
+For ideas and inspiration, you can check out the #EmberJS2019 posts at our [community repo](https://github.com/abhilashlr/emberjs2019-posts). If time's not on your side, feel free to write and share your post even after the deadline.
+
+Here are the highlights from this week's posts:
 
 ---
 
