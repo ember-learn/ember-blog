@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XX
-author: Preston Sego
+author: Preston Sego, Isaac Lee
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
 responsive: true
@@ -10,7 +10,33 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+...
+more #EmberJS2019 posts wanted! ✏️, 
+RFC for an alternative to Controllers 🥴,
+...
+
+---
+
+## [More #EmberJS2019 Posts Wanted! ✏️](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
+
+Don't forget. **June 17** is the deadline for your #EmberJS2019 post to be a part of Roadmap RFC! If time isn't on your side, feel free to write and share your post even after the deadline.
+
+<a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
+
+For ideas and inspiration, you can check out the #EmberJS2019 posts at our [community repo](https://github.com/abhilashlr/emberjs2019-posts). Here are the highlights from this week's posts:
+
+---
+
+[@Turbo87](https://github.com/Turbo87) focused on Ember being able to [support existing technologies](https://twitter.com/TobiasBieniek/status/1135790015177469952):
+
+> @yarnpkg PnP is a fantastic way to reclaim some/a lot of disk space. I started some work last year to support it in Ember CLI, but couldn't finish it in time. We should revisit this!
+
+---
+
+[@efx](https://github.com/efx) shared [thoughts on existing posts](https://www.typedspace.com/2019-ember-js-roadmap/).
+
+> I think we should treat learning as important as the technical ideas that distinguish ember.js. [...] My fabulous colleagues have often asked spot-on, difficult questions about the guide's admonitions to do something a particular way. I too often resort to shallow "that is just the way it is" answers.
 
 ---
 
@@ -126,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Preston Sego, Isaac Lee, the crowd and the Learning Team
