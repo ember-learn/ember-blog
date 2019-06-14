@@ -22,7 +22,7 @@ Don't forget. **June 17** is the deadline for your #EmberJS2019 post to be a par
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
-For ideas and inspiration, you can check out the #EmberJS2019 posts at our [community repo](https://github.com/abhilashlr/emberjs2019-posts). If time's not on your side, feel free to write and share your post even after the deadline.
+For ideas and inspiration, you can check out all #EmberJS2019 posts at our [community repo](https://github.com/abhilashlr/emberjs2019-posts). If time's not on your side, feel free to write and share your post even after the deadline.
 
 Here are the highlights from this week's posts:
 
@@ -38,6 +38,7 @@ Here are the highlights from this week's posts:
 
 > I think we should treat learning as important as the technical ideas that distinguish ember.js. [...] My fabulous colleagues have often asked spot-on, difficult questions about the guide's admonitions to do something a particular way. I too often resort to shallow "that is just the way it is" answers.
 
+---
 
 [@dgeb](https://github.com/dgeb) suggests to [focus on modularity and packaging, both at the framework and application levels](https://www.cerebris.com/blog/2019/06/04/emberjs-2019/).
 
@@ -57,6 +58,36 @@ Here are the highlights from this week's posts:
 
 ---
 
+[@gossi](https://github.com/gossi) covered [reducing complexity, making things explicit, and using Embroider to improve app performance](https://gos.si/blog/ember-2019-reduce-complexity/).
+
+> My wishes for Ember (in 2019) is to slim down the framework is to throw old ballast over board to improve **learning, developer ergonomics** and **align more with the javascript ecosystem**.
+
+---
+
+In a follow-up post, [@melsumner](http://github.com/melsumner) encouraged the community to [examine areas of improvement with a sense of calmness](http://www.melsumner.com/blog/ember/emberjs2019-take-2/):
+
+> The Community as a whole must remember that each and every single one of us are the only ones who will excite others about using Ember. We are the only ones who can pique curiosity of others.
+
+---
+
+[@mehulkar](https://github.com/mehulkar) explained [several reasons that make Ember difficult to learn](https://mehulkar.com/blog/2019/06/emberjs2019-roadmap-response/) and how we can address them.
+
+> The Octane edition will be great for performance and developer ergonomics, but it doesn’t fundamentally bolster (or change) the selling points of Ember. I think we need to aggressively reduce the API surface area at every level from core classes to CLI tooling, converge into the JS ecosystem and “the platform”, and make the application’s inner workings more explicit by both providing low level primitives and using them in an obvious way.
+
+---
+
+[@chancancode](https://github.com/chancancode) examined a few ways to [modernize Ember's templating language](https://gist.github.com/chancancode/ec56a0addf45380853a385694ff0e52b).
+
+> I would like us to address some of the long standing issues and missing features, as well as bring in some of the nice things from the JSX world, while staying true to what makes templates feel so productive in Ember today.
+
+---
+
+[@dfreeman](https://github.com/dfreeman) encourages us to make an [active effort to tear down the Us and Them mentality](https://www.salsify.com/blog/engineering/ember-in-2019-tearing-down-us-and-them).
+
+> The Ember community makes up only a fraction of Web development as a whole, and that necessarily means a lot of the innovation going on is happening outside our figurative walls. [...] Conversely, if we do develop something novel and valuable but it's only possible to use it in the context of an Ember project, that's a missed opportunity for the rest of the world.
+
+---
+
 [@frank06](https://gist.github.com/frank06) is looking forward to increase efforts to [communicate the value of Ember in the wider tech community](https://gist.github.com/frank06/eda33de8858e02ea1bfa4ed8e49766af):
 
 > Ember has fallen off the radar. Pretty much any article about front-end talks about React/Angular/Vue and that's the end of it. They are taking such a big market share that Ember will struggle despite its technical merits. [...] I noticed several Ember developers going out in the wild to talk about Ember. This is great. We need more and better marketing and PR.
@@ -73,6 +104,14 @@ In his post ["Ember Testing in 2019"](https://medium.com/@gauravmunjal_86037/emb
 
 <!--alex ignore special-->
 > A special section in the guides on integrating Ember.js into a classic app could help interested developers become comfortable with both the technical process and with the idea that the Ember.js community supported this use case.
+
+---
+
+Last but not least, [@abhilashlr](https://github.com/abhilashlr) covered [five areas that we can work on in 2019](https://medium.com/@abhilashlr/emberjs2019-my-wish-list-c64a99547bff):
+
+> [O]n-boarding new and fresh minds from a different background of frameworks into teams that use Ember, has been quite a challenge. Not because the framework is difficult to learn, but the dots around the documentation need a bit more connectivity.
+
+Many more #EmberJS2019 posts to be covered in the next issue! 💜
 
 ---
 
