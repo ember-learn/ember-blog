@@ -53,7 +53,7 @@ Here are the highlights from this week's posts:
 
 ---
 
-[@lifeart](https://github.com/lifeart) asks for a visible roadmap where features being worked in can be moved around ["backlog" or "need discussion" lists](https://gist.github.com/lifeart/71c4aa33fc85874d3cc9cdedd2a22684).
+[@lifeart](https://github.com/lifeart) asks for a visible roadmap where features being worked on can be moved around ["backlog" or "need discussion" lists](https://gist.github.com/lifeart/71c4aa33fc85874d3cc9cdedd2a22684).
 
 > I see a lot of work around but it's not written in roadmap anywhere. [...] it will be great to have kinda "likes" for non important features, to prioritize them.
 
