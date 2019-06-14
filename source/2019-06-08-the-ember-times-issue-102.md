@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XX
-author: Preston Sego, Isaac Lee, Chris Ng
+title: The Ember Times - Issue No. 102
+author: Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
+alias : "blog/2019/06/14-the-ember-times-issue-102.html"
 responsive: true
 ---
 
@@ -12,7 +12,7 @@ responsive: true
 
 This week:
 ...
-more #EmberJS2019 posts wanted! ✏️, 
+more #EmberJS2019 posts wanted! ✏️,
 RFC for an alternative to Controllers 🥴,
 tips for adding TypeScript 🌟,
 ...
@@ -60,11 +60,30 @@ Here are the highlights from this week's posts:
 
 ---
 
+[@frank06](https://gist.github.com/frank06) is looking forward to increase efforts to [communicate the value of Ember in the wider tech community](https://gist.github.com/frank06/eda33de8858e02ea1bfa4ed8e49766af):
+
+> Ember has fallen off the radar. Pretty much any article about front-end talks about React/Angular/Vue and that's the end of it. They are taking such a big market share that Ember will struggle despite its technical merits. [...] I noticed several Ember developers going out in the wild to talk about Ember. This is great. We need more and better marketing and PR.
+
+---
+
+In his post ["Ember Testing in 2019"](https://medium.com/@gauravmunjal_86037/ember-testing-in-2019-e5f5fac0c023) [@Gaurav0](https://github.com/Gaurav0) highlights the importance of making Ember's testing solution easier to adopt:
+
+> Testing has always been a strength of Ember. [...] Yet, it is still too hard for some organizations to start testing. [...] It is important, that as we go forward as a community, we don’t give up our lead in this area and address these pain points that continue to make testing difficult.
+
+---
+
+[@jrjohnson](https://github.com/jrjohnson) on the other hand wishes for [an approachable guide for migrating classic to single page apps](https://www.jrjohnson.dev/posts/2019-05-26-ember-2019) to help with bringing new developers of JavaScript applications into the Ember community:
+
+<!--alex ignore special-->
+> A special section in the guides on integrating Ember.js into a classic app could help interested developers become comfortable with both the technical process and with the idea that the Ember.js community supported this use case.
+
+---
+
 ## [RFC for an alternative to Controllers 🥴](https://github.com/emberjs/rfcs/pull/499)
 [@NullVoxPopuli](https://github.com/NullVoxPopuli) proposed **two** RFCs to outline how we can eventually remove controllers from Ember.
  - [RFC 499](https://github.com/emberjs/rfcs/pull/499) proposes an alternative way of rendering templates for a particular route. (if some of you remember routable components, this isn't that 😉)
  - [RFC 380](https://github.com/emberjs/rfcs/pull/380) proposes adding a `queryParams` property to the `RouterService` for accessing query parameters anywhere in your app: Routes, Components, etc. 🎉
- 
+
 With these two RFCs, we're heading in the right direction for eventually being able to deprecate Controllers. 🔥🔥🔥 Read, comment, and spread the word! 🖊️
 
 ---
@@ -82,64 +101,64 @@ Have a look and add types today!
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -161,7 +180,7 @@ Have a look and add types today!
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -173,4 +192,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Preston Sego, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan, the crowd and the Learning Team
