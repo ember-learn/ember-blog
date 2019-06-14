@@ -6,7 +6,6 @@ $(function(){
 
    function applyEmberTimesTestIds() {
      let sectionTitles = $('[data-embertimes-post-body] h2');
-     sectionTitles.attr('data-embertimes-section-title', true);
 
      sectionTitles.each((i, title) => {
        $(title).attr('data-embertimes-section-title', i);
