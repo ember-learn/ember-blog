@@ -6,16 +6,13 @@ alias : "blog/2019/06/14-the-ember-times-issue-102.html"
 responsive: true
 ---
 
-<change date in alias and filename on day of send>
-
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+добры дзень Emberistas! 🐹
 
 This week:
-...
-more #EmberJS2019 posts wanted! ✏️,
-RFC for an alternative to Controllers 🥴,
-tips for adding TypeScript 🌟,
-...
+
+more **#EmberJS2019 posts** wanted! ✏️,
+RFC for an **alternative** to Controllers 🎛,
+and tips for adding **TypeScript** 🌟!
 
 ---
 
@@ -79,7 +76,7 @@ In his post ["Ember Testing in 2019"](https://medium.com/@gauravmunjal_86037/emb
 
 ---
 
-## [RFC for an alternative to Controllers 🥴](https://github.com/emberjs/rfcs/pull/499)
+## [RFC for an alternative to Controllers 🎛](https://github.com/emberjs/rfcs/pull/499)
 [@NullVoxPopuli](https://github.com/NullVoxPopuli) proposed **two** RFCs to outline how we can eventually remove controllers from Ember.
  - [RFC 499](https://github.com/emberjs/rfcs/pull/499) proposes an alternative way of rendering templates for a particular route. (if some of you remember routable components, this isn't that 😉)
  - [RFC 380](https://github.com/emberjs/rfcs/pull/380) proposes adding a `queryParams` property to the `RouterService` for accessing query parameters anywhere in your app: Routes, Components, etc. 🎉
@@ -98,72 +95,9 @@ Have a look and add types today!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/sdebarros" target="gh-user">@sdebarros</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/demersaj" target="gh-user">@demersaj</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/bmac" target="gh-user">@bmac</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/qpowell" target="gh-user">@qpowell</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/DPK101" target="gh-user">@DPK101</a>, <a href="https://github.com/samselikoff" target="gh-user">@samselikoff</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/haochuan" target="gh-user">@haochuan</a>, <a href="https://github.com/thoov" target="gh-user">@thoov</a>, <a href="https://github.com/lougreenwood" target="gh-user">@lougreenwood</a> and <a href="https://github.com/lifeart" target="gh-user">@lifeart</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -192,4 +126,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan and the Learning Team
