@@ -126,7 +126,7 @@ With these two RFCs, we're heading in the right direction for eventually being a
 
 If you are new to adding TypeScript to your Ember project, [@James-Byrne](https://github.com/James-Byrne) has got you covered!
 
-From [James' blog post]](https://dev.to/jamesbyrne/static-types-in-emberjs-26b7), you can learn how types help you catch errors at compile time and keep your documentation up-to-date. You can also find common problems to watch out for when you introduce types to your app.
+From [James' blog post](https://dev.to/jamesbyrne/static-types-in-emberjs-26b7), you can learn how types help you catch errors at compile time and keep your documentation up-to-date. You can also find common problems to watch out for when you introduce types to your app.
 
 Have a look and add types today!
 
