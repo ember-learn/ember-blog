@@ -1,17 +1,16 @@
 <% wrap_layout :layout do %>
-
   <article class="blog-post">
     <div class="blog-post-header">
       <% if current_page.data.tags.include? 'Newsletter' %>
         <a class="blog-header" href="<%= tag_path 'Newsletter' %>" aria-label="Read more issues of The Ember Times">
-          <div class="large ember-times-logo"></div>
+          <div class="large ember-times-logo" data-embertimes-page></div>
         </a>
       <% end %>
-      <h1 class="blog-post-title"><%= current_article.title %></h1>
+      <h1 class="blog-post-title" data-embertimes-title><%= current_article.title %></h1>
       <div class="blog-post-meta">
         <% if current_page.data.author %>
           <time class="blog-post-date"><%= current_article.date.strftime('%B %-d, %Y') %></time>
-          <div class="blog-post-author">By <%= current_page.data.author %></div>
+          <div class="blog-post-author" data-embertimes-authors>By <%= current_page.data.author %></div>
         <% end %>
         <% if current_page.data.guestPost %>
           <div class="blog-post-tag">Guest Post</div>
@@ -20,7 +19,7 @@
         <% end %>
       </div>
     </div>
-    <div class="blog-post-body" id="toc-content">
+    <div class="blog-post-body" id="toc-content" data-embertimes-post-body>
       <%= yield %>
     </div>
     <div class="blog-post-footer">
@@ -61,4 +60,5 @@
   <% end %>
 
   <script type="text/javascript" src="/javascripts/toc.js"></script>
+  <script type="text/javascript" src="/javascripts/embertimes-test-ids.js"></script>
 <% end %>
