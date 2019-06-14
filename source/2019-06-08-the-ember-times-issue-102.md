@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XX
-author: Preston Sego, Isaac Lee
+author: Preston Sego, Isaac Lee, Chris Ng
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
 responsive: true
@@ -39,6 +39,23 @@ Here are the highlights from this week's posts:
 [@efx](https://github.com/efx) shared [thoughts on existing posts](https://www.typedspace.com/2019-ember-js-roadmap/).
 
 > I think we should treat learning as important as the technical ideas that distinguish ember.js. [...] My fabulous colleagues have often asked spot-on, difficult questions about the guide's admonitions to do something a particular way. I too often resort to shallow "that is just the way it is" answers.
+
+
+[@dgeb](https://github.com/dgeb) suggests to [focus on modularity and packaging, both at the framework and application levels](https://www.cerebris.com/blog/2019/06/04/emberjs-2019/).
+
+> [With Ember Octane] it's time for us to focus on how we structure and bind and package those modules, both at the framework and application levels.
+
+---
+
+[@jacojoubert](https://github.com/jacojoubert) shared [four things Ember can improve for even better developer experience](https://gist.github.com/jacojoubert/abfb45bdc8c4a2a5efdab3b37ed0d060).
+
+> Ember needs a way for a component to have direct knowledge of its children, [...] clearer about where they want to end up with the file system layout, [...] spread `...attributes` on multiple elements, [...] and public API and get a full suite of documentation (for AST transforms).
+
+---
+
+[@lifeart](https://github.com/lifeart) asks for a visible roadmap where features being worked on can be moved around ["backlog" or "need discussion" lists](https://gist.github.com/lifeart/71c4aa33fc85874d3cc9cdedd2a22684).
+
+> I see a lot of work around but it's not written in roadmap anywhere. [...] it will be great to have kinda "likes" for non important features, to prioritize them.
 
 ---
 
@@ -154,4 +171,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Preston Sego, Isaac Lee, the crowd and the Learning Team
+Preston Sego, Isaac Lee, Chris Ng, the crowd and the Learning Team
