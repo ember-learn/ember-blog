@@ -112,9 +112,11 @@ Many more #EmberJS2019 posts to be covered in the next issue! 💜
 ---
 
 ## [RFC for an Alternative to Controllers 🎛](https://github.com/emberjs/rfcs/pull/499)
+
 [@NullVoxPopuli](https://github.com/NullVoxPopuli) proposed **two** RFCs to outline how we can eventually remove controllers from Ember.
- - [RFC 499](https://github.com/emberjs/rfcs/pull/499) proposes an alternative way of rendering templates for a particular route. (if some of you remember routable components, this isn't that 😉)
- - [RFC 380](https://github.com/emberjs/rfcs/pull/380) proposes adding a `queryParams` property to the `RouterService` for accessing query parameters anywhere in your app: Routes, Components, etc. 🎉
+
+- [RFC 499](https://github.com/emberjs/rfcs/pull/499) proposes an alternative way of rendering templates for a particular route. (If some of you remember routable components, this isn't that. 😉)
+- [RFC 380](https://github.com/emberjs/rfcs/pull/380) proposes adding a `queryParams` property to the `RouterService` for accessing query parameters anywhere in your app: Routes, Components, etc. 🎉
 
 With these two RFCs, we're heading in the right direction for eventually being able to deprecate Controllers. 🔥🔥🔥 Read, comment, and spread the word! 🖊️
 
