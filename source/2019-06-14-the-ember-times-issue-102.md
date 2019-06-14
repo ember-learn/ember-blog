@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 102
-author: Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan
+author: Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/14-the-ember-times-issue-102.html"
 responsive: true
@@ -8,17 +8,13 @@ responsive: true
 
 добры дзень Emberistas! 🐹
 
-This week:
-
-more **#EmberJS2019 posts** wanted! ✏️,
-RFC for an **alternative** to Controllers 🎛,
-and tips for adding **TypeScript** 🌟!
+This week: more **#EmberJS2019 posts** wanted! ✏️, RFC for an **alternative** to Controllers 🎛, and tips for adding **TypeScript** 🌟!
 
 ---
 
 ## [More #EmberJS2019 Posts Wanted! ✏️](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-Don't forget. **June 17** is the deadline for your #EmberJS2019 post to be a part of Roadmap RFC! Please write a blog post, GitHub Gist, or tweet, then share it with **roadmap@emberjs.com** and Discord community. 🧡
+Don't forget. This Monday, **June 17th** is the deadline for your #EmberJS2019 post to be a part of Roadmap RFC! Please write a blog post, GitHub Gist, or tweet, then share it with **[roadmap@emberjs.com](mailto:roadmap@emberjs.com)** and Discord community. 🧡
 
 <a class="ember-button ember-button--centered" href="https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html">Read the Roadmap RFC</a>
 
@@ -136,7 +132,7 @@ Have a look and add types today!
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/sdebarros" target="gh-user">@sdebarros</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/demersaj" target="gh-user">@demersaj</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/bmac" target="gh-user">@bmac</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/qpowell" target="gh-user">@qpowell</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/DPK101" target="gh-user">@DPK101</a>, <a href="https://github.com/samselikoff" target="gh-user">@samselikoff</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/haochuan" target="gh-user">@haochuan</a>, <a href="https://github.com/thoov" target="gh-user">@thoov</a>, <a href="https://github.com/lougreenwood" target="gh-user">@lougreenwood</a> and <a href="https://github.com/lifeart" target="gh-user">@lifeart</a> for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/sdebarros" target="gh-user">@sdebarros</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/demersaj" target="gh-user">@demersaj</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/bmac" target="gh-user">@bmac</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/qpowell" target="gh-user">@qpowell</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/DPK101" target="gh-user">@DPK101</a>, <a href="https://github.com/samselikoff" target="gh-user">@samselikoff</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/haochuan" target="gh-user">@haochuan</a>, <a href="https://github.com/thoov" target="gh-user">@thoov</a>, <a href="https://github.com/lougreenwood" target="gh-user">@lougreenwood</a> and <a href="https://github.com/lifeart" target="gh-user">@lifeart</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -165,4 +161,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan and the Learning Team
+Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan, Amy Lam and the Learning Team
