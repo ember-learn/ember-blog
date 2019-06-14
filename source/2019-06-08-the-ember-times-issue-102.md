@@ -74,6 +74,7 @@ In his post ["Ember Testing in 2019"](https://medium.com/@gauravmunjal_86037/emb
 
 [@jrjohnson](https://github.com/jrjohnson) on the other hand wishes for [an approachable guide for migrating classic to single page apps](https://www.jrjohnson.dev/posts/2019-05-26-ember-2019) to help with bringing new developers of JavaScript applications into the Ember community:
 
+<!--alex ignore special-->
 > A special section in the guides on integrating Ember.js into a classic app could help interested developers become comfortable with both the technical process and with the idea that the Ember.js community supported this use case.
 
 ---
