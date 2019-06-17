@@ -6,8 +6,6 @@ alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
 responsive: true
 ---
 
-<change date in alias and filename on day of send>
-
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
