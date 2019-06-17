@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 102
 author: Preston Sego, Isaac Lee, Chris Ng, Jessica Jordan, Amy Lam
-tags: Newsletter, Ember.js Times, Ember Times, 2019
+tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/14-the-ember-times-issue-102.html"
 responsive: true
 ---
