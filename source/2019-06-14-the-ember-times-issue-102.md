@@ -118,7 +118,7 @@ Many more #EmberJS2019 posts to be covered in the next issue! 💜
 - [RFC 499](https://github.com/emberjs/rfcs/pull/499) proposes an alternative way of rendering templates for a particular route. (If some of you remember routable components, this isn't that. 😉)
 - [RFC 380](https://github.com/emberjs/rfcs/pull/380) proposes adding a `queryParams` property to the `RouterService` for accessing query parameters anywhere in your app: Routes, Components, etc. 🎉
 
-With these two RFCs, we're heading in the right direction for eventually being able to deprecate Controllers. 🔥🔥🔥 Read, comment, and spread the word! 🖊️
+If both these RFCs were accepted, it would help pave the way to being able to deprecate controllers. So if that’s something you care about, be sure to comment! 🖊️
 
 ---
 
