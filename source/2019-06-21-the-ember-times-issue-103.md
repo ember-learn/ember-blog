@@ -9,18 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-...
 Submit to the Ember Camp Chicago CFP 🌭,
 ...
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -31,6 +21,15 @@ The [EmberCamp Chicago CFP](https://cfp.emberconf.com/events/embercamp-chicago-2
 Tickets will be going on sale soon. If you want to receive announcements about EmberCamp, sign up on [embercamp.com](http://embercamp.com/).
 
 Last year's sessions have all been published [as a playlist](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW). If you want only Trek's awesome intros, there's a [separate playlist for that](https://www.youtube.com/playlist?list=PL4eq2DPpyBbmrQSORHoiTBNapQX2Hqu0C). 🥁
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+  
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
