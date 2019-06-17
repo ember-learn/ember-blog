@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...
-Ember Camp Chicago 🌭,
+Submit to the Ember Camp Chicago CFP 🌭,
 ...
 
 ---
@@ -26,11 +26,11 @@ Ember Camp Chicago 🌭,
 
 ## [EmberCamp Chicago on September 16th! 🌭](#section-url)
   
-The [EmberCamp Chicago CFP](https://cfp.emberconf.com/events/embercamp-chicago-2019) is open until June 30th. If you are interested in doing a talk, mini-talk, activity, workshop, or keynote, please submit soon!
+The [EmberCamp Chicago CFP](https://cfp.emberconf.com/events/embercamp-chicago-2019) is open until **June 30th**. If you are interested in doing a talk, mini-talk, activity, workshop, or keynote, please submit soon!
 
 Tickets will be going on sale soon. If you want to receive announcements about EmberCamp, sign up on [embercamp.com](http://embercamp.com/).
 
-Last year's sessions have all been published [as a playlist](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW). If you want only Trek's awesome intros, there's a [separate playlist for that](https://www.youtube.com/playlist?list=PL4eq2DPpyBbmrQSORHoiTBNapQX2Hqu0C).
+Last year's sessions have all been published [as a playlist](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW). If you want only Trek's awesome intros, there's a [separate playlist for that](https://www.youtube.com/playlist?list=PL4eq2DPpyBbmrQSORHoiTBNapQX2Hqu0C). 🥁
 
 ---
 
