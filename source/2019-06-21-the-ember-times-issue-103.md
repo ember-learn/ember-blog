@@ -9,7 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Submit to the Ember Camp Chicago CFP 🌭,
+updates on EmberCamp Chicago CFP & tickets 🌭,
+celebration of 55 posts for #EmberJS2019 🎉,
 ...
 
 ---
@@ -26,7 +27,7 @@ Last year's sessions have all been published [as a playlist](https://www.youtube
 
 ## [Thank You for Participating in #EmberJS2019! 🎉](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
 
-Over the last few weeks, we saw [55 blog posts, GitHub Gists, and tweets](https://github.com/abhilashlr/emberjs2019-posts) that thoughtfully described how Ember can continue to innovate in 2019. We thank everyone for participating, by writing a post, replying to one, and discussing it online or on podcast. Please feel free to continue to write your #EmberJS2019 post even after the deadline. 💖
+Over the last few weeks, we saw [55 blog posts, GitHub Gists, and tweets](https://github.com/abhilashlr/emberjs2019-posts) that described how Ember can continue to innovate in 2019. We thank everyone for participating, by writing a post, replying to one, and discussing it online or on podcast. Please feel free to continue to write your #EmberJS2019 post even after the deadline. 💖
 
 Highlights from this week:
 
