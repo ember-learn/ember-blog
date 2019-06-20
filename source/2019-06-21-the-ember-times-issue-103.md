@@ -29,37 +29,9 @@ Last year's sessions have all been published [as a playlist](https://www.youtube
 
 Over the last few weeks, we saw [55 blog posts, GitHub Gists, and tweets](https://github.com/abhilashlr/emberjs2019-posts) that described how Ember can continue to innovate in 2019. We thank everyone for participating, by writing a post, replying to one, and discussing it online or on podcast. Please feel free to continue to write your #EmberJS2019 post even after the deadline. 💖
 
-Highlights from this week:
+This week's authors include [@ondrejsevcik](https://twitter.com/ondrejsevcik/status/1138778957178974209), [@michaelrkn](https://gist.github.com/michaelrkn/249666be12de3374d1f8e49af1ddfdc5), [@mansona](https://chris.manson.ie/ember-2019-sell-what-we-have-and-fix-papercuts/), [@machty](https://twitter.com/amatchneer/status/1139242398134018048), [@sarbbottam](https://medium.com/@sarbbottam/emberjs2019-wishlist-ba11a6a3e012), [@tschoartschi](https://dev.to/tschoartschi/send-ember-on-a-diet-and-thrive-innovation-2aef), [@dcyriller](https://dcyriller.github.io/ember-call-for-blog-posts/), [@rajasegar](http://hangaroundtheweb.com/2019/06/ember-into-futurity/), [@Alonski](https://alonbukaiblog.netlify.com/ember-2019-more-tooling/), [@josemarluedke](https://josemarluedke.com/blog/emberjs-2019-roadmap/), [@elwayman02](https://twitter.com/JordanHawker/status/1139811888953319424), [@acorncom](https://twitter.com/acorncom/status/1140456701318987776), [@kenigbolo](https://gist.github.com/kenigbolo/3503d158858660e2d90fbb6726db2caf), [@rwwagner90](https://shipshape.io/blog/ember-2019/), [@toddjordan](http://presentationtier.com/emberjs2019/), [@scalvert](https://www.linkedin.com/pulse/managing-migrations-ember-steve-calvert), [@dustinsoftware](https://dev.to/dustinsoftware/the-case-for-embeddable-ember-4120), [@knownasilya](https://ilyaradchenko.com/fragmentation-over-obsalecence/), [@runspired](https://runspired.com/2019/06/17/emberdata2019/), [@0xadada](https://0xadada.pub/2019/06/17/essential-ember-addons/), [@chriskrycho](https://www.chriskrycho.com/2019/emberjs2019-part-1.html), and [@neojp](https://gist.github.com/neojp/d7b2cdc38a04776cf3e41a6e698fb07e).
 
----
-
-[@ondrejsevcik](https://github.com/ondrejsevcik) asked Ember to [slim the feature set down](https://twitter.com/ondrejsevcik/status/1138778957178974209):
-
-> There should be one—and preferably only one—obvious way to do it.
-
----
-
-[@michaelrkn](https://github.com/michaelrkn) examined several areas, including [moving past controllers, reducing file size, and working towards releasing 4.0](https://gist.github.com/michaelrkn/249666be12de3374d1f8e49af1ddfdc5).
-
-> Routes rendering a template that is backed by a controller remains the most obviously clunky part of the Ember API. Getting consensus on moving query parameters and having routes load components will give us an API that we don't have to make excuses for (especially in conjunction with Component Templates Co-location).
-
----
-
-[@mansona](https://github.com/mansona) encouraged us to focus on [getting our website and documentation ready for the release of Ember Octane](https://chris.manson.ie/ember-2019-sell-what-we-have-and-fix-papercuts/). He also addressed difficulties with using Ember CLI for addon authors and new developers:
-
-> When it comes to ember-cli, there is quite a lot of cruft hanging around and inconsistent APIs that just make things confusing for addon authors that are trying to do anything slightly out of the ordinary.
-
----
-
-[@machty](https://github.com/machty) focused on [alternate ways to navigate an app](https://twitter.com/amatchneer/status/1139242398134018048):
-
-> Keep Routes as a concept but make it easier to experiment with alternative navigation schemes wherein there might not be such a thing as route (or whatever it is is unrecognizable from the classic Ember desktop navigation route) 
-
----
-
-[@sarbbottam](https://github.com/sarbbottam) addressed [a few ways we can make Ember easier to use for new, future Ember developers](https://medium.com/@sarbbottam/emberjs2019-wishlist-ba11a6a3e012):
-
-> I wish I could render an ember component in the browser just by importing the bare metal files, instead of loading Ember.js Application built as a result of ember serve command.
+As always, you can find [all #EmberJS2019 posts at our community repo](https://github.com/abhilashlr/emberjs2019-posts). (Thanks again, [@abhilashlr](https://github.com/abhilashlr/)!)
 
 ---
 
