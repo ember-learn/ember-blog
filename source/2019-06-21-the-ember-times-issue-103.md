@@ -72,7 +72,7 @@ Last year's sessions have all been published [as a playlist](https://www.youtube
 
 ## [Talk Video: Visual Regression Testing Made Easy 📺](https://www.youtube.com/watch?v=d0ZCJNeybbs)
 
-[@patocallaghan](www.github.com/patocallaghan) gave a lightning talk on “Visual Regression Testing Made Easy” at the April 2019 DublinJS Meetup. In his talk, Pat used [Percy](https://percy.io/) to scale testing visual regressions from manually doing them to having it automated. This was useful to us by picking up potential CSS bugs, removing certain types of tests, and making large refactoring and migrations easier since we can check the live result rather easily. “Styles can sometimes make bad things happen,” Percy helps give you confidence when you make big changes.
+[@patocallaghan](www.github.com/patocallaghan) gave a lightning talk on “Visual Regression Testing Made Easy” at the April 2019 [DublinJS Meetup](https://www.meetup.com/DublinJS/). In his talk, Pat used [Percy](https://percy.io/) to scale testing visual regressions from manually doing them to having it automated. This was useful to us by picking up potential CSS bugs, removing certain types of tests, and making large refactoring and migrations easier since we can check the live result rather easily. “Styles can sometimes make bad things happen,” Percy helps give you confidence when you make big changes.
 
 Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJNeybbs) just published this week!
   
