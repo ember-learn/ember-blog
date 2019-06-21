@@ -1,12 +1,12 @@
 ---
 title: The Ember Times - Issue No. 103
-author: Chris Ng, Sean Massa, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Sean Massa, Amy Lam, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/21-the-ember-times-issue-103.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+हॅलो Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Submit to the Ember Camp Chicago CFP 🌭,
@@ -14,12 +14,14 @@ celebration of 55 posts for #EmberJS2019 🎉,
 unravel the mystery of Ember testing syntax 💡, 
 examine whether we still need the input helper 🤔,
 watch the Visual Regression Testing Made Easy talk video 📺,
+more expressive dependency injection ⬅️,
+clean out unused components from your 🐹 app,
 ...
 
 ---
 
 ## [EmberCamp Chicago on September 16th! 🌭](#section-url)
-  
+
 The [EmberCamp Chicago CFP](https://cfp.emberconf.com/events/embercamp-chicago-2019) is open until **June 30th**. If you are interested in doing a talk, mini-talk, activity, workshop, or keynote, please submit soon!
 
 [Tickets are on sale now](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376), with an **Early Bird sale of $99 until July 8**! If you want to receive announcements about EmberCamp, sign up on [embercamp.com](http://embercamp.com/).
@@ -41,19 +43,19 @@ As always, you can find [all #EmberJS2019 posts at our community repo](https://g
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [The Ember.js Testing Guide, I Made for Myself 💡](https://medium.com/@sarbbottam/the-ember-js-testing-guide-i-made-for-myself-c9a073a0c718)
@@ -83,30 +85,28 @@ You can learn more from their [recorded interview](https://www.youtube.com/watch
 [@patocallaghan](https://github.com/patocallaghan) gave a lightning talk on “Visual Regression Testing Made Easy” at the April 2019 [DublinJS Meetup](https://www.meetup.com/DublinJS/). In his talk, Pat used [Percy](https://percy.io/) to scale testing visual regressions from manually doing them to having it automated. You can detect potential CSS bugs, remove certain types of tests, and make large refactoring and migrations. “Styles can sometimes make bad things happen.” Percy gives you confidence when you make big changes.
 
 Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJNeybbs) just published this week!
-  
+
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [More Explicit Dependency Injection in Your Ember Apps 🐹](https://github.com/emberjs/rfcs/pull/502)
+
+The [**recent Request for Comments (RFC)**](https://github.com/emberjs/rfcs/pull/502), titled "Explicit Service Injection," proposes an update to the way **services and other dependencies** are registered, looked up and **injected** in Ember apps. The proposal argues that a class-based syntax for [dependency injection](https://guides.emberjs.com/v3.10.0/applications/dependency-injection/) is more explicit than the current string-based API and therefore preferable.
+
+If you'd like to learn more about the **new API design** that is proposed in the RFC, be sure to [read the original proposal](https://github.com/nullvoxpopuli/rfcs/blob/explicit-dependency-injection/text/0000-explicit-dependency-injection.md) and do not forget to **join the discussion** in the comments!
+
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [Prune Your App with Ember Unused Components ♻️](https://github.com/vastec/ember-unused-components)
+
+Finding **components** that aren't used in your application anymore can be tough. Due to different ways to invoke components (with curly braces or [angle brackets](https://guides.emberjs.com/release/reference/syntax-conversion-guide/)) and the syntactical ambiguity between invoking helpers and components, it takes some time to prune your app from redundant components manually.
+
+But now you can use the brand-new addon [Ember Unused Components](https://github.com/vastec/ember-unused-components) to **clean up** your **codebase automatically**. Use the `--stats` flag to get **useful reports** on the impact of your app optimization efforts as you go. [Check it out today!](https://github.com/vastec/ember-unused-components)
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/loganrosen" target="gh-user">@loganrosen</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/sdebarros" target="gh-user">@sdebarros</a>, <a href="https://github.com/buschtoens" target="gh-user">@buschtoens</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a> and <a href="https://github.com/muziejus" target="gh-user">@muziejus</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -123,7 +123,7 @@ Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJN
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -135,5 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Sean Massa, Amy Lam, Isaac Lee, the crowd and the Learning Team
-
+Chris Ng, Sean Massa, Amy Lam, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
