@@ -92,7 +92,7 @@ If you'd like to learn more about the **new API design** that is proposed in the
 
 ## [Prune Your App with Ember Unused Components ♻️](https://github.com/vastec/ember-unused-components)
 
-Sorting out **components**, which are not used in your application anymore, can be tough. With different ways to invoke components, such as curly brace or [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) and the syntactical ambiguity of invoking helpers and components, it takes some time to prune your app from redundant components manually.
+Finding **components** that aren't used in your application anymore can be tough. Due to different ways to invoke components (with curly braces or [angle brackets](https://guides.emberjs.com/release/reference/syntax-conversion-guide/)) and the syntactical ambiguity between invoking helpers and components, it takes some time to prune your app from redundant components manually.
 
 But now you can use the brand-new addon [Ember Unused Components](https://github.com/vastec/ember-unused-components) to **clean up** your **codebase automatically**. Use the `--stats` flag to get **useful reports** on the impact of your app optimization efforts as you go. [Check it out today!](https://github.com/vastec/ember-unused-components)
 
