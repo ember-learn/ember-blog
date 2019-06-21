@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 103
-author: Chris Ng, Sean Massa, Amy Lam, the crowd
+author: Chris Ng, Sean Massa, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/21-the-ember-times-issue-103.html"
 responsive: true
@@ -10,7 +10,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Submit to the Ember Camp Chicago CFP 🌭,
-Watch the Visual Regression Testing Made Easy talk video 📺,
+celebration of 55 posts for #EmberJS2019 🎉,
+watch the Visual Regression Testing Made Easy talk video 📺,
 ...
 
 ---
@@ -19,18 +20,19 @@ Watch the Visual Regression Testing Made Easy talk video 📺,
   
 The [EmberCamp Chicago CFP](https://cfp.emberconf.com/events/embercamp-chicago-2019) is open until **June 30th**. If you are interested in doing a talk, mini-talk, activity, workshop, or keynote, please submit soon!
 
-Tickets will be going on sale soon. If you want to receive announcements about EmberCamp, sign up on [embercamp.com](http://embercamp.com/).
+[Tickets are on sale now](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376), with an **Early Bird sale of $99 until July 8**! If you want to receive announcements about EmberCamp, sign up on [embercamp.com](http://embercamp.com/).
 
 Last year's sessions have all been published [as a playlist](https://www.youtube.com/playlist?list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW). If you want only Trek's awesome intros, there's a [separate playlist for that](https://www.youtube.com/playlist?list=PL4eq2DPpyBbmrQSORHoiTBNapQX2Hqu0C). 🥁
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Thank You for Participating in #EmberJS2019! 🎉](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
+
+Over the last few weeks, we saw [55 blog posts, GitHub Gists, and tweets](https://github.com/abhilashlr/emberjs2019-posts) that described how Ember can continue to innovate in 2019. We thank everyone for participating, by writing a post, replying to one, and discussing it online or on podcast. Please feel free to continue to write your #EmberJS2019 post even after the deadline. 💖
+
+This week's authors include [@ondrejsevcik](https://twitter.com/ondrejsevcik/status/1138778957178974209), [@michaelrkn](https://gist.github.com/michaelrkn/249666be12de3374d1f8e49af1ddfdc5), [@mansona](https://chris.manson.ie/ember-2019-sell-what-we-have-and-fix-papercuts/), [@machty](https://twitter.com/amatchneer/status/1139242398134018048), [@sarbbottam](https://medium.com/@sarbbottam/emberjs2019-wishlist-ba11a6a3e012), [@tschoartschi](https://dev.to/tschoartschi/send-ember-on-a-diet-and-thrive-innovation-2aef), [@dcyriller](https://dcyriller.github.io/ember-call-for-blog-posts/), [@rajasegar](http://hangaroundtheweb.com/2019/06/ember-into-futurity/), [@Alonski](https://alonbukaiblog.netlify.com/ember-2019-more-tooling/), [@josemarluedke](https://josemarluedke.com/blog/emberjs-2019-roadmap/), [@elwayman02](https://twitter.com/JordanHawker/status/1139811888953319424), [@acorncom](https://twitter.com/acorncom/status/1140456701318987776), [@kenigbolo](https://gist.github.com/kenigbolo/3503d158858660e2d90fbb6726db2caf), [@rwwagner90](https://shipshape.io/blog/ember-2019/), [@toddjordan](http://presentationtier.com/emberjs2019/), [@scalvert](https://www.linkedin.com/pulse/managing-migrations-ember-steve-calvert), [@dustinsoftware](https://dev.to/dustinsoftware/the-case-for-embeddable-ember-4120), [@knownasilya](https://ilyaradchenko.com/fragmentation-over-obsalecence/), [@runspired](https://runspired.com/2019/06/17/emberdata2019/), [@0xadada](https://0xadada.pub/2019/06/17/essential-ember-addons/), [@chriskrycho](https://www.chriskrycho.com/2019/emberjs2019-part-1.html), and [@neojp](https://gist.github.com/neojp/d7b2cdc38a04776cf3e41a6e698fb07e).
+
+As always, you can find [all #EmberJS2019 posts at our community repo](https://github.com/abhilashlr/emberjs2019-posts). (Thanks again, [@abhilashlr](https://github.com/abhilashlr/)!)
 
 ---
 
@@ -127,4 +129,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Sean Massa, Amy Lam, the crowd and the Learning Team
+Chris Ng, Sean Massa, Amy Lam, Isaac Lee, the crowd and the Learning Team
+
