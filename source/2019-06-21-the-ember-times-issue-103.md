@@ -84,7 +84,7 @@ Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJN
 
 ## [More Explicit Dependency Injection in Your Ember Apps 🐹](https://github.com/emberjs/rfcs/pull/502)
 
-The [**recent Request for Comments (RFC)**](https://github.com/emberjs/rfcs/pull/502), titled "Explicit Service Injection" proposes an update to the way **services and other dependencies** are registered, looked up and **injected** in Ember apps. The proposal argues that a class based syntax for [dependency injection](https://guides.emberjs.com/v3.10.0/applications/dependency-injection/) is more explicit than the current string based API and therefore preferable.
+The [**recent Request for Comments (RFC)**](https://github.com/emberjs/rfcs/pull/502), titled "Explicit Service Injection," proposes an update to the way **services and other dependencies** are registered, looked up and **injected** in Ember apps. The proposal argues that a class-based syntax for [dependency injection](https://guides.emberjs.com/v3.10.0/applications/dependency-injection/) is more explicit than the current string-based API and therefore preferable.
 
 If you'd like to learn more about the **new API design** that is proposed in the RFC, be sure to [read the original proposal](https://github.com/nullvoxpopuli/rfcs/blob/explicit-dependency-injection/text/0000-explicit-dependency-injection.md) and do not forget to **join the discussion** in the comments!
 
