@@ -11,6 +11,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Submit to the Ember Camp Chicago CFP 🌭,
 celebration of 55 posts for #EmberJS2019 🎉,
+unravel the mystery of Ember testing syntax 💡, 
+examine whether we still need the input helper 🤔,
 watch the Visual Regression Testing Made Easy talk video 📺,
 more expressive dependency injection ⬅️,
 clean out unused components from your 🐹 app,
@@ -56,22 +58,26 @@ As always, you can find [all #EmberJS2019 posts at our community repo](https://g
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [The Ember.js Testing Guide, I Made for Myself 💡](https://medium.com/@sarbbottam/the-ember-js-testing-guide-i-made-for-myself-c9a073a0c718)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@sarbbottam](https://github.com/sarbbottam) recalls how the [new testing syntax](https://guides.emberjs.com/release/testing/) had improved his productivity remarkably. Sarbbottam, who has been making notes on testing since, [graciously shared them with the whole community last week](https://medium.com/@sarbbottam/the-ember-js-testing-guide-i-made-for-myself-c9a073a0c718). 💯
 
+Learn more today about:
+
+- Writing different types of tests (unit, integration, and acceptance)
+- Running tests
+- Stubbing dependencies
+
+We encourage you to check out Sarbbottam's guide and share it with developers that you know! 💛
+  
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Do We Still Need the Input Helper? 🤔](https://www.youtube.com/watch?v=c0Rl6o9wLX0)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As Ember aligns with native JavaScript more each day, we get to reexamine the framework choices that we had made. For example, how should we handle events for input elements? [@rwjblue](https://github.com/rwjblue) and [@stefanpanner](https://github.com/stefanpenner) met to discuss the historical context and alternatives to using the `{{input}}` helper.
 
+You can learn more from their [recorded interview](https://www.youtube.com/watch?v=c0Rl6o9wLX0) and [@balinterdi](https://github.com/balinterdi)'s [notes and thoughts](http://www.balinterdi.com/blog/built-in-input-helpers-in-ember-js-when-and-whether-they-should-be-used/).
+  
 ---
 
 ## [Talk Video: Visual Regression Testing Made Easy 📺](https://www.youtube.com/watch?v=d0ZCJNeybbs)
