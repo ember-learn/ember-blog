@@ -89,12 +89,11 @@ Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJN
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Prune Your App with Ember Unused Components ♻️](https://github.com/vastec/ember-unused-components)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Sorting out **components**, which are not used in your application anymore, can be tough. With different ways to invoke components, such as curly brace or [angle bracket syntax](https://guides.emberjs.com/release/reference/syntax-conversion-guide/) and the syntactical ambiguity of invoking helpers and components, it takes some time to prune your app from redundant components manually.
+
+But now you can use the brand-new addon [Ember Unused Components](https://github.com/vastec/ember-unused-components) to **clean up** your **codebase automatically**. Use the `--stats` flag to get **useful reports** on the impact of your app optimization efforts as you go. [Check it out today!](https://github.com/vastec/ember-unused-components)
 
 ---
 
