@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 103
-author: Sean Massa, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Sean Massa, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/21-the-ember-times-issue-103.html"
 responsive: true
@@ -9,8 +9,9 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-updates on EmberCamp Chicago CFP & tickets 🌭,
+Submit to the Ember Camp Chicago CFP 🌭,
 celebration of 55 posts for #EmberJS2019 🎉,
+watch the Visual Regression Testing Made Easy talk video 📺,
 ...
 
 ---
@@ -71,12 +72,11 @@ As always, you can find [all #EmberJS2019 posts at our community repo](https://g
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Talk Video: Visual Regression Testing Made Easy 📺](https://www.youtube.com/watch?v=d0ZCJNeybbs)
+
+[@patocallaghan](https://github.com/patocallaghan) gave a lightning talk on “Visual Regression Testing Made Easy” at the April 2019 [DublinJS Meetup](https://www.meetup.com/DublinJS/). In his talk, Pat used [Percy](https://percy.io/) to scale testing visual regressions from manually doing them to having it automated. You can detect potential CSS bugs, remove certain types of tests, and make large refactoring and migrations. “Styles can sometimes make bad things happen.” Percy gives you confidence when you make big changes.
+
+Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJNeybbs) just published this week!
   
 ---
 
@@ -129,4 +129,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Sean Massa, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Sean Massa, Amy Lam, Isaac Lee, the crowd and the Learning Team
+
