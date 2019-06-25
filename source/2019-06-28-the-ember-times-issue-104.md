@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 104
 author: Jessica Jordan, Chris Ng, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/28-the-ember-times-issue-104.html"
 responsive: true
 ---
