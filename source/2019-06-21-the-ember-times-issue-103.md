@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 103
 author: Chris Ng, Sean Massa, Amy Lam, Isaac Lee, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/21-the-ember-times-issue-103.html"
 responsive: true
 ---
