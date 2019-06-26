@@ -55,7 +55,7 @@ installing dependencies.
 
 ``` sh
 git clone https://github.com/ember-learn/ember-blog.git
-cd website
+cd ember-blog
 bundle
 bundle exec middleman
 ```

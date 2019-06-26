@@ -83,7 +83,7 @@ Previously, you were only able to invoke built-ins in your template using the cl
 ```hbs
 {{input type="text" value="Katie Gengler"}}
 
-{{link-to "photos.edit" photo}}
+{{link-to "Edit Photo" "photos.edit" photo}}
 
 {{textarea value=postComment cols="20" rows="6"}}
 ```
@@ -94,7 +94,9 @@ With Ember 3.10 and higher, you may alternatively use the angle bracket invocati
 <Input @type="text" @value="Katie Gengler" />
 
 {{! link-to with a single model }}
-<LinkTo @route="photos.edit" @model={{photo}} />
+<LinkTo @route="photos.edit" @model={{photo}}>
+  Edit Photo
+</LinkTo>
 
 {{! link-to with several models }}
 <LinkTo @route="photos.edit" @models={{array photo anotherPhoto}} />
