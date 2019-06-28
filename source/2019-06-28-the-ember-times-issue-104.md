@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 104
-author: Jessica Jordan, Chris Ng, the crowd
+author: Jessica Jordan, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/28-the-ember-times-issue-104.html"
 responsive: true
@@ -10,7 +10,8 @@ Halò Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week - everything about **Embroider**:
-Readers' Questions: What is Embroider 🤔,
+Readers' Questions: What is Embroider? 🤔,
+Live Embroider Demo by Edward Faulkner 🖥️,
 Help out in the Prettier Glimmer Quest Issue 🎀✨,
 
 ---
@@ -31,12 +32,17 @@ Help out in the Prettier Glimmer Quest Issue 🎀✨,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Live Embroider Demo by Edward Faulkner 🖥️](https://www.youtube.com/watch?v=2R1vS7_sLTM)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You might be wondering next, how do I start using [Embroider](https://github.com/embroider-build/embroider) in my app? How exactly does Embroider's 3-stage build process work? 🙋‍♂️🙋‍♀️
+
+At EmberATX, [Edward Faulkner](https://github.com/ef4) showed how you can build the familiar [Super Rentals app](https://guides.emberjs.com/release/tutorial/ember-cli/) using Embroider. He also taught important [core and compatibility options](https://github.com/embroider-build/embroider#options) and explained how they affect the first two build stages.
+
+We encourage you to [watch the whole video](https://www.youtube.com/watch?v=2R1vS7_sLTM) to learn more about Embroider. If you are short on time, you can watch these highlights:
+
+- *08:20 (24 min)* - how to use Embroider to build Super Rentals 🏠
+- *47:25 (25 min)* - how options affect first stage 1️⃣
+- *1:02:25 (15 min)* - how options affect second stage 2️⃣
 
 ---
 
@@ -122,4 +128,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Chris Ng, the crowd and the Learning Team
+Jessica Jordan, Chris Ng, Isaac Lee, the crowd and the Learning Team
