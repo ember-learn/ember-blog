@@ -41,7 +41,8 @@ With the `@action` decorator, it is very straightforward to pass actions to othe
 
 ```js
 import Component from "@ember/component";
- 
+import { action } from '@ember/object';
+
 class CounterComponent extends Component {
   count = 0;
   
@@ -84,6 +85,7 @@ The `{{on}}` modifier provides a straightforward way to listen to DOM events on 
 
 ```js
 import Component from "@ember/component";
+import { action } from '@ember/object';
 
 class CounterComponent extends Component {
   count = 0;
