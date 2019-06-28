@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 104
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/28-the-ember-times-issue-104.html"
 responsive: true
@@ -8,8 +8,10 @@ responsive: true
 
 Halò Emberistas! 🐹
 
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week - everything about **Embroider**:
 Readers' Questions: What is Embroider 🤔,
+Help out in the Prettier Glimmer Quest Issue 🎀✨,
 
 ---
 
@@ -92,21 +94,13 @@ Readers' Questions: What is Embroider 🤔,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Quest: Prettier Glimmer 🎀✨](https://github.com/jgwhite/prettier/issues/1)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@jgwhite](https://github.com/jgwhite) started a [quest issue](https://github.com/jgwhite/prettier/issues/1) to track the outstanding work required to have full [Prettier](https://prettier.io/) support for Ember templates. 
 
----
+Prettier is an opinionated code formatter that ensures that all [outputted code conforms to a consistent style](https://jlongster.com/A-Prettier-Formatter) in order to avoid [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding) about styling rules or nit picks. It does this by parsing your code into an Abstract Syntax Tree (AST) and reprinting it from scratch disregarding all original styling. Today, Prettier already works for JavaScript including [ES2017](https://github.com/tc39/proposals/blob/master/finished-proposals.md) so this work revolves around supporting Ember templates.
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Check out what parts you can contribute in the [quest issue](https://github.com/jgwhite/prettier/issues/1) on GitHub!
 
 ---
 
@@ -128,4 +122,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Chris Ng, the crowd and the Learning Team
