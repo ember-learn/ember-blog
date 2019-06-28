@@ -20,7 +20,7 @@ RFC for Embroider v2 Addon Format 💬. Also, help out in the Prettier Glimmer Q
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
 
-  <p>In this week's <strong>brand new</strong> Readers’ Question it's all about **Embroider**: What is it about and should you use it in your Ember app?</p>
+  <p>In this week's <strong>brand new</strong> Readers’ Question it's all about <strong>Embroider</strong>: What is it about and should you use it in your Ember app?</p>
   <p>In her write-up <a href="https://github.com/jessica-jordan">@jessica-jordan</a> will give a high-level overview of the motivation for the project, its benefits and where to learn more about it. Read the <strong>full answer</strong>
   on the <a href="https://discuss.emberjs.com/t/readers-questions-what-is-embroider/16722">offical Ember forum</a>.</p>
 </div>
@@ -39,7 +39,7 @@ At EmberATX, [Edward Faulkner](https://github.com/ef4) showed how you can build 
 
 We encourage you to [learn more about Embroider today](https://www.youtube.com/watch?v=2R1vS7_sLTM)! If you are short on time, feel free to watch these highlights:
 
-- *[08:20](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=500)(24 min)* How to build Super Rentals 🏠
+- *[08:20](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=500) (24 min)* How to build Super Rentals 🏠
 - *[47:25](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=2845) (25 min)* How the options affect first stage 1️⃣
 - *[1:02:25](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=3745) (15 min)* How the options affect second stage 2️⃣
 
