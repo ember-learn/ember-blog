@@ -42,7 +42,7 @@ We encourage you to [learn more about Embroider today](https://www.youtube.com/w
 
 - *[08:20](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=500)(24 min)* How to build Super Rentals 🏠
 - *[47:25](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=2845) (25 min)* How the options affect first stage 1️⃣
-- *1:02:25 (15 min)* How the options affect second stage 2️⃣
+- *[1:02:25](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=3745) (15 min)* How the options affect second stage 2️⃣
 
 ---
 
