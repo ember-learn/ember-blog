@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 104
-author: Chris Ng, the crowd
+author: Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/06/28-the-ember-times-issue-104.html"
 responsive: true
@@ -9,7 +9,88 @@ responsive: true
 Halò Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week - everything about **Embroider**:
+Readers' Questions: What is Embroider 🤔,
 Help out in the Prettier Glimmer Quest Issue 🎀✨,
+
+---
+
+## [Readers' Questions: What is Embroider?](https://discuss.emberjs.com/t/readers-questions-what-is-embroider/16722)
+
+<div class="blog-row">
+  <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
+
+  <p>In this week's <strong>brand new</strong> Readers’ Question it's all about **Embroider**: What is it about and should you use it in your Ember app?</p>
+  <p>In her write-up <a href="https://github.com/jessica-jordan">@jessica-jordan</a> will give a high-level overview of the motivation for the project, its benefits and where to learn more about it. Read the <strong>full answer</strong>
+  on the <a href="https://discuss.emberjs.com/t/readers-questions-what-is-embroider/16722">offical Ember forum</a>.</p>
+</div>
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/readers-questions-what-is-embroider/16722">Read more</a>
+
+**Submit your own** short and sweet **question** under [bit.ly/ask-ember-core](https://bit.ly/ask-ember-core). And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -23,94 +104,9 @@ Check out what parts you can contribute in the [quest issue](https://github.com/
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
-
----
-
-## [Got a Question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
-
-<div class="blog-row">
-  <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
-
-  <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are just for you!</p>
-
-<p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>
-
-</div>
 
 ---
 
@@ -126,4 +122,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Jessica Jordan, Chris Ng, the crowd and the Learning Team
