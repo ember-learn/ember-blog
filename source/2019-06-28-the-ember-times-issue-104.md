@@ -40,7 +40,7 @@ At EmberATX, [Edward Faulkner](https://github.com/ef4) showed how you can build 
 
 We encourage you to [learn more about Embroider today](https://www.youtube.com/watch?v=2R1vS7_sLTM)! If you are short on time, feel free to watch these highlights:
 
-- *08:20 (24 min)* How to build Super Rentals 🏠
+- *[08:20](https://www.youtube.com/watch?v=2R1vS7_sLTM&feature=youtu.be&t=500)(24 min)* How to build Super Rentals 🏠
 - *47:25 (25 min)* How the options affect first stage 1️⃣
 - *1:02:25 (15 min)* How the options affect second stage 2️⃣
 
