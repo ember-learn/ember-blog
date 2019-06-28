@@ -25,7 +25,7 @@ Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (4)
 
-Forwarding Element Modifiers with "Splattributes" (1 of 4)
+**Forwarding Element Modifiers with "Splattributes" (1 of 4)**
 
 Angle bracket component invocation was introduced in Ember.js 3.7. Aside from the syntatic differences, the angle bracket invocation syntax enabled passing HTML attributes to components, which can then be applied the underlying HTML element(s) in the component's layout using the ...attributes "splattributes" syntax.
 
@@ -33,59 +33,80 @@ This features clarifies how the "splattributes" feature interact with element mo
 
 For more information please refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0435-modifier-splattributes.md).
 
-The {{fn}} helper (2 of 4)
+**The {{fn}} helper (2 of 4)**
 
-This new helper aims to remove some of the complexity of the current `action` helper. Some of these complex behaviors are:
+The `{{fn}}` helper provides a way to pass arguments to actions, particularly with native classes and the `@action` decorator.
 
-1. Argument partial application (currying)
-2. `this` context binding
-3. `send` checks for Component and Controllers
-
-The `fn` helper will take in a function and then the set of arguments that will be partially applied to the function.
-
-Here's a simple case on argument curry:
-
-```hbs
-{{fn this.log 1}}
-```
+With the `@action` decorator, it is very straightforward to pass actions to other components ("data-down, actions-up"):
 
 ```js
-return function() {
-  this.log.call(this, 1);
+import Component from "@ember/component";
+ 
+class CounterComponent extends Component {
+  count = 0;
+  
+  @action
+  countUp(increment = 1) {
+    this.incrementProperty("count", increment);
+  }
 }
 ```
-
-To see even more examples please refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design). 
-
-
-The {{on}} modifier (3 of 4)
-
-Currently, there are two ways to bind event listeners to elements in Ember templates with built-in, official Ember APIs:
-
-  - Use the `{{action}}` element modifier
-  - Use the `on*=` property bindings
-
-Both of these solutions are problematic for a number of reasons. 
-
-The `{{on}}` modifier will recieve:
-
-  - The event name as a string as the first positional parameter
-  - The event listener function as the second positional parameter
-    Named parameters as options
-
-The following usages are equivalent:
-
+ 
 ```hbs
-<div {{on "click" this.handleClick passive=true}}></div>
-````
+Current count: {{this.count}}
 
-```js
-element.addEventListener('click', this.handleClick, { passive: true });
+<MyButton @click={{this.countUp}}>Add One</MyButton>
 ```
 
-For more examlpes please refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md#detailed-design).
+The `@action` decorator ensures that the `this` value in the `countUp` action will always be the component instance, which allows it to be freely passed to other components. Where this falls short is when we need to pass arguments to these actions.
 
-Inject Parameter Normalization (4 of 4)
+The `{{fn}}` helper provides a way to pass arguments into actions and "bundle" them up, so that they can be passed around to other components and still retain the provided arguments when called:
+
+```hbs
+Current count: {{this.count}}
+
+{{!-- when not passing arguments, these are equivalent --}}
+<MyButton @click={{this.countUp}}>Add One</MyButton>
+<MyButton @click={{fn this.countUp}}>Add One</MyButton>
+
+{{!-- calls this.countUp(10) when clicked --}}
+<MyButton @click={{fn this.countUp 10}}>Add Ten</MyButton>
+```
+
+In addition to the basic use case shown here, the `{{fn}}` helper supports other advanced use cases, such as adding more arguments to an existing function.
+
+It should also be noted that the `{{action}}` helper can previously be used to accomplish similar functionalities, but due to some historical decisions, it may produce surprising results in some cases. Therefore, Ember users are encouraged to migrate to the `{{fn}}` helper along with the `@action` decorator where possible and appropriate. Refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design) for more details and examples.
+
+
+**The {{on}} modifier (3 of 4)**
+
+The `{{on}}` modifier provides a straightforward way to listen to DOM events on arbitrary elements.
+
+```js
+import Component from "@ember/component";
+
+class CounterComponent extends Component {
+  count = 0;
+  
+  @action
+  countUp() {
+    this.incrementProperty("count");
+  }
+}
+```
+```hbs
+Current count: {{this.count}}
+
+<button {{on "click" this.countUp passive=true}}>Add One</button>
+```
+ 
+The `{{on}}` modifier in this example attaches a passive "click" event listener on the button, such that when the button is clicked, the `countUp` action will be called. Again, the `@action` decorator ensures the `countUp` action will have the right `this` value at runtime.
+
+By default, the action passed to the `{{on}}` modifier will receive the DOM event as an argument. The `fn` helper can be used in conjunction with the `{{on}}` modifier to alter this behavior. Along with the "Splattributes" feature mentioned above, the `{{on}}` modifier can also be applied to component elements as well.
+ 
+Finally, it should be noted that the `{{action}}` modifier, and in some case, DOM properties like `onclick=` can previously be used to accomplish similar functionalities. However, both of these approaches have their own drawbacks. Therefore, Ember users are encouraged to migrate to the `{{on}}` modifier along with the `@action` decorator where possible and appropriate. See [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md) for more details and examples.
+
+**Inject Parameter Normalization (4 of 4)**
 
 Inject Parameter Normalization normalizes this contract for all Ember base classes - that is, framework classes that are provided by Ember:
 
