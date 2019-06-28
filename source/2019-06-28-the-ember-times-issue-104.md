@@ -102,7 +102,7 @@ We encourage you to [learn more about Embroider today](https://www.youtube.com/w
 
 ## [Quest: Prettier Glimmer 🎀✨](https://github.com/jgwhite/prettier/issues/1)
 
-[@jgwhite](https://github.com/jgwhite) started a [quest issue](https://github.com/jgwhite/prettier/issues/1) to track the outstanding work required to have full [Prettier](https://prettier.io/) support for Ember templates. 
+[@jgwhite](https://github.com/jgwhite) started a [quest issue](https://github.com/jgwhite/prettier/issues/1) to track the outstanding work required to have full [Prettier](https://prettier.io/) support for Ember templates.
 
 Prettier is an opinionated code formatter that ensures that all [outputted code conforms to a consistent style](https://jlongster.com/A-Prettier-Formatter) in order to avoid [bikeshedding](https://en.wiktionary.org/wiki/bikeshedding) about styling rules or nit picks. It does this by parsing your code into an Abstract Syntax Tree (AST) and reprinting it from scratch disregarding all original styling. Today, Prettier already works for JavaScript including [ES2017](https://github.com/tc39/proposals/blob/master/finished-proposals.md) so this work revolves around supporting Ember templates.
 
@@ -112,7 +112,7 @@ Check out what parts you can contribute in the [quest issue](https://github.com/
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/paddyobrien" target="gh-user">@paddyobrien</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/abel-n" target="gh-user">@abel-n</a>, <a href="https://github.com/Gorzas" target="gh-user">@Gorzas</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/villander" target="gh-user">@villander</a>, <a href="https://github.com/billybonks" target="gh-user">@billybonks</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/geopopos" target="gh-user">@geopopos</a>, <a href="https://github.com/kmiyashiro" target="gh-user">@kmiyashiro</a>, <a href="https://github.com/newyork-anthonyng" target="gh-user">@newyork-anthonyng</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/pgengler" target="gh-user">@pgengler</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/ef4" target="gh-user">@ef4</a> and <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
