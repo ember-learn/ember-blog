@@ -25,15 +25,15 @@ Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (4)
 
-**Forwarding Element Modifiers with "Splattributes" (1 of 4)**
+**Forwarding Element Modifiers with `...attributes` (1 of 4)**
 
-Angle bracket component invocation was introduced in Ember.js 3.7. Aside from the syntatic differences, the angle bracket invocation syntax enabled passing HTML attributes to components, which can then be applied the underlying HTML element(s) in the component's layout using the ...attributes "splattributes" syntax.
+Angle bracket component invocation was introduced in Ember.js 3.7. Aside from the syntatic differences, the angle bracket invocation syntax enabled passing HTML attributes to components, which can then be applied the underlying HTML element(s) in the component's layout using the `...attributes` syntax. This is also known informally as the "splattributes" feature.
 
 This features clarifies how the "splattributes" feature interact with element modifiers.
 
 For more information please refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0435-modifier-splattributes.md).
 
-**The {{fn}} helper (2 of 4)**
+**The `{{fn}}` helper (2 of 4)**
 
 The `{{fn}}` helper provides a way to pass arguments to actions, particularly with native classes and the `@action` decorator.
 
@@ -79,7 +79,7 @@ In addition to the basic use case shown here, the `{{fn}}` helper supports other
 It should also be noted that the `{{action}}` helper can previously be used to accomplish similar functionalities, but due to some historical decisions, it may produce surprising results in some cases. Therefore, Ember users are encouraged to migrate to the `{{fn}}` helper along with the `@action` decorator where possible and appropriate. Refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design) for more details and examples.
 
 
-**The {{on}} modifier (3 of 4)**
+**The `{{on}}` modifier (3 of 4)**
 
 The `{{on}}` modifier provides a straightforward way to listen to DOM events on arbitrary elements.
 
