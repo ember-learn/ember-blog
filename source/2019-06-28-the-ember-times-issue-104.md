@@ -12,6 +12,7 @@ Halò Emberistas! 🐹
 This week - everything about **Embroider**:
 Readers' Questions: What is Embroider? 🤔,
 Live Embroider Demo by Edward Faulkner 🖥️,
+RFC for Embroider v2 Addon Format 💬,
 Help out in the Prettier Glimmer Quest Issue 🎀✨,
 
 ---
@@ -46,12 +47,13 @@ We encourage you to [learn more about Embroider today](https://www.youtube.com/w
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [RFC for Embroider v2 Addon Format 💬](https://github.com/emberjs/rfcs/pull/507)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Now is your opportunity to help shape Embroider!
+
+[@ef4](https://github.com/ef4) has opened the first [Embroider RFC](https://github.com/emberjs/rfcs/pull/507) to discuss the **v2 spec** of Ember packages. Please note, there will be additional RFCs to address what addons can currently do in v1.
+
+Find out more about Embroider, share the news, and [give your feedback today](https://github.com/emberjs/rfcs/pull/507)!
 
 ---
 
