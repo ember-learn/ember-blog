@@ -29,23 +29,9 @@ Forwarding Element Modifiers with "Splattributes" (1 of 4)
 
 Angle bracket component invocation was introduced in Ember.js 3.7. Aside from the syntatic differences, the angle bracket invocation syntax enabled passing HTML attributes to components, which can then be applied the underlying HTML element(s) in the component's layout using the ...attributes "splattributes" syntax.
 
-For example, given the following invocation:
+This features clarifies how the "splattributes" feature interact with element modifiers.
 
-```hbs
-<FooBar class="foo-bar" />
-```
-
-...and the following layout for the `FooBar` component:
-
-
-```hbs
-<div ...attributes>foo bar!</div>
-```
-
-Ember will render the following HTML content:
-
-```html
-<div class="foo-bar">foo bar!</div>
+For more information please refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0435-modifier-splattributes.md).
 
 The {{fn}} helper (2 of 4)
 
