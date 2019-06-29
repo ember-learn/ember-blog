@@ -76,6 +76,19 @@ Current count: {{this.count}}
 
 In addition to the basic use case shown here, the `{{fn}}` helper supports other advanced use cases, such as adding more arguments to an existing function.
 
+```hbs
+{{#let (fn this.log "hello") as |hello|}}
+  {{!-- calls this.log("hello", "world") --}}
+  <MyButton @click={{fn hello "world"}}>
+    Hello World
+  </MyButton>
+   
+  {{!-- calls this.log("hello", "Tomster", "Zoey") --}}
+  <MyButton @click={{fn hello "Tomster" "Zoey"}}>
+    Hello Tomster and Zoey
+  </MyButton>
+{{/let}}
+
 It should also be noted that the `{{action}}` helper can previously be used to accomplish similar functionalities, but due to some historical decisions, it may produce surprising results in some cases. Therefore, Ember users are encouraged to migrate to the `{{fn}}` helper along with the `@action` decorator where possible and appropriate. Refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design) for more details and examples.
 
 
