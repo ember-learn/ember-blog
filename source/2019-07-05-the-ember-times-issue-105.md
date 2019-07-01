@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -8,7 +8,8 @@ responsive: true
 
 Hoi Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+**observers** going **async** ⏱,
 
 ---
 
@@ -39,12 +40,13 @@ Hoi Emberistas! 🐹
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [To Sync Or Not to Sync: Observers 2.0 ⏱](https://emberjs.github.io/rfcs/0494-async-observers.html)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In an effort to remove legacy code from Ember, promote better programming practices in apps and lay the foundation for clearer code paths, a [recently accepted RFC (Request for Comments)](https://github.com/emberjs/rfcs/pull/494) proposes an important change to the **observer** APIs: the [`addObserver`](http://api.emberjs.com/ember/3.10/functions/@ember%2Fobject%2Fobservers/addObserver), [`removeObserver`](http://api.emberjs.com/ember/3.10/functions/@ember%2Fobject%2Fobservers/removeObserver) and the [`observer`](http://api.emberjs.com/ember/3.10/functions/@ember%2Fobject/observer) functions shall be configurable to operate either synchronously (the way observers always used to work in Ember apps since the pre-v1.0 days) or asynchronously.
+
+The RFC highlights how an option to set defaults for either the sync or async mode of observer operation in an app would help developers to re-configure their observers incrementally. Finally, the proposal argues that - in the long run - a deprecation of the synchronous observer behaviour should follow after the community had sufficient time to migrate away.
+
+Find out more about the how and why behind **async observers** by giving the [full proposal a read!](https://emberjs.github.io/rfcs/0494-async-observers.html)
 
 ---
 
@@ -124,4 +126,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
