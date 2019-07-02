@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -8,7 +8,8 @@ responsive: true
 
 Hoi Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+**observers** going **async** ⏱,
 
 ---
 
@@ -39,12 +40,15 @@ Hoi Emberistas! 🐹
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [To Sync or Not to Sync: Observers 2.0 ⏱](https://emberjs.github.io/rfcs/0494-async-observers.html)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In an effort to remove legacy code from Ember, promote better programming practices in apps and lay the foundation for clearer code paths, a [recently accepted RFC (Request for Comments)](https://github.com/emberjs/rfcs/pull/494) proposes an important change to the **observer** APIs: the [`addObserver`](http://api.emberjs.com/ember/release/functions/@ember%2Fobject%2Fobservers/addObserver), [`removeObserver`](http://api.emberjs.com/ember/release/functions/@ember%2Fobject%2Fobservers/removeObserver) and the [`observer`](http://api.emberjs.com/ember/release/functions/@ember%2Fobject/observer) functions shall be configurable to operate either synchronously (the way observers always used to work in Ember apps since the pre-v1.0 days) or asynchronously.
+
+In Ember apps today, observers will be called immediately after any of the properties they are tracking have changed. Async observers as proposed in the RFC would instead be scheduled for the next runloop.
+
+The RFC highlights how we can use the `sync` option (a Boolean) to make our observers asynchronous, one by one. After the community has had sufficient time to migrate their code, the RFC argues that Ember would be able to deprecate synchronous observers.
+
+Find out more about the how and why behind **async observers** by giving the [full proposal a read!](https://emberjs.github.io/rfcs/0494-async-observers.html)
 
 ---
 
@@ -124,4 +128,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
