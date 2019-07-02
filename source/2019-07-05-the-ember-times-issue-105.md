@@ -44,7 +44,7 @@ This week:
 
 In an effort to remove legacy code from Ember, promote better programming practices in apps and lay the foundation for clearer code paths, a [recently accepted RFC (Request for Comments)](https://github.com/emberjs/rfcs/pull/494) proposes an important change to the **observer** APIs: the [`addObserver`](http://api.emberjs.com/ember/3.10/functions/@ember%2Fobject%2Fobservers/addObserver), [`removeObserver`](http://api.emberjs.com/ember/3.10/functions/@ember%2Fobject%2Fobservers/removeObserver) and the [`observer`](http://api.emberjs.com/ember/3.10/functions/@ember%2Fobject/observer) functions shall be configurable to operate either synchronously (the way observers always used to work in Ember apps since the pre-v1.0 days) or asynchronously.
 
-The RFC highlights how an option to set defaults for either the sync or async mode of observer operation in an app would help developers to re-configure their observers incrementally. Finally, the proposal argues that - in the long run - a deprecation of the synchronous observer behaviour should follow after the community had sufficient time to migrate away.
+The RFC highlights how we can use the `sync` option (a Boolean) to make our observers asynchronous, one by one. After the community has had sufficient time to migrate their code, Ember would be able to deprecate synchronous observers.
 
 Find out more about the how and why behind **async observers** by giving the [full proposal a read!](https://emberjs.github.io/rfcs/0494-async-observers.html)
 
