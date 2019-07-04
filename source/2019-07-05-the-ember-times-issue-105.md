@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -10,6 +10,7 @@ Hoi Emberistas! 🐹
 
 This week:
 **observers** going **async** ⏱,
+RFC to **support populating head tag** ⛑️,
 
 ---
 
@@ -52,12 +53,13 @@ Find out more about the how and why behind **async observers** by giving the [fu
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [RFC to Support Populating Head Tag ⛑️](https://github.com/emberjs/rfcs/pull/506)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The `<head>` tag does more than setting the title and favicon of a page. It also plays an **integral role in SEO and unfurling links**. Currently, we can use the [ember-cli-head](https://github.com/ronco/ember-cli-head) addon to modify the `<head>` tag. 💛
+
+In the RFC, [@rwwagner90](https://github.com/rwwagner90) proposed that Ember gives developers the ability to modify the tag, using a **route hook** or **service**.
+
+What are your thoughts? Please [take a look at the RFC](https://github.com/emberjs/rfcs/pull/506) and share your ideas and use cases of `<head>` tag!
 
 ---
 
@@ -128,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, the crowd and the Learning Team
