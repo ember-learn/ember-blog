@@ -21,7 +21,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.11
-Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is four (4) new feature, one (1) deprecations, and several bugfixes in this version.
 
 #### New Features (4)
 
@@ -163,11 +163,45 @@ Please refer to [the deprecation guides](https://deprecations.emberjs.com/v3.x/#
 
 Ember Data is the official data persistence library for Ember.js applications.
 
+**Important note about Ember Data 3.11**
+
+There is a known bug in 3.11.0 which means `ember generate model something` doesn't work. We are currently working a patch for this.
+
 ### Changes in Ember Data 3.11
 
-#### New Features (0)
+#### New Features (1)
 
-No new features introduced in Ember Data 3.11.
+**Packages feature (1 of 1)**
+
+In addition to several bug fixes and small documentation fixes, this release is the first release that ships ember-data as a collection of smaller packages. [Over time, some of these packages will become optional](https://github.com/emberjs/data/issues/6166).
+
+The packages feature also introduces a new import syntax.
+
+Previously:
+
+```js
+import Model from 'ember-data/model';
+import attr from 'ember-data/attr';
+import { belongsTo, hasMany } from 'ember-data/relationships';
+```
+
+or:
+
+```js
+import DS from 'ember-data';
+
+const { Model, attr, belongsTo, hasMany } = DS;
+```
+
+Can now be achieved like this:
+
+```js
+import Model, { attr, belongsTo, hasMay } from '@ember-data/model';
+```
+
+With the landing of this feature, the previous import styles will become deprecated in an upcoming release. Lint rules and a codemod will be available before that time to ensure a seamless transition to the new syntax.
+
+You can read more about the new package syntax [in the RFC](https://emberjs.github.io/rfcs/0395-ember-data-packages.html)
 
 #### Deprecations (0)
 
