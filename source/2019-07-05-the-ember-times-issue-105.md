@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Robert Wagner, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -61,12 +61,21 @@ Find out more about the how and why behind **async observers** by giving the [fu
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Ember Inspector Update](#ember-inspector-update)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember Inspector recently dropped support for Ember versions < 3.4. This has freed us up to 
+remove a lot of cruft that has existed for supporting older Ember versions, and start to clean 
+up and modernize the code. We are continuing to design the features for the future and work
+towards delivering the features we promised in the past.
+
+Octane is still not currently supported, but we are working closely with the framework team to
+get the APIs we need to map components to DOM elements and enable us to show the arguments 
+passed to the component, and manipulate them inline, to better debug component behavior.
+
+We can always use more people to help out with the considerable efforts required to keep 
+Ember Inspector running, so if you would be interested in helping out, please reach out in the
+`dev-ember-inspector` channel on Discord, we would love to have you!
+
 
 ---
 
@@ -128,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Robert Wagner, the crowd and the Learning Team
