@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis the crowd
+author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -9,22 +9,13 @@ responsive: true
 Hoi Emberistas! 🐹
 
 This week:
-help design the **Ember skill tree** 🌱,
-**observers** going **async** ⏱,
-RFC to **support populating head tag** ⛑️,
+help design the Ember skill tree 🌱,
+observers going async ⏱,
+RFC to support populating head tag ⛑️,
 RFC to add `load` hook to Route 🎣,
-an update on **Ember Inspector** 🕵️‍♀️,
-submit your **EmberFest 2019** talk today 🎤,
-EmberWeekend episode featuring Luke Melia 🔈
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+an update on Ember Inspector 🕵️‍♀️,
+submit your EmberFest 2019 talk today 🎤, and an
+EmberWeekend episode featuring Luke Melia 🔈!
 
 ---
 
@@ -99,6 +90,7 @@ A quick reminder that the [EmberFest](https://emberfest.eu/) **CFP deadline** is
 Talks are **30 minutes long** and can range from in-depth technical talks to broader talks covering other aspects of software development.
 
 If you’re looking for some inspiration, here are the [2018 EmberFest Talks on YouTube](https://www.youtube.com/watch?v=oRzmDobMZ_Q&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9)!
+
 ---
 
 ## [EmberWeekend Episode With Luke Melia 🔈](https://twitter.com/emberweekend/status/1134498179544702977)
@@ -114,27 +106,9 @@ Checkout the full episode
 
 ---
 
-## [Section Title in Title Case 🐹](https://twitter.com/emberweekend/status/1134498179544702977)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/vaidehijoshi" target="gh-user">@vaidehijoshi</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/ijlee2" target="gh-user">@ijlee2</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/astronomersiva" target="gh-user">@astronomersiva</a>, <a href="https://github.com/CvX" target="gh-user">@CvX</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a> and <a href="https://github.com/Draggha" target="gh-user">@Draggha</a> for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/vaidehijoshi" target="gh-user">@vaidehijoshi</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/ijlee2" target="gh-user">@ijlee2</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/astronomersiva" target="gh-user">@astronomersiva</a>, <a href="https://github.com/CvX" target="gh-user">@CvX</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a> and <a href="https://github.com/Draggha" target="gh-user">@Draggha</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -163,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis, Amy Lam and the Learning Team
