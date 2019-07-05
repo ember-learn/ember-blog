@@ -65,7 +65,7 @@ What are your thoughts? Please [take a look at the RFC](https://github.com/ember
 
 ---
 
-## [Ember Inspector Update](https://github.com/emberjs/ember-inspector)
+## [Ember Inspector Update 🕵️‍♀️](https://github.com/emberjs/ember-inspector)
 
 **Ember Inspector** recently dropped support for Ember versions < 3.4. This has freed us up to
 remove a lot of cruft that has existed for supporting older Ember versions, and start to clean
@@ -79,7 +79,6 @@ passed to the component, and manipulate them inline. This will allow Inspector u
 We are always looking for more people to **help out** with the considerable efforts required to keep
 Ember Inspector running, so if you would be interested in helping out, please reach out in the
 [`dev-ember-inspector` channel](https://discordapp.com/channels/480462759797063690/486243207072710656) on [Discord](https://discordapp.com/invite/emberjs), we would love to have you!
-
 
 ---
 
