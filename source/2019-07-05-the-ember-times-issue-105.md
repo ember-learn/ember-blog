@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, the crowd
+author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -12,8 +12,9 @@ This week:
 help design the **Ember skill tree** 🌱,
 **observers** going **async** ⏱,
 RFC to **support populating head tag** ⛑️,
-RFC to add `load` hook to Route 🎣
-An update on Ember Inspector
+RFC to add `load` hook to Route 🎣,
+An update on Ember Inspector,
+Submit your EmberFest 2019 talk today 🎤,
 
 ---
 
@@ -90,13 +91,13 @@ Ember Inspector running, so if you would be interested in helping out, please re
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Reminder: EmberFest CFP Deadline August 1st 🎤](https://cfp.emberfest.eu/events/emberfest-2019)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A quick reminder that the [EmberFest](https://emberfest.eu/) CFP deadline is fast approaching. We are just short of a month away from the August 1st deadline, so get your talk in today!
 
+Talks are 30 minutes long and can range from in-depth technical talks to broader talks covering other aspects of software development.
+
+If you’re looking for some inspiration, here are the [2018 EmberFest Talks on YouTube](https://www.youtube.com/watch?v=oRzmDobMZ_Q&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9)!
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -148,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, the crowd and the Learning Team
