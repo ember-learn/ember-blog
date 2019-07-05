@@ -95,7 +95,7 @@ Ember Inspector running, so if you would be interested in helping out, please re
 
 A quick reminder that the [EmberFest](https://emberfest.eu/) CFP deadline is fast approaching. We are just short of a month away from the August 1st deadline, so get your talk in today!
 
-Talks are 30 minutes long ranging from in-depth technical talks along with broader talks covering other aspects of software development.
+Talks are 30 minutes long and can range from in-depth technical talks to broader talks covering other aspects of software development.
 
 If you’re looking for some inspiration, here are the [2018 EmberFest Talks on YouTube](https://www.youtube.com/watch?v=oRzmDobMZ_Q&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9)!
 ---
