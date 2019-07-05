@@ -63,7 +63,7 @@ What are your thoughts? Please [take a look at the RFC](https://github.com/ember
 
 ---
 
-## [Ember Inspector Update](#ember-inspector-update)
+## [Ember Inspector Update](https://github.com/emberjs/ember-inspector)
 
 Ember Inspector recently dropped support for Ember versions < 3.4. This has freed us up to 
 remove a lot of cruft that has existed for supporting older Ember versions, and start to clean 
