@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, the crowd
+author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -15,6 +15,7 @@ RFC to **support populating head tag** ⛑️,
 RFC to add `load` hook to Route 🎣,
 an update on **Ember Inspector** 🕵️‍♀️,
 submit your **EmberFest 2019** talk today 🎤,
+EmberWeekend episode featuring Luke Melia 🔈
 
 ---
 
@@ -100,7 +101,20 @@ Talks are **30 minutes long** and can range from in-depth technical talks to bro
 If you’re looking for some inspiration, here are the [2018 EmberFest Talks on YouTube](https://www.youtube.com/watch?v=oRzmDobMZ_Q&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9)!
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [EmberWeekend Episode With Luke Melia 🔈](https://twitter.com/emberweekend/status/1134498179544702977)
+
+A few episodes back the EmberWeekend podcast featured a **great interview** with long-time Ember contributor and former organizer of the Ember NYC Meetup, [@lukemelia](https://github.com/lukemelia). The episode covers the origin story of the NYC meetup and some detail on the origins of Ember.js itself.
+
+Luke has transitioned out of his role as organizer of the NYC Meetup, and he will be missed, but the well-attended and organized meetup is in good hands and is now being organized by [@mixonic](https://github.com/mixonic).
+
+Bonus topics of the episode include Luke's experience using Ember Cordova for building mobile applications and Orbit.js!
+
+Checkout the full episode
+[here](https://emberweekend.com/episodes/out-of-memory).
+
+---
+
+## [Section Title in Title Case 🐹](https://twitter.com/emberweekend/status/1134498179544702977)
 <change section title emoji>
 <consider adding some bold to your paragraph>
 
@@ -149,4 +163,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis the crowd and the Learning Team
