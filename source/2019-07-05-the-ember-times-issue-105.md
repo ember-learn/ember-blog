@@ -76,7 +76,7 @@ passed to the component, and manipulate them inline, to better debug component b
 
 We are always looking for more people to help out with the considerable efforts required to keep 
 Ember Inspector running, so if you would be interested in helping out, please reach out in the
-`dev-ember-inspector` channel on Discord, we would love to have you!
+[`dev-ember-inspector` channel](https://discordapp.com/channels/480462759797063690/486243207072710656) on [Discord](https://discordapp.com/invite/emberjs), we would love to have you!
 
 
 ---
