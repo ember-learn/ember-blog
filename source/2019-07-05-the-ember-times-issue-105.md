@@ -13,6 +13,8 @@ help design the **Ember skill tree** 🌱,
 **observers** going **async** ⏱,
 RFC to **support populating head tag** ⛑️,
 RFC to add `load` hook to Route 🎣
+An update on Ember Inspector
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -70,12 +72,21 @@ What are your thoughts? Please [take a look at the RFC](https://github.com/ember
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Ember Inspector Update](https://github.com/emberjs/ember-inspector)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember Inspector recently dropped support for Ember versions < 3.4. This has freed us up to 
+remove a lot of cruft that has existed for supporting older Ember versions, and start to clean 
+up and modernize the code. We are continuing to design the features for the future and work
+towards delivering the features we promised in the past.
+
+[Ember Octane](https://emberjs.com/editions/octane/) is still not currently supported, but we are working closely with the framework team to
+get the APIs we need to map components to DOM elements and enable us to show the arguments 
+passed to the component, and manipulate them inline. This will allow Inspector users to debug component behavior even better.
+
+We are always looking for more people to help out with the considerable efforts required to keep 
+Ember Inspector running, so if you would be interested in helping out, please reach out in the
+[`dev-ember-inspector` channel](https://discordapp.com/channels/480462759797063690/486243207072710656) on [Discord](https://discordapp.com/invite/emberjs), we would love to have you!
+
 
 ---
 
