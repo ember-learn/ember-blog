@@ -21,7 +21,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.11
-Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is four (4) new feature, one (1) deprecations, and several bugfixes in this version.
+Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are four (4) new features, one (1) deprecation, and several bugfixes in this version.
 
 #### New Features (4)
 
