@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, Isaac Lee, Kenneth Larsen, the crowd
+author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
