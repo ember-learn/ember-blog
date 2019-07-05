@@ -148,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, Kenneth Larsen the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, the crowd and the Learning Team
