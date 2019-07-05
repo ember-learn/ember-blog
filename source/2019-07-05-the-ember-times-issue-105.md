@@ -70,7 +70,7 @@ remove a lot of cruft that has existed for supporting older Ember versions, and 
 up and modernize the code. We are continuing to design the features for the future and work
 towards delivering the features we promised in the past.
 
-Octane is still not currently supported, but we are working closely with the framework team to
+[Ember Octane](https://emberjs.com/editions/octane/) is still not currently supported, but we are working closely with the framework team to
 get the APIs we need to map components to DOM elements and enable us to show the arguments 
 passed to the component, and manipulate them inline. This will allow Inspector users to debug component behavior even better.
 
