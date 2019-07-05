@@ -12,8 +12,8 @@ This week:
 help design the **Ember skill tree** 🌱,
 **observers** going **async** ⏱,
 RFC to **support populating head tag** ⛑️,
-RFC to add `load` hook to Route 🎣
-An update on Ember Inspector
+RFC to add `load` hook to Route 🎣,
+An update on Ember Inspector,
 Submit your EmberFest 2019 talk today 🎤,
 
 ---
