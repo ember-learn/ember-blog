@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 105
-author: Jessica Jordan, Isaac Lee, the crowd
+author: Jessica Jordan, Isaac Lee, Kenneth Larsen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
@@ -11,7 +11,7 @@ Hoi Emberistas! 🐹
 This week:
 **observers** going **async** ⏱,
 RFC to **support populating head tag** ⛑️,
-
+RFC to add `load` hook to Route 🎣
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -32,12 +32,11 @@ RFC to **support populating head tag** ⛑️,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [RFC to Add `load` Hook to Route 🎣](https://github.com/emberjs/rfcs/pull/510)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A new RFC has been created by [@michaelrkn](https://github.com/michaelrkn) to get feedback on the idea of **adding a `load` hook to the Route**. The motivation for this is that the term `model()` can be confusing "because it implies that only one piece of data will be fetched, and it uses the term `model` that is more typically associated with backend development".
+
+Feel free to [read the RFC](https://github.com/michaelrkn/rfcs/blob/route-data/text/0000-route-data-loading.md) and share your thoughts in the comment section.
 
 ---
 
@@ -130,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Kenneth Larsen the crowd and the Learning Team
