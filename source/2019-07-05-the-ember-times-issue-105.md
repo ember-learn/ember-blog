@@ -12,6 +12,8 @@ This week:
 **observers** going **async** ⏱,
 RFC to **support populating head tag** ⛑️,
 RFC to add `load` hook to Route 🎣
+An update on Ember Inspector
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
