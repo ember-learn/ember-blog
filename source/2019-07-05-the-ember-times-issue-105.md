@@ -74,7 +74,7 @@ Octane is still not currently supported, but we are working closely with the fra
 get the APIs we need to map components to DOM elements and enable us to show the arguments 
 passed to the component, and manipulate them inline, to better debug component behavior.
 
-We can always use more people to help out with the considerable efforts required to keep 
+We are always looking for more people to help out with the considerable efforts required to keep 
 Ember Inspector running, so if you would be interested in helping out, please reach out in the
 `dev-ember-inspector` channel on Discord, we would love to have you!
 
