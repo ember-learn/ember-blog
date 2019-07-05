@@ -26,17 +26,17 @@ RFC to add `load` hook to Route 🎣
 
 ## [Help Design the Ember Skill Tree 🌱](https://discuss.emberjs.com/t/learning-ember-ember-skill-tree/16725)
 
-Recall your first day as an Ember developer (or mentor). Were you overwhelmed by the sheer amount of things that you felt you needed to learn (teach)?
+Recall your first day as an Ember developer (or mentor). Did you feel overwhelmed by the sheer amount of things that you felt you needed to learn (teach)?
 
-- What skills do I need to learn **now**? 😕
-- What skills do I learn **next**? 🤯
+- What skills do I need to learn now? 😕
+- What skills do I learn next? 🤯
 - What resources are available to me? 🥺
 
-Enter **Ember skill tree**. It helps you visualize important skills and the steps to acquire them. It can align with the [Ember guides](https://guides.emberjs.com/release/) too.
+Enter **Ember skill tree**. It helps you visualize important skills and the steps to acquire them. It aligns with the [Ember guides](https://guides.emberjs.com/release/) too.
 
 The only problem? [The tree doesn't exist yet](https://discuss.emberjs.com/t/learning-ember-ember-skill-tree/16725).
 
-[@gossi](https://github.com/gossi) and the Ember Learning Team would like your [help with creating the Ember skill tree](https://discuss.emberjs.com/t/learning-ember-ember-skill-tree/16725). We encourage you to participate today! Please share your experiences of learning and teaching Ember. 💡
+[@gossi](https://github.com/gossi) and the Ember Learning Team would like your [help with creating the Ember skill tree](https://discuss.emberjs.com/t/learning-ember-ember-skill-tree/16725). We encourage you to participate today! Please share your experiences of learning and teaching Ember. 💞
 
 ---
 
