@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 105
 author: Jessica Jordan, Isaac Lee, Kenneth Larsen, Robert Wagner, Chris Ng, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/05-the-ember-times-issue-105.html"
 responsive: true
 ---
