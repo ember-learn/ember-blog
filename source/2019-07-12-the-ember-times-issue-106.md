@@ -10,13 +10,13 @@ responsive: true
 
 This week:
 
-find out how Ember Data has been repackaged 📦,
+find out how Ember Data has been repackaged in 3.11 📦,
 
 ---
 
-## [Ember Data repackaged in 3.11 📦](https://emberjs.github.io/rfcs/0395-ember-data-packages.html)
+## [Ember Data Repackaged in 3.11 📦](https://emberjs.github.io/rfcs/0395-ember-data-packages.html)
 
-Starting with Ember 3.11, Ember Data will be shipped as a collection of small **packages** under the namespace `@ember-data`. This helps you import only the packages that you need, identify the API that you can replace, and know where to start if you want to contribute to Ember Data. 🎉
+Starting with Ember 3.11, Ember Data will be shipped as a **collection of small packages** under the namespace `@ember-data`. This helps you import only the packages that you need, identify the API that you can replace, and know where to start if you want to contribute to Ember Data. 🎉
 
 Say hello to the new import syntax:
 
@@ -24,9 +24,9 @@ Say hello to the new import syntax:
 import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 ```
 
-Previous styles of import will be deprecated in a future release. Don't worry. A codemod and lint rules will be available to help you migrate your code.
+Previous styles of import will be deprecated in a future release. Don't worry. Before that happens, a codemod and lint rules will be available to help you migrate your code.
 
-We encourage you to learn today about [Ember Data packages in 3.11](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) and the plan to [use Embroider to tree-shake Ember Data](https://github.com/emberjs/data/issues/6166).
+We encourage you to learn today about [Ember Data packages in 3.11](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) and the exciting plan to [use Embroider to tree-shake Ember Data](https://github.com/emberjs/data/issues/6166).
 
 ---
 
