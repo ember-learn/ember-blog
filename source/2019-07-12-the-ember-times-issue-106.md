@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 106
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/12-the-ember-times-issue-106.html"
 responsive: true
@@ -8,16 +8,25 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+
+find out how Ember Data has been repackaged in 3.11 📦,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Ember Data Repackaged in 3.11 📦](https://emberjs.github.io/rfcs/0395-ember-data-packages.html)
+
+Starting with Ember 3.11, Ember Data will be shipped as a **collection of small packages** under the namespace `@ember-data`. This helps you import only the packages that you need, identify the API that you can replace, and know where to start if you want to contribute to Ember Data. 🎉
+
+Say hello to the new import syntax:
+
+```
+import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
+```
+
+Previous styles of import will be deprecated in a future release. Don't worry. Before that happens, a codemod and lint rules will be available to help you migrate your code.
+
+We encourage you to learn today about [Ember Data packages in 3.11](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) and the exciting plan to [use Embroider to tree-shake Ember Data](https://github.com/emberjs/data/issues/6166).
 
 ---
 
@@ -124,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
