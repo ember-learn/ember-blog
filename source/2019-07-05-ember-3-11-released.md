@@ -150,7 +150,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 For more details on changes in Ember.js 3.11, please review the [Ember.js 3.11.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.11.0).
 
 
-Deprecate Function.prototype.observes (1 of 1)
+**Deprecate Function.prototype.observes (1 of 1)**
 
 Historically, Ember has extended the `Function.prototype` with a few functions (`on`, `observes`, `property`), over time we have moved away from using these prototype extended functions in favor of using the official ES modules based API.
 
@@ -196,7 +196,7 @@ const { Model, attr, belongsTo, hasMany } = DS;
 Can now be achieved like this:
 
 ```js
-import Model, { attr, belongsTo, hasMay } from '@ember-data/model';
+import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 ```
 
 With the landing of this feature, the previous import styles will become deprecated in an upcoming release. Lint rules and a codemod will be available before that time to ensure a seamless transition to the new syntax.
@@ -240,7 +240,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 ---
 
 For more details on the changes in Ember CLI 3.11 and detailed upgrade
-instructions, please review the [Ember CLI  3.11.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.11.0).
+instructions, please review the [Ember CLI 3.11.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.11.0).
 
 ## Thank You!
 
