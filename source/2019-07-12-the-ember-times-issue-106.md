@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 106
-author: Isaac Lee, the crowd
+author: Isaac Lee, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/12-the-ember-times-issue-106.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 This week:
 
 find out how Ember Data has been repackaged in 3.11 📦,
+A tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
 
 ---
 
@@ -30,12 +31,13 @@ We encourage you to learn today about [Ember Data packages in 3.11](https://embe
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Tutorial: Ember Octane Fundamentals 🐹](https://twitter.com/michaellnorth/status/1148631049141751813)
+
+[@mike-north](https://github.com/mike-north) published a [new training video series on Frontend Masters](https://frontendmasters.com/courses/ember-octane/) on Ember Octane Fundamentals. If you are not a subscriber to Frontend Masters or prefer written instructions, there are [detailed written instructions hosted in GitHub](https://github.com/mike-north/ember-octane-workshop/tree/master/notes)!
+
+Starting with regular HTML and CSS and going through hands-on experience working with glimmer components, tracked properties, actions, and modifiers – the Ember Octane Fundamentals training provides detailed steps in creating your own server-rendered chat application.
+
+What’s even better is that since this is licensed under the BSD-2-Clause, you can feel free to use this material to conduct workshops in your own groups! Just make sure to give some feedback to [@mike-north](https://github.com/mike-north)!
 
 ---
 
@@ -133,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Chris Ng, the crowd and the Learning Team
