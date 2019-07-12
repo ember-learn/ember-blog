@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 106
-author: Isaac Lee, Chris Ng, Jessica Jordan, the crowd
+author: Isaac Lee, Chris Ng, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/12-the-ember-times-issue-106.html"
 responsive: true
@@ -13,6 +13,7 @@ This week:
 find out how Ember Data has been repackaged in 3.11 📦,
 a tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
 see EmberJS powered **blogging** in action at DublinJS 🎥,
+checkout updated Ember Igniter articles 🔥,
 
 ---
 
@@ -42,12 +43,13 @@ What’s even better is that since this is licensed under the BSD-2-Clause, you 
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Updates To Ember Igniter Articles 🔥](https://emberigniter.com/articles/)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@frank06](https://github.com/frank06) has recently been updating his **awesome series of articles** regarding a variety of Ember.js subjects on his blog, **Ember Igniter**.
+
+Many of the updates are aimed at brining the articles inline with newer versions of Ember.js, including Ember 3 generally and even readying them for Octane in some cases!
+
+If you haven't had a chance to checkout Ember Igniter before, be sure to checkout all the articles [here](https://emberigniter.com/articles/).
 
 ---
 
@@ -138,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Isaac Lee, Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
