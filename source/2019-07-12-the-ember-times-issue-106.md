@@ -47,7 +47,7 @@ What’s even better is that since this is licensed under the BSD-2-Clause, you 
 
 [@frank06](https://github.com/frank06) has recently been updating his **awesome series of articles** regarding a variety of Ember.js subjects on his blog, **Ember Igniter**.
 
-Many of the updates are aimed at brining the articles inline with newer versions of Ember.js, including Ember 3 generally and even readying them for Octane in some cases!
+Many of the updates are aimed at brining the articles inline with newer versions of Ember.js. The articles are now applicable to Ember 3, and in many cases they even apply to Ember Octane!
 
 If you haven't had a chance to checkout Ember Igniter before, be sure to checkout all the articles [here](https://emberigniter.com/articles/).
 
