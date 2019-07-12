@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 106
-author: Isaac Lee, Chris Ng, the crowd
+author: Isaac Lee, Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/12-the-ember-times-issue-106.html"
 responsive: true
@@ -11,7 +11,8 @@ responsive: true
 This week:
 
 find out how Ember Data has been repackaged in 3.11 📦,
-A tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
+a tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
+see EmberJS powered **blogging** in action at DublinJS 🎥,
 
 ---
 
@@ -44,64 +45,66 @@ What’s even better is that since this is licensed under the BSD-2-Clause, you 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
+---
+
+## [See EmberJS Powered Blogging in Action at DublinJS 📝](https://www.youtube.com/watch?v=4-31AP3p1os)
+
+<!-- alex ignore king-queen -->
+Wanna start blogging? Not sure which platform to use to get started? Why not try [Empress Blog](https://github.com/empress/empress-blog) - a SEO-friendly, **EmberJS powered blog system**. Using this system, you can benefit from the themes and styles that are used for the [Ghost CMS](https://ghost.org/) right from the start.
+
+
+<!-- alex ignore king-queen -->
+In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [DublinJS](https://www.meetup.com/DublinJS/), Ember Learning Core team member [@mansona](https://github.com/mansona) highlights how you get started writing posts, easily switch themes and publish your blog to the World Wide Web using Empress Blog. Check out the prezzi over on [Youtube](https://www.youtube.com/watch?v=4-31AP3p1os) 🎥
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
----
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -123,7 +126,7 @@ What’s even better is that since this is licensed under the BSD-2-Clause, you 
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -135,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Chris Ng, the crowd and the Learning Team
+Isaac Lee, Chris Ng, Jessica Jordan, the crowd and the Learning Team
