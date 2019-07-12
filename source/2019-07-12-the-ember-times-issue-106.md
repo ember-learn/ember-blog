@@ -109,7 +109,7 @@ In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [Dublin
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/SinS3i" target="gh-user">@SinS3i</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/knownasilya" target="gh-user">@knownasilya</a>, <a href="https://github.com/newyork-anthonyng" target="gh-user">@newyork-anthonyng</a>, <a href="https://github.com/krainboltgreene" target="gh-user">@krainboltgreene</a>, <a href="https://github.com/backspace" target="gh-user">@backspace</a>, <a href="https://github.com/zubeir68" target="gh-user">@zubeir68</a>, <a href="https://github.com/tzellman" target="gh-user">@tzellman</a>, <a href="https://github.com/Prady220" target="gh-user">@Prady220</a> and <a href="https://github.com/locks" target="gh-user">@locks</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
