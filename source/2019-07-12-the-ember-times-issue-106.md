@@ -8,9 +8,7 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-This week:
-
-find out how Ember Data has been repackaged in 3.11 📦,
+This week: find out how Ember Data has been repackaged in 3.11 📦,
 a tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
 see EmberJS powered blogging in action at DublinJS 🎥,
 checkout updated Ember Igniter articles 🔥,
