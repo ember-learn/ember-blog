@@ -70,13 +70,13 @@ In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [Dublin
   <img alt="Stefan Huber" title="Stefan Huber - Contributor to Ember" src="/images/blog/emberjstimes/stefanhuber.jpg" />
 </div>
 
-In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as [@st-h](hhttps://github.com/st-h), talks about his 
+In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as [@st-h](hhttps://github.com/st-h), talks about his web app for musicians 🎸, building a recording studio when he was 20 in the basement of his mother's house 🎧, maintaining various Ember addons 👨‍💻, and more!
 
-You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473).
+You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821).
 
-<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473">Read more</a>
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821">Read more</a>
 
-The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.
+*The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.*
 
 ---
 
