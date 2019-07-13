@@ -9,10 +9,10 @@ responsive: true
 👋 Emberistas! 🐹
 
 This week: find out how Ember Data has been repackaged in 3.11 📦,
-a tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
+a tutorial to learn how to build an Ember Octane PWA from scratch 👨‍💻,
 see EmberJS powered blogging in action at DublinJS 🎥,
 checkout updated Ember Igniter articles 🔥,
-and last, but not least, an exclusive "I contribute to Ember" interview with @st-h!
+and last, but not least, an exclusive **"I contribute to Ember"** interview with @st-h 🎙!
 
 ---
 
@@ -34,7 +34,7 @@ We encourage you to learn today about [Ember Data packages in 3.11](https://embe
 
 ## [Tutorial: Ember Octane Fundamentals 🐹](https://twitter.com/michaellnorth/status/1148631049141751813)
 
-[@mike-north](https://github.com/mike-north) published a [new training video series on Frontend Masters](https://frontendmasters.com/courses/ember-octane/) on Ember Octane Fundamentals. If you are not a subscriber to Frontend Masters or prefer written instructions, there are [detailed written instructions hosted in GitHub](https://github.com/mike-north/ember-octane-workshop/tree/master/notes)!
+[@mike-north](https://github.com/mike-north) published a [new training video series on Frontend Masters](https://frontendmasters.com/courses/ember-octane/) on **Ember Octane Fundamentals**. If you are not a subscriber to Frontend Masters or prefer written instructions, there are [detailed written instructions hosted in GitHub](https://github.com/mike-north/ember-octane-workshop/tree/master/notes)!
 
 Starting with regular HTML and CSS and going through hands-on experience working with glimmer components, tracked properties, actions, and modifiers – the Ember Octane Fundamentals training provides detailed steps in creating your own server-rendered chat application.
 
@@ -58,7 +58,7 @@ If you haven't had a chance to checkout Ember Igniter before, be sure to checkou
 Wanna start blogging? Not sure which platform to use to get started? Why not try [Empress Blog](https://github.com/empress/empress-blog) - a SEO-friendly, **EmberJS powered blog system**. Using this system, you can benefit from the themes and styles that are used for the [Ghost CMS](https://ghost.org/) right from the start.
 
 <!-- alex ignore king-queen -->
-In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [DublinJS](https://www.meetup.com/DublinJS/), Ember Learning Core team member [@mansona](https://github.com/mansona) highlights how you get started writing posts, easily switch themes and publish your blog to the World Wide Web using Empress Blog. Check out the prezzi over on [Youtube](https://www.youtube.com/watch?v=4-31AP3p1os) 🎥
+In his **[recent talk](https://www.youtube.com/watch?v=4-31AP3p1os)** at [DublinJS](https://www.meetup.com/DublinJS/), Ember Learning Core team member [@mansona](https://github.com/mansona) highlights how you get started writing posts, easily switch themes and publish your blog to the World Wide Web using Empress Blog. Check out the prezzi over on [Youtube](https://www.youtube.com/watch?v=4-31AP3p1os). 🎥
 
 ---
 
@@ -69,13 +69,13 @@ In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [Dublin
 </div>
 
 <!-- alex ignore dads-moms -->
-In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as [@st-h](hhttps://github.com/st-h), talks about his web app for musicians 🎸, building a recording studio when he was 20 in the basement of his mother's house 🎧, maintaining various Ember addons 👨‍💻, and more!
+In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as **[@st-h](hhttps://github.com/st-h)**, talks about his web app for musicians 🎸, building a recording studio when he was 20 in the basement of his mother's house 🎧, maintaining various Ember addons 👨‍💻, and more!
 
 You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821).
 
 <a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821">Read more</a>
 
-_The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community._
+<i>The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</i>
 
 ---
 
