@@ -70,6 +70,7 @@ In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [Dublin
   <img alt="Stefan Huber" title="Stefan Huber - Contributor to Ember" src="/images/blog/emberjstimes/stefanhuber.jpg" />
 </div>
 
+<!-- alex ignore dads-moms -->
 In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as [@st-h](hhttps://github.com/st-h), talks about his web app for musicians 🎸, building a recording studio when he was 20 in the basement of his mother's house 🎧, maintaining various Ember addons 👨‍💻, and more!
 
 You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821).
