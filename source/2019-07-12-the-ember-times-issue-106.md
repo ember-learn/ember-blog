@@ -1,19 +1,20 @@
 ---
 title: The Ember Times - Issue No. 106
-author: Isaac Lee, Chris Ng, Jessica Jordan, Jared Galanis the crowd
+author: Isaac Lee, Chris Ng, Jessica Jordan, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/12-the-ember-times-issue-106.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 This week:
 
 find out how Ember Data has been repackaged in 3.11 📦,
 a tutorial to learn how to build an Ember Octane PWA from scratch 🐹,
-see EmberJS powered **blogging** in action at DublinJS 🎥,
+see EmberJS powered blogging in action at DublinJS 🎥,
 checkout updated Ember Igniter articles 🔥,
+and last, but not least, an exclusive "I contribute to Ember" interview with @st-h!
 
 ---
 
@@ -58,60 +59,30 @@ If you haven't had a chance to checkout Ember Igniter before, be sure to checkou
 <!-- alex ignore king-queen -->
 Wanna start blogging? Not sure which platform to use to get started? Why not try [Empress Blog](https://github.com/empress/empress-blog) - a SEO-friendly, **EmberJS powered blog system**. Using this system, you can benefit from the themes and styles that are used for the [Ghost CMS](https://ghost.org/) right from the start.
 
-
 <!-- alex ignore king-queen -->
 In his [recent **talk**](https://www.youtube.com/watch?v=4-31AP3p1os) at [DublinJS](https://www.meetup.com/DublinJS/), Ember Learning Core team member [@mansona](https://github.com/mansona) highlights how you get started writing posts, easily switch themes and publish your blog to the World Wide Web using Empress Blog. Check out the prezzi over on [Youtube](https://www.youtube.com/watch?v=4-31AP3p1os) 🎥
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## ["I contribute to Ember" with Stefan Huber 🎙](https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<div class="float-right padded portrait-frame">
+  <img alt="Stefan Huber" title="Stefan Huber - Contributor to Ember" src="/images/blog/emberjstimes/stefanhuber.jpg" />
+</div>
 
----
+In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as [@st-h](hhttps://github.com/st-h), talks about his 
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-danielle-adams/16473">Read more</a>
 
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.
 
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/SinS3i" target="gh-user">@SinS3i</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/knownasilya" target="gh-user">@knownasilya</a>, <a href="https://github.com/newyork-anthonyng" target="gh-user">@newyork-anthonyng</a>, <a href="https://github.com/krainboltgreene" target="gh-user">@krainboltgreene</a>, <a href="https://github.com/backspace" target="gh-user">@backspace</a>, <a href="https://github.com/zubeir68" target="gh-user">@zubeir68</a>, <a href="https://github.com/tzellman" target="gh-user">@tzellman</a>, <a href="https://github.com/Prady220" target="gh-user">@Prady220</a> and <a href="https://github.com/locks" target="gh-user">@locks</a> for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/SinS3i" target="gh-user">@SinS3i</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/knownasilya" target="gh-user">@knownasilya</a>, <a href="https://github.com/newyork-anthonyng" target="gh-user">@newyork-anthonyng</a>, <a href="https://github.com/krainboltgreene" target="gh-user">@krainboltgreene</a>, <a href="https://github.com/backspace" target="gh-user">@backspace</a>, <a href="https://github.com/zubeir68" target="gh-user">@zubeir68</a>, <a href="https://github.com/tzellman" target="gh-user">@tzellman</a>, <a href="https://github.com/Prady220" target="gh-user">@Prady220</a> and <a href="https://github.com/locks" target="gh-user">@locks</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -140,4 +111,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Chris Ng, Jessica Jordan, Jared Galanis, Amy Lam and the Learning Team
