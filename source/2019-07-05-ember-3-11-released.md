@@ -165,7 +165,7 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 **Important note about Ember Data 3.11**
 
-There is a known bug in 3.11.0 which means `ember generate model something` doesn't work. We are currently working a patch for this.
+There is a **known bug in 3.11.0** which means `ember generate model something` doesn't work. We are currently working a patch for this.
 
 ### Changes in Ember Data 3.11
 
@@ -232,10 +232,15 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.11
 
-#### New Features (X)
+Ember CLI 3.11 contains several bug fixes. Have a look at the [complete changelog](https://github.com/ember-cli/ember-cli/releases/tag/v3.11.0)for an overview.
 
+#### New Features (0)
 
-#### Deprecations (X)
+No new features in Ember CLI 3.11.
+
+#### Deprecations (0)
+
+No new deprecations in Ember CLI 3.11.
 
 ---
 
