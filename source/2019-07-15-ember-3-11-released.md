@@ -35,7 +35,7 @@ For more information please refer to [the RFC](https://github.com/emberjs/rfcs/b
 
 **The `{{fn}}` helper (2 of 4)**
 
-The `{{fn}}` helper provides a way to pass arguments to actions, particularly with native classes and the `@action` decorator.
+The [`{{fn}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers/methods/fn?anchor=fn) helper provides a way to pass arguments to actions, particularly with native classes and the `@action` decorator.
 
 With the `@action` decorator, it is very straightforward to pass actions to other components ("data-down, actions-up"):
 
@@ -88,13 +88,14 @@ In addition to the basic use case shown here, the `{{fn}}` helper supports other
     Hello Tomster and Zoey
   </MyButton>
 {{/let}}
+```
 
 It should also be noted that the `{{action}}` helper can previously be used to accomplish similar functionalities, but due to some historical decisions, it may produce surprising results in some cases. Therefore, Ember users are encouraged to migrate to the `{{fn}}` helper along with the `@action` decorator where possible and appropriate. Refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design) for more details and examples.
 
 
 **The `{{on}}` modifier (3 of 4)**
 
-The `{{on}}` modifier provides a straightforward way to listen to DOM events on arbitrary elements.
+The [`{{on}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers/methods/fn?anchor=on) modifier provides a straightforward way to listen to DOM events on arbitrary elements.
 
 ```js
 import Component from "@ember/component";
