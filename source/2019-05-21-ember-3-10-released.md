@@ -1,7 +1,7 @@
 ---
 title: Ember 3.10 Released
 author: Kenneth Larsen, Jessica Jordan
-tags: Releases, 2019, 3, 3.10
+tags: Releases, 2019, Version 3.x, 3, 3.10
 responsive: true
 ---
 

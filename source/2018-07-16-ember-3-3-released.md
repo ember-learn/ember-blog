@@ -1,7 +1,7 @@
 ---
 title: Ember 3.3 Released
 author: Melanie Sumner, Brendan McLoughlin, and Alex Navasardyan
-tags: Releases, 2018, 3, 3.3
+tags: Releases, 2018, Version 3.x, 3, 3.3
 responsive: true
 ---
 

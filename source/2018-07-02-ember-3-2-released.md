@@ -1,7 +1,7 @@
 ---
 title: Ember 3.2 Released
 author: Robert Jackson, Melanie Sumner & Kenneth Larsen
-tags: Releases, 2018, 3, 3.2
+tags: Releases, 2018, Version 3.x, 3, 3.2
 responsive: true
 alias : "blog/2018/06/29/ember-3-2-released.html"
 ---

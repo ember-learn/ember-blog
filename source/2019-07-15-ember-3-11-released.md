@@ -1,7 +1,7 @@
 ---
 title: Ember 3.11 Released
 author: Kenneth Larsen
-tags: Releases, 2019, 3, 3.11
+tags: Releases, 2019, Version 3.x, 3, 3.11
 responsive: true
 ---
 

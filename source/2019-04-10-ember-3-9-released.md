@@ -1,7 +1,7 @@
 ---
 title: Ember 3.9 Released
 author: Kenneth Larsen
-tags: Releases, 2019, 3, 3.9
+tags: Releases, 2019, Version 3.x, 3, 3.9
 responsive: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Ember 3.8 Released
 author: Melanie Sumner, Kenneth Larsen, Anne-Greeth van Herwijnen
-tags: Releases, 2019, 3, 3.8
+tags: Releases, 2019, Version 3.x, 3, 3.8
 responsive: true
 ---
 
