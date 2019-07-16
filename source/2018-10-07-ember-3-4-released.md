@@ -1,7 +1,7 @@
 ---
 title: Ember 3.4 Released
 author: Melanie Sumner, Kenneth Larsen, David Baker, Jessica Jordan
-tags: Releases, 2018, 3, 3.4
+tags: Releases, 2018, Version 3.x, 3, 3.4
 responsive: true
 ---
 
