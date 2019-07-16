@@ -235,7 +235,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.11
 
-Ember CLI 3.11 contains several bug fixes. Have a look at the [complete changelog](https://github.com/ember-cli/ember-cli/releases/tag/v3.11.0)for an overview.
+Ember CLI 3.11 contains several bug fixes. Have a look at the [complete changelog](https://github.com/ember-cli/ember-cli/releases/tag/v3.11.0) for an overview.
 
 #### New Features (0)
 
