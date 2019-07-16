@@ -35,21 +35,20 @@ For more information please refer to [the RFC](https://github.com/emberjs/rfcs/b
 
 **The `{{fn}}` helper (2 of 4)**
 
-The [`{{fn}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers/methods/fn?anchor=fn) helper provides a way to pass arguments to actions, particularly with native classes and the `@action` decorator.
+The [`{{fn}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers/methods/fn?anchor=fn) helper provides a way to pass arguments to actions.
 
-With the `@action` decorator, it is very straightforward to pass actions to other components ("data-down, actions-up"):
+The `action` method creates an action from a simple function so that it can be passed to event handlers in templates. It ensures that the `this` value in the `countUp` action will always be the component instance, which allows it to be freely passed to other components. Where this falls short is when we need to pass arguments to these actions.
 
 ```js
 import Component from "@ember/component";
 import { action } from '@ember/object';
 
-class CounterComponent extends Component {
-  count = 0;
-  
-  @action
-  countUp(increment = 1) {
-    this.incrementProperty("count", increment);
-  }
+export default Component.extend({
+  count: 0,
+
+  countUp: action(function() {
+    this.incrementProperty("count");
+  })
 }
 ```
  
@@ -58,8 +57,6 @@ Current count: {{this.count}}
 
 <MyButton @click={{this.countUp}}>Add One</MyButton>
 ```
-
-The `@action` decorator ensures that the `this` value in the `countUp` action will always be the component instance, which allows it to be freely passed to other components. Where this falls short is when we need to pass arguments to these actions.
 
 The `{{fn}}` helper provides a way to pass arguments into actions and "bundle" them up, so that they can be passed around to other components and still retain the provided arguments when called:
 
@@ -90,7 +87,7 @@ In addition to the basic use case shown here, the `{{fn}}` helper supports other
 {{/let}}
 ```
 
-It should also be noted that the `{{action}}` helper can previously be used to accomplish similar functionalities, but due to some historical decisions, it may produce surprising results in some cases. Therefore, Ember users are encouraged to migrate to the `{{fn}}` helper along with the `@action` decorator where possible and appropriate. Refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design) for more details and examples.
+It should also be noted that the `{{action}}` helper can previously be used to accomplish similar functionalities, but due to some historical decisions, it may produce surprising results in some cases. Therefore, Ember users are encouraged to migrate to the `{{fn}}` helper along with the `action` method where possible and appropriate. Refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0470-fn-helper.md#detailed-design) for more details and examples.
 
 
 **The `{{on}}` modifier (3 of 4)**
@@ -101,13 +98,12 @@ The [`{{on}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers
 import Component from "@ember/component";
 import { action } from '@ember/object';
 
-class CounterComponent extends Component {
-  count = 0;
-  
-  @action
-  countUp() {
+export default Component.extend({
+  count: 0,
+
+  countUp: action(function() {
     this.incrementProperty("count");
-  }
+  })
 }
 ```
 ```hbs
@@ -116,11 +112,11 @@ Current count: {{this.count}}
 <button {{on "click" this.countUp passive=true}}>Add One</button>
 ```
  
-The `{{on}}` modifier in this example attaches a passive "click" event listener on the button, such that when the button is clicked, the `countUp` action will be called. Again, the `@action` decorator ensures the `countUp` action will have the right `this` value at runtime.
+The `{{on}}` modifier in this example attaches a passive "click" event listener on the button, such that when the button is clicked, the `countUp` action will be called. Just as before, wrapping our function in an `action` call ensures the `countUp` action will have the right `this` value at runtime.
 
 By default, the action passed to the `{{on}}` modifier will receive the DOM event as an argument. The `fn` helper can be used in conjunction with the `{{on}}` modifier to alter this behavior. Along with the "Splattributes" feature mentioned above, the `{{on}}` modifier can also be applied to component elements as well.
  
-Finally, it should be noted that the `{{action}}` modifier, and in some case, DOM properties like `onclick=` can previously be used to accomplish similar functionalities. However, both of these approaches have their own drawbacks. Therefore, Ember users are encouraged to migrate to the `{{on}}` modifier along with the `@action` decorator where possible and appropriate. See [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md) for more details and examples.
+Finally, it should be noted that the `{{action}}` modifier, and in some cases, DOM properties like `onclick=` could previously be used to accomplish similar functionalities. However, both of these approaches have their own drawbacks. Therefore, Ember users are encouraged to migrate to the `{{on}}` modifier along with the `action` method where possible and appropriate. See [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md) for more details and examples.
 
 **Inject Parameter Normalization (4 of 4)**
 
