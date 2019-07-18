@@ -42,7 +42,7 @@ flexible imports with **Ember Auto Import** ⏬,
 
 ## [Custom Configuration of Ember Auto Import for Your Project ⏬](https://github.com/ef4/ember-auto-import/tree/v1.3.0#customizing-build-behavior)
 
-[Ember Auto Import](https://emberobserver.com/addons/ember-auto-import), a very useful addon, helps you easily use third-party JavaScript libraries in your Ember app by providing a **zero-config import** mechanism for **npm** modules.
+[Ember Auto Import](https://emberobserver.com/addons/ember-auto-import), a very useful addon, helps you easily **import** and use third-party JavaScript libraries from **npm** in your Ember app.
 
 You can [configure the addon to fit your project's specific needs](https://github.com/ef4/ember-auto-import#customizing-build-behavior). By providing the `autoImport` configuration object in your app options defined in `ember-cli-build.js`, you can, for example, change the name of the packages to import from or exclude packages to be imported with Ember Auto Import, which you might have already provided to your app in another way.
 
