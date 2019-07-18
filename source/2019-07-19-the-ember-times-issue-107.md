@@ -8,7 +8,8 @@ responsive: true
 
 What's happening, Emberistas? 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+flexible imports with **Ember Auto Import** ⏬,
 
 ---
 
@@ -116,7 +117,7 @@ You can review the configuration defaults for the Node.js polyfill over at [the 
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/elwayman02" target="gh-user">@elwayman02</a>, <a href="https://github.com/ursm" target="gh-user">@ursm</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/loganrosen" target="gh-user">@loganrosen</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/choheekim" target="gh-user">@choheekim</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> and <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
