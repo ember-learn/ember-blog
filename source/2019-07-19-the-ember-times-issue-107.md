@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 107
-author: Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/19-the-ember-times-issue-107.html"
 responsive: true
@@ -10,6 +10,7 @@ What's happening, Emberistas? 🐹
 
 This week:
 flexible imports with **Ember Auto Import** ⏬,
+Read the new **RFC on Deprecation Removal Policies** 📋,
 
 ---
 
@@ -31,12 +32,13 @@ flexible imports with **Ember Auto Import** ⏬,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [RFC: Major Version Release for All Deprecation Removal 📋](https://github.com/emberjs/rfcs/pull/512)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+An RFC was proposed by [@kerrick](https://github.com/Kerrick) to have a major version release for all deprecation removals. The main issue revolves around the [Intimate API](https://twitter.com/wycats/status/918644693759488005) policy which can catch some developers off guard when upgrading Ember versions.
+
+This is because not all private APIs would warrant a deprecation warning (and therefore a major version change). The RFC proposes to have a major version release for all deprecation removals.
+
+Read, comment, and discuss the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/512)!
 
 ---
 
@@ -148,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
