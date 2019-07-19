@@ -12,8 +12,8 @@ This week:
 read the new **RFC on Deprecation Removal Policies** 📋,
 **Ember 3.11** is out! 🚀
 flexible imports with **Ember Auto Import** ⏬,
-learn how to make an Electron app with Ember 🖥️,
-and last, but not least, improving your DX on Ember 💯! 
+learn how to make an **Electron** app with Ember 🖥️,
+and last, but not least, improving your **DX** on Ember 💯! 
 
 ---
 
