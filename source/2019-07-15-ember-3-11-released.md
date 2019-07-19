@@ -27,7 +27,7 @@ Ember.js 3.11 is an incremental, backwards compatible release of Ember with bugf
 
 **Forwarding Element Modifiers with `...attributes` (1 of 4)**
 
-Angle bracket component invocation was introduced in Ember.js 3.7. Aside from the syntatic differences, the angle bracket invocation syntax enabled passing HTML attributes to components, which can then be applied the underlying HTML element(s) in the component's layout using the `...attributes` syntax. This is also known informally as the "splattributes" feature.
+Angle bracket component invocation was introduced in Ember.js 3.4. Aside from the syntatic differences, the angle bracket invocation syntax enabled passing HTML attributes to components, which can then be applied the underlying HTML element(s) in the component's layout using the `...attributes` syntax. This is also known informally as the "splattributes" feature.
 
 This features clarifies how the "splattributes" feature interact with element modifiers.
 
