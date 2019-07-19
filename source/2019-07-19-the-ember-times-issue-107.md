@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 107
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Kenneth Larsen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/19-the-ember-times-issue-107.html"
 responsive: true
@@ -10,7 +10,9 @@ What's happening, Emberistas? 🐹
 
 This week:
 flexible imports with **Ember Auto Import** ⏬,
+**Ember 3.11** is out!🚀,
 Read the new **RFC on Deprecation Removal Policies** 📋,
+
 
 ---
 
@@ -39,6 +41,16 @@ An RFC was proposed by [@kerrick](https://github.com/Kerrick) to have a major ve
 Certain private APIs are considered "Intimate API" because there are addons and consumers who use them despite being private. We sometimes have issues when deprecating these private APIs. This is because not all private APIs would warrant a deprecation warning (and therefore a major version change). The RFC proposes to have a major version release for all deprecation removals.
 
 Read, comment, and discuss the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/512)!
+
+---
+
+## [Ember 3.11 Is Out 🚀](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
+
+A lot of **cool new features** have been released as part of Ember 3.11. With Ember.js 3.11 you now have access to features like the `on` modifier, the `fn` helper and much more. With 3.11 there's also a deprecation of `Function.prototype.observes`.
+
+Furthermore, Ember Data 3.11 contains the [much awaited `Packages feature`](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) which allows you to use a new import syntax.
+
+If you decide to upgrade then please have a look at [the release post](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html) since Ember Data 3.11 **currently contains a known bug** with the `model` blueprint.
 
 ---
 
@@ -150,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Kenneth Larsen, the crowd and the Learning Team
