@@ -34,7 +34,7 @@ flexible imports with **Ember Auto Import** ⏬,
 
 ## [Ember 3.11 Is Out 🚀](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
 
-A lot of **cool new features** has been released as part of Ember 3.11. With Ember.js 3.11 you now have access to features like the `on` modifier, the `fn` helper and much more. With 3.11 there's also a deprecation of `Function.prototype.observes`.
+A lot of **cool new features** have been released as part of Ember 3.11. With Ember.js 3.11 you now have access to features like the `on` modifier, the `fn` helper and much more. With 3.11 there's also a deprecation of `Function.prototype.observes`.
 
 For Ember Data 3.11 contains the much awaited `Packages feature` which allows you to use a new import syntax.
 
