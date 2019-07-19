@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 107
-author: Jessica Jordan, Kenneth Larsen, the crowd
+author: Jessica Jordan, Kenneth Larsen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/19-the-ember-times-issue-107.html"
 responsive: true
@@ -9,8 +9,9 @@ responsive: true
 What's happening, Emberistas? 🐹
 
 This week:
-flexible imports with **Ember Auto Import** ⏬,
 **Ember 3.11** is out!🚀
+flexible imports with **Ember Auto Import** ⏬,
+learn how to make an Electron app with Ember 🖥️,
 
 ---
 
@@ -93,12 +94,13 @@ You can review the configuration defaults for the Node.js polyfill over at [the 
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Making an Electron App with Ember JS 🖥️](https://dev.to/mitchartemis/making-an-electron-app-with-ember-js-part-1-initial-setup-11c0)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Ember Electron](https://ember-electron.js.org/) is an addon that helps you create **ambitious cross-platform desktop apps**. Currently, its documentation resides in [the GitHub repo](https://github.com/adopted-ember-addons/ember-electron/tree/master/docs).
+
+To help you understand how to use the addon—in particular, **how to configure the addon for Mac, Linux, and Windows**—[@mitchartemis](https://dev.to/mitchartemis) published 2 blog posts, with a few more to come. 🎉
+
+We encourage you to [read them today](https://dev.to/mitchartemis/making-an-electron-app-with-ember-js-part-1-initial-setup-11c0)! You can also find Mitch's [demo app and configuration files on GitHub](https://github.com/snipline/shopper).
 
 ---
 
@@ -151,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Kenneth Larsen, the crowd and the Learning Team
+Jessica Jordan, Kenneth Larsen, Isaac Lee, the crowd and the Learning Team
