@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 107
-author: Chris Ng, Jessica Jordan, Kenneth Larsen, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Kenneth Larsen, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/19-the-ember-times-issue-107.html"
 responsive: true
@@ -9,28 +9,11 @@ responsive: true
 What's happening, Emberistas? 🐹
 
 This week:
-Read the new **RFC on Deprecation Removal Policies** 📋,
+read the new **RFC on Deprecation Removal Policies** 📋,
 **Ember 3.11** is out! 🚀
 flexible imports with **Ember Auto Import** ⏬,
 learn how to make an Electron app with Ember 🖥️,
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+...
 
 ---
 
@@ -44,7 +27,7 @@ Read, comment, and discuss the [full RFC on GitHub](https://github.com/emberjs/r
 
 ---
 
-## [Ember 3.11 Is Out 🚀](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
+## [Ember 3.11 is Out 🚀](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
 
 A lot of **cool new features** have been released as part of Ember 3.11. With Ember.js 3.11 you now have access to features like the `on` modifier, the `fn` helper and much more. With 3.11 there's also a deprecation of `Function.prototype.observes`.
 
@@ -86,24 +69,6 @@ You can review the configuration defaults for the Node.js polyfill over at [the 
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Making an Electron App with Ember JS 🖥️](https://dev.to/mitchartemis/making-an-electron-app-with-ember-js-part-1-initial-setup-11c0)
 
 [Ember Electron](https://ember-electron.js.org/) is an addon that helps you create **ambitious cross-platform desktop apps**. Currently, its documentation resides in [the GitHub repo](https://github.com/adopted-ember-addons/ember-electron/tree/master/docs).
@@ -123,18 +88,9 @@ We encourage you to [read them today](https://dev.to/mitchartemis/making-an-elec
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/elwayman02" target="gh-user">@elwayman02</a>, <a href="https://github.com/ursm" target="gh-user">@ursm</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/loganrosen" target="gh-user">@loganrosen</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/choheekim" target="gh-user">@choheekim</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> and <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a> for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/elwayman02" target="gh-user">@elwayman02</a>, <a href="https://github.com/ursm" target="gh-user">@ursm</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/loganrosen" target="gh-user">@loganrosen</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/choheekim" target="gh-user">@choheekim</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> and <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -163,4 +119,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Kenneth Larsen, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Kenneth Larsen, Isaac Lee, Amy Lam and the Learning Team
