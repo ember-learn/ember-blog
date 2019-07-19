@@ -13,7 +13,7 @@ read the new **RFC on Deprecation Removal Policies** 📋,
 **Ember 3.11** is out! 🚀
 flexible imports with **Ember Auto Import** ⏬,
 learn how to make an Electron app with Ember 🖥️,
-...
+and last, but not least, improving your DX on Ember 💯! 
 
 ---
 
@@ -79,12 +79,14 @@ We encourage you to [read them today](https://dev.to/mitchartemis/making-an-elec
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
+## [Improving Your DX on Ember 💯](https://dockyard.com/blog/2019/06/10/improving-your-dx-on-ember-part-i-quick-wins)
 <consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@Serabe](https://github.com/Serabe) has a series on the Dockyard blog about how to improve your Developer Experience (DX). Check it out for happier Ember-ing! 
+
+* [Part 1: Quick Wins](https://dockyard.com/blog/2019/06/10/improving-your-dx-on-ember-part-i-quick-wins): tips and tricks
+* [Part 2: Changing Our Toolbelt](https://dockyard.com/blog/2019/06/18/improving-the-ember-dx-part-2-changing-our-toolbelt): goes through some major changes to their project that brought bigger improvements 
+* [Part 3: Ember Suave 2.0](https://dockyard.com/blog/2019/06/25/improving-dx-in-ember-part-3-ember-suave-2-0): announcing the new and improved [eslint-plugin-ember-suave](https://github.com/DockYard/eslint-plugin-ember-suave)
 
 ---
 
