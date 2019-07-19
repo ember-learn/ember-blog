@@ -36,7 +36,7 @@ Read the new **RFC on Deprecation Removal Policies** 📋,
 
 An RFC was proposed by [@kerrick](https://github.com/Kerrick) to have a major version release for all deprecation removals. The main issue revolves around the [Intimate API](https://twitter.com/wycats/status/918644693759488005) policy which can catch some developers off guard when upgrading Ember versions.
 
-Since certain private APIs are considered "Intimate API" due to the wide range of addons and consumers who use it, despsite it being a private method we sometimes have issues when deprecating these private APIs. This is because not all private APIs would warrant a deprecation warning (and therefore a major version change). The RFC proposes to have a major version release for all deprecation removals.
+Certain private APIs are considered "Intimate API" because there are addons and consumers who use them despite being private. We sometimes have issues when deprecating these private APIs. This is because not all private APIs would warrant a deprecation warning (and therefore a major version change). The RFC proposes to have a major version release for all deprecation removals.
 
 Read, comment, and discuss the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/512)!
 
