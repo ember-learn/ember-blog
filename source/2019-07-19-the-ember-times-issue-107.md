@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 107
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Kenneth Larsen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/19-the-ember-times-issue-107.html"
 responsive: true
@@ -10,6 +10,7 @@ What's happening, Emberistas? 🐹
 
 This week:
 flexible imports with **Ember Auto Import** ⏬,
+**Ember 3.11** is out!🚀
 
 ---
 
@@ -31,12 +32,14 @@ flexible imports with **Ember Auto Import** ⏬,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Ember 3.11 Is Out 🚀](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A lot of **cool new features** has been released as part of Ember 3.11. With Ember.js 3.11 you now have access to features like the `on` modifier, the `fn` helper and much more. With 3.11 there's also a deprecation of `Function.prototype.observes`.
+
+For Ember Data 3.11 contains the much awaited `Packages feature` which allows you to use a new import syntax.
+
+If you decide to upgrade then please have a look at [the release post](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html) since Ember Data 3.11 **currently contains a known bug** with the `model` blueprint.
+
 
 ---
 
@@ -148,4 +151,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Kenneth Larsen, the crowd and the Learning Team
