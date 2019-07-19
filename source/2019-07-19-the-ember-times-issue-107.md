@@ -81,7 +81,7 @@ We encourage you to [read them today](https://dev.to/mitchartemis/making-an-elec
 
 ## [Improving Your DX on Ember 💯](https://dockyard.com/blog/2019/06/10/improving-your-dx-on-ember-part-i-quick-wins)
 
-[@Serabe](https://github.com/Serabe) has a series on the Dockyard blog about how to improve your **Developer Experience (DX)**. Check it out for happier Ember-ing! 
+[@Serabe](https://github.com/Serabe) has a series on the DockYard blog about how to improve your **Developer Experience (DX)**. Check it out for happier Ember-ing! 
 
 * [Part 1: Quick Wins](https://dockyard.com/blog/2019/06/10/improving-your-dx-on-ember-part-i-quick-wins): tips and tricks
 * [Part 2: Changing Our Toolbelt](https://dockyard.com/blog/2019/06/18/improving-the-ember-dx-part-2-changing-our-toolbelt): goes through some major changes to their project that brought bigger improvements 
