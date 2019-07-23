@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 108
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
@@ -8,7 +8,9 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+
+Sentry error reporting for Ember.js 📈,
 
 ---
 
@@ -30,13 +32,19 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [Sentry error reporting for Ember.js 📈](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)
+
+[Sentry](https://sentry.io/for/ember/) is an error tracking tool that helps you monitor and fix production errors in your Ember app.
+
+To help you get started, [@Turbo87](https://github.com/Turbo87) wrote a blog post. 🧡 In particular, you can learn how to:
+
+- migrate from `ember-cli-sentry` addon to the official `@sentry/browser`
+- report messages and exceptions to Sentry at will
+- filter out errors that aren't critical
+- add metadata to errors
+
+We encourage you to [have a look today](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)!
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -124,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
