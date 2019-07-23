@@ -34,7 +34,7 @@ learn how to use Sentry to track production errors 📈,
 
 ## [Sentry Error Reporting for Ember.js 📈](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)
 
-[Sentry](https://sentry.io/for/ember/) is an open-source error tracking tool that helps you monitor and fix production errors in your Ember app.
+[Sentry](https://sentry.io/for/ember/) is an open-source error tracking tool that helps you monitor and fix production errors in your Ember app. In 2018, Sentry announced a new SDK for browsers, called `@sentry/browser`.
 
 To help you get started, [@Turbo87](https://github.com/Turbo87) published a blog post. 🧡 In particular, you can learn how to:
 
