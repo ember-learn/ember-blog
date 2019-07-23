@@ -10,7 +10,7 @@ responsive: true
 
 This week:
 
-Sentry error reporting for Ember.js 📈,
+learn how to use Sentry to track production errors 📈,
 
 ---
 
@@ -32,18 +32,18 @@ Sentry error reporting for Ember.js 📈,
 
 ---
 
-## [Sentry error reporting for Ember.js 📈](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)
+## [Sentry Error Reporting for Ember.js 📈](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)
 
-[Sentry](https://sentry.io/for/ember/) is an error tracking tool that helps you monitor and fix production errors in your Ember app.
+[Sentry](https://sentry.io/for/ember/) is an open-source error tracking tool that helps you monitor and fix production errors in your Ember app.
 
-To help you get started, [@Turbo87](https://github.com/Turbo87) wrote a blog post. 🧡 In particular, you can learn how to:
+To help you get started, [@Turbo87](https://github.com/Turbo87) published a blog post. 🧡 In particular, you can learn how to:
 
 - migrate from `ember-cli-sentry` addon to the official `@sentry/browser`
 - report messages and exceptions to Sentry at will
 - filter out errors that aren't critical
 - add metadata to errors
 
-We encourage you to [have a look today](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)!
+We encourage you to [deliver high-quality Ember apps today](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)!
 
 ---
 
