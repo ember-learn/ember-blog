@@ -27,7 +27,7 @@ learn how to use Sentry to track production errors 📈, get your new hires of t
   
 [@jenweber](https://github.com/jenweber) wrote an awesome blogpost on how to hire and train new developers.
 She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
-If you are in charge of hiring new people or if you have a new colleague in your team, this is definitively a nice piece to get some new ideas about your onboarding process.
+If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
 When you are the lucky one to have started a new job, this post is a nice read to realize that you are not the only one with start-up problems and it might help you formulate what you are missing right now.
 
 ---
