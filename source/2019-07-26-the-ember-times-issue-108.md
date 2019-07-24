@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 108
-author: Isaac Lee, the crowd
+author: Anne-Greeth van Herwijnen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
@@ -10,7 +10,7 @@ responsive: true
 
 This week:
 
-learn how to use Sentry to track production errors 📈,
+learn how to use Sentry to track production errors 📈, get your new hires of to the best start 📚,
 
 ---
 
@@ -23,12 +23,12 @@ learn how to use Sentry to track production errors 📈,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
   
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@jenweber](https://github.com/jenweber) wrote an awesome blogpost on how to hire and train new developers.
+In 10 steps she points out the pain points of every new hire and how to solve them as a company.
+If you are in charge of hiring new people or if you have a new colleague in your team, this is definitively a nice piece to get some new ideas about your onboarding process.
+When you are the lucky one to have started a new job, this post is a nice read to realize that you are not the only one with start-up problems and it might help you formulate what you are missing right now.
 
 ---
 
@@ -132,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
