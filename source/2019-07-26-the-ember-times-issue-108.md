@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 108
-author: Anne-Greeth van Herwijnen, Isaac Lee, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
@@ -10,7 +10,9 @@ responsive: true
 
 This week:
 
-learn how to use Sentry to track production errors 📈, get your new hires of to the best start 📚,
+learn how to use Sentry to track production errors 📈, 
+get your new hires off to the best start 📚,
+learn about the newest – and hopefully last! – way to handle events in Ember with the {{on}} Modifier 🔛,
 
 ---
 
@@ -20,15 +22,6 @@ learn how to use Sentry to track production errors 📈, get your new hires of t
   
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
-  
-[@jenweber](https://github.com/jenweber) wrote an awesome blogpost on how to hire and train new developers.
-She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
-If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
-When you are the lucky one to have started a new job, this post is a nice read to realize that you are not the only one with start-up problems and it might help you formulate what you are missing right now.
 
 ---
 
@@ -47,13 +40,13 @@ We encourage you to [deliver high-quality Ember apps today](https://simplabs.com
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
   
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+[@jenweber](https://github.com/jenweber) wrote an awesome blogpost on how to hire and train new developers.
+She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
+If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
+When you are the lucky one to have started a new job, this post is a nice read to realize that you are not the only one with start-up problems and it might help you formulate what you are missing right now.
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -72,6 +65,22 @@ We encourage you to [deliver high-quality Ember apps today](https://simplabs.com
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
   
+---
+
+## [EmberMap: {{on}} Modifier Tutorial 🔛](https://embermap.com/video/on-modifier-a-first-look)
+
+The [action modifier](https://guides.emberjs.com/release/templates/actions/) is the original way events were handled in Ember. The new `{{on}}` modifier that was [introduced this year](https://github.com/emberjs/rfcs/pull/471) to address some shortcomings of the action modifier such as being explicit, working consistently for all events, and works well in SSR.
+
+One way the `{{on}}` modifier deviates from the action helper is that it will only be responsible for adding (and removing) event listeners using the addEventListener API. The action helper is still needed to bind context, see below.
+
+```handlebars
+<button {{on 'click' (action 'addOne')}}>
+  Add one!
+</button>
+```
+
+Check out this [free](https://twitter.com/ember_map/status/1152260614452142081) tutorial video on the `{{on}}` modifier on [EmberMap](https://embermap.com/video/on-modifier-a-first-look)!
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -132,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd and the Learning Team
