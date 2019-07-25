@@ -42,7 +42,7 @@ We encourage you to [deliver high-quality Ember apps today](https://simplabs.com
 
 ## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
   
-[@jenweber](https://github.com/jenweber) wrote an awesome blogpost on how to hire and train new developers.
+[@jenweber](https://github.com/jenweber) wrote an awesome [blogpost](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57) on how to hire and train new developers.
 She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
 If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
 When you are the lucky one to have started a new job, this post is a nice read to realize that you are not the only one with start-up problems and it might help you formulate what you are missing right now.
