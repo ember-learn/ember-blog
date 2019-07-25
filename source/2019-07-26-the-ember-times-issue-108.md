@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 108
-author: Chris Ng, Isaac Lee, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
@@ -10,17 +10,9 @@ responsive: true
 
 This week:
 
-learn how to use Sentry to track production errors 📈,
+learn how to use Sentry to track production errors 📈, 
+get your new hires off to the best start 📚,
 learn about the newest – and hopefully last! – way to handle events in Ember with the {{on}} Modifier 🔛,
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -45,6 +37,16 @@ To help you get started, [@Turbo87](https://github.com/Turbo87) published a blog
 - add metadata to errors
 
 We encourage you to [deliver high-quality Ember apps today](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)!
+
+---
+
+## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
+  
+[@jenweber](https://github.com/jenweber) wrote an awesome [blogpost](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57) on how to hire and train new developers.
+She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
+If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
+
+If you have started a new job, this post is also for you! We encourage you to think about how you want to be trained and how you can contribute to your team's onboarding process.
 
 ---
 
@@ -140,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd and the Learning Team
