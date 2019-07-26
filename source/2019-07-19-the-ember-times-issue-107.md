@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 107
 author: Chris Ng, Jessica Jordan, Kenneth Larsen, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/19-the-ember-times-issue-107.html"
 responsive: true
 ---
