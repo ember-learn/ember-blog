@@ -6,7 +6,7 @@ alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+🤙 Emberistas! 🐹
 
 This week:
 learn how to use Sentry to track production errors 📈,
