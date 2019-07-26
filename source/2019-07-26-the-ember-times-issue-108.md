@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 108
-author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
@@ -13,6 +13,7 @@ This week:
 learn how to use Sentry to track production errors 📈,
 get your new hires off to the best start 📚,
 learn about the newest – and hopefully last! – way to handle events in Ember with the {{on}} Modifier 🔛,
+a cheat sheet for modern Ember components ✨,
 find out how to create static sites with Prember and Ember Data 🔥,
 
 ---
@@ -20,7 +21,7 @@ find out how to create static sites with Prember and Ember Data 🔥,
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -42,7 +43,7 @@ We encourage you to [deliver high-quality Ember apps today](https://simplabs.com
 ---
 
 ## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
-  
+
 [@jenweber](https://github.com/jenweber) wrote an awesome [blogpost](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57) on how to hire and train new developers.
 She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
 If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
@@ -54,19 +55,19 @@ If you have started a new job, this post is also for you! We encourage you to th
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [EmberMap: {{on}} Modifier Tutorial 🔛](https://embermap.com/video/on-modifier-a-first-look)
@@ -85,13 +86,17 @@ Check out this [free](https://twitter.com/ember_map/status/1152260614452142081) 
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [A Cheat Sheet for Modern Ember Components ✨](https://twitter.com/CodingItWrong/status/1153625389627072513)
+
+On the road to the [release of Ember Octane](https://emberjs.com/editions/octane/), lots of **modern
+component features** are already available with recent Ember releases.
+If you want to keep track of which features are already available with a particular 3.x version of Ember,
+check out the [ultimate Ember Component Cheat Sheet](https://codingitwrong.com/2019/07/23/ember-component-cheat-sheet.html).
+
+Also if you want to learn more about how these new component API's work, be sure to check out [the Ember Component Museum](https://jenweber.github.io/the-ember-components-museum/versions/master/) by [@jenweber](https://github.com/jenweber) ✨
+
+Kudos to [@CodingItWrong](https://github.com/CodingItWrong) who created the cheat sheet and thank you for sharing it with the community!
+
 ---
 
 ## [Using Prember for a Static Site with Ember Data 🔥](https://medium.com/@gauravmunjal_86037/using-prember-for-a-static-site-with-ember-data-780344e34c47)
@@ -105,15 +110,15 @@ Check out this [free](https://twitter.com/ember_map/status/1152260614452142081) 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/sdhull" target="gh-user">@sdhull</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/bantic" target="gh-user">@bantic</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -130,7 +135,7 @@ Check out this [free](https://twitter.com/ember_map/status/1152260614452142081) 
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -142,4 +147,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
