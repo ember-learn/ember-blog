@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 108
-author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
@@ -9,7 +9,6 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 This week:
-
 learn how to use Sentry to track production errors 📈,
 get your new hires off to the best start 📚,
 learn about the newest – and hopefully last! – way to handle events in Ember with the {{on}} Modifier 🔛,
@@ -118,7 +117,7 @@ Kudos to [@CodingItWrong](https://github.com/CodingItWrong) who created the chea
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/sdhull" target="gh-user">@sdhull</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/bantic" target="gh-user">@bantic</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a> for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/sdhull" target="gh-user">@sdhull</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/bantic" target="gh-user">@bantic</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/toddjordan" target="gh-user">@toddjordan</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -147,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
