@@ -43,7 +43,7 @@ We encourage you to [deliver high-quality Ember apps today](https://simplabs.com
 
 ## [How to Hire and Train Developers when You Don’t Use React 📚](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57)
 
-[@jenweber](https://github.com/jenweber) wrote an awesome [blogpost](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57) on how to hire and train new developers.
+[@jenweber](https://github.com/jenweber) wrote an awesome [blog post](https://medium.com/front-end-weekly/how-to-hire-and-train-developers-when-you-dont-use-react-42762e6b1a57) on how to hire and train new developers.
 She provided 10 great tips on how you can help solve the pain points of hiring and training for your company.
 If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
 
@@ -92,7 +92,7 @@ component features** are already available with recent Ember releases.
 If you want to keep track of which features are already available with a particular 3.x version of Ember,
 check out the [ultimate Ember Component Cheat Sheet](https://codingitwrong.com/2019/07/23/ember-component-cheat-sheet.html).
 
-Also if you want to learn more about how these new component API's work, be sure to check out [the Ember Component Museum](https://jenweber.github.io/the-ember-components-museum/versions/master/) by [@jenweber](https://github.com/jenweber) ✨
+Also if you want to learn more about how these new component API's work, be sure to check out [the Ember Component Museum](https://jenweber.github.io/the-ember-components-museum/versions/master/) by [@jenweber](https://github.com/jenweber). ✨
 
 Kudos to [@CodingItWrong](https://github.com/CodingItWrong) who created the cheat sheet and thank you for sharing it with the community!
 
