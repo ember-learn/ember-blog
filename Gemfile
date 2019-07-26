@@ -18,7 +18,7 @@ gem "geocoder"
 gem "faraday"
 gem "bourbon", "~> 4.2.7"
 gem "neat", "~> 1.8.0"
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 3.2'
 gem 'middleman-bootstrap-navbar'
 gem 'eventmachine', '1.0.9.1'
