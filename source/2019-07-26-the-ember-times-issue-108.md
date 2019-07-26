@@ -17,15 +17,6 @@ find out how to create static sites with Prember and Ember Data 🔥,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Sentry Error Reporting for Ember.js 📈](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)
 
 [Sentry](https://sentry.io/for/ember/) is an open-source error tracking tool that helps you monitor and fix production errors in your Ember app. In 2018, Sentry announced a new SDK for browsers, called `@sentry/browser`.
@@ -48,24 +39,6 @@ She provided 10 great tips on how you can help solve the pain points of hiring a
 If you are in charge of hiring new people or if you have a new colleague in your team, this is definitely a nice piece to get some new ideas about your onboarding process.
 
 If you have started a new job, this post is also for you! We encourage you to think about how you want to be trained and how you can contribute to your team's onboarding process.
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -103,15 +76,6 @@ Kudos to [@CodingItWrong](https://github.com/CodingItWrong) who created the chea
 [Prember](https://github.com/ef4/prember) is an addon that works in tandem with [Fastboot](https://ember-fastboot.com/). It allows you to serve your app statically and reap the benefits of fast first-paint and SEO!
 
 [@Gaurav0](https://github.com/Gaurav0) recently published his [notes on using Prember with Ember Data](https://medium.com/@gauravmunjal_86037/using-prember-for-a-static-site-with-ember-data-780344e34c47). You will find how to set up Prember and Fastboot shoebox, as well as some data challenges that you may encounter along the way. See how Prember can help you today!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
