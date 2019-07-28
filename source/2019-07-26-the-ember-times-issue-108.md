@@ -12,8 +12,8 @@ This week:
 learn how to use Sentry to track production errors 📈,
 get your new hires off to the best start 📚,
 learn about the newest – and hopefully last! – way to handle events in Ember with the {{on}} Modifier 🔛,
-a cheat sheet for modern Ember components ✨,
-find out how to create static sites with Prember and Ember Data 🔥,
+a cheat sheet for modern Ember components ✨, and last, but not least,
+find out how to create static sites with Prember and Ember Data 🔥!
 
 ---
 
