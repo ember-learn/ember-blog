@@ -20,7 +20,7 @@ The high level goals for 2019-2020 are:
 * Reducing the size and conceptual complexity of Ember.
 * Improving ease of adoption.
 
-This will be done by continuing to simply Ember, modernizing our build system, enabling better accessibility (a11y) by default, and optimizing for growth by sharing how Ember Octane is modern, productive, and _fun_. 
+This will be done by continuing to simplify Ember, modernizing our build system, enabling better accessibility (a11y) by default, and optimizing for growth by sharing how Ember Octane is modern, productive, and _fun_. 
 
 Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
 
