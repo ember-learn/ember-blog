@@ -1,23 +1,28 @@
 ---
 title: The Ember Times - Issue No. 109
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Ember 2019-2020 Roadmap RFC 🐹](https://twitter.com/tomdale/status/1155909868907311110)
+
+[@tomdale](https://github.com/tomdale) posted the first draft of the [Ember 2019-2020 Roadmap RFC](https://github.com/emberjs/rfcs/pull/519). This document is a distillation of multiple sources ranging from the blogs from the [Call For Blog Posts](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html), the [Community Survey](https://emberjs.com/ember-community-survey-2019/), discussions on [Discord](https://discordapp.com/invite/emberjs), [Twitter](https://twitter.com/hashtag/emberjs2019), [Ember Discuss](https://discuss.emberjs.com/), and more!
+
+The high level goals for 2019-2020 are:
+* Reducing the size and conceptual complexity of Ember.
+* Improving ease of adoption.
+
+This will be done by continuing to simplify Ember, modernizing our build system, enabling better accessibility (a11y) by default, and optimizing for growth by sharing how Ember Octane is modern, productive, and _fun_. 
+
+Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
 
 ---
 
@@ -124,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
