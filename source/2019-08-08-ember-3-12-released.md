@@ -25,22 +25,21 @@ The 3.12.0 release is an Ember.js Long-Term Support candidate. In six weeks, the
 
 For more information about Ember's LTS policies, see the [announcement blog post](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html) and [builds page](http://emberjs.com/builds/).
 
-Ember.js 3.12 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.12 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is zero (0) new features, zero (0) deprecations, and several bugfixes in this version.
 
-#### New Features (2)
+#### New Features (0)
 
-First new feature (1 of 2)
-
-Second new feature (2 of 2)
-
+There are no new features in Ember.js 3.12.
 
 #### Deprecations (0)
+
+There are no deprecations added in Ember.js 3.12
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
-For more details on changes in Ember.js 3.12, please review the [Ember.js VER.0 release page](https://github.com/emberjs/ember.js/releases/tag/vVER.0).
+For more details on changes in Ember.js 3.12, please review the [Ember.js 3.12 release page](https://github.com/emberjs/ember.js/releases/tag/v3.12.0).
 
 ---
 
@@ -60,7 +59,7 @@ No new deprecations introduced in Ember Data 3.12.
 
 
 For more details on changes in Ember Data 3.12, please review the
-[Ember Data 3.12.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
+[Ember Data 3.12.0 release page](https://github.com/emberjs/data/releases/tag/v3.12.0).
 
 ---
 
@@ -83,15 +82,18 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.12
 
-#### New Features (X)
+#### New Features (0)
 
+There are no new features in Ember CLI 3.12.
 
-#### Deprecations (X)
+#### Deprecations (0)
+
+There are no new deprecations in Ember CLI 3.12.
 
 ---
 
 For more details on the changes in Ember CLI 3.12 and detailed upgrade
-instructions, please review the [Ember CLI  3.12.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/vVER.0).
+instructions, please review the [Ember CLI  3.12.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.12.0).
 
 ## Thank You!
 
