@@ -1,3 +1,12 @@
 {
-  "default": true
+  "default": true,
+  "line-length": false,
+  "blanks-around-headings": false,
+  "no-trailing-spaces": false,
+  "no-multiple-blanks": false,
+  "blanks-around-fences": false,
+  "no-emphasis-as-heading": false,
+  "ul-start-left": false,
+  "no-duplicate-heading": false,
+  "no-trailing-punctuation": false
 }
