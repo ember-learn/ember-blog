@@ -1,13 +1,17 @@
 ---
 title: The Ember Times - Issue No. 109
-author: Chris Ng, the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+🙌 Emberistas! 
 Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
+GraphQL and Ember 👨‍💻,
+...
+and last, but not least,
+...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -26,13 +30,12 @@ Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
+## [Tune in for This.JavaScript: GraphQL👨‍💻](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition)
+ 
+ Mark your calendars! In partnership with Hasura, This.JavaScript is gathering the GraphQL community to discuss current advanced problems in GraphQL in frontend frameworks on **Thursday, August 8**. [RSVP](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition) to attend the event online or check out the recording afterward. 
+ 
+ [@jneurock](https://github.com/jneurock) and [@chadian](https://github.com/chadian) will be representing the Ember community as a part of the event! You may remember their [talk from EmberFest](https://www.youtube.com/watch?v=kgfBexYbM68). 
+ 
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -129,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
