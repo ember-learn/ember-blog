@@ -246,6 +246,6 @@ No new deprecations in Ember CLI 3.11.
 For more details on the changes in Ember CLI 3.11 and detailed upgrade
 instructions, please review the [Ember CLI 3.11.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.11.0).
 
-## Thank You
+## Thank You!
 
 As a community-driven open-source project with an ambitious scope, each of these releases serve as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
