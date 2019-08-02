@@ -1,15 +1,16 @@
 ---
 title: The Ember Times - Issue No. 109
-author: Chris Ng, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
 ---
 
-🙌 Emberistas! 
+🙌 Emberistas!
 Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
 tune in to learn about GraphQL and Ember 👨‍💻,
 learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
+join **EmberCamp Chicago** (Sept 16) 🍕,
 ...
 and last, but not least,
 ...
@@ -25,45 +26,49 @@ The high level goals for 2019-2020 are:
 * Reducing the size and conceptual complexity of Ember.
 * Improving ease of adoption.
 
-This will be done by continuing to simplify Ember, modernizing our build system, enabling better accessibility (a11y) by default, and optimizing for growth by sharing how Ember Octane is modern, productive, and _fun_. 
+This will be done by continuing to simplify Ember, modernizing our build system, enabling better accessibility (a11y) by default, and optimizing for growth by sharing how Ember Octane is modern, productive, and _fun_.
 
 Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
 
 ---
 
 ## [Tune in for This.JavaScript: GraphQL👨‍💻](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition)
- 
- Mark your calendars! In partnership with Hasura, This.JavaScript is gathering the GraphQL community to discuss current advanced problems in GraphQL in frontend frameworks on **Thursday, August 8**. [RSVP](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition) to attend the event online or check out the recording afterward. 
- 
- [@jneurock](https://github.com/jneurock) and [@chadian](https://github.com/chadian) will be representing the Ember community as a part of the event! You may remember their [talk from EmberFest](https://www.youtube.com/watch?v=kgfBexYbM68). 
- 
+
+ Mark your calendars! In partnership with Hasura, This.JavaScript is gathering the GraphQL community to discuss current advanced problems in GraphQL in frontend frameworks on **Thursday, August 8**. [RSVP](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition) to attend the event online or check out the recording afterward.
+
+ [@jneurock](https://github.com/jneurock) and [@chadian](https://github.com/chadian) will be representing the Ember community as a part of the event! You may remember their [talk from EmberFest](https://www.youtube.com/watch?v=kgfBexYbM68).
+
+---
+
+## [Get Ready for EmberCamp Chicago 🍕](http://embercamp.com/)
+
+This year's edition of [EmberCamp Chicago](http://embercamp.com/) is taking place on **September 16th**, and you should **not miss it**!
+
+You can already check out the [full talk schedule](http://embercamp.com/speakers) which includes insights into Ember and modern best practices presented by [Jen Weber](https://twitter.com/jwwweber), [Edward Faulkner](https://twitter.com/eaf4), [Olivia Liddell](https://twitter.com/oliravi), [Dan Gebhardt](https://twitter.com/dgeb), and many other amazing speakers ✨
+
+[Get your ticket today](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376) before they run out! And If you or your company would be interested in being a sponsor of EmberCamp Chicago, please reach out via [embercamp.chicago@gmail.com](mailto:embercamp.chicago@gmail.com).
+
+See you all in Chicago, Emberistas!
+
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
----
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Why Should I Not Use Observers in My Ember Application? 🙋‍♀️🙋‍♂️](https://discuss.emberjs.com/t/why-should-i-not-use-observers-in-my-ember-application/16868/3)
@@ -81,33 +86,33 @@ To learn more about exactly how DDAU prevents circular dependencies, we encourag
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/bantic" target="gh-user">@bantic</a>, <a href="https://github.com/alexmaingot-sf" target="gh-user">@alexmaingot-sf</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/simonihmig" target="gh-user">@simonihmig</a>, <a href="https://github.com/stopfstedt" target="gh-user">@stopfstedt</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/dgeb" target="gh-user">@dgeb</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/backspace" target="gh-user">@backspace</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a> and <a href="https://github.com/aspala" target="gh-user">@aspala</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -124,7 +129,7 @@ To learn more about exactly how DDAU prevents circular dependencies, we encourag
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -136,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
