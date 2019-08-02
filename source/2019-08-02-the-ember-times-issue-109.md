@@ -50,7 +50,6 @@ You can already check out the [full talk schedule](http://embercamp.com/speakers
 
 See you all in Chicago, Emberistas!
 
-
 ---
 
 ## [Why Should I Not Use Observers in My Ember Application? 🙋‍♀️🙋‍♂️](https://discuss.emberjs.com/t/why-should-i-not-use-observers-in-my-ember-application/16868/3)
