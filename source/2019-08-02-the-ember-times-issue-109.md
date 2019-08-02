@@ -23,6 +23,7 @@ and last, but not least,
 [@tomdale](https://github.com/tomdale) posted the first draft of the [Ember 2019-2020 Roadmap RFC](https://github.com/emberjs/rfcs/pull/519). This document is a distillation of multiple sources ranging from the blogs from the [Call For Blog Posts](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html), the [Community Survey](https://emberjs.com/ember-community-survey-2019/), discussions on [Discord](https://discordapp.com/invite/emberjs), [Twitter](https://twitter.com/hashtag/emberjs2019), [Ember Discuss](https://discuss.emberjs.com/), and more!
 
 The high level goals for 2019-2020 are:
+
 * Reducing the size and conceptual complexity of Ember.
 * Improving ease of adoption.
 
