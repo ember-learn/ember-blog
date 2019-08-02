@@ -46,7 +46,7 @@ This year's edition of [EmberCamp Chicago](http://embercamp.com/) is taking plac
 
 You can already check out the [full talk schedule](http://embercamp.com/speakers), which includes insights into Ember and modern best practices presented by [Jen Weber](https://twitter.com/jwwweber), [Edward Faulkner](https://twitter.com/eaf4), [Olivia Liddell](https://twitter.com/oliravi), [Dan Gebhardt](https://twitter.com/dgeb), and many other amazing speakers! ✨
 
-[Get your ticket today](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376) before they run out! And If you or your company would be interested in being a sponsor of EmberCamp Chicago, please reach out via [embercamp.chicago@gmail.com](mailto:embercamp.chicago@gmail.com).
+[Get your ticket today](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376) before they run out! If you or your company would be interested in being a sponsor of EmberCamp Chicago, please reach out via [embercamp.chicago@gmail.com](mailto:embercamp.chicago@gmail.com).
 
 See you all in Chicago, Emberistas!
 
