@@ -56,7 +56,7 @@ See you all in Chicago, Emberistas!
 ---
 
 ## [Together we make EmberJS a better place ✏️]
-We often feature awesome blogposts, intricate RFCs  and helpful add-ons in the Times. But in such a large ecosystem and community also the **small things** matter.  [@backspace](https://github.com/backspace) and [@Imon-Haque](https://github.com/Imon-Haque) both contributed by just changing one file on the Ember website. [Fixing a typo](https://github.com/ember-learn/guides-source/pull/919) or a [broken link](https://github.com/ember-learn/ember-website/pull/373) that you stumble upon might seem really small, but it is valuable because it makes the Ember experience better. So if you find something small, feel free to fix it by clicking the ✏️ on GitHub and create a PR.
+We often feature awesome blogposts, intricate RFCs and helpful addons in the Times. But in such a large ecosystem and community, the **small things** also matter. [@backspace](https://github.com/backspace) and [@Imon-Haque](https://github.com/Imon-Haque) both contributed by just changing one file on the Ember website. [Fixing a typo](https://github.com/ember-learn/guides-source/pull/919) or a [broken link](https://github.com/ember-learn/ember-website/pull/373) that you stumble upon might seem really small, but it is valuable because it makes everyone's Ember experience better. So if you find something small, feel free to fix it by clicking the ✏️ on GitHub and create a PR.
 
 ---
 
