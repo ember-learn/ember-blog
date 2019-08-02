@@ -10,7 +10,7 @@ responsive: true
 
 Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
 tune in to learn about GraphQL and Ember 👨‍💻,
-join **EmberCamp Chicago** (Sept 16) 🍕,
+join EmberCamp Chicago (Sept 16) 🍕,
 learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
 small things matter ✏️,
 and Super Rentals tutorial in Octane 🚀!
@@ -21,7 +21,7 @@ and Super Rentals tutorial in Octane 🚀!
 
 [@tomdale](https://github.com/tomdale) posted the first draft of the [Ember 2019-2020 Roadmap RFC](https://github.com/emberjs/rfcs/pull/519). This document is a distillation of multiple sources ranging from the blogs from the [Call For Blog Posts](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html), the [Community Survey](https://emberjs.com/ember-community-survey-2019/), discussions on [Discord](https://discordapp.com/invite/emberjs), [Twitter](https://twitter.com/hashtag/emberjs2019), [Ember Discuss](https://discuss.emberjs.com/), and more!
 
-The high level goals for 2019-2020 are:
+The **high level goals** for 2019-2020 are:
 
 * Reducing the size and conceptual complexity of Ember.
 * Improving ease of adoption.
@@ -34,7 +34,7 @@ Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
 
 ## [Tune in for This.JavaScript: GraphQL👨‍💻](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition)
 
- Mark your calendars! In partnership with Hasura, This.JavaScript is gathering the GraphQL community to discuss current advanced problems in GraphQL in frontend frameworks on **Thursday, August 8**. [RSVP](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition) to attend the event online or check out the recording afterward.
+ Mark your calendars! In partnership with Hasura, This.JavaScript is gathering the GraphQL community to discuss current advanced problems in GraphQL in frontend frameworks on **Thursday, August 8th**. [RSVP](https://www.thisdot.co/events/graphql-contributor-days-frameworks-edition) to attend the event online or check out the recording afterward.
 
  [@jneurock](https://github.com/jneurock) and [@chadian](https://github.com/chadian) will be representing the Ember community as a part of the event! You may remember their [talk from EmberFest](https://www.youtube.com/watch?v=kgfBexYbM68).
 
@@ -64,8 +64,9 @@ To learn more about exactly how DDAU prevents circular dependencies, we encourag
 
 ---
 
-## [Together we make EmberJS a better place ✏️]
-We often feature awesome blogposts, intricate RFCs and helpful addons in the Times. But in such a large ecosystem and community, the **small things** also matter. [@backspace](https://github.com/backspace) and [@Imon-Haque](https://github.com/Imon-Haque) both contributed by just changing one file on the Ember website. [Fixing a typo](https://github.com/ember-learn/guides-source/pull/919) or a [broken link](https://github.com/ember-learn/ember-website/pull/373) that you stumble upon might seem really small, but it is valuable because it makes everyone's Ember experience better. So if you find something small, feel free to fix it by clicking the ✏️ on GitHub and create a PR.
+## Together we make EmberJS a better place ✏️
+
+We often feature awesome blogposts, intricate RFCs and helpful addons in the Times. But in such a large ecosystem and community, the **small things** also matter. [@backspace](https://github.com/backspace) and [@Imon-Haque](https://github.com/Imon-Haque) both contributed by just changing one file on the Ember website. [Fixing a typo](https://github.com/ember-learn/guides-source/pull/919) or a [broken link](https://github.com/ember-learn/ember-website/pull/373) that you stumble upon might seem really small, but it is valuable because it makes everyone's Ember experience better. So if you find something small, feel free to fix it by clicking the ✏️ on GitHub and creating a PR.
 
 ---
 
