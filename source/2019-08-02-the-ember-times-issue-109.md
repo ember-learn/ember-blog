@@ -9,8 +9,8 @@ responsive: true
 🙌 Emberistas!
 Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
 tune in to learn about GraphQL and Ember 👨‍💻,
-learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
 join **EmberCamp Chicago** (Sept 16) 🍕,
+learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
 ...
 and last, but not least,
 ...
