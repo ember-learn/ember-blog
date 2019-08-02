@@ -8,7 +8,7 @@ responsive: true
 
 🙌 Emberistas! 
 Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
-GraphQL and Ember 👨‍💻,
+tune in to learn about GraphQL and Ember 👨‍💻,
 ...
 and last, but not least,
 ...
