@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 109
-author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, Jared Galanis, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
@@ -12,6 +12,7 @@ tune in to learn about GraphQL and Ember 👨‍💻,
 join **EmberCamp Chicago** (Sept 16) 🍕,
 learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
 and that small things matter ✏️,
+Super Rentals tutorial in Octane 🚀,
 ...
 and last, but not least,
 ...
@@ -81,12 +82,15 @@ To learn more about exactly how DDAU prevents circular dependencies, we encourag
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
+## [Super Rentals in Octane 🚀](https://github.com/ember-learn/super-rentals/pull/127)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you've been looking for an example of what an app written in **Ember Octane** looks like, look no further than the rewrite of the Super Rentals Tutorial that's been a part of the Ember.js guides for quite a while now.
+
+The original rewrite PR was opened by [@vaidehijoshi](https://github.com/vaidehijoshi), author of the amazing ✨ [basecs](https://github.com/vaidehijoshi/basecs-series) and [baseds](https://github.com/vaidehijoshi/baseds-series) series. 
+
+[@tomdale](https://github.com/tomdale) also followed up with contributions to get the Octane vesion of Super Rentals over the line.
+
+The new Super Rentals tutorial will become a part of the guides when Ember Octane is released. For a sneak preview, you can check out the PR's [here](https://github.com/ember-learn/super-rentals/pull/127) and [here](https://github.com/ember-learn/super-rentals/pull/129).
 
 ---
 
@@ -139,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, Jared Galanis, the crowd and the Learning Team
