@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 109
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 🙌 Emberistas! 
 Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
 tune in to learn about GraphQL and Ember 👨‍💻,
+learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
 ...
 and last, but not least,
 ...
@@ -65,13 +66,16 @@ Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+## [Why Should I Not Use Observers in My Ember Application? 🙋‍♀️🙋‍♂️](https://discuss.emberjs.com/t/why-should-i-not-use-observers-in-my-ember-application/16868/3)
+
+In case you missed it on [Ember Discuss](https://discuss.emberjs.com/), [@ef4](https://github.com/ef4) gave a [beginner-friendly, comprehensive answer](https://discuss.emberjs.com/t/why-should-i-not-use-observers-in-my-ember-application/16868/3) to why we want to discourage the use of observers. (Thanks, [@efx](https://github.com/efx), for asking!)
+
+As your application grows, a change to data can trigger your observers in unexpected ways. The chain of your data dependencies grows and can form a cycle (a circular dependency) without your knowing. Observer A calls observer B, which calls A again, which then... 😨
+
+What we need is a **rule** that we can **enforce locally** to prevent cycles from forming at the global level. You probably know this rule already: **Data Down, Action Up (DDAU)**. 💡
+
+To learn more about exactly how DDAU prevents circular dependencies, we encourage you to [check out the discussion on Ember Discuss](https://discuss.emberjs.com/t/why-should-i-not-use-observers-in-my-ember-application/16868/3). If you have questions about Ember at any point, please feel free to ask them on Discord, Ember Discuss, and our very own [Readers' Questions](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)!
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -132,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
