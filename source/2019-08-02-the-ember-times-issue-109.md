@@ -84,7 +84,7 @@ To learn more about exactly how DDAU prevents circular dependencies, we encourag
 
 ## [Super Rentals in Octane 🚀](https://github.com/ember-learn/super-rentals/pull/127)
 
-If you've been looking for an example of what an app written in **Ember Octane** looks like, look no futher than the rewrite of the Super Rentals Tutorial that's been a part of the Ember.js guides for quite a while now.
+If you've been looking for an example of what an app written in **Ember Octane** looks like, look no further than the rewrite of the Super Rentals Tutorial that's been a part of the Ember.js guides for quite a while now.
 
 The original rewrite PR was opened by [@vaidehijoshi](https://github.com/vaidehijoshi), author of the amazing ✨ [basecs](https://github.com/vaidehijoshi/basecs-series) and [baseds](https://github.com/vaidehijoshi/baseds-series) series. 
 
