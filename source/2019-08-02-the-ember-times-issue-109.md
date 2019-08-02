@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 109
-author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
@@ -11,6 +11,7 @@ Read the newly published Ember 2019-2020 Roadmap RFC 🐹,
 tune in to learn about GraphQL and Ember 👨‍💻,
 join **EmberCamp Chicago** (Sept 16) 🍕,
 learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
+and that small things matter ✏️,
 ...
 and last, but not least,
 ...
@@ -54,12 +55,8 @@ See you all in Chicago, Emberistas!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Together we make EmberJS a better place ✏️]
+We often feature awesome blogposts, intricate RFCs  and helpful add-ons in the Times. But in such a large ecosystem and community also the **small things** matter.  [backspace (Buck Doyle) · GitHub](https://github.com/backspace) and [Imon-Haque (Md. Azizul Haque Imon) · GitHub](https://github.com/Imon-Haque) both contributed by just changing one file on the Ember website. [Fixing a typo](https://github.com/ember-learn/guides-source/pull/919) or a [broken link](https://github.com/ember-learn/ember-website/pull/373) that you stumble upon might seem really small, but it is valuable because it makes the Ember experience better. So if you find something small, feel free to fix it by clicking the ✏️ on GitHub and create a PR.
 
 ---
 
@@ -142,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
