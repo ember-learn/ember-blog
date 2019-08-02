@@ -70,7 +70,7 @@ Check out the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/519)!
 
 In case you missed it on [Ember Discuss](https://discuss.emberjs.com/), [@ef4](https://github.com/ef4) gave a [beginner-friendly, comprehensive answer](https://discuss.emberjs.com/t/why-should-i-not-use-observers-in-my-ember-application/16868/3) to why we discourage the use of observers. (Thank you for asking, [@efx](https://github.com/efx)!)
 
-As your application grows, a change to data can trigger your observers in unexpected ways. The chain of dependencies grows and can form a cycle—a circular dependency—without your knowing. Observer A calls observer B, which calls A again, which then... 😨
+As your application grows, a change to data can trigger your observers in unexpected ways. The chain of dependencies grows and can form a cycle — a circular dependency — without your knowing. Observer A calls observer B, which calls A again, which then... 😨
 
 What we need is a **rule that we can enforce locally** to prevent cycles from forming at the global level. You've likely heard of this rule already: **Data Down, Action Up (DDAU)**. 💡
 
