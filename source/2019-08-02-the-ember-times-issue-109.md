@@ -90,7 +90,7 @@ The original rewrite PR was opened by [@vaidehijoshi](https://github.com/vaidehi
 
 [@tomdale](https://github.com/tomdale) also followed up with contributions to get the Octane vesion of Super Rentals over the line.
 
-This new version of the tutorial will become a part of the guides when Ember Octane is released. You can find both PR's [here](https://github.com/ember-learn/super-rentals/pull/127) and [here](https://github.com/ember-learn/super-rentals/pull/129), if you're interested in taking a look.
+The new Super Rentals tutorial will become a part of the guides when Ember Octane is released. For a sneak preview, you can check out the PR's [here](https://github.com/ember-learn/super-rentals/pull/127) and [here](https://github.com/ember-learn/super-rentals/pull/129).
 
 ---
 
