@@ -8,5 +8,6 @@
   "no-emphasis-as-heading": false,
   "ul-start-left": false,
   "no-duplicate-heading": false,
-  "no-trailing-punctuation": false
+  "no-trailing-punctuation": false,
+  "no-inline-html": false
 }
