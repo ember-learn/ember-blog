@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 108
 author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/07/26-the-ember-times-issue-108.html"
 responsive: true
 ---
