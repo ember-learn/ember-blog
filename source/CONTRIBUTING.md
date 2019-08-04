@@ -51,14 +51,7 @@ A pop up window will occur.
 
 We are using [markdownlint](https://github.com/DavidAnson/markdownlint) for linting!
 
-We suggest downloading a [markdownlint extension](https://github.com/DavidAnson/markdownlint#related) for your editor, if available.
-
-You can also install markdownlint locally:
-
-```bash
-npm install -g markdownlint
-bash scripts/markdown-lint.sh
-```
+We suggest downloading a [markdownlint extension](https://github.com/DavidAnson/markdownlint#related) for your editor to see errors in real-time, if available.
 
 ## Ember Times
 
