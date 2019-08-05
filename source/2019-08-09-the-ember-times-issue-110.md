@@ -13,6 +13,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -22,6 +23,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -31,6 +33,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -40,6 +43,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -49,6 +53,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -58,6 +63,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -67,6 +73,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -76,6 +83,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -85,6 +93,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
