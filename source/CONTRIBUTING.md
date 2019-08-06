@@ -1,12 +1,11 @@
 # General
 
-The Ember blog is the official news outlet of the Ember Learning Core team.
-You can publish new posts by adding a markdown file (`.md`) to the `source/blog` directory.
-
+The Ember blog is the official news outlet of the Ember Learning Core team. You can publish new posts by adding a markdown file (`.md`) to the `source/blog` directory.
 
 ## Language Checking with Alex
 
 This project uses [Alex](https://github.com/wooorm/alex)
+
 - a wording linter for insensitive language - to make sure that new posts are as inviting and approachable to its readers as possible.
 
 The Travis CI process for this project will run `alex` on all new changes which have been made
@@ -20,17 +19,21 @@ npm install -g alex
 bash scripts/language-check.sh
 ```
 
+Or, you can download an [extension](https://github.com/get-alex/alex#integrations) for your editor.
+
 If you are consciously [overriding the Alex linter](https://github.com/get-alex/alex#control) you can add an annotation before the paragraph as shown below.
 
 From the example error message:
 
 Text:
-```
+
+```bash
 A pop up window will occur.
 ```
 
 Error Message:
-```
+
+```bash
 readme.md
   1:15-1:18  warning  `pop` may be insensitive, use `parent` instead  dad-mom  retext-equality
 
@@ -38,17 +41,24 @@ readme.md
 ```
 
 Add the keyword to the ignore
-```
+
+```bash
 <!--alex ignore dad-mom-->
 A pop up window will occur.
 ```
 
-# Ember Times
+## Markdownlint
+
+We are using [markdownlint](https://github.com/DavidAnson/markdownlint) for linting!
+
+We suggest downloading a [markdownlint extension](https://github.com/DavidAnson/markdownlint#related) for your editor to see errors in real-time, if available.
+
+## Ember Times
 
 The Ember Times is a blog newsletter with weekly updates from the Ember land.
 It is part of the [Emberjs.com](https://emberjs.com/) website and managed by the Learning Team and friends.
 
-## Contributing
+### Contributing
 
 Anyone can become an Ember Times editor. The best way to start is to join [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) channel on [Ember Community Discord](https://discordapp.com/invite/zT3asNS). New blog posts are released every Friday.
 
@@ -62,14 +72,14 @@ The process to publish a new weekly post is as follows:
 The Reader's Questions section of the newsletter is usually answered by core team members, but anyone can give a helping hand. 
 The answers are posted on [discuss.emberjs.com](https://discuss.emberjs.com/) and linked back to the weekly blog post.
 
-## Writing Style Guide
+### Writing Style Guide
 
-* Use Title Case for section headings, when in doubt use https://titlecase.com/.
-* Please add an emoji at the end of your title, if you're having trouble finding an emoji use a search tool like https://emojipedia.org/.
-* In general, refer to people by their GitHub handle, e.g. `[@your_name_here](https://www.github.com/your_name_here)`. (If the person is mentioned more than one time in the same paragraph, feel free to deviate after one @ mention!]
-* We tend to refer to `Ember`, `Ember Data`, and `Ember CLI` as their name (versus the repo name) because we mention them so often. For most other repos, use the repo name e.g. `[machty/ember-concurrency](https://github.com/machty/ember-concurrency)`.
-* The word `addon` is usually denoted as lowercase and as a single word.
-* Add your name to the author list at the bottom of the Times when submitting a PR for the week.
+- Use Title Case for section headings, when in doubt use https://titlecase.com/.
+- Please add an emoji at the end of your title, if you're having trouble finding an emoji use a search tool like https://emojipedia.org/.
+- In general, refer to people by their GitHub handle, e.g. `[@your_name_here](https://www.github.com/your_name_here)`. (If the person is mentioned more than one time in the same paragraph, feel free to deviate after one @ mention!]
+- We tend to refer to `Ember`, `Ember Data`, and `Ember CLI` as their name (versus the repo name) because we mention them so often. For most other repos, use the repo name e.g. `[machty/ember-concurrency](https://github.com/machty/ember-concurrency)`.
+- The word `addon` is usually denoted as lowercase and as a single word.
+- Add your name to the author list at the bottom of the Times when submitting a PR for the week.
 
 ### Goodbits
 
@@ -114,7 +124,7 @@ Add your section to the template. You'll see useful notes in the blank sections:
 
 - Use `git` to add your file and commit changes:
 
-``` 
+```bash
 git add .
 
 git commit -m "you-commit-message-here"
