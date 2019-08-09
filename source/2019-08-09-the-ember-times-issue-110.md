@@ -15,8 +15,8 @@ watch This.JavaScript: State of Frameworks on Tuesday 📜
 <!-- alex ignore king-queen -->
 build JAMstack websites with Empress 🍓,
 versioned Ember API links added to the Guides 🔢,
-an Update for Co-Located Templates in the Guides ☝️,
-...
+and last, but not least,
+an Update for Co-Located Templates in the Guides ☝️!
 
 ---
 
@@ -47,36 +47,6 @@ For a deeper dive you can also check out [@skaterdav85](https://github.com/skate
 This.JavaScript is an online livestreamed event on **Tuesday, August 13th** - [RSVP to attend](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019) and watch it with your teams at work!
 
 The State of Frameworks event is an opportunity for folks in the JS community from different frameworks and libraries to learn from each other and connect. You'll learn about upcoming releases, latest improvements, and community initiatives. [@jenweber](https://github.com/jenweber) will be representing Ember and speaking about Octane! She'll be joined by [@yyx990803](https://github.com/yyx990803) of Vue, [@mhdawson](https://github.com/mhdawson) of Node.js, [@marvinhagemeister](https://github.com/marvinhagemeister) of Preact, [@mhartington](https://github.com/mhartington) of Ionic, and [@mgechev](https://github.com/mgechev) of Angular!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -113,7 +83,7 @@ These changes are part of the work for updating Octane documentation. If you are
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/yohanmishkin" target="gh-user">@yohanmishkin</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/antydemant" target="gh-user">@antydemant</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Exelord" target="gh-user">@Exelord</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a> and <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/yohanmishkin" target="gh-user">@yohanmishkin</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/antydemant" target="gh-user">@antydemant</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Exelord" target="gh-user">@Exelord</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/aklkv" target="gh-user">@aklkv</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
