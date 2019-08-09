@@ -1,14 +1,18 @@
 ---
 title: The Ember Times - Issue No. 110
-author: Chris Ng, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/09-the-ember-times-issue-110.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-An Update for Co-Located Templates in the Guides,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+This week:
+an Update for Co-Located Templates in the Guides,
+<!-- alex ignore king-queen -->
+build JAMstack websites with Empress 🍓,
+...
 
 ---
 
@@ -72,13 +76,17 @@ An Update for Co-Located Templates in the Guides,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Learn All About JAM Stacks Powered By Ember 🍓](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+There are many different roads that lead developers to building fast, secure and performant websites. And one of them is by the means of the **JAM Stack**.
+
+A site built on the JAMstack is often consisting of a mix of **J**avaScript, reusable and/or third-party **A**PIs as well as static, ready-to-render **m**arkup. The one obligatory feature of a JAMstack site, is that it is can be run without a dedicated web server. Common examples of tools that allow you build JAMstack sites are static site generators like Jekyll, Hugo, GatsbyJS among many others.
+
+<!-- alex ignore king-queen -->
+In his talk **Empress - JAM Stack Templates for Human Beings** at [LeedsJS](https://leedsjs.com/) [@mansona](https://github.com/mansona) presents static site generation solutions that empower developers and designers alike to create fast and beautiful sites on the web. And surely enough: Empress' site generators are **powered by Ember**! 🐹
+
+Be sure to check out the talk over on [Youtube](ttps://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), give a 👍 and your thoughts in the comments below!
 
 ---
 
@@ -102,7 +110,7 @@ These changes are part of the work for updating Octane documentation. If you are
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/yohanmishkin" target="gh-user">@yohanmishkin</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/antydemant" target="gh-user">@antydemant</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Exelord" target="gh-user">@Exelord</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a> and <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -131,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
