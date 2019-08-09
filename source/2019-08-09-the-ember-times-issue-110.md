@@ -7,7 +7,7 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-An update for co-located templates in the Guides,
+An Update for Co-Located Templates in the Guides,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 {{on}} & {{fn}} in Octane Guides 🔥,
