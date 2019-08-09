@@ -21,7 +21,7 @@ Foreign Key Attrs Blog Post 🔑,
 
 These updates to the Guides relate to event handling, binding of context and partial application of functions, and affect the way that actions are used in Ember Octane.
 
-Checkout the PR [here](https://github.com/ember-learn/guides-source/pull/912), and for more context and background see the [blog post](https://www.pzuraq.com/ember-octane-update-action/) from [@pzuraq](https://github.com/pzuraq).
+Check out the PR [here](https://github.com/ember-learn/guides-source/pull/912). For more context, see the [blog post](https://www.pzuraq.com/ember-octane-update-action/) from [@pzuraq](https://github.com/pzuraq).
 
 ---
 
