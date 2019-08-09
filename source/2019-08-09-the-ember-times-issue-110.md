@@ -12,10 +12,9 @@ This week:
 an Update for Co-Located Templates in the Guides,
 <!-- alex ignore king-queen -->
 build JAMstack websites with Empress 🍓,
-...
-
 {{on}} & {{fn}} in Octane Guides 🔥,
 Foreign Key Attrs Blog Post 🔑,
+...
 
 ---
 
@@ -109,7 +108,7 @@ Be sure to check out the talk over on [Youtube](ttps://www.youtube.com/watch?v=W
 [@chancancode](https://github.com/chancancode) made an update for co-located templates in the [Quick Start](https://guides.emberjs.com/release/getting-started/quick-start/) and [Core Concepts](https://guides.emberjs.com/release/getting-started/core-concepts/) subsections of the [Getting Started](https://guides.emberjs.com/release/getting-started/) section of the [Ember Guides](https://guides.emberjs.com/).
 
 These changes are part of the work for updating Octane documentation. If you are interested in helping out check out the [Quest Issue for Releasing the Octane Guides](https://github.com/ember-learn/guides-source/issues/669) on GitHub!
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
