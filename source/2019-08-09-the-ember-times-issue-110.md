@@ -30,7 +30,7 @@ Check out the PR [here](https://github.com/ember-learn/guides-source/pull/912). 
 
 ## [Foreign Key Attrs Blog Post 🔑](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html)
 
-Ever have issues handling foreign key attributes in Ember Data? 
+Ever have issues handling foreign key attributes in Ember Data?
 
 Check out the **clear and concise** [blog post](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html) by [@skaterdav85](https://github.com/skaterdav85) that continues his work on Ember Data.
 
