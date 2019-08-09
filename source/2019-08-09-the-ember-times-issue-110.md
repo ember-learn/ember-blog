@@ -1,15 +1,42 @@
 ---
 title: The Ember Times - Issue No. 110
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/09-the-ember-times-issue-110.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+This week:
+{{on}} & {{fn}} in Octane Guides 🔥,
+Foreign Key Attrs Blog Post 🔑,
+<!-- alex ignore king-queen -->
+build JAMstack websites with Empress 🍓,
 versioned Ember API links added to the Guides 🔢,
-An Update for Co-Located Templates in the Guides ☝️,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+an Update for Co-Located Templates in the Guides ☝️,
+...
+
+---
+
+## [{{on}} & {{fn}} in Octane Guides 🔥](https://github.com/ember-learn/guides-source/pull/912)
+
+**Many thanks** 👏 to [@NullVoxPopuli](https://github.com/NullVoxPopuli) and all the other contributors that worked on the **awesome** [PR](https://github.com/ember-learn/guides-source/pull/912) updating the preview of the [Ember Octane Guides](https://octane-guides-preview.emberjs.com/release/templates/actions/) section dealing with `@action`, the `{{on}}` modifier & `{{fn}}` helper!
+
+These updates to the Guides relate to event handling, binding of context and partial application of functions, and affect the way that actions are used in Ember Octane.
+
+Check out the PR [here](https://github.com/ember-learn/guides-source/pull/912). For more context, see the [blog post](https://www.pzuraq.com/ember-octane-update-action/) from [@pzuraq](https://github.com/pzuraq).
+
+---
+
+## [Foreign Key Attrs Blog Post 🔑](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html)
+
+Ever have issues handling foreign key attributes in Ember Data?
+
+Check out the **clear and concise** [blog post](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html) by [@skaterdav85](https://github.com/skaterdav85) that continues his work on Ember Data.
+
+The post includes good patterns that leverage the use of `belongsTo` in Ember Data and the necessary setups for serializers and adapters.
+
+For a deeper dive you can also check out [@skaterdav85](https://github.com/skaterdav85)'s [book on Ember Data](https://leanpub.com/emberdatainthewild) and [other blog posts](https://davidtang.io/2019/07/21/embedded-records-in-ember-data-with-json-api.html).
 
 ---
 
@@ -53,23 +80,16 @@ An Update for Co-Located Templates in the Guides ☝️,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Learn All About JAM Stacks Powered By Ember 🍓](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+There are many different roads that lead developers to building fast, secure and performant websites. And one of them is by the means of the **JAM Stack**.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A site built on the JAMstack is often consisting of a mix of **J**avaScript, reusable and/or third-party **A**PIs as well as static, ready-to-render **m**arkup. The one obligatory feature of a JAMstack site, is that it is can be run without a dedicated web server. Common examples of tools that allow you build JAMstack sites are static site generators like Jekyll, Hugo, GatsbyJS among many others.
 
----
+<!-- alex ignore king-queen -->
+In his talk **Empress - JAM Stack Templates for Human Beings** at [LeedsJS](https://leedsjs.com/) [@mansona](https://github.com/mansona) presents static site generation solutions that empower developers and designers alike to create fast and beautiful sites on the web. And surely enough: Empress' site generators are **powered by Ember**! 🐹
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Be sure to check out the talk over on [Youtube](ttps://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), give a 👍 and your thoughts in the comments below!
 
 ---
 
@@ -83,16 +103,6 @@ The next steps are to fix remaining issues with 3.11 links and introduce tests t
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Ember Guides Update for Co-Located Templates ☝️](https://github.com/ember-learn/guides-source/pull/977)
 
 [@chancancode](https://github.com/chancancode) made an update for co-located templates in the [Quick Start](https://guides.emberjs.com/release/getting-started/quick-start/) and [Core Concepts](https://guides.emberjs.com/release/getting-started/core-concepts/) subsections of the [Getting Started](https://guides.emberjs.com/release/getting-started/) section of the [Ember Guides](https://guides.emberjs.com/).
@@ -103,7 +113,7 @@ These changes are part of the work for updating Octane documentation. If you are
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/yohanmishkin" target="gh-user">@yohanmishkin</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/apps/dependabot-preview" target="gh-user">@dependabot-preview[bot]</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/antydemant" target="gh-user">@antydemant</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Exelord" target="gh-user">@Exelord</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a> and <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -132,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis, Isaac Lee, the crowd and the Learning Team
