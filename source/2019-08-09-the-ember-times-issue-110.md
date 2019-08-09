@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 110
-author: the crowd
+author: Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/09-the-ember-times-issue-110.html"
 responsive: true
@@ -10,25 +10,30 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+{{on}} & {{fn}} In Octane Guides 🔥,
+Foreign Key Attrs Blog Post 🔑,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [{{on}} & {{fn}} In Octane Guides 🔥](https://github.com/ember-learn/guides-source/pull/912)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+**Many thanks** 👏 to [@NullVoxPopuli](https://github.com/NullVoxPopuli) for the awesome contributions to the preview of the (Ember Octane Guides)[https://octane-guides-preview.emberjs.com/release/templates/actions/] focusing on the `{{on}}` modifier & `{{fn}}` helper!
+
+These updates to the Guides relate to event handling, binding of context and partial application of functions, and affect the way that actions are used in Ember Octane.
+
+Checkout the PR [here](https://github.com/ember-learn/guides-source/pull/912), and for more context and background see the [blog post](https://www.pzuraq.com/ember-octane-update-action/) from [@pzuraq](https://github.com/pzuraq).
+
+---
+
+## [Foreign Key Attrs Blog Post 🔑](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html)
+
+Ever have issues handling foreign key attributes in Ember Data? 
+
+Checkout the **clear and concise** [blog post](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html) by [@skaterdav85](https://github.com/skaterdav85) that continues his work on Ember Data.
+
+The post includes good patterns that leverage the use of belongsTo in Ember Data and the necessary setup for serializers and adapters.
+
+For a deeper dive you can also checkout [@skaterdav85](https://github.com/skaterdav85)'s [book on Ember Data](https://leanpub.com/emberdatainthewild) or [other blog posts](https://davidtang.io/2019/07/21/embedded-records-in-ember-data-with-json-api.html).
 
 ---
 
@@ -133,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jared Galanis the crowd and the Learning Team
