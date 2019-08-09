@@ -33,7 +33,7 @@ Check out the **clear and concise** [blog post](https://davidtang.io/2019/08/02/
 
 The post includes good patterns that leverage the use of `belongsTo` in Ember Data and the necessary setups for serializers and adapters.
 
-For a deeper dive you can also checkout [@skaterdav85](https://github.com/skaterdav85)'s [book on Ember Data](https://leanpub.com/emberdatainthewild) or [other blog posts](https://davidtang.io/2019/07/21/embedded-records-in-ember-data-with-json-api.html).
+For a deeper dive you can also check out [@skaterdav85](https://github.com/skaterdav85)'s [book on Ember Data](https://leanpub.com/emberdatainthewild) and [other blog posts](https://davidtang.io/2019/07/21/embedded-records-in-ember-data-with-json-api.html).
 
 ---
 
