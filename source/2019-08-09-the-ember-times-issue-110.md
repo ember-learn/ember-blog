@@ -42,7 +42,7 @@ For a deeper dive you can also check out [@skaterdav85](https://github.com/skate
 
 ---
 
-## [This.JavasSript: State of Frameworks 📜](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019)
+## [This.JavaScript: State of Frameworks 📜](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019)
 
 This.JavaScript is an online livestreamed event on **Tuesday, August 13th** - [RSVP to attend](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019) and watch it with your teams at work!
 
