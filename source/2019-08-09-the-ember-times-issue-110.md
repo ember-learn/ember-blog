@@ -77,9 +77,9 @@ An Update for Co-Located Templates in the Guides ☝️,
 
 In the 3.x series, the [Ember Guides](https://guides.emberjs.com/) would send you to the `release` version of the Ember API documentation. Due to changes in Ember and Ember Data, often these redirects would lead you to nowhere.
 
-To fix this issue, [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) took on the massive task of updating the links so that the version of Ember API matches that of Ember Guides when redirected. (Thank you!) 💖
+To fix this issue, [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) took on the massive task of updating the links so that **the version of Ember API matches that of Ember Guides when redirected**. (Thank you!) 💖
 
-The next steps are to introduce tests to check for broken links and fix remaining issues with 3.11 links. We appreciate you for your patience. If you notice additional broken links, please let the Ember Learning Team know in the `#dev-ember-learning` channel on Discord.
+The next steps are to fix remaining issues with 3.11 links and introduce tests to check for broken links. We appreciate you for your patience. If you notice additional broken links, please let the Ember Learning Team know in the `#dev-ember-learning` channel on Discord.
 
 ---
 
