@@ -1,13 +1,14 @@
 ---
 title: The Ember Times - Issue No. 110
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/09-the-ember-times-issue-110.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-An Update for Co-Located Templates in the Guides,
+versioned Ember API links added to the Guides 🔢,
+An Update for Co-Located Templates in the Guides ☝️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -72,13 +73,13 @@ An Update for Co-Located Templates in the Guides,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Versioned Ember API Links Added to Ember Guides 🔢](https://github.com/ember-learn/guides-source/pull/952)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+In the 3.x series, the [Ember Guides](https://guides.emberjs.com/) would send you to the `release` version of the Ember API documentation. Due to changes in Ember and Ember Data, often these redirects would lead you to nowhere.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+To fix this issue, [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) took on the massive task of updating the links so that the version of Ember API matches that of Ember Guides when redirected. (Thank you!) 💖
+
+The next steps are to introduce tests to check for broken links and fix remaining issues with 3.11 links. We appreciate you for your patience. If you notice additional broken links, please let the Ember Learning Team know in the `#dev-ember-learning` channel on Discord.
 
 ---
 
@@ -131,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
