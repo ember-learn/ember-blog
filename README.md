@@ -1,9 +1,11 @@
 # Ember Website
+
 [![Build Status](https://travis-ci.org/ember-learn/ember-blog.svg?branch=master)](https://travis-ci.org/ember-learn/ember-blog)
 
 This repository contains the blog content for the [Ember.js public website](https://emberjs.com).
 
 Other parts of the public website are separate apps:
+
 - [The Website](https://github.com/ember-learn/ember-website)
 - [API Docs](https://github.com/ember-learn/ember-api-docs)
 - [Deprecations](https://github.com/ember-learn/deprecation-app)
@@ -22,8 +24,7 @@ to propose changes and iterate on ideas before investing time in coding.
 Some tips for working with git/GitHub can be found in
 [Making your first pull request](https://github.com/ember-learn/guides-source/blob/master/CONTRIBUTING.md#making-your-first-pull-request) in the Guides respository.
 
-To contribute to Ember Times, a blog newsletter with weekly updates from the Ember land, please refer to this [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/source/CONTRIBUTING.md).
-
+To contribute to the Ember Times, a blog newsletter with weekly updates from the Ember land, please refer to this [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/source/CONTRIBUTING.md).
 
 ## Running locally with Docker (recommended)
 
@@ -45,11 +46,13 @@ cd website
 docker-compose build
 docker-compose up
 ```
+
 Subsequent runs will be much faster once all the dependencies are installed.
 
 You can view the site locally at [http://localhost:4567](http://localhost:4567)
 
 ## Running locally with Ruby and Middleman
+
 If you are unable to use Docker as described above, here's how to get started
 installing dependencies.
 
@@ -70,17 +73,18 @@ If the `bundle` command fails to run, you may need to upgrade your Ruby version.
 You can use [RVM](https://rvm.io/) to install it:
 
 ``` sh
-$ curl -L https://get.rvm.io | bash -s stable
-$ rvm install $(cat .ruby-version)
-$ rvm use $(cat .ruby-version)
+curl -L https://get.rvm.io | bash -s stable
+rvm install $(cat .ruby-version)
+rvm use $(cat .ruby-version)
 ```
 
 ### Troubleshooting tips for Windows devs
 
 For Windows developers using [RubyInstaller](http://rubyinstaller.org/), you'll need to [download the DevKit](http://rubyinstaller.org/downloads) and install it using instructions:
-https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+<https://github.com/oneclick/rubyinstaller/wiki/Development-Kit>
 
 After you have a proper install, you can then run:
+
 ``` sh
 gem install bundler wdm tzinfo-data
 gem update listen middleman
