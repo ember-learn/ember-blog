@@ -97,7 +97,7 @@ For a deeper dive you can also check out [@skaterdav85](https://github.com/skate
   
 ---
 
-## [Ember Guides Update for co-located templates ☝️](https://github.com/ember-learn/guides-source/pull/977)
+## [Ember Guides Update for Co-Located Templates ☝️](https://github.com/ember-learn/guides-source/pull/977)
 
 [@chancancode](https://github.com/chancancode) made an update for co-located templates in the [Quick Start](https://guides.emberjs.com/release/getting-started/quick-start/) and [Core Concepts](https://guides.emberjs.com/release/getting-started/core-concepts/) subsections of the [Getting Started](https://guides.emberjs.com/release/getting-started/) section of the [Ember Guides](https://guides.emberjs.com/).
 
