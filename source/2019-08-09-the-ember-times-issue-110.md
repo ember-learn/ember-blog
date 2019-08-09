@@ -1,19 +1,19 @@
 ---
 title: The Ember Times - Issue No. 110
-author: Chris Ng, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/09-the-ember-times-issue-110.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
 This week:
-an Update for Co-Located Templates in the Guides,
-<!-- alex ignore king-queen -->
-build JAMstack websites with Empress 🍓,
 {{on}} & {{fn}} in Octane Guides 🔥,
 Foreign Key Attrs Blog Post 🔑,
+<!-- alex ignore king-queen -->
+build JAMstack websites with Empress 🍓,
+versioned Ember API links added to the Guides 🔢,
+an Update for Co-Located Templates in the Guides ☝️,
 ...
 
 ---
@@ -93,13 +93,13 @@ Be sure to check out the talk over on [Youtube](ttps://www.youtube.com/watch?v=W
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Versioned Ember API Links Added to Ember Guides 🔢](https://github.com/ember-learn/guides-source/pull/952)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+In the 3.x series, the [Ember Guides](https://guides.emberjs.com/) would send you to the `release` version of the Ember API documentation. Due to changes in Ember and Ember Data, often these redirects would lead you to nowhere.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+To fix this issue, [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) took on the massive task of updating the links so that **the version of Ember API matches that of Ember Guides when redirected**. (Thank you!) 💖
+
+The next steps are to fix remaining issues with 3.11 links and introduce tests to check for broken links. We appreciate you for your patience. If you notice additional broken links, please let the Ember Learning Team know in the `#dev-ember-learning` channel on [Discord](https://discordapp.com/invite/emberjs).
 
 ---
 
@@ -142,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis, Isaac Lee, the crowd and the Learning Team
