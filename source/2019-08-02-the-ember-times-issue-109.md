@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 109
 author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, Anne-Greeth van Herwijnen, Jared Galanis
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/02-the-ember-times-issue-109.html"
 responsive: true
 ---
@@ -74,7 +74,7 @@ We often feature awesome blogposts, intricate RFCs and helpful addons in the Tim
 
 If you've been looking for an example of what an app written in **Ember Octane** looks like, look no further than the rewrite of the Super Rentals Tutorial that's been a part of the Ember.js guides for quite a while now.
 
-The original rewrite PR was opened by [@vaidehijoshi](https://github.com/vaidehijoshi), author of the amazing ✨ [basecs](https://github.com/vaidehijoshi/basecs-series) and [baseds](https://github.com/vaidehijoshi/baseds-series) series. 
+The original rewrite PR was opened by [@vaidehijoshi](https://github.com/vaidehijoshi), author of the amazing ✨ [basecs](https://github.com/vaidehijoshi/basecs-series) and [baseds](https://github.com/vaidehijoshi/baseds-series) series.
 
 [@tomdale](https://github.com/tomdale) also followed up with contributions to get the Octane vesion of Super Rentals over the line.
 
