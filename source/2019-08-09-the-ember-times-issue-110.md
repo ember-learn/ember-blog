@@ -31,7 +31,7 @@ Ever have issues handling foreign key attributes in Ember Data?
 
 Check out the **clear and concise** [blog post](https://davidtang.io/2019/08/02/handling-foreign-key-attributes-in-an-api-with-ember-data.html) by [@skaterdav85](https://github.com/skaterdav85) that continues his work on Ember Data.
 
-The post includes good patterns that leverage the use of belongsTo in Ember Data and the necessary setup for serializers and adapters.
+The post includes good patterns that leverage the use of `belongsTo` in Ember Data and the necessary setups for serializers and adapters.
 
 For a deeper dive you can also checkout [@skaterdav85](https://github.com/skaterdav85)'s [book on Ember Data](https://leanpub.com/emberdatainthewild) or [other blog posts](https://davidtang.io/2019/07/21/embedded-records-in-ember-data-with-json-api.html).
 
