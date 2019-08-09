@@ -21,6 +21,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js VER
+
 Ember.js VER is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
 #### New Features (2)
@@ -28,7 +29,6 @@ Ember.js VER is an incremental, backwards compatible release of Ember with bugfi
 First new feature (1 of 2)
 
 Second new feature (2 of 2)
-
 
 #### Deprecations (0)
 
@@ -53,7 +53,6 @@ No new features introduced in Ember Data VER.
 #### Deprecations (0)
 
 No new deprecations introduced in Ember Data VER.
-
 
 For more details on changes in Ember Data VER, please review the
 [Ember Data VER.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
@@ -80,7 +79,6 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 ### Changes in Ember CLI VER
 
 #### New Features (X)
-
 
 #### Deprecations (X)
 
