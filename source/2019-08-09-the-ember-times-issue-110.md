@@ -8,11 +8,11 @@ responsive: true
 
 Aloha Emberistas! 🐹
 
+<!-- alex ignore king-queen -->
 This week:
 {{on}} & {{fn}} in Octane Guides 🔥,
 Foreign Key Attrs Blog Post 🔑,
-watch This.JavaScript: State of Frameworks on Tuesday 📜
-<!-- alex ignore king-queen -->
+watch This.JavaScript: State of Frameworks on Tuesday 📜,
 build JAMstack websites with Empress 🍓,
 versioned Ember API links added to the Guides 🔢,
 and last, but not least,
@@ -54,10 +54,10 @@ The State of Frameworks event is an opportunity for folks in the JS community fr
 
 There are many different roads that lead developers to building fast, secure and performant websites. And one of them is by the means of the **JAM Stack**.
 
-A site built on the JAMstack is often consisting of a mix of **J**avaScript, reusable and/or third-party **A**PIs as well as static, ready-to-render **m**arkup. The one obligatory feature of a JAMstack site, is that it is can be run without a dedicated web server. Common examples of tools that allow you build JAMstack sites are static site generators like Jekyll, Hugo, GatsbyJS among many others.
+A site built on the JAMstack is often consisting of a mix of **J**avaScript, reusable and/or third-party **A**PIs as well as static, ready-to-render **M**arkup. The one obligatory feature of a JAMstack site, is that it is can be run without a dedicated web server. Common examples of tools that allow you build JAMstack sites are static site generators like Jekyll, Hugo, GatsbyJS among many others.
 
 <!-- alex ignore king-queen -->
-In his talk **Empress - JAM Stack Templates for Human Beings** at [LeedsJS](https://leedsjs.com/) [@mansona](https://github.com/mansona) presents static site generation solutions that empower developers and designers alike to create fast and beautiful sites on the web. And surely enough: Empress' site generators are **powered by Ember**! 🐹
+In his talk **Empress - JAM Stack Templates for Human Beings** at [LeedsJS](https://leedsjs.com/) - [@mansona](https://github.com/mansona) presents static site generation solutions that empower developers and designers alike to create fast and beautiful sites on the web. And surely enough: Empress' site generators are **powered by Ember**! 🐹
 
 Be sure to check out the talk over on [Youtube](ttps://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), give a 👍 and your thoughts in the comments below!
 
