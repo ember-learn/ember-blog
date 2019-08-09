@@ -44,7 +44,7 @@ For a deeper dive you can also check out [@skaterdav85](https://github.com/skate
 
 ## [This.JavasSript: State of Frameworks 📜](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019)
 
-This.JavaScript is an online livestreamed event on **Tuesday, August 13th** - [RSVP to attend](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019) and watch it with your teams at work! 
+This.JavaScript is an online livestreamed event on **Tuesday, August 13th** - [RSVP to attend](https://www.thisdot.co/events/this-javascript-state-of-frameworks-08-2019) and watch it with your teams at work!
 
 The State of Frameworks event is an opportunity for folks in the JS community from different frameworks and libraries to learn from each other and connect. You'll learn about upcoming releases, latest improvements, and community initiatives. [@jenweber](https://github.com/jenweber) will be representing Ember and speaking about Octane! She'll be joined by [@yyx990803](https://github.com/yyx990803) of Vue, [@mhdawson](https://github.com/mhdawson) of Node.js, [@marvinhagemeister](https://github.com/marvinhagemeister) of Preact, [@mhartington](https://github.com/mhartington) of Ionic, and [@mgechev](https://github.com/mgechev) of Angular! 
 
