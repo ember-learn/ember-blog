@@ -83,7 +83,6 @@ For a deeper dive you can also check out [@skaterdav85](https://github.com/skate
 
 ## [Learn All About JAM Stacks Powered By Ember 🍓](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780)
 
-
 There are many different roads that lead developers to building fast, secure and performant websites. And one of them is by the means of the **JAM Stack**.
 
 A site built on the JAMstack is often consisting of a mix of **J**avaScript, reusable and/or third-party **A**PIs as well as static, ready-to-render **m**arkup. The one obligatory feature of a JAMstack site, is that it is can be run without a dedicated web server. Common examples of tools that allow you build JAMstack sites are static site generators like Jekyll, Hugo, GatsbyJS among many others.
