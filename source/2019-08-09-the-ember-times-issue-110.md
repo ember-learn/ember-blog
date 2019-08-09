@@ -17,7 +17,7 @@ Foreign Key Attrs Blog Post 🔑,
 
 ## [{{on}} & {{fn}} In Octane Guides 🔥](https://github.com/ember-learn/guides-source/pull/912)
 
-**Many thanks** 👏 to [@NullVoxPopuli](https://github.com/NullVoxPopuli) for the awesome contributions to the preview of the (Ember Octane Guides)[https://octane-guides-preview.emberjs.com/release/templates/actions/] focusing on the `{{on}}` modifier & `{{fn}}` helper!
+**Many thanks** 👏 to [@NullVoxPopuli](https://github.com/NullVoxPopuli) and all the other contributors that worked on the [PR](https://github.com/ember-learn/guides-source/pull/912) for the awesome contributions to the preview of the (Ember Octane Guides)[https://octane-guides-preview.emberjs.com/release/templates/actions/] focusing on the `{{on}}` modifier & `{{fn}}` helper!
 
 These updates to the Guides relate to event handling, binding of context and partial application of functions, and affect the way that actions are used in Ember Octane.
 
