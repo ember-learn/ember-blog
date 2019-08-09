@@ -79,7 +79,7 @@ In the 3.x series, the [Ember Guides](https://guides.emberjs.com/) would send yo
 
 To fix this issue, [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) took on the massive task of updating the links so that **the version of Ember API matches that of Ember Guides when redirected**. (Thank you!) 💖
 
-The next steps are to fix remaining issues with 3.11 links and introduce tests to check for broken links. We appreciate you for your patience. If you notice additional broken links, please let the Ember Learning Team know in the `#dev-ember-learning` channel on Discord.
+The next steps are to fix remaining issues with 3.11 links and introduce tests to check for broken links. We appreciate you for your patience. If you notice additional broken links, please let the Ember Learning Team know in the `#dev-ember-learning` channel on [Discord](https://discordapp.com/invite/emberjs).
 
 ---
 
