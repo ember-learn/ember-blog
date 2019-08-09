@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
-{{on}} & {{fn}} In Octane Guides 🔥,
+{{on}} & {{fn}} in Octane Guides 🔥,
 Foreign Key Attrs Blog Post 🔑,
 
 ---
