@@ -59,7 +59,7 @@ A site built on the JAMstack is often consisting of a mix of **J**avaScript, reu
 <!-- alex ignore king-queen -->
 In his talk **Empress - JAM Stack Templates for Human Beings** at [LeedsJS](https://leedsjs.com/) - [@mansona](https://github.com/mansona) presents static site generation solutions that empower developers and designers alike to create fast and beautiful sites on the web. And surely enough: Empress' site generators are **powered by Ember**! 🐹
 
-Be sure to check out the talk over on [YouTube](ttps://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), give a 👍 and your thoughts in the comments below!
+Be sure to check out the talk over on [YouTube](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), give a 👍 and your thoughts in the comments below!
 
 ---
 
