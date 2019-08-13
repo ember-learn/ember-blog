@@ -14,7 +14,7 @@ This week:
 there's a new Zoey on the block 📷,
 ... 
 and last, but not least,
-...
+...!
 
 ---
 
