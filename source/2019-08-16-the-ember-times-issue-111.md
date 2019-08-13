@@ -118,15 +118,6 @@ In the latest [episode on the Crash Log Podcast](https://crashlog.transistor.fm/
 <!-- alex ignore crash -->
 Listen to the full episode on [the Crash Log Podcast website](https://crashlog.transistor.fm/episodes/episode-6)!
 
-
-
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
