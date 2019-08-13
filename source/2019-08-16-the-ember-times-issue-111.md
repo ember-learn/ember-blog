@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -32,13 +32,18 @@ responsive: true
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [New Empress Zoey 📷](https://twitter.com/melaniersumner/status/1156652744092069888)
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
+
 <add blurb and emoji to "SOME-INTRO-HERE">
+
+<div class="blog-row">
+  <img class="float-right small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
+
+You might recall that we wrote about [@mansona](https://github.com/mansona)'s talk about [Empress](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), Ember's static site/JAMStack product, last week. Hopefully you'll be inspired to build your own empress-blog template even if you only know HTML and CSS. But wait, there's more! 
+
+Empress now has a [Zoey mascot](https://emberjs.com/mascots) of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out [Empress on GitHub](https://github.com/empress).
   
 ---
 
@@ -133,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
