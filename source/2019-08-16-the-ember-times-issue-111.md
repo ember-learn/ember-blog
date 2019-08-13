@@ -44,7 +44,7 @@ and last, but not least,
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
 
-You might recall that we wrote about [@mansona](https://github.com/mansona)'s talk about [Empress](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), Ember's static site/JAMStack product, last week. Hopefully you'll be inspired to build your own empress-blog template even if you only know HTML and CSS. **But wait, there's more!** 
+You might recall that we wrote about [@mansona](https://github.com/mansona)'s talk on [Empress](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), Ember's static site/JAMStack product, last week. Hopefully you'll be inspired to build your own [empress-blog](https://github.com/empress/empress-blog) template even if you only know HTML and CSS. **But wait, there's more!** 
 
 Empress now has a [Zoey mascot](https://emberjs.com/mascots) of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out [Empress on GitHub](https://github.com/empress).
 <!--alex enable king-queen-->  
