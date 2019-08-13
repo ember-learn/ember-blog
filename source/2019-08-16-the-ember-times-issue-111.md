@@ -9,6 +9,12 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+This week:
+...
+there's a new Zoey on the block 📷,
+... 
+and last, but not least,
+...
 
 ---
 
@@ -32,18 +38,16 @@ responsive: true
 
 ---
 
+<!--alex disable king-queen-->
 ## [New Empress Zoey 📷](https://twitter.com/melaniersumner/status/1156652744092069888)
-
-<consider adding some bold to your paragraph>
-
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
 
-You might recall that we wrote about [@mansona](https://github.com/mansona)'s talk about [Empress](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), Ember's static site/JAMStack product, last week. Hopefully you'll be inspired to build your own empress-blog template even if you only know HTML and CSS. But wait, there's more! 
+You might recall that we wrote about [@mansona](https://github.com/mansona)'s talk about [Empress](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), Ember's static site/JAMStack product, last week. Hopefully you'll be inspired to build your own empress-blog template even if you only know HTML and CSS. **But wait, there's more!** 
 
 Empress now has a [Zoey mascot](https://emberjs.com/mascots) of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out [Empress on GitHub](https://github.com/empress).
+<!--alex enable king-queen-->  
   
 ---
 
