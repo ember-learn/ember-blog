@@ -44,10 +44,15 @@ and last, but not least,
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
 
-You might recall that we wrote about [@mansona](https://github.com/mansona)'s talk on [Empress](https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780), Ember's static site/JAMStack product, [last week](https://the-emberjs-times.ongoodbits.com/2019/08/09/issue-110). Hopefully, you'll be inspired to build your own [empress-blog](https://github.com/empress/empress-blog) template even if you only know HTML and CSS. **But wait, there's more!** 
+  <p>You might recall that we wrote about <a href="https://github.com/mansona">@mansona</a>
+  's talk on <a href="https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780">Empress</a>
+  , Ember's static site/JAMStack product, <a href="https://the-emberjs-times.ongoodbits.com/2019/08/09/issue-110">last week</a>
+  . Hopefully, you'll be inspired to build your own <a href="https://github.com/empress/empress-blog">empress-blog</a>
+   template even if you only know HTML and CSS. <strong>But wait, there's more!</strong></p> 
 
-Empress now has a [Zoey mascot](https://emberjs.com/mascots) of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out [Empress on GitHub](https://github.com/empress).
-<!--alex enable king-queen-->  
+  <p>Empress now has a <a href="https://emberjs.com/mascot">Zoey mascot</a> of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out <a href="https://github.com/empress">Empress on GitHub</a>.</p>
+  <!--alex enable king-queen-->  
+</div>
   
 ---
 
