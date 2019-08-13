@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 111
 author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/08/16-the-ember-times-issue-111.html"
+alias : "blog/2019/08/12-the-ember-times-issue-111.html"
 responsive: true
 ---
 
