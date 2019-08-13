@@ -42,7 +42,7 @@ and last, but not least,
 ## [New Empress Zoey 📷](https://twitter.com/melaniersumner/status/1156652744092069888)
 
 <div class="blog-row">
-  <img class="float-right small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
+  <img class="float-right extra-small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
 
   <p>You might recall that we wrote about <a href="https://github.com/mansona">@mansona</a>
   's talk on <a href="https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780">Empress</a>
