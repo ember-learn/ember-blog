@@ -6,7 +6,7 @@ responsive: true
 ---
 
 The Ember community is wrapping up the work for [Octane](https://emberjs.com/editions/), and we expect to get it over the finish line over the next three releases!
-Ember Octane updates Ember with modern, streamlined components and stage management that makes it fun to build components. It has seamless interoperability with existing apps, letting teams migrate at their own pace.
+Ember Octane describes a set of new features that, when taken together, represent a foundational improvement to the way you use Ember. It has modern, streamlined components and state management that make it fun to build web applications. With seamless interoperability for existing apps, teams can migrate at their own pace, while developers building new apps start out with the best that Ember has to offer.
 
 This article will cover the release plan and how your team can prepare.
 
