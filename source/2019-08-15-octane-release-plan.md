@@ -26,7 +26,7 @@ Since Octane was first announced, over a hundred contributors have been hard at 
 
 ## Preparing your apps for Octane
 
-Ember Octane is a collection of existing features, many of which have already shipped in stable releases. If your team is excited to use Octane, there are some things you can do today to prepare.
+Ember Octane is a collection of exciting features, many of which have already shipped in stable releases. If your team wants to get a head start, there are some things you can do today to prepare.
 
 ### Visit the Octane Migration channel on Discord
 
