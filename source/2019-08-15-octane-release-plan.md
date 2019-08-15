@@ -94,7 +94,7 @@ ember feature:enable template-only-glimmer-component
 
 ## Using Octane idioms today
 
-Because many of Octane's features have a already landed, you can start trying out these new features today.
+Because many of Octane's features have already landed, you can start trying out these new features today.
 
 We do not recommend attempting to mass-migrate your code to new idioms until the codemods have been finalized in Ember 3.14. The best way to use Octane idioms is in new components.
 
