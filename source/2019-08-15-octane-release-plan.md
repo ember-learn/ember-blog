@@ -22,7 +22,7 @@ If there are any major changes to these plans, we will update this post.
 
 ## The work that remains
 
-Since Octane was first announced, over a hundred contributors have been hard at work to test it and ship it in a stable release. Work continues at full speed on codemods, learning resources, the Ember Inspector, and our public website. Anyone who is interested in helping with these final steps is invited to join the #st-octane channel on [Ember Discord](https://emberjs.com/community).
+Since Octane was first announced, over a hundred contributors have been hard at work to test it and ship it in a stable release. Work continues at full speed on codemods, learning resources, the Ember Inspector, and our public website. Anyone who is interested in helping with these final steps is invited to join the `#st-octane` channel on [Ember Discord](https://emberjs.com/community).
 
 ## Preparing your apps for Octane
 
