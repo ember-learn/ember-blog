@@ -51,7 +51,9 @@ If your CSS (or JavaScript) relies on this `<div>`, you can explicitly add it to
 
 You opt in to this change by
 
-    $ ember feature:disable application-template-wrapper
+```sh
+ember feature:disable application-template-wrapper
+```
 
 ### jquery-integration
 
@@ -61,10 +63,10 @@ Ember's internals no longer depend on jQuery. If your app still uses jQuery dire
 
 Alternatively, you could migrate away from using jQuery in your application, but it is not necessary. Octane's other features work just fine either way.
 
-You opt in to this change by
+You opt in to this change by:
 
 ```sh
-$ ember feature:disable jquery-integration
+ember feature:disable jquery-integration
 ```
 
 If you still want to use jQuery in your application, make sure to add `@ember/jquery` to your `package.json`.
@@ -82,7 +84,7 @@ Alternatively, you could eliminate any references to the implicit component by r
 When done, you can opt in to the new behavior:
 
 ```sh
-$ ember feature:enable template-only-glimmer-component
+ember feature:enable template-only-glimmer-component
 ```
 
 ## Using Octane idioms today
@@ -102,7 +104,7 @@ In classic Ember, the component base class is `@ember/component` and you idiomat
 import Component from "@ember/component";
 
 export default Component.extend({
-	// class definition here
+  // class definition here
 })
 ```
 
@@ -129,25 +131,26 @@ Ember Octane introduces a new way to manage the DOM directly in the template tha
 ```handlebars
 <h1>{{@title}}</h1>
 <div {{did-insert this.fadeIn}} class="alert">
-	{{yield}}
+  {{yield}}
 </div>
 ```
 
 ```javascript
 export default Component.extend({
-	fadeIn(element) {
-		element.classList.add('fade-in');
-	}
+  fadeIn(element) {
+    element.classList.add('fade-in');
+  }
 });
 ```
+
 
 This syntax is called a "modifier" because you use it to modify an element. It cuts down on bookkeeping because Ember will automatically run `did-insert` whenever the element is added into the DOM.
 
 ```handlebars
 {{#if this.shouldShow}}
-	<div {{did-insert this.fadeIn}} class="alert">
-		{{yield}}
-	</div>
+  <div {{did-insert this.fadeIn}} class="alert">
+    {{yield}}
+  </div>
 {{/if}}
 ```
 
@@ -157,7 +160,7 @@ This is especially useful when dealing with loops.
 
 ```handlebars
 {{#each @todos as |todo|}}
-	<li {{did-insert this.inlineEditor}}>{{todo.name}}</li>
+  <li {{did-insert this.inlineEditor}}>{{todo.name}}</li>
 {{/each}}
 ```
 
@@ -171,7 +174,7 @@ One final thing: if you find yourself writing the same `did-insert` code in mult
 
 ```handlebars
 <div {{did-resize this.onResize}}>
-	Resize the window to see the modifier in action
+  Resize the window to see the modifier in action
 </div>
 ```
 
@@ -187,7 +190,7 @@ When using Glimmer components, you can handle events on any element using a new 
 <h1 {{on "click" this.toggleBody}}>Hello world</h1>
 
 {{#if this.showingBody}}
-	<div>{{yield}}</div>
+  <div>{{yield}}</div>
 {{/if}}
 ```
 
@@ -236,9 +239,9 @@ import Component from "@ember/component";
 
 @classic
 export default class extends Component {
-	init() {
-		// potential problem -- switch to using the constructor instead
-	}
+  init() {
+    // potential problem -- switch to using the constructor instead
+  }
 }
 ```
 
