@@ -5,9 +5,14 @@ tags: 2019, Announcement, Recent Posts
 responsive: true
 ---
 
-The Ember community is wrapping up the [Octane](https://emberjs.com/editions/) edition, and we expect to get it over the finish line over the next three releases!
+The Ember community is wrapping up the work for [Octane](https://emberjs.com/editions/), and we expect to get it over the finish line over the next three releases!
+Ember Octane updates Ember with modern, streamlined components and stage management that makes it fun to build components. It has seamless interoperability with existing apps, letting teams migrate at their own pace.
 
-- The next release of Ember is 3.12, which is an LTS (long term support) candidate. Check out the [release blog posts](https://blog.emberjs.com) to learn which of Octane's features are already available in stable releases.
+This article will cover the release plan and how your team can prepare.
+
+## Release plan
+
+- The next release of Ember is 3.12, which is an LTS (long term support) candidate. Check out the [release blog posts](https://blog.emberjs.com) to learn which of Octane's features are already available in stable releases like this one.
 - Ember 3.13 will be feature-complete for Octane, and apps using stable Ember can opt in. At this point, we're still wrapping up polish, especially in the codemods, inspector and guides.
 - In Ember 3.14, Octane will be the primary, recommended way to use Ember. In Ember 3.14, new apps will have Octane's optional features enabled by default. The guides and tutorials will show Octane examples, and codemods will be available to help users migrate to Octane idioms.
 
