@@ -247,7 +247,7 @@ export default class extends Component {
 }
 ```
 
-To help catch these bugs using the `@classic` decorator now, install `[ember-classic-decorator](https://github.com/pzuraq/ember-classic-decorator)` and enable [`classic-decorator-hooks`](https://github.com/pzuraq/ember-classic-decorator#installation) and `classic-decorator-no-classic-methods` in `.eslintrc.js`
+To help catch these bugs using the `@classic` decorator now, install [`ember-classic-decorator`](https://github.com/pzuraq/ember-classic-decorator) and enable [`classic-decorator-hooks`](https://github.com/pzuraq/ember-classic-decorator#installation) and `classic-decorator-no-classic-methods` in `.eslintrc.js`
 
 ## Thanks for reading!
 
