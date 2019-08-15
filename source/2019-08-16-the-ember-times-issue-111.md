@@ -108,7 +108,7 @@ and last, but not least,
 ---
 
 <!-- alex ignore crash -->
-## [Learn about HTML Scopes and Fastboot Complexity with the Crash Log Podcast](https://crashlog.transistor.fm/episodes/episode-6)
+## [Learn about HTML Scopes and Fastboot Complexity with the Crash Log Podcast 🎙](https://crashlog.transistor.fm/episodes/episode-6)
 
 One of Ember Octane's most prominent and exciting features - [Glimmer Components](https://emberjs.github.io/rfcs/0416-glimmer-components.html) - approaches HTML semantics of components in a new way: In contrast to traditional components, Glimmer components default to **outer HTML semantics**, meaning, whichever root HTML element you see declared in your component's template file, is what you're going to get rendered in the DOM.
 
