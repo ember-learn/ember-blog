@@ -37,7 +37,7 @@ Octane uses [Native JavaScript Classes](https://developer.mozilla.org/en-US/docs
 
 ### Consider trying Octane features that have already landed
 
-The rest of the sections below cover optional features in Octane that you can consider using now. These features are not interdependent. You can opt into them one at a time, in any order.
+The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order.
 
 You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
 
