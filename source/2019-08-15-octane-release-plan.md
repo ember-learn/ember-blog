@@ -7,11 +7,11 @@ responsive: true
 
 The Ember community is wrapping up the [Octane](https://emberjs.com/editions/) edition, and we expect to get it over the finish line over the next three releases!
 
-- The latest release of Ember is 3.12, which is a an LTS (long term support) candidate. As an LTS, it does not have any significant new features, but it does have many of Octane's features! Check out the [release blog posts](https://blog.emberjs.com) to learn about them.
-- Ember 3.13 will be feature-complete for Octane, and apps using stable Ember can opt in to Octane. At this point, we're still wrapping up polish, especially in the codemods, inspector and guides.
-- In Ember 3.14, Octane mode will be the primary, recommended way to use Ember. Ember 3.14 will default new apps to Octane mode, and it will be the recommended mode. The guides and tutorials will document Octane mode and Octane idioms, and codemods to help users migrate to Octane idioms will be available.
+- The next release of Ember is 3.12, which is a an LTS (long term support) candidate. Check out the [release blog posts](https://blog.emberjs.com) to learn which of Octane's features are already available in stable releases.
+- Ember 3.13 will be feature-complete for Octane, and apps using stable Ember can opt in. At this point, we're still wrapping up polish, especially in the codemods, inspector and guides.
+- In Ember 3.14, Octane will be the primary, recommended way to use Ember. In Ember 3.14, new apps will have Octane's optional features enabled by default. The guides and tutorials will show Octane examples, and codemods will be available to help users migrate to Octane idioms.
 
-**Octane features are opt-in**, and this will continue to be true for the rest of the 3.x series. As semver would suggest, all releases until 4.0 are backwards-compatible with 3.x.
+**Octane features are opt-in**, and this will continue to be true for the rest of the 3.x series. As [SemVer](https://semver.org/) would suggest, all releases until 4.0 are backwards-compatible with 3.x.
 
 If there are any major changes to these plans, we will update this post.
 
@@ -21,7 +21,7 @@ Since Octane was first announced, over a hundred contributors have been hard at 
 
 ## Preparing your apps for Octane
 
-Ember Octane is a collection of existing features, many of which have already shipped in stable releases. If your team is excited to use Octane, there are some things you can do today📅 to prepare.
+Ember Octane is a collection of existing features, many of which have already shipped in stable releases. If your team is excited to use Octane, there are some things you can do today to prepare.
 
 ### Visit the Octane Migration channel on Discord
 
@@ -45,7 +45,7 @@ Even then, many teams may want to not convert older code at all, and just start 
 
 ### application-template-wrapper
 
-In classic Ember, your entire application is automatically wrapped in a `<div>` with the class `ember-application`. Octane applications do not automatically insert this uneccessary `<div>`.
+In classic Ember, your entire application is automatically wrapped in a `<div>` with the class `ember-application`. Octane applications do not automatically insert this unneccessary `<div>`.
 
 If your CSS (or JavaScript) relies on this `<div>`, you can explicitly add it to your `application.hbs` or refactor your code to no longer rely on it.
 
@@ -118,7 +118,7 @@ export default class extends Component {
 }
 ```
 
-Glimmer components are a streamlined component base class that doesn't depend on `Ember.Object`. It also doesn't have the proliferation of APIs for configuring the root element, like `classNameBindings`, `this.element` and attaching event handlers to the root element. This is because components that inherit from `@glimmer/component` don't have a special root element at all.
+Glimmer components are a streamlined component base class that doesn't depend on `Ember.Object`. It also doesn't have the proliferation of APIs for configuring the root element, like `classNameBindings`, `this.element` and attaching event handlers to the root element. This is because components that inherit from `@glimmer/component` don't have a root element at all.
 
 Glimmer components are fully compatible with classic components and other custom components. You can invoke Glimmer components from classic templates and vice versa. You can use Glimmer components inside of the block passed to a classic component, and you can use classic components inside of the block passed to a Glimmer component. It's completely mix and match.
 
@@ -184,7 +184,7 @@ Custom modifiers provide a much more compositional way to package up DOM behavio
 
 In classic Ember, you can add event handlers to the root element of your component by adding methods to your class. For example, to handle clicks on your component's root element, you would add a `click` method to your class. To handle events on other methods you would use the `{{action}}` modifier where you want to handle the event, and nest the method inside of an `actions` hash.
 
-When using Glimmer components, you can handle events on any element using a new `{{on}}` modifier. Since Glimmer components do not have a special root element, `{{on}}` works anywhere.
+When using Glimmer components, you can handle events on any element using a new `{{on}}` modifier. Since Glimmer components do not have a root element, `{{on}}` works anywhere.
 
 ```handlebars
 <h1 {{on "click" this.toggleBody}}>Hello world</h1>
@@ -217,7 +217,7 @@ Octane introduces a new way of idiomatically invoking components using curly bra
 
 ```handlebars
 <Input @value={{this.name}} />
-<LinkTo @route={{this.routeName}}>Some content<LinkTo>
+<LinkTo @route={{this.routeName}}>Some content</LinkTo>
 ```
 
 In addition to being easier to read, this syntax makes it possible to pass HTML attributes directly to components. This means no more having to maintain a list of `attributeBindings` in your components. It also makes it easier to attach ARIA attributes to components, including components from addons.
