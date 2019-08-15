@@ -7,7 +7,7 @@ responsive: true
 
 The Ember community is wrapping up the [Octane](https://emberjs.com/editions/) edition, and we expect to get it over the finish line over the next three releases!
 
-- The latest release of Ember is 3.12, which is a an LTS (long term support) candidate. As an LTS, it does not have any significant new features, but it does have many of Octane's features! Check out the [release blog posts](https://blog.emberjs.com) to learn about them.
+- The latest release of Ember is 3.12, which is an LTS (long term support) candidate. As an LTS, it does not have any significant new features, but it does have many of Octane's features! Check out the [release blog posts](https://blog.emberjs.com) to learn about them.
 - Ember 3.13 will be feature-complete for Octane, and apps using stable Ember can opt in to Octane. At this point, we're still wrapping up polish, especially in the codemods, inspector and guides.
 - In Ember 3.14, Octane mode will be the primary, recommended way to use Ember. Ember 3.14 will default new apps to Octane mode, and it will be the recommended mode. The guides and tutorials will document Octane mode and Octane idioms, and codemods to help users migrate to Octane idioms will be available.
 
