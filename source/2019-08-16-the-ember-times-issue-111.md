@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 111
-author: Amy Lam, the crowd
+author: Amy Lam, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/16-the-ember-times-issue-111.html"
 responsive: true
@@ -12,7 +12,8 @@ responsive: true
 This week:
 ...
 there's a new Zoey on the block 📷,
-... 
+...
+outer HTML semantics on the Crash Log Podcast 🎙,
 and last, but not least,
 ...!
 
@@ -22,7 +23,7 @@ and last, but not least,
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -32,7 +33,7 @@ and last, but not least,
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -48,72 +49,75 @@ and last, but not least,
   's talk on <a href="https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780">Empress</a>
   , Ember's static site/JAMStack product, <a href="https://the-emberjs-times.ongoodbits.com/2019/08/09/issue-110">last week</a>
   . Hopefully, you'll be inspired to build your own <a href="https://github.com/empress/empress-blog">empress-blog</a>
-   template even if you only know HTML and CSS. <strong>But wait, there's more!</strong></p> 
+   template even if you only know HTML and CSS. <strong>But wait, there's more!</strong></p>
 
   <p>Empress now has a <a href="https://emberjs.com/mascot">Zoey mascot</a> of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out <a href="https://github.com/empress">Empress on GitHub</a>.</p>
   <!--alex enable king-queen-->  
 </div>
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+<!-- alex ignore crash -->
+## [Learn about HTML Scopes and Fastboot Complexity with the Crash Log Podcast 🎙](https://crashlog.transistor.fm/episodes/episode-6)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+One of Ember Octane's most prominent and exciting features - [Glimmer Components](https://emberjs.github.io/rfcs/0416-glimmer-components.html) - approaches HTML semantics of components in a new way: In contrast to traditional components, Glimmer components default to **outer HTML semantics**, meaning, whichever root HTML element you see declared in your component's template file, is what you're going to get rendered in the DOM.
+
+<!-- alex ignore crash -->
+In the latest [episode on the Crash Log Podcast](https://crashlog.transistor.fm/episodes/episode-6) you can now tune into an interesting discussion about the meaning of outer HTML semantics in Glimmer Components and how it affects developer ergonomics. Your podcast presenters [@knownasilya](https://twitter.com/knownasilya) and [@davewasmer](https://twitter.com/davewasmer) will also chat about [Splatattributes](https://emberjs.github.io/rfcs/0435-modifier-splattributes.html) and how you can measure and investigate your app's performance when using **Fasboot**.
+
+<!-- alex ignore crash -->
+Listen to the full episode on [the Crash Log Podcast website](https://crashlog.transistor.fm/episodes/episode-6)!
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -135,7 +139,7 @@ and last, but not least,
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -147,4 +151,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Jessica Jordan, the crowd and the Learning Team
