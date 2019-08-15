@@ -148,7 +148,6 @@ export default Component.extend({
 });
 ```
 
-
 This syntax is called a "modifier" because you use it to modify an element. It cuts down on bookkeeping because Ember will automatically run `did-insert` whenever the element is added into the DOM.
 
 ```handlebars
