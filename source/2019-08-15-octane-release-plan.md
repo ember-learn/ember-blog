@@ -40,13 +40,17 @@ Update your app to 3.12 after it is released. [ember-cli-update](https://github.
 
 Octane uses [Native JavaScript Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), so we recommend that developers try them out with regular JavaScript examples to learn the basics, if they are not already familiar. Without some background knowledge of classes, it will be hard for developers to tell which pieces are specific to Ember versus native JavaScript syntax.
 
-### Consider trying Octane features that have already landed
+### Try using Octane features that have already landed
 
-The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order.
+The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order. The best way to try them out is when you are writing new components. 
 
-You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. When we say "Octane idioms," we mean the syntax and patterns that Octane introduces. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
+You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. When we say "Octane idioms," we mean the syntax, APIs, and patterns for Octane. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
 
 Even then, many teams may want to not convert older code at all, and just start using Octane idioms moving forward. **This is a valid, fully supported approach.** We will have a guide to upgrading describing the options and strategy that we will finalize with Ember 3.14. At the same time, all of the Ember Guides and Tutorials will be fully migrated to Octane idioms. You can get a sneak peek of those work-in-progress learning resources [here](https://emberjs.com/editions/octane)!
+
+## A tour of stable features
+
+Here are some of the features that will play a key role in Octane. These are stable features that have already been released.
 
 ### application-template-wrapper
 
@@ -92,13 +96,7 @@ When done, you can opt in to the new behavior:
 ember feature:enable template-only-glimmer-component
 ```
 
-## Using Octane idioms today
-
-Because many of Octane's features have already landed, you can start trying out these new features today.
-
-We do not recommend attempting to mass-migrate your code to new idioms until the codemods have been finalized in Ember 3.14. The best way to use Octane idioms is in new components.
-
-## Glimmer Component Base Class
+### Glimmer Component Base Class
 
 One of the biggest changes to Ember's idioms in Octane is the recommended component base class.
 
@@ -234,7 +232,7 @@ See the [Angle Bracket Syntax Conversion Guide](https://guides.emberjs.com/relea
 
 You can use native class syntax to subclass from any framework base class. This means that you can migrate your components that inherit from `@ember/component` to native class syntax.
 
-### Mitigating Gotchas
+#### Native Class Gotchas
 
 There are a handful of gotchas when using native class syntax to subclass from `@ember/component` (many of which involve the `init` method). To help alleviate those issues, you can attach the `@classic` decorator to classes that inherit from `Ember.Object` (directly or indirectly), and use Ember lints to help catch potential problems.
 
