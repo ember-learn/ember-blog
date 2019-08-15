@@ -14,7 +14,7 @@ This article will cover the release plan and how your team can prepare.
 
 - The next release of Ember is 3.12, which is an LTS (long term support) candidate. Check out the [release blog posts](https://blog.emberjs.com) to learn which of Octane's features are already available in stable releases like this one.
 - Ember 3.13 will be feature-complete for Octane, and apps using stable Ember can opt in. At this point, we're still wrapping up polish, especially in the codemods, inspector and guides.
-- In Ember 3.14, Octane will be the primary, recommended way to use Ember. In Ember 3.14, new apps will have Octane's optional features enabled by default. The guides and tutorials will show Octane examples, and codemods will be available to help users migrate to Octane idioms.
+- In Ember 3.14, Octane will be the primary, recommended way to use Ember. In Ember 3.14, new apps will have Octane's optional features enabled by default. The guides and tutorials will show Octane examples, and codemods will be available to help users migrate to Octane.
 
 **Octane features are opt-in**, and this will continue to be true for the rest of the 3.x series. As [SemVer](https://semver.org/) would suggest, all releases until 4.0 are backwards-compatible with 3.x.
 
@@ -44,7 +44,7 @@ Octane uses [Native JavaScript Classes](https://developer.mozilla.org/en-US/docs
 
 The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order.
 
-You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
+You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. When we say "Octane idioms," we mean the syntax and patterns that Octane introduces. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
 
 Even then, many teams may want to not convert older code at all, and just start using Octane idioms moving forward. **This is a valid, fully supported approach.** We will have a guide to upgrading describing the options and strategy that we will finalize with Ember 3.14. At the same time, all of the Ember Guides and Tutorials will be fully migrated to Octane idioms. You can get a sneak peek of those work-in-progress learning resources [here](https://emberjs.com/editions/octane)!
 
@@ -102,10 +102,10 @@ We do not recommend attempting to mass-migrate your code to new idioms until the
 
 One of the biggest changes to Ember's idioms in Octane is the recommended component base class.
 
-In classic Ember, the component base class is `@ember/component` and you idiomatically extend from it using `Component.extend()`.
+In classic Ember, the component base class is `@ember/component` and you extend from it using `Component.extend()`.
 
 ```javascript
-// Classic Idiom. NOT OCTANE
+// Classic, NOT OCTANE
 import Component from "@ember/component";
 
 export default Component.extend({
@@ -113,7 +113,7 @@ export default Component.extend({
 })
 ```
 
-In Ember Octane, it is idiomatic to extend from a new base class: `@glimmer/component` and to extend it using native class syntax.
+In Ember Octane, extend from a new base class: `@glimmer/component` and use native class syntax.
 
 ```js
 import Component from '@glimmer/component';
@@ -131,7 +131,7 @@ Glimmer components are fully compatible with classic components and other custom
 
 The `@ember/component` base class has life-cycle hooks like `didInsertElement` and `didUpdateElement`. Ember fires these hooks at appropriate times, and you can use them to manage the DOM for your component.
 
-Ember Octane introduces a new way to manage the DOM directly in the template that works everywhere in combination with classic Ember idioms and Octane idioms.
+Ember Octane introduces a new way to manage the DOM directly in the template that works everywhere in combination with classic Ember and Octane.
 
 ```handlebars
 <h1>{{@title}}</h1>
@@ -182,7 +182,7 @@ One final thing: if you find yourself writing the same `did-insert` code in mult
 </div>
 ```
 
-Custom modifiers provide a much more compositional way to package up DOM behavior than mixins, which is the idiomatic approach in classic Ember.
+Custom modifiers provide a much more compositional way to package up DOM behavior than mixins, which is the typical approach in classic Ember.
 
 ### The `{{on}}` Modifier
 
@@ -210,14 +210,14 @@ Ember 3.14 will finalize a codemod that uses dynamic information from booting up
 
 ### Angle Bracket Invocation
 
-This one landed a while ago, and many people have already started to use it in their apps. In classic Ember, you would idiomatically invoke components using curly bracket syntax:
+This one landed a while ago, and many people have already started to use it in their apps. In classic Ember, you would invoke components using curly bracket syntax:
 
 ```handlebars
 {{input value=this.name}}
 {{#link-to route=this.routeName}}Some content{{/link-to}}
 ```
 
-Octane introduces a new way of idiomatically invoking components using curly braces and `@names`.
+Octane introduces a new way of invoking components using curly braces and `@names`.
 
 ```handlebars
 <Input @value={{this.name}} />
