@@ -7,7 +7,7 @@ responsive: true
 
 The Ember community is wrapping up the [Octane](https://emberjs.com/editions/) edition, and we expect to get it over the finish line over the next three releases!
 
-- The next release of Ember is 3.12, which is a an LTS (long term support) candidate. Check out the [release blog posts](https://blog.emberjs.com) to learn which of Octane's features are already available in stable releases.
+- The next release of Ember is 3.12, which is an LTS (long term support) candidate. Check out the [release blog posts](https://blog.emberjs.com) to learn which of Octane's features are already available in stable releases.
 - Ember 3.13 will be feature-complete for Octane, and apps using stable Ember can opt in. At this point, we're still wrapping up polish, especially in the codemods, inspector and guides.
 - In Ember 3.14, Octane will be the primary, recommended way to use Ember. In Ember 3.14, new apps will have Octane's optional features enabled by default. The guides and tutorials will show Octane examples, and codemods will be available to help users migrate to Octane idioms.
 
@@ -37,7 +37,7 @@ Octane uses [Native JavaScript Classes](https://developer.mozilla.org/en-US/docs
 
 ### Consider trying Octane features that have already landed
 
-The rest of the sections below cover optional features in Octane that you can consider using now. These features are not interdependent. You can opt into them one at a time, in any order.
+The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order.
 
 You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
 
