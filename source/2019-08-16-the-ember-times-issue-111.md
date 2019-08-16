@@ -1,23 +1,20 @@
 ---
 title: The Ember Times - Issue No. 111
-author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/16-the-ember-times-issue-111.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Здраво Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
-...
 learn how to write async-aware tests 🕰️,
 there's a new Zoey on the block 📷,
-...
+<!-- alex ignore crash -->
 outer HTML semantics on the Crash Log Podcast 🎙,
 and last, but not least,
-release of Ember Table 2.0!,
-...!
+the release of Ember Table 2.0!
 
 ---
 
@@ -134,7 +131,7 @@ Listen to the full episode on [the Crash Log Podcast website](https://crashlog.t
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/jrowlingson" target="gh-user">@jrowlingson</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/NullVoxPopuli" target="gh-user">@NullVoxPopuli</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/llunn" target="gh-user">@llunn</a>, <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/ryanolsonx" target="gh-user">@ryanolsonx</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/simonihmig" target="gh-user">@simonihmig</a>, <a href="https://github.com/sdebarros" target="gh-user">@sdebarros</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/CvX" target="gh-user">@CvX</a>, <a href="https://github.com/dgeb" target="gh-user">@dgeb</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/chiragpat" target="gh-user">@chiragpat</a> and <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -163,5 +160,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
-
+Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee and the Learning Team
