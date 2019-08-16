@@ -1,12 +1,12 @@
 ---
 title: Ember 3.2 Released
 author: Robert Jackson, Melanie Sumner & Kenneth Larsen
-tags: Releases, 2018, 3, 3.2
+tags: Releases, 2018, Version 3.x, 3, 3.2
 responsive: true
 alias : "blog/2018/06/29/ember-3-2-released.html"
 ---
 
-Today the Ember project is releasing version 3.2.0 of Ember.js, Ember Data, and Ember CLI- a little later than planned, for sure! Thank you for your support and patience. 
+Today the Ember project is releasing version 3.2.0 of Ember.js, Ember Data, and Ember CLI- a little later than planned, for sure! Thank you for your support and patience.
 
 This release kicks off the 3.3 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report
 any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to
@@ -84,6 +84,7 @@ Use of `Ember.Logger` is deprecated. You should replace any calls to `Ember.Logg
 
 In Microsoft Edge and IE11, uses of console beyond calling its methods may require more subtle changes than simply substituting console wherever `Logger` appears. In these browsers, they will behave as they do in other browsers when the development tools are open.
 
+<!-- alex ignore invalid -->
 But, when run normally, calls to its methods must not be bound to anything other than  the console object. If not, you will receive an Invalid calling object exception. This is a known inconsistency with these browsers.
 
 To avoid this, transform this:

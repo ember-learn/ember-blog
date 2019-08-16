@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XX
+title: The Ember Times - Issue No. XXS
 author: the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XX.html"
+alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
 ---
 
@@ -13,6 +13,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -22,6 +23,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -31,6 +33,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -40,6 +43,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -49,6 +53,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -58,6 +63,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -67,6 +73,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -76,6 +83,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
@@ -85,6 +93,7 @@ responsive: true
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
+
 <change section title emoji>
 <consider adding some bold to your paragraph>
   
