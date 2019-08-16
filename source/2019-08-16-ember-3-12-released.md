@@ -55,9 +55,15 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 No new features introduced in Ember Data 3.12.
 
-#### Deprecations (0)
+#### Deprecations (2)
 
-No new deprecations introduced in Ember Data 3.12.
+**Evented Api Usage (1 of 2)**
+
+With Ember Data 3.12 the `Ember.Evented` functionality on `DS.Model`, `DS.ManyArray`, `DS.Errors`, `DS.RecordArray`, and `DS.PromiseManyArray` is deprecated. Please refer to the [deprecations guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_evented-api-usage) for more info.
+
+**Record Lifecycle Event Methods (2 of 2)**
+
+Lifecycle event methods on `DS.model` such as `becameError`, `becameInvalid`, `didCreate`, `didDelete`, `didLoad`, `didUpdate`, `ready`, `rolledBack` are deprecated as of Ember Data 3.12. For a guide to replacing these event methods with computed properties please refer to the [deprecations guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_record-lifecycle-event-methods)
 
 
 For more details on changes in Ember Data 3.12, please review the
