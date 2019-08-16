@@ -22,13 +22,13 @@ and last, but not least,
 
 ## [Settle Down; Ember's Test Framework Has Your Async Covered 🕰️](https://www.linkedin.com/pulse/settle-down-embers-test-framework-has-your-async-covered-calvert/)
 
-In the words of the author, "[t]he Ember community has spent a lot of time thinking about how to make your tests easy to write, dependable, and most importantly, **async aware**." It's easy in Ember to ensure that your synchronous tests wait for asynchronous actions to complete. 💎
+"The Ember community has spent a lot of time thinking about how to make your tests easy to write, dependable, and most importantly, **async aware**." It's easy in Ember to ensure that your synchronous tests wait for asynchronous actions to complete. 💎
 
-[@scalvert](https://github.com/scalvert) gives a great overview of how the [`settled`](https://github.com/emberjs/ember-test-helpers/blob/master/addon-test-support/@ember/test-helpers/settled.ts) helper plays a pivotal role. Thanks to `settled`, the test helpers that we use every day⁠—`render`, `click`, `visit`, and `triggerEvent`⁠—know when async operations have completed. We can also use `settled` directly to complete an async operation that [`@ember/test-helpers`](https://github.com/emberjs/ember-test-helpers) doesn't handle.
+[@scalvert](https://github.com/scalvert) gives a great overview of how the [`settled`](https://github.com/emberjs/ember-test-helpers/blob/master/addon-test-support/@ember/test-helpers/settled.ts) helper plays a pivotal role. Thanks to `settled`, the test helpers that we use every day⁠—`render`, `click`, `visit`, and `triggerEvent`⁠—know when async operations have completed. We can also use `settled` directly to complete an async operation that [`@ember/test-helpers`](https://github.com/emberjs/ember-test-helpers) doesn't manage.
 
 The author also covers 2 additional tools that help us write async-aware tests:
 
-- [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters), to mark the start and end of an async operation
+- [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters), to mark the start and end of an async operation that '@ember/test-helpers' doesn't manage
 - [test isolation validation](https://github.com/emberjs/ember-qunit/blob/master/docs/TEST_ISOLATION_VALIDATION.md), to detect async leakage in tests
 
 So what are you *waiting* for? Learn how you can write async-aware tests in Ember today!
