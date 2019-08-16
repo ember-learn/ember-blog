@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 111
-author: Amy Lam, Jessica Jordan, the crowd
+author: Chris Ng, Amy Lam, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/16-the-ember-times-issue-111.html"
 responsive: true
@@ -15,6 +15,7 @@ there's a new Zoey on the block 📷,
 ...
 outer HTML semantics on the Crash Log Podcast 🎙,
 and last, but not least,
+release of Ember Table 2.0!,
 ...!
 
 ---
@@ -97,13 +98,13 @@ and last, but not least,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Table 2.0 Release 🎉](https://medium.com/build-addepar/ember-table-2-0-release-5b91903f3e34)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Ember Table 2.0](https://github.com/Addepar/ember-table) (“ET2”) has been rewritten from the ground up to be even more performant and flexible to use cases and was officially launched! [Ember Table 1.0](https://github.com/Addepar/ember-table-legacy) was then renamed “ember-table-legacy” to avoid confusion.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Some features Ember Table provides include fixed headers, footers, and columns, column resizing and reordering, ability to render thousands of rows performantly via occlusion rendering (leveraging [vertical-collection](https://github.com/html-next/vertical-collection)), and compatibility with Ember versions 1.13 through 3.10, with a progressively improved API.
+
+Questions or comments? Read the [Ember Table docs](https://opensource.addepar.com/ember-table/docs/) or file an issue on [GitHub](https://github.com/Addepar/ember-table) or join us in the #topic-tables channel in the [community Discord](https://discordapp.com/invite/zT3asNS)
 
 ---
 
@@ -151,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jessica Jordan, the crowd and the Learning Team
