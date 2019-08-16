@@ -5,7 +5,9 @@ tags: Releases, 2019, 3, 3.12
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.12 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.13 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.12 of Ember.js, Ember Data, and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates contain no new features, and have an extended support schedule. To learn about the next wave of features coming in future releases, see the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) post.
+
+This release kicks off the 3.13 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -21,7 +23,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.12
-The 3.12.0 release is an Ember.js Long-Term Support candidate. In six weeks, the 3.12.x series will become the latest LTS release and six weeks after that the 3.4 LTS branch will no longer receive bugfix patches.
+The 3.12.0 release is an Ember.js Long-Term Support candidate. In six weeks, the 3.12.x series will become the latest LTS release and six weeks after that the 3.4 LTS branch will no longer receive bugfix patches. LTS versions allow teams to upgrade less frequently while still getting support from the Ember project and the wider ecosystem.
 
 For more information about Ember's LTS policies, see the [announcement blog post](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html) and [builds page](http://emberjs.com/builds/).
 
