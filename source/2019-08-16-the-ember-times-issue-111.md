@@ -33,71 +33,20 @@ So what are you *waiting* for? Learn how you can write async-aware tests in Embe
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 <!--alex disable king-queen-->
 ## [New Empress Zoey 📷](https://twitter.com/melaniersumner/status/1156652744092069888)
 
 <div class="blog-row">
   <img class="float-right extra-small transparent padded" alt="Empress Zoey" title="Empress Zoey" src="/images/tomsters/empress.png" />
 
-  <p>You might recall that we wrote about <a href="https://github.com/mansona">@mansona</a>
-  's talk on <a href="https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780">Empress</a>
-  , Ember's static site/JAMStack product, <a href="https://the-emberjs-times.ongoodbits.com/2019/08/09/issue-110">last week</a>
-  . Hopefully, you'll be inspired to build your own <a href="https://github.com/empress/empress-blog">empress-blog</a>
-   template even if you only know HTML and CSS. <strong>But wait, there's more!</strong></p>
+  <p>You might recall that we wrote about <a href="https://github.com/mansona">@mansona</a>'s talk on <a href="https://www.youtube.com/watch?v=WL66D0bR0RQ&feature=youtu.be&t=780">Empress</a>,
+  Ember's static site/JAMStack product, <a href="https://the-emberjs-times.ongoodbits.com/2019/08/09/issue-110">last week</a>.
+  Hopefully, you'll be inspired to build your own <a href="https://github.com/empress/empress-blog">empress-blog</a> template even if you only know HTML and CSS.
+  <strong>But wait, there's more!</strong></p>
 
-  <p>Empress now has a <a href="https://emberjs.com/mascot">Zoey mascot</a> of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out <a href="https://github.com/empress">Empress on GitHub</a>.</p>
+  <p>Empress now has a <a href="https://emberjs.com/mascots/">Zoey mascot</a> of its own, joining a fabulous crowd of Zoeys and Tomsters. Check out <a href="https://github.com/empress">Empress on GitHub</a>.</p>
   <!--alex enable king-queen-->  
 </div>
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
