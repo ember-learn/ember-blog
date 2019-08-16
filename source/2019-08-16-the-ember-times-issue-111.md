@@ -102,7 +102,11 @@ release of Ember Table 2.0!,
 
 [Ember Table 2.0](https://github.com/Addepar/ember-table) (“ET2”) has been rewritten from the ground up to be even more performant and flexible to use cases and was officially launched! [Ember Table 1.0](https://github.com/Addepar/ember-table-legacy) has been renamed to “ember-table-legacy” to avoid confusion.
 
-Some features Ember Table provides include fixed headers, footers, and columns, column resizing and reordering, ability to render thousands of rows performantly via occlusion rendering (leveraging [vertical-collection](https://github.com/html-next/vertical-collection)), and compatibility with Ember versions 1.13 through 3.10, with a progressively improved API.
+Some key features that ET2 provides:
+- fixed headers, footers, and columns
+- column resizing and reordering
+- ability to render thousands of rows performantly via occlusion rendering (leveraging [vertical-collection](https://github.com/html-next/vertical-collection))
+- compatibility with Ember versions 1.13 through 3.10, with a progressively improved API
 
 Questions or comments? Read the [Ember Table docs](https://opensource.addepar.com/ember-table/docs/) or file an issue on [GitHub](https://github.com/Addepar/ember-table) or join us in the #topic-tables channel in the [community Discord](https://discordapp.com/invite/zT3asNS)
 
