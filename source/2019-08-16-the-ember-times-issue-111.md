@@ -28,7 +28,7 @@ and last, but not least,
 
 The author also covers 2 additional tools that help us write async-aware tests:
 
-- [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters), to mark the start and end of an async operation that '@ember/test-helpers' doesn't manage
+- [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters), to mark the start and end of an async operation that `@ember/test-helpers` doesn't manage
 - [test isolation validation](https://github.com/emberjs/ember-qunit/blob/master/docs/TEST_ISOLATION_VALIDATION.md), to detect async leakage in tests
 
 So what are you *waiting* for? Learn how you can write async-aware tests in Ember today!
