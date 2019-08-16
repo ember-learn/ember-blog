@@ -108,7 +108,7 @@ Some key features that ET2 provides:
 - ability to render thousands of rows performantly via occlusion rendering (leveraging [vertical-collection](https://github.com/html-next/vertical-collection))
 - compatibility with Ember versions 1.13 through 3.10, with a progressively improved API
 
-Questions or comments? Read the [Ember Table docs](https://opensource.addepar.com/ember-table/docs/) or file an issue on [GitHub](https://github.com/Addepar/ember-table) or join us in the #topic-tables channel in the [community Discord](https://discordapp.com/invite/zT3asNS)
+Questions or comments? Read the [Ember Table docs](https://opensource.addepar.com/ember-table/docs/), file an issue on [GitHub](https://github.com/Addepar/ember-table), or join us in the #topic-tables channel in the [community Discord](https://discordapp.com/invite/zT3asNS)!
 
 ---
 
