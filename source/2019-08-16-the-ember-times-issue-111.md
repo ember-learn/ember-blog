@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 111
-author: Amy Lam, Jessica Jordan, the crowd
+author: Amy Lam, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/16-the-ember-times-issue-111.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 This week:
 ...
+learn how to write async-aware tests 🕰️,
 there's a new Zoey on the block 📷,
 ...
 outer HTML semantics on the Crash Log Podcast 🎙,
@@ -19,13 +20,18 @@ and last, but not least,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Settle Down; Ember's Test Framework Has Your Async Covered 🕰️](https://www.linkedin.com/pulse/settle-down-embers-test-framework-has-your-async-covered-calvert/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+In the words of the author, "[t]he Ember community has spent a lot of time thinking about how to make your tests easy to write, dependable, and most importantly, **async aware**." It's easy in Ember to ensure that your synchronous tests wait for asynchronous actions to complete. 💎
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@scalvert](https://github.com/scalvert) gives a great overview of how the [`settled`](https://github.com/emberjs/ember-test-helpers/blob/master/addon-test-support/@ember/test-helpers/settled.ts) helper plays a pivotal role. Thanks to `settled`, the test helpers that we use every day⁠—`render`, `click`, `visit`, and `triggerEvent`⁠—know when async operations have completed. We can also use `settled` directly to complete an async operation that `@ember/test-helpers` doesn't handle.
+
+The author also covers 2 additional tools that help us write async-aware tests:
+
+- [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters), to mark the start and end of an async operation
+- [test isolation validation](https://github.com/emberjs/ember-qunit/blob/master/docs/TEST_ISOLATION_VALIDATION.md), to detect async leakage in tests
+
+So what are you *waiting* for? Learn how you can write async-aware tests in Ember today!
 
 ---
 
@@ -151,4 +157,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Jessica Jordan, the crowd and the Learning Team
+Amy Lam, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
