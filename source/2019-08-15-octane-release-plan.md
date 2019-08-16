@@ -172,7 +172,7 @@ There is also `did-update` and `will-destroy`, which behave as you'd expect.
 
 **Modifiers work everywhere**. They work inside of classic components, inside of a route's templates, and inside of template-only components.
 
-One final thing: if you find yourself writing the same `did-insert` code in multiple places, you can extract the code into a *custom modifier*, which can even be packaged into addons. One cool example of a *custom modifier* that's already on npm is `[ember-did-resize-modifer](https://github.com/gmurphey/ember-did-resize-modifier)`, which allows you to attach custom logic to an element, whenever it changes size.
+One final thing: if you find yourself writing the same `did-insert` code in multiple places, you can extract the code into a *custom modifier*, which can even be packaged into addons. One cool example of a *custom modifier* that's already on npm is [`ember-did-resize-modifer`](https://github.com/gmurphey/ember-did-resize-modifier), which allows you to attach custom logic to an element, whenever it changes size.
 
 ```handlebars
 <div {{did-resize this.onResize}}>
