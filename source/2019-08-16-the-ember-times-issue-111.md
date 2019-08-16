@@ -8,13 +8,13 @@ responsive: true
 
 Здраво Emberistas! 🐹
 
+<!--alex ignore crash-->
 This week:
 learn how to write async-aware tests 🕰️,
 there's a new Zoey on the block 📷,
-<!-- alex ignore crash -->
 outer HTML semantics on the Crash Log Podcast 🎙,
 and last, but not least,
-the release of Ember Table 2.0!
+the release of Ember Table 2.0 🎉!
 
 ---
 
