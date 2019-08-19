@@ -208,14 +208,14 @@ Ember 3.14 will finalize a codemod that uses dynamic information from booting up
 
 ### Angle Bracket Invocation
 
-This one landed a while ago, and many people have already started to use it in their apps. In classic Ember, you would invoke components using curly bracket syntax:
+This one landed a while ago, and many people have already started to use it in their apps. In classic Ember, you would invoke components using curly brace syntax:
 
 ```handlebars
 {{input value=this.name}}
 {{#link-to route=this.routeName}}Some content{{/link-to}}
 ```
 
-Octane introduces a new way of invoking components using curly braces and `@names`.
+Octane introduces a new way of invoking components using angle brackets and `@names`.
 
 ```handlebars
 <Input @value={{this.name}} />
