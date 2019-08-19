@@ -1,7 +1,7 @@
 ---
 title: Ember 3.12 Released
 author: Kenneth Larsen
-tags: Releases, 2019, 3, 3.12
+tags: Releases, 2019, 3, 3.12, Version 3.x
 responsive: true
 ---
 
