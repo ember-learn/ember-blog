@@ -23,7 +23,7 @@ As [recently announced in the official Ember Octane release plan](https://blog.e
 
 But what does it mean? By the time Ember 3.14 is published, the framework will include all Octane-related features and enable them by default. Additionally, the "Octane way" will be the primary and recommended way to build Ember apps. This will also be reflected in Ember's official documentation (API Docs and Guides) and migration tools.
 
-Wanna learn more about what is going to happen between now and the time Ember Octane lands? Looking for support on migrating and testing your apps with the Octane feature set? Be sure to give the [official release plan a read](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) and **get ready for Octane**!
+Wanna learn more about what is going to happen between now and the time Ember Octane lands? Looking for support for migrating and testing your apps with the Octane feature set? Be sure to give the [official release plan a read](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) and **get ready for Octane**!
 
 
 ---
