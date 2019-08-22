@@ -108,7 +108,7 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/hellomattio" target="gh-user">@hellomattio</a>, <a href="https://github.com/mukilane" target="gh-user">@mukilane</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/SYU15" target="gh-user">@SYU15</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/snewcomer" target="gh-user">@snewcomer</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/ansmonjol" target="gh-user">@ansmonjol</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a> and <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
