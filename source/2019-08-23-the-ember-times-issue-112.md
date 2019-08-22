@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Isaac Lee, the crowd
+author: Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
 responsive: true
@@ -9,18 +9,22 @@ responsive: true
 Gi suilon Emberistas! 🐹
 
 This week:
-watch talks from 1st Chennai EmberJS Meetup 🇮🇳, 
+watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
+announcing the official Ember Octane release plan 🏎🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Octane Is Coming 🏎🐹](https://blog.emberjs.com/2019/08/15/octane-release-plan.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The time has come: [Ember Octane](https://emberjs.com/editions/) is coming to your Ember application very soon!
+As [recently announced in the official Ember Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html), the very first edition of Ember is going to be released at the same time as the planned release date of Ember v3.14.
+
+But what does it mean? By the time Ember 3.14 is published, the framework will include all Octane related features and these will be enabled by default, too. Additionally, the "Octane way" will be the primary and recommended way to build Ember apps. This will also be reflected in Ember's official documentation, like the API Docs or the Guides, and migration tools.
+
+Wanna learn more about what is going to happen between now and the time Ember Octane lands? Looking for support on migrating and testing your apps with the Octane feature set? Be sure to give the [official release plan a read](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) and **get ready for Octane**!
+
 
 ---
 
@@ -132,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Jessica Jordan, the crowd and the Learning Team
