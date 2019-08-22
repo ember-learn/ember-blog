@@ -43,7 +43,7 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 [Microstates.js](https://github.com/microstates/microstates.js) provided immutability so that any change to the state will make all the `didReceiveAttrs` hooks and computed properties update while also guarding it from being changed by child components. It also provided helpers and macros that would automatically update the component properties when the state has changed, eliminating the need to pass an action for each piece of state.
 
-Read the [full blog](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9) to see the tradeoffs and potential pitfalls when state management is done with Ember and Microstates.
+Read the [full blog post](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9) to see the tradeoffs and potential pitfalls when state management is done with Ember and Microstates.
 
 ---
 
