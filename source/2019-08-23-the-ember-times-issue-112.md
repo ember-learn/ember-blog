@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
 responsive: true
@@ -11,6 +11,7 @@ Gi suilon Emberistas! 🐹
 This week:
 watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
 announcing the official Ember Octane release plan 🏎🐹,
+read up on the fun state management blog post using Microstates 💡,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -36,13 +37,13 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Fun State Management With Ember and Microstates 💡](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@brandynbennett](https://github.com/brandynbennett) details his experience using [Microstates.js](https://github.com/microstates/microstates.js) as an alternative to [DDAU](https://discuss.emberjs.com/t/readers-questions-what-is-meant-by-the-term-data-down-actions-up/15311). He describes how him and his team created complex tables in their app's UI that requires a lot of state to be passed around. The DDAU strategy, in this scenario, was unwieldy due to the number of arguments needed to set and difficult to keep in sync as they had to refetch the data for each event such as a sort happens.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Microstates.js](https://github.com/microstates/microstates.js) provided immutability so that any change to the state will make all the `didReceiveAttrs` hooks and computed properties update while also guarding it from being changed by child components. It also provided helpers and macros that would automatically update the component properties when the state has changed, eliminating the need to pass an action for each piece of state.
+
+Read the [full blog post](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9) to see the tradeoffs and potential pitfalls when state management is done with Ember and Microstates.
 
 ---
 
@@ -136,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
