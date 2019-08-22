@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 Gi suilon Emberistas! 🐹
 
 This week:
-...
+watch talks from 1st Chennai EmberJS Meetup 🇮🇳, 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -24,13 +24,11 @@ This week:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Watch Talks from 1st Chennai EmberJS Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sx79YDqa4945EbOuly3AXX1)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+On August 3, Chennai EmberJS featured 6 speakers at their inaugural Meetup: [@gokatz](https://github.com/gokatz), [@g13n](https://github.com/g13n), [@kandhavivekraj](https://github.com/kandhavivekraj), [@astronomersiva](https://github.com/astronomersiva), [@pranith024](https://twitter.com/pranith024), and [@rajasegar](https://github.com/rajasegar)! They covered various topics, including Ember Octane, tuning web performance, accessibility, differential bundling, JAM stack, and how ASTs (abstract syntax trees) fuel codemods and help us [auto-document Ember components](https://github.com/rajasegar/ember-docgen). 💖
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?list=PLh_rF0Qob_sx79YDqa4945EbOuly3AXX1). To learn more about Chennai EmberJS, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/Chennai-EmberJS/), and the [`#as-india`](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discordapp.com/invite/zT3asNS)!
 
 ---
 
@@ -134,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
