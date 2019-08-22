@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Isaac Lee, the crowd
+author: Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
 responsive: true
@@ -9,18 +9,22 @@ responsive: true
 Gi suilon Emberistas! 🐹
 
 This week:
-watch talks from 1st Chennai EmberJS Meetup 🇮🇳, 
+watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
+announcing the official Ember Octane release plan 🏎🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Octane Is Coming 🏎🐹](https://blog.emberjs.com/2019/08/15/octane-release-plan.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The time has come: [Ember Octane](https://emberjs.com/editions/) is coming to your Ember application very soon!
+As [recently announced in the official Ember Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html), the very first edition of Ember is going to be released at the same time as the planned release date of Ember v3.14.
+
+But what does it mean? By the time Ember 3.14 is published, the framework will include all Octane-related features and enable them by default. Additionally, the "Octane way" will be the primary and recommended way to build Ember apps. This will also be reflected in Ember's official documentation ([API Docs](https://api.emberjs.com/ember/release) and [Guides](https://octane-guides-preview.emberjs.com/release/upgrading/editions/)) and migration tools.
+
+Wanna learn more about what is going to happen between now and the time Ember Octane lands? Looking for support for migrating and testing your apps with the Octane feature set? Be sure to give the [official release plan a read](https://blog.emberjs.com/2019/08/15/octane-release-plan.html), join the discussion on the [#topic-octane-migration](https://discordapp.com/channels/480462759797063690/608346628163633192) channel on the [Ember Discord](https://discordapp.com/invite/zT3asNS) and **get ready for Octane**!
+
 
 ---
 
@@ -104,7 +108,7 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/hellomattio" target="gh-user">@hellomattio</a>, <a href="https://github.com/mukilane" target="gh-user">@mukilane</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/SYU15" target="gh-user">@SYU15</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/snewcomer" target="gh-user">@snewcomer</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/ansmonjol" target="gh-user">@ansmonjol</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a> and <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -132,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Jessica Jordan, the crowd and the Learning Team
