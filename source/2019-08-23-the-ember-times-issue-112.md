@@ -52,7 +52,7 @@ Read the [full blog post](https://medium.com/@brandynlbennett/fun-state-manageme
 
 [**EmberCamp Chicago**](http://embercamp.com/) is around the corner! Join the community on **September 16th, 2019** for the second annual edition of the event, hosting 150+ of the world’s top Ember developers for a full day of Ember talks.
 
-Learn all about modern Ember patterns, Embroider, insightful case studies from community leaders such as [Edward Faulkner](https://twitter.com/eaf4), [Jen Weber](https://twitter.com/jwwwweber), [Dan Gebhardt](https://twitter.com/dgeb), [Marie Chatfield](https://twitter.com/mariechatfield) and many others!
+Learn all about modern Ember patterns, Embroider, insightful case studies from community leaders such as [Edward Faulkner](https://twitter.com/eaf4), [Jen Weber](https://twitter.com/jwwweber), [Dan Gebhardt](https://twitter.com/dgeb), [Marie Chatfield](https://twitter.com/mariechatfield) and many others!
 
 Check out the full [talk schedule](http://embercamp.com/speakers) and get [your tickets today before they are sold out](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376)!
 
