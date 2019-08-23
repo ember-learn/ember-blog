@@ -1,5 +1,5 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 112
 author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
@@ -9,15 +9,15 @@ responsive: true
 Gi suilon Emberistas! 🐹
 
 This week:
-watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
 announcing the official Ember Octane release plan 🏎🐹,
+watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
 read up on the fun state management blog post using Microstates 💡,
+help improve the `EmberArray` documentation 👩‍💻👨‍💻,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
 ## [Ember Octane Is Coming 🏎🐹](https://blog.emberjs.com/2019/08/15/octane-release-plan.html)
-
 
 The time has come: [Ember Octane](https://emberjs.com/editions/) is coming to your Ember application very soon!
 As [recently announced in the official Ember Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html), the very first edition of Ember is going to be released at the same time as the planned release date of Ember v3.14.
@@ -47,13 +47,11 @@ Read the [full blog post](https://medium.com/@brandynlbennett/fun-state-manageme
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Help Improve the `EmberArray` documentation 👩‍💻👨‍💻](https://github.com/emberjs/ember.js/issues/18228)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@locks](https://github.com/locks) asks for your help with improving the documentation for [`EmberArray`](https://api.emberjs.com/ember/release/classes/EmberArray). The goal is to review each method and property of `EmberArray` and see if we can provide a better explanation and code sample.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you have time to help, please [visit the GitHub issue and create a pull request](https://github.com/emberjs/ember.js/issues/18228)!
 
 ---
 
