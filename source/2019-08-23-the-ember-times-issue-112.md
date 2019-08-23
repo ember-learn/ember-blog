@@ -12,6 +12,7 @@ This week:
 announcing the official Ember Octane release plan 🏎🐹,
 watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
 read up on the fun state management blog post using Microstates 💡,
+get your tickets for EmberCamp Chicago 🍕,
 help improve the `EmberArray` documentation 👩‍💻👨‍💻,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -44,6 +45,16 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 [Microstates.js](https://github.com/microstates/microstates.js) provided immutability so that any change to the state will make all the `didReceiveAttrs` hooks and computed properties update while also guarding it from being changed by child components. It also provided helpers and macros that would automatically update the component properties when the state has changed, eliminating the need to pass an action for each piece of state.
 
 Read the [full blog post](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9) to see the tradeoffs and potential pitfalls when state management is done with Ember and Microstates.
+
+---
+
+## [Learn About Modern Ember at EmberCamp Chicago 🍕](http://embercamp.com)
+
+[**EmberCamp Chicago**](http://embercamp.com/) is around the corner! Join the community on **September 16th, 2019** for the second annual edition of the event, hosting 150+ of the world’s top Ember developers for a full day of Ember talks.
+
+Learn all about modern Ember patterns, Embroider, insightful case studies from community leaders such as [Edward Faulkner](https://twitter.com/eaf4), [Jen Weber](https://twitter.com/jwwwweber), [Dan Gebhardt](https://twitter.com/dgeb), [Marie Chatfield](https://twitter.com/mariechatfield) and many others!
+
+Check out the full [talk schedule](http://embercamp.com/speakers) and get [your tickets today before they are sold out](https://www.eventbrite.com/e/embercamp-chicago-2019-registration-63595006376)!
 
 ---
 
