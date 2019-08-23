@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 112
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
 responsive: true
@@ -10,11 +10,11 @@ Gi suilon Emberistas! 🐹
 
 This week:
 announcing the official Ember Octane release plan 🏎🐹,
-watch talks from 1st Chennai EmberJS Meetup 🇮🇳,
-read up on the fun state management blog post using Microstates 💡,
-get your tickets for EmberCamp Chicago 🍕,
-help improve the `EmberArray` documentation 👩‍💻👨‍💻,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+watch talks from the first Chennai EmberJS Meetup 🇮🇳,
+read up on fun state management using Microstates 💡,
+get your tickets to EmberCamp Chicago 🍕,
+and last, but not least,
+help improve the `EmberArray` documentation 👩‍💻👨‍💻!
 
 ---
 
@@ -30,7 +30,7 @@ Wanna learn more about what is going to happen between now and the time Ember Oc
 
 ---
 
-## [Watch Talks from 1st Chennai EmberJS Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sx79YDqa4945EbOuly3AXX1)
+## [First Chennai EmberJS Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sx79YDqa4945EbOuly3AXX1)
 
 On August 3, Chennai EmberJS featured 6 speakers at their inaugural Meetup: [@gokatz](https://github.com/gokatz), [@g13n](https://github.com/g13n), [@kandhavivekraj](https://github.com/kandhavivekraj), [@astronomersiva](https://github.com/astronomersiva), [@pranith024](https://twitter.com/pranith024), and [@rajasegar](https://github.com/rajasegar)! They covered various topics, including Ember Octane, tuning web performance, accessibility, differential bundling, JAM stack, and how ASTs (abstract syntax trees) fuel codemods and help us [auto-document Ember components](https://github.com/rajasegar/ember-docgen). 💖
 
@@ -38,7 +38,7 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ---
 
-## [Fun State Management With Ember and Microstates 💡](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9)
+## [Fun State Management with Ember and Microstates 💡](https://medium.com/@brandynlbennett/fun-state-management-with-ember-and-microstates-e6027a9dedb9)
 
 [@brandynbennett](https://github.com/brandynbennett) details his experience using [Microstates.js](https://github.com/microstates/microstates.js) as an alternative to [DDAU](https://discuss.emberjs.com/t/readers-questions-what-is-meant-by-the-term-data-down-actions-up/15311). He describes how him and his team created complex tables in their app's UI that requires a lot of state to be passed around. The DDAU strategy, in this scenario, was unwieldy due to the number of arguments needed to set and difficult to keep in sync as they had to refetch the data for each event such as a sort happens.
 
@@ -48,7 +48,7 @@ Read the [full blog post](https://medium.com/@brandynlbennett/fun-state-manageme
 
 ---
 
-## [Learn About Modern Ember at EmberCamp Chicago 🍕](http://embercamp.com)
+## [Learn about Modern Ember at EmberCamp Chicago 🍕](http://embercamp.com)
 
 [**EmberCamp Chicago**](http://embercamp.com/) is around the corner! Join the community on **September 16th, 2019** for the second annual edition of the event, hosting 150+ of the world’s top Ember developers for a full day of Ember talks.
 
@@ -63,56 +63,6 @@ Check out the full [talk schedule](http://embercamp.com/speakers) and get [your 
 [@locks](https://github.com/locks) asks for your help with improving the documentation for [`EmberArray`](https://api.emberjs.com/ember/release/classes/EmberArray). The goal is to review each method and property of `EmberArray` and see if we can provide a better explanation and code sample.
 
 If you have time to help, please [visit the GitHub issue and create a pull request](https://github.com/emberjs/ember.js/issues/18228)!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -146,4 +96,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
