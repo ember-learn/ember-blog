@@ -64,7 +64,7 @@ With Ember Data 3.12 the `Ember.Evented` functionality on `DS.Model`, `DS.ManyAr
 
 **Record Lifecycle Event Methods (2 of 2)**
 
-Lifecycle event methods on `DS.model` such as `becameError`, `becameInvalid`, `didCreate`, `didDelete`, `didLoad`, `didUpdate`, `ready`, `rolledBack` are deprecated as of Ember Data 3.12. For a guide to replacing these event methods with computed properties please refer to the [deprecations guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_record-lifecycle-event-methods)
+Lifecycle event methods on `DS.Model` such as `becameError`, `becameInvalid`, `didCreate`, `didDelete`, `didLoad`, `didUpdate`, `ready`, `rolledBack` are deprecated as of Ember Data 3.12. For a guide to replacing these event methods with computed properties please refer to the [deprecations guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_record-lifecycle-event-methods)
 
 
 For more details on changes in Ember Data 3.12, please review the
