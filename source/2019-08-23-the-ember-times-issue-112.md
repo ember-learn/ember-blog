@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 112
 author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/23-the-ember-times-issue-112.html"
 responsive: true
 ---
