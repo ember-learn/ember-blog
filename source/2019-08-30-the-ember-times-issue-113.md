@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 113
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/30-the-ember-times-issue-113.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 Tach Emberistas! 🐹
 
+Add visual regression testing to your Ember app using ember-backstop 🧪,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -32,14 +33,14 @@ Tach Emberistas! 🐹
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember-Backstop Visual Regression Testing Tutorial 🧪](https://www.linkedin.com/pulse/ember-backstop-visual-regression-testing-tutorial-garris-shipon/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+[@garris](https://github.com/garris) published a [blog post](https://www.linkedin.com/pulse/ember-backstop-visual-regression-testing-tutorial-garris-shipon/) on how to add visual regression tests to your Ember application in 10 minutes with the [ember-backstop](https://github.com/garris/ember-backstop) test-helper addon.
+
+You can import `ember-backstop` into your application test and await it at a point in time where you want to run the visual regression testing. It will then serialize the snapshot of your DOM at that moment in time and it will send it to the *Backstop-Remote* service. The tutorial goes through how to verify, fix, and approve visual regression tests using the Backstop commands.
+
+Check out the full tutorial by following along with the [demo repository](https://github.com/garris/ember-backstop-tutorial/) or reading through the [BackstopJS website](http://backstopjs.org/) for more information.
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
@@ -132,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
