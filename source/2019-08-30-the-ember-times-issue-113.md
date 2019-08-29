@@ -37,7 +37,7 @@ Add visual regression testing to your Ember app using ember-backstop 🧪,
 
 [@garris](https://github.com/garris) published a [blog post](https://www.linkedin.com/pulse/ember-backstop-visual-regression-testing-tutorial-garris-shipon/) on how to add visual regression tests to your Ember application in 10 minutes with the [ember-backstop](https://github.com/garris/ember-backstop) test-helper addon.
 
-Visual regression testing is done by importing `ember-backstop` into your application test and awaiting it at a point in time where we want to run the visual regression testing. It will then serialize the snapshot of your DOM at that moment in time and sending it to the *Backstop-Remote* service. The tutorial goes through how to verify, fix, and approve visual regression tests using the Backstop commands.
+You can import `ember-backstop` into your application test and await it at a point in time where you want to run the visual regression testing. It will then serialize the snapshot of your DOM at that moment in time and it will send it to the *Backstop-Remote* service. The tutorial goes through how to verify, fix, and approve visual regression tests using the Backstop commands.
 
 Check out the full tutorial by following along with the [demo repository](https://github.com/garris/ember-backstop-tutorial/) or reading through the [BackstopJS website](http://backstopjs.org/) for more information.
 
