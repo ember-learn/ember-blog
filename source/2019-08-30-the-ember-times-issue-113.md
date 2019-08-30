@@ -11,7 +11,7 @@ Tach Emberistas! 🐹
 This week:
 brand-new content in the Ember Guides 🤓,
 add visual regression testing to your Ember app using ember-backstop 🧪,
-learn about how Ember is organised and thrives 🌺,
+learn how Ember is organised and thrives 🌺,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
