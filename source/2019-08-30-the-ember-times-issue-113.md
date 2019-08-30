@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 113
-author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/30-the-ember-times-issue-113.html"
 responsive: true
@@ -10,6 +10,7 @@ Tach Emberistas! 🐹
 
 This week:
 brand-new content in the Ember Guides 🤓,
+use Ember Engines and Yarn Workspaces to maximize happiness 🤗,
 add visual regression testing to your Ember app using ember-backstop 🧪,
 learn how Ember is organised and thrives 🌺,
 ...
@@ -28,13 +29,15 @@ Additionally, a soon-to-be-released version of the Guides will shine with [a rev
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [How to Write a Really, Really Ambitious SPA in 2019 🤗](https://medium.com/@lukedeniston/how-to-write-a-really-really-ambitious-spa-in-2019-60fc38de89db)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+When building enterprise applications with many routes, [Ember Engines](http://ember-engines.com/) can help you **lazy-load [engines](http://ember-engines.com/guide/what-are-engines) for better user experience** and **encapsulate code for better developer experience**.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember Engines, by itself, isn't perfect, however. [@luketheobscure](https://github.com/luketheobscure) shared his team's experiences of having to manually update versions (making pull requests across three different repos) to fix a single bug.
+
+By introducing [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/), Luke got to eliminate this step. Workspaces also allowed him to introduce live reload, share config files across packages, and ensure certain dependencies to be on the same version across packages.
+
+To learn more about using Workspaces, please check out [his blog](https://medium.com/@lukedeniston/how-to-write-a-really-really-ambitious-spa-in-2019-60fc38de89db) today! 
 
 ---
 
@@ -135,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
