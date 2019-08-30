@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 113
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/30-the-ember-times-issue-113.html"
 responsive: true
@@ -11,6 +11,7 @@ Tach Emberistas! 🐹
 This week:
 brand-new content in the Ember Guides 🤓,
 add visual regression testing to your Ember app using ember-backstop 🧪,
+learn how Ember is organised and thrives 🌺,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -47,12 +48,9 @@ Check out the full tutorial by following along with the [demo repository](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Thriving through the hype cycle: an Ember.js story 🌺](https://www.youtube.com/watch?v=ECkbVa0iC4k)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
+In addition to amazing Ember conferences, a lot of people are promoting Ember and sharing Ember wisdom at other conferences. [@locks](https://github.com/locks) told about `Thriving through the hype cycle: an Ember.js story` at [CommitPorto '19](https://commitporto.com/). This [talk](https://www.youtube.com/watch?v=ECkbVa0iC4k) gives great insights into how Ember, as a framework, is organised. Nothing too technical, but a nice peak in the kitchen of Ember. 
 <add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
@@ -137,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
