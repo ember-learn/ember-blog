@@ -93,7 +93,7 @@ Alternatively, you could eliminate any references to the implicit component by r
 When done, you can opt in to the new behavior:
 
 ```sh
-ember feature:enable template-only-glimmer-component
+ember feature:enable template-only-glimmer-components
 ```
 
 ### Glimmer Component Base Class
