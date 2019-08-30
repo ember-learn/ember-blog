@@ -50,7 +50,7 @@ Check out the full tutorial by following along with the [demo repository](https:
 
 ## [Thriving through the hype cycle: an Ember.js story 🌺](https://www.youtube.com/watch?v=ECkbVa0iC4k)
 
-Next to amazing Ember conferences, a lot of people are promoting Ember and sharing Ember wisdom at other conferences. [@locks](https://github.com/locks) told about `Thriving through the hype cycle: an Ember.js story` at [CommitPorto '19](https://commitporto.com/). This [talk](https://www.youtube.com/watch?v=ECkbVa0iC4k) gives great insights in how Ember as a framework is organised. Nothing too technical, but a nice peak in the kitchen of Ember. 
+Next to amazing Ember conferences, a lot of people are promoting Ember and sharing Ember wisdom at other conferences. [@locks](https://github.com/locks) told about `Thriving through the hype cycle: an Ember.js story` at [CommitPorto '19](https://commitporto.com/). This [talk](https://www.youtube.com/watch?v=ECkbVa0iC4k) gives great insights into how Ember, as a framework, is organised. Nothing too technical, but a nice peak in the kitchen of Ember. 
 <add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
