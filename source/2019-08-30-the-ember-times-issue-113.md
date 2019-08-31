@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 113
-author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/08/30-the-ember-times-issue-113.html"
 responsive: true
@@ -9,19 +9,18 @@ responsive: true
 Tach Emberistas! 🐹
 
 This week:
-brand-new content in the Ember Guides 🤓,
+brand new content in the Ember Guides 🤓,
 use Ember Engines and Yarn Workspaces to maximize happiness 🤗,
 add visual regression testing to your Ember app using ember-backstop 🧪,
-learn how Ember is organised and thrives 🌺,
-...
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+and last, but not least,
+learn how Ember is organised and thrives 🌺!
 
 ---
 
 ## [Check Out New Content in the Official Ember Guides 🐹🤓](https://guides.emberjs.com/release/)
 
 The most popular learning resource for early and advanced Ember developers,
-the [Guides](https://guides.emberjs.com/release/), is waiting up for you with some **brand-new content**!
+the [Guides](https://guides.emberjs.com/release/), is waiting up for you with some **brand new content**!
 
 The Guides now features a [new section](https://guides.emberjs.com/release/accessibility/) entirely dedicated to **accessibility**. It teaches you how to create your own accessibility strategy for your application, and how to implement keyboard accessible, screenreader accessible and overall barrier-free user interfaces with Ember. If you haven't done so, be sure to [check it out today](https://guides.emberjs.com/release/accessibility/) and leave either feedback or support for improving this section in the [#topic-a11y channel](https://discordapp.com/channels/480462759797063690/480523441082990612) on the [Ember Discord](https://discordapp.com/invite/zT3asNS)!
 
@@ -54,57 +53,6 @@ Check out the full tutorial by following along with the [demo repository](https:
 ## [Thriving through the hype cycle: an Ember.js story 🌺](https://www.youtube.com/watch?v=ECkbVa0iC4k)
 
 In addition to amazing Ember conferences, a lot of people are promoting Ember and sharing Ember wisdom at other conferences. [@locks](https://github.com/locks) told about `Thriving through the hype cycle: an Ember.js story` at [CommitPorto '19](https://commitporto.com/). This [talk](https://www.youtube.com/watch?v=ECkbVa0iC4k) gives great insights into how Ember, as a framework, is organised. Nothing too technical, but a nice peak in the kitchen of Ember. 
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -138,4 +86,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, Amy Lam and the Learning Team
