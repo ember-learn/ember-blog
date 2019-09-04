@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 129
 author: Chris Ng, Amy Lam, Isaac Lee, Godfrey Chan, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/20-the-ember-times-issue-129.html"
 responsive: true
 ---
