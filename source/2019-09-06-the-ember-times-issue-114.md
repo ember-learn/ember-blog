@@ -1,13 +1,13 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Read the Ember Octane Update for Modern Ember Tutorial 🎁,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -52,13 +52,18 @@ responsive: true
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Octane Update for Modern Ember Tutorial 🎁](https://codingitwrong.com/2018/08/16/modern-ember.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@CodingItWrong](https://github.com/CodingItWrong) updated his [Modern Ember](https://codingitwrong.com/2018/08/16/modern-ember.html) tutorial to use [octane-app-blueprint](https://github.com/ember-cli/ember-octane-blueprint).
+
+This tutorial provides an intro to:
+ - Angle bracket syntax for components
+ - Easy ES6 imports of NPM modules
+ - Decorators for clear and expressive component implementations
+ - Tracked properties to automatically rerender components and recompute derived data
+ - and Co-locating component templates and classes for easy development
+
+Try out Ember Octane today which [@CodingItWrong](https://github.com/CodingItWrong) calls the “simplest, most straightforward, most productive frontend framework!”
   
 ---
 
@@ -132,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
