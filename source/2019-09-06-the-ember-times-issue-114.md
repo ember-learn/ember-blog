@@ -1,15 +1,18 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: Chris Ng, Isaac Lee, the crowd
+title: The Ember Times - Issue No. 114
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2019/09/06-the-ember-times-issue-114.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Hiya Emberistas! 🐹
+
+This week:
 Read the Ember Octane Update for Modern Ember Tutorial 🎁,
 Participate in the discussion of deprecating eventing 💬,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Join the Ember crowd at EmberFest 2019 🐹🎉,
+...
 
 ---
 
@@ -69,13 +72,16 @@ Try out Ember Octane today which [@CodingItWrong](https://github.com/CodingItWro
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Emberistas from Europe and Beyond: Get Ready for EmberFest 2019 🐹🎉](https://emberfest.eu/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+If you're using Ember, you're based in Europe or you're planning your next trip there soon, be sure to already mark **October 17th and 18th** in your calendar and join hundreds of other Emberistas for Europe's biggest Ember conference: **EmberFest 2019** will take place in Copenhagen, Denmark and feature **16+ talks** by community members such as [Godfrey Chan (@chancancode)](https://github.com/chancancode), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Edward Faulkner (@ef4)](https://github.com/ef4) and [Chantal Broeren (@cbroeren)](https://github.com/cbroeren)! If you're looking for updates on the latest and greatest in Ember and Glimmer this is the place to be.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can check out the [full schedule on the conference website](https://emberfest.eu/schedule/) to get an idea of the topics talked about. You can also look forward to tasty and culturally intriguing city tours on the day before the conference on top of that. Be sure to [secure your ticket before they sell out](https://emberfest.eu/) and tell your colleagues and Ember friends!
+
+Follow [@emberfest on Twitter](https://twitter.com/emberfest) to stay up to date with the latest news about the conference. Or subscribe to the [official mailing list](https://emberfest.eu/#mc_embed_signup).
+
+And see you at [EmberFest 2019](https://emberfest.eu/)!
+
 
 ---
 
@@ -139,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
