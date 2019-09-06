@@ -1,15 +1,18 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: Chris Ng, Isaac Lee, the crowd
+title: The Ember Times - Issue No. 114
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2019/09/06-the-ember-times-issue-114.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Hiya Emberistas! 🐹
+
+This week:
 Read the Ember Octane Update for Modern Ember Tutorial 🎁,
 Participate in the discussion of deprecating eventing 💬,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Join the Ember crowd at EmberFest 2019 🐹🎉,
+...
 
 ---
 
@@ -17,7 +20,7 @@ Participate in the discussion of deprecating eventing 💬,
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -27,7 +30,7 @@ Participate in the discussion of deprecating eventing 💬,
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
 
@@ -37,20 +40,20 @@ Participate in the discussion of deprecating eventing 💬,
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Ember Octane Update for Modern Ember Tutorial 🎁](https://codingitwrong.com/2018/08/16/modern-ember.html)
@@ -66,17 +69,19 @@ This tutorial provides an intro to:
 - and Co-locating component templates and classes for easy development
 
 Try out Ember Octane today which [@CodingItWrong](https://github.com/CodingItWrong) calls the “simplest, most straightforward, most productive frontend framework!”
-  
+
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Emberistas from Europe and Beyond: Get Ready for EmberFest 2019 🐹🎉](https://emberfest.eu/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-  
+If you're using Ember, you're based in Europe or you're planning your next trip there soon, be sure to mark **October 17th and 18th** on your calendar and join hundreds of other Emberistas for Europe's biggest Ember conference. **EmberFest 2019** will take place in Copenhagen, Denmark and feature **16+ talks** by community members such as [Godfrey Chan (@chancancode)](https://github.com/chancancode), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Edward Faulkner (@ef4)](https://github.com/ef4) and [Chantal Broeren (@cbroeren)](https://github.com/cbroeren)! If you're looking for updates on the latest and greatest in Ember and Glimmer, this is the place to be.
+
+You can check out the [full schedule on the conference website](https://emberfest.eu/schedule/) to get an idea of the topics talked about. You can also look forward to tasty and culturally intriguing city tours on October 16th, the day before the conference. Be sure to [secure your ticket before they sell out](https://emberfest.eu/) and tell your colleagues and Ember friends!
+
+Follow [@emberfest on Twitter](https://twitter.com/emberfest) or subscribe to the [official mailing list](https://emberfest.eu/#mc_embed_signup) to stay up to date. See you at [EmberFest 2019](https://emberfest.eu/) soon!
+
+
+
 ---
 
 ## [RFC for Deprecating Eventing from Ember 💬](https://github.com/emberjs/rfcs/pull/528)
@@ -86,32 +91,32 @@ Try out Ember Octane today which [@CodingItWrong](https://github.com/CodingItWro
 In particular, Gerald [proposes that we target deprecating](https://github.com/ggayowsky/rfcs/blob/deprecate-evented-mixin/text/0000-deprecate-evented-mixin.md) the [`Evented` mixin](https://api.emberjs.com/ember/release/classes/Evented) and methods from [`@ember/object/events`](https://api.emberjs.com/ember/release/modules/@ember%2Fobject#functions-events) and [`@ember/object/evented`](https://api.emberjs.com/ember/release/modules/@ember%2Fobject#functions-evented) packages. If you need to still use the eventing pattern, you could use a [well-supported, third-party library](https://github.com/ggayowsky/rfcs/blob/deprecate-evented-mixin/text/0000-deprecate-evented-mixin.md#transition-path) instead.
 
 For more information about eventing and the plan to deprecate it from Ember, please [check out the RFC](https://github.com/emberjs/rfcs/pull/528) today. Be sure to provide your feedback and help!
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
-  
+
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/mukilane" target="gh-user">@mukilane</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/ggayowsky" target="gh-user">@ggayowsky</a>, <a href="https://github.com/bertdeblock" target="gh-user">@bertdeblock</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ClaytonTurner" target="gh-user">@ClaytonTurner</a>, <a href="https://github.com/ppphp" target="gh-user">@ppphp</a>, <a href="https://github.com/rnegron" target="gh-user">@rnegron</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -127,7 +132,7 @@ For more information about eventing and the plan to deprecate it from Ember, ple
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 
@@ -139,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
