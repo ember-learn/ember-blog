@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Read the Ember Octane Update for Modern Ember Tutorial 🎁,
+Participate in the discussion of deprecating eventing 💬,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -78,13 +79,13 @@ Try out Ember Octane today which [@CodingItWrong](https://github.com/CodingItWro
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [RFC for Deprecating Eventing from Ember 💬](https://github.com/emberjs/rfcs/pull/528)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@ggayowsky](https://github.com/ggayowsky) asks for your feedback for deprecating the **eventing** pattern from Ember. The motivation stems from the fact that Ember no longer uses eventing, thanks to the work done for [Octane](https://emberjs.com/editions/octane/). By deprecrating it, we can [simplify Ember and follow the 2019-2020 Roadmap](https://github.com/emberjs/rfcs/blob/2018-2019-roadmap/text/0519-2018-2019-roadmap.md#continue-simplifying-ember).
+
+In particular, Gerald [proposes that we target deprecating](https://github.com/ggayowsky/rfcs/blob/deprecate-evented-mixin/text/0000-deprecate-evented-mixin.md) the [`Evented` mixin](https://api.emberjs.com/ember/release/classes/Evented) and methods from [`@ember/object/events`](https://api.emberjs.com/ember/release/modules/@ember%2Fobject#functions-events) and [`@ember/object/evented`](https://api.emberjs.com/ember/release/modules/@ember%2Fobject#functions-evented) packages. If you need to still use the eventing pattern, you could use a [well-supported, third-party library](https://github.com/ggayowsky/rfcs/blob/deprecate-evented-mixin/text/0000-deprecate-evented-mixin.md#transition-path) instead.
+
+For more information about eventing and the plan to deprecate it from Ember, please [check out the RFC](https://github.com/emberjs/rfcs/pull/528) today. Be sure to provide your feedback and help!
   
 ---
 
@@ -138,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
