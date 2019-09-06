@@ -12,6 +12,7 @@ This week:
 Read the Ember Octane Update for Modern Ember Tutorial 🎁,
 Participate in the discussion of deprecating eventing 💬,
 Join the Ember crowd at EmberFest 2019 🐹🎉,
+Suggest ideas for the special Ember Octane issue ✍️,
 ...
 
 ---
@@ -94,13 +95,19 @@ For more information about eventing and the plan to deprecate it from Ember, ple
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Suggest Ideas for an Upcoming Ember Octane Issue! ✍️](https://github.com/ember-learn/ember-blog/pull/261)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Your friendly neighborhood writers from [The Ember Times](https://blog.emberjs.com/tags/newsletter.html) here! We would like your help with creating a special Ember Octane issue.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+When it comes to Octane:
+
+- What are some contents you would like to see?
+- Do you have leads for coverage?
+- Any other feedback and suggestions!
+
+Feel free to reach out to us today at the [`#support-ember-times` channel](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS), or through [pull request on GitHub](https://github.com/ember-learn/ember-blog/pull/261).
+
+Thanks, and have a great day! 💞
 
 ---
 
