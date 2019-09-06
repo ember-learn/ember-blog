@@ -78,7 +78,7 @@ If you're using Ember, you're based in Europe or you're planning your next trip 
 
 You can check out the [full schedule on the conference website](https://emberfest.eu/schedule/) to get an idea of the topics talked about. You can also look forward to tasty and culturally intriguing city tours on the day before the conference on top of that. Be sure to [secure your ticket before they sell out](https://emberfest.eu/) and tell your colleagues and Ember friends!
 
-Follow [@emberfest on Twitter](https://twitter.com/emberfest) to stay up to date with the latest news about the conference. Or subscribe to the [official mailing list](https://emberfest.eu/#mc_embed_signup).
+Follow [@emberfest on Twitter](https://twitter.com/emberfest) or subscribe to the [official mailing list](https://emberfest.eu/#mc_embed_signup) to stay up to date. See you at [EmberFest 2019](https://emberfest.eu/) soon!
 
 And see you at [EmberFest 2019](https://emberfest.eu/)!
 
