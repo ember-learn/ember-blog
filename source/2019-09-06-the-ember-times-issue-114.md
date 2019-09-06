@@ -97,6 +97,7 @@ For more information about eventing and the plan to deprecate it from Ember, ple
 
 ## [Suggest Ideas for an Upcoming Ember Octane Issue! ✍️](https://github.com/ember-learn/ember-blog/pull/261)
 
+<!--alex ignore special-->
 Your friendly neighborhood writers from [The Ember Times](https://blog.emberjs.com/tags/newsletter.html) here! We would like your help with creating a special Ember Octane issue.
 
 When it comes to Octane:
