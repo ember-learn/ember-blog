@@ -106,7 +106,7 @@ When it comes to Octane:
 - Do you have leads for coverage?
 - Any other feedback and suggestions!
 
-Feel free to reach out to us today at the [`#support-ember-times` channel](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS), or through [pull request on GitHub](https://github.com/ember-learn/ember-blog/pull/261).
+Feel free to chat with us today at the [`#support-ember-times` channel](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS), or comment on this [pull request on GitHub](https://github.com/ember-learn/ember-blog/pull/261).
 
 Thanks, and have a great day! 💞
 
