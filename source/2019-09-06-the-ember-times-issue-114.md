@@ -80,7 +80,6 @@ You can check out the [full schedule on the conference website](https://emberfes
 
 Follow [@emberfest on Twitter](https://twitter.com/emberfest) or subscribe to the [official mailing list](https://emberfest.eu/#mc_embed_signup) to stay up to date. See you at [EmberFest 2019](https://emberfest.eu/) soon!
 
-And see you at [EmberFest 2019](https://emberfest.eu/)!
 
 
 ---
