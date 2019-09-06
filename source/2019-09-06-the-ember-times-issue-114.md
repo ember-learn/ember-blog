@@ -102,7 +102,7 @@ Your friendly neighborhood writers from [The Ember Times](https://blog.emberjs.c
 
 When it comes to Octane:
 
-- What are some contents you would like to see?
+- What content would you like to see?
 - Do you have leads for coverage?
 - Any other feedback and suggestions!
 
