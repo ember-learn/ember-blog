@@ -12,7 +12,7 @@ This week:
 Read the Ember Octane Update for Modern Ember Tutorial 🎁,
 Participate in the discussion of deprecating eventing 💬,
 Join the Ember crowd at EmberFest 2019 🐹🎉,
-Suggest ideas for the special Ember Octane issue ✍️,
+Suggest ideas for the upcoming Ember Octane issue ✍️,
 ...
 
 ---
