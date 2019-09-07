@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 114
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/06-the-ember-times-issue-114.html"
 responsive: true
@@ -9,51 +9,10 @@ responsive: true
 Hiya Emberistas! 🐹
 
 This week:
-Read the Ember Octane Update for Modern Ember Tutorial 🎁,
-Participate in the discussion of deprecating eventing 💬,
-Join the Ember crowd at EmberFest 2019 🐹🎉,
-Suggest ideas for the upcoming Ember Octane issue ✍️,
-...
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+read the Octane Update for the Modern Ember Tutorial 🎁,
+participate in the discussion of deprecating eventing 💬,
+join the crowd at EmberFest 2019 🐹🎉,
+and suggest ideas for the upcoming Ember Octane issue ✍️!
 
 ---
 
@@ -81,8 +40,6 @@ You can check out the [full schedule on the conference website](https://emberfes
 
 Follow [@emberfest on Twitter](https://twitter.com/emberfest) or subscribe to the [official mailing list](https://emberfest.eu/#mc_embed_signup) to stay up to date. See you at [EmberFest 2019](https://emberfest.eu/) soon!
 
-
-
 ---
 
 ## [RFC for Deprecating Eventing from Ember 💬](https://github.com/emberjs/rfcs/pull/528)
@@ -109,16 +66,6 @@ When it comes to Octane:
 Feel free to chat with us today at the [`#support-ember-times` channel](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS), or comment on this [pull request on GitHub](https://github.com/ember-learn/ember-blog/pull/261).
 
 Thanks, and have a great day! 💞
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -152,4 +99,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
