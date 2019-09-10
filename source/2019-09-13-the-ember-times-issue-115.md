@@ -1,13 +1,13 @@
 ---
 title: The Ember Times - Issue No. 115
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/13-the-ember-times-issue-115.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Share your thoughts on Apple Music being an Ember app 🍎, 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -42,13 +42,11 @@ responsive: true
   
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Apple Music launches an Ember app 🍎](https://discuss.emberjs.com/t/apple-music-beta-is-an-ember-app/17026)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The Apple Music web application [was launched](https://www.theverge.com/2019/9/5/20851576/apple-music-web-player-interface-beta-browser-streaming) for public beta for subscribers at [beta.music.apple.com](http://beta.music.apple.com). [Through](https://www.reddit.com/r/webdev/comments/d0hdeo/the_new_official_apple_music_app_for_the_web_is/?utm_source=ifttt) [several](https://www.reddit.com/r/emberjs/comments/d06pcn/new_apple_music_web_app_built_in_ember/) [reports](https://www.linkedin.com/feed/update/urn:li:activity:6575525024327884800/), it was [confirmed](https://www.linkedin.com/feed/update/urn:li:activity:6575756074194993152/) that the new Apple Music website is an Ember application.
+
+[Share your thoughts](https://discuss.emberjs.com/t/apple-music-beta-is-an-ember-app/17026) on having more high profile examples of Ember applications!
   
 ---
 
@@ -132,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
