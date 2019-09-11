@@ -42,7 +42,7 @@ Share your thoughts on Apple Music being an Ember app 🍎,
   
 ---
 
-## [Apple Music launches an Ember app 🍎](https://discuss.emberjs.com/t/apple-music-beta-is-an-ember-app/17026)
+## [Apple Music Launches an Ember App 🍎](https://discuss.emberjs.com/t/apple-music-beta-is-an-ember-app/17026)
 
 The Apple Music web application [was launched](https://www.theverge.com/2019/9/5/20851576/apple-music-web-player-interface-beta-browser-streaming) for public beta for subscribers at [beta.music.apple.com](http://beta.music.apple.com). [Through](https://www.reddit.com/r/webdev/comments/d0hdeo/the_new_official_apple_music_app_for_the_web_is/?utm_source=ifttt) [several](https://www.reddit.com/r/emberjs/comments/d06pcn/new_apple_music_web_app_built_in_ember/) [reports](https://www.linkedin.com/feed/update/urn:li:activity:6575525024327884800/), it was [confirmed](https://www.linkedin.com/feed/update/urn:li:activity:6575756074194993152/) that the new Apple Music website is an Ember application.
 
