@@ -1,13 +1,14 @@
 ---
 title: The Ember Times - Issue No. 115
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/13-the-ember-times-issue-115.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Share your thoughts on Apple Music being an Ember app 🍎, 
+Meet `@model` for route templates 🆕,
+Share your thoughts on Apple Music being an Ember app 🍎,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -22,13 +23,23 @@ Share your thoughts on Apple Music being an Ember app 🍎,
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Meet `@model` for Route Templates 🆕](https://github.com/emberjs/rfcs/blob/ac27abbd1729cd61b67465eee4c8096bb47501da/text/0523-model-argument-for-route-templates.md)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Starting with Ember Octane (3.14), you can use a **named argument**, `@model`, in the route template to refer to your data from the `model()` hook. The [Ember Octane Guides](https://octane-guides-preview.emberjs.com/) have been [updated](https://github.com/ember-learn/guides-source/pull/1044) to show uses of `@model`.
+
+```handlebars
+<h2>List of Scientists</h2>
+
+<ul>
+  {{#each @model as |scientist|}}
+    <li>{{scientist}}</li>
+  {{/each}}
+</ul>
+```
+
+[`@model` was introduced](https://github.com/emberjs/rfcs/blob/ac27abbd1729cd61b67465eee4c8096bb47501da/text/0523-model-argument-for-route-templates.md) to help new developers quickly learn templates. By avoiding `this.model`, they would not need to understand another concept, the controller, to build their first Octane app. By using a named argument, we can also reinforce the idea that `@` is used to denote things that are "passed as arguments" to the template.
+
+You can [try out `@model` now on canary](https://github.com/emberjs/ember.js/pull/18363/files), or wait for 3.14 beta next week!
 
 ---
 
@@ -130,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
