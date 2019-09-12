@@ -37,7 +37,7 @@ Starting with Ember Octane (3.14), you can use a **named argument**, `@model`, i
 </ul>
 ```
 
-[`@model` was introduced](https://github.com/emberjs/rfcs/blob/ac27abbd1729cd61b67465eee4c8096bb47501da/text/0523-model-argument-for-route-templates.md) to help new developers quickly learn templates. By avoiding `this.model`, they would not need to understand another concept, the controller, to build their first Octane app. By using a named argument, we can also reinforce the idea that `@` is used to denote things that are "passed as arguments" to the template.
+[`@model` was introduced](https://github.com/emberjs/rfcs/blob/ac27abbd1729cd61b67465eee4c8096bb47501da/text/0523-model-argument-for-route-templates.md) to help new developers quickly learn templates. By avoiding `this.model`, they would not need to understand another concept—the controller—to build their first Octane app. By using a named argument, we can also reinforce the idea that `@` is used to denote things that are "passed as arguments" to the template.
 
 You can [try out `@model` now on canary](https://github.com/emberjs/ember.js/pull/18363/files), or wait for 3.14 beta next week!
 
