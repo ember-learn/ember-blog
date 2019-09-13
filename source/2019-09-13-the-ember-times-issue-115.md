@@ -67,7 +67,7 @@ The Apple Music web application [was launched](https://www.theverge.com/2019/9/5
 In a recent [tweet](https://twitter.com/lenoraporter_/status/1170145563549061122), Senior Product Designer [Lenora Porter (@lenoraporter_)](https://twitter.com/lenoraporter_)
 shared a [video](https://www.instagram.com/tv/B2CCM60AOZG/?igshid=12ivaiobj1y8h) to pitch the **most interesting learnings** about Ember to those transitioning from other tech stacks.
 
-After developing apps using Ember with previous experience in React, she talks about learning resources that are useful for those starting out and what makes the transition worthwhile. Among benefits such as Convention over Configuration and integrated tooling, she also highlights how a supportive community makes learning Ember very straightforward.
+Lenora, who has prior experience in React, talks about useful learning resources for those starting out Ember and what makes the transition worthwhile. In addition to Convention over Configuration and integrated tooling, she highlights how a supportive community makes learning Ember very straightforward.
 
 Be sure to check out [the full video](https://www.instagram.com/tv/B2CCM60AOZG/?igshid=12ivaiobj1y8h) and share with your JavaScript friends!
 
