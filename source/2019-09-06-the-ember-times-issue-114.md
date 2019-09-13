@@ -1,14 +1,12 @@
 ---
 title: The Ember Times - Issue No. 114
 author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/06-the-ember-times-issue-114.html"
 responsive: true
 ---
 
-Hiya Emberistas! 🐹
-
-This week:
+Hiya Emberistas! 🐹 This week:
 read the Octane Update for the Modern Ember Tutorial 🎁,
 participate in the discussion of deprecating eventing 💬,
 join the crowd at EmberFest 2019 🐹🎉,
