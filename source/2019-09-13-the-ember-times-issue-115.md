@@ -6,11 +6,11 @@ alias : "blog/2019/09/13-the-ember-times-issue-115.html"
 responsive: true
 ---
 
-This week: Meet `@model` for route templates 🆕,
-Share your thoughts on Apple Music being an Ember app 🍎,
+👋 Embereños! This week: Meet `@model` for route templates 🆕,
+share your thoughts on Apple Music being an Ember app 🍎,
 contribute to Octanify allthethings 📝
-A designer's & developer's story of transitioning to Ember ⚛️➡️🐹,
-Celebrate the 4.0 release of Ember Sinon QUnit 🎉,
+a designer's & developer's story of transitioning to Ember ⚛️➡️🐹,
+and celebrate the 4.0 release of Ember Sinon QUnit 🎉!
 
 ---
 
