@@ -65,7 +65,7 @@ The Apple Music web application [was launched](https://www.theverge.com/2019/9/5
 ## [What Makes the Transition to Ember Worthwhile: A New Community Member's Perspective 🐹](https://twitter.com/lenoraporter_/status/1170145563549061122)
 
 In a recent [tweet](https://twitter.com/lenoraporter_/status/1170145563549061122), Senior Product Designer [Lenora Porter (@lenoraporter_)](https://twitter.com/lenoraporter_)
-shared a [video](https://www.instagram.com/tv/B2CCM60AOZG/?igshid=12ivaiobj1y8h) pitching the **most interesting learnings** about Ember for those transitioning from other tech stacks.
+shared a [video](https://www.instagram.com/tv/B2CCM60AOZG/?igshid=12ivaiobj1y8h) to pitch the **most interesting learnings** about Ember to those transitioning from other tech stacks.
 
 After developing apps using Ember with previous experience in React, she talks about learning resources that are useful for those starting out and what makes the transition worthwhile. Among benefits such as Convention over Configuration and integrated tooling, she also highlights how a supportive community makes learning Ember very straightforward.
 
