@@ -6,9 +6,7 @@ alias : "blog/2019/09/06-the-ember-times-issue-114.html"
 responsive: true
 ---
 
-Hiya Emberistas! 🐹
-
-This week:
+Hiya Emberistas! 🐹 This week:
 read the Octane Update for the Modern Ember Tutorial 🎁,
 participate in the discussion of deprecating eventing 💬,
 join the crowd at EmberFest 2019 🐹🎉,
