@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 115
-author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/13-the-ember-times-issue-115.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 👋 Embereños! This week: Meet `@model` for route templates 🆕,
 share your thoughts on Apple Music being an Ember app 🍎,
-contribute to Octanify allthethings 📝
+contribute to Octanify allthethings 📝,
 a designer's & developer's story of transitioning to Ember ⚛️➡️🐹,
 and celebrate the 4.0 release of Ember Sinon QUnit 🎉!
 
@@ -103,4 +103,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
