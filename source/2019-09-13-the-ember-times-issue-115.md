@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Meet `@model` for route templates 🆕,
 Share your thoughts on Apple Music being an Ember app 🍎,
-A designer's & developer's story transitioning to Ember ⚛️➡️🐹,
+A designer's & developer's story of transitioning to Ember ⚛️➡️🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
