@@ -81,7 +81,7 @@ Be sure to check out [the full video](https://www.instagram.com/tv/B2CCM60AOZG/?
 
 Thanks to their work, [ember-sinon-qunit v4](https://github.com/elwayman02/ember-sinon-qunit) allows us to do a one-time setup, use the `sinon` object directly in our tests, and never worry about cleaning up mocks after the tests are run. To learn more about the motivation for change and the new syntax, you can check out [Jordan's blog post](https://www.jordanhawker.com/p/187541610821) and the [addon's README file](https://github.com/elwayman02/ember-sinon-qunit#usage).
 
-If you have been using Steve's [ember-sinon-sandbox](https://github.com/scalvert/ember-sinon-sandbox) or [ember-sinon-sinoff](https://github.com/scalvert/ember-sinon-sinoff), please check the [README file](https://github.com/elwayman02/ember-sinon-qunit#migrating-to-ember-sinon-qunit) to decide your migration path.
+If you have been using Steve's [ember-sinon-sandbox](https://github.com/scalvert/ember-sinon-sandbox) or [ember-sinon-sinoff](https://github.com/scalvert/ember-sinon-sinoff), please check the [README file](https://github.com/elwayman02/ember-sinon-qunit#migrating-to-ember-sinon-qunit) to choose your migration path.
 
 ---
 
