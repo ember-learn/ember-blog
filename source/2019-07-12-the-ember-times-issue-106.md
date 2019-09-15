@@ -22,7 +22,7 @@ Starting with Ember 3.11, Ember Data will be shipped as a **collection of small 
 
 Say hello to the new import syntax:
 
-```
+```js
 import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 ```
 
@@ -69,7 +69,7 @@ In his **[recent talk](https://www.youtube.com/watch?v=4-31AP3p1os)** at [Dublin
 </div>
 
 <!-- alex ignore dads-moms -->
-In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as **[@st-h](hhttps://github.com/st-h)**, talks about his web app for musicians 🎸, building a recording studio when he was 20 in the basement of his mother's house 🎧, maintaining various Ember addons 👨‍💻, and more!
+In our eleventh edition of the contributor interview series, community member **Stefan Huber**, also known as **[@st-h](https://github.com/st-h)**, talks about his web app for musicians 🎸, building a recording studio when he was 20 in the basement of his mother's house 🎧, maintaining various Ember addons 👨‍💻, and more!
 
 You can read the full interview on [the Ember Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-stefan-huber/16821).
 
