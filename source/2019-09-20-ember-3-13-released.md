@@ -5,7 +5,30 @@ tags: Releases, 2019, 3, 3.13
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.13 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.5 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.13 of Ember.js, Ember Data, and Ember CLI. 
+
+Additionally, versions 3.12 of Ember and Ember Data are now promoted to LTS, which stands for Long Term Support. An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS versions for Ember and Ember Data were 3.4.
+
+If you are upgrading from the previous LTS version to 3.12 then you are getting access to these features:
+
+[3.6](https://blog.emberjs.com/2018/12/13/ember-3-6-released.html)
+* `router` service 
+* Support for native classes
+
+[3.8](https://blog.emberjs.com/2019/02/27/ember-3-8-released.html)
+* The array helper
+* Element Modifier Manager
+
+[3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)*
+* Nested angle bracket component invocation
+* Angle bracket invocation for built-in components
+* Support for native decorators
+
+[3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
+* Forwarding Element Modifiers with `...attributes`
+* The `{{fn}}` and `{{on}}` modifiers
+
+This release kicks off the 3.14 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -24,19 +47,23 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 3.13 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
-#### New Features (2)
+#### New Features (3)
 
-First new feature (1 of 2)
+**Tracked Properties and Tracked Property Updates (1 of 3)**
 
-Second new feature (2 of 2)
+**Component Templates Co-location (2 of 3)**
 
-#### Deprecations (0)
+**Tracked Properties Performance Tuning (3 of 3)**
+
+#### Deprecations (1)
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
 For more details on changes in Ember.js 3.13, please review the [Ember.js 3.13.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.13.0).
+
+**Deprecate support for mouseEnter/Leave/Move Ember events (1 of 1)**
 
 ---
 
