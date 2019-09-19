@@ -1,24 +1,24 @@
 ---
 title: The Ember Times - Issue No. 116
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/20-the-ember-times-issue-116.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Check out the new Octane Super Rentals Tutorial 🚀,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Octane Super Rentals Tutorial 🚀](https://octane-guides-preview.emberjs.com/release/tutorial/01-orientation/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-  
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@chancancode](https://github.com/chancancode) and [@vaidehijoshi](https://github.com/vaidehijoshi) did some great work writing content and creating a tutorial code generator that runs commands, inserts the code into a tutorial, and even takes screenshots. You can now preview the [Octane guides](https://octane-guides-preview.emberjs.com/release/tutorial/01-orientation/) and check out the tutorial.
+
+What’s amazing is that this tutorial is **automatically generated**. It runs the commands and edits the files the same way that the reader would. It even captures the output and screenshots. This way, if any steps stopped working due to a change in Ember itself, we would know right away from a CI failure.
+
+If you are looking to contribute check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
 
 ---
 
@@ -132,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
