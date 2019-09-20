@@ -1,7 +1,7 @@
 ---
 title: Ember 3.13 Released
 author: Kenneth Larsen
-tags: Releases, 2019, 3, 3.13
+tags: Releases, 2019, 3, 3.13, 3.x
 responsive: true
 ---
 
@@ -11,20 +11,13 @@ Additionally, versions 3.12 of Ember and Ember Data are now promoted to LTS, whi
 
 If you are upgrading from the previous LTS version to 3.12 then you are getting access to these features:
 
-[3.6](https://blog.emberjs.com/2018/12/13/ember-3-6-released.html)
 * `router` service 
 * Support for native classes
-
-[3.8](https://blog.emberjs.com/2019/02/27/ember-3-8-released.html)
 * The array helper
 * Element Modifier Manager
-
-[3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)
 * Nested angle bracket component invocation
 * Angle bracket invocation for built-in components
 * Support for native decorators
-
-[3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html)
 * Forwarding Element Modifiers with `...attributes`
 * The `{{fn}}` and `{{on}}` modifiers
 
@@ -57,9 +50,9 @@ During the Ember Octane preview period we encountered some issues with the curre
 
 With Ember.js 3.13 you now use this improved version of tracked properties. Have a look at the [guides] or [RFC 410](https://github.com/emberjs/rfcs/blob/master/text/0410-tracked-properties.md) to learn more about tracked properties. You can also have a look at [RFC 478](https://github.com/emberjs/rfcs/blob/master/text/0478-tracked-properties-updates.md) to see what the tracked properties update is about.
 
-**Component Templates Co-location (2 of 5)**
+**Component Templates Co-location: Part One (2 of 5)**
 
-With component templates co-location it is now possible to place a component's JavaScript file and it's template in the same directory on the file system.
+The low-level APIs: `setComponentTemplate()`, `getComponentTemplate()` and `templateOnlyComponent()` are enabled with Ember.js 3.13. This means that the supporting code for co-location is included in this release, but is only enabled for Octane applications. In 3.14 it will be enabled for all applications.
 
 [The RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md) contains a detailed explanaition for this feature.
 
@@ -69,11 +62,12 @@ There is a new capability for component managers which allows you to opt-in or o
 
 If you're not an addon author or maintain a component manager then chances are that you will not need use this new feature.
 
-**Component-class generator (4 of 5)**
+**`component-class` generator (4 of 5)**
 
-When generating a component using `ember generate component modal` it will now by default use the `--no-component-class` flag. This means that when you generate a component it will only generate the template file and the test file.
+When generating a component using `ember generate component modal` in Octane apps it will now by default use the `--no-component-class` flag. This means that when you generate a component it will only generate the template file and the test file.
 
-If you want a component class file when generating the component you can use the `--with-component-class` flag.
+In the cases where you need a component class file, you can either pass the `--with-component-class` flag to the `component` generator, or add one after the fact with the new `ember generate component-class modal` generator.
+
 
 **Detect the edition that is in use (5 of 5)**
 
