@@ -45,15 +45,30 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.13
 
-Ember.js 3.13 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.13 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is five (5) new features, one (1) deprecation, and several bugfixes in this version.
 
-#### New Features (3)
+#### New Features (5)
 
-**Tracked Properties and Tracked Property Updates (1 of 3)**
+**Tracked Properties and Tracked Property Updates (1 of 5)**
 
-**Component Templates Co-location (2 of 3)**
+Tracked properties introduce a simpler and more ergonomic system for tracking state change in Ember applications. By taking advantage of new JavaScript features, tracked properties allow Ember to reduce its API surface area while producing code that is both more intuitive and less error-prone.
 
-**Tracked Properties Performance Tuning (3 of 3)**
+During the Ember Octane preview period we encountered some issues with the current design for Tracked Properties that was proposed and accepted in [RFC 410](https://github.com/emberjs/rfcs/blob/master/text/0410-tracked-properties.md). The primary issues were specifically around interop between tracked properties, computed properties, and autotracking, with a few extra issues and inconsistencies surrounding these.
+
+With Ember.js 3.13 you now use this improved version of tracked properties. Have a look at the [guides] or [RFC 410](https://github.com/emberjs/rfcs/blob/master/text/0410-tracked-properties.md) to learn more about tracked properties. You can also have a look at [RFC 478](https://github.com/emberjs/rfcs/blob/master/text/0478-tracked-properties-updates.md) to see what the tracked properties update is about.
+
+**Component Templates Co-location (2 of 5)**
+
+With component templates co-location it is now possible to place a component's JavaScript file and it's template in the same directory on the file system.
+
+[The RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md) contains a detailed explanaition for this feature.
+
+**Add updateHook component-manager capability (3 of 5)**
+
+**Component-class generator (4 of 5)**
+
+**Detect the edition that is in use (5 of 5)**
+
 
 #### Deprecations (1)
 
