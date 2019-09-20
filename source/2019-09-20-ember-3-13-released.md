@@ -137,9 +137,8 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.13
 
-#### New Features (X)
+No new features in Ember CLI 3.13.
 
-#### Deprecations (X)
 
 ---
 
