@@ -19,7 +19,7 @@ If you are upgrading from the previous LTS version to 3.12 then you are getting 
 * The array helper
 * Element Modifier Manager
 
-[3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)*
+[3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)
 * Nested angle bracket component invocation
 * Angle bracket invocation for built-in components
 * Support for native decorators
@@ -63,12 +63,27 @@ With component templates co-location it is now possible to place a component's J
 
 [The RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md) contains a detailed explanaition for this feature.
 
-**Add updateHook component-manager capability (3 of 5)**
+**Add `updateHook` component-manager capability (3 of 5)**
+
+There is a new capability for component managers which allows you to opt-in or opt-out of whether to have an `updateComponent` hook on your component manager.
+
+If you're not an addon author or maintain a component manager then chances are that you will not need use this new feature.
 
 **Component-class generator (4 of 5)**
 
+When generating a component using `ember generate component modal` it will now by default use the `--no-component-class` flag. This means that when you generate a component it will only generate the template file and the test file.
+
+If you want a component class file when generating the component you can use the `--with-component-class` flag.
+
 **Detect the edition that is in use (5 of 5)**
 
+It is now possible to use `@ember/edition-utils` to detect which edition is currently in use.
+
+```js
+import { has } from '@ember/edition-utils'
+
+let isOctane = has('octane');
+```
 
 #### Deprecations (1)
 
@@ -79,6 +94,8 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 For more details on changes in Ember.js 3.13, please review the [Ember.js 3.13.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.13.0).
 
 **Deprecate support for mouseEnter/Leave/Move Ember events (1 of 1)**
+
+Ember.js 3.13 deprecates support for `mouseEnter`, `mouseLeave` and `mouseMove` Ember events. [The deprecation guide](https://deprecations.emberjs.com/v3.x#toc_action-mouseenter-leave-move) contains guidance on how to migrate away from this.
 
 ---
 
