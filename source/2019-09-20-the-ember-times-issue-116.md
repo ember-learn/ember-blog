@@ -7,21 +7,19 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
-This week:
-
+Check out the new Octane Super Rentals Tutorial 🚀,
 the 1st EmberJS Meetup in Nizhny 🥳,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Octane Super Rentals Tutorial 🚀](https://octane-guides-preview.emberjs.com/release/tutorial/00-part-1/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Godfrey Chan @chancancode](https://github.com/chancancode) and [Vaidehi Joshi @vaidehijoshi](https://github.com/vaidehijoshi) did some great work writing new tutorial content for Octane. You can now preview the [revamped Super Rentals tutorial](https://octane-guides-preview.emberjs.com/release/tutorial/00-part-1/) in the [Octane guides](https://octane-guides-preview.emberjs.com/).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+What’s more amazing about this [Super Rentals tutorial](https://super-rentals-tutorial--ember-super-rentals.netlify.com/) is that it is **automatically generated**. It runs the commands from markdown files and edits the files the same way that the reader would. It even captures the output and screenshots for the published tutorial. This way, if any steps stopped working due to a change in Ember itself, we would know right away from a CI failure.
+
+If you are looking to contribute, or if you have any feedback on the content, check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
 
 ---
 
