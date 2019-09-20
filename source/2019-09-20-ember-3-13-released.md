@@ -45,7 +45,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.13
 
-Ember.js 3.13 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is five (5) new features, one (1) deprecation, and several bugfixes in this version.
+Ember.js 3.13 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are five (5) new features, one (1) deprecation, and several bugfixes in this version.
 
 #### New Features (5)
 
