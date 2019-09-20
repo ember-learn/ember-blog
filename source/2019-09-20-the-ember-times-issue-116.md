@@ -12,11 +12,11 @@ Check out the new Octane Super Rentals Tutorial 🚀,
 
 ---
 
-## [Octane Super Rentals Tutorial 🚀](https://octane-guides-preview.emberjs.com/release/tutorial/01-orientation/)
+## [Octane Super Rentals Tutorial 🚀](https://octane-guides-preview.emberjs.com/release/tutorial/00-part-1/)
 
-[@chancancode](https://github.com/chancancode) and [@vaidehijoshi](https://github.com/vaidehijoshi) did some great work writing content and creating a tutorial code generator that runs commands, inserts the code into a tutorial, and even takes screenshots. You can now preview the [Octane guides](https://octane-guides-preview.emberjs.com/release/tutorial/01-orientation/) and check out the tutorial.
+[@chancancode](https://github.com/chancancode) and [@vaidehijoshi](https://github.com/vaidehijoshi) did some great work writing new content for the revamped Super Rentals tutorial. You can now preview the [Octane guides](https://octane-guides-preview.emberjs.com/release/tutorial/00-part-1/) and check out the tutorial.
 
-What’s amazing is that this tutorial is **automatically generated**. It runs the commands and edits the files the same way that the reader would. It even captures the output and screenshots. This way, if any steps stopped working due to a change in Ember itself, we would know right away from a CI failure.
+What’s more amazing about this tutorial is that it is **automatically generated**. It runs the commands from markdown files and edits the files the same way that the reader would. It even captures the output and screenshots for the published tutorial. This way, if any steps stopped working due to a change in Ember itself, we would know right away from a CI failure.
 
 If you are looking to contribute, or if you have any feedback on the content, check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
 
