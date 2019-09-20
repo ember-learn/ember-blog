@@ -18,7 +18,7 @@ Check out the new Octane Super Rentals Tutorial 🚀,
 
 What’s amazing is that this tutorial is **automatically generated**. It runs the commands and edits the files the same way that the reader would. It even captures the output and screenshots. This way, if any steps stopped working due to a change in Ember itself, we would know right away from a CI failure.
 
-If you are looking to contribute, check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
+If you are looking to contribute, or if you have any feedback on the content, check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
 
 ---
 
