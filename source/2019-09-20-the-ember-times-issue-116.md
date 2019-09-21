@@ -31,7 +31,7 @@ If you are looking to contribute, or if you have any feedback on the content, ch
   <p>Recently, the Ember community of <strong>Нижний Новгород ("Nizhny Novgorod")</strong> came together
   for the first event of <a href="https://emberjs-nn.timepad.ru/events/" target="niz" rel="noopener">Nizhny's EmberJS meetup group</a>.
   The event was a huge success and featured insightful talks around JavaScript, Ember, testing best practices and much more.
-  Event organiser <a href="https://twitter.com/NataliFel" target="natali" rel="noopener">Natasha Fel, @NataliFel on Twitter</a> shared highlights from the meetup,
+  Event organiser <a href="https://twitter.com/NataliFel" target="natali" rel="noopener">Natasha Fel aka @NataliFel on Twitter</a> shared highlights from the meetup,
   including these amazing <a href="https://twitter.com/NataliFel/status/1170245679849099264" target="tomstercookies" rel="noopener">Tomster cookies</a>!</p>
 </div>
 
