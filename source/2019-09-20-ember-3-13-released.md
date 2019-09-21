@@ -71,7 +71,7 @@ app
     └── user-profile.js
 ```
 
-In 3.13, this feature is not available unless you enable the Octane preview. However, we expect to enable it for all apps once a [performance issue](https://github.com/ember-cli/ember-cli-htmlbars/issues/290) is addressed.
+In 3.13, this feature is not available unless you enable the Octane preview. However, we expect to enable it for all apps in the next release once a [performance issue](https://github.com/ember-cli/ember-cli-htmlbars/issues/290) is addressed.
 
 [The RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md) contains a detailed explanation of the design of this feature.
 
