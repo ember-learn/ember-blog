@@ -9,7 +9,7 @@ responsive: true
 🏄‍♂️ Emberistas! 🐹
 Check out the new Octane Super Rentals Tutorial 🚀,
 the 1st EmberJS Meetup in Nizhny 🥳,
-and another exclusive "I contribute to Ember" interview 📝 with Michelle Santarsiero! 
+and an Ember Times exclusive "I contribute to Ember" interview 📝 with Michelle Santarsiero! 
 
 ---
 
@@ -51,18 +51,15 @@ be added to the meetup organisers channel in [#discord-server-admin](https://dis
 
 ---
 
-## ["I contribute to Ember" with Michelle Santarsiero 👩‍💻]()
-
-<consider adding some bold to your paragraph>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## ["I contribute to Ember" with Michelle Santarsiero 👩‍💻](https://discuss.emberjs.com/t/i-contribute-to-ember-with-michelle-santarsiero/17069)
 
 <div class="float-right padded portrait-frame">
   <img alt="Michelle Santarsiero" title="Michelle Santarsiero - Contributor to Ember" src="/images/blog/emberjstimes/michelle_santarsiero.png" />
 </div>
 
-In our twelth edition of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about ...
+In our twelth edition of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about her work on Ember Observer, her journey into open source, and her tips for making incremental progress when doing open source on the side. Thank you for your contributions to the Ember community, Michelle!
 
-You can read the full interview on [the Ember Discuss Forum]().
+You can read the full interview on [the Ember Discuss Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-michelle-santarsiero/17069).
 
 <a class="ember-button ember-button--centered" href="">Read more</a>
 
