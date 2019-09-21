@@ -25,17 +25,17 @@ In Ember 3.14, Octane will be the recommended way to use Ember and new apps will
 
 You can try out the Octane preview by disabling legacy behavior and specifying the Octane edition in `.ember-cli.js`.
 
-```
-$ ember feature:disable jquery-integration
-$ ember feature:enable template-only-glimmer-components
-$ ember feature:disable application-template-wrapper
+```bash
+ember feature:disable jquery-integration
+ember feature:enable template-only-glimmer-components
+ember feature:disable application-template-wrapper
 ```
 
 If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
 
 To opt in to the Octane preview, add the following lines to the beginning of `.ember-cli.js`.
 
-```
+```js
 // .ember-cli.js
 const { setEdition } = require('@ember/edition-utils');
 
@@ -64,7 +64,7 @@ Have a look at the [guides] to learn more about tracked properties. For design d
 
 Component co-location is available in Ember 3.13 when the Octane preview is enabled. This feature allows you to group a component's template and JavaScript files together in the file system. For example, a component named `user-profile` would be made up of the following files:
 
-```
+```bash
 app
 └── components
     ├── user-profile.hbs
@@ -178,10 +178,10 @@ Among other things, the [`@model` named argument](https://github.com/emberjs/rfc
 This beta release also included a new [debug render tree API](https://github.com/emberjs/ember.js/pull/18372), which will be integrated into the Ember Inspector sometime during the beta cycle to give it full Octane support.
 You can read more about our general release process here:
 
-- [Release Dashboard](http://emberjs.com/builds/)
-- [The Ember Release Cycle](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
-- [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
-- [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
+* [Release Dashboard](http://emberjs.com/builds/)
+* [The Ember Release Cycle](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
+* [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
+* [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
 
 ## Thank You!
 
