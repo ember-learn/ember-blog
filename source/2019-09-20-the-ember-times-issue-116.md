@@ -1,15 +1,15 @@
 ---
 title: The Ember Times - Issue No. 116
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/20-the-ember-times-issue-116.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+🏄‍♂️ Emberistas! 🐹
 Check out the new Octane Super Rentals Tutorial 🚀,
 the 1st EmberJS Meetup in Nizhny 🥳,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+and an Ember Times exclusive "I contribute to Ember" interview 📝 with Michelle Santarsiero! 
 
 ---
 
@@ -20,16 +20,6 @@ the 1st EmberJS Meetup in Nizhny 🥳,
 What’s more amazing about this [Super Rentals tutorial](https://super-rentals-tutorial--ember-super-rentals.netlify.com/) is that it is **automatically generated**. It runs the commands from markdown files and edits the files the same way that the reader would. It even captures the output and screenshots for the published tutorial. This way, if any steps stopped working due to a change in Ember itself, we would know right away from a CI failure.
 
 If you are looking to contribute, or if you have any feedback on the content, check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -56,69 +46,24 @@ If you are looking to contribute, or if you have any feedback on the content, ch
   and you can find any <a href="https://emberjs.com/community/meetups/assets" target="asssets" rel="noopener">assets for your event over here</a>.</p>
 </div>
 
-
 For any further questions, be sure to join the [Ember Discord chat](https://discordapp.com/invite/emberjs) and ask for the correct role to
 be added to the meetup organisers channel in [#discord-server-admin](https://discordapp.com/channels/480462759797063690/480499718330253342).
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## ["I contribute to Ember" with Michelle Santarsiero 👩‍💻](https://discuss.emberjs.com/t/i-contribute-to-ember-with-michelle-santarsiero/17069)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+<div class="float-right padded portrait-frame">
+  <img alt="Michelle Santarsiero" title="Michelle Santarsiero - Contributor to Ember" src="/images/blog/emberjstimes/michelle_santarsiero.png" />
+</div>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In our twelth edition of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about her work on Ember Observer, her journey into open source, and her tips for making incremental progress when doing open source on the side. Thank you for your contributions to the Ember community, Michelle!
 
----
+You can read the full interview on [the Ember Discuss Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-michelle-santarsiero/17069).
 
-## [Section Title in Title Case 🐹](#section-url)
+<a class="ember-button ember-button--centered" href="">Read more</a>
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
 
 ---
 
@@ -152,4 +97,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Amy Lam and the Learning Team
