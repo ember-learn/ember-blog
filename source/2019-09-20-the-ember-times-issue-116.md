@@ -58,7 +58,7 @@ be added to the meetup organisers channel in [#discord-server-admin](https://dis
   <img alt="Michelle Santarsiero" title="Michelle Santarsiero - Contributor to Ember" src="/images/blog/emberjstimes/michelle_santarsiero.png" />
 </div>
 
-In our **twelth edition** of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about her work on **Ember Observer**, her journey into open source, and her tips for making **incremental progress** when doing open source on the side. Thank you for your contributions to the Ember community, Michelle!
+In our **twelfth edition** of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about her work on **Ember Observer**, her journey into open source, and her tips for making **incremental progress** when doing open source on the side. Thank you for your contributions to the Ember community, Michelle!
 
 You can read the full interview on [the Ember Discuss Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-michelle-santarsiero/17069).
 
