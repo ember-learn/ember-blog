@@ -7,6 +7,7 @@ responsive: true
 ---
 
 🏄‍♂️ Emberistas! 🐹
+
 Check out the new Octane Super Rentals Tutorial 🚀,
 the 1st EmberJS Meetup in Nizhny 🥳,
 and an Ember Times exclusive "I contribute to Ember" interview 📝 with Michelle Santarsiero! 
@@ -30,7 +31,7 @@ If you are looking to contribute, or if you have any feedback on the content, ch
   <p>Recently, the Ember community of <strong>Нижний Новгород ("Nizhny Novgorod")</strong> came together
   for the first event of <a href="https://emberjs-nn.timepad.ru/events/" target="niz" rel="noopener">Nizhny's EmberJS meetup group</a>.
   The event was a huge success and featured insightful talks around JavaScript, Ember, testing best practices and much more.
-  Event organiser <a href="https://twitter.com/NataliFel" target="natali" rel="noopener">@NataliFel</a> shared highlights from the meetup,
+  Event organiser <a href="https://twitter.com/NataliFel" target="natali" rel="noopener">Natasha Fel, @NataliFel on Twitter</a> shared highlights from the meetup,
   including these amazing <a href="https://twitter.com/NataliFel/status/1170245679849099264" target="tomstercookies" rel="noopener">Tomster cookies</a>!</p>
 </div>
 
@@ -57,7 +58,7 @@ be added to the meetup organisers channel in [#discord-server-admin](https://dis
   <img alt="Michelle Santarsiero" title="Michelle Santarsiero - Contributor to Ember" src="/images/blog/emberjstimes/michelle_santarsiero.png" />
 </div>
 
-In our twelth edition of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about her work on Ember Observer, her journey into open source, and her tips for making incremental progress when doing open source on the side. Thank you for your contributions to the Ember community, Michelle!
+In our **twelth edition** of our contributor interview series, community member [Michelle Santarsiero @lonelyghost](https://github.com/lonelyghost), talks about her work on **Ember Observer**, her journey into open source, and her tips for making **incremental progress** when doing open source on the side. Thank you for your contributions to the Ember community, Michelle!
 
 You can read the full interview on [the Ember Discuss Forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-michelle-santarsiero/17069).
 
