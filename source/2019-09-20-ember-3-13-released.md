@@ -173,6 +173,9 @@ If you are upgrading from the previous LTS version (3.8) to 3.12 then you are ge
 
 This release kicks off the 3.14 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
+Among other things, the [`@model` named argument](https://github.com/emberjs/rfcs/blob/master/text/0523-model-argument-for-route-templates.md) will be available to route templates. While not officially an "Octane feature", this feature will available for the first time in the 3.14 release, which coincides with the Octane release. Since the Octane guides and documentation are targeting the same version, you will see them using this feature, but please not that the feature is not available in the 3.13 Octane preview.
+
+This beta release also included a new [debug render tree API](https://github.com/emberjs/ember.js/pull/18372), which will be integrated into the Ember Inspector sometime during the beta cycle to give it full Octane support.
 You can read more about our general release process here:
 
 - [Release Dashboard](http://emberjs.com/builds/)
