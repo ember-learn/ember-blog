@@ -1,7 +1,7 @@
 ---
 title: Ember 3.13 Released (Octane Preview)
 author: Kenneth Larsen, Tom Dale, Yehuda Katz
-tags: Releases, 2019, 3, 3.13, 3.x
+tags: Releases, 2019, 3, 3.13, Version 3.x
 responsive: true
 ---
 
