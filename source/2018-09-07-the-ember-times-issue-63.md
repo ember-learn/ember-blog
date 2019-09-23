@@ -8,6 +8,7 @@ responsive: true
 
 Sholem-aleykhem Emberistas! 🐹
 
+<!--alex ignore special-->
 Be sure to join the new Ember community chat on Discord 💬! This week, you can have a look into Ember Data's Meta Quest 🔜, some fresh 🍎 RFCs, thoughts on fostering the Ember community 💛, and a special thank you to @mmun 🎉.
 
 READMORE
@@ -85,6 +86,7 @@ Quoting Tom on his final reasoning: "Let's make sure we're fostering a community
 
 ---
 
+<!--alex ignore special-->
 ## [A special thank you to a long-time contributor 🙇](https://github.com/emberjs/website/pull/3541)
 
 <!--alex ignore alumna-alumnus-->

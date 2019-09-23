@@ -31,8 +31,8 @@ Similarly, `meta` and `links` will be exposed on instances of `DS.Snapshot`. Alt
 
 ```js
 class Snapshot {
-    links() {}
-	meta() {}
+  links() {}
+  meta() {}
 }
 ```
 

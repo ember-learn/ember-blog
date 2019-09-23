@@ -23,6 +23,7 @@ READMORE
 ---
 
 ## [Ember 3.1.1 Released 🐹✨](https://github.com/emberjs/ember.js/releases/tag/v3.1.1)
+
 This week, a **patch** for Ember was released. It includes **several bug fixes**, but here are a few selected ones:
 
 [A bug](https://github.com/emberjs/ember.js/issues/16379) was introduced in Ember 3.1 that caused `ariaRole` to not be appended if this was initially set as being `false`. The expected behaviour here is that if you initially set the `ariaRole` to false it should not be appended, but you might want to dynamically change this later on. This is now fixed with Ember 3.1.1.

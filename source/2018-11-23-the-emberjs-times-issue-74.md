@@ -18,6 +18,7 @@ READMORE
 
 [@runspired](www.github.com/runspired) dropped a big RFC on [Ember Data](https://github.com/emberjs/data) packages. The RFC proposes **public** import path changes for `ember-data` and moving `ember-data` into the `@ember-data` namespace.
 
+<!--alex ignore nuts-->
 The motivations for these changes revolve around improving the [TypeScript](https://www.typescriptlang.org/) experience, reduce bike shedding, simplify the mental model, engage more contributors, improve CI time, and more! By breaking down the single large package into smaller consumable chunks, end users can pick and choose which parts they need and do not need as well as make the ecosystem easier to navigate.
 
 There are [detailed designs](https://github.com/runspired/rfcs/blob/ember-data-packages-rfc/text/0000-ember-data-packages.md#detailed-design) on where each package will move towards so read more about it in the [RFC on GitHub](https://github.com/runspired/rfcs/blob/ember-data-packages-rfc/text/0000-ember-data-packages.md)!

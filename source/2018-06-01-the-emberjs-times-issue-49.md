@@ -18,9 +18,11 @@ responsive: true
 
 ਸਤ ਸ੍ਰੀ ਅਕਾਲ Emberistas!
 
+<!--alex ignore special-->
 This week we have a 🌟 **Special Edition** 🌟😲 for you: we'll take a look into the internals of the new
 Ember Guides website, which has had a [complete makeover and relaunched this month](https://www.emberjs.com/blog/2018/05/25/the-emberjs-times-issue-48.html#toc_a-href-https-guides-emberjs-com-new-ember-guides-launched-a) to finally run on an amazing Ember app. This will finally make contributions through the Ember community immensely easier. ✨
 
+<!--alex ignore special-->
 In this special edition of The Ember Times, [@real_ate](https://github.com/mansona) who championed the **migration of the Guides** will let us have a peek into [the new app's](https://github.com/ember-learn/guides-app) internals and into its **Broccoli** powered **build pipeline**. So get ready to hit your recommended daily intake of veggies 🥒🥕 and read either on the [Ember blog](https://www.emberjs.com/blog/2018/06/01/the-emberjs-times-issue-49.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/2018/06/01/issue-49) about what has been going on in Emberland this week...
 
 READMORE
@@ -34,6 +36,7 @@ can keep track of future posts in this series by following [the RSS feed](https:
 
 ## Initial experiments
 
+<!--alex ignore ball-->
 In the very early stages of the conversations about upgrading the Ember Guides to be a fully-fledged
 Ember app, Ryan Tablada (AKA [@rtablada](https://github.com/rtablada)) pointed me towards an
 experiment that he had started to get the ball rolling. It was called
@@ -216,6 +219,7 @@ const TableOfContentsSerializer = new Serializer('page', {
 ```
 
 #### Building the tree of Markdown files
+
 Next up is the main event, converting a nested structure of Markdown files into a nested structure of JSON:API documents. This one will be simpler to follow if we take it in bite-sized chunks. Let's start with getting the Markdown files:
 
 ```js
@@ -312,6 +316,7 @@ const ContentSerializer = new Serializer('content', {
 In this case we use `keyForAttribute()` to rename `__content` to just be `content`.
 
 ## Conclusion
+
 I hope you enjoyed this deep dive into the guts of `broccoli-static-site-json`. If you are interested in other places that make use of this system, you can check out [Ember Casper Template](https://github.com/stonecircle/ember-casper-template), which also happens to be what is powering [the Stone Circle blog](https://blog.stonecircle.io/). 🎉
 
 As always, you can reach out to me on [Twitter](https://twitter.com/real_ate), or you can find me on the Ember Community Slack as `@real_ate`.

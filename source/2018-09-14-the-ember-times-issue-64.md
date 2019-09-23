@@ -61,6 +61,7 @@ Here is an example of the element modifier syntax in action:
 <button {{effect 'fade-in'}}>Save</button>
 ```
 
+<!--alex ignore savage-->
 The [Modifier Manager RFC](https://github.com/emberjs/rfcs/pull/373) proposes to add a low level primitive for defining an element modifier which is responsible for coordinating the lifecycle events that occurs when invoking, installing and updating an element modifier. Most app developers would not need interact with the manager but it would allow the community to experiment with and iterate on this API outside of the core framework.
 
 See more in the respective RFCs for [Element Modifier](https://github.com/emberjs/rfcs/pull/353) and [Modifier Manager](https://github.com/emberjs/rfcs/pull/373).

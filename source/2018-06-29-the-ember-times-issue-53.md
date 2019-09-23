@@ -54,6 +54,7 @@ to support you in making your proposal a real success! 🌟
 The [Call for Proposals](https://cfp.emberconf.com/events/embercamp-chicago-2018) for talk submissions is still **open until July 22**.
 Unsure if you can **see yourself speaking** in the first place but curious what public speaking is about?
 
+<!--alex ignore gal-guy-->
 Find ideas,
 inspiration, answers to your questions and support in the
 [#topic-talks](https://embercommunity.slack.com/archives/C9RSE508J/p1530056392000168) channel

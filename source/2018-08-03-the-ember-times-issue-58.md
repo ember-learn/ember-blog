@@ -10,6 +10,7 @@ Xin chào Emberistas! 🐹
 
 Read either on the [Ember blog](https://www.emberjs.com/blog/2018/08/03/the-ember-times-issue-58.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com) what has been going on in Emberland this week.
 
+<!--alex ignore special-->
 This time we have a call-to-action to shape the future of the **new Ember homepage** 🎨👩‍🎨 for you, as well as a brand-new **RFC for the Ember CLI Docs** 📖,
 important **accessibility** updates for **ember-toggle** 🔘 and a special **thank you note** for some of our dedicated contributors ✨
 
@@ -47,12 +48,14 @@ Awesome news! We love Ember addons. 🐹 ❤️ 📦
 
 ---
 
+<!--alex ignore special-->
 ## [A Special Thank You For All Your Efforts 🙇](https://github.com/ember-learn)
 
 <div class="blog-row">
   <img class="float-left transparent" alt="" title="Ember Style Guide Docs" src="/images/blog/emberjstimes/styleguide-docs-screenshot.png" />
 </div>
 
+<!--alex ignore special-->
 Even though we're already trying to highlight the amazing and consistent efforts of community contributors in our weekly **Contributors' Corner**, we'd like to take the time to say a special thank you to a couple of ambitious contributors to learning resources specifically:
 
 We're grateful for all the outstanding contributions [@hakilebara](https://github.com/hakilebara) made to learning resources recently. This included a [from-the-scratch setup](https://github.com/ember-learn/ember-styleguide/pull/76) of the [ember-styleguide docs](https://github.com/ember-learn/ember-styleguide) and [improvements to the offical Guides](https://github.com/ember-learn/guides-source/pull/112).
