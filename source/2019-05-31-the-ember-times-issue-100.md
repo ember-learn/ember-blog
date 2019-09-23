@@ -14,8 +14,10 @@ check out the Ember Sinon 4.0.0 release 💯,
 Ember CLI Mirage 1.0.0 release 🎉,
 Ember File Upload 2.7.0 release 🆙,
 ES6 Class Syntax Codemod 🤖,
-and last, but not least, 
+and last, but not least,
 mythical `null` and error handling with True Myth 3.0 🔮!
+
+READMORE
 
 ---
 

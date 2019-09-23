@@ -11,6 +11,8 @@ responsive: true
 <!--alex ignore special-->
 Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today, as well as ways that we can reflect and improve. So enjoy the read. 📜
 
+READMORE
+
 ---
 
 ## [Reason #1. Community 🏆](https://emberjs.com/community)
@@ -65,7 +67,7 @@ Ember's success in providing stability and reliability shines also through the a
 
 Ember developers can make a strong case for choosing Ember at work. With stability comes peace of mind for business users, who "can relax knowing that deprecations & breaking changes will be flagged up months/years in advance."
 
-By choosing Ember, you can **save your development team time**, particularly once you're familiar with Ember. In recommending Ember, one respondent said: 
+By choosing Ember, you can **save your development team time**, particularly once you're familiar with Ember. In recommending Ember, one respondent said:
 
 > You can learn Ember once and apply your knowledge in any other Ember project. That is an achievement which can't even be remotely accomplished by (other frameworks). Ember is always a coherent experience as all addons can be authored and consumed via the same tools. Spending less brainpower on tooling, setting up a testing environment, or writing testable code is a very good thing.
 

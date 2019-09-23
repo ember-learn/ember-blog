@@ -10,6 +10,8 @@ responsive: true
 
 This week you can read all about a new RFC for **accessible routing** 🗺, angle brackets coming 🔜 to the guides, a new way to decorate with Ember Decorators 🖼, a **contributor interview** with @bekzod 💬, check out the upcoming Ember.js documentary 🎬🍿🎥, a new RFC for **contextual helpers** 🎒 and more!
 
+READMORE
+
 ---
 
 ## [New RFC: Accessible Routing in Ember 🗺](https://github.com/emberjs/rfcs/pull/433)

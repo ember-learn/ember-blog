@@ -10,6 +10,8 @@ Salut Emberistas! 🐹
 
 This week boolean component arguments 👻 are in for an RFC, learn more about component patterns 📚🧐, Ember 3.6 released 🚀, and the EmberConf speakers have been announced! 👏
 
+READMORE
+
 ---
 
 ## [Boolean Dreams Come True ☁️](https://github.com/emberjs/rfcs/pull/407)

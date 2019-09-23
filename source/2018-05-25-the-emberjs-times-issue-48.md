@@ -10,9 +10,12 @@ responsive: true
 
 Read either on the [Ember blog](https://www.emberjs.com/blog/2018/05/25/the-emberjs-times-issue-48.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/2018/05/25/issue-48) what has been going on in Emberland this week: We have some news for Ember CLI **bundled up** for you, as well as **documentation highlights** from the folks from `ember-cli-addon-docs`, a final reminder to hand in your Ember **Roadmap blog post** and a pretty big announcement from the Learning Team for you! 🙆🏾
 
+READMORE
+
 ---
 
 ## [What is your wish for Ember in 2018?🌟](https://emberjs.com/blog/2018/05/02/ember-2018-roadmap-call-for-posts.html)
+
 There’s a week left of the Ember’s 2018 call for blog posts. There’s already been a lot of great blog posts from the community, but we’re hoping for more!
 
 Write a blog post by **May 30th** to propose goals and direction for Ember in the remainder of 2018. The content of these posts will help the core team to draft their first Roadmap RFC.
@@ -35,6 +38,7 @@ And want to know **when** it will finally land for an Ember app near you? Of cou
 
 The new [guides.emberjs.com](https://guides.emberjs.com) is live, hooray!
 
+<!--alex ignore  middleman-middlewoman-->
 The Guides are a cornerstone of the Ember experience, and one of our community's strengths is that anyone can get involved. So, it's important to make it easier for everyone to create content or functionality. For this reason, a team of contributors have been working for months to convert the Guides from a Ruby/Middleman app into an Ember app. Now, to help with content, contributors only need to work with markdown files, and to see how things would look on the website, they run an Ember app!
 
 [ember-learn/guides-app](https://github.com/ember-learn/guides-app) contains the static site generator that pulls written content from [guides-source](https://github.com/ember-learn/guides-source) markdown files. The guides-app produces static HTML using [Prember](https://github.com/ef4/prember) and [FastBoot](https://www.ember-fastboot.com/). The app is currently served through Heroku who supports Ember in a big way by sponsoring hosting and advice. (Did you know that it takes a ton of back end infrastructure to run a front-end framework project? Other parts of our website rely on support from Fastly, like the API docs. We're thankful to have so many friends of open source 👨‍👩‍👧‍👦!)

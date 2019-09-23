@@ -12,8 +12,10 @@ Read either on the [Ember blog](https://www.emberjs.com/blog/2018/07/06/the-embe
 
 
 This week you can read all about the **📦 Ember 3.2** and how the **🐹 Core Team has reorganised**.
-There's also a great tip on how you can improve your testing with the new and improved **🚀QUnit DOM**. 
+There's also a great tip on how you can improve your testing with the new and improved **🚀QUnit DOM**.
 At last, there's news about **👩‍💻 Twiddle** as well as a nice **📹 video on the Ember Styleguide**. Enjoy!
+
+READMORE
 
 ---
 

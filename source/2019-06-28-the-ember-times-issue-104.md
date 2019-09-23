@@ -13,6 +13,8 @@ Readers' Questions: What is Embroider? 🤔,
 live Embroider Demo by Edward Faulkner 🖥️, and an
 RFC for Embroider v2 Addon Format 💬. Also, help out in the Prettier Glimmer Quest Issue 🎀✨!
 
+READMORE
+
 ---
 
 ## [Readers' Questions: What is Embroider?](https://discuss.emberjs.com/t/readers-questions-what-is-embroider/16722)

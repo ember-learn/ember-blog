@@ -10,6 +10,8 @@ Bonjour Emberistas! 🐹
 
 This week your **help is needed** to bring **tree-shaking** 🌳 to Ember apps! RFCs on **route actions** and **dynamic tags** are ready for **your comments** 📢. We're also highlighting **Ember for CodeSandbox** ✨, and the awesome **#30DaysOfEmber** 📆 series. Read on!
 
+READMORE
+
 ---
 
 ## [Make Tree-Shaking 🌲 Ready for Landing ✈️ - Your Help is Wanted!](https://twitter.com/kellyselden/status/1050717338595745792)
@@ -24,7 +26,7 @@ If you're feeling up to the task to help tree-shaking land in Ember and you're c
 
 ## [Action! 🎬 Ember Route Actions for All](https://github.com/emberjs/rfcs/pull/394)
 
-Actions in Ember are usually defined in a **controller**. However the addon [ember-route-action-helper](https://github.com/DockYard/ember-route-action-helper) has existed for some time and allows you to easily use actions, defined in the route, inside your templates. Some say that this allows less **dependance** on controllers. A new [RFC (Request for Comments) for Route Actions](https://github.com/emberjs/rfcs/pull/394) has been suggested by [@vasilakisfil](https://github.com/vasilakisfil) that proposes integrating this helper into **Ember core** for use in all apps without the need for the addon. 
+Actions in Ember are usually defined in a **controller**. However the addon [ember-route-action-helper](https://github.com/DockYard/ember-route-action-helper) has existed for some time and allows you to easily use actions, defined in the route, inside your templates. Some say that this allows less **dependance** on controllers. A new [RFC (Request for Comments) for Route Actions](https://github.com/emberjs/rfcs/pull/394) has been suggested by [@vasilakisfil](https://github.com/vasilakisfil) that proposes integrating this helper into **Ember core** for use in all apps without the need for the addon.
 
 It is important to state that the addon has a **warning** about using it and that controllers are still an **integral** part of Ember as explained last week in our [Readers' Question: What is the Future of Controllers](https://discuss.emberjs.com/t/readers-questions-what-is-the-future-of-controllers-when-is-it-a-good-time-to-use-them-in-a-modern-ember-app/15708).
 
