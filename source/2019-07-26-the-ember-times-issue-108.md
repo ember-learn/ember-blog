@@ -15,6 +15,8 @@ learn about the newest – and hopefully last! – way to handle events in Ember
 a cheat sheet for modern Ember components ✨, and last, but not least,
 find out how to create static sites with Prember and Ember Data 🔥!
 
+READMORE
+
 ---
 
 ## [Sentry Error Reporting for Ember.js 📈](https://simplabs.com/blog/2019/07/15/sentry-and-ember/)

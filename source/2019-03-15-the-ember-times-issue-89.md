@@ -10,6 +10,8 @@ Talofa Emberistas! 🐹 We hope to see you at EmberConf next week!
 
 Polish up the Guides preview for Octane ⛽️, invoke nested components with angle bracket syntax 📐, an update on module unification 📝, check out the new Yieldable Named Blocks RFC 📇, an Ember Data Development Plan RFC 💾 and more!
 
+READMORE
+
 ---
 
 ## [Copy Editors For the Octane Guides Needed 📝](https://github.com/ember-learn/guides-source/issues/588)

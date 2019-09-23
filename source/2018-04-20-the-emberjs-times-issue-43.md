@@ -17,6 +17,8 @@ Last but not least, a **new Readers' Question** about a neat new syntax feature 
 
 Here's what's happened this week 🐹:
 
+READMORE
+
 ---
 
 ## [The Road Ahead for Ember CLI in 2018](https://discuss.emberjs.com/t/ember-cli-2018-edition/14543)

@@ -13,6 +13,8 @@ We have a couple of **fresh 🥒 Ember RFCs** (Request for Comments) in for you 
 **Package** 📦 feature in Ember CLI 💻, a call-to-action for creative **writers** ✍️ and
 last, but not least, a **brand-new Readers' Question** for you 📚:
 
+READMORE
+
 ---
 
 ## [Lets Send SendAction Away!](https://github.com/emberjs/rfcs/pull/335)

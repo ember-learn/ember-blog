@@ -15,6 +15,8 @@ learn why you shouldn't use observers 🙋‍♀️🙋‍♂️,
 small things matter ✏️,
 and Super Rentals tutorial in Octane 🚀!
 
+READMORE
+
 ---
 
 ## [Ember 2019-2020 Roadmap RFC 🐹](https://twitter.com/tomdale/status/1155909868907311110)

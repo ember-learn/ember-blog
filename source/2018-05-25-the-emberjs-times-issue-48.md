@@ -10,6 +10,8 @@ responsive: true
 
 Read either on the [Ember blog](https://www.emberjs.com/blog/2018/05/25/the-emberjs-times-issue-48.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/2018/05/25/issue-48) what has been going on in Emberland this week: We have some news for Ember CLI **bundled up** for you, as well as **documentation highlights** from the folks from `ember-cli-addon-docs`, a final reminder to hand in your Ember **Roadmap blog post** and a pretty big announcement from the Learning Team for you! 🙆🏾
 
+READMORE
+
 ---
 
 ## [What is your wish for Ember in 2018?🌟](https://emberjs.com/blog/2018/05/02/ember-2018-roadmap-call-for-posts.html)

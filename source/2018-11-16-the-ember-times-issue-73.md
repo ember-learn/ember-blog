@@ -10,6 +10,8 @@ Suilad Emberistas! 🐹
 
 Last call for your **talk submissions** to **EmberConf 2019**! 📣 In this week's issue: eslint-plugin-ember v6.0.0 is out 🚓, watch all the talks from EmberFest 🎥, try out hot reloading in Ember ️🔥, and a sneak peak at **DecEmber** 😄...
 
+READMORE
+
 ---
 
 ## [Your Last Chance to Become a Speaker at EmberConf 2019 🎤](https://emberconf.com/become-a-speaker.html)

@@ -10,7 +10,9 @@ responsive: true
 
 Check out the new Octane Super Rentals Tutorial 🚀,
 the 1st EmberJS Meetup in Nizhny 🥳,
-and an Ember Times exclusive "I contribute to Ember" interview 📝 with Michelle Santarsiero! 
+and an Ember Times exclusive "I contribute to Ember" interview 📝 with Michelle Santarsiero!
+
+READMORE
 
 ---
 

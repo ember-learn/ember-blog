@@ -17,6 +17,8 @@ an update on Ember Inspector 🕵️‍♀️,
 submit your EmberFest 2019 talk today 🎤, and an
 EmberWeekend episode featuring Luke Melia 🔈!
 
+READMORE
+
 ---
 
 ## [Help Design the Ember Skill Tree 🌱](https://discuss.emberjs.com/t/learning-ember-ember-skill-tree/16725)

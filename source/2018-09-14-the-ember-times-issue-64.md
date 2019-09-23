@@ -8,7 +8,9 @@ responsive: true
 
 Olá Emberistas! 🐹
 
-This week we're sharing news about the 🆕 Ember community Discord chat 💬, some fresh 🥑 RFCs, the State of JavaScript 2018 Survey 📝, Ember Data Help Wanted 🏗, and welcoming new Learning Team members 👋!  
+This week we're sharing news about the 🆕 Ember community Discord chat 💬, some fresh 🥑 RFCs, the State of JavaScript 2018 Survey 📝, Ember Data Help Wanted 🏗, and welcoming new Learning Team members 👋!
+
+READMORE
 
 ---
 
@@ -35,7 +37,7 @@ Curious? [**Read the full proposal**](https://github.com/emberjs/rfcs/pull/372) 
 
 "Just like [the holidays] or the flu, the **State of JavaScript** survey comes back around every year. But unlike these, it’s something to actually look forward to!" - [Sacha Greif](https://twitter.com/SachaGreif/status/1037603748917403648)
 
-[State of JavaScript](https://stateofjs.com/) is **the** yearly JavaScript survey that aims to gauge the whole JavaScript community across all frameworks, libraries, regional location and more. It tries to find out with which technologies developers are **most happy** with as well as which technologies are coming up and becoming popular in JavaScript. 
+[State of JavaScript](https://stateofjs.com/) is **the** yearly JavaScript survey that aims to gauge the whole JavaScript community across all frameworks, libraries, regional location and more. It tries to find out with which technologies developers are **most happy** with as well as which technologies are coming up and becoming popular in JavaScript.
 
 Last year there were over **20,000 entries** and while Ember was known by most, many either didn't want to learn it or had used it in the past and didn't want to again. With all of the **improvements to Ember** these past few years, **we can do better**!
 

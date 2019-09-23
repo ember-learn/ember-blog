@@ -17,6 +17,8 @@ watch the Visual Regression Testing Made Easy talk video 📺,
 more expressive dependency injection ⬅️,
 and clean out unused components from your 🐹 app!
 
+READMORE
+
 ---
 
 ## [EmberCamp Chicago on September 16th! 🌭](http://embercamp.com/)

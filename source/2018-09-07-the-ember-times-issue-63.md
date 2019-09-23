@@ -10,6 +10,8 @@ Sholem-aleykhem Emberistas! 🐹
 
 Be sure to join the new Ember community chat on Discord 💬! This week, you can have a look into Ember Data's Meta Quest 🔜, some fresh 🍎 RFCs, thoughts on fostering the Ember community 💛, and a special thank you to @mmun 🎉.
 
+READMORE
+
 ---
 
 ## [Meet your Ember 🐹 friends at Discord 🗨](https://discord.gg/zT3asNS)

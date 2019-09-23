@@ -12,6 +12,8 @@ Again you can enjoy reading The Ember Times in both the [e-mail](https://the-emb
 
 This week we'll highlight a new RFC deprecating features from ancient Ember times and a sweet reminder for blogging about your best wishes for Ember and - last, but not least - we have a brand-new Readers' Question❓✨ for you!
 
+READMORE
+
 ---
 
 ## [Moar #EmberJS2018 blog posts wanted!](https://emberjs.com/blog/2018/05/02/ember-2018-roadmap-call-for-posts.html)

@@ -14,6 +14,8 @@ And this week we not only have an insider tip on how to dramatically **reduce** 
 but we're also reporting back on **easy-peasy module imports** 🙌 and - last, but not least! - presenting you a **brand-new Readers' Question** 💯 in this edition of the Ember Times.
 Check it out!
 
+READMORE
+
 ---
 
 ## [Need for Speed: Ember Edition - Speed Up Ember Builds](https://github.com/ember-cli/ember-cli/issues/7645)

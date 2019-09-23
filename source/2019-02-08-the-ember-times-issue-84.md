@@ -10,6 +10,8 @@ responsive: true
 
 This week we have a new 🆕 EmberWeekly.com, ✨ the new documentation site for Ember Mirage, an introduction to the EmberConf 2019 closing speaker – Sarah Allen 🗣️, a new theme 🖤 for your Ember Twiddles and an exclusive interview with Ember contributor @rwwagner90!
 
+READMORE
+
 ---
 
 ## [EmberConf 2019 closing speaker: Sarah Allen 🗣️](https://twitter.com/EmberConf/status/1092880236864188416)

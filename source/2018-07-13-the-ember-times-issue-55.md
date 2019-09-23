@@ -12,6 +12,8 @@ Read either on the [Ember blog](https://www.emberjs.com/blog/2018/07/13/the-embe
 
 This week you can learn about **updating** your Ember app 💁🏻. Learn from firsthand experience how to become an **addon maintainer** 💪. Get some tips on writing your own **RFCs** ✨. Check out the new **SEO tactics** of Ember 🔎 and last but not least learn about the potential move of Ember to a new **chat platform** 💬. Go ahead and enjoy!
 
+READMORE
+
 ---
 
 ## [Don't Worry, Ember CLI Got You Covered 💻](https://github.com/ember-cli/ember-cli-update)
@@ -49,11 +51,11 @@ In order for this specific RFC to be ready the following steps are being taken:
 
 - Get a couple of early reviewers 🤓
 
-- Draft the RFC and get more feedback from all the stakeholders 📖 
+- Draft the RFC and get more feedback from all the stakeholders 📖
 
-- Make a proof of concept 👨‍💻 
+- Make a proof of concept 👨‍💻
 
-- Publish it 🚀 
+- Publish it 🚀
 
 - ❔❔❔
 

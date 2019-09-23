@@ -14,6 +14,8 @@ as well as a look into the **Future of Ember** and an **engine**-powered **Roadm
 
 This is what's happened in Emberland this week 🐹:
 
+READMORE
+
 ---
 
 ## [Back To the Future 🤖✨](https://github.com/rwjblue/ember-named-arguments-polyfill)

@@ -18,6 +18,8 @@ neither you nor your apps should miss.
 
 Here's a recap of what happened in Emberland these days ✨
 
+READMORE
+
 ---
 
 ## [Ember 3.1.1 Released 🐹✨](https://github.com/emberjs/ember.js/releases/tag/v3.1.1)

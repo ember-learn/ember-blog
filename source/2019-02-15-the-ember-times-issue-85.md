@@ -10,6 +10,8 @@ responsive: true
 
 In this week's issue: watch the Ember.js Documentary 🍿, check out the Ember.js core team panel 📹, there's a big update to the guides 📐, a new RFC to deprecate computed().meta() 🚀, and we have an exclusive interview with Ember contributor Lisa Backer! 🎉
 
+READMORE
+
 ---
 
 ## [Ember.js: The Documentary is Now Released! 🍿](https://twitter.com/honeypotio/status/1094974913725849606)

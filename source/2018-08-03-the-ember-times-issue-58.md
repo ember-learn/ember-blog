@@ -13,6 +13,7 @@ Read either on the [Ember blog](https://www.emberjs.com/blog/2018/08/03/the-embe
 This time we have a call-to-action to shape the future of the **new Ember homepage** 🎨👩‍🎨 for you, as well as a brand-new **RFC for the Ember CLI Docs** 📖,
 important **accessibility** updates for **ember-toggle** 🔘 and a special **thank you note** for some of our dedicated contributors ✨
 
+READMORE
 
 ---
 
