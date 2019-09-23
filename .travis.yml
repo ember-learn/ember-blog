@@ -6,5 +6,5 @@ before_install:
 script:
 - npm install alex markdownlint-cli --global
 - bash scripts/language-check.sh
-# - bash scripts/markdown-lint.sh
+- bash scripts/markdown-lint.sh
 - bundle exec middleman build
