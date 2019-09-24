@@ -49,7 +49,7 @@ With twelve, versed speakers, the schedule offered thoughtful insights into:
 - what's new in Ember with its [first edition, Octane](https://emberjs.com/editions/octane/)
 - how [Embroider](https://github.com/embroider-build/embroider) and Ember will literally build a future together
 - everything you need to know to build **accessible JavaScript apps** in 2019
-- how to level up your app's **performance** with worker super powers or well-balanced animations
+- how to level up your app with *web workers** and meaningful **animations**
 - strategies for stable and reliable test suites
 - ...and many, many more topics!
 
