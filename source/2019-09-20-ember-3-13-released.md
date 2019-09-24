@@ -19,7 +19,7 @@ So why is this a preview and not the final Octane release?
 
 While these APIs are stable, not all Octane features are compatible with popular addons yet. We are also still updating documentation, and important tools like the Ember Inspector do not yet work with some Octane features.
 
-In Ember 3.14, Octane will be the recommended way to use Ember and new apps will have Octane's optional features enabled by default. The [guides](https://octane-guides-preview.emberjs.com/release/) and [tutorial](https://octane-guides-preview.emberjs.com/release/tutorial/00-part-1/) will show Octane examples, and codemods will be available to help users migrate to Octane.
+Then, when Ember 3.14 arrives, Octane will be the recommended way to use Ember and new apps will have Octane's optional features enabled by default. The guides and tutorials will show Octane examples, and codemods will be available to help users migrate to Octane. Feel free to take a look at the [current draft](https://emberjs.com/editions/octane) of these learning resources, which are deployed to a temporary URL.
 
 The Ember tutorial has already been completely rewritten for Octane, and the easiest way to understand the big picture of Octane, especially if you're already an experienced Ember developer, is to [work through the new tutorial](https://octane-guides-preview.emberjs.com/release/tutorial/00-part-1/).
 
