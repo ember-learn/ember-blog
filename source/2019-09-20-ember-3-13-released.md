@@ -7,7 +7,7 @@ responsive: true
 
 Today, the Ember project is releasing version 3.13 of Ember.js, Ember Data, and Ember CLI.
 
-Ember 3.13 is the final release of Ember before Octane. Ember 3.13 is also the Octane preview. The preview allows adventurous community members to help us put the final round of polish on the edition before Octane becomes official in 3.14.
+Ember 3.13 is the final release of Ember before Octane. Ember 3.13 is also the Octane preview. The preview allows adventurous community members to start using its stable features and help put the final round of polish on supporting tools and documentation before Octane becomes official in 3.14. You can learn more about what to expect from Octane and how to prepare your apps in a [previous blog post](https://blog.emberjs.com/2019/08/15/octane-release-plan.html).
 
 Additionally, version 3.12 of Ember is now promoted to LTS (Long Term Support). An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version of Ember was 3.8.
 
