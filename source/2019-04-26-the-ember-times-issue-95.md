@@ -10,6 +10,8 @@ What's up Emberistas! 🐹
 
 This week you can read about the Component Templates Co-location RFC 🖇️, the story behind ember-model-select 📔, the launch of ember-intl-analyzer 🚀, and EmberFest 2019 announced 🇩🇰!
 
+READMORE
+
 ---
 
 ## [Component Templates Co-location RFC 🖇️](https://github.com/emberjs/rfcs/pull/481)
@@ -39,15 +41,15 @@ To learn more about @nickschot's motivation and solution behind ember-model-sele
 This CLI tool can **find unused translations** in your component files. Soon, it will be able to **find broken and missing translations** too!
 
 [Try ember-intl-analyzer on your app today. 💛](https://github.com/simplabs/ember-intl-analyzer)
-  
+
 ---
 
 ## [EmberFest 2019 Announced 🇩🇰](https://emberfest.eu/)
-  
-EmberFest will be held in **Copenhagen** this year, October 17-18! EmberFest is the **European Community Ember Conference**. Looking for updates on the latest and greatest in Ember and Glimmer? This is the place to be! 
+
+EmberFest will be held in **Copenhagen** this year, October 17-18! EmberFest is the **European Community Ember Conference**. Looking for updates on the latest and greatest in Ember and Glimmer? This is the place to be!
 
 Check out the videos from [EmberFest 2018](https://www.youtube.com/playlist?list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9) or follow [@EmberFest](https://twitter.com/EmberFest/) on Twitter. Tickets are on sale now, and you can take advantage of early-bird pricing (limited availability). Hope to see you there!
-  
+
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
@@ -69,7 +71,7 @@ Check out the videos from [EmberFest 2018](https://www.youtube.com/playlist?list
 
 ---
 
-## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html) 
+## [#embertimes 📰](https://blog.emberjs.com/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 

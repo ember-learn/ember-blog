@@ -19,6 +19,8 @@ the new EmberWork.com ✌️,
 FAQs about Ember.js in 2019 🙋‍♀️🙋‍♂️, and last, but not least,
 trapping focus 💥 for better **a11y** in your Ember apps!
 
+READMORE
+
 ---
 
 ## [`model` Hook, Illuminated in Ember.js Guides 💡](https://guides.emberjs.com/release/routing/specifying-a-routes-model/)

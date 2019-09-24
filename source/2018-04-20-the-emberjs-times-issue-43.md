@@ -17,6 +17,8 @@ Last but not least, a **new Readers' Question** about a neat new syntax feature 
 
 Here's what's happened this week 🐹:
 
+READMORE
+
 ---
 
 ## [The Road Ahead for Ember CLI in 2018](https://discuss.emberjs.com/t/ember-cli-2018-edition/14543)
@@ -75,6 +77,7 @@ await fillIn('Email', 'alice@example.com');
 await fillIn('Password', 'topsecret');
 await click('Log in');
 ```
+
 How do we get there?  One way is accessibility.
 By delivering accessible, first-class Ember apps by default, you instantly have semantic access to elements because they are labeled in a meaningful way.
 As [@jgwhite](https://github.com/jgwhite)  eloquently puts it
@@ -93,6 +96,7 @@ The Learning Team merged a bunch of pull requests in emberjs/guides recently, ma
 ---
 
 ## [We love Ember.js Times 😍](https://embercommunity.slack.com/messages/C8P6UPWNN/)
+
 Do you? If so, contribute!  The Ember Times is always looking for people to help spread the word about all things Ember.
 Drop by the Slack channel to [say "hi!"](https://embercommunity.slack.com/messages/C8P6UPWNN/) and learn how to get started.
 
@@ -107,7 +111,7 @@ These new commands are `--dry-run` and `--list-codemods`.
 The first, `--dry-run`, will give you a quick explanation of what running the update will do.
 For example running
 
-```
+```bash
 ember-cli-update --dry-run
 ```
 
@@ -137,6 +141,7 @@ so if you aren't currently using it, now is a great time to start!
 ---
 
 ## [Slack ⭐️](https://ember-community-slackin.herokuapp.com/)
+
 The Ember Times would like to give a shoutout to <a href="https://github.com/runspired">@runspired</a> (Chris Thoburn), for being incredibly helpful and responsive in a majority of the Slack channels this last week
 by supporting community members migrate through the many versions of Ember data from 2.12 all the way to 3.2.0-beta.2.
 

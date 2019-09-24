@@ -62,7 +62,6 @@ Be sure to check out [Jordan Hawker's (@elwayman02)](https://github.com/elwayman
 Can't wait to make it to the camping trip next year? Be sure to let the EmberCamp team know
 [on Twitter](https://twitter.com/embercamp) or via [old-school e-mail](embercamp.chicago@gmail.com)!
 
-
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)

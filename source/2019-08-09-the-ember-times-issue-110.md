@@ -18,6 +18,8 @@ versioned Ember API links added to the Guides 🔢,
 and last, but not least,
 an Update for Co-Located Templates in the Guides ☝️!
 
+READMORE
+
 ---
 
 ## [{{on}} & {{fn}} in Octane Guides 🔥](https://github.com/ember-learn/guides-source/pull/912)

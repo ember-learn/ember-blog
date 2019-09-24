@@ -11,6 +11,8 @@ Kaltxì Emberistas! 🐹
 This week: the **EmberFest** 2019 CFP is now open 📝, build a GitHub Gist clone in **Octane** ⛽️,
 RFC proposing **deprecation** of `mouseenter` + `mouseleave` **Ember Events** 🐁, and last, but not least, an interview with **Yehuda Katz** 🎙️!
 
+READMORE
+
 ---
 
 ## [EmberFest 2019 CFP is now open! 📝](https://cfp.emberfest.eu)

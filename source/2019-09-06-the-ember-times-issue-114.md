@@ -12,6 +12,8 @@ participate in the discussion of deprecating eventing 💬,
 join the crowd at EmberFest 2019 🐹🎉,
 and suggest ideas for the upcoming Ember Octane issue ✍️!
 
+READMORE
+
 ---
 
 ## [Ember Octane Update for Modern Ember Tutorial 🎁](https://codingitwrong.com/2018/08/16/modern-ember.html)

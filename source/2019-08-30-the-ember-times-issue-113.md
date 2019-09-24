@@ -15,6 +15,8 @@ add visual regression testing to your Ember app using ember-backstop 🧪,
 and last, but not least,
 learn how Ember is organised and thrives 🌺!
 
+READMORE
+
 ---
 
 ## [Check Out New Content in the Official Ember Guides 🐹🤓](https://guides.emberjs.com/release/)
@@ -36,7 +38,7 @@ Ember Engines, by itself, isn't perfect, however. [@luketheobscure](https://gith
 
 By introducing [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/), Luke got to eliminate this step. Workspaces also allowed him to introduce live reload, share config files across packages, and ensure certain dependencies to be on the same version across packages.
 
-To learn more about using Workspaces, please check out [his blog](https://medium.com/@lukedeniston/how-to-write-a-really-really-ambitious-spa-in-2019-60fc38de89db) today! 
+To learn more about using Workspaces, please check out [his blog](https://medium.com/@lukedeniston/how-to-write-a-really-really-ambitious-spa-in-2019-60fc38de89db) today!
 
 ---
 
@@ -52,7 +54,7 @@ Check out the full tutorial by following along with the [demo repository](https:
 
 ## [Thriving Through the Hype Cycle: an Ember.js Story 🌺](https://www.youtube.com/watch?v=ECkbVa0iC4k)
 
-In addition to amazing Ember conferences, a lot of people are promoting Ember and sharing Ember wisdom at other conferences. [@locks](https://github.com/locks) told about `Thriving through the hype cycle: an Ember.js story` at [CommitPorto '19](https://commitporto.com/). This [talk](https://www.youtube.com/watch?v=ECkbVa0iC4k) gives great insights into how Ember, as a framework, is organised. Nothing too technical, but a nice peak in the kitchen of Ember. 
+In addition to amazing Ember conferences, a lot of people are promoting Ember and sharing Ember wisdom at other conferences. [@locks](https://github.com/locks) told about `Thriving through the hype cycle: an Ember.js story` at [CommitPorto '19](https://commitporto.com/). This [talk](https://www.youtube.com/watch?v=ECkbVa0iC4k) gives great insights into how Ember, as a framework, is organised. Nothing too technical, but a nice peak in the kitchen of Ember.
 
 ---
 

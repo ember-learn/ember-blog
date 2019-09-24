@@ -16,6 +16,8 @@ outer HTML semantics on the Crash Log Podcast 🎙,
 and last, but not least,
 the release of Ember Table 2.0 🎉!
 
+READMORE
+
 ---
 
 ## [Settle Down; Ember's Test Framework Has Your Async Covered 🕰️](https://www.linkedin.com/pulse/settle-down-embers-test-framework-has-your-async-covered-calvert/)
