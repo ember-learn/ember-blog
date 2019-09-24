@@ -57,7 +57,7 @@ One particular highlight of the camping trip was the ["May I Ask a Question" liv
 that both [Jen Weber (@jwwweber)](https://twitter.com/jwwweber) and [Preston Sego (@nullvoxpopuli)](https://twitter.com/nullvoxpopuli) led and hosted, answering burning questions from the community.
 
 Missed out on the conference, but still want to catch up before the recordings are out?
-Be sure to check out [Jordan Hawker's (@elwayman02)](https://github.com/elwayman02) comprehensive [EmberCamp summary](https://github.com/elwayman02/embercamp), including talk notes and slides for the entire programme.
+Be sure to check out [Jordan Hawker's (@elwayman02)](https://github.com/elwayman02) comprehensive [EmberCamp summary](https://github.com/elwayman02/embercamp/blob/master/2019.md), including talk notes and slides for the entire programme.
 
 Can't wait to make it to the camping trip next year? Be sure to let the EmberCamp team know
 [on Twitter](https://twitter.com/embercamp) or via [old-school e-mail](embercamp.chicago@gmail.com)!
