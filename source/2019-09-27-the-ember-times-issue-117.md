@@ -38,11 +38,11 @@ READMORE
 
 ---
 
-## [Accessibility, Compiler Secrets and Modern Ember @ EmberCamp 🐹](#section-url)
+## [Accessibility, Compiler Secrets and Modern Ember @ EmberCamp 🐹](http://embercamp.com/)
 
 
 Last week, the Ember community went on an extraordinary trip into the metropolitan wilderness of Illinois:
-[**EmberCamp 2019**](https://embercamp.com) took place in Chicago on September 16th and was insightful, exciting and entertaining as always!
+[**EmberCamp 2019**](http://embercamp.com/) took place in Chicago on September 16th and was insightful, exciting and entertaining as always!
 
 With twelve, versed speakers, the schedule offered thoughtful insights into:
 
