@@ -37,8 +37,8 @@ If you need more information on how to migrate away from these legacy features, 
 
 To opt in to the Octane preview:
 
-1. Migrate your projects `.ember-cli` file to `.ember-cli.js`
-2. add the following lines to the beginning of `.ember-cli.js`:
+1. Rename your project's `.ember-cli` file to `.ember-cli.js`
+2. Add the following lines to the beginning of `.ember-cli.js`:
 
 ```js
 // .ember-cli.js
