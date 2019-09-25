@@ -90,6 +90,7 @@ Can't wait to make it to the camping trip next year? Be sure to let the EmberCam
 [@pzuraq](http://www.github.com/pzuraq) added `@action`, `on`, and `fn` to the [edition guide](https://octane-guides-preview.emberjs.com/release/) as well as updating it to [match the latest changes](https://github.com/ember-learn/guides-source/pull/1062).
 
 Now the Octane Guides have documentation on how to use the new conventional APIs for creating and adding event handlers and actions to your components and templates:
+
 - The `@action` decorator
 - The `{{on}}` modifier
 - The `{{fn}}` helper
