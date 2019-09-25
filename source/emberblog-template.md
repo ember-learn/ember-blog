@@ -1,7 +1,7 @@
 ---
 title: Ember VER Released
 author: Melanie Sumner, Kenneth Larsen
-tags: Releases, 2019, 3, VER
+tags: Releases, 2019, 3, VER, Version 3.x
 responsive: true
 ---
 
