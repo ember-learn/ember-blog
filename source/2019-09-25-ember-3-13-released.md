@@ -35,7 +35,10 @@ ember feature:disable application-template-wrapper
 
 If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
 
-To opt in to the Octane preview, add the following lines to the beginning of `.ember-cli.js`.
+To opt in to the Octane preview:
+
+1. Migrate your projects `.ember-cli` file to `.ember-cli.js`
+2. add the following lines to the beginning of `.ember-cli.js`:
 
 ```js
 // .ember-cli.js
