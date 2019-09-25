@@ -13,7 +13,9 @@ Ember 3.10 released 🔟,
 new ways for you to mock requests in Fastboot tests 👢💨,
 faster builds on Windows with Docker 🐳,
 new addon ember-did-resize-modifier released 📐,
-and last, but not least, Crash Log: a new Ember and more podcast 🎙!  
+and last, but not least, Crash Log: a new Ember and more podcast 🎙!
+
+READMORE
 
 ---
 
@@ -29,9 +31,9 @@ To contribute a post: **Tweet a link** to the post with the hashtag [#EmberJS201
 
 ## [Ember 3.10 Released 🔟](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html)
 
-Ember 3.10 is here! This release has a whole bunch of new features: Angle Bracket Invocation for Nested Components, Angle Bracket Invocation for Built-In Components, RouteInfo Metadata, and Native Decorator Support. Addon authors will want to read about support for Node 6 being dropped before running their next release. 
+Ember 3.10 is here! This release has a whole bunch of new features: Angle Bracket Invocation for Nested Components, Angle Bracket Invocation for Built-In Components, RouteInfo Metadata, and Native Decorator Support. Addon authors will want to read about support for Node 6 being dropped before running their next release.
 
-Note: Releases are **considered done** when the [blog post](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html) goes out. Upgrading your Ember app? Check out the official blog post for pointers. Sometimes, there are small bugs that get patched between when the version shows up on npm and the blog post. For example, Ember CLI version 3.10.1 fixes a small issue with Node versions in CI. 
+Note: Releases are **considered done** when the [blog post](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html) goes out. Upgrading your Ember app? Check out the official blog post for pointers. Sometimes, there are small bugs that get patched between when the version shows up on npm and the blog post. For example, Ember CLI version 3.10.1 fixes a small issue with Node versions in CI.
 
 ---
 

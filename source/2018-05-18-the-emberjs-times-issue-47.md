@@ -12,6 +12,8 @@ Again you can enjoy reading The Ember Times in both the [e-mail](https://the-emb
 
 This week we have **several RFCs** from the Ember Data 📟 project for you, as well as an **#EmberJS2018 countdown**, a new way to cast some **template transform magic** 🎩 and a recap of what has happened in Readers' Questions for you:
 
+READMORE
+
 ---
 
 ## [Meta and Link all the Things in Ember Data 🐹](https://github.com/emberjs/rfcs/pull/332)
@@ -29,12 +31,12 @@ Similarly, `meta` and `links` will be exposed on instances of `DS.Snapshot`. Alt
 
 ```js
 class Snapshot {
-    links() {}
-	meta() {}
+  links() {}
+  meta() {}
 }
 ```
 
-Interestingly, some apps have inadvertently achieved what this RFC purposes by moving `meta` and `links` into `attributes` during serialization and then exposing each of them via `DS.attr`. 
+Interestingly, some apps have inadvertently achieved what this RFC purposes by moving `meta` and `links` into `attributes` during serialization and then exposing each of them via `DS.attr`.
 Therefore, this RFC gives `ember-data` an even more **complete "out of the box experience"** and will likely be a very welcomed addition to the library.  
 
 Think differently? Tell [@runspired](https://github.com/runspired) what you think on the [original proposal](https://github.com/emberjs/rfcs/pull/332).
@@ -53,7 +55,7 @@ Need to beat writer's block? Listen to Ember Core team member [Chad Hietala](htt
 
 There's an RFC on removing usage of the `Ember.Evented` mixin in Ember Data specifically. This would also lead to the future **removal** of several **lifecycle hooks** and methods on `Model`s and other Ember Data classes.
 
-The use of `Ember.Evented` is mostly a legacy from pre 1.0 of Ember Data and is simply not needed anymore. 
+The use of `Ember.Evented` is mostly a legacy from pre 1.0 of Ember Data and is simply not needed anymore.
 You can **follow the discussion** and read all about the implications of this change on the [RFC pull request](https://github.com/emberjs/rfcs/pull/329).
 
 ---

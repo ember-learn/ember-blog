@@ -14,6 +14,8 @@ see EmberJS powered blogging in action at DublinJS 🎥,
 checkout updated Ember Igniter articles 🔥,
 and last, but not least, an exclusive **"I contribute to Ember"** interview with @st-h 🎙!
 
+READMORE
+
 ---
 
 ## [Ember Data Repackaged in 3.11 📦](https://emberjs.github.io/rfcs/0395-ember-data-packages.html)

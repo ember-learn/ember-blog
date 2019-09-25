@@ -14,6 +14,8 @@ a new addition to the Learning Team 👏,
 a sneak preview of ember-query-params-service ❓,
 and a retro of 💯 Ember Times. 🎉
 
+READMORE
+
 ---
 
 ## [#EmberJS2019 🛣🗺](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)
@@ -116,7 +118,7 @@ He shares three concrete ideas to make growing Ember a reality:
   <img alt="Robert Wagner" title="Robert Wagner - Ember Core Learning Team" src="/images/blog/emberjstimes/robertwagner.jpeg" />
 </div>
 
-We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has joined the [Learning Core Team](https://emberjs.com/team/) and will continue to champion the work on **[Ember Inspector](https://github.com/emberjs/ember-inspector)**! 
+We are excited to announce that [@rwwagner90](https://github.com/rwwagner90) has joined the [Learning Core Team](https://emberjs.com/team/) and will continue to champion the work on **[Ember Inspector](https://github.com/emberjs/ember-inspector)**!
 
 You may recall that [we featured Robert](https://discuss.emberjs.com/t/i-contribute-to-ember-with-robert-wagner/16143) in a past issue as part of our ["I contribute to Ember"](https://discuss.emberjs.com/c/community) series, where we interview members of our open source community. Congrats! 🎉
 

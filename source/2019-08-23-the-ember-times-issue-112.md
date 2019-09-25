@@ -16,6 +16,8 @@ get your tickets to EmberCamp Chicago 🍕,
 and last, but not least,
 help improve the `EmberArray` documentation 👩‍💻👨‍💻!
 
+READMORE
+
 ---
 
 ## [Ember Octane Is Coming 🏎🐹](https://blog.emberjs.com/2019/08/15/octane-release-plan.html)

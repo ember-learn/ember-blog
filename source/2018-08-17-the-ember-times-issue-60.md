@@ -12,6 +12,8 @@ Read either on the [Ember blog](https://emberjs.com/blog/tags/newsletter.html) o
 
 This week's Ember Times is all about **cool web fonts** 😎, community **chat** migrations and encouraging your inner **Ember Data RFC champion** 🛡. We also have lots of **Ember app wizardry** ✨ with `ember-cli-create`, a guide for using **learning resources** of all **Ember versions** efficiently and - last, but not least - a **brand-new Readers' Question** for you! 💁🏻
 
+READMORE
+
 ---
 
 ## [Taking Web Fonts to the Next Level 🔠](https://github.com/vitch/ember-cli-webfont)

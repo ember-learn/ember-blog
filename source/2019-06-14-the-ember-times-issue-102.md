@@ -10,6 +10,8 @@ responsive: true
 
 This week: more **#EmberJS2019 posts** wanted! ✏️, RFC for an **alternative** to Controllers 🎛, and tips for adding **TypeScript** 🌟!
 
+READMORE
+
 ---
 
 ## [More #EmberJS2019 Posts Wanted! ✏️](https://blog.emberjs.com/2019/05/20/ember-2019-roadmap-call-for-posts.html)

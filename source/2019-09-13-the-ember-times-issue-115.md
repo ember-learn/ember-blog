@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 115
 author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/13-the-ember-times-issue-115.html"
 responsive: true
 ---
@@ -11,6 +11,8 @@ share your thoughts on Apple Music being an Ember app 🍎,
 contribute to Octanify allthethings 📝,
 a designer's & developer's story of transitioning to Ember ⚛️➡️🐹,
 and celebrate the 4.0 release of Ember Sinon QUnit 🎉!
+
+READMORE
 
 ---
 
@@ -44,12 +46,12 @@ The Apple Music web application [was launched](https://www.theverge.com/2019/9/5
 
 ## [API Doc Updates 📝](https://github.com/emberjs/ember.js/pulls?utf8=✓&q=is%3Apr+is%3Aclosed+%5BDOC%5D)
 
-Thanks to [Ricardo Mendes (@locks)](https://github.com/locks) and team for working on [Octanify-ing the API docs](https://github.com/emberjs/ember.js/pulls?utf8=✓&q=is%3Apr+is%3Aclosed+%5BDOC%5D)! These documentation upgrades are part of the [Quest Issue](https://github.com/emberjs/ember.js/issues/18250) to update the API docs to show Octane and Native Classes. [Jen Weber (@jenweber)](https://github.com/jenweber) has provided **detailed step-by-step instructions**, a YUIDoc styleguide, and some examples on the [Quest Issue](https://github.com/emberjs/ember.js/issues/18250), encouraging interested contributors to post in [#dev-ember-learning](https://discordapp.com/channels/480462759797063690/480777444203429888) on the [Ember Discord](https://discordapp.com/invite/zT3asNS) with any questions. 
+Thanks to [Ricardo Mendes (@locks)](https://github.com/locks) and team for working on [Octanify-ing the API docs](https://github.com/emberjs/ember.js/pulls?utf8=✓&q=is%3Apr+is%3Aclosed+%5BDOC%5D)! These documentation upgrades are part of the [Quest Issue](https://github.com/emberjs/ember.js/issues/18250) to update the API docs to show Octane and Native Classes. [Jen Weber (@jenweber)](https://github.com/jenweber) has provided **detailed step-by-step instructions**, a YUIDoc styleguide, and some examples on the [Quest Issue](https://github.com/emberjs/ember.js/issues/18250), encouraging interested contributors to post in [#dev-ember-learning](https://discordapp.com/channels/480462759797063690/480777444203429888) on the [Ember Discord](https://discordapp.com/invite/zT3asNS) with any questions.
 
-Another API docs issue that is gaining steam is [Improve documentation of EmberArray](https://github.com/emberjs/ember.js/issues/18228). Going through [http://api.emberjs.com/ember/release/classes/EmberArray](http://api.emberjs.com/ember/release/classes/EmberArray), you will notice that some of the entries have minimal documentation and no code sample. The goal is to review each entry, add code samples where missing, and optionally improve the prose. Comment on the thread in the [EmberArray issue](https://github.com/emberjs/ember.js/issues/18228) to contribute. 
+Another API docs issue that is gaining steam is [Improve documentation of EmberArray](https://github.com/emberjs/ember.js/issues/18228). Going through [http://api.emberjs.com/ember/release/classes/EmberArray](http://api.emberjs.com/ember/release/classes/EmberArray), you will notice that some of the entries have minimal documentation and no code sample. The goal is to review each entry, add code samples where missing, and optionally improve the prose. Comment on the thread in the [EmberArray issue](https://github.com/emberjs/ember.js/issues/18228) to contribute.
 
 For even more ways to get involved in the open source community, check out the [Ember Help Wanted App](https://help-wanted.emberjs.com/)!
-  
+
 ---
 
 ## [What Makes the Transition to Ember Worthwhile: A New Community Member's Perspective 🐹](https://twitter.com/lenoraporter_/status/1170145563549061122)
