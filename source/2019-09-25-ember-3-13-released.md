@@ -27,25 +27,22 @@ The Ember tutorial has already been completely rewritten for Octane, and the eas
 
 You can try out the Octane preview by disabling legacy behavior and specifying the Octane edition in `.ember-cli.js`.
 
-```bash
-ember feature:disable jquery-integration
-ember feature:enable template-only-glimmer-components
-ember feature:disable application-template-wrapper
-```
-
-If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
-
 To opt in to the Octane preview:
 
-1. Rename your project's `.ember-cli` file to `.ember-cli.js`
-2. Add the following lines to the beginning of `.ember-cli.js`:
-
-```js
-// .ember-cli.js
-const { setEdition } = require('@ember/edition-utils');
-
-setEdition('octane');
+```bash
+npx @ember/octanify
 ```
+
+This command does a number of things for you automatically:
+
+* Migrates your `.ember-cli` file to `.ember-cli.js`, and opts in to Octane via `setEdition('octane')` (which is provided by `@ember/edition-utils`)
+* Ensures you have a new enough version of the `@ember/optional-features` addon installed
+* Updates your set of optional features to:
+  * disable [application-template-wrapper](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_application-template-wrapper)
+  * disable [jquery-integration](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_jquery-integration)
+  * enable [template-only-glimmer-components](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_template-only-glimmer-components)
+
+If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
 
 ---
 
