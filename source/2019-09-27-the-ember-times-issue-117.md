@@ -12,6 +12,7 @@ This week:
 ...
 ...
 learn about what happened at EmberCamp 2019 🐹🏕,
+celebrate the release of Ember 3.13 (Octane Preview) 🎉,
 read the updates to the Ember Octane Guides 🚀,
 check out the latest feature for Ember SVG Jar 📇,
 
@@ -76,13 +77,17 @@ Can't wait to make it to the camping trip next year? Be sure to let the EmberCam
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Celebrate the Release of Ember 3.13 (Octane Preview) 🎉](https://twitter.com/kennethlarsen/status/1176948663861620739)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Ember Octane (3.14)](https://emberjs.com/editions/octane/) is arriving soon! Today, in 3.13, you can try out all stable features of Octane, including 5 new features:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- Tracked properties (`@tracked`)
+- Component co-location (part 1)
+- `component-class` generator
+- Build-time detection of edition for addon authors
+- `updateComponent` hook for addon authors
+
+We encourage you to learn more about the new features and migration path to 3.13 by [checking out the official announcement](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html). We'd also appreciate your help with completing Octane documentation and testing 3.14 beta against your apps and addons. 💞
 
 ---
 
