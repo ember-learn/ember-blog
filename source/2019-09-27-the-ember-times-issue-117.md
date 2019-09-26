@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 117
-author: Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/20-the-ember-times-issue-117.html"
 responsive: true
@@ -12,6 +12,7 @@ This week:
 ...
 ...
 learn about what happened at EmberCamp 2019 🐹🏕,
+read the updates to the Ember Octane Guides 🚀,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -84,13 +85,17 @@ Can't wait to make it to the camping trip next year? Be sure to let the EmberCam
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Updates to the Ember Octane Guides 🚀](https://octane-guides-preview.emberjs.com/release/upgrading/editions/#toc_action-on-and-fn)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@pzuraq](http://www.github.com/pzuraq) added `@action`, `on`, and `fn` to the [Ember Octane edition guide](https://octane-guides-preview.emberjs.com/release/) and updated it to [match the latest changes to the edition](https://github.com/ember-learn/guides-source/pull/1062).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Now the Octane Guides have documentation on how to use the new conventional APIs for creating and adding event handlers and actions to your components and templates:
+
+- The `@action` decorator
+- The `{{on}}` modifier
+- The `{{fn}}` helper
+
+This [documentation change](https://github.com/ember-learn/guides-source/pull/1066) provides much needed information on the benefits and how to get used to using these new APIs.
 
 ---
 
@@ -154,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
