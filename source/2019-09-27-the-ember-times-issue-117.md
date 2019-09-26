@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 117
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/20-the-ember-times-issue-117.html"
 responsive: true
@@ -13,6 +13,8 @@ This week:
 ...
 learn about what happened at EmberCamp 2019 🐹🏕,
 read the updates to the Ember Octane Guides 🚀,
+check out the latest feature for Ember SVG Jar 📇,
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -40,7 +42,6 @@ READMORE
 ---
 
 ## [Accessibility, Compiler Secrets and Modern Ember @ EmberCamp 🐹](http://embercamp.com/)
-
 
 Last week, the Ember community went on an extraordinary trip into the metropolitan wilderness of Illinois:
 [**EmberCamp 2019**](http://embercamp.com/) took place in Chicago on September 16th and was insightful, exciting and entertaining as always!
@@ -99,13 +100,11 @@ This [documentation change](https://github.com/ember-learn/guides-source/pull/10
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [New Feature: Assets Viewer for Ember SVG Jar 📇](https://twitter.com/ivanvotti/status/1174387037983690753)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Ember SVG Jar](https://svgjar.web.app/), an addon that lets you easily add SVG images, now features the **Assets Viewer**. Think of Assets Viewer as a hub where you can [meet all SVG images available in your project](https://svgjar-demo.web.app/). You can search for the image that you need and copy the helper code to render that image in your app.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We encourage you to [learn more about Ember SVG Jar](https://github.com/ivanvotti/ember-svg-jar) today. Please thank [Ivan Votti (@ivanvotti)](https://github.com/ivanvotti) for his work!
 
 ---
 
@@ -159,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
