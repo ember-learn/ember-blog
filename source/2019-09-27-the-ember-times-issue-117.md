@@ -28,7 +28,7 @@ READMORE
 
 The goal of Adopted Ember Addons is to give Ember addons a place to stay maintained when the original maintainer decides that they would like to pass the mantle. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works. 
 
-Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs) ❤
+Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons, please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs) ❤
 
 ---
 
