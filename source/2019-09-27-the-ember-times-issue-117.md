@@ -8,7 +8,6 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-This week: 
 Celebrate the release of Ember 3.13 (Octane Preview) 🎉,
 Adopted Ember Addons welcomes ember-sortable 🐣, 
 learn about what happened at EmberCamp 2019 🐹🏕,
