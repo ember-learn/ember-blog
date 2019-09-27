@@ -1,45 +1,48 @@
 ---
 title: The Ember Times - Issue No. 117
-author: Chris Ng, Jessica Jordan, Isaac Lee, Alon Bukai, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, Alon Bukai, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/20-the-ember-times-issue-117.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-This week:
-...
-...
+This week: 
+Celebrate the release of Ember 3.13 (Octane Preview) 🎉,
 Adopted Ember Addons welcomes ember-sortable 🐣, 
 learn about what happened at EmberCamp 2019 🐹🏕,
-celebrate the release of Ember 3.13 (Octane Preview) 🎉,
-read the updates to the Ember Octane Guides 🚀,
-check out the latest feature for Ember SVG Jar 📇,
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+read the updates to the Ember Octane Guides 🚀, and
+check out the latest feature for Ember SVG Jar 📇!
 
 READMORE
 
 ---
 
+## [Celebrate the Release of Ember 3.13 (Octane Preview) 🎉](https://twitter.com/kennethlarsen/status/1176948663861620739)
+
+[Ember Octane (3.14)](https://emberjs.com/editions/octane/) is arriving soon! Today, in 3.13, you can try out all stable features of Octane, including 5 new features:
+
+- Tracked properties (`@tracked`)
+- Component co-location (part 1)
+- `component-class` generator
+- Build-time detection of edition for addon authors
+- `updateComponent` hook for addon authors
+
+In addition, version 3.12 of Ember has now been promoted to LTS (Long Term Support). An LTS version of Ember will receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks).
+
+We encourage you to learn more about the new features and migration path to 3.13 by [checking out the official announcement](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html). We'd also appreciate your help with completing Octane documentation and testing 3.14 beta against your apps and addons. 💞
+
+---
+
 ## [A newly adopted Ember Addon 🐣](https://twitter.com/Alonski/status/1177577454711582720)
+
 <!--alex ignore white-->
 [Adopted Ember Addons](https://github.com/adopted-ember-addons) has adopted [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an addon which provides Sortable UI primitives for Ember. The addon was created by [Jamie White (@jgwhite)](https://github.com/jgwhite) over four years ago and he has been maintaining it all this time! The time has come however for the addon to get some new love ❤ under the Adopted Ember Addons umbrella. 
 
 The goal of Adopted Ember Addons is to give Ember addons a place to stay maintained when the original maintainer decides that they would like to pass the mantle. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works. 
 
 Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons, please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs) ❤
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -68,33 +71,6 @@ Be sure to check out [Jordan Hawker's (@elwayman02)](https://github.com/elwayman
 Can't wait to make it to the camping trip next year? Be sure to let the EmberCamp team know
 [on Twitter](https://twitter.com/embercamp) or via [old-school e-mail](embercamp.chicago@gmail.com)!
 
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Celebrate the Release of Ember 3.13 (Octane Preview) 🎉](https://twitter.com/kennethlarsen/status/1176948663861620739)
-
-[Ember Octane (3.14)](https://emberjs.com/editions/octane/) is arriving soon! Today, in 3.13, you can try out all stable features of Octane, including 5 new features:
-
-- Tracked properties (`@tracked`)
-- Component co-location (part 1)
-- `component-class` generator
-- Build-time detection of edition for addon authors
-- `updateComponent` hook for addon authors
-
-In addition, version 3.12 of Ember has now been promoted to LTS (Long Term Support). An LTS version of Ember will receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks).
-
-We encourage you to learn more about the new features and migration path to 3.13 by [checking out the official announcement](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html). We'd also appreciate your help with completing Octane documentation and testing 3.14 beta against your apps and addons. 💞
-
 ---
 
 ## [Updates to the Ember Octane Guides 🚀](https://octane-guides-preview.emberjs.com/release/upgrading/editions/#toc_action-on-and-fn)
@@ -116,26 +92,6 @@ This [documentation change](https://github.com/ember-learn/guides-source/pull/10
 [Ember SVG Jar](https://svgjar.web.app/), an addon that lets you easily add SVG images, now features the **Assets Viewer**. Think of Assets Viewer as a hub where you can [meet all SVG images available in your project](https://svgjar-demo.web.app/). You can search for the image that you need and copy the helper code to render that image in your app.
 
 We encourage you to [learn more about Ember SVG Jar](https://github.com/ivanvotti/ember-svg-jar) today. Please thank [Ivan Votti (@ivanvotti)](https://github.com/ivanvotti) for his work!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -169,4 +125,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Isaac Lee, Alon Bukai, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, Alon Bukai, Amy Lam and the Learning Team
