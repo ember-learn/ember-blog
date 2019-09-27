@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 117
-author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, Alon Bukai, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/09/20-the-ember-times-issue-117.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 This week:
 ...
 ...
+Adopted Ember Addons welcomes ember-sortable 🐣, 
 learn about what happened at EmberCamp 2019 🐹🏕,
 read the updates to the Ember Octane Guides 🚀,
 check out the latest feature for Ember SVG Jar 📇,
@@ -21,13 +22,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [A newly adopted Ember Addon 🐣](https://twitter.com/Alonski/status/1177577454711582720)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Adopted Ember Addons](https://github.com/adopted-ember-addons) has adopted [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an addon which provides Sortable UI primitives for Ember. The addon was created by [Jamie White](https://github.com/jgwhite) over four years again and he has been maintaining it all this time! The time has come however for the addon to get some new love ❤ under the Adopted Ember Addons umbrella. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Adopted Ember Addons is a project with the goal of giving addons in the Ember Community a place to stay maintained when the original maintainer decides that they would like to pass on the mantle for the maintaining of the addon that they created. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works. 
+
+Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs) ❤
 
 ---
 
@@ -161,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, Alon Bukai, the crowd and the Learning Team
