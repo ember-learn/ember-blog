@@ -42,7 +42,7 @@ We encourage you to learn more about the new features and migration path to 3.13
 
 The goal of Adopted Ember Addons is to give Ember addons a place to stay maintained when the original maintainer decides that they would like to pass the mantle. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works. 
 
-Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons, please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs) ❤
+Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons, please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs). ❤
 
 ---
 
@@ -53,11 +53,11 @@ Last week, the Ember community went on an extraordinary trip into the metropolit
 
 With twelve, versed speakers, the schedule offered thoughtful insights into:
 
-- what's new in Ember with its [first edition, Octane](https://emberjs.com/editions/octane/)
-- how [Embroider](https://github.com/embroider-build/embroider) and Ember will literally build a future together
-- everything you need to know to build **accessible JavaScript apps** in 2019
-- how to level up your app with *web workers** and meaningful **animations**
-- strategies for stable and reliable test suites
+- What's new in Ember with its [first edition, Octane](https://emberjs.com/editions/octane/)
+- How [Embroider](https://github.com/embroider-build/embroider) and Ember will literally build a future together
+- Everything you need to know to build **accessible JavaScript apps** in 2019
+- How to level up your app with *web workers** and meaningful **animations**
+- Strategies for stable and reliable test suites
 - ...and many, many more topics!
 
 One particular highlight of the camping trip was the ["May I Ask a Question" live event](https://stackoverflow.blog/2019/09/20/meet-the-developer-who-took-stack-overflow-from-screen-to-stage/)
@@ -69,13 +69,13 @@ Missed out on the conference, but still want to catch up before the recordings a
 Be sure to check out [Jordan Hawker's (@elwayman02)](https://github.com/elwayman02) comprehensive [EmberCamp summary](https://github.com/elwayman02/embercamp/blob/master/2019.md), including talk notes and slides for the entire programme.
 
 Can't wait to make it to the camping trip next year? Be sure to let the EmberCamp team know
-[on Twitter](https://twitter.com/embercamp) or via [old-school e-mail](embercamp.chicago@gmail.com)!
+[on Twitter](https://twitter.com/embercamp) or via [old-school e-mail](mailto:embercamp.chicago@gmail.com)!
 
 ---
 
 ## [Updates to the Ember Octane Guides 🚀](https://octane-guides-preview.emberjs.com/release/upgrading/editions/#toc_action-on-and-fn)
 
-[@pzuraq](http://www.github.com/pzuraq) added `@action`, `on`, and `fn` to the [Ember Octane edition guide](https://octane-guides-preview.emberjs.com/release/) and updated it to [match the latest changes to the edition](https://github.com/ember-learn/guides-source/pull/1062).
+[Chris Garrett @pzuraq](http://www.github.com/pzuraq) added `@action`, `on`, and `fn` to the [Ember Octane edition guide](https://octane-guides-preview.emberjs.com/release/) and updated it to [match the latest changes to the edition](https://github.com/ember-learn/guides-source/pull/1062).
 
 Now the Octane Guides have documentation on how to use the new conventional APIs for creating and adding event handlers and actions to your components and templates:
 
