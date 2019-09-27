@@ -58,11 +58,14 @@ With twelve, versed speakers, the schedule offered thoughtful insights into:
 One particular highlight of the camping trip was the ["May I Ask a Question" live event](https://stackoverflow.blog/2019/09/20/meet-the-developer-who-took-stack-overflow-from-screen-to-stage/)
 that both [Jen Weber (@jwwweber)](https://twitter.com/jwwweber) and [Preston Sego (@nullvoxpopuli)](https://twitter.com/nullvoxpopuli) led and hosted, answering burning questions from the community.
 
+A huge thank you to those who made this year's EmberCamp possible: kudos to the organizers [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Sean Massa (@EndangeredMassa)](https://github.com/EndangeredMassa), [Trek Glowacki (@trek)](https://github.com/trek), [Howie Bollinger (@dbollinger)](https://github.com/dbollinger) and all those who volunteered 🙇‍♂️
+
 Missed out on the conference, but still want to catch up before the recordings are out?
 Be sure to check out [Jordan Hawker's (@elwayman02)](https://github.com/elwayman02) comprehensive [EmberCamp summary](https://github.com/elwayman02/embercamp/blob/master/2019.md), including talk notes and slides for the entire programme.
 
 Can't wait to make it to the camping trip next year? Be sure to let the EmberCamp team know
 [on Twitter](https://twitter.com/embercamp) or via [old-school e-mail](embercamp.chicago@gmail.com)!
+
 
 ---
 
@@ -130,7 +133,7 @@ We encourage you to [learn more about Ember SVG Jar](https://github.com/ivanvott
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/makepanic" target="gh-user">@makepanic</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/melmerp" target="gh-user">@melmerp</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/zinyando" target="gh-user">@zinyando</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a> and <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
