@@ -24,7 +24,7 @@ READMORE
 
 ## [A newly adopted Ember Addon 🐣](https://twitter.com/Alonski/status/1177577454711582720)
 
-[Adopted Ember Addons](https://github.com/adopted-ember-addons) has adopted [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an addon which provides Sortable UI primitives for Ember. The addon was created by [Jamie White](https://github.com/jgwhite) over four years again and he has been maintaining it all this time! The time has come however for the addon to get some new love ❤ under the Adopted Ember Addons umbrella. 
+[Adopted Ember Addons](https://github.com/adopted-ember-addons) has adopted [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an addon which provides Sortable UI primitives for Ember. The addon was created by [Jamie White](https://github.com/jgwhite) over four years ago and he has been maintaining it all this time! The time has come however for the addon to get some new love ❤ under the Adopted Ember Addons umbrella. 
 
 Adopted Ember Addons is a project with the goal of giving addons in the Ember Community a place to stay maintained when the original maintainer decides that they would like to pass on the mantle for the maintaining of the addon that they created. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works. 
 
