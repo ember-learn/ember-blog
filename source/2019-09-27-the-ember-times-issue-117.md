@@ -87,6 +87,8 @@ Can't wait to make it to the camping trip next year? Be sure to let the EmberCam
 - Build-time detection of edition for addon authors
 - `updateComponent` hook for addon authors
 
+In addition, version 3.12 of Ember has now been promoted to LTS (Long Term Support). An LTS version of Ember will receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks).
+
 We encourage you to learn more about the new features and migration path to 3.13 by [checking out the official announcement](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html). We'd also appreciate your help with completing Octane documentation and testing 3.14 beta against your apps and addons. 💞
 
 ---
