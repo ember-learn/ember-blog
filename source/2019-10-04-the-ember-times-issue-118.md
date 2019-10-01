@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 118
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/04-the-ember-times-issue-118.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Podcast: The New Ember with Mike North 🎙️,
 
 READMORE
 
@@ -24,13 +24,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Podcast: The New Ember with Mike North 🎙️](https://devchat.tv/js-jabber/jsj-395-the-new-ember-with-mike-north/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+A recent [JavaScript Jabber](https://devchat.tv/js-jabber/) podcast had [@mike-north](https://github.com/mike-north) discussing the “New Ember” and how it is a lot more approachable now. This “New Ember”, or [Ember Octane](https://emberjs.com/editions/octane/), brings Ember from having the steepest learning curve of the popular JavaScript frameworks to hardly having to learn anything at all.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Mike also talks about how Ember provides stability for developers using them by having a long track record for providing tools and education to make the upgrade seamless and even have old components living next to brand new ones with updated syntax. As a testament to this, Mike mentions that his original Frontend Masters course – Intro to Ember – that was recorded in 2015 only required very minor changes to update it to the [version we have today](https://frontendmasters.com/courses/ember-octane/).
+
+Listen to the full podcast on [JavaScript Jabber](https://devchat.tv/js-jabber/jsj-395-the-new-ember-with-mike-north/)!
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
