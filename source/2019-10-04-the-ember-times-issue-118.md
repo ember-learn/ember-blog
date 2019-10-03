@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 118
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/04-the-ember-times-issue-118.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Podcast: The New Ember with Mike North 🎙️,
+Listen to 2 Podcast Episodes with Leah Silber 🎧,
 
 READMORE
 
@@ -34,13 +35,16 @@ Listen to the full podcast on [JavaScript Jabber](https://devchat.tv/js-jabber/j
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Leah Silber on Open Source Projects and Tech Conferences 🎧](https://www.heroku.com/podcasts/codeish/35-bringing-open-source-to-work)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Leah Silber (@wifelette)](https://github.com/wifelette), the CEO of Tilde and organizer of [EmberConf](https://emberconf.com/) and RustConf, appeared on [Code[ish]](https://www.heroku.com/podcasts/codeish) to share her experiences with [bringing open source to work](https://www.heroku.com/podcasts/codeish/35-bringing-open-source-to-work) and [organizing a memorable tech conference](https://www.heroku.com/podcasts/codeish/37-bonus-organizing-a-memorable-tech-conference). 💖
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We highly encourage you to check out both episodes (written transcripts are available)! In just 45 minutes, you will learn about:
+
+- the value of having a diverse team for open source projects
+- how to lead a team by showing respect, creating opportunities for them to meet their goals, and actively scouting for new talents
+- how to encourage a company to recognize the value of and contribute to open source projects
+- the advances made in accessibility and inclusivity in tech conferences, and how EmberConf addressed both over the past few years
 
 ---
 
@@ -134,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
