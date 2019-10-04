@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 118
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/04-the-ember-times-issue-118.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 Podcast: The New Ember with Mike North 🎙️,
 Listen to 2 Podcast Episodes with Leah Silber 🎧,
 Celebrate Ember Madrid on stage at Codemotion 2019 🇪🇸,
+EmberMap 🎥 on Animating Across Routes with Ember Animated ✨,
 
 READMORE
 
@@ -49,16 +50,6 @@ We highly encourage you to check out both episodes (written transcripts are avai
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Ember Madrid Takes Stage at Codemotion 2019 🇪🇸](https://events.codemotion.com/conferences/madrid/2019/wp-content/themes/event/detail-talk.php?detail=14984)
 
 Much thanks to [Juan Antonio Gómez (@shokmaster)](https://github.com/shokmaster), [Adrián González Rus (@adrigzr)](https://github.com/adrigzr), and [Sergio del Valle Salvador (@svsalvador)](https://github.com/svsalvador) from [Ember Madrid](https://twitter.com/embermadrid), developers who attended [Codemotion Madrid](https://events.codemotion.com/conferences/madrid/2019/) had the chance to learn Ember and possibly hear about it for the first time.
@@ -87,6 +78,16 @@ Their talk, "[Lo que Ember ha hecho por el desarollo web, y tú sin saberlo](htt
 </div>
 
 Please be on the lookout for the recording online. In the meantime, you can get involved with Ember Madrid on [Twitter](https://twitter.com/embermadrid?lang=en), [Meetup](https://www.meetup.com/Ember-js-Madrid/), and [Discord](https://discord.gg/emberjs)!
+
+---
+
+## [EmberMap Video on Animating Across Routes with Ember Animated ✨](https://twitter.com/samselikoff/status/1175143786852364289)
+
+If you're interested in learning more about how to ✨**animate across routes** ✨ using the fantastic [Ember Animated addon](https://github.com/ember-animation/ember-animated), you may want to check out a new video by **EmberMap**, in which [@samselikoff](https://github.com/samselikoff/) provides a great intro to the subject.
+
+While animation across routes is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow, making the video a decent starting place. So if you have been waiting to check out Ember Animated, this might be a good time to do so!
+
+The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated). 
 
 ---
 
@@ -160,4 +161,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, the crowd and the Learning Team
