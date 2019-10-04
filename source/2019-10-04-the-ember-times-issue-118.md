@@ -43,6 +43,7 @@ Listen to the full podcast on [JavaScript Jabber](https://devchat.tv/js-jabber/j
 
 [Leah Silber (@wifelette)](https://github.com/wifelette), the CEO of Tilde and organizer of [EmberConf](https://emberconf.com/) and RustConf, appeared on [Code[ish]](https://www.heroku.com/podcasts/codeish) to share her experiences with [bringing open source to work](https://www.heroku.com/podcasts/codeish/35-bringing-open-source-to-work) and [organizing a memorable tech conference](https://www.heroku.com/podcasts/codeish/37-bonus-organizing-a-memorable-tech-conference). 💖
 
+<!--alex ignore just-->
 We highly encourage you to check out both episodes (written transcripts are available)! In just 45 minutes, you will learn about:
 
 - the value of having a diverse team for open source projects
