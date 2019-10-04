@@ -91,13 +91,11 @@ The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dD
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Release of ember-cli-typescript 3.0.0 💚](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@chriskrycho](https://www.github.com/chriskrycho) released ember-cli-typescript 3.0.0 which is dropping support for both Node 6 and [Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html), and eliminating a lot of noise about Babel from people's consoles!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Check out the [release notes on GitHub!](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
 ---
 
