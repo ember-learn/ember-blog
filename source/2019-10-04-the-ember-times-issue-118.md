@@ -55,7 +55,7 @@ If you're interested in learning more about how to ✨**animate across routes** 
 
 While this is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow making it a decent starting place. So if you have been waiting to checkout Ember Animated this might be a good time to do so!
 
-The video is available on both [Youtube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated). 
+The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated). 
 
 ---
 
