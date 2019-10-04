@@ -136,7 +136,7 @@ be sure to let the team behind EmberCamp know via [Twitter (@EmberCamp)](https:/
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/GreatWizard" target="gh-user">@GreatWizard</a>, <a href="https://github.com/ijlee2" target="gh-user">@ijlee2</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a>, <a href="https://github.com/chiangs" target="gh-user">@chiangs</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/beegan" target="gh-user">@beegan</a>, <a href="https://github.com/astronomersiva" target="gh-user">@astronomersiva</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/pete-the-pete" target="gh-user">@pete-the-pete</a>, <a href="https://github.com/camerondubas" target="gh-user">@camerondubas</a> and <a href="https://github.com/nummi" target="gh-user">@nummi</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
