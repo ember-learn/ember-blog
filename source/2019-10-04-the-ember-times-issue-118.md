@@ -12,6 +12,7 @@ Podcast: The New Ember with Mike North 🎙️,
 Listen to 2 Podcast Episodes with Leah Silber 🎧,
 Celebrate Ember Madrid on stage at Codemotion 2019 🇪🇸,
 EmberMap 🎥 on Animating Across Routes with Ember Animated ✨,
+ember-cli-typescript 3.0.0 release 💚,
 Watch EmberCamp 2019 🍿🎥,
 
 READMORE
@@ -89,6 +90,14 @@ If you're interested in learning more about how to ✨**animate across routes** 
 While animation across routes is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow, making the video a decent starting place. So if you have been waiting to check out Ember Animated, this might be a good time to do so!
 
 The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated).
+
+---
+
+## [Release of ember-cli-typescript 3.0.0 💚](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
+
+[@chriskrycho](https://www.github.com/chriskrycho) released [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) 3.0.0 which is dropping support for both Node 6 and [Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html), and eliminating a lot of noise about Babel from people's consoles!
+
+Check out the [release notes on GitHub!](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
 ---
 
