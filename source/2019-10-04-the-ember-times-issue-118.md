@@ -93,7 +93,7 @@ The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dD
 
 ## [Release of ember-cli-typescript 3.0.0 💚](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
-[@chriskrycho](https://www.github.com/chriskrycho) released ember-cli-typescript 3.0.0 which is dropping support for both Node 6 and [Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html), and eliminating a lot of noise about Babel from people's consoles!
+[@chriskrycho](https://www.github.com/chriskrycho) released [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) 3.0.0 which is dropping support for both Node 6 and [Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html), and eliminating a lot of noise about Babel from people's consoles!
 
 Check out the [release notes on GitHub!](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
