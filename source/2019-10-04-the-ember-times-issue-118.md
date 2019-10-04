@@ -12,6 +12,7 @@ Podcast: The New Ember with Mike North 🎙️,
 Listen to 2 Podcast Episodes with Leah Silber 🎧,
 Celebrate Ember Madrid on stage at Codemotion 2019 🇪🇸,
 EmberMap 🎥 on Animating Across Routes with Ember Animated ✨,
+ember-cli-typescript 3.0.0 release 💚,
 
 READMORE
 
