@@ -9,7 +9,7 @@ responsive: true
 👋 Emberistas! 🐹
 
 Celebrate the release of Ember 3.13 (Octane Preview) 🎉,
-Adopted Ember Addons welcomes ember-sortable 🐣, 
+Adopted Ember Addons welcomes ember-sortable 🐣,
 learn about what happened at EmberCamp 2019 🐹🏕,
 read the updates to the Ember Octane Guides 🚀, and
 check out the latest feature for Ember SVG Jar 📇!
@@ -37,9 +37,9 @@ We encourage you to learn more about the new features and migration path to 3.13
 ## [A newly adopted Ember Addon 🐣](https://twitter.com/Alonski/status/1177577454711582720)
 
 <!--alex ignore white-->
-[Adopted Ember Addons](https://github.com/adopted-ember-addons) has adopted [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an addon which provides Sortable UI primitives for Ember. The addon was created by [Jamie White (@jgwhite)](https://github.com/jgwhite) over four years ago and he has been maintaining it all this time! The time has come however for the addon to get some new love ❤ under the Adopted Ember Addons umbrella. 
+[Adopted Ember Addons](https://github.com/adopted-ember-addons) has adopted [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an addon which provides Sortable UI primitives for Ember. The addon was created by [Jamie White (@jgwhite)](https://github.com/jgwhite) over four years ago and he has been maintaining it all this time! The time has come however for the addon to get some new love ❤ under the Adopted Ember Addons umbrella.
 
-The goal of Adopted Ember Addons is to give Ember addons a place to stay maintained when the original maintainer decides that they would like to pass the mantle. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works. 
+The goal of Adopted Ember Addons is to give Ember addons a place to stay maintained when the original maintainer decides that they would like to pass the mantle. The [program guidelines](https://github.com/adopted-ember-addons/program-guidelines) explain how the program works.
 
 Maintaining these addons takes work by real people. The program is always on the lookout for helpful people to contribute and help maintain these addons. Ember wouldn't be where it is today without the amazing addon ecosystem. If you would like to help out in maintaining these addons, please come join us on [Discord in #adopted-ember-addons](https://discord.gg/emberjs). ❤
 
@@ -88,6 +88,7 @@ This [documentation change](https://github.com/ember-learn/guides-source/pull/10
 
 ## [New Feature: Assets Viewer for Ember SVG Jar 📇](https://twitter.com/ivanvotti/status/1174387037983690753)
 
+<!--alex ignore easy-->
 [Ember SVG Jar](https://svgjar.web.app/), an addon that lets you easily add SVG images, now features the **Assets Viewer**. Think of Assets Viewer as a hub where you can [meet all SVG images available in your project](https://svgjar-demo.web.app/). You can search for the image that you need and copy the helper code to render that image in your app.
 
 We encourage you to [learn more about Ember SVG Jar](https://github.com/ivanvotti/ember-svg-jar) today. Please thank [Ivan Votti (@ivanvotti)](https://github.com/ivanvotti) for his work!

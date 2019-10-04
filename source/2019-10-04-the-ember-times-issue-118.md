@@ -87,6 +87,7 @@ Please be on the lookout for the recording online. In the meantime, you can get 
 
 If you're interested in learning more about how to ✨**animate across routes** ✨ using the fantastic [Ember Animated addon](https://github.com/ember-animation/ember-animated), you may want to check out a new video by **EmberMap**, in which [@samselikoff](https://github.com/samselikoff/) provides a great intro to the subject.
 
+<!--alex ignore easy-->
 While animation across routes is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow, making the video a decent starting place. So if you have been waiting to check out Ember Animated, this might be a good time to do so!
 
 The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated).
@@ -154,7 +155,7 @@ be sure to let the team behind EmberCamp know via [Twitter (@EmberCamp)](https:/
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
 
-  <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are just for you!</p>
+  <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are meant for you!</p>
 
   <p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>
 </div>
