@@ -10,6 +10,7 @@ responsive: true
 
 Podcast: The New Ember with Mike North 🎙️,
 Listen to 2 Podcast Episodes with Leah Silber 🎧,
+Celebrate Ember Madrid on stage at Codemotion 2019 🇪🇸,
 
 READMORE
 
@@ -58,13 +59,34 @@ We highly encourage you to check out both episodes (written transcripts are avai
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Madrid Takes Stage at Codemotion 2019 🇪🇸](https://events.codemotion.com/conferences/madrid/2019/wp-content/themes/event/detail-talk.php?detail=14984)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Much thanks to [Juan Antonio Gómez (@shokmaster)](https://github.com/shokmaster), [Adrián González Rus (@adrigzr)](https://github.com/adrigzr), and [Sergio del Valle Salvador (@svsalvador)](https://github.com/svsalvador) from [Ember Madrid](https://twitter.com/embermadrid), developers who attended [Codemotion Madrid](https://events.codemotion.com/conferences/madrid/2019/) had the chance to learn Ember and possibly hear about it for the first time.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Their talk, "[Lo que Ember ha hecho por el desarollo web, y tú sin saberlo](https://events.codemotion.com/conferences/madrid/2019/wp-content/themes/event/detail-talk.php?detail=14984)," covered Ember's contributions to web development and your developer experience. While the recording of their talk isn't available yet, Juan was happy to share a summary with us.
+
+### 1. Pasado
+
+<div class="blog-row">
+  <img class="float-right small transparent padded" alt="Juan Antonio Gómez on stage at Codemotion 2019" title="Juan Antonio Gómez" src="/images/blog/2019-10-04/juan_antonio.jpg" />
+  <p>I talked about what Ember is—a framework for creating ambitious web applications—and analysed the status of JS frameworks in 2013. I recounted the hard things about Ember at the time like poor documentation, a lot of elements (<code>View</code>, <code>ArrayController</code>, <code>ObjectController</code>), complicated templates (<code>render</code>, <code>bind-attr</code>), and two elements in the router (<code>route</code>, <code>resource</code>). I remembered the brilliant things too, such as implicit generation of code (e.g. empty controllers), a lot of power with less code, Ember CLI, arrival of Glimmer VM in Ember 2.0, and the great 6-week release cycle.</p>
+</div>
+
+### 2. Presente
+
+<div class="blog-row">
+  <img class="float-right small transparent padded" alt="Adrián González Rus on stage at Codemotion 2019" title="Adrián González Rus" src="/images/blog/2019-10-04/adrian_gonzalez.jpg" />
+  <p>Adrián talked about the changes happening in the JavaScript world, the exciting features that Ember 3.x brought (native classes, angle brackets, no jQuery, etc.), and key differentiators between Ember and other JS frameworks (release management and deprecation policy).</p>
+</div>
+
+### 3. Futuro
+
+<div class="blog-row">
+  <img class="float-right small transparent padded" alt="Sergio del Valle Salvador on stage at Codemotion 2019" title="Sergio del Valle Salvador" src="/images/blog/2019-10-04/sergio_del_valle.jpg" />
+  <p>Sergio talked about the need to reduce the Ember skills tree, explained <a href="https://emberjs.com/editions/octane/" target="_blank" rel="noopener noreferrer">Ember Octane</a> and its new awesome features (Glimmer components, tracked properties, decorators, etc.), and shared the community's next goals (continue to <a href="https://github.com/emberjs/rfcs/pull/519" target="_blank" rel="noopener noreferrer">simplify Ember</a>, modernize the build pipeline with <a href="https://github.com/embroider-build/embroider" target="_blank" rel="noopener noreferrer">Embroider</a>, improve accessibility through <a href="https://github.com/ember-a11y" target="_blank" rel="noopener noreferrer">Ember A11y</a>, bring <a href="https://github.com/orbitjs/orbit" target="_blank" rel="noopener noreferrer">Orbit.js</a> to Ember Data, increase productivity and optimize Ember for growth).</p>
+</div>
+
+Please be on the lookout for the recording online. In the meantime, you can get involved with Ember Madrid on [Twitter](https://twitter.com/embermadrid?lang=en), [Meetup](https://www.meetup.com/Ember-js-Madrid/), and [Discord](https://discord.gg/emberjs)!
 
 ---
 
