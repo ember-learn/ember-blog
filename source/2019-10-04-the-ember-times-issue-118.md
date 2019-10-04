@@ -51,7 +51,7 @@ We highly encourage you to check out both episodes (written transcripts are avai
 
 ## [EmberMap Video on Animating Across Routes with Ember Animated ✨](https://twitter.com/samselikoff/status/1175143786852364289)
 
-If you're interested in learning more about how to ✨**animate across routes** ✨ using the fantastic [Ember Animated addon](https://github.com/ember-animation/ember-animated) you may want to check out a new video by **EmberMap** in which [@samselikoff](https://github.com/samselikoff/) provides a great intro to the subject.
+If you're interested in learning more about how to ✨**animate across routes** ✨ using the fantastic [Ember Animated addon](https://github.com/ember-animation/ember-animated), you may want to check out a new video by **EmberMap**, in which [@samselikoff](https://github.com/samselikoff/) provides a great intro to the subject.
 
 While this is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow making it a decent starting place. So if you have been waiting to checkout Ember Animated this might be a good time to do so!
 
