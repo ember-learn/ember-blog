@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 118
-author: Chris Ng, Isaac Lee, Jared Galanis, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/04-the-ember-times-issue-118.html"
 responsive: true
@@ -12,6 +12,7 @@ Podcast: The New Ember with Mike North 🎙️,
 Listen to 2 Podcast Episodes with Leah Silber 🎧,
 Celebrate Ember Madrid on stage at Codemotion 2019 🇪🇸,
 EmberMap 🎥 on Animating Across Routes with Ember Animated ✨,
+Watch EmberCamp 2019 🍿🎥,
 
 READMORE
 
@@ -87,17 +88,19 @@ If you're interested in learning more about how to ✨**animate across routes** 
 
 While animation across routes is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow, making the video a decent starting place. So if you have been waiting to check out Ember Animated, this might be a good time to do so!
 
-The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated). 
+The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dDqkk0) and the [EmberMap site](https://embermap.com/video/animating-across-routes-with-ember-animated).
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [(Re)Watch All of EmberCamp 2019 🍿](https://twitter.com/embercamp/status/1179758083150626816)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+No matter if you have been able to make it to this year's [camping trip to Chicago](http://embercamp.com/) or not -
+now's your time to catch up on [**11 excellent sessions**](https://twitter.com/embercamp/status/1179758083150626816) about modern Ember and best practices;
+**watch** (or re-watch) the conference's entire programme from the comfort of your home cinema 🍿🎥.
+And be sure to share the [list of talk recordings](https://www.youtube.com/playlist?list=PL4eq2DPpyBbmSKZLCqzMqdtpedlGrDQuc) with your colleagues and Ember friends!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Don't forget to make use of [Jordan Hawker's (@elwayman02)](https://github.com/elwayman02) full summary of [talk slides and summaries](https://github.com/elwayman02/embercamp/blob/master/2019.md) to learn even more. And if you enjoyed the content,
+be sure to let the team behind EmberCamp know via [Twitter (@EmberCamp)](https://twitter.com/embercamp) or via [retro DM](mailto:embercamp.chicago@gmail.com).
 
 ---
 
@@ -161,4 +164,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jared Galanis, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
