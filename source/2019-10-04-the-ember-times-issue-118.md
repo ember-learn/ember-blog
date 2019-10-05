@@ -6,7 +6,7 @@ alias : "blog/2019/10/04-the-ember-times-issue-118.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Happy fall 🍂, Emberistas! 🐹
 
 This week:
 Podcast: The New Ember with Mike North 🎙️,
@@ -22,7 +22,7 @@ READMORE
 
 ## [Podcast: The New Ember with Mike North 🎙️](https://devchat.tv/js-jabber/jsj-395-the-new-ember-with-mike-north/)
 
-A recent [JavaScript Jabber](https://devchat.tv/js-jabber/) podcast had [@mike-north](https://github.com/mike-north) discussing the “New Ember” and how it is a lot more approachable now. This “New Ember”, or [Ember Octane](https://emberjs.com/editions/octane/), brings Ember from having the steepest learning curve of the popular JavaScript frameworks to hardly having to learn anything at all.
+A recent [JavaScript Jabber](https://devchat.tv/js-jabber/) podcast had [Mike North @mike-north](https://github.com/mike-north) discussing the “New Ember” and how it is a lot more approachable now. This “New Ember”, or [Ember Octane](https://emberjs.com/editions/octane/), brings Ember from having the steepest learning curve of the popular JavaScript frameworks to hardly having to learn anything at all.
 
 Mike also talks about how Ember provides stability for developers using them by having a long track record for providing tools and education to make the upgrade seamless and even have old components living next to brand new ones with updated syntax. As a testament to this, Mike mentions that his original Frontend Masters course – Intro to Ember – that was recorded in 2015 only required very minor changes to update it to the [version we have today](https://frontendmasters.com/courses/ember-octane/).
 
@@ -37,10 +37,10 @@ Listen to the full podcast on [JavaScript Jabber](https://devchat.tv/js-jabber/j
 <!--alex ignore just-->
 We highly encourage you to check out both episodes (written transcripts are available)! In just 45 minutes, you will learn about:
 
-- the value of having a diverse team for open source projects
-- how to lead a team by showing respect, creating opportunities for them to meet their goals, and actively scouting for new talents
-- how to encourage a company to recognize the value of and contribute to open source projects
-- the advances made in accessibility and inclusivity in tech conferences, and how EmberConf addressed both over the past few years
+- The value of having a diverse team for open source projects
+- How to lead a team by showing respect, creating opportunities for them to meet their goals, and actively scouting for new talents
+- How to encourage a company to recognize the value of and contribute to open source projects
+- The advances made in accessibility and inclusivity in tech conferences, and how EmberConf addressed both over the past few years
 
 ---
 
@@ -77,7 +77,7 @@ Please be on the lookout for the recording online. In the meantime, you can get 
 
 ## [EmberMap Video on Animating Across Routes with Ember Animated ✨](https://twitter.com/samselikoff/status/1175143786852364289)
 
-If you're interested in learning more about how to ✨**animate across routes** ✨ using the fantastic [Ember Animated addon](https://github.com/ember-animation/ember-animated), you may want to check out a new video by **EmberMap**, in which [@samselikoff](https://github.com/samselikoff/) provides a great intro to the subject.
+If you're interested in learning more about how to ✨**animate across routes** ✨ using the fantastic [Ember Animated addon](https://github.com/ember-animation/ember-animated), you may want to check out a new video by **EmberMap**, in which [Sam Selikoff @samselikoff](https://github.com/samselikoff/) provides a great intro to the subject.
 
 <!--alex ignore easy-->
 While animation across routes is a somewhat advanced topic, even if you have not previously worked with **Ember Animated**, the explanations are clear and easy to follow, making the video a decent starting place. So if you have been waiting to check out Ember Animated, this might be a good time to do so!
@@ -88,7 +88,7 @@ The video is available on both [YouTube](https://www.youtube.com/watch?v=O4Mt-dD
 
 ## [Release of ember-cli-typescript 3.0.0 💚](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
-[@chriskrycho](https://www.github.com/chriskrycho) released [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) 3.0.0 which is dropping support for both Node 6 and [Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html), and eliminating a lot of noise about Babel from people's consoles!
+[Chris Krycho @chriskrycho](https://www.github.com/chriskrycho) released [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) 3.0.0 which is dropping support for both Node 6 and [Module Unification](https://blog.emberjs.com/2019/03/11/update-on-module-unification-and-octane.html), and eliminating a lot of noise about Babel from people's consoles!
 
 Check out the [release notes on GitHub!](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v3.0.0)
 
