@@ -10,7 +10,7 @@ Happy fall 🍂, Emberistas! 🐹
 
 This week:
 Podcast: The New Ember with Mike North 🎙️,
-listen to 2 podcast dpisodes with Leah Silber 🎧,
+listen to 2 podcast episodes with Leah Silber 🎧,
 celebrate Ember Madrid on stage at Codemotion 2019 🇪🇸,
 EmberMap 🎥 on animating across routes with Ember Animated ✨,
 ember-cli-typescript 3.0.0 release 💚, and
