@@ -140,7 +140,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
-You may upgrade Ember CLI easily using the ember-cli-update project:
+You may upgrade Ember CLI YO DONT MERGE THIS using the ember-cli-update project:
 
 ```bash
 npm install -g ember-cli-update
