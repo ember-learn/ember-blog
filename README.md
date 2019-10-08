@@ -1,3 +1,5 @@
+YO DONT MERGE THIS
+
 # Ember Website
 
 [![Build Status](https://travis-ci.org/ember-learn/ember-blog.svg?branch=master)](https://travis-ci.org/ember-learn/ember-blog)
