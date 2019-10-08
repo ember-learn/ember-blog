@@ -26,6 +26,11 @@ Some tips for working with git/GitHub can be found in
 
 To contribute to the Ember Times, a blog newsletter with weekly updates from the Ember land, please refer to this [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/source/CONTRIBUTING.md).
 
+### Contributing troubleshooting
+
+We are using [Alex](https://github.com/wooorm/alex) for insensitive language checking and [markdownlint](https://github.com/DavidAnson/markdownlint). If your CI branch build is failing from these linters, please see [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/source/CONTRIBUTING.md) for more info. 
+
+
 ## Running locally with Docker (recommended)
 
 This is the recommended method to run the website app locally.
@@ -91,3 +96,4 @@ gem update listen middleman
 ```
 
 Once Middleman comes up, you'll be prompted by Windows Firewall. Click "Allow access" and you'll be in business!
+
