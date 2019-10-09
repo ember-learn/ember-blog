@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Read the blog post on handling Promises and UI states with Ember.js
+Read the blog post on handling Promises and UI states with Ember.js 🔄,
 READMORE
 
 ---
@@ -24,7 +24,7 @@ READMORE
 
 ---
 
-## [Promises and UI states in Ember.js ➡️](https://embersteps.com/promises-and-ui-states-in-ember-js/)
+## [Promises and UI states in Ember.js 🔄](https://embersteps.com/promises-and-ui-states-in-ember-js/)
 
 [@herzzanu](https://github.com/herzzanu) wrote a [blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) on handling promises and UI states with Ember. Examples of this range from providing loading states when sending a post request to enabling complicated behaviour such as a backoff period before being able to interact with the UI again.
 
