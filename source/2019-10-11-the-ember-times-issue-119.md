@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 119
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/11-the-ember-times-issue-119.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Read the blog post on handling Promises and UI states with Ember.js 🔄,
 READMORE
 
 ---
@@ -24,13 +24,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Promises and UI states in Ember.js 🔄](https://embersteps.com/promises-and-ui-states-in-ember-js/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@herzzanu](https://github.com/herzzanu) wrote a [blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) on handling promises and UI states with Ember. Examples of this range from providing loading states when sending a post request to enabling complicated behaviour such as a backoff period before being able to interact with the UI again.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The idea was to write promise-based operations as [generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) using the provided [ember-concurrency](http://ember-concurrency.com) APIs.
+
+Read the [full blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) for more details!
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
