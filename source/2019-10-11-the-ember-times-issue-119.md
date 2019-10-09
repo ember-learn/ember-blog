@@ -26,7 +26,7 @@ READMORE
 
 ## [Promises and UI states in Ember.js ➡️](https://embersteps.com/promises-and-ui-states-in-ember-js/)
 
-[@herzzanu](https://github.com/herzzanu) wrote a [blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) on handling promises and UI states with Ember. Examples of this ranges from providing loading states when sending a post request to enabling complicated behaviour such as a backoff period before being able to interact with the UI again.
+[@herzzanu](https://github.com/herzzanu) wrote a [blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) on handling promises and UI states with Ember. Examples of this range from providing loading states when sending a post request to enabling complicated behaviour such as a backoff period before being able to interact with the UI again.
 
 The idea was to write promise-based operations as [generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) using the provided [ember-concurrency](http://ember-concurrency.com) APIs.
 
