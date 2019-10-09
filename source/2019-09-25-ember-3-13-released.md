@@ -25,7 +25,16 @@ The Ember tutorial has already been completely rewritten for Octane, and the eas
 
 ---
 
-You can try out the Octane preview by disabling legacy behavior and specifying the Octane edition in `.ember-cli.js`.
+You can try out the Octane preview by performing a few steps:
+
+Add the following packages if they aren't already present at this version:
+
+```js
+npm install --save-dev @ember/edition-utils@^1.1.1
+npm install --save-dev @glimmer/component@^0.14.0-alpha.13
+```
+
+Disable legacy behavior by setting the following feature flags:
 
 ```bash
 ember feature:disable jquery-integration
@@ -33,9 +42,7 @@ ember feature:enable template-only-glimmer-components
 ember feature:disable application-template-wrapper
 ```
 
-If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
-
-To opt in to the Octane preview, add the following lines to the beginning of `.ember-cli.js`.
+Specify the Octane edition in `.ember-cli.js` by adding the following lines to the beginning of the file:
 
 ```js
 // .ember-cli.js
@@ -43,6 +50,26 @@ const { setEdition } = require('@ember/edition-utils');
 
 setEdition('octane');
 ```
+
+If you have an `.ember-cli` file instead of an `.ember-cli.js` file, you can convert it by renaming it to `.ember-cli.js`, then taking the existing JSON object and assigning it to `module.exports`. For example, if you have an `.ember-cli` file with:
+
+```json
+// .ember-cli
+{
+  "disableAnalytics": false
+}
+```
+
+The equivalent `.ember-cli.js` file would be:
+
+```js
+// .ember-cli.js
+module.exports = {
+  "disableAnalytics": false
+}
+```
+
+If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
 
 ---
 
@@ -138,6 +165,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
+<!--alex ignore easy-->
 You may upgrade Ember CLI easily using the ember-cli-update project:
 
 ```bash
