@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 119
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/11-the-ember-times-issue-119.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Read the blog post on handling Promises and UI states with Ember.js 🔄,
 Learn how Ember has helped Intercom evolve since 2014 📖,
 A mutable future with Ember Octane 🐹🏎,
+Ember and GraphQL: A Quick Example 📹,
 READMORE
 
 ---
@@ -36,13 +37,15 @@ Read the [full blog post](https://embersteps.com/promises-and-ui-states-in-ember
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember and GraphQL: A Quick Example 📹](https://www.youtube.com/watch?v=YxRvXgDIHW8)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Watch an introduction to using **GraphQL with Ember.js** in [@jneurock](https://github.com/jneurock)'s new video! The YouTube video ⚡️quickly ⚡️ demonstrates how to get up and running with Ember.js, GraphQL, Apollo and EmberCLI Mirage.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!--alex ignore just-->
+If you've been interested in learning how to set up an application with GraphQL and Ember.js, or are just looking to learn a little more about GraphQL and Apollo and the relevant syntax, this video is a super nice resource. Plus, you get to see how EmberCLI Mirage can handle GraphQL queries ✨!
+<!--alex enable just-->
+
+You can [watch the video in full here](https://www.youtube.com/watch?v=YxRvXgDIHW8).
 
 ---
 
@@ -190,4 +193,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
