@@ -41,9 +41,9 @@ Read the [full blog post](https://embersteps.com/promises-and-ui-states-in-ember
 
 Watch an introduction to using **GraphQL with Ember.js** in [@jneurock](https://github.com/jneurock)'s new video! The YouTube video ⚡️quickly ⚡️ demonstrates how to get up and running with Ember.js, GraphQL, Apollo and EmberCLI Mirage.
 
-<!--alex ignore retext-equality-->
+<!--alex ignore just-->
 If you've been interested in learning how to set up an application with GraphQL and Ember.js, or are just looking to learn a little more about GraphQL and Apollo and the relevant syntax, this video is a super nice resource. Plus, you get to see how EmberCLI Mirage can handle GraphQL queries ✨!
-<!--alex enable retext-equality-->
+<!--alex enable just-->
 
 You can [watch the video in full here](https://www.youtube.com/watch?v=YxRvXgDIHW8).
 
