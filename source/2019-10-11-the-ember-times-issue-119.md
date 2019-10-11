@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 119
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/11-the-ember-times-issue-119.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on handling Promises and UI states with Ember.js 🔄,
+Learn how Ember has helped Intercom evolve since 2014 📖, 
 READMORE
 
 ---
@@ -54,13 +55,20 @@ Read the [full blog post](https://embersteps.com/promises-and-ui-states-in-ember
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [The Evolution of Ember.js at Intercom 📖](https://www.youtube.com/watch?v=NoCxHTxpmSQ)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+At [JSDayIE 2019](https://www.jsday.org/), [Gavin Joyce (@GavinJoyce)](https://github.com/GavinJoyce) presented a talk on how the adoption of Ember has helped Intercom grow over the years since 2014.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In particular, Gavin attributed these four keys to success:
+
+- Shared core values with Ember
+- Ability to empower new devs to ship soon meaningful features
+- Confidence in upgrades thanks to Ember's stability without stagnation
+- Ember's commitment to continuous improvement (case study in rendering engine)
+
+He closed the talk by giving a preview of [Ember Octane](https://emberjs.com/editions/octane)'s native JS approach: "I don't know what you would remove from that. [...] Everything has a purpose, and it's beautifully minimal and clean." 💙
+
+Please [have a look at Gavin's talk](https://www.youtube.com/watch?v=NoCxHTxpmSQ) and share it with family and friends!
 
 ---
 
@@ -134,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
