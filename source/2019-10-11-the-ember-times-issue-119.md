@@ -105,7 +105,10 @@ export default Component.extend({
 
 ```handlebars
 <!-- app/templates/components/my-component.hbs -->
-<input value={{@passedDownValue}} oninput={{action "updateValue" value="target.value"}} />
+<input
+  value={{@passedDownValue}}
+  oninput={{action "updateValue" value="target.value"}}
+/>
 ```
 
 With [Ember Octane coming soon](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) and the new Glimmer Component API [enforcing unidirectional data flow](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html), many developers might wonder how the `{{mut}}` helper still fits into the overall picture. Are there any issues with using `{{mut}}` in future Octane apps? And are there still plans to [deprecate the helper](https://github.com/emberjs/rfcs/issues/538) or 2-way-binding APIs from the framework in general?
