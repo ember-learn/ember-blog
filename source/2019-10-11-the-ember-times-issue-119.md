@@ -18,7 +18,7 @@ READMORE
 
 ## [Promises and UI states in Ember.js 🔄](https://embersteps.com/promises-and-ui-states-in-ember-js/)
 
-[@herzzanu](https://github.com/herzzanu) wrote a [blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) on handling promises and UI states with Ember. Examples of this range from providing loading states when sending a post request to enabling complicated behaviour such as a backoff period before being able to interact with the UI again.
+[Sabin Hertanu @herzzanu](https://github.com/herzzanu) wrote a [blog post](https://embersteps.com/promises-and-ui-states-in-ember-js/) on handling promises and UI states with Ember. Examples of this range from providing loading states when sending a post request to enabling complicated behaviour such as a backoff period before being able to interact with the UI again.
 
 The idea was to write promise-based operations as [generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*) using the provided [ember-concurrency](http://ember-concurrency.com) APIs.
 
@@ -28,10 +28,10 @@ Read the [full blog post](https://embersteps.com/promises-and-ui-states-in-ember
 
 ## [Ember and GraphQL: A Quick Example 📹](https://www.youtube.com/watch?v=YxRvXgDIHW8)
 
-Watch an introduction to using **GraphQL with Ember.js** in [@jneurock](https://github.com/jneurock)'s new video! The YouTube video ⚡️quickly ⚡️ demonstrates how to get up and running with Ember.js, GraphQL, Apollo and EmberCLI Mirage.
+Watch an introduction to using **GraphQL with Ember.js** in [Rocky Neurock @jneurock](https://github.com/jneurock)'s new video! The YouTube video ⚡️quickly ⚡️ demonstrates how to get up and running with Ember.js, GraphQL, Apollo and EmberCLI Mirage.
 
 <!--alex ignore just-->
-If you've been interested in learning how to set up an application with GraphQL and Ember.js, or are just looking to learn a little more about GraphQL and Apollo and the relevant syntax, this video is a super nice resource. Plus, you get to see how EmberCLI Mirage can handle GraphQL queries ✨!
+If you've been interested in learning how to set up an application with GraphQL and Ember.js, or are just looking to learn a little more about GraphQL and Apollo and the relevant syntax, this video is a super nice resource. Plus, you get to see how EmberCLI Mirage can handle GraphQL queries! ✨
 
 You can [watch the video in full here](https://www.youtube.com/watch?v=YxRvXgDIHW8).
 
@@ -50,7 +50,7 @@ In particular, Gavin attributed these four keys to success:
 
 He closed the talk by giving a preview of [Ember Octane](https://emberjs.com/editions/octane)'s native JS approach: "I don't know what you would remove from that. [...] Everything has a purpose, and it's beautifully minimal and clean." 💙
 
-Please [have a look at Gavin's talk](https://www.youtube.com/watch?v=NoCxHTxpmSQ) and share it with family and friends!
+Please [have a look at Gavin's talk](https://www.youtube.com/watch?v=NoCxHTxpmSQ) and share!
 
 ---
 
