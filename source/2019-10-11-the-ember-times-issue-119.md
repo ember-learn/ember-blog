@@ -1,29 +1,18 @@
 ---
 title: The Ember Times - Issue No. 119
-author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/11-the-ember-times-issue-119.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+✌️ Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on handling Promises and UI states with Ember.js 🔄,
-Learn how Ember has helped Intercom evolve since 2014 📖,
-A mutable future with Ember Octane 🐹🏎,
-Ember and GraphQL: A Quick Example 📹,
+learn how Ember has helped Intercom evolve since 2014 📖,
+a mutable future with Ember Octane 🐹🏎,
+and Ember and GraphQL: a quick example 📹.
 READMORE
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -46,16 +35,6 @@ If you've been interested in learning how to set up an application with GraphQL 
 <!--alex enable just-->
 
 You can [watch the video in full here](https://www.youtube.com/watch?v=YxRvXgDIHW8).
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -123,46 +102,6 @@ Be sure to check out [the article](https://www.pzuraq.com/on-mut-and-2-way-bindi
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/jacojoubert" target="gh-user">@jacojoubert</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Frozenfire92" target="gh-user">@Frozenfire92</a>, <a href="https://github.com/Alonski" target="gh-user">@Alonski</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/richard-viney" target="gh-user">@richard-viney</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/Panman8201" target="gh-user">@Panman8201</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/wongpeiyi" target="gh-user">@wongpeiyi</a>  for their contributions to Ember and related repositories! 💖</p>
@@ -193,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam and the Learning Team
