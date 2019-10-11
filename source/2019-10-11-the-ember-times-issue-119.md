@@ -81,7 +81,10 @@ Most Ember developers are familiar with the usage of `{{mut}}` from scenarios as
 
 ```handlebars
 <!-- app/templates/components/my-component.hbs -->
-<input value={{@passedDownValue}} oninput={{action (mut @passedDownValue) value="target.value"}} />
+<input
+  value={{@passedDownValue}}
+  oninput={{action (mut @passedDownValue) value="target.value"}}
+/>
 ```
 
 In combination with the `{{action}}` helper, `{{mut}}` allows developers to create a useful, implicit and template-only **shorthand** for a setter function, that otherwise would require an explicit definition in the component class itself:
