@@ -43,7 +43,7 @@ Watch an introduction to using **GraphQL with Ember.js** in [@jneurock](https://
 
 If you've been interested in learning how to set up an application with GraphQL and Ember.js, or are just looking to learn a little more about GraphQL and Apollo and the relevant syntax, this video is a super nice resource. Plus, you get to see how EmberCLI Mirage can handle GraphQL queries ✨!
 
-You can watch the video in full [here](https://www.youtube.com/watch?v=YxRvXgDIHW8).
+You can [watch the video in full here](https://www.youtube.com/watch?v=YxRvXgDIHW8).
 
 ---
 
