@@ -57,7 +57,7 @@ Read the [full blog post](https://embersteps.com/promises-and-ui-states-in-ember
 
 ## [The Evolution of Ember.js at Intercom 📖](https://www.youtube.com/watch?v=NoCxHTxpmSQ)
 
-At [JSDayIE 2019](https://www.jsday.org/), [Gavin Joyce (@GavinJoyce)](https://github.com/GavinJoyce) presented a talk on how the adoption of Ember has helped Intercom grow over the years since 2014.
+At [JSDayIE 2019](https://www.jsday.org/), [Gavin Joyce (@GavinJoyce)](https://github.com/GavinJoyce) presented a talk on how the adoption of Ember has helped [Intercom](https://www.intercom.com/) grow over the years since 2014.
 
 In particular, Gavin attributed these four keys to success:
 
