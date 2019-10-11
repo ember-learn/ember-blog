@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 119
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/11-the-ember-times-issue-119.html"
 responsive: true
@@ -10,7 +10,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on handling Promises and UI states with Ember.js 🔄,
-Learn how Ember has helped Intercom evolve since 2014 📖, 
+Learn how Ember has helped Intercom evolve since 2014 📖,
+A mutable future with Ember Octane 🐹🏎,
 READMORE
 
 ---
@@ -72,6 +73,53 @@ Please [have a look at Gavin's talk](https://www.youtube.com/watch?v=NoCxHTxpmSQ
 
 ---
 
+## [A Mutable, Octane Powered Future 🐹🏎](https://www.pzuraq.com/on-mut-and-2-way-binding/)
+
+A handy **helper** has existed in the framework's API since the early days of Ember 1.13. It allows to specify that a certain value - which was passed down by a parent component or controller - **may be mutated** by a child component. This is [the so-called `{{mut}}` helper](https://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/mut?anchor=mut).
+
+Most Ember developers are familiar with the usage of `{{mut}}` from scenarios as the following one:
+
+```handlebars
+<!-- app/templates/components/my-component.hbs -->
+<input
+  value={{@passedDownValue}}
+  oninput={{action (mut @passedDownValue) value="target.value"}}
+/>
+```
+
+In combination with the `{{action}}` helper, `{{mut}}` allows developers to create a useful, implicit and template-only **shorthand** for a setter function, that otherwise would require an explicit definition in the component class itself:
+
+
+```js
+// app/components/my-component.js
+import Component from '@ember/component';
+
+export default Component.extend({
+  actions: {
+    updateValue(newValue) {
+      this.set('passedDownValue', newValue);
+    },
+  },
+});
+```
+
+```handlebars
+<!-- app/templates/components/my-component.hbs -->
+<input
+  value={{@passedDownValue}}
+  oninput={{action "updateValue" value="target.value"}}
+/>
+```
+
+With [Ember Octane coming soon](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) and the new Glimmer Component API [enforcing unidirectional data flow](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html), many developers might wonder how the `{{mut}}` helper still fits into the overall picture. Are there any issues with using `{{mut}}` in future Octane apps? And are there still plans to [deprecate the helper](https://github.com/emberjs/rfcs/issues/538) or 2-way-binding APIs from the framework in general?
+
+<!--alex ignore remain-->
+You will find answers to all of these questions in an [excellent deep-dive into `mut` and 2-way-bindings](https://www.pzuraq.com/on-mut-and-2-way-binding/) by [Chris Garrett (@pzuraq)](https://github.com/pzuraq). This blog post will clarify which data-binding framework APIs will remain for the foreseeable future (including Ember Octane) and which questions are still open in regards to 2-way binding components commonly used in Ember apps today.
+
+Be sure to check out [the article](https://www.pzuraq.com/on-mut-and-2-way-binding/), share it with your colleagues and Ember friends and join the discussion on [the Ember Discord](https://discordapp.com/invite/zT3asNS)!
+
+---
+
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
@@ -114,7 +162,7 @@ Please [have a look at Gavin's talk](https://www.youtube.com/watch?v=NoCxHTxpmSQ
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/jacojoubert" target="gh-user">@jacojoubert</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Frozenfire92" target="gh-user">@Frozenfire92</a>, <a href="https://github.com/Alonski" target="gh-user">@Alonski</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/richard-viney" target="gh-user">@richard-viney</a>, <a href="https://github.com/tomdale" target="gh-user">@tomdale</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/Panman8201" target="gh-user">@Panman8201</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/wongpeiyi" target="gh-user">@wongpeiyi</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -142,4 +190,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
