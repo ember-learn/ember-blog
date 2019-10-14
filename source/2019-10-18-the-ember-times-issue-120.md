@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Dive into Octane features with EmberMap 📚,
 
 READMORE
 
@@ -34,13 +34,15 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [A New EmberMap Series: What's New in Ember 📚](https://embermap.com/topics/what-s-new-in-ember/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+This year, Ember released many new features that will all be a part of Ember Octane. While the [release notes](https://blog.emberjs.com/tags/releases.html) do a great job of summarizing the features, you may be still wondering about what they are and why they matter to you as a developer or an addon contributor.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+To help you understand better, EmberMap started a series called [What's New in Ember](https://embermap.com/topics/what-s-new-in-ember/). Each episode will cover 1 new feature, starting with Ember 3.8.
+
+In the first episode, [Sam Selikoff (@samselikoff)](https://github.com/samselikoff) shows how you can write a **modifier**. In particular, you will learn how to use Ember's **modifier manager** (this provides low-level, public APIs for customization) or dedicated addons (for high-level abstraction).
+
+Be sure to check out the future episodes as they are released!
 
 ---
 
@@ -134,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
