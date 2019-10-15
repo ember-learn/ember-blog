@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Isaac Lee, the crowd
+author: Isaac Lee, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-Dive into Octane features with EmberMap 📚,
+Dive into Octane features with EmberMap 📚, Learn about ember-engines 📝 ,
 
 READMORE
 
@@ -46,13 +46,10 @@ Be sure to check out the future episodes as they are released!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Ember-engines: the what, what not and why? – Part 1 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
+  
+If you have ever heard something about **ember-engines** but you need to refresh your knowledge or they are completely new to you [@abhilashlr](https://github.com/abhilashlr) wrote a [blogpost](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. This first [blogpost](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasises what it is not. 
+The [blogpost](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) is part one, with part two on how  [@abhilashlr ](https://github.com/abhilashlr) used ember engines for one of his features in draft. So keep posted to learn more about how to use ember-engines, especially in large scale Ember apps.
 
 ---
 
@@ -136,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Anne-Greeth van Herwijnen, the crowd and the Learning Team
