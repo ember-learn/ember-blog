@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Isaac Lee, the crowd
+author: Isaac Lee, Jeldrik Hanschke, the crowd
+
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -14,13 +15,19 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Bootstrap 3.0.0 Released 🎉](https://www.ember-bootstrap.com)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Just a few days ago, [Ember Bootstrap 3.0.0 was released](https://twitter.com/simonihmig/status/1182661298464739330). [Ember Bootstrap](https://www.ember-bootstrap.com) brings the Bootstrap library to Ember without requiring any of the Bootstrap JavaScript. Instead, it rebuilds the dynamic features of Bootstrap with native Ember Components.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The UI library enters the Octane-era with this new major version: It introduces full support of angle bracket component invocation syntax and an updated documentation. All components have been refactored to native classes.
+
+Ember Bootstrap v3 drops support for some very old versions of Ember, but still supports 2.18+ to ease the migration path. The commitment to backwards compatibility introduced some technical challenges because Ember 2.18 isn't supported by [native class polyfill](https://github.com/pzuraq/ember-native-class-polyfill).
+
+In addition, consumers should be able to extend components provided by the addon to customize them for their specific needs. This introduced another challenge since [a class field cannot be overwritten by a computed property](https://discordapp.com/channels/480462759797063690/486553598436573206/618527893009465349). A [`defaultValue` decorator](https://github.com/kaliber5/ember-bootstrap/blob/v3.0.0/addon/utils/default-decorator.js) was used to prevent a `Cannot set property foo ... which has only a getter` error.
+
+In the end, Ember Bootstrap saw six release candidates and 3 1/2 months until its new major release has been proven to be stable.
+
+Besides dropping support for Ember <= 2.17 and Node 6, Ember Bootstrap v3 comes with some minor breaking changes affecting defaults. Please refer to [the changelog](https://www.ember-bootstrap.com/#/changelog) for a full list of all changes.
 
 ---
 
@@ -136,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Jeldrik Hanschke, the crowd and the Learning Team
