@@ -54,7 +54,7 @@ Be sure to check out the future episodes as they are released!
 
 ---
 
-## [Ember-engines: the what, what not and why? – Part 1 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
+## [Ember Engines: The What, What Not and Why? – Part 1 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
   
 If you have ever heard something about **ember-engines** but you need to refresh your knowledge or they are completely new to you [@abhilashlr](https://github.com/abhilashlr) wrote a [blogpost](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. This first [blogpost](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasises what it is not. 
 The [blogpost](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) is part one, with part two on how  [@abhilashlr ](https://github.com/abhilashlr) used ember engines for one of his features in draft. So keep posted to learn more about how to use ember-engines, especially in large scale Ember apps.
