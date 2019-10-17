@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 120
-author: Isaac Lee, Jeldrik Hanschke, the crowd
+author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/18-the-ember-times-issue-120.html"
 responsive: true
@@ -8,8 +8,9 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-Dive into Octane features with EmberMap 📚,
 Ember Bootstrap 3.0.0 Released 🎉
+Dive into Octane features with EmberMap 📚, 
+Learn about ember-engines 📝 ,
 
 READMORE
 
@@ -54,13 +55,10 @@ Be sure to check out the future episodes as they are released!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+## [Ember Engines: The What, What Not and Why? – Part 1 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
+  
+If you have ever heard something about **ember-engines** but you need to refresh your knowledge, or they are completely new to you, [@abhilashlr](https://github.com/abhilashlr) wrote a [blog post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. This first [post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasizes what it is not. 
+Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used ember-engines in his app.
 
 ---
 
@@ -144,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jeldrik Hanschke, the crowd and the Learning Team
+Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, the crowd and the Learning Team
