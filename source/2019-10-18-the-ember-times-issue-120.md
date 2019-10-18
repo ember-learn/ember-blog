@@ -11,7 +11,7 @@ responsive: true
 Ember Bootstrap 3.0.0 Released 🎉,
 dive into Octane features with EmberMap 📚, 
 learn about ember-engines 📝 ,
-help wanted for Ember Octane linting rules 🤖,
+and help wanted for Ember Octane linting rules 🤖!
 
 READMORE
 
@@ -58,13 +58,13 @@ Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used
 
 With Ember Octane's official release imminent, there's an effort to create new and improve existing Octane-specific linting rules. These will be used to help educate the community about the new APIs as well as help make migrating existing "Classic" code easier. A number of improvements have been proposed and issues have been cut for each of them on the [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule) and [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?utf8=%E2%9C%93&q=+project%3Aember-template-lint%2F1+label%3A%22help+wanted%22++sort%3Aupdated-desc) repos.
 
-If you're interested in helping out, comment on the issue you'd like to take and submit a PR.
+If you're interested in helping out, comment on the issue you'd like to take and submit a PR!
 
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/GavinJoyce" target="gh-user">@GavinJoyce</a>, <a href="https://github.com/tylerturdenpants" target="gh-user">@tylerturdenpants</a>, <a href="https://github.com/tmquinn" target="gh-user">@tmquinn</a>, <a href="https://github.com/dfreeman" target="gh-user">@dfreeman</a>, <a href="https://github.com/camerondubas" target="gh-user">@camerondubas</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/MrChocolatine" target="gh-user">@MrChocolatine</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/mfeckie" target="gh-user">@mfeckie</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/kturney" target="gh-user">@kturney</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
