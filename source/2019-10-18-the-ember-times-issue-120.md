@@ -1,17 +1,17 @@
 ---
 title: The Ember Times - Issue No. 120
-author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan
+author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/18-the-ember-times-issue-120.html"
 responsive: true
 ---
 
-Hej alle Emberistas! 🐹
+🏄‍♀️ Emberistas! 🐹
 
-Ember Bootstrap 3.0.0 Released 🎉
-Dive into Octane features with EmberMap 📚,
-Learn about ember-engines 📝 ,
-Help wanted for Ember Octane linting rules 🤖
+Ember Bootstrap 3.0.0 Released 🎉,
+dive into Octane features with EmberMap 📚, 
+learn about ember-engines 📝 ,
+and help wanted for Ember Octane linting rules 🤖!
 and greetings from the Ember Times team at Emberfest 🐹🎉
 
 READMORE
@@ -35,16 +35,6 @@ Besides dropping support for Ember <= 2.17 and Node 6, Ember Bootstrap v3 comes 
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [A New EmberMap Series: What's New in Ember 📚](https://embermap.com/topics/what-s-new-in-ember/)
 
 This year, Ember released many new features that will all be a part of Ember Octane. While the [release notes](https://blog.emberjs.com/tags/releases.html) summarize the features well, you may have wondered still how to use them in your app.
@@ -57,9 +47,10 @@ Be sure to check out the future episodes as they are released!
 
 ---
 
-## [Ember Engines: The What, What Not and Why? – Part 1 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
+## [Ember Engines: The What, What Not and Why? 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
+  
+If you have ever heard something about **ember-engines** but you need to refresh your knowledge, or they are completely new to you, [@abhilashlr](https://github.com/abhilashlr) wrote a [blog post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. Engines allow multiple logical applications to be composed together into a single application from the user's perspective, while satisfying the separation of concerns convention for the developer. This first [post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasizes what it is not. 
 
-If you have ever heard something about **ember-engines** but you need to refresh your knowledge, or they are completely new to you, [@abhilashlr](https://github.com/abhilashlr) wrote a [blog post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. This first [post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasizes what it is not.
 Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used ember-engines in his app.
 
 ---
@@ -84,39 +75,9 @@ Vi ses senere, Emberistas!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/mfeckie" target="gh-user">@mfeckie</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/kturney" target="gh-user">@kturney</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/MrChocolatine" target="gh-user">@MrChocolatine</a>, <a href="https://github.com/apps/github-actions" target="gh-user">@github-actions[bot]</a>, <a href="https://github.com/tmquinn" target="gh-user">@tmquinn</a>, <a href="https://github.com/dfreeman" target="gh-user">@dfreeman</a> and <a href="https://github.com/camerondubas" target="gh-user">@camerondubas</a>  for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/GavinJoyce" target="gh-user">@GavinJoyce</a>, <a href="https://github.com/tylerturdenpants" target="gh-user">@tylerturdenpants</a>, <a href="https://github.com/tmquinn" target="gh-user">@tmquinn</a>, <a href="https://github.com/dfreeman" target="gh-user">@dfreeman</a>, <a href="https://github.com/camerondubas" target="gh-user">@camerondubas</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/MrChocolatine" target="gh-user">@MrChocolatine</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/mfeckie" target="gh-user">@mfeckie</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/kturney" target="gh-user">@kturney</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -144,4 +105,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan and the Learning Team
+Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan, Amy Lam and the Learning Team
