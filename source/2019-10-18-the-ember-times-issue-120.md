@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 120
-author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, the crowd
+author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/18-the-ember-times-issue-120.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 Ember Bootstrap 3.0.0 Released 🎉
 Dive into Octane features with EmberMap 📚, 
 Learn about ember-engines 📝 ,
+Help wanted for Ember Octane linting rules 🤖,
 
 READMORE
 
@@ -62,13 +63,11 @@ Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Help Wanted For Ember Octane Linting Rules 🤖](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+With Ember Octane's official release imminent, there's an effort to create new and improve existing Octane-specific linting rules. These will be used to help educate the community about the new APIs as well as help make migrating existing "Classic" code easier. A number of improvements have been proposed and issues have been cut for each of them on the [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule) and [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?utf8=%E2%9C%93&q=+project%3Aember-template-lint%2F1+label%3A%22help+wanted%22++sort%3Aupdated-desc) repos.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you're interested in helping out, comment on the issue you'd like to take and submit a PR.
 
 ---
 
@@ -142,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, the crowd and the Learning Team
