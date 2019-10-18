@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 120
-author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Amy Lam
+author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/18-the-ember-times-issue-120.html"
 responsive: true
@@ -48,7 +48,8 @@ Be sure to check out the future episodes as they are released!
 
 ## [Ember Engines: The What, What Not and Why? – Part 1 📝](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5)
   
-If you have ever heard something about **ember-engines** but you need to refresh your knowledge, or they are completely new to you, [@abhilashlr](https://github.com/abhilashlr) wrote a [blog post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. This first [post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasizes what it is not. 
+If you have ever heard something about **ember-engines** but you need to refresh your knowledge, or they are completely new to you, [@abhilashlr](https://github.com/abhilashlr) wrote a [blog post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) about them. Engines allow multiple logical applications to be composed together into a single application from the user's perspective, while satisfying the separation of concerns convention for the developer. This first [post](https://medium.com/developer-paradise/ember-engines-the-what-what-not-and-when-part-1-49187c949db5) nicely establishes what an ember-engine is, and emphasizes what it is not. 
+
 Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used ember-engines in his app.
 
 ---
@@ -91,4 +92,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, the crowd and the Learning Team
+Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan, Amy Lam and the Learning Team
