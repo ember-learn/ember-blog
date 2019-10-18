@@ -63,9 +63,9 @@ Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used
 
 ---
 
-## [Help Wanted Creating New Ember Octane ESLint Rules 🤖](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule)
+## [Help Wanted For New Ember Octane Linting Rules 🤖](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule)
 
-With Ember Octane's official release imminent, there's an effort to create some new Octane-specific ESLint rules. These will be used to help educate the community about the new APIs as well as help make migrating existing "Classic" code easier. A number of rules have been proposed and issues have been cut for each of them on the [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule) repo.
+With Ember Octane's official release imminent, there's an effort to create new and improve existing Octane-specific linting rules. These will be used to help educate the community about the new APIs as well as help make migrating existing "Classic" code easier. A number of improvements have been proposed and issues have been cut for each of them on the [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule) and [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?utf8=%E2%9C%93&q=+project%3Aember-template-lint%2F1+label%3A%22help+wanted%22++sort%3Aupdated-desc) repos.
 
 If you're interested in helping out, comment on the issue you'd like to take and submit a PR.
 
