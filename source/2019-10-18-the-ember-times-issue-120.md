@@ -1,17 +1,17 @@
 ---
 title: The Ember Times - Issue No. 120
-author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, the crowd
+author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/18-the-ember-times-issue-120.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+🏄‍♀️ Emberistas! 🐹
 
-Ember Bootstrap 3.0.0 Released 🎉
-Dive into Octane features with EmberMap 📚, 
-Learn about ember-engines 📝 ,
-Help wanted for Ember Octane linting rules 🤖,
+Ember Bootstrap 3.0.0 Released 🎉,
+dive into Octane features with EmberMap 📚, 
+learn about ember-engines 📝 ,
+help wanted for Ember Octane linting rules 🤖,
 
 READMORE
 
@@ -31,16 +31,6 @@ In addition, consumers should be able to extend components provided by the addon
 In the end, Ember Bootstrap saw six release candidates and three and a half months until its new major release has been proven to be stable.
 
 Besides dropping support for Ember <= 2.17 and Node 6, Ember Bootstrap v3 comes with some minor breaking changes affecting defaults. Please refer to [the changelog](https://www.ember-bootstrap.com/#/changelog) for a full list of all changes.
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -68,46 +58,6 @@ Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used
 With Ember Octane's official release imminent, there's an effort to create new and improve existing Octane-specific linting rules. These will be used to help educate the community about the new APIs as well as help make migrating existing "Classic" code easier. A number of improvements have been proposed and issues have been cut for each of them on the [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule) and [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?utf8=%E2%9C%93&q=+project%3Aember-template-lint%2F1+label%3A%22help+wanted%22++sort%3Aupdated-desc) repos.
 
 If you're interested in helping out, comment on the issue you'd like to take and submit a PR.
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
