@@ -12,6 +12,7 @@ Ember Bootstrap 3.0.0 Released 🎉,
 dive into Octane features with EmberMap 📚, 
 learn about ember-engines 📝 ,
 and help wanted for Ember Octane linting rules 🤖!
+and greetings from the Ember Times team at Emberfest 🐹🎉
 
 READMORE
 
@@ -59,6 +60,18 @@ Stay tuned for part two on how [@abhilashlr](https://github.com/abhilashlr) used
 With Ember Octane's official release imminent, there's an effort to create new and improve existing Octane-specific linting rules. These will be used to help educate the community about the new APIs as well as help make migrating existing "Classic" code easier. A number of improvements have been proposed and issues have been cut for each of them on the [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+label%3A%22Help+Wanted%22+Octane+Rule) and [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?utf8=%E2%9C%93&q=+project%3Aember-template-lint%2F1+label%3A%22help+wanted%22++sort%3Aupdated-desc) repos.
 
 If you're interested in helping out, comment on the issue you'd like to take and submit a PR!
+
+---
+
+## [Greetings from Emberfest 🐹🎉](https://twitter.com/search?q=%23emberfest)
+
+<img class="float-left medium transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/blog/emberjstimes/embertimesteam2019.jpg" />
+
+This week the Ember Times sends you **greetings from Emberfest** - an annual Ember conference, which took place in [Copenhagen on Oct 17 + 18](https://emberfest.eu/) this year. With almost 200 attendees and 2 days full of talks about how to build modern Ember apps, the importance of developing with intent and effective mentorship, the event has been an amazing opportunity for the Europe-based Ember community to learn, reconnect and share ideas.
+
+We'll keep you posted once the video recordings of the event are up. And in the meantime...why not gain a few Emberfest impressions by checking out the [#Emberfest hashtag on Twitter](https://twitter.com/search?q=%23emberfest) or join an [Ember mini-conference in your area](https://emberjs.com/community/meetups)?
+
+Vi ses senere, Emberistas!
 
 ---
 
