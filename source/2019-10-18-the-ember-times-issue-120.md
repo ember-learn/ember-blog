@@ -8,7 +8,7 @@ responsive: true
 
 🏄‍♀️ Emberistas! 🐹
 
-Ember Bootstrap 3.0.0 Released 🎉,
+Ember Bootstrap 3.0.0 released 🎉,
 dive into Octane features with EmberMap 📚, 
 learn about ember-engines 📝 ,
 help wanted for Ember Octane linting rules 🤖,
