@@ -11,8 +11,8 @@ responsive: true
 Ember Bootstrap 3.0.0 Released 🎉,
 dive into Octane features with EmberMap 📚, 
 learn about ember-engines 📝 ,
-and help wanted for Ember Octane linting rules 🤖!
-and greetings from the Ember Times team at Emberfest 🐹🎉
+help wanted for Ember Octane linting rules 🤖,
+and greetings from the Ember Times team at Emberfest! 🐹🎉
 
 READMORE
 
