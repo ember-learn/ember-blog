@@ -87,6 +87,7 @@ body.blog.responsive {
       width: 75% !important;
       float: left !important;
       padding-right: 2em;
+      padding-left: 2em;
 
       @media screen and (max-width: $small-breakpoint) {
         width: 100% !important;
