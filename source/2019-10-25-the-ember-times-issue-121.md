@@ -39,7 +39,7 @@ READMORE
 
 Next year’s [EmberConf](http://emberconf.com) which is going to be held in Portland, Oregon, USA between March 16 to 18, 2020 has opened its CFP (call for papers) for submission! 
 
-You can submit either a 15 or 30 minute conference talk, a workshop, a 30 minute BonusConf talk, or a 5 minute MiniTalk proposal. Remember the first several rounds of reviews in the CFP is blind so please refrain from including biographical information in your talk abstract or details.
+You can submit either a 15 or 30 minute conference talk, a workshop, a 30 minute BonusConf talk, or a 5 minute MiniTalk proposal. Remember the first several rounds of reviews in the CFP are blind, so please refrain from including biographical information in your talk abstract or details.
 
 The deadline to submit your talk is on December 1st at 11:59pm PST. EmberConf is intended to be an inclusive, welcoming conference for everyone. The Code of Conduct can be found [at the EmberConf website](http://emberconf.com/about.html#code-of-conduct).
 
