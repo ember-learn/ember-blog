@@ -41,7 +41,7 @@ Next year’s [EmberConf](https://emberconf.com), which is going to be held in P
 
 You can submit either a 15 or 30 minute conference talk, a workshop, a 30 minute BonusConf talk, or a 5 minute MiniTalk proposal. Remember the first several rounds of reviews in the CFP are blind, so please refrain from including biographical information in your talk abstract or details.
 
-The deadline to submit your talk is on December 1st at 11:59pm PST. EmberConf is intended to be an inclusive, welcoming conference for everyone. The Code of Conduct can be found [at the EmberConf website](http://emberconf.com/about.html#code-of-conduct).
+The deadline to submit your talk is December 1st at 11:59pm PST. EmberConf is intended to be an inclusive, welcoming conference for everyone. The Code of Conduct can be found [at the EmberConf website](https://emberconf.com/about.html#code-of-conduct).
 
 Submit your talk on the [CFP app](https://cfp.emberconf.com/events/emberconf-2020/) today!
 
