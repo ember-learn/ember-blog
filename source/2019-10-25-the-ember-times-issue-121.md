@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 The EmberConf 2020 CFP Now Open! 🗣️,
+Watch Gavin rewrite an Ember 1.5 app in Octane 🥁,
 
 READMORE
 
@@ -47,13 +48,20 @@ Submit your talk on the [CFP app](https://cfp.emberconf.com/events/emberconf-202
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Octane Livestream: Build a Drum Machine 🥁](https://www.youtube.com/watch?v=5znpEiwHpL4)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+If you haven't yet, we encourage you to watch [Gavin Joyce (@GavinJoyce)](https://github.com/GavinJoyce) [rewrite his drum machine app in Octane](https://www.youtube.com/watch?v=5znpEiwHpL4). The [original app](http://emberbeats.gavinjoyce.com) was [written in Ember 1.5 six years ago](https://github.com/GavinJoyce/ember-beats/tree/ember-1.5). Gavin prototypes the new app and gets its features working in 2.5 hours!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+From the recording, you will also learn how to:
+
+- Set up Tailwind CSS ([0:06:10](https://youtu.be/5znpEiwHpL4?t=370))
+- Use a 3rd party library like howler.js ([0:33:46](https://youtu.be/5znpEiwHpL4?t=2026))
+- Create service to refactor a component ([0:39:04](https://youtu.be/5znpEiwHpL4?t=2344))
+- Create `hasMany` relationships ([0:50:05](https://youtu.be/5znpEiwHpL4?t=3005))
+- Prototype the UI ([0:55:36](https://youtu.be/5znpEiwHpL4?t=3336))
+- Use Ember Concurrency to handle timing ([1:10:58](https://youtu.be/5znpEiwHpL4?t=4258))
+- Make sounds! ([1:32:30](https://youtu.be/5znpEiwHpL4?t=5550))
+- Use a helper method to create child records ([1:48:28](https://youtu.be/5znpEiwHpL4?t=6508))
 
 ---
 
@@ -137,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
