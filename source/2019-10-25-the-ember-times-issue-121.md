@@ -8,11 +8,10 @@ responsive: true
 
 Hallöchen Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 The EmberConf 2020 CFP Now Open! 🗣️,
-Watch Gavin rewrite an Ember 1.5 app in Octane 🥁,
+Watch Gavin rewrite an Ember 1.5 app in Octane 🥁
+and get started with Glimmer Components ✨!
 
-READMORE
 
 ---
 
@@ -65,13 +64,11 @@ From the recording, you will also learn how to:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Make Your Ember App Shine with Glimmer Components ✨](https://mfeckie.dev/glimmer-components-in-ember/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+The release date of Ember's first edition - [Ember Octane](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) - is approaching and with it a new way to componentize your app: [Glimmer Components](https://emberjs.github.io/rfcs/0416-glimmer-components.html) provide a simple API to create reusable building blocks for your Ember application. Packed with lots of new features, including argument immutability, [tracked properties](https://emberjs.github.io/rfcs/0410-tracked-properties.html) and Outer HTML semantics, **Glimmer Components** will make it easier for you to manage component state and to deliver high-performant UIs.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Already looking forward to use Glimmer Components in your own app, but don't know how to get started yet? Then this guide on ["Getting Started with Glimmer Components in Ember.js"](https://mfeckie.dev/glimmer-components-in-ember/) is a must read for you. In this article, [Martin Feckie (@mfeckie)](https://github.com/mfeckie) covers the new feature set landing with the Glimmer Components API and best practices for developing modern components with Ember Octane. [Check it out today!](https://mfeckie.dev/glimmer-components-in-ember/)
 
 ---
 
