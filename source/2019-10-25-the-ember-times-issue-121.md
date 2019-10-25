@@ -1,12 +1,12 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: Chris Ng, Isaac Lee, the crowd
+title: The Ember Times - Issue No. 121
+author: Chris Ng, Isaac Lee, Jessica Jordan the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2019/10/25-the-ember-times-issue-121.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Hallöchen Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 The EmberConf 2020 CFP Now Open! 🗣️,
@@ -38,7 +38,7 @@ READMORE
 
 ## [EmberConf 2020 CFP Now Open! 🗣️](https://cfp.emberconf.com/events/emberconf-2020/)
 
-Next year’s [EmberConf](https://emberconf.com), which is going to be held in Portland, Oregon, USA from March 16 to 18, 2020, has opened its CFP (call for papers) for submission! 
+Next year’s [EmberConf](https://emberconf.com), which is going to be held in Portland, Oregon, USA from March 16 to 18, 2020, has opened its CFP (call for papers) for submission!
 
 You can submit either a 15 or 30 minute conference talk, a workshop, a 30 minute BonusConf talk, or a 5 minute MiniTalk proposal. Remember the first several rounds of reviews in the CFP are blind, so please refrain from including biographical information in your talk abstract or details.
 
@@ -117,7 +117,7 @@ From the recording, you will also learn how to:
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/rap2hpoutre" target="gh-user">@rap2hpoutre</a>, <a href="https://github.com/chriskrycho" target="gh-user">@chriskrycho</a>, <a href="https://github.com/Charizard" target="gh-user">@Charizard</a>, <a href="https://github.com/mcfiredrill" target="gh-user">@mcfiredrill</a>, <a href="https://github.com/GavinJoyce" target="gh-user">@GavinJoyce</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/acorncom" target="gh-user">@acorncom</a> and <a href="https://github.com/jfdnc" target="gh-user">@jfdnc</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -145,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
