@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 121
-author: Chris Ng, Isaac Lee, Jessica Jordan the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/25-the-ember-times-issue-121.html"
 responsive: true
@@ -8,32 +8,14 @@ responsive: true
 
 Hallöchen Emberistas! 🐹
 
-The EmberConf 2020 CFP Now Open! 🗣️,
-Watch Gavin rewrite an Ember 1.5 app in Octane 🥁
+The EmberConf 2020 CFP is now open! 🗣️,
+watch Gavin rewrite an Ember 1.5 app in Octane 🥁
 and get started with Glimmer Components ✨!
 
+READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
 
 ## [EmberConf 2020 CFP Now Open! 🗣️](https://cfp.emberconf.com/events/emberconf-2020/)
 
@@ -82,36 +64,6 @@ Already looking forward to use Glimmer Components in your own app, but don't kno
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/rap2hpoutre" target="gh-user">@rap2hpoutre</a>, <a href="https://github.com/chriskrycho" target="gh-user">@chriskrycho</a>, <a href="https://github.com/Charizard" target="gh-user">@Charizard</a>, <a href="https://github.com/mcfiredrill" target="gh-user">@mcfiredrill</a>, <a href="https://github.com/GavinJoyce" target="gh-user">@GavinJoyce</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/josemarluedke" target="gh-user">@josemarluedke</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/acorncom" target="gh-user">@acorncom</a> and <a href="https://github.com/jfdnc" target="gh-user">@jfdnc</a>  for their contributions to Ember and related repositories! 💖</p>
@@ -142,4 +94,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan and the Learning Team
