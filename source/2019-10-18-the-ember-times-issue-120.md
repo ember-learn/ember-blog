@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 120
 author: Isaac Lee, Jeldrik Hanschke, Anne-Greeth van Herwijnen, Pat O'Callaghan, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/10/18-the-ember-times-issue-120.html"
 responsive: true
 ---
