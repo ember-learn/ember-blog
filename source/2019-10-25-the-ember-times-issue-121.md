@@ -19,11 +19,11 @@ READMORE
 
 ## [EmberConf 2020 CFP Now Open! 🗣️](https://cfp.emberconf.com/events/emberconf-2020/)
 
-Next year’s [EmberConf](https://emberconf.com), which is going to be held in Portland, Oregon, USA from March 16 to 18, 2020, has opened its CFP (call for papers) for submission!
+Next year’s [EmberConf](https://emberconf.com), which is going to be held in Portland, Oregon, USA from March 16 to 18, 2020, has opened its **CFP (call for papers)** for submission!
 
-You can submit either a 15 or 30 minute conference talk, a workshop, a 30 minute BonusConf talk, or a 5 minute MiniTalk proposal. Remember the first several rounds of reviews in the CFP are blind, so please refrain from including biographical information in your talk abstract or details.
+You can submit either a 15 or 30 minute conference talk, a workshop, a 30 minute BonusConf talk, or a 5 minute MiniTalk proposal. Remember the first several rounds of reviews in the CFP are anonymous, so please refrain from including biographical information in your talk abstract or details.
 
-The deadline to submit your talk is December 1st at 11:59pm PST. EmberConf is intended to be an inclusive, welcoming conference for everyone. The Code of Conduct can be found [at the EmberConf website](https://emberconf.com/about.html#code-of-conduct).
+The deadline to submit your talk is **December 1st** at 11:59pm PST. EmberConf is intended to be an inclusive, welcoming conference for everyone. You can learn more about inclusiveness and diversity efforts [at the EmberConf website](https://emberconf.com/#/about/inclusiveness-at-emberconf).
 
 Submit your talk on the [CFP app](https://cfp.emberconf.com/events/emberconf-2020/) today!
 
@@ -51,16 +51,6 @@ From the recording, you will also learn how to:
 The release date of Ember's first edition - [Ember Octane](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) - is approaching and with it a new way to componentize your app: [Glimmer Components](https://emberjs.github.io/rfcs/0416-glimmer-components.html). They provide a new API to create reusable building blocks for your Ember application. Packed with lots of new features, including argument immutability, [tracked properties](https://emberjs.github.io/rfcs/0410-tracked-properties.html) and Outer HTML semantics, **Glimmer Components** will make it easier for you to manage component state and to deliver high-performant UIs.
 
 Already looking forward to use Glimmer Components in your own app, but don't know how to get started yet? Then this guide on ["Getting Started with Glimmer Components in Ember.js"](https://mfeckie.dev/glimmer-components-in-ember/) is a must read for you. In this article, [Martin Feckie (@mfeckie)](https://github.com/mfeckie) covers the new feature set landing with the Glimmer Components API and best practices for developing modern components with Ember Octane. [Check it out today!](https://mfeckie.dev/glimmer-components-in-ember/)
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
