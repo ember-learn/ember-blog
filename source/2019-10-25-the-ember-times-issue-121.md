@@ -8,8 +8,8 @@ responsive: true
 
 Hallöchen Emberistas! 🐹
 
-The EmberConf 2020 CFP is now open! 🗣️,
-watch Gavin rewrite an Ember 1.5 app in Octane 🥁
+The EmberConf 2020 CFP is now open! 🗣️
+Watch Gavin rewrite an Ember 1.5 app in Octane 🥁
 and get started with Glimmer Components ✨!
 
 READMORE
