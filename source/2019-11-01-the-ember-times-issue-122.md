@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 122
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/01-the-ember-times-issue-122.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of qunit-assertions-extra 🎉,
+Fine-tune validations with Ember Model Validator 3.10 🔍,
 READMORE
 
 ---
@@ -42,13 +43,26 @@ As of now, it provides the `assert.contains` and `assert.matches` APIs for simpl
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Fine-Tune Validations with Ember Model Validator 3.10 🔍](https://twitter.com/esbanarango/status/1189759579493679106)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Ember Model Validator](https://github.com/esbanarango/ember-model-validator), which lets you define validations for Ember Data models, recently celebrated its 3.10 release! 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Thanks to [André Medeiros (@andsmedeiros)](https://github.com/andsmedeiros), you can now [pass `except` or `only` option to Ember Model Validator](https://github.com/esbanarango/ember-model-validator#usage) to run a subset of validations.
+
+```javascript
+// Run all validations EXCEPT name's presence and length validations
+// and any email validations
+myModel.validate({
+    except: ['name:presence,length', 'email']
+});
+
+// Run ONLY email's presence validation
+myModel.validate({
+    only: ['email:presence']
+});
+```
+
+To learn more about how to use Ember Model Validator in your app, we encourage you to [visit its website today](https://esbanarango.github.io/ember-model-validator)!
 
 ---
 
@@ -132,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
