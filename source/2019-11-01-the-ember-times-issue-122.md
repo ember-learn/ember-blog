@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 122
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/01-the-ember-times-issue-122.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Release of qunit-assertions-extra 🎉,
 READMORE
 
 ---
@@ -34,13 +34,11 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Release of qunit-assertions-extra 🎉](https://twitter.com/nullvoxpopuli/status/1189308094972616706)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@NullVoxPopuli](https://github.com/NullVoxPopuli) made a library to help out with [qunit](https://github.com/emberjs/ember-qunit) assertions. Inspired by the [qunit-dom](https://github.com/simplabs/qunit-dom) project, the library aims to eliminate `assert.ok` for non-boolean comparisons and the need for the custom message argument for assertions.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As of now, it provides the `assert.contains` and `assert.matches` APIs for simplifying routine tests around strings. Contribute and check out [qunit-assertions-extra](https://github.com/NullVoxPopuli/qunit-assertions-extra) on GitHub today!
 
 ---
 
@@ -134,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
