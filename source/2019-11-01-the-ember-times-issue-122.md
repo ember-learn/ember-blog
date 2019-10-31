@@ -47,7 +47,7 @@ As of now, it provides the `assert.contains` and `assert.matches` APIs for simpl
 
 [Ember Model Validator](https://github.com/esbanarango/ember-model-validator), which lets you define validations for Ember Data models, recently celebrated its 3.10 release! 🎉
 
-Thanks to [André Medeiros (@andsmedeiros)](https://github.com/andsmedeiros), you can now [pass `except` or `only` option to Ember Model Validator](https://github.com/esbanarango/ember-model-validator#usage) to run a subset of validations.
+Thanks to [André Medeiros (@andsmedeiros)](https://github.com/andsmedeiros), you can now [pass the `except` or `only` option to Ember Model Validator](https://github.com/esbanarango/ember-model-validator#usage) to run a subset of validations.
 
 ```javascript
 // Run all validations EXCEPT name's presence and length validations
