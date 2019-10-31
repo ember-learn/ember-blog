@@ -5,8 +5,6 @@ tags: Recent Posts, 2019, Announcement
 responsive: true
 ---
 
-## Octane Release Update
-
 The short version: We're still learning from the community as they adopt Octane,
 and won't be recommending Octane as the default Ember mode in the Ember's 3.14
 release. You can continue to opt-in to Octane in Ember 3.14, and the developer
