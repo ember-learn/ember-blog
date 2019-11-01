@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+<!--alex ignore simple-->
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Listen to an important announcement about Octane release 📝,
 Release of qunit-assertions-extra 🎉,
@@ -15,6 +16,7 @@ Fine-tune validations with Ember Model Validator 3.10 🔍,
 Better builds for the Guides 🏗,
 Ember Simple Auth 2.0.0 release 🛳,
 READMORE
+<!--alex enable simple-->
 
 ---
 
@@ -87,7 +89,7 @@ But recently, issues in regards to the build process for the Guides bubbled up. 
 Curious to learn more or even contribute to build processes for Ember learning materials? [Join the community chat](https://discord.gg/emberjs) and join the discussion on the [#dev-ember-learning channel](https://discordapp.com/channels/480462759797063690/480777444203429888)!ß
 
 ---
-
+<!--alex ignore simple-->
 ## [Ember Simple Auth 2.0.0 release 🛳](https://twitter.com/simplabs/status/1189264438026747907)
 
 This week, the good people over at [@simplabs](https://github.com/simplabs) released [version 2.0.0](https://github.com/simplabs/ember-simple-auth/releases/tag/2.0.0) of the excellent authentication/authorization library **Ember Simple Auth**. Many thanks to Simplabs and to the people who contributed to this release, including [@ExpDev07](https://github.com/ExpDev07), [@josemarluedke](http://github.com/josemarluedke), [@marcoow](https://github.com/marcoow), [@muziejus](https://github.com/muziejus), [@mcfiredrill](https://github.com/mcfiredrill) and [@trek](https://github.com/trek).
@@ -95,7 +97,7 @@ This week, the good people over at [@simplabs](https://github.com/simplabs) rele
 Version 2.0.0 drops support for Node 6 and introduces 2 new deprecations around the `rejectWithResponse` property and the DataAdapterMixin's `authorizer` property and `headersForRequest` method.
 
 Version 3.0.0 of Ember Simple Auth should be released soon, so watch out for that as well!
-
+<!--alex enable simple-->
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
