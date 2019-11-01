@@ -89,6 +89,7 @@ But recently, issues in regards to the build process for the Guides bubbled up. 
 Curious to learn more or even contribute to build processes for Ember learning materials? [Join the community chat](https://discord.gg/emberjs) and join the discussion on the [#dev-ember-learning channel](https://discordapp.com/channels/480462759797063690/480777444203429888)!ß
 
 ---
+
 <!--alex ignore simple-->
 ## [Ember Simple Auth 2.0.0 release 🛳](https://twitter.com/simplabs/status/1189264438026747907)
 
@@ -98,6 +99,7 @@ Version 2.0.0 drops support for Node 6 and introduces 2 new deprecations around 
 
 Version 3.0.0 of Ember Simple Auth should be released soon, so watch out for that as well!
 <!--alex enable simple-->
+
 ---
 
 ## [Section Title in Title Case 🐹](#section-url)
