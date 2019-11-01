@@ -24,7 +24,7 @@ Although Octane is still opt-in in 3.14, all Octane features are stable public A
 
 ---
 
-With the exception of an updated release of `@glimmer/component`, the steps to try out the Octane preview remain the same as they were in 3.13. You can try out the Octane preview by performing a few steps:
+With the exception of an updated release of `@glimmer/component`, the steps to try out the Octane preview remain the same in 3.14 as they were in 3.13:
 
 Add the following packages if they aren't already present at this version:
 
