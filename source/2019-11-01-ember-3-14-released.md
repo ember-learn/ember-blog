@@ -82,7 +82,43 @@ Ember.js 3.14 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (1)
 
-`@model` (1 of 2)
+**`@model` in Route Templates (1 of 1)**
+
+Route templates can now access the route's model with `@model` in addition to `this.model`. By treating `@model` as an argument, route templates better parallel component templates. Furthermore, the concept of teaching a `this` context for templates can be delayed.
+
+These motivations as well as the detailed design of this feature are described in [RFC 523](https://github.com/emberjs/rfcs/blob/master/text/0523-model-argument-for-route-templates.md).
+
+A template such as the following can now be refactored from using `this.model`:
+
+```hbs
+{{!-- The model for this route is the current user --}}
+
+<div>
+  Hi <img src="{{this.model.profileImage}}" alt="{{this.model.name}}'s profile picture"> {{this.model.name}},
+  this is a valid Ember template!
+</div>
+
+{{#if this.model.isAdmin}}
+  <div>Remember, with great power comes great responsibility!</div>
+{{/if}}
+```
+
+To use `@model`:
+
+```hbs
+{{!-- The model for this route is the current user --}}
+
+<div>
+  Hi <img src="{{@model.profileImage}}" alt="{{@model.name}}'s profile picture"> {{@model.name}},
+  this is a valid Ember template!
+</div>
+
+{{#if @model.isAdmin}}
+  <div>Remember, with great power comes great responsibility!</div>
+{{/if}}
+```
+
+The guides will soon be updated to teach the `@model` form first-and-foremost.
 
 #### Deprecations (0)
 
