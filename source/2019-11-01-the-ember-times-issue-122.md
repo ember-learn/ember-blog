@@ -9,19 +9,29 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Listen to an important announcement about Octane release 📝,
 Release of qunit-assertions-extra 🎉,
 Fine-tune validations with Ember Model Validator 3.10 🔍,
 READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Octane Release Update 📝](https://blog.emberjs.com/2019/10/31/octane-release-update.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Yesterday, the Ember team announced that [the upcoming 3.14 release will not include Octane as the default mode](https://blog.emberjs.com/2019/10/31/octane-release-update.html).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+While [several developers are successfully using Octane in production already](https://twitter.com/mixonic/status/1180494661938552832), a few key ingredients are missing in order to make Octane **a success story for everyone**. The remaining tasks are:
+
+- Make removal of jQuery optional to help with your migration (completed in 3.14 ✅)
+- Finish updating [Ember Inspector](https://github.com/emberjs/ember-inspector) to support Glimmer components
+- Document the use of Glimmer components in the [Ember Guides](https://octane-guides-preview.emberjs.com/release/)
+
+What will this announcement mean for you?
+
+1. If you tried out Octane in Ember 3.13, please keep on using it. The features that make up Octane are stable and backed by semantic versioning.
+2. If you were waiting for Ember 3.14 to try out Octane, please only do so if you're willing to accept a version of Octane that the Ember team doesn't feel is polished enough to recommend to all users quite yet. Ember 3.14 is a great time for adventurous users to try updating their production apps to Octane, and report back any problems that you find.
+
+Lastly, please lend encouragement and support to all contributors (that includes you!) as we make the shipping version of Octane as amazing as we all know it can be. To learn more about the announcement, [visit the Ember Blog today](https://blog.emberjs.com/2019/10/31/octane-release-update.html).
 
 ---
 
