@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 122
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/01-the-ember-times-issue-122.html"
 responsive: true
@@ -13,6 +13,7 @@ Listen to an important announcement about Octane release 📝,
 Release of qunit-assertions-extra 🎉,
 Fine-tune validations with Ember Model Validator 3.10 🔍,
 Better builds for the Guides 🏗,
+Ember Simple Auth 2.0.0 release 🛳,
 READMORE
 
 ---
@@ -87,13 +88,13 @@ Curious to learn more or even contribute to build processes for Ember learning m
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Simple Auth 2.0.0 release 🛳](https://twitter.com/simplabs/status/1189264438026747907)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+This week the good people over at [@simplabs](https://github.com/simplabs) released [version 2.0.0](https://github.com/simplabs/ember-simple-auth/releases/tag/2.0.0) of the excellent authentication/authorization library **Ember Simple Auth**.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Version 2.0.0 drops support for Node 6 and introduces 2 new deprecations around the rejectWithResponse property and the DataAdapterMixin's authorizer property and headersForRequest method.
+
+Version 3.0.0 of Ember Simple Auth should be released soon, so watch out for that as well!
 
 ---
 
@@ -167,4 +168,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
