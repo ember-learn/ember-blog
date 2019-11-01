@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 122
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/01-the-ember-times-issue-122.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of qunit-assertions-extra 🎉,
 Fine-tune validations with Ember Model Validator 3.10 🔍,
+Better builds for the Guides 🏗,
 READMORE
 
 ---
@@ -66,6 +67,16 @@ To learn more about how to use Ember Model Validator in your app, we encourage y
 
 ---
 
+## [Speedy Builds for the Ember Guides 🏎🏗](https://github.com/ember-learn/guides-source/pull/1051)
+
+The official [Ember Guides](https://guides.emberjs.com/release/) are a fundamental learning resource for those who are new to Ember and those who are more familiar with the framework alike. Anytime a new [version release of Ember](https://emberjs.com/releases/) lands, a new version of the [Guides' source](https://github.com/ember-learn/guides-source) will be cut and made ready for release. This ensures that Ember developers can work with the most up-to-date version of documentation that matches the latest APIs that are available in their upgraded app.
+
+Recently, issues in regards to the build process for the Guides bubbled up. New versions which were added to the Guides increased build and overall deploy times significantly, and ultimately led to timeouts which prevented the successful release. To unlock the release process, Ember Learning Core team member and Devops specialist [Sivakumar Kailasam (@sivakumar-kailasam)](https://github.com/sivakumar-kailasam) refactored the entire build configuration for `guides-source`. This [work](https://github.com/ember-learn/guides-source/pull/1051) ensured that total build times decreased and that deploys via Netlify succeed as expected without running into timeouts.
+
+Curious to learn more or even contribute to build processes for Ember learning materials? [Join the community chat](https://discord.gg/emberjs) and join the discussion on the [#dev-ember-learning channel](https://discordapp.com/channels/480462759797063690/480777444203429888)!
+
+---
+
 ## [Section Title in Title Case 🐹](#section-url)
 
 <change section title emoji>
@@ -118,7 +129,7 @@ To learn more about how to use Ember Model Validator in your app, we encourage y
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/dnalagatla" target="gh-user">@dnalagatla</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/ghislaineguerin" target="gh-user">@ghislaineguerin</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/esbanarango" target="gh-user">@esbanarango</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a> and <a href="https://github.com/runspired" target="gh-user">@runspired</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -146,4 +157,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
