@@ -24,7 +24,7 @@ While [several developers are successfully using Octane in production already](h
 
 - Make removal of jQuery optional to help with your migration (completed in 3.14 ✅)
 - Finish updating [Ember Inspector](https://github.com/emberjs/ember-inspector) to support Glimmer components
-- Document the use of Glimmer components in the [Ember Guides](https://octane-guides-preview.emberjs.com/release/)
+- Document the Octane programming model in the [Ember Guides](https://octane-guides-preview.emberjs.com/release/)
 
 What will this announcement mean for you?
 
