@@ -1,19 +1,19 @@
 ---
 title: The Ember Times - Issue No. 122
-author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/01-the-ember-times-issue-122.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+हॅलो Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Listen to an important announcement about Octane release 📝,
+An important announcement about the Octane release 📝,
 Release of qunit-assertions-extra 🎉,
 Fine-tune validations with Ember Model Validator 3.10 🔍,
 Better builds for the Guides 🏗,
-Ember Simple Auth 2.0.0 release 🛳,
+and the Ember Simple Auth 2.0.0 release 🛳!
+
 READMORE
 
 ---
@@ -31,19 +31,9 @@ While [several developers are successfully using Octane in production already](h
 What will this announcement mean for you?
 
 1. If you tried out Octane in Ember 3.13, please keep on using it. The features that make up Octane are stable and backed by semantic versioning.
-2. If you were waiting for Ember 3.14 to try out Octane, please only do so if you're willing to accept a version of Octane that the Ember team doesn't feel is polished enough to recommend to all users quite yet. Ember 3.14 is a great time for adventurous users to try updating their production apps to Octane, and report back any problems that you find.
+2. If you were waiting for Ember 3.14 to try out Octane, please only do so if you're willing to accept a version of Octane that the Ember team doesn't feel is polished enough to recommend to all users quite yet. Ember 3.14 is a great time for adventurous users to try updating their production apps to Octane, and report back any problems that they find.
 
 Lastly, please lend encouragement and support to all contributors (that includes you!) as we make the shipping version of Octane as amazing as we all know it can be. To learn more about the announcement, [visit the Ember Blog today](https://blog.emberjs.com/2019/10/31/octane-release-update.html).
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -65,12 +55,12 @@ Thanks to [André Medeiros (@andsmedeiros)](https://github.com/andsmedeiros), yo
 // Run all validations EXCEPT name's presence and length validations
 // and any email validations
 myModel.validate({
-    except: ['name:presence,length', 'email']
+  except: ['name:presence,length', 'email']
 });
 
 // Run ONLY email's presence validation
 myModel.validate({
-    only: ['email:presence']
+  only: ['email:presence']
 });
 ```
 
@@ -95,46 +85,6 @@ This week, the good people over at [@simplabs](https://github.com/simplabs) rele
 Version 2.0.0 drops support for Node 6 and introduces 2 new deprecations around the `rejectWithResponse` property and the DataAdapterMixin's `authorizer` property and `headersForRequest` method.
 
 Version 3.0.0 of Ember Simple Auth should be released soon, so watch out for that as well!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -168,4 +118,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis and the Learning Team
