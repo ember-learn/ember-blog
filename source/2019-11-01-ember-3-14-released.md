@@ -68,7 +68,7 @@ module.exports = {
 };
 ```
 
-If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](https://blog.emberjs.com/2019/08/15/octane-release-plan.html) blog post.
+If you need more information on how to migrate away from these legacy features, check out the [Octane release plan](/2019/08/15/octane-release-plan.html) blog post.
 
 ---
 
