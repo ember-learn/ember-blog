@@ -81,6 +81,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
+<!-- alex ignore easy -->
 You may upgrade Ember CLI easily using the ember-cli-update project:
 
 ```bash
@@ -96,6 +97,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 Here are some of the fixes in ember-cli 3.8 that community members may find useful to know about:
 
+<!-- alex ignore easy -->
 - documentation: more links to the contributing guide were added, so users can more easily find out how to contribute
 - `{{content-for}}` was updated to allow the use of this on the same line if different types are specified (i.e., `{{content-for 'head'}} {{content-for 'head-footer'}}`)
 - gitignore was updated to ignore Yarn .pnp files
