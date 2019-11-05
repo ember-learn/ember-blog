@@ -5,6 +5,9 @@ tags: 2019, Announcement, Recent Posts
 responsive: true
 ---
 
+Update: The timeline has changed since the initial publishing of this post, and Octane is not 3.14.
+See the [Octane Release Update](https://blog.emberjs.com/2019/10/31/octane-release-update.html) for the latest news.
+
 The Ember community is wrapping up the work for [Octane](https://emberjs.com/editions/), and we expect to get it over the finish line in time for v3.14!
 Ember Octane describes a set of new features that, when taken together, represent a foundational improvement to the way you use Ember. It has modern, streamlined components and state management that make it fun to build web applications. With seamless interoperability for existing apps, teams can migrate at their own pace, while developers building new apps start out with the best that Ember has to offer.
 
