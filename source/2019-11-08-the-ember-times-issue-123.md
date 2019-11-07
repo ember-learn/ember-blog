@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 123
-author: Chris Ng, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/08-the-ember-times-issue-123.html"
 responsive: true
@@ -9,7 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Join the EmberConf CFP Brainstorm 🧠⛈️, 
+Join the EmberConf CFP Brainstorm 🧠⛈️,
+Watch EmberFest from the comfort of your home cinema 🎬,
 
 READMORE
 
@@ -105,19 +106,19 @@ Sign up for a reminder on the [EmberConf CFP Brainstorm website](https://emberco
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [This Week's Home Cinema Program: EmberFest 2019 🎬🍿](https://www.youtube.com/watch?v=zXbqv2PeYCM&list=PLN4SpDLOSVkT0e094BZhGkUnf2WBF09xx)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+This week you can finally start **(re)watching** all of the amazing **21 presentations** about modern Ember from **EmberFest 2019**, which took place on Oct 17 + 18 in Copenhagen, Denmark.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Learn more about [the future of compiling Ember apps](https://www.youtube.com/watch?v=StFbdKBC94o), how to build interactive and real time [UIs from Ember experts at Linkedin](https://www.youtube.com/watch?v=lpljvcBUye0), Orbit-powered [Ember apps from outer space](https://www.youtube.com/watch?v=b7-VegI-WX8), debugging secrets from [the Browser Inspector](https://www.youtube.com/watch?v=xIWFn05oLe8) and much, much more!
+
+Watch the full program over [at Youtube](https://www.youtube.com/watch?v=zXbqv2PeYCM&list=PLN4SpDLOSVkT0e094BZhGkUnf2WBF09xx) and share your favorite talk videos with your Ember friends!
 
 ---
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/addamh" target="gh-user">@addamh</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/SparshithNR" target="gh-user">@SparshithNR</a>, <a href="https://github.com/abel-n" target="gh-user">@abel-n</a> and <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -145,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
