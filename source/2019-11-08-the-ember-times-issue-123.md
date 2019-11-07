@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 123
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/08-the-ember-times-issue-123.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Join the EmberConf CFP Brainstorm 🧠⛈️, 
 
 READMORE
 
@@ -61,6 +62,16 @@ READMORE
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+[## EmberConf CFP Brainstorm 🧠⛈️](https://emberconf.com/#/cfp-brainstorm)
+
+This coming [November 14, 2019 at 10:00am PST](https://everytimezone.com/s/970f2362) the annual Ember CFP Brainstorm is happening over [BlueJeans](https://bluejeans.com/241628685/webrtc)!
+
+The session will go through the content of next year’s [EmberConf](http://emberconf.com/) which is happening between March 16-18, 2020. We'll chat about the CFP, the topics we hope to see, and answer community questions about ideas and proposals. The EmberConf 2020 CFP closes on Dec 1, 2019.
+
+Sign up for a reminder on the [EmberConf CFP Brainstorm website](https://emberconf.com/#/cfp-brainstorm)!
 
 ---
 
@@ -134,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
