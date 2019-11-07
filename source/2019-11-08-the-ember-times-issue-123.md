@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Join the EmberConf CFP Brainstorm 🧠⛈️, 
+
 READMORE
 
 ---
@@ -71,6 +72,16 @@ This coming [November 14, 2019 at 10:00am PST](https://everytimezone.com/s/970f2
 The session will go through the content of next year’s [EmberConf](http://emberconf.com/) which is happening between March 16-18, 2020. We'll chat about the CFP, the topics we hope to see, and answer community questions about ideas and proposals. The EmberConf 2020 CFP closes on Dec 1, 2019.
 
 Sign up for a reminder on the [EmberConf CFP Brainstorm website](https://emberconf.com/#/cfp-brainstorm)!
+
+---
+
+## [Section Title in Title Case 🐹](#section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 

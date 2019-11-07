@@ -9,9 +9,9 @@ responsive: true
 हॅलो Emberistas! 🐹
 
 An important announcement about the Octane release 📝,
-Release of qunit-assertions-extra 🎉,
-Fine-tune validations with Ember Model Validator 3.10 🔍,
-Better builds for the Guides 🏗,
+release of qunit-assertions-extra 🎉,
+fine-tune validations with Ember Model Validator 3.10 🔍,
+better builds for the Guides 🏗,
 and the Ember Simple Auth 2.0.0 release 🛳!
 
 READMORE
