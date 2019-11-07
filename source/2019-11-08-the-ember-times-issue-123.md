@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 123
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/08-the-ember-times-issue-123.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Use `Ember Add Listener Helper` to pub/sub with confidence 📣,
 Join the EmberConf CFP Brainstorm 🧠⛈️,
 Watch EmberFest from the comfort of your home cinema 🎬,
 
@@ -46,13 +47,11 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [`Ember Add Listener Helper` Released! 📣](https://twitter.com/bendemboski/status/1187068387710525440)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Thanks to [Ben Demboski (@bendemboski)](https://github.com/bendemboski), you can use [Ember Add Listener Helper](https://github.com/bendemboski/ember-add-listener-helper) to pub/sub with confidence! Both classic and Glimmer components will listen to and unsubscribe from events as needed.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can learn more how to use the addon from the [README](https://github.com/bendemboski/ember-add-listener-helper#usage) and [tests](https://github.com/bendemboski/ember-add-listener-helper/blob/master/tests/integration/helpers/add-listener-test.js). We encourage you to try it out today!
 
 ---
 
@@ -66,7 +65,7 @@ READMORE
 
 ---
 
-[## EmberConf CFP Brainstorm 🧠⛈️](https://emberconf.com/#/cfp-brainstorm)
+## [EmberConf CFP Brainstorm 🧠⛈️](https://emberconf.com/#/cfp-brainstorm)
 
 This coming [November 14, 2019 at 10:00am PST](https://everytimezone.com/s/970f2362) the annual Ember CFP Brainstorm is happening over [BlueJeans](https://bluejeans.com/241628685/webrtc)!
 
@@ -108,7 +107,7 @@ Sign up for a reminder on the [EmberConf CFP Brainstorm website](https://emberco
 
 ## [This Week's Home Cinema Program: EmberFest 2019 🎬🍿](https://www.youtube.com/watch?v=zXbqv2PeYCM&list=PLN4SpDLOSVkT0e094BZhGkUnf2WBF09xx)
 
-This week you can finally start **(re)watching** all of the amazing **21 presentations** about modern Ember from **EmberFest 2019**, which took place on Oct 17 + 18 in Copenhagen, Denmark.
+This week you can finally start **(re)watching** all of the amazing **22 presentations** about modern Ember from **EmberFest 2019**, which took place on Oct 17 + 18 in Copenhagen, Denmark.
 
 Learn more about [the future of compiling Ember apps](https://www.youtube.com/watch?v=StFbdKBC94o), how to build interactive and real time [UIs from Ember experts at Linkedin](https://www.youtube.com/watch?v=lpljvcBUye0), Orbit-powered [Ember apps from outer space](https://www.youtube.com/watch?v=b7-VegI-WX8), debugging secrets from [the Browser Inspector](https://www.youtube.com/watch?v=xIWFn05oLe8) and much, much more!
 
@@ -146,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
