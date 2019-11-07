@@ -118,7 +118,7 @@ Watch the full program over [at Youtube](https://www.youtube.com/watch?v=zXbqv2P
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/addamh" target="gh-user">@addamh</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/SparshithNR" target="gh-user">@SparshithNR</a>, <a href="https://github.com/abel-n" target="gh-user">@abel-n</a> and <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
