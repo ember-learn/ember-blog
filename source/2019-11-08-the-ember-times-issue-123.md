@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 123
-author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/08-the-ember-times-issue-123.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Use `Ember Add Listener Helper` to pub/sub with confidence 📣,
 Join the EmberConf CFP Brainstorm 🧠⛈️,
 Watch EmberFest from the comfort of your home cinema 🎬,
+Getting Ember API Docs Ready for Octane 📖,
 
 READMORE
 
@@ -75,13 +76,17 @@ Sign up for a reminder on the [EmberConf CFP Brainstorm website](https://emberco
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Getting Ember API Docs Ready for Octane 📖](https://github.com/cibernox/ember-cli-yuidoc/pull/52)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+People have been hard at work ⚒ getting the [Ember API Docs](https://api.emberjs.com/ember/release) ready for Ember Octane! A few good examples of this are the recently merged PR's by [@pzuraq](https://github.com/pzuraq) and [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) in [ember-cli-yuidoc](https://github.com/cibernox/ember-cli-yuidoc) to allow YUIDoc to support decorators within markdown blocks.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+For those who don't know, [YUIDoc](https://github.com/yui/yuidoc) is a JavaScript documentation tool that the **Ember API Docs** use to provide the helpful documentation for the framework that we in the Ember community rely upon, so this is great news that work is being done to support Octane.  
+
+It actually takes a lot of effort to maintain the Ember API Docs and keep them updated and reflecting modern JS practices, so here's a big shout out 🎉 to [@toddjordan](https://github.com/toddjordan) and [@sivakumar-kailasam](https://github.com/sivakumar-kailasam) who have led the charge, and all the other contributors who have helped along the way.
+
+Also, many thanks to [@cibernox](https://github.com/cibernox) the maintainer of ember-cli-yuidoc, and [@rwjblue](https://github.com/rwjblue), for their help in getting this valuable work across the line.
+
+If you want to checkout the PR's you can find them [here](https://github.com/cibernox/ember-cli-yuidoc/pull/52) and [here](https://github.com/cibernox/ember-cli-yuidoc/pull/53).
 
 ---
 
@@ -145,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, Jared Galanis the crowd and the Learning Team
