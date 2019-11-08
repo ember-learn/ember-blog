@@ -5,6 +5,9 @@ tags: 2019, Announcement, Recent Posts
 responsive: true
 ---
 
+Update: The timeline has changed since the initial publishing of this post, and Octane is not 3.14.
+See the [Octane Release Update](https://blog.emberjs.com/2019/10/31/octane-release-update.html) for the latest news.
+
 The Ember community is wrapping up the work for [Octane](https://emberjs.com/editions/), and we expect to get it over the finish line in time for v3.14!
 Ember Octane describes a set of new features that, when taken together, represent a foundational improvement to the way you use Ember. It has modern, streamlined components and state management that make it fun to build web applications. With seamless interoperability for existing apps, teams can migrate at their own pace, while developers building new apps start out with the best that Ember has to offer.
 
@@ -46,6 +49,7 @@ The rest of the sections below cover optional features in Octane that you can co
 
 You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. When we say "Octane idioms," we mean the syntax, APIs, and patterns for Octane. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
 
+<!--alex ignore just-->
 Even then, many teams may want to not convert older code at all, and just start using Octane idioms moving forward. **This is a valid, fully supported approach.** We will have a guide to upgrading describing the options and strategy that we will finalize with Ember 3.14. At the same time, all of the Ember Guides and Tutorials will be fully migrated to Octane idioms. You can get a sneak peek of those work-in-progress learning resources [here](https://emberjs.com/editions/octane)!
 
 ## A tour of stable features
@@ -70,6 +74,7 @@ In classic Ember, jQuery is automatically included, and `this.$` inside of compo
 
 Ember's internals no longer depend on jQuery. If your app still uses jQuery directly and you want to continue using it, you can add `@ember/jquery` to your `package.json` and disable this classic feature. You will still be able to use all the other features of Octane.
 
+<!--alex ignore just-->
 Alternatively, you could migrate away from using jQuery in your application, but it is not necessary. Octane's other features work just fine either way.
 
 You opt in to this change by:
