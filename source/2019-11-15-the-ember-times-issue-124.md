@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 124
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 share your thoughts for RFCs #549 and #554 💬,
+learn how to use telemetry helpers to power up your codemods 📡,
 READMORE
 
 ---
@@ -51,6 +52,16 @@ The problem with `getWithDefault` lies in its behavior. It returns the default v
 To help you write code explicitly, TC39 has come up with the [nullish coalescing operator](https://github.com/tc39/proposal-nullish-coalescing), `??`, now in Stage 3 proposal. RFC 554 explains that it'd be better to rely on the native implementation.
 
 What are your thoughts on deprecating `getWithDefault`? We encourage you to [read the RFC and participate](https://github.com/emberjs/rfcs/pull/554) today!
+
+---
+
+## [Creating Runtime Assisted Codemods Using Telemetry Helpers 📡](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/)
+
+Thanks to [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) and [Ryan Mark (@tylerturdenpants)](https://github.com/tylerturdenpants), the [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) addon features a [detailed readme](https://github.com/ember-codemods/ember-codemods-telemetry-helpers#ember-codemods-telemetry-helpers) and [companion blog post](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/). 💞
+
+Traditionally, Ember codemods have relied on **static code analysis** to help you (a codemod author) convert files from one version to the next. In contrast, telemetry-powered codemods can **run the app** to help you gather data on components, services, routes, controllers, etc.
+
+To learn more about telemetry helpers, we encourage you to visit [Rajasegar's blog](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/). You can also check out [ember-native-class-codemod](https://github.com/ember-codemods/ember-native-class-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod) to learn how codemods use telemetry helpers today!
 
 ---
 
@@ -134,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
