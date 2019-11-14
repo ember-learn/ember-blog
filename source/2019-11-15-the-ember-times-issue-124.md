@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 124
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+learn how to use telemetry helpers to power up your codemods 📡,
 READMORE
 
 ---
@@ -44,13 +44,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Creating Runtime Assisted Codemods Using Telemetry Helpers 📡](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Thanks to [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) and [Ryan Mark (@tylerturdenpants)](https://github.com/tylerturdenpants), the [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) addon features a [detailed readme](https://github.com/ember-codemods/ember-codemods-telemetry-helpers#ember-codemods-telemetry-helpers) and [companion blog post](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/). 💞
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Traditionally, Ember codemods have relied on **static code analysis** to help you (a codemod author) convert files from one version to the next. In contrast, telemetry-powered codemods can **run the app** to help you gather data on components, services, routes, controllers, etc.
+
+To learn more about telemetry helpers, we encourage you to visit [Rajasegar's blog](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/). You can also check out [ember-native-class-codemod](https://github.com/ember-codemods/ember-native-class-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod) to learn how codemods use telemetry helpers today!
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
