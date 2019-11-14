@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+share your thoughts for RFCs #549 and #554 💬,
 READMORE
 
 ---
@@ -34,23 +34,23 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [RFC #549: Ember Dev for Other Platforms 💬](https://github.com/emberjs/rfcs/pull/549)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Adam Baker (@bakerac4)](https://github.com/bakerac4) has proposed the need to better advertise Ember as a cross-platform solution: Use 1 framework to create web, mobile, *and* desktop apps! The possibility of marketing Ember as cross-platform exists already, thanks to projects like [Corber](http://corber.io/pages/frameworks/ember) and [Glimmer Native](https://github.com/bakerac4/glimmer-native).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+How can we market Ember as cross-platform and support developing for other platforms? Be sure to [share your ideas with everyone](https://github.com/emberjs/rfcs/pull/549) today!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [RFC #554: Deprecate `getWithDefault` 💬](https://github.com/emberjs/rfcs/pull/554)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Chris Ng (@chrisng)](https://github.com/chrisrng) has proposed deprecating support for `getWithDefault`. This method, which has [existed since Ember 1.0](https://api.emberjs.com/ember/1.0/classes/Ember.Object/methods/getWithDefault?anchor=getWithDefault), is intended to help an Ember object return a default value.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The problem with `getWithDefault` lies in its behavior. It returns the default value *only* when the retrieved value of the property is `undefined`. Other falsey values, such as `null` or `''`, don't result in the default value. This behavior may or may not be what you intended.
+
+To help you write code explicitly, TC39 has come up with the [nullish coalescing operator](https://github.com/tc39/proposal-nullish-coalescing), `??`, now in Stage 3 proposal. RFC 554 explains that it'd be better to rely on the native implementation.
+
+What are your thoughts on deprecating `getWithDefault`? We encourage you to [read the RFC and participate](https://github.com/emberjs/rfcs/pull/554) today!
 
 ---
 
