@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 124
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
@@ -14,6 +14,7 @@ share your thoughts for RFCs #549 and #554 💬,
 learn how to use telemetry helpers to power up your codemods 📡,
 release of Octane Super Rentals Tutorial Part 2 🚀,
 enjoy the new and shiny Ember-powered Apple TV 🍏📺,
+check out a new accessibility-focused ember-bootstrap release ✨,
 
 READMORE
 
@@ -95,13 +96,16 @@ Do you have any feedback? Feel free to reach out to [Mehul Kar (@mehulkar)](http
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Accessibility-focused Ember Bootstrap Release ✨](https://twitter.com/simonihmig/status/1190740590377472001)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+A few weeks ago [@simonihmig](https://github.com/simonihmig) and the folks at [kaliber5](https://github.com/kaliber5) released version 3.1.0 of the fantastic Ember addon (ember-bootstrap)[https://github.com/kaliber5/ember-bootstrap]. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This version focuses on **improving accessibility** related concerns such as using [ember-focus-trap](https://github.com/josemarluedke/ember-focus-trap) to implement focus trap inside of modals and keyboard navigational control of drop downs. The updates also add [ember a11y tests](https://github.com/ember-a11y/ember-a11y-testing) to the test suite! 🔥🔥🔥
+
+Many thanks to all those that contributed to this release and the accessiblity concerns addressed by it 😄, including [@simonihmig](https://github.com/simonihmig), [@techn1x](https://github.com/Techn1x), [@rwachtler](https://github.com/rwachtler) and [@jelhan](https://github.com/jelhan). 
+
+You can find the release notes [here](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md#310-2019-11-02).
+
 
 ---
 
@@ -145,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
