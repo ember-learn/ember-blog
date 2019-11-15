@@ -36,7 +36,6 @@ npm install --save-dev @glimmer/component@^1.0.0-beta.1
 Disable legacy behavior by setting the following feature flags:
 
 ```bash
-ember feature:disable jquery-integration
 ember feature:enable template-only-glimmer-components
 ember feature:disable application-template-wrapper
 ```
