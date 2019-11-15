@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 share your thoughts for RFCs #549 and #554 💬,
 learn how to use telemetry helpers to power up your codemods 📡,
+release of Octane Super Rentals Tutorial Part 2 🚀,
 READMORE
 
 ---
@@ -75,13 +76,13 @@ To learn more about telemetry helpers, we encourage you to visit [Rajasegar's bl
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Octane Super Rentals Tutorial Part 2🚀](https://octane-guides-preview.emberjs.com/release/tutorial/10-part-2/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Godfrey Chan @chancancode](https://github.com/chancancode) and [Vaidehi Joshi @vaidehijoshi](https://github.com/vaidehijoshi) further expanded the Super Rentals Tutorial for Ember Octane by releasing part 2 of the tutorial!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This **automatically generated** tutorial now [supports decorators](https://github.com/cibernox/ember-cli-yuidoc/pull/52) thanks to [Chris Garrett](https://github.com/pzuraq) who had a fix to replace all `@` symbols within code blocks with a placeholder, processes them, and then switches them back after processing.
+
+If you are looking to contribute check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
 
 ---
 
