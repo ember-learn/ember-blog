@@ -98,7 +98,7 @@ Do you have any feedback? Feel free to reach out to [Mehul Kar (@mehulkar)](http
 
 ## [Accessibility-Focused Ember Bootstrap Release ✨](https://twitter.com/simonihmig/status/1190740590377472001)
 
-A few weeks ago [@simonihmig](https://github.com/simonihmig) and the folks at [kaliber5](https://github.com/kaliber5) released version 3.1.0 of the fantastic Ember addon [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap). 
+A few weeks ago, [@simonihmig](https://github.com/simonihmig) and the folks at [kaliber5](https://github.com/kaliber5) released version 3.1.0 of the fantastic Ember addon [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap). 
 
 This version focuses on **improving accessibility** related concerns such as using [ember-focus-trap](https://github.com/josemarluedke/ember-focus-trap) to implement focus trap inside of modals and keyboard navigational control of drop downs. The updates also add [ember a11y tests](https://github.com/ember-a11y/ember-a11y-testing) to the test suite! 🔥🔥🔥
 
