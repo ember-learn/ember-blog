@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 124
-author: Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+400 Releases on the Ember.js Repo 🎉,
 share your thoughts for RFCs #549 and #554 💬,
 learn how to use telemetry helpers to power up your codemods 📡,
 release of Octane Super Rentals Tutorial Part 2 🚀,
@@ -16,13 +17,9 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## 400 Releases on the Ember.js Repo 🎉
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [ember.js repo](https://github.com/emberjs/ember.js) hit 400 releases on GitHub this week! We’ve had over [770 contributors](https://github.com/emberjs/ember.js/graphs/contributors) between May 2011 to November 2019. A big thank you ❤️ to the numerous efforts of all all these community members!
 
 ---
 
@@ -146,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
