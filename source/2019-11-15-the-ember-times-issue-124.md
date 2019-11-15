@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 124
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
@@ -115,7 +115,7 @@ If you are looking to contribute check out the [super-rentals-tutorial repo on G
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/thejonrichmond" target="gh-user">@thejonrichmond</a>, <a href="https://github.com/rictic" target="gh-user">@rictic</a>, <a href="https://github.com/raycohen" target="gh-user">@raycohen</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/vladucu" target="gh-user">@vladucu</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/bertdeblock" target="gh-user">@bertdeblock</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/ursm" target="gh-user">@ursm</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/bendemboski" target="gh-user">@bendemboski</a> and <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -143,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
