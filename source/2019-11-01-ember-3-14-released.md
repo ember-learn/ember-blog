@@ -5,7 +5,7 @@ tags: Releases, 2019, 3, 3.14, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.14 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.15 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+The Ember project has recently released version 3.14 of Ember.js, Ember Data, and Ember CLI. This kicks off the 3.15 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -18,7 +18,7 @@ You can read more about our general release process here:
 
 ## The Octane Preview, Continued
 
-As described in yesterday's post, [Octane Release Update](/2019/10/31/octane-release-update.html), Octane will continue to be opt-in in Ember 3.14. By continuing the Octane preview period in 3.14, we are allowing more time for Octane to be polished before it becomes the default Ember experience.
+As described in the [Octane Release Update](/2019/10/31/octane-release-update.html), Octane will continue to be opt-in in Ember 3.14. By continuing the Octane preview period in 3.14, we are allowing more time for Octane to be polished before it becomes the default Ember experience.
 
 Although Octane is still opt-in in 3.14, all Octane features are stable public APIs with our normal SemVer guarantees. If you build an app using APIs in the Octane preview, it will continue to work in future versions.
 
@@ -134,13 +134,36 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.14
 
-#### New Features (0)
+Ember Data 3.14 contains a number of bugfixes, as well as some documentation
+cleanup, performance improvements, and deprecations. Notable changes are
+described below.
 
-No new features introduced in Ember Data 3.14.
+#### Relationship Fetching Performance
 
-#### Deprecations (0)
+Releases of Ember Data since 3.4 contain significant performance regressions for
+fetching relationship via `links`. Ember Data 3.14 addresses many of those
+regressions, with performance improvements of roughly 3.5X in some cases as
+compared with v3.13.
 
-No new deprecations introduced in Ember Data 3.14.
+#### Default Adapters and Serializers Deprecated
+
+Ember Data 3.14 introduces deprecations for the default adapters and
+serializers. The motivation for these deprecations is described in [RFC
+522](https://github.com/emberjs/rfcs/pull/522):
+
+> The adapter and serializer packages provide reference implementations and base
+> classes that are not required for applications that implement their own
+> following the required interfaces for adapters and serializers as defined in
+> their respective base classes.  Deprecating them allows us to simplify the
+> lookup pattern and remove automatic injection and registration of potentially
+> unused classes.
+
+> In addition to removing use of initializer injection, this takes a significant
+> step toward simplifying the mental model for how to determine what
+> adapter/serializer is in use. Removing the defaults forces app developers to
+> be more cognizant about the type of application level concerns vs
+> model-specific concerns; they will now need to explicitly define and use
+> specific adapters/serializers.
 
 For more details on changes in Ember Data 3.14, please review the
 [Ember Data 3.14.0 release page](https://github.com/emberjs/data/releases/tag/v3.14.0).
@@ -166,13 +189,15 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.14
 
-#### New Features (0)
+Ember CLI 3.14 contain bugfixes, updates to blueprints, and one new deprecation.
 
-There are no new features in Ember CLI 3.14.
+#### Classier Blueprints
 
-#### Deprecations (0)
+The blueprints for `ember new` and `ember addon` have been modernized to define an application's `Application` and `Router` as ES classes (i.e. `class App extends Application { ... }` instead of `const App = Application.extend({ ... })`). Although both approaches are still valid and `EmberObject` is far from deprecated, this change improves the consistency and approachability of modern Ember applications.
 
-There are no new deprecations in Ember CLI 3.14.
+#### Deprecations (1)
+
+Ember CLI 3.14 contains a new deprecation for projects that use the `MODULE_UNIFICATION` flag. This flag has always required using canary versions of Ember and Ember CLI. Now that `ember-source` has disabled the feature completely, apps can no longer enable the feature at all.
 
 ---
 
