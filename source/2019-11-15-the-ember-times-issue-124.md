@@ -13,6 +13,8 @@ responsive: true
 share your thoughts for RFCs #549 and #554 💬,
 learn how to use telemetry helpers to power up your codemods 📡,
 release of Octane Super Rentals Tutorial Part 2 🚀,
+enjoy the new and shiny Ember-powered Apple TV 🍏📺,
+
 READMORE
 
 ---
@@ -83,13 +85,13 @@ If you are looking to contribute check out the [super-rentals-tutorial repo on G
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Brand-New Product Release Powered by Ember: Apple TV 🍏📺](https://twitter.com/mehulkar/status/1190318959955857408)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+**Plenty of companies** and acclaimed brands **bet on Ember** when building digital products for thousands or even millions of users. Heroku, Netflix, TED, Tilde, Intercom and BetterUp are a few examples of [well-known businesses](https://emberjs.com/ember-users) who have benefitted from using Ember for years.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Did you also know that Apple's web platform **Apple TV** is [built with Ember](https://twitter.com/mehulkar/status/1190318959955857408)? Apple TV is now based on a modern 3.12 Ember tech stack which evolved its way up from a 3.4 app earlier this year. Furthermore, the app is increasingly adopting all the latest and sparkliest ✨ from the [new Ember Octane programming model](https://emberjs.com/editions/octane/), making it a great showcase for modern Ember apps in the wild!
+
+Do you have any feedback? Feel free to reach out to [Mehul Kar (@mehulkar)](https://github.com/mehulkar) for any questions, suggestions or bug reports.
 
 ---
 
