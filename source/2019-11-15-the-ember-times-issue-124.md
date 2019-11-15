@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 124
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
@@ -13,6 +13,8 @@ responsive: true
 share your thoughts for RFCs #549 and #554 💬,
 learn how to use telemetry helpers to power up your codemods 📡,
 release of Octane Super Rentals Tutorial Part 2 🚀,
+enjoy the new and shiny Ember-powered Apple TV 🍏📺,
+
 READMORE
 
 ---
@@ -83,13 +85,13 @@ If you are looking to contribute check out the [super-rentals-tutorial repo on G
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Brand-New Product Release Powered by Ember: Apple TV 🍏📺](https://twitter.com/mehulkar/status/1190318959955857408)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+**Plenty of companies** and acclaimed brands **bet on Ember** when building digital products for thousands or even millions of users. Heroku, Netflix, TED, Tilde, Intercom and BetterUp are a few examples of [well-known businesses](https://emberjs.com/ember-users) who have benefitted from using Ember for years.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Did you also know that Apple's web platform **Apple TV** is [built with Ember](https://twitter.com/mehulkar/status/1190318959955857408)? Apple TV is now based on a modern 3.12 Ember tech stack which evolved its way up from a 3.4 app earlier this year. Furthermore, the app is increasingly adopting all the latest and sparkliest ✨ from the [new Ember Octane programming model](https://emberjs.com/editions/octane/), making it a great showcase for modern Ember apps in the wild!
+
+Do you have any feedback? Feel free to reach out to [Mehul Kar (@mehulkar)](https://github.com/mehulkar) for any questions, suggestions or bug reports.
 
 ---
 
@@ -115,7 +117,7 @@ If you are looking to contribute check out the [super-rentals-tutorial repo on G
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/thejonrichmond" target="gh-user">@thejonrichmond</a>, <a href="https://github.com/rictic" target="gh-user">@rictic</a>, <a href="https://github.com/raycohen" target="gh-user">@raycohen</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/vladucu" target="gh-user">@vladucu</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/bertdeblock" target="gh-user">@bertdeblock</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/ursm" target="gh-user">@ursm</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/bendemboski" target="gh-user">@bendemboski</a> and <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -143,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
