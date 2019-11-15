@@ -104,7 +104,7 @@ This version focuses on **improving accessibility** related concerns such as usi
 
 Many thanks to all those that contributed to this release and the accessiblity concerns addressed by it 😄, including [@simonihmig](https://github.com/simonihmig), [@techn1x](https://github.com/Techn1x), [@rwachtler](https://github.com/rwachtler) and [@jelhan](https://github.com/jelhan). 
 
-You can find the release notes [here](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md#310-2019-11-02).
+You can find the release notes on [GitHub](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md#310-2019-11-02).
 
 
 ---
