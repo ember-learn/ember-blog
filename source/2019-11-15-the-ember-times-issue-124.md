@@ -54,7 +54,7 @@ To learn more about telemetry helpers, we encourage you to visit [Rajasegar's bl
 
 [Godfrey Chan @chancancode](https://github.com/chancancode) and [Vaidehi Joshi @vaidehijoshi](https://github.com/vaidehijoshi) further expanded the Super Rentals Tutorial for Ember Octane by releasing part 2 of the tutorial!
 
-This **automatically generated** tutorial now [supports decorators](https://github.com/cibernox/ember-cli-yuidoc/pull/52) thanks to [Chris Garrett](https://github.com/pzuraq) who had a fix to replace all `@` symbols within code blocks with a placeholder, processes them, and then switches them back after processing.
+This **automatically generated** tutorial now [supports decorators](https://github.com/cibernox/ember-cli-yuidoc/pull/52) thanks to [Chris Garrett @pzuraq](https://github.com/pzuraq) who had a fix to replace all `@` symbols within code blocks with a placeholder, processes them, and then switches them back after processing.
 
 If you are looking to contribute check out the [super-rentals-tutorial repo on GitHub](https://github.com/ember-learn/super-rentals-tutorial)!
 
