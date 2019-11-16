@@ -50,7 +50,7 @@ To learn more about telemetry helpers, we encourage you to visit [Rajasegar's bl
 
 ---
 
-## [Octane Super Rentals Tutorial Part 2🚀](https://octane-guides-preview.emberjs.com/release/tutorial/10-part-2/)
+## [Octane Super Rentals Tutorial Part 2 🚀](https://octane-guides-preview.emberjs.com/release/tutorial/10-part-2/)
 
 [Godfrey Chan @chancancode](https://github.com/chancancode) and [Vaidehi Joshi @vaidehijoshi](https://github.com/vaidehijoshi) further expanded the Super Rentals Tutorial for Ember Octane by releasing part 2 of the tutorial!
 
