@@ -194,7 +194,7 @@ Ember CLI 3.14 contain some bugfixes, updates to blueprints, and one new depreca
 
 #### Classier Blueprints
 
-The blueprints for `ember new` and `ember addon` have been modernized to define an application's `Application` and `Router` as ES classes (i.e. `class App extends Application { ... }` instead of `const App = Application.extend({ ... })`). Although both approaches are still valid and `EmberObject` is far from deprecated, this change improves the consistency and approachability of modern Ember applications.
+The blueprints for `ember new` and `ember addon` have been modernized to define an application's `Application` and `Router` as native ES classes (i.e. `class App extends Application { ... }` instead of `const App = Application.extend({ ... })`). Although both approaches are still valid and `EmberObject` is far from deprecated, this change improves the consistency and approachability of modern Ember applications.
 
 #### Deprecations (1)
 
