@@ -77,7 +77,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.14
 
-Ember.js 3.14 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is one (1) new feature, 0 (0) deprecations, and several bugfixes in this version.
+Ember.js 3.14 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is one new feature, no deprecations, and several bugfixes in this version.
 
 #### New Features (1)
 
@@ -144,7 +144,9 @@ fetching relationship via `links`. Ember Data 3.14 addresses many of those
 regressions, with performance improvements of roughly 3.5X in some cases as
 compared with v3.13.
 
-#### Default Adapters and Serializers Deprecated
+#### Deprecations (1)
+
+**Default Adapters and Serializers (1 of 1)**
 
 Ember Data 3.14 introduces deprecations for the default adapters and
 serializers. The motivation for these deprecations is described in [RFC
@@ -188,13 +190,15 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.14
 
-Ember CLI 3.14 contain bugfixes, updates to blueprints, and one new deprecation.
+Ember CLI 3.14 contain some bugfixes, updates to blueprints, and one new deprecation.
 
 #### Classier Blueprints
 
 The blueprints for `ember new` and `ember addon` have been modernized to define an application's `Application` and `Router` as ES classes (i.e. `class App extends Application { ... }` instead of `const App = Application.extend({ ... })`). Although both approaches are still valid and `EmberObject` is far from deprecated, this change improves the consistency and approachability of modern Ember applications.
 
 #### Deprecations (1)
+
+**`MODULE_UNIFICATION` flag (1 of 1)**
 
 Ember CLI 3.14 contains a new deprecation for projects that use the `MODULE_UNIFICATION` flag. This flag has always required using canary versions of Ember and Ember CLI. Now that `ember-source` has disabled the feature completely, apps can no longer enable the feature at all.
 
