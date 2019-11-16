@@ -14,7 +14,7 @@ READMORE
 
 ---
 
-## 400 Releases on the Ember.js Repo 🎉
+## [400 Releases on the Ember.js Repo 🎉](https://github.com/emberjs/ember.js)
 
 The [ember.js repo](https://github.com/emberjs/ember.js) hit 400 releases on GitHub this week! We’ve had over [770 contributors](https://github.com/emberjs/ember.js/graphs/contributors) between May 2011 to November 2019. A big thank you ❤️ to the numerous efforts of all all these community members!
 
@@ -72,11 +72,11 @@ Do you have any feedback? Feel free to reach out to [Mehul Kar (@mehulkar)](http
 
 ## [Accessibility-Focused Ember Bootstrap Release ✨](https://twitter.com/simonihmig/status/1190740590377472001)
 
-A few weeks ago, [@simonihmig](https://github.com/simonihmig) and the folks at [kaliber5](https://github.com/kaliber5) released version 3.1.0 of the fantastic Ember addon [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap). 
+A few weeks ago, [Simon Ihmig @simonihmig](https://github.com/simonihmig) and the folks at [kaliber5](https://github.com/kaliber5) released version 3.1.0 of the fantastic Ember addon [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap). 
 
 This version focuses on **improving accessibility** by using [ember-focus-trap](https://github.com/josemarluedke/ember-focus-trap) to implement focus trap for modals and keyboard navigation of dropdowns. It also adds [ember a11y tests](https://github.com/ember-a11y/ember-a11y-testing) to the test suite! 🔥🔥🔥
 
-Many thanks to all those that contributed to this release and the accessiblity concerns addressed by it 😄, including [@simonihmig](https://github.com/simonihmig), [@techn1x](https://github.com/Techn1x), [@rwachtler](https://github.com/rwachtler) and [@jelhan](https://github.com/jelhan). 
+Many thanks to all those that contributed to this release and the accessiblity concerns addressed by it 😄, including [Simon Ihmig @simonihmig](https://github.com/simonihmig), [Brad Overton @techn1x](https://github.com/Techn1x), [Ramiz Wachtler @rwachtler](https://github.com/rwachtler) and [Jeldrik Hanschke @jelhan](https://github.com/jelhan). 
 
 You can find the release notes on [GitHub](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md#310-2019-11-02).
 
