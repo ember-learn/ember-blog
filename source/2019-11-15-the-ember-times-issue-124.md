@@ -1,20 +1,14 @@
 ---
 title: The Ember Times - Issue No. 124
-author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/15-the-ember-times-issue-124.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-400 Releases on the Ember.js Repo 🎉,
-share your thoughts for RFCs #549 and #554 💬,
-learn how to use telemetry helpers to power up your codemods 📡,
-release of Octane Super Rentals Tutorial Part 2 🚀,
-enjoy the new and shiny Ember-powered Apple TV 🍏📺,
-check out a new accessibility-focused ember-bootstrap release ✨,
+This week: 400 Releases on the Ember.js Repo 🎉, share your thoughts for RFCs #549 and #554 💬, learn how to use telemetry helpers to power up your codemods 📡, release of Octane Super Rentals Tutorial Part 2 🚀, enjoy the new and shiny Ember-powered Apple TV 🍏📺, and check out a new accessibility-focused ember-bootstrap release ✨!
 
 READMORE
 
@@ -23,16 +17,6 @@ READMORE
 ## 400 Releases on the Ember.js Repo 🎉
 
 The [ember.js repo](https://github.com/emberjs/ember.js) hit 400 releases on GitHub this week! We’ve had over [770 contributors](https://github.com/emberjs/ember.js/graphs/contributors) between May 2011 to November 2019. A big thank you ❤️ to the numerous efforts of all all these community members!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -63,16 +47,6 @@ Thanks to [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) and [R
 Traditionally, Ember codemods have relied on **static code analysis** to help you (a codemod author) convert files from one version to the next. In contrast, telemetry-powered codemods can **run the app** to help you gather data on components, services, routes, controllers, etc.
 
 To learn more about telemetry helpers, we encourage you to visit [Rajasegar's blog](http://hangaroundtheweb.com/2019/10/creating-runtime-assisted-codemods-using-telemetry-helpers/). You can also check out [ember-native-class-codemod](https://github.com/ember-codemods/ember-native-class-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod) to learn how codemods use telemetry helpers today!
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -109,16 +83,6 @@ You can find the release notes on [GitHub](https://github.com/kaliber5/ember-boo
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/thejonrichmond" target="gh-user">@thejonrichmond</a>, <a href="https://github.com/rictic" target="gh-user">@rictic</a>, <a href="https://github.com/raycohen" target="gh-user">@raycohen</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/vladucu" target="gh-user">@vladucu</a>, <a href="https://github.com/kennethlarsen" target="gh-user">@kennethlarsen</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/bertdeblock" target="gh-user">@bertdeblock</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/ursm" target="gh-user">@ursm</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/bendemboski" target="gh-user">@bendemboski</a> and <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>  for their contributions to Ember and related repositories! 💖</p>
@@ -149,4 +113,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam and the Learning Team
