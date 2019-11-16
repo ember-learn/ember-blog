@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 123
 author: Chris Ng, Jessica Jordan, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/08-the-ember-times-issue-123.html"
 responsive: true
 ---
