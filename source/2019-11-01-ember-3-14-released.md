@@ -158,7 +158,7 @@ serializers. The motivation for these deprecations is described in [RFC
 > their respective base classes.  Deprecating them allows us to simplify the
 > lookup pattern and remove automatic injection and registration of potentially
 > unused classes.
-
+>
 > In addition to removing use of initializer injection, this takes a significant
 > step toward simplifying the mental model for how to determine what
 > adapter/serializer is in use. Removing the defaults forces app developers to
