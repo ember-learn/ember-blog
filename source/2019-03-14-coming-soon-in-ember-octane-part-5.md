@@ -144,7 +144,7 @@ Can be rewritten as:
 ```handlebars
 <!-- app/templates/components/hello-button.hbs -->
 <button class="btn" role="button">
-	Hello, world!
+  Hello, world!
 </button>
 ```
 
@@ -162,7 +162,7 @@ With Classic Components, the main component _is_ the wrapper element. In Glimmer
 ```hbs
 <!-- app/templates/components/hello-button.hbs -->
 <button ...attributes class="btn" role="button">
-	Hello, world!
+  Hello, world!
 </button>
 ```
 
@@ -215,7 +215,7 @@ import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 
 export default class FilterComponent extends Component {
-	@tracked results;
+  @tracked results;
 
   constructor() {
     super(...arguments);
