@@ -160,7 +160,7 @@ serializers. The motivation for these deprecations is described in [RFC
 > unused classes.
 >
 > In addition to removing use of initializer injection, this takes a significant
-> step toward simplifying the mental model for how to determine what
+> step toward simplifying the conceptual model for how to determine what
 > adapter/serializer is in use. Removing the defaults forces app developers to
 > be more cognizant about the type of application level concerns vs
 > model-specific concerns; they will now need to explicitly define and use
@@ -177,7 +177,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
-You may upgrade Ember CLI easily using the ember-cli-update project:
+You may upgrade Ember CLI with ease by using the ember-cli-update project:
 
 ```bash
 npm install -g ember-cli-update
@@ -200,7 +200,7 @@ The blueprints for `ember new` and `ember addon` have been modernized to define 
 
 **`MODULE_UNIFICATION` flag (1 of 1)**
 
-Ember CLI 3.14 contains a new deprecation for projects that use the `MODULE_UNIFICATION` flag. This flag has always required using canary versions of Ember and Ember CLI. Now that `ember-source` has disabled the feature completely, apps can no longer enable the feature at all.
+Ember CLI 3.14 contains a new deprecation for projects that use the `MODULE_UNIFICATION` flag. This flag has always required using canary versions of Ember and Ember CLI. Now that `ember-source` has turned off the feature completely, apps can no longer enable the feature at all.
 
 ---
 
