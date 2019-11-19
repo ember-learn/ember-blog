@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 2: Angle Brackets & Named Arguments'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Angle Brackets, Named Arguments
-alias: 'blog/2019/02/19-coming-soon-in-ember-octane-part-2-angle-brackets-and-named-arguments.html'
+alias: '2019/02/19-coming-soon-in-ember-octane-part-2-angle-brackets-and-named-arguments.html'
 responsive: true
 ---
 

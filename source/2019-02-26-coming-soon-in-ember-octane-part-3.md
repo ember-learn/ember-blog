@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 3: Tracked Properties'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Tracked Properties
-alias: 'blog/2019/02/26-coming-soon-in-ember-octane-part-3-tracked-properties.html'
+alias: '2019/02/26-coming-soon-in-ember-octane-part-3-tracked-properties.html'
 responsive: true
 ---
 

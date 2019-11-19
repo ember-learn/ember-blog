@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 4: Modifiers'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Modifiers
-alias: 'blog/2019/03/06-coming-soon-in-ember-octane-part-4-modifiers.html'
+alias: '2019/03/06-coming-soon-in-ember-octane-part-4-modifiers.html'
 responsive: true
 ---
 

@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 5: Glimmer Components'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Glimmer Components
-alias: 'blog/2019/03/14-coming-soon-in-ember-octane-part-5-glimmer-components.html'
+alias: '2019/03/14-coming-soon-in-ember-octane-part-5-glimmer-components.html'
 responsive: true
 ---
 

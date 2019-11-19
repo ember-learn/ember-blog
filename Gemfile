@@ -11,7 +11,7 @@ gem "thin"
 gem "rack"
 gem "listen"
 gem "builder"
-gem "middleman-alias", github: "wagenet/middleman-alias", branch: "keep-search-and-hash"
+gem "middleman-alias", '0.0.17'
 gem "underscore-rails"
 gem "gmaps4rails"
 gem "geocoder"

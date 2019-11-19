@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 1: Native Classes'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Native Classes
-alias: 'blog/2019/02/11-coming-soon-in-ember-octane-part-1-native-classes.html'
+alias: '2019/02/11-coming-soon-in-ember-octane-part-1-native-classes.html'
 responsive: true
 ---
 

@@ -2,7 +2,7 @@
 title: Ember 3.14 Released (Octane Preview Cont.)
 author: Kenneth Larsen, Dan Gebhardt
 tags: Releases, 2019, 3, 3.14, Version 3.x
-alias : "blog/2019/11/01/ember-3-14-released.html"
+alias: '2019/11/01/ember-3-14-released.html'
 responsive: true
 ---
 
