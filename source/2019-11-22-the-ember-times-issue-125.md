@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 125
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/22-the-ember-times-issue-125.html"
 responsive: true
@@ -24,13 +24,19 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## ["I contribute to Ember" with Ryan Mark 👨‍💻](update me!)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+<div class="float-right padded portrait-frame">
+  <img alt="Ryan Mark" title="Ryan Mark - Contributor to Ember" src="/images/blog/emberjstimes/ryan_mark.jpeg" />
+</div>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on ... Thank you for your contributions to the Ember community, Ryan!
+
+You can read the full interview on [the Ember Discuss Forum](update me!).
+
+<a class="ember-button ember-button--centered" href="update me!">Read more</a>
+
+<p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
 
 ---
 
@@ -134,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
