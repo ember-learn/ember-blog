@@ -16,8 +16,8 @@ Hello again, and welcome back! This is the fourth entry in the multipart _Coming
 * Modifiers _← this post_
 * Glimmer Components
 
-<!-- alex ignore dives -->
 <!-- markdownlint-disable MD029 -->
+<!-- alex ignore dives just -->
 These aren't _all_ of the new features that will be part of Octane, just the ones that I'm most familiar with personally. This series is aimed at existing Ember users, but if you're new to Ember or tried Ember a while ago and want to see how things are changing, I'll be providing context on the existing features as we go along. These posts won't be doing deep dives on all the edge cases of the functionality, they are moreso meant as an overview of what's coming. If you're curious about what an _edition_ is exactly, you can check out a quick break down in [the first post in the series](https://www.pzuraq.com/coming-soon-in-ember-octane-part-1-native-classes/#whatareeditions).
 
 Alright, now let's talk about modifiers, Ember's new tool for working with the DOM!
@@ -34,6 +34,7 @@ Modifiers are similar to Handlebars helpers, they are functions or classes that 
 
 Modifiers are used for manipulating or reading from the DOM somehow. For instance, the example above uses the [`on` modifier](https://github.com/buschtoens/ember-on-modifier#readme) to add a click handler to the `button` element it is modifying. In general modifiers act on the element they are modifying, but they could also act on the the subtree of that element.
 
+<!-- alex ignore easily -->
 Modifiers are not an entirely new concept in Ember. In fact, they've existed in some form or another since some of the earliest days of Ember, in the form of the `{{action}}` modifier, and the `{{bind-attr}}` modifier from the v1 era of the framework. However, it's never been possible before for users to make their _own_ modifiers. Now they're being given first class support to allow users more fidelity in how they interact with the DOM, and to allow DOM code to be more easily shared across components and other templates.
 
 ### The New `didInsertElement`
@@ -42,6 +43,7 @@ You may be thinking, don't lifecycle hooks solve the same problem? Can't I put l
 
 There are a few reasons modifiers end up being a better solution for DOM manipulation in general:
 
+<!-- alex ignore easily -->
 1. **They allow targeting specific elements more easily.** Lifecycle hooks only allow you to work with the component's _root_ element, if it has one. If you want to target any other element in the component, it can be a lot of work. For instance, to do the same thing as our original example with the `on` modifier, we would have to use `querySelector` in our `didInsertElement` hook to find the `button` element:
 
 ```js
@@ -90,6 +92,7 @@ We _could_ create new components instead, and this may make sense at times - for
 {{/if}}
 ```
 
+<!-- alex ignore easily -->
 This cleans things up considerably. We don't have to duplicate logic in the component and the template, only one `if` statement is needed, and we can easily see what event listeners are applied to which elements. No need to make more components!
 
 2. **They allow related code to live in the same place.** The above example is even more complicated in actuality, because it's missing its _teardown_ logic. If we aren't careful, we could end up leaking event listeners, or in an inconsistent state when the `if` statement toggles. Here's what the _full_ logic for our component should look like:
@@ -142,8 +145,10 @@ class HelloWorld extends Component {
 }
 ```
 
+<!-- alex ignore just -->
 As you can see, this is just a _bit_ convoluted. We have a lot of conditional code all over the place, _and_ we have mixing of concerns between the logic for the tooltip and the logic for the button. By contrast, modifiers have their own setup and teardown logic, completely self-contained. They also run on the insertion and destruction of the _element_ they are modifying, not the component, so we don't need to check for the element's existence to see if we should be doing anything. The modifier will run when `showTutorial` switches to true, and it'll be torn down when `showTutorial` switches to false.
 
+<!-- alex ignore easy -->
 3. **They make sharing code between components much easier.** Often times the same types of DOM manipulations need to be used in many components throughout an app, and _usually_ it isn't easy or natural to share them via class inheritance. On the other hand, utility functions generally feel very bloated and boilerplate heavy to use for these purposes, since they _must_ use state from the component and be integrated into its hooks. Addons like [`ember-lifeline`](https://github.com/ember-lifeline/ember-lifeline) do a good job at reducing the boilerplate, but it's still not ideal.
 
 This is one of the remaining use cases for Ember's mixin functionality, and arguably modifiers solve it even more cleanly since the modifications are applied _where they happen_.
@@ -179,6 +184,7 @@ Notably, there is an `{{action}}` helper and an `{{action}}` modifier, which is 
 
 Modifiers run whenever the element is _inserted_ or _destroyed_, and whenever any of arguments to them change.
 
+<!-- alex ignore just -->
 User defined modifiers haven't been finalized just yet. Instead, Ember has created a low level API, the _Modifier Manager_. This allows us to experiment with different APIs for modifiers in the addon ecosystem before committing to a specific API. There are two major design proposals (and many variations on them) for modifiers that have been floated around at the moment.
 
 **NOTE: These are NOT actual Ember APIs. They can currently be implemented in addons (and definitely should be!), but they may change in the future before Ember picks recommended/standard APIs!**
@@ -491,6 +497,7 @@ export default class PaperToastInner extends Component.extend(TransitionMixin) {
 </md-toast>
 ```
 
+<!-- alex ignore easy -->
 As you can see, this is a fair amount less code overall. It's also code that is _very_ easy to reuse now, since all of the implementation concerns for Hammer have been extracted. We could also pre-apply some of the modifiers options directly, for instance if the horizontal-swipe settings are used commonly in the app:
 
 ```js
