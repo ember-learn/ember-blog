@@ -17,6 +17,7 @@ Hello again, and welcome back! This is the fifth and final entry in the multipar
 * Glimmer Components _← this post_
 
 <!-- markdownlint-disable MD029 -->
+<!-- alex ignore just -->
 These aren't _all_ of the new features that will be part of Octane, just the ones that I'm most familiar with personally. This series is aimed at existing Ember users, but if you're new to Ember or tried Ember a while ago and want to see how things are changing, I'll be providing context on the existing features as we go along. These posts won't be doing deep dives on all the edge cases of the functionality, they are moreso meant as an overview of what's coming. If you're curious about what an _edition_ is exactly, you can check out a quick break down in [the first post in the series](https://www.pzuraq.com/coming-soon-in-ember-octane-part-1-native-classes/#whatareeditions).
 
 Now, let's move onto Glimmer Components!
@@ -50,6 +51,7 @@ export default Component.extend({
 });
 ```
 
+<!-- alex ignore just -->
 This meant that the template was not the only source-of-truth for the final output of the component - users had to read the component class to know if it had customized the template in some way. It also meant users would oftentimes have to create a class just to customize this element, in what would otherwise be a Template-Only component.
 3. **Arguments**: Arguments to a component were assigned directly as properties on the component's instance. This would often lead to conflicts between arguments and properties or methods on a component, and make it difficult to tell the two apart:
 
@@ -89,6 +91,7 @@ More than anything, Glimmer Components are a dramatic simplification of Ember's 
 * **21** standard framework functions, such as `get`/`set`,
 `addObserver`/`removeObserver` and `toggleProperty`.
 
+<!-- alex ignore just -->
 By comparison, Glimmer Components have just **2** lifecycle hooks and **3** properties. They don't have any element or DOM based properties, hooks, or event handler functions, whose responsibilities have been passed on to element modifiers. This _dramatically_ simplifies what you need to learn in order to start using the bread-and-butter class of Ember, allowing you to focus on productivity out of the box.
 
 The other major differences include:
@@ -102,6 +105,7 @@ And last, but certainly not least, the namesake of Glimmer Components - compatib
 
 ### Lifecycle Hooks & Modifiers
 
+<!-- alex ignore just -->
 As mentioned above, Glimmer Components have just two lifecycle hooks - the `constructor` function for setting up the component, and the `willDestroy` function for tearing it down. It also has just 3 properties: `isDestroying`, `isDestroyed`, and `args` (which we'll go over later on).
 
 ```ts
@@ -123,6 +127,7 @@ Reducing the number of lifecycle hooks makes designing a component that much sim
 
 ### Outer HTML
 
+<!-- alex ignore just -->
 In Glimmer Components, what you see in the template is what you get in the output. There is no wrapping element around the template - the template represents the "outer edge" of the component, instead of being just the "inside". This means that you don't have to use APIs like `tagName`, `classNames`, or `attributeBindings` to customize your template, ever. This component:
 
 ```js
@@ -169,6 +174,7 @@ With Classic Components, the main component _is_ the wrapper element. In Glimmer
 </button>
 ```
 
+<!-- alex ignore clearly easily -->
 This syntax allows you to choose which element(s) the attributes get applied to. It can be applied multiple times, or not at all, in which case using attributes on the component will throw an error. This allows us to see clearly where element attributes are getting applied, and also to control it more easily. You could, for instance, use it on a _nested_ element instead of a top level one.
 
 Another cool feature of this syntax is that the _order_ it is applied in can be used to determine how it overrides attributes. Attributes that come _before_ `...attributes` will be overridden, but attributes that come _after_ will not. For example, given these two possibilities:
@@ -230,6 +236,7 @@ export default class FilterComponent extends Component {
 }
 ```
 
+<!-- alex ignore clearly -->
 And we can now clearly see that `filter` is an argument, and not some API function that came out of nowhere.
 
 The `args` object is also immutable (though the arguments _themselves_ are not). This enforces **unidirectional dataflow**, from parent components to child components, and prevents two-way data binding in general. It also means that when you see an argument, you _know_ that it is a value passed down by the parent, and not something managed internally by the component. This distinction also helps with reasoning about component code.
@@ -238,6 +245,7 @@ The `args` object is also immutable (though the arguments _themselves_ are not).
 
 Template-Only components are useful for extracting bits and pieces of functionality from other components quickly, without bringing along business logic. They keep things simpler by only having one file, and by keeping it focussed on presentation. However, with Classic Components they had two major issues:
 
+<!-- alex ignore just -->
 1. There was no way to control the wrapping element, and oftentimes a class would have to be made just for that. Glimmer Components solve this with Outer HTML semantics, like we discussed above.
 2. Even though Template-Only components didn't have any logic, with Classic Components they _did_ have state. They needed an instance to hold their argument values, and it was _possible_, albeit somewhat difficult, to assign values to that instance and make them stateful using built-in helpers.
 
