@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 125
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/22-the-ember-times-issue-125.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+submit your EmberConf 2020 proposal today 🎤,
 READMORE
 
 ---
@@ -24,13 +24,11 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Reminder: EmberConf 2020 CFP, Due December 1 🎤](https://cfp.emberconf.com/events/emberconf-2020/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Each year, [EmberConf](https://emberconf.com/) gets to feature wonderful, *ambitious* talks and workshops. We encourage you to take stage in 2020 and [share what you learned (or want to learn) with the world](https://cfp.emberconf.com/events/emberconf-2020/)! You can give a 5, 15, or 30-min talk, or a 3-hour workshop. You can also submit more than 1 proposal.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Not sure what to talk about or need a gentle push? Feel free to check out the [recording of CFP brainstorm meeting](https://emberconf.com/#/cfp-brainstorm) and ask for help on [`#ember-conf` channel](https://discordapp.com/channels/480462759797063690/480502413917421570) on [Discord](https://discordapp.com/invite/emberjs).
 
 ---
 
@@ -134,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
