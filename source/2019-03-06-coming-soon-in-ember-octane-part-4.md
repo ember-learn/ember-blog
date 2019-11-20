@@ -17,6 +17,7 @@ Hello again, and welcome back! This is the fourth entry in the multipart _Coming
 * Glimmer Components
 
 <!-- alex ignore dives -->
+<!-- markdownlint-disable MD029 -->
 These aren't _all_ of the new features that will be part of Octane, just the ones that I'm most familiar with personally. This series is aimed at existing Ember users, but if you're new to Ember or tried Ember a while ago and want to see how things are changing, I'll be providing context on the existing features as we go along. These posts won't be doing deep dives on all the edge cases of the functionality, they are moreso meant as an overview of what's coming. If you're curious about what an _edition_ is exactly, you can check out a quick break down in [the first post in the series](https://www.pzuraq.com/coming-soon-in-ember-octane-part-1-native-classes/#whatareeditions).
 
 Alright, now let's talk about modifiers, Ember's new tool for working with the DOM!
