@@ -78,6 +78,7 @@ These, along with many  other small paper cuts along the way, led the core team 
 Glimmer Components are the final result of all that hard work. They're lighter, simpler, more ergonomic, and address all of these issues and more.
 
 ## Less is More
+
 More than anything, Glimmer Components are a dramatic simplification of Ember's component API, which is now being referred to as Classic Components in the community. Classic Components have built up a lot of cruft over the years, including:
 
 * **13** Standard lifecycle hooks, such as
@@ -135,6 +136,7 @@ export default Component.extend({
   role: 'button',
 });
 ```
+
 ```handlebars
 <!-- app/templates/components/hello-button.hbs -->
 Hello, world!
@@ -248,6 +250,7 @@ Glimmer.js has been the proving ground for a lot of the ideas that have made it 
 Glimmer Components being cross-compatible means that Ember users can share code with a more minimal framework, that can better serve targeted use cases. In time, it'll mean that the ecosystem can work with both, and we'll be able to unify the two as we split apart the monolith one piece at a time.
 
 ## Putting It All Together
+
 Like always, I'd like to end on a high note. Here's an example from the popular [ember-toggle](https://github.com/knownasilya/ember-toggle) addon, which provides a nice toggle component, the `x-toggle-label` component:
 
 ```js
@@ -284,6 +287,7 @@ export default Component.extend({
   }
 });
 ```
+
 ```handlebars
 {{#if hasBlock}}
   {{yield label}}
@@ -311,6 +315,7 @@ export default class XToggleLabel extends Component {
   }
 }
 ```
+
 ```handlebars
 <label
   for="{{@switchId}}"
@@ -334,6 +339,7 @@ export default class XToggleLabel extends Component {
 The class definition here is much smaller overall because we're able to strip out all of the logic for setting up the _template_, and we're able to put that where it really belongs: the template! This is much easier to read overall,  since we don't have to jump back and forth between the template and the class definition to understand what the final HTML will look like. It's all in one place.
 
 ## Conclusion
+
 Glimmer Components are a long-overdue refinement of Ember's component system, and I'm really excited to see how they clean up our code. The design process for this API took a very long time, but in the end I think we came up with the best possible component API for Ember, and I think it'll serve us well for years to come. I'm also very excited to see how Glimmer.js evolves now that users will be able to write components for both!
 
 This wraps up this blog series! I hope you've enjoyed these posts, and look forward to the preview launching in the coming weeks! Ember in 2019 is going to be a very different framework 😄
