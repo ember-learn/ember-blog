@@ -61,9 +61,9 @@ You can read the full interview on [the Ember Discuss Forum](update me!).
 
 ## [Beta Releases for Ember Basic Dropdown and Ember Power Select ⭐](https://twitter.com/MiguelCamba/status/1196520042948628480)
 
-[Miguel Camba @cibernox](https://github.com/cibernox) released beta versions of [ember-basic-dropdown](https://github.com/cibernox/ember-basic-dropdown) (3.0.0-beta.1) and [ember-power-select](https://github.com/cibernox/ember-power-select) (4.0.0-beta.1) which are now glimmer components!
+[Miguel Camba @cibernox](https://github.com/cibernox) released beta versions of [ember-basic-dropdown](https://github.com/cibernox/ember-basic-dropdown) (3.0.0-beta.2) and [ember-power-select](https://github.com/cibernox/ember-power-select) (4.0.0-beta.3) which are now glimmer components!
 
-Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html) or greater. One caveat is that the beta version of Ember Power Select may throw an error that `assign` is not a helper. If you encounter this, installing [ember-assign-helper](https://github.com/cibernox/ember-assign-helper) should help.
+Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html) or greater. Try them out today!
 
 ---
 
