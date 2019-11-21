@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 1: Native Classes'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Native Classes
-alias: 'blog/2019/02/11-coming-soon-in-ember-octane-part-1-native-classes.html'
+alias: '2019/02/11-coming-soon-in-ember-octane-part-1-native-classes.html'
 responsive: true
 ---
 
@@ -28,8 +28,10 @@ Before we move onto Native Classes, let's talk about Ember Editions really quick
 
 An Edition in Ember represents the culmination of all the changes that have happened in the framework since the last Edition. In a lot of other frameworks, this is like a new major version. It means we have significantly improved things, added new concepts and ideas, updated all the documentation and marketing materials, created new guides, battle-tested everything, and are confident that it is ready for mass adoption. In some ways, it's like a new release of a product version at a company - things have changed, and we're ready to blast out to the world that there's a whole "new" Ember!
 
+<!-- alex ignore just-->
 You might be asking yourself, why not just use SemVer's major versions to do this? Usually when a framework releases a new major version, there are new APIs and features and there's lots of buzz and excitement about that. So, why not just release Ember v4 and be done with it?
 
+<!-- alex ignore just-->
 The answer is in the way Ember treats and respects SemVer. We follow SemVer to the letter - patch versions include _only_ bugfixes, minor versions include _only_ new features and improvements, and major versions only _remove_ deprecated APIs. No new features are _ever_ introduced on a major Ember version. This makes updating your app much simpler - there's no need to rewrite a component or service, or update to the new ways of doing things, just remove the deprecated features (which issue console warnings when used) and you should be able to bump the version without problems.
 
 In this model, new features are introduced gradually over the course of a single major version, allowing users to adopt them incrementally. This is amazing for app maintenance - instead of having a new major version be released and having to go update everything all at once, you can do it one piece at a time, as the new things are released.
@@ -43,8 +45,10 @@ Alright, now let's move onto those new features in Octane!
 
 ## Native Classes (+Decorators)
 
+<!-- alex ignore just-->
 Native Javascript classes in Ember are near and dear to my heart. I first began exploring them almost 2 years ago now, when I first approached [@rwjblue](https://twitter.com/rwjblue) about the state of [ember-decorators](https://ember-decorators.github.io/ember-decorators/) ("ember-computed-decorators" at the time). I was tasked with building out our documentation internally, and wanted something more ergonomic than YUIDoc/JSDoc style tags and comments that required you to manually name and tag every single method, property, and parameter. I had heard from [@runspired](https://twitter.com/runspired) some time before that native classes actually _mostly_ worked with Ember already, and just needed a little bit of finagling to get all the way there.
 
+<!-- alex ignore just-->
 It turned out that was half-true - native classes did work pretty well with Ember's own classes, but there were some pretty major changes we needed to make to get them to be just as ergonomic and usable as Ember's classic class syntax, which was beginning to look more and more dated by the day. These changes were ultimately _small_, but they were deep in the internals of Ember, and operating on them was an almost surgical process, with little room for error or regression.
 
 <!-- alex ignore remain-->
@@ -98,6 +102,7 @@ const Person = EmberObject.extend({
 let phoenix = Person.create({ firstName: 'Jean', lastName: 'Gray' });
 ```
 
+<!-- alex ignore just-->
 There are some noticeable differences here, but most of these are unrelated to changes in the class syntax. We now have the niceties of ES2018 such as template strings and object-method syntax, and we no longer need to use `get` to get values, but we do still need to use `set` (that's being addressed by a different feature, _tracked properties_, that I'll be discussing in a later post in this series). The only major change to the mechanics of classes is the change to the way we define computed properties - in the older style, we used the `.property()` notation which was available because we added it to `Function.prototype` (**very much an antipattern!**), and now we just use the `computed` function to wrap the getter directly.
 
 Let's take a look at what this looks like when converted to native classes:
@@ -154,6 +159,7 @@ let phoenix = new Person('Jean', 'Gray');
 
 We can completely drop the weight of using Ember's legacy class system and rely solely on native classes this way. This is awesome! In the future this means we'll be able to remove a large chunk of Ember's legacy code and leverage the platform instead, making our apps faster to load and easier to write.
 
+<!-- alex ignore just-->
 Another thing you may have noticed in the above examples is that we're using the exact same import paths for everything, including `computed`. At first this may seem like a breaking change! How can `computed` be a modern class decorator _and_ be used in classic class syntax, without breaking anything? Shouldn't it be imported from a different location or something? In fact, it doesn't need to be at all. `computed` is fully compatible with _both_ classic classes and native classes, along with all existing computed property macros in Ember and the Ember addon ecosystem! This is perfectly valid syntax that will Just Work™️:
 
 ```js
@@ -247,7 +253,8 @@ def say_whee():
 
 say_whee = my_decorator(say_whee)
 ```
-<!-- alex ignore special-->
+
+<!-- alex ignore special just basically-->
 The "decorator pattern" more generically is about taking an input of some type - a function, a class method, a field - and transforming it into something of the same (or similar) type, adding some extra functionality along the way. You don't need a special syntax to use the decorator pattern, it just makes it a bit more convenient! If you think about it this way, Ember's `computed()` function is _basically_ a decorator - it adds caching based on dependent keys to a getter function.
 
 Leveraging this similarity, we were able to update that decorator functionality to match JavaScript's newly proposed API, which is how we're able to have it be compatible between both the classic and current syntax. The added side effect is that the _entire_ Ember ecosystem gets this upgrade all at once, with absolutely no extra work required!
@@ -448,6 +455,7 @@ console.log(person.#firstName) // ERROR
 
 There are quite a few quirky behaviors of classic classes:
 
+<!-- alex ignore easy-->
 - Merged and concatenated properties (like `classNames` on components)
 - Shared state between instances (e.g. if you do `EmberObject.extend({ foo: [] })`)
 - Reopening class definitions to define static properties (`reopenClass`)
