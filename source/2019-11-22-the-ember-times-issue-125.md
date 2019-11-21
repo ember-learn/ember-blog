@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 125
-author: the crowd
+author: Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/22-the-ember-times-issue-125.html"
 responsive: true
@@ -9,6 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+VS Code Plugins for Octane 🤖
 
 READMORE
 
@@ -34,13 +36,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [VS Code Plugins for Octane 🤖](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+If you are a VS Code fan you may want to check out the latest releases of **two great** VS Code plugins by [Alex Kanunnikov @lifeart](https://github.com/lifeart) that provide support for Octane features in VS Code! ✨
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) plugin now provides support for autocompletion of component arguments in templates, `LinkTo` route argument autocompletion and improved scope autocompletion.
+
+And, the recently released [Glimmer Templates Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax) plugin provides support for formatting of Glimmer template files!
 
 ---
 
@@ -134,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jared Galanis the crowd and the Learning Team
