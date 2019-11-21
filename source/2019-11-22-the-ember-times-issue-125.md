@@ -26,7 +26,7 @@ READMORE
 
 ## [Reminder: EmberConf 2020 CFP, Due December 1 🎤](https://cfp.emberconf.com/events/emberconf-2020/)
 
-Each year, [EmberConf](https://emberconf.com/) gets to feature wonderful, *ambitious* talks and workshops. We encourage you to take stage in 2020 and [share what you learned (or want to learn) with the world](https://cfp.emberconf.com/events/emberconf-2020/)! You can give a 5, 15, or 30-min talk, or a 3-hour workshop. You can also submit more than 1 proposal.
+Each year, [EmberConf](https://emberconf.com/) gets to feature wonderful, *ambitious* talks and workshops. We encourage you to take the stage in 2020 and [share what you learned (or want to learn) with the world](https://cfp.emberconf.com/events/emberconf-2020/)! You can give a 5, 15, or 30-min talk, or a 3-hour workshop. You can also submit more than 1 proposal.
 
 Not sure what to talk about or need a gentle push? Feel free to check out the [recording of CFP brainstorm meeting](https://emberconf.com/#/cfp-brainstorm) and ask for help on [`#ember-conf` channel](https://discordapp.com/channels/480462759797063690/480502413917421570) on [Discord](https://discordapp.com/invite/emberjs).
 
