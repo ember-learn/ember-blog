@@ -15,6 +15,7 @@ submit your EmberConf 2020 proposal today 🎤,
 "I Contribute to Ember" with Ryan Mark 👨‍💻,
 VS Code Plugins for Octane 🤖
 beta releases for Ember Basic Dropdown and Ember Power Select ⭐,
+listen to a new episode of Ember Weekend 🎧,
 a brand-new Readers' Question about the future of DDAU 🤓,
 ...
 
@@ -29,8 +30,6 @@ The latest release of Ember is out! **Ember 3.14** brings many new features, bug
 The release includes performance improvements for fetching relationships via `links` and the new `@model` syntax in Route templates as described in [Request for Comments (RFC) No. 523](https://emberjs.github.io/rfcs/0523-model-argument-for-route-templates.html), among other updates. Additionally, the [Octane Preview](https://emberjs.com/editions/octane/) continues in the latest version of Ember - allowing you to try out Ember Octane in your app today!
 
 Learn all about the new and shiny Ember 3.14 release and how to opt-in into Octane by reading [the official release announcement](https://blog.emberjs.com/2019/11/18/ember-3-14-released.html).
-
-
 
 ---
 
@@ -96,13 +95,11 @@ Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/embe
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember Weekend Episode 133: Bring Your Own Babel 🎧](https://emberweekend.com/episodes/bring-your-own-babel/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Following a *hiatus* 😉, [Jonathan Jackson](https://twitter.com/rondale_sc), [Robert Jackson](https://twitter.com/rwjblue), and [Chase McCarthy](https://twitter.com/code0100fun) got together to record a [new Ember Weekend episode](https://emberweekend.com/episodes/bring-your-own-babel/) and share news in the Ember ecosystem.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In episode 133, you will learn more about the remaining tasks for [Octane](https://emberjs.com/editions/octane) release, improvements made in [`ember-angle-brackets-codemod`](https://github.com/ember-codemods/ember-angle-brackets-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod), and how you can join and help grow the [ember-codemods organization](https://github.com/ember-codemods)!
 
 ---
 
@@ -132,7 +129,7 @@ Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/embe
 
 ---
 
-## [Readers' Questions: “Any plans to improve the DDAU experience in the future?” 🤓](https://discuss.emberjs.com/t/readers-questions-are-there-plans-to-improve-the-experience-for-using-data-down-actions-up-in-the-future/17239)
+## [Readers' Questions: "Any plans to improve the DDAU experience in the future?" 🤓](https://discuss.emberjs.com/t/readers-questions-are-there-plans-to-improve-the-experience-for-using-data-down-actions-up-in-the-future/17239)
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
