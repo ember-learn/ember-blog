@@ -2,7 +2,7 @@
 title: 'Coming Soon in Ember Octane - Part 2: Angle Brackets & Named Arguments'
 author: Chris Garrett
 tags: Recent Posts, 2019, Ember Octane, Angle Brackets, Named Arguments
-alias: 'blog/2019/02/19-coming-soon-in-ember-octane-part-2-angle-brackets-and-named-arguments.html'
+alias: '2019/02/19-coming-soon-in-ember-octane-part-2-angle-brackets-and-named-arguments.html'
 responsive: true
 ---
 
@@ -23,6 +23,7 @@ This series is aimed at existing Ember users, but if you're new to Ember or trie
 
 ## Ember Templates: HTML++
 
+<!-- alex ignore easy-->
 One of the things that sets Ember apart from other component based frameworks is its strong focus on templates that _extend_ HTML with a declarative, LISP-like syntax. Unlike JSX, which allows direct usage of Javascript wherever you want, or other framework's templating languages like Vue or Angular that lean heavily on HTML, Ember's syntax balances a mix of expressiveness and declarativeness that keeps template code relatively simple and easy to read, but doesn't prevent you from accomplishing your goals with artificial constraints.
 
 Ember templates draw their roots from the Handlebars templating language which used `{{doubleCurly}}` syntax to insert values into templates. For the first version of Ember, this templating language remained pretty basic. You could reference values in templates, render components, and use specialized helpers like `{{outlet}}` for routing, `{{if}}` for branching, and `{{each}}` for looping:
@@ -106,6 +107,7 @@ Still there were some nagging issues with this syntax:
 - There's so many curlies! It can be hard to distinguish what's what between helpers and components and plain values being put into template, which makes reading template code difficult at times.
 - It's so ambiguous! `{{fullname}}` probably means a variable, but it could be a component or a helper. And even if it's a variable, is it a local variable provided by a `yield`? Is it a variable on the component instance? Is it an _argument_ (a.k.a. property) provided to the component? Where are all these things coming from anyways?
 
+<!-- alex ignore just-->
 Some of the ambiguity problem is going to be solved by template imports, which will allow you to directly import helpers and components for use just like you would in JavaScript code, but there are lots of other small issues in there. There are three major changes that are part of Ember Octane that address these issues:
 
 1. Angle bracket syntax for components
@@ -192,10 +194,12 @@ Hello, {{join (capitalize this.firstName) (capitalize this.lastName)}}!
 {{/if}}
 ```
 
+<!-- alex ignore clearly easily -->
 This change is subtle, but instantly provides much more context in templates. We can now clearly tell what are _values_ provided by the component class, and what are helpers (`join`, `capitalize`, `gt`, `add`) or local variables provided in yields (`Item`, `index`). Combined with named argument syntax, it allows for almost all values in the template to have a clear point-of-origin, so users can follow them back to where they came from easily.
 
 ### Putting It All Together
 
+<!-- alex ignore just-->
 Like last time, I'd like to show you a more complete example based on a real-life template, instead of having you just take my word for it based on a few small examples. This is a component from [emberobserver.com](https://emberobserver.com/), one with a fairly verbose template ([source here](https://github.com/emberobserver/client/blob/0c6058456803817673255fd91b0991d5a93916be/app/templates/components/large-search.hbs)):
 
 ```handlebars
@@ -427,6 +431,7 @@ In my opinion, this is much easier to skim through and get a general sense of qu
 
 The title of this post is actually inaccurate - all of these features have already landed in Ember, and have been usable for some time! You can try them out now, and they're fully backwards compatible with older features and components.
 
+<!-- alex ignore just-->
 The nature of Editions is that some of the new features land sooner rather than later, and we just haven't really had a chance to polish up the guides and the DX for learning all of them. Octane gives us a focal point that allows us to sum everything up, and update all of our learning materials and guides, but if you're interested in early adoption things have been landing in master for some time now!
 
 ## Conclusion
