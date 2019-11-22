@@ -99,7 +99,7 @@ Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/embe
 
 Following a *hiatus* 😉, [Jonathan Jackson](https://twitter.com/rondale_sc), [Robert Jackson](https://twitter.com/rwjblue), and [Chase McCarthy](https://twitter.com/code0100fun) got together to record a [new Ember Weekend episode](https://emberweekend.com/episodes/bring-your-own-babel/) and share news in the Ember ecosystem.
 
-In episode 133, you will learn more about the remaining tasks for [Octane](https://emberjs.com/editions/octane) release, improvements made in [`ember-angle-brackets-codemod`](https://github.com/ember-codemods/ember-angle-brackets-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod), and how you can join and help grow the [ember-codemods organization](https://github.com/ember-codemods)!
+In episode 133, you will learn more about the remaining tasks for the [Octane](https://emberjs.com/editions/octane) release, improvements made in [`ember-angle-brackets-codemod`](https://github.com/ember-codemods/ember-angle-brackets-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod), and how you can join and help grow the [ember-codemods organization](https://github.com/ember-codemods)!
 
 ---
 
