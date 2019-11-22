@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 125
-author: Jared Galanis, Isaac Lee, Chris Ng, Amy Lam, the crowd
+author: Jared Galanis, Isaac Lee, Chris Ng, Amy Lam, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/22-the-ember-times-issue-125.html"
 responsive: true
@@ -14,6 +14,8 @@ submit your EmberConf 2020 proposal today 🎤,
 "I Contribute to Ember" with Ryan Mark 👨‍💻,
 VS Code Plugins for Octane 🤖
 beta releases for Ember Basic Dropdown and Ember Power Select ⭐,
+a brand-new Readers' Question about the future of DDAU 🤓,
+...
 
 READMORE
 
@@ -123,18 +125,20 @@ Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/embe
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Alonski" target="gh-user">@Alonski</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/SergeAstapov" target="gh-user">@SergeAstapov</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/pradeepcep" target="gh-user">@pradeepcep</a>, <a href="https://github.com/sly7-7" target="gh-user">@sly7-7</a> and <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
-## [Got a Question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
+## [Readers' Questions: “Any plans to improve the DDAU experience in the future?” 🤓](https://discuss.emberjs.com/t/readers-questions-are-there-plans-to-improve-the-experience-for-using-data-down-actions-up-in-the-future/17239)
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
 
-  <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are just for you!</p>
+  <p>This week's Readers' Question focusses on a common pattern for managing state in Ember apps: <strong>Data Down, Actions Up (DDAU)</strong>. Even though DDAU is the <i>Ember way</i> to build applications, it at times doesn't seem to come intuitively to those who use the framework. Are there any plans to <strong>improve the developer experience</strong> for DDAU in Ember apps for the future?</p>
 
-  <p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>
+  <p>You can find out in this week's Readers' Question! Read all about the future of DDAU and how Ember will help you to apply this useful pattern on <a href="https://github.com/jessica-jordan" target="jj">Jessica Jordan's (@jessica-jordan)</a> answer on <a href="https://discuss.emberjs.com/t/readers-questions-are-there-plans-to-improve-the-experience-for-using-data-down-actions-up-in-the-future/17239" target="discuss">the official Ember forum</a>!</p>
+
+  <p><a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/readers-questions-are-there-plans-to-improve-the-experience-for-using-data-down-actions-up-in-the-future/17239">Read more</a></p>
 </div>
 
 ---
@@ -151,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Isaac Lee, Chris Ng, Amy Lam and the Learning Team
+Jared Galanis, Isaac Lee, Chris Ng, Amy Lam, Jessica Jordan and the Learning Team
