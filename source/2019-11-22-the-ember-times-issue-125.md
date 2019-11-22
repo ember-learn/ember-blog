@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
+check out the Ember 3.14 release 🐹✨,
 submit your EmberConf 2020 proposal today 🎤,
 "I Contribute to Ember" with Ryan Mark 👨‍💻,
 VS Code Plugins for Octane 🤖
@@ -21,13 +22,15 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember 3.14 is Out! 🐹✨](https://blog.emberjs.com/2019/11/18/ember-3-14-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+The latest release of Ember is out! **Ember 3.14** brings many new features, bug fixes and improvements for the Ember.js library, Ember Data and Ember CLI.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The release includes performance improvements for fetching relationships via `links` and the new `@model` syntax in Route templates as described in [Request for Comments (RFC) No. 523](https://emberjs.github.io/rfcs/0523-model-argument-for-route-templates.html), among other updates. Additionally, the [Octane Preview](https://emberjs.com/editions/octane/) continues in the latest version of Ember - allowing you to try out Ember Octane in your app today!
+
+Learn all about the new and shiny Ember 3.14 release and how to opt-in into Octane by reading [the official release announcement](https://blog.emberjs.com/2019/11/18/ember-3-14-released.html).
+
+
 
 ---
 
