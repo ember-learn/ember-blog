@@ -36,9 +36,9 @@ Learn all about the new and shiny Ember 3.14 release and how to opt-in into Octa
   <img alt="Ryan Mark" title="Ryan Mark - Contributor to Ember" src="/images/blog/emberjstimes/ryan_mark.jpeg" />
 </div>
 
-In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on codemods and his journey into open source. Ryan was an early contributor to The Ember Times in its nascent days! He did a lot of work with Puppeteer, in [ember-times-tools](https://github.com/ember-learn/ember-times-tools), a tool to convert the Times blog posts to Goodbits, our email provider. Puppeteer is also what [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) uses. 
+In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on codemods and his journey into open source. Ryan was an early contributor to The Ember Times in its nascent days! He did a lot of work with Puppeteer, in [ember-times-tools](https://github.com/ember-learn/ember-times-tools), a tool to convert Times blog posts to Goodbits, our email provider. And Puppeteer is also what [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) uses. 
 
-We’d like to thank Ryan for his contributions to the Ember community, in addition to his financial sponsorship of our Ember Times Goodbits subscription for the last year! 👏 You can read the full interview on [the Ember Discuss forum](update me!).
+We’d like to thank Ryan for his contributions to the Ember community, in addition to his financial sponsorship of our Ember Times Goodbits subscription for the last year! 👏 Check out the full interview on [the Ember Discuss forum](update me!).
 
 <a class="ember-button ember-button--centered" href="update me!">Read more</a>
 
@@ -76,7 +76,7 @@ Both beta versions require [Ember 3.13](https://blog.emberjs.com/2019/09/25/embe
 
 Following a *hiatus* 😉, [Jonathan Jackson](https://twitter.com/rondale_sc), [Robert Jackson](https://twitter.com/rwjblue), and [Chase McCarthy](https://twitter.com/code0100fun) got together to record a [new Ember Weekend episode](https://emberweekend.com/episodes/bring-your-own-babel/) and share news in the Ember ecosystem.
 
-In episode 133, you will learn more about the remaining tasks for the [Octane](https://emberjs.com/editions/octane) release, improvements made in [`ember-angle-brackets-codemod`](https://github.com/ember-codemods/ember-angle-brackets-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod), and how you can join and help grow the [ember-codemods organization](https://github.com/ember-codemods)!
+In episode 133, you will learn more about the remaining tasks for the [Octane](https://emberjs.com/editions/octane) release, improvements made in [ember-angle-brackets-codemod](https://github.com/ember-codemods/ember-angle-brackets-codemod) and [ember-no-implicit-this-codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod), and how you can join and help grow the [ember-codemods organization](https://github.com/ember-codemods)!
 
 ---
 
