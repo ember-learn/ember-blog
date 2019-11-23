@@ -30,17 +30,17 @@ Learn all about the new and shiny Ember 3.14 release and how to opt-in into Octa
 
 ---
 
-## ["I contribute to Ember" with Ryan Mark 👨‍💻](update me!)
+## ["I contribute to Ember" with Ryan Mark 👨‍💻](https://discuss.emberjs.com/t/i-contribute-to-ember-with-ryan-mark/17242)
 
 <div class="float-right padded portrait-frame">
   <img alt="Ryan Mark" title="Ryan Mark - Contributor to Ember" src="/images/blog/emberjstimes/ryan_mark.jpeg" />
 </div>
 
-In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on codemods. Ryan was an early contributor to The Ember Times in its nascent days! He did a lot of work with Puppeteer, in [ember-times-tools](https://github.com/ember-learn/ember-times-tools), a tool to convert Times blog posts to Goodbits, our email provider. And Puppeteer is also what [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) uses. 
+In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on codemods. Ryan was an early contributor to The Ember Times in its nascent days! He did a lot of work with Puppeteer on [ember-times-tools](https://github.com/ember-learn/ember-times-tools), a tool to convert Times blog posts to Goodbits, our email provider. Puppeteer is also what [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) uses. 🔗
 
-We’d like to thank Ryan for his contributions to the Ember community, in addition to his financial sponsorship of our Ember Times Goodbits subscription for the last year! 👏 Check out the full interview on [the Ember Discuss forum](update me!).
+We’d like to thank Ryan for his contributions to the Ember community, in addition to his financial contribution to cover the Ember Times Goodbits subscription for the last year! 👏 Check out the full interview on [the Ember Discuss forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-ryan-mark/17242).
 
-<a class="ember-button ember-button--centered" href="update me!">Read more</a>
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-ryan-mark/17242">Read more</a>
 
 <p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
 
