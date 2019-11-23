@@ -36,7 +36,7 @@ Learn all about the new and shiny Ember 3.14 release and how to opt-in into Octa
   <img alt="Ryan Mark" title="Ryan Mark - Contributor to Ember" src="/images/blog/emberjstimes/ryan_mark.jpeg" />
 </div>
 
-In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on codemods and his journey into open source. Ryan was an early contributor to The Ember Times in its nascent days! He did a lot of work with Puppeteer, in [ember-times-tools](https://github.com/ember-learn/ember-times-tools), a tool to convert Times blog posts to Goodbits, our email provider. And Puppeteer is also what [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) uses. 
+In our **thirteenth edition** of our contributor interview series, community member [Ryan Mark @tylerturdenpants](https://github.com/tylerturdenpants), talks about his work on codemods. Ryan was an early contributor to The Ember Times in its nascent days! He did a lot of work with Puppeteer, in [ember-times-tools](https://github.com/ember-learn/ember-times-tools), a tool to convert Times blog posts to Goodbits, our email provider. And Puppeteer is also what [ember-codemods-telemetry-helpers](https://github.com/ember-codemods/ember-codemods-telemetry-helpers) uses. 
 
 We’d like to thank Ryan for his contributions to the Ember community, in addition to his financial sponsorship of our Ember Times Goodbits subscription for the last year! 👏 Check out the full interview on [the Ember Discuss forum](update me!).
 
