@@ -11,7 +11,7 @@ responsive: true
 Check out the Ember 3.14 release 🐹✨,
 "I Contribute to Ember" with Ryan Mark 👨‍💻,
 submit your EmberConf 2020 proposal today 🎤,
-VS Code Plugins for Octane 🤖
+VS Code Plugins for Octane 🤖,
 beta releases for Ember Basic Dropdown and Ember Power Select ⭐,
 listen to a new episode of Ember Weekend 🎧,
 and a brand-new Readers' Question about the future of DDAU 🤓!
