@@ -18,7 +18,7 @@ The `ember-sortable` addon provides sortable UI primitives for Ember apps- this 
 
 ### Why I Like It
 
-While the ember-sortable addon has been around for some time now, providing an consistent way to add drag and drop functionality to an Ember app, it is the most recent additions that have made this addon especially worth paying attention to. [Yicheng Gong](https://github.com/ygongdev), a software engineer at LinkedIn, noticed that the addon, while popular, was missing accessibility support. The addon ended up making its way to the [Adopted Ember Addons org](https://github.com/adopted-ember-addons/), a place where addons can obtain new maintainers and support. 
+While the ember-sortable addon has been around for some time now, providing a consistent way to add drag and drop functionality to an Ember app, it is the most recent additions that have made this addon especially worth paying attention to. [Yicheng Gong](https://github.com/ygongdev), a software engineer at LinkedIn, noticed that the addon was missing accessibility support. He took on the work via the [Adopted Ember Addons org](https://github.com/adopted-ember-addons/), and updated the addon to add the missing features! 
 
 The addon now provides a keyboard-only way to sort a group of items- 
 
