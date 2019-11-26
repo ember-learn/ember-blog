@@ -10,7 +10,7 @@ Our December series - "Countdown to The New Year: 31 Days of Ember Addons" aims 
 
 ## Day 15
 
-On the 15th day of our **Countdown to The New Year** we want to take a look at a helpful Ember addon which lets us write **redesign-proof tests**: [Ember Test Selectors](https://emberobserver.com/addons/ember-test-selectors)!
+On the 15th day of our **Countdown to The New Year** we want to take a look at a helpful Ember addon which lets us write **redesign-proof tests**: [ember-test-selectors](https://emberobserver.com/addons/ember-test-selectors)!
 
 ### What It Does
 
