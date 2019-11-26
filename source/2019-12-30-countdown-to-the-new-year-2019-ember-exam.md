@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year: Ember Exam
+title: Countdown to The New Year: ember-exam
 author: Jessica Jordan
 tags: 2019, Addons, DecEmber, Testing
 alias: 2019/12/30/countdown-to-the-new-year-2019-ember-exam
@@ -10,18 +10,18 @@ This is already the second to last edition of our December series - "Countdown t
 
 ## Day 30
 
-On the 30th day of our **Countdown to The New Year** we want to feature an exciting Ember addon to make your **test suite** fun to work with: **Ember Exam**!
+On the 30th day of our **Countdown to The New Year** we want to feature an exciting Ember addon to make your **test suite** fun to work with: **ember-exam**!
 
-Learn more about [Ember Exam on Ember Observer](https://emberobserver.com/addons/ember-exam).
+Learn more about [ember-exam on Ember Observer](https://emberobserver.com/addons/ember-exam).
 
 ### What It Does
 
-Ember Exam is an addon that allows to have more control over running your ember-qunit (Ember's default testing framework) and ember-mocha test suite. It extends from the default Ember CLI `test` command, allowing you run it as you would `ember test`.
+ember-exam is an addon that allows to have more control over running your ember-qunit (Ember's default testing framework) and ember-mocha test suite. It extends from the default Ember CLI `test` command, allowing you run it as you would `ember test`.
 
 ### Why I Like It
 
-Ember Exam allows us to run tests in parallel which can greatly reduce the overall run time of our test suite. Using the `--random` option of this addon, we are able to run tests in random order; this helps us to uncover interdependencies between test cases which would be hard to spot otherwise. And the `exam:iterate` allows us to iterate over parts of our test suite repeatedly when tracking down brittle tests.
+ember-exam allows us to run tests in parallel which can greatly reduce the overall run time of our test suite. Using the `--random` option of this addon, we are able to run tests in random order; this helps us to uncover interdependencies between test cases which would be hard to spot otherwise. And the `exam:iterate` allows us to iterate over parts of our test suite repeatedly when tracking down brittle tests.
 
-Ember Exam is our side-kick for developing a fast, robust and reliable test suite - which makes our testing workflow in Ember more predictable, more relaxed and therefore also more fun! [Check it out for yourself!](https://emberobserver.com/addons/ember-exam)
+ember-exam is our side-kick for developing a fast, robust and reliable test suite - which makes our testing workflow in Ember more predictable, more relaxed and therefore also more fun! [Check it out for yourself!](https://emberobserver.com/addons/ember-exam)
 
 And if you already use this addon, we'd love to hear about it or similar addons that bring you joy in the comments section below!
