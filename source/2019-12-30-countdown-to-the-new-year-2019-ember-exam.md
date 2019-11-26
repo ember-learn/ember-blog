@@ -16,7 +16,7 @@ Learn more about [Ember Exam on Ember Observer](https://emberobserver.com/addons
 
 ### What It Does
 
-Ember Exam is an addon that allows to have more control over running your Ember QUnit (Ember's default testing framework) and Ember Mocha test suite. It extends from the default Ember CLI `test` command, allowing you run it as you would `ember test`.
+Ember Exam is an addon that allows to have more control over running your ember-qunit (Ember's default testing framework) and ember-mocha test suite. It extends from the default Ember CLI `test` command, allowing you run it as you would `ember test`.
 
 ### Why I Like It
 
