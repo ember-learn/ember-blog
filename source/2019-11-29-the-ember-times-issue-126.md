@@ -38,7 +38,7 @@ READMORE
 
 It’s that time of year again! Please make sure to fill out the [State of JavaScript Survey](https://stateofjs.com/) and represent **Ember**!
 
-In 2018 the survey collected over 20,000 responses from developers to identify current and upcoming trends. This year, the survey is once again looking for how developers working with JavaScript from syntax, browser APIs, and mobile vs desktop web.
+In 2018 the survey collected over 20,000 responses from developers to identify current and upcoming trends. This year, the survey is once again looking for how developers use JavaScript with regards to syntax, browser APIs, and mobile vs desktop web.
 
 All questions are optional and reaching 100% completion is not required so give it a try and answer the [State of JavaScript Survey](https://stateofjs.com/) today! Hint: The survey asks about **Ember** under "Front-end Frameworks."
 
