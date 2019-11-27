@@ -1,13 +1,13 @@
 ---
 title: The Ember Times - Issue No. 126
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Represent Ember in the State of JavaScript 2019 survey 📃,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -34,13 +34,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [State of JavaScript 2019 Survey 📃](https://stateofjs.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+It’s that time of year again! Please make sure to fill out the [State of JavaScript Survey](https://stateofjs.com/) and represent **Ember**!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In 2018 the survey collected over 20,000 responses from developers to identify current and upcoming trends. This year, the survey is once again looking for how developers use JavaScript with regards to syntax, browser APIs, and mobile vs desktop web.
+
+All questions are optional and reaching 100% completion is not required so give it a try and answer the [State of JavaScript Survey](https://stateofjs.com/) today! Hint: The survey asks about **Ember** under "Front-end Frameworks."
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
