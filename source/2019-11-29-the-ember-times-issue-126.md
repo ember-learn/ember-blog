@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 126
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Represent Ember in the State of JavaScript 2019 survey 📃,
+Give thanks to Octane Guides contributors 🙏,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -54,13 +55,13 @@ All questions are optional and reaching 100% completion is not required so give 
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Latest Updates to Octane Guides 🙏](https://octane-guides-preview.emberjs.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Documentation is integral to helping us understand how to use open-source projects like Ember and its addons. Documentation is so common in our lives that we tend to overlook how much work is involved in creating and maintaining one.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Today, we extend our hearty thanks to [@sly7-7](https://github.com/sly7-7) and [@venusang](https://github.com/venusang). @sly7-7 proofread and updated several code examples in the [Octane Guides](https://octane-guides-preview.emberjs.com/), while @venusang added instructions for using element modifiers in the [Ember.js Octane vs. Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/) (we highly recommend bookmarking this page!).
+
+If you can contribute to everyone's learning today, we ask that you help **update the readme of your favorite addon** to provide code examples in Octane.
 
 ---
 
@@ -134,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
