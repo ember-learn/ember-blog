@@ -70,7 +70,7 @@ If you can contribute to everyone's learning today, we ask that you help **updat
 
 A huge shoutout and thank you are owed to [Godfrey Chan @chancancode](https://github.com/chancancode) and [Robert Wagner @rwwagner90](https://github.com/rwwagner90), the maintainer of the Ember Inspector, and everyone else involved for all their amazing work in getting the new and improved **Ember Inspector** ready for Octane! 🔥🔥🔥
 
-With the release of Octane coming soon it is welcomed news that Octane's Glimmer components work in Ember Inspector now, in both the component tree and the object inspector. Other improvements include revamping the component hover inspection tool to match Chrome's inspection style, many bug fixes and a complete rewrite of the component tree logic that is more future proof.
+With the release of Octane coming it is welcomed news that Octane's Glimmer components work in Ember Inspector now, in both the component tree and the object inspector. Other improvements include revamping the component hover inspection tool to match Chrome's inspection style, many bug fixes and a complete rewrite of the component tree logic that is more future proof.
 
 [Godfrey Chan @chancancode](https://github.com/chancancode), in particular, is owed a big thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
 
