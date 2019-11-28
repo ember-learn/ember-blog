@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 126
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Represent Ember in the State of JavaScript 2019 survey 📃,
 Give thanks to Octane Guides contributors 🙏,
+More Improvements Coming to Ember Inspector Soon 🚀,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -65,13 +66,17 @@ If you can contribute to everyone's learning today, we ask that you help **updat
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [More Improvements Coming to Ember Inspector Soon 🚀](https://github.com/emberjs/ember-inspector/pull/1088)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+A huge shoutout and thank you are owed to [Godfrey Chan @chancancode](https://github.com/chancancode) and [Robert Wagner @rwwagner90](https://github.com/rwwagner90), the maintainer of the Ember Inspector, and everyone else involved for all their amazing work in getting the new and improved **Ember Inspector** ready for Octane! 🔥🔥🔥
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+With the release of Octane coming soon it is welcomed news that Octane's Glimmer components work in Ember Inspector now, in both the component tree and the object inspector. Other improvements include revamping the component hover inspection tool to match Chrome's inspection style, many bug fixes and a complete rewrite of the component tree logic that is more future proof.
+
+[Godfrey Chan @chancancode](https://github.com/chancancode), in particular, is owed a special thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
+
+Also many thanks to [Patrick @patricklx](https://github.com/patricklx) for a lot of recent work in getting inspector ready for Octane, including compatibility with Octane's tracked properties.
+
+If you'd like to help test out all the new functionality, there is an open [PR with the changes](https://github.com/emberjs/ember-inspector/pull/1088). Please let [Robert Wagner @rwwagner90](https://github.com/rwwagner90) and the Inspector team know if you encounter any issues!
 
 ---
 
@@ -135,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis the crowd and the Learning Team
