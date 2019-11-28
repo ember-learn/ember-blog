@@ -72,7 +72,7 @@ A huge shoutout and thank you are owed to [Godfrey Chan @chancancode](https://gi
 
 With the release of Octane coming soon it is welcomed news that Octane's Glimmer components work in Ember Inspector now, in both the component tree and the object inspector. Other improvements include revamping the component hover inspection tool to match Chrome's inspection style, many bug fixes and a complete rewrite of the component tree logic that is more future proof.
 
-[Godfrey Chan @chancancode](https://github.com/chancancode), in particular, is owed a special thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
+[Godfrey Chan @chancancode](https://github.com/chancancode), in particular, is owed a big thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
 
 Also many thanks to [Patrick @patricklx](https://github.com/patricklx) for a lot of recent work in getting inspector ready for Octane, including compatibility with Octane's tracked properties.
 
