@@ -6,7 +6,7 @@ alias: 2019/12/30/countdown-to-the-new-year-2019-ember-exam
 responsive: true
 ---
 
-This is already the second to last edition of our December series - "Countdown to The New Year: 31 Days of Ember Addons".  In this series we are highlighting a new addon each day until the new year, and we hope you'll join us for the fun!
+This is already the second to last edition of our December series - "Countdown to The New Year: 31 Days of Ember Addons". In this series we are highlighting a new addon each day until the new year, and we hope you'll join us for the fun!
 
 ## Day 30
 
