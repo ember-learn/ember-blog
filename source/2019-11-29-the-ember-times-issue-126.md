@@ -57,7 +57,7 @@ All questions are optional and reaching 100% completion is not required so give 
 
 ## [Latest Updates to Octane Guides 🙏](https://octane-guides-preview.emberjs.com/)
 
-Documentation is integral to helping us understand how to use open-source projects like Ember and its addons. Documentation is so common in our lives that we tend to overlook how much work is involved in creating and maintaining one.
+Documentation is integral to helping us understand how to use open source projects like Ember and its addons. Documentation is so common in our lives that we tend to overlook how much work is involved in creating and maintaining one.
 
 Today, we extend our hearty thanks to [@sly7-7](https://github.com/sly7-7) and [@venusang](https://github.com/venusang). @sly7-7 proofread and updated several code examples in the [Octane Guides](https://octane-guides-preview.emberjs.com/), while @venusang added instructions for using element modifiers in the [Ember.js Octane vs. Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/) (we highly recommend bookmarking this page!).
 
