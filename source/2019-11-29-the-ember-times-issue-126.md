@@ -10,7 +10,7 @@ responsive: true
 Represent Ember in the State of JavaScript 2019 survey 📃,
 Give thanks to Octane Guides contributors 🙏,
 Ember + Tailwind CSS tips and tricks 🎨,
-Ember just got more real with RealWorld 🌟,
+Ember got more real with RealWorld 🌟,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
