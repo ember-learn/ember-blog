@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 126
-author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
@@ -11,6 +11,7 @@ Represent Ember in the State of JavaScript 2019 survey 📃,
 Give thanks to Octane Guides contributors 🙏,
 Ember + Tailwind CSS tips and tricks 🎨,
 Ember got more real with RealWorld 🌟,
+the EmberConf CfP closing on **Dec 1st**,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -52,7 +53,7 @@ All questions are optional and reaching 100% completion is not required so give 
 
 Are you on the functional CSS train 🚂? Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. [Balint Erdi (@balinterdi)](https://github.com/balinterdi) recently blogged about Ember, Tailwind and PostCSS. In [his first post](https://www.balinterdi.com/blog/ember-tailwind-css-postcss-import/), Balint explains how with [ember-auto-import](https://github.com/ef4/ember-auto-import), you can use [Tailwind](https://tailwindcss.com/) directly versus relying on the Ember-specific integrator package. (ember-cli-tailwind was deprecated, because this worked so well!) However, to make your Ember app integrate nicely with Post CSS, Balint suggests sticking with the integrator add-on [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss). Check out [post-css-import](https://github.com/postcss/postcss-import) to be able to import styles from other files.
 
-In his [second post](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/), Balint details how he added Purgecss to the mix. [Purgecss](https://www.purgecss.com/) is a library that removes unused CSS, thus reducing the bundle size. Be sure to check out [Chris Masters (@chrism)](https://github.com/chrism)'s working example in his detailed **[emberjs-tailwind-purgecss README](https://github.com/chrism/emberjs-tailwind-purgecss)**. Balint also touches on using Purgecss only in production, which has its pros and cons. We definitely enjoyed the discussion about these blog posts on the [Twitter thread](https://twitter.com/baaz/status/1198982126860935168). Happy Tailwind-ing! 
+In his [second post](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/), Balint details how he added Purgecss to the mix. [Purgecss](https://www.purgecss.com/) is a library that removes unused CSS, thus reducing the bundle size. Be sure to check out [Chris Masters (@chrism)](https://github.com/chrism)'s working example in his detailed **[emberjs-tailwind-purgecss README](https://github.com/chrism/emberjs-tailwind-purgecss)**. Balint also touches on using Purgecss only in production, which has its pros and cons. We definitely enjoyed the discussion about these blog posts on the [Twitter thread](https://twitter.com/baaz/status/1198982126860935168). Happy Tailwind-ing!
 
 ---
 
@@ -76,7 +77,7 @@ The implementation showcases a classic Ember.js app using the most idiomatic Emb
 
 The RealWorld project has a rating system based on GitHub stars. Currently Ember RealWorld has been starred by community members 58 times, but we believe there could be so many more! To make the repo reflect the real world usage of Ember on the web, [go and vote with your stars](https://github.com/gothinkster/ember-realworld) 🌟!
 
-P.S. Look out for an Octane implementation coming soon to a GitHub repo near you 🍿. 
+P.S. Look out for an Octane implementation coming soon to a GitHub repo near you 🍿.
 
 ---
 
@@ -90,13 +91,16 @@ P.S. Look out for an Octane implementation coming soon to a GitHub repo near you
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Get Your Talk Proposals Ready for EmberConf by Dec 1st 🎙](https://emberconf.com/#/become-a-speaker)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+EmberConf, the biggest, annual conference about Ember taking place in Portland, US from March 16 - 18, 2020, is accepting talk proposals from the community - but only until **Dec 1st, 12am MST** (= Dec 1st, 7am UTC). This means, in case you haven't done so already, it's about time to [get your amazing conference proposal submitted](https://emberconf.com/#/become-a-speaker)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The EmberConf Call for Papers (CfP) is public, starts out anonymous, and features a collaborative process to help applicants improve their proposals.
+
+Why should you become a speaker? Because this is a unique opportunity to share your knowledge, opinion and experience with the wider community! No matter if you are a first time speaker or an experienced presenter, this is your chance to present your ideas in the form of a **30 min** session or a **15min** mini talk.
+
+[Be sure to submit your talk idea this weekend](https://emberconf.com/#/become-a-speaker) and in case you still need some inspiration: be sure to checkout [this year's EmberConf CfP brainstorm](https://emberconf.com/#/cfp-brainstorm) for feedback from the programme committee! Fingers crossed!
+
 
 ---
 
@@ -112,7 +116,7 @@ P.S. Look out for an Octane implementation coming soon to a GitHub repo near you
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/tniezurawski" target="gh-user">@tniezurawski</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/kanongil" target="gh-user">@kanongil</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/MarcoUmpierrez" target="gh-user">@MarcoUmpierrez</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a> and <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -140,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jessica Jordan, the crowd and the Learning Team
