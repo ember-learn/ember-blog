@@ -72,7 +72,7 @@ If you can contribute to everyone's learning today, we ask that you help **updat
 
 The Ember Realworld implementation is finally complete! It was started over two years ago by [@Alonski](https://github.com/Alonski) and after all this time is finally feature complete. A large number of contributors helped out along the way: [@jonnii](https://github.com/jonnii), [@alexlafroscia](https://github.com/alexlafroscia), [@delusioninabox](https://github.com/delusioninabox), [@patocallaghan](https://github.com/patocallaghan), [@GCheung55](https://github.com/GCheung55), [mansona](https://github.com/mansona), [@johpol](https://github.com/johpol)
 
-The implementation showcases a class Ember.js app using the most idiomatic Ember patterns to serve as an example for the wider community. Feel free to look through the codebase and even offer suggestions, PRs or comments regarding how the app is built. There is always room for improvements. We are definitely looking for performance improvements so if thats your cup of tea ☕ please contribute.
+The implementation showcases a classic Ember.js app using the most idiomatic Ember patterns to serve as an example for the wider community. Feel free to look through the codebase and even offer suggestions, PRs or comments regarding how the app is built. There is always room for improvements. We are, for example, looking for performance improvements, so if that's your cup of tea ☕, please contribute.
 
 The RealWorld project has a rating system based on GitHub stars. Currently Ember RealWorld has 58 stars while the React/Redux implementation has over 3000. Can we band together and show that Ember is actually used in the "RealWorld"? Go and vote with your stars 🌟!
 
