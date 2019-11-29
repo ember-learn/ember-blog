@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 126
-author: Chris Ng, Isaac Lee, Amy Lam, the crowd
+author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 Represent Ember in the State of JavaScript 2019 survey 📃,
 Give thanks to Octane Guides contributors 🙏,
 Ember + Tailwind CSS tips and tricks 🎨,
+Ember just got more real with RealWorld 🌟,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -65,13 +66,17 @@ If you can contribute to everyone's learning today, we ask that you help **updat
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Ember RealWorld App is Feature Complete 🌠](https://github.com/gothinkster/ember-realworld)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[RealWorld](https://github.com/gothinkster/realworld), "The mother of all demo apps", is an Open Source initiative to showcase a full stack app build using any frontend or backend framework/library. It provides a spec for both the API and the frontend. The idea is to show how a "real world" app can be built using different frameworks/libraries.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The Ember Realworld implementation is finally complete! It was started over two years ago by [@Alonski](https://github.com/Alonski) and after all this time is finally feature complete. A large number of contributors helped out along the way: [@jonnii](https://github.com/jonnii), [@alexlafroscia](https://github.com/alexlafroscia), [@delusioninabox](https://github.com/delusioninabox), [@patocallaghan](https://github.com/patocallaghan), [@GCheung55](https://github.com/GCheung55), [mansona](https://github.com/mansona), [@johpol](https://github.com/johpol)
+
+The implementation showcases a class Ember.js app using the most idiomatic Ember patterns to serve as an example for the wider community. Feel free to look through the codebase and even offer suggestions, PRs or comments regarding how the app is built. There is always room for improvements. We are definitely looking for performance improvements so if thats your cup of tea ☕ please contribute.
+
+The RealWorld project has a rating system based on GitHub stars. Currently Ember RealWorld has 58 stars while the React/Redux implementation has over 3000. Can we band together and show that Ember is actually used in the "RealWorld"? Go and vote with your stars 🌟!
+
+P.S. Look out for an Octane implementation coming soon to a GitHub repo near you 🍿. 
 
 ---
 
@@ -135,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, the crowd and the Learning Team
