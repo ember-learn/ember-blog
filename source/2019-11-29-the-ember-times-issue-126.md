@@ -1,41 +1,36 @@
 ---
 title: The Ember Times - Issue No. 126
-author: Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, Alon Bukai, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Represent Ember in the State of JavaScript 2019 survey 📃,
-Give thanks to Octane Guides contributors 🙏,
-Ember + Tailwind CSS tips and tricks 🎨,
+👋 Emberistas! 🐹
+
+More Improvements Coming to Ember Inspector Soon 🚀,
+represent Ember in the State of JavaScript 2019 survey 📃,
+give thanks to Octane Guides contributors 🙏,
 Ember got more real with RealWorld 🌟,
-the EmberConf CfP closing on **Dec 1st**,
-...
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+the EmberConf CfP closing on Dec 1st 📆,
+and Ember + Tailwind CSS tips and tricks 🎨!
+
 
 READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [More Improvements Coming to Ember Inspector Soon 🚀](https://github.com/emberjs/ember-inspector/pull/1088)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+A huge shoutout and thank you are owed to [Godfrey Chan @chancancode](https://github.com/chancancode) and [Robert Wagner @rwwagner90](https://github.com/rwwagner90), the maintainers of the Ember Inspector, and everyone else involved for all their amazing work in getting the new and improved **Ember Inspector** ready for Octane! 🔥🔥🔥
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+With the release of Octane coming it is welcomed news that Octane's Glimmer components work in Ember Inspector now, in both the component tree and the object inspector. Other improvements include revamping the component hover inspection tool to match Chrome's inspection style, many bug fixes and a complete rewrite of the component tree logic that is more future proof.
 
----
+[Godfrey Chan @chancancode](https://github.com/chancancode), in particular, is owed a big thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
 
-## [Section Title in Title Case 🐹](#section-url)
+Also many thanks to [Patrick @patricklx](https://github.com/patricklx) for a lot of recent work in getting inspector ready for Octane, including compatibility with Octane's tracked properties.
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you'd like to help test out all the new functionality, there is an open [PR with the changes](https://github.com/emberjs/ember-inspector/pull/1088). Please let [Robert Wagner @rwwagner90](https://github.com/rwwagner90) and the Inspector team know if you encounter any issues!
 
 ---
 
@@ -46,14 +41,6 @@ It’s that time of year again! Please make sure to fill out the [State of JavaS
 In 2018 the survey collected over 20,000 responses from developers to identify current and upcoming trends. This year, the survey is once again looking for how developers use JavaScript with regards to syntax, browser APIs, and mobile vs desktop web.
 
 All questions are optional and reaching 100% completion is not required so give it a try and answer the [State of JavaScript Survey](https://stateofjs.com/) today! Hint: The survey asks about **Ember** under "Front-end Frameworks."
-
----
-
-## [All Things Ember and Tailwind 🎨](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/)
-
-Are you on the functional CSS train 🚂? Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. [Balint Erdi (@balinterdi)](https://github.com/balinterdi) recently blogged about Ember, Tailwind and PostCSS. In [his first post](https://www.balinterdi.com/blog/ember-tailwind-css-postcss-import/), Balint explains how with [ember-auto-import](https://github.com/ef4/ember-auto-import), you can use [Tailwind](https://tailwindcss.com/) directly versus relying on the Ember-specific integrator package. (ember-cli-tailwind was deprecated, because this worked so well!) However, to make your Ember app integrate nicely with Post CSS, Balint suggests sticking with the integrator add-on [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss). Check out [post-css-import](https://github.com/postcss/postcss-import) to be able to import styles from other files.
-
-In his [second post](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/), Balint details how he added Purgecss to the mix. [Purgecss](https://www.purgecss.com/) is a library that removes unused CSS, thus reducing the bundle size. Be sure to check out [Chris Masters (@chrism)](https://github.com/chrism)'s working example in his detailed **[emberjs-tailwind-purgecss README](https://github.com/chrism/emberjs-tailwind-purgecss)**. Balint also touches on using Purgecss only in production, which has its pros and cons. We definitely enjoyed the discussion about these blog posts on the [Twitter thread](https://twitter.com/baaz/status/1198982126860935168). Happy Tailwind-ing!
 
 ---
 
@@ -81,16 +68,6 @@ P.S. Look out for an Octane implementation coming soon to a GitHub repo near you
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Get Your Talk Proposals Ready for EmberConf by Dec 1st 🎙](https://emberconf.com/#/become-a-speaker)
 
 EmberConf, the biggest, annual conference about Ember taking place in Portland, US from March 16 - 18, 2020, is accepting talk proposals from the community - but only until **Dec 1st, 12am MST** (= Dec 1st, 7am UTC). This means, in case you haven't done so already, it's about time to [get your amazing conference proposal submitted](https://emberconf.com/#/become-a-speaker)!
@@ -101,16 +78,13 @@ Why should you become a speaker? Because this is a unique opportunity to share y
 
 [Be sure to submit your talk idea this weekend](https://emberconf.com/#/become-a-speaker) and in case you still need some inspiration: be sure to checkout [this year's EmberConf CfP brainstorm](https://emberconf.com/#/cfp-brainstorm) for feedback from the programme committee! Fingers crossed!
 
-
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [All Things Ember and Tailwind 🎨](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Are you on the functional CSS train 🚂? Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. [Balint Erdi (@balinterdi)](https://github.com/balinterdi) recently blogged about Ember, Tailwind and PostCSS. In [his first post](https://www.balinterdi.com/blog/ember-tailwind-css-postcss-import/), Balint explains how with [ember-auto-import](https://github.com/ef4/ember-auto-import), you can use [Tailwind](https://tailwindcss.com/) directly versus relying on the Ember-specific integrator package. (ember-cli-tailwind was deprecated, because this worked so well!) However, to make your Ember app integrate nicely with Post CSS, Balint suggests sticking with the integrator add-on [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss). Check out [post-css-import](https://github.com/postcss/postcss-import) to be able to import styles from other files.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In his [second post](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/), Balint details how he added Purgecss to the mix. [Purgecss](https://www.purgecss.com/) is a library that removes unused CSS, thus reducing the bundle size. Be sure to check out [Chris Masters (@chrism)](https://github.com/chrism)'s working example in his detailed **[emberjs-tailwind-purgecss README](https://github.com/chrism/emberjs-tailwind-purgecss)**. Balint also touches on using Purgecss only in production, which has its pros and cons. We definitely enjoyed the discussion about these blog posts on the [Twitter thread](https://twitter.com/baaz/status/1198982126860935168). Happy Tailwind-ing!
 
 ---
 
@@ -144,4 +118,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam, Alon Bukai, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Alon Bukai, Jessica Jordan, Amy Lam and the Learning Team
