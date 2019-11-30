@@ -22,15 +22,15 @@ READMORE
 
 ## [More Improvements Coming to Ember Inspector Soon 🚀](https://github.com/emberjs/ember-inspector/pull/1088)
 
-A huge shoutout and thank you are owed to [Godfrey Chan @chancancode](https://github.com/chancancode) and [Robert Wagner @rwwagner90](https://github.com/rwwagner90), the maintainers of the Ember Inspector, and everyone else involved for all their amazing work in getting the new and improved **Ember Inspector** ready for Octane! 🔥🔥🔥
+A huge shoutout and thank you are owed to [Godfrey Chan (@chancancode)](https://github.com/chancancode) and [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90), the maintainers of the Ember Inspector, and everyone else involved for all their amazing work in getting the new and improved **Ember Inspector** ready for Octane! 🔥🔥🔥
 
 With the release of Octane coming it is welcomed news that Octane's Glimmer components work in Ember Inspector now, in both the component tree and the object inspector. Other improvements include revamping the component hover inspection tool to match Chrome's inspection style, many bug fixes and a complete rewrite of the component tree logic that is more future proof.
 
-[Godfrey Chan @chancancode](https://github.com/chancancode), in particular, is owed a big thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
+[Godfrey Chan (@chancancode)](https://github.com/chancancode), in particular, is owed a big thanks for helping design the `captureRenderTree` API in Ember that was needed to provide the Inspector with the information it needs and for providing a polyfill, so it works seamlessly across versions.
 
-Also many thanks to [Patrick @patricklx](https://github.com/patricklx) for a lot of recent work in getting inspector ready for Octane, including compatibility with Octane's tracked properties.
+Also many thanks to [Patrick (@patricklx)](https://github.com/patricklx) for a lot of recent work in getting inspector ready for Octane, including compatibility with Octane's tracked properties.
 
-If you'd like to help test out all the new functionality, there is an open [PR with the changes](https://github.com/emberjs/ember-inspector/pull/1088). Please let [Robert Wagner @rwwagner90](https://github.com/rwwagner90) and the Inspector team know if you encounter any issues!
+If you'd like to help test out all the new functionality, there is an open [PR with the changes](https://github.com/emberjs/ember-inspector/pull/1088). Please let [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and the Inspector team know if you encounter any issues!
 
 ---
 
@@ -56,13 +56,13 @@ If you can contribute to everyone's learning today, we ask that you help **updat
 
 ## [Ember RealWorld App is Feature Complete 🌠](https://github.com/gothinkster/ember-realworld)
 
-[RealWorld](https://github.com/gothinkster/realworld), "The mother of all demo apps", is an Open Source initiative to showcase a full stack app build using any frontend or backend framework/library. It provides a spec for both the API and the frontend. The idea is to show how a "real world" app can be built using different frameworks/libraries.
+[RealWorld](https://github.com/gothinkster/realworld), "the mother of all demo apps", is an open source initiative to showcase a full stack app build using any frontend or backend framework/library. It provides a spec for both the API and the frontend. The idea is to show how a "real world" app can be built using different frameworks/libraries.
 
-The Ember RealWorld implementation is finally complete! It was started over two years ago by [@Alonski](https://github.com/Alonski) and after all this time is finally feature complete. A large number of contributors helped out along the way: [@jonnii](https://github.com/jonnii), [@alexlafroscia](https://github.com/alexlafroscia), [@delusioninabox](https://github.com/delusioninabox), [@patocallaghan](https://github.com/patocallaghan), [@GCheung55](https://github.com/GCheung55), [@mansona](https://github.com/mansona), [@johpol](https://github.com/johpol)
+The Ember RealWorld implementation is finally complete! It was started over two years ago by [Alon Bukai (@Alonski)](https://github.com/Alonski) and after all this time is finally feature complete. A large number of contributors helped out along the way: [Jonathan Goldman (@jonnii)](https://github.com/jonnii), [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia), [Laura Kajpust (@delusioninabox)](https://github.com/delusioninabox), [Pat O'Callaghan (@patocallaghan)](https://github.com/patocallaghan), [Garrick Cheung (@GCheung55)](https://github.com/GCheung55), [Chris Manson (@mansona)](https://github.com/mansona), and [John (@johpol)](https://github.com/johpol).
 
 The implementation showcases a classic Ember.js app using the most idiomatic Ember patterns to serve as an example for the wider community. Feel free to look through the codebase and even offer suggestions, PRs or comments regarding how the app is built. There is always room for improvements. We are, for example, looking for performance improvements, so if that's your cup of tea ☕, please contribute.
 
-The RealWorld project has a rating system based on GitHub stars. Currently Ember RealWorld has been starred by community members 58 times, but we believe there could be so many more! To make the repo reflect the real world usage of Ember on the web, [go and vote with your stars](https://github.com/gothinkster/ember-realworld) 🌟!
+The RealWorld project has a rating system based on GitHub stars. Currently Ember RealWorld has been starred by community members 60 times, but we believe there could be so many more! To make the repo reflect the real world usage of Ember on the web, [go and vote with your stars](https://github.com/gothinkster/ember-realworld) 🌟!
 
 P.S. Look out for an Octane implementation coming soon to a GitHub repo near you 🍿.
 
