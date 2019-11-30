@@ -15,7 +15,6 @@ Ember got more real with RealWorld 🌟,
 the EmberConf CfP closing on Dec 1st 📆,
 and Ember + Tailwind CSS tips and tricks 🎨!
 
-
 READMORE
 
 ---
@@ -31,6 +30,8 @@ With the release of Octane coming it is welcomed news that Octane's Glimmer comp
 Also many thanks to [Patrick (@patricklx)](https://github.com/patricklx) for a lot of recent work in getting inspector ready for Octane, including compatibility with Octane's tracked properties.
 
 If you'd like to help test out all the new functionality, there is an open [PR with the changes](https://github.com/emberjs/ember-inspector/pull/1088). Please let [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and the Inspector team know if you encounter any issues!
+
+<img src="/images/blog/emberjstimes/inspector.gif">
 
 ---
 
