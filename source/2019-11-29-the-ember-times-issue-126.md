@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 126
 author: Chris Ng, Isaac Lee, Jared Galanis, Alon Bukai, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/11/29-the-ember-times-issue-126.html"
 responsive: true
 ---
