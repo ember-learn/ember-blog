@@ -18,7 +18,7 @@ The `ember-cli-mirage` addon is a client-side server to help you build, test, an
 
 ### Why I Like It
 
-As I was informally polling the community about their favorite Ember addons, ember-cli-mirage came up- A LOT. For good reason, too- it's well-supported by the addon maintainers, there's a dedicated [documentation site](https://www.ember-cli-mirage.com/), and there's support on the [Ember Community Discord server](https://discord.gg/emberjs) in the #ec-mirage channel. 
+As I was informally polling the community about their favorite Ember addons, ember-cli-mirage came up A LOT. For good reason, too. It's well-supported by the addon maintainers, there's a dedicated [documentation site](https://www.ember-cli-mirage.com/), and there's support on the [Ember Community Discord server](https://discord.gg/emberjs) in the #ec-mirage channel. 
 
 > "It’s a part of the ecosystem I dearly miss when I work with other frameworks."
 
