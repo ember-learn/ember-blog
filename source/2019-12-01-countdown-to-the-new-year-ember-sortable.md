@@ -29,4 +29,4 @@ The addon now provides a keyboard-only way to sort a group of items-
 
 I really like the way this existing addon was improved to make it more accessible, and am both encouraged and excited to see accessibility have an increased focus in the Ember community.
 
-Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy! 
+Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!
