@@ -12,6 +12,8 @@ This is the second in our December series–"Countdown to The New Year: 31 Days 
 
 Today we are going to look at one of our community's most popular addons- [ember-cli-mirage](https://emberobserver.com/addons/ember-cli-mirage). 
 
+READMORE
+
 ### What It Does
 
 The `ember-cli-mirage` addon is a client-side server to help you build, test, and demo your Ember app. It helps developers be more productive by providing ways to generate fake data, allowing front-end engineers to spend more time focusing on the UI. 
