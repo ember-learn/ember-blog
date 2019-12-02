@@ -22,6 +22,6 @@ As I was informally polling the community about their favorite Ember addons, emb
 
 > "It’s a part of the ecosystem I dearly miss when I work with other frameworks."
 
-As an extra bonus, EmberMap has generously made their ["Mirage Tips and Tricks" video series](https://embermap.com/topics/mirage-tips-and-tricks) free to everyone (usually for subscribers only!) for December- be sure to check it out! 
+As an extra bonus, EmberMap has generously made their ["Mirage Tips and Tricks" video series](https://embermap.com/topics/mirage-tips-and-tricks) free to everyone (usually for subscribers only!) for December. Be sure to check it out! 
 
 Do you use this addon? [Or one like it?](https://emberobserver.com/categories/mocking,-fixtures,-and-factories) We'd love to hear about the Ember addons that bring you joy!
