@@ -8,17 +8,22 @@ assignees: ''
 ---
 
 ## Goal
+
 Write a short blog post for the December blog series that is similar to the [example post]( https://github.com/ember-learn/ember-blog/blob/be8f29ba0ae8b5367d1758b1a150c1b503812a77/source/2019-12-01-countdown-to-the-new-year-ember-sortable.md).
 
 ## Criteria
 
--  [ ] file name should 2019-12-DD-countdown-to-the-new-year-ADDON-NAME.md where DD is replaced with the day and ADDON-NAME is replaced with the hyphenated name of the addon
+- [ ] file name should 2019-12-DD-countdown-to-the-new-year-ADDON-NAME.md where DD is replaced with the day and ADDON-NAME is replaced with the hyphenated name of the addon
 - [ ] The opening sentence should be updated where COUNT is the sequential ordinal word. 
 
-```
-<b>This is the COUNT in our DecEmber series- <i>"Countdown to The New Year: 31 Days of 
-Ember Addons"</i>.  We plan to highlight a new addon each day until the new year, and 
-we hope you'll join us for the fun!</b>
+```markdown
+**This is the COUNT in our DecEmber series- <span style="font-style: italic;">"Countdown to The New Year: 31 Days of Ember Addons"</span>. We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+
+## Day COUNT
+
+To kick things off, we're going to look at [](). 
+
+READMORE
 ```
 
 - [ ] The first h2 should be "Day NUM" where NUM is the same as the DD in the date.

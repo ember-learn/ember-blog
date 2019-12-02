@@ -12,6 +12,8 @@ responsive: true
 
 To kick things off, we're going to look at [ember-sortable](https://emberobserver.com/addons/ember-sortable). 
 
+READMORE
+
 ### What It Does
 
 The `ember-sortable` addon provides sortable UI primitives for Ember apps- this is super useful in the sense that teams don't have to reinvent this very common pattern every time they need it for their own applications! 
