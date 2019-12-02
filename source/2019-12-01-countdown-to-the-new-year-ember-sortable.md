@@ -6,7 +6,7 @@ alias: 2019-12-01-countdown-to-the-new-year-ember-sortable.md
 responsive: true
 ---
 
-<b>This is the first in our DecEmber series- <i>"Countdown to The New Year: 31 Days of Ember Addons"</i>.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!</b>
+**This is the first in our DecEmber series- <span style="font-style: italic;">"Countdown to The New Year: 31 Days of Ember Addons"</span>. We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 1
 
