@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year: Ember CLI Mirage
+title: Countdown to The New Year- Ember CLI Mirage
 author: Melanie Sumner
 tags: 2019, Addons, DecEmber
 alias: 2019-12-02-countdown-to-the-new-year-ember-cli-mirage.md
