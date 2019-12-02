@@ -6,7 +6,7 @@ alias: 2019-12-02-countdown-to-the-new-year-ember-cli-mirage.md
 responsive: true
 ---
 
-This is the second in our December series–"Countdown to The New Year: 31 Days of Ember Addons".  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun! 
+<div class="cta-note">This is the second in our December series–"Countdown to The New Year: 31 Days of Ember Addons".  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!</div>
 
 ## Day 2
 
