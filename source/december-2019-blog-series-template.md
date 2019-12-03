@@ -14,21 +14,25 @@ Write a short blog post for the December blog series that is similar to the [exa
 ## Criteria
 
 - [ ] file name should 2019-12-DD-countdown-to-the-new-year-ADDON-NAME.md where DD is replaced with the day and ADDON-NAME is replaced with the hyphenated name of the addon
-- [ ] The opening sentence should be updated where COUNT is the sequential ordinal word. 
+- [ ] copy the file `december-2019-template.md` to a new one in the `source/` directory. On Unix terminals you can e.g. run the following while you are in the root directory of the blog project: `cp source/december-2019-template.md source/2019-12-DD-countdown-to-the-new-year-ADDON-NAME.md` where DD should be replaced with the two digit release date of your post and ADDON NAME as described in step 1
+- [ ] The opening sentence should be updated where COUNT is the sequential ordinal word.
 
 ```markdown
 **This is the COUNT in our DecEmber series- <span style="font-style: italic;">"Countdown to The New Year: 31 Days of Ember Addons"</span>. We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day COUNT
 
-To kick things off, we're going to look at [](). 
+To kick things off, we're going to look at []().
 
 READMORE
 ```
 
 - [ ] The first h2 should be "Day NUM" where NUM is the same as the DD in the date.
 - [ ] the link to the addon should point to the page on Ember Observer
-- [ ] There should be two sub sections: (both h3)- "What it does" and "Why I like it" 
+- [ ] There should be two sub sections: (both h3)- "What it does" and "Why I like it"
 - [ ] Include whether or not the addon has been updated yet for Ember Octane- if not, invite contributors to help get the addon Octane ready.
-- [ ] The closing sentence can be slightly altered but should feel similar: 
+- [ ] The closing sentence can be slightly altered but should feel similar:
 "Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!"
+- [ ] Update the metadata in the header of the file to reflect the content of your post. Add your addon's name into the title (title), your own name (author) and update the date of the post (alias)
+- [ ] Send a PR to the [ember-learn/ember-blog repo]() and assign [@MelSumner](https://github.com/MelSumner), [@amyrlam](https://github.com/amyrlam), [@jenweber](https://github.com/jenweber) or [@jessica-jordan](https://github.com/jessica-jordan) for review
+- [ ] And last, but not least: Celebrate your efforts to contribute to the Ember blog! 🎉

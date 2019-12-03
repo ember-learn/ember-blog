@@ -69,7 +69,7 @@ The process to publish a new weekly post is as follows:
 - Once the new blog post file is complete, the newly created branch is merged back into the website
 - As a last step, the content is copied over to [Goodbits](https://the-emberjs-times.ongoodbits.com/), which is the tool currently being used to send the newsletter and manage its subscriptions
 
-The Reader's Questions section of the newsletter is usually answered by core team members, but anyone can give a helping hand. 
+The Reader's Questions section of the newsletter is usually answered by core team members, but anyone can give a helping hand.
 The answers are posted on [discuss.emberjs.com](https://discuss.emberjs.com/) and linked back to the weekly blog post.
 
 ### Writing Style Guide
@@ -103,11 +103,11 @@ A typical Git forking workflow can be used to contribute:
 - Clone the repo in your own machine
 - Set upstream: `git remote add upstream https://github.com/ember-learn/ember-blog`
 - Fetch upstream: `git fetch upstream`
-- Switch to the most current Ember Times branch, they usually follow the format: `blog/embertimes-#` 
+- Switch to the most current Ember Times branch, they usually follow the format: `blog/embertimes-#`
 
 For example, switch to this branch for issue 92: `blog/embertimes-92`
 
-`git checkout blog/embertimes-92` 
+`git checkout blog/embertimes-92`
 
 - Find the latest blog issue template at `source/YYYY-MM-DD-the-ember-times-issue-#.md`
 
@@ -134,10 +134,14 @@ git commit -m "you-commit-message-here"
 
 `git push --set-upstream origin blog/embertimes-#`
 
-- Create a pull request from your repo on Github. 
+- Create a pull request from your repo on Github.
 
-There should be an open pull request titled: `[WIP] The Ember Times No. #` Please include reference to this PR in your pull request. 
+There should be an open pull request titled: `[WIP] The Ember Times No. #` Please include reference to this PR in your pull request.
 
 For example: "Add a section to Ember Times [`#46`](https://github.com/ember-learn/ember-blog/pull/46)"
 
 Thank you for contributing to Ember Times!
+
+## December
+
+In December 2019 we are organising a blog series featuring an interesting addon each day. If you want to contribute, please claim one of the `December` issues in the [`ember-learn/ember-blog` repository](https://github.com/ember-learn/ember-blog/issues?q=is%3Aissue+is%3Aopen+december) and review [our December Contribution Guide to get started!](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-blog-series-template.md)
