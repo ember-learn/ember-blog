@@ -20,7 +20,7 @@ The `ember-modifier` addon provides an API for authoring element modifiers in Em
 
 A modifier can add customized, automatic behavior to a DOM element, such as tracking scroll position or adding new event listeners. After you write a modifier, you can use it in a template like this:
 
-```
+```handlebars
 <div {{my-modifier}}>
   Some more content
 </div>
