@@ -96,7 +96,7 @@ READMORE
 
 ## [Release v3.0.0 of ember-test-selectors 🎉](https://twitter.com/simplabs/status/1197882267944792064)
 
-[ember-test-selectors](https://github.com/simplabs/ember-test-selectors) the addon that provides better element selectors in Ember.js tests released [v3.0.0](https://github.com/simplabs/ember-test-selectors/releases/tag/v3.0.0). The main breaking changes in this major release are dropping support for older Ember.js, Ember CLI and Node.js versions (Ember.js 2.16 or above, Ember CLI 2.14 or above, Node.js 8 or above).
+[ember-test-selectors](https://github.com/simplabs/ember-test-selectors) - the addon that provides better element selectors in Ember.js tests - released [v3.0.0](https://github.com/simplabs/ember-test-selectors/releases/tag/v3.0.0). The main breaking changes in this major release are dropping support for older Ember.js, Ember CLI and Node.js versions (Ember.js 2.16 or above, Ember CLI 2.14 or above, Node.js 8 or above).
 
 The release also comes with some improvements that might decrease your build times so update your dependency today!
 
