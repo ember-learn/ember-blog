@@ -17,6 +17,16 @@ READMORE
 
 The `ember-modifier` addon provides an API for authoring element modifiers in Ember. It mirrors Ember's [helper API](https://api.emberjs.com/ember/3.14/classes/Ember.Templates.helpers), and has forms for writing both simple functional modifiers and more complicated class modifiers.
 
+A modifier can add special, automatic behavior to a DOM element, such as tracking scroll position or adding new event listeners. After you write a modifier, you can use it in a template like this:
+
+```
+<div {{my-modifier}}>
+  Some more content
+</div>
+```
+
+Developers who have tried out the Octane preview might already be familiar with [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers), which provide some modifiers like `{{did-insert}}` out of the box. With ember-modifiers, you can go beyond the box to build whatever your app needs! 
+
 For an in-depth look at modifiers in Ember, checkout [pzuraq's](https://github.com/pzuraq) blog post about [modifiers in Ember Octane](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html). 
 
 ### Why I Like It
