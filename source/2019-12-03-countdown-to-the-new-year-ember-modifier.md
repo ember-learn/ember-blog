@@ -28,7 +28,7 @@ A modifier can add customized, automatic behavior to a DOM element, such as trac
 
 Developers who have tried out the Octane preview might already be familiar with [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers), which provide some modifiers like `{{did-insert}}` out of the box. With ember-modifiers, you can go beyond the box to build whatever your app needs! 
 
-For an in-depth look at modifiers in Ember, checkout [pzuraq's](https://github.com/pzuraq) blog post about [modifiers in Ember Octane](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html). 
+For an in-depth look at modifiers in Ember, check out [pzuraq's](https://github.com/pzuraq) blog post about [modifiers in Ember Octane](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html). 
 
 ### Why I Like It
 
