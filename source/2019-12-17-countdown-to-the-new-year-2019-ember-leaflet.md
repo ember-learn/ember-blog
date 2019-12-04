@@ -14,6 +14,7 @@ In the 17th increment of **Countdown to The New Year** let's take a look at an e
 
 Learn more about [ember-leaflet on Ember Observer](https://emberobserver.com/addons/ember-leaflet).
 
+READMORE
 ### What It Does
 
 With ember-leaflet we can create useful maps for our web applications. This addon helps us to integrate the functionality of [Leaflet.js](https://leafletjs.com/) - an open-source JavaScript library for mobile-friendly, interactive maps - into our Ember app.
