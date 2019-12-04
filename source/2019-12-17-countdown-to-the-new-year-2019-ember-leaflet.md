@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year: ember-leaflet
+title: Countdown to The New Year: Ember Leaflet
 author: Jessica Jordan
 tags: 2019, Addons, DecEmber
 alias: 2019/12/17/countdown-to-the-new-year-2019-ember-leaflet
