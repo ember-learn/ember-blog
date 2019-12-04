@@ -12,6 +12,8 @@ In our end of year series - "Countdown to The New Year: 31 Days of Ember Addons"
 
 For day 16 of our **Countdown to The New Year** we want to highlight and addon that truly brings the entire Ember community **from all locales together**: [ember-intl](https://emberobserver.com/addons/ember-intl)!
 
+READMORE
+
 ### What It Does
 
 ember-intl is probably one of the most popular addons used in Ember apps today. As the go-to solution for bringing internationalisation to our application, it allows us to manage translations, date, time, number and currency formats in more than 150 languages!
