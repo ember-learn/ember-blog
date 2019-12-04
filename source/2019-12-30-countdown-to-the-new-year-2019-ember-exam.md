@@ -14,6 +14,8 @@ On the 30th day of our **Countdown to The New Year** we want to feature an excit
 
 Learn more about [ember-exam on Ember Observer](https://emberobserver.com/addons/ember-exam).
 
+READMORE
+
 ### What It Does
 
 ember-exam is an addon that allows to have more control over running your ember-qunit (Ember's default testing framework) and ember-mocha test suite. It extends from the default Ember CLI `test` command, allowing you run it as you would `ember test`.
