@@ -12,6 +12,8 @@ Our December series - "Countdown to The New Year: 31 Days of Ember Addons" aims 
 
 On the 15th day of our **Countdown to The New Year** we want to take a look at a helpful Ember addon which lets us write **redesign-proof tests**: [ember-test-selectors](https://emberobserver.com/addons/ember-test-selectors)!
 
+READMORE
+
 ### What It Does
 
 ember-test-selectors is an addon that allows us to use additional, test-specific markup in the form of `data-test` attributes in the dev and test environments of our app. This additional, test-specific markup allows us to select elements in our integration and application tests reliably - even if the HTML markup or CSS selectors change during a redesign of our app.
