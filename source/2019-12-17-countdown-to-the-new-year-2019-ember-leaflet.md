@@ -6,7 +6,7 @@ alias: 2019/12/17/countdown-to-the-new-year-2019-ember-leaflet
 responsive: true
 ---
 
-The first of its kind "Countdown to The New Year: 31 Days of Ember Addons" series highlights popular addons in the Ember community. We hope you enjoy learning about fun tools for Ember developers together with us each day!
+**The first of its kind "Countdown to The New Year: 31 Days of Ember Addons" series highlights popular addons in the Ember community. We hope you enjoy learning about fun tools for Ember developers together with us each day!**
 
 ## Day 17
 
