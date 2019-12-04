@@ -22,7 +22,7 @@ ember-exam is an addon that allows to have more control over running your ember-
 
 ### Why I Like It
 
-ember-exam allows us to run tests in parallel which can greatly reduce the overall run time of our test suite. Using the `--random` option of this addon, we are able to run tests in random order; this helps us to uncover interdependencies between test cases which would be hard to spot otherwise. And the `exam:iterate` allows us to iterate over parts of our test suite repeatedly when tracking down brittle tests.
+ember-exam allows us to run tests in parallel which can greatly reduce the overall run time of our test suite. Using the `--random` option of this addon, we are able to run tests in random order; this helps us to uncover interdependencies between test cases which would be hard to spot otherwise. And the `exam:iterate` option allows us to iterate over parts of our test suite repeatedly when tracking down brittle tests.
 
 ember-exam is our side-kick for developing a fast, robust and reliable test suite - which makes our testing workflow in Ember more predictable, more relaxed and therefore also more fun! [Check it out for yourself!](https://emberobserver.com/addons/ember-exam)
 
