@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Release v3.0.0 of ember-test-selectors 🎉,
 READMORE
 
 ---
@@ -94,13 +94,11 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Release v3.0.0 of ember-test-selectors 🎉](https://twitter.com/simplabs/status/1197882267944792064)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[ember-test-selectors](https://github.com/simplabs/ember-test-selectors) - the addon that provides better element selectors in Ember.js tests - released [v3.0.0](https://github.com/simplabs/ember-test-selectors/releases/tag/v3.0.0). The main breaking changes in this major release are dropping support for older Ember.js, Ember CLI and Node.js versions (Ember.js 2.16 or above, Ember CLI 2.14 or above, Node.js 8 or above).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The release also comes with some improvements that might decrease your build times, so update your dependency today!
 
 ---
 
@@ -134,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
