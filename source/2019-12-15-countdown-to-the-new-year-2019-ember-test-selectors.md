@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year: ember-test-selectors
+title: Countdown to The New Year: Ember Test Selectors
 author: Jessica Jordan
 tags: 2019, Addons, DecEmber, Testing
 alias: 2019/12/15/countdown-to-the-new-year-2019-ember-test-selectors
