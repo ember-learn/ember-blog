@@ -26,4 +26,4 @@ For those of us who have lots of languages to support in their application, embe
 
 Using ember-intl we can build Ember apps that are accessible beyond language barriers - making it more fun to share our app with friends all around the world!
 
-[Check out ember-intl on Ember Observer](https://emberobserver.com/addons/ember-intl)! If you are a fan of multi-locale apps and you're using internationalisation addons yourself, let us know in the comments which ones are you favorite and the most fun to use!
+[Check out ember-intl on Ember Observer](https://emberobserver.com/addons/ember-intl)! If you are a fan of multi-locale apps and you're using internationalisation addons yourself, let us know in the comments which ones are your favorite and the most fun to use!
