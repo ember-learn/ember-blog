@@ -9,8 +9,10 @@ responsive: true
 **This is the fifth in our DecEmber series- _"Countdown to The New Year: 31 Days of Ember Addons"_.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 5
+
 Let's talk about [ember-concurrency](https://emberobserver.com/addons/ember-concurrency).
 The experience is part joy, part tragedy.
+READMORE
 The joy comes from having elegant, straightforward solutions for things like debouncing.
 The tragedy is that I have to write this code myself when I am working in a non-Ember setting, but I suppose absence makes the heart grow fonder.
 
