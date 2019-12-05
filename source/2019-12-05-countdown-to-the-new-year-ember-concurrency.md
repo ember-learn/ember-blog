@@ -16,7 +16,7 @@ The tragedy is that I have to write this code myself when I am working in a non-
 
 ### What It Does
 
-The `ember-concurrency` addon "makes it easy to write concise, robust, and beautiful asynchronous code." For example, think about what should happen if a user rapidly clicks a "submit" button. With this addon, there's a nice way to prevent 30 form submissions.
+The `ember-concurrency` addon helps you "write concise, robust, and beautiful asynchronous code." For example, think about what should happen if a user rapidly clicks a "submit" button. With this addon, there's a nice way to prevent 30 form submissions.
 Or, what if an API request takes a long time, and you want to be able to cancel it? Promises won't help you, but `ember-concurrency` tasks will.
 
 ### Why I Like It
