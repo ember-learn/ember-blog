@@ -1,12 +1,12 @@
 ---
-title: Countdown to The New Year: Ember Concurrency
+title: Countdown to The New Year- Ember Concurrency
 author: Jen Weber
 tags: 2019, Addons, DecEmber
 alias: 2019-12-05-countdown-to-the-new-year-ember-concurrency.md
 responsive: true
 ---
 
-<b>This is the fifth in our DecEmber series- <i>"Countdown to The New Year: 31 Days of Ember Addons"</i>.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!</b>
+**This is the fifth in our DecEmber series- _"Countdown to The New Year: 31 Days of Ember Addons"_.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 5
 Let's talk about [ember-concurrency](https://emberobserver.com/addons/ember-concurrency).
