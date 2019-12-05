@@ -1,12 +1,12 @@
 ---
-title: Countdown to The New Year: Ember Concurrency
+title: Countdown to The New Year- Ember Auto Import
 author: Jen Weber
 tags: 2019, Addons, DecEmber
 alias: 2019-12-06-countdown-to-the-new-year-ember-auto-import.md
 responsive: true
 ---
 
-<b>This is the sixth in our DecEmber series- <i>"Countdown to The New Year: 31 Days of Ember Addons"</i>.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!</b>
+**This is the sixth in our DecEmber series- <i>"Countdown to The New Year: 31 Days of Ember Addons"</i>.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 6
 Once upon a time, if Ember developers wanted to use a regular npm package, they needed to jump through some hoops, but [ember-auto-import](https://emberobserver.com/addons/ember-auto-import) makes it a breeze!
