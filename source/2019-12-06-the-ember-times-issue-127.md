@@ -21,7 +21,7 @@ READMORE
   <img alt="Ben Demboski" title="Ben Demboski - Contributor to Ember" src="/images/blog/emberjstimes/ben_demboski.jpeg" />
 </div>
 
-In our **fourteenth edition** of our contributor interview series community member [Ben Demboski @bendemboski](https://github.com/bendemboski), talks about his work on [ember-electron](https://github.com/adopted-ember-addons/ember-electron).
+In our **fourteenth edition** of our contributor interview series, community member [Ben Demboski @bendemboski](https://github.com/bendemboski) talks about his work on [ember-electron](https://github.com/adopted-ember-addons/ember-electron).
 
 We’d like to thank Ben for his contributions to the Ember community, and for all of his help keeping ember-electron up and running!
 
