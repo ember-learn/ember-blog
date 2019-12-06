@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 127
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/06-the-ember-times-issue-127.html"
 responsive: true
@@ -17,13 +17,21 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## ["I contribute to Ember" with Ben Demboski 👨‍💻](https://discuss.emberjs.com/t/i-contribute-to-ember-with-ben-demboski/17294)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+<div class="float-right padded portrait-frame">
+  <img alt="Ben Demboski" title="Ben Demboski - Contributor to Ember" src="/images/blog/emberjstimes/ben_demboski.jpg" />
+</div>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In our **fourteenth edition** of our contributor interview series, community member [Ben Demboski @bendemboski](https://github.com/bendemboski) talks about his work on [ember-electron](https://github.com/adopted-ember-addons/ember-electron).
+
+We’d like to thank Ben for his contributions to the Ember community, and for all of his help keeping ember-electron up and running!
+
+Check out the full interview on [the Ember Discuss forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-ben-demboski/17294).
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-ben-demboski/17294">Read more</a>
+
+<p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
 
 ---
 
