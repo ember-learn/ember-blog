@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 127
-author: Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/06-the-ember-times-issue-127.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Release v3.0.0 of ember-test-selectors 🎉,
 Try out Ember Electron v3 beta today 🖥️,
 become an Ember author in DecEmber ✍️🎄,
+A Reminder to Help Test the New Inspector 🔬,
 
 READMORE
 
@@ -35,13 +36,15 @@ Check out the full interview on [the Ember Discuss forum](https://discuss.emberj
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [A Reminder to Help Test the New Inspector 🔬](https://github.com/emberjs/ember-inspector/pull/1088)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+In follow up to last week's announcement about the awesome new work being done on **Ember Inspector** to support Octane 🔥, please don't forget to help test the new changes and let the Inspector team know about your experiences (positive or negative).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The Inspector changes in question are currently still in a [pull request](https://github.com/emberjs/ember-inspector/pull/1088), so if you're interested in taking it for a spin you will have to follow the instructions in the PR's description. Note, these instructions are not the same as installing Inspector in the usual manner for your browser.
+
+Please feel free to report any success or issues either in the PR or in the `#st-octane` channel of Discord.
+
+While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not experimenting with Octane features just yet, it would still be quite useful if you can help test things out! 😊
 
 ---
 
@@ -147,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
