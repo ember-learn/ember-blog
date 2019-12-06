@@ -79,7 +79,7 @@ READMORE
 
 ## [Become an Ember Author for the Countdown to The New Year Blog Series ✍️🎄](https://discuss.emberjs.com/t/writers-wanted-countdown-to-the-new-year-blog-series/17273)
 
-This year the Ember Blog will feature **one** fun, useful and interesting **Ember addon each day**. And we are still looking for writers to make the official **Countdown to the New Year** blog post series a reality!
+This year, the Ember Blog will feature **one** fun, useful and interesting **Ember addon each day**. And we are still looking for writers to make the official **Countdown to the New Year** blog post series a reality!
 
 If you are interested in contributing to the series, you need first experience with Markdown and Git to get started - that's it! If you would like to write a short article for the Ember blog in _DecEmber_ yourself, feel free to [sign up for any of the issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-blog-series-template.md).
 
