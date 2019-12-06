@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: Chris Ng, Isaac Lee, the crowd
+title: The Ember Times - Issue No. 127
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2019/12/06-the-ember-times-issue-127.html"
 responsive: true
 ---
 
@@ -11,6 +11,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release v3.0.0 of ember-test-selectors 🎉,
 Try out Ember Electron v3 beta today 🖥️,
+become an Ember author in DecEmber ✍️🎄,
+
 READMORE
 
 ---
@@ -75,13 +77,19 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Become an Ember Author for the Countdown to The New Year Blog Series ✍️🎄](https://discuss.emberjs.com/t/writers-wanted-countdown-to-the-new-year-blog-series/17273)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+This year the Ember Blog will feature **one** fun, useful and interesting **Ember addon each day**. And we are still looking for writers to make the official **Countdown to the New Year** blog post series a reality!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you are interested in contributing to the series, you need first experience with Markdown and Git to get started - that's it! If you would like to write a short article for the Ember blog in _DecEmber_ yourself, feel free to [sign up for any of the issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-blog-series-template.md).
+
+Don't forget to check out these great posts for DecEmber by previous Ember authors if you need some inspiration:
+
+- [Day 1: Ember Sortable](https://blog.emberjs.com/2019/12/01/countdown-to-the-new-year-ember-sortable.html)
+- [Day 2: Ember CLI Mirage](https://blog.emberjs.com/2019/12/02/countdown-to-the-new-year-ember-cli-mirage.html)
+- [Day 3: Ember Modifier](https://blog.emberjs.com/2019/12/03/countdown-to-the-new-year-ember-modifier.html)
+- [Day 4: Ember Tether](https://blog.emberjs.com/2019/12/04/countdown-to-the-new-year-ember-tether.html)
+- [Day 5: Ember Concurrency](https://blog.emberjs.com/2019/12/05/countdown-to-the-new-year-ember-concurrency.html)
 
 ---
 
@@ -103,7 +111,7 @@ The release also comes with some improvements that might decrease your build tim
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/tniezurawski" target="gh-user">@tniezurawski</a>, <a href="https://github.com/buschtoens" target="gh-user">@buschtoens</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/thec0keman" target="gh-user">@thec0keman</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a> and <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -131,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
