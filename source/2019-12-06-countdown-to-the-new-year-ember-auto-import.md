@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year- Ember Auto Import
+title: Countdown to The New Year - Ember Auto Import
 author: Jen Weber
 tags: 2019, Addons, DecEmber
 alias: 2019-12-06-countdown-to-the-new-year-ember-auto-import.md
