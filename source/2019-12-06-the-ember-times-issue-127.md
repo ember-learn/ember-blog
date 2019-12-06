@@ -18,7 +18,7 @@ READMORE
 ## ["I contribute to Ember" with Ben Demboski 👨‍💻](https://discuss.emberjs.com/t/i-contribute-to-ember-with-ben-demboski/17294)
 
 <div class="float-right padded portrait-frame">
-  <img alt="Ben Demboski" title="Ben Demboski - Contributor to Ember" src="/images/blog/emberjstimes/ben_demboski.jpeg" />
+  <img alt="Ben Demboski" title="Ben Demboski - Contributor to Ember" src="/images/blog/emberjstimes/ben_demboski.jpg" />
 </div>
 
 In our **fourteenth edition** of our contributor interview series community member [Ben Demboski @bendemboski](https://github.com/bendemboski), talks about his work on [ember-electron](https://github.com/adopted-ember-addons/ember-electron).
