@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release v3.0.0 of ember-test-selectors 🎉,
+Try out Ember Electron v3 beta today 🖥️,
 READMORE
 
 ---
@@ -84,13 +85,11 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Try Out Ember Electron v3 beta Today! 🖥️](https://twitter.com/bendemboski/status/1199741719102668800)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Ember Electron](https://adopted-ember-addons.github.io/ember-electron/versions/v3.0.0-beta.0/), the addon to help you create ambitious **cross-platform desktop apps**, is getting ready for its v3 release! Key improvements include supporting the latest [Electron Forge](https://www.electronforge.io/), faster build pipeline, and improved developer ergonomics.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We extend our thanks to contributors [Ben Demboski (@bendemboski)](https://github.com/bendemboski) and [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90). They ask that you try it out and give feedback. To learn how to upgrade from v2, please check out the [Ember Electron documentation](https://adopted-ember-addons.github.io/ember-electron/versions/v3.0.0-beta.0/docs/guides/upgrading).
 
 ---
 
@@ -132,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
