@@ -38,11 +38,11 @@ Check out the full interview on [the Ember Discuss forum](https://discuss.emberj
 
 ## [A Reminder to Help Test the New Inspector 🔬](https://github.com/emberjs/ember-inspector/pull/1088)
 
-In follow up to last week's announcement about the awesome new work being done on **Ember Inspector** to support Octane 🔥, please don't forget to help test the new changes and let the Inspector team know about your experiences (positive or negative).
+Following last week's announcement about the awesome new work being done on **Ember Inspector** to support Octane 🔥, please don't forget to help test the new changes and let the Inspector team know about your experiences (positive or negative).
 
 The Inspector changes in question are currently still in a [pull request](https://github.com/emberjs/ember-inspector/pull/1088), so if you're interested in taking it for a spin you will have to follow the instructions in the PR's description. Note, these instructions are not the same as installing Inspector in the usual manner for your browser.
 
-Please feel free to report any success or issues either in the PR or in the `#st-octane` channel of Discord.
+Please feel free to report any success stories or issues either in the PR or in the `#st-octane` channel of Discord.
 
 While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not enjoying Octane features yet, it would still be quite useful if you can help test things out! 😊
 
