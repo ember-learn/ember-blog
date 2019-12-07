@@ -1,16 +1,16 @@
 ---
-title: Countdown to The New Year– Ember Animated
+title: Countdown to The New Year - Ember Animated
 author: Jen Weber
 tags: 2019, Addons, DecEmber
 alias: 2019-12-07-countdown-to-the-new-year-ember-animated.md
 responsive: true
 ---
 
-**This is the seventh in our DecEmber series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+**This is the seventh in our DecEmber series – "Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 7
 
-According to Wikipedia's [History of Animation](https://en.wikipedia.org/wiki/History_of_animation):
+According to Wikipedia's [History of Animation](https://en.wikipedia.org/wiki/History_of_animation)-
 
 <!--alex ignore of-course-->
 > The Roman poet and philosopher Lucretius (c. 99 BCE – c. 55 BCE) wrote in his poem _De rerum natura_ a few lines that come close to the basic principles of animation: "...when the first image perishes and a second is then produced in another position, the former seems to have altered its pose. Of course this must be supposed to take place very swiftly: so great is their velocity, so great the store of particles in any single moment of sensation, to enable the supply to come up."
