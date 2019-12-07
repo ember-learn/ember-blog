@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year: Ember Animated
+title: Countdown to The New Year- Ember Animated
 author: Jen Weber
 tags: 2019, Addons, DecEmber
 alias: 2019-12-07-countdown-to-the-new-year-ember-animated.md
