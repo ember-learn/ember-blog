@@ -6,11 +6,13 @@ alias: 2019-12-06-countdown-to-the-new-year-ember-auto-import.md
 responsive: true
 ---
 
-**This is the sixth in our DecEmber series- "Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+**This is the sixth in our DecEmber series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 6
 
 Once upon a time, if Ember developers wanted to use a regular npm package, they needed to jump through some hoops, but [ember-auto-import](https://emberobserver.com/addons/ember-auto-import) makes it a breeze!
+
+READMORE
 
 ### What It Does
 
