@@ -44,7 +44,7 @@ The Inspector changes in question are currently still in a [pull request](https:
 
 Please feel free to report any success or issues either in the PR or in the `#st-octane` channel of Discord.
 
-While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not experimenting with Octane features just yet, it would still be quite useful if you can help test things out! 😊
+While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not enjoying Octane features yet, it would still be quite useful if you can help test things out! 😊
 
 ---
 
