@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year- Ember Concurrency
+title: Countdown to The New Year - Ember Concurrency
 author: Jen Weber
 tags: 2019, Addons, DecEmber
 alias: 2019-12-05-countdown-to-the-new-year-ember-concurrency.md

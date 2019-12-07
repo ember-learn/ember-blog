@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year- Ember Modifier
+title: Countdown to The New Year - Ember Modifier
 author: Melanie Sumner
 tags: 2019, Addons, DecEmber
 alias: "blog/2019/12/03/countdown-to-the-new-year-2019-ember-modifier"
