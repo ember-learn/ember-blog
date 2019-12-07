@@ -6,7 +6,7 @@ alias: 2019-12-XX-countdown-to-the-new-year-xthe-full-name-of-the-addon-hyphenat
 responsive: true
 ---
 
-**This is the XnthX in our December series – "Countdown to The New Year: 31 Days of Ember Addons".  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+**This is the XnthX in our December series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day XX
 

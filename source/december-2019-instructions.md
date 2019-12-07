@@ -17,15 +17,12 @@ Write a short blog post for the December blog series that is similar to the [exa
 - [ ] copy the file `december-2019-template.md` to a new one in the `source/` directory. On Unix terminals you can e.g. run the following while you are in the root directory of the blog project: `cp source/december-2019-template.md source/2019-12-DD-countdown-to-the-new-year-ADDON-NAME.md` where DD should be replaced with the two digit release date of your post and ADDON NAME as described in step 1
 - [ ] The opening sentence should be updated where COUNT is the sequential ordinal word.
 
-```markdown
-**This is the COUNT in our DecEmber series- <span style="font-style: italic;">"Countdown to The New Year: 31 Days of Ember Addons"</span>. We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
-## Day COUNT
+## Template
 
-To kick things off, we're going to look at []().
+[source/december-2019-template](source/december-2019-template.md)
 
-READMORE
-```
+## Instructions
 
 - [ ] The first h2 should be "Day NUM" where NUM is the same as the DD in the date.
 - [ ] the link to the addon should point to the page on Ember Observer
