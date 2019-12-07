@@ -31,5 +31,5 @@ Write a short blog post for the December blog series that is similar to the [exa
 - [ ] The closing sentence can be slightly altered but should feel similar:
 "Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!"
 - [ ] Update the metadata in the header of the file to reflect the content of your post. Add your addon's name into the title (title), your own name (author) and update the date of the post (alias)
-- [ ] Send a PR to the [ember-learn/ember-blog repo]() and assign [@MelSumner](https://github.com/MelSumner), [@amyrlam](https://github.com/amyrlam), [@jenweber](https://github.com/jenweber) or [@jessica-jordan](https://github.com/jessica-jordan) for review
+- [ ] Send a PR to the [ember-learn/ember-blog repo](https://github.com/ember-learn/ember-blog) and assign [@MelSumner](https://github.com/MelSumner), [@amyrlam](https://github.com/amyrlam), [@jenweber](https://github.com/jenweber) or [@jessica-jordan](https://github.com/jessica-jordan) for review
 - [ ] And last, but not least: Celebrate your efforts to contribute to the Ember blog! 🎉
