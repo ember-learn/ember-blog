@@ -10,7 +10,7 @@ Happy DecEmber Emberistas! 🐹
 
 "I contribute to Ember" with Ben Demboski" 👨‍💻,
 become an Ember author in DecEmber ✍️🎄,
-a Reminder to Help Test the New Inspector 🔬,
+a reminder to help test the new Inspector 🔬,
 release v3.0.0 of ember-test-selectors 🎉,
 and try out Ember Electron v3 beta today 🖥️!
 
@@ -24,7 +24,7 @@ READMORE
   <img alt="Ben Demboski" title="Ben Demboski - Contributor to Ember" src="/images/blog/emberjstimes/ben_demboski.jpg" />
 </div>
 
-In our **fourteenth edition** of our contributor interview series, community member [Ben Demboski @bendemboski](https://github.com/bendemboski) talks about his work on [ember-electron](https://github.com/adopted-ember-addons/ember-electron).
+In our **fourteenth edition** of our contributor interview series, community member [Ben Demboski (@bendemboski)](https://github.com/bendemboski) talks about his work on [ember-electron](https://github.com/adopted-ember-addons/ember-electron).
 
 We’d like to thank Ben for his contributions to the Ember community, and for all of his help keeping ember-electron up and running!
 
@@ -36,11 +36,11 @@ Check out the full interview on [the Ember Discuss forum](https://discuss.emberj
 
 ---
 
-## [Become an Ember Author for the Countdown to The New Year Blog Series ✍️🎄](https://discuss.emberjs.com/t/writers-wanted-countdown-to-the-new-year-blog-series/17273)
+## [Become an Ember Author for the Countdown to the New Year Blog Series ✍️🎄](https://discuss.emberjs.com/t/writers-wanted-countdown-to-the-new-year-blog-series/17273)
 
-This year, the Ember Blog will feature **one** fun, useful and interesting **Ember addon each day**. And we are still looking for writers to make the official **Countdown to the New Year** blog post series a reality!
+This month, the Ember Blog will feature **one** fun, useful and interesting **Ember addon each day**. And we are still looking for writers to make the official **Countdown to the New Year** blog post series a reality!
 
-If you are interested in contributing to the series, you need first experience with Markdown and Git to get started - that's it! If you would like to write a short article for the Ember blog in _DecEmber_ yourself, feel free to [sign up for any of the issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-blog-series-template.md). If you have questions or need feedback, reach out to us on the **#dev-ember-learning** channel on the [Ember Discord](https://discordapp.com/invite/emberjs) or ping [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Jen Weber (@jenweber)](https://github.com/jenweber) or [Jessica Jordan (@jessica-jordan)](https://github.com/jessica-jordan).
+If you are interested in contributing to the series, you only need experience with Markdown and Git to get started - that's it! If you would like to write a short article for the Ember blog in _DecEmber_ yourself, feel free to [sign up for any of the issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-blog-series-template.md). If you have questions or need feedback, reach out to us on the **#dev-ember-learning** channel on the [Ember Discord](https://discordapp.com/invite/emberjs) or ping [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Jen Weber (@jenweber)](https://github.com/jenweber) or [Jessica Jordan (@jessica-jordan)](https://github.com/jessica-jordan).
 
 Don't forget to check out these great posts for DecEmber by previous Ember authors if you need some inspiration:
 
@@ -56,11 +56,11 @@ Don't forget to check out these great posts for DecEmber by previous Ember autho
 
 Following last week's announcement about the awesome new work being done on **Ember Inspector** to support Octane 🔥, please don't forget to help test the new changes and let the Inspector team know about your experiences (positive or negative).
 
-The Inspector changes in question are currently still in a [pull request](https://github.com/emberjs/ember-inspector/pull/1088), so if you're interested in taking it for a spin you will have to follow the instructions in the PR's description. Note, these instructions are not the same as installing Inspector in the usual manner for your browser.
+The Inspector changes in question are currently still in a [pull request](https://github.com/emberjs/ember-inspector/pull/1088), so if you're interested in taking it for a spin, you'll have to follow the instructions in the PR's description. Note: These instructions are not the same as installing Inspector in the usual manner for your browser.
 
 Please feel free to report any success stories or issues either in the PR or in the `#st-octane` channel of Discord.
 
-While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not enjoying Octane features yet, it would still be quite useful if you can help test things out! 😊
+While the new changes relate primarly to suppport of Octane, it would be very helpful to test this particular build of the Inspector on older versions of Ember as well! 😊
 
 ---
 
