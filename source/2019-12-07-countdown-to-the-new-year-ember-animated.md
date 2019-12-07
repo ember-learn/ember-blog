@@ -17,6 +17,8 @@ According to Wikipedia's [History of Animation](https://en.wikipedia.org/wiki/Hi
 
 Today, we write such poems in code, using [ember-animated](https://emberobserver.com/addons/ember-animated).
 
+READMORE
+
 ### What It Does
 
 `ember install ember-animated` is an invitation for creativity. This addon provides animation primitives and some built-in transitions that help bring interfaces to life! You can animate across route changes, content can flow smoothly when new data arrives, and web interactions can compete with the kinds of interfaces that are usually only seen in native applications. 
