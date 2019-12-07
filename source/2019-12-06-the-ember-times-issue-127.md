@@ -1,18 +1,18 @@
 ---
 title: The Ember Times - Issue No. 127
-author: Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/06-the-ember-times-issue-127.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Happy DecEmber Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Release v3.0.0 of ember-test-selectors 🎉,
-Try out Ember Electron v3 beta today 🖥️,
+"I contribute to Ember" with Ben Demboski" 👨‍💻,
 become an Ember author in DecEmber ✍️🎄,
-A Reminder to Help Test the New Inspector 🔬,
+a Reminder to Help Test the New Inspector 🔬,
+release v3.0.0 of ember-test-selectors 🎉,
+and try out Ember Electron v3 beta today 🖥️!
 
 READMORE
 
@@ -36,58 +36,6 @@ Check out the full interview on [the Ember Discuss forum](https://discuss.emberj
 
 ---
 
-## [A Reminder to Help Test the New Inspector 🔬](https://github.com/emberjs/ember-inspector/pull/1088)
-
-Following last week's announcement about the awesome new work being done on **Ember Inspector** to support Octane 🔥, please don't forget to help test the new changes and let the Inspector team know about your experiences (positive or negative).
-
-The Inspector changes in question are currently still in a [pull request](https://github.com/emberjs/ember-inspector/pull/1088), so if you're interested in taking it for a spin you will have to follow the instructions in the PR's description. Note, these instructions are not the same as installing Inspector in the usual manner for your browser.
-
-Please feel free to report any success stories or issues either in the PR or in the `#st-octane` channel of Discord.
-
-While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not enjoying Octane features yet, it would still be quite useful if you can help test things out! 😊
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Become an Ember Author for the Countdown to The New Year Blog Series ✍️🎄](https://discuss.emberjs.com/t/writers-wanted-countdown-to-the-new-year-blog-series/17273)
 
 This year, the Ember Blog will feature **one** fun, useful and interesting **Ember addon each day**. And we are still looking for writers to make the official **Countdown to the New Year** blog post series a reality!
@@ -104,11 +52,15 @@ Don't forget to check out these great posts for DecEmber by previous Ember autho
 
 ---
 
-## [Try Out Ember Electron v3 beta Today! 🖥️](https://twitter.com/bendemboski/status/1199741719102668800)
+## [A Reminder to Help Test the New Inspector 🔬](https://github.com/emberjs/ember-inspector/pull/1088)
 
-[Ember Electron](https://adopted-ember-addons.github.io/ember-electron/versions/v3.0.0-beta.0/), the addon to help you create ambitious **cross-platform desktop apps**, is getting ready for its v3 release! Key improvements include supporting the latest [Electron Forge](https://www.electronforge.io/), faster build pipeline, and improved developer ergonomics.
+Following last week's announcement about the awesome new work being done on **Ember Inspector** to support Octane 🔥, please don't forget to help test the new changes and let the Inspector team know about your experiences (positive or negative).
 
-We extend our thanks to contributors [Ben Demboski (@bendemboski)](https://github.com/bendemboski) and [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90). They ask that you try it out and give feedback. To learn how to upgrade from v2, please check out the [Ember Electron documentation](https://adopted-ember-addons.github.io/ember-electron/versions/v3.0.0-beta.0/docs/guides/upgrading).
+The Inspector changes in question are currently still in a [pull request](https://github.com/emberjs/ember-inspector/pull/1088), so if you're interested in taking it for a spin you will have to follow the instructions in the PR's description. Note, these instructions are not the same as installing Inspector in the usual manner for your browser.
+
+Please feel free to report any success stories or issues either in the PR or in the `#st-octane` channel of Discord.
+
+While the new changes relate primarly to suppport of Octane, it would be very helpful, for anyone interested, to test this particular build of the Inspector on older versions of Ember as well. So, even if you're not enjoying Octane features yet, it would still be quite useful if you can help test things out! 😊
 
 ---
 
@@ -117,6 +69,14 @@ We extend our thanks to contributors [Ben Demboski (@bendemboski)](https://githu
 [ember-test-selectors](https://github.com/simplabs/ember-test-selectors) - the addon that provides better element selectors in Ember.js tests - released [v3.0.0](https://github.com/simplabs/ember-test-selectors/releases/tag/v3.0.0). The main breaking changes in this major release are dropping support for older Ember.js, Ember CLI and Node.js versions (Ember.js 2.16 or above, Ember CLI 2.14 or above, Node.js 8 or above).
 
 The release also comes with some improvements that might decrease your build times, so update your dependency today!
+
+---
+
+## [Try Out Ember Electron v3 beta Today! 🖥️](https://twitter.com/bendemboski/status/1199741719102668800)
+
+[Ember Electron](https://adopted-ember-addons.github.io/ember-electron/versions/v3.0.0-beta.0/), the addon to help you create ambitious **cross-platform desktop apps**, is getting ready for its v3 release! Key improvements include supporting the latest [Electron Forge](https://www.electronforge.io/), faster build pipeline, and improved developer ergonomics.
+
+We extend our thanks to contributors [Ben Demboski (@bendemboski)](https://github.com/bendemboski) and [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90). They ask that you try it out and give feedback. To learn how to upgrade from v2, please check out the [Ember Electron documentation](https://adopted-ember-addons.github.io/ember-electron/versions/v3.0.0-beta.0/docs/guides/upgrading).
 
 ---
 
@@ -150,4 +110,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Robert Wagner, Jared Galanis, Amy Lam and the Learning Team
