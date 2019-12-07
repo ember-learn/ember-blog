@@ -12,6 +12,7 @@ responsive: true
 
 According to Wikipedia's [History of Animation](https://en.wikipedia.org/wiki/History_of_animation):
 
+<!--alex ignore of-course-->
 > The Roman poet and philosopher Lucretius (c. 99 BCE – c. 55 BCE) wrote in his poem _De rerum natura_ a few lines that come close to the basic principles of animation: "...when the first image perishes and a second is then produced in another position, the former seems to have altered its pose. Of course this must be supposed to take place very swiftly: so great is their velocity, so great the store of particles in any single moment of sensation, to enable the supply to come up."
 
 Today, we write such poems in code, using [ember-animated](https://emberobserver.com/addons/ember-animated).
