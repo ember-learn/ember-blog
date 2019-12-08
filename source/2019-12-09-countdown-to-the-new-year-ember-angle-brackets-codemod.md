@@ -26,6 +26,7 @@ Before Angle Bracket invocation, nearly every template construct in Ember was in
 Here is an example of typical conversion:
 
 #### From
+
 ```hbs
 {{site-header user=this.user class=(if this.user.isAdmin "admin")}}
 
@@ -39,6 +40,7 @@ Here is an example of typical conversion:
 ```
 
 #### To
+
 ```hbs
 <SiteHeader @user={{this.user}} class={{if this.user.isAdmin "admin"}} />
 <SuperSelect @selected={{this.user.country}} as |s|>
