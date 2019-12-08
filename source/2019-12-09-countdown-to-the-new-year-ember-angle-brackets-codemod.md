@@ -25,7 +25,7 @@ Before Angle Bracket invocation, nearly every template construct in Ember was in
 
 Here is an example of typical conversion:
 
-#### From
+#### Before
 
 ```hbs
 {{site-header user=this.user class=(if this.user.isAdmin "admin")}}
