@@ -20,7 +20,7 @@ Before Angle Bracket invocation, nearly every template construct in Ember was in
 
 1. It visits a URL of your app that is supplied as a command line argument
 2. A small bit of code is injected into the context of the app.
-3. The code determines the apps components and their properties, as well as all the helpers (including those in addons!)
+3. The code identifies the app's components and their properties, as well as all the helpers. This includes those in addons!
 4. Given all this information, the codemod quickly changes all the apps templates preserving most of the whitespace and indentation.
 
 Here is an example of typical conversion:
