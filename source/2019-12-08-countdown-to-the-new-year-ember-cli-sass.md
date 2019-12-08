@@ -49,8 +49,7 @@ Because there will be developers who are learning Sass for their first time, I b
 
 ### Conclusion
 
-<!--alex ignore easily-->
-I think Sass is a great tool to help you think about how you want to architect your app. [ember-cli-sass](https://github.com/simonexmachina/ember-cli-sass) helps you easily try out Sass today!
+I think Sass is a great tool to help you think about how you want to architect your app. [ember-cli-sass](https://github.com/simonexmachina/ember-cli-sass) helps you try out Sass today!
 
 I also encourage you to try out other tools for styling and discover what's best for your project. This could mean looking at a different framework such as [Tailwind](https://github.com/chrism/emberjs-tailwind-purgecss#emberjs-tailwind-10-and-purgecss-working-example), localizing styles using [ember-css-modules](https://github.com/salsify/ember-css-modules) or [ember-component-css](https://github.com/ebryn/ember-component-css), and finding a linter for stylesheets. I think we have made a good progress in bridging design and development, and am looking forward to what the future holds next.
 
