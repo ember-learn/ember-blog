@@ -39,7 +39,7 @@ Here is an example of typical conversion:
 {{ui/button text="Click me"}}
 ```
 
-#### To
+#### After
 
 ```hbs
 <SiteHeader @user={{this.user}} class={{if this.user.isAdmin "admin"}} />
