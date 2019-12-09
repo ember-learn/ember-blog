@@ -11,12 +11,12 @@ responsive: true
 ## Day 10
 
 Let's talk about [ember-a11y-testing](https://emberobserver.com/addons/ember-a11y-testing).
-
+READMORE
 
 ### What It Does
 
 The `ember-a11y-testing` addon is a wrapper around [Deque Labs'](https://github.com/dequelabs)
-[axe-core](https://github.com/dequelabs/axe-core) accessibility(a11y) testing engine that helps you identify accessibility issues in your ember app & provides useful information on how to solve them.
+[axe-core](https://github.com/dequelabs/axe-core) accessibility(a11y) testing engine that helps you identify accessibility issues in your Ember app & provides useful information on how to solve them.
 
 ### Why I Like It
 
@@ -24,7 +24,7 @@ Like many of you out there, I too developed webapps without realizing the impact
 started learning about a11y problems through this addon when I added it to a few apps that I was working on when this addon got
 released back in 2015. 
 
-While there's more to building accessible apps that can't be assisted by automated tools like this addon, it does help ensure that 
+While there's more to building accessible apps than automated tools (like this addon) can help with, it does help ensure that 
 common a11y violations are captured before they can make their way to users.
 
 The best part about this addon is that it lets you conditionally turn off parts or the entire violation report so that you don't have
