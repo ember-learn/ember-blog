@@ -38,7 +38,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.15, please review the [Ember.js 3.15.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.15.0).
 
-**Deprecate `Component#isVisible`**
+**Deprecate `Component#isVisible` (1 of 3)**
 
 Until now it has been possible to set the `isVisible` property on a component instance as a way to toggle the visibility of the component. The majority of its usage predates Ember 1.0.0 and it is now more common to use conditionals in the template.
 
@@ -55,6 +55,18 @@ To transition away from this, we recommend using conditionals in the templates l
 <div hidden={{isHidden}}></div>
 
 ```
+
+**Deprecate `{{partial}}` (2 of 3)** 
+
+Partials are an old Ember construct that no longer has any benefits, but instead brings along a lot of downsides when compared to modern Ember components.
+
+Some of these downsides are:
+* They are hard to reason about as they inherit the scope of the calling template
+* They perform poorly in comparison to components
+
+That is why the usage of `{{partial}}` is now deprecated.
+
+A more detailed read of this deprecation and on how to migrate away from them is available on the [orignial RFC](https://github.com/emberjs/rfcs/blob/master/text/0449-deprecate-partials.md).
 
 ---
 
