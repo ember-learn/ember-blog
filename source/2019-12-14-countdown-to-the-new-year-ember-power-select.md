@@ -16,7 +16,7 @@ READMORE
 
 ### What It Does
 
-Ember Power Select provides a powerful select component, built from the ground up for Ember so that it works the way you expect an addon to in Ember. Exceptionally [well documented](https://ember-power-select.com/docs), Ember Power Select allows you to create everything from a straightforward list of text items to an asynchronous search driven select which incorporates graphical elements in the list. 
+Ember Power Select provides a powerful select component, built from the ground up for Ember so that it works the way you expect an addon to work in Ember. Exceptionally [well-documented](https://ember-power-select.com/docs), Ember Power Select allows you to create everything from a straightforward list of text items to an asynchronous search driven select which incorporates graphical elements in the list. 
 
 The addon's website includes a [cookbook](https://ember-power-select.com/cookbook) for more unusual requirements as well as a [list of community provided addons](https://ember-power-select.com/addons) which address functionality outside of the scope of Ember Power Select.
 
