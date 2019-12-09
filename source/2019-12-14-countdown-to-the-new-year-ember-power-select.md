@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 14
 
-Todays selection for '31 Days of Ember Addons' is [ember-power-select](https://emberobserver.com/addons/ember-power-select)
+Today's selection for '31 Days of Ember Addons' is [ember-power-select](https://emberobserver.com/addons/ember-power-select).
 
 READMORE
 
