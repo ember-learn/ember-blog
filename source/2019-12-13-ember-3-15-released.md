@@ -30,13 +30,31 @@ First new feature (1 of 2)
 
 Second new feature (2 of 2)
 
-#### Deprecations (0)
+#### Deprecations (3)
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
 For more details on changes in Ember.js 3.15, please review the [Ember.js 3.15.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.15.0).
+
+**Deprecate `Component#isVisible`**
+
+Until now it has been possible to set the `isVisible` property on a component instance as a way to toggle the visibility of the component. The majority of its usage predates Ember 1.0.0 and it is now more common to use conditionals in the template.
+
+To avoid further confusion setting `isVisible` is deprecated as of Ember 3.15. 
+
+To transition away from this, we recommend using conditionals in the templates like this:
+
+```handlebars
+{{#if showComponent}}
+  {{component}}
+{{/if}}
+
+{{! or }}
+<div hidden={{isHidden}}></div>
+
+```
 
 ---
 
