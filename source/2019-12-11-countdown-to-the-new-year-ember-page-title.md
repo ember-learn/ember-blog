@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 11
 
-This addon [ember-page-title](https://emberobserver.com/addons/ember-page-title) provides a helper for changing the browser tab title of the page you're on within your Ember single-page application (SAP).
+This addon [ember-page-title](https://emberobserver.com/addons/ember-page-title) provides a helper for changing the browser tab title of the page within your application.
 
 ### What It Does
 
@@ -18,7 +18,9 @@ The `ember-page-title` addon provides a zero-config way to use npm packages in y
 
 ### Why I Like It
 
-Thanks to `ember-page-title`, you can now easily provide users with a simple HTML browser title tag so they know where they are within your single-page application.
+Thanks to `ember-page-title`, you can easily provide users with a simple HTML browser title tag so they know where they are within your single-page application (SPA).
+
+All you need to do is run <code>`ember install ember-page-title`</code>, add <code>{{head-layout}}</code> to your <code>application.hbs</code> file and finally include the title helper to each page section template, for example if you had an About section, <code>{{title "About"}}</code>. This helper also gives you the ability to add custom separators, for example <code>{{title "About" separator=">"}}</code>. More information can be found at the [Ember Page Title Docs Site](https://adopted-ember-addons.github.io/ember-page-title/).
 
 This addon is Octane-ready! <check to make sure it is>
 
