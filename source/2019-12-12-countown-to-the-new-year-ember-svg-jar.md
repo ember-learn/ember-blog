@@ -27,6 +27,6 @@ The `ember-svg-jar` addon helps you reduce the size of your assets. Using [svgo]
 <!-- alex ignore easy-->
 The addon is flexible and extensible. ember-svg-jar provides an easy-to-use helper `{{svg-jar "asset-name"}}`, support for both `inline` and `symbol` embedding methods, and the ability to copy SVG as CSS background.
 
-The addon [webpage](https://svgjar.web.app/) and [README](https://github.com/ivanvotti/ember-svg-jar) are a joy to peruse, both well documented and beautiful! And the logo is certainly bringing us joy.
+The addon [webpage](https://svgjar.web.app/) and [README](https://github.com/ivanvotti/ember-svg-jar) are a dream to peruse, both well documented and beautiful! And the logo is certainly bringing us joy.
 
 Do you use ember-svg-jar? Or one like it? We'd love to hear about Ember addons you love for DecEmber!
