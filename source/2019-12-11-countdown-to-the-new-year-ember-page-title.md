@@ -14,7 +14,12 @@ This addon [ember-page-title](https://emberobserver.com/addons/ember-page-title)
 
 ### What It Does
 
-The `ember-page-title` addon provides a zero-config way to use npm packages in your Ember app, and even lazy-load them.
+The `ember-page-title` addon provides a zero-config way to use npm packages in your Ember app, and even lazy-load them. This is helpful for many reasons, but an important reason is that it is a [WCAG success criteria (2.4.2)](https://www.w3.org/WAI/WCAG21/Understanding/page-titled) to provide a page title.
+A quick tip about page titles! The title of each Web page should:
+
+- Identify the subject of the Web page
+- Make sense when read out of context, for example by a screen reader or in a site map or list of search results
+- Be short
 
 ### Why I Like It
 
