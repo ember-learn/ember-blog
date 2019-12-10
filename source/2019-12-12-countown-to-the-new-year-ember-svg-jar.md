@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 12
 
-Today we're highlighting [ember-svg-jar](https://www.emberobserver.com/addons/ember-svg-jar). 
+Today we're highlighting [`ember-svg-jar`](https://www.emberobserver.com/addons/ember-svg-jar). 
 
 READMORE
 
