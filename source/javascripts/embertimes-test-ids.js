@@ -8,12 +8,12 @@ $(function(){
 
 
    function applyEmberTimesTestIds() {
-     let sectionTitles = $('[data-embertimes-post-body] h2');
+     var sectionTitles = $('[data-embertimes-post-body] h2');
 
      sectionTitles.each((i, title) => {
        /* This annotates each section title of the post. e.g. `## [Ember Roadmap Call for Blog Posts 🤙](#section-url)` with a section specific id */
        $(title).attr('data-embertimes-section-title', i);
-       let sectionFragments = $(title).nextUntil('h2').not('hr');
+       var sectionFragments = $(title).nextUntil('h2').not('hr');
        sectionFragments.each((index, element) => {
          /* This annotates each sub element of a section, e.g. a `p`, `a`, `ul`, with the section specific id, allowing grouping of content belonging to a single section
             into one unit in the automation script */
@@ -21,9 +21,9 @@ $(function(){
        });
      });
 
-     let introFragmentFirst = $('[data-embertimes-post-body]').children().first();
+     var introFragmentFirst = $('[data-embertimes-post-body]').children().first();
      introFragmentFirst.attr('data-embertimes-intro-fragment', true);
-     let introFragments = introFragmentFirst.nextUntil('h2').not('hr');
+     var introFragments = introFragmentFirst.nextUntil('h2').not('hr');
 
      introFragments.each((i, el) => {
        /* This annotates each sub element, e.g. `p` or `ul` among others, of the intro section of the post. E.g. `Hello Emberistas! This week we have for you....` */
