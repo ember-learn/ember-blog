@@ -18,7 +18,7 @@ READMORE
 
 There's a reason `ember-svg-jar` has a 10 out of 10 on Ember Observer! The `ember-svg-jar` addon enables you to effortlessly use SVG images in Ember apps.
 
-### Why I Like It
+### Why We Like It
 
 A common theme in the Ember community is zero configuration. In that vein, with `ember-svg-jar`, you get a visual workflow out of the box to search and preview icons in one place. Check out the [live demo](https://svgjar-demo.web.app/) and empower your team with this feature!
 
