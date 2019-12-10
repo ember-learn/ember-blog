@@ -22,7 +22,7 @@ There's a reason `ember-svg-jar` has a 10 out of 10 on Ember Observer! The `embe
 
 A common theme in the Ember community is zero configuration. In that vein, with `ember-svg-jar`, you get a visual workflow out of the box to search and preview icons in one place. Check out the [live demo](https://svgjar-demo.web.app/) and empower your team with this feature!
 
-ember-svg-jar helps you reduce the size of your assests. Using [svgo](https://github.com/svg/svgo), SVGs are automatically optimized, which can cut your file size by half or more. 
+The `ember-svg-jar` addon helps you reduce the size of your assets. Using [svgo](https://github.com/svg/svgo), SVGs are automatically optimized, which can cut your file size by half or more. So useful!
 
 <!-- alex ignore easy-->
 The addon is flexible and extensible. ember-svg-jar provides an easy-to-use helper `{{svg-jar "asset-name"}}`, support for both `inline` and `symbol` embedding methods, and the ability to copy SVG as CSS background.
