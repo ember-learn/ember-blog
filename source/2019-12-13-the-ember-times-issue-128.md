@@ -1,13 +1,13 @@
 ---
 title: The Ember Times - Issue No. 128
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/13-the-ember-times-issue-128.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Check out the new accessible controls for ember-sortable 🎛️
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -24,13 +24,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Accessible controls for ember-sortable 🎛️](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[@ygongdev](https://github.com/ygongdev) wrote a [blog post](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/) that documented the process on how we now have [accessible controls](https://github.com/adopted-ember-addons/ember-sortable/issues/269) for [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) an open source drag and drop list sort Ember addon.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The functionality needed to be added was thanks to the comprehensive list on what accessible features should be expected on a drag and drop utility and even a [CodePen demo](https://codepen.io/drewlee/project/full/XWNLeE) from [@drewlee](https://github.com/drewlee). The accessible controls are landed as part of the [2.0.0 release](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v2.0.0) of the [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) addon. Check out the accessible controls at the [demo page](https://adopted-ember-addons.github.io/ember-sortable/demo/)!
+
+[ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon.
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
