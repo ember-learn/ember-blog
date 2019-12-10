@@ -1,7 +1,7 @@
 ---
 title: Countdown to The New Year- Ember A11Y Testing
 author: Sivakumar Kailasam
-tags: 2019, Addons, DecEmber
+tags: 2019, Addons, DecEmber, A11y
 alias: 2019-12-10-countdown-to-the-new-year-ember-a11y-testing.md
 responsive: true
 ---
