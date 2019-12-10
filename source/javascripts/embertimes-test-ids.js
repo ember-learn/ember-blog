@@ -14,7 +14,7 @@ $(function(){
        /* This annotates each section title of the post. e.g. `## [Ember Roadmap Call for Blog Posts 🤙](#section-url)` with a section specific id */
        $(title).attr('data-embertimes-section-title', i);
        var sectionFragments = $(title).nextUntil('h2').not('hr');
-       sectionFragments.each((index, element) => {
+       sectionFragments.each(function(index, element) {
          /* This annotates each sub element of a section, e.g. a `p`, `a`, `ul`, with the section specific id, allowing grouping of content belonging to a single section
             into one unit in the automation script */
          $(element).attr('data-embertimes-section-fragment', i);
