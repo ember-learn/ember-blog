@@ -1,5 +1,5 @@
 ---
-title: Countdown to The New Year- Ember Modifier
+title: Countdown to The New Year - Ember Modifier
 author: Melanie Sumner
 tags: 2019, Addons, DecEmber
 alias: "blog/2019/12/03/countdown-to-the-new-year-2019-ember-modifier"
@@ -8,7 +8,7 @@ responsive: true
 
 ## Day 3
 
-This is the third in our DecEmber series– _"Countdown to The New Year: 31 Days of Ember Addons"_. We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!
+**This is the third in our DecEmber series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 Today we are going to look at a rising star in our addon ecosystem- [ember-modifier](https://emberobserver.com/addons/ember-modifier). 
 

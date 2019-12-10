@@ -1,7 +1,7 @@
 ---
 title: First Annual DecEmber Event!
 author: Melanie Sumner, Amy Lam
-tags: Recent Posts, DecEmber, Events, 2018
+tags: Events, 2018
 responsive: true
 ---
 
