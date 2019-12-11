@@ -31,7 +31,7 @@ READMORE
 
 Unfortunately there was not a well defined standard for making accessible drag and drop controls from organizations such as the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). He turned to [Andrew A Lee (@drewlee)](https://github.com/drewlee) who created a comprehensive list on what accessible features should be expected on a drag and drop utility and even a [CodePen demo](https://codepen.io/drewlee/project/full/XWNLeE). These accessible controls have now landed as part of the [2.0.0 release](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v2.0.0) of the [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) addon. Check out the accessible controls at the [demo page](https://adopted-ember-addons.github.io/ember-sortable/demo/) today!
 
-[ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is also now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons), which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon.
+As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon. Moreover, ember-sortable was also highlighted on [DecEmber Day 1](https://blog.emberjs.com/2019/12/01/countdown-to-the-new-year-ember-sortable.html)!
 
 ## [Section Title in Title Case 🐹](#section-url)
 
