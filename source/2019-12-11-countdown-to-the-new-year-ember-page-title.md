@@ -25,7 +25,12 @@ A quick tip about page titles! The title of each Web page should:
 
 Thanks to `ember-page-title`, you can easily provide users with a simple HTML browser title tag so they know where they are within your single-page application (SPA).
 
-All you need to do is run <code>`ember install ember-page-title`</code>, add <code>{{head-layout}}</code> to your <code>application.hbs</code> file and finally include the title helper to each page section template, for example if you had an About section, <code>{{title "About"}}</code>. This helper also gives you the ability to add custom separators, for example <code>{{title "About" separator=">"}}</code>. More information can be found at the [Ember Page Title Docs Site](https://adopted-ember-addons.github.io/ember-page-title/).
+How to use it:
+
+1. Run `ember install ember-page-title`
+2. Add `{{head-layout}}` to your `application.hbs` file
+3. Include the title helper to each page's template. For example, if you had an "About" route, add `{{title "About Us"}}` to that template. This helper _also_ gives you the ability to add custom separators, for example `{{title "About" separator=">"}}`.
+   More information can be found at the [Ember Page Title Docs Site](https://adopted-ember-addons.github.io/ember-page-title/).
 
 This addon is Octane-ready! <check to make sure it is>
 
