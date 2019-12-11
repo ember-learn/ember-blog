@@ -32,6 +32,6 @@ How to use it:
 3. Include the title helper to each page's template. For example, if you had an "About" route, add `{{title "About Us"}}` to that template. This helper _also_ gives you the ability to add custom separators, for example `{{title "About" separator=">"}}`.
    More information can be found at the [Ember Page Title Docs Site](https://adopted-ember-addons.github.io/ember-page-title/).
 
-This addon is Octane-ready! <check to make sure it is>
+This addon is Octane-ready!
 
 Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!
