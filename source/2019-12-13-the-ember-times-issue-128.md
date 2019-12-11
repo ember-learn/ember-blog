@@ -27,7 +27,7 @@ READMORE
 
 ## [Accessible controls for ember-sortable 🎛️](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/)
 
-[@ygongdev](https://github.com/ygongdev) wrote a [blog post](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/) that documented the process on how we now have [accessible controls](https://github.com/adopted-ember-addons/ember-sortable/issues/269) for [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) an open source drag and drop list sort Ember addon.
+[Yicheng (Jerry) Gong (@ygongdev)](https://github.com/ygongdev) wrote a [blog post](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/) that documented the process on how we now have [accessible controls](https://github.com/adopted-ember-addons/ember-sortable/issues/269) for [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an open source drag and drop list sort Ember addon.
 
 The functionality needed to be added was thanks to the comprehensive list on what accessible features should be expected on a drag and drop utility and even a [CodePen demo](https://codepen.io/drewlee/project/full/XWNLeE) from [@drewlee](https://github.com/drewlee). The accessible controls have landed as part of the [2.0.0 release](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v2.0.0) of the [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) addon. Check out the accessible controls at the [demo page](https://adopted-ember-addons.github.io/ember-sortable/demo/) today!
 
