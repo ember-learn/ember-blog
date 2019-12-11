@@ -25,7 +25,7 @@ READMORE
 
 ---
 
-## [Accessible controls for ember-sortable 🎛️](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/)
+## [Accessible Controls for ember-sortable 🎛️](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/)
 
 [Yicheng (Jerry) Gong (@ygongdev)](https://github.com/ygongdev) wrote a [blog post](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/) that documented the process on how we now have [accessible controls](https://github.com/adopted-ember-addons/ember-sortable/issues/269) for [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an open source drag and drop list sort Ember addon.
 
