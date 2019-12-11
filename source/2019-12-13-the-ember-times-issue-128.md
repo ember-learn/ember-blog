@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Check out the new accessible controls for ember-sortable 🎛️
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -31,6 +32,14 @@ READMORE
 The functionality needed to be added was thanks to the comprehensive list on what accessible features should be expected on a drag and drop utility and even a [CodePen demo](https://codepen.io/drewlee/project/full/XWNLeE) from [@drewlee](https://github.com/drewlee). The accessible controls have landed as part of the [2.0.0 release](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v2.0.0) of the [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) addon. Check out the accessible controls at the [demo page](https://adopted-ember-addons.github.io/ember-sortable/demo/) today!
 
 [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is also now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon.
+
+## [Section Title in Title Case 🐹](#section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
