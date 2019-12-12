@@ -53,7 +53,7 @@ As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/e
 
 ---
 
-## [A new testing codemod from Freshworks 🎉](https://twitter.com/shibulijack/status/1202280332663214080)
+## [A New Testing Codemod from Freshworks 🎉](https://twitter.com/shibulijack/status/1202280332663214080)
 
 [`mocha-to-qunit`](https://github.com/freshdesk/ember-freshdesk-codemods/blob/master/transforms/mocha-to-qunit/README.md), the latest codemod from Freshworks, helps you migrate a production test suite from Mocha to QUnit. We encourage you to try it out and contribute back to the project!
 
