@@ -14,7 +14,7 @@ This addon [ember-page-title](https://emberobserver.com/addons/ember-page-title)
 
 ### What It Does
 
-The `ember-page-title` addon provides a helper for changing the title of the page you're on. This is helpful for many reasons, but an important reason is that it is a [WCAG success criteria (2.4.2)](https://www.w3.org/WAI/WCAG21/Understanding/page-titled) to provide a page title.
+The `ember-page-title` addon is helpful for many reasons, but an important reason is that it is a [WCAG success criteria (2.4.2)](https://www.w3.org/WAI/WCAG21/Understanding/page-titled) to provide a page title.
 A quick tip about page titles! The title of each Web page should:
 
 - Identify the subject of the Web page
