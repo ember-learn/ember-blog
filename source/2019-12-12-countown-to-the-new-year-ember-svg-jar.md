@@ -6,7 +6,7 @@ alias: 2019-12-12-countdown-to-the-new-year-ember-svg-jar
 responsive: true
 ---
 
-**This is the twelth in our December series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+**This is the twelfth in our December series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 12
 
