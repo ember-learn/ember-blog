@@ -1,14 +1,14 @@
 ---
 title: The Ember Times - Issue No. 128
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/13-the-ember-times-issue-128.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Check out the new accessible controls for ember-sortable 🎛️
-
+Check out the new accessible controls for ember-sortable 🎛️,
+a new testing codemod from Freshworks 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -53,13 +53,11 @@ As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/e
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [A new testing codemod from Freshworks 🎉](https://twitter.com/shibulijack/status/1202280332663214080)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[`mocha-to-qunit`](https://github.com/freshdesk/ember-freshdesk-codemods/blob/master/transforms/mocha-to-qunit/README.md), the latest codemod from Freshworks, helps you migrate a production test suite from Mocha to QUnit. We encourage you to try it out and contribute back to the project!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can find all codemods by Freshworks on their [GitHub repo](https://github.com/freshdesk/ember-freshdesk-codemods).
 
 ---
 
@@ -143,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
