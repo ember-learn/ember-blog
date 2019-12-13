@@ -8,8 +8,9 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Check out the new accessible controls for ember-sortable 🎛️,
-a new testing codemod from Freshworks 🎉,
 updates for the Octane/Classic Ember Cheat Sheet 🎮,
+introduce adaptive loading to your app with Ember Device 📶,
+a new testing codemod from Freshworks 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -34,6 +35,8 @@ Unfortunately there was not a well-defined standard for making accessible drag a
 
 As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon. Moreover, ember-sortable was also highlighted on [DecEmber Day 1](https://blog.emberjs.com/2019/12/01/countdown-to-the-new-year-ember-sortable.html)!
 
+---
+
 ## [New Release of the Octane vs Classic Cheat Sheet 🎮](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 
 Ember's first edition, [Ember Octane](https://emberjs.com/editions/octane/), is around the corner. And did you already know that you can find all the cheat codes you will ever need to master your move from classic Ember apps to Octane ones in [this official cheat sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)? It compares many of the APIs, patterns and best practices that you might already be familiar with from the classic Ember world to the new paradigms used in Octane applications.
@@ -46,13 +49,35 @@ Want to contribute to the cheat sheet yourself? Check out [the project on Github
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Introduce Adaptive Loading to Your App with Ember Device 📶](https://twitter.com/_gokatz/status/1201534724696494081)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+With [Ember Device](https://github.com/gokatz/ember-device), you can **progressively deliver rich content and powerful web experiences**. Thanks to [Gokul Kathirvel (@gokatz)](https://github.com/gokatz), you can **provide as much value to users with low-end devices** as to users with high-end devices. 💯
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember Device provides a `device` service so that you can gauge a user's device and network to decide what content to show.
+
+```handlebars
+{{#let this.device.networkStatus.effectiveConnectionType as |effectiveType|}}
+  {{#if (eq effectiveType "slow-2g")}}
+    <ImageLoader @resolution="low" />
+
+  {{else if (eq effectiveType "2g")}}
+    <ImageLoader @resolution="mid" />
+
+  {{else if (eq effectiveType "3g")}}
+    <ImageLoader @resolution="high" />
+
+  {{else if (eq effectiveType "4g")}}
+    <VideoLoader />
+
+  <!-- Fallback -->
+  {{else}}
+    <ImageLoader @resolution="mid" />
+
+  {{/if}}
+{{/let}}
+```
+
+To learn more about **adaptive loading**, we encourage you to check out [Ember Device's documentation](https://ember-device.netlify.com/) and [@astronomersiva's blog post](https://siva.dev/adaptive-fetching/)!
 
 ---
 
