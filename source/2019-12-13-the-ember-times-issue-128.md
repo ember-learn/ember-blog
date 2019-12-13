@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 128
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/13-the-ember-times-issue-128.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Check out the new accessible controls for ember-sortable 🎛️,
 a new testing codemod from Freshworks 🎉,
+updates for the Octane/Classic Ember Cheat Sheet 🎮,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -33,13 +34,15 @@ Unfortunately there was not a well-defined standard for making accessible drag a
 
 As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon. Moreover, ember-sortable was also highlighted on [DecEmber Day 1](https://blog.emberjs.com/2019/12/01/countdown-to-the-new-year-ember-sortable.html)!
 
-## [Section Title in Title Case 🐹](#section-url)
+## [New Release of the Octane vs Classic Cheat Sheet 🎮](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Ember's first edition, [Ember Octane](https://emberjs.com/editions/octane/), is around the corner. And did you already know that you can find all the cheat codes you will ever need to master your move from classic Ember apps to Octane ones in [this official cheat sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)? It compares many of the APIs, patterns and best practices that you might already be familiar with from the classic Ember world to the new paradigms used in Octane applications.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the past weeks plenty of community members worked on getting the cheat sheet ready for the upcoming launch of Ember Octane. Recently, they added information on how [the Data Down, Actions Up pattern](https://discuss.emberjs.com/t/readers-questions-what-is-meant-by-the-term-data-down-actions-up/15311) compares between classic and Octane apps, [template co-location](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html), how to migrate [when using Mixins](https://api.emberjs.com/ember/3.14/classes/Mixin) and much more. [Check out the cheat sheet today](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)!
+
+Last, but not least, like to not only thank those who worked [on the latest update of the Ember Octane vs Classic Cheat Sheet](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/pull/19), but also everyone else who made this valuable learning resource a reality previously: a huge thank you 💖 goes to the contributors [Jen Weber (@jenweber)](https://github.com/jenweber), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Venus Ang (@venusang)](https://github.com/venusang), [Rajasegar Chandran (@rajasegar-c)](https://github.com/rajasegar-c), [David Baker (@acorncom)](https://github.com/acorncom), [Peter Wagenet (@wagenet)](https://github.com/wagenet), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90), [Chris Garrett (@pzuraq)](https://github.com/pzuraq), [Eli Flanagan (@efx)](https://github.com/efx) and [L. Preston Sego III (@NullVoxPopuli)](https://github.com/NullVoxPopuli)!
+
+Want to contribute to the cheat sheet yourself? Check out [the project on Github](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet) and chat with other contributors on the **#dev-ember-learning** channel on [the Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
@@ -113,7 +116,7 @@ You can find all codemods by Freshworks on their [GitHub repo](https://github.co
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/dmuneras" target="gh-user">@dmuneras</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/psbanka" target="gh-user">@psbanka</a>, <a href="https://github.com/ctjhoa" target="gh-user">@ctjhoa</a>, <a href="https://github.com/samselikoff" target="gh-user">@samselikoff</a>, <a href="https://github.com/abel-n" target="gh-user">@abel-n</a>, <a href="https://github.com/lolmaus" target="gh-user">@lolmaus</a>, <a href="https://github.com/acorncom" target="gh-user">@acorncom</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -141,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
