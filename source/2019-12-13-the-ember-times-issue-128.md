@@ -51,7 +51,7 @@ Want to contribute to the cheat sheet yourself? Check out [the project on Github
 
 ## [Introduce Adaptive Loading to Your App with Ember Device 📶](https://twitter.com/_gokatz/status/1201534724696494081)
 
-With [Ember Device](https://github.com/gokatz/ember-device), you can **progressively deliver rich content and powerful web experiences**. Thanks to [Gokul Kathirvel (@gokatz)](https://github.com/gokatz), you can **provide as much value to users with low-end devices** as users with high-end devices. 💯
+With [Ember Device](https://github.com/gokatz/ember-device), you can **progressively deliver rich content and powerful web experiences**. Thanks to [Gokul Kathirvel (@gokatz)](https://github.com/gokatz), you can **provide as much value to users with low-end devices** as to users with high-end devices. 💯
 
 Ember Device provides a `device` service so that you can gauge a user's device and network to decide what content to show.
 
