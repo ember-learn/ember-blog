@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 13
 
-Today we're going to look at [ember-simple-auth](https://github.com/simplabs/ember-simple-auth)!
+Today we're going to look at [ember-simple-auth](https://emberobserver.com/addons/ember-simple-auth)!
 
 READMORE
 
