@@ -6,7 +6,7 @@ alias: 2019-12-22-countdown-to-the-new-year-ember-css-modules
 responsive: true
 ---
 
-**This is the 22nd part of our December series – "Countdown to The New Year: 31 Days of Ember Addons". Highlighting a new addon each day until the new year starts, we hope you enjoy learning together with us!**
+**This is the 22nd part of our December series–"Countdown to The New Year: 31 Days of Ember Addons". Highlighting a new addon each day until the new year starts, we hope you enjoy learning together with us!**
 
 ## Day 22
 
