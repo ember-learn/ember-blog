@@ -1,39 +1,20 @@
 ---
 title: The Ember Times - Issue No. 128
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/13-the-ember-times-issue-128.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Check out the new accessible controls for ember-sortable 🎛️,
-updates for the Octane/Classic Ember Cheat Sheet 🎮,
+Happy Friday the 13th 👻, Emberistas! 🐹
+
+Updates for the Octane/Classic Ember Cheat Sheet 🎮,
+check out the new accessible controls for ember-sortable 🎛️,
 introduce adaptive loading to your app with Ember Device 📶,
 a new testing codemod from Freshworks 🎉,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+and more DecEmber 📆 updates! 
 
 READMORE
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Accessible Controls for ember-sortable 🎛️](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/)
-
-[Yicheng (Jerry) Gong (@ygongdev)](https://github.com/ygongdev) wrote a [blog post](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/) that documented the process on how we now have [accessible controls](https://github.com/adopted-ember-addons/ember-sortable/issues/269) for [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an open source drag and drop list sort Ember addon.
-
-Unfortunately there was not a well-defined standard for making accessible drag and drop controls from organizations such as the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). He turned to [Andrew A Lee (@drewlee)](https://github.com/drewlee) who created a comprehensive list on what accessible features should be expected on a drag and drop utility and even a [CodePen demo](https://codepen.io/drewlee/project/full/XWNLeE). These accessible controls have now landed as part of the [2.0.0 release](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v2.0.0) of the [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) addon. Check out the accessible controls at the [demo page](https://adopted-ember-addons.github.io/ember-sortable/demo/) today!
-
-As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon. Moreover, ember-sortable was also highlighted on [DecEmber Day 1](https://blog.emberjs.com/2019/12/01/countdown-to-the-new-year-ember-sortable.html)!
 
 ---
 
@@ -46,6 +27,16 @@ In the past weeks plenty of community members worked on getting the cheat sheet 
 Last, but not least, we would like to not only thank those who worked [on the latest update of the Ember Octane vs Classic Cheat Sheet](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/pull/19), but also everyone else who made this valuable learning resource a reality previously: a huge thank you 💖 goes to the contributors [Jen Weber (@jenweber)](https://github.com/jenweber), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Venus Ang (@venusang)](https://github.com/venusang), [Rajasegar Chandran (@rajasegar-c)](https://github.com/rajasegar-c), [David Baker (@acorncom)](https://github.com/acorncom), [Peter Wagenet (@wagenet)](https://github.com/wagenet), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90), [Chris Garrett (@pzuraq)](https://github.com/pzuraq), [Eli Flanagan (@efx)](https://github.com/efx) and [L. Preston Sego III (@NullVoxPopuli)](https://github.com/NullVoxPopuli)!
 
 Want to contribute to the cheat sheet yourself? Check out [the project on Github](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet) and chat with other contributors on the **#dev-ember-learning** channel on [the Ember Discord](https://discordapp.com/invite/emberjs)!
+
+---
+
+## [Accessible Controls for ember-sortable 🎛️](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/)
+
+[Yicheng (Jerry) Gong (@ygongdev)](https://github.com/ygongdev) wrote a [blog post](https://www.linkedin.com/pulse/open-source-a11y-deep-dive-ember-sortable-yicheng-jerry-gong/) that documented the process on how we now have [accessible controls](https://github.com/adopted-ember-addons/ember-sortable/issues/269) for [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable), an open source drag and drop list sort Ember addon.
+
+Unfortunately there was not a well-defined standard for making accessible drag and drop controls from organizations such as the [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/). He turned to [Andrew A Lee (@drewlee)](https://github.com/drewlee) who created a comprehensive list on what accessible features should be expected on a drag and drop utility and even a [CodePen demo](https://codepen.io/drewlee/project/full/XWNLeE). These accessible controls have now landed as part of the [2.0.0 release](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v2.0.0) of the [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) addon. Check out the accessible controls at the [demo page](https://adopted-ember-addons.github.io/ember-sortable/demo/) today!
+
+As part of this work, [ember-sortable](https://github.com/adopted-ember-addons/ember-sortable) is now part of the [adopted-ember-addons](https://github.com/adopted-ember-addons) which is a GitHub org where community members can find a [new home](https://github.com/adopted-ember-addons/program-guidelines/blob/master/README.md) for their Ember addon. Moreover, ember-sortable was also highlighted on [DecEmber Day 1](https://blog.emberjs.com/2019/12/01/countdown-to-the-new-year-ember-sortable.html)!
 
 ---
 
@@ -89,53 +80,9 @@ You can find all codemods by Freshworks on their [GitHub repo](https://github.co
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [DecEmber: An Addon a Day 📆](https://blog.emberjs.com/tags/december.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+DecEmber is going strong, highlighting a new addon each day until the calendar turns! Check out the [latest DecEmber posts](https://blog.emberjs.com/tags/december.html), covering addons such as [`ember-auto-import`](https://blog.emberjs.com/2019/12/06/countdown-to-the-new-year-ember-auto-import.html), [`ember-cli-sass`](https://blog.emberjs.com/2019/12/08/countdown-to-the-new-year-ember-cli-sass.html), and [`ember-simple-auth`](https://blog.emberjs.com/2019/12/13/countdown-to-the-new-year-ember-simple-auth.html). 
 
 ---
 
@@ -169,4 +116,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
