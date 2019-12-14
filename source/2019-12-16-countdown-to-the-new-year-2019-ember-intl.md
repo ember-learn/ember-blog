@@ -6,7 +6,7 @@ alias: 2019/12/16/countdown-to-the-new-year-2019-ember-intl
 responsive: true
 ---
 
-In our end of year series - "Countdown to The New Year: 31 Days of Ember Addons" we showcase a new addon each day until the new year, and we hope you have fun hearing about our favorite addons!
+**In our end of year series-"Countdown to The New Year: 31 Days of Ember Addons" we showcase a new addon each day until the new year, and we hope you have fun hearing about our favorite addons!**
 
 ## Day 16
 
