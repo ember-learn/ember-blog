@@ -21,7 +21,7 @@ CSS Modules allow us to write styles which are **scoped** to particular parts of
 
 ### Why I Like It
 
-Making the apps, we are building, look awesome can be really fun. But maintaining a growing CSS code base can also be really hard. CSS Modules are a great way to modularise our styles in a way that they apply locally to only the exact component or route we wrote them for by default. This helps us to add new stylish features to our code base with the confidence that the look&feel of other parts of our app is left unchanged. This confidence is helpful for us when editing, adding and deleting CSS even in large web application.
+Making the apps we are building  look awesome can be really fun! But maintaining a growing CSS code base can also be really hard. CSS Modules are a great way to modularise our styles in a way that they apply locally to only the exact component or route we wrote them for by default. This helps us to add new stylish features to our code base with the confidence that the look&feel of other parts of our app is left unchanged. This confidence is helpful for us when editing, adding and deleting CSS even in large web applications.
 
 Using ember-css-modules we can start leveraging CSS modules in our Ember app right away and even benefit from Ember's conventional approach for file arrangement: the co-located CSS files are quick to find right next to our routes and components and blend in nicely into the developer experience that Ember enthusiasts are familiar with.
 
