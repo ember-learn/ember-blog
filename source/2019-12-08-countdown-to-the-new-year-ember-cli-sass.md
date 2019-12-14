@@ -6,7 +6,7 @@ alias: 2019-12-08-countdown-to-the-new-year-ember-cli-sass.md
 responsive: true
 ---
 
-**This is the eighth in our DecEmber series – "Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+**This is the eighth in our DecEmber series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 8
 

@@ -6,11 +6,12 @@ alias: 2019-12-10-countdown-to-the-new-year-ember-a11y-testing.md
 responsive: true
 ---
 
-**This is the tenth in our DecEmber series- <span style="italics">"Countdown to The New Year: 31 Days of Ember Addons"</span>.  We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+**This is the tenth in our DecEmber series-"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
 
 ## Day 10
 
 Let's talk about [ember-a11y-testing](https://emberobserver.com/addons/ember-a11y-testing).
+
 READMORE
 
 ### What It Does
