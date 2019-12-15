@@ -1,8 +1,8 @@
 ---
-title: Countdown to The New Year: Ember Intl
+title: Countdown to The New Year - Ember Intl
 author: Jessica Jordan
 tags: 2019, Addons, DecEmber
-alias: 2019/12/16/countdown-to-the-new-year-2019-ember-intl
+alias: 2019/12/16/countdown-to-the-new-year-ember-intl
 responsive: true
 ---
 
