@@ -25,4 +25,7 @@ The addon's website includes a [cookbook](https://ember-power-select.com/cookboo
 <!--alex ignore just-->
 I have grown to love using Ember Power Select while developing a CRUD-rich web app which benefits from many instances of select elements driven by asynchronous searches. I have made use of the [cookbook](https://ember-power-select.com/cookbook) to debounce those searches and so reduce the load on the server while maintaining a slick feel to the interface. The look of the resulting selects is fine just as they are, but the [well-documented API](https://ember-power-select.com/docs/api-reference) has allowed me to tweak each use of the addon and to provide a better experience to the users.
 
-Although [some work](https://github.com/cibernox/ember-power-select/issues/1251) has been done to support Octane it appears that as of today this isn't yet complete.
+Although [some work](https://github.com/cibernox/ember-power-select/issues/1251) has been done to support Octane it appears that as of today this isn't yet complete. If you are interested in helping out with this addon, check the repository to see what issues remain!
+
+Do you use this codemod? Or one like it? We'd love to hear about Ember codemods that bring you joy!
+
