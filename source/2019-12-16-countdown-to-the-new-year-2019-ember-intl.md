@@ -24,6 +24,6 @@ The rich `ember-intl` service API and many useful template helpers help us to ad
 
 For those of us who have lots of languages to support in their application, `ember-intl` even allows us to load translations asynchronously - making sure that the size of the bundle that determines initial page load time stays small and neat!
 
-Using ember-intl we can build Ember apps that are accessible beyond language barriers - making it more fun to share our app with friends all around the world!
+Using `ember-intl` we can build Ember apps that are accessible beyond language barriers - making it more fun to share our app with friends all around the world!
 
 [Check out ember-intl on Ember Observer](https://emberobserver.com/addons/ember-intl)! If you are a fan of multi-locale apps and you're using internationalisation addons yourself, let us know in the comments which ones are your favorite and the most fun to use!
