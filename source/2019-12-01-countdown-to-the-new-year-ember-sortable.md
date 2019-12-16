@@ -1,7 +1,7 @@
 ---
 title: Countdown to The New Year - Ember Sortable
 author: Melanie Sumner
-tags: 2019, Addons, DecEmber
+tags: 2019, Accessibility, Addons, DecEmber
 alias: 2019-12-01-countdown-to-the-new-year-ember-sortable.md
 responsive: true
 ---
