@@ -22,7 +22,7 @@ The `ember-intl` addon is probably one of the most popular addons used in Ember 
 
 The rich `ember-intl` service API and many useful template helpers help us to add new locales to our apps continually as our product's user base grows globally.
 
-For those of us who have lots of languages to support in their application, ember-intl even allows us to load translations asynchronously - making sure that the size of the bundle that determines initial page load time stays small and neat!
+For those of us who have lots of languages to support in their application, `ember-intl` even allows us to load translations asynchronously - making sure that the size of the bundle that determines initial page load time stays small and neat!
 
 Using ember-intl we can build Ember apps that are accessible beyond language barriers - making it more fun to share our app with friends all around the world!
 
