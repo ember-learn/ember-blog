@@ -16,7 +16,7 @@ READMORE
 
 ### What It Does
 
-ember-intl is probably one of the most popular addons used in Ember apps today. As the go-to solution for bringing internationalisation to our application, it allows us to manage translations, date, time, number and currency formats in more than 150 languages!
+The `ember-intl` addon is probably one of the most popular addons used in Ember apps today. As the go-to solution for bringing internationalisation to our application, it allows us to manage translations, date, time, number and currency formats in more than 150 languages!
 
 ### Why I Like It
 
