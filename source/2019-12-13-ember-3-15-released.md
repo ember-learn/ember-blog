@@ -22,7 +22,7 @@ upcoming Octane announcement blog post from Yehuda.
 ...and then explore our completely updated and refreshed guide and API
 documentation:
 
-* Check out the competely rewritten [core concepts](https://guides.emberjs.com/release/components/) in the guides.
+* Check out the completely rewritten [core concepts](https://guides.emberjs.com/release/components/) in the guides.
 * Read the [completely updated Super Rentals tutorial](https://guides.emberjs.com/release/tutorial/part-1/).
 * Already using Ember and want to adopt Octane? See the [Octane Upgrade
   Guide](/release/upgrading/current-edition/) for the most complete
@@ -31,7 +31,7 @@ documentation:
 In addition to the Octane release, today you can also find version 3.16-beta.1
 released for Ember.js, Ember Data, and Ember CLI. As always we encourage our
 community (especially addon authors) to help test these beta builds and report
-any bugs before they are published as a final release in six weeks' time.
+any bugs before they are published as a final release in six weeks'  time.
 
 You can read more about Ember's general release process at the [Release Dashboard](http://emberjs.com/builds/).
 
