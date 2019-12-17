@@ -14,6 +14,8 @@ management called tracked properties. Combined, these innovative changes to
 Ember are more than just new tools and APIs. Octane's features, together,
 sum up to a paradigm shift in how Ember applications are built.
 
+READMORE
+
 Read more about what we call the "mental model" of working with Octane in the
 upcoming Octane announcement blog post from Yehuda.
 
