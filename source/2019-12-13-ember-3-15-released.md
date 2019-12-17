@@ -31,7 +31,7 @@ documentation:
 In addition to the Octane release, today you can also find version 3.16-beta.1
 released for Ember.js, Ember Data, and Ember CLI. As always we encourage our
 community (especially addon authors) to help test these beta builds and report
-any bugs before they are published as a final release in six weeks'  time.
+any bugs before they are published as a final release in six weeks' time.
 
 You can read more about Ember's general release process at the [Release Dashboard](http://emberjs.com/builds/).
 
