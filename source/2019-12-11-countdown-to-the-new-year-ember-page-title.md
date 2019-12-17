@@ -1,7 +1,7 @@
 ---
 title: Countdown to The New Year - Ember Page Title
 author: Venus Ang
-tags: 2019, Addons, DecEmber
+tags: 2019, Accessibility, Addons, DecEmber
 alias: 2019-12-11-countdown-to-the-new-year-ember-page-title.md
 responsive: true
 ---
