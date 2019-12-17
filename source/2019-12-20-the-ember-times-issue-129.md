@@ -9,6 +9,9 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+...
+new ember-autofocus-modifier 💡,
+... 
 
 READMORE
 
@@ -24,13 +27,13 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [New ember-autofocus-modifier 💡](https://medium.com/qonto-engineering/autofocus-modifier-improving-our-component-apis-fd589b98f4e)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+While building an autofocus feature for their components, Quonto engineers were also able to improve their APIs. [Cyrille David (@dcyriller)](https://github.com/dcyriller) and team wanted to add autofocus to several components across two apps. For example, both their one-time-password input and their email input component needed autofocus. Since mixins are no longer recommended in the Ember ecosystem, Cyrille went with modifiers. [And they blogged about their experience here!](https://medium.com/qonto-engineering/autofocus-modifier-improving-our-component-apis-fd589b98f4e)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Modifiers are a new feature in the upcoming Ember Octane edition for **sharing code between components**, similar to directives in Vue or Angular. We revisited [Chris Garrett (@pzuraq)](https://github.com/pzuraq)'s blog [Coming Soon in Ember Octane - Part 4: Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and the [Octane Guides preview docs: Out-of-Component-Modifications](https://octane-guides-preview.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_out-of-component-modifications) to learn more!
+
+Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https://github.com/qonto/ember-autofocus-modifier). You can use the code as-is, or copy the [snippet code](https://github.com/qonto/ember-autofocus-modifier/blob/v0.0.1/addon/modifiers/autofocus.js) and experiment with creating your own modifier. 
 
 ---
 
