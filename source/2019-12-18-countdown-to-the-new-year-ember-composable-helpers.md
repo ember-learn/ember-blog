@@ -26,7 +26,7 @@ The declarative bit means that we're telling our template _what_ we want to do, 
 
 ### Why I Like It
 
-I think this addon is the bee's knees. It allows me to write code in the way I wish I could always write code! I love being able to say "here's what I want done, please." I'd rather not have to think too much about the "how", especially not every.single.time. I write code. The team that worked on this addon is known for producing useful addons too, and I trust their work. Once again, strong community conventions come through for the benefit of all!
+I think this addon is the bee's knees. It allows me to write code in the way I wish I could always write code! I love being able to say "here's what I want done, please." I'd rather not have to think too much about the "how", especially not every.single.time. I write code. The team that worked on this addon is known for producing useful addons, too, and I trust their work. Once again, strong community conventions come through for the benefit of all!
 
 Even better, the fantastic team at EmberMap has [a video about this addon](https://embermap.com/video/ember-composable-helpers) if you want to learn more!
 
