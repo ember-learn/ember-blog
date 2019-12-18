@@ -46,7 +46,7 @@ The three template helper RFCs Miguel proposed are the following:
 
 - [Adding Equality Operators](https://github.com/emberjs/rfcs/pull/560) such as the `{{eq}}` and `{{neq}}` helpers
 - [Adding Numeric Comparison Operators](https://github.com/emberjs/rfcs/pull/561), specifically the `{{lt}}` and `{{gt}}` helpers
-- [Adding Logical Operators](https://github.com/emberjs/rfcs/pull/562) which are the {{and}}, {{or}} and {{not}} helpers
+- [Adding Logical Operators](https://github.com/emberjs/rfcs/pull/562) which are the `{{and}}`, `{{or}}` and `{{not}}` helpers
 
 Help get this of the ground by adding your input to these changes today!
 
