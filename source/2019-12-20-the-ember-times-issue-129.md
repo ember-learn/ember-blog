@@ -38,7 +38,7 @@ Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https:/
 
 ---
 
-## 3 New RFCs To Add New Template Helpers 3️⃣
+## [3 New RFCs To Add New Template Helpers 3️⃣](https://github.com/emberjs/rfcs/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Acibernox+templates)
 
 [Miguel Camba @cibernox](https://github.com/cibernox) opened a slew of RFCs around adding new built-in operators to Ember templates. The idea comes from functionality provided in [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) and is a subset of his [other RFC](https://github.com/emberjs/rfcs/pull/388) to add basic helpers to Ember templates.
 
