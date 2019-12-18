@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 129
-author: Amy Lam, the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/20-the-ember-times-issue-129.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...
 new ember-autofocus-modifier 💡,
+3 new RFCs for template helpers 3️⃣,
 ... 
 
 READMORE
@@ -37,13 +38,17 @@ Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https:/
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [3 New RFCs To Add New Template Helpers 3️⃣](https://github.com/emberjs/rfcs/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Acibernox+templates)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Miguel Camba @cibernox](https://github.com/cibernox) opened a slew of RFCs around adding new built-in operators to Ember templates. The idea comes from functionality provided in [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) and is a subset of his [other RFC](https://github.com/emberjs/rfcs/pull/388) to add basic helpers to Ember templates.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The three template helper RFCs Miguel proposed are the following:
+
+- [Adding Equality Operators](https://github.com/emberjs/rfcs/pull/560) such as the `{{eq}}` and `{{neq}}` helpers
+- [Adding Numeric Comparison Operators](https://github.com/emberjs/rfcs/pull/561), specifically the `{{lt}}` and `{{gt}}` helpers
+- [Adding Logical Operators](https://github.com/emberjs/rfcs/pull/562) which are the `{{and}}`, `{{or}}` and `{{not}}` helpers
+
+Help get this off the ground by adding your input to these changes today!
 
 ---
 
@@ -147,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
