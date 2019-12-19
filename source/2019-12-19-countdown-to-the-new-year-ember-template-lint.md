@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 19
 
-Today we are going to look at an addon that, while it is built into Ember apps by default, has had enough updates lately to deserve a closer look- [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint).
+Today we are going to look at an addon that is part of every new Ember app. The [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) addon has many new features added recently, and is worth a close look!
 
 READMORE
 
