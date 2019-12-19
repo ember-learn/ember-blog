@@ -17,7 +17,7 @@ READMORE
 ### What It Does
 
 As you may guess from the addon title, `ember-template-lint` is a linter for your template files! 
-Because we work in JavaScript, there are different ways something *could* be done- but often there is an ideal solution that we know won't cause problems down the line. 
+Because we work in JavaScript, there are different ways something *could* be done, but often there is an ideal solution that avoids problems down the line. 
 This is where `ember-template-lint` shines- it will throw warnings and/or errors when you try to break one of these rules.
 It's extendable and customizable too, so you can get the right combination of rules for *your* project.
 
