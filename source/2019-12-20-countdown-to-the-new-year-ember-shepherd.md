@@ -30,7 +30,7 @@ It is configurable to show modal overlays or not, and can be hooked up to your e
 
 Tours are an often overlooked feature of apps, and can be crucial to providing a good user experience. Without them, a user may feel lost in your app or do things in a way you did not intend.
 
-ember-shepherd makes adding these useful tours to your Ember app much easier than hand rolling them yourself. With the provided Ember service, you can add steps and interact with your tour in a familiar Ember way.
+The `ember-shepherd` addon makes adding these useful tours to your Ember app much easier than hand rolling them yourself. With the provided Ember service, you can add steps and interact with your tour in a familiar Ember way.
 
 I really like providing these tours to users to make sure they can quickly get up to speed with my apps, rather than spending a lot of time getting lost in the app and having a less than optimal experience.
 
