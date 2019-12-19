@@ -24,7 +24,7 @@ It's extendable and customizable too, so you can get the right combination of ru
 
 ### Why I Like It
 
-The `ember-template-lint` addon isn't actually an Ember addon (which is why it's not on [Ember Observer](https://emberobserver.com/)) but it *is* an essential addon that helps provide accuracy, consistency and best practices in your application. 
+The `ember-template-lint` addon isn't actually an Ember addon, in terms of its file structure (which is why it's not on [Ember Observer](https://emberobserver.com/)) but it *is* an essential ingredient that helps provide accuracy, consistency and best practices in your application. 
 
 Recently, I have been contributing to it myself, adding in extra ways that will help Ember developers avoid accessibility pitfalls.
 Through that work, I have come to deeply appreciate this addon- the [linter's contributors](https://github.com/ember-template-lint/ember-template-lint/graphs/contributors) have really done an incredible job at helping all of us write better template code.
