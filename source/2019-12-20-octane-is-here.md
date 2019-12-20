@@ -64,7 +64,7 @@ It also means that you can easily create a component with no root element at all
 <hr>
 ```
 
-### Reusable DOM Behavior With Modifiers
+## Reusable DOM Behavior With Modifiers
 
 The second big improvement to the Ember component model is element modifiers, a feature that allows you to build reusable DOM behavior that isn't connected to any specific component.
 
