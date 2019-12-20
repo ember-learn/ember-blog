@@ -103,6 +103,8 @@ For more details on changes in Ember.js 3.15, please review the [Ember.js 3.15.0
 
 ## EmberData
 
+Ember Data is the official data persistence library for Ember.js applications.
+
 There were two new features and no deprecations for EmberData v.3.15.0.
 
 ### Identifiers (1 of 2)
