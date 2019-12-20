@@ -60,7 +60,7 @@ has supplanted use of the `isVisible` API.
 To transition away from this, we recommend using conditionals in a template:
 
 ```handlebars
-{{#if showComponent}}
+{{#if this.showComponent}}
   <MyComponent />
 {{/if}}
 
