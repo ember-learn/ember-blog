@@ -18,7 +18,7 @@ READMORE
 
 ---
 
-## [Octane is Here 🎉](https://blog.emberjs.com/2019/12/20/octane-is-here.html)
+## [Octane Is Here 🎉](https://blog.emberjs.com/2019/12/20/octane-is-here.html)
 
 [Ember 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) was released this week. In addition to the usual new features, improvements and bug fixes, this release also marks the official release of Ember's first edition - **Ember Octane**!
 
@@ -41,7 +41,7 @@ Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https:/
 
 ---
 
-## [3 New RFCs to Add New Template Helpers 3️⃣](https://github.com/emberjs/rfcs/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Acibernox+templates)
+## [Three New RFCs to Add New Template Helpers 3️⃣](https://github.com/emberjs/rfcs/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Acibernox+templates)
 
 [Miguel Camba @cibernox](https://github.com/cibernox) opened a slew of RFCs around adding new built-in operators to Ember templates. The idea comes from functionality provided in [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) and is a subset of his [other RFC](https://github.com/emberjs/rfcs/pull/388) to add basic helpers to Ember templates.
 
@@ -65,54 +65,14 @@ If you would like to build an Ember + GraphQL app, we encourage you to try out [
 
 ---
 
-## [The Final Countdown with December 📆](https://blog.emberjs.com/tags/december.html)
+## [The Final Countdown with DecEmber 📆](https://blog.emberjs.com/tags/december.html)
 
 With the series **DecEmber series "Countdown to the New Year: 31 Days of Ember addons"** the community is featuring their favorite
-Ember addons on a daily basis until the end of 2019 - which means, there are only 11 more days to go! Follow the DecEmber series [on the Ember blog](https://blog.emberjs.com/tags/december.html)!
+Ember addons on a daily basis until the end of 2019 - which means, there are **only 11 more days** to go! Follow the DecEmber series [on the Ember blog](https://blog.emberjs.com/tags/december.html)!
 
-This week, community members wrote about [their love ❤️ for powerful select UIs](https://blog.emberjs.com/2019/12/14/countdown-to-the-new-year-ember-power-select.html), the [beauty of well-formatted templates](https://blog.emberjs.com/2019/12/19/countdown-to-the-new-year-ember-template-lint.html), the [joy of sharing your app across language barriers](https://blog.emberjs.com/2019/12/16/countdown-to-the-new-year-2019-ember-intl.html) and how their favorite addons help them with writing amazing web applications!
+This week, community members wrote about [their love ❤️ for powerful select UIs](https://blog.emberjs.com/2019/12/14/countdown-to-the-new-year-ember-power-select.html), the [beauty of well-formatted templates](https://blog.emberjs.com/2019/12/19/countdown-to-the-new-year-ember-template-lint.html), the [joy of sharing your app beyond language barriers](https://blog.emberjs.com/2019/12/16/countdown-to-the-new-year-2019-ember-intl.html) and how amazing Ember addons help them with writing amazing web applications!
 
-Do you want to share your joy for a particular addon yourself? [Sign up for any of the open issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-instructions.md). For questions or feedback, reach out to us on the **#dev-ember-learning** channel on the [Ember Discord](https://discordapp.com/invite/emberjs) or ping [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Jen Weber (@jenweber)](https://github.com/jenweber) or [Jessica Jordan (@jessica-jordan)](https://github.com/jessica-jordan).
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Do you want to share your joy for a particular addon yourself? [Sign up for any of the open issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-instructions.md) to get started. For questions or feedback, reach out to us on the **#dev-ember-learning** channel on the [Ember Discord](https://discordapp.com/invite/emberjs) or ping [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Jen Weber (@jenweber)](https://github.com/jenweber) or [Jessica Jordan (@jessica-jordan)](https://github.com/jessica-jordan).
 
 ---
 
@@ -145,10 +105,10 @@ Keep on top of what's been going on in Emberland this week by subscribing to our
 
 ## [Happy Holidays from The Ember Times Team 🐹🌲⛄️](https://blog.emberjs.com/tags/newsletter)
 
-We, The Ember Times team, wish you a pleasant, joyful holiday season (and if you don't celebrate any big holidays this month, we wish you a pleasant and joyful time!) with your loved ones, family, friends and animal companions!
+The Ember Times team wishes you a pleasant, joyful holiday season (and if you don't celebrate any big holidays this month, we wish you a pleasant and joyful time!) with your loved ones, family, friends and animal companions!
 
 <!--alex ignore special-->
-Since most us writers at The Ember Times are looking forward to the holiday season as well, we will be away for a short winter break; and we'll be back for the next Ember Times in the new year on **January 9th 2020** with an **exclusive special edition**!
+Since most us writers at The Ember Times are looking forward to the holiday season as well, we will be away for a short winter break; on **January 9, 2020** we are back with the next Ember Times and an **exclusive special edition**!
 
 ---
 
