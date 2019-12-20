@@ -225,6 +225,7 @@ A neat thing about the tracked properties reactivity model is that if you remove
 
 ## A Focus on Documentation
 
+<!--alex ignore just-->
 Octane is more than just new features. It's also a focus on refreshing the documentation to show users how to build applications in the Octane way.
 
 ### Fully Refreshed Tutorial and Component Guides
