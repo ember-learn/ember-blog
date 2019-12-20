@@ -20,7 +20,7 @@ READMORE
 
 <!--alex ignore mental-->
 Read more about what we call the "mental model" of working with Octane in the
-upcoming Octane announcement blog post from Yehuda.
+[Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html) blog post from Yehuda.
 
 ...and then explore our completely updated and refreshed guide and API
 documentation:
