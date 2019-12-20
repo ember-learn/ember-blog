@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 129
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/20-the-ember-times-issue-129.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 ...
 new ember-autofocus-modifier 💡,
 3 new RFCs for template helpers 3️⃣,
+ember-apollo-client v2 released 🎉,
 ... 
 
 READMORE
@@ -52,13 +53,13 @@ Help get this off the ground by adding your input to these changes today!
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [ember-apollo-client v2 Released 🎉](https://twitter.com/josemarluedke/status/1204908862676975617)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+After a year in beta cycle, [ember-apollo-client](https://github.com/ember-graphql/ember-apollo-client/) celebrates a new major release! Version 2 comes with several enhanced features and follows modern practices in Ember and the JavaScript ecosystem. To learn more about v2, please see the [changelog](https://github.com/ember-graphql/ember-apollo-client/releases/tag/v2.0.0).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We extend our thanks to all contributors: [@FabHof](https://github.com/FabHof), [@brunoocasali](https://github.com/brunoocasali), [@buschtoens](https://github.com/buschtoens), [@dmzza](https://github.com/dmzza), [@vsergiu93](https://github.com/vsergiu93), [@lstrzebinczyk](https://github.com/lstrzebinczyk), [@jasonmit](https://github.com/jasonmit), [@coladarci](https://github.com/coladarci), [@jgwhite](https://github.com/jgwhite), [@christophermlne](https://github.com/christophermlne), [@bgentry](https://github.com/bgentry), and [@josemarluedke](https://github.com/josemarluedke).
+
+If you would like to build an Ember + GraphQL app, we encourage you to try out [ember-apollo-client](https://github.com/ember-graphql/ember-apollo-client) today!
 
 ---
 
@@ -152,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
