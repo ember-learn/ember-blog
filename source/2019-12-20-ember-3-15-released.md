@@ -4,6 +4,7 @@ author: Kenneth Larsen, Matthew Beale, Melanie Sumner
 tags: Releases, 2019, 3, 3.15, Version 3.x
 alias: 2019-12-20-ember-3-15-released.md
 responsive: true
+date: "2019-12-20 16:30:00 -0500"
 ---
 
 Today the Ember project is releasing version 3.15 of Ember.js, Ember Data, and

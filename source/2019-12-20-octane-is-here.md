@@ -4,6 +4,7 @@ author: Yehuda Katz
 tags: Recent Posts, 2019, Announcement
 alias: 2019-12-20-octane-is-here.md
 responsive: true
+date: "2019-12-20 16:31:00 -0500"
 ---
 
 Ember 3.15 is Octane! Curious what Octane means for web development? This blog post will get you oriented.
