@@ -276,7 +276,7 @@ The refreshed inspector eliminates duplicate concepts and outdated language (lik
 
 ## Getting Started
 
-Whether you're a new Ember developer, coming back to Ember after many years, or an existing Ember developer, the fastest and easiest way to get learn how to build applications the Octane way is to run through [the refreshed tutorial](https://guides.emberjs.com/release/tutorial/part-1/).
+Whether you're a new Ember developer, coming back to Ember after many years, or an existing Ember developer, the fastest and easiest way to get learn how to build applications the Octane way is to run through [the refreshed tutorial](https://guides.emberjs.com/release/tutorial/).
 
 Once you got through the tutorial, it's time to build something real for fun. The Ember addon ecosystem is a great part of Ember, so you'll want to reach for addons to speed up the process of building your project.
 
