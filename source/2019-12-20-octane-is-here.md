@@ -106,7 +106,7 @@ In the context of Ember, there's another issue with using Ember Component mixins
 
 While we do recommend you avoid mixins, you can still use them in Ember 3.15. Addons may also still provide mixins for you to use.
 
-#### After: Element Modifiers
+### After: Element Modifiers
 
 Ember Octane provides a new way to reuse DOM behavior: element modifiers. The simplest way to write an element modifier is to write a function that takes the element and does something with it. The function can optionally return a destructor function that should run when Ember tears down the element.
 
