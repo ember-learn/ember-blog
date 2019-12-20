@@ -18,7 +18,7 @@ READMORE
 
 ### What It Does
 
-`ember-shepherd` provides an Ember wrapper for the site tour library
+The `ember-shepherd` addon provides an Ember wrapper for the site tour library
 [Shepherd](https://shepherdjs.dev/), which allows you to seamlessly
 configure your site tours with an Ember service.
 
