@@ -82,7 +82,7 @@ components](https://api.emberjs.com/ember/3.15/modules/@glimmer%2Fcomponent),
 as well as of the
 [template-only-glimmer-components](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_template-only-glimmer-components)
 optional feature the `{{partial}}` API in Ember no longer provides any unique
-benefits. Instead it has several downside including difficult to teach scoping 
+benefits. Instead it has several downsides including difficult to teach scoping 
 rules and poor performance.
 
 See the [deprecation guide for
