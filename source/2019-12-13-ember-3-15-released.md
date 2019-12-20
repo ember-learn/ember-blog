@@ -6,7 +6,7 @@ responsive: true
 ---
 
 Today the Ember project is releasing version 3.15 of Ember.js, Ember Data, and
-Ember CLI. Ember 3.15 has been dubbed "Octane" as Ember's first edition release.  
+Ember CLI. Ember 3.15 has been dubbed "Octane" as Ember's first [edition release](https://emberjs.com/editions/).  
 
 Octane developers can exercise modern features like native ES
 classes, decorators, the new Glimmer component API, and a new approach to state
