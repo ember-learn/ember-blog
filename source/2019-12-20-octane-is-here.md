@@ -24,7 +24,7 @@ As of Ember 3.15, the Ember project recommends Octane for new applications and a
 
 ## Octane is More Fun
 
-The Ember Octane edition is, first and foremost, about making it easier and more fun to build Ember applications.
+The Ember Octane edition is, first and foremost, about making it easier and more *fun* to build Ember applications.
 
 The centerpiece of Octane's ergonomic improvements are two big changes to the core of Ember: a new component model and a new reactivity system.
 
