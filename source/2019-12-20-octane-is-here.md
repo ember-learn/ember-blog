@@ -348,4 +348,4 @@ This work also allows existing Ember codebases to adopt Octane patterns module-b
 Octane is a project the Ember community is excited to share with developers
 both new and experienced. Octane is a modern, productive way to build web applications, and makes it possible to have both fun and stability in our work. 
 
-The polished, across the board refresh of Ember's APIs and help content could not have accomplished this without the effort of the community and every member of the [Ember Core Teams](https://emberjs.com/team/). Thank you for believing in this project, contributing to this project, and continuing to help Ember be a great choice for building on the web.
+The polished, across the board refresh of Ember's APIs and help content could not have accomplished this without the effort of the community and every member of the [Ember Core Teams](https://emberjs.com/team/). Thank you for being a part of our community, contributing to this project, and continuing to help Ember be a great choice for building on the web.
