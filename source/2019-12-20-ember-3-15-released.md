@@ -10,18 +10,19 @@ date: "2019-12-20 16:30:00 -0500"
 Today the Ember project is releasing version 3.15 of Ember.js, Ember Data, and
 Ember CLI. In addition to brining new features and bug fixes, Ember 3.15 also marks the official release of the [Octane edition](TODO://link-to-octane-blog-post), which is Ember's first [edition release](https://emberjs.com/editions/).
 
+<!--alex ignore just-->
 Ember developers using the Octane edition can exercise modern features like native ES
 classes, decorators, the new Glimmer component API, and a new approach to state
 management called tracked properties. Combined, these innovative changes to
-<!--alex ignore just-->
 Ember are more than just new tools and APIs. Octane's features, together,
 sum up to a paradigm shift in how Ember applications are built.
 
 READMORE
 
 <!--alex ignore nuts-->
-Read more about what we call the "mental model" of working with Octane in the
-[Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html) blog post from Yehuda.
+**Read more about how Octane makes web application development fun and
+productive in 
+[Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html), a blog post from Yehuda.**
 
 ...and then explore our completely updated and refreshed guide and API
 documentation:
