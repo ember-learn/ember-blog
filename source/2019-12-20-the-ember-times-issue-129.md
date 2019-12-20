@@ -108,7 +108,7 @@ Keep on top of what's been going on in Emberland this week by subscribing to our
 The Ember Times team wishes you a pleasant, joyful holiday season (and if you don't celebrate any big holidays this month, we wish you a pleasant and joyful time!) with your loved ones, family, friends and animal companions!🌲⛄️🎆
 
 <!--alex ignore special-->
-Since most us writers at The Ember Times are looking forward to the holiday season as well, we will be away for a short winter break; on **January 9, 2020** we are back with the next Ember Times and an **exclusive special edition**!
+Since most us writers at The Ember Times are looking forward to the holiday season as well, we will be away for a short winter break; on **January 10, 2020** we are back with the next Ember Times and an **exclusive special edition**!
 
 ---
 
