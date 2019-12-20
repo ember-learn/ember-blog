@@ -60,7 +60,7 @@ In contrast, Glimmer components allow you to treat the root element like any oth
 ```
 
 <!--alex ignore just-->
-It also means that you can easily create a component with no root element at all, and things like this just work.
+It also means that you can create a component with no root element at all, and things like this just work.
 
 ```handlebars
 <p>{{yield}}</p>
