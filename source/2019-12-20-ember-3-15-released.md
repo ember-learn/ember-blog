@@ -101,21 +101,41 @@ for more details about this deprecation.
 
 For more details on changes in Ember.js 3.15, please review the [Ember.js 3.15.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.15.0).
 
-## Ember Data
+## EmberData
 
-There were two new features and no deprecations for Ember Data v.3.15.0.
+There were two new features and no deprecations for EmberData v.3.15.0.
 
-### IDENTIFIERS turned on (1 of 2)
+### Identifiers (1 of 2)
 
-(see https://github.com/emberjs/data/pull/6366) 
+Identifiers provides infrastructure for handling identity within ember-data to satisfy
+requirements around improved caching, serializability, replication, and handling of
+remote data.
 
-### Full `links` object support for relationships (2 of 2)
+For more information read [RFC-403 Identifiers](https://github.com/emberjs/rfcs/blob/master/text/0403-ember-data-identifiers.md).
 
-Features from [RFC]() were implemented that ensure full `links` object support for relationships, including: 
-- Preserves all existing behaviors attached to the related link
-- Adds `reference.links()` for accessing links
-- Adds `HasMany.links` and `PromiseHasMany.links` for accessing links
-- Ensures that links are returned from the cache in whichever format the user supplied (i.e., `{ href }` or string).
+### Inspector Support is now optional in Production (2 of 2)
+
+EmberData ships with a `DataAdapter` which provides the necessary support for
+the data panel in the [Ember Inspector](https://github.com/emberjs/ember-inspector).
+
+This package adds roughly .6 KB when minified and compressed to your application
+in production; however, you can now opt out of shipping this addon in production
+via options in `ember-cli-build.js`
+  
+```js
+let app = new EmberApp(defaults, {
+  emberData: {
+    includeDataAdapterInProduction: false
+  }
+});
+```
+
+When using `ember-data` as a dependency of your app, the default is to ship the
+inspector support to production.
+
+When not using `ember-data` as a dependency but instead using EmberData via
+declaring specific `@ember-data/<package>` dependencies the default is to not
+ship to production.
 
 For additional details on changes in Ember Data 3.15.0, please review the full
 [Ember Data 3.15.0 change log](https://github.com/emberjs/data/blob/release/CHANGELOG.md#release-3150-december-18-2019).
