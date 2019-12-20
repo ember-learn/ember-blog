@@ -104,7 +104,7 @@ The drawbacks of using mixins for UI composition are well-described [across](htt
 
 In the context of Ember, there's another issue with using Ember Component mixins for reusable DOM behavior. If you want to use the `Tabs` mixin on an element, you need to turn that element into a component with a JavaScript class, which is pretty awkward.
 
-You can still use mixins in Ember 3.15, and addons may still provide mixins for you to use.
+While we do recommend you avoid mixins, you can still use them in Ember 3.15. Addons may also still provide mixins for you to use.
 
 #### After: Element Modifiers
 
