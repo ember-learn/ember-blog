@@ -68,7 +68,7 @@ It also means that you can easily create a component with no root element at all
 
 The second big improvement to the Ember component model is element modifiers, a feature that allows you to build reusable DOM behavior that isn't connected to any specific component.
 
-#### Before: Mixins
+### Before: Mixins
 
 In Classic Ember, if you wanted to define a piece of DOM behavior that you could reuse across your application, you would define a component mixin that implemented the appropriate lifecycle hooks.
 
