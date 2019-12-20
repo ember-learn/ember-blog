@@ -30,7 +30,7 @@ The Ember Octane edition is, first and foremost, about making it easier and more
 
 The centerpiece of Octane's ergonomic improvements are two big changes to the core of Ember: a new component model and a new reactivity system.
 
-For existing Ember users, both the new component model and the new reactivity system are fully opt-in and fully interoperable with existing code. Upgrading an Ember 3.14 app to Ember 3.15 is a compatible change, as the version number would suggest.
+> For existing Ember users, both the new component model and the new reactivity system are fully opt-in and fully interoperable with existing code. Upgrading an Ember 3.14 app to Ember 3.15 is a compatible change, as the version number would suggest.
 
 ## Glimmer Components
 
@@ -109,7 +109,7 @@ The drawbacks of using mixins for UI composition are well-described [across](htt
 
 In the context of Ember, there's another issue with using Ember Component mixins for reusable DOM behavior. If you want to use the `Tabs` mixin on an element, you need to turn that element into a component with a JavaScript class, which is pretty awkward.
 
-While we do recommend you avoid mixins, you can still use them in Ember 3.15. Addons may also still provide mixins for you to use.
+> While we do recommend you avoid mixins, you can still use them in Ember 3.15. Addons may also still provide mixins for you to use.
 
 ### After: Element Modifiers
 
@@ -145,7 +145,7 @@ The hallmark of a modern front-end framework is its "reactivity model". A reacti
 
 Ember Octane exposes a drastically simpler reactivity model called "tracked properties."
 
-The tracked properties reactivity model is compatible and interoperable with the classic reactivity model. This is because both APIs are implemented in terms of Ember's internal reactivity model, based on [References](https://github.com/glimmerjs/glimmer-vm/blob/master/guides/04-references.md) and [Validators](https://github.com/glimmerjs/glimmer-vm/blob/master/guides/05-validators.md).
+> The tracked properties reactivity model is compatible and interoperable with the classic reactivity model. This is because both APIs are implemented in terms of Ember's internal reactivity model, based on [References](https://github.com/glimmerjs/glimmer-vm/blob/master/guides/04-references.md) and [Validators](https://github.com/glimmerjs/glimmer-vm/blob/master/guides/05-validators.md).
 
 ### Before: Computed Properties and Restrictions
 
@@ -226,7 +226,7 @@ captainAmerica.description; // "Steven Rogers; Age: 80; Country: USA"
 
 You start with a normal JavaScript class and annotate any fields that could affect the DOM with `@tracked`. You don't need to annotate getters or functions, so you can break up your code however you want.
 
-A neat thing about the tracked properties reactivity model is that if you remove the `@tracked` annotation, the code works exactly the same. The only thing that changes if you add `@tracked` is that if you make changes to the property, any part of the DOM that used that property as part of its computation will correctly update.
+> A neat thing about the tracked properties reactivity model is that if you remove the `@tracked` annotation, the code works exactly the same. The only thing that changes if you add `@tracked` is that if you make changes to the property, any part of the DOM that used that property as part of its computation will correctly update.
 
 ## A Focus on Documentation
 
@@ -287,7 +287,7 @@ Once you get through the tutorial, it's time to build something real for fun. Th
 
 [Ember Observer](https://emberobserver.com/) is a directory for the Ember addon ecosystem. Each addon gets a quality score based on a human review of formal criteria like the existence of a meaningful README, whether the addon has an automated build, and whether the addon is maintained by more than one person. This week, it will also indicate whether an addon is Octane Ready.
 
-Because of the details of Octane's compatibility story, most addons should be Octane Ready without any changes. Ember Observer will help the community proactively identify and fix Octane problems in maintained packages.
+> Because of the details of Octane's compatibility story, most addons should be Octane Ready without any changes. Ember Observer will help the community proactively identify and fix Octane problems in maintained packages.
 
 ## A Closer Look at Seamless Interop
 
