@@ -34,7 +34,7 @@ For existing Ember users, both the new component model and the new reactivity sy
 
 The first big improvement in Ember Octane is Glimmer Components. Ember has had a single component system since Ember 1.0, based on JavaScript syntax that was available at the time.
 
-#### Before: Classic Components
+### Before: Classic Components
 
 The thing that jumps out at you when you look at classic components is that you configure a "root element" using a JavaScript microsyntax.
 
