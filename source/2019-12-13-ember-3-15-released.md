@@ -104,7 +104,7 @@ For details on changes in Ember Data 3.15.0, please review the
 [Ember Data 3.15.0 release page](https://github.com/emberjs/data/releases/tag/v3.15.0).
 
 For details on the changes in Ember CLI 3.15.0 and detailed upgrade
-instructions, please review the [Ember CLI  3.15.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.15.0).
+instructions, please review the [Ember CLI 3.15.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.15.0).
 
 ---
 
