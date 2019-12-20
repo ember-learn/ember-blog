@@ -180,7 +180,7 @@ captainAmerica.description; // "Steven Rogers; Age: 80; Country: USA"
 
 This design makes it harder to break up a computed property into smaller functions, because the computed property still needs to enumerate all properties that it used, no matter where they're used. In practice, this means that, in Classic Ember, you break up computed properties into more computed properties, which works well but is somewhat restrictive.
 
-#### After: Tracked Properties
+### After: Tracked Properties
 
 Octane's reactivity model, tracked properties, have a much lighter footprint.
 
