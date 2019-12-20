@@ -61,7 +61,7 @@ To transition away from this, we recommend using conditionals in a template:
 
 ```handlebars
 {{#if showComponent}}
-  {{component}}
+  <MyComponent />
 {{/if}}
 
 {{! or }}
