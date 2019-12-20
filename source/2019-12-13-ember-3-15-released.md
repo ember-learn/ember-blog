@@ -17,6 +17,7 @@ sum up to a paradigm shift in how Ember applications are built.
 
 READMORE
 
+<!--alex ignore mental-->
 Read more about what we call the "mental model" of working with Octane in the
 upcoming Octane announcement blog post from Yehuda.
 
