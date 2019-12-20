@@ -1,8 +1,8 @@
 ---
 title: The Ember Times - Issue No. XXS
 author: the crowd
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
-alias : "blog/2019/xx/xx-the-ember-times-issue-XXX.html"
+tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
 ---
 
