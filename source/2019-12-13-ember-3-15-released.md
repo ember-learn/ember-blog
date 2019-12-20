@@ -11,6 +11,7 @@ Ember CLI. Ember 3.15 has been dubbed "Octane" as Ember's first [edition release
 Ember developers using the Octane edition can exercise modern features like native ES
 classes, decorators, the new Glimmer component API, and a new approach to state
 management called tracked properties. Combined, these innovative changes to
+<!--alex ignore just-->
 Ember are more than just new tools and APIs. Octane's features, together,
 sum up to a paradigm shift in how Ember applications are built.
 
