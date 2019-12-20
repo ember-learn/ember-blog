@@ -117,7 +117,7 @@ remote data.
 
 For more information read [RFC-403 Identifiers](https://github.com/emberjs/rfcs/blob/master/text/0403-ember-data-identifiers.md).
 
-### Inspector Support is now optional in Production (2 of 2)
+### Inspector Support is now optional in production (2 of 2)
 
 EmberData ships with a `DataAdapter` which provides the necessary support for
 the data panel in the [Ember Inspector](https://github.com/emberjs/ember-inspector).
