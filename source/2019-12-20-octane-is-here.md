@@ -122,7 +122,7 @@ export default modifier(element => {
 });
 ```
 
-Pretty easy!
+Really straightforward!
 
 You can use a modifier on any element using element modifier syntax.
 
