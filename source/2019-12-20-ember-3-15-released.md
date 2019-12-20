@@ -2,6 +2,7 @@
 title: Ember 3.15 "Octane" Released
 author: Kenneth Larsen, Matthew Beale, Melanie Sumner
 tags: Releases, 2019, 3, 3.15, Version 3.x
+alias: 2019-12-20-ember-3-15-released.md
 responsive: true
 ---
 
