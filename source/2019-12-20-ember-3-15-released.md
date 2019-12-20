@@ -48,7 +48,7 @@ Deprecations are added to Ember.js when an API will be removed at a later date. 
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
-Three deprecations were introduced in Ember.js v3.15.0.
+There were three deprecations in Ember.js v3.15.0.
 
 ### Deprecate `Component#isVisible` (1 of 3)
 
