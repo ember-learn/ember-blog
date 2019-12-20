@@ -339,8 +339,9 @@ Because these two systems are interoperable, libraries can adopt the Octane reac
 
 This work also allows existing Ember codebases to adopt Octane patterns module-by-module.
 
-## Summary
+## Thanks for checking out Octane!
 
-We believe that developers should have fun while building for the web, and we think the Octane edition of Ember makes it possible to have both fun and stability in our work. 
+Octane is a project the Ember community is excited to share with developers
+both new and experienced. Octane is a modern, productive way to build web applications, and makes it possible to have both fun and stability in our work. 
 
-We also could not have done this without the effort of the community and every member of the [Ember Core Teams](https://emberjs.com/team/). Thank you for believing in this project, contributing to this project, and continuing to help Ember be the best it can be. 
+The polished, across the board refresh of Ember's APIs and help content could not have accomplished this without the effort of the community and every member of the [Ember Core Teams](https://emberjs.com/team/). Thank you for believing in this project, contributing to this project, and continuing to help Ember be a great choice for building on the web.
