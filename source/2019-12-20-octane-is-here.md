@@ -278,7 +278,7 @@ The refreshed inspector eliminates duplicate concepts and outdated language (lik
 
 Whether you're a new Ember developer, coming back to Ember after many years, or an existing Ember developer, the fastest and easiest way to get learn how to build applications the Octane way is to run through [the refreshed tutorial](https://guides.emberjs.com/release/tutorial/).
 
-Once you got through the tutorial, it's time to build something real for fun. The Ember addon ecosystem is a great part of Ember, so you'll want to reach for addons to speed up the process of building your project.
+Once you get through the tutorial, it's time to build something real for fun. The Ember addon ecosystem is a great part of Ember, so you'll want to reach for addons to speed up the process of building your project.
 
 [Ember Observer](https://emberobserver.com/) is a directory for the Ember addon ecosystem. Each addon gets a quality score based on a human review of formal criteria like the existence of a meaningful README, whether the addon has an automated build, and whether the addon is maintained by more than one person. This week, it will also indicate whether an addon is Octane Ready.
 
