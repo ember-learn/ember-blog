@@ -46,7 +46,7 @@ export default EmberComponent.extend({
 })
 ```
 
-#### After: Glimmer Components
+### After: Glimmer Components
 
 <!--alex ignore special-->
 In contrast, Glimmer components allow you to treat the root element just like any other element. This substantially simplifies the component model, eliminating the special cases that come from having a second API just for working with the root element of a component.
