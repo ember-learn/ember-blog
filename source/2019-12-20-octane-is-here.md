@@ -239,31 +239,31 @@ The tutorial is the first way that people learn how to build Ember applications.
 
 The structure of the tutorial is also clarified and refreshed.
 
-#### Before
-
----
-
-![Tutorial before Octane](/images/octane-is-here/Untitled.png)
-
-#### After
-
----
-
-![Tutorial after Octane](/images/octane-is-here/Untitled%201.png)
+<div>
+  <span style="width=50%;float:left">
+    <h4>Before</h4>
+    <img alt="Tutorial before Octane" src="/images/octane-is-here/Untitled.png">
+  </span>
+  <span style="width=50%;float:left">
+    <h4>After</h4>
+    <img alt="Tutorial after Octane" src="/images/octane-is-here/Untitled%201.png">
+  </span>
+  <div style="display: block; clear: both;"></div>
+</div>
 
 The guides also underwent a major refresh, elevating components and eliminating confusing organization (like the separation between templates and components). The new guides de-emphasize controllers, which are less important in Octane. The classic object model section is now included in a section on migrating to Octane rather than as a first-class section.
 
-#### Before
-
----
-
-![Guides before Octane](/images/octane-is-here/Untitled%202.png)
-
-#### After
-
----
-
-![Guides after Octane](/images/octane-is-here/Untitled%203.png)
+<div>
+  <span style="width=50%;float:left">
+    <h4>Before</h4>
+    <img alt="Guides before Octane" src="/images/octane-is-here/Untitled%202.png">
+  </span>
+  <span style="width=50%;float:left">
+    <h4>After</h4>
+    <img alt="Guides after Octane" src="/images/octane-is-here/Untitled%203.png">
+  </span>
+  <div style="display: block; clear: both;"></div>
+</div>
 
 ## Great Tooling
 
