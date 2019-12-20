@@ -19,7 +19,7 @@ sum up to a paradigm shift in how Ember applications are built.
 
 READMORE
 
-<!--alex ignore mental-->
+<!--alex ignore nuts-->
 Read more about what we call the "mental model" of working with Octane in the
 [Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html) blog post from Yehuda.
 

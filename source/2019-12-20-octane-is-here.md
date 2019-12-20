@@ -17,6 +17,7 @@ READMORE
 
 Ember Octane is the best way for teams to build ambitious web applications.
 
+<!--alex ignore just-->
 Ember has always focused on building the best framework that people with different levels of skill can use together to build web applications. Octane updates Ember's components and reactivity system to make them more modern, easier to use, and just more fun.
 
 ## The Ember Project Recommends Octane
@@ -49,8 +50,8 @@ export default EmberComponent.extend({
 
 ### After: Glimmer Components
 
-<!--alex ignore special-->
-In contrast, Glimmer components allow you to treat the root element just like any other element. This substantially simplifies the component model, eliminating the special cases that come from having a second API just for working with the root element of a component.
+<!--alex ignore special just-->
+In contrast, Glimmer components allow you to treat the root element like any other element. This substantially simplifies the component model, eliminating the special cases that come from having a second API just for working with the root element of a component.
 
 ```handlebars
 <p class="tooltip {{if @isEnabled 'enabled'}} {{if @isActive 'active'}}">
@@ -58,6 +59,7 @@ In contrast, Glimmer components allow you to treat the root element just like an
 </p>
 ```
 
+<!--alex ignore just-->
 It also means that you can easily create a component with no root element at all, and things like this just work.
 
 ```handlebars
@@ -131,7 +133,7 @@ You can use a modifier on any element using element modifier syntax.
 <div {{tabs}}></div>
 ```
 
-Element modifiers work on any element, meaning that you don't need to create a whole component just to use some reusable DOM behavior.
+Element modifiers work on any element, meaning that you don't need to create a whole component simply to create reusable DOM behavior.
 
 This way of writing modifiers assumes that when the arguments to a modifier change, it's fine to run the destructor and run the modifier from scratch. If you need more granular control, the `ember-modifier` package also provides a more advanced API.
 
