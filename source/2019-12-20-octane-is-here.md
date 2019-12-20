@@ -283,6 +283,7 @@ Because of the details of Octane's compatibility story, most addons should be Oc
 
 ## A Closer Look at Seamless Interop
 
+<!--alex ignore special-->
 In addition to the elimination of computed properties, the Glimmer reactivity model also doesn't include special Ember proxies or observers. The Octane reactivity model is more powerful than the classic one, but it's much easier to use.
 
 The Octane reactivity model wouldn't be very useful for existing Ember users if it was hard to use objects implemented using the classic reactivity model from objects implemented using the Octane model. For that reason, we worked hard to ensure that existing Ember applications can freely use classic objects in classes built using tracked properties.
@@ -335,4 +336,3 @@ Because these two systems are interoperable, libraries can adopt the Octane reac
 This work also allows existing Ember codebases to adopt Octane patterns module-by-module.
 
 ## Octane:
-
