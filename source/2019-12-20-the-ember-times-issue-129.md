@@ -29,6 +29,12 @@ READMORE
 
 ---
 
+## [Octane is Here 🎉](https://blog.emberjs.com/2019/12/20/octane-is-here.html)
+
+Ember [3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) was released this week. In addition to the usual new features, improvements and bug fixes, this release also marks the official release of the Octane edition! Read more about what's new and what's changed in Octane in this summary by [Yehuda Katz (@wycats)](https://github.com/wycats).
+
+---
+
 ## [New ember-autofocus-modifier 💡](https://medium.com/qonto-engineering/autofocus-modifier-improving-our-component-apis-fd589b98f4e)
 
 While building an autofocus feature for their components, Qonto engineers were also able to improve their APIs. [Cyrille David (@dcyriller)](https://github.com/dcyriller) and team wanted to add autofocus to several components across two apps. For example, both their one-time-password input and their email input component needed autofocus. Since mixins are no longer recommended in the Ember ecosystem, Cyrille went with modifiers. [And they blogged about their experience here!](https://medium.com/qonto-engineering/autofocus-modifier-improving-our-component-apis-fd589b98f4e)
