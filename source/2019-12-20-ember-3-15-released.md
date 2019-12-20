@@ -26,7 +26,7 @@ Read more about what we call the "mental model" of working with Octane in the
 documentation:
 
 * Check out the completely rewritten [core concepts](https://guides.emberjs.com/release/components/) in the guides.
-* Read the [completely updated Super Rentals tutorial](https://guides.emberjs.com/release/tutorial/part-1/).
+* Read the [completely updated Super Rentals tutorial](https://guides.emberjs.com/release/tutorial/).
 * Already using Ember and want to adopt Octane? See the [Octane Upgrade
   Guide](https://guides.emberjs.com/release/upgrading/current-edition/) for the most complete
   documentation.
