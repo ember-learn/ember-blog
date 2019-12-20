@@ -65,7 +65,7 @@ To transition away from this, we recommend using conditionals in a template:
 {{/if}}
 
 {{! or }}
-<div hidden={{isHidden}}></div>
+<div hidden={{this.isHidden}}></div>
 
 ```
 
