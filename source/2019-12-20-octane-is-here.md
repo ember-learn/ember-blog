@@ -41,7 +41,9 @@ The first big improvement in Ember Octane is Glimmer Components. Ember has had a
 The thing that jumps out at you when you look at classic components is that you configure a "root element" using a JavaScript microsyntax.
 
 ```js
-export default EmberComponent.extend({
+import Component from '@ember/component';
+
+export default Component.extend({
   tagName: 'p',
   classNames: ["tooltip"],
   classNameBindings: ["isEnabled:enabled", "isActive:active"],
@@ -98,7 +100,7 @@ And then you would use it in a component like this:
 ```js
 import Component from '@ember/component';
 
-export default EmberComponent.extend(Tabs, {
+export default Component.extend(Tabs, {
   // ...
 });
 ```
