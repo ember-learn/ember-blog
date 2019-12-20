@@ -229,7 +229,7 @@ Octane is more than just new features. It's also a focus on refreshing the docum
 
 ### Fully Refreshed Tutorial and Component Guides
 
-The tutorial is the first way that people learn how to build Ember applications. Ember 3.15 fully refreshed the [Super Rentals Tutorial](https://guides.emberjs.com/v3.15.0/tutorial/part-1/) so that it's written in Octane style.
+The tutorial is the first way that people learn how to build Ember applications. Ember 3.15 fully refreshed the [Super Rentals Tutorial](https://guides.emberjs.com/v3.15.0/tutorial/) so that it's written in Octane style.
 
 The structure of the tutorial is also clarified and refreshed.
 
