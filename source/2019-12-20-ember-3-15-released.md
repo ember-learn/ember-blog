@@ -142,6 +142,8 @@ For additional details on changes in Ember Data 3.15.0, please review the full
 
 ## Ember CLI
 
+Ember CLI is the command line interface for managing and packaging Ember.js applications.
+
 There were some noteworthy changes in `ember-cli` to support the release of the Octane edition of Ember. The `@glimmer/component@1.0.0` package was added as a dev dependency for both apps and addons, Octane-related optional features were enabled, `ember-template-lint` was updated to use the `octane` edition preset, and all packages were updated to their latest version in the application blueprint! 
 
 The new addon blueprint also dropped the Ember 3.4 ember-try scenario, but dropping support for existing addons should be considered a breaking change. Existing addons should either keep the scenario, or do a major version bump if they drop support for older Ember versions.
