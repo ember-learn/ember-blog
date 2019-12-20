@@ -2,6 +2,7 @@
 title: Octane is Here
 author: Yehuda Katz
 tags: Recent Posts, 2019, Announcement
+alias: 2019-12-20-octane-is-here.md
 responsive: true
 ---
 
