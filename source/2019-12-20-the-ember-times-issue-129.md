@@ -27,7 +27,7 @@ But what is Ember Octane? Ember Octane is the new, recommended way for developer
 Octane features a new reactivity model, a renewed practice of building components and a stronger focus on HTML driven web development than ever before. Octane aims to make building Ember apps for developers not only more easy, but also **more fun** right from the start.
 And on top of that, Ember Octane is **fully opt-in** and **interoperable** for existing Ember apps - which means you can try out the new way of building modern Ember Octane apps gradually, without having to rewrite your entire app today.
 
-Want to know all about Ember Octane? Learn more about what's new in Octane and how to get started [in the official Ember Octane release announcement](https://blog.emberjs.com/2019/12/20/octane-is-here.html) by [Yehuda Katz (@wycats)](https://github.com/wycats)!
+Want to know all about Ember Octane? Learn more about what's new in Octane and how to get started [in the official Ember Octane release announcement](https://blog.emberjs.com/2019/12/20/octane-is-here.html) by [Yehuda Katz (@wycats)](https://github.com/wycats)! Need help? Check out **#topic-octane-migration** channel on the [Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
