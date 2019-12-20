@@ -1,37 +1,33 @@
 ---
 title: The Ember Times - Issue No. 129
-author: Chris Ng, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Godfrey Chan, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/12/20-the-ember-times-issue-129.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Happy Holidays, Emberistas! 🐹🌲⛄️
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-...
+Ember Octane is here 🐹🎉,
 new ember-autofocus-modifier 💡,
 3 new RFCs for template helpers 3️⃣,
-ember-apollo-client v2 released 🎉,
-... 
+ember-apollo-client v2 released 🎉
+and join us for the last 11 days of DecEmber 1️⃣️⃣1️⃣!
 
 READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Octane is Here 🎉](https://blog.emberjs.com/2019/12/20/octane-is-here.html)
 
-Ember [3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) was released this week. In addition to the usual new features, improvements and bug fixes, this release also marks the official release of the Octane edition! Read more about what's new and what's changed in Octane in this summary by [Yehuda Katz (@wycats)](https://github.com/wycats).
+[Ember 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) was released this week. In addition to the usual new features, improvements and bug fixes, this release also marks the official release of Ember's first edition - **Ember Octane**!
+
+<!--alex ignore easy-->
+But what is Ember Octane? Ember Octane is the new, recommended way for developers to build Ember applications and addons.
+Octane features a new reactivity model, a renewed practice of building components and a stronger focus on HTML driven web development than ever before. Octane aims to make building Ember apps for developers not only more easy, but also **more fun** right from the start.
+And on top of that, Ember Octane is **fully opt-in** and **interoperable** for existing Ember apps - which means you can try out the new way of building modern Ember Octane apps gradually, without having to rewrite your entire app today.
+
+Want to know all about Ember Octane? Learn more about what's new in Octane and how to get started [in the official Ember Octane release announcement](https://blog.emberjs.com/2019/12/20/octane-is-here.html) by [Yehuda Katz (@wycats)](https://github.com/wycats)!
 
 ---
 
@@ -41,11 +37,11 @@ While building an autofocus feature for their components, Qonto engineers were a
 
 Modifiers are a new feature in the upcoming Ember Octane edition for **sharing code between components**, similar to directives in Vue or Angular. We revisited [Chris Garrett (@pzuraq)](https://github.com/pzuraq)'s blog [Coming Soon in Ember Octane - Part 4: Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and the [Octane Guides preview docs: Out-of-Component-Modifications](https://octane-guides-preview.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_out-of-component-modifications) to learn more!
 
-Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https://github.com/qonto/ember-autofocus-modifier). You can use the code as-is, or copy the [snippet code](https://github.com/qonto/ember-autofocus-modifier/blob/v0.0.1/addon/modifiers/autofocus.js) and experiment with creating your own modifier. 
+Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https://github.com/qonto/ember-autofocus-modifier). You can use the code as-is, or copy the [snippet code](https://github.com/qonto/ember-autofocus-modifier/blob/v0.0.1/addon/modifiers/autofocus.js) and experiment with creating your own modifier.
 
 ---
 
-## [3 New RFCs To Add New Template Helpers 3️⃣](https://github.com/emberjs/rfcs/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Acibernox+templates)
+## [3 New RFCs to Add New Template Helpers 3️⃣](https://github.com/emberjs/rfcs/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+author%3Acibernox+templates)
 
 [Miguel Camba @cibernox](https://github.com/cibernox) opened a slew of RFCs around adding new built-in operators to Ember templates. The idea comes from functionality provided in [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) and is a subset of his [other RFC](https://github.com/emberjs/rfcs/pull/388) to add basic helpers to Ember templates.
 
@@ -69,23 +65,14 @@ If you would like to build an Ember + GraphQL app, we encourage you to try out [
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [The Final Countdown with December 📆](https://blog.emberjs.com/tags/december.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+With the series **DecEmber series "Countdown to the New Year: 31 Days of Ember addons"** the community is featuring their favorite
+Ember addons on a daily basis until the end of 2019 - which means, there are only 11 more days to go! Follow the DecEmber series [on the Ember blog](https://blog.emberjs.com/tags/december.html)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This week, community members wrote about [their love ❤️ for powerful select UIs](https://blog.emberjs.com/2019/12/14/countdown-to-the-new-year-ember-power-select.html), the [beauty of well-formatted templates](https://blog.emberjs.com/2019/12/19/countdown-to-the-new-year-ember-template-lint.html), the [joy of sharing your app across language barriers](https://blog.emberjs.com/2019/12/16/countdown-to-the-new-year-2019-ember-intl.html) and how their favorite addons help them with writing amazing web applications!
 
----
-
-## [Section Title in Title Case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Do you want to share your joy for a particular addon yourself? [Sign up for any of the open issues with the DecEmber label](https://github.com/ember-learn/ember-blog/labels/decEmber) and take a look [at our contribution guide](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-instructions.md). For questions or feedback, reach out to us on the **#dev-ember-learning** channel on the [Ember Discord](https://discordapp.com/invite/emberjs) or ping [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Jen Weber (@jenweber)](https://github.com/jenweber) or [Jessica Jordan (@jessica-jordan)](https://github.com/jessica-jordan).
 
 ---
 
@@ -131,7 +118,7 @@ If you would like to build an Ember + GraphQL app, we encourage you to try out [
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/hjdivad" target="gh-user">@hjdivad</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>, <a href="https://github.com/jessica-jordan" target="gh-user">@jessica-jordan</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/acorncom" target="gh-user">@acorncom</a>, <a href="https://github.com/bartocc" target="gh-user">@bartocc</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a> and <a href="https://github.com/craigteegarden" target="gh-user">@craigteegarden</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -155,8 +142,18 @@ Keep on top of what's been going on in Emberland this week by subscribing to our
 
 ---
 
-That's another wrap! ✨
+
+## [Happy Holidays from The Ember Times Team 🐹🌲⛄️](https://blog.emberjs.com/tags/newsletter)
+
+We, The Ember Times team, wish you a pleasant, joyful holiday season (and if you don't celebrate any big holidays this month, we wish you a pleasant and joyful time!) with your loved ones, family, friends and animal companions!
+
+<!--alex ignore special-->
+Since most us writers at The Ember Times are looking forward to the holiday season as well, we will be away for a short winter break; and we'll be back for the next Ember Times in the new year on **January 9th 2020** with an **exclusive special edition**!
+
+---
+
+Enjoy the rest of the year and see you over in the new one! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, Godfrey Chan, Jessica Jordan and the Learning Team
