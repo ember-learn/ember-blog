@@ -126,8 +126,6 @@ There were some noteworthy changes in `ember-cli` to support the release of the 
 For additional details on the changes in Ember CLI 3.15.0 and detailed upgrade
 instructions, please review the [Ember CLI 3.15.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.15.0).
 
----
-
 ## Thank You!
 
 As a community-driven open-source project with an ambitious scope, each of these releases serve as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
