@@ -142,7 +142,7 @@ Ember Octane exposes a drastically simpler reactivity model called "tracked prop
 
 The tracked properties reactivity model is compatible and interoperable with the classic reactivity model. This is because both APIs are implemented in terms of Ember's internal reactivity model, based on [References](https://github.com/glimmerjs/glimmer-vm/blob/master/guides/04-references.md) and [Validators](https://github.com/glimmerjs/glimmer-vm/blob/master/guides/05-validators.md).
 
-#### Before: Computed Properties and Restrictions
+### Before: Computed Properties and Restrictions
 
 In Classic Ember, you mutate reactive properties by using `set`, and any computations have to be described as computed properties. Computed properties must fully enumerate all dependencies. 
 
