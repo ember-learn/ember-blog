@@ -43,9 +43,9 @@ Deprecations are added to Ember.js when an API will be removed at a later date. 
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
-For more details on changes in Ember.js 3.15, please review the [Ember.js 3.15.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.15.0).
+There were three deprecations in ember.js v3.15.0.
 
-**Deprecate `Component#isVisible`**
+### Deprecate `Component#isVisible` (1 of 3)
 
 Classic Ember components support using the `isVisible` property to toggle the
 visibility of a component's root element. This API was very common in early
@@ -70,7 +70,7 @@ See the [deprecation guide for
 `isVisible`](https://deprecations.emberjs.com/v3.x#toc_ember-component-is-visible)
 for more information.
 
-**Deprecate `{{partial}}`** 
+### Deprecate `{{partial}}` (2 of 3)
 
 As of the introduction of [template-only
 components](https://api.emberjs.com/ember/3.15/classes/Component)
@@ -86,7 +86,7 @@ See the [deprecation guide for
 `{{partial}}`](https://deprecations.emberjs.com/v3.x#toc_ember-partial) for
 an example of how to migration existing use to component APIs.
 
-**Deprecate intimate `window.ENV` API** 
+### Deprecate intimate `window.ENV` API (3 of 3)
 
 Ember applications long ago shifted to using `window.EmberENV` as the home of
 various configuration options. As of 3.15 application code which uses `window.ENV`
@@ -94,7 +94,9 @@ for Ember configuration values will cause a deprecation warning to be issued.
 Support for this intimate API will be removed in 3.17.0.
 
 See [emberjs/ember.js#18441](https://github.com/emberjs/ember.js/pull/18441)
-for more details.
+for more details about this deprecation.
+
+For more details on changes in Ember.js 3.15, please review the [Ember.js 3.15.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.15.0).
 
 ## Ember Data
 
