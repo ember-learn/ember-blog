@@ -48,7 +48,7 @@ Deprecations are added to Ember.js when an API will be removed at a later date. 
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
-There were three deprecations in ember.js v3.15.0.
+There were three deprecations in Ember.js v3.15.0.
 
 ### Deprecate `Component#isVisible` (1 of 3)
 
@@ -82,7 +82,7 @@ components](https://api.emberjs.com/ember/3.15/classes/Component)
 and [Glimmer
 components](https://api.emberjs.com/ember/3.15/modules/@glimmer%2Fcomponent),
 as well as of the
-[template-only-glimmer-components](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_template-only-glimmer-components)
+[`template-only-glimmer-components`](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_template-only-glimmer-components)
 optional feature the `{{partial}}` API in Ember no longer provides any unique
 benefits. Instead it has several downsides including difficult to teach scoping 
 rules and poor performance.
@@ -94,7 +94,7 @@ an example of how to migration existing use to component APIs.
 ### Deprecate intimate `window.ENV` API (3 of 3)
 
 Ember applications long ago shifted to using `window.EmberENV` as the home of
-various configuration options. As of 3.15 application code which uses `window.ENV`
+various configuration options. As of 3.15.0 application code which uses `window.ENV`
 for Ember configuration values will cause a deprecation warning to be issued.
 Support for this intimate API will be removed in 3.17.0.
 
