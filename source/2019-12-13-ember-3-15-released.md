@@ -1,6 +1,6 @@
 ---
 title: Ember 3.15 "Octane" Released
-author: Kenneth Larsen, Matthew Beale
+author: Kenneth Larsen, Matthew Beale, Melanie Sumner
 tags: Releases, 2019, 3, 3.15, Version 3.x
 responsive: true
 ---
@@ -96,12 +96,26 @@ Support for this intimate API will be removed in 3.17.0.
 See [emberjs/ember.js#18441](https://github.com/emberjs/ember.js/pull/18441)
 for more details.
 
----
+## Ember Data
 
-## Ember Data and Ember CLI
+There were two new features and no deprecations for Ember Data v.3.15.0.
 
-For details on changes in Ember Data 3.15.0, please review the
-[Ember Data 3.15.0 release page](https://github.com/emberjs/data/releases/tag/v3.15.0).
+### IDENTIFIERS turned on (1 of 2)
+
+(see https://github.com/emberjs/data/pull/6366) 
+
+### Full `links` object support for relationships (2 of 2)
+
+Features from [RFC]() were implemented that ensure full `links` object support for relationships, including: 
+- Preserves all existing behaviors attached to the related link
+- Adds `reference.links()` for accessing links
+- Adds `HasMany.links` and `PromiseHasMany.links` for accessing links
+- Ensures that links are returned from the cache in whichever format the user supplied (i.e., `{ href }` or string).
+
+For additional details on changes in Ember Data 3.15.0, please review the full
+[Ember Data 3.15.0 change log](https://github.com/emberjs/data/blob/release/CHANGELOG.md#release-3150-december-18-2019).
+
+## Ember CLI
 
 For details on the changes in Ember CLI 3.15.0 and detailed upgrade
 instructions, please review the [Ember CLI 3.15.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.15.0).
