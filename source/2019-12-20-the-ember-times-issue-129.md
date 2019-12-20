@@ -12,7 +12,7 @@ Ember Octane is here 🐹🎉,
 new ember-autofocus-modifier 💡,
 3 new RFCs for template helpers 3️⃣,
 ember-apollo-client v2 released 🎉
-and join us for the last 11 days of DecEmber 1️⃣️⃣1️⃣!
+and join us for the last 11 days of DecEmber 1️⃣1️⃣!
 
 READMORE
 
@@ -23,11 +23,11 @@ READMORE
 [Ember 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) was released this week. In addition to the usual new features, improvements and bug fixes, this release also marks the official release of Ember's first edition - **Ember Octane**!
 
 <!--alex ignore easy-->
-But what is Ember Octane? Ember Octane is the new, recommended way for developers to build Ember applications and addons.
-Octane features a new reactivity model, a renewed practice of building components and a stronger focus on HTML driven web development than ever before. Octane aims to make building Ember apps for developers not only more easy, but also **more fun** right from the start.
-And on top of that, Ember Octane is **fully opt-in** and **interoperable** for existing Ember apps - which means you can try out the new way of building modern Ember Octane apps gradually, without having to rewrite your entire app today.
+But what is Ember Octane? Ember Octane is the **new, recommended way** for developers **to build Ember applications** and **addons**.
 
-Want to know all about Ember Octane? Learn more about what's new in Octane and how to get started [in the official Ember Octane release announcement](https://blog.emberjs.com/2019/12/20/octane-is-here.html) by [Yehuda Katz (@wycats)](https://github.com/wycats)! Need help? Check out **#topic-octane-migration** channel on the [Ember Discord](https://discordapp.com/invite/emberjs)!
+Octane features a new reactivity model, a renewed practice of building components and a stronger focus on HTML driven web development than ever before. It aims to make the development of performant Ember apps not only more easy and productive, but also **more fun** right from the start. And on top of that, Ember Octane is **fully opt-in** and **interoperable** for existing Ember apps - which means you can try out the new way of building modern Ember Octane apps gradually, without having to rewrite your entire app today.
+
+Want to know all about Ember Octane? Learn more about what's new in Octane and how to get started [in the official Ember Octane release announcement](https://blog.emberjs.com/2019/12/20/octane-is-here.html) by [Yehuda Katz (@wycats)](https://github.com/wycats)! Need help? Check out the **#topic-octane-migration** channel on the [Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
@@ -35,7 +35,7 @@ Want to know all about Ember Octane? Learn more about what's new in Octane and h
 
 While building an autofocus feature for their components, Qonto engineers were also able to improve their APIs. [Cyrille David (@dcyriller)](https://github.com/dcyriller) and team wanted to add autofocus to several components across two apps. For example, both their one-time-password input and their email input component needed autofocus. Since mixins are no longer recommended in the Ember ecosystem, Cyrille went with modifiers. [And they blogged about their experience here!](https://medium.com/qonto-engineering/autofocus-modifier-improving-our-component-apis-fd589b98f4e)
 
-Modifiers are a new feature in the upcoming Ember Octane edition for **sharing code between components**, similar to directives in Vue or Angular. We revisited [Chris Garrett (@pzuraq)](https://github.com/pzuraq)'s blog [Coming Soon in Ember Octane - Part 4: Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and the [Octane Guides preview docs: Out-of-Component-Modifications](https://octane-guides-preview.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_out-of-component-modifications) to learn more!
+Modifiers are a new feature in [the recently released Ember Octane edition](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html))https://blog.emberjs.com/2019/12/20/ember-3-15-released.html). They allow for **sharing code between components**, similar to directives in Vue or Angular. We revisited [Chris Garrett (@pzuraq)](https://github.com/pzuraq)'s blog [Coming Soon in Ember Octane - Part 4: Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and the [Octane Guides preview docs: Out-of-Component-Modifications](https://octane-guides-preview.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_out-of-component-modifications) to learn more!
 
 Qonto wrapped up the code in a small addon, [`ember-autofocus-modifier`](https://github.com/qonto/ember-autofocus-modifier). You can use the code as-is, or copy the [snippet code](https://github.com/qonto/ember-autofocus-modifier/blob/v0.0.1/addon/modifiers/autofocus.js) and experiment with creating your own modifier.
 
@@ -103,9 +103,9 @@ Keep on top of what's been going on in Emberland this week by subscribing to our
 ---
 
 
-## [Happy Holidays from The Ember Times Team 🐹🌲⛄️](https://blog.emberjs.com/tags/newsletter)
+## [Happy Holidays from The Ember Times Team 🐹](https://blog.emberjs.com/tags/newsletter)
 
-The Ember Times team wishes you a pleasant, joyful holiday season (and if you don't celebrate any big holidays this month, we wish you a pleasant and joyful time!) with your loved ones, family, friends and animal companions!
+The Ember Times team wishes you a pleasant, joyful holiday season (and if you don't celebrate any big holidays this month, we wish you a pleasant and joyful time!) with your loved ones, family, friends and animal companions!🌲⛄️🎆
 
 <!--alex ignore special-->
 Since most us writers at The Ember Times are looking forward to the holiday season as well, we will be away for a short winter break; on **January 9, 2020** we are back with the next Ember Times and an **exclusive special edition**!
