@@ -1,14 +1,14 @@
 ---
 title: Ember 3.15 "Octane" Released
 author: Kenneth Larsen, Matthew Beale, Melanie Sumner
-tags: Releases, 2019, 3, 3.15, Version 3.x
+tags: Releases, Recent Posts, 2019, 3, 3.15, Version 3.x
 alias: 2019-12-20-ember-3-15-released.md
 responsive: true
 date: "2019-12-20 16:30:00 -0500"
 ---
 
 Today the Ember project is releasing version 3.15 of Ember.js, Ember Data, and
-Ember CLI. In addition to brining new features and bug fixes, Ember 3.15 also marks the official release of the [Octane edition](TODO://link-to-octane-blog-post), which is Ember's first [edition release](https://emberjs.com/editions/).
+Ember CLI. In addition to brining new features and bug fixes, Ember 3.15 also marks the official release of the [Octane edition](https://blog.emberjs.com/2019/12/20/octane-is-here.html), which is Ember's first [edition release](https://emberjs.com/editions/).
 
 <!--alex ignore just-->
 Ember developers using the Octane edition can exercise modern features like native ES
