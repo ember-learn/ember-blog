@@ -25,7 +25,7 @@ There are many related Ember addons that integrate with Ember Bootstrap to provi
 
 ### Ember Bootstrap  - Why I Like It
 
-If you're looking to add Bootstrap to an Ember application, `ember-bootstrap` makes doing so incredibly easy.
+If you're looking to add Bootstrap to an Ember application, `ember-bootstrap` makes doing so incredibly straight-foward.
 
 `ember-bootstrap`'s clean API's and native Ember components also provide an ergonomic way to use Bootstrap in your Ember application, and all without using Bootstrap's JavaScript. 
 
@@ -45,20 +45,20 @@ If you're looking for a solution to add Google's [Material](https://www.google.c
 
 All of `ember-paper`'s components are written in a modular and elegant Ember way.
 
-`ember-paper` is also extensible and its component coverage is widened by a host of addons that can be used in combination with `ember-paper` to extend the library's reach (a notable example includes a modal manager).
+`ember-paper` is also extensible and its component coverage is widened by a set of addons that can be used in combination with `ember-paper` to extend the library's reach (a notable example includes a modal manager).
 
 ### Ember Paper  - Why I Like It
 
 Sometimes you really need an Ember focused solution for Material design and `ember-paper` provides a super easy-to-use and well built set of Ember components to get you up and running right away.
 
-I've used `ember-paper` in at least one project my experience was a very smooth one. Components are written with adopted Ember design patterns in mind and they are easy to fit into your work flow.
+I've used `ember-paper` in at least one project my experience was a very smooth one. Components are written with adopted Ember design patterns in mind and they are built to fit into your work flow.
 
 The component API's provide thoughtful touches and I've been able to build out an entire UI without knowing much about Material design because of them.
 
-You can write most components in block-form so it's relatively easy to wrap what you need with the solutions that `ember-paper` provides.
+You can write most components in block-form so it's effortless to wrap what you need with the solutions that `ember-paper` provides.
 
 Octane support is something that is slated for the future, but is not yet complete as of today.
 
-Of course in keeping with many widely used Ember addons, `ember-paper` provides a great documentation site that covers the usage and API's for all of its components. You can read up on the details [here](https://miguelcobain.github.io/ember-paper/).
+In keeping with many widely used Ember addons, `ember-paper` provides a great documentation site that covers the usage and API's for all of its components. You can read up on the details [here](https://miguelcobain.github.io/ember-paper/).
 
 Do you use these addons? Or any like them? We'd love to hear about Ember addons that bring you joy!
