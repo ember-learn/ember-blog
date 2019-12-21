@@ -17,6 +17,8 @@ READMORE
 
 Ember Octane is the best way for teams to build ambitious web applications.
 
+_It is a change in the default recommendations -- bundled under the name "Octane" -- a set of features that is a shift in the default ember experience._
+
 <!--alex ignore just-->
 Ember has always focused on building the best framework that people with different levels of skill can use together to build web applications. Octane updates Ember's components and reactivity system to make them more modern, easier to use, and just more fun.
 
