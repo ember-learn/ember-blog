@@ -186,6 +186,15 @@ body.blog.responsive {
   }
 }
 .blog-post {
+  &.featured-announcement {
+    .blog-post-header {
+      h2 {
+        &.blog-post-title {
+          color: #c7341f !important;
+        }
+      }
+    }
+  }
   .blog-post-header {
     .blog-post-title {
       background-position: left 9px;
