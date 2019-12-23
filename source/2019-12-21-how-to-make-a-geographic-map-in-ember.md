@@ -17,9 +17,9 @@ Yes, it's satisfying to solve the problem yourself, but it's smarter—and quick
 say, [building your own file uploader](https://emberobserver.com/?query=file%20upload).
 
 A cursory glance at the available mapping addons show up a few options:
- - [ember-mapbox-gl](https://github.com/kturney/ember-mapbox-gl) (Full disclosure: I'm a contributor, although [kturney](https://github.com/kturney) does most of the work!)
- - [ember-leaflet](https://github.com/miguelcobain/ember-leaflet)
- - [ember-google-maps](https://github.com/sandydoo/ember-google-maps)
+  - [ember-mapbox-gl](https://github.com/kturney/ember-mapbox-gl) (Full disclosure: I'm a contributor, although [kturney](https://github.com/kturney) does most of the work!)
+  - [ember-leaflet](https://github.com/miguelcobain/ember-leaflet)
+  - [ember-google-maps](https://github.com/sandydoo/ember-google-maps)
  
 Am I missing any? Let me know. But I'm pretty confident these are the top mapping addons.
 
@@ -84,7 +84,8 @@ What are these other things? The map object here _sets up the default state of t
 
 What is this `style` property? It's the reason we had to grab an API key from Mapbox: this points to the remote resource for loading all the basemap details you need to see for your users to orient themselves on the map. It tells your Mapbox map where to fetch all the roads and bridges and points of interest that fill a delightful, useful map.
 
-Now, add this to one of your templates: 
+Now, add this to one of your templates:
+
 ```hbs
 <MapboxGl as |map|>
   <map.source
@@ -106,6 +107,7 @@ What is going on? Line by line:
 ```hbs
 <MapboxGl as |map|>
 ```
+
 This simply instantiates a new map by creating new element in the DOM and binding the map instance to it.
 
 
@@ -114,6 +116,7 @@ This simply instantiates a new map by creating new element in the DOM and bindin
   @options=(hash type='geojson' data=(hash type='Point' coordinates=(array  -96.7969879, 32.7766642 ))) as |source|
 >
 ```
+
 This creates a mapbox-gl [source](https://docs.mapbox.com/mapbox-gl-js/api/#sources), and passes options to it. What are those options? First, the _type_ describes the kind of source that mapbox should use. What is a [GeoJSON](https://geojson.org/)? It's a standard for representing geographic information in JSON. That explains the shape of the `data` property: a GeoJSON object specifies its own `type`. For our purposes, we're using a point: 
 
 > For type "Point", the "coordinates" member is a single position.
@@ -131,19 +134,21 @@ That's a little far into the weeds, but it's worth mentioning because there actu
       )
     >
 ```
+
 Again, we're dealing with another area of the mapbox-gl API: [the layer](https://docs.mapbox.com/mapbox-gl-js/style-spec/#layers). Like GeoJSON, the shape of this object follows a _styling_ specification. There are many ways to style a map layer.
 
 One-by-one: `source.layer` invokes the `addLayer` method of mapbox-gl itself and passes some options. Those options—specifically, the `layer` property—adhere to the [styling specification](https://docs.mapbox.com/mapbox-gl-js/style-spec/). Allowed options are _type_-specific, so there's no saying "this fill type should have a `circle-radius` of 1000". That doesn't make sense.
 
 ### All together now
+
 Here's a run-through of what we did:
 
-1. Install the addon
-2. Setup a Mapbox.com account and generate an API token
-3. Add your configuration to your `config/environment.js`
-4. Invoke your `<MapboxGL>` map and yield a [block parameter](https://guides.emberjs.com/release/components/block-content/#toc_block-parameters)
-5. Add a `<map.source>` inside the map block scope.
-6. Inside that block scope, add a `<source.layer>`
+  1. Install the addon
+  2. Setup a Mapbox.com account and generate an API token
+  3. Add your configuration to your `config/environment.js`
+  4. Invoke your `<MapboxGL>` map and yield a [block parameter](https://guides.emberjs.com/release/components/block-content/#toc_block-parameters)
+  5. Add a `<map.source>` inside the map block scope.
+  6. Inside that block scope, add a `<source.layer>`
 
 Why all this work? Because the addon is dealing with all the "gotchas" that come with lifecycle management. That means you can use these components as you would any other component:
 
@@ -158,6 +163,7 @@ When the `someCondition` is truthy, it shows the layer. When it's falsey, it tri
 Much of ember-mapbox-gl is simply a _bindings_ layer. It provides a declarative templating API for invoking parts of the mapbox-gl API proper. So, it's hands-off. But the price of customizability is having less of an opinion. As I mentioned earlier, that's where [Ember Leaflet](https://miguelcobain.github.io/ember-leaflet/) really shines, and I encourage you to look at that as well.
 
 ### Note on map data providers
+
 I'm a little disappointed by the dearth of free and open _vector_ map data providers. That said, if you find that you would like to host your own map tile provider, check out [OpenMapTiles](https://openmaptiles.org/). It's a free and open source server that hosts those tile URLs we were using at the beginning. My team uses it and have had no issues.
 
 Thanks for reading! If you have any questions, please hit me up on the Ember Discord channel. I'm more than happy to help!
