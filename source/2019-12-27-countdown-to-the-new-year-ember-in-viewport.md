@@ -27,3 +27,5 @@ Recent additions have added our own `{{in-viewport}}` modifier, allowing you to 
 
 
 If you are looking for a good example to use this addon with, we have included a somewhat robust, responsive, lazy loaded [artwork](https://github.com/DockYard/ember-in-viewport/blob/master/tests/dummy/app/components/dummy-artwork.js) component for your enjoyment!
+
+Do you use `ember-in-viewport` or something similar? We'd love to hear about Ember addons you love for DecEmber in the comments below!
