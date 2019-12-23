@@ -35,7 +35,7 @@ Also, recent versions of `ember-bootstrap` have added additional support for imp
 
 `ember-bootstrap` is Octane ready and has refactored it's own components internally to use native classes and angle bracket syntax.
 
-`ember-bootstrap` has excellent documentation, which you can read up on [here](https://www.ember-bootstrap.com/) to learn more about to use the addon.
+`ember-bootstrap` has excellent documentation, which you can read up on [here](https://www.ember-bootstrap.com/) to learn more about how to use the addon.
 
 ### Ember Paper - What It Does
 
