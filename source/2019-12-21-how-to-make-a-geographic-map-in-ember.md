@@ -53,7 +53,7 @@ _things closer to the metal of the machine itself_. Plus, [mapbox-gl](https://gi
 is highly customizable. It might even be a little _too_ customizable, and that's where [ember-leaflet](https://github.com/miguelcobain/ember-leaflet) really shines:
 although it's SVG-based (read: not as fast), it provides more out-of-the-box abstractions at a higher level.
 
-That said, for the sake of brevity, let's just stick with ember-mapbox-gl. Once you become a mapping expert, you can make that call later.
+That said, for the sake of brevity, let's stick with ember-mapbox-gl. Once you become a mapping expert, you can make that call later.
 
 ### Shut up and play the hits
 
@@ -78,9 +78,9 @@ Open up your `config/environment.js` and add this:
 },
 ```
 
-In case it wasn't obvious, you should swap out 'ACCESS TOKEN HERE' with the access token you generated on mapbox.com.
+You should swap out 'ACCESS TOKEN HERE' with the access token you generated on mapbox.com.
 
-What are these other things? The map object here _sets up the default state of the map when it loads_. This means that when you create a map, it needs to know what to show, where to position the camera. Of course, this is overridable at template invocation time.
+What are these other things? The map object here _sets up the default state of the map when it loads_. This means that when you create a map, it needs to know what to show, where to position the camera. This is overridable at template invocation time.
 
 What is this `style` property? It's the reason we had to grab an API key from Mapbox: this points to the remote resource for loading all the basemap details you need to see for your users to orient themselves on the map. It tells your Mapbox map where to fetch all the roads and bridges and points of interest that fill a delightful, useful map.
 
@@ -123,7 +123,7 @@ This creates a mapbox-gl [source](https://docs.mapbox.com/mapbox-gl-js/api/#sour
 
 That's a little far into the weeds, but it's worth mentioning because there actually is an underlying reason for these API choices.
 
-**Generally, you'll find that most of the components in _ember_-mapbox-gl correspond to the various _mapbox_-gl APIs. That means you can just use the MapboxGL documentation site proper when using this addon**
+**Generally, you'll find that most of the components in _ember_-mapbox-gl correspond to the various _mapbox_-gl APIs. That means you can use the MapboxGL documentation site proper when using this addon**
 
 ```hbs
     <source.layer layer=(hash
