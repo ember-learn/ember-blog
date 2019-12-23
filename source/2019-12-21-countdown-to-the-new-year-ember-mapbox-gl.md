@@ -2,7 +2,7 @@
 title: How to Make a Map in Ember
 author: Matt Gardner
 tags: 2019, Addons, DecEmber
-alias: 2019-12-21-how-to-make-a-geographic-map-in-ember.md
+alias: 2019-12-21-countdown-to-the-new-year-ember-mapbox-gl.md
 responsive: true
 ---
 
