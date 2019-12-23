@@ -41,11 +41,11 @@ The `ember-bootstrap` addon has excellent documentation, which you can read up o
 
 If you're looking for a solution to add Google's [Material](https://www.google.com/design/spec/material-design/introduction.html) design library to an Ember application you can use `ember-paper` to do so! `ember-paper` aims to encapsulate everything possible in Material in Ember components.
 
-`ember-paper` provides an extensive library of components, from buttons and sliders to selects and modal dialogs.
+The `ember-paper` addon provides an extensive library of components, from buttons and sliders to selects and modal dialogs.
 
 All of `ember-paper`'s components are written in a modular and elegant Ember way.
 
-`ember-paper` is also extensible and its component coverage is widened by a set of addons that can be used in combination with `ember-paper` to extend the library's reach (a notable example includes a modal manager).
+The `ember-paper` addon is also extensible and its component coverage is widened by a set of addons that can be used in combination with `ember-paper` to extend the library's reach (a notable example includes a modal manager).
 
 ### Ember Paper  - Why I Like It
 
