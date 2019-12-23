@@ -19,7 +19,7 @@ READMORE
 
 The `ember-bootstrap` addon is for using the [Bootstrap](http://getbootstrap.com/) design library in Ember applications. This addon provides a native Ember component library for some of the more commonly used Bootstrap components.
 
-`ember-bootstrap` can help you can integrate Bootstrap into your application quickly, and in an idiomatic Ember manner.
+The `ember-bootstrap` addon can help you can integrate Bootstrap into your application quickly, and in an idiomatic Ember manner.
 
 There are many related Ember addons that integrate with Ember Bootstrap to provide additional features on top of Ember Bootstrap, such as form validation and changesets.
 
