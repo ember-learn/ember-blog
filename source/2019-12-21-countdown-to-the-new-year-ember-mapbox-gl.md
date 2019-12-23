@@ -1,5 +1,5 @@
 ---
-title: How to Make a Map in Ember
+title: Countdown to The New Year - Ember Mapbox GL
 author: Matt Gardner
 tags: 2019, Addons, DecEmber
 alias: 2019-12-21-countdown-to-the-new-year-ember-mapbox-gl.md
