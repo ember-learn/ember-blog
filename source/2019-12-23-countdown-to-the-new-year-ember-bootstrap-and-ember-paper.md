@@ -27,7 +27,7 @@ There are many related Ember addons that integrate with Ember Bootstrap to provi
 
 If you're looking to add Bootstrap to an Ember application, `ember-bootstrap` makes doing so incredibly straight-foward.
 
-`ember-bootstrap`'s clean API's and native Ember components also provide an ergonomic way to use Bootstrap in your Ember application, and all without using Bootstrap's JavaScript. 
+The `ember-bootstrap` addon's clean API's and native Ember components also provide an ergonomic way to use Bootstrap in your Ember application, and all without using Bootstrap's JavaScript. 
 
 Writing forms or modals with these components is a very enjoyable experience and has streamlined the code in several of my projects.
 
