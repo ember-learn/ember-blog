@@ -13,8 +13,6 @@ responsive: true
 For the 27th edition of **Countdown to The New Year** we're going to take a
 look at [`ember-in-viewport`](https://emberobserver.com/addons/ember-in-viewport).
 
-READMORE
-
 ### Ember In Viewport - What It Does
 
 Does your app use scroll event listeners or `getBoundingClientRect` to determine if an element on your page is in the user's viewport?  If so, you have come across the perfect addon for you to observe DOM elements!
