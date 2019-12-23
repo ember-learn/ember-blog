@@ -6,6 +6,16 @@ alias: 2019-12-21-countdown-to-the-new-year-ember-mapbox-gl.md
 responsive: true
 ---
 
+**This is the 21st in our DecEmber series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
+
+## Day 21
+
+Today we are going to take a look at making maps in Ember with [ember-mapbox-gl](https://emberobserver.com/addons/ember-mapbox-gl).
+
+READMORE
+
+### What It Does
+
 Have you ever wondered how to _make maps in Ember_? No? Okay, but you should!
 
 This post is about adding an interactive map to your Ember project. By the end of this post, you'll have a map of the location of your company's business (provided that it has some physical location in Cartesian space).
