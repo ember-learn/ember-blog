@@ -13,7 +13,7 @@ This post is about adding an interactive map to your Ember project. By the end o
 (Note: I'm not talking about [these kinds of maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), although they're not totally unrelated). 
 
 Every time I need to solve a problem in Ember, I do a quick search through the Ember addon ecosystem.
-Yes, it's satisfying to solve the problem yourself, but it's smarter—and quicker—to use someone else's code. Shoulds of giants, people. Now, web mapping is a pretty complicated suite of technologies, so the temptation to reinvent _that_ wheel isn't as strong as,
+Yes, it's satisfying to solve the problem yourself, but it's smarter—and quicker—to use someone else's code. Shoulders of giants, people. Now, web mapping is a pretty complicated suite of technologies, so the temptation to reinvent _that_ wheel isn't as strong as,
 say, [building your own file uploader](https://emberobserver.com/?query=file%20upload).
 
 A cursory glance at the available mapping addons show up a few options:
