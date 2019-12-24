@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 24
 
-Today we are going to take a look at writing apps in TypeScript - using [ember-cli-typescript](https://ember-cli-typescript.com).
+Today we are going to take a look at writing apps in TypeScript - using [ember-cli-typescript](https://emberobserver.com/addons/ember-cli-typescript).
 
 READMORE
 
