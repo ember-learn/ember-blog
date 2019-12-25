@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 29
 
-Before I took on this assignment, I didn't know anything about [ember-code-snippet](https://emberobserver.com/addons/ember-code-snippet). Now, I'm glad that I did. This addon surfaced in 2015, has received regular updates, and powers many of my favorite addons. (Can you guess how?)
+Before I took this assignment, I didn't know anything about [ember-code-snippet](https://emberobserver.com/addons/ember-code-snippet). Now, I'm glad that I did. This addon surfaced in 2015, has received regular updates, and powers many of my favorite addons. (Can you guess how?)
 
 READMORE
 
@@ -51,6 +51,11 @@ Starting version 3.0, you can [decide what library to use for syntax highlightin
 {{/let}}
 ```
 
+<figure>
+  <img alt="Code snippet highlighted with Prism JS" src="/images/blog/2019-12-29/code-snippet-prism.png">
+  <figcaption>Code snippet highlighted with Prism.js</figcaption>
+</figure>
+
 Maybe you want [Highlight.js](https://highlightjs.org/) instead:
 
 ```handlebars
@@ -60,6 +65,11 @@ Maybe you want [Highlight.js](https://highlightjs.org/) instead:
   <pre {{did-insert this.highlightCode}}><code class="language-{{snippet.language}}">{{snippet.source}}</code></pre>
 {{/let}}
 ```
+
+<figure>
+  <img alt="Code snippet highlighted with Highlight JS" src="/images/blog/2019-12-29/code-snippet-highlight.png">
+  <figcaption>Code snippet highlighted with Highlight.js</figcaption>
+</figure>
 
 No matter the styling approach, the invocation remains the same:
 
@@ -73,6 +83,7 @@ No matter the styling approach, the invocation remains the same:
 
 I think the fact that [many top addons](https://emberobserver.com/lists/top-addons) use ember-code-snippet for documentation is a testament to its well-designed API. You may not have realized this (I didn't until today) because each doc has a unique style:
 
+- [Ember Bootstrap](https://www.ember-bootstrap.com/#/components/alert)
 - [Ember CLI Addon Docs](https://ember-learn.github.io/ember-cli-addon-docs/docs/components/docs-snippet)
 - [Ember Concurrency](http://ember-concurrency.com/docs/tutorial/discussion)
 - [Ember CP Validations](http://offirgolan.github.io/ember-cp-validations/)
