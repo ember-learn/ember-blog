@@ -13,7 +13,7 @@ responsive: true
 For the 27th edition of **Countdown to The New Year** we're going to take a
 look at [`ember-in-viewport`](https://emberobserver.com/addons/ember-in-viewport).
 
-### Ember In Viewport - What It Does
+### What It Does
 
 Does your app use scroll event listeners or `getBoundingClientRect` to determine if an element on your page is in the user's viewport?  If so, you have come across the perfect addon for you to observe DOM elements!
 
@@ -21,7 +21,7 @@ Common use cases for `ember-in-viewport` include lazy loading images, infinite s
 
 Recent additions have added our own `{{in-viewport}}` modifier, allowing you to "observe" elements in a template only components! See the [Modifiers](https://github.com/DockYard/ember-in-viewport#modifiers) section for more examples.
 
-### Ember In Viewport  - Why I Like It
+### Why I Like It
 
 `ember-in-viewport` supports browsers back to IE11 by using either [`IntersectionObserver`](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) or [`requestAnimationFrame`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) (fallback case) to monitor the elements on your page.  Compared to traditional methods of manually observing DOM elements, this addon encapsulates functionality in a much more performant manner.  For example, `IntersectionObserver` happens off the main thread, giving you Observability without the cost.  Moreover, by optimizing these API's to reuse instances of these JavaScript APIs across similar elements on your page, you are free to use this addon for as many elements on your page as you want!
 
