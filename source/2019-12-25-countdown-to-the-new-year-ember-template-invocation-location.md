@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 25
 
-I'm not sure there is anyone who knows the ins and outs of Ember *and* it's ecosystem quite as well as Robert Jackson, aka [rwjblue](https://emberobserver.com/maintainers/rwjblue). Today, we look at a useful addon he wrote to help make debugging a little simpler - [ember-template-invocation-location](https://emberobserver.com/addons/ember-template-invocation-location).
+I'm not sure there is anyone who knows the ins and outs of Ember **and** its ecosystem quite as well as Robert Jackson, aka [rwjblue](https://emberobserver.com/maintainers/rwjblue). Today, we look at a useful addon he wrote to help make debugging a little simpler - [ember-template-invocation-location](https://emberobserver.com/addons/ember-template-invocation-location).
 
 READMORE
 
