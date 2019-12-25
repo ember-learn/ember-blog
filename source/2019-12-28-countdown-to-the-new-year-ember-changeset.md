@@ -15,7 +15,7 @@ look at [`ember-changeset`](https://emberobserver.com/addons/ember-changeset).
 
 ### What It Does
 
-Managing data associated with forms can sometimmes be unwieldy. As a result, we have borrowed concepts from the Elixir [community](https://hexdocs.pm/ecto/Ecto.Changeset.html#content) to give you the ability to prevent mutating the underlying object until the last possible moment when you have decided to apply the changes and the data is valid. This functional approach to validations has proved to be quite useful.
+Managing data associated with forms can sometimes be unwieldy. As a result, we have borrowed concepts from the Elixir [community](https://hexdocs.pm/ecto/Ecto.Changeset.html#content) to give you the ability to prevent mutating the underlying object until the last possible moment when you have decided to apply the changes and the data is valid. This functional approach to validations has proved to be quite useful.
 
 This addon works in conjunction with [`ember-changeset-validations`](https://github.com/poteto/ember-changeset-validations/) to provide you with out of the box validations to validate the format of a certain input, ensure passwords pass a minimum security threshold or even let you build your own custom validator!
 
