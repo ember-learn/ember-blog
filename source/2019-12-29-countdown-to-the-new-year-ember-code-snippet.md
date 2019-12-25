@@ -41,7 +41,7 @@ ember-code-snippet is designed with **composability** in mind. It outputs just t
 Starting version 3.0, you can [decide what library to use for syntax highlighting](https://github.com/ef4/ember-code-snippet#syntax-highlighting). For example, you might like to try out [Prism.js](https://github.com/shipshapecode/ember-prism):
 
 ```handlebars
-{{!-- my-app-name/app/components/code-snippet.hbs --}}
+{{!-- my-app-name/app/components/code-snippet/template.hbs --}}
 
 {{#let (get-code-snippet @fileName) as |snippet|}}
   <CodeBlock
@@ -51,10 +51,10 @@ Starting version 3.0, you can [decide what library to use for syntax highlightin
 {{/let}}
 ```
 
-Or you might want [Highlight.js](https://highlightjs.org/) instead:
+Maybe you want [Highlight.js](https://highlightjs.org/) instead:
 
 ```handlebars
-{{!-- my-app-name/app/components/code-snippet.hbs --}}
+{{!-- my-app-name/app/components/code-snippet/template.hbs --}}
 
 {{#let (get-code-snippet @fileName) as |snippet|}}
   <pre {{did-insert this.highlightCode}}><code class="language-{{snippet.language}}">{{snippet.source}}</code></pre>
@@ -71,11 +71,13 @@ No matter the styling approach, the invocation remains the same:
 />
 ```
 
-I think the fact that [many of the top addons](https://emberobserver.com/lists/top-addons) use ember-code-snippet for their documentation is a testament to its well-designed API.
+I think the fact that [many top addons](https://emberobserver.com/lists/top-addons) use ember-code-snippet for documentation is a testament to its well-designed API. You may not have realized this (I didn't until today) because each doc has a unique style:
 
-
-### Conclusion
-
-
+- [Ember CLI Addon Docs](https://ember-learn.github.io/ember-cli-addon-docs/docs/components/docs-snippet)
+- [Ember Concurrency](http://ember-concurrency.com/docs/tutorial/discussion)
+- [Ember CP Validations](http://offirgolan.github.io/ember-cp-validations/)
+- [Ember Power Select](https://ember-power-select.com/docs/how-to-use-it)
+- [Liquid Fire](https://ember-animation.github.io/liquid-fire/helpers/liquid-outlet)
+- and many more...
 
 Do you use ember-code-snippet? Or one like it? We'd love to hear about Ember addons that bring you joy!
