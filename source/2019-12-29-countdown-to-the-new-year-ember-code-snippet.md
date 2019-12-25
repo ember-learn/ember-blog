@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 29
 
-Before I took on this assignment, I didn't know anything about [ember-code-snippet](https://emberobserver.com/addons/ember-code-snippet). Now, I'm glad that I did. This addon surfaced in 2015, has received regular updates since, and powers one of the most used addons. (Can you guess which one?)
+Before I took on this assignment, I didn't know anything about [ember-code-snippet](https://emberobserver.com/addons/ember-code-snippet). Now, I'm glad that I did. This addon surfaced in 2015, has received regular updates, and powers one of the most used addons. (Can you guess which one?)
 
 READMORE
 
@@ -20,19 +20,28 @@ READMORE
 
 It provides a helper called `get-code-snippet` so that (1) you can save code snippets in a dedicated folder and (2) create your own component to customize the look.
 
-```handlebars
-{{!-- /app/components/code-snippet/template.hbs --}}
+To illustrate the use, we'll consider a code snippet from [Ember.js Octane vs Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/):
 
-{{#let (get-code-snippet @fileName) as |snippet|}}
+```javascript
+// my-app-name/snippets/make-your-own-elementId.js
+
+import Component from '@glimmer/component';
+import { guidFor } from '@ember/object/internals';
+
+export default class InputTextComponent extends Component {
+  inputId = 'textInput-' + guidFor(this); 
+}
+```
+
+The most basic use is to display the code in a `<pre>` block.
+
+```handlebars
+{{!-- my-app-name/app/templates/application.hbs --}}
+
+{{#let (get-code-snippet "make-your-own-elementId.js") as |snippet|}}
     <!-- No syntax highlighting -->
     <pre><code>{{snippet.source}}</code></pre>
 {{/let}}
-```
-
-```handlebars
-{{!-- /app/templates/application.hbs --}}
-
-<CodeSnippet @fileName="make-your-own-elementId.hbs" />
 ```
 
 ### Why I Like It
@@ -43,4 +52,4 @@ It provides a helper called `get-code-snippet` so that (1) you can save code sni
 
 
 
-Do you use ember-code-snippet? Or one like it? We'd love to hear about Ember addons that bring you joy!
+Do you use ember-code-snippetass? Or one like it? We'd love to hear about Ember addons that bring you joy!
