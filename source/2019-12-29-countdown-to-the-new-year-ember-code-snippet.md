@@ -20,7 +20,7 @@ READMORE
 
 It provides a helper called `get-code-snippet` so that (1) you can save code snippets in a dedicated folder and (2) create your own component to customize their look.
 
-To illustrate the use, we'll consider a code snippet from [Ember.js Octane vs Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/):
+To illustrate the use, we'll consider a code snippet from [the Ember.js Octane vs Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/):
 
 ```javascript
 // my-app-name/snippets/make-your-own-elementId.js
