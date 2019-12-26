@@ -19,7 +19,7 @@ Does your app use scroll event listeners or `getBoundingClientRect` to determine
 
 Common use cases for `ember-in-viewport` include lazy loading images, infinite scrolling (see [`ember-infinity`](https://github.com/ember-infinity/ember-infinity)) and/or tracking advertisement impressions.  This is a flexible and performant library to give your users the performance they need when visiting your site.
 
-Recent additions have added our own `{{in-viewport}}` modifier, allowing you to "observe" elements in a template only components! See the [Modifiers](https://github.com/DockYard/ember-in-viewport#modifiers) section for more examples.
+Recent additions have added our own `{{in-viewport}}` modifier, allowing you to "observe" elements in template only components! See the [Modifiers](https://github.com/DockYard/ember-in-viewport#modifiers) section for more examples.
 
 ### Why I Like It
 
