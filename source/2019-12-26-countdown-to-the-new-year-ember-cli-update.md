@@ -10,7 +10,7 @@ responsive: true
 
 ## Day 26
 
-Let's highlight how easy it is to update Ember projects - [ember-cli-update](https://emberobserver.com/addons/ember-cli-update).
+Let's highlight how you can update Ember your projects with [ember-cli-update](https://emberobserver.com/addons/ember-cli-update).
 
 READMORE
 
@@ -21,8 +21,8 @@ Tweaks to testem.js or .eslintrc.js may be missed if you're not tracking those f
 ember-cli-update was created to update those kinds of files along with package.json changes for you.
 It can also run codemods against your newly installed versions.
 
-A new feature is on its way where it can maintain any blueprint, not just the official Ember blueprint.
-The idea is that you can make one blueprint for your organization, and keep your projects up-to-date just like ember-cli-update does today.
+A new feature is on its way where it can maintain any blueprint, not only the official Ember blueprint.
+The idea is that you can make one blueprint for your organization, and keep your projects up-to-date like ember-cli-update does today.
 You could also keep default blueprints that ship with addons (ember-cli-mirage, ember-cli-deploy, etc) up-to-date in the same way.
 [RFC here](https://github.com/emberjs/rfcs/pull/477).
 
