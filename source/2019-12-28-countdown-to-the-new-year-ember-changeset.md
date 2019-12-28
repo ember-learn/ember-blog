@@ -21,8 +21,8 @@ This addon works in conjunction with [`ember-changeset-validations`](https://git
 
 ### Why I Like It
 
-Recently I [rewrote](https://github.com/poteto/ember-changeset/pull/379) `ember-changeset` to support Octane patterns and utilized `@tracked`.  As a result, not only can you validate and apply changes to top level keys (`person`), nested keys such as `person.firstName` may also be used.  In addition, at the same time `@pzuraq`'s blog post [Do You Need EmberObject?](https://www.pzuraq.com/do-you-need-ember-object/) came out, we removed `EmberObject`, giving you a simpler base class to work with.  Currently this functionality is still in `v3` beta.  We plan to exit the beta period and do a proper `3.0.0` release in the near future for apps supporting `ember-source` >= 3.13.
+Recently I [rewrote](https://github.com/poteto/ember-changeset/pull/379) `ember-changeset` to fix long outstanding bugs, support Octane patterns and utilize `@tracked`. As a result, not only can you validate and apply changes to top level keys (`person`), nested keys such as `person.firstName` may also be used.  In addition, at the same time `@pzuraq`'s blog post [Do You Need EmberObject?](https://www.pzuraq.com/do-you-need-ember-object/) came out, we removed `EmberObject`, giving you a simpler base class to work with. The base functionality has been extracted to [`validated-changeset`](https://github.com/validated-changeset/validated-changeset). Currently this functionality is still in `v3` beta. We plan to exit the beta period and do a proper `3.0.0` release in the near future for apps supporting `ember-source` >= 3.13. .
 
-Ember has further memorialized itself with the OOP community.  As a result, a functional approach to mutating state is a good tool to have in your toolbelt!
+Ember has further memorialized itself with the OOP community. As a result, a functional approach to mutating state is a good tool to have in your toolbelt!
 
 Do you use `ember-changeset` or something similar? We'd love to hear about Ember addons you love for DecEmber in the comments below!
