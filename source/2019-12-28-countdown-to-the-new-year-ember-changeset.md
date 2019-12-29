@@ -13,6 +13,8 @@ responsive: true
 For the 28th edition of **Countdown to The New Year** we're going to take a
 look at [`ember-changeset`](https://emberobserver.com/addons/ember-changeset).
 
+READMORE
+
 ### What It Does
 
 Managing data associated with forms can sometimes be unwieldy. As a result, we have borrowed concepts from the Elixir [community](https://hexdocs.pm/ecto/Ecto.Changeset.html#content) to give you the ability to prevent mutating the underlying object until the last possible moment when you have decided to apply the changes and the data is valid. This functional approach to validations has proved to be quite useful.
