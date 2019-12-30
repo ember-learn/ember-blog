@@ -1,8 +1,8 @@
 ---
-title: Countdown to The New Year: ember-exam
+title: Countdown to The New Year - Ember Exam
 author: Jessica Jordan
 tags: 2019, Addons, DecEmber, Testing
-alias: 2019/12/30/countdown-to-the-new-year-2019-ember-exam
+alias: 2019-12-30-countdown-to-the-new-year-ember-exam
 responsive: true
 ---
 
