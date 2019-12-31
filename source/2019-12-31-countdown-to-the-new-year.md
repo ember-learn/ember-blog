@@ -34,6 +34,7 @@ Those things alone are amazing, and the reason why Ember can provide such a cohe
 ## Make it robust
 
 1. `@ember/optional-features` - who doesn’t love a good feature flag? This is one of the ways Ember allows you to try new features. The added bonus here is that we can test out the compatibility with existing features before making the optional feature permanent. Read more about optional features in Ember: [https://guides.emberjs.com/release/configuring-ember/optional-features/](https://guides.emberjs.com/release/configuring-ember/optional-features/).
+<!--alex ignore just-->
 2. `ember-auto-import` - we covered this one on [day 6](https://blog.emberjs.com/2019/12/06/countdown-to-the-new-year-ember-auto-import.html), but it’s worth mentioning again. As of Ember v3.15, it is now part of apps by default! Gone are the days when a special Ember version of a popular library or package needed to be created (and maintained).  It eliminates the need for developers to understand the differences between AMD and CJS modules and how they get into the app tree. They don't need to read about how to configure their build, or how Ember's build pipeline differs from other build tools. They import what they need, and it just works. 
 3. `ember-qunit` - Ember’s testing story is unarguably one of its biggest strengths, and built into every app is the ability to write tests that are concise and readable. Read more in the testing section of the guides: [https://guides.emberjs.com/release/testing/](https://guides.emberjs.com/release/testing/).
 
