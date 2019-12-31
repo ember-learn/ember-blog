@@ -10,7 +10,7 @@ responsive: true
 
 What a month it’s been!  Over the last thirty days, we have showcased a lot of different kinds of addons in the Ember ecosystem. In this final post, we’ll show how an Ember app’s default addons come together to form a great developer experience, and we will reflect on the article series as a whole.
 
-This article series highlights the real spirit of the Ember community, the ways in which we come together to find a way to say yes to good ideas.  It started out as a wish: “Wouldn’t it be nice if we had our own advent calendar blog?” Then, it quickly turned into a refined possibility: “Let’s do a countdown to the new year instead of just an advent calendar.” From there, it grew into actionable steps: “What does an MVP blog post look like? How about a pre-determined format to make it easier to allow other community members to contribute?” This is one example of how many of our favorite open source projects come to life!
+This article series highlights the real spirit of the Ember community, the ways in which we come together to find a way to say yes to good ideas.  It started out as a wish: “Wouldn’t it be nice if we had our own advent calendar blog?” Then, it quickly turned into a refined possibility: “Let’s do a countdown to the new year so we can cover more addons.” From there, it grew into actionable steps: “What does an MVP blog post look like? How about a pre-determined format to make it easier to allow other community members to contribute?” This is one example of how many of our favorite open source projects come to life!
 
 READMORE
 
