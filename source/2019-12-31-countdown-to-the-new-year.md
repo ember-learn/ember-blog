@@ -41,7 +41,7 @@ Those things alone are amazing, and the reason why Ember can provide such a cohe
 ## Make it just work 
 
 1. `ember-cli-dependency-checker` automatically checks for missing dependencies before the command even runs! Ember CLI is pure productivity gold; it gives you strong defaults but also ways to customize further, if you want to. Read more here: https://guides.emberjs.com/release/configuring-ember/configuring-ember-cli/. 
-2. `ember-maybe-import-regenerator` will import the Regenerator Runtime into your Ember app- but only if you need it. Among other things, it’s useful for apps that want to use ES6 generator functions but don’t want to import the (larger) Babel polyfill package. https://github.com/machty/ember-maybe-import-regenerator
+2. `ember-maybe-import-regenerator` will import the Regenerator Runtime into your Ember app- but only if you need it. [Among other things](https://github.com/machty/ember-maybe-import-regenerator), it’s useful for apps that want to use ES6 generator functions but don’t want to import the (larger) Babel polyfill package.
 3.  `ember-resolver` is probably the real “Ember magic,” if there is such a thing. What template goes with what route? Ember Resolver has your back. Technically speaking, it’s how your code gets converted into the actual classes/functions/templates that Ember needs to resolve it’s dependencies. And you don’t have to think about it, or set it up, it’s just there, working for you. Like magic. Or science. https://github.com/ember-cli/ember-resolver
 4. `broccoli-asset-rev` adds fingerprint checksums and CDN URLs to your assets (things like images, web fonts, etc). Just one more thing you don’t have to think about, but you can customize if desired.
 
