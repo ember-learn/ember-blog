@@ -14,11 +14,12 @@ This article series highlights the real spirit of the Ember community, the ways 
 
 READMORE
 
+<!--alex ignore of-course-->
 Of course, we were only able to highlight a small portion of the addons that so many of us use in our day-to-day lives, and we didn’t even touch on the ones that are included in Ember apps by default...so let's do that now! 
 
 If you start to consider the kinds of apps powered by Ember—everything from dairy farm apps to cruise ship line's websites, to the future in open source blockchain—the need for stability becomes urgently and crisply apparent. This is where Ember’s backwards-compatibility guarantee really shines—the new stuff won’t break your old stuff, and you’ll be given both plenty of time and guidance to upgrade. 
 
-<!--alex ignore just-->
+<!--alex disable just-->
 One of the ways we are able to offer this kind of flexibility and stability is through the work that Rob Jackson, Kris Selden, Godfrey Chan, Ed Faulkner and many others have done to make Ember more flexible by splitting it up into separate addons. This helps the overall maintainability and makes it a lot more convenient when work needs to be done on just one of the addons. 
 
 When you type `ember new my-app` do you know all of the things that you’re getting by default? 
@@ -34,7 +35,7 @@ Those things alone are amazing, and the reason why Ember can provide such a cohe
 ## Make it robust
 
 1. `@ember/optional-features` - who doesn’t love a good feature flag? This is one of the ways Ember allows you to try new features. The added bonus here is that we can test out the compatibility with existing features before making the optional feature permanent. Read more about optional features in Ember: [https://guides.emberjs.com/release/configuring-ember/optional-features/](https://guides.emberjs.com/release/configuring-ember/optional-features/).
-2. `ember-auto-import` - we covered this one on [day 6](https://blog.emberjs.com/2019/12/06/countdown-to-the-new-year-ember-auto-import.html), but it’s worth mentioning again. As of Ember v3.15, it is now part of apps by default! Gone are the days when a special Ember version of a popular library or package needed to be created (and maintained).  It eliminates the need for developers to understand the differences between AMD and CJS modules and how they get into the app tree. They don't need to read about how to configure their build, or how Ember's build pipeline differs from other build tools. They import what they need, and it just works. 
+2. `ember-auto-import` - we covered this one on [day 6](https://blog.emberjs.com/2019/12/06/countdown-to-the-new-year-ember-auto-import.html), but it’s worth mentioning again. As of Ember v3.15, it is now part of apps by default! Gone are the days when an Ember version of a popular library or package needed to be created (and maintained).  It eliminates the need for developers to understand the differences between AMD and CJS modules and how they get into the app tree. They don't need to read about how to configure their build, or how Ember's build pipeline differs from other build tools. They import what they need, and it just works. 
 3. `ember-qunit` - Ember’s testing story is unarguably one of its biggest strengths, and built into every app is the ability to write tests that are concise and readable. Read more in the testing section of the guides: [https://guides.emberjs.com/release/testing/](https://guides.emberjs.com/release/testing/).
 
 <!--alex ignore just-->
@@ -51,7 +52,7 @@ Those things alone are amazing, and the reason why Ember can provide such a cohe
 2. `ember-cli-inject-live-reload` is possibly my favorite developer-friendly feature of Ember. I make changes, and my local developer instance live reloads, with no setup required from me. I’ll say that again - no setup required from me. Absolute bliss. 
 3. lint, lint, and lint some more - the most developer-friendly thing that Ember provides is a robust set of linters. There are a lot of ways apps can get things wrong, but Ember does what it can for preventable issues. `ember-template-lint`, `eslint-plugin-ember`, and `ember-cli-eslint` are just a few of the ways we try to give you a well-lit path to success. 
 
-When I stop to think about all of the things I used to have to do every time I set up a new application, I grow more grateful for the ways Ember makes it easier to focus on what my app should do, and not all the tedium that can so easily waste developer productivity through human error on tiny details. 
+When I stop to think about all of the things I used to have to do every time I set up a new application, I grow more grateful for the ways Ember makes it easier to focus on what my app should do, and not all the tedium that can so quickly waste developer productivity through human error on tiny details. 
 
 On top of all of this, the [recent release of the Octane edition of Ember](https://blog.emberjs.com/2019/12/20/octane-is-here.html) means that now is the perfect time to give Ember a try, no matter what your skill level. [EmberObserver](https://emberobserver.com/) is still the go-to place for pre-evaluating Ember addons, and the [community chat server](https://discord.gg/emberjs) is a perfect spot for getting help and advice if you need it- or have some to share! 
 
