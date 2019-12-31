@@ -16,7 +16,7 @@ READMORE
 
 Of course, we were only able to highlight a small portion of the addons that so many of us use in our day-to-day lives, and we didn’t even touch on the ones that are included in Ember apps by default...so let's do that now! 
 
-If you start to consider the kinds of apps powered by Ember—everything from dairy farms to cruise ships to the future in open source blockchain—the need for stability becomes urgently and crisply apparent. This is where Ember’s backwards-compatibility guarantee really shines—the new stuff won’t break your old stuff, and you’ll be given both plenty of time and guidance to upgrade. 
+If you start to consider the kinds of apps powered by Ember—everything from dairy farm apps to cruise ship line's websites, to the future in open source blockchain—the need for stability becomes urgently and crisply apparent. This is where Ember’s backwards-compatibility guarantee really shines—the new stuff won’t break your old stuff, and you’ll be given both plenty of time and guidance to upgrade. 
 
 <!--alex ignore just-->
 One of the ways we are able to offer this kind of flexibility and stability is through the work that Rob Jackson, Kris Selden, Godfrey Chan, Ed Faulkner and many others have done to make Ember more flexible by splitting it up into separate addons. This helps the overall maintainability and makes it a lot more convenient when work needs to be done on just one of the addons. 
