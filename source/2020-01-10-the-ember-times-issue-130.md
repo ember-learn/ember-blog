@@ -108,7 +108,12 @@ building modern Ember apps. In this regard we highly recommend the following lea
 
 ### Octane Core Concepts
 
-- Octane Core Concepts Blog Series by [Chris Garrett (@pzuraq)](https://github.com/pzuraq): [Part 1](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html), [Part 2](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html), [Part 3](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html), [Part 4](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) and [Part 5](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html)
+- Octane Core Concepts Blog Series by [Chris Garrett (@pzuraq)](https://github.com/pzuraq)
+  - [Part 1: Native Classes](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html)
+  - [Part 2: Angle Brackets & Named Arguments](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html)
+  - [Part 3: Tracked Properties](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html)
+  - [Part 4: Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html)
+  - [Part 5: Glimmer Components](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html)
 - [Most Common Mistakes Using Octane and How to Avoid Them](https://medium.com/ember-ish/the-most-common-ember-js-octane-mistakes-and-how-to-avoid-them-c6420e1b0423) by [Jen Weber (@jenweber)](https://github.com/jenweber)
 - [Bringing Clarity to Templates through Ember Octane](https://simplabs.com/blog/2019/12/20/clarity-in-templates/) by [Ricardo Mendes (@locks)](https://github.com/locks)
 - [Ember Octane Fundamentals Course on Frontend Masters (paid subscription)](https://frontendmasters.com/courses/ember-octane/)
