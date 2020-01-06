@@ -97,7 +97,7 @@ READMORE
 
 ## [Where Can I Learn More? 🤓]((https://guides.emberjs.com/release/)
 
-If you want to try out Ember Octane, you might want to learn more about how to use the new APIs and about best practices for
+If you want to try out Ember Octane, you might want to learn more about the new APIs and best practices for
 building modern Ember apps. In this regard we highly recommend the following learning resources to you.
 
 ### Getting Started
