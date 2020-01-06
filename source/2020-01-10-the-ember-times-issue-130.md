@@ -95,13 +95,33 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Where Can I Learn More? 🤓](https://guides.emberjs.com/release/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+If you want to try out Ember Octane, you might want to learn more about the new APIs and best practices for
+building modern Ember apps. In this regard we highly recommend the following learning resources to you.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+### Getting Started
+
+- [The official documentation - Ember.js Guides](https://guides.emberjs.com/release/)
+- [The official beginner's tutorial - Build the Super Rentals app](https://guides.emberjs.com/release/tutorial/part-1/)
+- [The official API reference - Ember.js API Docs](https://api.emberjs.com/ember/release)
+
+### Octane Core Concepts
+
+- Octane Core Concepts Blog Series by [Chris Garrett (@pzuraq)](https://github.com/pzuraq)
+  - [Part 1: Native Classes](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html)
+  - [Part 2: Angle Brackets & Named Arguments](https://blog.emberjs.com/2019/02/19/coming-soon-in-ember-octane-part-2.html)
+  - [Part 3: Tracked Properties](https://blog.emberjs.com/2019/02/26/coming-soon-in-ember-octane-part-3.html)
+  - [Part 4: Modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html)
+  - [Part 5: Glimmer Components](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html)
+- [Most Common Mistakes Using Octane and How to Avoid Them](https://medium.com/ember-ish/the-most-common-ember-js-octane-mistakes-and-how-to-avoid-them-c6420e1b0423) by [Jen Weber (@jenweber)](https://github.com/jenweber)
+- [Bringing Clarity to Templates through Ember Octane](https://simplabs.com/blog/2019/12/20/clarity-in-templates/) by [Ricardo Mendes (@locks)](https://github.com/locks)
+- [Ember Octane Fundamentals Course on Frontend Masters (paid subscription)](https://frontendmasters.com/courses/ember-octane/)
+
+### Migrating Ember Apps
+
+- [Rewriting Apps in Ember Octane](https://crunchingnumbers.live/2019/12/23/rewriting-apps-in-ember-octane/) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
+- [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 
 ---
 
