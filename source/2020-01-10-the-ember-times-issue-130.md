@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 130
-author: the crowd
+author: Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -85,13 +85,11 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
-
+## [Octane at EmberConf 2020 📢](https://emberconf.com)
+With [Ember Octane](https://blog.emberjs.com/2019/12/20/octane-is-here.html) released it is not a surprise that it’s also a hot topic for [EmberConf 2020](https://emberconf.com/#/speakers). 
+If you want to hear [people](https://emberconf.com/#/speakers) talk about Octane or talk with people about Octane, EmberConf in Portland, OR is the place to be. The 16th till 18th of March will be filled with awesome talks about Octane by [Godfrey Chan](https://github.com/chancancode), [Suchita Doshi](https://github.com/suchitadoshi1987), [DanMonroe](https://github.com/DanMonroe) and probably some others. 
+It’s of course also a nice place to meet up with your Ember-friends and learn about many more topics. For more information check the [website](https://emberconf.com) or join the #ember-conf channel on Discord.
 <change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -155,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
