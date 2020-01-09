@@ -56,7 +56,7 @@ If you are migrating an existing Ember application to Octane we have an excellen
 - [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 - [Ember Atlas Recommended Migration Order](https://www.notion.so/Atlas-Recommended-Migration-Order-a22f948a7cce4e01896d674f727bee74)
 
-Whatever you end up doing, you won’t have to do it alone as members of the community have generously contributed [numerous codemods](https://github.com/ember-codemods) to help us migration efficiently.
+Whatever you end up doing, you won’t have to do it alone as members of the community have generously contributed [numerous codemods](https://github.com/ember-codemods) to help us to migrate efficiently.
 
 - [Angle Brackets Codemod](https://github.com/ember-codemods/ember-angle-brackets-codemod)
 - [Tracked Properties Codemod](https://github.com/ember-codemods/ember-tracked-properties-codemod)
