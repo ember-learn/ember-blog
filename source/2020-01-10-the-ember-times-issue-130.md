@@ -36,7 +36,7 @@ How to migrate to Ember Octane 🐹🏗️,
 
 ---
 
-## [Community Feedback 👏](https://www.outdoorsy.com)
+## [Community Feedback from Outdoorsy 👏](https://www.outdoorsy.com)
 
 Wondering about who has been using Ember Octane features in production? 
 
