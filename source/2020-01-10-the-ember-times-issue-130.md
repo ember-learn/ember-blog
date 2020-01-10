@@ -48,7 +48,7 @@ Having editions helps you and the Ember teams in many ways:
 
 ### What Features are in Octane Edition?
 
-Many new features cohere to form a new component model and a new reactivity system for Ember. These two big changes are keystone to Octane's ergonomic improvements.
+Many new features cohere to form **a new component model and a new reactivity system** for Ember. These two big changes are keystone to Octane's ergonomic improvements.
 
 You can find the full list of features in the [Ember Guides](https://guides.emberjs.com/release/upgrading/current-edition/#toc_what-is-ember-octane). We'll highlight a few major ones below.
 
