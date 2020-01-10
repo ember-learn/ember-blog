@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 130
-author: Chris Ng, the crowd
+author: Chris Ng, Alon Bukai, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -13,6 +13,7 @@ This week, we have an **Ember Octane Special Edition** for you!
 
 READMORE
 How to migrate to Ember Octane 🐹🏗️,
+Conquer Octane with The Ember Atlas 🗺🌍
 
 ---
 
@@ -70,9 +71,17 @@ If you need help along the way, visit the [Ember Community chat and forums](http
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [The Ember Atlas 🗺](https://www.notion.so/The-Ember-Atlas-4094f81c86c34badb4a562ed29414ae1)
 
-<change section title emoji>
+The Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a Wiki for Ember for various content that isn't in the guides yet or won't ever make it in. 
+
+To get started it is recommended to read the [Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) which explains what The Ember Atlas is.
+
+Of particular interest today is the [Ember Octane Upgrade Guide](https://www.notion.so/Ember-Octane-b8ad64b7adf74218942fc69ead7b6892). This section includes information to help Ember developers upgrade from Classic apps/addons to Octane ones.
+
+Some notable parts of the upgrade guide:
+
+- .... Need to finish
 <consider adding some bold to your paragraph>
 
 <add your name to author list, top and bottom>
@@ -170,4 +179,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Alon Bukai, the crowd and the Learning Team
