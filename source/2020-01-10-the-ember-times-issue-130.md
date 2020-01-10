@@ -55,7 +55,7 @@ The new Octane syntax took a bit of getting used to, particularly around how to 
 Almost all new work that gets done on the application is written with Glimmer components and in a clean and idiomatic Ember Octane way.
 
 <!-- alex ignore mental -->
-One of the biggest benefits the Outdoorsy team has experienced as a result of the Ember Octane upgrade is a simplified mental model of how Ember works and improved code readability and easier reasoning about what context state is derived from. Not having to reference several files to determine where a property is initially defined is definitely a boon to developer productivity.
+Some of the big benefits that the Outdoorsy team experienced from Octane are a simplified mental model of how Ember works, improved code readability, and easier reasoning about what context a state is derived from. Not having to reference several files to determine where a property is initially defined was definitely a boon to developer productivity.
 
 It’s great to hear that Octane is working really well in a production application at the scale and complexity of Outdoorsy’s.
 
