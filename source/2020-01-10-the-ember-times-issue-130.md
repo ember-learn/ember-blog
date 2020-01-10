@@ -52,7 +52,7 @@ Many new features cohere to form **a new component model and a new reactivity sy
 
 You can find the full list of features in the [Ember Guides](https://guides.emberjs.com/release/upgrading/current-edition/#toc_what-is-ember-octane). We'll highlight a few major ones below.
 
-1. **Glimmer components** offer a greatly simplified API, for both template and backing class. Say hi to native JavaScript classes!
+1. **Glimmer components** offer a greatly simplified API, for both template and backing class. Say hi to outer HTML semantics and namespaced arguments!
 
 2. **Modifiers** let you interact with the DOM—animate this element, scroll to that element, autofocus on the first form input, etc. Modifiers work on *any* element.
 
