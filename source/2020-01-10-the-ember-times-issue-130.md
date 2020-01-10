@@ -74,7 +74,7 @@ Ember Octane.
 - [The official beginner's tutorial - Build the Super Rentals app](https://guides.emberjs.com/release/tutorial/part-1/)
 - [The official API reference - Ember.js API Docs](https://api.emberjs.com/ember/release)
 
-> Octane provides a very gentle on-ramp and lets you learn and grow into the framework as the needs arise in your app. You start with HTML templates, then extract pieces into template-only components for clarity, add arguments for reusability, add a js class to add behavior,  add a service for shared functionalities, install an addon for more cool stuff, etc. I’m excited to see all of theses pieces coming together and finally ready to teach the version of ember we had envisioned. Check out the new tutorial to see the difference for yourself! ~ _Godfrey Chan [(@chancancode)](https://github.com/chancancode)_
+> Octane provides a very gentle on-ramp and lets you learn and grow into the framework as the needs arise in your app. You start with HTML templates, then extract pieces into template-only components for clarity, add arguments for reusability, add a js class to add behavior, add a service for shared functionalities, install an addon for more cool stuff, etc. I’m excited to see all of these pieces coming together and finally ready to teach the version of ember we had envisioned. Check out the new tutorial to see the difference for yourself! ~ _Godfrey Chan [(@chancancode)](https://github.com/chancancode)_
 
 ### Octane Core Concepts
 
