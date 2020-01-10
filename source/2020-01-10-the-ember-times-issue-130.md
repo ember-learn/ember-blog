@@ -56,7 +56,7 @@ You can find the full list of features in the [Ember Guides](https://guides.embe
 
 2. **Modifiers** let you interact with the DOM—animate this element, scroll to that element, autofocus on the first form input, etc. Modifiers work on *any* element.
 
-3. **Tracked properties** simplify keeping the DOM up-to-date with JavaScript changes. You no longer need to write and maintain dependency lists.
+3. **Tracked properties** simplify syncing the DOM with JavaScript changes. You no longer need to write and maintain dependency lists.
 
 ---
 
