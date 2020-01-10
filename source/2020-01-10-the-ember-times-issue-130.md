@@ -83,6 +83,7 @@ building modern Ember apps. In this regard we highly recommend the following lea
 
 - [Rewriting Apps in Ember Octane](https://crunchingnumbers.live/2019/12/23/rewriting-apps-in-ember-octane/) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
 - [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
+- [Step-by-Step Migration Guide in the Ember Atlas](https://www.notion.so/Atlas-Recommended-Migration-Order-a22f948a7cce4e01896d674f727bee74)
 
 
 > Octane provides a very gentle on-ramp and lets you learn and grow into the framework as the needs arise in your app. You start with HTML templates, then extract pieces into template-only components for clarity, add arguments for reusability, add a js class to add behavior,  add a service for shared functionalities, install an addon for more cool stuff, etc. I’m excited to see all of theses pieces coming together and finally ready to teach the version of ember we had envisioned. Check out the new tutorial to see the difference for yourself! ~ _Godfrey Chan [(@chancancode)](https://github.com/chancancode)_
@@ -115,7 +116,7 @@ If you need help along the way, visit the [Ember Community chat and forums](http
 
 ## [Community feedback from Outdoorsy 👏](https://www.outdoorsy.com)
 
-Wondering about who has been using Ember Octane features in production? 
+Wondering about who has been using Ember Octane features in production?
 
 We’ll spend some time over the next several issues focusing on projects and teams who are using Ember Octane in their apps.
 
@@ -144,7 +145,7 @@ We know there are lots of other great examples of Octane being used in the wild.
 
 ## [The Ember Atlas 🗺](http://emberatlas.com)
 
-The Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a Wiki for Ember for various content that isn't in the guides yet or won't ever make it in. 
+The Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a Wiki for Ember for various content that isn't in the guides yet or won't ever make it in.
 
 To get started it is recommended to read the [Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) which explains what The Ember Atlas is.
 
@@ -159,9 +160,9 @@ Some notable parts of the upgrade guide:
 
 ## [Octane at EmberConf 2020 📢](https://emberconf.com)
 
-With [Ember Octane](https://blog.emberjs.com/2019/12/20/octane-is-here.html) released it is not a surprise that it’s also a hot topic for [EmberConf 2020](https://emberconf.com/#/speakers). 
+With [Ember Octane](https://blog.emberjs.com/2019/12/20/octane-is-here.html) released it is not a surprise that it’s also a hot topic for [EmberConf 2020](https://emberconf.com/#/speakers).
 
-If you want to [listen and talk to people](https://emberconf.com/#/speakers) about Octane, EmberConf in Portland, OR is the place to be. The 16th till 18th of March will be filled with awesome talks by [Godfrey Chan](https://github.com/chancancode), [Suchita Doshi](https://github.com/suchitadoshi1987), [DanMonroe](https://github.com/DanMonroe) and many others. 
+If you want to [listen and talk to people](https://emberconf.com/#/speakers) about Octane, EmberConf in Portland, OR is the place to be. The 16th till 18th of March will be filled with awesome talks by [Godfrey Chan](https://github.com/chancancode), [Suchita Doshi](https://github.com/suchitadoshi1987), [DanMonroe](https://github.com/DanMonroe) and many others.
 
 It’s also a nice place to meet up with your Ember-friends and learn about many more topics. For more information, check the [EmberConf website](https://emberconf.com) and join the #ember-conf channel on Discord.
 
@@ -169,19 +170,7 @@ It’s also a nice place to meet up with your Ember-friends and learn about many
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
-
----
-
-## [Got a Question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
-
-<div class="blog-row">
-  <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
-
-  <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are just for you!</p>
-
-  <p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>
-</div>
+<p>This week we'd like to thank <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/the-bionic" target="gh-user">@the-bionic</a>, <a href="https://github.com/bf4" target="gh-user">@bf4</a>, <a href="https://github.com/mixonic" target="gh-user">@mixonic</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/bobisjan" target="gh-user">@bobisjan</a>, <a href="https://github.com/dmzza" target="gh-user">@dmzza</a>, <a href="https://github.com/efx" target="gh-user">@efx</a> and <a href="https://github.com/SYU15" target="gh-user">@SYU15</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
