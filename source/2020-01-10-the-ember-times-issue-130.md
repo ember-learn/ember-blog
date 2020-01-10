@@ -53,7 +53,8 @@ As with any upgrade of an app this size, there were pain points, but the Outdoor
 The new Octane syntax took a bit of getting used to, particularly around how to make use of tracked properties in place of computed properties, but the team is enjoying using the new auto-tracking system and class based components in many places throughout the application, and plans on incrementally updating all of their components over time.
 
 Almost all new work that gets done on the application is written with Glimmer components and in a clean and idiomatic Ember Octane way.
-<!--alex ignore mental-->
+
+<!-- alex ignore mental -->
 One of the biggest benefits the Outdoorsy team has experienced as a result of the Ember Octane upgrade is a simplified mental model of how Ember works and improved code readability and easier reasoning about what context state is derived from. Not having to reference several files to determine where a property is initially defined is definitely a boon to developer productivity.
 
 It’s great to hear that Octane is working really well in a production application at the scale and complexity of Outdoorsy’s.
