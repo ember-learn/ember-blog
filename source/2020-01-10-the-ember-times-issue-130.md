@@ -90,7 +90,7 @@ to learn about the principles of Ember's first edition in more detail.
   - [Part 5: Glimmer Components](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html)
 - [Most Common Mistakes Using Octane and How to Avoid Them](https://medium.com/ember-ish/the-most-common-ember-js-octane-mistakes-and-how-to-avoid-them-c6420e1b0423) by [Jen Weber (@jenweber)](https://github.com/jenweber)
 - [Bringing Clarity to Templates through Ember Octane](https://simplabs.com/blog/2019/12/20/clarity-in-templates/) by [Ricardo Mendes (@locks)](https://github.com/locks)
-- [Ember Octane Fundamentals Course on Frontend Masters (paid subscription)](https://frontendmasters.com/courses/ember-octane/) by [Michael North @mike-north](https://github.com/mike-north)
+- [Ember Octane Fundamentals Course on Frontend Masters (paid subscription)](https://frontendmasters.com/courses/ember-octane/) by [Mike North (@mike-north)](https://github.com/mike-north)
 
 > Since the beginning, Ember has evolved alongside the JavaScript language. Ember has served as a testbed for features such as classes and modules, and for years has pushed more upstream than it has received back. With Octane, this tide has turned. Ember now feels as modern as any JavaScript framework, making the most of language features that it has helped shape. And its commitment to stable evolution means that this trend will continue for years to come. ~ _Dan Gebhardt [(@dgeb)](https://github.com/dgeb)_
 
