@@ -169,7 +169,7 @@ It’s also a nice place to meet up with your Ember-friends and learn about many
 
 ---
 
-> I'm excited because I think Octane is easier to teach. ~ _Jen Weber [(@jenweber)](https://github.com/jenweber)_
+> I'm excited because I think Octane is easier to teach. That's great for both companies who hire non-Ember developers and for self-motivated beginners. With ember-auto-import in the app by default, Ember also plays nice with the broader JavaScript ecosystem. You can npm install the libraries you like, and they work without extra effort. ~ _Jen Weber [(@jenweber)](https://github.com/jenweber)_
 
 ## [Where Can I Learn More? 🤓](https://guides.emberjs.com/release/)
 
