@@ -200,7 +200,7 @@ building modern Ember apps. In this regard we highly recommend the following lea
 - [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 
 
-> Octane provides a very gentle on-ramp and lets you learn and grow into the framework as the needs arise in your app ... I’m excited to see all of theses pieces coming together and finally ready to teach the version of ember we had envisioned. Check out the new tutorial to see the difference for yourself! ~ _Godfrey Chan [(@chancancode)](https://github.com/chancancode)_
+> Octane provides a very gentle on-ramp and lets you learn and grow into the framework as the needs arise in your app. You start with HTML templates, then extract pieces into template-only components for clarity, add arguments for reusability, add a js class to add behavior,  add a service for shared functionalities, install an addon for more cool stuff, etc. I’m excited to see all of theses pieces coming together and finally ready to teach the version of ember we had envisioned. Check out the new tutorial to see the difference for yourself! ~ _Godfrey Chan [(@chancancode)](https://github.com/chancancode)_
 
 ---
 
