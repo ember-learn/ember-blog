@@ -39,7 +39,7 @@ Having editions helps you and the Ember teams in many ways:
 <!--alex ignore easy-->
 1. You can see the big picture of how features work together. Before editions were introduced, you might have had to stay on top of RFCs and release notes to understand why a feature was added or removed.
 
-1. For people who don't follow Ember closely—that may be you, or people in the wider JavaScript world—it was easy to miss the significant improvements that happen over time. Editions help us market *tour de force* in Ember.
+1. For people who don't follow Ember closely—that may be you, or people in the wider JavaScript world—it was easy to miss the significant improvements that happen over time. Editions help us market <span style="font-style: italic;">tour de force</span> in Ember.
 
 1. Editions mark an opportunity to update Ember documentation, idioms, addons, and tooling (Ember Inspector, blueprints, codemods, and error messages). The end result is a cohesive, polished experience for you!
 
@@ -162,16 +162,13 @@ We know there are lots of other great examples of Octane being used in the wild.
 
 ## [The Ember Atlas 🗺](http://emberatlas.com)
 
-The Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a Wiki for Ember for various content that isn't in the guides yet or won't ever make it in.
+We alluded to the [Ember Atlas Octane Upgrade Guide](https://www.notion.so/Ember-Octane-b8ad64b7adf74218942fc69ead7b6892) earlier. This section includes information to help Ember developers upgrade from Classic apps/addons to Octane ones. 🚀
 
-To get started it is recommended to read the [Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) which explains what The Ember Atlas is.
+So what <span style="font-style: italic;">is</span> Ember Atlas? 
 
-Of particular interest today is the [Ember Octane Upgrade Guide](https://www.notion.so/Ember-Octane-b8ad64b7adf74218942fc69ead7b6892). This section includes information to help Ember developers upgrade from Classic apps/addons to Octane ones.
+Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a curated wiki for Ember for various content that isn't in the guides yet, or won't ever make it in.
 
-Some notable parts of the upgrade guide:
-
-- .... Need to finish
-
+Bookmark [emberatlas.com](http://emberatlas.com) for easy reference and check out the [Ember Atlas Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) to get started. 
 
 ---
 
