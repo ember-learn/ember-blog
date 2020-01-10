@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 130
-author: Chris Ng, Alon Bukai, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Alon Bukai, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/10-the-ember-times-issue-130.html"
 responsive: true
@@ -30,13 +30,33 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [What is the Octane Edition? 🙋‍♀️🙋‍♂️](https://blog.emberjs.com/2019/12/20/octane-is-here.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Ember Octane introduces the idea of editions. Let's look at what an edition means in Ember and what features you can find in the Octane edition.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+### What is an Edition?
+
+In Ember, an [edition](https://emberjs.com/editions/) represents a **cohesive programming model** and can focus on a particular theme. For example, the Octane edition is focused on productivity and performance!
+
+Having editions helps you and the Ember teams in many ways:
+
+1. You can see the big picture of how features work together. Before editions were introduced, you might have had to stay on top of RFCs and release notes to understand why a feature was added or removed.
+
+2. For people who don't follow Ember closely—that may be you, or people in the wider JavaScript world—it was <!--alex ignore easy-->easy to miss the significant improvements that happen over time. Editions help us market *tour de force* in Ember.
+
+3. Editions mark an opportunity to update Ember documentation, idioms, addons, and tooling (Ember Inspector, blueprints, codemods, and error messages). The end result is a cohesive, polished experience for you!
+
+### What Features are in Octane Edition?
+
+Many new features cohere to form **a new component model and a new reactivity system** for Ember. These two big changes are keystone to Octane's ergonomic improvements.
+
+You can find the full list of features in the [Ember Guides](https://guides.emberjs.com/release/upgrading/current-edition/#toc_what-is-ember-octane). We'll highlight a few major ones below.
+
+1. **Glimmer components** offer a greatly simplified API, for both template and backing class. Say hi to outer HTML semantics and namespaced arguments!
+
+2. **Modifiers** let you interact with the DOM—animate this element, scroll to that element, autofocus on the first form input, etc. Modifiers work on *any* element.
+
+3. **Tracked properties** simplify syncing the DOM with JavaScript changes. You no longer need to write and maintain dependency lists.
 
 ---
 
@@ -50,7 +70,7 @@ READMORE
 
 ---
 
-## [How to migrate to Octane 🐹🏗️](https://guides.emberjs.com/release/upgrading/current-edition/)
+## [How to Migrate to Octane 🐹🏗️](https://guides.emberjs.com/release/upgrading/current-edition/)
 
 <!--alex ignore nuts-->
 Ember Octane represents a big shift in Ember's syntax, features, and mental models. There is, however, no need for a stop-the-world migration, Octane provides an opt-in method of migration where you can apply each core feature enhancement incrementally.
@@ -182,4 +202,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Alon Bukai, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Alon Bukai, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
