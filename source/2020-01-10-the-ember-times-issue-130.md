@@ -48,6 +48,7 @@ How to migrate to Ember Octane 🐹🏗️,
 
 ## [How to migrate to Octane 🐹🏗️](https://guides.emberjs.com/release/upgrading/current-edition/)
 
+<!--alex ignore nuts-->
 Ember Octane represents a big shift in Ember's syntax, features, and mental models. There is, however, no need for a stop-the-world migration, Octane provides an opt-in method of migration where you can apply each core feature enhancement incrementally.
 
 If you are migrating an existing Ember application to Octane we have an excellent list of resources to help you out:
