@@ -111,7 +111,7 @@ Whatever you end up doing, you won’t have to do it alone as members of the com
 - [Tracked Properties Codemod](https://github.com/ember-codemods/ember-tracked-properties-codemod)
 - [Native Class Codemod](https://github.com/ember-codemods/ember-native-class-codemod)
 - [No Implicit This or {{foo}} to {{this.foo}} Codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod)
-- [ES5 Getter Setter Codemod](https://github.com/ember-codemods/es5-getter-ember-codemod)
+- [ES5 Getter Codemod](https://github.com/ember-codemods/es5-getter-ember-codemod)
 - [Template Colocation Migrator](https://github.com/ember-codemods/ember-component-template-colocation-migrator)
 
 If you need help along the way, visit the [Ember Community chat and forums](https://emberjs.com/community/).
