@@ -60,13 +60,30 @@ You can find the full list of features in the [Ember Guides](https://guides.embe
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Community Feedback from Outdoorsy 👏](https://www.outdoorsy.com)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Wondering about who has been using Ember Octane features in production? 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We’ll spend some time over the next several issues focusing on projects and teams who are using Ember Octane in their apps.
+
+Today’s focus is on [**Outdoorsy**](https://www.outdoorsy.com), a peer-to-peer marketplace that connects RV and camper van owners with campers encouraging them to get into the great outdoors. Outdoorsy maintains three large-scale Ember apps for their flagship web product.
+
+The developers at Outdoorsy have been using Octane features in production since September and have reportedly had a super enjoyable experience. [Jaco Joubert @jacojoubert](https://github.com/jacojoubert), a Front-End Engineer at Outdoorsy, says "Octane has allowed us to build highly interactive experiences that are well tested in an unbelievably short time. Leveraging Octane we rebuilt our entire [search experience](https://www.outdoorsy.com/rv-search) from the ground up in less than five weeks, something which would have taken orders of magnitude longer before."
+
+Outdoorsy's Ember app is a particularly nice highlight of what's possible in an Ember Octane upgrade experience. The app was written in classic Ember style over the last 4 years or so, and is large enough that a team of 26 developers works on it (about half of whom are focused on the frontend). The app is actually a monorepo of several Ember apps and addons and employs a rehydrated Ember Fastboot app for its public facing pages for SEO purposes.
+
+As with any upgrade of an app this size, there were pain points, but the Outdoorsy team took advantage of the opportunity of being together at their fall engineering summit (the team is distributed, and many work remotely) to tackle the upgrade over the course of a week.
+
+The new Octane syntax took a bit of getting used to, particularly around how to make use of tracked properties in place of computed properties, but the team is enjoying using the new auto-tracking system and class based components in many places throughout the application, and plans on incrementally updating all of their components over time.
+
+Almost all new work that gets done on the application is written with Glimmer components and in a clean and idiomatic Ember Octane way.
+
+<!-- alex ignore mental -->
+Some of the big benefits that the Outdoorsy team experienced from Octane are a simplified mental model of how Ember works, improved code readability, and easier reasoning about what context a state is derived from. Not having to reference several files to determine where a property is initially defined was definitely a boon to developer productivity.
+
+It’s great to hear that Octane is working really well in a production application at the scale and complexity of Outdoorsy’s.
+
+We know there are lots of other great examples of Octane being used in the wild. If you’d like to share your experiences, please feel to reach out to the Ember Times team.
 
 ---
 
