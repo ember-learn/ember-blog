@@ -11,9 +11,16 @@ Happy New Year, Emberistas! 🐹
 <!--alex ignore special-->
 This week, we have an **Ember Octane Special Edition** for you!
 
+<!--alex ignore special-->
+In this special we would like to tell you as much as possible about this new Ember edition. So throughout this post you will find useful information to help you get the most out of Ember Octane.
+
+> Octane is modern Ember, and I’m psyched that we got it over the finish line. Have fun building apps! ~ _Yehuda Katz [(@wycats)](https://github.com/wycats)_
+
+What is the Octane Edition? 🙋‍♀️🙋‍♂️,
+Community Feedback from Outdoorsy 👏,
 How to migrate to Ember Octane 🐹🏗️,
-Conquer Octane with The Ember Atlas 🗺🌍
-Octane at EmberConf 2020,
+Conquer Octane with The Ember Atlas 🗺🌍,
+Octane at EmberConf 2020 📢,
 Where can I learn more 🤓
 
 READMORE
@@ -111,6 +118,9 @@ If you need help along the way, visit the [Ember Community chat and forums](http
 
 ---
 
+
+> Ember’s staying power comes from the energy and dedication of our community, and the Octane release is a great example of how the community can come together, agree on a plan, and execute to a high-level of polish. ~ _Edward Faulkner [(@ef4)](https://github.com/ef4)_
+
 ## [The Ember Atlas 🗺](http://emberatlas.com)
 
 The Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a Wiki for Ember for various content that isn't in the guides yet or won't ever make it in. 
@@ -159,6 +169,8 @@ It’s also a nice place to meet up with your Ember-friends and learn about many
 
 ---
 
+> I'm excited because I think Octane is easier to teach. That's great for both companies who hire non-Ember developers and for self-motivated beginners. With ember-auto-import in the app by default, Ember also plays nice with the broader JavaScript ecosystem. You can npm install the libraries you like, and they work without extra effort. ~ _Jen Weber [(@jenweber)](https://github.com/jenweber)_
+
 ## [Where Can I Learn More? 🤓](https://guides.emberjs.com/release/)
 
 If you want to try out Ember Octane, you might want to learn more about the new APIs and best practices for
@@ -186,6 +198,9 @@ building modern Ember apps. In this regard we highly recommend the following lea
 
 - [Rewriting Apps in Ember Octane](https://crunchingnumbers.live/2019/12/23/rewriting-apps-in-ember-octane/) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
 - [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
+
+
+> Octane provides a very gentle on-ramp and lets you learn and grow into the framework as the needs arise in your app. You start with HTML templates, then extract pieces into template-only components for clarity, add arguments for reusability, add a js class to add behavior,  add a service for shared functionalities, install an addon for more cool stuff, etc. I’m excited to see all of theses pieces coming together and finally ready to teach the version of ember we had envisioned. Check out the new tutorial to see the difference for yourself! ~ _Godfrey Chan [(@chancancode)](https://github.com/chancancode)_
 
 ---
 
