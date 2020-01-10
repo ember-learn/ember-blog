@@ -74,7 +74,7 @@ If you need help along the way, visit the [Ember Community chat and forums](http
 
 ---
 
-## [The Ember Atlas 🗺](https://www.notion.so/The-Ember-Atlas-4094f81c86c34badb4a562ed29414ae1)
+## [The Ember Atlas 🗺](http://emberatlas.com)
 
 The Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a Wiki for Ember for various content that isn't in the guides yet or won't ever make it in. 
 
