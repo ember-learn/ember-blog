@@ -9,11 +9,13 @@ responsive: true
 Happy New Year, Emberistas! 🐹
 
 <!--alex ignore special-->
-This week, we have an **Ember Octane Special Edition** for you! We've collected as much as possible about this new Ember edition. So throughout this post, you will find useful information to help you get the most out of Ember Octane.
+This week, we have an **Ember Octane Special Edition** for you! 
+
+We've collected as much info as possible about this new Ember edition. So throughout this post, you will find useful information to help you get the most out of Ember Octane.
 
 > Octane is modern Ember, and I’m psyched that we got it over the finish line. Have fun building apps! ~ _Yehuda Katz [(@wycats)](https://github.com/wycats)_
 
-What is the Octane Edition? 🙋‍♀️🙋‍♂️,
+This week: What is the Octane Edition? 🙋‍♀️🙋‍♂️,
 where can I learn more 🤓,
 how to migrate to Octane 🐹🏗️,
 community feedback from Outdoorsy 👏,
@@ -36,9 +38,10 @@ Having editions helps you and the Ember teams in many ways:
 
 1. You can see the big picture of how features work together. Before editions were introduced, you might have had to stay on top of RFCs and release notes to understand why a feature was added or removed.
 
-2. For people who don't follow Ember closely—that may be you, or people in the wider JavaScript world—it was <!--alex ignore easy-->easy to miss the significant improvements that happen over time. Editions help us market *tour de force* in Ember.
+<!--alex ignore easy-->
+1. For people who don't follow Ember closely—that may be you, or people in the wider JavaScript world—it was easy to miss the significant improvements that happen over time. Editions help us market *tour de force* in Ember.
 
-3. Editions mark an opportunity to update Ember documentation, idioms, addons, and tooling (Ember Inspector, blueprints, codemods, and error messages). The end result is a cohesive, polished experience for you!
+1. Editions mark an opportunity to update Ember documentation, idioms, addons, and tooling (Ember Inspector, blueprints, codemods, and error messages). The end result is a cohesive, polished experience for you!
 
 ### What features are in the Octane Edition?
 
@@ -87,7 +90,7 @@ to learn about the principles of Ember's first edition in more detail.
   - [Part 5: Glimmer Components](https://blog.emberjs.com/2019/03/14/coming-soon-in-ember-octane-part-5.html)
 - [Most Common Mistakes Using Octane and How to Avoid Them](https://medium.com/ember-ish/the-most-common-ember-js-octane-mistakes-and-how-to-avoid-them-c6420e1b0423) by [Jen Weber (@jenweber)](https://github.com/jenweber)
 - [Bringing Clarity to Templates through Ember Octane](https://simplabs.com/blog/2019/12/20/clarity-in-templates/) by [Ricardo Mendes (@locks)](https://github.com/locks)
-- [Ember Octane Fundamentals Course on Frontend Masters (paid subscription)](https://frontendmasters.com/courses/ember-octane/)
+- [Ember Octane Fundamentals Course on Frontend Masters (paid subscription)](https://frontendmasters.com/courses/ember-octane/) by [Michael North @mike-north](https://github.com/mike-north)
 
 > Since the beginning, Ember has evolved alongside the JavaScript language. Ember has served as a testbed for features such as classes and modules, and for years has pushed more upstream than it has received back. With Octane, this tide has turned. Ember now feels as modern as any JavaScript framework, making the most of language features that it has helped shape. And its commitment to stable evolution means that this trend will continue for years to come. ~ _Dan Gebhardt [(@dgeb)](https://github.com/dgeb)_
 
