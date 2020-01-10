@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 130
-author: Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -12,6 +12,7 @@ Happy New Year, Emberistas! 🐹
 This week, we have an **Ember Octane Special Edition** for you!
 
 READMORE
+How to migrate to Ember Octane 🐹🏗️,
 
 ---
 
@@ -45,13 +46,27 @@ READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [How to migrate to Octane 🐹🏗️](https://guides.emberjs.com/release/upgrading/current-edition/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+<!--alex ignore nuts-->
+Ember Octane represents a big shift in Ember's syntax, features, and mental models. There is, however, no need for a stop-the-world migration, Octane provides an opt-in method of migration where you can apply each core feature enhancement incrementally.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you are migrating an existing Ember application to Octane we have an excellent list of resources to help you out:
+
+- [The Ember Guides: Octane Update Guide](https://guides.emberjs.com/release/upgrading/current-edition/)
+- [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
+- [Ember Atlas Recommended Migration Order](https://www.notion.so/Atlas-Recommended-Migration-Order-a22f948a7cce4e01896d674f727bee74)
+
+Whatever you end up doing, you won’t have to do it alone as members of the community have generously contributed [numerous codemods](https://github.com/ember-codemods) to help us to migrate efficiently.
+
+- [Angle Brackets Codemod](https://github.com/ember-codemods/ember-angle-brackets-codemod)
+- [Tracked Properties Codemod](https://github.com/ember-codemods/ember-tracked-properties-codemod)
+- [Native Class Codemod](https://github.com/ember-codemods/ember-native-class-codemod)
+- [No Implicit This or {{foo}} to {{this.foo}} Codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod)
+- [ES5 Getter Setter Codemod](https://github.com/ember-codemods/es5-getter-ember-codemod)
+- [Template Colocation Migrator](https://github.com/ember-codemods/ember-component-template-colocation-migrator)
+
+If you need help along the way, visit the [Ember Community chat and forums](https://emberjs.com/community/).
 
 ---
 
@@ -155,4 +170,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Anne-Greeth van Herwijnen, the crowd and the Learning Team
