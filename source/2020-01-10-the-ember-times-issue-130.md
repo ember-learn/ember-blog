@@ -106,7 +106,7 @@ With [Ember Octane](https://blog.emberjs.com/2019/12/20/octane-is-here.html) rel
 
 If you want to [listen and talk to people](https://emberconf.com/#/speakers) about Octane, EmberConf in Portland, OR is the place to be. The 16th till 18th of March will be filled with awesome talks by [Godfrey Chan](https://github.com/chancancode), [Suchita Doshi](https://github.com/suchitadoshi1987), [DanMonroe](https://github.com/DanMonroe) and many others. 
 
-It’s of course also a nice place to meet up with your Ember-friends and learn about many more topics. For more information, check the [EmberConf website](https://emberconf.com) and join the #ember-conf channel on Discord.
+It’s also a nice place to meet up with your Ember-friends and learn about many more topics. For more information, check the [EmberConf website](https://emberconf.com) and join the #ember-conf channel on Discord.
 
 ---
 
