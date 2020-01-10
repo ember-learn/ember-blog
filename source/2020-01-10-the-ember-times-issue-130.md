@@ -11,6 +11,7 @@ Happy New Year, Emberistas! 🐹
 <!--alex ignore special-->
 This week, we have an **Ember Octane Special Edition** for you!
 
+<!--alex ignore special-->
 In this special we would like to tell you as much as possible about this new Ember edition. So throughout this post you will find useful information to help you get the most out of Ember Octane.
 
 > Octane is modern Ember, and I’m psyched that we got it over the finish line. Have fun building apps! ~ _Yehuda Katz [(@wycats)](https://github.com/wycats)_
