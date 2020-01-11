@@ -170,7 +170,7 @@ So what <span style="font-style: italic;">is</span> Ember Atlas?
 Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a curated wiki for Ember for various content that isn't in the guides yet, or won't ever make it in.
 
 <!--alex ignore easy-->
-Bookmark [emberatlas.com](http://emberatlas.com) for easy reference and check out the [Ember Atlas Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) to get started. 
+Bookmark [emberatlas.com](http://emberatlas.com) for quick reference and check out the [Ember Atlas Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) to get started. 
 
 ---
 
