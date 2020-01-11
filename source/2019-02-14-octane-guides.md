@@ -38,6 +38,7 @@ Through all of these phases, a preview of the Octane edition guides will be used
 While new content is being written and older content is being updated, **no existing content will be completely deleted.** Only _after_ we have fully reviewed the content and added the re-directs will outdated content be removed. This means that in the interim, some content may be available if the user has the URL, but it won't be linked from the table of contents.
 
 ### Challenges
+
 As with any ambitious undertaking, there are some related challenges. Here are a few we are currently facing:
 
 - Updating guides content for the Octane feature set and defaults
@@ -47,6 +48,7 @@ As with any ambitious undertaking, there are some related challenges. Here are a
 We expect to work through these challenges and have a process in place to handle them, but we should have a shared awareness that our approach may be tweaked as the next month goes on, to address these issues.
 
 ## How you can help
+
 We expect that the community will be willing to submit PRs to help make the documentation better–from checking for spelling or grammar errors, to adding code samples, and even more ambitiously, writing some prose.
 
 Thanks to our infrastructure upgrades in 2018, we are well-positioned to accept community participation in the documentation effort. Please see the open issues in the [guides source repository](https://github.com/ember-learn/guides-source/issues) and let us know in the #dev-ember-learning channel (on Discord) if you would like to work on an issue.
