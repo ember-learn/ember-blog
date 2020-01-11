@@ -57,6 +57,7 @@ You can find the full list of features in the [Ember Guides](https://guides.embe
 
 ---
 
+<!--alex ignore easy-->
 > I'm excited because I think Octane is easier to teach. That's great for both companies who hire non-Ember developers and for self-motivated beginners. With ember-auto-import in the app by default, Ember also plays nice with the broader JavaScript ecosystem. You can npm install the libraries you like, and they work without extra effort. ~ _Jen Weber [(@jenweber)](https://github.com/jenweber)_
 
 ## [Where can I learn more? 🤓](https://guides.emberjs.com/release/)
