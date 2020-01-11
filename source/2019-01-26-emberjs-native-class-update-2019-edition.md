@@ -1,7 +1,7 @@
 ---
 title: Ember.js Native Class Update - 2019 Edition
 author: Chris Garrett
-tags: Recent Posts, 2019, Native Classes
+tags: Recent Posts, 2019, Native Classes, Ember Octane
 alias : "blog/2019/01/26-emberjs-native-class-update-2019-edition.html"
 responsive: true
 ---
@@ -501,7 +501,7 @@ class Person {
   fullName = `${this.firstName} ${this.lastName}`;
 }
 ```
- 
+
 This is a bad idea because it makes your class harder to refactor. Moving a field around can break your class in unexpected ways, and it might take minute to figure out what's going on. Class fields definitely _read_ declaratively, and the fact that they _do_ have an assignment order is actually rather odd in that sense - intuitively, you might expect them to all exist at once, like assigments on an object literal.
 
 Note that this really only applies to class fields - once you're in a "hook" of some kind, like the `constructor` or `init`, it's safe to start using values. This is because moving the constructor around is safe, and functions are pretty easy to reason about locally (usually 😬):

@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 130
 author: Chris Ng, Alon Bukai, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Recent Posts, Ember Octane, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/10-the-ember-times-issue-130.html"
 responsive: true
 ---
@@ -9,7 +9,7 @@ responsive: true
 Happy New Year, Emberistas! 🐹
 
 <!--alex ignore special-->
-This week, we have an **Ember Octane Special Edition** for you! 
+This week, we have an **Ember Octane Special Edition** for you!
 
 We've collected as much info as possible about this new Ember edition. So throughout this post, you will find useful information to help you get the most out of Ember Octane.
 
@@ -165,12 +165,12 @@ We know there are lots of other great examples of Octane being used in the wild.
 
 We alluded to the [Ember Atlas Octane Upgrade Guide](https://www.notion.so/Ember-Octane-b8ad64b7adf74218942fc69ead7b6892) earlier. This section includes information to help Ember developers upgrade from Classic apps/addons to Octane ones. 🚀
 
-So what <span style="font-style: italic;">is</span> Ember Atlas? 
+So what <span style="font-style: italic;">is</span> Ember Atlas?
 
 Ember Atlas is an unofficial resource for Ember curated by various people in the Ember Community. It includes best practices, upgrade guides and more! The Ember Atlas is built to be a curated wiki for Ember for various content that isn't in the guides yet, or won't ever make it in.
 
 <!--alex ignore easy-->
-Bookmark [emberatlas.com](http://emberatlas.com) for quick reference and check out the [Ember Atlas Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) to get started. 
+Bookmark [emberatlas.com](http://emberatlas.com) for quick reference and check out the [Ember Atlas Introduction](https://www.notion.so/Introduction-d11ec02706d74eab960b3e2b11494bc7) to get started.
 
 ---
 
