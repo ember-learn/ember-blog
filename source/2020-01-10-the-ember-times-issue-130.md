@@ -36,12 +36,13 @@ In Ember, an [edition](https://emberjs.com/editions/) represents a **cohesive pr
 
 Having editions helps you and the Ember teams in many ways:
 
-<!--alex ignore easy-->
+<!--alex disable easy-->
 1. You can see the big picture of how features work together. Before editions were introduced, you might have had to stay on top of RFCs and release notes to understand why a feature was added or removed.
 
 1. For people who don't follow Ember closely—that may be you, or people in the wider JavaScript world—it was easy to miss the significant improvements that happen over time. Editions help us market <span style="font-style: italic;">tour de force</span> in Ember.
 
 1. Editions mark an opportunity to update Ember documentation, idioms, addons, and tooling (Ember Inspector, blueprints, codemods, and error messages). The end result is a cohesive, polished experience for you!
+<!--alex enable easy-->
 
 ### What features are in the Octane Edition?
 
