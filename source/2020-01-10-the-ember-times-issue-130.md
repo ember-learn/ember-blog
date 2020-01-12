@@ -103,6 +103,7 @@ Ember Octane represents a big shift in Ember's syntax, features, and mental mode
 If you are migrating an existing Ember application to Octane we have an excellent list of resources to help you out:
 
 - [Ember Guides: Octane Update Guide](https://guides.emberjs.com/release/upgrading/current-edition/)
+- [Rewriting Apps in Ember Octane](https://crunchingnumbers.live/2019/12/23/rewriting-apps-in-ember-octane/) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
 - [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 - [Ember Atlas: Recommended Migration Order](https://www.notion.so/Atlas-Recommended-Migration-Order-a22f948a7cce4e01896d674f727bee74)
 
