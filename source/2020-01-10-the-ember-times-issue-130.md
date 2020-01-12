@@ -95,19 +95,6 @@ to learn about the principles of Ember's first edition in more detail.
 
 > Since the beginning, Ember has evolved alongside the JavaScript language. Ember has served as a testbed for features such as classes and modules, and for years has pushed more upstream than it has received back. With Octane, this tide has turned. Ember now feels as modern as any JavaScript framework, making the most of language features that it has helped shape. And its commitment to stable evolution means that this trend will continue for years to come. ~ _Dan Gebhardt [(@dgeb)](https://github.com/dgeb)_
 
-### Migrating Ember Apps
-
-Start migrating your existing Ember applications and benefit from Octane's interoperability with classic Ember with these useful reads:
-
-- [Rewriting Apps in Ember Octane](https://crunchingnumbers.live/2019/12/23/rewriting-apps-in-ember-octane/) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
-- [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
-- [Step-by-Step Migration Guide in the Ember Atlas](https://www.notion.so/Atlas-Recommended-Migration-Order-a22f948a7cce4e01896d674f727bee74)
-
----
-
-<!--alex ignore just special-->
-> When we started working on Ember early in the 2010s, we knew we would have to adapt to ecosystem changes, but we couldn’t have predicted how big the changes to the JavaScript language and distribution would be. The thing that’s really special about Ember is that when we adapt to features like JavaScript classes or modern component syntax, we work really hard to bring along existing applications. And it’s not just that you can use old and new features side-by-side. Old syntax and framework classes freely interoperate with new syntax and framework classes. Developers of Ember applications can spend more time on innovative features for their users, and less time on the constant churn that defines the JavaScript community. Ember Octane is modern Ember, and I’m psyched that we got it over the finish line. Have fun building apps! ~ _Yehuda Katz [(@wycats)](https://github.com/wycats)_
-
 ## [How to migrate to Octane 🐹🏗️](https://guides.emberjs.com/release/upgrading/current-edition/)
 
 <!--alex ignore nuts-->
@@ -116,6 +103,7 @@ Ember Octane represents a big shift in Ember's syntax, features, and mental mode
 If you are migrating an existing Ember application to Octane we have an excellent list of resources to help you out:
 
 - [Ember Guides: Octane Update Guide](https://guides.emberjs.com/release/upgrading/current-edition/)
+- [Rewriting Apps in Ember Octane](https://crunchingnumbers.live/2019/12/23/rewriting-apps-in-ember-octane/) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
 - [The Ember Octane vs. Classic Ember Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 - [Ember Atlas: Recommended Migration Order](https://www.notion.so/Atlas-Recommended-Migration-Order-a22f948a7cce4e01896d674f727bee74)
 
@@ -127,6 +115,9 @@ Whatever you end up doing, you won’t have to do it alone as members of the com
 - [No Implicit This or {{foo}} to {{this.foo}} Codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod)
 - [ES5 Getter Codemod](https://github.com/ember-codemods/es5-getter-ember-codemod)
 - [Template Colocation Migrator](https://github.com/ember-codemods/ember-component-template-colocation-migrator)
+
+<!--alex ignore just special-->
+> When we started working on Ember early in the 2010s, we knew we would have to adapt to ecosystem changes, but we couldn’t have predicted how big the changes to the JavaScript language and distribution would be. The thing that’s really special about Ember is that when we adapt to features like JavaScript classes or modern component syntax, we work really hard to bring along existing applications. And it’s not just that you can use old and new features side-by-side. Old syntax and framework classes freely interoperate with new syntax and framework classes. Developers of Ember applications can spend more time on innovative features for their users, and less time on the constant churn that defines the JavaScript community. Ember Octane is modern Ember, and I’m psyched that we got it over the finish line. Have fun building apps! ~ _Yehuda Katz [(@wycats)](https://github.com/wycats)_
 
 If you need help along the way, visit the [Ember Community chat and forums](https://emberjs.com/community/).
 
