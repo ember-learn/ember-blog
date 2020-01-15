@@ -1,26 +1,30 @@
 ---
 title: The Ember Times - Issue No. 131
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Read the New Test Waiters RFC ⏳,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [New Test Waiters RFC ⏳](https://github.com/emberjs/rfcs/pull/581)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Steve Calvert (@scalvert)](https://github.com/scalvert) proposed replacing the existing test waiters with the [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters) in the [New Test Waiters RFC](https://github.com/emberjs/rfcs/pull/581).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The new test waiter system will provide a few benefits:
+
+- A **new API that removes the existing foot guns** given we will be more explicit when declaring the start and end of the waiter through the waiter `beginAsync` and `endAsync` methods
+- A more robust way to gather **debugging information** for the test waiter since the waiter is identifiable by the name provided
+- Default test waiters with the **ability to author your own, more complex test waiters** through annotating the asynchronous operations in your code base that are not tracked by an `await settled()` check
+
+Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https://github.com/emberjs/rfcs/pull/581)!
 
 ---
 
@@ -134,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
