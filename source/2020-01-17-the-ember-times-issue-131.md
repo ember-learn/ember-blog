@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 131
-author: Chris Ng, the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <!--alex ignore waiters-waitresses-->
 Привет Emberistas! 🐹
 Read the New Test Waiters RFC ⏳,
+Optimize your app with Ember Data 📈,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -36,13 +37,15 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Optimizing your app with Ember Data 📈](https://runspired.com/2019/12/15/optimizing-your-app-with-ember-data/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Chris Thoburn (@runspired)](https://github.com/runspired) is blogging about how to build and optimize an app with Ember Data. You'll start by building an app, Listicle. Listicle starts as a small app shell with rich content lists, but balloons in size over time. Build times slow to a crawl as a result. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+At the beginning of the series, Listicle builds and renders in greater than 5 seconds. But as the posts progress, you'll end with an app with builds and renders in **less than 1 second** by optimizing only the app's data management! Then for fun, you'll optimize the render. 
+
+You can check out [Part 1](https://runspired.com/2019/12/15/optimizing-your-app-with-ember-data/) and [Part 2](https://runspired.com/2019/12/18/optimizing-your-app-with-ember-data-part-2/) now, with more posts to come! And you can follow along with the code for the series by watching the [Listicle repository](https://github.com/runspired/listicle).
+
+For some Ember Data context, check out the [Guides](https://guides.emberjs.com/release/models/). You can learn about the architecture and history in Chris's EmberFest [Ember Data 2019](https://www.youtube.com/watch?v=zbqbsOyLM30&list=PLN4SpDLOSVkT0e094BZhGkUnf2WBF09xx&index=23&t=0s) conference talk. 
 
 ---
 
@@ -156,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
