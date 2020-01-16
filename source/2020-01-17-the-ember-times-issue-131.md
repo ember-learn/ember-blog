@@ -7,7 +7,7 @@ responsive: true
 ---
 
 <!--alex ignore waiters-waitresses-->
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Привет Emberistas! 🐹
 Read the New Test Waiters RFC ⏳,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
