@@ -6,6 +6,7 @@ alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
 ---
 
+<!--alex ignore waiters-waitresses-->
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Read the New Test Waiters RFC ⏳,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
@@ -14,16 +15,22 @@ READMORE
 
 ---
 
+<!--alex ignore waiters-waitresses-->
 ## [New Test Waiters RFC ⏳](https://github.com/emberjs/rfcs/pull/581)
 
+<!--alex ignore waiters-waitresses-->
 [Steve Calvert (@scalvert)](https://github.com/scalvert) proposed replacing the existing test waiters with the [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters) in the [New Test Waiters RFC](https://github.com/emberjs/rfcs/pull/581).
 
+
+<!--alex ignore waiter-waitress-->
 The new test waiter system will provide a few benefits:
 
+<!--alex ignore waiter-waitress waiters-waitresses-->
 - A **new API that removes the existing foot guns** given we will be more explicit when declaring the start and end of the waiter through the waiter `beginAsync` and `endAsync` methods
 - A more robust way to gather **debugging information** for the test waiter since the waiter is identifiable by the name provided
 - Default test waiters with the **ability to author your own, more complex test waiters** through annotating the asynchronous operations in your code base that are not tracked by an `await settled()` check
 
+<!--alex ignore waiters-waitresses-->
 Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https://github.com/emberjs/rfcs/pull/581)!
 
 ---
