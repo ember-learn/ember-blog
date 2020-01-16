@@ -1,14 +1,14 @@
 ---
 title: Ember 3.15 "Octane" Released
 author: Kenneth Larsen, Matthew Beale, Melanie Sumner
-tags: Releases, 2019, 3, 3.15, Version 3.x
+tags: Releases, Recent Posts, 2019, 3, 3.15, Version 3.x, Ember Octane
 alias: 2019-12-20-ember-3-15-released.md
 responsive: true
 date: "2019-12-20 16:30:00 -0500"
 ---
 
 Today the Ember project is releasing version 3.15 of Ember.js, Ember Data, and
-Ember CLI. In addition to brining new features and bug fixes, Ember 3.15 also marks the official release of the [Octane edition](TODO://link-to-octane-blog-post), which is Ember's first [edition release](https://emberjs.com/editions/).
+Ember CLI. In addition to brining new features and bug fixes, Ember 3.15 also marks the official release of the [Octane edition](https://blog.emberjs.com/2019/12/20/octane-is-here.html), which is Ember's first [edition release](https://emberjs.com/editions/).
 
 <!--alex ignore just-->
 Ember developers using the Octane edition can exercise modern features like native ES
@@ -21,7 +21,7 @@ READMORE
 
 <!--alex ignore nuts-->
 **Read more about how Octane makes web application development fun and
-productive in 
+productive in
 [Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html), a blog post from Yehuda.**
 
 ...and then explore our completely updated and refreshed guide and API
@@ -57,7 +57,7 @@ visibility of a component's root element. This API was very common in early
 Ember 1.x applications but is rare today. In practice use of template bindings
 has supplanted use of the `isVisible` API.
 
-`isVisible` is deprecated as of Ember 3.15. 
+`isVisible` is deprecated as of Ember 3.15.
 
 To transition away from this, we recommend using conditionals in a template:
 
@@ -84,7 +84,7 @@ components](https://api.emberjs.com/ember/3.15/modules/@glimmer%2Fcomponent),
 as well as of the
 [`template-only-glimmer-components`](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_template-only-glimmer-components)
 optional feature the `{{partial}}` API in Ember no longer provides any unique
-benefits. Instead it has several downsides including difficult to teach scoping 
+benefits. Instead it has several downsides including difficult to teach scoping
 rules and poor performance.
 
 See the [deprecation guide for
@@ -125,7 +125,7 @@ the data panel in the [Ember Inspector](https://github.com/emberjs/ember-inspect
 This package adds roughly .6 KB when minified and compressed to your application
 in production; however, you can now opt out of shipping this addon in production
 via options in `ember-cli-build.js`
-  
+
 ```js
 let app = new EmberApp(defaults, {
   emberData: {
@@ -148,7 +148,7 @@ For additional details on changes in Ember Data 3.15.0, please review the full
 
 Ember CLI is the command line interface for managing and packaging Ember.js applications.
 
-There were some noteworthy changes in `ember-cli` to support the release of the Octane edition of Ember. The `@glimmer/component@1.0.0` package was added as a dev dependency for both apps and addons, Octane-related optional features were enabled, `ember-template-lint` was updated to use the `octane` edition preset, and all packages were updated to their latest version in the application blueprint! 
+There were some noteworthy changes in `ember-cli` to support the release of the Octane edition of Ember. The `@glimmer/component@1.0.0` package was added as a dev dependency for both apps and addons, Octane-related optional features were enabled, `ember-template-lint` was updated to use the `octane` edition preset, and all packages were updated to their latest version in the application blueprint!
 
 The new addon blueprint also dropped the Ember 3.4 ember-try scenario, but dropping support for existing addons should be considered a breaking change. Existing addons should either keep the scenario, or do a major version bump if they drop support for older Ember versions.
 

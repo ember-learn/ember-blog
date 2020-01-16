@@ -1,7 +1,7 @@
 ---
 title: Octane Release Update
 author: Yehuda Katz, Matthew Beale
-tags: Recent Posts, 2019, Announcement
+tags: 2019, Announcement, Ember Octane
 responsive: true
 ---
 

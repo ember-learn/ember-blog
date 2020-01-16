@@ -1,7 +1,7 @@
 ---
 title: Octane is coming in v3.14
 author: Yehuda Katz, Jen Weber
-tags: 2019, Announcement, Recent Posts
+tags: 2019, Announcement, Recent Posts, Ember Octane
 responsive: true
 ---
 
@@ -45,7 +45,7 @@ Octane uses [Native JavaScript Classes](https://developer.mozilla.org/en-US/docs
 
 ### Try using Octane features that have already landed
 
-The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order. The best way to try them out is when you are writing new components. 
+The rest of the sections below cover optional features in Octane that you can consider using now. These features are independent of each other. You can opt into them one at a time, in any order. The best way to try them out is when you are writing new components.
 
 You will be able to migrate to many of Octane's idioms automatically using codemods that we will finalize with Ember 3.14. When we say "Octane idioms," we mean the syntax, APIs, and patterns for Octane. We do not recommend trying to mass-migrate older code (like `@ember/component` Components) without those codemods.
 
@@ -209,7 +209,7 @@ In classic Ember, you can refer to properties on a component as `{{propertyName}
 
 No matter what kind of component you're using, you should start using `this` to refer to component properties in new code. The [`no-implicit-this`](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-implicit-this.md) template lint can help you avoid using this deprecated pattern by accident.
 
-Ember 3.14 will finalize a codemod that uses dynamic information from booting up your app to automatically insert `this` where needed. We recommend waiting for this codemod to be finalized before attempting to mass-migrate your codebase. 
+Ember 3.14 will finalize a codemod that uses dynamic information from booting up your app to automatically insert `this` where needed. We recommend waiting for this codemod to be finalized before attempting to mass-migrate your codebase.
 
 ### Angle Bracket Invocation
 
