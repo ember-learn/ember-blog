@@ -1,13 +1,14 @@
 ---
 title: Ember.js Native Class Update - 2019 Edition
 author: Chris Garrett
-tags: Recent Posts, 2019, Native Classes
+tags: Recent Posts, 2019, Native Classes, Ember Octane
 alias : "blog/2019/01/26-emberjs-native-class-update-2019-edition.html"
 responsive: true
 ---
 
 (This post was originally published on [www.pzuraq.com](https://www.pzuraq.com/emberjs-native-class-update-2019-edition/))
 
+<!--alex disable just easy-->
 These are exciting times in Ember! With Ember Octane just around the corner, native class support has [officially landed in v3.6](https://emberjs.com/blog/2018/12/13/ember-3-6-released.html#toc_new-features-2) (with a [polyfill](https://github.com/pzuraq/ember-native-class-polyfill) supporting v3.4+), and the [Decorators RFC](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) has been merged and will be implemented soon (pending decorators moving to stage 3 in the January meeting). Some time ago, I wrote [an article](https://medium.com/build-addepar/es-classes-in-ember-js-63e948e9d78e) that detailed how to use native classes in Ember, along with best practices for writing them. Since then, some major changes have occured, and I wanted to give a quick update for early adopters and folks who are curious about them in general.
 
 This post will focus on changes since the original article and current best practices.  We'll be talking about:
@@ -501,7 +502,7 @@ class Person {
   fullName = `${this.firstName} ${this.lastName}`;
 }
 ```
- 
+
 This is a bad idea because it makes your class harder to refactor. Moving a field around can break your class in unexpected ways, and it might take minute to figure out what's going on. Class fields definitely _read_ declaratively, and the fact that they _do_ have an assignment order is actually rather odd in that sense - intuitively, you might expect them to all exist at once, like assigments on an object literal.
 
 Note that this really only applies to class fields - once you're in a "hook" of some kind, like the `constructor` or `init`, it's safe to start using values. This is because moving the constructor around is safe, and functions are pretty easy to reason about locally (usually 😬):
@@ -541,3 +542,4 @@ Generally, derived state like this is handled better by getters/setters, so this
 * [Ember Native Class ESLint Plugin](https://github.com/scalvert/eslint-plugin-ember-es6-class)
 
 And that's all folks! If you have more questions, join the [Ember Discord](https://www.emberjs.com/community/) and ask away, the `#e-decorators`, `#e-typescript`, `#st-native-classes`, and `#st-octane` channels are all great places to get some advice. Thanks for reading!
+<!--alex enable just easy-->

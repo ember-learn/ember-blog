@@ -9,6 +9,7 @@ responsive: true
 <!--alex ignore waiters-waitresses-->
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Read the New Test Waiters RFC ⏳,
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -35,7 +36,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -45,7 +46,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -55,7 +56,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -65,7 +66,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -75,7 +76,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -85,7 +86,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -95,7 +96,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -105,7 +106,17 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Section Title in Title Case 🐹](#section-url)
+## [Section title in sentence case 🐹](#section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Section title in sentence case 🐹](#section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -121,7 +132,7 @@ Share your thoughts, feedback, and requests on the [New Test Waiters RFC](https:
 
 ---
 
-## [Got a Question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
+## [Got a question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />

@@ -1,7 +1,7 @@
 ---
 title: Octane is Here
 author: Yehuda Katz
-tags: Recent Posts, 2019, Announcement
+tags: Recent Posts, 2019, Announcement, Featured Announcement, Ember Octane
 alias: 2019-12-20-octane-is-here.md
 responsive: true
 date: "2019-12-20 16:31:00 -0500"
@@ -149,9 +149,9 @@ Ember Octane exposes a drastically simpler reactivity model called "tracked prop
 
 ### Before: Computed Properties and Restrictions
 
-In Classic Ember, you mutate reactive properties by using `set`, and any computations have to be described as computed properties. Computed properties must fully enumerate all dependencies. 
+In Classic Ember, you mutate reactive properties by using `set`, and any computations have to be described as computed properties. Computed properties must fully enumerate all dependencies.
 
-Here's the computed properties example from Ember 3.14's guides: 
+Here's the computed properties example from Ember 3.14's guides:
 
 ```js
 import EmberObject, { computed } from '@ember/object';
@@ -179,8 +179,8 @@ let captainAmerica = Person.create({
 });
 
 captainAmerica.description; // "Steve Rogers; Age: 80; Country: USA"
-captainAmerica.set('firstName', 'Steven');
-captainAmerica.description; // "Steven Rogers; Age: 80; Country: USA"
+captainAmerica.set('firstName', 'Christopher');
+captainAmerica.description; // "Christopher Rogers; Age: 80; Country: USA"
 ```
 
 This design makes it harder to break up a computed property into smaller functions, because the computed property still needs to enumerate all properties that it used, no matter where they're used. In practice, this means that, in Classic Ember, you break up computed properties into more computed properties, which works well but is somewhat restrictive.
@@ -220,8 +220,8 @@ let captainAmerica = new Person({
 });
 
 captainAmerica.description; // "Steve Rogers; Age: 80; Country: USA"
-captainAmerica.firstName = "Steven";
-captainAmerica.description; // "Steven Rogers; Age: 80; Country: USA"
+captainAmerica.firstName = "Christopher";
+captainAmerica.description; // "Christopher Rogers; Age: 80; Country: USA"
 ```
 
 You start with a normal JavaScript class and annotate any fields that could affect the DOM with `@tracked`. You don't need to annotate getters or functions, so you can break up your code however you want.
@@ -335,8 +335,8 @@ let captainAmerica = new Person({
 
 let contact = new Contact(captainAmerica);
 contact.description; // "Steve Rogers; Age: 80; Country: USA"
-captainAmerica.set('firstName', 'Steven');
-contact.description; // "Steven Rogers; Age: 80; Country: USA"
+captainAmerica.set('firstName', 'Christopher');
+contact.description; // "Christopher Rogers; Age: 80; Country: USA"
 ```
 
 Because these two systems are interoperable, libraries can adopt the Octane reactivity system without a breaking change to their API.
@@ -346,6 +346,6 @@ This work also allows existing Ember codebases to adopt Octane patterns module-b
 ## Thanks for checking out Octane!
 
 Octane is a project the Ember community is excited to share with developers
-both new and experienced. Octane is a modern, productive way to build web applications, and makes it possible to have both fun and stability in our work. 
+both new and experienced. Octane is a modern, productive way to build web applications, and makes it possible to have both fun and stability in our work.
 
 The polished, across the board refresh of Ember's APIs and help content could not have accomplished this without the effort of the community and every member of the [Ember Core Teams](https://emberjs.com/team/). Thank you for being a part of our community, contributing to this project, and continuing to help Ember be a great choice for building on the web.
