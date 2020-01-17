@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 132
 author: the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
-alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2020/01/27-the-ember-times-issue-132.html"
 responsive: true
 ---
 
