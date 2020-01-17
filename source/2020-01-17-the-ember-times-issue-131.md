@@ -76,7 +76,7 @@ For some Ember Data context, check out the [Guides](https://guides.emberjs.com/r
 
 ## [Russian Ember community 🇷🇺](https://habr.com/ru/post/483630/)
 
-[Habr.com](habr.com) is a popular geek media site among Russian developers. It's somewhat similar to Hacker News, except that it's populated by user-submitted articles instead of links. [Iaroslav Popov (@chilicoder)](https://github.com/chilicoder) recognized a shortage of Ember articles on Habr.com and recently started translating our very own Ember Times ([Issue #129](https://habr.com/ru/post/482988/), [Issue #130](https://habr.com/ru/post/483630/)) on Habr.com, as well as [Octane is Here](https://habr.com/ru/post/482158/) and [Super Rentals tutorial - Part 1](https://habr.com/ru/post/482296/)!
+[Habr.com](https://habr.com/) is a popular geek media site among Russian developers. It's somewhat similar to Hacker News, except that it's populated by user-submitted articles instead of links. [Iaroslav Popov (@chilicoder)](https://github.com/chilicoder) recognized a shortage of Ember articles on Habr.com and recently started translating our very own Ember Times ([Issue #129](https://habr.com/ru/post/482988/), [Issue #130](https://habr.com/ru/post/483630/)) on Habr.com, as well as [Octane is Here](https://habr.com/ru/post/482158/) and [Super Rentals tutorial - Part 1](https://habr.com/ru/post/482296/)!
 
 @chilicoder also mentioned to check out the [Ember telegram channel](https://t.me/ember_js), moderated by [Alex Kanunnikov (@lifeart)](https://github.com/lifeart). It's one of the best ways to get help with **Ember in Russian**, and they welcome everyone to join! Thank you both for your help in fostering the Russian Ember community!
 
