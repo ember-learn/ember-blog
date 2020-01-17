@@ -7,7 +7,7 @@ responsive: true
 ---
 
 <!--alex ignore waiters-waitresses-->
-Привет Emberistas! 🐹
+Привет, Emberistas! 🐹
 Read the New Test Waiters RFC ⏳,
 Optimize your app with Ember Data 📈,
 
