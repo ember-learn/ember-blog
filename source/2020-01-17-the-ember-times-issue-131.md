@@ -1,14 +1,15 @@
 ---
 title: The Ember Times - Issue No. 131
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
 ---
 
-<!--alex ignore waiters-waitresses-->
 Привет, Эмберисты! <span style="font-style: italic;">Hello, Emberistas!</span> 🐹
 
+Help improve Ember's autotracking and reactivity system 💬,
+<!--alex ignore waiters-waitresses-->
 Read the New Test Waiters RFC ⏳,
 Optimize your app with Ember Data 📈,
 Russian Ember community 🇷🇺
@@ -16,6 +17,33 @@ Russian Ember community 🇷🇺
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
+
+---
+
+## [4 RFCs on improving Ember's autotracking and reactivity system 💬](https://github.com/emberjs/rfcs/blob/use-and-resources/text/0567-use-and-resources.md#introducing-use-and-resources)
+
+Ember Octane features a **new reactivity system** thanks to **tracked properties**. They simplify syncing the DOM with JavaScript changes. Find out how autotracking works from the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/).
+
+To help address some shortcomings, [Chris Garrett (@pzuraq)](https://github.com/pzuraq) proposed introducing the decorators and classes listed below. We encourage you to participate in RFCs and provide feedback!
+
+### [566. `@memo` decorator](https://github.com/emberjs/rfcs/pull/566)
+
+Unlike computed properties, autotracked getters don't cache their values. `@memo` will let you opt in to memoization.
+
+### [567. `@use` decorator](https://github.com/emberjs/rfcs/pull/567)
+
+The `@use` API will leverage autotracking to solve two issues:
+
+- Allow Glimmer components to define a behavior with its own lifecycle, independently of the template
+- Provide a standard way to mix declarative and imperative code
+
+### [569. `TrackedList` class](https://github.com/emberjs/rfcs/pull/569)
+
+`TrackedList` will autotrack changes to arrays. This class, designed to replace `EmberArray`, will follow the native array API closely and be performant.
+
+### [577. `TrackedMap` and `TrackedSet` classes](https://github.com/emberjs/rfcs/pull/577)
+
+`TrackedMap` and `TrackedSet`, along with their weak analogs, will autotrack changes to maps and sets (dynamic collections of values). These classes will follow the native APIs exactly.
 
 ---
 
@@ -159,4 +187,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
