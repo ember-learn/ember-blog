@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 131
 author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
 ---
