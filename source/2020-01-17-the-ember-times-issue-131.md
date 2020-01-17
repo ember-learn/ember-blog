@@ -94,7 +94,7 @@ You've undoubtedly heard her talk about [creating progressive web applications w
 and [bulletproof addon testing](https://www.youtube.com/watch?v=31kVznd-zys) before, but now [Samanta de Barros (@sdebarros)](https://github.com/sdebarros)
 is ready to share more useful knowledge that is crucial for any professional JavaScript developer.
 
-At [this year's EmberConf](https://emberconf.com/) she's going to teach us about [**The Power of Debugging**](https://emberconf.com/#/speakers/samanta-de-barros); which tools we can use to track down bugs swiftly both in development and production environments and how we find our way around Ember's architecture while doing so.
+At [this year's EmberConf](https://emberconf.com/) she's going to teach us about [**The Power of Debugging**](https://emberconf.com/#/speakers/samanta-de-barros); which tools you can use to track down bugs swiftly in development and production environments, and how you can find your way around Ember's architecture while doing so.
 
 In an exclusive interview with The Ember Times, Samanta shares with us, what makes debugging tools and strategies so powerful when developing Ember applications:
 
