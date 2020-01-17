@@ -26,7 +26,7 @@ To help address some shortcomings, [Chris Garrett (@pzuraq)](https://github.com/
 
 ### [566. `@memo` decorator](https://github.com/emberjs/rfcs/pull/566)
 
-Unlike computed properties, autotracked getters don't cache their values by default. `@memo` will let you opt in to memoization.
+Unlike computed properties, autotracked getters don't cache their values. `@memo` will let you opt in to memoization.
 
 ### [567. `@use` decorator](https://github.com/emberjs/rfcs/pull/567)
 
