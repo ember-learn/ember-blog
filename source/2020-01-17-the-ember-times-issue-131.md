@@ -9,11 +9,7 @@ responsive: true
 Привет, Эмберисты! <span style="font-style: italic;">Hello, Emberistas!</span> 🐹
 
 <!--alex ignore waiters-waitresses-->
-Help improve Ember's autotracking and reactivity system 💬,
-Read the New Test Waiters RFC ⏳,
-Optimize your app with Ember Data 📈,
-Russian Ember community 🇷🇺,
-learn about powerful debugging at EmberConf 💻,
+Help improve Ember's autotracking and reactivity system 💬, read the New Test Waiters RFC ⏳, optimize your app with Ember Data 📈, the Russian Ember community 🇷🇺, and learn about powerful debugging at EmberConf 💻.
 
 READMORE
 
@@ -149,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan and the Learning Team
