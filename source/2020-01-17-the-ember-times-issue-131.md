@@ -11,7 +11,8 @@ responsive: true
 
 Read the New Test Waiters RFC ⏳,
 Optimize your app with Ember Data 📈,
-Russian Ember community 🇷🇺
+Russian Ember community 🇷🇺,
+learn about powerful debugging at EmberConf 💻,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -59,7 +60,7 @@ For some Ember Data context, check out the [Guides](https://guides.emberjs.com/r
 
 ---
 
-## [Master powerful debugging strategies at EmberConf](https://emberconf.com/#/speakers/samanta-de-barros)
+## [Master powerful debugging strategies at EmberConf 💻](https://emberconf.com/#/speakers/samanta-de-barros)
 
 You've undoubtedly heard her talk about [creating progressive web applications with Ember](https://www.youtube.com/watch?v=OR1Tk_bwmZo)
 and [bulletproof addon testing](https://www.youtube.com/watch?v=31kVznd-zys) before, but now [Samanta de Barros (@sdebarros)](https://github.com/sdebarros)
@@ -70,21 +71,20 @@ At [this year's EmberConf](https://emberconf.com/) she's going to teach us about
 In an exclusive interview with The Ember Times, Samanta shares with us, what makes debugging tools and strategies so powerful when developing Ember applications:
 
 <!--alex ignore fear-->
-> I think it is important. Mostly, because it will help you to have a better time finding bugs and even how an app works. In part I think it’s necessary because it will help you on your job!
+> I think learning out debugging techniques is important. Mostly, because it will help you to have a better time finding bugs and even how an app works. In part I think it’s necessary because it will help you on your job!
 >
 > I also think that when you start looking at other people’s code it is hard at first, but after a while you lose the fear of seeing these complex frameworks, you get a better idea of everything and you start to realise - it’s just JavaScript in the end. So I think debugging techniques are good for finding bugs and demystifying frameworks.
 
-Many of us spend plenty of hours every work week to find the root cause of bugs which makes debugging a critical skill of almost every Ember developer.
-But how will it impact our developer experience directly when we start to fully leverage the power of debugging?
+What's our experience like when we start to learn more about debugging strategies? Here, Samanta can share from both her own experience and from those she worked together with:
 
-> Mostly things that come up when you are pairing some or you’re trying to solve an issue, you often run into something and it makes people go like: “Oh, that’s interesting!” When I’ve seen other people’s talks or see them working, I see that they have some tips about things that I don’t know about yet and that’s cool! You realise that there are a lot of tools that make working with the frontend easier.
+> When you are pairing with someone or you’re trying to solve an issue, you often run into something and it makes people go like: “Oh, that’s interesting!” When I’ve seen other people’s talks or see them working, I see that they have some tips about things that I don’t know about yet and that’s cool! You realise that there are a lot of tools that make working with the frontend easier.
 >
 > People who learn more about debugging usually say: “Oh yeah, that’s cool, that really simplifies these tasks I need to do” or “Oh, I didn’t know you could find that information there in the app.”
 
 EmberConf is a unique experience, that you and your team should definitely not miss out on. Samanta shares her perspective on what makes the conference
 so outstanding:
 
-> I think it’s a difference experience when you go to a conference as a speaker or as attendee. When you just go to listen to the talks, you get a lot of inspiration, you discover things that people are you doing that you might not do yet and it sparks something in you that makes you want to learn something new or improve something in your job. […]
+> I think it’s a different experience when you go to a conference as a speaker or as attendee. When you just go to listen to the talks, you get a lot of inspiration, you discover things that people are you doing that you might not do yet and it sparks something in you that makes you want to learn something new or improve something in your job. […]
 >
 > I would say both getting inspiration and connecting are the nicest things about EmberConf. If I had to recommend anything to an attendee, I’d say: “Just go and ask questions to the other attendees or speakers.” Just listening to the talks is good enough, but the chance to connect with others makes the conference really great.
 
