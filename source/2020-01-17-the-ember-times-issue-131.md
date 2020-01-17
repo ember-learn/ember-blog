@@ -25,7 +25,7 @@ READMORE
 
 Ember Octane features a **new reactivity system**. In particular, **tracked properties** simplify syncing the DOM with JavaScript changes. (Find out how autotracking works from the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/).)
 
-To help address some shortcomings, [Chris Garrett (@pzuraq)](https://github.com/pzuraq) proposed introducing the decorators and classes listed below. We encourage you to participate in RFCs and provide feedback today!
+To help address some shortcomings, [Chris Garrett (@pzuraq)](https://github.com/pzuraq) proposed introducing the decorators and classes listed below. We encourage you to participate in RFCs and provide feedback!
 
 ### [566. `@memo` decorator](https://github.com/emberjs/rfcs/pull/566)
 
