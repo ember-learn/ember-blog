@@ -93,7 +93,7 @@ At [this year's EmberConf](https://emberconf.com/) she's going to teach us about
 In an exclusive interview with The Ember Times, Samanta shares with us, what makes debugging tools and strategies so powerful when developing Ember applications:
 
 <!--alex ignore fear just-->
-> I think learning out debugging techniques is important. Mostly, because it will help you to have a better time finding bugs and even how an app works. In part I think it’s necessary because it will help you on your job!
+> I think learning about debugging techniques is important. Mostly, because it will help you to have a better time finding bugs and even how an app works. In part I think it’s necessary because it will help you on your job!
 >
 > I also think that when you start looking at other people’s code it is hard at first, but after a while you lose the fear of seeing these complex frameworks, you get a better idea of everything and you start to realise - it’s just JavaScript in the end. So I think debugging techniques are good for finding bugs and demystifying frameworks.
 
