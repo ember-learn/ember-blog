@@ -43,7 +43,7 @@ The `@use` API will leverage autotracking to solve two issues:
 ---
 
 <!--alex ignore waiters-waitresses-->
-## [New Test Waiters RFC ⏳](https://github.com/emberjs/rfcs/pull/581)
+## [New test waiters RFC ⏳](https://github.com/emberjs/rfcs/pull/581)
 
 <!--alex ignore waiters-waitresses-->
 [Steve Calvert (@scalvert)](https://github.com/scalvert) proposed replacing the existing test waiters with the [ember-test-waiters](https://github.com/rwjblue/ember-test-waiters) in the [New Test Waiters RFC](https://github.com/emberjs/rfcs/pull/581).
