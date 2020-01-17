@@ -50,7 +50,7 @@ For some Ember Data context, check out the [Guides](https://guides.emberjs.com/r
 
 ---
 
-## [Russian Ember community 🇷🇺](#section-url)
+## [Russian Ember community 🇷🇺](https://habr.com/ru/post/483630/)
 
 [Habr.com](habr.com) is a popular geek media site among Russian developers. It's somewhat similar to Hacker News, except that it's populated by user-submitted articles instead of links. [Iaroslav Popov (@chilicoder)](https://github.com/chilicoder) recognized a shortage of Ember articles on Habr.com and recently started translating our very own Ember Times ([Issue #129](https://habr.com/ru/post/482988/), [Issue #130](https://habr.com/ru/post/483630/)) on Habr.com, as well as [Octane is Here](https://habr.com/ru/post/482158/) and [Super Rentals tutorial - Part 1](https://habr.com/ru/post/482296/)!
 
