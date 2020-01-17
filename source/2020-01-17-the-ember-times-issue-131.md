@@ -10,7 +10,7 @@ responsive: true
 Привет, Эмберисты! <span style="font-style: italic;">Hello, Emberistas!</span> 🐹
 
 Help improve Ember's autotracking and reactivity system 💬,
-
+<!--alex ignore waiters-waitresses-->
 Read the New Test Waiters RFC ⏳,
 Optimize your app with Ember Data 📈,
 Russian Ember community 🇷🇺
