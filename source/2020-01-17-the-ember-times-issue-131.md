@@ -109,7 +109,7 @@ What's our experience like when we start to learn more about debugging strategie
 >
 > People who learn more about debugging usually say: “Oh yeah, that’s cool, that really simplifies these tasks I need to do” or “Oh, I didn’t know you could find that information there in the app.”
 
-EmberConf is a unique experience, that you and your team should definitely not miss out on. Samanta shares her perspective on what makes the conference
+EmberConf is a unique experience, one that you and your team should definitely not miss out on. Samanta shares her perspective on what makes the conference
 so outstanding:
 
 <!--alex ignore just-->
