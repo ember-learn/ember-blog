@@ -112,6 +112,7 @@ What's our experience like when we start to learn more about debugging strategie
 EmberConf is a unique experience, that you and your team should definitely not miss out on. Samanta shares her perspective on what makes the conference
 so outstanding:
 
+<!--alex ignore just-->
 > I think it’s a different experience when you go to a conference as a speaker or as attendee. When you just go to listen to the talks, you get a lot of inspiration, you discover things that people are you doing that you might not do yet and it sparks something in you that makes you want to learn something new or improve something in your job. […]
 >
 > I would say both getting inspiration and connecting are the nicest things about EmberConf. If I had to recommend anything to an attendee, I’d say: “Just go and ask questions to the other attendees or speakers.” Just listening to the talks is good enough, but the chance to connect with others makes the conference really great.
