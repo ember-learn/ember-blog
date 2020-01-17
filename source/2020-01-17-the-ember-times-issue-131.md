@@ -30,7 +30,7 @@ Unlike computed properties, autotracked getters don't cache their values. `@memo
 
 ### [567. `@use` decorator](https://github.com/emberjs/rfcs/pull/567)
 
-The `@use` API will leverage autotracking to solve two core issues:
+The `@use` API will leverage autotracking to solve two issues:
 
 - Allow Glimmer components to define a behavior with its own lifecycle, independently of the template
 - Provide a standard way to mix declarative and imperative code
