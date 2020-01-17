@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 131
-author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
@@ -8,14 +8,12 @@ responsive: true
 
 Привет, Эмберисты! <span style="font-style: italic;">Hello, Emberistas!</span> 🐹
 
-Help improve Ember's autotracking and reactivity system 💬,
 <!--alex ignore waiters-waitresses-->
+Help improve Ember's autotracking and reactivity system 💬,
 Read the New Test Waiters RFC ⏳,
 Optimize your app with Ember Data 📈,
 Russian Ember community 🇷🇺,
 learn about powerful debugging at EmberConf 💻,
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
@@ -118,66 +116,6 @@ so outstanding:
 > I would say both getting inspiration and connecting are the nicest things about EmberConf. If I had to recommend anything to an attendee, I’d say: “Just go and ask questions to the other attendees or speakers.” Just listening to the talks is good enough, but the chance to connect with others makes the conference really great.
 
 If you want to learn more about successfully debugging Ember apps, join more than 800 other Ember developers at [EmberConf in Portland, OR from March 16 - 18, 2020](https://emberconf.com/). Prices for regular attendee tickets start from $449, so don't hesitate to [register today](https://emberconf.com/#/register)!
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
