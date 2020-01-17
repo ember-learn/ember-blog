@@ -7,7 +7,8 @@ responsive: true
 ---
 
 <!--alex ignore waiters-waitresses-->
-Привет, Emberistas! 🐹
+Привет, Эмберисты! <span style="font-style: italic;">Hello, Emberistas!</span> 🐹
+
 Read the New Test Waiters RFC ⏳,
 Optimize your app with Ember Data 📈,
 Russian Ember community 🇷🇺
