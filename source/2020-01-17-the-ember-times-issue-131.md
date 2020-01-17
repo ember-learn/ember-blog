@@ -92,7 +92,7 @@ For some Ember Data context, check out the [Guides](https://guides.emberjs.com/r
 
 You've undoubtedly heard her talk about [creating progressive web applications with Ember](https://www.youtube.com/watch?v=OR1Tk_bwmZo)
 and [bulletproof addon testing](https://www.youtube.com/watch?v=31kVznd-zys) before, but now [Samanta de Barros (@sdebarros)](https://github.com/sdebarros)
-shares even more useful knowledge with you that is crucial for any professional JavaScript developer.
+is ready to share more useful knowledge that is crucial for any professional JavaScript developer.
 
 At [this year's EmberConf](https://emberconf.com/) she's going to teach us about [**The Power of Debugging**](https://emberconf.com/#/speakers/samanta-de-barros); which tools we can use to track down bugs swiftly both in development and production environments and how we find our way around Ember's architecture while doing so.
 
