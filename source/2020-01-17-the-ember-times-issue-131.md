@@ -6,7 +6,6 @@ alias : "blog/2020/01/17-the-ember-times-issue-131.html"
 responsive: true
 ---
 
-<!--alex ignore waiters-waitresses-->
 Привет, Эмберисты! <span style="font-style: italic;">Hello, Emberistas!</span> 🐹
 
 Help improve Ember's autotracking and reactivity system 💬,
