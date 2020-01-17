@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 130
 author: Chris Ng, Alon Bukai, Jessica Jordan, Anne-Greeth van Herwijnen, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Ember Octane, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Ember Octane, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/10-the-ember-times-issue-130.html"
 responsive: true
 ---
