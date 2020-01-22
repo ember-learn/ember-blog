@@ -91,7 +91,7 @@ Have a look at the [guides] to learn more about tracked properties. For design d
 
 **Component Templates Co-location: Part One (2 of 5)**
 
-Component co-location is available in Ember 3.13 when the Octane preview is enabled. This feature allows you to group a component's template and JavaScript files together in the file system. For example, a component named `user-profile` would be made up of the following files:
+Component co-location is available in Ember 3.13. This feature allows you to group a component's template and JavaScript files together in the file system. For example, a component named `user-profile` would be made up of the following files:
 
 ```bash
 app
@@ -100,7 +100,7 @@ app
     └── user-profile.js
 ```
 
-In 3.13, this feature is not available unless you enable the Octane preview. However, we expect to enable it for all apps in the next release once a [performance issue](https://github.com/ember-cli/ember-cli-htmlbars/issues/290) is addressed.
+<span style="font-style: italic;">Note: Previously, in 3.13, this feature was not available unless you enabled the Octane preview. That changed once a [performance issue](https://github.com/ember-cli/ember-cli-htmlbars/issues/290) was addressed.</span>
 
 [The RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md) contains a detailed explanation of the design of this feature.
 
