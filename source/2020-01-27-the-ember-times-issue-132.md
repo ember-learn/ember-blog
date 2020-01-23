@@ -57,7 +57,7 @@ If you have a great idea for a meetup, you can [sign up here](https://emberconf.
 
 ## [Try your first Octane & JAM sandwich at EmberConf 🏎🥪🍓](https://emberconf.com/#/speakers/chris-manson)
 
-Surely, you remember him as [the Emberista who built a blog site with Ember & NodeJs on stage in less than 15 mins](https://www.youtube.com/watch?v=GHbjdesHhPA), you heard him talk about [his work on an Ember-powered blog engine](https://www.youtube.com/watch?v=OnDUp2AhuNo) or you
+Surely, you remember him as [the Emberista who built a blog site with Ember & Node in 15 min](https://www.youtube.com/watch?v=GHbjdesHhPA), you heard him talk about [his work on an Ember-powered blog engine](https://www.youtube.com/watch?v=OnDUp2AhuNo) or you
 recall his [jammiest introduction to the JAM (JavaScript, APIs and Markup) stack for humans](https://www.youtube.com/watch?v=eQULGb10MbQ) with [46 mentions of the word "JAM" in total](https://twitter.com/real_ate/status/1207683401446313984)!
 This year, [Chris Manson (@mansona)](https://github.com/mansona) has even more insights into the modern JAM stack to share with you!
 
