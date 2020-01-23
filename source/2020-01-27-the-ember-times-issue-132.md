@@ -76,7 +76,7 @@ What will our experience building JAM stack websites with Octane be like? Chris 
 <!--alex ignore just-->
 > The thing that most people like when using JAM Stack with Ember, is the fact that you can get so much by just installing 1 or 2 addons. If you had to teach somebody everything from the ground all the way up to getting it deployed, it would take much longer and it would be much more difficult. But leveraging the power of Ember, leveraging the power of Ember addons makes people experience quick wins and gets a lot done very quickly.
 
-Besides from learning about the JAM stack in theory and in practice - what else makes EmberConf your go-to conference in 2020? Chris shares is perspective on what makes the event so worth being part of:
+Besides learning about the theory and practice of JAM stack, what makes EmberConf your go-to conference in 2020? Chris shares his perspective on what makes the event so worth being part of:
 
 > The thing I most like about EmberConf is meeting people, chatting in the hallway and the wild plans for the future of Ember that always seem to happen late night over dinner or between two talks.
 
