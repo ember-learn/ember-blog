@@ -30,7 +30,7 @@ Besides learning a lot from the talks at [EmberConf](https://emberconf.com/), it
 
 Last year there were a lot of [different meetups](https://2019.emberconf.com/meetups.html), from delicious food and drink gatherings, to a nerve-racking chess tournament, and bouldering. 
 
-If you have a great idea for a meet-up, you can [sign up here](https://emberconf.com/#/schedule/meetups). Keep an eye on this page as well if you want to know about all the meet-ups and when they will happen.
+If you have a great idea for a meetup, you can [sign up here](https://emberconf.com/#/schedule/meetups). Keep an eye on this page as well if you want to know about all the meetups and when they will happen.
 
 <add blurb and emoji to "SOME-INTRO-HERE">
 
