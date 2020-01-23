@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 132
-author: Anne-Greeth van Herwijnen, Jessica Jordan, the crowd
+author: Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/27-the-ember-times-issue-132.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Get together at EmberConf meetups 🍦,
+learn how to use `RouteInfo.metadata` from EmberMap 🧩,
 try an Octane & JAM sandwich at EmberConf 🏎🥪🍓,
 
 READMORE
@@ -35,13 +36,13 @@ If you have a great idea for a meetup, you can [sign up here](https://emberconf.
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Learn how to use `RouteInfo.metadata` from EmberMap 🧩](https://embermap.com/topics/what-s-new-in-ember/routeinfo-metadata-3-10)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Ember uses the `RouteInfo` object to send route information. These include route name, query parameters, and parent route. Since [Ember 3.10](https://blog.emberjs.com/2019/05/21/ember-3-10-released.html), `RouteInfo` carried an extra attribute called `metadata`, where you can store and retrieve anything you want in a route.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+How would you use this feature then? In the latest [What's New in Ember](https://embermap.com/topics/what-s-new-in-ember/routeinfo-metadata-3-10) video, [Sam Selikoff (@samselikoff)](https://github.com/samselikoff) shows how you can **create dynamic breadcrumbs**. Along the way, you will see how you can inspect a `RouteInfo` object too.
+
+We encourage you to watch the video and share your own applications of `metadata`. You can find a couple of more examples in the [RouteInfo Metadata RFC](https://github.com/emberjs/rfcs/blob/master/text/0398-RouteInfo-Metadata.md).
 
 ---
 
@@ -152,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Jessica Jordan, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
