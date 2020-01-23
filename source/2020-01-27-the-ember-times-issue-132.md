@@ -64,9 +64,6 @@ This year, [Chris Manson (@mansona)](https://github.com/mansona) has even more i
 <!--alex disable king-queen-->
 At [this year's EmberConf](https://emberconf.com/) he's going to teach us about [**An Octane-Powered JAM Stack**](https://emberconf.com/#/schedule/day-1_an-octane-powered-jam-stack); why the JAM Stack has become so popular and how Ember Octane blends in well with this approach of web development. But that's not all: you can learn hands-on how to build your first JAM Stack site with Octane and Empress at his EmberConf workshop [**Build and Publish Your Own empress-blog Template**](https://emberconf.com/#/schedule/pre-conf_build-and-publish-your-own-%60empress-blog%60-template).
 
-
-JAM Stack has become a popular phrase in our industry over the last few years with projects like Gatsby and Vuepress gaining popularity at fantastic speeds. As it is a very new tech stack there is still some innovation that can be added to the mix, and Ember Octane has the power to unlock a whole new generation of JAM Stack developers with the Empress project.
-
 In an exclusive interview with The Ember Times, Chris shares with us, how popular the JAM stack is and why it is so useful for building modern websites in 2020:
 
 > […] My belief is that most Ember developers are already using JAM Stack concepts. It’s not a binary thing, it’s not “you use the JAM stack” or “you don’t”. Instead you can make your apps more JAM and the question of when you want to do it is answered by when you need it. If you need good SEO, or if you need faster start times, you might want to look at some of the JAM technologies.
