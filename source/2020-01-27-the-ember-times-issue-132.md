@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 132
-author: the crowd
+author: Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/27-the-ember-times-issue-132.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Get together at EmberConf meetups 🍦,
 
 READMORE
 
@@ -24,12 +24,14 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Get together at EmberConf meetups 🍦🎲🗻](https://emberconf.com/#/schedule/meetups)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Besides learning a lot from the talks at [EmberConf](https://emberconf.com/), it is also an amazing place to meet people and get to know them. One of the easiest places to do that is at the meetups that can be organised by **you**. 
 
-<add your name to author list, top and bottom>
+Last year there were a lot of [different meetups](https://2019.emberconf.com/meetups.html), from delicious food and drink gatherings, to a nerve-racking chess tournament, and bouldering. 
+
+If you have a great idea for a meetup, you can [sign up here](https://emberconf.com/#/schedule/meetups). Keep an eye on this page as well if you want to know about all the meetups and when they will happen.
+
 <add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
@@ -134,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
