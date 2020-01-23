@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 132
-author: Anne-Greeth van Herwijnen, the crowd
+author: Anne-Greeth van Herwijnen, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/27-the-ember-times-issue-132.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Get together at EmberConf meetups 🍦,
+try an Octane & JAM sandwich at EmberConf 🏎🥪🍓,
 
 READMORE
 
@@ -26,14 +27,12 @@ READMORE
 
 ## [Get together at EmberConf meetups 🍦🎲🗻](https://emberconf.com/#/schedule/meetups)
 
-Besides learning a lot from the talks at [EmberConf](https://emberconf.com/), it is also an amazing place to meet people and get to know them. One of the easiest places to do that is at the meetups that can be organised by **you**. 
+Besides learning a lot from the talks at [EmberConf](https://emberconf.com/), it is also an amazing place to meet people and get to know them. One of the easiest places to do that is at the meetups that can be organised by **you**.
 
-Last year there were a lot of [different meetups](https://2019.emberconf.com/meetups.html), from delicious food and drink gatherings, to a nerve-racking chess tournament, and bouldering. 
+Last year there were a lot of [different meetups](https://2019.emberconf.com/meetups.html), from delicious food and drink gatherings, to a nerve-racking chess tournament, and bouldering.
 
 If you have a great idea for a meetup, you can [sign up here](https://emberconf.com/#/schedule/meetups). Keep an eye on this page as well if you want to know about all the meetups and when they will happen.
 
-<add blurb and emoji to "SOME-INTRO-HERE">
-
 ---
 
 ## [Section title in sentence case 🐹](#section-url)
@@ -56,13 +55,33 @@ If you have a great idea for a meetup, you can [sign up here](https://emberconf.
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Try your first Octane & JAM sandwich at EmberConf 🏎🥪🍓](https://emberconf.com/#/speakers/chris-manson)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Surely, you remember him as [the Emberista who built a blog site with Ember & NodeJs on stage in less than 15 mins](https://www.youtube.com/watch?v=GHbjdesHhPA), you heard him talk about [his work on an Ember-powered blog engine](https://www.youtube.com/watch?v=OnDUp2AhuNo) or you
+recall his [jammiest introduction to the JAM (JavaScript, APIs and Markup) stack for humans](https://www.youtube.com/watch?v=eQULGb10MbQ) with [46 mentions of the word "JAM" in total](https://twitter.com/real_ate/status/1207683401446313984)!
+This year, [Chris Manson (@mansona)](https://github.com/mansona) has even more insights into the modern JAM stack to share with you!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!--alex disable king-queen-->
+At [this year's EmberConf](https://emberconf.com/) he's going to teach us about [**An Octane-Powered JAM Stack**](https://emberconf.com/#/schedule/day-1_an-octane-powered-jam-stack); how and why the JAM Stack has become so popular and how Ember Octane blends in well with this approach of web development. But that's not all: you can learn hands-on, how to build you first JAM stack site based on Octane and Empress in his EmberConf workshop [**Build and Publish Your Own empress-blog Template**](https://emberconf.com/#/schedule/pre-conf_build-and-publish-your-own-%60empress-blog%60-template).
+
+
+JAM Stack has become a popular phrase in our industry over the last few years with projects like Gatsby and Vuepress gaining popularity at fantastic speeds. As it is a very new tech stack there is still some innovation that can be added to the mix, and Ember Octane has the power to unlock a whole new generation of JAM Stack developers with the Empress project.
+
+In an exclusive interview with The Ember Times, Chris shares with us, how popular the JAM stack is and why it is so useful for building modern websites in 2020:
+
+> […] My belief is that most Ember developers are already using JAM Stack concepts. It’s not a binary thing, it’s not “you use the JAM stack” or “you don’t”. Instead you can make your apps more JAM and the question of when you want to do it is answered by when you need it. If you need good SEO, or if you need faster start times, you might want to look at some of the JAM technologies.
+
+What will our experience building JAM stack websites with Octane be like? Chris shares from his experience as a JAM stack developer and as a workshop mentor:
+
+<!--alex ignore just-->
+> The thing that most people like when using JAM Stack with Ember, is the fact that you can get so much by just installing 1 or 2 addons. If you had to teach somebody everything from the ground all the way up to getting it deployed, it would take much longer and it would be much more difficult. But leveraging the power of Ember, leveraging the power of Ember addons makes people experience quick wins and gets a lot done very quickly.
+
+Besides from learning about the JAM stack in theory and in practice - what else makes EmberConf your go-to conference in 2020? Chris shares is perspective on what makes the event so worth being part of:
+
+> The thing I most like about EmberConf is meeting people, chatting in the hallway and the wild plans for the future of Ember that always seem to happen late night over dinner or between two talks.
+
+If you want to learn more about Ember Octane, Empress and JAM, join more than 800 other Ember developers at [EmberConf in Portland, OR, from March 16 - 18, 2020](https://emberconf.com/). Prices for regular attendee tickets start from $449. Get your tickets, before they are sold out, [on the EmberConf website](https://emberconf.com/#/register)!
+<!--alex enable king-queen-->
 
 ---
 
@@ -108,7 +127,7 @@ If you have a great idea for a meetup, you can [sign up here](https://emberconf.
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/bobisjan" target="gh-user">@bobisjan</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/chriskrycho" target="gh-user">@chriskrycho</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jamescdavis" target="gh-user">@jamescdavis</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a> and <a href="https://github.com/jrjohnson" target="gh-user">@jrjohnson</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -136,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Jessica Jordan, the crowd and the Learning Team
