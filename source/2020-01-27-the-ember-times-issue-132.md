@@ -26,7 +26,7 @@ READMORE
 
 ## [Get together at EmberConf meetups 🍦🎲🗻](https://emberconf.com/#/schedule/meetups)
 
-Besides learning a lot of the talks at EmberConf it is also an amazing place to meet people and get to know them. One of the easiest places to do that is at the meet-ups that can be organised by **you**. 
+Besides learning a lot from the talks at [EmberConf](https://emberconf.com/), it is also an amazing place to meet people and get to know them. One of the easiest places to do that is at the meetups that can be organised by **you**. 
 
 Last year there were a lot of [different meet-ups](https://2019.emberconf.com/meetups.html), from delicious food and drink gatherings to a nerve-racking chess tournament and bouldering. 
 
