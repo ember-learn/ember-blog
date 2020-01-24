@@ -50,7 +50,7 @@ We encourage you to watch the video and share your own applications of `metadata
 
 Ever needed to keep finding related files in your Ember repo using [VSCode](https://code.visualstudio.com/)? [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) created an extension to make that leap easier!
 
-The [Related Files Hopper extension](https://marketplace.visualstudio.com/items?itemName=suchitadoshi1987.file-hopper) helps developers navigate through the multiple files that are touched when working on a feature. Within Ember for example, a person adding or removing something in `components/foo.js` would likely also touch `templates/foo.hbs` and related tests `unit/foo-test.js` or `acceptance/foo-test.js`. This extension provides hot keys to present related files as an option to jump into while you’re currently working in a selected file.
+The [Related Files Hopper extension](https://marketplace.visualstudio.com/items?itemName=suchitadoshi1987.file-hopper) helps developers navigate through the multiple files that are touched when working on a feature. Within Ember for example, a person adding or removing something in `components/foo.js` would likely also touch `templates/foo.hbs` and related tests `integration/foo-test.js` or `acceptance/foo-test.js`. This extension provides hot keys for related files when you're working in `components/foo.js`.
 
 Try it out today and be sure to [leave some feedback](https://twitter.com/suchita009/status/1218310260592496641) or [contribute new features](https://github.com/suchitadoshi1987/related-files-hopper)!
 
