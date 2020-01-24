@@ -57,7 +57,6 @@ Besides learning about the theory and practice of JAM stack, what makes EmberCon
 > The thing I most like about EmberConf is meeting people, chatting in the hallway and the wild plans for the future of Ember that always seem to happen late night over dinner or between two talks.
 
 If you want to learn more about Ember Octane, Empress and JAM, join more than 800 other Ember developers at [EmberConf in Portland, OR, from March 16 - 18, 2020](https://emberconf.com/). Prices for regular attendee tickets start from $449. Get your tickets, before they are sold out, [on the EmberConf website](https://emberconf.com/#/register)!
-<!--alex enable king-queen-->
 
 ---
 
