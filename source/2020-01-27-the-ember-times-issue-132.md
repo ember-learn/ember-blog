@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 132
-author: Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, the crowd
+author: Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/27-the-ember-times-issue-132.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 Get together at EmberConf meetups 🍦,
 learn how to use `RouteInfo.metadata` from EmberMap 🧩,
 try an Octane & JAM sandwich at EmberConf 🏎🥪🍓,
+monitor Ember app performance with Tracerbench ⏱,
 
 READMORE
 
@@ -83,13 +84,13 @@ If you want to learn more about Ember Octane, Empress and JAM, join more than 80
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Monitor Ember app performance with Tracerbench ⏱](https://github.com/ember-performance-monitoring/tracerbench-compare-action)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+What is Tracerbench? Think "Lighthouse CI" but with **statistical rigor** and **more meaningful data**. With [ember-performance-monitoring/tracerbench-compare-action](https://github.com/ember-performance-monitoring/tracerbench-compare-action), you can monitor your web app's performance in CI. Although the library is general enough for any web app, Tracerbench comes finely tuned for benchmarking Ember apps and addons via GitHub Actions.  
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Tracerbench's motivation is explained in [Tracerbench/tracerbench](https://github.com/TracerBench/tracerbench). There's currently a gap in performance analysis tooling for Ember apps. Developers today struggle to quickly find and analyze performance regressions which would empower them to make quick, iterative changes **within their local development environment**. The current approach for performance analysis is for developers to run a single trace using Chrome Developer Tools. Unfortunately, a single trace varies too much to detect regressions to a web app...unless the regression is quite large. 
+
+We found out about Tracerbrench from Chris Thoburn (@runspired)'s [tweet](https://twitter.com/Runspired/status/1218669365182074885) where he gives a shoutout to [Kris Selden (@krisselden)](https://github.com/krisselden) and LinkedIn for their work on Tracerbench! We look forward to giving it a spin! 
 
 ---
 
@@ -153,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, Amy Lam, the crowd and the Learning Team
