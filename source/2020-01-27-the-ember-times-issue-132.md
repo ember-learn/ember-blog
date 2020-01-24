@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 132
-author: Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, Amy Lam, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/27-the-ember-times-issue-132.html"
 responsive: true
@@ -12,6 +12,7 @@ Get together at EmberConf meetups 🍦,
 learn how to use `RouteInfo.metadata` from EmberMap 🧩,
 try an Octane & JAM sandwich at EmberConf 🏎🥪🍓,
 monitor Ember app performance with Tracerbench ⏱,
+try out the Related Files Hopper VSCode extension 🤸,
 
 READMORE
 
@@ -47,13 +48,13 @@ We encourage you to watch the video and share your own applications of `metadata
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Related Files Hopper VSCode Extension 🤸](https://twitter.com/suchita009/status/1218310260592496641)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Ever needed to keep finding related files in your Ember repo using [VSCode](https://code.visualstudio.com/)? [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) created an extension to make that leap easier!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [Related Files Hopper extension](https://marketplace.visualstudio.com/items?itemName=suchitadoshi1987.file-hopper) helps developers navigate through the multiple files that are touched when working on a feature. Within Ember for example, a person adding or removing something in `components/foo.js` would likely also touch `templates/foo.hbs` and related tests `integration/foo-test.js` or `acceptance/foo-test.js`. This extension provides hot keys for related files when you're working in `components/foo.js`.
+
+Try it out today and be sure to [leave some feedback](https://twitter.com/suchita009/status/1218310260592496641) or [contribute new features](https://github.com/suchitadoshi1987/related-files-hopper)!
 
 ---
 
@@ -154,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Jessica Jordan, Isaac Lee, Amy Lam, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam, the crowd and the Learning Team
