@@ -1,30 +1,16 @@
 ---
 title: The Ember Times - Issue No. 132
-author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/24-the-ember-times-issue-132.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-Get together at EmberConf meetups 🍦,
-learn how to use `RouteInfo.metadata` from EmberMap 🧩,
-try an Octane & JAM sandwich at EmberConf 🏎🥪🍓,
-monitor Ember app performance with Tracerbench ⏱,
-try out the Related Files Hopper VSCode extension 🤸,
+Get together at EmberConf meetups 🍦, learn how to use `RouteInfo.metadata` from EmberMap 🧩, try an Octane & JAM sandwich at EmberConf 🏎🥪🍓, monitor Ember app performance with Tracerbench ⏱, and try out the Related Files Hopper VSCode extension 🤸!
 
 READMORE
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -45,16 +31,6 @@ Ember uses the `RouteInfo` object to send route information. These include route
 How would you use this feature then? In the latest [What's New in Ember](https://embermap.com/topics/what-s-new-in-ember/routeinfo-metadata-3-10) video, [Sam Selikoff (@samselikoff)](https://github.com/samselikoff) shows how you can **create dynamic breadcrumbs**. Along the way, you will see how you can inspect a `RouteInfo` object too.
 
 We encourage you to watch the video and share your own applications of `metadata`. You can find a couple of more examples in the [RouteInfo Metadata RFC](https://github.com/emberjs/rfcs/blob/master/text/0398-RouteInfo-Metadata.md).
-
----
-
-## [Related Files Hopper VSCode Extension 🤸](https://twitter.com/suchita009/status/1218310260592496641)
-
-Ever needed to keep finding related files in your Ember repo using [VSCode](https://code.visualstudio.com/)? [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) created an extension to make that leap easier!
-
-The [Related Files Hopper extension](https://marketplace.visualstudio.com/items?itemName=suchitadoshi1987.file-hopper) helps developers navigate through the multiple files that are touched when working on a feature. Within Ember for example, a person adding or removing something in `components/foo.js` would likely also touch `templates/foo.hbs` and related tests `integration/foo-test.js` or `acceptance/foo-test.js`. This extension provides hot keys for related files when you're working in `components/foo.js`.
-
-Try it out today and be sure to [leave some feedback](https://twitter.com/suchita009/status/1218310260592496641) or [contribute new features](https://github.com/suchitadoshi1987/related-files-hopper)!
 
 ---
 
@@ -95,33 +71,13 @@ We found out about Tracerbrench from Chris Thoburn (@runspired)'s [tweet](https:
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Related Files Hopper VSCode Extension 🤸](https://twitter.com/suchita009/status/1218310260592496641)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Ever needed to keep finding related files in your Ember repo using [VSCode](https://code.visualstudio.com/)? [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) created an extension to make that leap easier!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [Related Files Hopper extension](https://marketplace.visualstudio.com/items?itemName=suchitadoshi1987.file-hopper) helps developers navigate through the multiple files that are touched when working on a feature. Within Ember for example, a person adding or removing something in `components/foo.js` would likely also touch `templates/foo.hbs` and related tests `integration/foo-test.js` or `acceptance/foo-test.js`. This extension provides hot keys for related files when you're working in `components/foo.js`.
 
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Try it out today and be sure to [leave some feedback](https://twitter.com/suchita009/status/1218310260592496641) or [contribute new features](https://github.com/suchitadoshi1987/related-files-hopper)!
 
 ---
 
@@ -155,4 +111,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam and the Learning Team
