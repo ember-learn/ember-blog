@@ -5,6 +5,6 @@ before_install:
   - gem install bundler --version 1.17.2
 script:
 - npm install alex@8.0.1 markdownlint-cli@0.19.0 --global
-- bash scripts/language-check.sh
-- bash scripts/markdown-lint.sh
+- ./scripts/validate.sh alex
+- ./scripts/validate.sh markdownlint
 - bundle exec middleman build
