@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+set -e -o pipefail
 # shellcheck disable=SC2086
 linting_binary=$1
 
