@@ -27,5 +27,5 @@ I have grown to love using Ember Power Select while developing a CRUD-rich web a
 
 Although [some work](https://github.com/cibernox/ember-power-select/issues/1251) has been done to support Octane it appears that as of today this isn't yet complete. If you are interested in helping out with this addon, check the repository to see what issues remain!
 
-Do you use this codemod? Or one like it? We'd love to hear about Ember codemods that bring you joy!
+Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!
 
