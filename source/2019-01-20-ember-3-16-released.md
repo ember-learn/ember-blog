@@ -22,7 +22,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.16
 
-Ember.js 3.16 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.16 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is zero (0) new features, one (1) deprecation, and several bugfixes in this version.
 
 #### New Features (0)
 
