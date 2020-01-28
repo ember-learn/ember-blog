@@ -24,19 +24,25 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 3.16 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
-#### New Features (2)
+#### New Features (0)
 
-First new feature (1 of 2)
+There are no new features in Ember.js 3.16.
 
-Second new feature (2 of 2)
-
-#### Deprecations (0)
+#### Deprecations (1)
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
 For more details on changes in Ember.js 3.16, please review the [Ember.js 3.16.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.16.0).
+
+
+**Deprecate Global Resolver (1 of 1)**
+
+Over the past years we have transitioned to using Ember-CLI as the main way to compile Ember apps. The globals resolver is a holdover and primarily facilitates use of Ember without Ember-CLI.
+
+For more information please refer to the [deprecations guide](https://deprecations.emberjs.com/v3.x#toc_ember-deprecate-globals-resolver).
+
 
 ---
 
@@ -78,10 +84,13 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.16
 
-#### New Features (X)
+#### New Features (0)
 
-#### Deprecations (X)
+There are no new features in Ember CLI 3.16.
 
+#### Deprecations (0)
+
+There are no new deprecations in Ember CLI 3.16.
 ---
 
 For more details on the changes in Ember CLI 3.16 and detailed upgrade
