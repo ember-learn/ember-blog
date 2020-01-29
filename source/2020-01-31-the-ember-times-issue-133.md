@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 133
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/31-the-ember-times-issue-133.html"
 responsive: true
@@ -9,18 +9,44 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Check out the RFC for Improved Ember Registry APIs 🗒️®️,
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [RFC: Improved Ember Registry APIs 🗒️®️](https://github.com/emberjs/rfcs/pull/585)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) proposed adding a new, object-based API for all registry APIs; deprecate the current string-based microsyntax registry APIs; and introduce a `capabilities` property to the resolver to safely support existing resolvers.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [RFC: Improved Ember Registry APIs](https://github.com/emberjs/rfcs/pull/585) covers the problems with the [microsyntax](https://guides.emberjs.com/release/applications/dependency-injection/#toc_factory-registrations) and the lack of TypeScript support. The RFC recommends adding a new `Identifier` API which would contain the `name`, `type`, and optionally the `namespace` fields instead of the current microsyntax. For example:
+
+From:
+```js
+getOwner(this).lookup('service:session');
+```
+
+To:
+```js
+getOwner(this).lookup({ type: 'service', name: 'session' })
+```
+
+From:
+```js
+class Example {
+  @service('global@session')
+  session;
+}
+```
+
+To:
+```js
+class Example {
+  @service({ namespace: 'global', name: 'session' })
+  session;
+}
+```
+
+If you would like to learn more or add your feedback please take a look at the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/585)!
 
 ---
 
@@ -134,4 +160,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
