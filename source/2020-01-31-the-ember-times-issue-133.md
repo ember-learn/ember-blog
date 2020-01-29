@@ -80,10 +80,12 @@ At [**FlashRecruit**](https://flashrecruit.com), we're building a conversational
 
 Ember Octane allowed us to quickly prototype an application, move on to production with little tech debt, and feel well supported throughout the process.
 
+<!--alex ignore mental-->
 Tracked Properties and Glimmer Components provide a wonderful mental model to work from. They also simplify our code by bringing it closer to JavaScript and HTML. We had a new hire that only had to learn the Octane way, which ended up far smoother than the classic-style onboarding.
 
 We saw a few issues in the preview period, but the community was quick to help us figure out how to move past them. They were mostly fixed by the official release, as well.
 
+<!--alex ignore just-->
 We look forward to the enhanced tracking changes coming in RFCs like [#577](https://github.com/emberjs/rfcs/pull/577). Honestly, anything beyond this point is just gravy.
 
 ---
