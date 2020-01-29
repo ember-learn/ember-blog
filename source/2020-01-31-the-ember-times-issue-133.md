@@ -74,13 +74,17 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Community Feedback from FlashRecruit :clap:](https://flashrecruit.com)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+At [**FlashRecruit**](https://flashrecruit.com), we're building a conversational job marketplace. We've been using Ember Octane since before the official preview--don't tell anyone--to build the new version of our job board and dashboard.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember Octane allowed us to quickly prototype an application, move on to production with little tech debt, and feel well supported throughout the process.
+
+Tracked Properties and Glimmer Components provide a wonderful mental model to work from. They also simplify our code by bringing it closer to JavaScript and HTML. We had a new hire that only had to learn the Octane way, which ended up far smoother than the classic-style onboarding.
+
+We saw a few issues in the preview period, but the community was quick to help us figure out how to move past them. They were mostly fixed by the official release, as well.
+
+We look forward to the enhanced tracking changes coming in RFCs like [#577](https://github.com/emberjs/rfcs/pull/577). Honestly, anything beyond this point is just gravy.
 
 ---
 
@@ -106,7 +110,7 @@ READMORE
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank [@endangeredmassa](https://github.com/endangeredmassa) for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
