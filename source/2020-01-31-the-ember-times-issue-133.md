@@ -24,16 +24,19 @@ READMORE
 The [RFC: Improved Ember Registry APIs](https://github.com/emberjs/rfcs/pull/585) covers the problems with the [microsyntax](https://guides.emberjs.com/release/applications/dependency-injection/#toc_factory-registrations) and the lack of TypeScript support. The RFC recommends adding a new `Identifier` API which would contain the `name`, `type`, and optionally the `namespace` fields instead of the current microsyntax. For example:
 
 From:
+
 ```js
 getOwner(this).lookup('service:session');
 ```
 
 To:
+
 ```js
 getOwner(this).lookup({ type: 'service', name: 'session' })
 ```
 
 From:
+
 ```js
 class Example {
   @service('global@session')
@@ -42,6 +45,7 @@ class Example {
 ```
 
 To:
+
 ```js
 class Example {
   @service({ namespace: 'global', name: 'session' })
