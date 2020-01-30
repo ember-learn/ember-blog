@@ -1,13 +1,15 @@
 ---
 title: The Ember Times - Issue No. 133
-author: the crowd
+author: Sean Massa, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/31-the-ember-times-issue-133.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Community feedback from FlashRecruit 👏,
+...
+  
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -74,7 +76,7 @@ READMORE
 
 ---
 
-## [Community Feedback from FlashRecruit :clap:](https://flashrecruit.com)
+## [Community feedback from FlashRecruit 👏](https://flashrecruit.com)
 
 At [**FlashRecruit**](https://flashrecruit.com), we're building a conversational job marketplace. We've been using Ember Octane since before the official preview--don't tell anyone--to build the new version of our job board and dashboard.
 
@@ -112,7 +114,7 @@ We look forward to the enhanced tracking changes coming in RFCs like [#577](http
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank [@endangeredmassa](https://github.com/endangeredmassa) for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank ... for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -140,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Sean Massa, the crowd and the Learning Team
