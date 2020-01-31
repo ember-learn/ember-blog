@@ -1,19 +1,20 @@
 ---
 title: The Ember Times - Issue No. 133
-author: Chris Ng, Sean Massa, Isaac Lee, the crowd
+author: Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/31-the-ember-times-issue-133.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-  
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Community feedback from FlashRecruit 👏,
+contributing to OSS with confidence at EmberConf 💪,
 Check out the RFC for Improved Ember Registry APIs 🗒️®️,
 Meet two developers who write short Ember posts regularly ✏️,
 ...
-  
+
 READMORE
 
 ---
@@ -65,6 +66,29 @@ If you would like to learn more or add your feedback please take a look at the [
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [Confident contributing to open-source at EmberConf 💪💻](https://emberconf.com/#/speakers/anne-greeth-van-herwijnen)
+
+After her [previous OSS pitch at Emberfest 2019](https://www.youtube.com/watch?v=GHbjdesHhPA),
+Emberista and [Ember Times](https://blog.emberjs.com/tags/newsletter.html) editor [Anne-Greeth van Herwijnen (@MinThaMie)](https://github.com/MinThaMie) will guide you to your next (or maybe even first!) open-source contribution!
+
+With plenty of research on what makes an open-source community successful in facilitating contributions, she will demonstrate how Ember empowers contributors to give back to the project in her talk [**Why Contributing Seems Scary**](https://emberconf.com/#/schedule/day-2_why-contributing-seems-scary) at [this year's EmberConf](https://emberconf.com/).
+
+In an exclusive interview with The Ember Times, Anne-Greeth shares with us, who she thinks is qualified to contribute to Ember:
+
+> […] I think everyone can contribute to Ember. It just matters on your opinion of what you think contributing means. So for me contributing goes from helping out at EmberConf, to writing, reading RFCs, and everything in between. And I think as long as you want to. you can always find something for you to contribute to.
+
+What is something that surprises first-time contributors when working on a project like Ember? Anne-Greeth speaks from her previous experience when sharing her OSS journey with others:
+
+> From the talk about contributing I gave at EmberFest last year and also one I gave at my work, I noticed that people were surprised how easy it is to contribute. And that contributing doesn’t mean that you necessarily have to fix the problem, but that also identifying a problem is contributing to it. At my company I got the response from somebody who just two hours after my talk already created their first pull request to an open-source repository (which wasn’t Ember), but still he was like “Hey, I did this!”  In general, the feedback has been really positive, because my examples are really low-key. People feel really encouraged and inspired, that they can do it, too!
+
+Besides learning how to contribute with confidence, what makes EmberConf a must-visit experience this year? Anne-Greeth talks about what she is looking forward to the most:
+
+> I think the people. It sounds really cheesy, but for me, meeting all the people that I met years before, but also meeting new people at different meetups, but also in between talks, is, I think, really cool. And discussing with them things about Ember, but also about culture and about different countries is, I think, one of the best things about EmberConf.
+
+If you want to learn more about why contributing seems scary (but doesn't need to be), join more than 800 other Ember developers at [EmberConf in Portland, OR, from March 16 - 18, 2020](https://emberconf.com/). Prices for regular attendee tickets start from $449. Get your tickets, before they are sold out, [on the EmberConf website](https://emberconf.com/#/register)!
 
 ---
 
@@ -124,6 +148,7 @@ Ember Octane allowed us to quickly prototype an application, move on to producti
 <!--alex ignore nuts-->
 Tracked Properties and Glimmer Components provide a wonderful mental model to work from. They also simplify our code by bringing it closer to JavaScript and HTML. We had a new hire that only had to learn the Octane way, which ended up far smoother than the classic-style onboarding.
 
+<!--alex ignore period-->
 We saw a few issues in the preview period, but the community was quick to help us figure out how to move past them. They were mostly fixed by the official release, as well.
 
 <!--alex ignore just-->
@@ -153,7 +178,7 @@ We look forward to the enhanced tracking changes coming in RFCs like [#577](http
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank ... for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/salbador" target="gh-user">@salbador</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/Nippius" target="gh-user">@Nippius</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/NBallaney" target="gh-user">@NBallaney</a>, <a href="https://github.com/betocantu93" target="gh-user">@betocantu93</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a> and <a href="https://github.com/efx" target="gh-user">@efx</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -181,4 +206,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Sean Massa, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
