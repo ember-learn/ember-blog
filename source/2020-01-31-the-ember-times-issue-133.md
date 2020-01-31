@@ -71,7 +71,7 @@ If you would like to learn more or add your feedback please take a look at the [
 
 ## [Confident contributing to open-source at EmberConf 💪💻](https://emberconf.com/#/speakers/anne-greeth-van-herwijnen)
 
-After her [previous OSS pitch at Emberfest 2019](https://www.youtube.com/watch?v=GHbjdesHhPA),
+After her [previous OSS pitch at EmberFest 2019](https://www.youtube.com/watch?v=GHbjdesHhPA),
 Emberista and [Ember Times](https://blog.emberjs.com/tags/newsletter.html) editor [Anne-Greeth van Herwijnen (@MinThaMie)](https://github.com/MinThaMie) will guide you to your next (or maybe even first!) open-source contribution!
 
 With plenty of research on what makes an open-source community successful in facilitating contributions, she will demonstrate how Ember empowers contributors to give back to the project in her talk [**Why Contributing Seems Scary**](https://emberconf.com/#/schedule/day-2_why-contributing-seems-scary) at [this year's EmberConf](https://emberconf.com/).
