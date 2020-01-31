@@ -83,6 +83,7 @@ In an exclusive interview with The Ember Times, Anne-Greeth shares with us, who 
 
 What is something that surprises first-time contributors when working on a project like Ember? Anne-Greeth speaks from her previous experience when sharing her OSS journey with others:
 
+<!--alex ignore just easy-->
 > From the talk about contributing I gave at EmberFest last year and also one I gave at my work, I noticed that people were surprised how easy it is to contribute. And that contributing doesn’t mean that you necessarily have to fix the problem, but that also identifying a problem is contributing to it. At my company I got the response from somebody who just two hours after my talk already created their first pull request to an open-source repository (which wasn’t Ember), but still he was like “Hey, I did this!”  In general, the feedback has been really positive, because my examples are really low-key. People feel really encouraged and inspired, that they can do it, too!
 
 Besides learning how to contribute with confidence, what makes EmberConf a must-visit experience this year? Anne-Greeth talks about what she is looking forward to the most:
