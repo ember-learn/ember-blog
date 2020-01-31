@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 133
-author: Chris Ng, Sean Massa, the crowd
+author: Chris Ng, Sean Massa, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/31-the-ember-times-issue-133.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Community feedback from FlashRecruit 👏,
 Check out the RFC for Improved Ember Registry APIs 🗒️®️,
+Meet two developers who write short Ember posts regularly ✏️,
 ...
   
 READMORE
@@ -77,13 +78,20 @@ If you would like to learn more or add your feedback please take a look at the [
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Getting into writing Ember posts ✏️](https://dev.to/t/ember/latest)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+This week, we give a hearty shout-out to [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) and [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi). Since January, they have been regularly sharing their learnings of Ember through short blog posts.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Here are some of our favorites:
+
+- [Ember Components at Their Simplest](https://ilyaradchenko.com/ember-components-at-their-simplest/)
+- [When Components Aren't Enough](https://ilyaradchenko.com/when-components-aren't-enough/)
+- [6 Tips for Transitioning to Ember CSS Modules](https://ilyaradchenko.com/6-tips-for-transitioning-to-ember-css-modules/)
+- [Add Fulltext Filter Support to ember-cli-mirage](https://dev.to/michalbryxi/add-fulltext-filter-support-to-ember-cli-mirage-3nef)
+- [Shining Some Light on Timing Out Tests](https://dev.to/michalbryxi/shining-some-light-on-timing-out-tests-35e6)
+- [Component Arguments vs HTML Attributes Bug Hunt](https://dev.to/michalbryxi/component-arguments-vs-html-attributes-bug-hunt-1ke9)
+
+We encourage you to have a read. You may be pleasantly surprised to see that, through small steps, one can end up teaching and helping others a lot. 💞
 
 ---
 
@@ -173,4 +181,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Sean Massa, the crowd and the Learning Team
+Chris Ng, Sean Massa, Isaac Lee, the crowd and the Learning Team
