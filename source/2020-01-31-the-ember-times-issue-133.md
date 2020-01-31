@@ -78,6 +78,7 @@ With plenty of research on what makes an open-source community successful in fac
 
 In an exclusive interview with The Ember Times, Anne-Greeth shares with us, who she thinks is qualified to contribute to Ember:
 
+<!--alex ignore just-->
 > […] I think everyone can contribute to Ember. It just matters on your opinion of what you think contributing means. So for me contributing goes from helping out at EmberConf, to writing, reading RFCs, and everything in between. And I think as long as you want to. you can always find something for you to contribute to.
 
 What is something that surprises first-time contributors when working on a project like Ember? Anne-Greeth speaks from her previous experience when sharing her OSS journey with others:
