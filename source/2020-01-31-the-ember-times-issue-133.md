@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 133
 author: Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/31-the-ember-times-issue-133.html"
 responsive: true
 ---
