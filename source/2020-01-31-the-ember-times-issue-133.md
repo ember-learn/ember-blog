@@ -1,19 +1,18 @@
 ---
 title: The Ember Times - Issue No. 133
-author: Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/01/31-the-ember-times-issue-133.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+✌️ Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Community feedback from FlashRecruit 👏,
-contributing to OSS with confidence at EmberConf 💪,
+This week: 
 Check out the RFC for Improved Ember Registry APIs 🗒️®️,
-Meet two developers who write short Ember posts regularly ✏️,
-...
+Octane community feedback from FlashRecruit 👏,
+contributing to OSS with confidence at EmberConf 💪,
+and meet two developers who write short Ember posts regularly ✏️!
 
 READMORE
 
@@ -59,13 +58,22 @@ If you would like to learn more or add your feedback please take a look at the [
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Octane community feedback from FlashRecruit 👏](https://flashrecruit.com)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+At [**FlashRecruit**](https://flashrecruit.com), we're building a conversational job marketplace. We've been using Ember Octane since before the official preview--don't tell anyone--to build the new version of our job board and dashboard.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ember Octane allowed us to quickly prototype an application, move on to production with little tech debt, and feel well supported throughout the process.
+
+<!--alex ignore nuts-->
+Tracked Properties and Glimmer Components provide a wonderful mental model to work from. They also simplify our code by bringing it closer to JavaScript and HTML. We had a new hire that only had to learn the Octane way, which ended up far smoother than the classic-style onboarding.
+
+<!--alex ignore period-->
+We saw a few issues in the preview period, but the community was quick to help us figure out how to move past them. They were mostly fixed by the official release, as well.
+
+<!--alex ignore just-->
+We look forward to the enhanced tracking changes coming in RFCs like [#577](https://github.com/emberjs/rfcs/pull/577). Honestly, anything beyond this point is just gravy.
+
+> We know there are lots of other great examples of Octane being used in the wild. If you’d like to share your experiences, please feel to reach out to the Ember Times team: [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS)!
 
 ---
 
@@ -94,16 +102,6 @@ If you want to learn more about why contributing seems scary (but doesn't need t
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Getting into writing Ember posts ✏️](https://dev.to/t/ember/latest)
 
 This week, we give a hearty shout-out to [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) and [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi). Since January, they have been regularly sharing their learnings of Ember through short blog posts.
@@ -118,63 +116,6 @@ Here are some of our favorites:
 - [Component Arguments vs HTML Attributes Bug Hunt](https://dev.to/michalbryxi/component-arguments-vs-html-attributes-bug-hunt-1ke9)
 
 We encourage you to have a read. You may be pleasantly surprised to see that, through small steps, one can end up teaching and helping others a lot. 💞
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Community feedback from FlashRecruit 👏](https://flashrecruit.com)
-
-At [**FlashRecruit**](https://flashrecruit.com), we're building a conversational job marketplace. We've been using Ember Octane since before the official preview--don't tell anyone--to build the new version of our job board and dashboard.
-
-Ember Octane allowed us to quickly prototype an application, move on to production with little tech debt, and feel well supported throughout the process.
-
-<!--alex ignore nuts-->
-Tracked Properties and Glimmer Components provide a wonderful mental model to work from. They also simplify our code by bringing it closer to JavaScript and HTML. We had a new hire that only had to learn the Octane way, which ended up far smoother than the classic-style onboarding.
-
-<!--alex ignore period-->
-We saw a few issues in the preview period, but the community was quick to help us figure out how to move past them. They were mostly fixed by the official release, as well.
-
-<!--alex ignore just-->
-We look forward to the enhanced tracking changes coming in RFCs like [#577](https://github.com/emberjs/rfcs/pull/577). Honestly, anything beyond this point is just gravy.
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -208,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Sean Massa, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
