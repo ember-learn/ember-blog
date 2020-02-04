@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -8,19 +8,18 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+How structuring your Figma can make your developer life easier 🎨,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [From Figma to Ember to Storybook … with 2 Clicks 🎨](https://gos.si/blog/from-figma-to-ember-to-storybook-with-2-clicks/)
+[Thomas Gossmann @gossi](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. It is a 3 part series. [Part 1](https://gos.si/blog/full-featured-themes-in-figma/) has just been publish and will tell you all about how to organise your design in Figma. So if you want to learn something about themes and design tokens, go ahead and read  [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) .
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Part 2 on design tokens in Ember and part 3 on documentation within the Ember Ecosystem are on their way. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to keep posted on when they are published. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can find the design system and code on [GitHub](https://github.com/gossi/hokulea).
 
 ---
 
@@ -134,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
