@@ -84,7 +84,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.16
 
-#### New Features (0)
+#### New Features (1)
 
 **Drop Node 8 support (1 of 1)**
 
