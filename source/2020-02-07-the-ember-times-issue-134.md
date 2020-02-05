@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Anne-Greeth van Herwijnen, the crowd
+author: Anne-Greeth van Herwijnen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 How structuring your Figma can make your developer life easier 🎨,
+QUnit DOM announces v1.0 release 🎂,
 
 READMORE
 
@@ -54,13 +55,20 @@ You can find the design system and code on [GitHub](https://github.com/gossi/hok
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [QUnit DOM celebrates v1.0 release! 🎂](https://twitter.com/TobiasBieniek/status/1223998561605627904)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[QUnit DOM](https://github.com/simplabs/qunit-dom) provides **readable assertions for QUnit** and has been shipped with Ember since v3.1. If you haven't tried QUnit DOM yet, we recommend [checking out its API](https://github.com/simplabs/qunit-dom/blob/master/API.md) to see how you can simplify your tests.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Last week, QUnit DOM [announced its v1.0 release](https://twitter.com/TobiasBieniek/status/1223998561605627904) to mark the project's stability. One of the new features is **assertion chaining**:
+
+```javascript
+assert.dom('[data-test-input="Email"]')
+  .isRequired()
+  .hasAttribute('type', 'email')
+  .hasValue('zoey@ember.js');
+```
+
+We extend our thanks to everyone who have contributed to the project!
 
 ---
 
@@ -134,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
