@@ -16,7 +16,7 @@ READMORE
 
 ## [From Figma to Ember to Storybook … with 2 Clicks 🎨](https://gos.si/blog/from-figma-to-ember-to-storybook-with-2-clicks/)
 
-[Thomas Gossmann @gossi](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. It is a 3 part series. [Part 1](https://gos.si/blog/full-featured-themes-in-figma/) has just been published and will tell you all about how to organise your design in Figma. So if you want to learn something about themes and design tokens, go ahead and read  [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) .
+[Thomas Gossmann @gossi](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. It is a 3 part series. [Part 1](https://gos.si/blog/full-featured-themes-in-figma/) has been published and will tell you all about how to organise your design in Figma. So if you want to learn something about themes and design tokens, go ahead and read  [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) .
 
 Part 2 on design tokens in Ember and part 3 on documentation within the Ember Ecosystem are on their way. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to be notified when they are published. 
 
