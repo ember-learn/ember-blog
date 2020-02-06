@@ -105,7 +105,7 @@ We extend our thanks to everyone who have contributed to the project!
 
 ## [ember-changeset 3.0.0 Release 🎉](https://twitter.com/puekey/status/1224340431644708864)
 
-The [ember-changeset](https://github.com/poteto/ember-changeset) addon is officially released [version 3.0.0](https://github.com/poteto/ember-changeset/blob/master/CHANGELOG.md#300-2020-02-02). The addon provides a Changeset class which represents a set of valid changes to be applied onto any Object (`Ember.Object`, `DS.Model`, POJOs, etc). The idea is only the changeset's internal values are updated until we invoke the save method which would set and save the valid changes onto the provided object.
+The [ember-changeset](https://github.com/poteto/ember-changeset) addon officially released [version 3.0.0](https://github.com/poteto/ember-changeset/blob/master/CHANGELOG.md#300-2020-02-02). The addon provides a Changeset class that represents a set of valid changes for any Object (`Ember.Object`, `DS.Model`, POJOs, etc). The idea is only the changeset's internal values are updated until we invoke the save method which would set and save the valid changes onto the provided object.
 
 This release requires Ember 3.13 and above and the use of @tracked will help ember-changeset monitor and propagate changes to the UI layer. If your app is < 3.13 or you need to support IE11, then you can install the 2.0 series. Watch a [free video intro](https://www.emberscreencasts.com/posts/168-introduction-to-ember-changeset) presented by EmberScreencasts and use ember-changeset today!
 
