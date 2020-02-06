@@ -59,7 +59,10 @@ You can find the design system and code on [GitHub](https://github.com/gossi/hok
 
 [QUnit DOM](https://github.com/simplabs/qunit-dom) provides **readable assertions for QUnit** and has been shipped with Ember since v3.1. If you haven't tried QUnit DOM yet, we recommend [checking out its API](https://github.com/simplabs/qunit-dom/blob/master/API.md) to see how you can simplify your tests.
 
-Last week, QUnit DOM [announced its v1.0 release](https://twitter.com/TobiasBieniek/status/1223998561605627904) to mark the project's stability. One of the new features is **assertion chaining**:
+Last week, QUnit DOM [announced its v1.0 release](https://twitter.com/TobiasBieniek/status/1223998561605627904) to mark the project's stability.
+We extend our thanks to [Tobias Bieniek (@Turbo87)](https://github.com/Turbo87) and everyone who have helped with the project!
+
+With version 1.0, you can use **assertion chaining**:
 
 ```javascript
 assert.dom('[data-test-input="Email"]')
@@ -68,7 +71,22 @@ assert.dom('[data-test-input="Email"]')
   .hasValue('zoey@ember.js');
 ```
 
-We extend our thanks to everyone who have contributed to the project!
+You can also try out a new assertion, `hasProperty`, to check for DOM properties. There can be subtle differences between `hasAttribute` (to check for HTML attributes) and `hasProperty` (for DOM properties):
+
+```javascript
+// These two assertions are equivalent.
+assert.dom('[data-test-input="I Agree"]')
+  .hasAttribute('checked', '')
+  .hasProperty('checked', true);
+
+// These three assertions are equivalent.
+assert.dom('[data-test-button="Delete"]')
+  .hasClass('btn').hasClass('btn-red')
+  .hasAttribute('class', 'btn btn-red')
+  .hasProperty('className', 'btn btn-red');
+```
+
+To learn more about when you might use `hasAttribute` or `hasProperty`, please visit [the tutorial by JavaScript.info](https://javascript.info/dom-attributes-and-properties).
 
 ---
 
