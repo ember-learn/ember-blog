@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Anne-Greeth van Herwijnen, Isaac Lee, the crowd
+author: Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 How structuring your Figma can make your developer life easier 🎨,
 QUnit DOM announces v1.0 release 🎂,
+Check out the ember-changeset 3.0.0 Release 🎉,
 
 READMORE
 
@@ -102,13 +103,11 @@ We extend our thanks to everyone who have contributed to the project!
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [ember-changeset 3.0.0 Release 🎉](https://twitter.com/puekey/status/1224340431644708864)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+The [ember-changeset](https://github.com/poteto/ember-changeset) addon officially released [version 3.0.0](https://github.com/poteto/ember-changeset/blob/master/CHANGELOG.md#300-2020-02-02). The addon provides a Changeset class that represents a set of valid changes for any Object (`Ember.Object`, `DS.Model`, POJOs, etc). The idea is only the changeset's internal values are updated until we invoke the save method which would set and save the valid changes onto the provided object.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This release requires Ember 3.13 and above and the use of @tracked will help ember-changeset monitor and propagate changes to the UI layer. If your app is < 3.13 or you need to support IE11, then you can install the 2.0 series. Watch a [free video intro](https://www.emberscreencasts.com/posts/168-introduction-to-ember-changeset) presented by EmberScreencasts and use ember-changeset today!
 
 ---
 
@@ -142,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
