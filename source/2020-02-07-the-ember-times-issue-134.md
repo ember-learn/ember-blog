@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
+author: Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 How structuring your Figma can make your developer life easier 🎨,
 QUnit DOM announces v1.0 release 🎂,
 Check out the ember-changeset 3.0.0 Release 🎉,
+polyfilled ember-data packages syntax for all Ember apps 📦,
 
 READMORE
 
@@ -20,7 +21,7 @@ READMORE
 
 [Thomas Gossmann @gossi](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. It is a 3 part series. [Part 1](https://gos.si/blog/full-featured-themes-in-figma/) has been published and will tell you all about how to organise your design in Figma. So if you want to learn something about themes and design tokens, go ahead and read  [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) .
 
-Part 2 on design tokens in Ember and part 3 on documentation within the Ember Ecosystem are on their way. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to be notified when they are published. 
+Part 2 on design tokens in Ember and part 3 on documentation within the Ember Ecosystem are on their way. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to be notified when they are published.
 
 You can find the design system and code on [GitHub](https://github.com/gossi/hokulea).
 
@@ -91,13 +92,20 @@ To learn more about when you might use `hasAttribute` or `hasProperty`, please v
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Back to the future with Ember Data packages polyfill 📦🚀](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+The [ember-data packages API](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) allows you to import objects and methods from smaller packages in the ember-data module following guidelines similar to the ones established in the [Ember Modules RFC#176](https://github.com/emberjs/rfcs/pull/176). With real and resolvable package paths, many developers can directly benefit from them with improved code reference information in their IDE. The ember-data packages API is available [since ember-data 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+There's nothing like a new, shiny API that makes your developer life easier. Even better if you can already use that API in your application
+without any upgrading! Users of ember-data with **version 3.10 and below** get to benefit
+from the new way of importing with the help of the [ember-data packages polyfill](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)!
+
+The polyfill ensures that any instances of the Packages API import statements are transformed back to the legacy "DS" EmberData import syntax.
+You can opt-in to using the polyfill in your app, by upgrading your ember-cli-babel dependency to [version 7.14](https://github.com/babel/ember-cli-babel/releases/tag/v7.14.0) or higher for this [new feature](https://github.com/babel/ember-cli-babel/pull/318).
+
+Wanna learn more about how to use the new packages import syntax for ember-data? Be sure to give the [Ember 3.11 release post](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html) another read
+for practical code examples on how to use it and pop by the [#ember-data channel on the Ember Discord](https://discordapp.com/invite/emberjs) for more questions and discussions.
+
 
 ---
 
@@ -131,7 +139,7 @@ This release requires Ember 3.13 and above and the use of @tracked will help emb
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/bobisjan" target="gh-user">@bobisjan</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/lifeart" target="gh-user">@lifeart</a>, <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a> and <a href="https://github.com/pichfl" target="gh-user">@pichfl</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -159,4 +167,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
