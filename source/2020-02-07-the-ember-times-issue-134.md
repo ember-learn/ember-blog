@@ -11,7 +11,7 @@ responsive: true
 This week: Polyfilled ember-data packages syntax for all Ember apps 📦,
 use Figma with Storybook to make your developer life easier 🎨,
 QUnit DOM announces v1.0 release 🎂,
-and check out the ember-changeset 3.0.0 Release 🎉!
+and check out the ember-changeset 3.0.0 release 🎉!
 
 READMORE
 
