@@ -1,59 +1,43 @@
 ---
 title: The Ember Times - Issue No. 134
-author: Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/07-the-ember-times-issue-134.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-How structuring your Figma can make your developer life easier 🎨,
+This week: Polyfilled ember-data packages syntax for all Ember apps 📦,
+Use Figma with Storybook to make your developer life easier 🎨,
 QUnit DOM announces v1.0 release 🎂,
 Check out the ember-changeset 3.0.0 Release 🎉,
-polyfilled ember-data packages syntax for all Ember apps 📦,
 
 READMORE
 
 ---
 
-## [From Figma to Ember to Storybook … with 2 Clicks 🎨](https://gos.si/blog/from-figma-to-ember-to-storybook-with-2-clicks/)
+## [Back to the future with ember-data packages polyfill 📦🚀](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)
 
-[Thomas Gossmann @gossi](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. It is a 3 part series. [Part 1](https://gos.si/blog/full-featured-themes-in-figma/) has been published and will tell you all about how to organise your design in Figma. So if you want to learn something about themes and design tokens, go ahead and read  [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) .
+The [ember-data packages API](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) allows you to import objects and methods from smaller packages in the ember-data module following guidelines similar to the ones established in the [Ember Modules RFC #176](https://github.com/emberjs/rfcs/pull/176). With real and resolvable package paths, many developers can directly benefit from them with improved code reference information in their IDE. The ember-data packages API is available [since ember-data 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
 
-Part 2 on design tokens in Ember and part 3 on documentation within the Ember Ecosystem are on their way. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to be notified when they are published.
+There's nothing like a new, shiny API that makes your developer life easier. Even better if you can already use that API in your application without any upgrading! Users of ember-data with **version 3.10 and below** get to benefit
+from the new way of importing with the help of the [ember-data packages polyfill](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)!
+
+The polyfill ensures that any instances of the Packages API import statements are transformed back to the legacy "DS" EmberData import syntax. You can opt-in to using the polyfill in your app, by upgrading your ember-cli-babel dependency to [version 7.14](https://github.com/babel/ember-cli-babel/releases/tag/v7.14.0) or higher for this [new feature](https://github.com/babel/ember-cli-babel/pull/318).
+
+Wanna learn more about how to use the new packages import syntax for ember-data? Be sure to give the [Ember 3.11 release post](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html) another read
+for practical code examples on how to use it and pop by the [#ember-data channel on the Ember Discord](https://discordapp.com/invite/emberjs) for more questions and discussions.
+
+---
+
+## [From Figma to Ember to Storybook…with two clicks 🎨](https://gos.si/blog/from-figma-to-ember-to-storybook-with-2-clicks/)
+
+[Thomas Gossmann (@gossi)](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) has been published and will tell you all about how to organise your design in Figma. 
+
+Stay tuned for Part 2 on design tokens and Part 3 on documentation within the Ember Ecosystem. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to be notified when they are published.
 
 You can find the design system and code on [GitHub](https://github.com/gossi/hokulea).
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -61,8 +45,7 @@ You can find the design system and code on [GitHub](https://github.com/gossi/hok
 
 [QUnit DOM](https://github.com/simplabs/qunit-dom) provides **readable assertions for QUnit** and has been shipped with Ember since v3.1. If you haven't tried QUnit DOM yet, we recommend [checking out its API](https://github.com/simplabs/qunit-dom/blob/master/API.md) to see how you can simplify your tests.
 
-Last week, QUnit DOM [announced its v1.0 release](https://twitter.com/TobiasBieniek/status/1223998561605627904) to mark the project's stability.
-We extend our thanks to [Tobias Bieniek (@Turbo87)](https://github.com/Turbo87) and everyone who have helped with the project!
+Last week, QUnit DOM [announced its v1.0 release](https://twitter.com/TobiasBieniek/status/1223998561605627904) to mark the project's stability. We extend our thanks to [Tobias Bieniek (@Turbo87)](https://github.com/Turbo87) and everyone who have helped with the project!
 
 With version 1.0, you can use **assertion chaining**:
 
@@ -89,43 +72,6 @@ assert.dom('[data-test-button="Delete"]')
 ```
 
 To learn more about when you might use `hasAttribute` or `hasProperty`, please visit [the tutorial by JavaScript.info](https://javascript.info/dom-attributes-and-properties).
-
----
-
-## [Back to the future with Ember Data packages polyfill 📦🚀](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)
-
-The [ember-data packages API](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) allows you to import objects and methods from smaller packages in the ember-data module following guidelines similar to the ones established in the [Ember Modules RFC#176](https://github.com/emberjs/rfcs/pull/176). With real and resolvable package paths, many developers can directly benefit from them with improved code reference information in their IDE. The ember-data packages API is available [since ember-data 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
-
-There's nothing like a new, shiny API that makes your developer life easier. Even better if you can already use that API in your application
-without any upgrading! Users of ember-data with **version 3.10 and below** get to benefit
-from the new way of importing with the help of the [ember-data packages polyfill](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)!
-
-The polyfill ensures that any instances of the Packages API import statements are transformed back to the legacy "DS" EmberData import syntax.
-You can opt-in to using the polyfill in your app, by upgrading your ember-cli-babel dependency to [version 7.14](https://github.com/babel/ember-cli-babel/releases/tag/v7.14.0) or higher for this [new feature](https://github.com/babel/ember-cli-babel/pull/318).
-
-Wanna learn more about how to use the new packages import syntax for ember-data? Be sure to give the [Ember 3.11 release post](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html) another read
-for practical code examples on how to use it and pop by the [#ember-data channel on the Ember Discord](https://discordapp.com/invite/emberjs) for more questions and discussions.
-
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -167,4 +113,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
