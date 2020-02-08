@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 134
 author: Chris Ng, Anne-Greeth van Herwijnen, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/07-the-ember-times-issue-134.html"
 responsive: true
 ---
