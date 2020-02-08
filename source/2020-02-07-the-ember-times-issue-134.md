@@ -9,9 +9,9 @@ responsive: true
 👋 Emberistas! 🐹
 
 This week: Polyfilled ember-data packages syntax for all Ember apps 📦,
-Use Figma with Storybook to make your developer life easier 🎨,
+use Figma with Storybook to make your developer life easier 🎨,
 QUnit DOM announces v1.0 release 🎂,
-Check out the ember-changeset 3.0.0 Release 🎉,
+and check out the ember-changeset 3.0.0 Release 🎉!
 
 READMORE
 
@@ -19,7 +19,7 @@ READMORE
 
 ## [Back to the future with ember-data packages polyfill 📦🚀](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)
 
-The [ember-data packages API](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) allows you to import objects and methods from smaller packages in the ember-data module following guidelines similar to the ones established in the [Ember Modules RFC #176](https://github.com/emberjs/rfcs/pull/176). With real and resolvable package paths, many developers can directly benefit from them with improved code reference information in their IDE. The ember-data packages API is available [since ember-data 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
+The [ember-data packages API](https://emberjs.github.io/rfcs/0395-ember-data-packages.html) allows you to import objects and methods from smaller packages in the ember-data module following guidelines similar to the ones established in the [Ember Modules RFC#176](https://github.com/emberjs/rfcs/pull/176). With real and resolvable package paths, many developers can directly benefit from them with improved code reference information in their IDE. The ember-data packages API is available [since ember-data 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
 
 There's nothing like a new, shiny API that makes your developer life easier. Even better if you can already use that API in your application without any upgrading! Users of ember-data with **version 3.10 and below** get to benefit
 from the new way of importing with the help of the [ember-data packages polyfill](https://github.com/ember-data/babel-plugin-ember-data-packages-polyfill)!
