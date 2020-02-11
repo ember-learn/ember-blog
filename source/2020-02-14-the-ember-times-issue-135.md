@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 135
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
@@ -9,18 +9,18 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Learn about Native Decorator Support from EmberMap 🐹🗺️,
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [EmberMap: Learn About Native Decorator Support 🐹🗺️](https://twitter.com/ember_map/status/1225464396471787525)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Check out the latest EmberMap episode of "What's New in Ember." It talks about what the [Native Decorator Support](https://emberjs.github.io/rfcs/0440-decorator-support.html) feature from Ember 3.10 means for you and why [Decorators](https://emberjs.github.io/rfcs/0408-decorators.html) are important for Ember's adoption of ES Classes.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+With Ember 3.10, all the core APIs and surrounding ecosystem libraries can start adopting decorators as per the [stage 1 implementation](https://github.com/tc39/proposal-decorators) which would pave the way for ES classes in Ember. However, the happy path is still to wait until [the Octane release or 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) to start using both ES classes and decorators together for all of your Ember app code.
+
+To check out how to upgrade your app to 3.15, check out this [great Discord thread](https://discuss.emberjs.com/t/question-about-the-native-decorator-support-feature/17474) on the issue but also be sure to check out the full video on [Native Decorator Support on EmberMap](https://embermap.com/topics/what-s-new-in-ember/native-decorator-support-3-10).
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
