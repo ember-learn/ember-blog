@@ -84,12 +84,18 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.16
 
-#### New Features (1)
+#### New Features (2)
 
-**Drop Node 8 support (1 of 1)**
+**Drop Node 8 support (1 of 2)**
 
 Ember CLI 3.16 officially drops support for Node 8. Ember.js still supports it until all the blueprints are updated.
 Maintainers of addons are encouraged to make a _major version_ release of their addons when upgrading to 3.16, since dropping Node 8 support may be a breaking change for some of their library's users.
+
+**Drop Ember 3.8 from `ember-try` test scenarios in addomn blueprints (2 of 2)**
+
+For addons that are upgrading to version 3.16 of Ember CLI, note that the `ember-try.js` scenarios
+in the blueprints no longer include 3.8. Addon maintainers who decide to also drop Ember 3.8 from
+their own test scenarios are encouraged to make a _major version_ release of their addons.
 
 #### Deprecations (0)
 
