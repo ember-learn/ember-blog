@@ -94,6 +94,7 @@ Maintainers of addons are encouraged to make a _major version_ release of their 
 #### Deprecations (0)
 
 There are no new deprecations in Ember CLI 3.16.
+
 ---
 
 For more details on the changes in Ember CLI 3.16 and detailed upgrade
