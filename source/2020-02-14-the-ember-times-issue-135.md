@@ -40,7 +40,7 @@ In this second post [@pzuraq](https://github.com/pzuraq) dives deeper and survey
 
 There are helpful diagrams and clear explanations to help you better understand the finer points. If you’re looking to learn more about how these models of reactivity are similar and different, then this post is a great read for you.
 
-Be sure to be on the look out for more updates from the Ember Times team as more of these awesome blog posts are released!
+Be sure to be on the lookout for more updates from the Ember Times team as more of these awesome blog posts are released!
 
 ---
 
