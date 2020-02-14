@@ -38,7 +38,7 @@ Bonus 🎉 [@pzuraq’s](https://github.com/pzuraq) [second post](https://www.pz
 
 In this second post [@pzuraq](https://github.com/pzuraq) dives deeper and surveys several reactivity systems. Compaing HTML/CSS (did you know they are reactive!?), push-based reactivity systems that are often implemented with JavaScript (such as Ember Classic and other systems like the Observable model), and pull-based reactivity systems of React and the Virtual DOM, Vue and Elm. 
 
-There's some helpful diagrams and clear explanations to help you better understand the finer points. If you’re looking to learn more about how these models of reactivity are similar and different, then this post is a great read for you.
+There are helpful diagrams and clear explanations to help you better understand the finer points. If you’re looking to learn more about how these models of reactivity are similar and different, then this post is a great read for you.
 
 Be sure to be on the look out for more updates from the Ember Times team as more of these awesome blog posts are released!
 
