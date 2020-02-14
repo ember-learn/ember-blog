@@ -100,7 +100,7 @@ Which will render the component in your app as follows:
 <img width="320" height="64" alt="My favorite snacc" />
 ```
 
-The efforts to allow Ember devs to write less verbose component templates and to manage deeply nested component invocations successfully continue. This week Ember developer, contributor and Ember Times editor [Alon Bukai (@Alonski)](https://github.com/Alonski) wrote down an RFC to promote the [idea of **spreadable arguments**](https://github.com/emberjs/rfcs/blob/1c90e48eeec9a990627a6ce1e9f70391ba95bbb7/text/0000-spreadable-arguments.md).
+The efforts to allow Ember devs to write less verbose component templates and to manage deeply nested component invocations successfully continue. This week, [Alon Bukai (@Alonski)](https://github.com/Alonski), Ember developer, contributor and Ember Times editor, wrote down an RFC to promote the [idea of **spreadable arguments**](https://github.com/emberjs/rfcs/blob/1c90e48eeec9a990627a6ce1e9f70391ba95bbb7/text/0000-spreadable-arguments.md).
 
 Similar to splattatributes, these would allow the forwarding of component configuration with less verbosity, but in this instance via **arguments** rather than attributes. You can learn more about the motivation of this feature and how it is used, in the [RFC itself](https://github.com/emberjs/rfcs/pull/593). And as always: feel encouraged to leave your thoughts, questions and suggestions in the comments below!
 
