@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 135
-author: Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
@@ -13,6 +13,7 @@ Learn about Native Decorator Support from EmberMap 🐹🗺️,
 review the RFC for splarguments 💖,
 Autotracking! A Blog Series on Reactivity Systems 🤖,
 JSParty podcast with Jen and Chris 📻,
+Three Reasons to Switch to Angle Bracket Syntax in Ember Octane 💡,
 READMORE
 
 ---
@@ -51,13 +52,14 @@ Be sure to be on the lookout for more updates from the Ember Times team as more 
 
 ## [There is no party like an Octane party 🎊](https://changelog.com/jsparty/114)
 
-On the 6th of February [Jen Weber (@jenweber)](https://github.com/jenweber) and [Chris Manson (@mansona)
-](https://github.com/mansona) were live on the [JS Party podcast](https://changelog.com/jsparty/114). This party describes itself as: "A community celebration of JavaScript and the web.". They record on Thursdays at 1pm Eastern / 10am Pacific if you want to tune in live. 
+On the 6th of February [Jen Weber (@jenweber)](https://github.com/jenweber) and [Chris Manson (@mansona)](https://github.com/mansona) were live on the [JS Party podcast](https://changelog.com/jsparty/114). This party describes itself as: "A community celebration of JavaScript and the web." They record on Thursdays at 1pm Eastern / 10am Pacific if you want to tune in live.
+
 <!--alex ignore hostesses-hosts ball-->
-[Jen](https://github.com/jenweber) and [Chris](https://github.com/mansona) talked with the hosts, [Kevin Ball (@kball)](https://github.com/kball) and [Nick Nisi](https://nicknisi.com/), about Ember Octane, how Ember operates as a framework, and the role of the community within Ember. 
-The [podcast](https://changelog.com/jsparty/114) got published today, so if you have missed it on the 6th or want to listen to it again, you can!
+[Jen](https://github.com/jenweber) and [Chris](https://github.com/mansona) talked with the hosts, [Kevin Ball (@kball)](https://github.com/kball) and [Nick Nisi](https://nicknisi.com/), about Ember Octane, how Ember operates as a framework, and the role of the community within Ember. The [podcast](https://changelog.com/jsparty/114) got published today, so if you have missed it on the 6th or want to listen to it again, you can!
+
 <!--alex ignore hostesses-hosts special-->
-Since the podcast reaches out to an audience in the wider JavaScript community, we got to listen to what makes Ember special. One of the hosts even tried the Ember tutorial to get a grasp of what Ember does differently. 
+Since the podcast reaches out to an audience in the wider JavaScript community, we got to listen to what makes Ember special. One of the hosts even tried the Ember tutorial to get a grasp of what Ember does differently.
+
 All in all, a lovely podcast with two **awesome** representatives from the Ember core team. 
 
 ---
@@ -72,13 +74,13 @@ All in all, a lovely podcast with two **awesome** representatives from the Ember
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Three Reasons to Switch to Angle Bracket Syntax in Ember Octane 💡](https://spin.atomicobject.com/2020/02/12/ember-angle-bracket-syntax/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+One aspect of Ember Octane that we, at The Ember Times, enjoy is discovering feedback from developers and teams as they adopt Octane in production apps.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This week, [Bekah Cheek at Atomic Object](https://atomicobject.com/team/bekah-cheek) shared how the angle bracket syntax [helped her team write readable code and develop new components with ease](https://spin.atomicobject.com/2020/02/12/ember-angle-bracket-syntax/). We encourage you to have a look for more details, then share your own experience on a blog, Discord, or Twitter!
+
+You can visit the Ember Guides to [learn more about the angle bracket syntax and its benefits](https://guides.emberjs.com/release/upgrading/current-edition/templates/).
 
 ---
 
@@ -173,4 +175,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
