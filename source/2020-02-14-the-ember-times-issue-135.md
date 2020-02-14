@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Learn about Native Decorator Support from EmberMap 🐹🗺️,
-spread arguments across your components with splarguments 💖,
+review the RFC for splarguments 💖,
 READMORE
 
 ---
@@ -75,10 +75,10 @@ To check out how to upgrade your app to 3.15, check out this [great Discord thre
 
 ---
 
-## [Spreading arguments with Splarguments 💖](https://github.com/emberjs/rfcs/pull/593)
+## [Review the potential future of splarguments 💖](https://github.com/emberjs/rfcs/pull/593)
 
 
-Two years ago the [Request for Comments (RFC) #311](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#html-attributes) made quite a splash: Besides an entirely new invocation syntax for Ember components, it suggested a novel feature that allowed Ember users to pass **HTML attributes**, such as _class_, _width_ or _tabindex_, from the invocation site of a component down to its content. There they can finally be accessed using the so-called **splatattributes** syntax.
+Two years ago the [Request for Comments (RFC) #311](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#html-attributes) made quite a splash: Besides an entirely new invocation syntax for Ember components, it suggested a novel feature that allowed Ember users to pass **HTML attributes**, such as _class_, _width_ or _tabindex_, from the invocation site of a component down to its content. There they can finally be accessed using the so-called **splattributes** syntax.
 
 Here's a quick reminder of how that looks like - imagine the following markup:
 
