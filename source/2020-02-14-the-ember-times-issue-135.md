@@ -85,7 +85,7 @@ Here's a quick reminder of how that looks like - imagine the following markup:
 ```handlebars
 <!-- app/templates/application.hbs -->
 <!-- invoking a component with several attributes.... -->
-<MyImageComponent width="320" height="64" alt="My favorite snacc" />
+<MyImageComponent width="320" height="64" alt="My favorite snack" />
 ```
 
 ```handlebars
