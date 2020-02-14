@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 135
-author: Chris Ng, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Learn about Native Decorator Support from EmberMap 🐹🗺️,
+spread arguments across your components with splarguments 💖,
 READMORE
 
 ---
@@ -74,13 +75,34 @@ To check out how to upgrade your app to 3.15, check out this [great Discord thre
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Spreading arguments with Splarguments 💖](https://github.com/emberjs/rfcs/pull/593)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Two years ago the [Request for Comments (RFC) #311](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#html-attributes) made quite a splash: Besides an entirely new invocation syntax for Ember components, it suggested a novel feature that allowed Ember users to pass **HTML attributes**, such as _class_, _width_ or _tabindex_, from the invocation site of a component down to its content. There they can finally be accessed using the so-called **splatattributes** syntax.
+
+Here's a quick reminder of how that looks like - imagine the following markup:
+
+```handlebars
+<!-- app/templates/application.hbs -->
+<!-- invoking a component with several attributes.... -->
+<MyImageComponent width="320" height="64" alt="My favorite snacc" />
+```
+
+```handlebars
+<!-- app/components/my-image-component.hbs -->
+<!-- ...allows access to the attributes in the component's template -->
+<img ...attributes />
+```
+
+Which will render the component in your app as follows:
+
+```html
+<img width="320" height="64" alt="My favorite snacc" />
+```
+
+The efforts to allow Ember devs to write less verbose component templates and to manage deeply nested component invocations successfully continue. This week Ember developer, contributor and Ember Times editor [Alon Bukai (@Alonski)](https://github.com/Alonski) wrote down an RFC to promote the [idea of **spreadable arguments**](https://github.com/emberjs/rfcs/blob/1c90e48eeec9a990627a6ce1e9f70391ba95bbb7/text/0000-spreadable-arguments.md).
+
+Similar to splattatributes, these would allow the forwarding of component configuration with less verbosity, but in this instance via **arguments** rather than attributes. You can learn more about the motivation of this feature and how it is used, in the [RFC itself](https://github.com/emberjs/rfcs/pull/593). And as always: feel encouraged to leave your thoughts, questions and suggestions in the comments below!
 
 ---
 
@@ -106,7 +128,7 @@ To check out how to upgrade your app to 3.15, check out this [great Discord thre
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/jgwhite" target="gh-user">@jgwhite</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/mehulkar" target="gh-user">@mehulkar</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/krisselden" target="gh-user">@krisselden</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a> and <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -134,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
