@@ -32,7 +32,7 @@ Interested in learning more about autotracking, Ember Octane's new reactivity sy
 
 The [first post](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/) came out at the end of last month and it examines what reactivity means, how it relates to declarative and imperative programming models. Even experienced Ember developers will likely get a lot of value out of reading about what these often-used, but rarely fully understood, terms mean. 
 
-Explaining things in an approachable and conversational style, [@pzuraq](https://github.com/pzuraq) also looks at how state is used in these programming models and how it is used in functional programming models. It’s a great intro for any one looking to learn a bit about reactivity systems in general.
+In an approachable and conversational style, [@pzuraq](https://github.com/pzuraq) also explains how state is used in these programming models as well as functional programming models. It’s a great intro for anyone looking to learn a bit about reactivity systems.
 
 Bonus 🎉 [@pzuraq’s](https://github.com/pzuraq) [second post](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/) about what makes a good reactivity system came out this week!
 
