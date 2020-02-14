@@ -37,6 +37,7 @@ In an approachable and conversational style, [@pzuraq](https://github.com/pzuraq
 Bonus 🎉 [@pzuraq’s](https://github.com/pzuraq) [second post](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/) about what makes a good reactivity system came out this week!
 
 [@pzuraq](https://github.com/pzuraq) dives deeper and surveys several reactivity systems:
+
 - HTML/CSS (did you know they are reactive!?)
 - Push-based reactivity systems, which are often implemented with JavaScript (e.g. Ember Classic and other systems like the Observable model)
 - Pull-based reactivity systems (e.g. React and the Virtual DOM, Vue and Elm)
