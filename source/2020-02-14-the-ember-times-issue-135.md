@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 135
-author: Chris Ng, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Learn about Native Decorator Support from EmberMap 🐹🗺️,
 review the RFC for splarguments 💖,
 Autotracking! A Blog Series on Reactivity Systems 🤖,
+JSParty podcast with Jen and Chris 📻,
 READMORE
 
 ---
@@ -48,13 +49,16 @@ Be sure to be on the lookout for more updates from the Ember Times team as more 
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [There is no party like an Octane party 🎊](https://changelog.com/jsparty/114)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+On the 6th of February [Jen Weber @jenweber](https://github.com/jenweber) and [Chris Manson @mansona
+](https://github.com/mansona) were live on the [JS Party podcast](https://changelog.com/jsparty). This party describes themselves as: "A community celebration of JavaScript and the web.". They record on Thursdays at 1pm Eastern / 10am Pacific if you want to tune in live. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Jen](https://github.com/jenweber) and [Chris](https://github.com/mansona) talked with the hosts, [Kevin Ball @kball](https://github.com/kball) and [Nick Nisi](https://nicknisi.com/), about Ember Octane and the way Ember how as a framework work, and also about the role of the community within Ember. 
+The [podcast](https://changelog.com/jsparty/114) got published today, so if you have missed it on the 6th or want to listen to it again, you can!
+
+Since the audience for this podcast was not the Ember community this podcast is a nice showcase of what makes Ember special. One of the hosts even tried the Ember tutorial to get a grasp of what Ember is. 
+All in all, a lovely podcast with two **awesome** representatives from the Ember core team. 
 
 ---
 
@@ -169,4 +173,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, the crowd and the Learning Team
