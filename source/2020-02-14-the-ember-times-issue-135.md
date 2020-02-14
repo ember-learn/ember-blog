@@ -53,10 +53,10 @@ Be sure to be on the lookout for more updates from the Ember Times team as more 
 
 On the 6th of February [Jen Weber @jenweber](https://github.com/jenweber) and [Chris Manson @mansona
 ](https://github.com/mansona) were live on the [JS Party podcast](https://changelog.com/jsparty). This party describes themselves as: "A community celebration of JavaScript and the web.". They record on Thursdays at 1pm Eastern / 10am Pacific if you want to tune in live. 
-<!--alex ignore hosts--><!--alex ignore Ball-->
+<!--alex ignore hostesses-hosts ball-->
 [Jen](https://github.com/jenweber) and [Chris](https://github.com/mansona) talked with the hosts, [Kevin Ball @kball](https://github.com/kball) and [Nick Nisi](https://nicknisi.com/), about Ember Octane and the way Ember how as a framework work, and also about the role of the community within Ember. 
 The [podcast](https://changelog.com/jsparty/114) got published today, so if you have missed it on the 6th or want to listen to it again, you can!
-<!--alex ignore hosts--><!--alex ignore special-->
+<!--alex ignore hostesses-hosts special-->
 Since the audience for this podcast was not the Ember community this podcast is a nice showcase of what makes Ember special. One of the hosts even tried the Ember tutorial to get a grasp of what Ember is. 
 All in all, a lovely podcast with two **awesome** representatives from the Ember core team. 
 
