@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 135
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Learn about Native Decorator Support from EmberMap 🐹🗺️,
 review the RFC for splarguments 💖,
+Autotracking! A Blog Series on Reactivity Systems 🤖,
 READMORE
 
 ---
@@ -25,13 +26,25 @@ To check out how to upgrade your app to 3.15, check out this [great Discord thre
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Autotracking! A Blog Series on Reactivity Systems 🤖](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Interested in learning more about autotracking, Ember Octane's new reactivity system? Well then, you're in luck 🍀. [Chris Garrett (@pzuraq)](https://github.com/pzuraq) is starting another super interesting new blog post series on that exact subject!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [first post](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/), which came out at the end of last month, examines what reactivity means and how it relates to declarative and imperative programming models. Even experienced Ember developers will likely get a lot of value out of reading about what these often-used, but rarely fully understood, terms mean. 
+
+In an approachable and conversational style, [@pzuraq](https://github.com/pzuraq) also explains how state is used in these programming models as well as functional programming models. It’s a great intro for anyone looking to learn a bit about reactivity systems.
+
+Bonus 🎉 [@pzuraq’s](https://github.com/pzuraq) [second post](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/) about what makes a good reactivity system came out this week!
+
+[@pzuraq](https://github.com/pzuraq) dives deeper and surveys several reactivity systems:
+
+- HTML/CSS (did you know they are reactive!?)
+- Push-based reactivity systems, which are often implemented with JavaScript (e.g. Ember Classic and other systems like the Observable model)
+- Pull-based reactivity systems (e.g. React and the Virtual DOM, Vue and Elm)
+
+There are helpful diagrams and clear explanations to help you better understand the finer points. If you’re looking to learn more about how these models of reactivity are similar and different, then this post is a great read for you.
+
+Be sure to be on the lookout for more updates from the Ember Times team as more of these awesome blog posts are released!
 
 ---
 
@@ -156,4 +169,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
