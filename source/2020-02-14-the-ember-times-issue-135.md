@@ -28,7 +28,7 @@ To check out how to upgrade your app to 3.15, check out this [great Discord thre
 
 ## [Autotracking! A Blog Series on Reactivity Systems 🤖](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/)
 
-Interested in learning more about auto tracking, Ember Octane's new reactivity system? Well then, you're in luck 🍀. [Chris Garrett @pzuraq](https://github.com/pzuraq) is starting another super interesting new blog post series on that exact subject!
+Interested in learning more about autotracking, Ember Octane's new reactivity system? Well then, you're in luck 🍀. [Chris Garrett (@pzuraq)](https://github.com/pzuraq) is starting another super interesting new blog post series on that exact subject!
 
 The [first post](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/) came out at the end of last month and it examines what reactivity means, how it relates to declarative and imperative programming models. Even experienced Ember developers will likely get a lot of value out of reading about what these often-used, but rarely fully understood, terms mean. 
 
