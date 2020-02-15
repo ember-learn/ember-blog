@@ -1,34 +1,34 @@
 ---
 title: The Ember Times - Issue No. 135
-author: Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Happy Valentine's Day, Emberistas! 💌
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Learn about Native Decorator Support from EmberMap 🐹🗺️,
 review the RFC for splarguments 💖,
-Autotracking! A Blog Series on Reactivity Systems 🤖,
-JSParty podcast with Jen and Chris 📻,
-Three Reasons to Switch to Angle Bracket Syntax in Ember Octane 💡,
+autotracking! a blog series on reactivity systems 🤖,
+JSParty podcast with Jen and Chris 📻, and
+three reasons to switch to angle bracket syntax in Ember Octane 💡!
+
 READMORE
 
 ---
 
-## [EmberMap: Learn About Native Decorator Support 🐹🗺️](https://twitter.com/ember_map/status/1225464396471787525)
+## [EmberMap: Learn about Native Decorator Support 🐹🗺️](https://twitter.com/ember_map/status/1225464396471787525)
 
-Check out the latest EmberMap episode of "What's New in Ember." It talks about what the [Native Decorator Support](https://emberjs.github.io/rfcs/0440-decorator-support.html) feature from Ember 3.10 means for you and why [Decorators](https://emberjs.github.io/rfcs/0408-decorators.html) are important for Ember's adoption of ES Classes.
+Check out the latest EmberMap episode of "What's New in Ember." It talks about what the [Native Decorator Support](https://emberjs.github.io/rfcs/0440-decorator-support.html) feature from Ember 3.10 means for you and why [Decorators](https://emberjs.github.io/rfcs/0408-decorators.html) are important for Ember's adoption of ES classes.
 
 With Ember 3.10, all the core APIs and surrounding ecosystem libraries can start adopting decorators as per the [stage 1 implementation](https://github.com/tc39/proposal-decorators) which would pave the way for ES classes in Ember. However, the happy path is still to wait until [the Octane release or 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) to start using both ES classes and decorators together for all of your Ember app code.
 
-To check out how to upgrade your app to 3.15, check out this [great Discord thread](https://discuss.emberjs.com/t/question-about-the-native-decorator-support-feature/17474) on the issue but also be sure to check out the full video on [Native Decorator Support on EmberMap](https://embermap.com/topics/what-s-new-in-ember/native-decorator-support-3-10).
+To check out how to upgrade your app to 3.15, check out this [great Discuss thread](https://discuss.emberjs.com/t/question-about-the-native-decorator-support-feature/17474) on the issue but also be sure to check out the full video on [Native Decorator Support on EmberMap](https://embermap.com/topics/what-s-new-in-ember/native-decorator-support-3-10).
 
 ---
 
-## [Autotracking! A Blog Series on Reactivity Systems 🤖](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/)
+## [Autotracking! A blog series on reactivity systems 🤖](https://www.pzuraq.com/thinking-with-autotracking-what-makes-a-good-reactive-system/)
 
 Interested in learning more about autotracking, Ember Octane's new reactivity system? Well then, you're in luck 🍀. [Chris Garrett (@pzuraq)](https://github.com/pzuraq) is starting another super interesting new blog post series on that exact subject!
 
@@ -64,33 +64,13 @@ All in all, a lovely podcast with two **awesome** representatives from the Ember
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Three Reasons to Switch to Angle Bracket Syntax in Ember Octane 💡](https://spin.atomicobject.com/2020/02/12/ember-angle-bracket-syntax/)
+## [Three reasons to switch to angle bracket syntax in Ember Octane 💡](https://spin.atomicobject.com/2020/02/12/ember-angle-bracket-syntax/)
 
 One aspect of Ember Octane that we, at The Ember Times, enjoy is discovering feedback from developers and teams as they adopt Octane in production apps.
 
 This week, [Bekah Cheek at Atomic Object](https://atomicobject.com/team/bekah-cheek) shared how the angle bracket syntax [helped her team write readable code and develop new components with ease](https://spin.atomicobject.com/2020/02/12/ember-angle-bracket-syntax/). We encourage you to have a look for more details, then share your own experience on a blog, Discord, or Twitter!
 
 You can visit the Ember Guides to [learn more about the angle bracket syntax and its benefits](https://guides.emberjs.com/release/upgrading/current-edition/templates/).
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -125,26 +105,6 @@ Similar to splattributes, these would allow the forwarding of component configur
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/jgwhite" target="gh-user">@jgwhite</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/mehulkar" target="gh-user">@mehulkar</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/wycats" target="gh-user">@wycats</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/krisselden" target="gh-user">@krisselden</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a> and <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>  for their contributions to Ember and related repositories! 💖</p>
@@ -175,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, Amy Lam and the Learning Team
