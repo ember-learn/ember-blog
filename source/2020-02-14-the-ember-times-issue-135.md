@@ -50,12 +50,12 @@ Be sure to be on the lookout for more updates from the Ember Times team as more 
 
 ---
 
-## [There is no party like an Octane party 🎊](https://changelog.com/jsparty/114)
+## [There is no party like an Octane party! 🎊](https://changelog.com/jsparty/114)
 
-On the 6th of February [Jen Weber (@jenweber)](https://github.com/jenweber) and [Chris Manson (@mansona)](https://github.com/mansona) were live on the [JS Party podcast](https://changelog.com/jsparty/114). This party describes itself as: "A community celebration of JavaScript and the web." They record on Thursdays at 1pm Eastern / 10am Pacific if you want to tune in live.
+On February 6th, [Jen Weber (@jenweber)](https://github.com/jenweber) and [Chris Manson (@mansona)](https://github.com/mansona) were live on the [JS Party podcast](https://changelog.com/jsparty/114). This party describes itself as: "A community celebration of JavaScript and the web." They record on Thursdays at 1pm Eastern / 10am Pacific if you want to tune in live.
 
 <!--alex ignore hostesses-hosts ball-->
-[Jen](https://github.com/jenweber) and [Chris](https://github.com/mansona) talked with the hosts, [Kevin Ball (@kball)](https://github.com/kball) and [Nick Nisi](https://nicknisi.com/), about Ember Octane, how Ember operates as a framework, and the role of the community within Ember. The [podcast](https://changelog.com/jsparty/114) got published today, so if you have missed it on the 6th or want to listen to it again, you can!
+[Jen](https://github.com/jenweber) and [Chris](https://github.com/mansona) talked with the hosts, [Kevin Ball (@kball)](https://github.com/kball) and [Nick Nisi](https://nicknisi.com/), about Ember Octane, how Ember operates as a framework, and the role of the community within Ember. The [podcast](https://changelog.com/jsparty/114) got published today, so if you have missed it or want to listen to it again, you can!
 
 <!--alex ignore hostesses-hosts special-->
 Since the podcast reaches out to an audience in the wider JavaScript community, we got to listen to what makes Ember special. One of the hosts even tried the Ember tutorial to get a grasp of what Ember does differently.
