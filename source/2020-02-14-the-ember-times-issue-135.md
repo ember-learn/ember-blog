@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 135
 author: Chris Ng, Jessica Jordan, Jared Galanis, Anne-Greeth van Herwijnen, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/14-the-ember-times-issue-135.html"
 responsive: true
 ---
