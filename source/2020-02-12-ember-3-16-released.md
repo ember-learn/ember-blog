@@ -1,7 +1,7 @@
 ---
 title: Ember 3.16 Released
 author: Kenneth Larsen
-tags: Releases, 2019, 3, 3.16, Version 3.x
+tags: Releases, 2020, 3, 3.16, Version 3.x
 responsive: true
 ---
 
