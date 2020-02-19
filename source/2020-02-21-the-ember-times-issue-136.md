@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 136
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
@@ -9,6 +9,9 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+...
+Ember 3.16 released 🚀,
+...
 
 READMORE
 
@@ -24,13 +27,9 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember 3.16 released 🚀](https://blog.emberjs.com/2020/02/12/ember-3-16-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/02/12/ember-3-16-released.html) is an incremental, backwards compatible release with bugfixes, performance improvements, and minor deprecations. Whether you're on the bleeding edge or 1.x, be sure to refer to the official [Ember blog](https://blog.emberjs.com/tags/releases.html) when looking for release details!
 
 ---
 
@@ -134,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
