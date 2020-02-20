@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-"Why Ember" videos wanted 📼,
+Call for videos for the EmberConf keynote 📢,
 Ember 3.16 released 🚀,
 Check out the journey to your first published addon 📅,
 ...
@@ -18,9 +18,9 @@ READMORE
 
 ---
 
-## ["Why Ember" videos wanted 📼](https://airtable.com/shrYpEeT3xtyst5G)
+## [Call for videos for the EmberConf keynote 📢](https://airtable.com/shrYpEeT3xtyst5G)
 
-Hi, Embereños! It's me Yehuda.
+Hi, Embereños! It's me, Yehuda.
 
 I'm collecting some videos of people's Ember stories for possible use in this year's EmberConf keynote.
 
@@ -34,8 +34,7 @@ Here are some topics you could cover to help flesh out your story:
 
 Don't feel restricted to details about Ember features. Feel free to talk about intangible details, like how it feels to be part of a community that works together, your experiences with Ember's evolution, or experiences about your own evolution as a developer.
 
-<!--alex ignore host-hostess-->
-To participate, create your video, upload it to YouTube or whatever host you prefer, and tell me about it at [https://airtable.com/shrYpEeT3xtyst5Gq](https://airtable.com/shrYpEeT3xtyst5Gq) by the end of March 1 (your time). You can find more detail at that link.
+Please send in your video by the end of March 1, your time at [https://airtable.com/shrYpEeT3xtyst5Gq](https://airtable.com/shrYpEeT3xtyst5Gq). If you have any questions, please email me at [wycats@gmail.com](mailto:wycats@gmail.com).
 
 Thanks so much for helping out!
 
