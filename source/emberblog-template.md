@@ -1,7 +1,7 @@
 ---
 title: Ember VER Released
 author: Melanie Sumner, Kenneth Larsen
-tags: Releases, 2019, 3, VER, Version 3.x
+tags: Releases, 2020, 3, VER, Version 3.x
 responsive: true
 ---
 
@@ -9,7 +9,7 @@ Today the Ember project is releasing version VER of Ember.js, Ember Data, and Em
 
 You can read more about our general release process here:
 
-- [Release Dashboard](http://emberjs.com/builds/)
+- [Release Dashboard](http://emberjs.com/releases/)
 - [The Ember Release Cycle](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
 - [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
 - [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
@@ -65,6 +65,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
+<!--alex ignore easy-->
 You may upgrade Ember CLI easily using the ember-cli-update project:
 
 ```bash

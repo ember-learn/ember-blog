@@ -1,7 +1,7 @@
 ---
 title: Ember 3.16 Released
 author: Kenneth Larsen
-tags: Releases, 2019, 3, 3.16, Version 3.x
+tags: Releases, 2020, 3, 3.16, Version 3.x
 responsive: true
 ---
 
@@ -9,7 +9,7 @@ Today the Ember project is releasing version 3.16 of Ember.js, Ember Data, and E
 
 You can read more about our general release process here:
 
-- [Release Dashboard](http://emberjs.com/builds/)
+- [Release Dashboard](http://emberjs.com/releases/)
 - [The Ember Release Cycle](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
 - [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
 - [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
@@ -22,7 +22,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.16
 
-Ember.js 3.16 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is zero (0) new features, one (1) deprecation, and several bugfixes in this version.
+Ember.js 3.16 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, one (1) deprecation, and several bugfixes in this version.
 
 #### New Features (0)
 

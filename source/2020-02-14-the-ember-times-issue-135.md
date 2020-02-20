@@ -22,9 +22,9 @@ READMORE
 
 Check out the latest EmberMap episode of "What's New in Ember." It talks about what the [Native Decorator Support](https://emberjs.github.io/rfcs/0440-decorator-support.html) feature from Ember 3.10 means for you and why [Decorators](https://emberjs.github.io/rfcs/0408-decorators.html) are important for Ember's adoption of ES classes.
 
-With Ember 3.10, all the core APIs and surrounding ecosystem libraries can start adopting decorators as per the [stage 1 implementation](https://github.com/tc39/proposal-decorators) which would pave the way for ES classes in Ember. However, the happy path is still to wait until [the Octane release or 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) to start using both ES classes and decorators together for all of your Ember app code.
+With Ember 3.10, all the core APIs and surrounding ecosystem libraries can start adopting decorators as per the [stage 1 or "legacy decorators" implementation](https://github.com/tc39/proposal-decorators) which would pave the way for ES classes in Ember. However, the happy path is still to wait until your app is on [the Octane release or 3.15](https://blog.emberjs.com/2019/12/20/ember-3-15-released.html) or beyond to start using both ES classes and decorators together for all of your Ember app code.
 
-To check out how to upgrade your app to 3.15, check out this [great Discuss thread](https://discuss.emberjs.com/t/question-about-the-native-decorator-support-feature/17474) on the issue but also be sure to check out the full video on [Native Decorator Support on EmberMap](https://embermap.com/topics/what-s-new-in-ember/native-decorator-support-3-10).
+To check out how to upgrade your app, check out this [great Discuss thread](https://discuss.emberjs.com/t/question-about-the-native-decorator-support-feature/17474) on the issue but also be sure to check out the full video on [Native Decorator Support on EmberMap](https://embermap.com/topics/what-s-new-in-ember/native-decorator-support-3-10).
 
 ---
 

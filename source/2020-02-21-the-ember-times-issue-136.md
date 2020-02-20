@@ -107,6 +107,16 @@ Try out [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-f
 
 ---
 
+## [Section title in sentence case 🐹](#section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
