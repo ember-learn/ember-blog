@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 136
-author: the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
@@ -9,6 +9,10 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+...
+Ember 3.16 released 🚀,
+Check out the journey to your first published addon 📅,
+...
 
 READMORE
 
@@ -24,13 +28,9 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember 3.16 released 🚀](https://blog.emberjs.com/2020/02/12/ember-3-16-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/02/12/ember-3-16-released.html) is an incremental, backwards compatible release with bugfixes, performance improvements, and minor deprecations. Whether you're on the bleeding edge or 1.x, be sure to refer to the official [Ember blog](https://blog.emberjs.com/tags/releases.html) when looking for release details!
 
 ---
 
@@ -71,6 +71,19 @@ READMORE
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [First published addon: ember-fullcalendar 📅](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c)
+
+[i. welch canavan (@xiwcx)](https://github.com/xiwcx) shares the journey of building your very first Ember addon in [this dev.to post](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c). The addon [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) wraps [Fullcalendar (v4)](https://fullcalendar.io/) – a tool that provides a fully-featured scheduling calendar with minimal code – into an Ember component. 
+
+The process started with checking [Ember Observer](https://emberobserver.com/) to see if there is already an addon that provides a similar service as well as checking the general addon structure that packages follow. Next, [fullcalendar-react](https://github.com/fullcalendar/fullcalendar-react) was inspected which provided the idea to avoid explicit bindings for each property or attribute and simply batch updates and pass them along to Fullcalendar.
+
+<!-- alex ignore easy -->
+Following that, it was easy enough to use Ember component lifecycle hooks to replace the React ones such as `componentDidMount()` becoming `didInsertElement()`, while `componentDidUpdate()` became `didUpdateAttrs()`. Similarly to the other implementation, [Data Down, Actions Up](https://dockyard.com/blog/2015/10/14/best-practices-data-down-actions-up) was followed so that was easily transferrable.
+
+Try out [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) in your app today!
 
 ---
 
@@ -134,4 +147,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
