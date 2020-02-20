@@ -76,10 +76,11 @@ A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/0
 
 ## [First published addon: ember-fullcalendar 📅](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c)
 
-[i. welch canavan @xiwcx](https://github.com/xiwcx) shares the journey of building your very first Ember addon. The addon [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) wraps [Fullcalendar (v4)](https://fullcalendar.io/) – a tool that provides a fully-featured scheduling calendar with minimal code – into an Ember component. 
+[i. welch canavan (@xiwcx)](https://github.com/xiwcx) shares the journey of building your very first Ember addon. The addon [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) wraps [Fullcalendar (v4)](https://fullcalendar.io/) – a tool that provides a fully-featured scheduling calendar with minimal code – into an Ember component. 
 
 The process started with checking [Ember Observer](https://emberobserver.com/) to see if there is already an addon that provides a similar service as well as checking the general addon structure that packages follow. Next, [fullcalendar-react](https://github.com/fullcalendar/fullcalendar-react) was inspected which provided the idea to avoid explicit bindings for each property or attribute and simply batch updates and pass them along to Fullcalendar.
 
+<!-- alex ignore easy -->
 Following that, it was easy enough to use Ember component lifecycle hooks to replace the React ones such as `componentDidMount()` becoming `didInsertElement()`, while `componentDidUpdate()` became `didUpdateAttrs()`. Similarly to the other implementation, [Data Down, Actions Up](https://dockyard.com/blog/2015/10/14/best-practices-data-down-actions-up) was followed so that was easily transferrable.
 
 Try out [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) in your app today!
