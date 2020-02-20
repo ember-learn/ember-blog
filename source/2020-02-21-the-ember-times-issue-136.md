@@ -35,7 +35,7 @@ Here are some topics you could cover to help flesh out your story:
 Don't feel restricted to details about Ember features. Feel free to talk about intangible details, like how it feels to be part of a community that works together, your experiences with Ember's evolution, or experiences about your own evolution as a developer.
 
 <!--alex ignore host-hostess-->
-To participate, create your video, upload it to YouTube or whatever host you prefer, and tell me about it at https://airtable.com/shrYpEeT3xtyst5Gq by the end of March 1 (your time). You can find more detail at that link.
+To participate, create your video, upload it to YouTube or whatever host you prefer, and tell me about it at [https://airtable.com/shrYpEeT3xtyst5Gq](https://airtable.com/shrYpEeT3xtyst5Gq) by the end of March 1 (your time). You can find more detail at that link.
 
 Thanks so much for helping out!
 
