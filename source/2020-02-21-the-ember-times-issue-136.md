@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 136
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Yehuda Katz, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-...
+"Why Ember" videos wanted 📼,
 Ember 3.16 released 🚀,
 Check out the journey to your first published addon 📅,
 ...
@@ -18,13 +18,25 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## ["Why Ember" videos wanted 📼](https://airtable.com/shrYpEeT3xtyst5G)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Hi, Embereños! It's me Yehuda.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+I'm collecting some videos of people's Ember stories for possible use in this year's EmberConf keynote.
+
+You can make the video as long or as short as you want, but if you're not sure, 2 minutes is probably a good target length.
+
+Here are some topics you could cover to help flesh out your story:
+
+1. What were you doing before you were a web developer or before you became a member of the Ember community?
+2. What made you try Ember?
+3. Have you enjoyed your experience as a member of the Ember community?
+
+Don't feel restricted to details about Ember features. Feel free to talk about intangible details, like how it feels to be part of a community that works together, your experiences with Ember's evolution, or experiences about your own evolution as a developer.
+
+To participate, create your video, upload it to YouTube or whatever host you prefer, and tell me about it at https://airtable.com/shrYpEeT3xtyst5Gq by the end of March 1 (your time). You can find more detail at that link.
+
+Thanks so much for helping out!
 
 ---
 
@@ -147,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Yehuda Katz, the crowd and the Learning Team
