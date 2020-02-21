@@ -1,30 +1,29 @@
 ---
 title: The Ember Times - Issue No. 136
-author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, Jessica Jordan, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+ഹലോ Emberistas! 🐹
 
 Call for videos for the EmberConf keynote 📢,
 Ember 3.16 released 🚀,
 Minesweeper meets Ember Octane 💣,
 Check out the journey to your first published addon 📅,
-2020 Ember Community Survey 📝,
-learn how to forward element modifiers in < 10 mins ⏰,
-...
+2020 Ember Community Survey 📝, and
+learn how to forward element modifiers in < 10 mins ⏰!
 
 READMORE
 
 ---
 
-## [Call for videos for the EmberConf keynote 📢](https://airtable.com/shrYpEeT3xtyst5G)
+## [Call for videos for the EmberConf keynote 📢](https://airtable.com/shrYpEeT3xtyst5Gq)
 
 Hi, Embereños! It's me, Yehuda.
 
-I'm collecting some videos of people's Ember stories for possible use in this year's EmberConf keynote.
+I'm collecting some **videos** of people's Ember **stories** for possible use in this year's EmberConf keynote.
 
 You can make the video as long or as short as you want, but if you're not sure, 2 minutes is probably a good target length.
 
@@ -36,7 +35,7 @@ Here are some topics you could cover to help flesh out your story:
 
 Don't feel restricted to details about Ember features. Feel free to talk about intangible details, like how it feels to be part of a community that works together, your experiences with Ember's evolution, or experiences about your own evolution as a developer.
 
-Please send in your video by the end of March 1, your time at [https://airtable.com/shrYpEeT3xtyst5Gq](https://airtable.com/shrYpEeT3xtyst5Gq). If you have any questions, please email me at [wycats@gmail.com](mailto:wycats@gmail.com).
+Please **send in your video** by the end of **March 1**, your time at [https://airtable.com/shrYpEeT3xtyst5Gq](https://airtable.com/shrYpEeT3xtyst5Gq). If you have any questions, please email me at [wycats@gmail.com](mailto:wycats@gmail.com).
 
 Thanks so much for helping out!
 
@@ -50,15 +49,15 @@ A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/0
 
 ## [2020 Ember Community Survey 📝](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
 
-It’s that time of year again 😀, the 6th annual official 2020 Ember Community Survey is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
+It’s that time of year again 😀, the **6th annual official 2020 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
 
-Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a contribution to our community by filling out the survey – let’s keep that participation going! 🎉
+Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a **contribution** to our community by filling out the survey – let’s keep that participation going! 🎉
 
 This year we’d also like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them.
 
-Submissions will be accepted until March 8th, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
+Submissions will be accepted **until March 8th**, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
 
-We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning in Discord chat.
+We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
 
 But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities. 🙌
 
@@ -72,7 +71,7 @@ Minesweeper is a classic logic game, probably most known through Microsoft Windo
 
 <img alt="Tomsweeper" src="/images/blog/2020-02-21/tomsweeper.png">
 
-Give Tomsweeper a try and leave your feedback in the [#games channel](https://discordapp.com/channels/480462759797063690/487382592841187328) on Discord! PRs are welcome too.
+**Give Tomsweeper a try** and leave your feedback in the [#games channel](https://discordapp.com/channels/480462759797063690/487382592841187328) on [Discord](https://discordapp.com/invite/emberjs)! PRs are welcome, too.
 
 ---
 
@@ -94,16 +93,6 @@ Then check out [the video](https://embermap.com/topics/what-s-new-in-ember/forwa
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [First published addon: ember-fullcalendar 📅](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c)
 
 [i. welch canavan (@xiwcx)](https://github.com/xiwcx) shares the journey of building your very first Ember addon in [this dev.to post](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c). The addon [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) wraps [Fullcalendar (v4)](https://fullcalendar.io/) – a tool that provides a fully-featured scheduling calendar with minimal code – into an Ember component.
@@ -114,36 +103,6 @@ The process started with checking [Ember Observer](https://emberobserver.com/) t
 Following that, it was easy enough to use Ember component lifecycle hooks to replace the React ones such as `componentDidMount()` becoming `didInsertElement()`, while `componentDidUpdate()` became `didUpdateAttrs()`. Similarly to the other implementation, [Data Down, Actions Up](https://dockyard.com/blog/2015/10/14/best-practices-data-down-actions-up) was followed so that was easily transferrable.
 
 Try out [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) in your app today!
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -177,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, Jessica Jordan and the Learning Team
