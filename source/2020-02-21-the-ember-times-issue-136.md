@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 136
-author: Chris Ng, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
@@ -13,6 +13,7 @@ responsive: true
 Ember 3.16 released 🚀,
 Minesweeper meets Ember Octane 💣,
 Check out the journey to your first published addon 📅,
+2020 Ember Community Survey 📝,
 ...
 
 READMORE
@@ -35,13 +36,19 @@ A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/0
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [2020 Ember Community Survey 📝](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+It’s that time of year again 😀, the 6th annual official 2020 Ember Community Survey is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a contribution to our community by filling out the survey – let’s keep that participation going! 🎉
+
+This year we’d also like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them. 
+
+Submissions will be accepted until March 8th, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
+
+We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning in Discord chat. 
+
+But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities. 🙌
 
 ---
 
@@ -150,4 +157,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
+
+Chris Ng, Amy Lam, Isaac Lee, Jared Galanis the crowd and the Learning Team
