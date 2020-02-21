@@ -76,7 +76,7 @@ Give Tomsweeper a try and leave your feedback in the [#games channel](https://di
 
 ---
 
-## [Learn about element modifier forwarding with Ember Map 🗺](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11)
+## [Learn about element modifier forwarding with EmberMap 🗺](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11)
 
 Looking for another quick learning today and got **10 minutes** to spare?
 Then our friends from [Ember Map](https://embermap.com/) have the right content for you!
