@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 136
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ...
 Ember 3.16 released 🚀,
+Minesweeper meets Ember Octane 💣,
 Check out the journey to your first published addon 📅,
 ...
 
@@ -44,13 +45,15 @@ A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/0
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Tomsweeper: Minesweeper meets Ember Octane 💣](https://tomsweeper.scud.co/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Minesweeper is a classic logic game, probably most known through Microsoft Windows. You use the number clues to clear the mines and race against time to [become the world champion](https://www.youtube.com/watch?v=GrZCWx0fnfc).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[@scudco](https://github.com/scudco) issues a new challenge: Find all Tomsters in the game [Tomsweeper](https://tomsweeper.scud.co/)! It's a great example of how you can [build something in Ember Octane](https://github.com/scudco/tomsweeper) with ease and fun.
+
+<img alt="Tomsweeper" src="/images/blog/2020-02-21/tomsweeper.png">
+
+Give Tomsweeper a try and leave your feedback in the [#games channel](https://discordapp.com/channels/480462759797063690/487382592841187328) on Discord! PRs are welcome too.
 
 ---
 
@@ -147,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
