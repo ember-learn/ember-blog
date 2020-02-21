@@ -40,11 +40,9 @@ A **new** version of Ember is here! [Ember 3.16](https://blog.emberjs.com/2020/0
 
 It’s that time of year again 😀, the 6th annual official 2020 Ember Community Survey is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
 
-And there's good news! This year the survey has been considerably slimmed down from previous years. So it should be easier than ever to make a contribution to our community by filling out the survey.
+Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a contribution to our community by filling out the survey – let’s keep that participation going! 🎉
 
-Last year over 1200 people participated, and thankfully all that participation and your participation over the years has resulted in enough input to make the process more efficient. So let’s keep that participation going! 🎉
-
-This year we’d like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them. 
+This year we’d also like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them. 
 
 Submissions will be accepted until March 8th, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
 
