@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 136
-author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/21-the-ember-times-issue-136.html"
 responsive: true
@@ -8,12 +8,12 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Call for videos for the EmberConf keynote 📢,
 Ember 3.16 released 🚀,
 Minesweeper meets Ember Octane 💣,
 Check out the journey to your first published addon 📅,
 2020 Ember Community Survey 📝,
+learn how to forward element modifiers in < 10 mins ⏰,
 ...
 
 READMORE
@@ -54,11 +54,11 @@ It’s that time of year again 😀, the 6th annual official 2020 Ember Communit
 
 Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a contribution to our community by filling out the survey – let’s keep that participation going! 🎉
 
-This year we’d also like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them. 
+This year we’d also like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them.
 
 Submissions will be accepted until March 8th, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
 
-We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning in Discord chat. 
+We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning in Discord chat.
 
 But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities. 🙌
 
@@ -76,13 +76,21 @@ Give Tomsweeper a try and leave your feedback in the [#games channel](https://di
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Learn about element modifier forwarding with EmberMap 🗺](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Looking for another quick learning today and got **10 minutes** to spare?
+Then our friends from [EmberMap](https://embermap.com/) have the right content for you!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In their freely available ["What's New in Ember?"](https://embermap.com/topics/what-s-new-in-ember) video series,
+they highlight some of the latest and greatest framework features that make Ember developer lives easier.
+
+In their latest episode ["Forwarding Element Modifiers with ...attributes"](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11), you can learn about the use cases for the handy [splattributes feature](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#html-attributes). Splattributes made their way to Ember as part of [the RFC#311 angle bracket invocation feature](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html).
+
+Specifically, the video demonstrates **powerful composition patterns** when using splattributes together with element modifiers,
+a feature combination that is available since the implementation of [RFC#435: "Forwarding Element Modifiers with Splattributes"](https://emberjs.github.io/rfcs/0435-modifier-splattributes.html) and has been released with [Ember 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
+
+So wanna impress yourself (or your co-workers, open-source and Ember friends) with some smart component patterns this week?
+Then check out [the video](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11) to learn when and how to leverage element modifier forwarding and make your Ember app shine!
 
 ---
 
@@ -98,7 +106,7 @@ Give Tomsweeper a try and leave your feedback in the [#games channel](https://di
 
 ## [First published addon: ember-fullcalendar 📅](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c)
 
-[i. welch canavan (@xiwcx)](https://github.com/xiwcx) shares the journey of building your very first Ember addon in [this dev.to post](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c). The addon [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) wraps [Fullcalendar (v4)](https://fullcalendar.io/) – a tool that provides a fully-featured scheduling calendar with minimal code – into an Ember component. 
+[i. welch canavan (@xiwcx)](https://github.com/xiwcx) shares the journey of building your very first Ember addon in [this dev.to post](https://dev.to/xiwcx/i-published-my-first-ember-addon-138c). The addon [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-fullcalendar) wraps [Fullcalendar (v4)](https://fullcalendar.io/) – a tool that provides a fully-featured scheduling calendar with minimal code – into an Ember component.
 
 The process started with checking [Ember Observer](https://emberobserver.com/) to see if there is already an addon that provides a similar service as well as checking the general addon structure that packages follow. Next, [fullcalendar-react](https://github.com/fullcalendar/fullcalendar-react) was inspected which provided the idea to avoid explicit bindings for each property or attribute and simply batch updates and pass them along to Fullcalendar.
 
@@ -141,7 +149,7 @@ Try out [@mariana-tek/ember-fullcalendar](https://github.com/Mariana-Tek/ember-f
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/erikmero" target="gh-user">@erikmero</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/GCheung55" target="gh-user">@GCheung55</a>, <a href="https://github.com/cloutierlp" target="gh-user">@cloutierlp</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/efx" target="gh-user">@efx</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/krisselden" target="gh-user">@krisselden</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a> and <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -169,5 +177,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, the crowd and the Learning Team
-
+Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, Yehuda Katz, Jessica Jordan, the crowd and the Learning Team
