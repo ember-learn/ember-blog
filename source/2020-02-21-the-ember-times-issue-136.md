@@ -44,7 +44,7 @@ And there's good news! This year the survey has been considerably slimmed down f
 
 Last year over 1200 people participated, and thankfully all that participation and your participation over the years has resulted in enough input to make the process more efficient. So let’s keep that participation going! 🎉
 
-This year we’d like to emphasize that contribution from non-Ember users is valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them. 
+This year we’d like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them. 
 
 Submissions will be accepted until March 8th, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
 
