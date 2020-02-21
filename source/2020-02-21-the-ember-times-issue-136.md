@@ -84,7 +84,7 @@ Then our friends from [EmberMap](https://embermap.com/) have the right content f
 In their freely available ["What's New in Ember?"](https://embermap.com/topics/what-s-new-in-ember) video series,
 they highlight some of the latest and greatest framework features that make Ember developer lives easier.
 
-In their latest episode ["Forwarding Element Modifiers with ...attributes"](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11), you can learn about the use cases for the handy [splattributes feature](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#html-attributes) that made its way to Ember as part of [the RFC#311 anglebracket invocation feature](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html).
+In their latest episode ["Forwarding Element Modifiers with ...attributes"](https://embermap.com/topics/what-s-new-in-ember/forwarding-element-modifiers-with-attributes-3-11), you can learn about the use cases for the handy [splattributes feature](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#html-attributes). Splattributes made their way to Ember as part of [the RFC#311 angle bracket invocation feature](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html).
 
 Specifically, the video demonstrates **powerful composition patterns** when using splattributes together with element modifiers,
 a feature combination that is available since the implementation of [RFC#435: "Forwarding Element Modifiers with Splattributes"](https://emberjs.github.io/rfcs/0435-modifier-splattributes.html) and has been released with [Ember 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html).
