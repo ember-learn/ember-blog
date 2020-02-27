@@ -61,7 +61,7 @@ module.exports = {
 };
 ```
 
-You can find the full list of updates in the [changelog](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v2.0.0). Please extend your thanks to [@lifeart](https://github.com/lifeart), [@bmish](https://github.com/bmish), [@dcyriller](https://github.com/dcyriller), [@rwjblue](https://github.com/rwjblue), [@akashdsouza](https://github.com/akashdsouza), [@alexlafroscia](https://github.com/alexlafroscia), [@buschtoens](https://github.com/buschtoens), [@gojefferson](https://github.com/gojefferson), and [@initram](https://github.com/initram)!
+You can find the full list of updates in the [changelog](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v2.0.0). Please extend your thanks to [@lifeart](https://github.com/lifeart), [@bmish](https://github.com/bmish), [@dcyriller](https://github.com/dcyriller), [@rwjblue](https://github.com/rwjblue), [@akashdsouza](https://github.com/akashdsouza), [@alexlafroscia](https://github.com/alexlafroscia), [@buschtoens](https://github.com/buschtoens), [@gojefferson](https://github.com/gojefferson), and [@initram](https://github.com/initram) for helping with v2 release!
 
 ---
 
