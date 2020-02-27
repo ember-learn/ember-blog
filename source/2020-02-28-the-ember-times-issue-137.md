@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 137
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/28-the-ember-times-issue-137.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 Bonjou Emberistas! 🐹
 
+Try out the latest ember-template-lint v2 ✅,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -34,13 +35,33 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [ember-template-lint v2 released ✅](https://twitter.com/rwjblue/status/1231372429286608902)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+In case you weren't aware, you can lint templates to follow Ember's recommended practices, avoid making common accessibility mistakes, and collaborate with your team more effectively. 💯
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+```bash
+# Install (or upgrade to v2)
+ember install ember-cli-template-lint
+
+# Profit!
+npm run lint:hbs
+```
+
+The v2 release was [recently announced](https://twitter.com/rwjblue/status/1231372429286608902). The most notable change may be that you can start following recommended rules for Ember Octane:
+
+```javascript
+// .template-lintrc.js
+'use strict';
+
+module.exports = {
+  extends: 'octane',
+  rules: {
+    /* Add custom rules here */
+  }
+};
+```
+
+You can find the full list of updates in the [changelog](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v2.0.0). Please extend your thanks to [@lifeart](https://github.com/lifeart), [@bmish](https://github.com/bmish), [@dcyriller](https://github.com/dcyriller), [@rwjblue](https://github.com/rwjblue), [@akashdsouza](https://github.com/akashdsouza), [@alexlafroscia](https://github.com/alexlafroscia), [@buschtoens](https://github.com/buschtoens), [@gojefferson](https://github.com/gojefferson), and [@initram](https://github.com/initram)!
 
 ---
 
@@ -134,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
