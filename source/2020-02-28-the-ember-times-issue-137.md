@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 137
-author: Isaac Lee, Jared Galanis the crowd
+author: Isaac Lee, Jared Galanis, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/28-the-ember-times-issue-137.html"
 responsive: true
@@ -29,13 +29,13 @@ READMORE
 
 ## [Ember Website Redesign 🔥](https://emberjs.com/)
 
-Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look at the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of. 
+Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look at the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of.
 
 This redesign has been a long time in the making and has invovled a lot of work from the people across the Ember teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner @melsumner](https://github.com/MelSumner) and [Chris Manson @mansona](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern vision of the website come to life.
 
-If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know in the #dev-ember-learning channel on [Discord chat](https://discordapp.com/invite/emberjs). 
+If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know in the #dev-ember-learning channel on [Discord chat](https://discordapp.com/invite/emberjs).
 
-If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live. 
+If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live.
 
 ---
 
@@ -81,17 +81,23 @@ Submissions will be accepted **until March 8th**, but there’s no need to wait!
 
 We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping them in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
 
-But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities. 
+But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities.
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Can't wait until Ember 3.17 is out? Become a beta tester today 🧪](https://github.com/ember-cli/ember-cli/releases/tag/v3.17.0-beta.1)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+It's not too long until [Ember 3.17 is out](https://emberjs.com/releases/) and until you can upgrade your favourite
+Ember app to the latest version of the framework. If you want to have an extra head start, you can even **try out** some of
+**the 3.17 Ember experience** today!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+A few days ago, [ember-cli@3.17.0-beta.1](https://github.com/ember-cli/ember-cli/releases/tag/v3.17.0-beta.1) has been published with lots of awesome goodies, including the removal of [RSVP in favour of native promises](https://github.com/ember-cli/ember-cli/pull/9041), lots of great updates to test scenarios and a linter level up with [the now direct usage of eslint and ember-template-lint](https://github.com/ember-cli/ember-cli/pull/9009). Your feedback from testing the ember-cli beta is greatly appreciated. Share your thoughts either on [the project repository on Github](https://github.com/ember-cli/ember-cli/) or in the [#ember-cli channel on the Ember Discord](https://discordapp.com/invite/emberjs).
+
+But why is **beta testing important** in the first place? A distributed community project such as Ember not only lives from the code contributions of developers from all over the world, but also from their feedback about current releases. Early adopters and ambitious testers of releases in the beta and canary channels can provide the insight that is necessary to cut the upcoming release of Ember efficiently: with the best possible developer experience for the entire Ember community in mind.
+
+If you want to learn more about the motivation behind the release management of Ember, make sure to read the [official post-1.0 release cycle blog post](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) and the [the LTS (Long-Term Support) release process announcement](https://blog.emberjs.com/2016/02/25/announcing-embers-first-lts.html).
+
+
 
 ---
 
@@ -137,7 +143,7 @@ But please, don't forget to help us spread the word by sharing the survey landin
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/krisselden" target="gh-user">@krisselden</a>, <a href="https://github.com/mehulkar" target="gh-user">@mehulkar</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/GCheung55" target="gh-user">@GCheung55</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/hjdivad" target="gh-user">@hjdivad</a>, <a href="https://github.com/Windvis" target="gh-user">@Windvis</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/knownasilya" target="gh-user">@knownasilya</a>, <a href="https://github.com/hakilebara" target="gh-user">@hakilebara</a>, <a href="https://github.com/void-mAlex" target="gh-user">@void-mAlex</a>, <a href="https://github.com/mistahenry" target="gh-user">@mistahenry</a>, <a href="https://github.com/ivandotv" target="gh-user">@ivandotv</a>, <a href="https://github.com/entendu" target="gh-user">@entendu</a>, <a href="https://github.com/kellyselden" target="gh-user">@kellyselden</a>, <a href="https://github.com/bartocc" target="gh-user">@bartocc</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chriseppstein" target="gh-user">@chriseppstein</a>, <a href="https://github.com/gokatz" target="gh-user">@gokatz</a> and <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -165,4 +171,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
