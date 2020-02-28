@@ -33,7 +33,7 @@ Maybe you haven't noticed, but the **primary website for Ember** has been **rede
 
 This redesign has been a long time in the making and has invovled a lot of work from the people across the Ember teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner @melsumner](https://github.com/MelSumner) and [Chris Manson @mansona](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern vision of the website come to life.
 
-If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know on Discord in the #dev-ember-learning channel. 
+If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know on Discord in the #dev-ember-learning channel on [Discord chat](https://discordapp.com/invite/emberjs). 
 
 If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live. 
 
