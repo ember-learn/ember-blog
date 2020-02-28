@@ -31,7 +31,7 @@ READMORE
 
 Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look at the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of. 
 
-This redesign has been a long time in the making and has invovled a lot of work from the people across the Ember teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner @melsumner](https://github.com/MelSumner) and [Chris Manson @mansona](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern re-visioning of the website come to life.
+This redesign has been a long time in the making and has invovled a lot of work from the people across the Ember teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner @melsumner](https://github.com/MelSumner) and [Chris Manson @mansona](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern vision of the website come to life.
 
 If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know on Discord in the #dev-ember-learning channel. 
 
