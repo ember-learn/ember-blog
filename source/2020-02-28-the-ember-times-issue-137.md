@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 137
-author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/28-the-ember-times-issue-137.html"
 responsive: true
@@ -11,8 +11,8 @@ Bonjou Emberistas! 🐹
 Learn about how autotracking works 👣,
 Try out the latest ember-template-lint v2 ✅,
 Ember Website Redesign 🔥,
-2020 Ember Community Survey Reminder 📝,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+2020 Ember Community Survey Reminder 📝, and
+beta test ember-cli 3.17 🧪!
 
 READMORE
 
@@ -20,33 +20,33 @@ READMORE
 
 ## [How Autotracking Works 👣](https://www.pzuraq.com/how-autotracking-works/)
 
-[Chris Garrett @pzuraq](https://github.com/pzuraq) wrote a new blog post in his autotracking blog series, previously he wrote on [what is reactivity](https://www.pzuraq.com/what-is-reactivity/) and on [what makes a good reactive system](https://www.pzuraq.com/what-makes-a-good-reactive-system/).
+[Chris Garrett @pzuraq](https://github.com/pzuraq) wrote a new blog post in his **autotracking blog series**, previously he wrote on [what is reactivity](https://www.pzuraq.com/what-is-reactivity/) and on [what makes a good reactive system](https://www.pzuraq.com/what-makes-a-good-reactive-system/).
 
-In [How Autotracking Works](https://www.pzuraq.com/how-autotracking-works/), Chris discusses how autotracking fulfils the reactivity design principles and goes on a deep dive on how its implemented and why. In the blog, we we go through memoization, referential equality, revisions, tags, and how they all work together to provide autotracking for Ember.
+In [How Autotracking Works](https://www.pzuraq.com/how-autotracking-works/), Chris discusses how autotracking fulfils the **reactivity design principles** exploring how it's implemented and why. In the blog, we go through memoization, referential equality, revisions, tags, and how they all work together to provide autotracking for Ember.
 
-Memoization, a technique where we cache the previous arguments that a function was called with along with the result they produced in order to minimize excess work, is the basis of autotracking. However, due to how equality works in JavaScript, we need to make use of referential equality to perform a faster deep-equal where we assume that if we're passed the same object as before then nothing has changed.
+Memoization, a technique where we cache the previous arguments that a function was called with along with the result they produced in order to minimize excess work, is the foundation of autotracking. However, due to how equality works in JavaScript, we need to make use of referential equality to perform a faster deep-equal where we assume that if we're passed the same object as before then nothing has changed.
 
-Autotracking revolves around a single number, the global revision number. This number keeps track of the version of state that the application was in. However we don't want our memoized functions to rerun whenever the state changes, because it could have changed for a completely unrelated state. We only want to rerun whenever the tracked state within the function has changed. For that, we need tags which represent state within the application so our function only reruns when it should, unrelated changes will not affect it.
+Autotracking revolves around a single number, the global revision number. This number keeps track of the version of state that the application was in. However, we don't want our memoized functions to rerun whenever the state changes, because it could have changed for a completely unrelated state. We only want to rerun whenever the tracked state within the function has changed. For that, we need tags which represent state within the application so our function only reruns when it should and unrelated changes will not affect it.
 
-Autotracking is one of the core mechanisms that powers Ember.js and the Glimmer VM. It’s one of the most exciting [features to come out of Ember Octane](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) so try it out today in your Ember app and see if it helps you write faster, less error prone, and easier to understand code. Read more about [autotracking on the full blog post](https://www.pzuraq.com/how-autotracking-works/)!
+Autotracking is one of the **core mechanisms** that powers **Ember.js** and the **Glimmer VM**. It’s one of the most exciting [features to come out of Ember Octane](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) so try it out today in your Ember app and see if it helps you write faster, less error prone, and easier to understand code. Read more about [autotracking in the full blog post](https://www.pzuraq.com/how-autotracking-works/)!
 
 ---
 
 ## [Ember Website Redesign 🔥](https://emberjs.com/)
 
-Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look at the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of.
+Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look to the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of.
 
-This redesign has been a long time in the making and has invovled a lot of work from the people across the Ember teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner @melsumner](https://github.com/MelSumner) and [Chris Manson @mansona](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern vision of the website come to life.
+This redesign has been a long time in the making and has involved a lot of work from the people from the Ember Core teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner (@MelSumner)](https://github.com/MelSumner) and [Chris Manson (@mansona)](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern vision of the website come to life.
 
-If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know in the #dev-ember-learning channel on [Discord chat](https://discordapp.com/invite/emberjs).
+If you are enjoying the new website and would like to help with making all the Ember web properties have a consistent design, please let the Ember Learning Team know in the **#dev-ember-learning** channel on [the Discord chat](https://discordapp.com/invite/emberjs).
 
-If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live.
+If you notice anything wrong with the website, please also feel free to open an issue in either the [main website repository on Github](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live.
 
 ---
 
 ## [ember-template-lint v2 released ✅](https://twitter.com/rwjblue/status/1231372429286608902)
 
-In case you weren't aware, you can lint templates to follow Ember's recommended practices, avoid making common accessibility mistakes, and collaborate with your team more effectively. 💯
+In case you weren't aware, you can **lint templates** to follow **Ember's recommended practices**, avoid making common accessibility mistakes, and collaborate with your team more effectively. 💯
 
 ```bash
 # Install (or upgrade to v2)
@@ -70,13 +70,13 @@ module.exports = {
 };
 ```
 
-You can find the full list of updates in the [changelog](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v2.0.0). Please extend your thanks to [@lifeart](https://github.com/lifeart), [@bmish](https://github.com/bmish), [@dcyriller](https://github.com/dcyriller), [@rwjblue](https://github.com/rwjblue), [@akashdsouza](https://github.com/akashdsouza), [@alexlafroscia](https://github.com/alexlafroscia), [@buschtoens](https://github.com/buschtoens), [@gojefferson](https://github.com/gojefferson), and [@initram](https://github.com/initram) for helping with v2 release!
+You can find the full list of updates in the [changelog](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v2.0.0). Please extend your thanks to [@lifeart](https://github.com/lifeart), [@bmish](https://github.com/bmish), [@dcyriller](https://github.com/dcyriller), [@rwjblue](https://github.com/rwjblue), [@akashdsouza](https://github.com/akashdsouza), [@alexlafroscia](https://github.com/alexlafroscia), [@buschtoens](https://github.com/buschtoens), [@gojefferson](https://github.com/gojefferson), and [@initram](https://github.com/initram) for helping with the v2 release!
 
 ---
 
 ## [2020 Ember Community Survey 📝](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
 
-Here's another friendly reminder that it’s that time of year again 😀, the **6th annual official 2020 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework
+Here's another friendly reminder that it’s that time of year again 😀, the **6th annual official 2020 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
 
 Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a **contribution** to our community by filling out the survey – let’s keep that participation going! 🎉
 
@@ -101,48 +101,6 @@ A few days ago, [ember-cli@3.17.0-beta.1](https://github.com/ember-cli/ember-cli
 But why is **beta testing important** in the first place? A distributed community project such as Ember not only lives from the code contributions of developers from all over the world, but also from their feedback about current releases. Early adopters and ambitious testers of releases in the beta and canary channels can provide the insight that is necessary to cut the upcoming release of Ember efficiently: with the best possible developer experience for the entire Ember community in mind.
 
 If you want to learn more about the motivation behind the release management of Ember, make sure to read the [official post-1.0 release cycle blog post](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) and the [the LTS (Long-Term Support) release process announcement](https://blog.emberjs.com/2016/02/25/announcing-embers-first-lts.html).
-
-
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -176,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan and the Learning Team
