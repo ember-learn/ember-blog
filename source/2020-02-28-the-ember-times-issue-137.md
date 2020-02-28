@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 137
-author: Isaac Lee, the crowd
+author: Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/28-the-ember-times-issue-137.html"
 responsive: true
@@ -9,6 +9,8 @@ responsive: true
 Bonjou Emberistas! 🐹
 
 Try out the latest ember-template-lint v2 ✅,
+Ember Website Redesign 🔥,
+2020 Ember Community Survey Reminder 📝,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -25,13 +27,15 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember Website Redesign 🔥](https://emberjs.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look at the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This redesign has been a long time in the making and has invovled a lot of work from the people across the Ember teams and the Ember community. Big shout outs to everyone involved in the effort, especially [Mel Sumner @melsumner](https://github.com/MelSumner) and [Chris Manson @mansona](https://github.com/mansona)! 🎉🎉🎉 It's super exciting to see this modern vision of the website come to life.
+
+If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know in the #dev-ember-learning channel on [Discord chat](https://discordapp.com/invite/emberjs). 
+
+If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live. 
 
 ---
 
@@ -65,13 +69,19 @@ You can find the full list of updates in the [changelog](https://github.com/embe
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [2020 Ember Community Survey 📝](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Here's another friendly reminder that it’s that time of year again 😀, the **6th annual official 2020 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Last year over 1200 people participated in the survey. All that participation and your participation over the years has resulted in enough input to make the process more efficient. This year the survey has been considerably slimmed down from previous years! So it should be easier than ever to make a **contribution** to our community by filling out the survey – let’s keep that participation going! 🎉
+
+This year we’d also like to emphasize that contributions from non-Ember users are valuable as well. So if you have co-workers or friends who you think might be interested in filling out the survey, please share it with them.
+
+Submissions will be accepted **until March 8th**, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
+
+We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping them in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
+
+But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities. 
 
 ---
 
@@ -155,4 +165,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Jared Galanis the crowd and the Learning Team
