@@ -35,7 +35,7 @@ This redesign has been a long time in the making and has invovled a lot of work 
 
 If you are enjoying the new website and would like to help make all the Ember web properties have a consistent design, please let the Learning Team know on Discord in the #dev-ember-learning channel. 
 
-If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide](https://github.com/ember-learn/ember-styleguide) where the components live. 
+If you notice anything wrong with the website please also feel free to open an issue in either the [main website repo](https://github.com/ember-learn/ember-website/) or the [styleguide repo](https://github.com/ember-learn/ember-styleguide) where the components live. 
 
 ---
 
