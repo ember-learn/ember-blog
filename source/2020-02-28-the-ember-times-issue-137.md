@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 137
-author: Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/28-the-ember-times-issue-137.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 Bonjou Emberistas! 🐹
 
+Learn about how autotracking works 👣,
 Try out the latest ember-template-lint v2 ✅,
 Ember Website Redesign 🔥,
 2020 Ember Community Survey Reminder 📝,
@@ -17,13 +18,17 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [How Autotracking Works 👣](https://www.pzuraq.com/how-autotracking-works/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Chris Garrett @pzuraq](https://github.com/pzuraq) wrote a new blog post in his autotracking blog series, previously he wrote on [what is reactivity](https://www.pzuraq.com/what-is-reactivity/) and on [what makes a good reactive system](https://www.pzuraq.com/what-makes-a-good-reactive-system/).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In [How Autotracking Works](https://www.pzuraq.com/how-autotracking-works/), Chris discusses how autotracking fulfils the reactivity design principles and goes on a deep dive on how its implemented and why. In the blog, we we go through memoization, referential equality, revisions, tags, and how they all work together to provide autotracking for Ember.
+
+Memoization, a technique where we cache the previous arguments that a function was called with along with the result they produced in order to minimize excess work, is the basis of autotracking. However, due to how equality works in JavaScript, we need to make use of referential equality to perform a faster deep-equal where we assume that if we're passed the same object as before then nothing has changed.
+
+Autotracking revolves around a single number, the global revision number. This number keeps track of the version of state that the application was in. However we don't want our memoized functions to rerun whenever the state changes, because it could have changed for a completely unrelated state. We only want to rerun whenever the tracked state within the function has changed. For that, we need tags which represent state within the application so our function only reruns when it should, unrelated changes will not affect it.
+
+Autotracking is one of the core mechanisms that powers Ember.js and the Glimmer VM. It’s one of the most exciting [features to come out of Ember Octane](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) so try it out today in your Ember app and see if it helps you write faster, less error prone, and easier to understand code. Read more about [autotracking on the full blog post](https://www.pzuraq.com/how-autotracking-works/)!
 
 ---
 
@@ -165,4 +170,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis the crowd and the Learning Team
