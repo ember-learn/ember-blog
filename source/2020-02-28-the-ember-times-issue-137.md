@@ -18,9 +18,9 @@ READMORE
 
 ---
 
-## [How Autotracking Works 👣](https://www.pzuraq.com/how-autotracking-works/)
+## [How autotracking works 👣](https://www.pzuraq.com/how-autotracking-works/)
 
-[Chris Garrett @pzuraq](https://github.com/pzuraq) wrote a new blog post in his **autotracking blog series**, previously he wrote on [what is reactivity](https://www.pzuraq.com/what-is-reactivity/) and on [what makes a good reactive system](https://www.pzuraq.com/what-makes-a-good-reactive-system/).
+[Chris Garrett (@pzuraq)](https://github.com/pzuraq) wrote a new blog post in his **autotracking blog series**, previously he wrote on [what is reactivity](https://www.pzuraq.com/what-is-reactivity/) and on [what makes a good reactive system](https://www.pzuraq.com/what-makes-a-good-reactive-system/).
 
 In [How Autotracking Works](https://www.pzuraq.com/how-autotracking-works/), Chris discusses how autotracking fulfils the **reactivity design principles** exploring how it's implemented and why. In the blog, we go through memoization, referential equality, revisions, tags, and how they all work together to provide autotracking for Ember.
 
@@ -32,7 +32,7 @@ Autotracking is one of the **core mechanisms** that powers **Ember.js** and the 
 
 ---
 
-## [Ember Website Redesign 🔥](https://emberjs.com/)
+## [Ember website redesign 🔥](https://emberjs.com/)
 
 Maybe you haven't noticed, but the **primary website for Ember** has been **redesigned** and it is **now live**! The redesign brings a fresh new look to the main piece of real estate for Ember on the internet and features a clean and modern look that all of us in the community can be proud of.
 
