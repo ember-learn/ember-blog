@@ -79,7 +79,7 @@ This year we’d also like to emphasize that contributions from non-Ember users 
 
 Submissions will be accepted **until March 8th**, but there’s no need to wait! Go ahead and fill out the [survey here now](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/). 🔥🔥🔥
 
-We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
+We look forward to your participation! If you have any immediate questions, feel free to email the survey team via survey@emberjs.com, or ping them in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
 
 But please, don't forget to help us spread the word by sharing the survey landing page on your social network feeds, at meetups and around your office and other communities. 
 
