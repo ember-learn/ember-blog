@@ -15,13 +15,9 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Splitting & Migrating your Ember project to a Monorepo](https://www.mylittletechlife.com/ember-monorepo)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz) details his experience having worked with a huge codebase and the difficulties he and his team had faced with a massive monolith and how they split their codebase to multiple engines and add-ons. While that wasn't enough, he goes on to explain how dependencies caused problems with respect to version upgrades in each repo. As a result, he talks about how he arrived at using Yarn workspaces and how Lerna solves the problems.
 
 ---
 
