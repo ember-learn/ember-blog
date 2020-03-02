@@ -10,7 +10,7 @@ responsive: true
 Happy International Women's Day, Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Splitting & Migrating your Ember project to a Monorepo :elephant:,
+Splitting & migrating your Ember project to a Monorepo :elephant:,
 READMORE
 
 ---
