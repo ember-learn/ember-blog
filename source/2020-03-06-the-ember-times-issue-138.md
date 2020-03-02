@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: the crowd
+author: Abhilash L R, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -10,12 +10,12 @@ responsive: true
 Happy International Women's Day, Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Splitting & Migrating your Ember project to a Monorepo :elephant:,
 READMORE
 
 ---
 
-## [Splitting & Migrating your Ember project to a Monorepo](https://www.mylittletechlife.com/ember-monorepo)
+## [Splitting & migrating your Ember project to a Monorepo :elephant:](https://www.mylittletechlife.com/ember-monorepo)
 
 [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz) details his experience having worked with a huge codebase and the difficulties he and his team had faced with a massive monolith and how they split their codebase to multiple engines and add-ons. While that wasn't enough, he goes on to explain how dependencies caused problems related to version upgrades in each repository. As a result, he talks about how he arrived at using Yarn workspaces and how [Lerna](https://lerna.js.org/) solves those problems.
 
@@ -131,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Abhilash L R, the crowd and the Learning Team
