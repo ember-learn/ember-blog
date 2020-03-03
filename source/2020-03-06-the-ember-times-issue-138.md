@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: Abhilash L R, the crowd
+author: Abhilash, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -131,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash L R, the crowd and the Learning Team
+Abhilash, the crowd and the Learning Team
