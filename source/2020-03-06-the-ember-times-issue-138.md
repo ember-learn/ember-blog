@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: Abhilash, Jessica Jordan, the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -11,6 +11,7 @@ Happy International Women's Day, Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Splitting & migrating your Ember project to a Monorepo 🐘,
+Read the blog post on Ember Modifiers 🦄,
 the possible future of app hooks and testing directories in Ember 📂,
 READMORE
 
@@ -22,13 +23,23 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Blog Post: Introducing Ember Modifiers 🦄](https://gaiety.life/introducing-ember-modifiers)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Ava Gaiety Wroten (@sharpshark28)](https://github.com/sharpshark28) wrote a blog post on the [ember-modifier](https://github.com/ember-modifier/ember-modifier) addon which provides an API for authoring [element modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) in Ember.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We learn how to use the [`{{on}}` modifier](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md) to track the focus state of a DOM element. The blog then describes how to handle key presses by creating our very own modifier such as the example `{{key-down}}` below:
+
+```handlebars
+{{!-- my-component.hbs --}}
+<button
+  {{key-down this.handleEnter key='Enter'}}
+  My Button
+</button>
+```
+
+Unlike attributes, element modifiers [do not run on the server-side](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers), because there is no general-purpose and complete way to serialize the results of an element modifier into HTML.
+
+Be sure to check out [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers) and [ember-focus-trap](https://github.com/josemarluedke/ember-focus-trap) as well and read the [full article](https://gaiety.life/introducing-ember-modifiers) on Ember Modifiers!
 
 ---
 
@@ -132,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, the crowd and the Learning Team
