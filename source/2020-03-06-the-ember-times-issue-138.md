@@ -29,7 +29,7 @@ READMORE
 
 We learn how to use the [`{{on}}` modifier](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md) to track the focus state of a DOM element. The blog then describes how to handle key presses by creating our very own modifier such as the example `{{key-down}}` below:
 
-```
+```handlebars
 {{!-- my-component.hbs --}}
 <button
   {{key-down this.handleEnter key='Enter'}}
