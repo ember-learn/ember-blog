@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: Abhilash, the crowd
+author: Abhilash, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -11,6 +11,7 @@ Happy International Women's Day, Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Splitting & migrating your Ember project to a Monorepo 🐘,
+the possible future of app hooks and testing directories in Ember 📂,
 READMORE
 
 ---
@@ -81,13 +82,13 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Discuss the future of app hooks and testing directories in Ember 📂](https://github.com/emberjs/rfcs/pulls?q=is%3Aopen+is%3Apr+author%3Amehulkar+575+578)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+Since the early days of the framework, [the Ember CLI](https://ember-cli.com/) has been a major factor for productivity and great developer ergonomics when developing Ember apps. And a while ago [Mehul Kar (@mehulkar)](https://github.com/mehulkar) submitted **two new Requests for Comments (RFCs)** to suggest even more improvements for the favorite productivity tool of any Emberista!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In [RFC#575: Test Directories](https://github.com/emberjs/rfcs/pull/575) a new directory structure for testing is proposed. The change of test type names in the [official Ember testing guides](https://guides.emberjs.com/release/testing/test-types/) that followed the implementation of [RFC#232: Simplify QUnit Testing API](https://emberjs.github.io/rfcs/0232-simplify-qunit-testing-api.html) inspires the new directory format: f.e. files for testing component functionality used to be called `integration` tests in the former Ember QUnit testing API, and have been renamed to `rendering` tests. To reflect this change in the documentation, the new RFC suggests to move DOM-focused component tests from `tests/integration/**-test.js` to `tests/rendering/**-test.js` accordingly. You can learn more about the detailed design [by reading the original proposal](https://github.com/emberjs/rfcs/pull/575).
+
+With [RFC#578: Ability to hook into build process without addons](https://github.com/emberjs/rfcs/pull/578), a suggestion for more developer flexibility for an app's build process is made. The proposal suggests that `treeFor` hooks provided by [BroccoliJS](https://broccoli.build/) - a core library for powering the Ember CLI build pipeline - should be available via the `options` parameter of an Ember app instance. This would allow future Ember developers to leverage `treeFor` hooks in an app itself without developing a supplementary addon (which is currently the only way to use these build pipeline APIs directly). To learn more about the motivation behind this RFC, be sure to check out the [pull request on Github](https://github.com/emberjs/rfcs/pull/578) and feel free to leave your thoughts and questions in the comments below.
 
 ---
 
@@ -131,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash, the crowd and the Learning Team
+Abhilash, Jessica Jordan, the crowd and the Learning Team
