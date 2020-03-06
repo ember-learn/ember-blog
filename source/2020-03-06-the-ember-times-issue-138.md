@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: Chris Ng, Abhilash, Jessica Jordan, the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -12,7 +12,9 @@ Happy International Women's Day, Emberistas! 🐹
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Splitting & migrating your Ember project to a Monorepo 🐘,
 Read the blog post on Ember Modifiers 🦄,
+Find out how to use Ember with WebAssembly (Rust) 💡,
 the possible future of app hooks and testing directories in Ember 📂,
+2020 Ember Community Survey due March 8! 📈
 READMORE
 
 ---
@@ -43,13 +45,13 @@ Be sure to check out [ember-render-modifiers](https://github.com/emberjs/ember-r
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Using WebAssembly in Ember.js 💡](https://mfeckie.dev/wasm-in-ember/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[WebAssembly (wasm)](https://developer.mozilla.org/en-US/docs/WebAssembly) is a technology that enables **high-performance computing** (traditionally achieved with C or C++) on the web.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Martin Feckie (@mfeckie)](https://github.com/mfeckie) published [a guide on how you can integrate your Ember app with a Rust program](https://mfeckie.dev/wasm-in-ember/). Martin walks you through how to generate UUIDs and plot Mandelbrot sets. These examples represent a complex calculation that you might do in a production app.
+
+We encourage you to check out the article! Along the way, you can also pick up a little bit of **TypeScript + Octane**, **dynamic import**, and **`{{ref}}` modifier**. 🎶
 
 ---
 
@@ -103,13 +105,9 @@ With [RFC#578: Ability to hook into build process without addons](https://github
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [2020 Ember Community Survey due March 8! 📈](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you haven't yet, please take a brief moment of your day to [fill out the annual survey](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)! Your feedback can help everyone shape Ember better. 💞
 
 ---
 
@@ -143,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
