@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -14,7 +14,8 @@ Splitting & migrating your Ember project to a Monorepo 🐘,
 Read the blog post on Ember Modifiers 🦄,
 Find out how to use Ember with WebAssembly (Rust) 💡,
 the possible future of app hooks and testing directories in Ember 📂,
-2020 Ember Community Survey due March 8! 📈
+2020 Ember Community Survey due March 8! 📈,
+The Evolution of Ember and Intercom 🚀🐹,
 READMORE
 
 ---
@@ -55,13 +56,17 @@ We encourage you to check out the article! Along the way, you can also pick up a
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [The Evolution of Ember and Intercom 🚀🐹](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+If you have not had a chance to check out [Gavin Joyce's (@GavinJoyce)](https://github.com/GavinJoyce) blog post on the evolution of Ember and Intercom, and the accompanying talk, you might want to give it a read / watch!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [blog post](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/) covers the **massive growth of Intercom over 6 years**, how the company came to choose Ember and how Intercom's growth tracks with the growth of Ember over time. 
+
+Interestingly, many of the principles of R&D, design and Engineering overlap with Ember's conventions and release cycles. 
+
+The blog post also provides some nice detail on the technical evolution in Ember's rendering engine and it provides a look at how Ember Octane can let us write beautiful, minimal and clean components in mostly native JavaScript. 
+
+It's a fascinating and encouraging read, and it's very cool to see how the stability and innovation of Ember has allowed Intercom to build the amazing product it is today! 
 
 ---
 
@@ -141,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis the crowd and the Learning Team
