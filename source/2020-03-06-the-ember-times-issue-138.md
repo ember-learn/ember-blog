@@ -58,7 +58,7 @@ We encourage you to check out the article! Along the way, you can also pick up a
 
 ## [The Evolution of Ember and Intercom 🚀🐹](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/)
 
-If you have not had a chance to check out [Gavin Joyce's @gavinjoyce](https://github.com/GavinJoyce) blog post on the evolution of Ember and Intercom, and the accompanying talk, you might want to give it a read / watch!
+If you have not had a chance to check out [Gavin Joyce's (@GavinJoyce)](https://github.com/GavinJoyce) blog post on the evolution of Ember and Intercom, and the accompanying talk, you might want to give it a read / watch!
 
 The [blog post](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/) covers the **massive growth of Intercom over 6 years**, how the company came to choose Ember and how Intercom's growth tracks with the growth of Ember over time. 
 
