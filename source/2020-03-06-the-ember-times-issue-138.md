@@ -88,7 +88,7 @@ With [RFC#578: Ability to hook into build process without addons](https://github
 
 ## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/venusang" target="gh-user">@venusang</a>, <a href="https://github.com/mehulkar" target="gh-user">@mehulkar</a>, <a href="https://github.com/mwpastore" target="gh-user">@mwpastore</a>, <a href="https://github.com/MichalBryxi" target="gh-user">@MichalBryxi</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, and <a href="https://github.com/knownasilya" target="gh-user">@knownasilya</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
