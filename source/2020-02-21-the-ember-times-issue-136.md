@@ -11,7 +11,7 @@ responsive: true
 Call for videos for the EmberConf keynote 📢,
 Ember 3.16 released 🚀,
 Minesweeper meets Ember Octane 💣,
-Check out the journey to your first published addon 📅,
+check out the journey to your first published addon 📅,
 2020 Ember Community Survey 📝, and
 learn how to forward element modifiers in < 10 mins ⏰!
 
