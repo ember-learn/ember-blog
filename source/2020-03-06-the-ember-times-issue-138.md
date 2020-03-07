@@ -45,7 +45,7 @@ It's a fascinating and encouraging read, and it's very cool to see how the stabi
 
 ---
 
-## [Splitting & migrating your Ember project to a Monorepo 🐘](https://www.mylittletechlife.com/ember-monorepo)
+## [Splitting & migrating your Ember project to a monorepo 🐘](https://www.mylittletechlife.com/ember-monorepo)
 
 [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz) details his experience having worked with a huge codebase and the difficulties he and his team had faced with a massive monolith and how they split their codebase to multiple engines and add-ons. While that wasn't enough, he goes on to explain how dependencies caused problems related to version upgrades in each repository. As a result, he talks about how he arrived at using Yarn workspaces and how [Lerna](https://lerna.js.org/) solves those problems.
 
@@ -81,13 +81,13 @@ We encourage you to check out the article! Along the way, you can also pick up a
 
 ---
 
-## [Contributors' Corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
+## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/venusang" target="gh-user">@venusang</a>, <a href="https://github.com/mehulkar" target="gh-user">@mehulkar</a>, <a href="https://github.com/mwpastore" target="gh-user">@mwpastore</a>, <a href="https://github.com/MichalBryxi" target="gh-user">@MichalBryxi</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, and <a href="https://github.com/knownasilya" target="gh-user">@knownasilya</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
-## [Got a question? Ask Readers' Questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
+## [Got a question? Ask readers' questions! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
