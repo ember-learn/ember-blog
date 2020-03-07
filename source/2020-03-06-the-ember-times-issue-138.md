@@ -67,7 +67,7 @@ We learn how to use the [`{{on}}` modifier](https://github.com/emberjs/rfcs/blob
 
 Unlike attributes, element modifiers [do not run on the server-side](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers), because there is no general-purpose and complete way to serialize the results of an element modifier into HTML.
 
-Be sure to check out [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers) and [ember-focus-trap](https://github.com/josemarluedke/ember-focus-trap) as well and read the [full article](https://gaiety.life/introducing-ember-modifiers) on Ember Modifiers!
+Be sure to check out [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers) and [ember-focus-trap](https://github.com/josemarluedke/ember-focus-trap) as well and read the [full article](https://gaiety.life/introducing-ember-modifiers) on Ember modifiers!
 
 ---
 
