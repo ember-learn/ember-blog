@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 138
-author: Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
@@ -9,24 +9,30 @@ responsive: true
 <!--alex ignore womens-->
 Happy International Women's Day, Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Splitting & migrating your Ember project to a Monorepo 🐘,
+2020 Ember Community Survey due this Sunday 📈,
+splitting & migrating your Ember project to a Monorepo 🐘,
 Read the blog post on Ember Modifiers 🦄,
 Find out how to use Ember with WebAssembly (Rust) 💡,
 the possible future of app hooks and testing directories in Ember 📂,
-2020 Ember Community Survey due March 8! 📈,
 The Evolution of Ember and Intercom 🚀🐹,
+  
 READMORE
 
 ---
 
-## [Splitting & migrating your Ember project to a Monorepo 🐘](https://www.mylittletechlife.com/ember-monorepo)
+## [2020 Ember Community Survey due March 8th! 📈](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
+
+If you haven't yet, please take a brief moment of your day to [fill out the annual survey](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)! Your feedback can help everyone shape Ember better. 💞
+
+---
+
+## [Splitting & migrating your Ember project to a Mmnorepo 🐘](https://www.mylittletechlife.com/ember-monorepo)
 
 [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz) details his experience having worked with a huge codebase and the difficulties he and his team had faced with a massive monolith and how they split their codebase to multiple engines and add-ons. While that wasn't enough, he goes on to explain how dependencies caused problems related to version upgrades in each repository. As a result, he talks about how he arrived at using Yarn workspaces and how [Lerna](https://lerna.js.org/) solves those problems.
 
 ---
 
-## [Blog Post: Introducing Ember Modifiers 🦄](https://gaiety.life/introducing-ember-modifiers)
+## [Blog post: Introducing Ember modifiers 🦄](https://gaiety.life/introducing-ember-modifiers)
 
 [Ava Gaiety Wroten (@sharpshark28)](https://github.com/sharpshark28) wrote a blog post on the [ember-modifier](https://github.com/ember-modifier/ember-modifier) addon which provides an API for authoring [element modifiers](https://blog.emberjs.com/2019/03/06/coming-soon-in-ember-octane-part-4.html) in Ember.
 
@@ -56,7 +62,7 @@ We encourage you to check out the article! Along the way, you can also pick up a
 
 ---
 
-## [The Evolution of Ember and Intercom 🚀🐹](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/)
+## [The evolution of Ember and Intercom 🚀🐹](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/)
 
 If you have not had a chance to check out [Gavin Joyce's (@GavinJoyce)](https://github.com/GavinJoyce) blog post on the evolution of Ember and Intercom, and the accompanying talk, you might want to give it a read / watch!
 
@@ -70,36 +76,6 @@ It's a fascinating and encouraging read, and it's very cool to see how the stabi
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Discuss the future of app hooks and testing directories in Ember 📂](https://github.com/emberjs/rfcs/pulls?q=is%3Aopen+is%3Apr+author%3Amehulkar+575+578)
 
 Since the early days of the framework, [the Ember CLI](https://ember-cli.com/) has been a major factor for productivity and great developer ergonomics when developing Ember apps. And a while ago [Mehul Kar (@mehulkar)](https://github.com/mehulkar) submitted **two new Requests for Comments (RFCs)** to suggest even more improvements for the favorite productivity tool of any Emberista!
@@ -107,12 +83,6 @@ Since the early days of the framework, [the Ember CLI](https://ember-cli.com/) h
 In [RFC#575: Test Directories](https://github.com/emberjs/rfcs/pull/575) a new directory structure for testing is proposed. The change of test type names in the [official Ember testing guides](https://guides.emberjs.com/release/testing/test-types/) that followed the implementation of [RFC#232: Simplify QUnit Testing API](https://emberjs.github.io/rfcs/0232-simplify-qunit-testing-api.html) inspires the new directory format: f.e. files for testing component functionality used to be called `integration` tests in the former Ember QUnit testing API, and have been renamed to `rendering` tests. To reflect this change in the documentation, the new RFC suggests to move DOM-focused component tests from `tests/integration/**-test.js` to `tests/rendering/**-test.js` accordingly. You can learn more about the detailed design [by reading the original proposal](https://github.com/emberjs/rfcs/pull/575).
 
 With [RFC#578: Ability to hook into build process without addons](https://github.com/emberjs/rfcs/pull/578), a suggestion for more developer flexibility for an app's build process is made. The proposal suggests that `treeFor` hooks provided by [BroccoliJS](https://broccoli.build/) - a core library for powering the Ember CLI build pipeline - should be available via the `options` parameter of an Ember app instance. This would allow future Ember developers to leverage `treeFor` hooks in an app itself without developing a supplementary addon (which is currently the only way to use these build pipeline APIs directly). To learn more about the motivation behind this RFC, be sure to check out the [pull request on Github](https://github.com/emberjs/rfcs/pull/578) and feel free to leave your thoughts and questions in the comments below.
-
----
-
-## [2020 Ember Community Survey due March 8! 📈](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
-
-If you haven't yet, please take a brief moment of your day to [fill out the annual survey](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)! Your feedback can help everyone shape Ember better. 💞
 
 ---
 
@@ -146,4 +116,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis, Amy Lam and the Learning Team
