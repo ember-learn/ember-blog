@@ -74,7 +74,7 @@ You can find the full list of updates in the [changelog](https://github.com/embe
 
 ---
 
-## [2020 Ember Community survey 📝](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
+## [2020 Ember Community Survey 📝](https://tilde.wufoo.com/forms/2020-emberjs-community-survey/)
 
 Here's another friendly reminder that it’s that time of year again 😀, the **6th annual official 2020 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
 
