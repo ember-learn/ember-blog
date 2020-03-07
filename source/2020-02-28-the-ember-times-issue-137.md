@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 137
 author: Chris Ng, Isaac Lee, Jared Galanis, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/02/28-the-ember-times-issue-137.html"
 responsive: true
 ---
