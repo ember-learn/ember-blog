@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: the crowd
+author: Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -14,13 +14,11 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Feb 29th, 2020 - Chennai EmberJS Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sxjhg9qPTlXn-6EZzmmTHoc)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+On February 29, Chennai EmberJS featured 7 speakers at their third Meetup: [@askjkrishna](https://twitter.com/askjkrishna), [@michaeldinesh9](https://twitter.com/michaeldinesh9), [@srajas02](https://twitter.com/srajas02), [@ahamedalthaf](https://github.com/ahamedalthaf), [@Kishore01kumar](https://twitter.com/Kishore01kumar), [@prasanth_lpk](https://twitter.com/prasanth_lpk), and [@ansankarganesh](https://twitter.com/ansankarganesh)! They covered various topics, including Web development - the past and the present, picking a framework: React vs Angular vs Vue vs Ember, Ember runloop, Ember model & relationships, frame communication with Ember, design systems using Storybook, and Finite state machines and Ember. 💖
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can [watch all the talks today on YouTube](https://www.youtube.com/playlist?list=PLh_rF0Qob_sxjhg9qPTlXn-6EZzmmTHoc). To learn more about Chennai EmberJS, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/Chennai-EmberJS/), and the [`#as-india`](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discordapp.com/invite/zT3asNS)!
 
 ---
 
@@ -134,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Abhilash LR, the crowd and the Learning Team
