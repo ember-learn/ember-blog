@@ -36,7 +36,7 @@ Extracted from [@NullVoxPopuli's](https://twitter.com/nullvoxpopuli) [chat proje
 ember-jsqr is an integration with jsQR, a _fast_ QR code scanner that demonstrates how addon
 developers may want to integrate with an external library using **dynamic `import`** to avoid adding to the
 initial load cost of an app. The jsQR library itself is 45kb (after min+gzip), but this addon adds only _bytes_
-to the initial vendor bundle (the cost of a single component, a private service, and private modifiers).
+to the initial vendor bundle (the cost of a single glimmer component, a private service, and modifiers).
 
 ---
 
