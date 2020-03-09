@@ -31,9 +31,10 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 ---
 
 ## [Ember-models-table released version 3.0.0 🌟](https://twitter.com/oonechiporenko/status/1235571293530902531)
-After nine months of hard work version 3.0.0 of (`ember-models-table`)[https://github.com/onechiporenko/ember-models-table] has been released from beta by (@onechiporenko)[https://github.com/onechiporenko]. 
 
-This major release includes some breaking changes, so please check the (release notes)[https://github.com/onechiporenko/ember-models-table/releases/tag/v3.0.0] when you update. Complementing the release are also (new demo's for version 3.x with Bootstrap 3)[http://onechiporenko.github.io/ember-models-table/v.3/bs3/#/examples], Bootstrap 4, `ember-paper` and `plain-html`.
+After nine months of hard work version 3.0.0 of [`ember-models-table`](https://github.com/onechiporenko/ember-models-table) has been released from beta by [@onechiporenko](https://github.com/onechiporenko). 
+
+This major release includes some breaking changes, so please check the [release notes](https://github.com/onechiporenko/ember-models-table/releases/tag/v3.0.0) when you update. Complementing the release are also new demo's for version 3.x with [Bootstrap 3](http://onechiporenko.github.io/ember-models-table/v.3/bs3/#/examples), [Bootstrap 4](http://onechiporenko.github.io/ember-models-table/v.3/bs4/#/examples), [`ember-paper`](http://onechiporenko.github.io/ember-models-table/v.3/paper/#/examples) and [`plain-html`](http://onechiporenko.github.io/ember-models-table/v.3/plain-html/#/examples).
 
 ---
 
