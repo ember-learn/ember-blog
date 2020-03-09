@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: Abhilash LR, the crowd
+author: Abhilash LR, Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -8,7 +8,7 @@ responsive: true
 
 வணக்கம் Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Videos of the EmberJS Chennai meetup 🇮🇳, Ember-models-table v3.0.0 🌟
 
 READMORE
 
@@ -30,13 +30,10 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember-models-table released version 3.0.0 🌟](https://twitter.com/oonechiporenko/status/1235571293530902531)
+After nine months of hard work version 3.0.0 of (`ember-models-table`)[https://github.com/onechiporenko/ember-models-table] has been released from beta by (@onechiporenko)[https://github.com/onechiporenko]. 
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This major release includes some breaking changes, so please check the (release notes)[https://github.com/onechiporenko/ember-models-table/releases/tag/v3.0.0] when you update. Complementing the release are also (new demo's for version 3.x with Bootstrap 3)[http://onechiporenko.github.io/ember-models-table/v.3/bs3/#/examples], Bootstrap 4, `ember-paper` and `plain-html`.
 
 ---
 
@@ -140,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, the crowd and the Learning Team
+Abhilash LR, Anne-Greeth van Herwijnen, the crowd and the Learning Team
