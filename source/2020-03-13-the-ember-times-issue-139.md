@@ -12,6 +12,8 @@ responsive: true
 
 READMORE
 
+<check all header links are also in the body, and add to template>
+
 ---
 
 ## [Feb 29th, 2020 - EmberJS Chennai Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sxjhg9qPTlXn-6EZzmmTHoc)
