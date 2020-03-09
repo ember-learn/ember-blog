@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: Abhilash LR, the crowd
+author: Abhilash LR, Preston S, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -30,13 +30,13 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [📷 Fast QR Scanning library, ember-jsqr, released!](https://nullvoxpopuli.github.io/ember-jsqr/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Extracted from [@NullVoxPopuli's](https://twitter.com/nullvoxpopuli) [chat project](https://emberclear.io/),
+ember-jsqr is an integration with jsQR, a _fast_ QR code scanner that demonstrates how addon
+developers may want to integrate with an external library using **dynamic `import`** to avoid adding to the
+initial load cost of an app. The jsQR library itself is 45kb (after min+gzip), but this addon adds only _bytes_
+to the initial vendor bundle (the cost of a single component, a private service, and private modifiers).
 
 ---
 
@@ -140,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, the crowd and the Learning Team
+Abhilash LR, Preston S, the crowd and the Learning Team
