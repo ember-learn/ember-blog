@@ -7,6 +7,7 @@ responsive: true
 ---
 
 வணக்கம் Emberistas! 🐹
+QR scanning without bundle size growing!
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
