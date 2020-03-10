@@ -1,6 +1,6 @@
 ---
 title: Ember 3.17 Released
-author: Melanie Sumner, Kenneth Larsen
+author: Kenneth Larsen
 tags: Releases, 2020, 3, 3.17, Version 3.x
 responsive: true
 ---
@@ -73,9 +73,20 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.17
 
-#### New Features (X)
+#### New Features (0)
 
-#### Deprecations (X)
+There are no new features in Ember CLI 3.17. However, there are some other changes worth celebrating:
+
+* The internal usage of RSVP has been removed and migrated to use native promises.
+* Drop ember-cli-eslint/ember-cli-template-lint in favor of using eslint + ember-template-lint directly
+* Ensure npm test / yarn test fail when lint:js or lint:hbs fail
+* Ensure npm test / yarn test in an addon fails if ember-try scenarios fail
+* Remove a number of older experiments (module unification and delayed transpilation)
+
+
+#### Deprecations (0)
+
+There are no new deprecations in Ember CLI 3.17.
 
 ---
 
