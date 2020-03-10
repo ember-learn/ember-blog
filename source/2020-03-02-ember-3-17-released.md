@@ -77,11 +77,11 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 There are no new features in Ember CLI 3.17. However, there are some other changes worth celebrating:
 
-* The internal usage of `RSVP` has been removed and migrated to use native promises`
-* Drop `ember-cli-eslint/ember-cli-template-lint` in favor of using `eslint` and `ember-template-lint` directly
-* Ensure `npm test` / `yarn test` fail when `lint:js` or `lint:hbs fail`
-* Ensure `npm test` / `yarn test` in an addon fails if ember-try scenarios fail
-* Remove a number of older experiments (module unification and delayed transpilation)
+- The internal usage of `RSVP` has been removed and migrated to use native promises`
+- Drop `ember-cli-eslint/ember-cli-template-lint` in favor of using `eslint` and `ember-template-lint` directly
+- Ensure `npm test` / `yarn test` fail when `lint:js` or `lint:hbs fail`
+- Ensure `npm test` / `yarn test` in an addon fails if ember-try scenarios fail
+- Remove a number of older experiments (module unification and delayed transpilation)
 
 
 #### Deprecations (0)
