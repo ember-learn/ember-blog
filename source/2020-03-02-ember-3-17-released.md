@@ -22,21 +22,15 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.17
 
-Ember.js 3.17 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.17 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are no new features, zero (0) deprecations, and several bugfixes in this version.
 
-#### New Features (2)
+#### New Features (0)
 
-First new feature (1 of 2)
-
-Second new feature (2 of 2)
+No new features in Ember.js 3.17, but it is worth noting that the Glimmer VM has been upgraded to 0.47.9.
 
 #### Deprecations (0)
 
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-
-For more details on changes in Ember.js 3.17, please review the [Ember.js 3.17.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.17.0).
+No new deprecations are added in Ember.js 3.17.
 
 ---
 
