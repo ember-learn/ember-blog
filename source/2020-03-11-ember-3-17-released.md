@@ -26,7 +26,7 @@ Ember.js 3.17 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (0)
 
-No new features in Ember.js 3.17, but it is worth noting that the Glimmer VM has been upgraded to 0.47.9.
+No new features in Ember.js 3.17, but it is worth noting that the Glimmer rendering engine has been updated significantly.
 
 #### Deprecations (0)
 
