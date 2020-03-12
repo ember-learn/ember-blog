@@ -30,7 +30,7 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ---
 
-## [Ember-models-table released version 3.0.0 🌟](https://twitter.com/oonechiporenko/status/1235571293530902531)
+## [ember-models-table released version 3.0.0 🌟](https://twitter.com/oonechiporenko/status/1235571293530902531)
 
 After nine months of hard work version 3.0.0 of [`ember-models-table`](https://github.com/onechiporenko/ember-models-table) has been released from beta by [@onechiporenko](https://github.com/onechiporenko). 
 
