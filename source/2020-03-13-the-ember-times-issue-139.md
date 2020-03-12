@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: Abhilash LR, Anne-Greeth van Herwijnen, the crowd
+author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -8,9 +8,13 @@ responsive: true
 
 வணக்கம் Emberistas! 🐹
 
-Videos of the EmberJS Chennai meetup 🇮🇳, Ember-models-table v3.0.0 🌟
+Videos of the EmberJS Chennai meetup 🇮🇳,
+ember-models-table v3.0.0 🌟,
+QR scanning without bundle size growing 📷,
 
 READMORE
+
+<check all header links are also in the body, and add to template>
 
 ---
 
@@ -35,6 +39,16 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 After nine months of hard work, version 3.0.0 of [`ember-models-table`](https://github.com/onechiporenko/ember-models-table) has been released from beta by [Oleg Nechiporenko (@onechiporenko)](https://github.com/onechiporenko). 
 
 This major release includes some breaking changes, so please check the [release notes](https://github.com/onechiporenko/ember-models-table/releases/tag/v3.0.0) when you update. Complementing the release are also new demo's for version 3.x with [Bootstrap 3](http://onechiporenko.github.io/ember-models-table/v.3/bs3/#/examples), [Bootstrap 4](http://onechiporenko.github.io/ember-models-table/v.3/bs4/#/examples), [`ember-paper`](http://onechiporenko.github.io/ember-models-table/v.3/paper/#/examples) and [`plain-html`](http://onechiporenko.github.io/ember-models-table/v.3/plain-html/#/examples).
+
+---
+
+## [Fast QR Scanning library, ember-jsqr, released! 📷](https://nullvoxpopuli.github.io/ember-jsqr/)
+
+Extracted from [@NullVoxPopuli's](https://twitter.com/nullvoxpopuli) [chat project](https://emberclear.io/),
+[ember-jsqr](https://nullvoxpopuli.github.io/ember-jsqr/) is an integration with jsQR, a _fast_ QR code scanner that demonstrates how addon
+developers may want to integrate with an external library using **dynamic `import`** to avoid adding to the
+initial load cost of an app. The jsQR library itself is 45kb (after min+gzip), but this addon adds only _bytes_
+to the initial vendor bundle (the cost of a single glimmer component, a private service, and modifiers).
 
 ---
 
@@ -138,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, the crowd and the Learning Team
