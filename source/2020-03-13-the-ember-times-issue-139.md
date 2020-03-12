@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, the crowd
+author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 Videos of the EmberJS Chennai meetup 🇮🇳,
 ember-models-table v3.0.0 🌟,
 QR scanning without bundle size growing 📷,
+Check out handy examples of tests in Ember 💡,
 
 READMORE
 
@@ -82,13 +83,11 @@ to the initial vendor bundle (the cost of a single glimmer component, a private 
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember test case for a CRUD application with Mirage 💡](https://medium.com/@srajas02/ember-test-case-for-a-crud-application-with-mirage-d6d9836bfee2)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+[Raja S (@srajas0)](https://github.com/srajas0), who has worked with Ember since 2018, recalls their experience of being unable to find many examples of how to write unit, rendering, and application tests. To help others and future Ember developers, Raja has created [a demo app](https://github.com/srajas0/ember-test-cases) that uses QUnit DOM, ember-cli-mirage, and ember-cli-code-coverage for testing.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We encourage you to [check out Raja's tutorial](https://medium.com/@srajas02/ember-test-case-for-a-crud-application-with-mirage-d6d9836bfee2) and see how you can improve your tests today!
 
 ---
 
@@ -152,4 +151,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, the crowd and the Learning Team
+Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, the crowd and the Learning Team
