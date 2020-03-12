@@ -87,7 +87,7 @@ to the initial vendor bundle (the cost of a single glimmer component, a private 
 
 [Raja S (@srajas0)](https://github.com/srajas0), who has worked with Ember since 2018, recalls their experience of being unable to find many examples of how to write unit, rendering, and application tests. To help others and future Ember developers, Raja has created [a demo app](https://github.com/srajas0/ember-test-cases) that uses QUnit DOM, ember-cli-mirage, and ember-cli-code-coverage for testing.
 
-We encourage you to [check out Raja's tutorial](https://medium.com/@srajas02/ember-test-case-for-a-crud-application-with-mirage-d6d9836bfee2) and see how you can improve your testing today!
+We encourage you to [check out Raja's tutorial](https://medium.com/@srajas02/ember-test-case-for-a-crud-application-with-mirage-d6d9836bfee2) and see how you can improve your tests today!
 
 ---
 
