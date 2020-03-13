@@ -120,13 +120,16 @@ If you want to know the answer to this question, you shouldn't miss out on readi
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [EmberConf 2020 is on (and goes virtual) 📺🎉](https://emberconf.com/#/emberconf-update-march-12)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Despite the current health situation, resulting difficulties with travel and event restrictions, **EmberConf 2020** from **March 16-18** is just around the corner and will definitely **be on**! As usual, you can enjoy inspiring talks about Ember, the web and open-source from community members from all around the world at **EmberConf's first-ever all-virtual conference**!
+
+100% of the conference talks will be delivered remotely at the regularly scheduled time at [emberconf.com](https://emberconf.com/) - ready to watch together with your colleagues and Ember friends. Hang out with other conference attendees at [#ember-conf](https://discordapp.com/channels/480462759797063690/480502413917421570) on the [Ember Discord](https://discordapp.com/invite/emberjs) to share your thoughts on your favorite presentations and do not miss out on your [digital conference swag bag](https://emberconf.com/#/streamer-swag).
+
+For more details on _why_ EmberConf goes virtual this year and how you can join from home, please read [the latest conference announcement](https://emberconf.com/#/emberconf-update-march-12)!
+
+Last but not least, we would like to thank everyone involved in the setup of this amazing conference we all love; in particular, we would like to thank and also ask you to please extend a warm thank you to [Leah Silber (@wifelette)](https://github.com/wifelette) who is making this year's awesome EmberConf possible against all odds. If you meet her virtually, be sure to send her a ❤️!
 
 ---
 
