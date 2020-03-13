@@ -73,9 +73,9 @@ As reported by the [CSSE blog](https://systems.jhu.edu/research/public-health/nc
 
 While the spread of the virus is concerning and has impacted and will continue to impact many lives, it is inspiring to see Ember being used as a force for good and helping to inform health care providers, researchers, policy makers and the broader public about how cases are developing across the globe.
 
-Thanks to [Rene Rubeclava @odoe](https://github.com/odoe) for the [tweet](https://twitter.com/odoenet/status/1233439467421065216) that made us aware.
+Thanks to [Rene Rubalcava @odoe](https://github.com/odoe) for the [tweet](https://twitter.com/odoenet/status/1233439467421065216) that made us aware.
 
-A mobile friendly version of the dashboard can be found [here](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61).
+A mobile friendly version of the dashboard can be found [here](https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61).
 
 ---
 
