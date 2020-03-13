@@ -75,7 +75,7 @@ While the spread of the virus is concerning and has impacted and will continue t
 
 Thanks to [Rene Rubalcava @odoe](https://github.com/odoe) for the [tweet](https://twitter.com/odoenet/status/1233439467421065216) that made us aware.
 
-A mobile friendly version of the dashboard can be found [here](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61).
+A mobile friendly version of the dashboard can be found [here](https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61).
 
 ---
 
