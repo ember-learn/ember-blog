@@ -11,6 +11,7 @@ responsive: true
 Videos of the EmberJS Chennai meetup 🇮🇳,
 ember-models-table v3.0.0 🌟,
 QR scanning without bundle size growing 📷,
+Ember Twiddle supports Octane features up to Ember 3.17 💖,
 Check out handy examples of tests in Ember 💡,
 JHU COVID-19 Dashboard is Ember 🐹,
 
@@ -51,6 +52,16 @@ Extracted from [@NullVoxPopuli's](https://twitter.com/nullvoxpopuli) [chat proje
 developers may want to integrate with an external library using **dynamic `import`** to avoid adding to the
 initial load cost of an app. The jsQR library itself is 45kb (after min+gzip), but this addon adds only _bytes_
 to the initial vendor bundle (the cost of a single glimmer component, a private service, and modifiers).
+
+---
+
+## [Ember Twiddle supports Octane features up to Ember 3.17 💖](https://ember-twiddle.com/)
+
+In March, [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) and [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) collaborated on [incremental updates to Ember Twiddle](https://github.com/ember-cli/ember-twiddle/releases/tag/v0.17.0-4). It now supports Octane features up to Ember 3.17 and sports a new collapsible sidebar!
+
+<img src="/images/blog/2020-03-13/ember_twiddle_preview.gif" alt="Ember Twiddle preview">
+
+If you haven't used [Ember Twiddle](https://ember-twiddle.com/) before, it allows you to share and demo Ember code with other developers. You can create a sample app when filing bug issues, for example. Give it a try today!
 
 ---
 
