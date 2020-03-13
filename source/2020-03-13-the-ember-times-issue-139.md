@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, the crowd
+author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -13,6 +13,7 @@ ember-models-table v3.0.0 🌟,
 QR scanning without bundle size growing 📷,
 Ember Twiddle supports Octane features up to Ember 3.17 💖,
 Check out handy examples of tests in Ember 💡,
+JHU COVID-19 Dashboard is Ember 🐹,
 
 READMORE
 
@@ -61,6 +62,20 @@ In March, [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) and [Ilya Radch
 <img src="/images/blog/2020-03-13/ember_twiddle_preview.gif" alt="Ember Twiddle preview">
 
 If you haven't used [Ember Twiddle](https://ember-twiddle.com/) before, it allows you to share and demo Ember code with other developers. You can create a sample app when filing bug issues, for example. Give it a try today!
+
+---
+
+## [JHU COVID-19 Dashboard is Ember 🐹](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+
+Did you know that the [popular dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) made by the Johns Hopkins University [Center for Systems Science and Engineering](https://systems.jhu.edu/) being used to track cases of the Corona COVID-19 virus is built in part using Ember.js?
+
+As reported by the [CSSE blog](https://systems.jhu.edu/research/public-health/ncov/), "the dashboard, first shared publicly on January 22, illustrates the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It was developed to provide researchers, public health authorities and the general public with a user-friendly tool to track the outbreak as it unfolds. Further, all the data collected and displayed is made freely available, initially as google sheets, now in a GitHub repository, along with the feature layers of the dashboard, which are now included in the ESRI Living Atlas." The data layer Github repo can be found [here](https://github.com/CSSEGISandData/COVID-19).
+
+While the spread of the virus is concerning and has impacted and will continue to impact many lives, it is inspiring to see Ember being used as a force for good and helping to inform health care providers, researchers, policy makers and the broader public about how cases are developing across the globe.
+
+Thanks to [Rene Rubeclava @odoe](https://github.com/odoe) for the [tweet](https://twitter.com/odoenet/status/1233439467421065216) that made us aware.
+
+A mobile friendly version of the dashboard can be found [here](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61).
 
 ---
 
@@ -152,4 +167,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, the crowd and the Learning Team
+Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis the crowd and the Learning Team
