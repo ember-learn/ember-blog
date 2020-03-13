@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 139
-author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis the crowd
+author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
@@ -14,6 +14,8 @@ QR scanning without bundle size growing 📷,
 Ember Twiddle supports Octane features up to Ember 3.17 💖,
 Check out handy examples of tests in Ember 💡,
 JHU COVID-19 Dashboard is Ember 🐹,
+a new RFC for handling destroyables 💥,
+and join the all-virtual EmberConf 2020 📺🎉!
 
 READMORE
 
@@ -39,7 +41,7 @@ You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?
 
 ## [ember-models-table released version 3.0.0 🌟](https://twitter.com/oonechiporenko/status/1235571293530902531)
 
-After nine months of hard work, version 3.0.0 of [`ember-models-table`](https://github.com/onechiporenko/ember-models-table) has been released from beta by [Oleg Nechiporenko (@onechiporenko)](https://github.com/onechiporenko). 
+After nine months of hard work, version 3.0.0 of [`ember-models-table`](https://github.com/onechiporenko/ember-models-table) has been released from beta by [Oleg Nechiporenko (@onechiporenko)](https://github.com/onechiporenko).
 
 This major release includes some breaking changes, so please check the [release notes](https://github.com/onechiporenko/ember-models-table/releases/tag/v3.0.0) when you update. Complementing the release are also new demo's for version 3.x with [Bootstrap 3](http://onechiporenko.github.io/ember-models-table/v.3/bs3/#/examples), [Bootstrap 4](http://onechiporenko.github.io/ember-models-table/v.3/bs4/#/examples), [`ember-paper`](http://onechiporenko.github.io/ember-models-table/v.3/paper/#/examples) and [`plain-html`](http://onechiporenko.github.io/ember-models-table/v.3/plain-html/#/examples).
 
@@ -107,23 +109,27 @@ We encourage you to [check out Raja's tutorial](https://medium.com/@srajas02/emb
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Proposing a new API for confident destruction of objects in Ember 💥](https://github.com/emberjs/rfcs/pull/580)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
+As Ember developers we benefit from the framework cleaning up after ourselves when components or routes are removed. On top of that, we can even instruct the components we build to carry out additional **teardown instructions**, by [overriding the willDestroy hook (both available in Ember and Glimmer components)](https://api.emberjs.com/ember/3.17/classes/Component/methods/willDestroy?anchor=willDestroy).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!--alex ignore host-hostess-->
+But even though these APIs are already sufficient to go about our lives as application developers, it is still a limiting way for addon authors to create useful community projects. What if your addon could add teardown work to host apps in a **non-hierarchical** manner, so it can never conflict with other addon's teardown functionalities?
+
+If you want to know the answer to this question, you shouldn't miss out on reading [Chris Garrett's (@pzuraq)](https://github.com/pzuraq) recent **Request for Comments (RFC)** about [Destroyables](https://github.com/emberjs/rfcs/blob/destroyables/text/0580-destroyables.md) - an API proposal for addon authors and framework contributors. Be sure to join the discussion in the comments section of [the original RFC](https://github.com/emberjs/rfcs/pull/580)!
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [EmberConf 2020 is on (and goes virtual) 📺🎉](https://emberconf.com/#/emberconf-update-march-12)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Despite the current health situation, resulting difficulties with travel and event restrictions, **EmberConf 2020** from **March 16-18** is around the corner and will definitely **be on**! As usual, you can enjoy inspiring talks about Ember, the web and open-source from community members from all around the world at **EmberConf's first-ever all-virtual conference**!
+
+100% of the conference talks will be delivered remotely at the regularly scheduled time at [emberconf.com](https://emberconf.com/) - ready to watch together with your colleagues and Ember friends. Hangout with other conference attendees at [#ember-conf](https://discordapp.com/channels/480462759797063690/480502413917421570) on the [Ember Discord](https://discordapp.com/invite/emberjs) to share your thoughts on your favorite presentations and do not miss out on your [digital conference swag bag](https://emberconf.com/#/streamer-swag).
+
+For more details on _why_ EmberConf goes virtual this year and how you can join from home, please read [the latest conference announcement](https://emberconf.com/#/emberconf-update-march-12)!
+
+Last but not least, we would like to thank everyone involved in the setup of this amazing conference we all love; in particular, we would like to thank and also ask you to please extend a warm thank you to [Leah Silber (@wifelette)](https://github.com/wifelette) who is making this year's awesome EmberConf possible against all odds. If you meet her virtually, be sure to send her a ❤️!
 
 ---
 
@@ -139,7 +145,7 @@ We encourage you to [check out Raja's tutorial](https://medium.com/@srajas02/emb
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/chadhietala" target="gh-user">@chadhietala</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/Alonski" target="gh-user">@Alonski</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/gokatz" target="gh-user">@gokatz</a>, <a href="https://github.com/krisselden" target="gh-user">@krisselden</a>, <a href="https://github.com/chriskrycho" target="gh-user">@chriskrycho</a>, <a href="https://github.com/jelhan" target="gh-user">@jelhan</a>, <a href="https://github.com/hjdivad" target="gh-user">@hjdivad</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/HeroicEric" target="gh-user">@HeroicEric</a> and <a href="https://github.com/nummi" target="gh-user">@nummi</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -167,4 +173,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
