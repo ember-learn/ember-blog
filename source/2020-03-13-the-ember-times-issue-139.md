@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 139
 author: Abhilash LR, Anne-Greeth van Herwijnen, Preston Sego, Isaac Lee, Jared Galanis, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/13-the-ember-times-issue-139.html"
 responsive: true
 ---
