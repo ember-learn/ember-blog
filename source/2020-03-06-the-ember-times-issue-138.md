@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 138
 author: Chris Ng, Abhilash, Jessica Jordan, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/06-the-ember-times-issue-138.html"
 responsive: true
 ---
