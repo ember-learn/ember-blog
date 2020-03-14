@@ -23,11 +23,11 @@ READMORE
 
 ## [EmberConf 2020 is on (and goes virtual) 📺🎉](https://emberconf.com/#/emberconf-update-march-12)
 
-Despite the current health situation, resulting difficulties with travel and event restrictions, **EmberConf 2020** from **March 16-18** is around the corner and will definitely **be on**! As usual, you can enjoy inspiring talks about Ember, the web and open-source from community members from all around the world at **EmberConf's first-ever all-virtual conference**!
+Despite the current health situation, resulting difficulties with travel and event restrictions, **EmberConf 2020, March 16th-18th** is around the corner and will definitely **be on**! As usual, you can enjoy inspiring talks about Ember, the web and open-source from community members from all around the world at **EmberConf's first-ever all-virtual conference**!
 
 100% of the conference talks will be delivered remotely at the regularly scheduled time at [emberconf.com](https://emberconf.com/) - ready to watch together with your colleagues and Ember friends. Hangout with other conference attendees at [#ember-conf](https://discordapp.com/channels/480462759797063690/480502413917421570) on the [Ember Discord](https://discordapp.com/invite/emberjs) to share your thoughts on your favorite presentations and do not miss out on your [digital conference swag bag](https://emberconf.com/#/streamer-swag).
 
-For more details on _why_ EmberConf goes virtual this year and how you can join from home, please read [the latest conference announcement](https://emberconf.com/#/emberconf-update-march-12)!
+For more details on <span style="font-style: italic;">why</span> EmberConf goes virtual this year and how you can join from home, please read [the latest conference announcement](https://emberconf.com/#/emberconf-update-march-12)!
 
 Last but not least, we would like to thank everyone involved in the setup of this amazing conference we all love; in particular, we would like to thank and also ask you to please extend a warm thank you to [Leah Silber (@wifelette)](https://github.com/wifelette) who is making this year's awesome EmberConf possible against all odds. If you meet her virtually, be sure to send her a ❤️!
 
@@ -41,7 +41,7 @@ As reported by the [CSSE blog](https://systems.jhu.edu/research/public-health/nc
 
 While the spread of the virus is concerning and has impacted and will continue to impact many lives, it is inspiring to see Ember being used as a force for good and helping to inform health care providers, researchers, policy makers and the broader public about how cases are developing across the globe.
 
-Thanks to [Rene Rubalcava @odoe](https://github.com/odoe) for the [tweet](https://twitter.com/odoenet/status/1233439467421065216) that made us aware.
+Thanks to [Rene Rubalcava (@odoe)](https://github.com/odoe) for the [tweet](https://twitter.com/odoenet/status/1233439467421065216) that made us aware.
 
 A mobile friendly version of the dashboard can be found [here](https://www.arcgis.com/apps/opsdashboard/index.html#/85320e2ea5424dfaaa75ae62e5c06e61).
 
@@ -57,17 +57,17 @@ If you haven't used [Ember Twiddle](https://ember-twiddle.com/) before, it allow
 
 ---
 
-## [Feb 29th, 2020 - EmberJS Chennai Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sxjhg9qPTlXn-6EZzmmTHoc)
+## [February EmberJS Chennai Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_sxjhg9qPTlXn-6EZzmmTHoc)
 
-On February 29th 2020, EmberJS Chennai featured seven speakers at their third Meetup. They covered various topics that included:
+On February 29th, 2020, EmberJS Chennai featured seven speakers at their third Meetup. Topics included:
 
-- [Web development - the past and the present](https://slides.com/jayakrishnanamburu/web-dev#/) by [@JayaKrishnaNamburu](https://github.com/JayaKrishnaNamburu)
-- [Picking a framework: React vs Angular vs Vue vs Ember](https://youtu.be/DT75xo7VXn4) by [@michaeldinesh9](https://twitter.com/michaeldinesh9)
-- [Ember runloop](https://youtu.be/CU1ffqXtoR0) by [@srajas02](https://twitter.com/srajas02)
-- [Ember model & relationships](https://youtu.be/__yX29lr6og) by [@ahamedalthaf](https://github.com/ahamedalthaf)
-- [Frame communication with Ember](https://youtu.be/OYePMoIajQI) by [@Kishore01kumar](https://twitter.com/Kishore01kumar)
-- [Design systems using Storybook](https://youtu.be/vOhpdSP4Nr0) by [@prasanth_lpk](https://twitter.com/prasanth_lpk); and
-- [Finite state machines and Ember](https://youtu.be/0lFNUybdWJs) by [@ansankarganesh](https://twitter.com/ansankarganesh)
+- [Web development - the past and the present](https://slides.com/jayakrishnanamburu/web-dev#/) by [Jaya Krishna Namburu (@JayaKrishnaNamburu)](https://github.com/JayaKrishnaNamburu)
+- [Picking a framework: React vs Angular vs Vue vs Ember](https://youtu.be/DT75xo7VXn4) by [Michael Dinesh (@michaeldinesh9)](https://twitter.com/michaeldinesh9)
+- [Ember runloop](https://youtu.be/CU1ffqXtoR0) by [Raja S (@srajas02)](https://twitter.com/srajas02)
+- [Ember model & relationships](https://youtu.be/__yX29lr6og) by [Ahamed Althaf (@ahamedalthaf)](https://github.com/ahamedalthaf)
+- [Frame communication with Ember](https://youtu.be/OYePMoIajQI) by [Kishore Kumar (@Kishore01kumar)](https://twitter.com/Kishore01kumar)
+- [Design systems using Storybook](https://youtu.be/vOhpdSP4Nr0) by [Prasanth Lalapeta (@prasanth_lpk)](https://twitter.com/prasanth_lpk)
+- [Finite state machines and Ember](https://youtu.be/0lFNUybdWJs) by [Sankar Ganesh (@ansankarganesh)](https://twitter.com/ansankarganesh)
 
 You can [watch all six talks today on YouTube](https://www.youtube.com/playlist?list=PLh_rF0Qob_sxjhg9qPTlXn-6EZzmmTHoc). To learn more about EmberJS Chennai, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/EmberJS-Chennai/), and the [`#as-india`](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discordapp.com/invite/zT3asNS)!
 
@@ -84,13 +84,12 @@ This major release includes some breaking changes, so please check the [release 
 ## [Fast QR Scanning library, ember-jsqr, released! 📷](https://nullvoxpopuli.github.io/ember-jsqr/)
 
 Extracted from [@NullVoxPopuli's](https://twitter.com/nullvoxpopuli) [chat project](https://emberclear.io/),
-[ember-jsqr](https://nullvoxpopuli.github.io/ember-jsqr/) is an integration with jsQR, a _fast_ QR code scanner that demonstrates how addon
+[ember-jsqr](https://nullvoxpopuli.github.io/ember-jsqr/) is an integration with jsQR, a <span style="font-style: italic;">fast</span> QR code scanner that demonstrates how addon
 developers may want to integrate with an external library using **dynamic `import`** to avoid adding to the
-initial load cost of an app. The jsQR library itself is 45kb (after min+gzip), but this addon adds only _bytes_
-to the initial vendor bundle (the cost of a single glimmer component, a private service, and modifiers).
+initial load cost of an app. The jsQR library itself is 45kb (after min+gzip). This addon adds only <span style="font-style: italic;">bytes</span>
+to the initial vendor bundle, or the cost of a single Glimmer component, a private service, and modifiers.
 
 ---
-
 
 ## [Ember test case for a CRUD application with Mirage 💡](https://medium.com/@srajas02/ember-test-case-for-a-crud-application-with-mirage-d6d9836bfee2)
 
