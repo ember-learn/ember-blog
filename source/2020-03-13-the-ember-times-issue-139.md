@@ -33,7 +33,7 @@ Last but not least, we would like to thank everyone involved in the setup of thi
 
 ---
 
-## [JHU COVID-19 Dashboard is Ember 🐹](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
+## [JHU COVID-19 dashboard is Ember 🐹](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6)
 
 Did you know that the [popular dashboard](https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) made by the Johns Hopkins University [Center for Systems Science and Engineering](https://systems.jhu.edu/) being used to track cases of the Corona COVID-19 virus is built in part using Ember.js?
 
