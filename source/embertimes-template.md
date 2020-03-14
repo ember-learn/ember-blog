@@ -18,6 +18,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -28,6 +29,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -38,6 +40,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -48,6 +51,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -58,6 +62,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -68,6 +73,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -78,6 +84,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -88,6 +95,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
@@ -98,6 +106,7 @@ READMORE
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
