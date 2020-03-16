@@ -5,7 +5,7 @@ tags: Releases, 2020, 3, 3.17, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.17 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.18 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.17 of Ember.js, Ember Data, and Ember CLI. This release also kicks off the 3.18 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -26,7 +26,7 @@ Ember.js 3.17 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (0)
 
-No new features in Ember.js 3.17, but it is worth noting that the Glimmer VM has been upgraded to 0.47.9.
+No new features in Ember.js 3.17, but it is worth noting that the Glimmer rendering engine has been updated significantly.
 
 #### Deprecations (0)
 
