@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 140
-author: Chris Ng, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/20-the-ember-times-issue-140.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read about testing best practices on the Ember Testing Guide 📗,
+comment on the co-located test RFC ⛓,
 READMORE
 
 ---
@@ -26,14 +27,14 @@ Check it out as a [free eBook](https://selleo.com/ebook/ember), on [GitHub](http
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Coupling concerns with co-located tests ⛓](https://github.com/emberjs/rfcs/pull/599)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The conventional file layout of Ember apps has undergone a few changes throughout the years.
+Besides the [classic file layout](https://cli.emberjs.com/release/advanced-use/project-layouts/#classiclayout), users have also been able to opt-in to the [pods layout](https://cli.emberjs.com/release/advanced-use/project-layouts/#podslayout) for a while. And while pre-v3.13 Ember users were modifying component templates and `.js` files in two different directories, they recently got the chance to work on [component files side-by-side](https://blog.emberjs.com/2019/09/25/ember-3-13-released.html) after the implementation of the [component template co-location RFC](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Another, [recent RFC](https://github.com/emberjs/rfcs/pull/599) wants to take the principle of co-location even a step further: it proposes that **test files**, e.g. those for rendering tests of a component, should be co-located right next to the respective component class and template files. Beyond that, the proposal suggests a similar co-location pattern for unit tests of related routes and controllers, too - with the [motivation to improve the discoverability of tests](https://github.com/NullVoxPopuli/rfcs/blob/colocated-tests/text/0000-colocated-tests.md#motivation) for application developers.
+
+Ready to learn more about how this could be implemented? Be sure to read the [full proposal](https://github.com/NullVoxPopuli/rfcs/blob/colocated-tests/text/0000-colocated-tests.md) and to leave your thoughts or questions in the [comments below](https://github.com/emberjs/rfcs/pull/599)!
 
 ---
 
@@ -116,7 +117,7 @@ Check it out as a [free eBook](https://selleo.com/ebook/ember), on [GitHub](http
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/bobisjan" target="gh-user">@bobisjan</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/Aswathprabhu" target="gh-user">@Aswathprabhu</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> and <a href="https://github.com/laurmurclar" target="gh-user">@laurmurclar</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -144,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
