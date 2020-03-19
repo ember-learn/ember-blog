@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read about testing best practices on the Ember Testing Guide 📗,
 comment on the co-located test RFC ⛓,
+embrace easier release management for your apps 📦🙌,
 READMORE
 
 ---
@@ -38,14 +39,23 @@ Ready to learn more about how this could be implemented? Be sure to read the [fu
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Make your dream of smooth releases come true 📦🙌](https://github.com/rwjblue/create-rwjblue-release-it-setup/releases/tag/v2.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Who doesn't dream of easy-peasy releases? Let straightforward publishing workflows become your new reality with [**create-rwjblue-release-it-setup**](https://github.com/rwjblue/create-rwjblue-release-it-setup). Leveraging the tools from the popular library [release-it](https://github.com/release-it/release-it), it allows you to setup your project swiftly for automated versioning and package publishing.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Make your dream of easier release management come true with one single npm command:
+
+```bash
+npm init rwjblue-release-it-setup
+```
+
+...or a yarn command for that matter:
+
+```bash
+yarn create rwjblue-release-it-setup
+```
+
+Check out the [v2 release page](https://github.com/rwjblue/create-rwjblue-release-it-setup/releases/tag/v2.0.0) to learn more about all the latest features and improvements and happy publishing!
 
 ---
 
