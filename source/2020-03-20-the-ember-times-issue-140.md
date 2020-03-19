@@ -20,7 +20,7 @@ READMORE
 
 Following that, the testing guide discusses best practices in how we architect our testing code. It also goes through how to use the right kind of test. Should the test be unit, integration, acceptance, visual regression, or even manual? These principles are the building blocks to constructing effective tests.
 
-Finally the guide goes through all the best addons available today and how to use them in testing your application with examples from [qunit-dom](https://github.com/simplabs/qunit-dom), [ember-test-selectors](https://github.com/simplabs/ember-test-selectors), [ember-cli-timecop](https://github.com/matteodepalo/ember-cli-timecop), [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing), [ember-percy](https://github.com/percy/ember-percy) and much more!
+Finally the guide goes through all the best addons available today and how to use them in testing your application with examples from [qunit-dom](https://github.com/simplabs/qunit-dom), [ember-test-selectors](https://github.com/simplabs/ember-test-selectors), [ember-cli-timecop](https://github.com/matteodepalo/ember-cli-timecop), [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing), [ember-percy](https://github.com/percy/ember-percy) and many more!
 
 Check it out as a [free eBook](https://selleo.com/ebook/ember), on [GitHub](https://github.com/PoslinskiNet/ember-testing-guide), or as a [PDF](https://selleo.com/uploads/ebooks/ember/ember_testing_guide.pdf)!
 
