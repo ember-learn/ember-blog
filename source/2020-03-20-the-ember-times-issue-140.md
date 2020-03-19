@@ -16,7 +16,7 @@ READMORE
 
 ## [Ember Testing Guide v1 📗](https://twitter.com/PoslinskiNet/status/1239503392386568192)
 
-[Dawid Pośliński (@PoslinskiNet)](http://github.com/PoslinskiNet/) wrote about testing best practices and which addons to use in the newly released [Ember Testing Guide v1](https://selleo.com/ebook/ember). The testing guide goes through why we need tests to begin with. What benefits does testing give us and what are the gaps that are still present.
+[Dawid Pośliński (@PoslinskiNet)](https://github.com/PoslinskiNet/) wrote about testing best practices and which addons to use in the newly released [Ember Testing Guide v1](https://selleo.com/ebook/ember). The testing guide goes through why we need tests to begin with. What benefits does testing give us and what gaps are still present.
 
 Following that, the testing guide discusses testing best practices in how we architect our testing code. It also goes through how to use the right kind of test such as if it should be a unit, integration, acceptance, and even manual or visual regression testing. These principles are the building blocks to constructing effective tests which the guide goes through.
 
