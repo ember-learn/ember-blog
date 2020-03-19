@@ -18,7 +18,7 @@ READMORE
 
 [Dawid Pośliński (@PoslinskiNet)](https://github.com/PoslinskiNet/) wrote about testing best practices and which addons to use in the newly released [Ember Testing Guide v1](https://selleo.com/ebook/ember). The testing guide goes through why we need tests to begin with. What benefits does testing give us and what gaps are still present.
 
-Following that, the testing guide discusses testing best practices in how we architect our testing code. It also goes through how to use the right kind of test such as if it should be a unit, integration, acceptance, and even manual or visual regression testing. These principles are the building blocks to constructing effective tests which the guide goes through.
+Following that, the testing guide discusses best practices in how we architect our testing code. It also goes through how to use the right kind of test. Should the test be unit, integration, acceptance, visual regression, or even manual? These principles are the building blocks to constructing effective tests.
 
 Finally the guide goes through all the best addons available today and how to use them in testing your application with examples from [qunit-dom](https://github.com/simplabs/qunit-dom), [ember-test-selectors](https://github.com/simplabs/ember-test-selectors), [ember-cli-timecop](https://github.com/matteodepalo/ember-cli-timecop), [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing), [ember-percy](https://github.com/percy/ember-percy) and much more!
 
