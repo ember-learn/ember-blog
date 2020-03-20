@@ -5,7 +5,9 @@ tags: Releases, 2020, 3, 3.16, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.16 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.17 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.16 of Ember.js, Ember Data, and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
+
+This release kicks off the 3.17 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -21,6 +23,10 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.16
+
+The 3.16.0 release is an Ember.js Long-Term Support candidate. In six weeks, the 3.16.x series will become the latest LTS release and six weeks after that the 3.8 LTS branch will no longer receive bugfix patches. LTS versions allow teams to upgrade less frequently while still getting support from the Ember project and the wider ecosystem.
+
+For more information about Ember's LTS policies, see the [announcement blog post](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html) and [builds page](http://emberjs.com/builds/).
 
 Ember.js 3.16 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are zero (0) new features, one (1) deprecation, and several bugfixes in this version.
 
@@ -104,7 +110,7 @@ There are no new deprecations in Ember CLI 3.16.
 ---
 
 For more details on the changes in Ember CLI 3.16 and detailed upgrade
-instructions, please review the [Ember CLI  3.16.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.16.0).
+instructions, please review the [Ember CLI 3.16.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.16.0).
 
 ## Thank You!
 

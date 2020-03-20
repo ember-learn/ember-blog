@@ -5,7 +5,11 @@ tags: Releases, 2020, 3, 3.17, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.17 of Ember.js, Ember Data, and Ember CLI. This release also kicks off the 3.18 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.17 of Ember.js, Ember Data, and Ember CLI.
+
+Version 3.16 of Ember is now promoted to LTS (Long Term Support). An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version of Ember was 3.12.
+
+This release also kicks off the 3.18 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -91,7 +95,19 @@ There are no new deprecations in Ember CLI 3.17.
 ---
 
 For more details on the changes in Ember CLI 3.17 and detailed upgrade
-instructions, please review the [Ember CLI  3.17.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.17.0).
+instructions, please review the [Ember CLI 3.17.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.17.0).
+
+## Ember 3.16 is an LTS Release
+
+If you are upgrading from the previous LTS version (3.12) to 3.16 then you are getting access to these features:
+
+- Tracked properties (3.13)
+- Component templates co-location (3.13)
+- `component-class` generator (3.13)
+- `@model` in route templates (3.14)
+- Improved performance in fetching relationship (3.14)
+- "Classier" blueprints (3.14)
+- Octane preset for `ember-template-lint` (3.15)
 
 ## Thank You!
 
