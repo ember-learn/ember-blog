@@ -24,7 +24,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.16
 
-The 3.16.0 release is an Ember.js Long-Term Support candidate. In six weeks, the 3.16.x series will become the latest LTS release and six weeks after that the 3.8 LTS branch will no longer receive bugfix patches. LTS versions allow teams to upgrade less frequently while still getting support from the Ember project and the wider ecosystem.
+The 3.16.0 release is an Ember.js Long-Term Support candidate. In six weeks, the 3.16.x series will become the latest LTS release and six weeks after that the 3.12 LTS branch will no longer receive bugfix patches. LTS versions allow teams to upgrade less frequently while still getting support from the Ember project and the wider ecosystem.
 
 For more information about Ember's LTS policies, see the [announcement blog post](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html) and [builds page](http://emberjs.com/builds/).
 
