@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Meet Ember 3.17 🆕,
 Read about testing best practices on the Ember Testing Guide 📗,
 comment on the co-located test RFC ⛓,
 embrace easier release management for your apps 📦🙌,
@@ -17,6 +18,26 @@ Respect the underscore 🙇,
 tell us about your EmberConf experience ❤️,
 
 READMORE
+
+---
+
+## [Ember 3.17 Released 🆕](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html)
+
+<!--alex ignore just-->
+On March 16—just in time for EmberConf!—[Ember 3.17 was officially announced](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). This release marked Ember 3.16 as an LTS and kicked off the 3.18 beta cycle.
+
+Ember 3.17 introduced these changes:
+
+- Ember.js
+  - Significantly updated the Glimmer rendering engine
+- Ember CLI
+  - Removed internal usage of `RSVP` in favor of native promises
+  - Removed `ember-cli-eslint` and `ember-cli-template-lint` in favor of `eslint` and `ember-template-lint`
+  - Ensured that `npm test` or `yarn test` fails when `lint:js` or `lint:hbs` fails
+  - Ensured that `npm test` or `yarn test` in an addon fails if `ember-try` scenarios fail
+  - Removed a number of older experiments (module unification and delayed transpilation)
+
+To learn more about upgrading to Ember 3.17, please visit [Ember Blog](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). We encourage you to help test 3.17 and 3.18 beta and report any bugs. Thank you!
 
 ---
 
