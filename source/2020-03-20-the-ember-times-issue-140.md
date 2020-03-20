@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 140
-author: Chris Ng, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/20-the-ember-times-issue-140.html"
 responsive: true
@@ -10,6 +10,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read about testing best practices on the Ember Testing Guide 📗,
+Learn how to add CI with GitHub Actions ✅,
+Respect the underscore 🙇,
 READMORE
 
 ---
@@ -48,18 +50,25 @@ Check it out as a [free eBook](https://selleo.com/ebook/ember), on [GitHub](http
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [CI with GitHub Actions for Ember Apps ✅](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Continuous integration (CI) and continuous deployment may be skills that you get to practice maybe once on a production app, depending on your job title. But the truth is, you can practice them (_ahem_) continuously at an early stage for any app, no matter who you are. 💗
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You might then ask, where can I learn how to add CI to my Ember app? Are there cool things that I can do _because_ I have an Ember app?
+
+In his [blog post](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/), [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) shows **step-by-step how you can write a GitHub Actions workflow**. Thanks to Ember's addon ecosystem, you can:
+
+- Cache dependencies (avoid `yarn/npm install`)
+- Lint files and dependencies
+- Run tests separately from linting
+- Split tests and run in parallel
+- Take Percy snapshots in parallel
+
+If you wanted to solve these problems or needed a reference code, [look no further](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/)! Feedback is always welcome (you can DM `@ijlee2` on Discord).
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Respect the underscore 🙇](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -144,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
