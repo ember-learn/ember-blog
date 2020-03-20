@@ -68,14 +68,19 @@ If you wanted to solve these problems or needed a reference code, [look no furth
 
 ---
 
-## [Respect the underscore 🙇](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)
+## [Respect the Underscore 🙇](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Steven Elberger (@StevenElberger)](https://github.com/StevenElberger)'s blog post, "[Respect the Underscore](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)," is a fantastic example of what you can practice as a developer: **Document your bug for posterity**, especially if it failed your app or test suite in a catastrophic manner.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Here are some questions that you and your team can address:
+
+- When did you first notice the bug?
+- Which features or upgrades were recently worked on?
+- What did you think caused the bug?
+- How did you eliminate some of the possibilities?
+- What did you do to fix the bug?
+
+Because Steven's writing excellently builds suspense, we won't dare spoil the twists and ending here. Instead, we encourage you to [check out the post](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)!
 
 ---
 
