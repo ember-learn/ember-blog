@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 140
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/20-the-ember-times-issue-140.html"
 responsive: true
@@ -12,6 +12,9 @@ responsive: true
 Read about testing best practices on the Ember Testing Guide 📗,
 comment on the co-located test RFC ⛓,
 embrace easier release management for your apps 📦🙌,
+Learn how to add CI with GitHub Actions ✅,
+Respect the underscore 🙇,
+
 READMORE
 
 ---
@@ -59,25 +62,37 @@ Check out the [v2 release page](https://github.com/rwjblue/create-rwjblue-releas
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [CI with GitHub Actions for Ember Apps ✅](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Continuous integration (CI) and continuous deployment may be skills that you get to practice maybe once on a production app, depending on your job title. But the truth is, you can practice them (_ahem_) continuously at an early stage for any app, no matter who you are. 💗
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You might then ask, where can I learn how to add CI to my Ember app? Are there cool things that I can do _because_ I have an Ember app?
+
+In his [blog post](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/), [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) shows **step-by-step how you can write a GitHub Actions workflow**. Thanks to Ember's addon ecosystem, you can:
+
+- Cache dependencies (avoid `yarn/npm install`)
+- Lint files and dependencies
+- Run tests separately from linting
+- Split tests and run in parallel
+- Take Percy snapshots in parallel
+
+If you wanted to solve these problems or needed a reference code, [look no further](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/)! Feedback is always welcome (you can DM `@ijlee2` on Discord).
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Respect the Underscore 🙇](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Steven Elberger (@StevenElberger)](https://github.com/StevenElberger)'s blog post, "[Respect the Underscore](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)," is a fantastic example of what you can practice as a developer: **Document your bug for posterity**, especially if it failed your app or test suite in a catastrophic manner.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Here are some questions that you and your team can address:
+
+- When did you first notice the bug?
+- Which features or upgrades were recently worked on?
+- What did you think caused the bug?
+- How did you eliminate some of the possibilities?
+- What did you do to fix the bug?
+
+Because Steven's writing excellently builds suspense, we won't dare spoil the twists and ending here. Instead, we encourage you to [check out the post](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)!
 
 ---
 
@@ -155,4 +170,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
