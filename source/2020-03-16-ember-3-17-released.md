@@ -1,6 +1,6 @@
 ---
 title: Ember 3.17 Released
-author: Kenneth Larsen
+author: Kenneth Larsen, Isaac Lee
 tags: Releases, 2020, 3, 3.17, Version 3.x
 responsive: true
 ---
