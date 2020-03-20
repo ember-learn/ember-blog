@@ -14,6 +14,7 @@ comment on the co-located test RFC ⛓,
 embrace easier release management for your apps 📦🙌,
 Learn how to add CI with GitHub Actions ✅,
 Respect the underscore 🙇,
+tell us about your EmberConf experience ❤️,
 
 READMORE
 
@@ -129,14 +130,18 @@ Because Steven's writing excellently builds suspense, we won't dare spoil the tw
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [We want to hear from your EmberConf experience ❤️](https://emberconf.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+This year's [EmberConf](https://emberconf.com/) featured **25+ remote presentations** about the latest and greatest in JavaScript and Ember with Emberistas from all around the world - and the event was a huge success! In case you haven't had a chance to tune into the livestream this week already, be sure to catch up on the recordings for **day 1** ([part 1](https://www.youtube.com/watch?v=1vZGPJHYcOA) + [part 2](https://www.youtube.com/watch?v=D-avY3dG2Zk)) and **day 2** ([part 1](https://www.youtube.com/watch?v=kwbaPS6pIpY) + [part 2](https://www.youtube.com/watch?v=vObogyci7m8)) of the conference.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto). Also, stay tuned and follow [the EmberConf Twitter account](https://twitter.com/emberconf) to not miss out on the exclusive BonusConf sessions, which will be released over the next couple of days!
+
+Last, but not least, we have one request for those of you who attended **EmberConf 2020**:
+
+> Tell us about someone new that you got to chat with at the virtual conf!
+
+Let us know about your answer to this question either by [tweeting us via Twitter](https://twitter.com/embertimes) using the **hashtag #EmberConFriends** or as a message on the [Ember Discord](https://discordapp.com/invite/emberjs) in the **#support-ember-times** channel. We will raffle an exclusive **EmberConf retro sticker set** among all story writers by April 6, 2020. We're looking forward to hear from you and happy catching up on virtual EmberConf!
+
 
 ---
 
