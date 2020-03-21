@@ -36,7 +36,7 @@ Ember 3.17 introduced these changes:
   - Ensured that `npm test` or `yarn test` in an addon fails if `ember-try` scenarios fail
   - Removed a number of older experiments (module unification and delayed transpilation)
 
-To learn more about upgrading to Ember 3.17, please visit [Ember Blog](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). We encourage you to help test 3.17 and 3.18 beta and report any bugs. Thank you!
+To learn more about upgrading to Ember 3.17, please visit the [Ember Blog](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). We encourage you to help test 3.17 and 3.18 beta and report any bugs. Thank you!
 
 ---
 
@@ -44,7 +44,7 @@ To learn more about upgrading to Ember 3.17, please visit [Ember Blog](https://b
 
 This year's [EmberConf](https://emberconf.com/) featured **25+ remote presentations** about the latest and greatest in JavaScript and Ember with Emberistas from all around the world - and the event was a huge success! In case you haven't had a chance to tune into the livestream this week already, be sure to catch up on the recordings for **day 1** ([part 1](https://www.youtube.com/watch?v=1vZGPJHYcOA) + [part 2](https://www.youtube.com/watch?v=D-avY3dG2Zk)) and **day 2** ([part 1](https://www.youtube.com/watch?v=kwbaPS6pIpY) + [part 2](https://www.youtube.com/watch?v=vObogyci7m8)) of the conference.
 
-Check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto). Also, stay tuned and follow [the EmberConf Twitter account](https://twitter.com/emberconf) to not miss out on the exclusive BonusConf sessions, which will be released over the next couple of days!
+Check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto). Also, stay tuned and follow the [EmberConf Twitter account](https://twitter.com/emberconf) to not miss out on the exclusive BonusConf sessions, which will be released over the next couple of days!
 
 Last, but not least, we have one request for those of you who attended **EmberConf 2020**:
 
