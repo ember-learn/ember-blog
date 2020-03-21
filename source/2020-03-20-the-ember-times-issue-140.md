@@ -1,27 +1,26 @@
 ---
 title: The Ember Times - Issue No. 140
-author: Chris Ng, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/20-the-ember-times-issue-140.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Meet Ember 3.17 🆕,
-Read about testing best practices on the Ember Testing Guide 📗,
+tell us about your EmberConf experience ❤️,
+read about testing best practices on the Ember Testing Guide 📗,
 comment on the co-located test RFC ⛓,
 embrace easier release management for your apps 📦🙌,
-Learn how to add CI with GitHub Actions ✅,
-Respect the underscore 🙇,
-tell us about your EmberConf experience ❤️,
+learn how to add CI with GitHub Actions ✅,
+and respect the underscore 🙇.
 
 READMORE
 
 ---
 
-## [Ember 3.17 Released 🆕](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html)
+## [Ember 3.17 released 🆕](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html)
 
 <!--alex ignore just-->
 On March 16—just in time for EmberConf!—[Ember 3.17 was officially announced](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). This release marked Ember 3.16 as an LTS and kicked off the 3.18 beta cycle.
@@ -38,6 +37,20 @@ Ember 3.17 introduced these changes:
   - Removed a number of older experiments (module unification and delayed transpilation)
 
 To learn more about upgrading to Ember 3.17, please visit [Ember Blog](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). We encourage you to help test 3.17 and 3.18 beta and report any bugs. Thank you!
+
+---
+
+## [We want to hear from your EmberConf experience ❤️](https://emberconf.com/)
+
+This year's [EmberConf](https://emberconf.com/) featured **25+ remote presentations** about the latest and greatest in JavaScript and Ember with Emberistas from all around the world - and the event was a huge success! In case you haven't had a chance to tune into the livestream this week already, be sure to catch up on the recordings for **day 1** ([part 1](https://www.youtube.com/watch?v=1vZGPJHYcOA) + [part 2](https://www.youtube.com/watch?v=D-avY3dG2Zk)) and **day 2** ([part 1](https://www.youtube.com/watch?v=kwbaPS6pIpY) + [part 2](https://www.youtube.com/watch?v=vObogyci7m8)) of the conference.
+
+Check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto). Also, stay tuned and follow [the EmberConf Twitter account](https://twitter.com/emberconf) to not miss out on the exclusive BonusConf sessions, which will be released over the next couple of days!
+
+Last, but not least, we have one request for those of you who attended **EmberConf 2020**:
+
+> Tell us about someone new that you got to chat with at the virtual conf!
+
+Let us know about your answer to this question either by [tweeting us via Twitter](https://twitter.com/embertimes) using the **hashtag #EmberConFriends** or as a message on the [Ember Discord](https://discordapp.com/invite/emberjs) in the **#support-ember-times** channel. We will raffle an exclusive **EmberConf retro sticker set** among all story writers by April 6, 2020. We're looking forward to hear from you and happy catching up on virtual EmberConf!
 
 ---
 
@@ -84,7 +97,7 @@ Check out the [v2 release page](https://github.com/rwjblue/create-rwjblue-releas
 
 ---
 
-## [CI with GitHub Actions for Ember Apps ✅](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/)
+## [CI with GitHub Actions for Ember apps ✅](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/)
 
 Continuous integration (CI) and continuous deployment may be skills that you get to practice maybe once on a production app, depending on your job title. But the truth is, you can practice them (_ahem_) continuously at an early stage for any app, no matter who you are. 💗
 
@@ -102,7 +115,7 @@ If you wanted to solve these problems or needed a reference code, [look no furth
 
 ---
 
-## [Respect the Underscore 🙇](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)
+## [Respect the underscore 🙇](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)
 
 [Steven Elberger (@StevenElberger)](https://github.com/StevenElberger)'s blog post, "[Respect the Underscore](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)," is a fantastic example of what you can practice as a developer: **Document your bug for posterity**, especially if it failed your app or test suite in a catastrophic manner.
 
@@ -115,54 +128,6 @@ Here are some questions that you and your team can address:
 - What did you do to fix the bug?
 
 Because Steven's writing excellently builds suspense, we won't dare spoil the twists and ending here. Instead, we encourage you to [check out the post](https://medium.com/@ritual_steven/respect-the-underscore-331fa23e1595)!
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [We want to hear from your EmberConf experience ❤️](https://emberconf.com/)
-
-This year's [EmberConf](https://emberconf.com/) featured **25+ remote presentations** about the latest and greatest in JavaScript and Ember with Emberistas from all around the world - and the event was a huge success! In case you haven't had a chance to tune into the livestream this week already, be sure to catch up on the recordings for **day 1** ([part 1](https://www.youtube.com/watch?v=1vZGPJHYcOA) + [part 2](https://www.youtube.com/watch?v=D-avY3dG2Zk)) and **day 2** ([part 1](https://www.youtube.com/watch?v=kwbaPS6pIpY) + [part 2](https://www.youtube.com/watch?v=vObogyci7m8)) of the conference.
-
-Check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto). Also, stay tuned and follow [the EmberConf Twitter account](https://twitter.com/emberconf) to not miss out on the exclusive BonusConf sessions, which will be released over the next couple of days!
-
-Last, but not least, we have one request for those of you who attended **EmberConf 2020**:
-
-> Tell us about someone new that you got to chat with at the virtual conf!
-
-Let us know about your answer to this question either by [tweeting us via Twitter](https://twitter.com/embertimes) using the **hashtag #EmberConFriends** or as a message on the [Ember Discord](https://discordapp.com/invite/emberjs) in the **#support-ember-times** channel. We will raffle an exclusive **EmberConf retro sticker set** among all story writers by April 6, 2020. We're looking forward to hear from you and happy catching up on virtual EmberConf!
-
 
 ---
 
@@ -196,4 +161,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam and the Learning Team
