@@ -32,7 +32,7 @@ READMORE
 
 <add blurb and emoji to "SOME-INTRO-HERE">
 
-[Feeder](https://feeder.co/) built a COVID-19 aka Corona Dashboard in Ember, but for incoming news on the subjects such as news, travel advice and research. Check it out here: [feeder.co/reader/corona](https://feeder.co/reader/corona). The Corona Dashboard is built using Feeder's regular stack that ingests public RSS feeds and filters on a set of keywords.
+[Feeder](https://feeder.co/) built a COVID-19 aka Corona Dashboard in Ember, but for incoming news on the subject such as news media, government updates, research, social media, and travel advice. Check it out here: [feeder.co/reader/corona](https://feeder.co/reader/corona). The Corona Dashboard is built using Feeder's regular stack that ingests public RSS feeds and filters on a set of keywords.
 
 Feeder moved to Ember in 2017 and have since migrated over time to Ember + TypeScript, angle bracket components, and now slowly to Octane.
 
