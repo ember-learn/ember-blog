@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: the crowd
+author: Erik Rothoff, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -25,14 +25,16 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Feeder Corona Dashboard 📰](https://feeder.co/reader/corona)
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
+
+[Feeder](https://feeder.co/) built a COVID-19 aka Corona Dashboard in Ember, but for incoming news on the subjects such as news, travel advice and research. Check it out here: [feeder.co/reader/corona](https://feeder.co/reader/corona). The Corona Dashboard is built using Feeder's regular stack that ingests public RSS feeds and filters on a set of keywords.
+
+Feeder moved to Ember in 2017 and have since migrated over time to Ember + TypeScript, angle bracket components, and now slowly to Octane.
 
 ---
 
@@ -143,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Erik Rothoff, Amy Lam, the crowd and the Learning Team
