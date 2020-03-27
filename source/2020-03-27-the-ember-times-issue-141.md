@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: Jared Galanis, the crowd
+author: Anne-Greeth van Herwijnen, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Yehuda's Octane Tutorial 🔥,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+A quick tip for refactoring your templates 📑,
 
 READMORE
 
@@ -37,6 +37,14 @@ So far there are 7 posts planned:
 - Polishing: Server-Side Rendering, Prerendering and Code Splitting
 
 So be on the look out 👀 for more in this very helpful new series!
+
+---
+
+## [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
+
+[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr)  wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else`  logic in your template that you would like to make clearer, this blogpost could help you out. 
+
+He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
 
 ---
 
@@ -158,4 +166,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Jared Galanis the crowd and the Learning Team
