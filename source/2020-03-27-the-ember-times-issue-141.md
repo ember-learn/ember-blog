@@ -19,6 +19,7 @@ READMORE
 
 There's an awesome new Octane tutorial in town 🤠 and it's written by none other than our very own [Yehuda Katz @wycats](https://github.com/wycats)!!!
 
+<!-- alex ignore just-->
 In the tutorial you'll build the schedule page for a conference like EmberConf. It feels like just the right thing to build after our amazing virtual EmberConf 💙💚💛💜🧡. 
 
 The first part in this tutorial, [Let's Go](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), begins with something that not all JavaScript tutorials cover, HTML and CSS, using CSS Grid and Flex. You'll learn how to go from mocks to a deployed app in very little time.
