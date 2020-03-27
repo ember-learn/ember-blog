@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: the crowd
+author: Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -8,20 +8,17 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+A quick tip for refactoring your templates 📑,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr)  wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else`  logic in your template that you would like to make clearer, this blogpost could help you out. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
 
 ---
 
@@ -143,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
