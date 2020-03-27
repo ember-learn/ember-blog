@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, Chris Ng, the crowd
+author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -16,7 +16,8 @@ Ember Autostash Modifier 💾,
 Decorator positioning now enforceable ↕️,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
 Read about how to use a ember-template-lint rule from an addon ✅,
-  
+Easier porting of websites with Percy ✨,
+
 READMORE
 
 ---
@@ -26,7 +27,7 @@ READMORE
 There's an awesome new Octane tutorial in town 🤠 and it's written by none other than our very own [Yehuda Katz @wycats](https://github.com/wycats)!!!
 
 <!-- alex ignore just-->
-In the tutorial you'll build the schedule page for a conference like EmberConf. It feels like just the right thing to build after our amazing virtual EmberConf 💙💚💛💜🧡. 
+In the tutorial you'll build the schedule page for a conference like EmberConf. It feels like just the right thing to build after our amazing virtual EmberConf 💙💚💛💜🧡.
 
 The first part in this tutorial, [Let's Go](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), begins with something that not all JavaScript tutorials cover, HTML and CSS, using CSS Grid and Flex. You'll learn how to go from mocks to a deployed app in very little time.
 
@@ -48,7 +49,7 @@ So be on the look out 👀 for more in this very helpful new series!
 
 ## [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
 
-[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr) wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else` logic in your template that you would like to make clearer, this blog post could help you out. 
+[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr) wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else` logic in your template that you would like to make clearer, this blog post could help you out.
 
 He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
 
@@ -64,7 +65,7 @@ From Yehuda and Abhilash's blog posts, you got to see a bit of how templates wor
 
 ## [Ember Autostash Modifier 💾](https://twitter.com/nullvoxpopuli/status/1239325059656933376)
 
-New modifier alert 🚨! [Preston Sego @NullVoxPopuli](https://github.com/NullVoxPopuli) has created [`ember-autostash-modifier`](https://github.com/NullVoxPopuli/ember-autostash-modifier) that stashes changes, binds those changes to a key, and restores those changes based on that key! 
+New modifier alert 🚨! [Preston Sego @NullVoxPopuli](https://github.com/NullVoxPopuli) has created [`ember-autostash-modifier`](https://github.com/NullVoxPopuli/ember-autostash-modifier) that stashes changes, binds those changes to a key, and restores those changes based on that key!
 
 This modifier is useful for chat apps, where you'd want to persist incomplete messages on a contact's page while the user navigates between other contacts before finishing and submitting a message, or where you want to bind component data based on the URL. Checkout this [demo](https://nullvoxpopuli.github.io/ember-autostash-modifier/1) of the modifier in action.
 
@@ -82,11 +83,11 @@ provides some configuration with some recommended defaults to help your project 
 
 ## [Stand Alone EmberConf 2020 Videos Are Out 🎥](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N)
 
-If you missed part or all of the ✨✨**amazing EmberConf 2020** ✨✨, now's your chance to catch up on all the great talks à la carte! While the live streams have been available since the days they were streamed, now you can watch them as stand alone talks. 
+If you missed part or all of the ✨✨**amazing EmberConf 2020** ✨✨, now's your chance to catch up on all the great talks à la carte! While the live streams have been available since the days they were streamed, now you can watch them as stand alone talks.
 
 If you want to re-live some of the best moments, or watch them for the first time, you can find the complete library of videos 📼 available for your viewing pleasure on [YouTube](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N). Be sure not to miss the BonusConf sessions which are included in this list!
 
-Again, don't forget to check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto). 
+Again, don't forget to check out all the related resources for the talks in [the conference notes](https://twitter.com/alex_diliberto/status/1240449629612892161) by [Alex DiLiberto (@alexdiliberto)](https://github.com/alexdiliberto).
 
 Also one more reminder! We have a request for those of you who attended **EmberConf 2020**:
 
@@ -151,14 +152,16 @@ To follow the detailed steps please read the [full blog post](https://mehulkar.c
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Tech stack modernisation without breaking things with Percy ✨](https://simplabs.com/blog/2020/03/27/porting-a-site-to-ember-with-percy/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!--alex ignore middleman-middlewoman-->
+You might already be a regular visitor of the [Ember Guides](https://guides.emberjs.com/release/).
+But did you know, that the **No. 1 learning site for Ember developers** used to be powered [with Ruby and Middleman](https://github.com/emberjs/guides); but after plenty of contributions by many different community members the app [has been modernised with an Ember tech stack](https://blog.emberjs.com/2018/05/25/the-emberjs-times-issue-48.html) to make it much easier to contribute to the [project](https://github.com/ember-learn/guides-source)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You might not have noticed the switch of tech stacks under the hood of the Ember Guides, and this is exactly how it should be! Want to learn more about how this was done? Be sure to read [Chris Manson's (@mansona)](https://github.com/mansona) latest [blog post](https://simplabs.com/blog/2020/03/27/porting-a-site-to-ember-with-percy/) about the process behind **Emberification of the Guides** (and the Ember website): it highlights how the visual regression testing tool [Percy](https://percy.io/) can help developers to bootstrap their efforts of porting a website to a new tech stack without breaking it.
+
+You can read the full blog post [on the simplabs blog](https://simplabs.com/blog/2020/03/27/porting-a-site-to-ember-with-percy/).
+
 
 ---
 
@@ -214,4 +217,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, Chris Ng, Jessica Jordan, the crowd and the Learning Team
