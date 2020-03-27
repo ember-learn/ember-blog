@@ -27,6 +27,7 @@ The first part in this tutorial, [Let's Go](https://yehudakatz.com/2020/03/25/em
 The second part of the tutorial, [Components](https://yehudakatz.com/2020/03/26/ember-octane-components/), is also out and it covers refactoring out some of the HTML duplication. It's a great introduction to how you can use components and lists to reduce repetition.
 
 So far there are 7 posts planned:
+
 - [Let's Go](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/)
 - [Components](https://yehudakatz.com/2020/03/26/ember-octane-components/)
 - Pulling Out Data
