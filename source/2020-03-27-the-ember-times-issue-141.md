@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: Anne-Greeth van Herwijnen, Jared Galanis the crowd
+author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 Yehuda's Octane Tutorial 🔥,
 A quick tip for refactoring your templates 📑,
 Ember Autostash Modifier 💾,
+Decorator positioning now enforceable ↕️,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
   
 READMORE
@@ -39,6 +40,14 @@ So far there are 7 posts planned:
 - Polishing: Server-Side Rendering, Prerendering and Code Splitting
 
 So be on the look out 👀 for more in this very helpful new series!
+
+---
+
+## [Achieve consistent decorator positioning with a new eslint plugin ↕️](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+
+Ever had to **put up with** inconsistent decorator positions in pull requests, because there wasn't a lint rule for that?
+_Now_ there is! 🎉 [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+provides some configuration with some recommended defaults to help your project achieve that last bit of consistency.
 
 ---
 
@@ -172,4 +181,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Jared Galanis the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis the crowd and the Learning Team
+
