@@ -10,8 +10,9 @@ responsive: true
 
 Yehuda's Octane Tutorial 🔥,
 A quick tip for refactoring your templates 📑,
+Ember Autostash Modifier 💾,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
-
+  
 READMORE
 
 ---
@@ -49,14 +50,13 @@ He also added some extra bonus tips, but no **spoilers** here, head to the [blog
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember Autostash Modifier 💾](https://twitter.com/nullvoxpopuli/status/1239325059656933376)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+New modifier alert 🚨! [Preston Sego @NullVoxPopuli](https://github.com/NullVoxPopuli) has created [`ember-autostash-modifier`](https://github.com/NullVoxPopuli/ember-autostash-modifier) that stashes changes, binds those changes to a key, and restores those changes based on that key! 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This modifier is useful for chat apps, where you'd want to persist incomplete messages on a contact's page while the user navigates between other contacts before finishing and submitting a message, or where you want to bind component data based on the URL. Checkout this [demo](https://nullvoxpopuli.github.io/ember-autostash-modifier/1) of the modifier in action.
+
+It's so nice to see the eco-system of Ember modifiers continue to grow 😀, we can't wait to see what the awesome folks in the Ember community come up with next! 
 
 ---
 
