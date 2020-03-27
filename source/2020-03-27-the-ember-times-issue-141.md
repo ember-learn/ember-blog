@@ -10,6 +10,7 @@ responsive: true
 
 Yehuda's Octane Tutorial 🔥,
 A quick tip for refactoring your templates 📑,
+Dive into angle and curly bracket invocations 🔍,
 Track JavaScript's built-in classes 💯,
 Ember Autostash Modifier 💾,
 Decorator positioning now enforceable ↕️,
@@ -45,19 +46,19 @@ So be on the look out 👀 for more in this very helpful new series!
 
 ---
 
-## [Achieve consistent decorator positioning with a new eslint plugin ↕️](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+## [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
 
-Ever had to **put up with** inconsistent decorator positions in pull requests, because there wasn't a lint rule for that?
-_Now_ there is! 🎉 [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
-provides some configuration with some recommended defaults to help your project achieve that last bit of consistency.
+[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr) wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else` logic in your template that you would like to make clearer, this blogpost could help you out. 
+
+He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
 
 ---
 
-## [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
+## [Ember templates: classic vs. angle bracket syntaxes 🔍](https://0xadada.pub/2020/03/20/ember-emplates-classic-vs-angle-bracket-syntaxes/)
 
-[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr)  wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else`  logic in your template that you would like to make clearer, this blogpost could help you out. 
+From Yehuda and Abhilash's blog posts, you got to see a bit of how templates work. We got 1 additional resource for you!
 
-He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
+[@0xADADA](https://github.com/0xadada) and [@dfreeman](https://github.com/dfreeman) did a [deep-dive into classic and angle bracket invocations](https://0xadada.pub/2020/03/20/ember-emplates-classic-vs-angle-bracket-syntaxes/). Please have a look to learn how these invocations handle attributes and arguments differently.
 
 ---
 
@@ -67,7 +68,15 @@ New modifier alert 🚨! [Preston Sego @NullVoxPopuli](https://github.com/NullVo
 
 This modifier is useful for chat apps, where you'd want to persist incomplete messages on a contact's page while the user navigates between other contacts before finishing and submitting a message, or where you want to bind component data based on the URL. Checkout this [demo](https://nullvoxpopuli.github.io/ember-autostash-modifier/1) of the modifier in action.
 
-It's so nice to see the eco-system of Ember modifiers continue to grow 😀, we can't wait to see what the awesome folks in the Ember community come up with next! 
+It's so nice to see the eco-system of Ember modifiers continue to grow 😀, we can't wait to see what the awesome folks in the Ember community come up with next!
+
+---
+
+## [Achieve consistent decorator positioning with a new eslint plugin ↕️](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+
+Ever had to **put up with** inconsistent decorator positions in pull requests, because there wasn't a lint rule for that?
+_Now_ there is! 🎉 [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+provides some configuration with some recommended defaults to help your project achieve that last bit of consistency.
 
 ---
 
