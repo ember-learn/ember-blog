@@ -189,7 +189,7 @@ You can read the full blog post [on the simplabs blog](https://simplabs.com/blog
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/btecu" target="gh-user">@btecu</a>, <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/kturney" target="gh-user">@kturney</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/leondmello" target="gh-user">@leondmello</a>, <a href="https://github.com/zapalagrzegorz" target="gh-user">@zapalagrzegorz</a>, <a href="https://github.com/monitron" target="gh-user">@monitron</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>, <a href="https://github.com/jtappa" target="gh-user">@jtappa</a>, <a href="https://github.com/brentzc" target="gh-user">@brentzc</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/NullVoxPopuli" target="gh-user">@NullVoxPopuli</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a> and <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
