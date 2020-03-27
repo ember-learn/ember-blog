@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis the crowd
+author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 Yehuda's Octane Tutorial 🔥,
 A quick tip for refactoring your templates 📑,
+Track JavaScript's built-in classes 💯,
 Ember Autostash Modifier 💾,
 Decorator positioning now enforceable ↕️,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
@@ -85,14 +86,28 @@ Let us know about your answer to this question either by [tweeting us via Twitte
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [tracked-built-ins v1 released! 💯](https://twitter.com/pzuraq/status/1240069037364633600)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+At his EmberConf talk, "[Autotracking: Reactivity and State in Modern Ember](https://www.youtube.com/watch?v=HDBSU2HCLbU&list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N)," [Chris Garrett (@pzuraq)](https://github.com/pzuraq) announced a new addon to help you track JavaScript's built-in classes.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+With [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins), your app can automatically react to changes in Objects, Arrays, Maps, Sets, WeakMaps, and WeakSets.
+
+```javascript
+import { tracked } from 'tracked-built-ins';
+
+class Foo {
+  @tracked value = 123;
+
+  obj = tracked({});
+  arr = tracked([]);
+  map = tracked(Map);
+  set = tracked(Set);
+  weakMap = tracked(WeakMap);
+  weakSet = tracked(WeakSet);
+}
+```
+
+[Give it a try today](https://github.com/pzuraq/tracked-built-ins)! Your feedback will help improve autotracking in Ember. 💞
 
 ---
 
@@ -181,5 +196,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis the crowd and the Learning Team
-
+Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, the crowd and the Learning Team
