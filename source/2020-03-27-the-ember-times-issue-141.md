@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+↕️ Decorator positioning now enforceable.
 
 READMORE
 
@@ -25,14 +26,11 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Achieve consistent decorator positioning with a new eslint plugin ↕️](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Ever had to **put up with** inconsistent decorator positions in pull requests, because there wasn't a lint rule for that?
+_Now_ there is! 🎉 [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+provides some configuration with some recommended defaults to help your project achieve that last bit of consistency.
 
 ---
 
