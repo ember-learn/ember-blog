@@ -13,7 +13,7 @@ A quick tip for refactoring your templates 📑,
 Ember Autostash Modifier 💾,
 Decorator positioning now enforceable ↕️,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
-Read about how to use a Ember Template Lint Rule from an Addon ✅,
+Read about how to use a ember-template-lint rule from an addon ✅,
   
 READMORE
 
@@ -191,4 +191,3 @@ That's another wrap! ✨
 Be kind,
 
 Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Chris Ng, the crowd and the Learning Team
-
