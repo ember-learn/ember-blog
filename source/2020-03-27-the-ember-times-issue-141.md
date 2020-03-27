@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: Jared Galanis, the crowd
+author: Anne-Greeth van Herwijnen, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -8,21 +8,44 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Yehuda's Octane Tutorial 🔥,
+A quick tip for refactoring your templates 📑,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Yehuda's Octane Tutorial 🔥](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's an awesome new Octane tutorial in town 🤠 and it's written by none other than our very own [Yehuda Katz @wycats](https://github.com/wycats)!!!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!-- alex ignore just-->
+In the tutorial you'll build the schedule page for a conference like EmberConf. It feels like just the right thing to build after our amazing virtual EmberConf 💙💚💛💜🧡. 
+
+The first part in this tutorial, [Let's Go](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), begins with something that not all JavaScript tutorials cover, HTML and CSS, using CSS Grid and Flex. You'll learn how to go from mocks to a deployed app in very little time.
+
+The second part of the tutorial, [Components](https://yehudakatz.com/2020/03/26/ember-octane-components/), is also out and it covers refactoring out some of the HTML duplication. It's a great introduction to how you can use components and lists to reduce repetition.
+
+So far there are 7 posts planned:
+
+- [Let's Go](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/)
+- [Components](https://yehudakatz.com/2020/03/26/ember-octane-components/)
+- Pulling Out Data
+- Airtable Time
+- Cleaning Things Up
+- Adding More Pages
+- Polishing: Server-Side Rendering, Prerendering and Code Splitting
+
+So be on the look out 👀 for more in this very helpful new series!
+
+---
+
+## [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
+
+[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr)  wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else`  logic in your template that you would like to make clearer, this blogpost could help you out. 
+
+He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
 
 ---
 
@@ -149,4 +172,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Jared Galanis the crowd and the Learning Team
