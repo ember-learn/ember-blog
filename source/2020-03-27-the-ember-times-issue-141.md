@@ -86,7 +86,7 @@ Let us know about your answer to this question either by [tweeting us via Twitte
 
 ---
 
-## [Blog Post: Ember Template Lint Rule from Addon ✅](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/)
+## [Blog post: ember-template-lint rule from addon ✅](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/)
 
 [Mehul Kar (@mehulkar)](https://github.com/mehulkar) wrote a [blog post](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/) on how to ship and use an [Ember template lint](https://github.com/ember-template-lint/ember-template-lint) rule from an addon.
 
