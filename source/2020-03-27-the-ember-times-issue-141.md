@@ -90,7 +90,7 @@ Let us know about your answer to this question either by [tweeting us via Twitte
 
 [Mehul Kar (@mehulkar)](https://github.com/mehulkar) wrote a [blog post](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/) on how to ship and use an [Ember template lint](https://github.com/ember-template-lint/ember-template-lint) rule from an addon.
 
-First up, the [Plugin API](https://github.com/ember-template-lint/ember-template-lint/blob/v2.4.1/docs/plugins.md) provides an overview on the `ember-template-lint` plugin system including where to add them or it can just be the root of the repo. In order to test your template lint rule, the blog post outlines how to use [Jest](https://jestjs.io/) and configure it to run tests in the `node-tests` directory. Finally, in order to use the plugin in an app we would need to add the plugin and enable the lint rule in `.template-lintrc.js` (like the example below).
+First up, the [Plugin API](https://github.com/ember-template-lint/ember-template-lint/blob/v2.4.1/docs/plugins.md) provides an overview on the `ember-template-lint` plugin system including where to add them or it can be the root of the repo as the blog shows. In order to test your template lint rule, the blog post outlines how to use [Jest](https://jestjs.io/) and configure it to run tests in the `node-tests` directory. Finally, in order to use the plugin in an app we would need to add the plugin and enable the lint rule in `.template-lintrc.js` (like the example below).
 
 ```js
 module.exports = {
