@@ -16,7 +16,9 @@ READMORE
 
 ##  [A quick tip for refactoring your templates 📑](https://abhilashlr.in/ember-refactor-templates)
 
-[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr)  wrote a small and clear [blog](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else`  logic in your template that you would like to make clearer, this blogpost could help you out. He also added some extra bonus tips, but no **spoilers** here!
+[Abhilash L Ramesh @abhilashlr](https://github.com/abhilashlr)  wrote a small and clear [blog post](https://abhilashlr.in/ember-refactor-templates) with actionable tips to make your Ember Templates cleaner. So if you have complex `if-else`  logic in your template that you would like to make clearer, this blogpost could help you out. 
+
+He also added some extra bonus tips, but no **spoilers** here, head to the [blog post](https://abhilashlr.in/ember-refactor-templates) to check them out!
 
 ---
 
