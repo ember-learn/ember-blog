@@ -90,7 +90,7 @@ Let us know about your answer to this question either by [tweeting us via Twitte
 
 At his EmberConf talk, "[Autotracking: Reactivity and State in Modern Ember](https://www.youtube.com/watch?v=HDBSU2HCLbU&list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N)," [Chris Garrett (@pzuraq)](https://github.com/pzuraq) announced a new addon to help you track JavaScript's built-in classes.
 
-With [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins), your app can automatically react to changes in objects, arrays, maps, sets, weak maps, and weak sets.
+With [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins), your app can automatically react to changes in Objects, Arrays, Maps, Sets, WeakMaps, and WeakSets.
 
 ```javascript
 import { tracked } from 'tracked-built-ins';
@@ -197,4 +197,3 @@ That's another wrap! ✨
 Be kind,
 
 Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, the crowd and the Learning Team
-
