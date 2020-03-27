@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: the crowd
+author: the crowd, Preston Sego
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -141,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+the crowd, Preston Sego and the Learning Team
