@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 141
-author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis the crowd
+author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
@@ -13,6 +13,7 @@ A quick tip for refactoring your templates 📑,
 Ember Autostash Modifier 💾,
 Decorator positioning now enforceable ↕️,
 Stand Alone EmberConf 2020 Videos Are Out 🎥,
+Read about how to use a Ember Template Lint Rule from an Addon ✅,
   
 READMORE
 
@@ -85,14 +86,22 @@ Let us know about your answer to this question either by [tweeting us via Twitte
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Blog Post: Ember Template Lint Rule from Addon ✅](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Mehul Kar (@mehulkar)](https://github.com/mehulkar) wrote a [blog post](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/) on how to ship and use an [Ember template lint](https://github.com/ember-template-lint/ember-template-lint) rule from an addon.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+First up, the [Plugin API](https://github.com/ember-template-lint/ember-template-lint/blob/v2.4.1/docs/plugins.md) provides an overview on the `ember-template-lint` plugin system including where to add them or it can just be the root of the repo. In order to test your template lint rule, the blog post outlines how to use [Jest](https://jestjs.io/) and configure it to run tests in the `node-tests` directory. Finally, in order to use the plugin in an app we would need to add the plugin and enable the lint rule in `.template-lintrc.js` (like the example below).
+
+```js
+module.exports = {
+  plugins: ['my-addon-name/template-lint-plugin'],
+  rules: {
+    'the-rule-name': true
+  }
+}
+```
+
+To follow the detailed steps please read the [full blog post](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/) and have a [powerful way to encourage a certain way of programing](https://twitter.com/mehulkar/status/1240020900960825345) today!
 
 ---
 
@@ -181,5 +190,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Chris Ng, the crowd and the Learning Team
 
