@@ -25,16 +25,18 @@ READMORE
 
 ---
 
-## [Ember at Feeder 📰](https://feeder.co/reader/corona)
+## [Feeder Corona Dashboard 📰](https://feeder.co/reader/corona)
 
 <consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add blurb and emoji to "SOME-INTRO-HERE">
 
-[Feeder](https://feeder.co/) built a COVID-19 aka Corona Dashboard in Ember, but for incoming news on the subject such as news media, government updates, research, social media, and travel advice. Check it out here: [feeder.co/reader/corona](https://feeder.co/reader/corona). The Corona Dashboard is built using Feeder's regular stack that ingests public RSS feeds and filters on a set of keywords. Feeder is a news manager that tracks any online source you choose and bundles it into an easy-to-digest reading experience. 
+2020 has been defined by coronavirus. [Feeder](https://feeder.co/) built a COVID-19 aka **Corona Dashboard** in Ember, but for incoming news on the subject such as news media, government updates, research, social media, and travel advice. Check it out here: [feeder.co/reader/corona](https://feeder.co/reader/corona). 
 
-[Erik Rothoff Andersson (@erkie)](https://github.com/erkie) from Feeder shares with the Times:
+Feeder is a news manager that tracks any online source you choose and bundles it into an easy-to-digest reading experience. The Corona Dashboard is built using Feeder's regular stack that ingests public RSS feeds and filters on a set of keywords. 
+
+[Erik Rothoff Andersson (@erkie)](https://github.com/erkie) from Feeder shares their experience with Ember with the Times:
 
 > We started at Ember 2.10 and are now at Ember 3.14 and counting. It's so cool for that the upgrades help to educate us how to become better developers. One striking thing is the a11y template linting rules that promote best practices. I had no idea about those things, but now I do! So thanks Ember.
 >
@@ -42,7 +44,7 @@ READMORE
 >
 > TypeScript is the single biggest innovation in many years, and the ember-cli-typescript addon has been an amazing bridge. It's great to see that a lot of [Ember internal packages](https://github.com/emberjs/ember.js/tree/master/packages/@ember/-internals/glimmer) are now written entirely with TypeScript. 
 >
-> We render a lot of components on screen, so performance has been something we've invested a lot of time into Switching to Glimmer components for high volume components we were able to reduce render times on hotspots with ~20%.
+> We render a lot of components on screen, so performance has been something we've invested a lot of time in. Switching to Glimmer components for high volume components we were able to reduce render times on hotspots by ~20%.
 
 ---
 
