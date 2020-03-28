@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 141
 author: Anne-Greeth van Herwijnen, Preston Sego, Jared Galanis, Isaac Lee, Chris Ng, Jessica Jordan, Erik Rothoff, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/27-the-ember-times-issue-141.html"
 responsive: true
 ---
