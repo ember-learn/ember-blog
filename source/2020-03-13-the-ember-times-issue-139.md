@@ -89,6 +89,8 @@ developers may want to integrate with an external library using **dynamic `impor
 initial load cost of an app. The jsQR library itself is 45kb (after min+gzip). This addon adds only <span style="font-style: italic;">bytes</span>
 to the initial vendor bundle, or the cost of a single Glimmer component, a private service, and modifiers.
 
+QR and barcode scanning without a growth in bundle size (thanks, [ember-auto-import](https://github.com/ef4/ember-auto-import)!) is also available in [ember-scanner](https://github.com/evocount/ember-scanner). 
+
 ---
 
 ## [Ember test case for a CRUD application with Mirage 💡](https://medium.com/@srajas02/ember-test-case-for-a-crud-application-with-mirage-d6d9836bfee2)
