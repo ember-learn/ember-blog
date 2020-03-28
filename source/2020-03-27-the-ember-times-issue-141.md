@@ -9,15 +9,15 @@ responsive: true
 👋 Emberistas! 🐹
 
 Yehuda's Octane Tutorial 🔥,
-A quick tip for refactoring your templates 📑,
-Dive into angle and curly bracket invocations 🔍,
-Track JavaScript's built-in classes 💯,
-Ember Autostash Modifier 💾,
-Decorator positioning now enforceable ↕️,
-Stand Alone EmberConf 2020 Videos Are Out 🎥,
-Read about how to use a ember-template-lint rule from an addon ✅,
-Easier porting of websites with Percy ✨,
-Feeder Corona Dashboard 📰
+a quick tip for refactoring your templates 📑,
+dive into angle and curly bracket invocations 🔍,
+easier porting of websites with Percy ✨,
+Feeder Corona Dashboard 📰,
+track JavaScript's built-in classes 💯,
+Ember autostash modifier 💾,
+read about how to use a ember-template-lint rule from an addon ✅,
+decorator positioning now enforceable ↕️,
+and last, but not least, stand alone EmberConf 2020 videos are out 🎥!
 
 READMORE
 
@@ -68,7 +68,7 @@ From Yehuda and Abhilash's blog posts, you got to see a bit of how templates wor
 
 <!--alex ignore middleman-middlewoman-->
 You might already be a regular visitor of the [Ember Guides](https://guides.emberjs.com/release/).
-But did you know, that the **No. 1 learning site for Ember developers** used to be powered [with Ruby and Middleman](https://github.com/emberjs/guides)? After plenty of contributions by many different community members the app [has been modernised with an Ember tech stack](https://blog.emberjs.com/2018/05/25/the-emberjs-times-issue-48.html) to make it much easier for new contributors to work on the [project](https://github.com/ember-learn/guides-source)!
+But did you know, that the **#1 learning site for Ember developers** used to be powered [with Ruby and Middleman](https://github.com/emberjs/guides)? After plenty of contributions by many different community members, the app [has been modernised with an Ember tech stack](https://blog.emberjs.com/2018/05/25/the-emberjs-times-issue-48.html) to make it much easier for new contributors to work on the [project](https://github.com/ember-learn/guides-source)!
 
 You might not have noticed the switch of tech stacks under the hood of the Ember Guides, and this is exactly how it should be! Want to learn more about how this was done? Be sure to read [Chris Manson's (@mansona)](https://github.com/mansona) latest [blog post](https://simplabs.com/blog/2020/03/27/porting-a-site-to-ember-with-percy/) about the process behind the seamless **Emberification of the Guides** (and the Ember website): it highlights how the visual regression testing tool [Percy](https://percy.io/) can help developers to bootstrap their efforts of porting a website to a new tech stack without breaking it.
 
@@ -91,6 +91,8 @@ Feeder is a news manager that tracks any online source you choose and bundles it
 > TypeScript is the single biggest innovation in many years, and the ember-cli-typescript addon has been an amazing bridge. It's great to see that a lot of [Ember internal packages](https://github.com/emberjs/ember.js/tree/master/packages/@ember/-internals/glimmer) are now written entirely with TypeScript. 
 >
 > We render a lot of components on screen, so performance has been something we've invested a lot of time in. Switching to Glimmer components for high volume components we were able to reduce render times on hotspots by ~20%.
+
+We enjoyed learning about Ember at Feeder and hope that you find the Corona Dashboard useful in these hectic times! 💛
 
 ---
 
@@ -119,9 +121,19 @@ class Foo {
 
 ---
 
+## [Ember autostash modifier 💾](https://twitter.com/nullvoxpopuli/status/1239325059656933376)
+
+New modifier alert 🚨! [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has created [`ember-autostash-modifier`](https://github.com/NullVoxPopuli/ember-autostash-modifier) that stashes changes, binds those changes to a key, and restores those changes based on that key!
+
+This modifier is useful for chat apps, where you'd want to persist incomplete messages on a contact's page while the user navigates between other contacts before finishing and submitting a message, or where you want to bind component data based on the URL. Check out this [demo](https://nullvoxpopuli.github.io/ember-autostash-modifier/1) of the modifier in action.
+
+It's so nice to see the eco-system of Ember modifiers continue to grow 😀, we can't wait to see what the awesome folks in the Ember community come up with next!
+
+---
+
 ## [Blog post: ember-template-lint rule from addon ✅](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/)
 
-[Mehul Kar (@mehulkar)](https://github.com/mehulkar) wrote a [blog post](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/) on how to ship and use an [Ember template lint](https://github.com/ember-template-lint/ember-template-lint) rule from an addon.
+[Mehul Kar (@mehulkar)](https://github.com/mehulkar) wrote a [blog post](https://mehulkar.com/blog/2020/03/ember-template-lint-rule-from-addon/) on how to ship and use an [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) rule from an addon.
 
 First up, the [Plugin API](https://github.com/ember-template-lint/ember-template-lint/blob/v2.4.1/docs/plugins.md) provides an overview on the `ember-template-lint` plugin system including where to add them or it can be the root of the repo as the blog shows. In order to test your template lint rule, the blog post outlines how to use [Jest](https://jestjs.io/) and configure it to run tests in the `node-tests` directory. Finally, in order to use the plugin in an app we would need to add the plugin and enable the lint rule in `.template-lintrc.js` (like the example below).
 
@@ -138,16 +150,6 @@ To follow the detailed steps please read the [full blog post](https://mehulkar.c
 
 ---
 
-## [Ember Autostash Modifier 💾](https://twitter.com/nullvoxpopuli/status/1239325059656933376)
-
-New modifier alert 🚨! [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has created [`ember-autostash-modifier`](https://github.com/NullVoxPopuli/ember-autostash-modifier) that stashes changes, binds those changes to a key, and restores those changes based on that key!
-
-This modifier is useful for chat apps, where you'd want to persist incomplete messages on a contact's page while the user navigates between other contacts before finishing and submitting a message, or where you want to bind component data based on the URL. Check out this [demo](https://nullvoxpopuli.github.io/ember-autostash-modifier/1) of the modifier in action.
-
-It's so nice to see the eco-system of Ember modifiers continue to grow 😀, we can't wait to see what the awesome folks in the Ember community come up with next!
-
----
-
 ## [Achieve consistent decorator positioning with a new eslint plugin ↕️](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
 
 Ever had to **put up with** inconsistent decorator positions in pull requests, because there wasn't a lint rule for that?
@@ -156,7 +158,7 @@ provides some configuration with some recommended defaults to help your project 
 
 ---
 
-## [Stand Alone EmberConf 2020 Videos Are Out 🎥](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N)
+## [Stand alone EmberConf 2020 videos are out 🎥](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkC03mdzlyej6tcbEqrZK8N)
 
 If you missed part or all of the ✨✨**amazing EmberConf 2020** ✨✨, now's your chance to catch up on all the great talks à la carte! While the live streams have been available since the days they were streamed, now you can watch them as stand alone talks.
 
