@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 140
 author: Chris Ng, Jessica Jordan, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/03/20-the-ember-times-issue-140.html"
 responsive: true
 ---
