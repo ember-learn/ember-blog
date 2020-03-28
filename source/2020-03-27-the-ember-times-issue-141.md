@@ -82,9 +82,9 @@ You can read the full blog post [on the simplabs blog](https://simplabs.com/blog
 
 Feeder is a news manager that tracks any online source you choose and bundles it into an easy-to-digest reading experience. The Corona Dashboard is built using Feeder's regular stack that ingests public RSS feeds and filters on a set of keywords. 
 
-[Erik Rothoff Andersson (@erkie)](https://github.com/erkie) from Feeder shares their experience with Ember with the Times:
+[Erik Rothoff Andersson (@erkie)](https://github.com/erkie) shares Feeder's experience with Ember with the Times:
 
-> We started at Ember 2.10 and are now at Ember 3.14 and counting. It's so cool for that the upgrades help to educate us how to become better developers. One striking thing is the a11y template linting rules that promote best practices. I had no idea about those things, but now I do! So thanks Ember.
+> We started at Ember 2.10 and are now at Ember 3.14 and counting. It's so cool that the upgrades help to educate us how to become better developers. One striking thing is the a11y template linting rules that promote best practices. I had no idea about those things, but now I do! So thanks Ember.
 >
 > We've used pods since the start, but I got tripped up by all the tabs in Atom being called `component.js`, or `template.hbs`, which is why I developed the [Atom addon Ember tabs](https://atom.io/packages/ember-tabs). Was really happy when scrolling through ember-cli docs one day and found it mentioned [here](https://ember-cli.com/user-guide/#atom). So far I haven't kept up to date with the module unification, but it seems promising!
 >
