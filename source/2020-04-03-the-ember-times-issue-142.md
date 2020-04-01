@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 142
-author: the crowd
+author: Abhilash, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
@@ -8,20 +8,15 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember CLI improvement tips 🚀,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember CLI improvement tips 🚀](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Vasanth](https://github.com/vasind) collated a list of all [**Ember CLI**](https://ember-cli.com/) improvements for Ember applications as a Github gist. He talks about a bunch of improvements that include speeding up build times for development and test environments while retaining the right configurations for production. He also added tips on optimising applications using [Mirage](https://www.ember-cli-mirage.com/), but no **spoilers** here, [head out to his gist](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2) to check them out!
 
 ---
 
@@ -143,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Abhilash, the crowd and the Learning Team
