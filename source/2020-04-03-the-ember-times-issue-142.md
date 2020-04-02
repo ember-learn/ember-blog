@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 142
-author: Chris Ng, the crowd
+author: Chris Ng, Abhilash, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
@@ -10,6 +10,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of `ember-arg-types` 🍎🍊,
+Ember CLI improvement tips 🚀,
+
 READMORE
 
 ---
@@ -50,6 +52,13 @@ export default class CharacterComponent extends Component {
 ```
 
 Try it out today by ember installing [ember-arg-types](https://github.com/jkusa/ember-arg-types)!
+
+---
+
+## [Ember CLI improvement tips 🚀](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2)
+
+[Vasanth (@vasind)](https://github.com/vasind) collated a list of all [**Ember CLI**](https://ember-cli.com/) improvements for Ember applications as a GitHub gist. He showcased improvements to the `ember-cli-build.js` that speed up build times for development and test environments, while retaining the right configurations in production. He also added tips on optimizing applications using [Mirage](https://www.ember-cli-mirage.com/). [Head out to his gist](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2) to check them out!
+>>>>>>> blog/embertimes-142
 
 ---
 
@@ -171,4 +180,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Abhilash, the crowd and the Learning Team
