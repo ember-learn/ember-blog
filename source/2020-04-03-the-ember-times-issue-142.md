@@ -16,7 +16,7 @@ READMORE
 
 ## [Ember CLI improvement tips 🚀](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2)
 
-[Vasanth](https://github.com/vasind) collated a list of all [**Ember CLI**](https://ember-cli.com/) improvements for Ember applications as a Github gist. He showcases improvements to the `ember-cli-build.js` that speed up build times for development and test environments, while retaining the right configurations for production. He also added tips on optimising applications using [Mirage](https://www.ember-cli-mirage.com/). [Head out to his gist](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2) to check them out!```
+[Vasanth (@vasind)](https://github.com/vasind) collated a list of all [**Ember CLI**](https://ember-cli.com/) improvements for Ember applications as a GitHub gist. He showcased improvements to the `ember-cli-build.js` that speed up build times for development and test environments, while retaining the right configurations in production. He also added tips on optimizing applications using [Mirage](https://www.ember-cli-mirage.com/). [Head out to his gist](https://gist.github.com/vasind/22122632be15f3bc98a092ab012524e2) to check them out!
 
 ---
 
