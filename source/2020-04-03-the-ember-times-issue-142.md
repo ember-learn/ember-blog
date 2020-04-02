@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 142
-author: Chris Ng, Abhilash, the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
@@ -138,20 +138,19 @@ Try it out today by ember installing [ember-arg-types](https://github.com/jkusa/
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Community support for the Ember API Docs 📓❤️](https://github.com/ember-learn/ember-api-docs)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [Ember API Docs](https://api.emberjs.com/ember/release) have been one of the cornerstones of Ember's official learning resources since the early days of the project.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+But did you already know that right now there are plenty of efforts underway to modernise the app? In this regard, we'd like to thank [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) in particular for bringing in [lots of new upgrades, awesome refactors and improvements to the API Docs](https://github.com/ember-learn/ember-api-docs/pulls?q=is%3Apr+is%3Aclosed+author%3AGaurav0) ❤️!
+
+If you are interested in **helping** with modernising the Ember API Docs - be it contributing code, triaging issues, or reviewing changes - make sure to chat with the Ember Learning team. You can do so either on  [an issue discussion on Github](https://github.com/ember-learn/ember-api-docs/issues) or on the **#dev-ember-learning** channel through the [Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/Robdel12" target="gh-user">@Robdel12</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/somasuna" target="gh-user">@somasuna</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/brendenpalmer" target="gh-user">@brendenpalmer</a>, <a href="https://github.com/sharpshark28" target="gh-user">@sharpshark28</a>, <a href="https://github.com/sivakumar-kailasam" target="gh-user">@sivakumar-kailasam</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a> and <a href="https://github.com/SYU15" target="gh-user">@SYU15</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -179,4 +178,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash, the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, the crowd and the Learning Team
