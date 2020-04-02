@@ -144,7 +144,7 @@ The [Ember API Docs](https://api.emberjs.com/ember/release) have been one of the
 
 But did you already know that right now there are plenty of efforts underway to modernise the app? In this regard, we'd like to thank [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) in particular for bringing in [lots of new upgrades, awesome refactors and improvements to the API Docs](https://github.com/ember-learn/ember-api-docs/pulls?q=is%3Apr+is%3Aclosed+author%3AGaurav0) ❤️!
 
-In case you are interested in **helping** with the modernisation efforts of the Ember API Docs, too - be it with code contributions, issue triaging or reviewing changes - be sure to chat with the Ember Learning team; either on  [an issue discussion on Github](https://github.com/ember-learn/ember-api-docs/issues) or on the **#dev-ember-learning** channel through the [Ember Discord](https://discordapp.com/invite/emberjs)!
+If you are interested in **helping** with modernising the Ember API Docs - be it contributing code, triaging issues, or reviewing changes - make sure to chat with the Ember Learning team. You can do so either on  [an issue discussion on Github](https://github.com/ember-learn/ember-api-docs/issues) or on the **#dev-ember-learning** channel through the [Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
