@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 142
-author: Abhilash, the crowd
+author: Chris Ng, Abhilash, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
@@ -8,9 +8,50 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Release of `ember-arg-types` 🍎🍊,
 Ember CLI improvement tips 🚀,
 
 READMORE
+
+---
+
+## [Release of ember-arg-types 🍎🍊](https://twitter.com/jonkilroy/status/1242639546749255681)
+
+[Jon Kilroy (@jkusa)](https://github.com/jkusa) released the `ember-arg-types` library which provides a decorator (`@arg`) that maps [glimmer arguments](https://guides.emberjs.com/release/upgrading/current-edition/glimmer-components/) to local component properties. This allows default values and type checking to be declared and documented in your component JS file.
+
+In this example, `sortBy` will return the string argument passed or will default to the string `’id’`:
+
+```js
+@arg(string)
+sortBy = 'id';
+```
+
+Instead of writing something like this:
+
+```js
+get sortBy() {
+  const { sortBy='id' } = this.args;
+  assert('`sortBy` must be a string', typeof sortBy === 'string');
+  return sortBy;
+}
+```
+
+Furthermore `ember-arg-types` leverages the [facebook/prop-types](https://github.com/facebook/prop-types) library by importing type validators for runtime type checking. As an example, the `name` argument below is required to be a string.
+
+```js
+import Component from '@glimmer/component';
+import { arg } from 'ember-arg-types';
+import { string } from 'prop-types';
+
+export default class CharacterComponent extends Component {
+  // `name` string arg that is required
+  @arg(string.isRequired)
+  name;
+}
+```
+
+Try it out today by ember installing [ember-arg-types](https://github.com/jkusa/ember-arg-types)!
 
 ---
 
@@ -138,4 +179,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash, the crowd and the Learning Team
+Chris Ng, Abhilash, the crowd and the Learning Team
