@@ -16,7 +16,7 @@ READMORE
 
 ## [Release of ember-arg-types 🍎🍊](https://twitter.com/jonkilroy/status/1242639546749255681)
 
-[Jon Kilroy (@jkusa)](https://github.com/jkusa) released the `ember-arg-types` library which provides a decorator (`@arg`) that maps [glimmer arguments](https://guides.emberjs.com/release/upgrading/current-edition/glimmer-components/) to local component properties. This allows default values and type checking to be easily declared and documented in your component JS file.
+[Jon Kilroy (@jkusa)](https://github.com/jkusa) released the `ember-arg-types` library which provides a decorator (`@arg`) that maps [glimmer arguments](https://guides.emberjs.com/release/upgrading/current-edition/glimmer-components/) to local component properties. This allows default values and type checking to be declared and documented in your component JS file.
 
 In this example, `sortBy` will return the string argument passed or will default to the string `’id’`:
 
