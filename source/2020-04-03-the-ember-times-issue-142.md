@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 142
-author: Chris Ng, Abhilash, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
@@ -12,6 +12,8 @@ responsive: true
 Release of `ember-arg-types` 🍎🍊,
 Ember CLI improvement tips 🚀,
 Betas of Glimmer.js 2 🎉,
+Watch 3 virtual talks from EmberATX 📽️, 
+Community support for the Ember API Docs 📓❤️,
 
 READMORE
 
@@ -72,14 +74,15 @@ The Glimmer.js betas could pave the way for what we might want to do in Ember.js
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Watch 3 virtual talks from EmberATX 📽️](https://twitter.com/EmberATX/status/1245383493632380929)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Hope everyone is well and taking care of themselves! 💞 If you have ~15 minutes to spare, you can watch a recent talk from EmberATX:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- [ember-printable-pages](https://www.youtube.com/watch?v=2FQivvOK-04&list=PLHCmVP3S9Z1PZp5JU6VxmUyuQjO7vrLfy) by [Chris Bonser (@chbonser)](https://github.com/chbonser)
+- [Introducing Ember Modifiers](https://www.youtube.com/watch?v=KWBOYqAEh6M&list=PLHCmVP3S9Z1PZp5JU6VxmUyuQjO7vrLfy) by [Ava Wroten (@sharpshark28)](https://github.com/sharpshark28)
+- [CI with GitHub Actions for Ember Apps](https://www.youtube.com/watch?v=Np3DdTrYmV0&list=PLHCmVP3S9Z1PZp5JU6VxmUyuQjO7vrLfy) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
+
+In particular, please check out the new addon, [ember-printable-pages](https://forge512.github.io/ember-printable-pages/)! You can **write declarative templates** and **reuse components** to create printable pages for end users. It also supports **progressive rendering** to provide a smooth user experience when the end user needs to print _hundreds_ of pages. 💯
 
 ---
 
@@ -178,4 +181,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash, Jessica Jordan, Jared Galanis, the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, Jared Galanis, Isaac Lee, the crowd and the Learning Team
