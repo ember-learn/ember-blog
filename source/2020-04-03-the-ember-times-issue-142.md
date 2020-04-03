@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 142
-author: Chris Ng, Abhilash, Jessica Jordan, the crowd
+author: Chris Ng, Abhilash, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of `ember-arg-types` 🍎🍊,
 Ember CLI improvement tips 🚀,
+Betas of Glimmer.js 2 🎉,
 
 READMORE
 
@@ -61,14 +62,13 @@ Try it out today by ember installing [ember-arg-types](https://github.com/jkusa/
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Betas of Glimmer.js 2 🎉](https://github.com/glimmerjs/glimmer.js/releases)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A set of **new betas for Glimmer.js 2.0.0** ([beta.1](https://github.com/glimmerjs/glimmer.js/releases/tag/v2.0.0-beta.1) && [beta.3](https://github.com/glimmerjs/glimmer.js/releases/tag/v2.0.0-beta.3)) have been released! 🔥🔥🔥 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The releases incorporate some exciting new developments including a new minimal `renderComponent` API, a template import based design, a standardized build based on plain JavaScript modules, a new Glimmer.js app blueprint, and support for custom helpers and modifiers. The standardized build emulates the goals of Embroider in Ember.js and unlocks the ability to use whatever custom build pipeline you might want (WebPack, Parcel, Rollup, etc.)!
+
+The Glimmer.js betas could pave the way for what we might want to do in Ember.js, and even what we might _not_ want to do in Ember.js. Please note that these new Glimmer.js betas are definitely experimental. 🔬🧪 Have fun exploring them 🤠, but keep this in mind when considering them for use in your application.
 
 ---
 
@@ -178,4 +178,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Abhilash, Jessica Jordan, Jared Galanis, the crowd and the Learning Team
