@@ -68,7 +68,7 @@ A set of **new betas for Glimmer.js 2.0.0** ([beta.1](https://github.com/glimmer
 
 The releases incorporate some exciting new developments including a new minimal `renderComponent` API, a template import based design, a standardized build based on plain JavaScript modules, a new Glimmer.js app blueprint, and support for custom helpers and modifiers. The standardized build unlocks the ability to use whatever custom build pipeline you might want (WebPack, Parcel, Rollup, etc.)!
 
-The Glimmer.js betas could pave the way for what we might want to do in Ember.js, or even what we might _not_ want to do in Ember.js. With that in mind, please note that these new Glimmer.js betas are definitely experimental 🔬🧪 and should while have fun exploring them 🤠, but also keep that in mind when considering them for use in your application.
+The Glimmer.js betas could pave the way for what we might want to do in Ember.js, and even what we might _not_ want to do in Ember.js. Please note that these new Glimmer.js betas are definitely experimental 🔬🧪Have fun exploring them 🤠, but keep this in mind when considering them for use in your application.
 
 
 ---
