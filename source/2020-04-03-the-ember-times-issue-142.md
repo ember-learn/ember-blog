@@ -82,7 +82,7 @@ Hope everyone is well and taking care of themselves! 💞 If you have ~15 minute
 - [Introducing Ember Modifiers](https://www.youtube.com/watch?v=KWBOYqAEh6M&list=PLHCmVP3S9Z1PZp5JU6VxmUyuQjO7vrLfy) by [Ava Wroten (@sharpshark28)](https://github.com/sharpshark28)
 - [CI with GitHub Actions for Ember Apps](https://www.youtube.com/watch?v=Np3DdTrYmV0&list=PLHCmVP3S9Z1PZp5JU6VxmUyuQjO7vrLfy) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
 
-In particular, please check out the new addon, [ember-printable-pages](https://forge512.github.io/ember-printable-pages/)! You can **write declarative templates** and **reuse components** to create printable pages for end users. It also supports **progressive rendering** to provide a smooth user experience when the end user needs to print _hundreds_ of pages. 💯
+In particular, please check out the new addon, [ember-printable-pages](https://forge512.github.io/ember-printable-pages/)! You can **write declarative templates** and **reuse components** to create printable pages for end users. It also supports **progressive rendering** to provide a smooth user experience when the end user needs to print <span style="font-style: italic;">hundreds</span> of pages. 💯
 
 ---
 
