@@ -8,7 +8,7 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Community support for the Ember API Docs 📓❤️!
+Community support for the Ember API Docs 📓❤️,
 release of `ember-arg-types` 🍎🍊,
 Ember CLI improvement tips 🚀,
 betas of Glimmer.js 2 🎉, and last, but not least,
