@@ -8,13 +8,23 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Release of `ember-arg-types` 🍎🍊,
+Community support for the Ember API Docs 📓❤️!
+release of `ember-arg-types` 🍎🍊,
 Ember CLI improvement tips 🚀,
-betas of Glimmer.js 2 🎉,
-watch 3 virtual talks from EmberATX 📽️, 
-and community support for the Ember API Docs 📓❤️!
+betas of Glimmer.js 2 🎉, and last, but not least,
+watch 3 virtual talks from EmberATX 📽️!
 
 READMORE
+
+---
+
+## [Community support for the Ember API Docs 📓❤️](https://github.com/ember-learn/ember-api-docs)
+
+The [Ember API Docs](https://api.emberjs.com/ember/release) have been one of the cornerstones of Ember's official learning resources since the early days of the project.
+
+But did you already know that right now there are plenty of efforts underway to modernise the app? In this regard, we'd like to thank [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) in particular for bringing in [lots of new upgrades, awesome refactors and improvements to the API Docs](https://github.com/ember-learn/ember-api-docs/pulls?q=is%3Apr+is%3Aclosed+author%3AGaurav0) ❤️!
+
+If you are interested in **helping** with modernising the Ember API Docs - be it contributing code, triaging issues, or reviewing changes - make sure to chat with the Ember Learning team. You can do so either on  [an issue discussion on Github](https://github.com/ember-learn/ember-api-docs/issues) or on the **#dev-ember-learning** channel through the [Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
@@ -82,16 +92,6 @@ Hope everyone is well and taking care of themselves! 💞 If you have ~15 minute
 - [CI with GitHub Actions for Ember Apps](https://www.youtube.com/watch?v=Np3DdTrYmV0&list=PLHCmVP3S9Z1PZp5JU6VxmUyuQjO7vrLfy) by [Isaac Lee (@ijlee2)](https://github.com/ijlee2)
 
 In particular, please check out the new addon, [ember-printable-pages](https://forge512.github.io/ember-printable-pages/)! You can **write declarative templates** and **reuse components** to create printable pages for end users. It also supports **progressive rendering** to provide a smooth user experience when the end user needs to print <span style="font-style: italic;">hundreds</span> of pages. 💯
-
----
-
-## [Community support for the Ember API Docs 📓❤️](https://github.com/ember-learn/ember-api-docs)
-
-The [Ember API Docs](https://api.emberjs.com/ember/release) have been one of the cornerstones of Ember's official learning resources since the early days of the project.
-
-But did you already know that right now there are plenty of efforts underway to modernise the app? In this regard, we'd like to thank [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) in particular for bringing in [lots of new upgrades, awesome refactors and improvements to the API Docs](https://github.com/ember-learn/ember-api-docs/pulls?q=is%3Apr+is%3Aclosed+author%3AGaurav0) ❤️!
-
-If you are interested in **helping** with modernising the Ember API Docs - be it contributing code, triaging issues, or reviewing changes - make sure to chat with the Ember Learning team. You can do so either on  [an issue discussion on Github](https://github.com/ember-learn/ember-api-docs/issues) or on the **#dev-ember-learning** channel through the [Ember Discord](https://discordapp.com/invite/emberjs)!
 
 ---
 
