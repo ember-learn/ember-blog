@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 142
 author: Chris Ng, Abhilash, Jessica Jordan, Jared Galanis, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/03-the-ember-times-issue-142.html"
 responsive: true
 ---
