@@ -26,7 +26,7 @@ READMORE
 
 ---
 
-## [Ember at Square 💻](https://squareup.com/us/en)
+## [Ember at Square 💻](https://developer.squareup.com)
 
 Here at The Ember Times, we've been highlighting projects and teams who are using Ember Octane in their apps. This week, [Dean Papastrat (@deanpapastrat)]( https://github.com/deanpapastrat) shares his experience as an engineer at [Square](https://squareup.com/us/en)! Dean writes:
 
