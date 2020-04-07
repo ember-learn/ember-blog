@@ -28,6 +28,7 @@ READMORE
 
 ## [Ember at Square 💻](https://developer.squareup.com)
 
+<!--alex disable just-->
 Here at The Ember Times, we've been highlighting projects and teams who are using Ember Octane in their apps. This week, [Dean Papastrat (@deanpapastrat)]( https://github.com/deanpapastrat) shares his experience as an engineer at [Square](https://squareup.com/us/en)! Dean writes:
 
 > Square enables businesses of all shapes and sizes to manage almost every aspect of their business - from payments to inventory to payroll - in one place. The Developers Experience team at Square builds products and tooling for external developers that build on Square's APIs, such as our [Developer Dashboard](https://developer.squareup.com/apps), [Developer Documentation site](https://developer.squareup.com/docs), [API Reference](https://developer.squareup.com/reference), and [API Explorer](https://developer.squareup.com/explorer).
@@ -41,6 +42,7 @@ Here at The Ember Times, we've been highlighting projects and teams who are usin
 > Lastly, the lower learning curve of Octane became the strongest selling point for our team. With half our team being engineers that had never touched Ember before, we were wary of how long it would take people to pick up the concepts in Octane that weren't well-documented at the time. Instead, we were blown away at how quickly people were able to pick it up. The engineers new to Ember picked up Glimmer components with tracked properties in under a day, because they "just worked like classes". Using modifiers directly within the templates themselves felt much more straightforward for new engineers. In fact, there were no "Emberisms" they needed to learn to be productive. Angle bracket components felt more natural to our engineers coming from a React background, and the disambiguation of arguments / component state / attributes made it much easier to understand how data flowed from one component to another.
 >
 > The only regret we have is that we haven't been able to port the rest of our apps to Octane yet, and going back to computed properties feels like such a massive step backward, that it makes you realize how important Octane is for improving the Ember developer experience long term. We're excited to see how the Ember community approaches the challenge of modernizing the build system with Embroider, and can't wait to adopt it later this year.
+<!-- alex enable just -->
 
 ---
 
