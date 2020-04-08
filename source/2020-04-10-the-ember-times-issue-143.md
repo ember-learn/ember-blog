@@ -29,7 +29,7 @@ READMORE
 ## [Ember at Square 💻](https://developer.squareup.com)
 
 <!--alex disable just-->
-Here at The Ember Times, we've been highlighting projects and teams who are using Ember Octane in their apps. This week, [Dean Papastrat (@deanpapastrat)]( https://github.com/deanpapastrat) shares his experience as an engineer at [Square](https://squareup.com/us/en)! Dean writes:
+Here at The Ember Times, we've been highlighting projects and teams who are using Ember Octane in their apps. This week, [Dean Papastrat (@deanpapastrat)](https://github.com/deanpapastrat) shares his experience as an engineer at [Square](https://squareup.com/us/en)! Dean writes:
 
 > Square enables businesses of all shapes and sizes to manage almost every aspect of their business - from payments to inventory to payroll - in one place. The Developers Experience team at Square builds products and tooling for external developers that build on Square's APIs, such as our [Developer Dashboard](https://developer.squareup.com/apps), [Developer Documentation site](https://developer.squareup.com/docs), [API Reference](https://developer.squareup.com/reference), and [API Explorer](https://developer.squareup.com/explorer).
 > 
