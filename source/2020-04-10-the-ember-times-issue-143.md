@@ -18,7 +18,7 @@ READMORE
 
 ## [Ember Engines Documentation Rewrite ⚙️](https://twitter.com/MVillander/status/1246162676176355335)
 
-[Michael Villander (@villander)](https://github.com/villander) announced a rewrite to the documentation for the Ember Engines Guides to improve the user experience to the community!
+[Michael Villander (@villander)](https://github.com/villander) announced a rewrite to the documentation for the Ember Engines Guides to improve the user experience for the community!
 
 Updates include detailed explanations that range from what Ember Engines are and why should you use them, to differentiating the behaviour between _standard_ and _in-repo_ addons for Engines. The guide also goes through routable vs route-less Engines as well as how to “mount” them into your application. Finally, it also covers how to test code within Engines.
 
