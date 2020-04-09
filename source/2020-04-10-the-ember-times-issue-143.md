@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 143
-author: Dean Papastrat, Amy Lam, the crowd
+author: Chris Ng, Dean Papastrat, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/10-the-ember-times-issue-143.html"
 responsive: true
@@ -9,20 +9,20 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember Engines Documentation Rewrite ⚙️,
 Ember at Square 💻,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember Engines Documentation Rewrite ⚙️](https://twitter.com/MVillander/status/1246162676176355335)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Michael Villander (@villander)](https://github.com/villander) announced a rewrite to the documentation for the Ember Engines Guides to improve the user experience for the community!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Updates include detailed explanations that range from what Ember Engines are and why should you use them, to differentiating the behaviour between _standard_ and _in-repo_ addons for Engines. The guide also goes through routable vs route-less Engines as well as how to “mount” them into your application. Finally, it also covers how to test code within Engines.
+
+Huge thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb) and [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo)! Check out the [new Ember Engines docs](https://ember-engines.com/docs) today and [help contribute](https://github.com/ember-engines/ember-engines.com) to make them better!
 
 ---
 
@@ -153,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Dean Papastrat, Amy Lam, the crowd and the Learning Team
+Chris Ng, Dean Papastrat, Amy Lam, the crowd and the Learning Team
