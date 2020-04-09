@@ -1,6 +1,7 @@
 # Ember Website
 
 [![Build Status](https://travis-ci.org/ember-learn/ember-blog.svg?branch=master)](https://travis-ci.org/ember-learn/ember-blog)
+<a href="https://discord.gg/emberjs"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
 
 This repository contains the blog content for the [Ember.js public website](https://emberjs.com).
 
