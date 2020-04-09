@@ -18,7 +18,7 @@ Other parts of the public website are separate apps:
 
 New contributors are welcome! The website is maintained by an all-volunteer team, and we are thankful for your help.
 
-The best way to get started is to find issue labeled "good first issue" or "help wanted." If you have questions or want a buddy to pair with, drop by the #-team-learning channel on the
+The best way to get started is to find issue labeled "good first issue" or "help wanted." If you have questions or want a buddy to pair with, drop by the [#dev-ember-learning channel](https://discordapp.com/channels/480462759797063690/480777444203429888) on the
 [Ember Community Discord](https://discordapp.com/invite/zT3asNS).
 Like most open source projects, contributors are encouraged to open an issue
 to propose changes and iterate on ideas before investing time in coding.
