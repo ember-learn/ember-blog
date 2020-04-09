@@ -20,7 +20,7 @@ READMORE
 
 [Michael Villander (@villander)](https://github.com/villander) announced a rewrite to the documentation for the Ember Engines Guides to improve the user experience to the community!
 
-Updates include detailed explanations ranging from what Ember Engines are and why should you use them, to differentiating the behaviour between _standard_ and _in-repo_ addons for Engines. The guide also goes through routable vs route-less Engines as well as how to “mount” them into your application. Finally, it also covers how to test code within Engines.
+Updates include detailed explanations that range from what Ember Engines are and why should you use them, to differentiating the behaviour between _standard_ and _in-repo_ addons for Engines. The guide also goes through routable vs route-less Engines as well as how to “mount” them into your application. Finally, it also covers how to test code within Engines.
 
 Huge thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb) and [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo)! Check out the [new Ember Engines docs](https://ember-engines.com/docs) today and [help contribute](https://github.com/ember-engines/ember-engines.com) to make them better!
 
