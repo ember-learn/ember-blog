@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 143
-author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/10-the-ember-times-issue-143.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Ember Engines Documentation Rewrite ⚙️,
 Ember at Square 💻,
 Check out new Ember CLI documentations 📚,
+Introducing qunit-wait-for ⏰,
 Power up your Ember app with ember-glue ✨,
 
 READMORE
@@ -58,14 +59,15 @@ We encourage you to check out the Ember CLI documentation to understand your too
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Introducing qunit-wait-for ⏰](https://twitter.com/alexlafroscia/status/1246102930475962368)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's an awesome new test helper by [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia) that rethinks the approach on how we wait for asynchronous behavior to resolve in our tests! 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Typically in Ember tests you'd use one of the several available test helpers that [wait until a promise resolves](https://github.com/emberjs/ember-test-helpers/blob/master/API.md#waituntil) before making some kind of assertion against the state of your application. However, using wait test helpers in this way can add complexity to your tests and couple ⛓ your tests to your implementation code. 
+
+With [`qunit-wait-for`](https://github.com/alexlafroscia/qunit-wait-for) the idea is to let assertions run immediately and fail gracefully until they pass or a timeout is reached. This allows you to wait ⏳ for async behavior to complete without your test code knowing any more than it needs to know about your app code. All you have to do is wrap your assertion with a `waitFor` assertion provided by `qunit-wait-for`, it's very cool!
+
+`qunit-wait-for` can be used not only in Ember.js, but in any JavaScript applications that use QUnit. Give it a spin today!
 
 ---
 
@@ -156,4 +158,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+
+Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
