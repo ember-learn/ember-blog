@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Destroyables RFC in final comment period 💬,
 Ember Engines Documentation Rewrite ⚙️,
 Ember at Square 💻,
 Check out new Ember CLI documentations 📚,
@@ -16,6 +17,16 @@ Introducing qunit-wait-for ⏰,
 Power up your Ember app with ember-glue ✨,
 
 READMORE
+
+---
+
+## [Destroyables RFC in final comment period 💬](https://github.com/emberjs/rfcs/pull/580)
+
+The **Destroyables** RFC entered its final comment period today. That means you have 7 days (**until April 17**) to provide feedback.
+
+The Destroyables RFC proposes an API that the Ember community can follow so that Ember's built-in constructs, which include components, services, routes, controllers, helpers, and modifiers, can clean up after themselves when destroyed. For example, a request in a data-fetching component would be cancelled if the parent is destroyed.
+
+Please visit the [RFC page](https://github.com/emberjs/rfcs/blob/destroyables/text/0580-destroyables.md) to learn more. Be sure to [provide your feedback](https://github.com/emberjs/rfcs/pull/580) on time!
 
 ---
 
