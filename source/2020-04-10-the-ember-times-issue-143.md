@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 143
-author: Chris Ng, Dean Papastrat, Amy Lam, the crowd
+author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/10-the-ember-times-issue-143.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember Engines Documentation Rewrite ⚙️,
 Ember at Square 💻,
+Check out new Ember CLI documentations 📚,
 
 READMORE
 
@@ -46,14 +47,13 @@ Here at The Ember Times, we've been highlighting projects and teams who are usin
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Check out new Ember CLI documentations 📚](https://cli.emberjs.com/release/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In case you might not have known, the Ember.js website has [documentation dedicated to Ember CLI](https://cli.emberjs.com/release/). It covers both everyday and advanced uses that you will encounter when you write Ember apps or addons.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the past two weeks, [Mehul Kar (@mehulkar)](https://github.com/mehulkar) dedicated his time to [keep the documentation up to date](https://github.com/ember-learn/cli-guides/pulls?q=is%3Apr+is%3Aclosed+author%3Amehulkar+created%3A%3E%3D2020-03-15+) and introduce 2 new sections: how to [debug when CLI commands fail](https://cli.emberjs.com/release/advanced-use/debugging/) and how to [create custom CLI commands](https://cli.emberjs.com/release/writing-addons/custom-commands/).
+
+We encourage you to check out the Ember CLI documentation to understand your toolset better. Don't forget to thank Mehul for his work!
 
 ---
 
@@ -153,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Dean Papastrat, Amy Lam, the crowd and the Learning Team
+Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, the crowd and the Learning Team
