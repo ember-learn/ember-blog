@@ -16,6 +16,8 @@ We also have an amazing **tutorial** for creating **accessible web applications*
 
 Check out what's been going in Emberland 🐹 these days:
 
+READMORE
+
 ---
 
 ## [An Object Upgrade with Class 🌟](https://github.com/emberjs/rfcs/pull/338)

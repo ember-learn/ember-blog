@@ -10,6 +10,8 @@ Suilad Emberistas! 🐹
 
 Last call for your **talk submissions** to **EmberConf 2019**! 📣 In this week's issue: eslint-plugin-ember v6.0.0 is out 🚓, watch all the talks from EmberFest 🎥, try out hot reloading in Ember ️🔥, and a sneak peak at **DecEmber** 😄...
 
+READMORE
+
 ---
 
 ## [Your Last Chance to Become a Speaker at EmberConf 2019 🎤](https://emberconf.com/become-a-speaker.html)
@@ -63,6 +65,7 @@ Give [ember-ast-hot-load](https://github.com/lifeart/ember-ast-hot-load) a try t
 
 ## [DecEmber is Almost Here! 📆](https://github.com/ember-learn/guides-source/labels/DecEmber)
 
+<!--alex ignore special-->
 Are you wondering what to do with all your vacation time in December? We got ya covered! The Core Learning Team is sponsoring Dec**Ember**, a hackathon event specifically targeted at learning team efforts. Look for special issues marked “Dec**Ember**” from December 1st-31st. Of course there will be **prizes**, too! Stay tuned for more details...
 
 P.S. You can also register for [24 Pull Requests](https://24pullrequests.com/) - giving back little gifts of code for the holidays! ❄️

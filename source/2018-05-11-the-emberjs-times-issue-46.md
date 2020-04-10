@@ -12,6 +12,8 @@ Again you can enjoy reading The Ember Times in both the [e-mail](https://the-emb
 
 This week we'll highlight a new RFC deprecating features from ancient Ember times and a sweet reminder for blogging about your best wishes for Ember and - last, but not least - we have a brand-new Readers' Question❓✨ for you!
 
+READMORE
+
 ---
 
 ## [Moar #EmberJS2018 blog posts wanted!](https://emberjs.com/blog/2018/05/02/ember-2018-roadmap-call-for-posts.html)
@@ -34,14 +36,14 @@ Looking for inspiration? Check out the [#EmberJS2018 hashtag](https://twitter.co
 
 The API allowed the creation of an `App` global like this:
 
-```
+```js
 // app.js
 var App = Ember.Application.create();
 ```
 
 and the further setup of your Ember app based off this global:
 
-```
+```js
 // app.js
 App.Router.map(function() {
   this.route('about');
@@ -62,6 +64,7 @@ Furthermore, contributors to Ember this week worked on preventing memory leaks i
 ---
 
 ## [Get involved with the new Ember guides](https://emberguides.stonecircle.io/release/)
+
 The Learning Team has been working on a new and improved version of the Guides app. It's now made with Ember.js and is more shiny than ever. The Guides app is almost ready for a proper release, but before we do so, we would love for you to [try it out](https://emberguides.stonecircle.io/release/). If you find any issues then please [report them](https://github.com/ember-learn/guides-app/issues).
 
 Or if you feel in a particulary good mood, look through existing issues in the [Guides app](https://github.com/ember-learn/guides-app/issues) or the [Guides source](https://github.com/ember-learn/guides-source/issues) and start contributing to the new guides.

@@ -12,6 +12,8 @@ Lots of Ember programmers and writers have been busy this week! We have several 
 
 As well as a sincere reminder to eat your veggies! 🥒🥕
 
+READMORE
+
 ---
 
 ## [I hope my build never lets me down again in Ember 🐹](https://github.com/emberjs/rfcs/pull/328)

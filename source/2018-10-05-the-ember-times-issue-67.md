@@ -10,6 +10,8 @@ Hello, pleased to eat you, Emberistas! -Dracula 🦇
 
 🍂 Fall is here and so is Hacktoberfest for Ember, CodeSandbox for Ember, and Storybook for Ember! We're also advertising **Help Wanted** for the new Ember CLI docs and the latest Ember Twiddle release! Read on in this week's issue...
 
+READMORE
+
 ---
 
 ## [Hacktoberfest 🎃🍻👨‍💻](https://hacktoberfest.digitalocean.com/)

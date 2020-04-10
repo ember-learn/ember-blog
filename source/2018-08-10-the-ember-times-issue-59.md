@@ -10,7 +10,10 @@ Merhaba Emberistas! 🐹
 
 Read either on the [Ember blog](https://emberjs.com/blog/tags/newsletter.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/) what has been going on in Emberland this week.
 
+<!--alex ignore dive-->
 This week's edition is jammed packed! Take a journey and find out how to use Ember to create **Chrome Extensions**. Test drive the latest **Ember-CLI beta** features.  Dive deep into the **Component Manager Bounds** RFC. Learn how to help ship **Mirage 1.0**.  Need Ember powered **A/B experiments** ? Outdoorsy open sourced an addon that might just help.
+
+READMORE
 
 ---
 
@@ -33,6 +36,7 @@ You can already test this by [getting the beta](https://github.com/ember-cli/emb
 
 ## [Knowing Boundaries with the Component Manager Bounds RFC 📚](https://github.com/emberjs/rfcs/pull/351)
 
+<!--alex ignore savage-->
 A new Request for Comments (RFC) is aiming to improve the flexibility of another previously
 RFC'ed feature that is interesting for Ember addon authors who are passionate about `Components`.
 The [Component Manager™ feature](https://emberjs.github.io/rfcs/0213-custom-components.html) which had

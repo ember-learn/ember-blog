@@ -25,6 +25,9 @@ end
 activate :directory_indexes
 activate :highlighter
 activate :column_balancer
+
+activate :alias
+
 ###
 # Build
 ###

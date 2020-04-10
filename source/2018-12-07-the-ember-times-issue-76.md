@@ -10,6 +10,8 @@ responsive: true
 
 Join us with your **contributions** for **DecEmber** 🐹🎄, read more about using `@tracked` in the new RFC 👣, **fill out** the npm JavaScript Ecosystem Survey 📝, JSON:API 🇯 is getting an update for the holiday season 🎉🎊🎈 and Ember's **linting** future needs your input 💬!
 
+READMORE
+
 ---
 
 ## [Jingle Bells 🔔, Jingle Bells 🔔, ✨ DecEmber 🐹🎄 All the Way!](https://www.emberjs.com/blog/2018/11/29/december-event.html)

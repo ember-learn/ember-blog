@@ -12,6 +12,8 @@ Don't miss brand-new 🔥 **RFCs for collocated addon tests** and **Router** ser
 We also have news from **Ember CLI Deprecation Workflow** and a _Lost & Found_ 🕵🏾‍ from the **Ember API Docs** for you,
 as well as a **Thank You note** for the most amazing **Issue Triaging** Experts! 🙂
 
+READMORE
+
 ---
 
 ## [The Addon Test Is Right Where It Belongs ❤️](https://github.com/emberjs/rfcs/pull/378)
@@ -35,6 +37,7 @@ Check it out on the [GitHub repo](https://github.com/mixonic/ember-cli-deprecati
 
 ---
 
+<!--alex ignore special-->
 ## [And Today's Special on The Router Menu: Query Params 👨‍🍳](https://github.com/emberjs/rfcs/pull/380)
 
 Ever had the need to read **query params (QPs)** off a `Controller` and pass it down to a component to change its UI state depending on the QP value?

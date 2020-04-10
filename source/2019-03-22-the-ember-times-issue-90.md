@@ -10,6 +10,8 @@ responsive: true
 
 This week has been super busy with The Ember Times team reporting from **EmberConf 2019** in Portland Oregon! We are sharing **highlights** from the conference with you 🐹, learn about **Ember Octane** ⛽️ in a series of blog posts 📖, read and comment on the new **Bind Helper** RFC 💖💪, and turn {{on}} the power with a new **{{On}} Modifier** RFC 🔌.
 
+READMORE
+
 ---
 
 ## [Greetings from EmberConf 2019](https://emberconf.com)

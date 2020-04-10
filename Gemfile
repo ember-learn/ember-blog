@@ -11,14 +11,14 @@ gem "thin"
 gem "rack"
 gem "listen"
 gem "builder"
-gem "middleman-alias", github: "wagenet/middleman-alias", branch: "keep-search-and-hash"
+gem "middleman-alias", '0.0.17'
 gem "underscore-rails"
 gem "gmaps4rails"
 gem "geocoder"
 gem "faraday"
 gem "bourbon", "~> 4.2.7"
 gem "neat", "~> 1.8.0"
-gem 'bootstrap-sass', '~> 3.3.7'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'sass-rails', '>= 3.2'
 gem 'middleman-bootstrap-navbar'
 gem 'eventmachine', '1.0.9.1'

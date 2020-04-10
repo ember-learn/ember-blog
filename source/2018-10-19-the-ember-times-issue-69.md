@@ -10,10 +10,12 @@ Namaste Emberistas! 🐹
 
 This week we're discussing 4️⃣ fresh RFCs 🥑: bringing truth helpers to Ember core ✍️, new error handling methods 🚨, jQuery-free Ember apps by default 😄, and some improvements to relationship links 🔗. We're also highlighting test coverage for docs when Ember is upgraded 🚧, the new ember-self-focused addon 👁‍🗨, the EmberConf 2019 CFP brainstorm 🧠⛈, and more...read on!
 
+READMORE
+
 ---
 
 ## [Help Yourselves to Default Template Helpers 🍽️](https://github.com/emberjs/rfcs/pull/388)
-If you find yourself often reaching for the addon [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) in your templates then this [new RFC by @cibernox](https://github.com/emberjs/rfcs/pull/388) is for you. This **Request for Comments (RFC)** proposes bringing in some of the **template helpers** in `ember-truth-helpers` into **Ember Core**. 
+If you find yourself often reaching for the addon [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) in your templates then this [new RFC by @cibernox](https://github.com/emberjs/rfcs/pull/388) is for you. This **Request for Comments (RFC)** proposes bringing in some of the **template helpers** in `ember-truth-helpers` into **Ember Core**.
 
 The reasoning behind this is that a few helpers from this addon are so common in Ember apps that it makes sense to add them into Ember Core itself to **reduce the friction** of needing to install an addon to get them.
 
@@ -21,7 +23,7 @@ Another reason that might even be more important is that this could open up **Gl
 
 The proposed helpers to add to core are: `eq`, `not`, `and`, `or`, `gt` and `gte`, `lt` and `lte`.
 
-Learn more about this RFC and [join the discussion](https://github.com/emberjs/rfcs/pull/388). 
+Learn more about this RFC and [join the discussion](https://github.com/emberjs/rfcs/pull/388).
 
 ---
 

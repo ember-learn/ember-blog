@@ -11,6 +11,8 @@ Salam Emberistas! 🐹
 This week we have news from the latest **3.7 release** of **Ember** 🚀, an exclusive contributor interview with **@serenaf** 🎙,
 and a new RFC on **Restructuring** the **Guides** Table of Contents 🔖 for you!
 
+READMORE
+
 ---
 
 ## [Ember 3.7 is Out! 🎉](https://www.emberjs.com/blog/2019/01/07/ember-3-7.html)

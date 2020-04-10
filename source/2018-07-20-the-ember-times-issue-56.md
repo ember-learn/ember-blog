@@ -15,6 +15,8 @@ Learn more about **lazily loaded** dependencies with **ember-auto-import** ✨, 
 Be sure to also join us on a tour 🚌 through recent **RFCs (Request for Comments)** proposing features that will land
 in an Ember app near you soon! 🚀
 
+READMORE
+
 ---
 
 ## [Got Dependencies? 📦](https://github.com/ef4/ember-auto-import#dynamic-import)

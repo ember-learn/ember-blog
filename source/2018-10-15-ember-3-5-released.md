@@ -1,7 +1,7 @@
 ---
 title: Ember 3.5 Released
 author: Melanie Sumner, Jen Weber, Chris Thoburn
-tags: Releases, 2018, 3, 3.5
+tags: Releases, 2018, Version 3.x, 3, 3.5
 responsive: true
 ---
 

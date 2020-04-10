@@ -10,6 +10,8 @@ Happy Friday, Emberistas! 🐹
 
 This week: **Take and share** the **2019 Ember Community Survey** 🐹, Ember 3.8 released 🚀, SFC & Template Import Primitives RFC 🔬, Contribution Guides RFC in FCP ✏️, dig through the Classic Class Owner Tunnel RFC 🕳, Help Wanted 🚧, and a brand-new **Readers' Question** 🤓 for you!
 
+READMORE
+
 ---
 
 ## [Let Your Voice Be Heard in the 2019 Ember Community Survey 🗣](https://emberjs.com/ember-community-survey-2019/)

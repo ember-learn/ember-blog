@@ -12,6 +12,8 @@ Read either on the [Ember blog](https://www.emberjs.com/blog/2018/07/13/the-embe
 
 This week you can learn about **updating** your Ember app 💁🏻. Learn from firsthand experience how to become an **addon maintainer** 💪. Get some tips on writing your own **RFCs** ✨. Check out the new **SEO tactics** of Ember 🔎 and last but not least learn about the potential move of Ember to a new **chat platform** 💬. Go ahead and enjoy!
 
+READMORE
+
 ---
 
 ## [Don't Worry, Ember CLI Got You Covered 💻](https://github.com/ember-cli/ember-cli-update)
@@ -49,11 +51,11 @@ In order for this specific RFC to be ready the following steps are being taken:
 
 - Get a couple of early reviewers 🤓
 
-- Draft the RFC and get more feedback from all the stakeholders 📖 
+- Draft the RFC and get more feedback from all the stakeholders 📖
 
-- Make a proof of concept 👨‍💻 
+- Make a proof of concept 👨‍💻
 
-- Publish it 🚀 
+- Publish it 🚀
 
 - ❔❔❔
 
@@ -61,7 +63,7 @@ In order for this specific RFC to be ready the following steps are being taken:
 
 Not all the above steps are mandatory, but it gives you a pretty good notion of what might be involved.
 
-And now that you know, why not stay tuned for this specific RFC and make your contribution? All comments and new writers are more than welcome! <a href='https://github.com/sivakumar-kailasam/cli-guides/pull/4' target='_blank'>Click here to learn more!</a> 📢
+And now that you know, why not stay tuned for this specific RFC and make your contribution? All comments and new writers are more than welcome! <a href="https://github.com/sivakumar-kailasam/cli-guides/pull/4" target="_blank">Click here to learn more!</a> 📢
 
 ---
 
@@ -90,6 +92,7 @@ and join other SEO analysts in their quest to make Ember the No. 1 search result
 
 Our one gripe with the potential move is the confusion between [Discourse](https://discuss.emberjs.com/) and [Discord](https://discordapp.com/)... 😅
 
+<!--alex ignore host-hostess-->
 Discord is the chat host to [many open source projects](https://discordapp.com/open-source), such as Yarn, Vue.js, and Reactiflux.
 
 Have some thoughts on the proposal? Get involved on the [RFC](https://github.com/emberjs/rfcs/pull/345)!

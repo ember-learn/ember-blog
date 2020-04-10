@@ -12,6 +12,8 @@ Read either on the [Ember blog](https://emberjs.com/blog/tags/newsletter.html) o
 
 Have a look into the next year of Ember with the **official 2018 Roadmap RFC** 🌆 and read up on plans for **Module Unification with Ember Addons** 🐹. We also **prompt** ❗️you to check out **Ember CLI Update** for fresh ✨ updates and last, but not least, we have a **brand-new 🔥 Readers' Question** 🌿 in for you this week:
 
+READMORE
+
 ---
 
 ## [RFC: Ember 2018 Roadmap 🛣](https://github.com/emberjs/rfcs/pull/364)

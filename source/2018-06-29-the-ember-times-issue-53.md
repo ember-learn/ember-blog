@@ -14,6 +14,8 @@ And this week we not only have an insider tip on how to dramatically **reduce** 
 but we're also reporting back on **easy-peasy module imports** 🙌 and - last, but not least! - presenting you a **brand-new Readers' Question** 💯 in this edition of the Ember Times.
 Check it out!
 
+READMORE
+
 ---
 
 ## [Need for Speed: Ember Edition - Speed Up Ember Builds](https://github.com/ember-cli/ember-cli/issues/7645)
@@ -52,6 +54,7 @@ to support you in making your proposal a real success! 🌟
 The [Call for Proposals](https://cfp.emberconf.com/events/embercamp-chicago-2018) for talk submissions is still **open until July 22**.
 Unsure if you can **see yourself speaking** in the first place but curious what public speaking is about?
 
+<!--alex ignore gal-guy-->
 Find ideas,
 inspiration, answers to your questions and support in the
 [#topic-talks](https://embercommunity.slack.com/archives/C9RSE508J/p1530056392000168) channel

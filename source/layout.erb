@@ -8,20 +8,23 @@
     <% end %>
     <title>Ember.js - <%= current_page.data.title || @title %></title>
     <meta property="st:title" content="Ember.js: <%= current_page.data.title || @title %>" />
+
     <meta property="og:title" content="Ember.js: <%= current_page.data.title || @title %>" />
+    <meta property="og:image" content="https://emberjs.com/images/brand/ember_E-Icon-4c-Square.png" />
     <meta property="og:description" content="Ember.js helps developers be more productive out of the box. Designed with developer ergonomics in mind, its friendly APIs help you get your job done—fast." />
-    <meta property="og:image" content="http://emberjs.com/images/tomster-sm.png" />
+
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@emberjs" />
     <meta name="twitter:title" content="<%= current_page.data.title || @title %>"/>
+    <meta name="twitter:image" content="https://emberjs.com/images/brand/ember_E-Icon-4c-Square.png" />
+
     <meta name="google-site-verification" content="N9yOP2jCLcZBMHUet-JRqU2jnLVPeLDaePpkCqXGQXM" />
-    <meta name="twitter:image" content="http://emberjs.com/images/tomster-twitter-card.png" />
     <link rel="shortcut icon" href="/images/favicon.png" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
     <!--[if lte IE 7 ]><%= stylesheet_link_tag "fonts/fontello-ie7" %><![endif]-->
     <%= stylesheet_link_tag "site" %>
-    <link href="/blog/feed.xml" rel="alternate" type="application/atom+xml" title="Ember.js - Blog" />
+    <link href="/feed.xml" rel="alternate" type="application/atom+xml" title="Ember.js - Blog" />
     <% if current_page.data.no_index.eql? true %>
       <meta name="robots" content="noindex">
     <% end %>
@@ -61,7 +64,7 @@
     </div>
 
     <div class="cta-contribute">
-      <a title="Use GitHub to suggest an edit to this page" href="https://www.github.com/emberjs/website">
+      <a title="Use GitHub to suggest an edit to this page" href="https://www.github.com/ember-learn/ember-blog">
         <small>Contribute to this page</small>
       </a>
     </div>

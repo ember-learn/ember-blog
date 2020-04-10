@@ -1,7 +1,7 @@
 ---
 title: Ember VER Released
 author: Melanie Sumner, Kenneth Larsen
-tags: Releases, 2018, 3, VER
+tags: Releases, 2020, 3, VER, Version 3.x
 responsive: true
 ---
 
@@ -9,7 +9,7 @@ Today the Ember project is releasing version VER of Ember.js, Ember Data, and Em
 
 You can read more about our general release process here:
 
-- [Release Dashboard](http://emberjs.com/builds/)
+- [Release Dashboard](http://emberjs.com/releases/)
 - [The Ember Release Cycle](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
 - [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
 - [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
@@ -21,6 +21,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js VER
+
 Ember.js VER is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
 #### New Features (2)
@@ -28,7 +29,6 @@ Ember.js VER is an incremental, backwards compatible release of Ember with bugfi
 First new feature (1 of 2)
 
 Second new feature (2 of 2)
-
 
 #### Deprecations (0)
 
@@ -54,7 +54,6 @@ No new features introduced in Ember Data VER.
 
 No new deprecations introduced in Ember Data VER.
 
-
 For more details on changes in Ember Data VER, please review the
 [Ember Data VER.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
 
@@ -66,6 +65,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
+<!--alex ignore easy-->
 You may upgrade Ember CLI easily using the ember-cli-update project:
 
 ```bash
@@ -80,7 +80,6 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 ### Changes in Ember CLI VER
 
 #### New Features (X)
-
 
 #### Deprecations (X)
 

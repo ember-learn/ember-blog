@@ -90,8 +90,13 @@
       padding: 0 12px
     }
 
-    .text-center {
+    .text-center, .centered {
       text-align: center;
+
+      twitter-widget {
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
 
     .spacer {

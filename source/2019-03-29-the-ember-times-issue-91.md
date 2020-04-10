@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 91
 author: Anne-Greeth van Herwijnen, Chris Ng, Jessica Jordan, Bradley Leftley, Kenneth Larsen, Jared Galanis, Katie Gengler, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2019
+tags: Newsletter, Ember.js Times, Ember Times, 2019
 alias : "blog/2019/03/29-the-ember-times-issue-91.html"
 responsive: true
 ---
@@ -10,6 +10,8 @@ responsive: true
 
 <!--alex ignore hangman-hangwoman-->
 Read some RFCs around extending `EmberObject` 💡, learn how to build Hangman with **Ember Octane** 🎬, plus check out the Record Data Errors RFC 📇, an "e"mpressive EmberWeekend podcast with **@mansona** 🎙, and the Singleton Record Data RFC for Ember Data 💾! Last, but not least, catch our exclusive interview with Ember contributor **@kategengler**. 🚀
+
+READMORE
 
 ---
 
@@ -99,7 +101,7 @@ You can read the full interview on [the Ember Forum](https://discuss.emberjs.com
 
 ---
 
-## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html) 
+## [#embertimes 📰](https://emberjs.com/blog/tags/newsletter.html)
 
 Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at [#support-ember-times](https://discordapp.com/channels/480462759797063690/485450546887786506) on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 

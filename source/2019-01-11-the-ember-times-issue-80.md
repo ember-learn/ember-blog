@@ -10,6 +10,8 @@ Grüezi mitenand Emberistas! 🐹
 
 This week you can read about the 🦄 *magical gifts* 🎁  of **DecEmber** ❄ and the **decorators RFC** moving into FCP 🎉! Check out a video on the **State of Ember** today 📺 and read our exclusive **interview** with community contributor **@hakilebara** 🧠!
 
+READMORE
+
 ---
 
 ## [DecEmber ❄ is over? Collect your gift! 🎁](https://airtable.com/shrm9o5W89wsAa1Tq)
