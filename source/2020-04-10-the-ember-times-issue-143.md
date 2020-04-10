@@ -106,7 +106,7 @@ We encourage you to check out the Ember CLI documentation to understand your too
 
 **UI component libraries** have become a popular, if not even essential part of a frontend developer's toolset.
 Libraries such as [ember-paper](https://emberobserver.com/addons/ember-paper) and [semantic-ui-ember](https://semantic-org.github.io/Semantic-UI-Ember) allow us to create beautiful, seamless and intuitive user interfaces.
-And who doesn't want to feel empowered to build applications that their users will find easy to use and love?
+And who doesn't want to feel empowered to build applications that their users will find compelling to use and love?
 
 Now a brand-new component collection might improve our Ember applications even further: [ember-glue](https://github.com/gaurav0/ember-glue) is a
 modern UI component library, that takes the latest best practices of frontend development into account. The components are **accessible**, **responsive** and **themeable** allowing design updates with little effort.
