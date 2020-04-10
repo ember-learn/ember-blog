@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 143
-author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/10-the-ember-times-issue-143.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Ember Engines Documentation Rewrite ⚙️,
 Ember at Square 💻,
 Check out new Ember CLI documentations 📚,
+Power up your Ember app with ember-glue ✨,
 
 READMORE
 
@@ -33,7 +34,7 @@ Huge thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb) and [Gabriel Csap
 Here at The Ember Times, we've been highlighting projects and teams who are using Ember Octane in their apps. This week, [Dean Papastrat (@deanpapastrat)](https://github.com/deanpapastrat) shares his experience as an engineer at [Square](https://squareup.com/us/en)! Dean writes:
 
 > Square enables businesses of all shapes and sizes to manage almost every aspect of their business - from payments to inventory to payroll - in one place. The Developers Experience team at Square builds products and tooling for external developers that build on Square's APIs, such as our [Developer Dashboard](https://developer.squareup.com/apps), [Developer Documentation site](https://developer.squareup.com/docs), [API Reference](https://developer.squareup.com/reference), and [API Explorer](https://developer.squareup.com/explorer).
-> 
+>
 > Our team recently released a new API Reference and API Explorer built on the Octane beta and Fastboot (don't worry, we're running production-grade Ember 3.17 now!). Despite being in beta, the choice to pick Octane was a no-brainer for us due to 3 major factors: performance, accessibility, and learning curve.
 >
 > Since our team’s primary customers are developers, we knew we'd need the site to be snappy. In Octane, we're able to render much larger lists without virtualization because of the performance gains from Glimmer components, which spares us a lot of complexity and accessibility issues that come with virtual lists. The biggest example of this is our objects index page and enum lists for properties, which render hundreds of list items with markdown and other rich content.
@@ -101,14 +102,16 @@ We encourage you to check out the Ember CLI documentation to understand your too
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [A UI component library for ambitious Ember developers ✨](https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+**UI component libraries** have become a popular, if not even essential part of a frontend developer's toolset.
+Libraries such as [ember-paper](https://emberobserver.com/addons/ember-paper) and [semantic-ui-ember](https://semantic-org.github.io/Semantic-UI-Ember) allow us to create beautiful, seamless and intuitive user interfaces.
+And who doesn't want to feel empowered to build applications that their users will find easy to use and love?
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Now a brand-new component collection might improve our Ember applications even further: [ember-glue](https://github.com/gaurav0/ember-glue) is a
+modern UI component library, that takes the latest best practices of frontend development into account. The components are **accessible**, **responsive** and **themeable** allowing design updates with little effort.
+
+Want to learn more about what **ember-glue** can do for your app? Check out the [blog post describing the feature set and the motivation behind this addon](https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/). And if you're curious, to explore the ecosystem of UI libraries for Ember apps further, be sure to consult [Ember Observer](https://emberobserver.com/categories/component-suites)!
 
 ---
 
@@ -125,7 +128,7 @@ We encourage you to check out the Ember CLI documentation to understand your too
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kratiahuja" target="gh-user">@kratiahuja</a>, <a href="https://github.com/cibernox" target="gh-user">@cibernox</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/SergeAstapov" target="gh-user">@SergeAstapov</a>, <a href="https://github.com/pieter-v" target="gh-user">@pieter-v</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/bmish" target="gh-user">@bmish</a>, <a href="https://github.com/gokatz" target="gh-user">@gokatz</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/Mithrilhall" target="gh-user">@Mithrilhall</a> and <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -153,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
