@@ -60,7 +60,7 @@ We encourage you to check out the Ember CLI documentation to understand your too
 
 ## [Introducing qunit-wait-for ⏰](https://twitter.com/alexlafroscia/status/1246102930475962368)
 
-There's an awesome new test helper by [Alex LaFroscia @alexlafroscia](https://github.com/alexlafroscia) that rethinks the approach on how we wait for asyncronous behavior to resolve in our tests! 🎉
+There's an awesome new test helper by [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia) that rethinks the approach on how we wait for asynchronous behavior to resolve in our tests! 🎉
 
 Typically in Ember tests you'd use one of the several available test helpers that wait until a promise resolves before making some kind of assertion against the state of your application. However, using wait test helpers in this way can add complexity to your tests and couple ⛓ your tests to your implementation code. 
 
