@@ -51,7 +51,7 @@ Here at The Ember Times, we've been highlighting projects and teams who are usin
 
 In case you might not have known, the Ember.js website has [documentation dedicated to Ember CLI](https://cli.emberjs.com/release/). It covers both everyday and advanced uses that you will encounter when you write Ember apps or addons.
 
-In the past two weeks, [Mehul Kar (@mehulkar)](https://github.com/mehulkar) dedicated his time to [keep the documentation up to date](https://github.com/ember-learn/cli-guides/pulls?q=is%3Apr+is%3Aclosed+author%3Amehulkar+created%3A%3E%3D2020-03-15+) and introduce 2 new sections: how to [debug when CLI commands fail](https://cli.emberjs.com/release/advanced-use/debugging/) and how to [create custom CLI commands](https://cli.emberjs.com/release/writing-addons/custom-commands/).
+In the past two weeks, [Mehul Kar (@mehulkar)](https://github.com/mehulkar) dedicated his time to [keep the documentation up to date](https://github.com/ember-learn/cli-guides/pulls?q=is%3Apr+is%3Aclosed+author%3Amehulkar+created%3A%3E%3D2020-03-15+) and introduced 2 new sections: how to [debug when CLI commands fail](https://cli.emberjs.com/release/advanced-use/debugging/) and how to [create custom CLI commands](https://cli.emberjs.com/release/writing-addons/custom-commands/).
 
 We encourage you to check out the Ember CLI documentation to understand your toolset better. Don't forget to thank Mehul for his work!
 
