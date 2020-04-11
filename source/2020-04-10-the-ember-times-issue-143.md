@@ -9,7 +9,7 @@ responsive: true
 👋 Emberistas! 🐹
 
 Destroyables RFC in final comment period 💬,
-Ember Engines Documentation Rewrite ⚙️,
+Ember Engines documentation rewrite ⚙️,
 Ember at Square 💻,
 check out new Ember CLI documentations 📚,
 introducing qunit-wait-for ⏰,
@@ -89,7 +89,7 @@ Libraries such as [ember-paper](https://emberobserver.com/addons/ember-paper) an
 And who doesn't want to feel empowered to build applications that their users will find compelling to use and love?
 
 Now a brand-new component collection might improve our Ember applications even further: [ember-glue](https://github.com/gaurav0/ember-glue) is a
-modern UI component library, that takes the latest best practices of frontend development into account. The components are **accessible**, **responsive** and **themeable** allowing design updates with little effort.
+modern UI component library, that takes the latest best practices of frontend development into account. The components are **accessible**, **responsive** and **themeable**, allowing design updates with little effort.
 
 Want to learn more about what **ember-glue** can do for your app? Check out the [blog post describing the feature set and the motivation behind this addon](https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/). And if you're curious, to explore the ecosystem of UI libraries for Ember apps further, be sure to consult [Ember Observer](https://emberobserver.com/categories/component-suites)!
 
