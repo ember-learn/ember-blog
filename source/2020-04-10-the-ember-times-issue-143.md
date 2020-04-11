@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 143
 author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/10-the-ember-times-issue-143.html"
 responsive: true
 ---
