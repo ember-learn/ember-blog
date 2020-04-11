@@ -10,7 +10,7 @@ responsive: true
 
 Destroyables RFC in final comment period 💬,
 Ember Engines documentation rewrite ⚙️,
-Ember at Square 💻,
+Ember Octane at Square 💻,
 check out new Ember CLI documentation 📚,
 introducing qunit-wait-for ⏰,
 and last, but not least, power up your Ember app with ember-glue ✨!
@@ -39,7 +39,7 @@ Huge thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb) and [Gabriel Csap
 
 ---
 
-## [Ember at Square 💻](https://developer.squareup.com)
+## [Ember Octane at Square 💻](https://developer.squareup.com)
 
 <!--alex disable just-->
 Here at The Ember Times, we've been highlighting projects and teams who are using Ember Octane in their apps. This week, [Dean Papastrat (@deanpapastrat)](https://github.com/deanpapastrat) shares his experience as an engineer at [Square](https://squareup.com/us/en)! Dean writes:
