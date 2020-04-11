@@ -1,20 +1,19 @@
 ---
 title: The Ember Times - Issue No. 143
-author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/10-the-ember-times-issue-143.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Destroyables RFC in final comment period 💬,
 Ember Engines Documentation Rewrite ⚙️,
 Ember at Square 💻,
-Check out new Ember CLI documentations 📚,
-Introducing qunit-wait-for ⏰,
-Power up your Ember app with ember-glue ✨,
+check out new Ember CLI documentations 📚,
+introducing qunit-wait-for ⏰,
+and last, but not least, power up your Ember app with ember-glue ✨!
 
 READMORE
 
@@ -30,7 +29,7 @@ Please visit the [RFC page](https://github.com/emberjs/rfcs/blob/destroyables/te
 
 ---
 
-## [Ember Engines Documentation Rewrite ⚙️](https://twitter.com/MVillander/status/1246162676176355335)
+## [Ember Engines documentation rewrite ⚙️](https://twitter.com/MVillander/status/1246162676176355335)
 
 [Michael Villander (@villander)](https://github.com/villander) announced a rewrite to the documentation for the Ember Engines Guides to improve the user experience for the community!
 
@@ -61,7 +60,7 @@ Here at The Ember Times, we've been highlighting projects and teams who are usin
 
 ---
 
-## [Check out new Ember CLI documentations 📚](https://cli.emberjs.com/release/)
+## [Check out the new Ember CLI documentation 📚](https://cli.emberjs.com/release/)
 
 In case you might not have known, the Ember.js website has [documentation dedicated to Ember CLI](https://cli.emberjs.com/release/). It covers both everyday and advanced uses that you will encounter when you write Ember apps or addons.
 
@@ -83,39 +82,6 @@ With [`qunit-wait-for`](https://github.com/alexlafroscia/qunit-wait-for) the ide
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [A UI component library for ambitious Ember developers ✨](https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/)
 
 **UI component libraries** have become a popular, if not even essential part of a frontend developer's toolset.
@@ -126,17 +92,6 @@ Now a brand-new component collection might improve our Ember applications even f
 modern UI component library, that takes the latest best practices of frontend development into account. The components are **accessible**, **responsive** and **themeable** allowing design updates with little effort.
 
 Want to learn more about what **ember-glue** can do for your app? Check out the [blog post describing the feature set and the motivation behind this addon](https://www.linkedin.com/pulse/ember-glue-what-could-next-generation-ui-component-library-munjal/). And if you're curious, to explore the ecosystem of UI libraries for Ember apps further, be sure to consult [Ember Observer](https://emberobserver.com/categories/component-suites)!
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -171,4 +126,4 @@ That's another wrap! ✨
 Be kind,
 
 
-Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Dean Papastrat, Amy Lam, Isaac Lee, Jessica Jordan, Jared Galanis and the Learning Team
