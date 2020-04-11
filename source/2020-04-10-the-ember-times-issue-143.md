@@ -11,7 +11,7 @@ responsive: true
 Destroyables RFC in final comment period 💬,
 Ember Engines documentation rewrite ⚙️,
 Ember Octane at Square 💻,
-check out new Ember CLI documentation 📚,
+check out the new Ember CLI documentation 📚,
 introducing qunit-wait-for ⏰,
 and last, but not least, power up your Ember app with ember-glue ✨!
 
