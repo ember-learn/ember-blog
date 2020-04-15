@@ -14,7 +14,7 @@ READMORE
 
 ---
 
-## [Simple Drag and Drop in Ember Octane 🐹](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
+## [Simple Drag and Drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
