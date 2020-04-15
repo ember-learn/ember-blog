@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 144
-author: the crowd
+author: Matthew Roderick, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/17-the-ember-times-issue-144.html"
 responsive: true
@@ -9,12 +9,12 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+<!-- Title of acticle -->
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Simple Drag and Drop in Ember Octane 🐹](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -143,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Matthew Roderick, the crowd and the Learning Team
