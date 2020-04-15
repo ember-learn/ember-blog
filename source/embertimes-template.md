@@ -14,7 +14,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -25,7 +25,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -36,7 +36,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -47,7 +47,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -58,7 +58,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -69,7 +69,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -80,7 +80,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -91,7 +91,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -102,7 +102,7 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
