@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Quest Issue: Drop Mixins in ember-simple-auth 🔐,
+Quest Issue: Drop Mixins from ember-simple-auth 🔐,
 READMORE
 
 ---
