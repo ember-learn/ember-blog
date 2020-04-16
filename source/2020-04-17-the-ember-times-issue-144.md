@@ -29,7 +29,7 @@ READMORE
 
 [Marco Otte-Witte (@marcoow)](https://github.com/marcoow) announced a [quest issue to Drop Mixins](https://github.com/simplabs/ember-simple-auth/issues/2185) in [ember-simple-auth](https://github.com/simplabs/ember-simple-auth).
 
-The addon [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) is a lightweight library for implementing authentication and authorization with Ember.js applications. When it was originally designed, the addon was heavily leveraging [mixins](https://api.emberjs.com/ember/release/classes/Mixin) so it could easily be integrated by developers into their applications. However, with [Native JavaScript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), mixins aren't really well supported and you have to fall back to constructs like:
+The addon [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) is a lightweight library for implementing authentication and authorization with Ember.js applications. When it was originally designed, the addon was heavily leveraging [mixins](https://api.emberjs.com/ember/release/classes/Mixin) so it could be one-step integrated by developers into their applications. However, with [Native JavaScript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), mixins aren't really well supported and you have to fall back to constructs like:
 
 ```js
 export default class ProtectedRoute extends Route.extend(AuthenticatedRouteMixin) { }
