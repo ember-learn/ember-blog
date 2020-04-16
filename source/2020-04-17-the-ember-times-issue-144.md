@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 144
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/17-the-ember-times-issue-144.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Quest Issue: Drop Mixins from ember-simple-auth 🔐,
 READMORE
 
 ---
@@ -25,14 +25,19 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Quest Issue: Drop Mixins from ember-simple-auth 🔐](https://twitter.com/marcoow/status/1250411978339819522)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Marco Otte-Witte (@marcoow)](https://github.com/marcoow) announced a [quest issue to Drop Mixins](https://github.com/simplabs/ember-simple-auth/issues/2185) in [ember-simple-auth](https://github.com/simplabs/ember-simple-auth).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The addon [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) is a lightweight library for implementing authentication and authorization with Ember.js applications. When it was originally designed, the addon was heavily leveraging [mixins](https://api.emberjs.com/ember/release/classes/Mixin) so it could be one-step integrated by developers into their applications. However, with [Native JavaScript classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes), mixins aren't really well supported and you have to fall back to constructs like:
+
+```js
+export default class ProtectedRoute extends Route.extend(AuthenticatedRouteMixin) { }
+```
+
+Furthermore, eventually mixins will likely be removed from Ember altogether and they already trigger [linter warnings](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md). The quest issue details several options to deal with this such as [Ember Decorators](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) or Mixins that [do not rely](https://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/) on the Ember Object model. 
+
+Try out [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) and take a look at the [quest issue](https://github.com/simplabs/ember-simple-auth/issues/2185) with any feedback or ideas you might have!
 
 ---
 
@@ -143,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
