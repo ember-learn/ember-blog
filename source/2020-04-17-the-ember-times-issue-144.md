@@ -25,7 +25,7 @@ READMORE
 
 ---
 
-## [Quest Issue: Drop Mixins in ember-simple-auth 🔐](https://twitter.com/marcoow/status/1250411978339819522)
+## [Quest Issue: Drop Mixins from ember-simple-auth 🔐](https://twitter.com/marcoow/status/1250411978339819522)
 
 [Marco Otte-Witte (@marcoow)](https://github.com/marcoow) announced a [quest issue to Drop Mixins](https://github.com/simplabs/ember-simple-auth/issues/2185) in [ember-simple-auth](https://github.com/simplabs/ember-simple-auth).
 
