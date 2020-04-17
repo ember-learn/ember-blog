@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 144
-author: Chris Ng, the crowd
+author: Chris Ng, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/17-the-ember-times-issue-144.html"
 responsive: true
@@ -10,18 +10,18 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Quest Issue: Drop Mixins from ember-simple-auth 🔐,
+Call for a11y-focussed contributors ❤️,
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Call for contributors: Join the strike team for accessibility in Ember](https://github.com/emberjs/rfcs/issues/595)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember community put in lots of work into [framework features](https://guides.emberjs.com/release/accessibility/) and [addons](https://emberobserver.com/categories/accessibility) to allow us to build accessible and user-friendly applications. But still there is more work to be done to **address accessibility issues** in Ember.js and to improve the future of how we build JavaScript apps.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Do you want to be part of these efforts to help modern Ember apps become accessible?
+
+Then be sure join the **#st-a11y strike team** on the [Ember Discord chat](https://discordapp.com/invite/emberjs)! The recently founded strike team for creating an **accessible JavaScript framework** has already put together a [detailed list of issues to work on](https://github.com/emberjs/rfcs/issues/595) and is counting on your support. If you have the time and interest to help out, [join the team today](https://discordapp.com/invite/emberjs)!
 
 ---
 
@@ -35,7 +35,7 @@ The addon [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) is 
 export default class ProtectedRoute extends Route.extend(AuthenticatedRouteMixin) { }
 ```
 
-Furthermore, eventually mixins will likely be removed from Ember altogether and they already trigger [linter warnings](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md). The quest issue details several options to deal with this such as [Ember Decorators](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) or Mixins that [do not rely](https://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/) on the Ember Object model. 
+Furthermore, eventually mixins will likely be removed from Ember altogether and they already trigger [linter warnings](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md). The quest issue details several options to deal with this such as [Ember Decorators](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) or Mixins that [do not rely](https://justinfagnani.com/2015/12/21/real-mixins-with-javascript-classes/) on the Ember Object model.
 
 Try out [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) and take a look at the [quest issue](https://github.com/simplabs/ember-simple-auth/issues/2185) with any feedback or ideas you might have!
 
@@ -120,7 +120,7 @@ Try out [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) and t
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/dcyriller" target="gh-user">@dcyriller</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/wayne-o" target="gh-user">@wayne-o</a>, <a href="https://github.com/gabrielcsapo" target="gh-user">@gabrielcsapo</a>, <a href="https://github.com/elwayman02" target="gh-user">@elwayman02</a>, <a href="https://github.com/lifeart" target="gh-user">@lifeart</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/ondrejsevcik" target="gh-user">@ondrejsevcik</a>, <a href="https://github.com/Robdel12" target="gh-user">@Robdel12</a>, <a href="https://github.com/buschtoens" target="gh-user">@buschtoens</a>, <a href="https://github.com/alexeykostevich" target="gh-user">@alexeykostevich</a>, <a href="https://github.com/simonihmig" target="gh-user">@simonihmig</a>, <a href="https://github.com/dfreeman" target="gh-user">@dfreeman</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/MelSumner" target="gh-user">@MelSumner</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -148,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, the crowd and the Learning Team
