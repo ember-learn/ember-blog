@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Quest Issue: Drop Mixins from ember-simple-auth 🔐,
 Call for a11y-focussed contributors ❤️,
+State management with ember-statecharts 📈,
 READMORE
 
 ---
@@ -21,7 +22,9 @@ The Ember community put in lots of work into [framework features](https://guides
 
 Do you want to be part of these efforts to help modern Ember apps become accessible?
 
-Then be sure join the **#st-a11y strike team** on the [Ember Discord chat](https://discordapp.com/invite/emberjs)! The recently founded strike team for creating an **accessible JavaScript framework** has already put together a [detailed list of issues to work on](https://github.com/emberjs/rfcs/issues/595) and is counting on your support. If you have the time and interest to help out, [join the team today](https://discordapp.com/invite/emberjs)!
+Then be sure join the **#st-a11y strike team** on the [Ember Discord chat](https://discordapp.com/invite/emberjs)! The recently founded strike team for creating an **accessible JavaScript framework** has already put together a [detailed list of issues to work on](https://github.com/emberjs/rfcs/issues/595) and is counting on your support. On top of that, there are several accessibility-related issues in **ember-template-lint** that could use your help, so if tooling is your thing, please [check out the issues on Github](https://github.com/ember-template-lint/ember-template-lint/issues) and see if there's a rule you can help write!
+
+For more ideas, questions and discussion around a11y-related work, [join the strike team in the #st-a11y channel today](https://discordapp.com/invite/emberjs)!
 
 ---
 
@@ -41,14 +44,13 @@ Try out [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) and t
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Enjoy managing state with ember-statecharts 📈](https://twitter.com/LevelbossMike/status/1248247002489425921)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+**State charts** are a method to model complex program behavior as a set of states that react to events. And being able to manage and predict state in a growing Ember application can be very useful.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+And this is where [**ember-statecharts**](https://github.com/LevelbossMike/ember-statecharts) comes in: This Ember addon provides us with a new abstraction layer to define state charts in our app, based on the conventions from the powerful [xstate library](https://xstate.js.org/).
+
+Want to learn more? Be sure to [check out the sparkling new documentation](https://twitter.com/LevelbossMike/status/1248247002489425921) and try it [for yourself](https://emberobserver.com/addons/ember-statecharts)!
 
 ---
 
