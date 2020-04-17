@@ -21,7 +21,7 @@ READMORE
 
 The Ember community put in lots of work into [framework features](https://guides.emberjs.com/release/accessibility/) and [addons](https://emberobserver.com/categories/accessibility) to allow us to build accessible and user-friendly applications. But still there is more work to be done to **address accessibility issues** in Ember.js and to improve the future of how we build JavaScript apps.
 
-Do you want to be part of these efforts to help modern Ember apps become accessible?
+Do you want to be part of these efforts to help modern Ember apps become more accessible?
 
 Then be sure to join the **#st-a11y strike team** on the [Ember Discord chat](https://discordapp.com/invite/emberjs)! The recently founded strike team for creating an **accessible JavaScript framework** has already put together a [detailed list of issues to work on](https://github.com/emberjs/rfcs/issues/595) and is counting on your support. On top of that, there are several accessibility-related issues in **ember-template-lint** that could use your help, so if tooling is your thing, please [check out the issues on Github](https://github.com/ember-template-lint/ember-template-lint/issues) and see if there's a rule you can help write!
 
