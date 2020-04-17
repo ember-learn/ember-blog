@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 144
-author: Chris Ng, Jessica Jordan, the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/17-the-ember-times-issue-144.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Quest Issue: Drop Mixins from ember-simple-auth 🔐,
 Call for a11y-focussed contributors ❤️,
+Ember Conf 2020 Trainings 🚀,
 READMORE
 
 ---
@@ -41,14 +42,15 @@ Try out [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) and t
 
 ---
 
-## [Section title in sentence case 🐹](#section-url)
+## [Ember Conf 2020 Trainings 🚀](https://emberconf.com/#/schedule/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A heads up that some of the Ember Conf 2020 trainings are now available online at no additional cost! 💸 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can check out [EmberMap's](https://embermap.com/) awesome trainings on [Domain Modeling for JavaScript Apps with Mirage JS](https://twitter.com/ember_map/status/1245011062417772548) and [Tailwind CSS Tips, Tricks & Best Practices](https://twitter.com/ember_map/status/1246071188394250240)!
+
+Also now available is a super cool workshop from [simplabs](https://simplabs.com/) to teach you the basics about [Abstract Syntax Trees](https://github.com/simplabs/ast-workshop)!
+
+Don't miss the bus 🚌 on this opportunity to level up your skills in these really cool topics. 😃
 
 ---
 
@@ -148,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
