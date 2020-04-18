@@ -1,23 +1,24 @@
 ---
 title: The Ember Times - Issue No. 144
-author: Chris Ng, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Jessica Jordan, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/17-the-ember-times-issue-144.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Call for a11y-focused contributors ❤️,
 Quest Issue: Drop Mixins from ember-simple-auth 🔐,
-Call for a11y-focussed contributors ❤️,
+RFC roundup 📣
 Ember Conf 2020 Trainings 🚀,
-State management with ember-statecharts 📈,
+state management with ember-statecharts 📈,
+
 READMORE
 
 ---
 
-## [Call for contributors: Join the strike team for accessibility in Ember](https://github.com/emberjs/rfcs/issues/595)
+## [Call for contributors: join the strike team for accessibility in Ember](https://github.com/emberjs/rfcs/issues/595)
 
 The Ember community put in lots of work into [framework features](https://guides.emberjs.com/release/accessibility/) and [addons](https://emberobserver.com/categories/accessibility) to allow us to build accessible and user-friendly applications. But still there is more work to be done to **address accessibility issues** in Ember.js and to improve the future of how we build JavaScript apps.
 
@@ -29,7 +30,7 @@ For more ideas, questions and discussion around a11y-related work, [join the str
 
 ---
 
-## [Quest Issue: Drop Mixins from ember-simple-auth 🔐](https://twitter.com/marcoow/status/1250411978339819522)
+## [Quest issue: drop mixins from ember-simple-auth 🔐](https://twitter.com/marcoow/status/1250411978339819522)
 
 [Marco Otte-Witte (@marcoow)](https://github.com/marcoow) announced a [quest issue to Drop Mixins](https://github.com/simplabs/ember-simple-auth/issues/2185) in [ember-simple-auth](https://github.com/simplabs/ember-simple-auth).
 
@@ -45,7 +46,15 @@ Try out [ember-simple-auth](https://github.com/simplabs/ember-simple-auth) and t
 
 ---
 
-## [Ember Conf 2020 Trainings 🚀](https://emberconf.com/#/schedule/)
+## [RFC roundup 📣](https://twitter.com/emberjs)
+
+The **2020 Ember Roadmap** Request for Comments (RFC) has been promoted to Final Comment Period (FCP). You can [read it here](https://github.com/emberjs/rfcs/pull/519). This was a long-running RFC with a lot of community feedback over time! The Core Team is excited to solidify 2020's plan and focus their efforts.
+
+The **Template Strict Mode** RFC has also entered FCP! This RFC from [Godfrey Chan (@chancancode)](https://github.com/chancancode) adds a new strict mode for Ember templates that has a clearer syntax with fewer ambiguities, and provides primitives for adding template imports in the future. Check it out [here](https://github.com/emberjs/rfcs/pull/496).
+
+---
+
+## [Ember Conf 2020 trainings 🚀](https://emberconf.com/#/schedule/)
 
 A heads up that some of the Ember Conf 2020 trainings are now available online at no additional cost! 💸 
 
@@ -64,72 +73,6 @@ Don't miss the bus 🚌 on this opportunity to level up your skills in these rea
 And this is where [**ember-statecharts**](https://github.com/LevelbossMike/ember-statecharts) comes in: This Ember addon provides us with a new abstraction layer to define state charts in our app, based on the conventions from the powerful [xstate library](https://xstate.js.org/).
 
 Want to learn more? Be sure to [check out the sparkling new documentation](https://twitter.com/LevelbossMike/status/1248247002489425921) and try it [for yourself](https://emberobserver.com/addons/ember-statecharts)!
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](#section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -163,4 +106,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jessica Jordan, Jared Galanis, Amy Lam and the Learning Team
