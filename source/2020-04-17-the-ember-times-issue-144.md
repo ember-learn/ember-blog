@@ -26,7 +26,7 @@ Do you want to be part of these efforts to help modern Ember apps become more ac
 
 Then be sure to join the **#st-a11y strike team** on the [Ember Discord chat](https://discordapp.com/invite/emberjs)! The recently founded strike team for creating an **accessible JavaScript framework** has already put together a [detailed list of issues to work on](https://github.com/emberjs/rfcs/issues/595) and is counting on your support. On top of that, there are several accessibility-related issues in **ember-template-lint** that could use your help, so if tooling is your thing, please [check out the issues on Github](https://github.com/ember-template-lint/ember-template-lint/issues) and see if there's a rule you can help write!
 
-For more ideas, questions and discussion around a11y-related work, [join the strike team in the #st-a11y channel today](https://discordapp.com/invite/emberjs)!
+For more ideas, questions and discussion around a11y-related work, [join the strike team in the #st-a11y channel today](https://discord.gg/emberjs)!
 
 ---
 
