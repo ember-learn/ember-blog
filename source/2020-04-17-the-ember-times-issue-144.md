@@ -9,10 +9,10 @@ responsive: true
 👋 Emberistas! 🐹
 
 Call for a11y-focused contributors ❤️,
-Quest Issue: Drop Mixins from ember-simple-auth 🔐,
+quest issue: drop mixins from ember-simple-auth 🔐,
 RFC roundup 📣
-Ember Conf 2020 Trainings 🚀,
-state management with ember-statecharts 📈,
+Ember Conf 2020 trainings 🚀,
+and last, but not least, state management with ember-statecharts 📈!
 
 READMORE
 
