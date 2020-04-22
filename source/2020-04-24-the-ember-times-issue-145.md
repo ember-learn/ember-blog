@@ -20,7 +20,7 @@ READMORE
 
 <add your name to author list, top and bottom>
 <add blurb and emoji to "SOME-INTRO-HERE">
-## [Simple Drag and Drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
+## [Simple drag and drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
 
 
 In this tutorial, [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and, you can extend it to meet your needs. 
