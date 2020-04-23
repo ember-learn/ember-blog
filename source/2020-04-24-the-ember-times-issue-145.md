@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 145
-author: Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee the crowd
+author: Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/24-the-ember-times-issue-145.html"
 responsive: true
@@ -11,7 +11,9 @@ Simple drag and drop in Ember Octane 🐺,
 Meet 2 developers who became an Ember developer 🎉,
 Watch the new Ember Map video on the `{{fn}}` helper 📺,
 Ember Styleguide 4.0.0 release 🔥,
-  
+Autotracking case study with TrackedMap 🐾🗺,
+
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -20,9 +22,9 @@ READMORE
 
 ## [Simple drag and drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
 
-In his [tutorial "Simple Drag and Drop in Ember Octane"](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i), Ember developer [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and, you can extend it to meet your needs. 
+In his [tutorial "Simple Drag and Drop in Ember Octane"](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i), Ember developer [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and, you can extend it to meet your needs.
 
-The secret? You can use [modifiers](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers) to simplify adding drag events. Derek breaks everything down for you and explains each step. 
+The secret? You can use [modifiers](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers) to simplify adding drag events. Derek breaks everything down for you and explains each step.
 
 I think articles like this will help you build your developer skillset. There is a lot of useful info in Derek Gavey's piece. Please look forward to reading his next article on how to make a sortable list!
 
@@ -79,7 +81,7 @@ In the [blog post](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-sve
 
 ## [Ember Map: The {{fn}} Helper 📺](https://embermap.com/topics/what-s-new-in-ember/the-fn-helper-3-11)
 
-This edition of Ember Map’s [What’s New in Ember](https://embermap.com/topics/what-s-new-in-ember) series discusses the `fn` or [function helper](https://github.com/emberjs/rfcs/pull/470) – Ember's conceptual shift in binding actions at the source, rather than at the invocation site. 
+This edition of Ember Map’s [What’s New in Ember](https://embermap.com/topics/what-s-new-in-ember) series discusses the `fn` or [function helper](https://github.com/emberjs/rfcs/pull/470) – Ember's conceptual shift in binding actions at the source, rather than at the invocation site.
 
 The [`fn` helper](http://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/fn?anchor=fn) which has been available since [Ember 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html), provides a way to pass arguments to actions. While this may be something Ember already provided for a long time, the Ember Map video goes through the nuisance of how the `fn` helper provides added functionality by binding the `this` context and currying the arguments passed. For example, it allows you to [pass parameters along to functions](https://guides.emberjs.com/release/upgrading/current-edition/action-on-and-fn/) in your templates:
 
@@ -132,7 +134,7 @@ Check out the full [Ember Map video](https://embermap.com/topics/what-s-new-in-e
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/nummi" target="gh-user">@nummi</a>, <a href="https://github.com/Turbo87" target="gh-user">@Turbo87</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/alexeykostevich" target="gh-user">@alexeykostevich</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/sandstrom" target="gh-user">@sandstrom</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/skaterdav85" target="gh-user">@skaterdav85</a>, <a href="https://github.com/bantic" target="gh-user">@bantic</a>, <a href="https://github.com/RajaSK05" target="gh-user">@RajaSK05</a>, <a href="https://github.com/chiragpat" target="gh-user">@chiragpat</a> and <a href="https://github.com/rahilvora" target="gh-user">@rahilvora</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -160,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee the crowd and the Learning Team
+Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
