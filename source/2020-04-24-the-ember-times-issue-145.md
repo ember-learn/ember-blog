@@ -99,14 +99,14 @@ Check out the full [Ember Map video](https://embermap.com/topics/what-s-new-in-e
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Autotracking case study with TrackedMap 🐹](https://www.pzuraq.com/autotracking-case-study-trackedmap/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In the latest edition of his [blog post series on autotracking in Ember Octane](https://twitter.com/pzuraq/status/1221950391782240256), Ember Core team member [Chris Garrett (@pzuraq)](https://github.com/pzuraq) gives us insight into an [interesting case study](https://www.pzuraq.com/autotracking-case-study-trackedmap/) to explore the **new reactivity model** in **Ember Octane** even further. He outlines how to build a `TrackedMap` - an autotracked version of JavaScript's built-in `Map` class - and why building and using such a class will improve the developer ergonomics and performance of our Ember apps.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Curious to learn more? Read the full post on [@pzuraq's blog](https://www.pzuraq.com/autotracking-case-study-trackedmap/)!
+
+And by the way: Even though the case study is also a detailed guide on how to develop your own `TrackedMap`, you don't have to build it yourself, to be able to use this awesome feature in your Ember app. Check out @pzuraq's community addons [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins) or [tracked-maps-and-sets](https://github.com/pzuraq/tracked-maps-and-sets) to get started with autotracked `Maps`s today!
+
 
 ---
 
