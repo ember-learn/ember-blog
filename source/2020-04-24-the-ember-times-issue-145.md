@@ -34,7 +34,7 @@ A new Ember Styleguide release was cut today 🛳 and it represents a massive am
 To see any of the individual changes, please look at the pre-release versions in the [changelog](https://github.com/ember-learn/ember-styleguide/blob/master/CHANGELOG.md). The changes are too many to capture here, but here are a few of the high level overviews:
 
 - remove ember-cli-addon docs in favour of field-guide for better SEO
-- remove components that are not actively being used in any project
+- Remove components that are not actively being used in any project
 - implement base styles that are common across all of the Ember websites
 - implement common CSS helpers for things that don't need a dedicated component
 - upgrade most of the remaining components to Glimmer components
