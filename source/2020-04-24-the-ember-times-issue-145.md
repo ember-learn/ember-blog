@@ -1,32 +1,22 @@
 ---
 title: The Ember Times - Issue No. 145
-author: Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/24-the-ember-times-issue-145.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Simple drag and drop in Ember Octane 🐺,
-Meet 2 developers who became an Ember developer 🎉,
-Watch the new Ember Map video on the `{{fn}}` helper 📺,
-Ember Styleguide 4.0.0 release 🔥,
-Autotracking case study with TrackedMap 🐾🗺,
+👋 Emberistas! 🐹
 
+Ember Styleguide 4.0.0 release 🔥,
+autotracking case study with TrackedMap 🐾🗺,
+simple drag and drop in Ember Octane 🐺,
+meet 2 developers who became Ember developers 🎉,
+and last, but not least, watch the new Ember Map video on the `{{fn}}` helper 📺!
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
-
----
-
-## [Simple drag and drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
-
-In his [tutorial "Simple Drag and Drop in Ember Octane"](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i), Ember developer [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and, you can extend it to meet your needs.
-
-The secret? You can use [modifiers](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers) to simplify adding drag events. Derek breaks everything down for you and explains each step.
-
-I think articles like this will help you build your developer skillset. There is a lot of useful info in Derek Gavey's piece. Please look forward to reading his next article on how to make a sortable list!
 
 ---
 
@@ -47,6 +37,26 @@ To see any of the individual changes, please look at the pre-release versions in
 
 ---
 
+## [Autotracking case study with TrackedMap 🐹](https://www.pzuraq.com/autotracking-case-study-trackedmap/)
+
+In the latest edition of his [blog post series on autotracking in Ember Octane](https://twitter.com/pzuraq/status/1221950391782240256), Ember Core team member [Chris Garrett (@pzuraq)](https://github.com/pzuraq) gives us insight into an [interesting case study](https://www.pzuraq.com/autotracking-case-study-trackedmap/) to explore the **new reactivity model** in **Ember Octane** even further. He outlines how to build a `TrackedMap` - an autotracked version of JavaScript's built-in `Map` class - and why building and using such a class will improve the developer ergonomics and performance of our Ember apps.
+
+Curious to learn more? Read the full post on [@pzuraq's blog](https://www.pzuraq.com/autotracking-case-study-trackedmap/)!
+
+And by the way: Even though the case study is also a detailed guide on how to develop your own `TrackedMap`, you don't have to build it yourself, to be able to use this awesome feature in your Ember app. Check out @pzuraq's community addons [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins) or [tracked-maps-and-sets](https://github.com/pzuraq/tracked-maps-and-sets) to autotrack `Map`s today!
+
+---
+
+## [Simple drag and drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
+
+In his [tutorial "Simple Drag and Drop in Ember Octane"](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i), Ember developer [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and you can extend it to meet your needs.
+
+The secret? You can use [modifiers](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers) to simplify adding drag events. Derek breaks everything down for you and explains each step.
+
+I think articles like this will help you build your developer skillset. There is a lot of useful info in Derek Gavey's piece. We look forward to reading his next article on how to make a sortable list!
+
+---
+
 ## [Migré de Svelte a EmberJS y fue para bien 🎉](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/)
 
 Say hello to [Francisco Quintero (@cesc1989)](https://github.com/cesc1989). Francisco is a software engineer who recently [migrated his app Intrati from Svelte to Ember Octane](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/) in **16 days**! In both cases, a friend recommended the framework and he learned by reading documentation, writing tests, and coding by trial-and-error.
@@ -61,20 +71,9 @@ In the [blog post](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-sve
 
 Next, please welcome [Jenny Judova (@JennyJudova)](https://github.com/JennyJudova). Jenny is a UI engineer who has experience with React and began to learn Ember for her current job.
 
-In the [blog post](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741), Jenny explains step-by-step how to create a Todo app and relates an Ember Octane code to what you might see done in React. She finds that it's easier to learn a new language when it's compared to something you already know, even if the comparisons may not be perfect.
+In the [blog post](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741), Jenny explains step-by-step how to create a Todo app and relates Ember Octane code to what you might see done in React. She finds that it's easier to learn a new language when it's compared to something you already know, even if the comparisons may not be perfect.
 
 If you are interested in learning more about solving the Todo problem in Ember and React, please [check out the blog post](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741)!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -95,39 +94,6 @@ The [`fn` helper](http://api.emberjs.com/ember/release/classes/Ember.Templates.h
 ```
 
 Check out the full [Ember Map video](https://embermap.com/topics/what-s-new-in-ember/the-fn-helper-3-11) and try using the `fn` helper in your app today!
-
----
-
-## [Autotracking case study with TrackedMap 🐹](https://www.pzuraq.com/autotracking-case-study-trackedmap/)
-
-In the latest edition of his [blog post series on autotracking in Ember Octane](https://twitter.com/pzuraq/status/1221950391782240256), Ember Core team member [Chris Garrett (@pzuraq)](https://github.com/pzuraq) gives us insight into an [interesting case study](https://www.pzuraq.com/autotracking-case-study-trackedmap/) to explore the **new reactivity model** in **Ember Octane** even further. He outlines how to build a `TrackedMap` - an autotracked version of JavaScript's built-in `Map` class - and why building and using such a class will improve the developer ergonomics and performance of our Ember apps.
-
-Curious to learn more? Read the full post on [@pzuraq's blog](https://www.pzuraq.com/autotracking-case-study-trackedmap/)!
-
-And by the way: Even though the case study is also a detailed guide on how to develop your own `TrackedMap`, you don't have to build it yourself, to be able to use this awesome feature in your Ember app. Check out @pzuraq's community addons [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins) or [tracked-maps-and-sets](https://github.com/pzuraq/tracked-maps-and-sets) to autotrack `Map`s today!
-
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -161,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, Amy Lam and the Learning Team
