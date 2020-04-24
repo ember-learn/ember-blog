@@ -105,7 +105,7 @@ In the latest edition of his [blog post series on autotracking in Ember Octane](
 
 Curious to learn more? Read the full post on [@pzuraq's blog](https://www.pzuraq.com/autotracking-case-study-trackedmap/)!
 
-And by the way: Even though the case study is also a detailed guide on how to develop your own `TrackedMap`, you don't have to build it yourself, to be able to use this awesome feature in your Ember app. Check out @pzuraq's community addons [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins) or [tracked-maps-and-sets](https://github.com/pzuraq/tracked-maps-and-sets) to get started with autotracked `Maps`s today!
+And by the way: Even though the case study is also a detailed guide on how to develop your own `TrackedMap`, you don't have to build it yourself, to be able to use this awesome feature in your Ember app. Check out @pzuraq's community addons [tracked-built-ins](https://github.com/pzuraq/tracked-built-ins) or [tracked-maps-and-sets](https://github.com/pzuraq/tracked-maps-and-sets) to autotrack `Map`s today!
 
 
 ---
