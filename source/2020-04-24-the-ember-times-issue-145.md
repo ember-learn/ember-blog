@@ -49,7 +49,7 @@ To see any of the individual changes, please look at the pre-release versions in
 
 Say hello to [Francisco Quintero (@cesc1989)](https://github.com/cesc1989). Francisco is a software engineer who recently [migrated his app Intrati from Svelte to Ember Octane](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/) in **16 days**! In both cases, a friend recommended the framework and he learned by reading documentation, writing tests, and coding by trial-and-error.
 
-In the blog post, Francisco shares what he liked and what he found to be difficult to do in Svelte and Ember. He also shares [the notes that he compiled while learning Ember](https://paper.dropbox.com/doc/Aprendizaje-Migrando-a-EmberJS--AyOEl5onXX29iRjnY_mtdqygAQ-Gj5CGvslVsQcrmGMKvWtR). We encourage you to read them to understand more what using Ember can be like for a new developer.
+In the [blog post](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/), Francisco shares what he liked and what he found to be difficult to do in Svelte and Ember. He also shares [the notes that he compiled while learning Ember](https://paper.dropbox.com/doc/Aprendizaje-Migrando-a-EmberJS--AyOEl5onXX29iRjnY_mtdqygAQ-Gj5CGvslVsQcrmGMKvWtR). We encourage you to read them to understand more what using Ember can be like for a new developer.
 
 (Both Francisco's blog post and notes are written in Spanish. If you're not familiar with the language, you can use Google Translate or another translation software.)
 
