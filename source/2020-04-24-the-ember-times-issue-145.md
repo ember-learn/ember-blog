@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 145
-author: Chris Ng, Matthew Roderick, Jared Galanis the crowd
+author: Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/24-the-ember-times-issue-145.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Simple drag and drop in Ember Octane 🐺,
+Meet 2 developers who became an Ember developer 🎉,
 Watch the new Ember Map video on the `{{fn}}` helper 📺,
 Ember Styleguide 4.0.0 release 🔥,
   
@@ -44,14 +45,13 @@ To see any of the individual changes, please look at the pre-release versions in
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Migré de Svelte a EmberJS y Fue Para Bien 🎉](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Say hello to [Francisco Quintero (@cesc1989)](https://github.com/cesc1989). Francisco is a software engineer who recently [migrated his app Intrati from Svelte to Ember Octane](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/) in **16 days**! In both cases, a friend recommended the framework and he learned by reading documentation, writing tests, and coding by trial-and-error.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the blog post, Francisco shares what he liked and what he found to be difficult to do in Svelte and Ember. He also shares [the notes that he compiled while learning Ember](https://paper.dropbox.com/doc/Aprendizaje-Migrando-a-EmberJS--AyOEl5onXX29iRjnY_mtdqygAQ-Gj5CGvslVsQcrmGMKvWtR). We encourage you to read them to understand more what using Ember can be like for a new developer.
+
+(Both Francisco's blog post and notes are written in Spanish. If you're not familiar with the language, you can use Google Translate or another translation software.)
 
 ---
 
@@ -160,4 +160,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Matthew Roderick, Jared Galanis the crowd and the Learning Team
+Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee the crowd and the Learning Team
