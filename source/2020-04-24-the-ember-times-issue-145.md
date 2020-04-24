@@ -45,7 +45,7 @@ To see any of the individual changes, please look at the pre-release versions in
 
 ---
 
-## [Migré de Svelte a EmberJS y Fue Para Bien 🎉](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/)
+## [Migré de Svelte a EmberJS y fue para bien 🎉](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/)
 
 Say hello to [Francisco Quintero (@cesc1989)](https://github.com/cesc1989). Francisco is a software engineer who recently [migrated his app Intrati from Svelte to Ember Octane](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-svelte-a-emberjs-y-fue-para-bien/) in **16 days**! In both cases, a friend recommended the framework and he learned by reading documentation, writing tests, and coding by trial-and-error.
 
