@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Simple drag and drop in Ember Octane 🐺,
 Watch the new Ember Map video on the `{{fn}}` helper 📺,
-Ember Styleguide 4.0.0 Release 🔥,
+Ember Styleguide 4.0.0 release 🔥,
   
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
