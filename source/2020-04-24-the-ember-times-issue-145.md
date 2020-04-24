@@ -27,7 +27,7 @@ I think articles like this will help you build your developer skillset. There is
 
 ---
 
-## [Ember Styleguide 4.0.0 Release 🔥](https://github.com/ember-learn/ember-styleguide/releases/tag/v4.0.0)
+## [Ember Styleguide 4.0.0 release 🔥](https://github.com/ember-learn/ember-styleguide/releases/tag/v4.0.0)
 
 A new Ember Styleguide release was cut today 🛳 and it represents a massive amount of work by a number of contributors over the last year. 372 commits, 719 files and 13 contributors to be exact! 😱
 
