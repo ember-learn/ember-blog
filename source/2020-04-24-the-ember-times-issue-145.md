@@ -40,7 +40,7 @@ To see any of the individual changes, please look at the pre-release versions in
 - upgrade most of the remaining components to Glimmer components
 - streamline the CSS build pipeline to remove duplicate CSS and improve lighthouse score
 
-[Chris Manson @mansona](https://github.com/mansona), [Mel Sumner @MelSumner](https://github.com/MelSumner),  [Florian Pichler @pichfl](https://github.com/pichfl) and so many more deserve huge props 🙌🙌🙌 for this milestone release that will support development in all the Ember web properties! 🎉
+[Chris Manson (@mansona)](https://github.com/mansona), [Mel Sumner (@MelSumner)](https://github.com/MelSumner),  [Florian Pichler (@pichfl)](https://github.com/pichfl) and so many more deserve huge props 🙌🙌🙌 for this milestone release that will support development in all the Ember web properties! 🎉
 
 ---
 
