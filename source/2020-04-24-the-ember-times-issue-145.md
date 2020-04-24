@@ -36,7 +36,7 @@ To see any of the individual changes, please look at the pre-release versions in
 - remove ember-cli-addon docs in favour of field-guide for better SEO
 - Remove components that are not actively being used in any project
 - Implement base styles that are common across all of the Ember websites
-- implement common CSS helpers for things that don't need a dedicated component
+- Implement common CSS helpers for things that don't need a dedicated component
 - upgrade most of the remaining components to Glimmer components
 - streamline the CSS build pipeline to remove duplicate CSS and improve lighthouse score
 
