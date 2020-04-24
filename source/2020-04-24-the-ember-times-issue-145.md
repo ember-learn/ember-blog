@@ -57,14 +57,13 @@ In the [blog post](https://otroespacioblog.wordpress.com/2020/04/17/migre-de-sve
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Todo app tutorial in Ember Octane for those who know React 🎉](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Next, please welcome [Jenny Judova (@JennyJudova)](https://github.com/JennyJudova). Jenny is a UI engineer who has experience with React and began to learn Ember for her current job.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the [blog post](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741), Jenny explains step-by-step how to create a Todo app and relates an Ember Octane code to what you might see done in React. She finds that it's easier to learn a new language when it's compared to something you already know, even if the comparisons may not be perfect.
+
+If you are interested in learning more about solving the Todo problem in Ember and React, please [check out the blog post](https://dev.to/jennyjudova/todo-app-tutorial-in-ember-octane-for-those-who-know-react-1741)!
 
 ---
 
