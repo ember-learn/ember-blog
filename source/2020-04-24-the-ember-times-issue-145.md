@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 145
 author: Chris Ng, Matthew Roderick, Jared Galanis, Isaac Lee, Jessica Jordan, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/04/24-the-ember-times-issue-145.html"
 responsive: true
 ---
