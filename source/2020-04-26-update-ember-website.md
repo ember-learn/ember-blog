@@ -1,5 +1,5 @@
 ---
-title: Update: The Ember Website
+title: Update - The Ember Website
 author: Melanie Sumner, Chris Manson
 tags: Recent Posts, 2020
 responsive: true
