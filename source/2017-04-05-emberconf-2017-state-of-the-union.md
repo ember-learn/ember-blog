@@ -276,7 +276,7 @@ With [Glimmer.js](https://glimmerjs.com), we've extracted the rendering engine t
 
 Glimmer is just the component layer, so it's up to you to decide if you need routing, a data layer, etc. If you want to drop Glimmer components into an existing app, it's as simple as adding a Web Component.
 
-For a quick, five minute tour of what building a Glimmer app is like, check out this video from [Ember Map](https://embermap.com/):
+For a quick, five minute tour of what building a Glimmer app is like, check out this video from [EmberMap](https://embermap.com/):
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i2rwIApjz-4?ecver=1" frameborder="0" allowfullscreen></iframe>
 

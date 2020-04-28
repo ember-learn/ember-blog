@@ -99,7 +99,7 @@ You can check out the full source code for the demo [on GitHub](https://github.c
 
 ## [Start Writing Components You'll Love 💖](https://embermap.com/ember-component-patterns)
 
-Ember Map just launched a [free e-mail course](https://embermap.com/ember-component-patterns) where you'll learn how to build **better Ember components** in six lessons that walk through the fundamentals of UI development. We're excited to learn about declarative rendering, state hoisting, data-loading components and more! Check out [#media](https://discordapp.com/channels/480462759797063690/486955806588403773) on Discord to chat about the course and other external Ember resources!
+EmberMap just launched a [free e-mail course](https://embermap.com/ember-component-patterns) where you'll learn how to build **better Ember components** in six lessons that walk through the fundamentals of UI development. We're excited to learn about declarative rendering, state hoisting, data-loading components and more! Check out [#media](https://discordapp.com/channels/480462759797063690/486955806588403773) on Discord to chat about the course and other external Ember resources!
 
 ---
 
