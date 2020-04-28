@@ -49,6 +49,7 @@ During the month of December, members of the Learning Core Team will be spending
 ---
 
 ## [New Guides for Ember CLI 📓](https://cli.emberjs.com/release/)
+
 There's a **new and improved version of the Ember CLI guides out**. [@jenweber](https://github.com/jenweber) has been championing moving the Ember CLI guides into the Ember domain with enhanced content.
 
 There will be a more formal launch of the new Ember CLI guides on the [Ember blog](https://emberjs.com/blog/) but since you're **an Ember Times subscriber**, [you get a sneak peek](https://cli.emberjs.com/release/).
@@ -58,6 +59,7 @@ If you find any typos or bugs, then please feel free to report it to the [new re
 ---
 
 ## [The RFC RFCeption 🤔](https://github.com/emberjs/rfcs/pull/300)
+
 <!--alex ignore period-->
 The RFC (Request For Comments) about the [RFC Process](https://github.com/emberjs/rfcs/pull/300) itself is in its **final comment period**!
 
@@ -66,6 +68,7 @@ The current RFC process is great but has a few quirks. For example, there are di
 ---
 
 ## [Have You Read the Ember Subreddit? ⬆️](https://www.reddit.com/r/emberjs/)
+
 In case you didn't know Ember.js has its own [Reddit subreddit](https://www.reddit.com/r/emberjs/)! It is another media channel where people can participate and share **Ember-related** things! It recently got a facelift and a new Ember brand theme.
 
 The community has decided that we want to revive this subreddit and get it active. We want to get something about Ember on the front page but we need your help!
