@@ -5,6 +5,7 @@ author: Tom Dale (with Yehuda Katz and Godfrey Chan)
 tags: Recent Posts, Roadmap, 2017
 ---
 
+<!--alex disable savage just of-course obvious trap jesus easy clearly-->
 Ember.js (or should we say [Amber.js](http://yehudakatz.com/2011/12/08/announcing-amber-js/)) turned five years old last December. In some ways, five years is a short amount of time. But when measured in web framework years, it feels like a downright eternity.
 
 As Yehuda and I were getting ready for our keynote presentation at this year's EmberConf, we tried to remember what developing web apps was really like in 2011. We knew that the web had changed for the better since then, but I think we both had repressed our memories of how truly awful it was.
@@ -248,7 +249,7 @@ Borrowing from Maslow's Hierarchy of Needs, Steve introduced the Apple Hierarchy
 ![Steve Jobs' Apple Hierarchy of Skepticism slide. Numbered 1 to 5, from bottom to top: Survival, Stable Business, Product Strategy, Applications, Growth. The Survival, Stable Business, and Product Strategy rows are colored orange to indicate that they've been overcome. Applications and Growth are colored blue to indicate that they are the next area Apple will focus on to persuade the skeptics.](/images/blog/2017-04-05-emberconf-2017-state-of-the-union/apple-hierarchy-of-skepticism.png)
 
 > "When I came to Apple a year ago, all I heard was 'Apple is dying, Apple can't survive.' It turns out that every time we convince people we've accomplished something at one level, they come up with something new. And I used to think this was a bad thing. I thought, 'Oh Jesus, when are they ever gonna believe that we're gonna be able to turn this thing around?'
-
+>
 > But actually now I think it's great! Because what it means is we've now convinced them that we've taken care of last month's question. And they're on to the next one! So I thought, let's get ahead of the game, let's figure out what all of the questions are gonna be, and map out where we are."
 
 Without being overly dramatic, I think there are some obvious parallels between the 90's era Mac and Ember. While we have a fantastic community and high-profile, successful apps, it can feel like the momentum is somewhere else. And I know Ember users who have told me they feel beleaguered by this common reaction: "You use Ember? I thought React was the new thing?" I've even gotten it from my Lyft driver.
@@ -471,3 +472,4 @@ It should also work in reverse: if you start with Glimmer and realize you actual
 This is the future we've always dreamed of for Ember: a complete, cohesive front-end stack for those who want it, with the ability to quickly pare it down if the need arises.
 
 We're not there quite yet, but it's an exciting goal to build toward and I think we've shown tangible progress already with Glimmer. I hope you are as excited about Ember and Glimmer as we are, and we can't wait to see all of the cool stuff you build with them!
+<!--alex enable savage just of-course obvious trap jesus easy clearly-->
