@@ -6,6 +6,7 @@ alias : "blog/2018/11/30-the-ember-times-issue-75.html"
 responsive: true
 ---
 
+<!--alex disable just clearly-->
 Hallo Emberistas! 🐹
 
 This week we have: the Learning Team's first annual Dec**Ember** ❄️, a sneak peek at the **new Ember CLI guides** 📖, final comments on **RFC RFCeption** 🤔, upvotes for the **Ember subreddit** ⬆️, a reminder to watch the first season of **EmberFest 2018** 🍿📽, a how-to for **building** your own painting **game** 🎨, and a guide to start writing **components you'll love** 💖!
@@ -136,3 +137,4 @@ That's another wrap! ✨
 Be kind,
 
 Melanie Sumner, Chris Ng, Amy Lam, Alon Bukai, Kenneth Larsen, Jessica Jordan and the Learning Team
+<!--alex enable just clearly-->
