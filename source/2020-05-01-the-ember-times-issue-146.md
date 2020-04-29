@@ -17,9 +17,9 @@ READMORE
 
 ## [Yehuda's Octane tutorial continued 🔥](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/)
 
-Our very own [Yehuda Katz (@wycats)](https://github.com/wycats) wrote a blog series on [Octane tutorial](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), and there are two new posts added to it.
+Our very own [Yehuda Katz (@wycats)](https://github.com/wycats) wrote a blog series for an [Octane tutorial](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), and there are two new posts added to it.
 
-The third part of the tutorial, [Pulling Out Data](https://yehudakatz.com/2020/03/30/ember-octane-a-data-file/), talks about moving data from HTML into a separate file. This is the part in the series that introduces you to writing Javascript for the first time. You'll also learn how to build your helpers and writing unit tests for them.
+The third part of the tutorial, [Pulling Out Data](https://yehudakatz.com/2020/03/30/ember-octane-a-data-file/), talks about moving data from HTML into a separate file. This is the part in the series that introduces you to writing Javascript for the first time. You'll also learn how to build your helpers and write unit tests for them.
 
 The fourth part of the tutorial, [Airtable Time](https://yehudakatz.com/2020/04/06/ember-octane-airtable-time/), talks about moving the JSON into Airtable. It is a great approach that will reduce the need for an application build for changing only data.
 
