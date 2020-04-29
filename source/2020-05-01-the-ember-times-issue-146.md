@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Yehuda's Octane Tutorial continued 🔥,
+Yehuda's Octane tutorial continued 🔥,
   
 READMORE
 
