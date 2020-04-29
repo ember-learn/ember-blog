@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: the crowd
+author: Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -9,19 +9,31 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Yehuda's Octane Tutorial continued 🔥,
+  
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Yehuda's Octane tutorial continued 🔥](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Our very own [Yehuda Katz (@wycats)](https://github.com/wycats) wrote a blog series on [Octane tutorial](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), and there are two new posts added to it.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The third part of the tutorial, [Pulling Out Data](https://yehudakatz.com/2020/03/30/ember-octane-a-data-file/), talks about moving data from HTML into a separate file. This is the part in the series that introduces you to writing Javascript for the first time. You'll also learn how to build your helpers and writing unit tests for them.
+
+The fourth part of the tutorial, [Airtable Time](https://yehudakatz.com/2020/04/06/ember-octane-airtable-time/), talks about moving the JSON into Airtable. It is a great approach that will reduce the need for an application build for changing only data.
+
+So far there are seven posts planned:
+
+- [Let's Go](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/)
+- [Components](https://yehudakatz.com/2020/03/26/ember-octane-components/)
+- [Pulling Out Data](https://yehudakatz.com/2020/03/30/ember-octane-a-data-file/)
+- [Airtable Time](https://yehudakatz.com/2020/04/06/ember-octane-airtable-time/)
+- Cleaning Things Up
+- Adding More Pages
+- Polishing: Server-Side Rendering, Prerendering and Code Splitting
+
+So be on the look out 👀 for more in this very helpful new series!
 
 ---
 
@@ -143,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Abhilash LR, the crowd and the Learning Team
