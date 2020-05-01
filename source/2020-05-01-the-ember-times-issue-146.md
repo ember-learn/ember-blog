@@ -41,7 +41,7 @@ So be on the look out 👀 for more in this very helpful new series!
 
 ## [Contribute to the Global Accessibility Awareness Day blog series ✍️](https://github.com/ember-learn/ember-blog/issues/628)
 
-The Ember Accessbility strike team is organizing a blog post series for [Global Accessibility Awareness Day (GAAD)](https://globalaccessibilityawarenessday.org/)! This May 21st will mark the ninth annual Global Accessibility Awareness Day. The purpose of GAAD is to get everyone **talking, thinking and learning** about digital (web, software, mobile, etc.) access/inclusion and people with different disabilities.
+The Ember Accessibility strike team is organizing a blog post series for [Global Accessibility Awareness Day (GAAD)](https://globalaccessibilityawarenessday.org/)! This May 21st will mark the ninth annual Global Accessibility Awareness Day. The purpose of GAAD is to get everyone **talking, thinking and learning** about digital (web, software, mobile, etc.) access/inclusion and people with different disabilities.
 
 Interested in writing a post about an a11y topic such as screenreaders, WCAG, or the POUR model? Coordinate with the team on the [GitHub issue](https://github.com/ember-learn/ember-blog/issues/628) and the [#st-a11y channel](https://discordapp.com/channels/480462759797063690/680503382036840496) on the [Ember Discord](https://discord.gg/emberjs).
 
