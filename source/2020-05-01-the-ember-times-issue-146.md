@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee,  Chris Ng, the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Yehuda's Octane tutorial continued 🔥,
 Contribute to the Global Accessibility Awareness Day blog series ✍️,
 Ember website(s) redesign call for contributors 🎨🐹,
+ember-bootstrap 4 Release Candidate 🛳,
 Strict mode templates RFC accepted 💖,
 Check out the Yahoo Knowledge Graph COVID-19 Dashboard built with Ember 🗺️,
 
@@ -56,6 +57,21 @@ Early last year, the community came together to [discuss the future of the desig
 Many other official resources for the Ember community, such as the [Blog](https://blog.emberjs.com/), [API Docs](https://api.emberjs.com/), and [CLI Guides](https://cli.emberjs.com/), are looking forward to get a new look & feel as well - and you can help with that! A [call for contributors](https://twitter.com/melaniersumner/status/1254497875062673411?s=21) is looking for those who have experience with JavaScript, HTML and CSS and who want to help shipping the website redesign.
 
 Want to get started? Be sure to read the [official status update for the Ember Website](https://blog.emberjs.com/2020/04/26/update-ember-website.html) on the blog for more details on how to contribute. And feel free to reach out to the folks on the **#st-website** channel on the [Ember Discord](https://discordapp.com/invite/zT3asNS) for any questions. We're looking forward to your contributions!
+
+---
+
+## [ember-bootstrap 4 Release Candidate 🛳](https://twitter.com/simonihmig/status/1255099221415510016)
+
+The folks at [kaliber5](https://github.com/kaliber5) have put out a new release candidate for [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap)! 🎉
+
+This release candidate:
+
+- refactors to using tag-less components everywhere in preparation for a Glimmer rewrite.
+- drops Ember < 3.16, Node 8 Package.
+- drops deprecated arguments for HTML attributes
+- overhauls the build setup, using embroider macros!!!
+
+Go ahead and check out the [release notes](https://github.com/kaliber5/ember-bootstrap/releases/tag/v4.0.0-rc.0) for a full set of changes. Shout out to the contributors of this RC [Jacob Jewell (@jakesjews)](https://github.com/jakesjews), [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) and [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) for getting this done!
 
 ---
 
@@ -162,4 +178,6 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Chris Ng, the crowd and the Learning Team
+
+
+Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd and the Learning Team
