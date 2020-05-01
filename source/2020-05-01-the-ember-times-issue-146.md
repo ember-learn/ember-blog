@@ -67,7 +67,7 @@ The folks at [kaliber5](https://github.com/kaliber5) have put out a new release 
 This release candidate:
 
 - refactors to using tag-less components everywhere in preparation for a Glimmer rewrite.
-- drops Ember < 3.16, node 8 Package.
+- drops Ember < 3.16, Node 8 Package.
 - drops deprecated arguments for HTML attributes
 - overhauls of the build setup, using embroider macros!!!
 
