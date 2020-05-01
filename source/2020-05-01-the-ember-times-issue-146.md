@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee,  Chris Ng, Jared Galanis the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
