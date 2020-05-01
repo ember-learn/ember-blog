@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, Jessica Jordan, Jared Galanis the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -13,6 +13,7 @@ Yehuda's Octane tutorial continued 🔥,
 Contribute to the Global Accessibility Awareness Day blog series ✍️,
 Ember website(s) redesign call for contributors 🎨🐹,
 ember-bootstrap 4 Release Candidate 🛳,
+Strict mode templates RFC accepted 💖,
 
 READMORE
 
@@ -70,6 +71,16 @@ This release candidate:
 - overhauls of the build setup, using embroider macros!!!
 
 Go ahead and check out the [release notes](https://github.com/kaliber5/ember-bootstrap/releases/tag/v4.0.0-rc.0) for a full set of changes. Shout out to the contributors of this RC [Jacob Jewell (@jakesjews)](https://github.com/jakesjews), [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) and [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) for getting this done!
+
+---
+
+## [Strict mode templates RFC accepted 💖](https://github.com/emberjs/rfcs/pull/496)
+
+Strict mode templates RFC, for which the community discussion began in June 2019, was recently accepted by the Ember core teams. 🎉 You can read the RFC to [learn more about the proposed changes and motivations](https://github.com/emberjs/rfcs/blob/master/text/0496-handlebars-strict-mode.md).
+
+At a high level, the "strict mode" (the terminology may change) is opt-in but intended to become the main way Ember users write templates. Once the strict mode is implemented (this may take time), the core teams and addon developers can start experimenting with **better ways to support your development workflow**. Experimental features such as **template imports** and **single-file components**, which build on top of the strict mode, will still need further design and iterations before they can be proposed and recommended to you.
+
+In short, you don't need to worry about an immediate change. It is an exciting change to look forward to, because Ember has been using Handlebars for more than 8 years and we have learned how we can improve its language since. In the meantime, we encourage you to take a look at the [strict mode templates RFC](https://github.com/emberjs/rfcs/blob/master/text/0496-handlebars-strict-mode.md)!
 
 ---
 
@@ -158,4 +169,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Amy Lam, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+
+Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis the crowd and the Learning Team
