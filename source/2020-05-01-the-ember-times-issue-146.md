@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee,  Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -13,6 +13,7 @@ Yehuda's Octane tutorial continued 🔥,
 Contribute to the Global Accessibility Awareness Day blog series ✍️,
 Ember website(s) redesign call for contributors 🎨🐹,
 Strict mode templates RFC accepted 💖,
+Check out the Yahoo Knowledge Graph COVID-19 Dashboard built with Ember 🗺️,
 
 READMORE
 
@@ -65,6 +66,14 @@ Strict mode templates RFC, for which the community discussion began in June 2019
 At a high level, the "strict mode" (the terminology may change) is opt-in but intended to become the main way Ember users write templates. Once the strict mode is implemented (this may take time), the core teams and addon developers can start experimenting with **better ways to support your development workflow**. Experimental features such as **template imports** and **single-file components**, which build on top of the strict mode, will still need further design and iterations before they can be proposed and recommended to you.
 
 In short, you don't need to worry about an immediate change. It is an exciting change to look forward to, because Ember has been using Handlebars for more than 8 years and we have learned how we can improve its language since. In the meantime, we encourage you to take a look at the [strict mode templates RFC](https://github.com/emberjs/rfcs/blob/master/text/0496-handlebars-strict-mode.md)!
+
+---
+
+## [Yahoo Knowledge Graph COVID-19 Dashboard 🗺️](https://yahoo.github.io/covid-19-dashboard/)
+
+The [Yahoo Knowledge Graph COVID-19 Dashboard](https://github.com/yahoo/covid-19-dashboard) which was [built with Ember](https://twitter.com/jonkilroy/status/1254873001146961925) launched with Yahoo’s open source [COVID-19 datasets](https://github.com/yahoo/covid-19-data/) which are constructed entirely from primary (government and public agency) sources.
+
+Check it out today at [yahoo.github.io/covid-19-dashboard](https://yahoo.github.io/covid-19-dashboard/)!
 
 ---
 
@@ -153,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Abhilash LR, Amy Lam, Jessica Jordan, Isaac Lee, Chris Ng, the crowd and the Learning Team
