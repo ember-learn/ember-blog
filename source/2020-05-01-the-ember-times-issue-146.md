@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, Jessica Jordan, the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Yehuda's Octane tutorial continued 🔥,
 Contribute to the Global Accessibility Awareness Day blog series ✍️,
 Ember website(s) redesign call for contributors 🎨🐹,
+ember-bootstrap 4 Release Candidate 🛳,
 
 READMORE
 
@@ -57,14 +58,18 @@ Want to get started? Be sure to read the [official status update for the Ember W
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-bootstrap 4 Release Candidate 🛳](https://twitter.com/simonihmig/status/1255099221415510016)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The folks at [kaliber5 @kaliber5](https://github.com/kaliber5) have put out a new 4.0.0-rc.0 release candidate for [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap)! 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This release candidate:
+
+- refactors to using tag-less components everywhere in preparation for a Glimmer rewrite.
+- drops Ember < 3.16, node 8 Package.
+- drops deprecated arguments for HTML attributes
+- overhauls of the build setup, using embroider macros!!!
+
+Go ahead and check out the [release notes](https://github.com/kaliber5/ember-bootstrap/releases/tag/v4.0.0-rc.0) for a full set of changes. Shout out to the contributors of this RC [Jacob Jewell (@jakesjews)](https://github.com/jakesjews), [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) and [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) for getting this done!
 
 ---
 
@@ -153,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Amy Lam, Jessica Jordan, the crowd and the Learning Team
+Abhilash LR, Amy Lam, Jessica Jordan, Jared Galanis the crowd and the Learning Team
