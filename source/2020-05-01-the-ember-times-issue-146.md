@@ -49,7 +49,7 @@ Interested in writing a post about an a11y topic such as screenreaders, WCAG, or
 
 ## [Call for contributors: Shipping the Ember website(s) redesign 🎨🐹](https://twitter.com/melaniersumner/status/1254497875062673411)
 
-Early last year the community came together to [discuss the future of the design strategy of official Ember sites](https://twitter.com/emberjs/status/1105157291806883840). After plenty of time and work investments from individual contributors, companies and the Ember Core team, the redesign for the [original RFC](https://emberjs.github.io/rfcs/0425-website-redesign.html) had [shipped successfully](https://twitter.com/emberjs/status/1230912205631213569) for the main site of the project: [emberjs.com](https://emberjs.com)!
+Early last year, the community came together to [discuss the future of the design strategy of official Ember sites](https://github.com/emberjs/rfcs/pull/425). After plenty of time and work investments from individual contributors, companies and the Ember Core team, the redesign for the main site [emberjs.com](https://emberjs.com) [shipped successfully](https://twitter.com/emberjs/status/1230912205631213569)!
 
 But many other official resources within the Ember community are looking forward to get a new look & feel as well - and you can help with that! A [call for contributors](https://twitter.com/melaniersumner/status/1254497875062673411?s=21) is looking for those who have experience with JavaScript, HTML and CSS and who want to help shipping the website redesign to e.g. Ember's API Docs or the CLI Guides.
 
