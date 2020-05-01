@@ -11,9 +11,9 @@ responsive: true
 Ember website(s) redesign call for contributors 🎨🐹,
 Yehuda's Octane tutorial continued 🔥,
 contribute to the Global Accessibility Awareness Day blog series ✍️,
-ember-bootstrap 4 Release Candidate 🛳,
-Strict mode templates RFC accepted 💖,
-Check out the Yahoo Knowledge Graph COVID-19 Dashboard built with Ember 🗺️,
+ember-bootstrap 4 release candidate 🛳,
+strict mode templates RFC accepted 💖,
+and last, but not least, check out the Yahoo Knowledge Graph COVID-19 Dashboard  🗺️, built with Ember!
 
 READMORE
 
@@ -33,7 +33,7 @@ Want to get started? Be sure to read the [official status update for the Ember W
 
 Our very own [Yehuda Katz (@wycats)](https://github.com/wycats) wrote a blog series for an [Octane tutorial](https://yehudakatz.com/2020/03/25/ember-octane-lets-go/), and there are two new posts added to it.
 
-The third part of the tutorial, [Pulling Out Data](https://yehudakatz.com/2020/03/30/ember-octane-a-data-file/), talks about moving data from HTML into a separate file. This is the part in the series that introduces you to writing Javascript for the first time. You'll also learn how to build your helpers and write unit tests for them.
+The third part of the tutorial, [Pulling Out Data](https://yehudakatz.com/2020/03/30/ember-octane-a-data-file/), talks about moving data from HTML into a separate file. This is the part in the series that introduces you to writing JavaScript for the first time. You'll also learn how to build your helpers and write unit tests for them.
 
 The fourth part of the tutorial, [Airtable Time](https://yehudakatz.com/2020/04/06/ember-octane-airtable-time/), talks about moving the JSON into Airtable. It is a great approach that will reduce the need for an application build for changing only data.
 
@@ -47,7 +47,7 @@ So far there are seven posts planned:
 - Adding More Pages
 - Polishing: Server-Side Rendering, Prerendering and Code Splitting
 
-So be on the look out 👀 for more in this very helpful new series!
+So be on the lookout 👀 for more in this very helpful new series!
 
 ---
 
@@ -59,16 +59,16 @@ Interested in writing a post about an a11y topic such as screenreaders, WCAG, or
 
 ---
 
-## [ember-bootstrap 4 Release Candidate 🛳](https://twitter.com/simonihmig/status/1255099221415510016)
+## [ember-bootstrap 4 release candidate 🛳](https://twitter.com/simonihmig/status/1255099221415510016)
 
 The folks at [kaliber5](https://github.com/kaliber5) have put out a new release candidate for [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap)! 🎉
 
 This release candidate:
 
-- refactors to using tag-less components everywhere in preparation for a Glimmer rewrite.
-- drops Ember < 3.16, Node 8 Package.
-- drops deprecated arguments for HTML attributes
-- overhauls the build setup, using embroider macros!!!
+- Refactors to using tag-less components everywhere in preparation for a Glimmer rewrite
+- Drops Ember < 3.16, Node 8 Package
+- Drops deprecated arguments for HTML attributes
+- Overhauls the build setup, using Embroider macros!!!
 
 Go ahead and check out the [release notes](https://github.com/kaliber5/ember-bootstrap/releases/tag/v4.0.0-rc.0) for a full set of changes. Shout out to the contributors of this RC [Jacob Jewell (@jakesjews)](https://github.com/jakesjews), [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) and [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) for getting this done!
 
