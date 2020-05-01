@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, the crowd
+author: Abhilash LR, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Yehuda's Octane tutorial continued 🔥,
+Contribute to the Global Accessibility Awareness Day blog series ✍️
   
 READMORE
 
@@ -37,14 +38,11 @@ So be on the look out 👀 for more in this very helpful new series!
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Contribute to the Global Accessibility Awareness Day blog series ✍️](https://github.com/ember-learn/ember-blog/issues/628)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember Accessbility strike team is organizing a blog post series for [Global Accessibility Awareness Day (GAAD)](https://globalaccessibilityawarenessday.org/)! This May 21st will mark the ninth annual Global Accessibility Awareness Day. The purpose of GAAD is to get everyone **talking, thinking and learning** about digital (web, software, mobile, etc.) access/inclusion and people with different disabilities.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Interested in writing a post about an a11y topic such as screenreaders, WCAG, or the POUR model? Coordinate with the team on the [GitHub issue](https://github.com/ember-learn/ember-blog/issues/628) and the [#st-a11y channel](https://discordapp.com/channels/480462759797063690/680503382036840496) on the [Ember Discord](https://discord.gg/emberjs).
 
 ---
 
@@ -155,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, the crowd and the Learning Team
+Abhilash LR, Amy Lam, the crowd and the Learning Team
