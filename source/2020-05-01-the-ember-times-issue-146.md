@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, Jessica Jordan, the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -12,7 +12,7 @@ responsive: true
 Yehuda's Octane tutorial continued 🔥,
 Contribute to the Global Accessibility Awareness Day blog series ✍️,
 Ember website(s) redesign call for contributors 🎨🐹,
-
+Check out the Yahoo Knowledge Graph COVID-19 Dashboard built with Ember 🗺️,
 READMORE
 
 ---
@@ -57,14 +57,11 @@ Want to get started? Be sure to read the [official status update for the Ember W
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Yahoo Knowledge Graph COVID-19 Dashboard 🗺️](https://yahoo.github.io/covid-19-dashboard/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [Yahoo Knowledge Graph COVID-19 Dashboard](https://github.com/yahoo/covid-19-dashboard) which was [built with Ember](https://twitter.com/jonkilroy/status/1254873001146961925) launched with Yahoo’s open source [COVID-19 datasets](https://github.com/yahoo/covid-19-data/) which are constructed entirely from primary (government and public agency) sources.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Check it out today at [yahoo.github.io/covid-19-dashboard](https://yahoo.github.io/covid-19-dashboard/)!
 
 ---
 
@@ -153,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Amy Lam, Jessica Jordan, the crowd and the Learning Team
+Abhilash LR, Amy Lam, Jessica Jordan, Chris Ng, the crowd and the Learning Team
