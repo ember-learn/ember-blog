@@ -69,7 +69,7 @@ This release candidate:
 - refactors to using tag-less components everywhere in preparation for a Glimmer rewrite.
 - drops Ember < 3.16, Node 8 Package.
 - drops deprecated arguments for HTML attributes
-- overhauls of the build setup, using embroider macros!!!
+- overhauls the build setup, using embroider macros!!!
 
 Go ahead and check out the [release notes](https://github.com/kaliber5/ember-bootstrap/releases/tag/v4.0.0-rc.0) for a full set of changes. Shout out to the contributors of this RC [Jacob Jewell (@jakesjews)](https://github.com/jakesjews), [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) and [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) for getting this done!
 
