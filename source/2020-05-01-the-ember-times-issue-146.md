@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 146
-author: Abhilash LR, Amy Lam, the crowd
+author: Abhilash LR, Amy Lam, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/01-the-ember-times-issue-146.html"
 responsive: true
@@ -10,8 +10,9 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Yehuda's Octane tutorial continued 🔥,
-Contribute to the Global Accessibility Awareness Day blog series ✍️
-  
+Contribute to the Global Accessibility Awareness Day blog series ✍️,
+Ember website(s) redesign call for contributors 🎨🐹,
+
 READMORE
 
 ---
@@ -46,14 +47,13 @@ Interested in writing a post about an a11y topic such as screenreaders, WCAG, or
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Call for contributors: Shipping the Ember website(s) redesign 🎨🐹](https://twitter.com/melaniersumner/status/1254497875062673411)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Early last year, the community came together to [discuss the future of the design strategy of official Ember sites](https://github.com/emberjs/rfcs/pull/425). After plenty of time and work investments from individual contributors, companies and the Ember Core team, the redesign for the main site [emberjs.com](https://emberjs.com) [shipped successfully](https://twitter.com/emberjs/status/1230912205631213569)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Many other official resources for the Ember community, such as the [Blog](https://blog.emberjs.com/), [API Docs](https://api.emberjs.com/), and [CLI Guides](https://cli.emberjs.com/), are looking forward to get a new look & feel as well - and you can help with that! A [call for contributors](https://twitter.com/melaniersumner/status/1254497875062673411?s=21) is looking for those who have experience with JavaScript, HTML and CSS and who want to help shipping the website redesign.
+
+Want to get started? Be sure to read the [official status update for the Ember Website](https://blog.emberjs.com/2020/04/26/update-ember-website.html) on the blog for more details on how to contribute. And feel free to reach out to the folks on the **#st-website** channel on the [Ember Discord](https://discordapp.com/invite/zT3asNS) for any questions. We're looking forward to your contributions!
 
 ---
 
@@ -125,7 +125,7 @@ Interested in writing a post about an a11y topic such as screenreaders, WCAG, or
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/krisselden" target="gh-user">@krisselden</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/jayjayjpg" target="gh-user">@jayjayjpg</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/alexeykostevich" target="gh-user">@alexeykostevich</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/maxwondercorn" target="gh-user">@maxwondercorn</a>, <a href="https://github.com/eramod" target="gh-user">@eramod</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/ansmonjol" target="gh-user">@ansmonjol</a>, <a href="https://github.com/SYU15" target="gh-user">@SYU15</a> and <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -153,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Amy Lam, the crowd and the Learning Team
+Abhilash LR, Amy Lam, Jessica Jordan, the crowd and the Learning Team
