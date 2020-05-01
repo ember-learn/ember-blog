@@ -471,5 +471,6 @@ It should also work in reverse: if you start with Glimmer and realize you actual
 
 This is the future we've always dreamed of for Ember: a complete, cohesive front-end stack for those who want it, with the ability to quickly pare it down if the need arises.
 
-We're not there quite yet, but it's an exciting goal to build toward and I think we've shown tangible progress already with Glimmer. I hope you are as excited about Ember and Glimmer as we are, and we can't wait to see all of the cool stuff you build with them!
 <!--alex enable savage just of-course obvious trap jesus easy clearly-->
+
+We're not there quite yet, but it's an exciting goal to build toward and I think we've shown tangible progress already with Glimmer. I hope you are as excited about Ember and Glimmer as we are, and we can't wait to see all of the cool stuff you build with them!
