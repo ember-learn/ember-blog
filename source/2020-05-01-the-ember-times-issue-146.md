@@ -62,7 +62,7 @@ Want to get started? Be sure to read the [official status update for the Ember W
 
 ## [ember-bootstrap 4 Release Candidate 🛳](https://twitter.com/simonihmig/status/1255099221415510016)
 
-The folks at [kaliber5 @kaliber5](https://github.com/kaliber5) have put out a new 4.0.0-rc.0 release candidate for [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap)! 🎉
+The folks at [kaliber5](https://github.com/kaliber5) have put out a new release candidate for [ember-bootstrap](https://github.com/kaliber5/ember-bootstrap)! 🎉
 
 This release candidate:
 
