@@ -541,5 +541,7 @@ Generally, derived state like this is handled better by getters/setters, so this
 * [The Native Class Codemod (WIP)](https://github.com/scalvert/ember-es6-class-codemod)
 * [Ember Native Class ESLint Plugin](https://github.com/scalvert/eslint-plugin-ember-es6-class)
 
-And that's all folks! If you have more questions, join the [Ember Discord](https://www.emberjs.com/community/) and ask away, the `#e-decorators`, `#e-typescript`, `#st-native-classes`, and `#st-octane` channels are all great places to get some advice. Thanks for reading!
 <!--alex enable just easy-->
+
+And that's all folks! If you have more questions, join the [Ember Discord](https://www.emberjs.com/community/) and ask away, the `#e-decorators`, `#e-typescript`, `#st-native-classes`, and `#st-octane` channels are all great places to get some advice. Thanks for reading!
+

@@ -132,6 +132,8 @@ Want to write for the Ember Times? Have a suggestion for next week's issue? Join
 
 Keep on top of what's been going on in Emberland this week by subscribing to our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/)! You can also find our posts on the [Ember blog](https://emberjs.com/blog/tags/newsletter.html).
 
+<!--alex enable just clearly-->
+
 ---
 
 
@@ -140,4 +142,3 @@ That's another wrap! ✨
 Be kind,
 
 Melanie Sumner, Chris Ng, Amy Lam, Alon Bukai, Kenneth Larsen, Jessica Jordan and the Learning Team
-<!--alex enable just clearly-->
