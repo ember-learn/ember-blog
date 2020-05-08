@@ -21,7 +21,7 @@ READMORE
 The latest versions of **Ember.js**, **ember-data** and **ember-cli** are out [with the **3.18 release**](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html)!
 This new minor release version is full of bug fixes for the core libraries that power your Ember application, so be sure to upgrade soon.
 
-For more info on the current release schedule of Ember check out [our releases page](https://emberjs.com/releases/) and for infos on Ember v3.18, you can give the official release post [a read](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html).
+For more info on the current release schedule of Ember check out [our releases page](https://emberjs.com/releases/) and for information on Ember v3.18, you can give the official release post [a read](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html).
 
 ---
 
