@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 147
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
@@ -9,19 +9,18 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember 3.18 is out 🎉,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember 3.18 is out 🎉](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The latest version of **Ember.js**, **ember-data** and **ember-cli** is out [with its **3.18 release**](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html)!
+This new minor release version is full of bug fixes for the core libraries that power your Ember application, so be sure to upgrade soon.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+For more info on the current release schedule of Ember check out [our releases page](https://emberjs.com/releases/) and for infos on Ember v3.18, you can give the official release post [a read](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html).
 
 ---
 
@@ -143,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
