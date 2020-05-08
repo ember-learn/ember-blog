@@ -60,7 +60,7 @@ Do you follow a similar pattern or have another approach to autosaving your user
 
 ## [Embroider & memoization RFCs entered final comment period 💬](https://github.com/emberjs/rfcs/pull/507)
 
-In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing tracked properties](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1.
+In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1.
 
 ---
 
