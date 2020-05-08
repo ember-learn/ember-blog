@@ -12,6 +12,7 @@ responsive: true
 Ember 3.18 is out 🎉,
 Investigate arguments with Ember Inspector 🕵️‍♀️,
 Explore autosave with Ember Octane 💾,
+Review Embroider & memoization RFCs 💬,
 
 READMORE
 
@@ -46,14 +47,9 @@ Do you follow a similar pattern or have another approach to autosaving your user
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Embroider & memoization RFCs entered final comment period 💬](https://github.com/emberjs/rfcs/pull/507)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing tracked properties](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1.
 
 ---
 
@@ -142,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee the crowd and the Learning Team
