@@ -67,7 +67,7 @@ In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pul
 
 ## [ember-keyboard RFC ⌨️](https://github.com/adopted-ember-addons/ember-keyboard/pull/135)
 
-If you've ever wondered about some of the finer details of the `code` and `key` properties of keyboard events in modern browsers you may want to check out [Luke Melia's (@lukemelia)](https://github.com/lukemelia) recent [RFC](https://github.com/adopted-ember-addons/ember-keyboard/pull/135) for `ember-keyboard`. 
+If you've ever wondered about some of the finer details of the `code` and `key` properties of keyboard events in modern browsers, you may want to check out [Luke Melia's (@lukemelia)](https://github.com/lukemelia) recent [RFC](https://github.com/adopted-ember-addons/ember-keyboard/pull/135) for `ember-keyboard`. 
 
 In case you didn't know, `ember-keyboard` is a ✨fantastic✨ Ember addon for the painless support of keyboard events. 
 
