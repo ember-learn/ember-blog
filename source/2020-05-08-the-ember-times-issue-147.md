@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 147
-author: Jessica Jordan, Isaac Lee, the crowd
+author: Jessica Jordan, Isaac Lee, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.18 is out 🎉,
 Investigate arguments with Ember Inspector 🕵️‍♀️,
+Read the blog post Comparing Ember Octane and React 🐹⚛️,
 Explore autosave with Ember Octane 💾,
 Review Embroider & memoization RFCs 💬,
 
@@ -36,6 +37,16 @@ The brand-new, 4.0 version of [Ember Inspector](https://guides.emberjs.com/relea
 - navigate through the component tree via **keyboard** with a new [accessibility improvement](https://github.com/emberjs/ember-inspector/pull/1153) 🎹
 
 Check out the full list of features and improvements over at the project's [changelog](https://github.com/emberjs/ember-inspector/blob/v4.0.1/CHANGELOG.md#v400-2020-05-06). A sparkling thank you goes to the contributors [Sarah Yu (@SYU15)](https://github.com/SYU15), [Jerry Nummi (@nummi)](https://github.com/nummi), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Godfrey Chan (@chancancode)](https://github.com/chancancode) who made this release happen!
+
+---
+
+## [Blog Post: Comparing Ember Octane and React 🐹⚛️](https://www.pzuraq.com/comparing-ember-octane-and-react/)
+
+[Chris Garrett (@pzuraq)](https://github.com/pzuraq) wrote a blog post [comparing Ember Octane and React](https://www.pzuraq.com/comparing-ember-octane-and-react/) in terms of their respective programming models and developer experience using the latest idioms and best practices from both frameworks (Ember Octane and React Hooks).
+
+The blog post goes through an in-depth analysis of the programming models between Ember and React including how they handle derived values and state, lifecycle hooks or methods to handle scheduling, and handling user interaction.
+
+Check out the [takeaways](https://www.pzuraq.com/comparing-ember-octane-and-react/) from this comparison in the full blog post!
 
 ---
 
@@ -138,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Chris Ng, the crowd and the Learning Team
