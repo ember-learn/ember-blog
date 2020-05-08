@@ -14,7 +14,7 @@ Investigate arguments with Ember Inspector 🕵️‍♀️,
 Read the blog post Comparing Ember Octane and React 🐹⚛️,
 Explore autosave with Ember Octane 💾,
 Review Embroider & memoization RFCs 💬,
-Checkout the ember-keyboard RFC ⌨️,
+Check out the ember-keyboard RFC ⌨️,
 
 READMORE
 
