@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 147
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.18 is out 🎉,
 Investigate arguments with Ember Inspector 🕵️‍♀️,
+Read the blog post Comparing Ember Octane and React 🐹⚛️,
 
 READMORE
 
@@ -37,14 +38,13 @@ Check out the full list of features and improvements over at the project's [chan
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog Post: Comparing Ember Octane and React 🐹⚛️](https://www.pzuraq.com/comparing-ember-octane-and-react/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Garrett (@pzuraq)](https://github.com/pzuraq) wrote a blog post [comparing Ember Octane and React](https://www.pzuraq.com/comparing-ember-octane-and-react/) in terms of their respective programming models and developer experience using the latest idioms and best practices from both frameworks (Ember Octane and React Hooks).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The blog post goes through an in-depth analysis of the programming models between Ember and React including how they handle derived values and state, lifecycle hooks or methods to handle scheduling, and handling user interaction.
+
+Check out the [takeaways](https://www.pzuraq.com/comparing-ember-octane-and-react/) from this comparison in the full blog post!
 
 ---
 
@@ -144,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Chris Ng, the crowd and the Learning Team
