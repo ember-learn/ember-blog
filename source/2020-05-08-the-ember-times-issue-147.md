@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.18 is out 🎉,
-investigate arguments with Ember Inspector 🕵️‍♀️,
+Investigate arguments with Ember Inspector 🕵️‍♀️,
 
 READMORE
 
