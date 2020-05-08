@@ -71,6 +71,7 @@ If you've ever wondered about some of the finer details of the `code` and `key` 
 
 In case you didn't know, `ember-keyboard` is a ✨fantastic✨ Ember addon for the painless support of keyboard events. 
 
+<!-- alex ignore just-->
 The team that supports `ember-keyboard` could really use community feedback on this one so if you're a user of the addon, interested in the subject or just feel like helping out, please head on over to the RFC and comment!
 
 ---
