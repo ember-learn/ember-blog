@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 147
-author: Jessica Jordan, the crowd
+author: Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
@@ -11,6 +11,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.18 is out 🎉,
 Investigate arguments with Ember Inspector 🕵️‍♀️,
+Explore autosave with Ember Octane 💾,
+Review Embroider & memoization RFCs 💬,
 
 READMORE
 
@@ -37,25 +39,17 @@ Check out the full list of features and improvements over at the project's [chan
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Auto save en Ember Octane 💾](https://betocantu93.com/autosave-in-ember-octane/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Alberto Cantú (@betocantu93)](https://github.com/betocantu93), in his first blog post in Spanish, explores [how to implement autosave in Ember](https://betocantu93.com/autosave-in-ember-octane/). We encourage you to check it out! Alberto starts with a basic form with a submit button, then introduces autosave and addresses potential problems using `ember-concurrency`.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Do you follow a similar pattern or have another approach to autosaving your user's form? Share your ideas with the JS community today!
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Embroider & memoization RFCs entered final comment period 💬](https://github.com/emberjs/rfcs/pull/507)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing tracked properties](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1.
 
 ---
 
@@ -144,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee the crowd and the Learning Team
