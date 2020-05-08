@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 147
-author: Jessica Jordan, Isaac Lee, Chris Ng, the crowd
+author: Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
@@ -14,6 +14,7 @@ Investigate arguments with Ember Inspector 🕵️‍♀️,
 Read the blog post Comparing Ember Octane and React 🐹⚛️,
 Explore autosave with Ember Octane 💾,
 Review Embroider & memoization RFCs 💬,
+Check out the ember-keyboard RFC ⌨️,
 
 READMORE
 
@@ -64,14 +65,14 @@ In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pul
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-keyboard RFC ⌨️](https://github.com/adopted-ember-addons/ember-keyboard/pull/135)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you've ever wondered about some of the finer details of the `code` and `key` properties of keyboard events in modern browsers, you may want to check out [Luke Melia's (@lukemelia)](https://github.com/lukemelia) recent [RFC](https://github.com/adopted-ember-addons/ember-keyboard/pull/135) for `ember-keyboard`. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In case you didn't know, `ember-keyboard` is a ✨fantastic✨ Ember addon for the painless support of keyboard events. 
+
+<!-- alex ignore just-->
+The team that supports `ember-keyboard` could really use community feedback on this one so if you're a user of the addon, interested in the subject or just feel like helping out, please head on over to the RFC and comment!
 
 ---
 
@@ -149,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd and the Learning Team
