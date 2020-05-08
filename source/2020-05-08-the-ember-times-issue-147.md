@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.18 is out 🎉,
+investigate arguments with Ember Inspector 🕵️‍♀️,
 
 READMORE
 
@@ -24,14 +25,15 @@ For more info on the current release schedule of Ember check out [our releases p
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Investigate component arguments with the new Ember Inspector 🕵️‍♀️](https://twitter.com/chancancode/status/1258514680256987136)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The brand-new, 4.0 version of [Ember Inspector](https://guides.emberjs.com/release/ember-inspector/) - the best tool for **inspecting and debugging your Ember applications** - is out! The recent release comes not only with lots of valuable bug fixes, but also with many amazing features, including:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- inspection of **component arguments**: You can now see and investigate [arguments](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#arguments) passed to your components through Ember Inspector's component tree 🌳
+- inspection of **the store**: Directly inspect your data store and send it as a variable for further debugging to your console. You can check out a demo recording of this feature in the [PR description](https://github.com/emberjs/ember-inspector/pull/1163) of [Sarah Yu's (@SYU15)](https://github.com/SYU15) work 🏬
+- navigate through the component tree via **keyboard** with a new [accessibility improvement](https://github.com/emberjs/ember-inspector/pull/1153) 🎹
+
+Check out the full list of features and improvements over at the project's [changelog](https://github.com/emberjs/ember-inspector/blob/v4.0.1/CHANGELOG.md#v400-2020-05-06). A sparkling thank you goes to the contributors [Sarah Yu (@SYU15)](https://github.com/SYU15), [Jerry Nummi (@nummi)](https://github.com/nummi), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Godfrey Chan (@chancancode)](https://github.com/chancancode) who made this release happen!
 
 ---
 
