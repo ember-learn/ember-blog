@@ -116,7 +116,7 @@ Check out the full list of features and improvements over at the project's [chan
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/lifeart" target="gh-user">@lifeart</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/abhilashlr" target="gh-user">@abhilashlr</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/roderickdevelopers" target="gh-user">@roderickdevelopers</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/burritoIand" target="gh-user">@burritoIand</a>, <a href="https://github.com/nathanhammond" target="gh-user">@nathanhammond</a>, <a href="https://github.com/bobisjan" target="gh-user">@bobisjan</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/ansmonjol" target="gh-user">@ansmonjol</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a> and <a href="https://github.com/mansona" target="gh-user">@mansona</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
