@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 147
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
@@ -9,30 +9,31 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember 3.18 is out 🎉,
+Investigate arguments with Ember Inspector 🕵️‍♀️,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember 3.18 is out 🎉](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The latest versions of **Ember.js**, **ember-data** and **ember-cli** are out [with the **3.18 release**](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html)!
+This new minor release version is full of bug fixes for the core libraries that power your Ember application, so be sure to upgrade soon.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+For more info on the current release schedule of Ember check out [our releases page](https://emberjs.com/releases/) and for information on Ember v3.18, you can give the official release post [a read](https://blog.emberjs.com/2020/05/05/ember-3-18-released.html).
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Investigate component arguments with the new Ember Inspector 🕵️‍♀️](https://twitter.com/chancancode/status/1258514680256987136)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The brand-new, 4.0 version of [Ember Inspector](https://guides.emberjs.com/release/ember-inspector/) - the best tool for **inspecting and debugging your Ember applications** - is out! The recent release comes not only with lots of valuable bug fixes, but also with many amazing features, including:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- inspection of **component arguments**: You can now see and investigate [arguments](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#arguments) passed to your components through Ember Inspector's component tree 🌳
+- inspection of **the store**: Directly inspect your data store and send it as a variable for further debugging to your console. You can check out a demo recording of this feature in the [PR description](https://github.com/emberjs/ember-inspector/pull/1163) of [Sarah Yu's (@SYU15)](https://github.com/SYU15) work 🏬
+- navigate through the component tree via **keyboard** with a new [accessibility improvement](https://github.com/emberjs/ember-inspector/pull/1153) 🎹
+
+Check out the full list of features and improvements over at the project's [changelog](https://github.com/emberjs/ember-inspector/blob/v4.0.1/CHANGELOG.md#v400-2020-05-06). A sparkling thank you goes to the contributors [Sarah Yu (@SYU15)](https://github.com/SYU15), [Jerry Nummi (@nummi)](https://github.com/nummi), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Godfrey Chan (@chancancode)](https://github.com/chancancode) who made this release happen!
 
 ---
 
@@ -115,7 +116,7 @@ READMORE
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/lifeart" target="gh-user">@lifeart</a>, <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/abhilashlr" target="gh-user">@abhilashlr</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/roderickdevelopers" target="gh-user">@roderickdevelopers</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/burritoIand" target="gh-user">@burritoIand</a>, <a href="https://github.com/nathanhammond" target="gh-user">@nathanhammond</a>, <a href="https://github.com/bobisjan" target="gh-user">@bobisjan</a>, <a href="https://github.com/patricklx" target="gh-user">@patricklx</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/ansmonjol" target="gh-user">@ansmonjol</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a> and <a href="https://github.com/mansona" target="gh-user">@mansona</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -143,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
