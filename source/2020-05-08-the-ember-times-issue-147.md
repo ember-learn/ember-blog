@@ -33,15 +33,15 @@ For more info on the current release schedule of Ember check out [our releases p
 
 The brand-new, 4.0 version of [Ember Inspector](https://guides.emberjs.com/release/ember-inspector/) - the best tool for **inspecting and debugging your Ember applications** - is out! The recent release comes not only with lots of valuable bug fixes, but also with many amazing features, including:
 
-- inspection of **component arguments**: You can now see and investigate [arguments](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#arguments) passed to your components through Ember Inspector's component tree 🌳
-- inspection of **the store**: Directly inspect your data store and send it as a variable for further debugging to your console. You can check out a demo recording of this feature in the [PR description](https://github.com/emberjs/ember-inspector/pull/1163) of [Sarah Yu's (@SYU15)](https://github.com/SYU15) work 🏬
-- navigate through the component tree via **keyboard** with a new [accessibility improvement](https://github.com/emberjs/ember-inspector/pull/1153) 🎹
+- Inspection of **component arguments**: You can now see and investigate [arguments](https://emberjs.github.io/rfcs/0311-angle-bracket-invocation.html#arguments) passed to your components through Ember Inspector's component tree 🌳
+- Inspection of **the store**: Directly inspect your data store and send it as a variable for further debugging to your console. You can check out a demo recording of this feature in the [PR description](https://github.com/emberjs/ember-inspector/pull/1163) of [Sarah Yu's (@SYU15)](https://github.com/SYU15) work 🏬
+- Navigate through the component tree via **keyboard** with a new [accessibility improvement](https://github.com/emberjs/ember-inspector/pull/1153) 🎹
 
 Check out the full list of features and improvements over at the project's [changelog](https://github.com/emberjs/ember-inspector/blob/v4.0.1/CHANGELOG.md#v400-2020-05-06). A sparkling thank you goes to the contributors [Sarah Yu (@SYU15)](https://github.com/SYU15), [Jerry Nummi (@nummi)](https://github.com/nummi), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Godfrey Chan (@chancancode)](https://github.com/chancancode) who made this release happen!
 
 ---
 
-## [Blog Post: Comparing Ember Octane and React 🐹⚛️](https://www.pzuraq.com/comparing-ember-octane-and-react/)
+## [Blog post: Comparing Ember Octane and React 🐹⚛️](https://www.pzuraq.com/comparing-ember-octane-and-react/)
 
 [Chris Garrett (@pzuraq)](https://github.com/pzuraq) wrote a blog post [comparing Ember Octane and React](https://www.pzuraq.com/comparing-ember-octane-and-react/) in terms of their respective programming models and developer experience using the latest idioms and best practices from both frameworks (Ember Octane and React Hooks).
 
@@ -59,9 +59,9 @@ Do you follow a similar pattern or have another approach to autosaving your user
 
 ---
 
-## [Embroider & memoization RFCs entered final comment period 💬](https://github.com/emberjs/rfcs/pulls)
+## [Embroider & memoization RFCs entered Final Comment Period 💬](https://github.com/emberjs/rfcs/pulls)
 
-In case you missed it, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1. And [memoizing functions](https://github.com/emberjs/rfcs/pull/615) was merged in today! 
+In case you missed it, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their Final Comment Period (FCP) on May 1. And [memoizing functions](https://github.com/emberjs/rfcs/pull/615) was merged in today! 
 
 ---
 
@@ -73,50 +73,6 @@ In case you didn't know, `ember-keyboard` is a ✨fantastic✨ Ember addon for t
 
 <!-- alex ignore just-->
 The team that supports `ember-keyboard` could really use community feedback on this one so if you're a user of the addon, interested in the subject or just feel like helping out, please head on over to the RFC and comment!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
