@@ -1,20 +1,20 @@
 ---
 title: The Ember Times - Issue No. 147
-author: Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd
+author: Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/08-the-ember-times-issue-147.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.18 is out 🎉,
-Investigate arguments with Ember Inspector 🕵️‍♀️,
-Read the blog post Comparing Ember Octane and React 🐹⚛️,
-Explore autosave with Ember Octane 💾,
-Review Embroider & memoization RFCs 💬,
-Check out the ember-keyboard RFC ⌨️,
+investigate arguments with Ember Inspector 🕵️‍♀️,
+read the blog post comparing Ember Octane and React 🐹⚛️,
+explore autosave with Ember Octane 💾,
+review Embroider & memoization RFCs 💬,
+check out the ember-keyboard RFC ⌨️,
+and last, but not least, 
 
 READMORE
 
@@ -59,9 +59,9 @@ Do you follow a similar pattern or have another approach to autosaving your user
 
 ---
 
-## [Embroider & memoization RFCs entered final comment period 💬](https://github.com/emberjs/rfcs/pull/507)
+## [Embroider & memoization RFCs entered final comment period 💬](https://github.com/emberjs/rfcs/pulls)
 
-In case you missed, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1.
+In case you missed it, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their final comment period (FCP) on May 1. And [memoizing functions](https://github.com/emberjs/rfcs/pull/615) was merged in today! 
 
 ---
 
@@ -150,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd and the Learning Team
+Jessica Jordan, Isaac Lee, Chris Ng, Jared Galanis, Amy Lam and the Learning Team
