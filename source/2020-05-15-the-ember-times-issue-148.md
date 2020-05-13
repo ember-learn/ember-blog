@@ -38,7 +38,7 @@ Check out the [new EmberMap video](https://twitter.com/ember_map/status/12555105
 />
 ```
 
-The `{{on}}` modifier accepts two arguments: the event name and the function handler. The **event name** is actually just the same argument that the vanilla JS API `element.addEventListener(eventName)` accepts. And the **function handler** is any action, meaning any properly bound function. It can either live on the component instance or be passed in as an argument.
+The `{{on}}` modifier accepts two arguments: the event name and the function handler. The **event name** is actually the same argument that the vanilla JS API `element.addEventListener(eventName)` accepts. And the **function handler** is any action, meaning any properly bound function. It can either live on the component instance or be passed in as an argument.
 
 ```hbs
 <span
