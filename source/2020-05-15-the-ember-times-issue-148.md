@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 148
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/15-the-ember-times-issue-148.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Watch the new EmberMap video on the `{{on}}` modifier,
 READMORE
 
 ---
@@ -25,14 +25,33 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [EmberMap: The `{{on}}` Modifier 🔦](https://embermap.com/topics/what-s-new-in-ember/the-on-modifier-3-11)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Check out the [new EmberMap video](https://twitter.com/ember_map/status/1255510563163197442) on the `{{on}}` modifier, a new way to attach events in Ember. It can be attached in either a plain HTML element or an Ember component.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+```hbs
+<Toggle
+  @checked={{this.isAdmin}}
+  @onChange={{this.toggleIsAdmin}}
+  {{on 'mouseenter' this.showTip}}
+  {{on 'mouseleave' this.hideTip}}
+/>
+```
+
+The `{{on}}` modifier accepts two arguments: the event name and the function handler. The **event name** is actually the same argument that the vanilla JS API `element.addEventListener(eventName)` accepts. And the **function handler** is any action, meaning any properly bound function. It can either live on the component instance or be passed in as an argument.
+
+```hbs
+<span
+  role='checkbox'
+  aria-checked={{if this.isChecked 'true' 'false'}}
+  {{on 'click' this.toggle}}
+  {{on 'keydown' this.toggle}}
+>
+  {{! additional HTML }}
+</span>
+```
+
+Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://embermap.com/topics/what-s-new-in-ember/the-on-modifier-3-11)!
 
 ---
 
@@ -143,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
