@@ -141,7 +141,7 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/allthesignals" target="gh-user">@allthesignals</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/lukemelia" target="gh-user">@lukemelia</a>, <a href="https://github.com/SYU15" target="gh-user">@SYU15</a>, <a href="https://github.com/mmun" target="gh-user">@mmun</a>, <a href="https://github.com/mrloop" target="gh-user">@mrloop</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a> and <a href="https://github.com/stefanpenner" target="gh-user">@stefanpenner</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
