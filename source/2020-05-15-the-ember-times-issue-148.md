@@ -127,11 +127,11 @@ If you want to make your own app load with the speed of light, be sure to [check
 Never seen a helper spawn from a JavaScript file before? Then you should check out [the latest RFC about the `invokeHelper` API](https://github.com/emberjs/rfcs/pull/626)!
 
 The proposal suggests the creation of a new API, that allows you to invoke [helper functions](https://guides.emberjs.com/release/components/helper-functions/) via JavaScript and not only via templates (the only way how helpers can invoked in Ember apps today).
-This would extend Ember's reactive model by an API that
+This would extend Ember's reactive model by an API that:
 
 * allows a transparent reuse of common code and patterns
-* is, similarly to components, owning a lifecycle
-* is, unlike components, JavaScript class _and_ template compatible
+* as, similarly to components, owning a lifecycle
+* is, unlike components, JavaScript class _and_ template compatible.
 
 If you want to learn more about the API design of `invokeHelper`, be sure to read the [full RFC](https://github.com/emberjs/rfcs/blob/invoke-helper/text/0626-invoke-helper.md) and post your questions and ideas in the [comments below](https://github.com/emberjs/rfcs/pull/626)!
 
