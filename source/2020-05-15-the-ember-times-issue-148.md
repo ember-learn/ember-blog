@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 148
-author: Chris Ng, the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/15-the-ember-times-issue-148.html"
 responsive: true
@@ -10,6 +10,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Watch the new EmberMap video on the `{{on}}` modifier,
+Ember performance tweaks 🏎,  
+  
 READMORE
 
 ---
@@ -55,14 +57,21 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember performance tweaks 🏎](https://abhilashlr.in/ember-performance-tweaks-part-1)
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+  
+[Abhilash LR (@abhilashlr)](https://github.com/abhilashlr) blogs about optimising build timelines & bundle size in your Ember apps, the first in a series on getting started with performance optimizations! Check out his tips and tricks in the writeup [here](https://abhilashlr.in/ember-performance-tweaks-part-1). Highlights include:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+* Speeding up development
+  * Removing tests from the dev build
+  * Removing Mirage from the dev build 
+  * Minification, gzip or brotli compression, and fingerprinting
+* Asset size
+  * Analyze bundle size and optimize asset size
+  * Removing dependencies not needed on app boot
+
+> The smaller the page assets, the faster it is for the user to view them. The faster it is for the user to view the page with text and UI, the greater trust they have on our apps/websites.
 
 ---
 
@@ -162,4 +171,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
