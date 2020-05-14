@@ -59,7 +59,7 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 ## [Ember performance tweaks 🏎](https://abhilashlr.in/ember-performance-tweaks-part-1)
   
-[Abhilash LR (@abhilashlr)](https://github.com/abhilashlr) blogs about **optimising build timelines & bundle size** in your Ember apps, the first in a series on getting started with performance optimizations! Check out his tips and tricks in the writeup [here](https://abhilashlr.in/ember-performance-tweaks-part-1). Highlights include:
+[Abhilash LR (@abhilashlr)](https://github.com/abhilashlr) blogs about **optimizing build timelines & bundle size** in your Ember apps, the first in a series on getting started with performance optimizations! Check out his tips and tricks in the writeup [here](https://abhilashlr.in/ember-performance-tweaks-part-1). Highlights include:
 
 * Speeding up development
   * Removing tests from the dev build
