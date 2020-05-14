@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 148
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/15-the-ember-times-issue-148.html"
 responsive: true
@@ -11,7 +11,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Watch the new EmberMap video on the `{{on}}` modifier,
 Ember performance tweaks 🏎,  
-  
+See helpers spawn from JavaScript files ✨,
+
 READMORE
 
 ---
@@ -58,12 +59,12 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 ---
 
 ## [Ember performance tweaks 🏎](https://abhilashlr.in/ember-performance-tweaks-part-1)
-  
+
 [Abhilash LR (@abhilashlr)](https://github.com/abhilashlr) blogs about **optimizing build timelines & bundle size** in your Ember apps, the first in a series on getting started with performance optimizations! Check out his tips and tricks in the writeup [here](https://abhilashlr.in/ember-performance-tweaks-part-1). Highlights include:
 
 * Speeding up development
   * Removing tests from the dev build
-  * Removing Mirage from the dev build 
+  * Removing Mirage from the dev build
   * Minification, gzip or brotli compression, and fingerprinting
 * Asset size
   * Analyze bundle size and optimize asset size
@@ -117,14 +118,18 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Learn about JavaScript invoked helpers with the invokeHelper RFC ✨](https://github.com/emberjs/rfcs/pull/626)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Never seen a helper spawn from a JavaScript file before? Then you should check out [the latest RFC about the `invokeHelper` API](https://github.com/emberjs/rfcs/pull/626)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The proposal suggests the creation of a new API, that allows you to invoke [helper functions](https://guides.emberjs.com/release/components/helper-functions/) via JavaScript and not only via templates (the only way how helpers can invoked in Ember apps today).
+This would extend Ember's reactive model by an API that
+
+* allows a transparent reuse of common code and patterns
+* is, similarly to components, owning a lifecycle
+* is, unlike components, JavaScript class _and_ template compatible
+
+If you want to learn more about the API design of `invokeHelper`, be sure to read the [full RFC](https://github.com/emberjs/rfcs/blob/invoke-helper/text/0626-invoke-helper.md) and post your questions and ideas in the [comments below](https://github.com/emberjs/rfcs/pull/626)!
 
 ---
 
@@ -169,4 +174,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jessica Jordan, the crowd and the Learning Team
