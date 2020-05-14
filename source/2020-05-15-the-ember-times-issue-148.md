@@ -72,6 +72,10 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 > The smaller the page assets, the faster it is for the user to view them. The faster it is for the user to view the page with text and UI, the greater trust they have on our apps/websites.
 
+But wait, there's more! In Abhilash's [second part of the performance blog post series](https://abhilashlr.in/ember-performance-tweaks-part-2) it's all about **optimizing assets** for that perfect Lighthouse score. It teaches you how to reduce the number of requests for application assets to the absolute minimum, optimize your images efficiently and many other modern best practices related to asset handling.
+
+If you want to make your own app load with the speed of light, be sure to [check out the writeup today](https://abhilashlr.in/ember-performance-tweaks-part-2)!
+
 ---
 
 ## [Section title in sentence case 🐹](section-url)
