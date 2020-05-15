@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 148
-author: Chris Ng, Amy Lam, Jessica Jordan, the crowd
+author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/15-the-ember-times-issue-148.html"
 responsive: true
@@ -9,9 +9,10 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Watch the new EmberMap video on the `{{on}}` modifier,
-Ember performance tweaks 🏎,  
+Watch the new EmberMap video on the `{{on}}` modifier 🔦,
+Ember performance tweaks 🏎,
 See helpers spawn from JavaScript files ✨,
+Preview deployments with ember-cli-deploy and GitHub Actions ✅,
 
 READMORE
 
@@ -89,14 +90,11 @@ If you want to make your own app load with the speed of light, be sure to [check
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Preview deployments with ember-cli-deploy and GitHub Actions ✅](https://www.kaliber5.de/en/blog/preview-deployments-with-ember-cli-deploy-and-github-actions/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you haven't had a chance, we encourage you to check out [Simon Ihmig (@simonihmig)](https://github.com/simonihmig)'s blog post today. You can learn how to use [ember-cli-deploy](http://ember-cli-deploy.com/) plugins and GitHub Actions to [preview deployments from pull requests](https://www.kaliber5.de/en/blog/preview-deployments-with-ember-cli-deploy-and-github-actions/)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+![PR is deployed and ready for preview!](https://www.kaliber5.de/assets/images/gh-deployment-comment.png)
 
 ---
 
@@ -178,4 +176,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
