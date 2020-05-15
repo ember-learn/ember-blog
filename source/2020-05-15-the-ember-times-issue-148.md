@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 148
-author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, the crowd
+author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/15-the-ember-times-issue-148.html"
 responsive: true
@@ -13,6 +13,7 @@ Watch the new EmberMap video on the `{{on}}` modifier 🔦,
 Ember performance tweaks 🏎,
 See helpers spawn from JavaScript files ✨,
 Preview deployments with ember-cli-deploy and GitHub Actions ✅,
+Mut and Set Autotracking in Octane 📖,
 
 READMORE
 
@@ -79,14 +80,11 @@ If you want to make your own app load with the speed of light, be sure to [check
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Mut and set autotracking in Octane 📖](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a new blog post 🎉 by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) about some behavior that may surprise you involving auto-tracking when using `mut` or the `set` helper, and how they can differ from the use of actions in Ember Octane.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Read more about this at [Chris' blog](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/). It's a quick read that may prevent you some refactoring pain if you're aware of the issues ahead of time 😃.
 
 ---
 
@@ -176,4 +174,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis the crowd and the Learning Team
