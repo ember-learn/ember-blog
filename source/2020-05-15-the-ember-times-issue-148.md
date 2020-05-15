@@ -80,7 +80,7 @@ If you want to make your own app load with the speed of light, be sure to [check
 
 ---
 
-## [Mut and Set Autotracking in Octane 📖](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/)
+## [Mut and set autotracking in Octane 📖](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/)
 
 There's a new blog post 🎉 by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) about some behavior that may surprise you involving auto-tracking when using `mut` or the `set` helper, and how they can differ from the use of actions in Ember Octane.
 
