@@ -1,32 +1,21 @@
 ---
 title: The Ember Times - Issue No. 148
-author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/15-the-ember-times-issue-148.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Watch the new EmberMap video on the `{{on}}` modifier 🔦,
+mut and set autotracking in Octane 📖,
+Ember Twiddle updates 🌟,
 Ember performance tweaks 🏎,
-See helpers spawn from JavaScript files ✨,
-Preview deployments with ember-cli-deploy and GitHub Actions ✅,
-Mut and Set Autotracking in Octane 📖,
+preview deployments with ember-cli-deploy and GitHub Actions ✅,
+and last, but not least, see helpers spawn from JavaScript files ✨!
 
 READMORE
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -60,6 +49,23 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 ---
 
+## [Mut and set autotracking in Octane 📖](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/)
+
+There's a new blog post 🎉 by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) about some behavior that may surprise you involving auto-tracking when using `mut` or the `set` helper, and how they can differ from the use of actions in Ember Octane.
+
+Read more about this at [Chris' blog](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/). It's a quick read that may prevent you some refactoring pain if you're aware of the issues ahead of time. 😃 
+
+---
+
+## [Ember Twiddle updates 🌟](https://twitter.com/gaurav9576/status/1259933735442698242)
+
+Ember Twiddle [0.17.1](https://github.com/ember-cli/ember-twiddle/releases/tag/v0.17.1) is here, now supporting **Ember 3.18** and template colocation! Need to share an Ember code reproduction? Ember Twiddle is a JSFiddle for Ember. 
+
+Check out the updates at [ember-twiddle.com](https://t.co/PMkoyGsnSv?amp=1) and thank you to [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0), [@RajaSK05](https://github.com/RajaSK05) and [Gokul Kathirvel
+(@gokatz)](https://github.com/gokatz) for their contributions to the release! 👏
+
+---
+
 ## [Ember performance tweaks 🏎](https://abhilashlr.in/ember-performance-tweaks-part-1)
 
 [Abhilash LR (@abhilashlr)](https://github.com/abhilashlr) blogs about **optimizing build timelines & bundle size** in your Ember apps, the first in a series on getting started with performance optimizations! Check out his tips and tricks in the writeup [here](https://abhilashlr.in/ember-performance-tweaks-part-1). Highlights include:
@@ -80,44 +86,6 @@ If you want to make your own app load with the speed of light, be sure to [check
 
 ---
 
-## [Mut and set autotracking in Octane 📖](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/)
-
-There's a new blog post 🎉 by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) about some behavior that may surprise you involving auto-tracking when using `mut` or the `set` helper, and how they can differ from the use of actions in Ember Octane.
-
-Read more about this at [Chris' blog](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/). It's a quick read that may prevent you some refactoring pain if you're aware of the issues ahead of time 😃.
-
----
-
-## [Preview deployments with ember-cli-deploy and GitHub Actions ✅](https://www.kaliber5.de/en/blog/preview-deployments-with-ember-cli-deploy-and-github-actions/)
-
-If you haven't had a chance, we encourage you to check out [Simon Ihmig (@simonihmig)](https://github.com/simonihmig)'s blog post today. You can learn how to use [ember-cli-deploy](http://ember-cli-deploy.com/) plugins and GitHub Actions to [preview deployments from pull requests](https://www.kaliber5.de/en/blog/preview-deployments-with-ember-cli-deploy-and-github-actions/)!
-
-![PR is deployed and ready for preview!](https://www.kaliber5.de/assets/images/gh-deployment-comment.png)
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Learn about JavaScript invoked helpers with the invokeHelper RFC ✨](https://github.com/emberjs/rfcs/pull/626)
 
 Never seen a helper spawn from a JavaScript file before? Then you should check out [the latest RFC about the `invokeHelper` API](https://github.com/emberjs/rfcs/pull/626)!
@@ -133,14 +101,11 @@ If you want to learn more about the API design of `invokeHelper`, be sure to rea
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Preview deployments with ember-cli-deploy and GitHub Actions ✅](https://www.kaliber5.de/en/blog/preview-deployments-with-ember-cli-deploy-and-github-actions/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you haven't had a chance, we encourage you to check out [Simon Ihmig (@simonihmig)](https://github.com/simonihmig)'s blog post today. You can learn how to use [ember-cli-deploy](http://ember-cli-deploy.com/) plugins and GitHub Actions to [preview deployments from pull requests](https://www.kaliber5.de/en/blog/preview-deployments-with-ember-cli-deploy-and-github-actions/)!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+![PR is deployed and ready for preview!](https://www.kaliber5.de/assets/images/gh-deployment-comment.png)
 
 ---
 
@@ -174,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Chris Ng, Amy Lam, Jessica Jordan, Isaac Lee, Jared Galanis and the Learning Team
