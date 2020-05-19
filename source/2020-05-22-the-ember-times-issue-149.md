@@ -1,15 +1,16 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: the crowd
+title: The Ember Times - Issue No. 149
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
-alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Ember Engines acceptance testing guides 📝,
+  
 READMORE
 
 ---
@@ -25,14 +26,12 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+## [Ember Engines acceptance testing guides & Octane 📝](https://ember-engines.com/docs/testing-acceptance)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Michael Villander (@villander)](https://github.com/villander) and team have fleshed out docs about the **acceptance test story** in the Ember Engines ecosystem, touching on some bleeding-edge cases. Also, the entire doc examples were migrated to Ember Octane! Visit the official site to see [Ember Engines' new acceptance testing guides](https://ember-engines.com/docs/testing-acceptance). Many thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb), [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo) and [Thomas Gossmann (@gossi)](https://github.com/gossi) for their reviews and tips!
+
+Using Ember Engines? Pop into the [#ember-engines channel](https://discord.com/channels/480462759797063690/487221820638887947) on the [Ember Discord](https://discord.gg/emberjs).
 
 ---
 
@@ -143,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
