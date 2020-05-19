@@ -27,7 +27,7 @@ READMORE
 ---
 
 
-## [Ember Engines acceptance testing guides 📝](https://ember-engines.com/docs/testing-acceptance)
+## [Ember Engines acceptance testing guides & Octane 📝](https://ember-engines.com/docs/testing-acceptance)
 
 [Michael Villander (@villander)](https://github.com/villander) and team have fleshed out docs about the **acceptance test story** in the Ember Engines ecosystem, touching on some bleeding-edge cases. Also, the entire doc examples were migrated to Ember Octane. Check out the new acceptance testing guides [here](https://ember-engines.com/docs/testing-acceptance). Special thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb), [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo) and [Thomas Gossmann (@gossi)](https://github.com/gossi) for their reviews and tips!
 
