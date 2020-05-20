@@ -71,6 +71,7 @@ Tracked properties also allow us to use [native JavaScript getters](https://deve
 
 Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)
 !
+
 ---
 
 ## [Section title in sentence case 🐹](section-url)
