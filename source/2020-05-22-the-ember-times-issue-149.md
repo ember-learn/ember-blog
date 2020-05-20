@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 149
-author: Amy Lam, the crowd
+author: Amy Lam, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
@@ -10,7 +10,8 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember Engines acceptance testing guides 📝,
-  
+Check out the new EmberMap video on Tracked Properties 👣,
+
 READMORE
 
 ---
@@ -35,15 +36,41 @@ Using Ember Engines? Pop into the [#ember-engines channel](https://discord.com/c
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [EmberMap: Tracked Properties 👣](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A new EmberMap video covers [Tracked Properties](https://guides.emberjs.com/release/upgrading/current-edition/tracked-properties/) – new way to access and mutate state in Ember with vanilla JavaScript.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+While we have been able to use [native ES5 getters](https://blog.emberjs.com/2018/04/13/ember-3-1-released.html) for accessing properties (`this.isOpen`), we still had to rely on calling `this.set` to mutate state. Tracked properties allow us to drop using `this.set` and instead use native setters (`this.isOpen = true;`) by annotating the properties we want to track.
 
+Classic syntax:
+
+```js
+import { tracked } from "@glimmer/tracking";
+
+export default Component.extend({
+  isOpen: tracked({ value: false }),
+});
+```
+
+Octane syntax:
+
+```js
+import { tracked } from '@glimmer/tracking';
+
+class Person {
+  @tracked firstName;
+  @tracked lastName;
+
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+}
+```
+
+Tracked properties also allow us to use [native JavaScript getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) as a replacement for computed properties by having dependent keys tracked. So try it out today in your app and vastly simplify the programming model by moving closer to native JavaScript language constructs.
+
+Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)
+!
 ---
 
 ## [Section title in sentence case 🐹](section-url)
@@ -142,4 +169,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Chris Ng, the crowd and the Learning Team
