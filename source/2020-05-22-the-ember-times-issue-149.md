@@ -69,8 +69,7 @@ class Person {
 
 Tracked properties also allow us to use [native JavaScript getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) as a replacement for computed properties by having dependent keys tracked. So try it out today in your app and vastly simplify the programming model by moving closer to native JavaScript language constructs.
 
-Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)
-!
+Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)!
 
 ---
 
