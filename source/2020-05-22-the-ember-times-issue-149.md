@@ -14,11 +14,11 @@ READMORE
 
 ---
 
-## [Cal Woolgar's Video Series 🐺](https://www.youtube.com/channel/UCVe_D9xXXDwXyU2o0_cadxA)
+## [Cal Woolgar's Video Series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
 
-In this video series, Cal Woolgar's first video 🎥 [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) breaks down the basics of [Ember.js.](https://emberjs.com/) 
+In this video series, Cal Woolgar's first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) breaks down the basics of [Ember.js.](https://emberjs.com/) 
 
- This first video in his series mentions things like [Handlebars Templating language](https://handlebarsjs.com/), the separation from Java and HTML, [Ember cli](https://ember-cli.com/), and how easy it is to create a new application.
+ This first video in his series mentions things like [Handlebars Templating language](https://handlebarsjs.com/), the separation of Javascript and HTML, [Ember cli](https://ember-cli.com/), and how easy it is to create a new application.
 
 
  [Cal](https://twitter.com/callam_woolgar) does not go too far into these things in his first video. **He aims to make videos short and sweet 🍭** so that someone learning can come back and easily find something without having to go through hours of video. This series is excellent so far, and we look forward to what's next from Cal. 👏
