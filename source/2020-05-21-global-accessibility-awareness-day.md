@@ -52,4 +52,4 @@ I'd like to close by giving a shoutout to [CrowdStrike](https://www.crowdstrike.
 
 By creating a better future for accessible application development, we create products that make it possible for *everyone* to use. My goal is to get accessibility into the design and development workflow so it is in the list of a product's design constraints. I believe Ember is the framework that will help you do just that. Avoid costly lawsuits and code rewrites by putting accessibility into the base requirements of your work, because when accessibility is considered first, everyone wins.
 
-Are you participating in Global Accessibility Awareness Day? Check out their website for more information- https://globalaccessibilityawarenessday.org/!
+Are you participating in Global Accessibility Awareness Day? Check out their website for more information- [https://globalaccessibilityawarenessday.org/](https://globalaccessibilityawarenessday.org/)!
