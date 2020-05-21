@@ -48,7 +48,7 @@ Have you already done these things? How about browsing the internet today with a
 
 ## Closing
 
-I'd like to close by giving a shoutout to [CrowdStrike](https://www.crowdstrike.com/) and [LinkedIn](https://www.linkedin.com/), two companies that use Ember and are also actively working to make accessibility improvements to their products. CrowdStrike let us know that in May alone, they have improved the keyboard accessibility of some of their more complex graphs, enhanced their SVG graphs with custom roles, and improved focus outlines for radio buttons. Great job!! 
+I'd like to close by giving a shoutout to [CrowdStrike](https://www.crowdstrike.com/) and [LinkedIn](https://www.linkedin.com/), and [Allovue](https://allovue.com/), just a few of the companies that use Ember and are also actively working to make accessibility improvements to their products. CrowdStrike let us know that in just this month, they have improved the keyboard accessibility of some of their more complex graphs, enhanced their SVG graphs with custom roles, and improved focus outlines for radio buttons. Great job!! 
 
 By creating a better future for accessible application development, we create products that make it possible for *everyone* to use. My goal is to get accessibility into the design and development workflow so it is in the list of a product's design constraints. I believe Ember is the framework that will help you do just that. Avoid costly lawsuits and code rewrites by putting accessibility into the base requirements of your work, because when accessibility is considered first, everyone wins.
 
