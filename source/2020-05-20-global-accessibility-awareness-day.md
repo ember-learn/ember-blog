@@ -34,7 +34,7 @@ After identifying the issues that keep brand new Ember apps from meeting legal c
 
 The strike team meets every week on Wednesdays, and has made progress on proposed solutions. Keep an eye out for new RFCs in the next few weeks that especially cover adding support for unique page titles as well as missing default language declaration support. 
 
-Another thing that has come out of this strike team's work is that there are other things that we'd like to do for the long-term, and consideration for a more permanent accessibility working group is now being discussed. Want to participate in the strike team work? Check out the #st-a11y channel on [Discord](https://discord.gg/emberjs), and let us know! The meetings are also open to anyone who wants to attend. 
+Another thing that has come out of this strike team's work is that there are other things that we'd like to do for the long-term, and consideration for a more permanent accessibility working group is now being discussed. Want to participate in the strike team's work? Check out the #st-a11y channel on [Discord](https://discord.gg/emberjs), and let us know! The meetings are also open to anyone who wants to attend. 
 
 ## Build More Accessible Ember Apps Today!
 
