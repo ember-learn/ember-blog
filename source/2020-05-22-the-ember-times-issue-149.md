@@ -1,38 +1,36 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: Matthew Roderick, the crowd
+title: The Ember Times - Issue No. 149
+author: Matthew Roderick,, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
-alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
+alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Ember Engines acceptance testing guides 📝,
+  
 READMORE
 
 ---
 
-## [Cal Woolgar's Video Series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
+## ["My Experience with Ember.js" video series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
 
-In this video series, Cal Woolgar's first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) breaks down the basics of [Ember.js.](https://emberjs.com/) 
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember. 
 
- This first video in his series mentions things like [Handlebars Templating language](https://handlebarsjs.com/), the separation of Javascript and HTML, [Ember cli](https://ember-cli.com/), and how easy it is to create a new application.
+The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how easy it is to create a new application.
 
-
- [Cal](https://twitter.com/callam_woolgar) does not go too far into these things in his first video. **He aims to make videos short and sweet 🍭** so that someone learning can come back and easily find something without having to go through hours of video. This series is excellent so far, and we look forward to what's next from Cal. 👏
+Cal aims to make his videos **short and sweet** 🍭 so that someone learning can come back and easily find something in bite-sized pieces. Look forward to what's next from Cal! 👏
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+## [Ember Engines acceptance testing guides & Octane 📝](https://ember-engines.com/docs/testing-acceptance)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Michael Villander (@villander)](https://github.com/villander) and team have fleshed out docs about the **acceptance test story** in the Ember Engines ecosystem, touching on some bleeding-edge cases. Also, the entire doc examples were migrated to Ember Octane! Visit the official site to see [Ember Engines' new acceptance testing guides](https://ember-engines.com/docs/testing-acceptance). Many thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb), [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo) and [Thomas Gossmann (@gossi)](https://github.com/gossi) for their reviews and tips!
+
+Using Ember Engines? Pop into the [#ember-engines channel](https://discord.com/channels/480462759797063690/487221820638887947) on the [Ember Discord](https://discord.gg/emberjs).
 
 ---
 
@@ -143,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, the crowd and the Learning Team
+Matthew Roderick, Amy Lam, the crowd and the Learning Team
