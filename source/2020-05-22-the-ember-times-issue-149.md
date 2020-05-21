@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 149
-author: Amy Lam, Chris Ng, the crowd
+author: Matthew Roderick, Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+"My Experience with Ember.js" video series 🎥,
 Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
 
@@ -16,14 +17,13 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## ["My Experience with Ember.js" video series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how easy it is to create a new application.
+
+Cal aims to make his videos **short and sweet** 🍭 so that someone learning can come back and easily find something in bite-sized pieces. Look forward to what's next from Cal! 👏
 
 ---
 
@@ -169,4 +169,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Chris Ng, the crowd and the Learning Team
+Matthew Roderick, Chris Ng, Amy Lam, the crowd and the Learning Team
