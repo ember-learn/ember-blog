@@ -21,9 +21,10 @@ READMORE
 
 [Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember. 
 
-The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how easy it is to create a new application.
+<!--alex ignore easy-->
+The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how it enabled you to create a new application easily.
 
-Cal aims to make his videos **short and sweet** 🍭 so that someone learning can come back and easily find something in bite-sized pieces. Look forward to what's next from Cal! 👏
+Cal aims to make his videos **short and sweet** 🍭 so that someone learning can reference something in bite-sized pieces. Look forward to what's next from Cal! 👏
 
 ---
 
