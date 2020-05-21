@@ -9,7 +9,6 @@ responsive: true
 
 Happy Global Accessibility Awareness Day! 
 
-<!--alex disable easy-->
 
 To mark this occasion, I'd like to talk about the ways Ember already helps you make accessible applications, give you an update on what Ember has been doing to make it easier than ever to create accessible Ember applications, and finally a few things that you can do starting today to make your applications more accessible. 
 
