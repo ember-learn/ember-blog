@@ -27,7 +27,7 @@ Because Ember is an HTML-first framework, it is straight-forward to write access
 After identifying the issues that keep brand new Ember apps from meeting legal conformance requirements, an issue was filed that outlined the [Technical A11y Issues in New Ember Apps](https://github.com/emberjs/rfcs/issues/595). A strike team was formed with the goal of submitting RFCs that propose a clear path forward for each of these five issues: 
 
 1. Accessible Routing- when a user with a screen reader navigates to a new URL within an Ember app, no information is given to the user to let them know that the navigation was successful.
-2. Page Titles- Ember provides the base HTML boilerplate that is needed for a valid web page in the index.html file.However, the `<title>` element is missing, and there is no way to provide that content.
+2. Page Titles- Ember provides the base HTML boilerplate that is needed for a valid web page in the index.html file. However, the `<title>` element is missing, and there is no way to provide that content.
 3. Label support for Input elements- The input component that is built into Ember supports at least 30 standard attributes but provides no way to ensure that the inputs have labels.
 4. Missing default language declaration- There is no default language declaration on the <html> element in the index.html file.
 5. Splattributes- Right now, `...attributes` do not have a guaranteed merge order. This is problematic in cases where some `aria-` attributes can have multiple values, and the order of those values matter. 
