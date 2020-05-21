@@ -4,8 +4,7 @@ author: Melanie Sumner
 tags: Recent Posts, 2020, Announcement, Featured Announcement, Accessibility
 responsive: true
 ---
-<!--alex disable easy-->
-<!--alex disable just -->
+<!--alex disable easy just -->
 
 Happy Global Accessibility Awareness Day! 
 
