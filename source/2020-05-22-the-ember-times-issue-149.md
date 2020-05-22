@@ -12,6 +12,7 @@ responsive: true
 "My Experience with Ember.js" video series 🎥,
 Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
+Polyfills for in-element and named blocks 🚀,
 
 READMORE
 
@@ -74,14 +75,15 @@ Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Polyfills for in-element and named blocks 🚀](https://github.com/ember-polyfills)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Right now you can get a **sneak peak** on [canary](https://emberjs.com/releases/canary/) of [public API {{in-element}}](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md) and [yieldable named blocks](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+What is `{{in-element}}`? Sometimes developers need to render content outside of the regular HTML flow. This concept is also called "portals". Components like dropdowns and modals use this technique to render stuff close to the root of the page, so as to bypass CSS overflow rules. (Some apps that are embedded into static pages even use this technique to update parts of the page outside the app itself.)
+
+Since it was a common use case, Glimmer baked `{{-in-element}}` into the VM, but as part of the private (or intimate) API. With the passing of the [RFC]((https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md)), it's going public, perhaps in Ember 3.20. So if you've been using `{{-in-element}}`, you should switch to the [`{{in-element}}` polyfill](https://github.com/ember-polyfills/ember-in-element-polyfill) instead!
+
+The [yieldable named blocks RFC](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md) makes it possible to pass any number of blocks to a component with angle bracket syntax. Check out the new [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) to take advantage of this feature now. 
 
 ---
 
