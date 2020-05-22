@@ -122,7 +122,7 @@ It is so encouraging to see yet another example of Ember being used in applicati
 
 ## [The prettiest Ember RFC 💅](https://github.com/emberjs/rfcs/pull/628)
 
-By default, the [ember-cli](https://cli.emberjs.com/release/) already provides developers with plenty of tools and settings for linting and formatting of app code via **eslint** and [**ember-template-lint**](https://github.com/ember-template-lint/ember-template-lint). But what if you could come to an agreement on some of the most significant bike-shedding disputes in your team once and for all, including the tabs vs. spaces discussion or the need for the newline at the end of a file?
+By default, [ember-cli](https://cli.emberjs.com/release/) already provides developers with plenty of tools and settings for linting and formatting of app code via **eslint** and [**ember-template-lint**](https://github.com/ember-template-lint/ember-template-lint). But what if you could come to an agreement on some of the most significant bike-shedding disputes in your team once and for all, including discussions about tabs vs. spaces or the need for the newline at the end of a file?
 
 In the [Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/628) we get to have a peek into the possible, **even prettier future for Ember codebases** already! The proposal suggests to add [Prettier - a multi-language, opiniated code-formatter -](https://prettier.io/) to Ember apps generated from ember-cli's `app` and `addon` blueprints.
 
