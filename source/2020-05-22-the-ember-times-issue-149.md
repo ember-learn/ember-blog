@@ -87,7 +87,7 @@ What is `{{in-element}}`? Sometimes developers need to render content outside of
 
 Since it was a common use case, Glimmer baked `{{-in-element}}` into the VM, but as part of the private (or intimate) API. With the passing of the [RFC](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md), it's going public, perhaps in Ember 3.20. So if you've been using `{{-in-element}}`, you should switch to the [`{{in-element}}` polyfill](https://github.com/ember-polyfills/ember-in-element-polyfill) instead!
 
-The [yieldable named blocks RFC](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md) makes it possible to create components with _more than_ 1 block for customization. Check out the new [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) to take advantage of this feature now. 
+The [yieldable named blocks RFC](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md) makes it possible to pass one block or more to a component for customization. Check out the new [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) to take advantage of this feature now. 
 
 ---
 
