@@ -105,7 +105,7 @@ You may not have seen the recent [blog post commemorating the occasion](https://
 
 You should head on over to the blog post for more details on what you can do to get involved or how to make your Ember applications more accessible.
 
-If you have accessibility related questions you can head on over to the community Discord chat in the #topic-a11y channel, and get answers and help right away.
+If you have accessibility related questions you can head on over to [the community Discord chat](https://discordapp.com/invite/emberjs) in the #topic-a11y channel, and get answers and help right away.
 
 Or, if you're interested in getting involved in Ember's A11y Strike Team, checkout the #st-a11y channel on Discord, and let us know! The meetings are also open to anyone who wants to attend.
 
