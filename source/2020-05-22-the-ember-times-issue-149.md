@@ -101,7 +101,7 @@ It is so encouraging to see yet another example of Ember being used in applicati
 
 Did you know that May 21 was [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)? Well now you know 😃!
 
-You may not have seen the recent [blog post commemorating the occasion](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html) and discussing accessibility in Ember. 🎉 The post includes lots of great information about how the community, Ember core team and the Ember's A11y Strike Team are working to support an accessible web. 💙💚💛💜
+You may not have seen the recent [blog post commemorating the occasion](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html) and discussing accessibility in Ember. 🎉 The post includes lots of great information about how the community, the Ember core team and Ember's A11y Strike Team are working to support an accessible web. 💙💚💛💜
 
 You should head on over to the blog post for more details on what you can do to get involved or how to make your Ember applications more accessible.
 
