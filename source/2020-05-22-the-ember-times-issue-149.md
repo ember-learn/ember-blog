@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 149
-author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis the crowd
+author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
@@ -14,6 +14,8 @@ Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
 Setting up Coveralls for your Ember Addons 💪,
 Ember in COVID-19 Research 🔬📖🐹,
+Read the prettiest RFC in Emberland 💅,
+
 
 READMORE
 
@@ -21,7 +23,7 @@ READMORE
 
 ## ["My Experience with Ember.js" video series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
 
-[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember. 
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember.
 
 <!--alex ignore easy-->
 The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how it enabled you to create a new application easily.
@@ -86,11 +88,11 @@ Check out the [blog post](http://hangaroundtheweb.com/2020/05/setting-up-coveral
 
 ## [Ember in COVID-19 Research 🔬📖🐹](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/)
 
-Johns Hopkins University has announced new COVID-19 related features available in their [Public Access Submission System (PASS)](https://pass.jhu.edu/). 
+Johns Hopkins University has announced new COVID-19 related features available in their [Public Access Submission System (PASS)](https://pass.jhu.edu/).
 
 PASS (which is built using Ember.js on the frontend!), is a platform to assist researchers  🔬🧪📖 in complying with the access policies of their funders and institutions and is created by the Sheridan Libraries at Johns Hopkins University, in collaboration with the Harvard University Office for Scholarly Communication and the MIT Libraries.
 
-As a [recent article](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/) at JHU's news center the Hub has pointed out, "Through modifications to the Public Access Submission System (PASS), faculty or their proxies can now submit articles flagged specifically for [the] JHU COVID-19 collection." 
+As a [recent article](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/) at JHU's news center the Hub has pointed out, "Through modifications to the Public Access Submission System (PASS), faculty or their proxies can now submit articles flagged specifically for [the] JHU COVID-19 collection."
 
 It is so encouraging to see yet another example of Ember being used in applications that support important research for public good. 😍🐹
 
@@ -118,14 +120,14 @@ It is so encouraging to see yet another example of Ember being used in applicati
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [The prettiest Ember RFC 💅](https://github.com/emberjs/rfcs/pull/628)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+By default, the [ember-cli](https://cli.emberjs.com/release/) already provides developers with plenty of tools and settings for linting and formatting of app code via **eslint** and [**ember-template-lint**](https://github.com/ember-template-lint/ember-template-lint). But what if you could come to an agreement on some of the most significant bike-shedding disputes in your team once and for all, including the tabs vs. spaces discussion or the need for the newline at the end of a file?
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the [Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/628) we get to have a peek into the possible, **even prettier future for Ember codebases** already! The proposal suggests to add [Prettier - a multi-language, opiniated code-formatter -](https://prettier.io/) to Ember apps generated from ember-cli's `app` and `addon` blueprints.
+
+<!--alex ignore period-->
+Want to learn more about how this could help you and your team to collaborate on your code even better? Then be sure to [give the original RFC a read](https://github.com/emberjs/rfcs/blob/pretty-please!/text/0628-prettier.md) soon, as it entered the Final Comment Period (FCP) recently. And don't forget to post your questions and suggestions in [the comments below the RFC PR](https://github.com/emberjs/rfcs/pull/628), _pretty please_!
 
 ---
 
@@ -142,7 +144,7 @@ It is so encouraging to see yet another example of Ember being used in applicati
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/xg-wang" target="gh-user">@xg-wang</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/allthesignals" target="gh-user">@allthesignals</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/alexeykostevich" target="gh-user">@alexeykostevich</a>, <a href="https://github.com/sandstrom" target="gh-user">@sandstrom</a>, <a href="https://github.com/ansmonjol" target="gh-user">@ansmonjol</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/fivetanley" target="gh-user">@fivetanley</a> and <a href="https://github.com/CodingItWrong" target="gh-user">@CodingItWrong</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -170,4 +172,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis the crowd and the Learning Team
+Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
