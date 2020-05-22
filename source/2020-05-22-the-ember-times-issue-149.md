@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 149
-author: Matthew Roderick, Chris Ng, Amy Lam, the crowd
+author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 "My Experience with Ember.js" video series 🎥,
 Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
+Setting up Coveralls for your Ember Addons 💪,
 
 READMORE
 
@@ -74,14 +75,11 @@ Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Setting up Coveralls for your Ember Addons 💪](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar/) blogs about setting up Coveralls for your Ember Addons. He explains how to setup [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) and [Coveralls](https://coveralls.io/) for your repositories. Coveralls help you deliver code confidently by showing which parts of your code aren’t covered by your test suite. You can also learn how to use these techniques and make it part of your workflow using Github Actions.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Check out the [blog post](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)!
 
 ---
 
@@ -170,4 +168,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Chris Ng, Amy Lam, the crowd and the Learning Team
+Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, the crowd and the Learning Team
