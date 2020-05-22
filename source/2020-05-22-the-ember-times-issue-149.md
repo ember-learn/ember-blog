@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 149
-author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, the crowd
+author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
@@ -13,6 +13,7 @@ responsive: true
 Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
 Setting up Coveralls for your Ember Addons 💪,
+Ember in COVID-19 Research 🔬📖🐹,
 
 READMORE
 
@@ -83,14 +84,15 @@ Check out the [blog post](http://hangaroundtheweb.com/2020/05/setting-up-coveral
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember in COVID-19 Research 🔬📖🐹](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Johns Hopkins University has announced new COVID-19 related features available in their [Public Access Submission System (PASS)](https://pass.jhu.edu/). 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+PASS (which is built using Ember.js on the frontend!), is a platform to assist researchers  🔬🧪📖 in complying with the access policies of their funders and institutions and is created by the Sheridan Libraries at Johns Hopkins University, in collaboration with the Harvard University Office for Scholarly Communication and the MIT Libraries.
+
+As a [recent article](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/) at JHU's news center the Hub has pointed out, "Through modifications to the Public Access Submission System (PASS), faculty or their proxies can now submit articles flagged specifically for [the] JHU COVID-19 collection." 
+
+It is so encouraging to see yet another example of Ember being used in applications that support important research for public good. 😍🐹
 
 ---
 
@@ -168,4 +170,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, the crowd and the Learning Team
+Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis the crowd and the Learning Team
