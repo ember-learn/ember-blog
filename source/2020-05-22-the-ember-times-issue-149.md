@@ -77,7 +77,7 @@ Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in
 
 ## [Setting up Coveralls for your Ember Addons 💪](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)
 
-[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar/) blogs about Setting up Coveralls for your Ember Addons. He explains how to setup [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) and [Coveralls](https://coveralls.io/) for your repositories. You can also learn how to use these techniques and make it part of your workflow using Github Actions.
+[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar/) blogs about setting up Coveralls for your Ember Addons. He explains how to setup [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) and [Coveralls](https://coveralls.io/) for your repositories. Coveralls help you deliver code confidently by showing which parts of your code aren’t covered by your test suite. You can also learn how to use these techniques and make it part of your workflow using Github Actions.
 
 Check out the [blog post](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)!
 
