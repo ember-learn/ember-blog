@@ -77,7 +77,7 @@ Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in
 
 ## [Polyfills for in-element and named blocks 🚀](https://github.com/ember-polyfills)
 
-Right now you can get a **sneak peak** on [canary](https://emberjs.com/releases/canary/) of [public API {{in-element}}](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md) and [yieldable named blocks](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md).
+Right now you can get a **sneak peek** in [canary](https://emberjs.com/releases/canary/) of [public API {{in-element}}](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md) and [yieldable named blocks](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md).
 
 What is `{{in-element}}`? Sometimes developers need to render content outside of the regular HTML flow. This concept is also called "portals". Components like dropdowns and modals use this technique to render stuff close to the root of the page, so as to bypass CSS overflow rules. (Some apps that are embedded into static pages even use this technique to update parts of the page outside the app itself.)
 
