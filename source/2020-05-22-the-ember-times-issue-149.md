@@ -14,6 +14,7 @@ Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
 Setting up Coveralls for your Ember Addons 💪,
 Ember in COVID-19 Research 🔬📖🐹,
+Global Accessibility Awareness Day Ember Blog Post 📖🐹,
 
 READMORE
 
@@ -96,14 +97,19 @@ It is so encouraging to see yet another example of Ember being used in applicati
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Global Accessibility Awareness Day Ember Blog Post 📖🐹](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Did you know that May 21 was [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)? Well now you know 😃!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You may not have seen the recent [blog post commemorating the occasion](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html) and discussing accessibility in Ember. 🎉 The post includes lots of great information about how the community, Ember core team and the Ember's A11y Strike Team are working to support an accessible web. 💙💚💛💜
+
+You should head on over to the blog post for more details on what you can do to get involved or how to make your Ember applications more accessible.
+
+If you have accessibility related questions you can head on over to the community Discord chat in the #topic-a11y channel, and get answers and help right away.
+
+Or, if you're interested in getting involved in Ember's A11y Strike Team, checkout the #st-a11y channel on Discord, and let us know! The meetings are also open to anyone who wants to attend.
+
+Big shout out to [Mel Sumner (@MelSumner)](https://github.com/MelSumner) for putting all that valuable accessiblity-related information together!
 
 ---
 
