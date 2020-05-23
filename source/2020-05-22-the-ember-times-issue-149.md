@@ -1,50 +1,37 @@
 ---
 title: The Ember Times - Issue No. 149
-author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan, the crowd
+author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+🏄‍♂️ Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-"My Experience with Ember.js" video series 🎥,
 Ember Engines acceptance testing guides 📝,
-Check out the new EmberMap video on Tracked Properties 👣,
-Polyfills for in-element and named blocks 🚀,
-Setting up Coveralls for your Ember Addons 💪,
+check out the new EmberMap video on Tracked Properties 👣,
+polyfills for in-element and named blocks 🚀,
+setting up Coveralls for your Ember Addons 💪,
 Ember in COVID-19 Research 🔬📖🐹,
-Global Accessibility Awareness Day Ember Blog Post 📖🐹,
-Read the prettiest RFC in Emberland 💅,
+Global Accessibility Awareness Day Ember blog post 📖🐹,
+"My Experience with Ember.js" video series 🎥,
+and last, but not least, read the prettiest RFC in Emberland 💅!
 
 READMORE
 
 ---
 
-## ["My Experience with Ember.js" video series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
-
-[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember.
-
-<!--alex ignore easy-->
-The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how it enabled you to create a new application easily.
-
-Cal aims to make his videos **short and sweet** 🍭 so that someone learning can reference something in bite-sized pieces. Look forward to what's next from Cal! 👏
-
----
-
-
 ## [Ember Engines acceptance testing guides & Octane 📝](https://ember-engines.com/docs/testing-acceptance)
 
 [Michael Villander (@villander)](https://github.com/villander) and team have fleshed out docs about the **acceptance test story** in the Ember Engines ecosystem, touching on some bleeding-edge cases. Also, the entire doc examples were migrated to Ember Octane! Visit the official site to see [Ember Engines' new acceptance testing guides](https://ember-engines.com/docs/testing-acceptance). Many thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb), [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo) and [Thomas Gossmann (@gossi)](https://github.com/gossi) for their reviews and tips!
 
-Using Ember Engines? Pop into the [#ember-engines channel](https://discord.com/channels/480462759797063690/487221820638887947) on the [Ember Discord](https://discord.gg/emberjs).
+Using Ember Engines? Chat about it in the [#ember-engines channel](https://discord.com/channels/480462759797063690/487221820638887947) on the [Ember Discord](https://discord.gg/emberjs).
 
 ---
 
 ## [EmberMap: Tracked Properties 👣](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)
 
-A new EmberMap video covers [Tracked Properties](https://guides.emberjs.com/release/upgrading/current-edition/tracked-properties/) – new way to access and mutate state in Ember with vanilla JavaScript.
+A new EmberMap video covers [Tracked Properties](https://guides.emberjs.com/release/upgrading/current-edition/tracked-properties/) – a new way to access and mutate state in Ember with vanilla JavaScript.
 
 While we have been able to use [native ES5 getters](https://blog.emberjs.com/2018/04/13/ember-3-1-released.html) for accessing properties (`this.isOpen`), we still had to rely on calling `this.set` to mutate state. Tracked properties allow us to drop using `this.set` and instead use native setters (`this.isOpen = true;`) by annotating the properties we want to track.
 
@@ -87,23 +74,23 @@ What is `{{in-element}}`? Sometimes developers need to render content outside of
 
 Since it was a common use case, Glimmer baked `{{-in-element}}` into the VM, but as part of the private (or intimate) API. With the passing of the [RFC](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md), it's going public, perhaps in Ember 3.20. So if you've been using `{{-in-element}}`, you should switch to the [`{{in-element}}` polyfill](https://github.com/ember-polyfills/ember-in-element-polyfill) instead, like [Krystan HuffMenne (@gitKrystan)](https://github.com/gitKrystan) did for these couple of addons: [ember-cli-head](https://github.com/ronco/ember-cli-head/pull/71) and [ember-maybe-in-element]( https://github.com/DockYard/ember-maybe-in-element/pull/25).
 
-The [yieldable named blocks RFC](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md) makes it possible to pass one block or more to a component for customization. Check out the new [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) to take advantage of this feature now. 
+The [yieldable named blocks RFC](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md) makes it possible to pass one block or more to a component for customization. Check out the new [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) to take advantage of this feature now!
 
 ---
 
-## [Setting up Coveralls for your Ember Addons 💪](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)
+## [Setting up Coveralls for your Ember addons 💪](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)
 
-[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar/) blogs about setting up Coveralls for your Ember Addons. He explains how to setup [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) and [Coveralls](https://coveralls.io/) for your repositories. Coveralls help you deliver code confidently by showing which parts of your code aren’t covered by your test suite. You can also learn how to use these techniques and make it part of your workflow using Github Actions.
+[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar/) blogs about setting up Coveralls for your Ember addons. He explains how to setup [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) and [Coveralls](https://coveralls.io/) for your repositories. Coveralls help you deliver code confidently by showing which parts of your code aren’t covered by your test suite. You can also learn how to use these techniques and make it part of your workflow using Github Actions.
 
 Check out the [blog post](http://hangaroundtheweb.com/2020/05/setting-up-coveralls-for-your-ember-addons/)!
 
 ---
 
-## [Ember in COVID-19 Research 🔬📖🐹](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/)
+## [Ember in COVID-19 research 🔬📖🐹](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/)
 
-Johns Hopkins University has announced new COVID-19 related features available in their [Public Access Submission System (PASS)](https://pass.jhu.edu/).
+Johns Hopkins University (JHU) has announced new COVID-19 related features available in their [Public Access Submission System (PASS)](https://pass.jhu.edu/).
 
-PASS (which is built using Ember.js on the frontend!), is a platform to assist researchers  🔬🧪📖 in complying with the access policies of their funders and institutions and is created by the Sheridan Libraries at Johns Hopkins University, in collaboration with the Harvard University Office for Scholarly Communication and the MIT Libraries.
+PASS (which is built using Ember.js on the frontend!), is a platform to assist researchers  🔬🧪📖 in complying with the access policies of their funders and institutions and is created by the Sheridan Libraries at JHU, in collaboration with the Harvard University Office for Scholarly Communication and the MIT Libraries.
 
 As a [recent article](https://hub.jhu.edu/novel-coronavirus-information/research-preparedness/coronavirus-research-publications-resources/) at JHU's news center the Hub has pointed out, "Through modifications to the Public Access Submission System (PASS), faculty or their proxies can now submit articles flagged specifically for [the] JHU COVID-19 collection."
 
@@ -111,9 +98,9 @@ It is so encouraging to see yet another example of Ember being used in applicati
 
 ---
 
-## [Global Accessibility Awareness Day Ember Blog Post 📖🐹](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html)
+## [Global Accessibility Awareness Day Ember blog post 📖🐹](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html)
 
-Did you know that May 21 was [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)? Well now you know 😃!
+Did you know that May 21st was [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/)? Well now you know 😃!
 
 You may not have seen the recent [blog post commemorating the occasion](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html) and discussing accessibility in Ember. 🎉 The post includes lots of great information about how the community, the Ember core team and Ember's A11y Strike Team are working to support an accessible web. 💙💚💛💜
 
@@ -127,14 +114,14 @@ Big shout out to [Mel Sumner (@MelSumner)](https://github.com/MelSumner) for put
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## ["My Experience with Ember.js" video series 🎥](https://www.youtube.com/watch?v=jkb1At1pk2E)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has kicked off a new video series "My Experience with Ember.js", where he breaks down the basics of Ember.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!--alex ignore easy-->
+The first video [What is Ember.js?](https://www.youtube.com/watch?v=jkb1At1pk2E) explains the [Handlebars templating language](https://handlebarsjs.com/) and how it separates your JavaScript from HTML. Cal also touches on [ember-cli](https://ember-cli.com/), and how it enabled you to create a new application easily.
+
+Cal aims to make his videos **short and sweet** 🍭 so that someone learning can reference something in bite-sized pieces. Look forward to what's next from Cal! 👏
 
 ---
 
@@ -145,18 +132,7 @@ By default, [ember-cli](https://cli.emberjs.com/release/) already provides devel
 In the [Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/628) we get to have a peek into the possible, **even prettier future for Ember codebases** already! The proposal suggests to add [Prettier - a multi-language, opiniated code-formatter -](https://prettier.io/) to Ember apps generated from ember-cli's `app` and `addon` blueprints.
 
 <!--alex ignore period-->
-Want to learn more about how this could help you and your team to collaborate on your code even better? Then be sure to [give the original RFC a read](https://github.com/emberjs/rfcs/blob/pretty-please!/text/0628-prettier.md) soon, as it entered the Final Comment Period (FCP) recently. And don't forget to post your questions and suggestions in [the comments below the RFC PR](https://github.com/emberjs/rfcs/pull/628), _pretty please_!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Want to learn more about how this could help you and your team to collaborate on your code even better? Then be sure to [give the original RFC a read](https://github.com/emberjs/rfcs/blob/pretty-please!/text/0628-prettier.md) soon, as it entered the Final Comment Period (FCP) recently. And don't forget to post your questions and suggestions in [the comments below the RFC PR](https://github.com/emberjs/rfcs/pull/628), <span style="font-style: italic;">pretty please</span>!
 
 ---
 
@@ -190,4 +166,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan, the crowd and the Learning Team
+Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan and the Learning Team
