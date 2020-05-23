@@ -12,6 +12,7 @@ responsive: true
 "My Experience with Ember.js" video series 🎥,
 Ember Engines acceptance testing guides 📝,
 Check out the new EmberMap video on Tracked Properties 👣,
+Polyfills for in-element and named blocks 🚀,
 Setting up Coveralls for your Ember Addons 💪,
 Ember in COVID-19 Research 🔬📖🐹,
 Global Accessibility Awareness Day Ember Blog Post 📖🐹,
@@ -75,6 +76,18 @@ class Person {
 Tracked properties also allow us to use [native JavaScript getters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get) as a replacement for computed properties by having dependent keys tracked. So try it out today in your app and vastly simplify the programming model by moving closer to native JavaScript language constructs.
 
 Check out the [full video on EmberMap](https://embermap.com/topics/what-s-new-in-ember/tracked-properties-3-13)!
+
+---
+
+## [Polyfills for in-element and named blocks 🚀](https://github.com/ember-polyfills)
+
+Right now you can get a **sneak peek** in [canary](https://emberjs.com/releases/canary/) of [public API {{in-element}}](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md) and [yieldable named blocks](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md).
+
+What is `{{in-element}}`? Sometimes developers need to render content outside of the regular HTML flow. This concept is also called "portals". Components like dropdowns and modals use this technique to render stuff close to the root of the page, so as to bypass CSS overflow rules. (Some apps that are embedded into static pages even use this technique to update parts of the page outside the app itself.)
+
+Since it was a common use case, Glimmer baked `{{-in-element}}` into the VM, but as part of the private (or intimate) API. With the passing of the [RFC](https://github.com/emberjs/rfcs/blob/master/text/0287-promote-in-element-to-public-api.md), it's going public, perhaps in Ember 3.20. So if you've been using `{{-in-element}}`, you should switch to the [`{{in-element}}` polyfill](https://github.com/ember-polyfills/ember-in-element-polyfill) instead, like [Krystan HuffMenne (@gitKrystan)](https://github.com/gitKrystan) did for these couple of addons: [ember-cli-head](https://github.com/ronco/ember-cli-head/pull/71) and [ember-maybe-in-element]( https://github.com/DockYard/ember-maybe-in-element/pull/25).
+
+The [yieldable named blocks RFC](https://github.com/emberjs/rfcs/blob/master/text/0460-yieldable-named-blocks.md) makes it possible to pass one block or more to a component for customization. Check out the new [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) to take advantage of this feature now. 
 
 ---
 
