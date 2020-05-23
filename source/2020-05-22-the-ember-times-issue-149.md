@@ -11,8 +11,8 @@ responsive: true
 Ember Engines acceptance testing guides 📝,
 check out the new EmberMap video on Tracked Properties 👣,
 polyfills for in-element and named blocks 🚀,
-setting up Coveralls for your Ember Addons 💪,
-Ember in COVID-19 Research 🔬📖🐹,
+setting up Coveralls for your Ember addons 💪,
+Ember in COVID-19 Rrsearch 🔬📖🐹,
 Global Accessibility Awareness Day Ember blog post 📖🐹,
 "My Experience with Ember.js" video series 🎥,
 and last, but not least, read the prettiest RFC in Emberland 💅!
