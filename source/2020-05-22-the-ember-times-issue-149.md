@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 149
 author: Matthew Roderick, Chris Ng, Amy Lam, Abhilash LR, Jared Galanis, Jessica Jordan
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/22-the-ember-times-issue-149.html"
 responsive: true
 ---
