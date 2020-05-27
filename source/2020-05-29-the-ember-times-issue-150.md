@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 150
-author: the crowd
+author: Matthew Roderick the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/29-the-ember-times-issue-150.html"
 responsive: true
@@ -14,14 +14,28 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## ["My Experience with Ember.js" Part 2 🎬](https://www.youtube.com/watch?v=R2JdP4lb5Xw)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Cal Woolgar (@callam_woolgar)](https://twitter.com/callam_woolgar) has a second short video out with his new series, [Creating an Ember Application!](https://www.youtube.com/watch?v=R2JdP4lb5Xw) He gets into a little more detail in this video and demonstrates how easy it is to install and get started with Ember.js and it's cli.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+```bash
+npm install -g ember-cli
+```
+
+This video touches on an [Ember app's anatomy](https://guides.emberjs.com/release/getting-started/anatomy-of-an-ember-app/) and how to create a basic [Ember.js](https://emberjs.com/) app using the ember cli for a fully working application with **one line of code!** 🎉
+
+```bash
+ember new "app-name"
+```
+
+And with that one line of code, Ember's cli installs all your dependencies for your new app. And you can also create [routes](https://guides.emberjs.com/release/routing/defining-your-routes/) and [templates](https://guides.emberjs.com/release/components/) with the cli. 
+
+```bash
+ember generate template "template-name"
+ember generate route "route-name"
+```
+
+There is a lot more info in his video  on these topics, so check out his series.  These are great videos for someone learning, look forward to the next video from cal! 😃
 
 ---
 
@@ -143,4 +157,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Matthew Roderick the crowd and the Learning Team
