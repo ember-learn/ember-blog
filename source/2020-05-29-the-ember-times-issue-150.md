@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 150
-author: the crowd
+author: Matthew Roderick, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/29-the-ember-times-issue-150.html"
 responsive: true
@@ -14,14 +14,24 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## ["My Experience with Ember.js" Part 2 🎬](https://www.youtube.com/watch?v=R2JdP4lb5Xw)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has a second video out, called [Creating an Ember Application](https://www.youtube.com/watch?v=R2JdP4lb5Xw)! He demonstrates how Ember CLI makes it simple to get started with Ember.js.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This video touches on an [Ember app's anatomy](https://guides.emberjs.com/release/getting-started/anatomy-of-an-ember-app/). With Ember CLI, you can create a fully working application with **one line of code!** 🎉
+
+```bash
+ember new "app-name"
+```
+
+With that command, Ember CLI installs all your dependencies for your new app. You can also create [routes](https://guides.emberjs.com/release/routing/defining-your-routes/) and [templates](https://guides.emberjs.com/release/components/) with the CLI.
+
+```bash
+ember generate template "template-name"
+ember generate route "route-name"
+```
+
+These are great videos for someone learning Ember, look forward to the next video from Cal! 😃
 
 ---
 
@@ -143,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Matthew Roderick, the crowd and the Learning Team
