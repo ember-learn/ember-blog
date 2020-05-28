@@ -22,21 +22,15 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.19
 
-Ember.js 3.19 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.19 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is zero (0) new feature, zero (0) deprecations, and several bugfixes in this version.
 
-#### New Features (2)
+#### New Features (0)
 
-First new feature (1 of 2)
-
-Second new feature (2 of 2)
+There are no new features introduced in Ember.js 3.19.
 
 #### Deprecations (0)
 
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-
-For more details on changes in Ember.js 3.19, please review the [Ember.js 3.19.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.19.0).
+There are no new deprecations introduced in Ember.js 3.19.
 
 ---
 
@@ -48,11 +42,11 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 #### New Features (0)
 
-No new features introduced in Ember Data 3.19.
+There are no new features introduced in Ember Data 3.19.
 
 #### Deprecations (0)
 
-No new deprecations introduced in Ember Data 3.19.
+There are no new deprecations introduced in Ember Data 3.19.
 
 For more details on changes in Ember Data 3.19, please review the
 [Ember Data 3.19.0 release page](https://github.com/emberjs/data/releases/tag/v3.19.0).
@@ -79,9 +73,13 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.19
 
-#### New Features (X)
+#### New Features (0)
 
-#### Deprecations (X)
+There are no new features introduced in Ember CLI 3.19.
+
+#### Deprecations (0)
+
+There are no new deprecations introduced in Ember CLI 3.19.
 
 ---
 
