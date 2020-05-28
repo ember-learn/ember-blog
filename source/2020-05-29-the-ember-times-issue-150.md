@@ -16,26 +16,26 @@ READMORE
 
 ## ["My Experience with Ember.js" Part 2 🎬](https://www.youtube.com/watch?v=R2JdP4lb5Xw)
 
-[Cal Woolgar (@callam_woolgar)](https://twitter.com/callam_woolgar) has a second short video out with his new series, [Creating an Ember Application!](https://www.youtube.com/watch?v=R2JdP4lb5Xw) He gets into a little more detail in this video and demonstrates how easy it is to install and get started with Ember.js and it's cli.
+[Cal Woolgar (@callam_woolgar)](https://twitter.com/callam_woolgar) has a second short video out, called [Creating an Ember Application](https://www.youtube.com/watch?v=R2JdP4lb5Xw)! He demonstrates how the Ember CLI makes it simple to install and get started with Ember.js.
 
 ```bash
 npm install -g ember-cli
 ```
 
-This video touches on an [Ember app's anatomy](https://guides.emberjs.com/release/getting-started/anatomy-of-an-ember-app/) and how to create a basic [Ember.js](https://emberjs.com/) app using the ember cli for a fully working application with **one line of code!** 🎉
+This video touches on an [Ember app's anatomy](https://guides.emberjs.com/release/getting-started/anatomy-of-an-ember-app/) and how to create a basic [Ember.js](https://emberjs.com/) app using the Ember CLI for a fully working application with **one line of code!** 🎉
 
 ```bash
 ember new "app-name"
 ```
 
-And with that one line of code, Ember's cli installs all your dependencies for your new app. And you can also create [routes](https://guides.emberjs.com/release/routing/defining-your-routes/) and [templates](https://guides.emberjs.com/release/components/) with the cli. 
+With that one line of code, Ember's CLI installs all your dependencies for your new app. You can also create [routes](https://guides.emberjs.com/release/routing/defining-your-routes/) and [templates](https://guides.emberjs.com/release/components/) with the CLI.
 
 ```bash
 ember generate template "template-name"
 ember generate route "route-name"
 ```
 
-There is a lot more info in his video  on these topics, so check out his series.  These are great videos for someone learning, look forward to the next video from cal! 😃
+There is a lot more info in his video on these topics, so check out his series.  These are great videos for someone learning, look forward to the next video from Cal! 😃
 
 ---
 
