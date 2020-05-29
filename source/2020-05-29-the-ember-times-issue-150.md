@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 150
-author: Matthew Roderick, Amy Lam, Isaac Lee, the crowd
+author: Matthew Roderick, Amy Lam, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/29-the-ember-times-issue-150.html"
 responsive: true
@@ -12,6 +12,8 @@ responsive: true
 Ember tutorials on MDN 🎉,
 Ember Octane vs Classic cheat sheet is in Octane 🔥,
 "My Experience with Ember.js" Part 2 🎬,
+Test Directory RFC Final Comment Period Closing 🚨⏳,
+New Router Service Refresh RFC ♻️,
 ...
 
 READMORE
@@ -57,25 +59,27 @@ What's in store for the future? The [project](https://github.com/ember-learn/emb
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Test Directory RFC Final Comment Period Closing ⏳](https://github.com/emberjs/rfcs/pull/575)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+RFC final comment period closing alert 🚨!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The ✨awesome ✨ RFC by [Mehul Kar (@mehulkar)](https://github.com/mehulkar) about changing the name of an Ember app's test directories to be more in sync with naming provided in the official guides has entered the last week of final comment period. 
+
+The RFC proposes that this unification could make it easier to have a shared language between tests, and would reduce confusion for newer users when using Ember CLI.
+
+If you're interested in the subject and have opinions you want to voice, now would be a good time to head on over to the [RFC](https://github.com/emberjs/rfcs/pull/575) and provide some feedback. 
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [New Router Service Refresh RFC ♻️](https://github.com/emberjs/rfcs/pull/631)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a cool 😎 new RFC by [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) regarding adding a `refresh` method to the router service.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Note: This RFC is suggesting a `refresh` method that would be different than the currently available `Route.prototype.refresh` method, which refreshes whatever route you call it on and all routes “below” it in the route hierarchy. 
+
+This newly proposed method would refresh all currently active routes.
+
+If you're interested in commenting on the RFC, please head on over to the [PR](https://github.com/emberjs/rfcs/pull/631) and make your voice heard 📣!
 
 ---
 
@@ -142,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Matthew Roderick, Amy Lam, Isaac Lee, Jared Galanis the crowd and the Learning Team
