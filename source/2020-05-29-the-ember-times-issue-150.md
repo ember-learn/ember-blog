@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 150
-author: Matthew Roderick, Amy Lam, Isaac Lee, Jared Galanis the crowd
+author: Matthew Roderick, Amy Lam, Isaac Lee, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/29-the-ember-times-issue-150.html"
 responsive: true
@@ -9,14 +9,25 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Ember tutorials on MDN 🎉,
 Ember Octane vs Classic cheat sheet is in Octane 🔥,
-"My Experience with Ember.js" Part 2 🎬,
-Test Directory RFC Final Comment Period Closing 🚨⏳,
-New Router Service Refresh RFC ♻️,
+Ember tutorials on MDN 🎉,
+test directory RFC FCP closing 🚨⏳,
+new router service refresh RFC ♻️,
+and last, but not least, "My Experience with Ember.js" Part 2 🎬!
+
 ...
 
 READMORE
+
+---
+
+## [Ember Octane vs Classic cheat sheet is in Octane 🔥](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
+
+[Ember Octane vs Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/) is a quick reference to understanding how to convert a classic Ember syntax to an Octane one. The website is nearing its one year anniversary! 🎂 What better way to celebrate than being upgraded from vanilla JS to an Ember Octane app?
+
+Thanks to work by [Jen Weber (@jenweber)](https://github.com/jenweber) and [Isaac Lee (@ijlee2)](https://github.com/ijlee2), the project is now built on a few well-known solutions: [`ember-code-snippet`](https://github.com/ef4/ember-code-snippet), [`ember-prism`](https://github.com/shipshapecode/ember-prism), [`ember-intl`](https://github.com/ember-intl/ember-intl), [`ember-cli-deploy`](https://github.com/ember-cli-deploy/ember-cli-deploy), and GitHub Actions for CI.
+
+What's in store for the future? The [project](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/) can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [Discord](https://discord.com/invite/emberjs)!
 
 ---
 
@@ -25,6 +36,31 @@ READMORE
 [Preston Sego (@NullVoxPopuli)](https://github.com/nullvoxpopuli) shared the [news](https://twitter.com/nullvoxpopuli/status/1262124413794881541) that [Ember tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials) are now on the Mozilla Developer Network (MDN) web docs, along with React and Vue! It's awesome to see Ember included in [MDN](https://developer.mozilla.org/), one of the most respected resources on the web for frontend developers. 
 
 In the [Ember tutorial](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials), you'll build a **TodoMVC app in Ember**. You can verify your code with the [tutorial code repository](https://github.com/NullVoxPopuli/ember-todomvc-tutorial/tree/master/steps/00-finished-todomvc/todomvc) and also check out a [live deployed version](https://nullvoxpopuli.github.io/ember-todomvc-tutorial/). Thank you @NullVoxPopuli for your efforts in getting the word out about Ember! 👏
+
+---
+
+
+## [Test directory RFC FCP closing ⏳](https://github.com/emberjs/rfcs/pull/575)
+
+RFC Final Comment Period (FCP) closing alert 🚨!
+
+The ✨awesome ✨ Request for Comments (RFC) by [Mehul Kar (@mehulkar)](https://github.com/mehulkar) about changing the name of an Ember app's test directories to be more in sync with naming provided in the official guides has entered the last week of FCP. 
+
+The RFC proposes that this unification could make it easier to have a shared language between tests, and would reduce confusion for newer users when using Ember CLI.
+
+If you're interested in the subject and have opinions you want to voice, now would be a good time to head on over to the [RFC](https://github.com/emberjs/rfcs/pull/575) and provide some feedback. 
+
+---
+
+## [New router service refresh RFC ♻️](https://github.com/emberjs/rfcs/pull/631)
+
+There's a cool 😎 new RFC by [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) regarding adding a `refresh` method to the router service.
+
+Note: This RFC is suggesting a `refresh` method that would be different than the currently available `Route.prototype.refresh` method, which refreshes whatever route you call it on and all routes “below” it in the route hierarchy. 
+
+This newly proposed method would refresh all currently active routes.
+
+If you're interested in commenting on the RFC, please head on over to the [PR](https://github.com/emberjs/rfcs/pull/631) and make your voice heard 📣!
 
 ---
 
@@ -46,73 +82,6 @@ ember generate route "route-name"
 ```
 
 These are great videos for someone learning Ember, look forward to the next video from Cal! 😃
-
----
-
-## [Ember Octane vs Classic cheat sheet is in Octane 🔥](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
-
-[Ember Octane vs Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/) is a quick reference to understanding how to convert a classic Ember syntax to an Octane one. The website is nearing its one year anniversary! 🎂 What better way to celebrate than being upgraded from vanilla JS to an Ember Octane app?
-
-Thanks to work by [Jen Weber (@jenweber)](https://github.com/jenweber) and [Isaac Lee (@ijlee2)](https://github.com/ijlee2), the project is now built on a few well-known solutions: [`ember-code-snippet`](https://github.com/ef4/ember-code-snippet), [`ember-prism`](https://github.com/shipshapecode/ember-prism), [`ember-intl`](https://github.com/ember-intl/ember-intl), [`ember-cli-deploy`](https://github.com/ember-cli-deploy/ember-cli-deploy), and GitHub Actions for CI.
-
-What's in store for the future? The [project](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/) can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [Discord](https://discord.com/invite/emberjs)!
-
----
-
-## [Test Directory RFC Final Comment Period Closing ⏳](https://github.com/emberjs/rfcs/pull/575)
-
-RFC final comment period closing alert 🚨!
-
-The ✨awesome ✨ RFC by [Mehul Kar (@mehulkar)](https://github.com/mehulkar) about changing the name of an Ember app's test directories to be more in sync with naming provided in the official guides has entered the last week of final comment period. 
-
-The RFC proposes that this unification could make it easier to have a shared language between tests, and would reduce confusion for newer users when using Ember CLI.
-
-If you're interested in the subject and have opinions you want to voice, now would be a good time to head on over to the [RFC](https://github.com/emberjs/rfcs/pull/575) and provide some feedback. 
-
----
-
-## [New Router Service Refresh RFC ♻️](https://github.com/emberjs/rfcs/pull/631)
-
-There's a cool 😎 new RFC by [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) regarding adding a `refresh` method to the router service.
-
-Note: This RFC is suggesting a `refresh` method that would be different than the currently available `Route.prototype.refresh` method, which refreshes whatever route you call it on and all routes “below” it in the route hierarchy. 
-
-This newly proposed method would refresh all currently active routes.
-
-If you're interested in commenting on the RFC, please head on over to the [PR](https://github.com/emberjs/rfcs/pull/631) and make your voice heard 📣!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -146,4 +115,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Amy Lam, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Matthew Roderick, Amy Lam, Isaac Lee, Jared Galanis and the Learning Team
