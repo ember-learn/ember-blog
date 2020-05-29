@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 150
-author: Matthew Roderick, Amy Lam, the crowd
+author: Matthew Roderick, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/05/29-the-ember-times-issue-150.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember tutorials on MDN 🎉,
+Ember Octane vs Classic cheat sheet is in Octane 🔥,
 "My Experience with Ember.js" Part 2 🎬,
 ...
 
@@ -46,14 +47,13 @@ These are great videos for someone learning Ember, look forward to the next vide
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember Octane vs Classic cheat sheet is in Octane 🔥](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ember Octane vs Classic Cheat Sheet](https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/) is a quick reference to understanding how to convert a classic Ember syntax to an Octane one. The website is nearing its one year anniversary! 🎂 What better way to celebrate than being upgraded from vanilla JS to an Ember Octane app?
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Thanks to work by [Jen Weber (@jenweber)](https://github.com/jenweber) and [Isaac Lee (@ijlee2)](https://github.com/ijlee2), the project is now built on a few well-known solutions: [`ember-code-snippet`](https://github.com/ef4/ember-code-snippet), [`ember-prism`](https://github.com/shipshapecode/ember-prism), [`ember-intl`](https://github.com/ember-intl/ember-intl), [`ember-cli-deploy`](https://github.com/ember-cli-deploy/ember-cli-deploy), and GitHub Actions for CI.
+
+What's [in store for the future](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/)? The project can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [Discord](https://discord.com/invite/emberjs)!
 
 ---
 
@@ -142,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Amy Lam, the crowd and the Learning Team
+Matthew Roderick, Amy Lam, Isaac Lee, the crowd and the Learning Team
