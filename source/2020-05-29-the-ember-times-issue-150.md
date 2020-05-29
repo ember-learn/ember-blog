@@ -53,7 +53,7 @@ These are great videos for someone learning Ember, look forward to the next vide
 
 Thanks to work by [Jen Weber (@jenweber)](https://github.com/jenweber) and [Isaac Lee (@ijlee2)](https://github.com/ijlee2), the project is now built on a few well-known solutions: [`ember-code-snippet`](https://github.com/ef4/ember-code-snippet), [`ember-prism`](https://github.com/shipshapecode/ember-prism), [`ember-intl`](https://github.com/ember-intl/ember-intl), [`ember-cli-deploy`](https://github.com/ember-cli-deploy/ember-cli-deploy), and GitHub Actions for CI.
 
-What's [in store for the future](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/)? The project can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [Discord](https://discord.com/invite/emberjs)!
+What's in store for the future? The [project](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/) can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [Discord](https://discord.com/invite/emberjs)!
 
 ---
 
