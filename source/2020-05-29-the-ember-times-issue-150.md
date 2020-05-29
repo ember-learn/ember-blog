@@ -75,7 +75,7 @@ If you're interested in the subject and have opinions you want to voice, now wou
 
 There's a cool 😎 new RFC by [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) regarding adding a `refresh` method to the router service.
 
-Note this `refresh` method would be different than the currently available `Route.prototype.refresh` method that refreshes only the refreshes whatever route you call it on and all routes “below” it in the route hierarchy. This newly proposesd method would refresh all routes.
+Note this `refresh` method would be different than the currently available `Route.prototype.refresh` method that refreshes only the refreshes whatever route you call it on and all routes “below” it in the route hierarchy. This newly proposed method would refresh all routes.
 
 If you're interested in commenting on the RFC, please head on over to the [PR](https://github.com/emberjs/rfcs/pull/631) and make your voice heard 📣!
 
