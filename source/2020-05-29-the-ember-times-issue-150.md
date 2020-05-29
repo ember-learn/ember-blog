@@ -19,7 +19,7 @@ READMORE
 
 ## [Ember tutorials on MDN 🎉](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials)
 
-[Preston Sego (@NullVoxPopuli)](https://github.com/nullvoxpopuli) shared the [news](https://twitter.com/nullvoxpopuli/status/1262124413794881541) that [Ember tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials) are now on the Mozilla Developer Network (MDN) web docs, along with React and Vue! It's awesome to see Ember included as [MDN](https://developer.mozilla.org/) is one of the most respected resources on the web for frontend developers. 
+[Preston Sego (@NullVoxPopuli)](https://github.com/nullvoxpopuli) shared the [news](https://twitter.com/nullvoxpopuli/status/1262124413794881541) that [Ember tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials) are now on the Mozilla Developer Network (MDN) web docs, along with React and Vue! It's awesome to see Ember included in [MDN](https://developer.mozilla.org/), one of the most respected resources on the web for frontend developers. 
 
 In the [Ember tutorial](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials), you'll build a **TodoMVC app in Ember**. You can verify your code with the [tutorial code repository](https://github.com/NullVoxPopuli/ember-todomvc-tutorial/tree/master/steps/00-finished-todomvc/todomvc) and also check out a [live deployed version](https://nullvoxpopuli.github.io/ember-todomvc-tutorial/). Thank you @NullVoxPopuli for your efforts in getting the word out about Ember! 👏
 
