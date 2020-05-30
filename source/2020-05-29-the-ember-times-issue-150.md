@@ -8,11 +8,7 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Ember Octane vs Classic cheat sheet is in Octane 🔥,
-Ember tutorials on MDN 🎉,
-test directory RFC FCP closing 🚨⏳,
-new router service refresh RFC ♻️,
-and last, but not least, "My Experience with Ember.js" Part 2 🎬!
+Ember Octane vs Classic cheat sheet is in Octane 🔥, Ember tutorials on MDN 🎉, test directory RFC FCP closing 🚨⏳, new router service refresh RFC ♻️, and last, but not least, "My Experience with Ember.js" Part 2 🎬!
 
 READMORE
 
