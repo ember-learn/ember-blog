@@ -6,16 +6,13 @@ alias : "blog/2020/05/29-the-ember-times-issue-150.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember Octane vs Classic cheat sheet is in Octane 🔥,
 Ember tutorials on MDN 🎉,
 test directory RFC FCP closing 🚨⏳,
 new router service refresh RFC ♻️,
 and last, but not least, "My Experience with Ember.js" Part 2 🎬!
-
-...
 
 READMORE
 
@@ -27,7 +24,7 @@ READMORE
 
 Thanks to work by [Jen Weber (@jenweber)](https://github.com/jenweber) and [Isaac Lee (@ijlee2)](https://github.com/ijlee2), the project is now built on a few well-known solutions: [`ember-code-snippet`](https://github.com/ef4/ember-code-snippet), [`ember-prism`](https://github.com/shipshapecode/ember-prism), [`ember-intl`](https://github.com/ember-intl/ember-intl), [`ember-cli-deploy`](https://github.com/ember-cli-deploy/ember-cli-deploy), and GitHub Actions for CI.
 
-What's in store for the future? The [project](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/) can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [Discord](https://discord.com/invite/emberjs)!
+What's in store for the future? The [project](https://github.com/ember-learn/ember-octane-vs-classic-cheat-sheet/) can use your help with updated content, mobile responsive design, and—perhaps what's most cool—translations to languages besides English. If you'd like to help, please reach out to the Ember Learning Team on [#dev-ember-learning](https://discord.com/channels/480462759797063690/480777444203429888) on [Discord](https://discord.com/invite/emberjs)!
 
 ---
 
@@ -56,9 +53,7 @@ If you're interested in the subject and have opinions you want to voice, now wou
 
 There's a cool 😎 new RFC by [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0) regarding adding a `refresh` method to the router service.
 
-Note: This RFC is suggesting a `refresh` method that would be different than the currently available `Route.prototype.refresh` method, which refreshes whatever route you call it on and all routes “below” it in the route hierarchy. 
-
-This newly proposed method would refresh all currently active routes.
+Note: This RFC is suggesting a `refresh` method that would be different than the currently available `Route.prototype.refresh` method, which refreshes whatever route you call it on and all routes “below” it in the route hierarchy. This newly proposed method would refresh <span style="font-style: italic;">all</span> currently active routes.
 
 If you're interested in commenting on the RFC, please head on over to the [PR](https://github.com/emberjs/rfcs/pull/631) and make your voice heard 📣!
 
@@ -66,7 +61,7 @@ If you're interested in commenting on the RFC, please head on over to the [PR](h
 
 ## ["My Experience with Ember.js" Part 2 🎬](https://www.youtube.com/watch?v=R2JdP4lb5Xw)
 
-[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has a second video out, called [Creating an Ember Application](https://www.youtube.com/watch?v=R2JdP4lb5Xw)! He demonstrates how Ember CLI makes it simple to get started with Ember.js.
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has a second video out, [Creating an Ember Application](https://www.youtube.com/watch?v=R2JdP4lb5Xw)! He demonstrates how Ember CLI makes it simple to get started with Ember.js.
 
 This video touches on an [Ember app's anatomy](https://guides.emberjs.com/release/getting-started/anatomy-of-an-ember-app/). With Ember CLI, you can create a fully working application with **one line of code!** 🎉
 
@@ -81,7 +76,7 @@ ember generate template "template-name"
 ember generate route "route-name"
 ```
 
-These are great videos for someone learning Ember, look forward to the next video from Cal! 😃
+These are great videos for someone learning Ember, look forward to the next tutorial video from Cal! 😃
 
 ---
 
