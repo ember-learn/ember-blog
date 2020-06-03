@@ -80,7 +80,7 @@ READMORE
 
 ---
 
-## [Blog Post: Connecting an Ember App To An OAuth2 Python Flask Server 🔐](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/)
+## [Blog post: Connecting an Ember app to an OAuth2 Python Flask server 🔐](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/)
 
 [Richard Bezemer (@rbezemer)](https://github.com/rbezemer) wrote a [couple](https://blog.softwarebyrichard.com/2020/05/19/using-oauth2-with-flask-rest-jsonapi/) [of blog posts](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/) on adding Oauth2 support to a basic web project using Flask and Ember.
 
