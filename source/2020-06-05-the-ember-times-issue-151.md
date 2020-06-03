@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 151
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/05-the-ember-times-issue-151.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server,
 READMORE
 
 ---
@@ -80,14 +80,27 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog post: Connecting an Ember app to an OAuth2 Python Flask server 🔐](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Richard Bezemer (@rbezemer)](https://github.com/rbezemer) wrote a [couple](https://blog.softwarebyrichard.com/2020/05/19/using-oauth2-with-flask-rest-jsonapi/) of [blog posts](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/) on adding Oauth2 support to a basic web project using Flask and Ember.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The blog post goes through adding a custom authenticator (called `custom-oauth2` in our example), using the `ember g` command to tell [ember-simple-auth](https://ember-simple-auth.com/) how to connect and authenticate with our authentication server.
+
+```sh
+ember g authenticator custom-oauth2
+```
+
+It also discusses custom data such as `serverTokenEndpoint`, `clientId`, and `serverTokenRevocationEndpoint` which our custom authenticator can use to implement its `authenticate()` method.
+
+Now we can use [ember-simple-auth](https://ember-simple-auth.com/) as a session management tool to handle querying for the current state of the user through the `session` Ember Service it provides.
+
+```js
+this.session.authenticate(
+  'authenticator:custom-oauth2', 'password', this.username, this.password
+);
+```
+
+Read more on the full the blog posts on [using Oauth2 with Flask-REST-JSONAPI](https://blog.softwarebyrichard.com/2020/05/19/using-oauth2-with-flask-rest-jsonapi/) and on [connecting your Ember app to that Flask server](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/)!
 
 ---
 
@@ -143,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
