@@ -8,13 +8,20 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Participate in `ember new --lang` RFC 🌐,
-Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server 🔐,
-Read the blog post on how to integrate Netlify CMS with empress-blog 🚀,
-Change the way you load your data with `ember-await` ⌚,
-Beta release of ember-data-model-fragments 🚢,
+Ember.js for #BlackLivesMatter 🤝,
+participate in the `ember new --lang` RFC 🌐,
+change the way you load your data with `ember-await` ⌚,
+beta release of ember-data-model-fragments 🚢,
+connect an Ember App to an OAuth2 Python Flask Server 🔐,
+and last, but not least, integrate Netlify with empress-blog 🚀!
  
 READMORE
+
+---
+
+## [Ember.js for #BlackLivesMatter 🤝](https://twitter.com/emberjs/status/1267574075674812416)
+
+You may have noticed that [emberjs.com](https://emberjs.com/) is currently offline, as a small mark of respect, and expression of solidarity for [#BlackLivesMatter](https://blacklivesmatter.com/). The [Ember.js guides](https://guides.emberjs.com/), [community code of conduct](https://emberjs.com/guidelines), and [legal information](https://emberjs.com/about/legal) remain available.
 
 ---
 
@@ -36,17 +43,6 @@ We extend our thanks to [Ava Wroten (@hergaiety)](https://github.com/hergaiety),
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Change the way you load data with `ember-await` ⌚](https://exelord.gitbook.io/ember-await/)
 
 In case you may have missed [the announcement](https://twitter.com/TheExelord/status/1257674588256903177), [Maciej Kwaśniak (@Exelord)](https://github.com/Exelord) released [`ember-await`](https://exelord.gitbook.io/ember-await/) to provide a **data-loading component** with **declarative promise resolution**. The addon, inspired by `react-async`, uses Octane and `ember-concurrency` to manage promise state. 🔥
@@ -57,7 +53,7 @@ Try out [`ember-await`](https://exelord.gitbook.io/ember-await/) today!
 
 ## [Beta release of ember-data-model-fragments 🚢](https://github.com/lytics/ember-data-model-fragments/releases/tag/5.0.0-beta.0)
 
- New beta alert! 🚨 Version 5.0.0-beta.0 of `ember-data-model-fragments` has recently been released!  
+New beta alert! 🚨 Version 5.0.0-beta.0 of `ember-data-model-fragments` has recently been released!  
  
 This beta provides support for Ember Data 3.13+ and includes a pretty serious rewrite to accommodate `RecordData`. Big shout out to the team behind it, and [Igor Terzic
 (@igorT)](https://github.com/igorT) for all the help! 😃
@@ -66,29 +62,7 @@ If you use model fragments, please try it out in your app and let [Rich Glazerma
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Blog post: Connecting an Ember app to an OAuth2 Python Flask server 🔐](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/)
+## [Connecting an Ember app to an OAuth2 Python Flask server 🔐](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/)
 
 [Richard Bezemer (@rbezemer)](https://github.com/rbezemer) wrote a [couple](https://blog.softwarebyrichard.com/2020/05/19/using-oauth2-with-flask-rest-jsonapi/) of [blog posts](https://blog.softwarebyrichard.com/2020/05/26/connecting-an-ember-app-to-oauth2-python-flask-server/) on adding Oauth2 support to a basic web project using Flask and Ember.
 
@@ -112,7 +86,7 @@ Read more on the full the blog posts on [using Oauth2 with Flask-REST-JSONAPI](h
 
 ---
 
-## [Blog post: How to integrate Netlify-CMS with Empress-blog 🚀](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)
+## [How to integrate Netlify-CMS with Empress-blog 🚀](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)
 
 [Robin Philip Thomas](https://github.com/MalayaliRobz) wrote a blog on integrating empress-blog and Netlify CMS.
 
@@ -128,17 +102,6 @@ What is [empress-blog](https://github.com/empress/empress-blog)?
 He explains how to integrate them both in a step-by-step approach. He also details on how to write your blog's content in Netlify CMS with the power of publishing workflows.
 
 Check out [the blog post](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)! Happy blogging 😄
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
