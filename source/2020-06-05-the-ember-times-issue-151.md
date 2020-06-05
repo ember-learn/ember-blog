@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 151
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/05-the-ember-times-issue-151.html"
 responsive: true
@@ -9,7 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server,
+Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server 🔐,
+Change the way you load your data with `ember-await` ⌚,
 READMORE
 
 ---
@@ -36,14 +37,11 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Change the way you load data with `ember-await` ⌚](https://exelord.gitbook.io/ember-await/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In case you may have missed [the announcement](https://twitter.com/TheExelord/status/1257674588256903177), [Maciej Kwaśniak (@Exelord)](https://github.com/Exelord) released [`ember-await`](https://exelord.gitbook.io/ember-await/) to provide a **data-loading component** with **declarative promise resolution**. The addon, inspired by `react-async`, uses Octane and `ember-concurrency` to manage promise state. 🔥
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Try out [`ember-await`](https://exelord.gitbook.io/ember-await/) today!
 
 ---
 
@@ -156,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
