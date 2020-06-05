@@ -8,6 +8,7 @@ responsive: true
 
 👋 Emberistas! 🐹
 
+Participate in `ember new --lang` RFC 🌐,
 Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server 🔐,
 Read the blog post on how to integrate Netlify CMS with empress-blog 🚀,
 Change the way you load your data with `ember-await` ⌚,
@@ -17,14 +18,19 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [`ember new --lang` RFC 🌐](https://github.com/emberjs/rfcs/pull/635)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There is an [RFC](https://github.com/emberjs/rfcs/pull/635) to introduce the `--lang` flag to Ember CLI and help brand new Ember apps meet a [Level A guideline for WCAG](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html). (Level A is the minimum level of conformance.) If the flag is used with a valid language code, the CLI will assign the `lang` attribute to the root `<html>` element in `app/index.html`.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+How will the `lang` attribute help your end users?
+
+> "Both assistive technologies and conventional user agents can render text more accurately when the language of the Web page is identified. Screen readers can load the correct pronunciation rules. Visual browsers can display characters and scripts correctly. Media players can show captions correctly. As a result, users with disabilities will be better able to understand the content."
+>
+> [WCAG Success Criterion 3.1.1: Intent](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html#intent)
+
+Please note that _everyone_ benefits from having a valid page language specified, not just users with disabilities. To learn more about the importance of `lang` attribute and provide feedback, we encourage you to [check out the RFC](https://github.com/emberjs/rfcs/pull/635).
+
+We extend our thanks to [Ava Wroten (@hergaiety)](https://github.com/hergaiety), [Joseph Sumner (@josephdsumner)](https://github.com/josephdsumner), [Jamie White (@jgwhite)](http://github.com/jgwhite), and [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) for their work!
 
 ---
 
