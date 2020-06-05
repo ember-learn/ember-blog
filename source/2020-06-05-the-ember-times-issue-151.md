@@ -107,9 +107,16 @@ Read more on the full the blog posts on [using Oauth2 with Flask-REST-JSONAPI](h
 
 ## [Blog post: How to integrate Netlify-CMS with Empress-blog 🚀](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)
 
-[Robin Philip Thomas](https://github.com/MalayaliRobz) wrote a blog on integrating empress-blog and Nelify CMS.
+[Robin Philip Thomas](https://github.com/MalayaliRobz) wrote a blog on integrating empress-blog and Netlify CMS.
 
-[empress-blog](https://github.com/empress/empress-blog) is designed to be a fully-functional, static site implementation of a blog system built on Ember with fully working out of the box SEO friendly output based on markdown. [Netlify CMS](https://www.netlifycms.org/) is based on client-side javascript, reusable APIs and prebuilt markup.
+What is [empress-blog](https://github.com/empress/empress-blog)?
+
+- A fully-functional, static site implementation of a blog system
+- Built on Ember
+- Fully working out of the box
+- SEO friendly output based on Markdown
+
+[Netlify CMS](https://www.netlifycms.org/) is based on client-side JavaScript, reusable APIs and prebuilt markup.
 
 He explains how to integrate them both in a step-by-step approach. He also details on how to write your blog's content in Netlify CMS with the power of publishing workflows.
 
