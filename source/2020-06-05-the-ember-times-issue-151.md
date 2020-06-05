@@ -28,8 +28,10 @@ How will the `lang` attribute help your end users?
 >
 > [WCAG Success Criterion 3.1.1: Intent](https://www.w3.org/WAI/WCAG21/Understanding/language-of-page.html#intent)
 
+<!-- alex ignore just -->
 Please note that _everyone_ benefits from having a valid page language specified, not just users with disabilities. To learn more about the importance of `lang` attribute and provide feedback, we encourage you to [check out the RFC](https://github.com/emberjs/rfcs/pull/635).
 
+<!-- alex ignore White -->
 We extend our thanks to [Ava Wroten (@hergaiety)](https://github.com/hergaiety), [Joseph Sumner (@josephdsumner)](https://github.com/josephdsumner), [Jamie White (@jgwhite)](http://github.com/jgwhite), and [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) for their work!
 
 ---
