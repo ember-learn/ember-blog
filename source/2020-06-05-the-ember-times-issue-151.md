@@ -113,7 +113,7 @@ Read more on the full the blog posts on [using Oauth2 with Flask-REST-JSONAPI](h
 
 He explains how to integrate them both in a step-by-step approach. He also details on how to write your blog's content in Netlify CMS with the power of publishing workflows.
 
-Check out [the blog post](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)! Happy blogging :)
+Check out [the blog post](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)! Happy blogging 😄
 
 ---
 
