@@ -49,7 +49,7 @@ Try out [`ember-await`](https://exelord.gitbook.io/ember-await/) today!
 
 ## [Beta release of ember-data-model-fragments 🚢](https://github.com/lytics/ember-data-model-fragments/releases/tag/5.0.0-beta.0)
 
- New beta alert! 🚨 Version 5.0.0-beta.0 of `ember-data-model-fragments` has just been released!  
+ New beta alert! 🚨 Version 5.0.0-beta.0 of `ember-data-model-fragments` has recently been released!  
  
  This beta provides support for Ember Data 3.13 + and includes a pretty serious rewrite to accommodate RecordData. Big shout out to the team behind it, and [Igor Terzic
 (@igorT)](https://github.com/igorT) for all the help! 😃
