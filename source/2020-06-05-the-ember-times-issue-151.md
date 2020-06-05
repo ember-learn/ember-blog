@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 151
-author: Chris Ng, Abhilash LR, Isaac Lee, the crowd
+author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/05-the-ember-times-issue-151.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server 🔐,
 Read the blog post on how to integrate Netlify CMS with empress-blog 🚀,
 Change the way you load your data with `ember-await` ⌚,
+Beta release of ember-data-model-fragments 🚢,
 READMORE
 
 ---
@@ -46,14 +47,14 @@ Try out [`ember-await`](https://exelord.gitbook.io/ember-await/) today!
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Beta release of ember-data-model-fragments 🚢](https://github.com/lytics/ember-data-model-fragments/releases/tag/5.0.0-beta.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+ New beta alert! 🚨 Version 5.0.0-beta.0 of `ember-data-model-fragments` has recently been released!  
+ 
+This beta provides support for Ember Data 3.13+ and includes a pretty serious rewrite to accommodate `RecordData`. Big shout out to the team behind it, and [Igor Terzic
+(@igorT)](https://github.com/igorT) for all the help! 😃
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you use model fragments, please try it out in your app and let [Rich Glazerman (@richgt)](https://github.com/richgt) know if things are working. 
 
 ---
 
@@ -163,4 +164,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash LR, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis the crowd and the Learning Team
