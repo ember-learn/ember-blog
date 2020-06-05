@@ -1,18 +1,18 @@
 ---
 title: The Ember Times - Issue No. 151
-author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/05-the-ember-times-issue-151.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server 🔐,
 Read the blog post on how to integrate Netlify CMS with empress-blog 🚀,
 Change the way you load your data with `ember-await` ⌚,
 Beta release of ember-data-model-fragments 🚢,
+ 
 READMORE
 
 ---
@@ -136,7 +136,7 @@ Check out [the blog post](https://www.mylittletechlife.com/integrate-netlify-cms
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/flexoid" target="gh-user">@flexoid</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/spruce" target="gh-user">@spruce</a>, <a href="https://github.com/lukemelia" target="gh-user">@lukemelia</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/chriskrycho" target="gh-user">@chriskrycho</a>, <a href="https://github.com/bekzod" target="gh-user">@bekzod</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/scalvert" target="gh-user">@scalvert</a>, <a href="https://github.com/Mikek2252" target="gh-user">@Mikek2252</a>, <a href="https://github.com/lyubarskiy" target="gh-user">@lyubarskiy</a>, and <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -164,4 +164,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, Amy Lam and the Learning Team
