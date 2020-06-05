@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 151
-author: Chris Ng, the crowd
+author: Chris Ng, Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/05-the-ember-times-issue-151.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on connecting an Ember App to an OAuth2 Python Flask Server,
+Read the blog post on how to integrate Netlify CMS with empress-blog 🚀
 READMORE
 
 ---
@@ -104,14 +105,22 @@ Read more on the full the blog posts on [using Oauth2 with Flask-REST-JSONAPI](h
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog post: How to integrate Netlify-CMS with Empress-blog 🚀](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Robin Philip Thomas](https://github.com/MalayaliRobz) wrote a blog on integrating empress-blog and Netlify CMS.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+What is [empress-blog](https://github.com/empress/empress-blog)?
+
+- A fully-functional, static site implementation of a blog system
+- Built on Ember
+- Fully working out of the box
+- SEO friendly output based on Markdown
+
+[Netlify CMS](https://www.netlifycms.org/) is based on client-side JavaScript, reusable APIs and prebuilt markup.
+
+He explains how to integrate them both in a step-by-step approach. He also details on how to write your blog's content in Netlify CMS with the power of publishing workflows.
+
+Check out [the blog post](https://www.mylittletechlife.com/integrate-netlify-cms-with-empress-blog)! Happy blogging 😄
 
 ---
 
@@ -156,4 +165,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Abhilash LR, the crowd and the Learning Team
