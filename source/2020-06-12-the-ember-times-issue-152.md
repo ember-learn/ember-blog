@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 152
-author: the crowd
+author: Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-152.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Learn how to make your existing app accessible 💪,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -36,14 +37,13 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Learn how to make your existing Ember app accessible 💪](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Using Ember you might be familiar with a set of tools that you can already use today to [make your app accessible](https://guides.emberjs.com/release/accessibility/). But what do you do if you are working on an already **mature Ember app** that needs a lot of improvements to **become accessible**? Where do you even start?
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In her recent blog post, [Samanta de Barros (@sdebarros)](https://github.com/sdebarros) shares [her findings](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/) on improving the accessibility of an Ember app by employing an automated, gradual and **a11y-focussed testing strategy**, semantic markup and screen reader testing.
+
+If you want to find out how to level up your app's accessibility, read [her blog post on the simplabs blog](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/) and if you learned something form it, be sure to share it with your Ember friends, too!
 
 ---
 
@@ -143,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jessica Jordan, the crowd and the Learning Team
