@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 151
 author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/05-the-ember-times-issue-151.html"
 responsive: true
 ---
