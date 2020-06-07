@@ -43,7 +43,7 @@ Using Ember you might be familiar with a set of tools that you can already use t
 
 In her recent blog post, [Samanta de Barros (@sdebarros)](https://github.com/sdebarros) shares [her findings](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/) on improving the accessibility of an Ember app by employing an automated, gradual and **a11y-focussed testing strategy**, semantic markup and screen reader testing.
 
-If you want to find out how to level up your app's accessibility, read [her blog post on the simplabs blog](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/) and if you learned something form it, be sure to share it with your Ember friends, too!
+If you want to find out how to level up your app's accessibility, read [her blog post on the simplabs blog](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/) and if you learned something from it, be sure to share it with your Ember friends, too!
 
 ---
 
