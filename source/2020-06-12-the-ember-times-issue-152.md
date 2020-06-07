@@ -39,7 +39,7 @@ READMORE
 
 ## [Learn how to make your existing Ember app accessible 💪](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/)
 
-Using Ember you might be familiar with a set of tools that you can already use today to [make your app accessible](https://guides.emberjs.com/release/accessibility/). But what do you do if you are working on an already **mature Ember app** that needs a lot of improvements to **become accessible**? Where do you even start?
+Using Ember, you might be familiar with a set of tools that you can already use today to [make your app accessible](https://guides.emberjs.com/release/accessibility/). But what do you do if you are working on an already **mature Ember app** that needs a lot of improvements to **become accessible**? Where do you even start?
 
 In her recent blog post, [Samanta de Barros (@sdebarros)](https://github.com/sdebarros) shares [her findings](https://simplabs.com/blog/2020/06/02/how-to-improve-the-accessibility-of-your-app/) on improving the accessibility of an Ember app by employing an automated, gradual and **a11y-focussed testing strategy**, semantic markup and screen reader testing.
 
