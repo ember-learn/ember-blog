@@ -32,6 +32,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.5
+
 Ember.js 3.5 is an incremental, backwards compatible release of Ember with bugfixes. 
 It is common for minor releases to provide bugfixes that pave the way for
 release of new features in future releases.
