@@ -8,13 +8,13 @@ responsive: true
 Today the Ember project is releasing version 3.5 of Ember.js, Ember Data, and Ember CLI.
 Notable features include Ember CLI build performance improvements of up to 32% and new Ember Data powers for addon developers.
 
-Additionally, versions 3.4 of Ember and Ember Data are now promoted to LTS, which stands for Long
+Additionally, versions 3.4 of Ember, Ember CLI, and Ember Data are now promoted to LTS, which stands for Long
 Term Support. An LTS version of Ember continues to receive security updates
 for 9 release cycles (54 weeks)
 and bugfixes for 6 cycles (36 weeks).
 LTS releases typically occur every four minor versions. 
 The previous LTS version for Ember was 2.18. 3.4 is the first LTS for
-Ember Data.
+Ember CLI and Ember Data.
 
 This release kicks off the 3.6 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -32,6 +32,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.5
+
 Ember.js 3.5 is an incremental, backwards compatible release of Ember with bugfixes. 
 It is common for minor releases to provide bugfixes that pave the way for
 release of new features in future releases.
@@ -115,6 +116,12 @@ npm install -g ember-cli-update
 This utility will help you to update your app or add-on to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own.
 
 ### Changes in Ember CLI 3.5
+
+This release cycle marks a major milestone for `ember-cli`, an LTS release.
+
+#### LTS
+
+The milestone is the release of `3.4 LTS`, our very first `LTS` release! From here out, `ember-cli` will follow the same LTS cycle and process as `Ember`.
 
 #### New Features (3)
 
