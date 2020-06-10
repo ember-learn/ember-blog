@@ -79,7 +79,7 @@ GEM
     ffi (1.9.25-x64-mingw32)
     ffi (1.9.25-x86-mingw32)
     gem_config (0.3.1)
-    geocoder (1.2.12)
+    geocoder (1.6.3)
     gmaps4rails (2.1.2)
     haml (5.0.1)
       temple (>= 0.8.0)
