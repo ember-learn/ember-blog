@@ -22,7 +22,7 @@ READMORE
 
 After two years, a new version of [`ember-collection`](https://github.com/adopted-ember-addons/ember-collection) is here! You can use this addon to **incrementally render a large list of items**. The official `v1.0` will be released soon.
 
-Two most notable [changes](https://github.com/adopted-ember-addons/ember-collection/releases/tag/v1.0.0-rc.0) are:
+Two of the most notable [changes](https://github.com/adopted-ember-addons/ember-collection/releases/tag/v1.0.0-rc.0) are:
 
 - Ember upgrade from 2.18 to 3.12!
 - Improved continuous integration and auto-release process
