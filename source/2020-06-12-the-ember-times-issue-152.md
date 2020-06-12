@@ -11,6 +11,7 @@ responsive: true
 Learn how to make your existing app accessible 💪,
 Introducing ember-concurrency-async 🚀,
 Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
+Use modern keyboard API with `ember-keyboard` v6.0 ⌨️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -30,14 +31,24 @@ Please thank [Alon Bukai (@Alonski)](https://github.com/Alonski), [Gaurav Munjal
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Use modern keyboard API with `ember-keyboard` v6.0 ⌨️](https://twitter.com/lukemelia/status/1270672606220279808)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Are you ready for another exciting addon release? This week, `ember-keyboard` announced `v6.0` and showcased 3 **Octane-friendly** ways to respond to keyboard events:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- `{{on-key}}` helper
+- `{{on-key}}` modifier
+- `@onKey` decorator
+
+As you may know, there was recently an RFC to modernize `ember-keyboard` API. Recognizing `key` versus `code` is one of the difficult problems that this addon can now solve for you. Version 6 does limit support to Ember 3.8+ and modern browsers (IE 11 excluded) so you will want to think about your current requirements.
+
+To learn more about modern keyboard API and your migration path, we encourage you to visit these sites:
+
+- [Official documentation](http://adopted-ember-addons.github.io/ember-keyboard/)
+- [v6.0.0 changelog](https://github.com/adopted-ember-addons/ember-keyboard/blob/v6.0.0/CHANGELOG.md)
+- [API design](https://github.com/adopted-ember-addons/ember-keyboard/blob/master/API-DESIGN.md) 
+- [Migration example from `crates.io`](https://github.com/rust-lang/crates.io/pull/2563)
+
+Last but not least, don't forget to thank [Luke Melia (@lukemelia)](https://github.com/lukemelia), [Sean Clark (@optikalefx)](https://github.com/optikalefx), [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli), [Matt McManus (@mattmcmanus)](https://github.com/mattmcmanus), [Sean Juarez (@seanCodes)](https://github.com/seanCodes), and [Ben Demboski (@bendemboski)](https://github.com/bendemboski) for shaping the new `ember-keyboard` API.
 
 ---
 
