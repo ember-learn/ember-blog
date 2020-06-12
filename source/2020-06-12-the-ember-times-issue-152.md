@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 152
-author: Jessica Jordan, Jared Galanis the crowd
+author: Jessica Jordan, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-152.html"
 responsive: true
@@ -10,20 +10,23 @@ responsive: true
 
 Learn how to make your existing app accessible 💪,
 Introducing ember-concurrency-async 🚀,
+Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Meet long-awaited `ember-collection` v1.0 release candidate 🎉](https://twitter.com/Alonski/status/1264930582758412288)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+After two years, a new version of [`ember-collection`](https://github.com/adopted-ember-addons/ember-collection) is here! You can use this addon to **incrementally render a large list of items**. The official `v1.0` will be released soon.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Two most notable [changes](https://github.com/adopted-ember-addons/ember-collection/releases/tag/v1.0.0-rc.0) are:
+
+- Ember upgrade from 2.18 to 3.12!
+- Improved continuous integration and auto-release process
+
+Please thank [Alon Bukai (@Alonski)](https://github.com/Alonski), [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0), [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90), and [Vasanth (@vasind)](https://github.com/vasind) for their help with maintaining [`ember-collection`](https://github.com/adopted-ember-addons/ember-collection). If you currently use the addon, we ask that you upgrade and check that your app and tests continue to pass.
 
 ---
 
@@ -143,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Jessica Jordan, Jared Galanis, Isaac Lee, the crowd and the Learning Team
