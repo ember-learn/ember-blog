@@ -18,7 +18,7 @@ READMORE
 
 ---
 
-## [Meet long-awaited `ember-collection` v1.0 release candidate 🎉](https://twitter.com/Alonski/status/1264930582758412288)
+## [Meet the long-awaited `ember-collection` v1.0 release candidate 🎉](https://twitter.com/Alonski/status/1264930582758412288)
 
 After two years, a new version of [`ember-collection`](https://github.com/adopted-ember-addons/ember-collection) is here! You can use this addon to **incrementally render a large list of items**. The official `v1.0` will be released soon.
 
