@@ -10,7 +10,7 @@ responsive: true
 
 Learn how to make your existing app accessible 💪,
 Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
-Use modern keyboard API with `ember-keyboard` v6.0 ⌨️,
+Use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
