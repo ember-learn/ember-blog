@@ -52,7 +52,7 @@ If you want to find out how to level up your app's accessibility, read [her blog
 
 Have you wanted to use [`ember-concurrency`](https://github.com/machty/ember-concurrency) with TypeScript, but run into some limitations? In case you were not aware, there's a new addon by [Godfrey Chan (@chancancode)](https://github.com/chancancode) called [`ember-concurrency-async`](https://github.com/chancancode/ember-concurrency-async). This addon introduces the familiar `async/await` syntax to `ember-concurrency` tasks. 😃
 
-The main advantage of the async method syntax over the default `ember-concurrency` generator method syntax is that it works better with the TypeScript compiler and things powered by it, such as the JavaScript language server in Visual Studio Code. Due to the fact that TypeScript already understands the `await` keyword natively, the complier understands that yielding a value "returns" its resolved value - something not possible with generator method syntax.
+The main advantage of the async method syntax over the default `ember-concurrency` generator method syntax is that it works better with the TypeScript compiler and things powered by it, such as the JavaScript language server in Visual Studio Code. Due to the fact that TypeScript already understands the `await` keyword natively, the compiler understands that yielding a value "returns" its resolved value - something not possible with generator method syntax.
 
 Head on over to the [repo](https://github.com/chancancode/ember-concurrency-async) to learn more and take a look at some examples of how `ember-concurrency-async` can help you write `ember-concurrency` tasks in TypeScript. 
 
