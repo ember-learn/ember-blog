@@ -31,7 +31,7 @@ Please thank [Alon Bukai (@Alonski)](https://github.com/Alonski), [Gaurav Munjal
 
 ---
 
-## [Use modern keyboard API with `ember-keyboard` v6.0 ⌨️](https://twitter.com/lukemelia/status/1270672606220279808)
+## [Use a modern keyboard API with `ember-keyboard` v6.0 ⌨️](https://twitter.com/lukemelia/status/1270672606220279808)
 
 Are you ready for another exciting addon release? This week, `ember-keyboard` announced `v6.0` and showcased 3 **Octane-friendly** ways to respond to keyboard events:
 
