@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Learn how to make your existing app accessible 💪,
-Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
+Meet the long-awaited `ember-collection` v1.0 release candidate 🎉,
 Use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
