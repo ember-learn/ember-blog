@@ -12,7 +12,6 @@ Learn how to make your existing app accessible 💪,
 Introducing ember-concurrency-async 🚀,
 Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
 Use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
