@@ -8,7 +8,6 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-
 Meet the long-awaited `ember-collection` v1.0 release candidate 🎉,
 use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
 learn how to make your existing app accessible 💪,
