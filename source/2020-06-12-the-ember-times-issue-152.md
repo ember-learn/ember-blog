@@ -12,6 +12,7 @@ Learn how to make your existing app accessible 💪,
 Introducing ember-concurrency-async 🚀,
 Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
 Use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
+Interactive way to create new Ember apps RFC ✨🐹,
 
 READMORE
 
@@ -71,14 +72,15 @@ Head on over to the [repo](https://github.com/chancancode/ember-concurrency-asyn
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Interactive way to create new Ember apps RFC ✨🐹](https://twitter.com/melaniersumner/status/1271530189948948486)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Hot 🔥 off the press is a brand new [RFC](https://github.com/emberjs/rfcs/pull/638) by [Mel Sumner (@MelSumner)](https://github.com/MelSumner) that proposes an interactive way to create Ember apps!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As part of the effort to make new Ember apps more conformant for digital accessibility requirements at a global scale, this RFC proposes an interactive workflow for new Ember apps. This will also have the benefit of assisting new users who prefer an interactive model of new app creation.
+
+This new wizard for creating Ember apps would prompt users who type `ember new` into their command line with a series of questions that will help in defining certain aspects of their app, including whether the app is an app or addon, the app name, what the spoken/content language is, and what dependency manager and CI system are used. 
+
+If you have ideas about this exciting addition to Ember tooling please head on over to the [RFC](https://github.com/emberjs/rfcs/pull/638) and share your thoughts.
 
 ---
 
