@@ -80,7 +80,7 @@ As part of the effort to make new Ember apps more conformant for digital accessi
 
 This new wizard for creating Ember apps would prompt users who type `ember new` into their command line with a series of questions that will help in defining certain aspects of their app, including whether the app is an app or addon, the app name, what the spoken/content language is, and what dependency manager and CI system are used. 
 
-If you have ideas about this exciting to Ember tooling please head on over to the [RFC](https://github.com/emberjs/rfcs/pull/638) and share your thoughts.
+If you have ideas about this exciting addition to Ember tooling please head on over to the [RFC](https://github.com/emberjs/rfcs/pull/638) and share your thoughts.
 
 ---
 
