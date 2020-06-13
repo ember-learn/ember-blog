@@ -8,11 +8,12 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Learn how to make your existing app accessible 💪,
-Introducing ember-concurrency-async 🚀,
-Meet long-awaited `ember-collection` v1.0 release candidate 🎉,
-Use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
-Interactive way to create new Ember apps RFC ✨🐹,
+
+Meet the long-awaited `ember-collection` v1.0 release candidate 🎉,
+use a modern keyboard API with `ember-keyboard` v6.0 ⌨️,
+learn how to make your existing app accessible 💪,
+introducing ember-concurrency-async 🚀,
+and last, but not least, an interactive way to create new Ember apps RFC ✨🐹!
 
 READMORE
 
