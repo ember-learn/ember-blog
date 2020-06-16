@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 153
-author: the crowd
+author: Matthew Roderick, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
@@ -14,14 +14,15 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Stories of becoming a developer 📖](https://dev.to/agathebadia/share-your-dev-story-51dg)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**, this blog post introduces her new website 🎉 that was built with [ember.js](https://emberjs.com/), and it is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This site is where developers can share their background, the story of how they started, interest in development, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
+
+In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51dg) post, she talks about how meaningful her new website is to her, and her passion as a Jr. developer shines. 🌟
+
+The Developers' stories shared are **inspiring** and **insightful**, and developers are telling their stories with all kinds of different backgrounds. Check it out, and it could inspire **you** to do something you never thought possible! 😃
 
 ---
 
@@ -143,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Matthew Roderick, the crowd and the Learning Team
