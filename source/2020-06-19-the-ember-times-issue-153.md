@@ -20,7 +20,7 @@ READMORE
 
 On Becoming a Developer, you can share your background, the story of how you started, interest in coding, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
 
-In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51d) post, Agathe talks about how meaningful her new website is to her. You can see her passion as a developer shine. 🌟
+In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51dg) post, Agathe talks about how meaningful her new website is to her. You can see her passion as a developer shine. 🌟
 
 Each developer's story is **unique** and **insightful** and can inspire _you_ to do something you never thought possible. [Check it out](https://becoming-a-developer.netlify.app/) and be sure to share your own! 😃
 
