@@ -26,7 +26,7 @@ In the [RFC](https://github.com/typed-ember/ember-cli-typescript/pull/1158), it 
 - Bug fixes to type definitions
 - Dropping support for previously-supported versions
 
-Read through the full [RFC on Type Stability for Addons[(https://github.com/typed-ember/ember-cli-typescript/pull/1158) and leave some feedback!
+Read through the full [RFC on Type Stability for Addons](https://github.com/typed-ember/ember-cli-typescript/pull/1158) and leave some feedback!
 
 ---
 
