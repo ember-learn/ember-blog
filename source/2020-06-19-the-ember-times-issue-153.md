@@ -7,7 +7,7 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Stories of becoming a developer 📖
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -16,13 +16,13 @@ READMORE
 
 ## [Stories of becoming a developer 📖](https://dev.to/agathebadia/share-your-dev-story-51dg)
 
-[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**, this blog post introduces her new website 🎉 that was built with [ember.js](https://emberjs.com/), and it is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
+[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
 
-This site is where developers can share their background, the story of how they started, interest in development, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
+On Becoming a Developer, you can share your background, the story of how you started, interest in coding, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
 
-In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51dg) post, she talks about how meaningful her new website is to her, and her passion as a Jr. developer shines. 🌟
+In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51d) post, Agathe talks about how meaningful her new website is to her. You can see her passion as a developer shine. 🌟
 
-The Developers' stories shared are **inspiring** and **insightful**, and developers are telling their stories with all kinds of different backgrounds. Check it out, and it could inspire **you** to do something you never thought possible! 😃
+Each developer's story is **unique** and **insightful** and can inspire _you_ to do something you never thought possible. [Check it out](https://becoming-a-developer.netlify.app/) and be sure to share your own! 😃
 
 ---
 
