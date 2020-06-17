@@ -16,7 +16,7 @@ READMORE
 
 ## [Stories of becoming a developer 📖](https://dev.to/agathebadia/share-your-dev-story-51dg)
 
-[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
+[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [Ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
 
 On Becoming a Developer, you can share your background, the story of how you started, interest in coding, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
 
