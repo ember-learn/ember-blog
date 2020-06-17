@@ -19,7 +19,14 @@ READMORE
 
 [Aseem Taneja (@atej)](https://github.com/atej) has created a bash script that automates the setup of some often-used tools in an ember project. To further enhance your DX, it also recommends [VS Code](https://code.visualstudio.com/) extensions and generates settings to integrate with them.
 
-Based on your selections, you get – linting and formatting with [ESLint](https://eslint.org) + [Prettier](https://prettier.io), utility-first CSS with [Tailwind CSS](https://tailwindcss.com) + [PostCSS](https://postcss.org), git hooks with [Husky](https://github.com/typicode/husky), pre-commit linting of staged files with [lint-staged](https://github.com/okonet/lint-staged), adherance to [conventional commit messages](https://conventionalcommits.org) with [commitlint](https://github.com/conventional-changelog/commitlint), and a launch configuration for in-editor debugging with VS Code's [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome).
+Based on your selections, you get:
+
+- Linting and formatting with [ESLint](https://eslint.org) + [Prettier](https://prettier.io),
+- Utility-first CSS with [Tailwind CSS](https://tailwindcss.com) + [PostCSS](https://postcss.org)
+- git hooks with [Husky](https://github.com/typicode/husky)
+- Pre-commit linting of staged files with [lint-staged](https://github.com/okonet/lint-staged)
+- Adherance to [conventional commit messages](https://conventionalcommits.org) with [commitlint](https://github.com/conventional-changelog/commitlint)
+- A launch configuration for in-editor debugging with VS Code's [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
 The configuration files generated when you first [run the script](https://github.com/atej/ember-new-plus#quickstart-) can be tuned to your preference later. If you are about to make a new Ember project, give [ember-new-plus](https://github.com/atej/ember-new-plus) a try!
 
