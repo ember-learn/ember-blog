@@ -17,7 +17,7 @@ READMORE
 
 ## [Set up fast with `ember-new-plus` ⚡️](https://github.com/atej/ember-new-plus)
 
-[Aseem Taneja (@atej)](https://github.com/atej) has created a bash script that automates the setup of some often-used tools in an ember project. To further enhance your DX, it also recommends [VS Code](https://code.visualstudio.com/) extensions and generates settings to integrate with them.
+[Aseem Taneja (@atej)](https://github.com/atej) has created a bash script that automates the setup of some often-used tools in an Ember project. To further enhance your DX, it also recommends [VS Code](https://code.visualstudio.com/) extensions and generates settings to integrate with them.
 
 Based on your selections, you get:
 
