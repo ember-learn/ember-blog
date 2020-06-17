@@ -1,15 +1,15 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Chris Ng, the crowd
+author: Matthew Roderick, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read through the RFC to add Type Stability to Ember Addons 💠,
+Stories of becoming a developer 📖,
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
@@ -27,6 +27,18 @@ In the [RFC](https://github.com/typed-ember/ember-cli-typescript/pull/1158), it 
 - Dropping support for previously-supported versions
 
 Read through the full [RFC on Type Stability for Addons](https://github.com/typed-ember/ember-cli-typescript/pull/1158) and leave some feedback!
+
+---
+
+## [Stories of becoming a developer 📖](https://dev.to/agathebadia/share-your-dev-story-51dg)
+
+[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [Ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
+
+On Becoming a Developer, you can share your background, the story of how you started, interest in coding, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
+
+In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51dg) post, Agathe talks about how meaningful her new website is to her. You can see her passion as a developer shine. 🌟
+
+Each developer's story is **unique** and **insightful** and can inspire _you_ to do something you never thought possible. [Check it out](https://becoming-a-developer.netlify.app/) and be sure to share your own! 😃
 
 ---
 
@@ -148,4 +160,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Matthew Roderick, Chris Ng, the crowd and the Learning Team
