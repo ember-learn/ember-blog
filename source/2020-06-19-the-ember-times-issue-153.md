@@ -1,13 +1,14 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Aseem Taneja, the crowd
+author: Matthew Roderick, Aseem Taneja, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Set up fast with `ember-new-plus` ⚡️,
+Stories of becoming a developer 📖,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -21,6 +22,18 @@ READMORE
 Based on your selections, you get – linting and formatting with [ESLint](https://eslint.org) + [Prettier](https://prettier.io), utility-first CSS with [Tailwind CSS](https://tailwindcss.com) + [PostCSS](https://postcss.org), git hooks with [Husky](https://github.com/typicode/husky), pre-commit linting of staged files with [lint-staged](https://github.com/okonet/lint-staged), adherance to [conventional commit messages](https://conventionalcommits.org) with [commitlint](https://github.com/conventional-changelog/commitlint), and a launch configuration for in-editor debugging with VS Code's [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome).
 
 The configuration files generated when you first [run the script](https://github.com/atej/ember-new-plus#quickstart-) can be tuned to your preference later.
+
+---
+
+## [Stories of becoming a developer 📖](https://dev.to/agathebadia/share-your-dev-story-51dg)
+
+[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [Ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
+
+On Becoming a Developer, you can share your background, the story of how you started, interest in coding, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
+
+In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51dg) post, Agathe talks about how meaningful her new website is to her. You can see her passion as a developer shine. 🌟
+
+Each developer's story is **unique** and **insightful** and can inspire _you_ to do something you never thought possible. [Check it out](https://becoming-a-developer.netlify.app/) and be sure to share your own! 😃
 
 ---
 
@@ -142,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Aseem Taneja, the crowd and the Learning Team
+Matthew Roderick, Aseem Taneja, the crowd and the Learning Team
