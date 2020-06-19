@@ -86,6 +86,7 @@ A huge shout out to everyone who was involved in the Ember A11y Strike Team with
 - [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter),
 - [Ricardo Mendes (@locks)](https://github.com/locks) and
 - [Mel Sumner (@MelSumner)](https://github.com/MelSumner)
+- [Rob Jackson (@rwjblue )](https://github.com/rwjblue)
 
 💖💖💖💖💖💖
 
