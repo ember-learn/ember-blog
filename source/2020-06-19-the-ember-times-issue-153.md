@@ -9,12 +9,12 @@ responsive: true
 👋 Emberistas! 🐹
 
 Set up fast with `ember-new-plus` ⚡️,
-Read through the RFC to add Type Stability to Ember Addons 💠,
-Stories of becoming a developer 📖,
-New LinkedIn group EmberJS developers 🐹,
-Practice responsive design in Octane with `ember-container-query` ✨,
-Farewell Ember A11y Strike Team, hello Working Group for Digital Accessibility 🚀,
-Handle asset urls with confidence in Ember & Cordova 📱🐹,
+read through the Type Stability for Addons RFC 💠,
+stories of becoming a developer 📖,
+new LinkedIn group for Ember.js developers 🐹,
+practice responsive design in Octane with `ember-container-query` ✨,
+farewell Ember A11y Strike Team, hello Working Group for Digital Accessibility 🚀,
+and last, but not least, handle asset urls with confidence in Ember & Cordova 📱🐹!
 
 READMORE
 
