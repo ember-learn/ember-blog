@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, the crowd
+author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
@@ -12,6 +12,7 @@ Read through the RFC to add Type Stability to Ember Addons 💠,
 Stories of becoming a developer 📖,
 New LinkedIn group EmberJS developers 🐹,
 Practice responsive design in Octane with `ember-container-query` ✨,
+Farewell Ember A11y Strike Team, hello Working Group for Digital Accessibility 🚀,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -62,14 +63,28 @@ Each developer's story is **unique** and **insightful** and can inspire _you_ to
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Farewell Ember A11y Strike Team, hello Working Group for Digital Accessibility 🚀](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-06/june-17.md)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In case you didn't know, the Ember A11y Strike Team will have its final meeting next week 😢 ... but fear not, some of the ✨ amazing ✨ work that the Strike Team did will be continued in the Working Group for Digital Accessibility! 🔥 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The Working Group will be formed with initial members who were involved in the Strike Team. 
+
+You can read up on some of the work they've been planning for the Working Group [here](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-06/june-17.md#discussion-notes), but you can rest assured that the great work the Strike Team did will be advanced even further!
+
+A huge shout out to everyone who was involved in the Ember A11y Strike Team with a special thank you to the following members who worked so hard to make Ember even more accessible:
+
+* [Joseph Sumner (@josephdsumner)](https://github.com/josephdsumner),
+* [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar),
+* [Abhilash (@abhilashlr)](https://github.com/abhilashlr),
+* [Jamie White (@jgwhite)](https://github.com/jgwhite),
+* [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety),
+* [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara),
+* [Benjamin JEGARD (@KamiKillertO)](https://github.com/KamiKillertO),
+* [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter),
+* [Ricardo Mendes (@locks)](https://github.com/locks) and
+* [Mel Sumner (@MelSumner)](https://github.com/MelSumner)
+
+💖💖💖💖💖💖
 
 ---
 
@@ -180,4 +195,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, the crowd and the Learning Team
+Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jared Galanis the crowd and the Learning Team
