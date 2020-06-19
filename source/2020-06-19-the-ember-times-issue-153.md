@@ -26,7 +26,7 @@ READMORE
 
 Based on your selections, you get:
 
-- Linting and formatting with [ESLint](https://eslint.org) + [Prettier](https://prettier.io),
+- Linting and formatting with [ESLint](https://eslint.org) + [Prettier](https://prettier.io)
 - Utility-first CSS with [Tailwind CSS](https://tailwindcss.com) + [PostCSS](https://postcss.org)
 - Git hooks with [Husky](https://github.com/typicode/husky)
 - Pre-commit linting of staged files with [lint-staged](https://github.com/okonet/lint-staged)
