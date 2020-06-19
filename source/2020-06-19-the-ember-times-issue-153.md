@@ -72,8 +72,10 @@ The Working Group will be formed with initial members who were involved in the S
 
 You can read up on some of the work they've been planning for the Working Group [here](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-06/june-17.md#discussion-notes), but you can rest assured that the great work the Strike Team did will be advanced even further!
 
+<!--alex ignore special -->
 A huge shout out to everyone who was involved in the Ember A11y Strike Team with a special thank you to the following members who worked so hard to make Ember even more accessible:
 
+<!--alex ignore white -->
 - [Joseph Sumner (@josephdsumner)](https://github.com/josephdsumner),
 - [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar),
 - [Abhilash (@abhilashlr)](https://github.com/abhilashlr),
