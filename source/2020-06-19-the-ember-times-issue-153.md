@@ -74,16 +74,16 @@ You can read up on some of the work they've been planning for the Working Group 
 
 A huge shout out to everyone who was involved in the Ember A11y Strike Team with a special thank you to the following members who worked so hard to make Ember even more accessible:
 
-* [Joseph Sumner (@josephdsumner)](https://github.com/josephdsumner),
-* [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar),
-* [Abhilash (@abhilashlr)](https://github.com/abhilashlr),
-* [Jamie White (@jgwhite)](https://github.com/jgwhite),
-* [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety),
-* [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara),
-* [Benjamin JEGARD (@KamiKillertO)](https://github.com/KamiKillertO),
-* [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter),
-* [Ricardo Mendes (@locks)](https://github.com/locks) and
-* [Mel Sumner (@MelSumner)](https://github.com/MelSumner)
+- [Joseph Sumner (@josephdsumner)](https://github.com/josephdsumner),
+- [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar),
+- [Abhilash (@abhilashlr)](https://github.com/abhilashlr),
+- [Jamie White (@jgwhite)](https://github.com/jgwhite),
+- [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety),
+- [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara),
+- [Benjamin JEGARD (@KamiKillertO)](https://github.com/KamiKillertO),
+- [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter),
+- [Ricardo Mendes (@locks)](https://github.com/locks) and
+- [Mel Sumner (@MelSumner)](https://github.com/MelSumner)
 
 💖💖💖💖💖💖
 
