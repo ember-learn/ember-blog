@@ -118,7 +118,7 @@ Each developer's story is **unique** and **insightful** and can inspire _you_ to
 
 ## [New LinkedIn group EmberJS developers 🐹](https://www.linkedin.com/posts/shibulijack_ember-community-strongertogether-activity-6673898303190654976-BgRg/)
 
-[Shibu Lijack](https://github.com/shibulijack) created a LinkedIn **group for EmberJS enthusiasts**. It is a group that welcomes anyone who wants to share the latest and greatest of EmberJS that is shared on [EmberJS blogs](https://blog.emberjs.com/) and the [EmberJS Discord](https://discord.com/invite/emberjs) channels.
+[Shibu Lijack (@shibulijack)](https://github.com/shibulijack) created a LinkedIn **group for EmberJS enthusiasts**. It is a group that welcomes anyone who wants to share the latest and greatest of EmberJS that is shared on [EmberJS blogs](https://blog.emberjs.com/) and the [EmberJS Discord](https://discord.com/invite/emberjs) channels.
 
 [Join the group](https://www.linkedin.com/groups/13863318/) today and start sharing your blog posts!
 
