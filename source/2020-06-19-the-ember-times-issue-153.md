@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jared Galanis the crowd
+author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
@@ -13,6 +13,7 @@ Stories of becoming a developer 📖,
 New LinkedIn group EmberJS developers 🐹,
 Practice responsive design in Octane with `ember-container-query` ✨,
 Farewell Ember A11y Strike Team, hello Working Group for Digital Accessibility 🚀,
+Handle asset urls with confidence in Ember & Cordova 📱🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -53,7 +54,7 @@ Read through the full [RFC on Type Stability for Addons](https://github.com/type
 
 ## [Stories of becoming a developer 📖](https://dev.to/agathebadia/share-your-dev-story-51dg)
 
-[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [Ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/). 
+[Agathe Badia (@honeypotio)](https://github.com/Agathebadia) has written a blog post called **Share your Dev story**. This blog post introduces her new website 🎉 that was built with [Ember.js](https://emberjs.com/). It is called [Becoming a Developer](https://becoming-a-developer.netlify.app/).
 
 On Becoming a Developer, you can share your background, the story of how you started, interest in coding, studies, first developer role, and some recommendations for anyone starting or continuing to dive into development. 💻
 
@@ -143,14 +144,15 @@ In addition to responsive design, container queries can also help you learn a fe
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Confident asset handling for Ember & Cordova 📱🐹](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you ever wanted to write native mobile applications using [Corber](http://corber.io/),
+you might have had questions on how url paths for your **assets** should look like. Especially if they are supposed to work both **natively and in the browser**.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+But fear not! You can now learn all about it in [Beto Cantú's (@betocantu93)](https://github.com/betocantu93) recent blog post ["Understanding Ember.js Public Assets Path for Browser and Cordova"](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8). The post not only explains how asset urls are managed in different version of Ember applications,
+but also shows you how to write your own handy helper to make url handling a breeze in your next Corber project.
+
+Read the full post [on Beto Cantú's blog](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8)!
 
 ---
 
@@ -167,7 +169,7 @@ In addition to responsive design, container queries can also help you learn a fe
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/nbibler" target="gh-user">@nbibler</a>, <a href="https://github.com/SergeAstapov" target="gh-user">@SergeAstapov</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/pieter-v" target="gh-user">@pieter-v</a>, <a href="https://github.com/rwwagner90" target="gh-user">@rwwagner90</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/Gaurav0" target="gh-user">@Gaurav0</a>, <a href="https://github.com/jayjayjpg" target="gh-user">@jayjayjpg</a>, <a href="https://github.com/lenoraporter" target="gh-user">@lenoraporter</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/ijlee2" target="gh-user">@ijlee2</a>, <a href="https://github.com/nvdk" target="gh-user">@nvdk</a> and <a href="https://github.com/jdberrocal1" target="gh-user">@jdberrocal1</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -195,4 +197,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jared Galanis the crowd and the Learning Team
+Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
