@@ -68,7 +68,7 @@ Each developer's story is **unique** and **insightful** and can inspire _you_ to
 
 In case you didn't know, the Ember A11y Strike Team, formed to address the [issue that outlined the technical accessibility issues in new Ember apps](https://github.com/emberjs/rfcs/issues/595) will have its final meeting next week 😢 ... but fear not, some of the ✨ amazing ✨ work that the Strike Team did will be continued in the Working Group for Digital Accessibility! 🔥 
 
-The Working Group will be formed with initial members who were involved in the Strike Team. 
+The Working Group will be formed with some of the initial members who were also involved in the Strike Team. 
 
 You can read up on some of the work they've been planning for the Working Group [here](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-06/june-17.md#discussion-notes), but you can rest assured that the great work the Strike Team did will be advanced even further!
 
