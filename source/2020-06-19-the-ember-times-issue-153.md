@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Matthew Roderick, Chris Ng, Aseem Taneja, the crowd
+author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 Set up fast with `ember-new-plus` ⚡️,
 Read through the RFC to add Type Stability to Ember Addons 💠,
 Stories of becoming a developer 📖,
+New LinkedIn group EmberJS developers 🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -115,14 +116,11 @@ Each developer's story is **unique** and **insightful** and can inspire _you_ to
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [New LinkedIn group EmberJS developers 🐹](https://www.linkedin.com/posts/shibulijack_ember-community-strongertogether-activity-6673898303190654976-BgRg/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Shibu Lijack (@shibulijack)](https://github.com/shibulijack) created a LinkedIn **group for EmberJS enthusiasts**. It is a group that welcomes anyone who wants to share the latest and greatest of EmberJS that is shared on [EmberJS blogs](https://blog.emberjs.com/) and the [EmberJS Discord](https://discord.com/invite/emberjs) channels.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Join the group](https://www.linkedin.com/groups/13863318/) today and start sharing your blog posts!
 
 ---
 
@@ -178,4 +176,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Matthew Roderick, Chris Ng, Aseem Taneja, the crowd and the Learning Team
+Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, the crowd and the Learning Team
