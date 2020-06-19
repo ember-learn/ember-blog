@@ -1,12 +1,13 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
+author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
+
 Set up fast with `ember-new-plus` ⚡️,
 Read through the RFC to add Type Stability to Ember Addons 💠,
 Stories of becoming a developer 📖,
@@ -14,7 +15,6 @@ New LinkedIn group EmberJS developers 🐹,
 Practice responsive design in Octane with `ember-container-query` ✨,
 Farewell Ember A11y Strike Team, hello Working Group for Digital Accessibility 🚀,
 Handle asset urls with confidence in Ember & Cordova 📱🐹,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
@@ -28,7 +28,7 @@ Based on your selections, you get:
 
 - Linting and formatting with [ESLint](https://eslint.org) + [Prettier](https://prettier.io),
 - Utility-first CSS with [Tailwind CSS](https://tailwindcss.com) + [PostCSS](https://postcss.org)
-- git hooks with [Husky](https://github.com/typicode/husky)
+- Git hooks with [Husky](https://github.com/typicode/husky)
 - Pre-commit linting of staged files with [lint-staged](https://github.com/okonet/lint-staged)
 - Adherance to [conventional commit messages](https://conventionalcommits.org) with [commitlint](https://github.com/conventional-changelog/commitlint)
 - A launch configuration for in-editor debugging with VS Code's [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
@@ -60,7 +60,7 @@ On Becoming a Developer, you can share your background, the story of how you sta
 
 In her [Share your Dev story](https://dev.to/agathebadia/share-your-dev-story-51dg) post, Agathe talks about how meaningful her new website is to her. You can see her passion as a developer shine. 🌟
 
-Each developer's story is **unique** and **insightful** and can inspire _you_ to do something you never thought possible. [Check it out](https://becoming-a-developer.netlify.app/) and be sure to share your own! 😃
+Each developer's story is **unique** and **insightful** and can inspire <span style="font-style: italic;">you</span> to do something you never thought possible. [Check it out](https://becoming-a-developer.netlify.app/) and be sure to share your own! 😃
 
 ---
 
@@ -106,42 +106,9 @@ In addition to responsive design, container queries can also help you learn a fe
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [New LinkedIn group for Ember.js developers 🐹](https://www.linkedin.com/posts/shibulijack_ember-community-strongertogether-activity-6673898303190654976-BgRg/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [New LinkedIn group EmberJS developers 🐹](https://www.linkedin.com/posts/shibulijack_ember-community-strongertogether-activity-6673898303190654976-BgRg/)
-
-[Shibu Lijack (@shibulijack)](https://github.com/shibulijack) created a LinkedIn **group for EmberJS enthusiasts**. It is a group that welcomes anyone who wants to share the latest and greatest of EmberJS that is shared on [EmberJS blogs](https://blog.emberjs.com/) and the [EmberJS Discord](https://discord.com/invite/emberjs) channels.
+[Shibu Lijack (@shibulijack)](https://github.com/shibulijack) created a LinkedIn **group for EmberJS enthusiasts**. It is a group that welcomes anyone who wants to share and discuss the latest and greatest of Ember.js, such as posts that are shared on the [Ember.js blog](https://blog.emberjs.com/) and [Discord](https://discord.com/invite/emberjs) channels.
 
 [Join the group](https://www.linkedin.com/groups/13863318/) today and start sharing your blog posts!
 
@@ -156,17 +123,6 @@ But fear not! You can now learn all about it in [Beto Cantú's (@betocantu93)](h
 but also shows you how to write your own handy helper to make url handling a breeze in your next Corber project.
 
 Read the full post [on Beto Cantú's blog](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8)!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -200,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam and the Learning Team
