@@ -134,10 +134,10 @@ In addition to responsive design, container queries can also help you learn a fe
 If you ever wanted to write native mobile applications using [Corber](http://corber.io/),
 you might have had questions on how url paths for your **assets** should look like. Especially if they are supposed to work both **natively and in the browser**.
 
-But fear not! You can now learn all about it in [Beto Cantu's (@betocantu93)](https://github.com/betocantu93) recent blog post ["Understanding Ember.js Public Assets Path for Browser and Cordova"](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8). The post not only explains how asset urls are managed in different version of Ember applications,
+But fear not! You can now learn all about it in [Beto Cantú's (@betocantu93)](https://github.com/betocantu93) recent blog post ["Understanding Ember.js Public Assets Path for Browser and Cordova"](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8). The post not only explains how asset urls are managed in different version of Ember applications,
 but also shows you how to write your own handy helper to make url handling a breeze in your next Corber project.
 
-Read the full post [on Beto Cantu's blog](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8)!
+Read the full post [on Beto Cantú's blog](https://dev.to/betocantu93/understanding-ember-js-public-assets-path-jj8)!
 
 ---
 
