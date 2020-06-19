@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 153
-author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, the crowd
+author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
@@ -11,6 +11,7 @@ Set up fast with `ember-new-plus` ⚡️,
 Read through the RFC to add Type Stability to Ember Addons 💠,
 Stories of becoming a developer 📖,
 New LinkedIn group EmberJS developers 🐹,
+Practice responsive design in Octane with `ember-container-query` ✨,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -72,14 +73,17 @@ Each developer's story is **unique** and **insightful** and can inspire _you_ to
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Practice responsive design in Octane with `ember-container-query` ✨](https://github.com/ijlee2/ember-container-query)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Container queries allow you to practice **responsive design at the component level**. A component only needs to know how much space it has to figure out how to best present data.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Inspired by Chad Carbert's [`ember-fill-up`](https://github.com/chadian/ember-fill-up), Isaac Lee created [`ember-container-query`](https://github.com/ijlee2/ember-container-query) that works best with Octane apps that target modern browsers. (IE 11 was excluded due to its lack of support for [`Resize Observer API`](https://developer.mozilla.org/docs/Web/API/Resize_Observer_API), a possible future direction.)
+
+In addition to responsive design, container queries can also help you learn a few other techniques. We encourage you to check out Isaac's blog posts for more details:
+
+- [Use modifiers to practice code composition](https://crunchingnumbers.live/2020/06/01/container-queries-reimagined/)
+- [Decide the optimal image to load](https://crunchingnumbers.live/2020/06/03/container-queries-adaptive-images/)
+- [Test apps and addons at multiple resolutions](https://crunchingnumbers.live/2020/06/07/container-queries-cross-resolution-testing/)
 
 ---
 
@@ -176,4 +180,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, the crowd and the Learning Team
+Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, the crowd and the Learning Team
