@@ -84,8 +84,8 @@ A huge shout out to everyone who was involved in the Ember A11y Strike Team with
 - [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara),
 - [Benjamin JEGARD (@KamiKillertO)](https://github.com/KamiKillertO),
 - [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter),
-- [Ricardo Mendes (@locks)](https://github.com/locks) and
-- [Mel Sumner (@MelSumner)](https://github.com/MelSumner)
+- [Ricardo Mendes (@locks)](https://github.com/locks)
+- [Mel Sumner (@MelSumner)](https://github.com/MelSumner) and
 - [Rob Jackson (@rwjblue)](https://github.com/rwjblue)
 
 💖💖💖💖💖💖
