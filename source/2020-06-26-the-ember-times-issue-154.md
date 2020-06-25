@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 154
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/26-the-ember-times-issue-154.html"
 responsive: true
@@ -9,19 +9,38 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Check out the new addon ember-stargate 🌟!
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Get Ready for ember-stargate 🌟](https://twitter.com/simonihmig/status/1274066847873273859)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Simon Ihmig (@simonihmig)](https://github.com/simonihmig) announced a new addon called [ember-stargate](https://github.com/kaliber5/ember-stargate) – a modern and lightweight take on portals in Ember.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+“Portals” are a way to render things in a different place of the DOM tree than they are logically defined in the app. There are a number of existing solutions in the Ember ecosystem for the same problem such as [ember-wormhole](https://github.com/yapplabs/ember-wormhole), [ember-elsewhere](https://github.com/ef4/ember-elsewhere), the native `{{in-element}}` (previously using the [ember-in-element-polyfill](https://github.com/ember-polyfills/ember-in-element-polyfill)).
+
+The `ember-stargate` addon aims to solve this problem without using private APIs, Ember's `component` helper, or having to jump through hoops to implement. All you need to make a portal work is to define the content that should be sent through the portal using `<Portal @target="some-target">`, and the target - identified by its name - where it should be rendered to using `<PortalTarget @name="some-target">`.
+
+For example, suppose you want to update the footer in `application.hbs` from a child route:
+
+Route:
+
+```hbs
+<Portal @target="footer-title">Step 1</Portal>
+```
+
+Application:
+
+```hbs
+{{outlet}}
+
+<footer class="sticky-footer">
+  <PortalTarget @name="footer-title" class="sticky-footer__title" />
+</footer>
+```
+
+Read more and try it out at [kaliber5/ember-stargate](https://github.com/kaliber5/ember-stargate)!
 
 ---
 
@@ -139,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
