@@ -25,6 +25,7 @@ The `ember-stargate` addon aims to solve this problem without using private APIs
 For example, suppose you want to update the footer in `application.hbs` from a child route:
 
 Route:
+
 ```hbs
 <Portal @target="footer-title">Step 1</Portal>
 ```
