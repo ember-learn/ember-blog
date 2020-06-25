@@ -30,6 +30,7 @@ Route:
 ```
 
 Application:
+
 ```hbs
 {{outlet}}
 
