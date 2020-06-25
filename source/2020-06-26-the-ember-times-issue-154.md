@@ -20,7 +20,9 @@ READMORE
 
 “Portals” are a way to render things in a different place of the DOM tree than they are logically defined in the app. There are a number of existing solutions in the Ember ecosystem for the same problem such as [ember-wormhole](https://github.com/yapplabs/ember-wormhole), [ember-elsewhere](https://github.com/ef4/ember-elsewhere), the native `{{in-element}}` (previously using the [ember-in-element-polyfill](https://github.com/ember-polyfills/ember-in-element-polyfill)).
 
-The `ember-stargate` addon aims to solve this problem without using private APIs, Ember's `component` helper, or having to jump through hoops to implement. All you need to make a portal work is to define the content that should be sent through the portal using `<Portal @target="some-target">`, and the target - identified by its name - where it should be rendered to using `<PortalTarget @name="some-target">`. For example, you have 2 templates the first being the route template and the second being the `application.hbs`:
+The `ember-stargate` addon aims to solve this problem without using private APIs, Ember's `component` helper, or having to jump through hoops to implement. All you need to make a portal work is to define the content that should be sent through the portal using `<Portal @target="some-target">`, and the target - identified by its name - where it should be rendered to using `<PortalTarget @name="some-target">`.
+
+For example, suppose you want to update the footer in `application.hbs` from a child route:
 
 Route:
 ```hbs
