@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 154
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/26-the-ember-times-issue-154.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Check out the new addon ember-stargate 🌟!
+Find out how to become a writer for The Ember Times 📝,
 READMORE
 
 ---
@@ -121,14 +122,13 @@ Read more and try it out at [kaliber5/ember-stargate](https://github.com/kaliber
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Readers' Questions: How can I become a writer for The Ember Times in the future? 📝](https://discuss.emberjs.com/t/readers-questions-how-can-i-become-a-writer-for-the-ember-times-in-the-future/18006)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember Times is made up of volunteers. We're always looking for more help! 🙂 This week, we got to answer a question that may have been on your mind (or, hopefully, starting today):
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+> How can I become a writer for The Ember Times in the future?
+
+[Isaac Lee (@ijlee2)](https://github.com/ijlee2), based on his experience, shared [3 steps to becoming a writer](https://discuss.emberjs.com/t/readers-questions-how-can-i-become-a-writer-for-the-ember-times-in-the-future/18006). Find out today how you can start contributing as an Ember Times writer!
 
 ---
 
@@ -158,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
