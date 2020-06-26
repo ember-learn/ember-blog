@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 154
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/26-the-ember-times-issue-154.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Check out the new addon ember-stargate 🌟!
 Find out how to become a writer for The Ember Times 📝,
+Learn to SEOptimize your Ember app 💪 ✨!
 READMORE
 
 ---
@@ -111,14 +112,13 @@ Read more and try it out at [kaliber5/ember-stargate](https://github.com/kaliber
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [The ultimate guide for SEOptimizing your Ember app 💪 ✨](https://abhilashlr.in/ember-performance-tweaks-part-3)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Making sure that your application is **search engine optimized** (SEO) is crucial to improve the quanitity and the quality of its traffic derived from organic search engine results. And this week you can learn all about how to make your own Ember app **SEO-proof**, too!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the [third installment](https://abhilashlr.in/ember-performance-tweaks-part-3) of his [blog series "Ember Performance Tweaks"](https://twitter.com/abhilashlr/status/1252602425598328833), Ember [Chennai](https://www.meetup.com/EmberJS-Chennai/) organizer and blogger [Abhilash L R (@abhilashlr)](https://github.com/abhilashlr) shows us how we can prepare our Ember apps for search engines using meta descriptions, title tags, Prember and much more!
+
+Read the [full post on Abhilash's personal blog](https://abhilashlr.in/ember-performance-tweaks-part-3) today!
 
 ---
 
@@ -134,7 +134,7 @@ The Ember Times is made up of volunteers. We're always looking for more help! �
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/erinsinger93" target="gh-user">@erinsinger93</a>, <a href="https://github.com/runspired" target="gh-user">@runspired</a>, <a href="https://github.com/rajasegar" target="gh-user">@rajasegar</a>, <a href="https://github.com/bmish" target="gh-user">@bmish</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/jaydgruber" target="gh-user">@jaydgruber</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/richgt" target="gh-user">@richgt</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/chrc" target="gh-user">@chrc</a>, <a href="https://github.com/snewcomer" target="gh-user">@snewcomer</a>, <a href="https://github.com/ijlee2" target="gh-user">@ijlee2</a>, <a href="https://github.com/hergaiety" target="gh-user">@hergaiety</a>, <a href="https://github.com/chrisrng" target="gh-user">@chrisrng</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/chancancode" target="gh-user">@chancancode</a>, <a href="https://github.com/ChazJensen" target="gh-user">@ChazJensen</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a> and <a href="https://github.com/roderickdevelopers" target="gh-user">@roderickdevelopers</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -146,7 +146,7 @@ The Ember Times is made up of volunteers. We're always looking for more help! �
   <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are just for you!</p>
 
   <p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>
-  
+
   <p>Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at <a href="https://discordapp.com/channels/480462759797063690/485450546887786506">#support-ember-times</a> on the <a href="https://discordapp.com/invite/zT3asNS">Ember Community Discord</a> or ping us <a href="https://twitter.com/embertimes">@embertimes</a> on Twitter.</p>
 
   <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://the-emberjs-times.ongoodbits.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://emberjs.com/blog/tags/newsletter.html">Ember blog</a>.</p>
@@ -158,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
