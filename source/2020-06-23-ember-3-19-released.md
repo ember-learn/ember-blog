@@ -84,7 +84,7 @@ There are no new deprecations introduced in Ember CLI 3.19.
 ---
 
 For more details on the changes in Ember CLI 3.19 and detailed upgrade
-instructions, please review the [Ember CLI  3.19.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.19.0).
+instructions, please review the [Ember CLI 3.19.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.19.0).
 
 ## Thank You!
 
