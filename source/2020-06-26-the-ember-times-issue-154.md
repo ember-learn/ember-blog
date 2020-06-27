@@ -11,7 +11,7 @@ responsive: true
 Check out the new addon ember-stargate 🌟,
 a new addon to integrate Netlify CMS with empress-blog 🎉
 learn to SEOptimize your Ember app 💪 ✨!,
-and last, but not least, find out how to become a writer for The Ember Times 📝!
+and last, but not least, a Readers' Question on how to become a writer for The Ember Times 📝!
 
 READMORE
 
@@ -54,7 +54,7 @@ Integrating Netlify-CMS with Empress-blog is now super easy thanks to [Robin Phi
 
 You can check out the details of this exciting new addon in the [GitHub repo](https://github.com/MalayaliRobz/empress-blog-netlify-cms). 
 
-Be sure to give [`empress-blog-netlify-cms`](https://github.com/MalayaliRobz/empress-blog-netlify-cms) a spin if you're thinking about using Netlify-CMS and have been curious about [Empress-blog](https://github.com/empress/empress-blog).
+Be sure to give [`empress-blog-netlify-cms`](https://github.com/MalayaliRobz/empress-blog-netlify-cms) a spin if you're thinking about using Netlify-CMS and have been curious about [empress-blog](https://github.com/empress/empress-blog).
 
 ---
 
@@ -75,6 +75,8 @@ The Ember Times is made up of volunteers. We're always looking for more help! �
 > How can I become a writer for The Ember Times in the future?
 
 [Isaac Lee (@ijlee2)](https://github.com/ijlee2), based on his experience, shared [3 steps to becoming a writer](https://discuss.emberjs.com/t/readers-questions-how-can-i-become-a-writer-for-the-ember-times-in-the-future/18006). Find out today how you can start contributing as an Ember Times writer!
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/readers-questions-how-can-i-become-a-writer-for-the-ember-times-in-the-future/18006">Read more</a>
 
 ---
 
