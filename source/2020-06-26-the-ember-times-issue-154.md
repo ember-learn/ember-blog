@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 154
-author: Chris Ng, Isaac Lee, Jessica Jordan, the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/26-the-ember-times-issue-154.html"
 responsive: true
@@ -11,7 +11,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Check out the new addon ember-stargate 🌟!
 Find out how to become a writer for The Ember Times 📝,
-Learn to SEOptimize your Ember app 💪 ✨!
+Learn to SEOptimize your Ember app 💪 ✨!,
+A new addon to integrate Netlify CMS with empress-blog 🎉
 READMORE
 
 ---
@@ -46,14 +47,13 @@ Read more and try it out at [kaliber5/ember-stargate](https://github.com/kaliber
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [A new addon to integrate Netlify CMS with empress-blog 🎉](https://twitter.com/Robie577/status/1275728902854529025)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Integrating Netlify-CMS with Empress-blog is now super easy thanks to [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz)! ✨✨✨Just install the `empress-blog-netlify-cms` addon to your empress-blog project and enable Identity in netlify - your CMS is now ready! 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can check out the details of this exciting new addon in the [Github repo](https://github.com/MalayaliRobz/empress-blog-netlify-cms). 
+
+Be sure to give [`empress-blog-netlify-cms`](https://github.com/MalayaliRobz/empress-blog-netlify-cms) a spin if you're thinking about using Netlify-CMS and have been curious about [Empress-blog](https://github.com/empress/empress-blog).
 
 ---
 
@@ -158,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
