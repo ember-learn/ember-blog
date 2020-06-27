@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 153
 author: Abhilash LR, Matthew Roderick, Chris Ng, Aseem Taneja, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/12-the-ember-times-issue-153.html"
 responsive: true
 ---
