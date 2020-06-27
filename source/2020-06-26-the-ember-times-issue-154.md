@@ -51,7 +51,7 @@ Read more and try it out at [kaliber5/ember-stargate](https://github.com/kaliber
 
 <!--alex ignore easy -->
 <!--alex ignore just -->
-Integrating Netlify-CMS with Empress-blog is now super easy thanks to [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz)! ✨✨✨Just install the `empress-blog-netlify-cms` addon to your empress-blog project and enable Identity in netlify - your CMS is now ready! 🎉
+Integrating Netlify-CMS with Empress-blog is now super easy thanks to [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz)! ✨✨✨ Just install the `empress-blog-netlify-cms` addon to your empress-blog project and enable Identity in netlify - your CMS is now ready! 🎉
 
 You can check out the details of this exciting new addon in the [Github repo](https://github.com/MalayaliRobz/empress-blog-netlify-cms). 
 
