@@ -1,23 +1,23 @@
 ---
 title: The Ember Times - Issue No. 154
-author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd
+author: Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/06/26-the-ember-times-issue-154.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Check out the new addon ember-stargate 🌟!
-Find out how to become a writer for The Ember Times 📝,
-Learn to SEOptimize your Ember app 💪 ✨!,
-A new addon to integrate Netlify CMS with empress-blog 🎉
+Check out the new addon ember-stargate 🌟,
+a new addon to integrate Netlify CMS with empress-blog 🎉
+learn to SEOptimize your Ember app 💪 ✨!,
+and last, but not least, find out how to become a writer for The Ember Times 📝!
+
 READMORE
 
 ---
 
-## [Get Ready for ember-stargate 🌟](https://twitter.com/simonihmig/status/1274066847873273859)
+## [Get ready for ember-stargate 🌟](https://twitter.com/simonihmig/status/1274066847873273859)
 
 [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) announced a new addon called [ember-stargate](https://github.com/kaliber5/ember-stargate) – a modern and lightweight take on portals in Ember.
 
@@ -49,68 +49,12 @@ Read more and try it out at [kaliber5/ember-stargate](https://github.com/kaliber
 
 ## [A new addon to integrate Netlify CMS with empress-blog 🎉](https://twitter.com/Robie577/status/1275728902854529025)
 
-<!--alex ignore easy -->
-<!--alex ignore just -->
+<!--alex ignore easy just-->
 Integrating Netlify-CMS with Empress-blog is now super easy thanks to [Robin Philip Thomas (@MalayaliRobz)](https://github.com/MalayaliRobz)! ✨✨✨ Just install the `empress-blog-netlify-cms` addon to your empress-blog project and enable Identity in netlify - your CMS is now ready! 🎉
 
 You can check out the details of this exciting new addon in the [GitHub repo](https://github.com/MalayaliRobz/empress-blog-netlify-cms). 
 
 Be sure to give [`empress-blog-netlify-cms`](https://github.com/MalayaliRobz/empress-blog-netlify-cms) a spin if you're thinking about using Netlify-CMS and have been curious about [Empress-blog](https://github.com/empress/empress-blog).
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -160,4 +104,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jessica Jordan, Jared Galanis, Amy Lam and the Learning Team
