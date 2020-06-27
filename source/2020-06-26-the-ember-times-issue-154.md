@@ -9,7 +9,7 @@ responsive: true
 👋 Emberistas! 🐹
 
 Check out the new addon ember-stargate 🌟,
-a new addon to integrate Netlify CMS with empress-blog 🎉
+a new addon to integrate Netlify CMS with empress-blog 🎉,
 learn to SEOptimize your Ember app 💪 ✨,
 and last, but not least, a Readers' Question on how to become a writer for The Ember Times 📝!
 
