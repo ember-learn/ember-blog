@@ -47,6 +47,10 @@
   <% else %>
     <div id="disqus_thread"></div>
     <script>
+      var pageUrl = 'https://emberjs.com/blog<%= current_page.url %>'
+      window.disqus_config = function () {
+        this.page.url = pageUrl;
+      };
       var disqus_shortname = 'emberblog';
       (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
