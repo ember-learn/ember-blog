@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 155
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
@@ -9,19 +9,23 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Release of EmberJS 3.19! 🎉,
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Release of EmberJS 3.19! 🎉](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember project is releasing version 3.19 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.20 beta cycle for all sub-projects. There are no new features or deprecations [introduced in Ember 3.19](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As a refresher the [Ember Release Cycle](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) follows the following:
+
+- Every six weeks: A new stable version of Ember.js
+- Every week: A new beta of the next version of Ember.js
+- Every day: A new canary build, which is the last successful build of the day
+- Every successful build: The ember-latest.js build is updated
+
+To help test beta builds and report any bugs before they are published as a final release in six weeks' time use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest releases.
 
 ---
 
@@ -139,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
