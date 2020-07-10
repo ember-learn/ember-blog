@@ -29,14 +29,15 @@ To help test beta builds and report any bugs before they are published as a fina
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Rock & Roll with Ember.js Octane edition is here 🔥🐹](https://twitter.com/baaz/status/1276104785079472130)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/balinterdi) excellent book Rock & Roll with Ember.js available, now with coverage for Ember's Octane Edition! 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people new to Ember to the framework's conventions and teach them how to write idiomatic Ember code. 
+
+Using a pragmatic approach of learning by building, Rock & Roll with Ember.js takes the reader through the process of building an Ember application from the ground up. Readers should expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
+
+You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).  
 
 ---
 
