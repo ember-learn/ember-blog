@@ -49,7 +49,7 @@ You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-ember
 Interested in helping Ember.js 🔥 get the recognition it deserves among other frontend tools? You may want to participate in the State of Frontend Survey.
 
 <!--alex ignore easy of-course-->
-This survey aims to gather information on the reality of frontend developers' work. It gives us a chance to provide input on tooling we use (Ember of course!). 
+This survey aims to assess frontend developers' work. It gives us a chance to provide input on tooling that we use (Ember, of course!). 
 
 It also allows participants the opportunity to comment on tooling they would like to learn and provide thoughts about the future of frontend development trends.
 
