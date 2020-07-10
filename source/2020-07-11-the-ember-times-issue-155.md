@@ -61,7 +61,7 @@ Take a moment and fill out the survey [here](https://tsh.io/state-of-frontend/).
 
 ## [ember-meta 1.0.0 release 🚢](https://twitter.com/shipshapecode/status/1281406393577283587)
 
-`ember-meta 1.0.0` has been released by [Ship Shape @shipshapecode](https://github.com/shipshapecode)! Thanks to [Chris Manson @mansona](https://github.com/mansona) for his continued help with this addon 🎉!
+`ember-meta 1.0.0` has been released by [Ship Shape (@shipshapecode)](https://github.com/shipshapecode)! Thanks to [Chris Manson (@mansona)](https://github.com/mansona) for his continued help with this addon 🎉!
 
 In case you weren't aware `ember-meta` is an addon that helps setup meta for your Prember/Ember blog to support opengraph, microdata, Facebook, Twitter, Slack, etc.
 
