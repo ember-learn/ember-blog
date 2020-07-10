@@ -12,6 +12,7 @@ responsive: true
 Release of EmberJS 3.19! 🎉,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
 State of Frontend Survey 📊,
+ember-meta 1.0.0 release 🚢,
 READMORE
 
 ---
@@ -58,14 +59,15 @@ Take a moment and fill out the survey [here](https://tsh.io/state-of-frontend/).
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-meta 1.0.0 release 🚢](https://twitter.com/shipshapecode/status/1281406393577283587)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+`ember-meta 1.0.0` has been released by [Ship Shape @shipshapecode](https://github.com/shipshapecode)! Thanks to [Chris Manson @mansona](https://github.com/mansona) for his continued help with this addon 🎉!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In case you weren't aware `ember-meta` is an addon that helps setup meta for your Prember/Ember blog to support opengraph, microdata, Facebook, Twitter, Slack, etc.
+
+This release updates dependencies, makes some conversions to native classes, and now allows overloading some config.
+
+Head on over to the [release notes](https://github.com/shipshapecode/ember-meta/releases/tag/v1.0.0) if you want to learn more.
 
 ---
 
