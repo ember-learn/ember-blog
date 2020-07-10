@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 155
-author: Chris Ng, the crowd
+author: Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
@@ -10,6 +10,9 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of EmberJS 3.19! 🎉,
+Rock & Roll with Ember.js Octane edition is here 🔥🐹,
+State of Frontend Survey 📊,
+ember-meta 1.0.0 release 🚢,
 READMORE
 
 ---
@@ -29,36 +32,42 @@ To help test beta builds and report any bugs before they are published as a fina
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Rock & Roll with Ember.js Octane edition is here 🔥🐹](https://twitter.com/baaz/status/1276104785079472130)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/balinterdi) excellent book Rock & Roll with Ember.js available, now with coverage for Ember's Octane Edition! 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people who are new to Ember to the framework's conventions. 
 
----
+Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).  
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [State of Frontend Survey 📊](https://tsh.io/state-of-frontend/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Interested in helping Ember.js 🔥 get the recognition it deserves among other frontend tools? You may want to participate in the [State of Frontend Survey](https://tsh.io/state-of-frontend/).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!--alex ignore easy of-course-->
+This survey aims to assess frontend developers' work. It gives us a chance to provide input on tooling that we use (Ember, of course!). 
+
+It also allows participants the opportunity to comment on tooling they would like to learn and provide thoughts about the future of frontend development trends.
+
+The survey should only take 7 minutes or so of your time. Please help promote the visibility of Ember.js. Your participation can better ensure that the survey provides accurate information about what tools developers use.
+
+Take a moment and fill out the survey [here](https://tsh.io/state-of-frontend/).
+
+---
+
+## [ember-meta 1.0.0 release 🚢](https://twitter.com/shipshapecode/status/1281406393577283587)
+
+`ember-meta 1.0.0` has been released by [Ship Shape (@shipshapecode)](https://github.com/shipshapecode)! Thanks to [Chris Manson (@mansona)](https://github.com/mansona) for his continued help with this addon 🎉!
+
+In case you weren't aware, `ember-meta` is an addon that helps set up `<meta>` tags for your Prember/Ember blog. These tags can support Open Graph, microdata, Twitter, Slack, etc.
+
+This release updates dependencies, uses native class for the underlying service, and allows overloading some configurations.
+
+Head on over to the [release notes](https://github.com/shipshapecode/ember-meta/releases/tag/v1.0.0) if you want to learn more.
 
 ---
 
@@ -143,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jared Galanis the crowd and the Learning Team
