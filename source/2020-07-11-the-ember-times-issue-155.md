@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of EmberJS 3.19! 🎉,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
+State of Frontend Survey 📊,
 READMORE
 
 ---
@@ -42,14 +43,17 @@ You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-ember
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [State of Frontend Survey 📊](https://tsh.io/state-of-frontend/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Interested in helping Ember.js 🔥 get the recognition it deserves among other frontend tools? You may want to participate in the State of Frontend Survey.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This survey aims to gather information on the reality of frontend developers' work. It gives us a chance to provide input on tooling we use (Ember of course!). 
+
+It also allows participants the opportunity to comment on tooling they would like to learn and provide thoughts about the future of frontend development trends.
+
+The survey should only take 7 minutes or so of your time and could help promote the visibility of Ember.js and work to ensure the survey provides accurate information about what tools developers are using. 
+
+Take a moment and fill out the survey [here](https://tsh.io/state-of-frontend/).
 
 ---
 
