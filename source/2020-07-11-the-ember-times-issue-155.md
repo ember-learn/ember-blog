@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 155
-author: Chris Ng, Jared Galanis, Isaac Lee the crowd
+author: Chris Ng, Jared Galanis, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
@@ -12,7 +12,7 @@ responsive: true
 release of Ember.js 3.19! 🎉,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
 Ember 101: new video tutorial series for beginners 💻,
-State of Frontend Survey 📊,
+State of Frontend survey 📊,
 and last, but not least, ember-meta 1.0.0 release 🚢!
 
 READMORE
@@ -82,7 +82,7 @@ Please show support by sharing the tutorial with people who are looking to devel
 
 ---
 
-## [State of Frontend Survey 📊](https://tsh.io/state-of-frontend/)
+## [State of Frontend survey 📊](https://tsh.io/state-of-frontend/)
 
 Interested in helping Ember.js 🔥 get the recognition it deserves among other frontend tools? You may want to participate in the [State of Frontend Survey](https://tsh.io/state-of-frontend/).
 
@@ -109,64 +109,9 @@ Head on over to the [release notes](https://github.com/shipshapecode/ember-meta/
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/ijlee2" target="gh-user">@ijlee2</a>, <a href="https://github.com/hakilebara" target="gh-user">@hakilebara</a>, <a href="https://github.com/locks" target="gh-user">@locks</a>, <a href="https://github.com/snewcomer" target="gh-user">@snewcomer</a>, <a href="https://github.com/caassandra" target="gh-user">@caassandra</a>, <a href="https://github.com/mongoose700" target="gh-user">@mongoose700</a>, <a href="https://github.com/bmish" target="gh-user">@bmish</a>, <a href="https://github.com/cah-briangantzler" target="gh-user">@cah-briangantzler</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/muziejus" target="gh-user">@muziejus</a>, <a href="https://github.com/YoranBrondsema" target="gh-user">@YoranBrondsema</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -190,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis, Isaac Lee the crowd and the Learning Team
+Chris Ng, Jared Galanis, Isaac Lee, Amy Lam and the Learning Team
