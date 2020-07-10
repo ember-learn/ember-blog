@@ -65,7 +65,7 @@ Take a moment and fill out the survey [here](https://tsh.io/state-of-frontend/).
 
 In case you weren't aware, `ember-meta` is an addon that helps set up `<meta>` tags for your Prember/Ember blog. These tags can support Open Graph, microdata, Twitter, Slack, etc.
 
-This release updates dependencies, makes some conversions to native classes, and now allows overloading some config.
+This release updates dependencies, uses native class for the underlying service, and allows overloading some configurations.
 
 Head on over to the [release notes](https://github.com/shipshapecode/ember-meta/releases/tag/v1.0.0) if you want to learn more.
 
