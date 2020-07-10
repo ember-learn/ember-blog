@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of EmberJS 3.19! 🎉,
+The 2020 Ember Roadmap published 🧭,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
 Ember 101: New video tutorial series for beginners 💻,
 State of Frontend Survey 📊,
@@ -36,6 +37,19 @@ As a refresher the [Ember Release Cycle](https://blog.emberjs.com/2013/09/06/new
 - Every successful build: The ember-latest.js build is updated
 
 To help test beta builds and report any bugs before they are published as a final release in six weeks' time use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest releases.
+
+---
+
+## [The 2020 Ember Roadmap 🧭](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)
+
+Hot off the press is [The 2020 Ember Roadmap](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html). We highly encourage you to have a look and [share the news](https://twitter.com/emberjs/status/1281726749747949568) with developers in the wider JavaScript ecosystem!
+
+This year, our 2 headline priorities are:
+
+- **Polish the practical and conceptual details of Octane** (tracked properties, Glimmer components, related tooling, accessibility, performance and payload improvements).
+- **Make Ember easier to try and adopt. Lower barriers for Ember developers when collaborating with the greater JavaScript project.** We will do this through improvements and simplifications to the framework, and through focused communication with the greater JavaScript community.
+
+There's much more exciting news from the Roadmap than we can possibly include in this newsletter. For more information, please visit the [Ember Blog](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)!
 
 ---
 
