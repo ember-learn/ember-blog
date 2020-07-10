@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 155
-author: Chris Ng, the crowd
+author: Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of EmberJS 3.19! 🎉,
+Rock & Roll with Ember.js Octane edition is here 🔥🐹,
 READMORE
 
 ---
@@ -144,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jared Galanis the crowd and the Learning Team
