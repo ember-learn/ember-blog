@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of EmberJS 3.19! 🎉,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
+Ember 101: New video tutorial series for beginners 💻,
 State of Frontend Survey 📊,
 ember-meta 1.0.0 release 🚢,
 READMORE
@@ -47,6 +48,23 @@ If you have not had a chance to give Rock & Roll with Ember.js a read, you shoul
 Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
 You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).
+
+---
+
+## [Ember 101: Ember tutorial series for beginners](https://www.youtube.com/playlist?list=PLo3Uqgz3Y_QIS5cDRZdynGF3B8i1lgsOs)
+
+Please welcome a new [video tutorial series](https://www.youtube.com/playlist?list=PLo3Uqgz3Y_QIS5cDRZdynGF3B8i1lgsOs) by [Aamir Mahmood (@aalasolutions)](https://github.com/aalasolutions)! 🎉
+
+At the time of writing, Aamir has put together 7 videos (each is about ten minutes long) to show you how you can make an Ember-Laravel app. Over the course, you will learn how to use:
+
+1. Ember Inspector
+2. Ember CLI
+3. Routes and helpers
+4. Sass
+5. Ember Data
+6-7. Components and tracked properties
+
+Please show support by sharing the tutorial with people who are looking to develop their first app in Ember!
 
 ---
 
