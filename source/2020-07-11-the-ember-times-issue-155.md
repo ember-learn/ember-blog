@@ -6,20 +6,33 @@ alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Release of EmberJS 3.19! 🎉,
-The 2020 Ember Roadmap published 🧭,
+2020 Ember Roadmap published 🧭,
+release of Ember.js 3.19! 🎉,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
-Ember 101: New video tutorial series for beginners 💻,
+Ember 101: new video tutorial series for beginners 💻,
 State of Frontend Survey 📊,
-ember-meta 1.0.0 release 🚢,
+and last, but not least, ember-meta 1.0.0 release 🚢!
+
 READMORE
 
 ---
 
-## [Release of EmberJS 3.19! 🎉](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html)
+## [The 2020 Ember Roadmap 🧭](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)
+
+Hot off the press is [The 2020 Ember Roadmap](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html). We highly encourage you to have a look and [share the news](https://twitter.com/emberjs/status/1281726749747949568) with developers in the wider JavaScript ecosystem!
+
+This year, our 2 headline priorities are:
+
+- **Polish the practical and conceptual details of Octane** (tracked properties, Glimmer components, related tooling, accessibility, performance and payload improvements).
+- **Make Ember easier to try and adopt. Lower barriers for Ember developers when collaborating with the greater JavaScript project.** We will do this through improvements and simplifications to the framework, and through focused communication with the greater JavaScript community.
+
+There's much more exciting news from the Roadmap than we can possibly include in this newsletter. For more information, please visit the [Ember Blog](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)!
+
+---
+
+## [Release of Ember.js 3.19! 🎉](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html)
 
 The Ember project has released [version 3.19 of Ember.js, Ember Data, and Ember CLI](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html). This release kicks off the 3.20 beta cycle for all sub-projects.
 
@@ -40,19 +53,6 @@ To help test beta builds and report any bugs before they are published as a fina
 
 ---
 
-## [The 2020 Ember Roadmap 🧭](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)
-
-Hot off the press is [The 2020 Ember Roadmap](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html). We highly encourage you to have a look and [share the news](https://twitter.com/emberjs/status/1281726749747949568) with developers in the wider JavaScript ecosystem!
-
-This year, our 2 headline priorities are:
-
-- **Polish the practical and conceptual details of Octane** (tracked properties, Glimmer components, related tooling, accessibility, performance and payload improvements).
-- **Make Ember easier to try and adopt. Lower barriers for Ember developers when collaborating with the greater JavaScript project.** We will do this through improvements and simplifications to the framework, and through focused communication with the greater JavaScript community.
-
-There's much more exciting news from the Roadmap than we can possibly include in this newsletter. For more information, please visit the [Ember Blog](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)!
-
----
-
 ## [Rock & Roll with Ember.js Octane edition is here 🔥🐹](https://twitter.com/baaz/status/1276104785079472130)
 
 There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/balinterdi) excellent book Rock & Roll with Ember.js available, now with coverage for Ember's Octane Edition! 🎉
@@ -61,7 +61,7 @@ If you have not had a chance to give Rock & Roll with Ember.js a read, you shoul
 
 Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
-You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).
+You can find the book for sale [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).
 
 ---
 
