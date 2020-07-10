@@ -36,7 +36,7 @@ To help test beta builds and report any bugs before they are published as a fina
 
 There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/balinterdi) excellent book Rock & Roll with Ember.js available, now with coverage for Ember's Octane Edition! 🎉
 
-If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people new to Ember to the framework's conventions and teach them how to write idiomatic Ember code. 
+If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people who are new to Ember to the framework's conventions. 
 
 Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
