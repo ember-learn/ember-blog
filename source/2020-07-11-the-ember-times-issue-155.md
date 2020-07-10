@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 155
-author: Chris Ng, Jared Galanis the crowd
+author: Chris Ng, Jared Galanis, Isaac Lee the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
@@ -10,7 +10,9 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of EmberJS 3.19! 🎉,
+The 2020 Ember Roadmap published 🧭,
 Rock & Roll with Ember.js Octane edition is here 🔥🐹,
+Ember 101: New video tutorial series for beginners 💻,
 State of Frontend Survey 📊,
 ember-meta 1.0.0 release 🚢,
 READMORE
@@ -19,7 +21,13 @@ READMORE
 
 ## [Release of EmberJS 3.19! 🎉](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html)
 
-The Ember project is releasing version 3.19 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.20 beta cycle for all sub-projects. There are no new features or deprecations [introduced in Ember 3.19](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html).
+The Ember project has released [version 3.19 of Ember.js, Ember Data, and Ember CLI](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html). This release kicks off the 3.20 beta cycle for all sub-projects.
+
+To see a list of updates, we encourage you to visit each project's changelog:
+
+- [Ember.js](https://github.com/emberjs/ember.js/blob/v3.19.0/CHANGELOG.md#v3190-may-26-2020)
+- [Ember Data](https://github.com/emberjs/data/blob/v3.19.0/CHANGELOG.md#release-3190-june-5-2020)
+- [Ember CLI](https://github.com/ember-cli/ember-cli/blob/v3.19.0/CHANGELOG.md#v3190)
 
 As a refresher the [Ember Release Cycle](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) follows the following:
 
@@ -32,15 +40,45 @@ To help test beta builds and report any bugs before they are published as a fina
 
 ---
 
+## [The 2020 Ember Roadmap 🧭](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)
+
+Hot off the press is [The 2020 Ember Roadmap](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html). We highly encourage you to have a look and [share the news](https://twitter.com/emberjs/status/1281726749747949568) with developers in the wider JavaScript ecosystem!
+
+This year, our 2 headline priorities are:
+
+- **Polish the practical and conceptual details of Octane** (tracked properties, Glimmer components, related tooling, accessibility, performance and payload improvements).
+- **Make Ember easier to try and adopt. Lower barriers for Ember developers when collaborating with the greater JavaScript project.** We will do this through improvements and simplifications to the framework, and through focused communication with the greater JavaScript community.
+
+There's much more exciting news from the Roadmap than we can possibly include in this newsletter. For more information, please visit the [Ember Blog](https://blog.emberjs.com/2020/07/10/2020-ember-roadmap.html)!
+
+---
+
 ## [Rock & Roll with Ember.js Octane edition is here 🔥🐹](https://twitter.com/baaz/status/1276104785079472130)
 
 There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/balinterdi) excellent book Rock & Roll with Ember.js available, now with coverage for Ember's Octane Edition! 🎉
 
-If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people who are new to Ember to the framework's conventions. 
+If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people who are new to Ember to the framework's conventions.
 
 Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
-You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).  
+You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).
+
+---
+
+## [Ember 101: Ember tutorial series for beginners](https://www.youtube.com/playlist?list=PLo3Uqgz3Y_QIS5cDRZdynGF3B8i1lgsOs)
+
+Please welcome a new [video tutorial series](https://www.youtube.com/playlist?list=PLo3Uqgz3Y_QIS5cDRZdynGF3B8i1lgsOs) by [Aamir Mahmood (@aalasolutions)](https://github.com/aalasolutions)! 🎉
+
+At the time of writing, Aamir has put together 7 videos (each is about ten minutes long) to show you how you can make an Ember-Laravel app. Over the course, you will learn how to use:
+
+1. Ember Inspector
+2. Ember CLI
+3. Routes and helpers
+4. Sass
+5. Ember Data
+6-7. Components and tracked properties
+
+Please show support by sharing the tutorial with people who are looking to develop their first app in Ember!
 
 ---
 
@@ -152,4 +190,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jared Galanis, Isaac Lee the crowd and the Learning Team
