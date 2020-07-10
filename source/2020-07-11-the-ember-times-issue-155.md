@@ -38,7 +38,7 @@ There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/b
 
 If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people new to Ember to the framework's conventions and teach them how to write idiomatic Ember code. 
 
-Using a pragmatic approach of learning by building, Rock & Roll with Ember.js takes the reader through the process of building an Ember application from the ground up. Readers should expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
+Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
 You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).  
 
