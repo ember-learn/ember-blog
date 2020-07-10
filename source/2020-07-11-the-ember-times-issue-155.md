@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 155
-author: Chris Ng, Jared Galanis the crowd
+author: Chris Ng, Jared Galanis, Isaac Lee the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/11-the-ember-times-issue-155.html"
 responsive: true
@@ -19,7 +19,13 @@ READMORE
 
 ## [Release of EmberJS 3.19! 🎉](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html)
 
-The Ember project is releasing version 3.19 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.20 beta cycle for all sub-projects. There are no new features or deprecations [introduced in Ember 3.19](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html).
+The Ember project has released [version 3.19 of Ember.js, Ember Data, and Ember CLI](https://blog.emberjs.com/2020/06/26/ember-3-19-released.html). This release kicks off the 3.20 beta cycle for all sub-projects.
+
+To see a list of updates, we encourage you to visit each project's changelog:
+
+- [Ember.js](https://github.com/emberjs/ember.js/blob/v3.19.0/CHANGELOG.md#v3190-may-26-2020)
+- [Ember Data](https://github.com/emberjs/data/blob/v3.19.0/CHANGELOG.md#release-3190-june-5-2020)
+- [Ember CLI](https://github.com/ember-cli/ember-cli/blob/v3.19.0/CHANGELOG.md#v3190)
 
 As a refresher the [Ember Release Cycle](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) follows the following:
 
@@ -36,11 +42,11 @@ To help test beta builds and report any bugs before they are published as a fina
 
 There's an updated version of [Balint Erdi's (@balinterdi)](https://github.com/balinterdi) excellent book Rock & Roll with Ember.js available, now with coverage for Ember's Octane Edition! 🎉
 
-If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people who are new to Ember to the framework's conventions. 
+If you have not had a chance to give Rock & Roll with Ember.js a read, you should. This is one of the most well-written books on Ember.js. It's a great way to introduce people who are new to Ember to the framework's conventions.
 
 Using a pragmatic approach of learn-by-building, Rock & Roll with Ember.js takes you through the process of building an Ember application from the ground up. You can expect to finish the book with a solid understanding of the fundamentals involved in building Ember applications.
 
-You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).  
+You can find the book [here](https://www.balinterdi.com/rock-and-roll-with-emberjs/).
 
 ---
 
@@ -152,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jared Galanis, Isaac Lee the crowd and the Learning Team
