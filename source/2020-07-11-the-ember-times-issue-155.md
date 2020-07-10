@@ -53,7 +53,7 @@ This survey aims to assess frontend developers' work. It gives us a chance to pr
 
 It also allows participants the opportunity to comment on tooling they would like to learn and provide thoughts about the future of frontend development trends.
 
-The survey should only take 7 minutes or so of your time and could help promote the visibility of Ember.js and work to ensure the survey provides accurate information about what tools developers are using. 
+The survey should only take 7 minutes or so of your time. Please help promote the visibility of Ember.js. Your participation can better ensure that the survey provides accurate information about what tools developers use.
 
 Take a moment and fill out the survey [here](https://tsh.io/state-of-frontend/).
 
