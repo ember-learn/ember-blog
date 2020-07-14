@@ -153,7 +153,7 @@ To follow the detailed steps please read the [full blog post](https://mehulkar.c
 ## [Achieve consistent decorator positioning with a new eslint plugin ↕️](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
 
 Ever had to **put up with** inconsistent decorator positions in pull requests, because there wasn't a lint rule for that?
-_Now_ there is! 🎉 [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
+<span style="font-style: italic;">Now</span> there is! 🎉 [eslint-plugin-decorator-position](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position)
 provides some configuration with some recommended defaults to help your project achieve that last bit of consistency.
 
 ---

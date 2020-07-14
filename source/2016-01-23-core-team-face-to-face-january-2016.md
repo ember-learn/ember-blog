@@ -5,6 +5,7 @@ tags: Core Team Meeting Minutes, Recent Posts, 2016
 responsive: true
 ---
 
+<!--alex disable easy just of-course obvious-->
 Ember is a truly community-driven framework, with contributors and core
 team members who live all over the world and work for many different
 companies. The vast majority of our collaboration happens online via
@@ -142,7 +143,7 @@ individually, then compose together into one large app.
 
 But what about medium-size apps? These apps may not have enough people
 working on them that they'd want to break it apart using engines, but
-they _are_ starting to accumulate many UI components. Reasoning about
+they <span style="font-style: italic;">are</span> starting to accumulate many UI components. Reasoning about
 which components are used where is getting difficult.
 
 The answer to this problem is something that we've called the pods
@@ -211,7 +212,7 @@ on 1.12 and 1.13, and what we can do to address them.
 
 Of course, some teams are happy to stick with a 1.x version that works
 for them; we won't be able to get everyone to upgrade to 2.x, at least
-right away. Rather, our goal is that anyone on 1.12 or 1.13 who _wants_
+right away. Rather, our goal is that anyone on 1.12 or 1.13 who <span style="font-style: italic;">wants</span>
 to be on 2.x should have a way to get there.
 
 One of the biggest issues we've heard reported is that, while the new
@@ -262,7 +263,7 @@ horizon.
 That said, we've heard from developers at more conservative
 organizations that the pace of new releases can feel overwhelming. Those
 developers are happy with the features they have, but are apprehensive
-about _not_ upgrading because they don't want to be left behind.
+about <span style="font-style: italic;">not</span> upgrading because they don't want to be left behind.
 
 To help those developers, [we announced in the Ember 2.0 release blog
 post][ember-2-0-post] that we would be introducing Long-Term Support
