@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 156
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/17-the-ember-times-issue-156.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Read the blog post on using ember-concurrency with TypeScript 🤝,
 
 READMORE
 
@@ -91,14 +92,30 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Using ember-concurrency with TypeScript 🤝](https://jamescdavis.com/using-ember-concurrency-with-typescript/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[James C. Davis (@jamescdavis)](https://github.com/jamescdavis) wrote a blog post summarizing how to use [TypeScript](https://github.com/microsoft/TypeScript) with [ember-concurrency](https://github.com/machty/ember-concurrency) as well as some best practices.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+ember-concurrency is an addon that manages asynchronous tasks in Ember applications. The addon traditionally exports a `task` function which is used similarly to a computed property.
+
+```js
+import { task } from 'ember-concurrency';
+
+export default Component.extend({
+  myTask: task(function*() {
+    yield foo;
+    return bar;
+  })
+}
+```
+
+The blog post goes through how to use ember-concurrency with Ember Octane and TypeScript. For Octane, we need to use Native Class Syntax. The [ember-concurrency-decorators](https://github.com/machty/ember-concurrency-decorators) package was created to make this work for ember-concurrency.
+
+However, decorators cannot change the type of the thing they decorate. To allow TypeScript, the [ember-concurrency-ts](https://github.com/chancancode/ember-concurrency-ts) package was created to provide a couple of utility functions such as `taskFor`. 
+
+Finally, the [ember-concurrency-async](https://github.com/chancancode/ember-concurrency-async) package provides a Babel transform that allows you to define ember-concurrency tasks using async/await rather than generator function. This simplifies using `taskFor` on assignment while providing complete type-safety for ember-concurrency tasks.
+
+Read the [full blog post](https://jamescdavis.com/using-ember-concurrency-with-typescript/) with all the tips and tricks and try it out yourself today!
 
 ---
 
@@ -139,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
