@@ -108,7 +108,7 @@ export default Component.extend({
 }
 ```
 
-The blog post goes through how using Ember Octane and TypeScript, we need to use Native Class Syntax. The [ember-concurrency-decorators](https://github.com/machty/ember-concurrency-decorators) package was created to make this work for ember-concurrency.
+The blog post goes through how to use ember-concurrency with Ember Octane and TypeScript. For Octane, we need to use Native Class Syntax. The [ember-concurrency-decorators](https://github.com/machty/ember-concurrency-decorators) package was created to make this work for ember-concurrency.
 
 However, decorators cannot change the type of the thing they decorate. So the [ember-concurrency-ts](https://github.com/chancancode/ember-concurrency-ts) package was created which provides a couple of utility functions such as `taskFor` for using TypeScript with ember-concurrency. 
 
