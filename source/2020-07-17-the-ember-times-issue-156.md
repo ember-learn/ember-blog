@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on using ember-concurrency with TypeScript 🤝,
+
 READMORE
 
 ---
