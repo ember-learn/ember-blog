@@ -152,9 +152,9 @@ peterParker.friends.push('Tony Stark');
 console.log(wandaMaximoff.friends); // ['Tony Stark']
 ```
 
-By contrast, when using `class ... extends`, only _methods_ and
-_getters/setters_ are assigned to the prototype. Class fields are assigned to the
-_instance_ of the class:
+By contrast, when using `class ... extends`, only <span style="font-style: italic;">methods</span> and
+<span style="font-style: italic;">getters/setters</span> are assigned to the prototype. Class fields are assigned to the
+<span style="font-style: italic;">instance</span> of the class:
 
 ```js
 class Person extends EmberObject {

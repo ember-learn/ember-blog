@@ -213,7 +213,7 @@ In the meantime, enough of Module Unification was shipping behind feature
 flags (and in Glimmer.js) that we were able to get feedback from early
 adopters. While overall people really liked the new file system and really
 appreciated not dealing with frustrating name collisions, something felt
-_off_.
+<span style="font-style: italic;">off</span>.
 
 One common theme in the feedback was that MU felt too rigid and frequently
 got in the way of simple tasks. To understand why, it's important to
@@ -225,7 +225,7 @@ don't leak into the rest of the app. If we have a component called
 `list-paginator` and it has a child component called `paginator-control`, MU
 allows us to organize them like this:
 
-```
+```text
 src
 ├── ui
 │   ├── components
@@ -241,7 +241,7 @@ In this example, the `list-paginator` template can invoke
 `{{paginator-control}}` to render its child component. However, if you try to
 invoke `{{paginator-control}}` from any template outside the `list-paginator`
 directory, you'll get an error. In other words, `paginator-control` is
-_local_ to `list-paginator`.
+<span style="font-style: italic;">local</span> to `list-paginator`.
 
 MU, then, is about scope, and controlling who has access to what. Where a
 module lives in the MU file system determines what it can see to and who

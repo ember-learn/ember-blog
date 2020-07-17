@@ -5,6 +5,7 @@ tags: Recent Posts, 2016, Roadmap, Announcement
 responsive: true
 ---
 
+<!--alex disable of-course just-->
 Currently, Ember uses [release channels](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
 to help users balance between a desire for new features (canary or beta
 channels) with stability (the release channel). While semver guarantees mean
@@ -135,7 +136,7 @@ or October with the release of Ember 2.8 LTS.
 ### See You Soon
 
 LTS releases are just one of the many things we've been working on; the core
-team has had a _long_ couple of months and we're excited to share everything.
+team has had a <span style="font-style: italic;">long</span> couple of months and we're excited to share everything.
 There will be more announcements and plans shared at [EmberConf](http://emberconf.com/)
 (March 29-30 in Portland), looking forward to seeing so many of you there!
 

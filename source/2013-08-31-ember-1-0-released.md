@@ -5,6 +5,7 @@ tags: Releases, 2013, Version 1.x, Router, Testing, Performance
 responsive: true
 ---
 
+<!--alex disable just easy nuts manhours special gals-men-->
 Today, we're excited to announce the final release of Ember.js 1.0.
 
 The first commit to the repository that would become Ember.js happened on April
@@ -29,7 +30,7 @@ it's clear that this strategy turned out to be the right one.
 
 As we began work on Ember.js, however, we soon realized that there was a
 fundamental problem. Just having templates that were bound to models was
-not enough. We also needed to help developers decide _which_ templates and
+not enough. We also needed to help developers decide <span style="font-style: italic;">which</span> templates and
 models to display at any given time.
 
 While struggling to figure out the best solution, we couldn't help but notice
