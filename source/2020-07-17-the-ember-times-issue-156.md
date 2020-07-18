@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 156
-author: Chris Ng, Jared Galanis the crowd
+author: Chris Ng, Abhilash LR, Jared Galanis, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/17-the-ember-times-issue-156.html"
 responsive: true
@@ -11,6 +11,8 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on using ember-concurrency with TypeScript 🤝,
 Mirage JS with GraphQL 🏝,
+
+Reusable DOM behavior in React vs Ember 🪔,
 
 READMORE
 
@@ -38,14 +40,16 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Reusable DOM behavior in React vs Ember 🪔](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Raja SK](https://github.com/RajaSK05) wrote a blog post comparing React and Ember's approach to creating reusable components that deal with DOM behaviors. He talks about how to approach the same using the following patterns:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- React's class-based and functional component approach
+- Ember's mixin and **modifier** approach.
+
+He also talks about how to use the [ember-modifier](https://github.com/ember-modifier/ember-modifier) addon if you have been using the Ember mixin patterns so far for DOM behaviors and sharing code between components.
+
+Read the [full blog post](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04) today!
 
 ---
 
@@ -163,4 +167,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis the crowd and the Learning Team
+Chris Ng, Abhilash LR, Jared Galanis, the crowd and the Learning Team
