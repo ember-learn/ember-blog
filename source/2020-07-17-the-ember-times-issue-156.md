@@ -1,99 +1,18 @@
 ---
 title: The Ember Times - Issue No. 156
-author: Chris Ng, Abhilash LR, Jared Galanis, the crowd
+author: Chris Ng, Abhilash LR, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/17-the-ember-times-issue-156.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on using ember-concurrency with TypeScript 🤝,
-Mirage JS with GraphQL 🏝,
-
 Reusable DOM behavior in React vs Ember 🪔,
+and last, but not least, Mirage JS with GraphQL 🏝!
 
 READMORE
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Reusable DOM behavior in React vs Ember 🪔](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04)
-
-[Raja SK](https://github.com/RajaSK05) wrote a blog post comparing React and Ember's approach to creating reusable components that deal with DOM behaviors. He talks about how to approach the same using the following patterns:
-
-- React's class-based and functional component approach
-- Ember's mixin and **modifier** approach.
-
-He also talks about how to use the [ember-modifier](https://github.com/ember-modifier/ember-modifier) addon if you have been using the Ember mixin patterns so far for DOM behaviors and sharing code between components.
-
-Read the [full blog post](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04) today!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -124,6 +43,19 @@ Read the [full blog post](https://jamescdavis.com/using-ember-concurrency-with-t
 
 ---
 
+## [Reusable DOM behavior in React vs Ember 🪔](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04)
+
+[Raja SK](https://github.com/RajaSK05) wrote a blog post comparing React and Ember's approach to creating reusable components that deal with DOM behaviors. He talks about how to approach the same using the following patterns:
+
+- React's class-based and functional component approach
+- Ember's mixin and **modifier** approach.
+
+He also talks about how to use the [ember-modifier](https://github.com/ember-modifier/ember-modifier) addon if you have been using the Ember mixin patterns so far for DOM behaviors and sharing code between components.
+
+Read the [full blog post](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04) today!
+
+---
+
 ## [Mirage JS with GraphQL 🏝](https://github.com/miragejs/graphql)
 
  Have you been wanting to use [Mirage JS](https://miragejs.com/) with GraphQL? 
@@ -143,7 +75,7 @@ There's plenty of examples on how to get started using GraphQL with Mirage JS us
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kiwiupover" target="gh-user">@kiwiupover</a>, <a href="https://github.com/rwjblue" target="gh-user">@rwjblue</a>, <a href="https://github.com/pzuraq" target="gh-user">@pzuraq</a>, <a href="https://github.com/rjschie" target="gh-user">@rjschie</a>, <a href="https://github.com/arthirm" target="gh-user">@arthirm</a>, <a href="https://github.com/kategengler" target="gh-user">@kategengler</a>, <a href="https://github.com/richgt" target="gh-user">@richgt</a>, <a href="https://github.com/JoaoDsv" target="gh-user">@JoaoDsv</a>, <a href="https://github.com/snewcomer" target="gh-user">@snewcomer</a>, <a href="https://github.com/igorT" target="gh-user">@igorT</a>, <a href="https://github.com/st-h" target="gh-user">@st-h</a>, <a href="https://github.com/mansona" target="gh-user">@mansona</a>, <a href="https://github.com/pdud" target="gh-user">@pdud</a>, <a href="https://github.com/mehulkar" target="gh-user">@mehulkar</a>, <a href="https://github.com/bmish" target="gh-user">@bmish</a>, <a href="https://github.com/jaredgalanis" target="gh-user">@jaredgalanis</a>, <a href="https://github.com/abhilashlr" target="gh-user">@abhilashlr</a>, <a href="https://github.com/chrisrng" target="gh-user">@chrisrng</a>, <a href="https://github.com/jenweber" target="gh-user">@jenweber</a>, <a href="https://github.com/nickschot" target="gh-user">@nickschot</a>, <a href="https://github.com/sly7-7" target="gh-user">@sly7-7</a>, <a href="https://github.com/superlou" target="gh-user">@superlou</a>, <a href="https://github.com/amyrlam" target="gh-user">@amyrlam</a>, <a href="https://github.com/hergaiety" target="gh-user">@hergaiety</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -167,4 +99,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash LR, Jared Galanis, the crowd and the Learning Team
+Chris Ng, Abhilash LR, Jared Galanis, Amy Lam and the Learning Team
