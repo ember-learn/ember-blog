@@ -5,6 +5,7 @@ tags: Recent Posts, Roadmap, 2013
 responsive: true
 ---
 
+<!--alex disable just host-hostess-->
 Every few months, the Ember core team likes to get together to discuss
 issues face-to-face and set our priorities for the following quarter.
 
@@ -57,7 +58,7 @@ Two notable projects have come out of this work:
 It's important to note that we have been planning for module support for
 some time. In fact, one of the last features that was blocking our
 initial 1.0 release was to have the entire framework go through an object
-called the _resolver_.
+called the <span style="font-style: italic;">resolver</span>.
 
 The resolver is the part of our dependency injection system that is
 responsible for determining naming conventions. For example, imagine a
@@ -169,7 +170,7 @@ tossed around are:
 Here is a rough example of the kind of layout you might see when
 initializing a new Ember app via the CLI:
 
-```
+```text
 app/
   controllers/
   models/
@@ -193,7 +194,7 @@ modules/           // non-MVC stuff
 Right now, many Ember projects have adopted a Rails-style directory
 layout where everything is grouped by type:
 
-```
+```text
 app/
   controllers/
     post.js
@@ -211,7 +212,7 @@ app/
 We discussed moving this to a layout where related features are
 grouped together in "pods" of functionality:
 
-```
+```test
 app/
   config/
     application.js

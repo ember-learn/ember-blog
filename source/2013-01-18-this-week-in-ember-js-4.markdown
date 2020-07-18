@@ -68,7 +68,7 @@ emerged in the community, which we rolled into "Router v1."
 
 However, despite the fact that developers appreciated conventions around
 app structure, their reaction to the first version of the API could
-generously be described as _horrified_. Indeed, the router for large
+generously be described as <span style="font-style: italic;">horrified</span>. Indeed, the router for large
 applications began to look like the twisted amalgams of views in old
 SproutCore applications. We knew we had to head back to the drawing
 board with the lessons we had learned.
