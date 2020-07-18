@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 156
-author: Chris Ng, the crowd
+author: Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/17-the-ember-times-issue-156.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog post on using ember-concurrency with TypeScript 🤝,
+Mirage JS with GraphQL 🏝,
 
 READMORE
 
@@ -119,14 +120,20 @@ Read the [full blog post](https://jamescdavis.com/using-ember-concurrency-with-t
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Mirage JS with GraphQL 🏝](https://github.com/miragejs/graphql)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+ Have you been wanting to use [Mirage JS](https://miragejs.com/) with GraphQL? 
+ 
+ Thanks to [Rocky Neurock (@jneurock)](https://github.com/jneurock), [Mirage GraphQL](https://github.com/miragejs/graphql) provides the ability to create a GraphQL route handler based on your GraphQL and Mirage schemas.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+ Mirage GraphQL does a bunch of things: 
+
+* It fulfills GraphQL requests by fetching data from Mirage's database.
+* It filters records from Mirage's database by using arguments from your GraphQL queries.
+* It handles create, update and delete type mutations automatically based on some conventions.
+* It allows you to supply your own resolvers (for cases where the automatic query and mutation resolution isn't sufficient).
+
+There's plenty of examples on how to get started using GraphQL with Mirage JS using Mirage GraphQL over at the repo, go ahead and [check them out for yourself](https://github.com/miragejs/graphql#example-use-cases). 
 
 ---
 
@@ -156,4 +163,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jared Galanis the crowd and the Learning Team
