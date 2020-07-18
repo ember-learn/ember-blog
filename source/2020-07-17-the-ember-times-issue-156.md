@@ -9,7 +9,7 @@ responsive: true
 👋 Emberistas! 🐹
 
 Read the blog post on using ember-concurrency with TypeScript 🤝,
-Reusable DOM behavior in React vs Ember 🪔,
+reusable DOM behavior in React vs Ember 🪔,
 and last, but not least, Mirage JS with GraphQL 🏝!
 
 READMORE
