@@ -18,7 +18,7 @@ READMORE
 
 Have you been looking to integrate a headless CMS with your Ember.js application?
 
-LexasCMS recently shipped a new **JSON:API compliant content delivery API** which aims to make this easier then ever before.
+LexasCMS recently shipped a new **JSON:API compliant content delivery API** which aims to make this integration easier than ever before.
 
 Read the [release blog post](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/) for more information.
 
