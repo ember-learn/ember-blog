@@ -26,6 +26,7 @@ Read the [release blog post](https://www.lexascms.com/blog/introducing-the-jsona
 
 ## [New Ember Data addon for LexasCMS released ⚡️](https://github.com/LexasCMS/ember-data-lexascms)
 
+<!--alex ignore easy-->
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has published the new **ember-data-lexascms** addon for easily integrating LexasCMS with any Ember.js application.
 
 Simply install the addon, configure your space ID and application adapters/serializers, and begin pulling content directly from LexasCMS using Ember Data.
