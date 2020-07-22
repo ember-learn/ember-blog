@@ -14,7 +14,7 @@ READMORE
 
 ---
 
-## [LexasCMS: Introducing the JSON:API Content Delivery API 🎉](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/)
+## [LexasCMS releases official support for JSON:API and more! 🎉](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/)
 
 Have you been looking to integrate a headless CMS with your Ember.js application?
 
@@ -22,9 +22,7 @@ LexasCMS recently shipped a new **JSON:API compliant content delivery API** whic
 
 Read the [release blog post](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/) for more information.
 
----
-
-## [New Ember Data addon for LexasCMS released ⚡️](https://github.com/LexasCMS/ember-data-lexascms)
+### [New Ember Data addon for LexasCMS released ⚡️](https://github.com/LexasCMS/ember-data-lexascms)
 
 <!--alex ignore easy-->
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has published the new **ember-data-lexascms** addon for easily integrating LexasCMS with any Ember.js application.
@@ -33,9 +31,7 @@ Simply install the addon, configure your space ID and application adapters/seria
 
 You can visit the addon's [GitHub repo](https://github.com/LexasCMS/ember-data-lexascms) for more details.
 
----
-
-## [Ember.js Integration Guide for LexasCMS 📕](https://www.lexascms.com/docs/integrations/ember-js/)
+### [Ember.js Integration Guide for LexasCMS 📕](https://www.lexascms.com/docs/integrations/ember-js/)
 
 A new integration guide for Ember.js has been published in the LexasCMS documentation.
 
@@ -43,13 +39,11 @@ This guide will show you how simple it is to begin **pulling content from LexasC
 
 Check out the [full integration guide](https://www.lexascms.com/docs/integrations/ember-js/) on the LexasCMS website.
 
----
-
-## [Simple blog website using Ember.js and LexasCMS ✨](https://github.com/LexasCMS/example-ember-blog)
+### [Simple blog website using Ember.js and LexasCMS ✨](https://github.com/LexasCMS/example-ember-blog)
 
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has created an example of a simple blog website which has been **developed using Ember.js and LexasCMS**.
 
-You can view the source code in the [GitHub repo](https://github.com/LexasCMS/example-ember-blog), and even deploy your own version of the website using the 'Deploy to Netlify' button in the repo's README.
+You can view the source code in the [GitHub repo](https://github.com/LexasCMS/example-ember-blog), and even use the project to quickly deploy your very own blog using the 'Deploy to Netlify' button in the repo's README.
 
 ---
 
