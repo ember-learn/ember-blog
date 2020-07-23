@@ -14,47 +14,36 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [LexasCMS releases official support for JSON:API and more! 🎉](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Have you been looking to integrate a headless CMS with your Ember.js application?
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+LexasCMS recently shipped a new **JSON:API compliant content delivery API** which aims to make this integration easier than ever before.
 
----
+Read the [release blog post](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/) for more information.
 
-## [Section title in sentence case 🐹](section-url)
+### [New Ember Data addon for LexasCMS released ⚡️](https://github.com/LexasCMS/ember-data-lexascms)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!--alex ignore easy-->
+[Michael Donaldson (@mike183)](https://www.github.com/mike183) has published the new **ember-data-lexascms** addon for easily integrating LexasCMS with any Ember.js application.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Simply install the addon, configure your space ID and application adapters/serializers, and begin pulling content directly from LexasCMS using Ember Data.
 
----
+You can visit the addon's [GitHub repo](https://github.com/LexasCMS/ember-data-lexascms) for more details.
 
-## [Section title in sentence case 🐹](section-url)
+### [Ember.js Integration Guide for LexasCMS 📕](https://www.lexascms.com/docs/integrations/ember-js/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A new integration guide for Ember.js has been published in the LexasCMS documentation.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This guide will show you how simple it is to begin **pulling content from LexasCMS** into your Ember.js application.
 
----
+Check out the [full integration guide](https://www.lexascms.com/docs/integrations/ember-js/) on the LexasCMS website.
 
-## [Section title in sentence case 🐹](section-url)
+### [Simple blog website using Ember.js and LexasCMS ✨](https://github.com/LexasCMS/example-ember-blog)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Michael Donaldson (@mike183)](https://www.github.com/mike183) has created an example of a simple blog website which has been **developed using Ember.js and LexasCMS**.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You can view the source code in the [GitHub repo](https://github.com/LexasCMS/example-ember-blog), and even use the project to quickly deploy your very own blog using the 'Deploy to Netlify' button in the repo's README.
 
 ---
 
