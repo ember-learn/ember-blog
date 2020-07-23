@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 157
-author: Amy Lam, the crowd
+author: Michael Donaldson, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/24-the-ember-times-issue-157.html"
 responsive: true
@@ -9,7 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Tweaking UI behavior with Ember Data queries 📝,
+LexasCMS releases official support for JSON:API and more 🎉,
+tweaking UI behavior with Ember Data queries 📝,
 ...
 
 READMORE
@@ -126,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Michael Donaldson, Amy Lam, the crowd and the Learning Team
