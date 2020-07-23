@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 157
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/24-the-ember-times-issue-157.html"
 responsive: true
@@ -9,6 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Tweaking UI behavior with Ember Data queries 📝,
+...
 
 READMORE
 
@@ -47,14 +49,10 @@ You can view the source code in the [GitHub repo](https://github.com/LexasCMS/ex
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Tweaking UI behavior with Ember Data queries 📝](https://codingitwrong.com/2020/06/23/ember-list.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his favorite part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries] and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
 
 ---
 
@@ -128,4 +126,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
