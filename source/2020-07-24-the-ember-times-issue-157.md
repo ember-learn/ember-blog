@@ -73,7 +73,7 @@ We encourage you to check out Aswathprabhu's [explanation of reactivity](https:/
 
 ## Blog post series of lessons learned working with Ember 📔
 
-[Johan Ronsse (@Wolfr)](https://github.com/Wolfr) wrote a series of blog posts on working with Ember especially coming from a [designer’s point of view](https://mono.company/frontend/working-within-ember-designer-point-of-view/). The [blog](https://mono.company/frontend/getting-to-grips-with-ember/) goes through how the Angle Bracket usage and other features from Ember Octane makes invoking components just like writing HTML which helps designers to be able to focus on the things they care about.
+[Johan Ronsse (@Wolfr)](https://github.com/Wolfr) wrote a series of blog posts on working with Ember especially coming from a [designer’s point of view](https://mono.company/frontend/working-within-ember-designer-point-of-view/). The blog explains how [angle bracket and other Octane features](https://mono.company/frontend/getting-to-grips-with-ember/) make invoking components feel like writing HTML for designers.
 
 In an [example](https://mono.company/frontend/doing-more-with-a-smaller-team-an-ember-octane-example/) showcasing a button component, the blog goes through the abstraction implemented which effectively acts as an enabler for teams by having the code they have to write is much simpler. It’s much harder to make a mistake, because the component has its own simplified API.
 
