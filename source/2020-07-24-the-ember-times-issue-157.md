@@ -75,7 +75,7 @@ We encourage you to check out Aswathprabhu's [explanation of reactivity](https:/
 
 [Johan Ronsse (@Wolfr)](https://github.com/Wolfr) wrote a series of blog posts on working with Ember especially coming from a [designer’s point of view](https://mono.company/frontend/working-within-ember-designer-point-of-view/). The blog explains how [angle bracket and other Octane features](https://mono.company/frontend/getting-to-grips-with-ember/) make invoking components feel like writing HTML for designers.
 
-In an [example](https://mono.company/frontend/doing-more-with-a-smaller-team-an-ember-octane-example/) showcasing a button component, the blog goes through the abstraction implemented which effectively acts as an enabler for teams by having the code they have to write is much simpler. It’s much harder to make a mistake, because the component has its own simplified API.
+The blog also showcases a [button component](https://mono.company/frontend/doing-more-with-a-smaller-team-an-ember-octane-example/) to illustrate how a good public interface helps end users be effective. The code that they have to write is simpler, which prevents them from introducing errors.
 
 Finally, in the [last blog](https://mono.company/frontend/working-within-ember-designer-point-of-view/) post we go through some nifty tools that Ember provides out of the box which makes the complicated easy such as addons and codemods which helps move everyone to the latest Ember release as soon as it becomes available.
 
