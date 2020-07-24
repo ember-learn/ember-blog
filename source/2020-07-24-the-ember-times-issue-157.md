@@ -13,6 +13,7 @@ LexasCMS releases official support for JSON:API and more 🎉,
 tweaking UI behavior with Ember Data queries 📝,
 Learn what reactivity means with an example 💡,
 Read the blog post series of lessons learned working with Ember 📔,
+Ember Data in the Wild Octane edition is here 📣,
 ...
 
 READMORE
@@ -54,7 +55,6 @@ You can view the source code in the [GitHub repo](https://github.com/LexasCMS/ex
 
 ## [Tweaking UI behavior with Ember Data queries 📝](https://codingitwrong.com/2020/06/23/ember-list.html)
 
-
 [Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his favorite part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries] and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
 
 ---
@@ -87,14 +87,13 @@ Read all three blogs in the series below:
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember Data in the Wild Octane edition is here 📣](https://twitter.com/iamdtang/status/1286705740019716097)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!-- alex disable tang -->
+Hot off the press is the 2nd edition of [David Tang (@skaterdav85)](https://github.com/skaterdav85)'s [Ember Data in the Wild](https://leanpub.com/emberdatainthewild/c/octane-edition). 🎊
+<!-- alex enable tang -->
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The 2nd edition presents new and updated content that are tailored to Ember Octane. If you are interested in learning more about Ember Data, be sure to check out [David's book](https://leanpub.com/emberdatainthewild/c/octane-edition)! You can find the complete Table of Contents on the purchase website.
 
 ---
 
