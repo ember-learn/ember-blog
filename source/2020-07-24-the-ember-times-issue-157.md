@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 157
-author: Michael Donaldson, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Michael Donaldson, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/24-the-ember-times-issue-157.html"
 responsive: true
@@ -12,6 +12,7 @@ responsive: true
 LexasCMS releases official support for JSON:API and more 🎉,
 tweaking UI behavior with Ember Data queries 📝,
 Learn what reactivity means with an example 💡,
+Read the blog post series of lessons learned working with Ember 📔,
 ...
 
 READMORE
@@ -70,14 +71,19 @@ We encourage you to check out Aswathprabhu's [explanation of reactivity](https:/
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## Blog post series of lessons learned working with Ember 📔
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Johan Ronsse (@Wolfr)](https://github.com/Wolfr) wrote a series of blog posts on working with Ember especially coming from a [designer’s point of view](https://mono.company/frontend/working-within-ember-designer-point-of-view/). The blog explains how [angle bracket and other Octane features](https://mono.company/frontend/getting-to-grips-with-ember/) make invoking components feel like writing HTML for designers.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The blog also showcases a [button component](https://mono.company/frontend/doing-more-with-a-smaller-team-an-ember-octane-example/) to illustrate how a good public interface helps end users be effective. The code that they have to write is simpler, which prevents them from introducing errors.
+
+Finally, the last blog post covers [nifty tools](https://mono.company/frontend/working-within-ember-designer-point-of-view/) that the Ember ecosystem provides. Addons make the complicated understandable and codemods help everyone move to the latest Ember release as soon as it becomes available.
+
+Read all three blogs in the series below:
+
+- [Getting to grips with Ember](https://mono.company/frontend/getting-to-grips-with-ember/)
+- [Doing more with a smaller team: a button component example](https://mono.company/frontend/doing-more-with-a-smaller-team-an-ember-octane-example/)
+- [Working in an Ember codebase from a designer point of view](https://mono.company/frontend/working-within-ember-designer-point-of-view/)
 
 ---
 
@@ -129,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Michael Donaldson, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Michael Donaldson, Amy Lam, Isaac Lee, the crowd and the Learning Team
