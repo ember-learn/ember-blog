@@ -77,7 +77,7 @@ We encourage you to check out Aswathprabhu's [explanation of reactivity](https:/
 
 The blog also showcases a [button component](https://mono.company/frontend/doing-more-with-a-smaller-team-an-ember-octane-example/) to illustrate how a good public interface helps end users be effective. The code that they have to write is simpler, which prevents them from introducing errors.
 
-Finally, the last blog post covers [nifty tools](https://mono.company/frontend/working-within-ember-designer-point-of-view/) that the Ember ecosystem provides. Addons make the complicated easy and codemods help everyone move to the latest Ember release as soon as it becomes available.
+Finally, the last blog post covers [nifty tools](https://mono.company/frontend/working-within-ember-designer-point-of-view/) that the Ember ecosystem provides. Addons make the complicated understandable and codemods help everyone move to the latest Ember release as soon as it becomes available.
 
 Read all three blogs in the series below:
 
