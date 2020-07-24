@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 157
-author: Michael Donaldson, Amy Lam, the crowd
+author: Michael Donaldson, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/24-the-ember-times-issue-157.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 LexasCMS releases official support for JSON:API and more 🎉,
 tweaking UI behavior with Ember Data queries 📝,
+Learn what reactivity means with an example 💡,
 ...
 
 READMORE
@@ -57,14 +58,15 @@ You can view the source code in the [GitHub repo](https://github.com/LexasCMS/ex
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [What is reactivity? 💡](https://dev.to/theaswathprabhu/what-is-reactivity-116f)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!-- alex disable just -->
+A key feature of Ember Octane is the new **reactivity** model. In essence, reactivity is **deciding what to rerender and when**. A good reactivity model can help us focus on business logic because the rerender _just works_.
+<!-- alex enable just -->
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+To illustrate this point, [Aswathprabhu R.](https://dev.to/theaswathprabhu) shared a blog post titled [What is Reactivity?](https://dev.to/theaswathprabhu/what-is-reactivity-116f). You will learn what updating the DOM manually may look like in vanilla JavaScript, then how frameworks like React and [Ember](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) help separate the rerender logic.
+
+We encourage you to check out Aswathprabhu's [explanation of reactivity](https://dev.to/theaswathprabhu/what-is-reactivity-116f) today!
 
 ---
 
@@ -127,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Michael Donaldson, Amy Lam, the crowd and the Learning Team
+Michael Donaldson, Amy Lam, Isaac Lee, the crowd and the Learning Team
