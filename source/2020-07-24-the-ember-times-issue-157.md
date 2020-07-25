@@ -71,7 +71,7 @@ dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfc
 ## [What is reactivity? 💡](https://dev.to/theaswathprabhu/what-is-reactivity-116f)
 
 <!-- alex ignore just -->
-A key feature of Ember Octane is the new **reactivity** model. In essence, reactivity is **deciding what to rerender and when**. A good reactivity model can help us focus on business logic because the rerender _just works_.
+A key feature of Ember Octane is the new **reactivity** model. In essence, reactivity is **deciding what to rerender and when**. A good reactivity model can help us focus on business logic because the rerender <span style="font-style: italic;">just works</span>.
 
 To illustrate this point, [Aswathprabhu R.](https://dev.to/theaswathprabhu) shared [What is Reactivity?](https://dev.to/theaswathprabhu/what-is-reactivity-116f) on his blog. You will learn what updating the DOM manually may look like in vanilla JavaScript, then how frameworks like React and [Ember](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) help separate the rerender logic.
 
