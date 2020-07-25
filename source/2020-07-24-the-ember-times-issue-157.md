@@ -64,7 +64,7 @@ dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfc
 
 ## [Tweaking UI behavior with Ember Data queries 📝](https://codingitwrong.com/2020/06/23/ember-list.html)
 
-[Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his <span style="font-style: italic;">favorite</span> part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries] and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
+[Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his <span style="font-style: italic;">favorite</span> part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries](https://codingitwrong.com/2020/06/23/ember-list.html) and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
 
 ---
 
