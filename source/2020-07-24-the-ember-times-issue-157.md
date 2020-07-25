@@ -101,7 +101,7 @@ The 2nd edition presents new and updated content that are tailored to Ember Octa
 
 A new RFC takes Ember's promise of "stability without stagnation" to the next level
 by introducing "Deprecation Stages". After multiple months of weekly discussions,
-the Deprecation Process strike team details a process to introduce deprecations
+the [Deprecation Process strike team](https://discord.com/channels/480462759797063690/690649313457602651) details a process to introduce deprecations
 that will both allow early adopters to move _faster_ and large apps to wait for the
 dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfcs/pull/649)
 
