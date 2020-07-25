@@ -27,7 +27,7 @@ LexasCMS recently shipped a new **JSON:API compliant content delivery API** whic
 
 Read the [release blog post](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/) for more information.
 
-### [New Ember Data addon for LexasCMS released ⚡️](https://github.com/LexasCMS/ember-data-lexascms)
+### [New Ember Data addon for LexasCMS released](https://github.com/LexasCMS/ember-data-lexascms)
 
 <!--alex ignore easy-->
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has published the new **ember-data-lexascms** addon for easily integrating LexasCMS with any Ember.js application.
@@ -36,7 +36,7 @@ Simply install the addon, configure your space ID and application adapters/seria
 
 You can visit the addon's [GitHub repo](https://github.com/LexasCMS/ember-data-lexascms) for more details.
 
-### [Ember.js integration guide for LexasCMS 📕](https://www.lexascms.com/docs/integrations/ember-js/)
+### [Ember.js integration guide for LexasCMS](https://www.lexascms.com/docs/integrations/ember-js/)
 
 A new integration guide for Ember.js has been published in the LexasCMS documentation.
 
@@ -44,7 +44,7 @@ This guide will show you how simple it is to begin **pulling content from LexasC
 
 Check out the [full integration guide](https://www.lexascms.com/docs/integrations/ember-js/) on the LexasCMS website.
 
-### [Simple blog website using Ember.js and LexasCMS ✨](https://github.com/LexasCMS/example-ember-blog)
+### [Simple blog website using Ember.js and LexasCMS](https://github.com/LexasCMS/example-ember-blog)
 
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has created an example of a simple blog website which has been **developed using Ember.js and LexasCMS**.
 
@@ -95,7 +95,7 @@ Read all three blogs in the series below:
 
 ---
 
-## [Ember Data in the Wild Octane edition is here 📣](https://twitter.com/iamdtang/status/1286705740019716097)
+## ["Ember Data in the Wild" Octane edition is here 📣](https://twitter.com/iamdtang/status/1286705740019716097)
 
 <!-- alex ignore tang -->
 Hot off the press is the 2nd edition of [David Tang (@skaterdav85)](https://github.com/skaterdav85)'s [Ember Data in the Wild](https://leanpub.com/emberdatainthewild/c/octane-edition). 🎊
@@ -110,7 +110,7 @@ The 2nd edition presents new and updated content that are tailored to Ember Octa
 
 ---
 
-## [Connect with us! 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
+## [Connect with us 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />
