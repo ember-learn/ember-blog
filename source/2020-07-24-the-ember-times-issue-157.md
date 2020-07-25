@@ -48,7 +48,7 @@ Check out the [full integration guide](https://www.lexascms.com/docs/integration
 
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has created an example of a simple blog website which has been **developed using Ember.js and LexasCMS**.
 
-You can view the source code in the [GitHub repo](https://github.com/LexasCMS/example-ember-blog), and even use the project to quickly deploy your very own blog using the 'Deploy to Netlify' button in the repo's README.
+You can view the source code in the [GitHub repo](https://github.com/LexasCMS/example-ember-blog), and even use the project to quickly deploy your very own blog using the "Deploy to Netlify" button in the repo's README.
 
 ---
 
