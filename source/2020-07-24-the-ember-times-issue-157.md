@@ -97,13 +97,13 @@ The 2nd edition presents new and updated content that are tailored to Ember Octa
 
 ---
 
-## [Depreaction Stages RFC is out now!](https://github.com/emberjs/rfcs/pull/649)
+## [Depreaction Stages RFC is out!](https://github.com/emberjs/rfcs/pull/649)
 
-A new RFC takes Ember's "stability without stagnation" process to the next level
-by introducing Deprecation stages. After multiple month of weekly discussions,
+A new RFC takes Ember's "stability without stagnation" promise to the next level
+by introducing "Deprecation Stages". After multiple months of weekly discussions,
 the Deprecation Process strike team details a process to introduce deprecations
 that will both allow early adopters to move _faster_ and large apps to wait for the
-dust to settle! [Check out the RFC and weigh in!](https://github.com/emberjs/rfcs/pull/649)
+dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfcs/pull/649)
 
 
 ## [Section title in sentence case 🐹](section-url)
