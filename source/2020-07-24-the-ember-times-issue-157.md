@@ -1,26 +1,25 @@
 ---
 title: The Ember Times - Issue No. 157
-author: Chris Ng, Michael Donaldson, Amy Lam, Isaac Lee, the crowd
+author: Michael Donaldson, Mehul Kar, Chris Ng, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/24-the-ember-times-issue-157.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 LexasCMS releases official support for JSON:API and more 🎉,
+Deprecation Stages RFC is out 🚀,
 tweaking UI behavior with Ember Data queries 📝,
-Learn what reactivity means with an example 💡,
-Read the blog post series of lessons learned working with Ember 📔,
-Ember Data in the Wild Octane edition is here 📣,
-...
+learn what reactivity means with an example 💡,
+read the blog post series of lessons learned working with Ember 📔,
+and last, but not least, Ember Data in the Wild Octane edition is here 📣!
 
 READMORE
 
 ---
 
-## [LexasCMS releases official support for JSON:API and more! 🎉](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/)
+## [LexasCMS releases official support for JSON:API and more 🎉](https://www.lexascms.com/blog/introducing-the-jsonapi-content-delivery-api/)
 
 Have you been looking to integrate a headless CMS with your Ember.js application?
 
@@ -53,6 +52,16 @@ You can view the source code in the [GitHub repo](https://github.com/LexasCMS/ex
 
 ---
 
+## [Deprecation Stages RFC is out 🚀](https://github.com/emberjs/rfcs/pull/649)
+
+A new RFC takes Ember's promise of "stability without stagnation" to the next level
+by introducing "Deprecation Stages". After multiple months of weekly discussions,
+the [Deprecation Process strike team](https://discord.com/channels/480462759797063690/690649313457602651) details a process to introduce deprecations
+that will both allow early adopters to move <span style="font-style: italic;">faster</span> and large apps to wait for the
+dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfcs/pull/649)
+
+---
+
 ## [Tweaking UI behavior with Ember Data queries 📝](https://codingitwrong.com/2020/06/23/ember-list.html)
 
 [Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his favorite part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries] and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
@@ -71,7 +80,7 @@ We encourage you to check out Aswathprabhu's [explanation of reactivity](https:/
 
 ---
 
-## Blog post series of lessons learned working with Ember 📔
+## [Blog post series of lessons learned working with Ember 📔](https://mono.company/frontend/getting-to-grips-with-ember/)
 
 [Johan Ronsse (@Wolfr)](https://github.com/Wolfr) wrote a series of blog posts on working with Ember especially coming from a [designer’s point of view](https://mono.company/frontend/working-within-ember-designer-point-of-view/). The blog explains how [angle bracket and other Octane features](https://mono.company/frontend/getting-to-grips-with-ember/) make invoking components feel like writing HTML for designers.
 
@@ -94,26 +103,6 @@ Hot off the press is the 2nd edition of [David Tang (@skaterdav85)](https://gith
 <!-- alex enable tang -->
 
 The 2nd edition presents new and updated content that are tailored to Ember Octane. If you are interested in learning more about Ember Data, be sure to check out [David's book](https://leanpub.com/emberdatainthewild/c/octane-edition)! You can find the complete Table of Contents on the purchase website.
-
----
-
-## [Depreaction Stages RFC is out!](https://github.com/emberjs/rfcs/pull/649)
-
-A new RFC takes Ember's promise of "stability without stagnation" to the next level
-by introducing "Deprecation Stages". After multiple months of weekly discussions,
-the [Deprecation Process strike team](https://discord.com/channels/480462759797063690/690649313457602651) details a process to introduce deprecations
-that will both allow early adopters to move <span style="font-style: italic;">faster</span> and large apps to wait for the
-dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfcs/pull/649)
-
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -143,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Michael Donaldson, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Michael Donaldson, Mehul Kar, Chris Ng, Isaac Lee, Amy Lam, and the Learning Team
