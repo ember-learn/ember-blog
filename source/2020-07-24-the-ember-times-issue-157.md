@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 157
-author: Michael Donaldson, Mehul Kar, Chris Ng, Isaac Lee, Amy Lam
+author: Chris Ng, Michael Donaldson, Mehul Kar, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/24-the-ember-times-issue-157.html"
 responsive: true
@@ -36,7 +36,7 @@ Simply install the addon, configure your space ID and application adapters/seria
 
 You can visit the addon's [GitHub repo](https://github.com/LexasCMS/ember-data-lexascms) for more details.
 
-### [Ember.js Integration Guide for LexasCMS 📕](https://www.lexascms.com/docs/integrations/ember-js/)
+### [Ember.js integration guide for LexasCMS 📕](https://www.lexascms.com/docs/integrations/ember-js/)
 
 A new integration guide for Ember.js has been published in the LexasCMS documentation.
 
@@ -70,11 +70,10 @@ dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfc
 
 ## [What is reactivity? 💡](https://dev.to/theaswathprabhu/what-is-reactivity-116f)
 
-<!-- alex disable just -->
+<!-- alex ignore just -->
 A key feature of Ember Octane is the new **reactivity** model. In essence, reactivity is **deciding what to rerender and when**. A good reactivity model can help us focus on business logic because the rerender _just works_.
-<!-- alex enable just -->
 
-To illustrate this point, [Aswathprabhu R.](https://dev.to/theaswathprabhu) shared a blog post titled [What is Reactivity?](https://dev.to/theaswathprabhu/what-is-reactivity-116f). You will learn what updating the DOM manually may look like in vanilla JavaScript, then how frameworks like React and [Ember](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) help separate the rerender logic.
+To illustrate this point, [Aswathprabhu R.](https://dev.to/theaswathprabhu) shared [What is Reactivity?](https://dev.to/theaswathprabhu/what-is-reactivity-116f) on his blog. You will learn what updating the DOM manually may look like in vanilla JavaScript, then how frameworks like React and [Ember](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) help separate the rerender logic.
 
 We encourage you to check out Aswathprabhu's [explanation of reactivity](https://dev.to/theaswathprabhu/what-is-reactivity-116f) today!
 
@@ -98,9 +97,8 @@ Read all three blogs in the series below:
 
 ## [Ember Data in the Wild Octane edition is here 📣](https://twitter.com/iamdtang/status/1286705740019716097)
 
-<!-- alex disable tang -->
+<!-- alex ignore tang -->
 Hot off the press is the 2nd edition of [David Tang (@skaterdav85)](https://github.com/skaterdav85)'s [Ember Data in the Wild](https://leanpub.com/emberdatainthewild/c/octane-edition). 🎊
-<!-- alex enable tang -->
 
 The 2nd edition presents new and updated content that are tailored to Ember Octane. If you are interested in learning more about Ember Data, be sure to check out [David's book](https://leanpub.com/emberdatainthewild/c/octane-edition)! You can find the complete Table of Contents on the purchase website.
 
@@ -132,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Michael Donaldson, Mehul Kar, Chris Ng, Isaac Lee, Amy Lam, and the Learning Team
+Chris Ng, Michael Donaldson, Mehul Kar, Isaac Lee, Amy Lam, and the Learning Team
