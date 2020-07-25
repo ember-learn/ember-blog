@@ -13,7 +13,7 @@ Deprecation Stages RFC is out 🚀,
 tweaking UI behavior with Ember Data queries 📝,
 learn what reactivity means with an example 💡,
 read the blog post series of lessons learned working with Ember 📔,
-and last, but not least, Ember Data in the Wild Octane edition is here 📣!
+and last, but not least, "Ember Data in the Wild" Octane edition is here 📣!
 
 READMORE
 
@@ -54,17 +54,17 @@ You can view the source code in the [GitHub repo](https://github.com/LexasCMS/ex
 
 ## [Deprecation Stages RFC is out 🚀](https://github.com/emberjs/rfcs/pull/649)
 
-A new RFC takes Ember's promise of "stability without stagnation" to the next level
+A new RFC takes Ember's promise of **stability without stagnation** to the next level
 by introducing "Deprecation Stages". After multiple months of weekly discussions,
 the [Deprecation Process strike team](https://discord.com/channels/480462759797063690/690649313457602651) details a process to introduce deprecations
-that will both allow early adopters to move <span style="font-style: italic;">faster</span> and large apps to wait for the
+that will both allow early adopters to move <span style="font-style: italic;">faster</span> and larger apps to wait for the
 dust to settle. [Check out the RFC and weigh in!](https://github.com/emberjs/rfcs/pull/649)
 
 ---
 
 ## [Tweaking UI behavior with Ember Data queries 📝](https://codingitwrong.com/2020/06/23/ember-list.html)
 
-[Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his favorite part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries] and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
+[Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) has a new [blog post](https://codingitwrong.com/2020/06/23/ember-list.html) about Ember Data, his <span style="font-style: italic;">favorite</span> part of Ember.js. Josh writes about building a todo list application, [Surely](https://github.com/CodingItWrong/surely-ember). He touches on querying with JSON:API, the basics of working with the model, sorting with Ember Data, the nuances of reloading, and more. Check out [Tweaking UI behavior with Ember Data queries] and the accompanying [GitHub repo](https://github.com/CodingItWrong/surely-ember) to learn more about putting Ember Data to use! 
 
 ---
 
@@ -100,7 +100,7 @@ Read all three blogs in the series below:
 <!-- alex ignore tang -->
 Hot off the press is the 2nd edition of [David Tang (@skaterdav85)](https://github.com/skaterdav85)'s [Ember Data in the Wild](https://leanpub.com/emberdatainthewild/c/octane-edition). 🎊
 
-The 2nd edition presents new and updated content that are tailored to Ember Octane. If you are interested in learning more about Ember Data, be sure to check out [David's book](https://leanpub.com/emberdatainthewild/c/octane-edition)! You can find the complete Table of Contents on the purchase website.
+The 2nd edition presents new and updated content that is tailored to Ember Octane. If you are interested in learning more about Ember Data, be sure to check out [David's book](https://leanpub.com/emberdatainthewild/c/octane-edition)! You can find the complete Table of Contents on the purchase website.
 
 ---
 
