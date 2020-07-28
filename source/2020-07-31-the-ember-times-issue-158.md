@@ -1,27 +1,33 @@
 ---
 title: The Ember Times - Issue No. 158
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Read the blog post on Detecting Ember.js Components Entering or Leaving the Viewport 🔍,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Detecting Ember.js Components Entering or Leaving the Viewport 🔍](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Koushik Radhakrishnan (@Koushikrad)](https://github.com/Koushikrad) wrote a blog post on [detecting when Ember components are entering or leaving the viewport](https://twitter.com/koushikrad/status/1287419970121379840). Each of the components in the dashboard product, in the blog post, made an API request. But do we need all widgets to fetch its data at the same time when a user lands on a dashboard page? What if the user’s viewport shows only 5 widgets at a time and not 10?
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Using the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon which detects if an Ember component has entered the browser's viewport. By default, this uses the IntersectionObserver API if it detects it the DOM element is in your user's browser – failing which, it falls back to using requestAnimationFrame, then if not available, the Ember run loop and event listeners.
+
+By hooking up with the addon’s provided `inViewport` service we are able to only request data once the component is within the viewport.
+
+```
+const { onEnter } = this.inViewport.watchElement(this.element, { viewportTolerance });  
+onEnter(this._renderInView.bind(this));
+```
+
+The addon also provides the `viewportTolerance` property which is a configuration value to signal when a component is considered to be entered or leaving the viewport. The components that are not in view will not make a request for API data, unlike the route’s model hook using a `Promise.all`. Read more on this at the [full blog post](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)!
 
 ---
 
@@ -139,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
