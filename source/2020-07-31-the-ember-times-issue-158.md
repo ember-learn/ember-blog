@@ -7,7 +7,7 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Read the blog post on Detecting Ember.js Components Entering or Leaving the Viewport 🔍,
+Detect when Ember components enter or leave the viewport 🔍,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
