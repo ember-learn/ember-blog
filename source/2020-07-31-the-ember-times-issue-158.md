@@ -71,7 +71,7 @@ As a succession to the previous three blog posts on Ember modifiers, [Raja SK (@
 
 In this blog post, he talks about the [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers) that provides element modifiers that can be used to hook into specific portions of the rendering lifecycle of a component.
 
-Among several addons that are based on ember modifier, **ember-render-modifiers** is one of its kind that is easy to follow, and understand its implementation. If you are looking to write your own custom modifiers, then ember-render-modifiers is a good place to start with.
+Among several addons that are based on ember modifier, **ember-render-modifiers** is one of its kind that is simple to follow and understand its implementation. If you are looking to write your own custom modifiers, then ember-render-modifiers is a good place to start with.
 
 Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) today!
 
