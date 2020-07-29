@@ -22,7 +22,7 @@ Consider a dashboard with 10 widget components, each of which makes an API reque
 
 Using the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon which detects if an Ember component has entered the browser's viewport. By default, this uses the IntersectionObserver API if it detects it the DOM element is in your user's browser – failing which, it falls back to using requestAnimationFrame, then if not available, the Ember run loop and event listeners.
 
-By hooking up with the addon’s provided `inViewport` service we are able to only request data once the component is within the viewport.
+By hooking up with the addon’s provided `inViewport` service, we are able to request data once the component is within the viewport.
 
 ```javascript
 const { onEnter } = this.inViewport.watchElement(this.element, { viewportTolerance });  
