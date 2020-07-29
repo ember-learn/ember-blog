@@ -16,7 +16,9 @@ READMORE
 
 ## [Detecting Ember.js Components Entering or Leaving the Viewport 🔍](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)
 
-[Koushik Radhakrishnan (@Koushikrad)](https://github.com/Koushikrad) wrote a blog post on [detecting when Ember components are entering or leaving the viewport](https://twitter.com/koushikrad/status/1287419970121379840). Each of the components in the dashboard product, in the blog post, made an API request. But do we need all widgets to fetch its data at the same time when a user lands on a dashboard page? What if the user’s viewport shows only 5 widgets at a time and not 10?
+[Koushik Radhakrishnan (@Koushikrad)](https://github.com/Koushikrad) wrote a blog post on [detecting when Ember components are entering or leaving the viewport](https://twitter.com/koushikrad/status/1287419970121379840).
+
+Consider a dashboard with 10 widget components, each of which makes an API request. When a user lands on the dashboard page, do we need all the widgets to fetch their data at the same time, even if the user's viewport shows only 5 widgets at a time?
 
 Using the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon which detects if an Ember component has entered the browser's viewport. By default, this uses the IntersectionObserver API if it detects it the DOM element is in your user's browser – failing which, it falls back to using requestAnimationFrame, then if not available, the Ember run loop and event listeners.
 
