@@ -29,7 +29,9 @@ const { onEnter } = this.inViewport.watchElement(this.element, { viewportToleran
 onEnter(this._renderInView.bind(this));
 ```
 
-The addon also provides the `viewportTolerance` property which is a configuration value to signal when a component is considered to be entered or leaving the viewport. The components that are not in view will not make a request for API data, unlike the route’s model hook using a `Promise.all`. Read more on this at the [full blog post](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)!
+The components that are not in view will not make a request for API data, unlike the route’s model hook using a `Promise.all`.
+
+Read more about detecting components from the [blog post](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)!
 
 ---
 
