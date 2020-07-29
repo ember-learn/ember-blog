@@ -20,7 +20,7 @@ READMORE
 
 Consider a dashboard with 10 widget components, each of which makes an API request. When a user lands on the dashboard page, do we need all the widgets to fetch their data at the same time, even if the user's viewport shows only 5 widgets at a time?
 
-Using the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon which detects if an Ember component has entered the browser's viewport. By default, this uses the IntersectionObserver API if it detects it the DOM element is in your user's browser – failing which, it falls back to using requestAnimationFrame, then if not available, the Ember run loop and event listeners.
+A solution is to use the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon, which detects if an Ember component has entered the browser's viewport. The addon tries a few different approaches (`IntersectionObserver` API, then `requestAnimationFrame`, then the Ember run loop and event listeners) to detect if a DOM element is in the user's browser.
 
 By hooking up with the addon’s provided `inViewport` service, we are able to request data once the component is within the viewport.
 
