@@ -51,7 +51,7 @@ In continuation of his first blog post titled [reusable DOM behavior in React vs
 
 In the process of explaining the lifecycle methods, Raja details each step with code snippets that make us understand what each of them means.
 
-Read more about on the [blog post](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40)!
+Read more about the element modifier manager and its internals [on dev.to](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40) today!
 
 ---
 
