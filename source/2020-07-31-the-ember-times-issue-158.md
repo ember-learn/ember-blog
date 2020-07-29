@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 158
-author: Chris Ng, the crowd
+author: Chris Ng, Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
@@ -8,6 +8,9 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Detect when Ember components enter or leave the viewport 🔍,
+How do Ember Modifiers get to be managed internally? 🥼,
+The magic behind the ember modifiers ✨,
+Demystifying ember-render-modifiers 😎,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -35,36 +38,38 @@ Read more about detecting components from the [blog post](https://medium.com/@ko
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [How do Ember Modifiers get to be managed internally? 🥼](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Raja SK (@RajaSK05)](https://github.com/RajaSK05) wrote a blog post on [how do ember modifiers get to be managed internally?](https://twitter.com/_raja_sk_/status/1283054501029728264?s=20)
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In continuation of his first blog post titled [reusable DOM behavior in React vs Ember](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04), Raja wrote a second blog post that details about the ember modifier internals and what an **element modifier manager** is. He begins by talking about the modifier lifecycle methods. A modifier lifecycle consists of:
 
----
+- createModifier()
+- installModifier()
+- updateModifier()
+- destroyModifier()
 
-## [Section title in sentence case 🐹](section-url)
+In the process of explaining the lifecycle methods, Raja details each step with code snippets that make us understand what each of them means.
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Read more about on the [blog post](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40)!
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [The magic behind the ember modifiers ✨](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Raja SK (@RajaSK05)](https://github.com/RajaSK05)'s third blog post on Ember modifiers is titled [the magic behind the ember modifiers](https://twitter.com/_raja_sk_/status/1285631182697369601?s=20) where he talks about the internal workings of an Ember modifier - a feature that is offered by Ember Octane.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In the process of explaining how a modifier works, he showcases by writing a simple autofocus modifier using the functional modifier approach.
+
+For more details on the blog, read it today [on dev.to](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c).
+
+---
+
+## [Demystifying ember-render-modifiers 😎](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57)
+
+As a succession to the previous three blog posts on Ember modifiers, [Raja SK (@RajaSK05)](https://github.com/RajaSK05) talks about [demystifying ember-render-modifiers](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) in his fourth blog post.
+
+In this blog post, he talks about the [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers) that provides element modifiers that can be used to hook into specific portions of the rendering lifecycle of a component.
 
 ---
 
@@ -149,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Abhilash LR, the crowd and the Learning Team
