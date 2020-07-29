@@ -1,6 +1,6 @@
 ---
 title: Ember 3.20 Released
-author: Jen Weber
+author: Jen Weber, Jared Galanis
 tags: Releases, 2020, 3, 3.20, Version 3.x
 responsive: true
 ---
@@ -79,7 +79,15 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.20
 
-#### New Features (X)
+#### New Features (1)
+
+##### Syncing Blueprints
+
+Apps and addons can update the `ember-cli` version in their app without impacting future [`ember-cli-update`](https://github.com/ember-cli/ember-cli-update) runs. 
+
+Without this, `ember-cli-update` will use the current version of `ember-cli` in the `package.json` to determine which version to attempt to update from. Unfortunately, this means that if you were to update your `ember-cli` version without also running the full blueprint update, you would have a much harder time of updating your general project structure in the future.
+
+See the [Syncing Blueprints RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more about the motivation and design of this feature!
 
 #### Deprecations (X)
 
