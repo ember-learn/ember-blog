@@ -24,7 +24,7 @@ Using the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) add
 
 By hooking up with the addon’s provided `inViewport` service we are able to only request data once the component is within the viewport.
 
-```
+```javascript
 const { onEnter } = this.inViewport.watchElement(this.element, { viewportTolerance });  
 onEnter(this._renderInView.bind(this));
 ```
