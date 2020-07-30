@@ -119,8 +119,8 @@ See the [Syncing Blueprints RFC](https://emberjs.github.io/rfcs/0477-blueprints-
 
 #### Deprecations (2)
 
-* Usage on Node 13 will now issue a warning 
-* Usage of the `PACKAGER` experiment is deprecated. This only affects apps that opted into setting the `EMBER_CLI_PACKAGER` environment variable.
+- Usage on Node 13 will now issue a warning 
+- Usage of the `PACKAGER` experiment is deprecated. This only affects apps that opted into setting the `EMBER_CLI_PACKAGER` environment variable.
 
 
 ---
