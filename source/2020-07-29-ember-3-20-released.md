@@ -32,7 +32,7 @@ Ember.js 3.20 is an incremental, backwards compatible release of Ember with bugf
 
 Have you ever wished you could render a component somewhere outside of the usual HTML flow? To help with this, Ember.js now provides the `{{in-element}}` helper as public API. If you have used community addons like [ember-wormhole](https://github.com/yapplabs/ember-wormhole) or [ember-elsewhere](https://github.com/ef4/ember-elsewhere), you are probably familiar with the challenge that `{{in-element}}` aims to solve.
 
-To use the helper, pass in a DOM element (`this.myDestinationElement` in the example below) and a block to render:
+To use the helper, pass in a DOM element to target (`this.myDestinationElement` in the example below) and a block to render:
 
 ```handlebars
 {{#in-element this.myDestinationElement}}
