@@ -40,7 +40,7 @@ To use the helper, pass in a DOM element to target (`this.myDestinationElement` 
 {{/in-element}}
 ```
 
-This new public API varies somewhat compared to the behavior of the private API:
+This new public API behaves a little differently from the private API:
 
 - For the public API `{{in-element}}`, by default, the rendered content will replace all the content of the destination, effectively becoming the its `innerHTML`. If you want it to be appended instead of replacing the content, you can pass in `insertBefore=null`.
 - In the private API `{{-in-element}}`, the rendered content was appended to any existing content in the destination.
@@ -101,7 +101,7 @@ You may upgrade Ember CLI easily using the ember-cli-update project:
 npx ember-cli-update
 ```
 
-This utility will help you to update your app or add-on to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the github README](https://github.com/ember-cli/ember-cli-update).
+This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
 
 While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
@@ -126,8 +126,8 @@ See the [Syncing Blueprints RFC](https://emberjs.github.io/rfcs/0477-blueprints-
 ---
 
 For more details on the changes in Ember CLI 3.20 and detailed upgrade
-instructions, please review the [Ember CLI  3.20.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.20.0).
+instructions, please review the [Ember CLI 3.20.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.20.0).
 
 ## Thank You!
 
-As a community-driven open-source project with an ambitious scope, each of these releases serve as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
+As a community-driven open-source project with an ambitious scope, each of these releases serves as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
