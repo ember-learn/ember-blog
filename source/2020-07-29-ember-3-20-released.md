@@ -5,7 +5,9 @@ tags: Releases, 2020, 3, 3.20, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.20 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.21 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.20 of Ember.js, Ember Data, and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
+
+This release kicks off the 3.21 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -46,16 +48,24 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.20
 
-#### New Features (0)
+In addition to a new feature, this release also includes some performance optimizations for visiting relating records and updating a has-many relationship.
 
-No new features introduced in Ember Data 3.20.
+#### New Features (1)
+
+##### `isEmbeddedRecordsMixinCompatible`
+
+Previously, if you used the `EmbeddedRecordsMixin` and `JSONAPISerializer` together, the app would show a warning.
+However, some developers may have APIs that support this combination.
+For those use cases, you can now set `this.isEmbeddedRecordsMixinCompatible = true` in the serializer, and you will no longer see the warning.
+
+For apps that mistakenly use the `EmbeddedRecordsMixin` and `JSONAPISerializer` together, without setting the boolean, the app will now assert instead of warn.
 
 #### Deprecations (0)
 
 No new deprecations introduced in Ember Data 3.20.
 
 For more details on changes in Ember Data 3.20, please review the
-[Ember Data 3.20.0 release page](https://github.com/emberjs/data/releases/tag/v3.20.0).
+[Ember Data 3.20.0 release page](https://github.com/emberjs/data/blob/v3.20.0/CHANGELOG.md#release-3200-july-16-2020).
 
 ---
 
@@ -69,8 +79,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 You may upgrade Ember CLI easily using the ember-cli-update project:
 
 ```bash
-npm install -g ember-cli-update
-ember-cli-update
+npx ember-cli-update
 ```
 
 This utility will help you to update your app or add-on to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the github README](https://github.com/ember-cli/ember-cli-update).
@@ -89,7 +98,11 @@ Without this new feature, `ember-cli-update` would use the current version of `e
 
 See the [Syncing Blueprints RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more about the motivation and design of this feature!
 
-#### Deprecations (X)
+#### Deprecations (2)
+
+* Usage on Node 13 will now issue a warning 
+* Usage of the `PACKAGER` experiment is deprecated. This only affects apps that opted into setting the `EMBER_CLI_PACKAGER` environment variable.
+
 
 ---
 
