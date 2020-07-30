@@ -24,15 +24,34 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.20
 
-Ember.js 3.20 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.20 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
 
-#### New Features (2)
+#### New Features (1)
 
-First new feature (1 of 2)
+##### `{{in-element}}`
 
-Second new feature (2 of 2)
+Have you ever wished you could render a component somewhere outside of the usual HTML flow? To help with this, Ember.js now provides the `{{in-element}}` helper as public API. If you have used community addons like [ember-wormhole](https://github.com/yapplabs/ember-wormhole) or [ember-elsewhere](https://github.com/ef4/ember-elsewhere), you are probably familiar with the challenge that `{{in-element}}` aims to solve.
+
+To use the helper, pass in a DOM element (`this.myDestinationElement` in the example below) and a block to render:
+
+```handlebars
+{{#in-element this.myDestinationElement}}
+  <div>Some content</div>
+{{/in-element}}
+```
+
+This new public API varies somewhat compared to the behavior of the private API:
+
+- For the public API `{{in-element}}`, by default, the rendered content will replace all the content of the destination, effectively becoming the its `innerHTML`. If you want it to be appended instead of replacing the content, you can pass in `insertBefore=null`.
+- In the private API `{{-in-element}}` appended to any existing content.
+
+Developers should use the public API, `{{in-element}}`, and discontinue using `{{-in-element}}`.
+
+See [RFC 287](https://emberjs.github.io/rfcs/0287-promote-in-element-to-public-api.html) for more information about the motivation for this new feature.
 
 #### Deprecations (0)
+
+No new deprecations are introduced in this release.
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
