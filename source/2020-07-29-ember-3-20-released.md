@@ -49,11 +49,14 @@ Developers should use the public API, `{{in-element}}`, and discontinue using `{
 
 See [RFC 287](https://emberjs.github.io/rfcs/0287-promote-in-element-to-public-api.html) for more information about the motivation for this new feature.
 
-#### Deprecations (0)
+#### Deprecations (1)
 
-No new deprecations are introduced in this release.
+##### `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying`
 
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
+Previous versions of the `@glimmer/component` package relied on this intimate API, which is now deprecated.
+To resolve deprecation warnings in your own apps and addons, update your version of `@glimmer/component` to at least [`v1.0.1`](https://github.com/glimmerjs/glimmer.js/releases/tag/v1.0.1).
+
+Deprecations are added to Ember.js when an API will be removed at a later date. Each public API deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
@@ -67,14 +70,14 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.20
 
-In addition to a new feature, this release also includes some performance optimizations for visiting relating records and updating a has-many relationship.
+In addition to a new feature, this release also includes some performance optimizations for visiting relating records and updating has-many relationships.
 
 #### New Features (1)
 
 ##### `isEmbeddedRecordsMixinCompatible`
 
-Previously, if you used the `EmbeddedRecordsMixin` and `JSONAPISerializer` together, the app would show a warning.
-However, some developers may have APIs that support this combination.
+Previously, if you used the `EmbeddedRecordsMixin` and `JSONAPISerializer` together, the app would show a warning that this combination did not work.
+However, some developers may have APIs that would have theoretically been compatible.
 For those use cases, you can now set `this.isEmbeddedRecordsMixinCompatible = true` in the serializer, and you will no longer see the warning.
 
 For apps that mistakenly use the `EmbeddedRecordsMixin` and `JSONAPISerializer` together, without setting the boolean, the app will now assert instead of warn.
