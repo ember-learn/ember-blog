@@ -26,6 +26,8 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 3.20 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
 
+Developers who upgrade their Ember apps to `v3.20` should also update `@glimmer/component` to `v1.0.1` to avoid a deprecation warning that comes from the `@glimmer/component` package.
+
 #### New Features (1)
 
 ##### `{{in-element}}`
