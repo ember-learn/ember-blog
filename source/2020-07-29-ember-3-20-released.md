@@ -113,7 +113,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 Apps and addons can update the `ember-cli` version in their app without impacting future [`ember-cli-update`](https://github.com/ember-cli/ember-cli-update) runs. 
 
-Without this new feature, `ember-cli-update` would use the current version of `ember-cli` in the `package.json` to determine which version to attempt to update from. Unfortunately, this means that if you were to update your `ember-cli` version without also running the full blueprint update, you would have a much harder time updating your general project structure in the future.
+Before this new feature, `ember-cli-update` used the current version of `ember-cli` in the `package.json` to determine which version to attempt to update from. Unfortunately, that meant that if you were to update your `ember-cli` version without also running the full blueprint update, you would have a much harder time updating your general project structure in the future.
 
 See the [Syncing Blueprints RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more about the motivation and design of this feature!
 
