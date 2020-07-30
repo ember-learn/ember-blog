@@ -43,7 +43,7 @@ To use the helper, pass in a DOM element to target (`this.myDestinationElement` 
 This new public API varies somewhat compared to the behavior of the private API:
 
 - For the public API `{{in-element}}`, by default, the rendered content will replace all the content of the destination, effectively becoming the its `innerHTML`. If you want it to be appended instead of replacing the content, you can pass in `insertBefore=null`.
-- In the private API `{{-in-element}}` appended to any existing content.
+- In the private API `{{-in-element}}`, the rendered content was appended to any existing content in the destination.
 
 Developers should use the public API, `{{in-element}}`, and discontinue using `{{-in-element}}`.
 
