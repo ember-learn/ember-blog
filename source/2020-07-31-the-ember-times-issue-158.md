@@ -7,10 +7,8 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Detect when Ember components enter or leave the viewport 🔍,,
-How do Ember Modifiers get to be managed internally? 🥼,
-The magic behind the ember modifiers ✨,
-Demystifying ember-render-modifiers 😎,
+Detect when Ember components enter or leave the viewport 🔍,
+A series of blog posts on ember-modifers and its internals 🎉,
 Document Ember apps with Docfy 📗,
 Blog post and RFC on Ember.Component 📖,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
