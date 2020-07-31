@@ -111,7 +111,7 @@ A new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-releas
 - Ember Data explicitly supports the combined use of `EmbeddedRecordsMixin` and `JSONAPISerializer` through the `isEmbeddedRecordsMixinCompatible` property.
 - Ember CLI allows syncing Blueprints when running `npx ember-cli-update`, which avoids some potential issues that previously existed when running this flow. Check out the [related RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more.
 
-For Ember.js, `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying` are now deprecated. There were no new deprecations for Ember Data. Ember CLI now issues a warning for usage on Node 13, and usage of the `PACKAGER` experiment is also now deprecated.
+In Ember.js, `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying` are now deprecated. There were no deprecations for Ember Data. Ember CLI issues a warning for using Node 13 and deprecates the use of the `PACKAGER` experiment.
 
 For more information, give the [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) a read.
 
