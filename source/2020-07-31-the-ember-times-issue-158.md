@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 158
-author: Chris Ng, the crowd
+author: Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
@@ -8,6 +8,7 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Detect when Ember components enter or leave the viewport 🔍,
+Document Ember apps with Docfy 📗,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -90,14 +91,13 @@ Read more about detecting components from the [blog post](https://medium.com/@ko
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Document Ember apps with Docfy 📗](https://docfy.dev/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Hope you didn't miss an [exciting announcement](https://twitter.com/josemarluedke/status/1281252101406855169) earlier in July. [Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) released [Docfy](https://docfy.dev/), a cross-framework tool to help you build documentation sites from Markdown files.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The best part? Docfy provides official support for Ember.js! You can style the Docfy components and leverage existing [remark](https://remark.js.org/) plugins too.
+
+Check out [Getting Started](https://docfy.dev/docs/ember) to learn more about adding Docfy to your Ember apps.
 
 ---
 
@@ -149,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
