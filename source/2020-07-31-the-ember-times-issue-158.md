@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 158
-author: Chris Ng, Isaac Lee, the crowd
+author: Chris Ng, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Detect when Ember components enter or leave the viewport 🔍,
 Document Ember apps with Docfy 📗,
+Blog post and RFC on Ember.Component 📖,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -47,14 +48,13 @@ Read more about detecting components from the [blog post](https://medium.com/@ko
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog post and RFC on Ember.Component 📖](https://mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's an interesting perspective about how your team might handle usage of Ember's built-in components in a `GlimmerComponent` world presented in [Mehul Kar's (@mehulkar)](https://github.com/mehulkar) recent [blog post](https://mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The post indicates that in order to avoid introducing breaking changes you may want to consider not extending `Ember.Component` since `GlimmerComponent` does not have the same methods to support such extension.
+
+This blog post continues the conversation Mehul started in [an RFC](https://github.com/emberjs/rfcs/issues/587) on the subject earlier this year that proposes making `@ember/component` an optional feature. Conversations like these are vital to the health of Ember's ecosystem so if you're interested in participating in this conversation and have opinions head on over to the RFC and provide some feedback. 
 
 ---
 
@@ -149,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, the crowd and the Learning Team
