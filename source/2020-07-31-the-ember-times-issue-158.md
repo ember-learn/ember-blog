@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 158
-author: Chris Ng, Abhilash LR, Isaac Lee, the crowd
+author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
@@ -12,6 +12,7 @@ How do Ember Modifiers get to be managed internally? 🥼,
 The magic behind the ember modifiers ✨,
 Demystifying ember-render-modifiers 😎,
 Document Ember apps with Docfy 📗,
+Blog post and RFC on Ember.Component 📖,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -63,6 +64,16 @@ Read more about the element modifier manager and its internals [on dev.to](https
 In the process of explaining how a modifier works, he showcases by writing a simple autofocus modifier using the functional modifier approach.
 
 For more details on the blog, read it today [on dev.to](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c).
+
+---
+
+## [Blog post and RFC on Ember.Component 📖](https://mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/)
+
+There's an interesting perspective about how your team might handle usage of Ember's built-in components in a `GlimmerComponent` world presented in [Mehul Kar's (@mehulkar)](https://github.com/mehulkar) recent [blog post](https://mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/).
+
+The post indicates that in order to avoid introducing breaking changes you may want to consider not extending `Ember.Component` since `GlimmerComponent` does not have the same methods to support such extension.
+
+This blog post continues the conversation Mehul started in [an RFC](https://github.com/emberjs/rfcs/issues/587) on the subject earlier this year that proposes making `@ember/component` an optional feature. Conversations like these are vital to the health of Ember's ecosystem so if you're interested in participating in this conversation and have opinions head on over to the RFC and provide some feedback. 
 
 ---
 
@@ -158,4 +169,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash LR, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, the crowd and the Learning Team
