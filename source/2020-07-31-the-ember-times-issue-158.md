@@ -105,7 +105,11 @@ Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-emb
 
 A new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) is up to announce the release of version 3.20 of Ember.js, Ember Data and Ember CLI! 
 
-3.20 includes several new features for the ecosystem. In Ember.js there's an `in-element` helper now available as public API. This helper solves rendering challenges similar to `ember-wormhole` or `ember-elsewhere`, and allows rendering content into a destination elsewhere on a page. Ember Data now explicitly supports the use of `EmbeddedRecordsMixin` and `JSONAPISerializer` using the `isEmbeddedRecordsMixinCompatible` property in your serializers. Ember CLI now allows syncing Blueprints when running `npx ember-cli-update`, avoiding some potential issues that previously existed when running this flow - checkout the [related RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more.
+3.20 includes several new features for the ecosystem.
+
+- In Ember.js, the `{{in-element}}` helper is available as public API. This helper solves rendering challenges similarly to `ember-wormhole` and `ember-elsewhere`. It allows rendering content into a destination elsewhere on a page.
+- Ember Data explicitly supports the combined use of `EmbeddedRecordsMixin` and `JSONAPISerializer` through the `isEmbeddedRecordsMixinCompatible` property.
+- Ember CLI allows syncing Blueprints when running `npx ember-cli-update`, which avoids some potential issues that previously existed when running this flow. Check out the [related RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more.
 
 For Ember.js, `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying` are now deprecated. There were no new deprecations for Ember Data. Ember CLI now issues a warning for usage on Node 13, and usage of the `PACKAGER` experiment is also now deprecated.
 
