@@ -13,6 +13,7 @@ The magic behind the ember modifiers ✨,
 Demystifying ember-render-modifiers 😎,
 Document Ember apps with Docfy 📗,
 Blog post and RFC on Ember.Component 📖,
+Ember 3.20 Released 🚀,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -100,14 +101,15 @@ Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-emb
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember 3.20 Released 🚀](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) up that announces the release of version 3.20 of Ember.js, Ember Data and Ember CLI! 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+3.20 includes several new features for the ecosystem. In Ember.js there's an `in-element` helper now available as public API. This helper solves rendering challenges similar to `ember-wormhole` or `ember-elsewhere`, and allows rendering content into a destination elsewhere on a page. Ember Data now explicitly supports the use of `EmbeddedRecordsMixin` and `JSONAPISerializer` using the `isEmbeddedRecordsMixinCompatible` property in your serializers. Ember CLI now allows syncing Blueprints when running `npx ember-cli-update`, avoiding some potential issues that previously existed when running this flow - checkout the [related RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more.
+
+For Ember.js, `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying` are now deprecated. There were no new deprecations for Ember Data. Ember CLI now issues a warning for usage on Node 13, and usage of the `PACKAGER` experiment is also now deprecated.
+
+For more information, give the [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) a read.
 
 ---
 
