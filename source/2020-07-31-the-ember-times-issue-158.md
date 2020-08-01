@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 158
 author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
 ---
