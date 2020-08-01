@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 159
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/07-the-ember-times-issue-159.html"
 responsive: true
@@ -9,6 +9,9 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+...
+How to participate in the Ember RFC process 🚀,
+...
 
 READMORE
 
@@ -25,14 +28,18 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [How to participate in the Ember RFC process 🚀](https://github.com/emberjs/rfcs/)
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The Request For Comments (RFC) process is intended to provide a consistent and controlled path for new features to enter the Ember.js framework.
+
+Many changes, including bug fixes and documentation improvements can be implemented and reviewed via the normal GitHub pull request workflow on the appropriate repo. Some changes though are "substantial", and we ask that these be put through a bit of a design process and produce a consensus among the Ember core teams.
+
+...main points to convey...
+
+You can review the process at [emberjs/rfcs](https://github.com/emberjs/rfcs/) and discuss the change in Discord at <insert channel here, not sure which one tbh>.
 
 ---
 
@@ -139,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
