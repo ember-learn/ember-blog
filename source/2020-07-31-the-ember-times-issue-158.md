@@ -70,7 +70,7 @@ He talks about [ember-render-modifiers](https://github.com/emberjs/ember-render-
 <!--alex ignore easy-->
 There are several addons based on ember-modifier, but **ember-render-modifiers** makes it easy to understand its implementation. If you are looking to write your own custom modifiers, then ember-render-modifiers is a good place to start with. Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) today!
 
-P.S. Related to all of this ember-modifier talk, [Robert Jackson (@rwjblue)](https://github.com/rwjblue) just published a major version bump of [ember-modifier](https://github.com/ember-modifier/ember-modifier/) to v2.x, check out the [Changelog](https://github.com/ember-modifier/ember-modifier/blob/master/CHANGELOG.md)!
+P.S. [Robert Jackson (@rwjblue)](https://github.com/rwjblue) recently published a major version bump of [ember-modifier](https://github.com/ember-modifier/ember-modifier/) to v2.x, check out the [Changelog](https://github.com/ember-modifier/ember-modifier/blob/master/CHANGELOG.md)!
 
 ---
 
