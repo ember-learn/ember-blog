@@ -1,41 +1,36 @@
 ---
 title: The Ember Times - Issue No. 158
-author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis the crowd
+author: Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/07/31-the-ember-times-issue-158.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Detect when Ember components enter or leave the viewport 🔍,
-A series of blog posts on ember-modifers and its internals 🎉,
-Document Ember apps with Docfy 📗,
-Blog post and RFC on Ember.Component 📖,
+👋 Emberistas! 🐹
+
 Ember 3.20 Released 🚀,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+a series of blog posts on ember-modifers and its internals 🎉,
+detect when Ember components enter or leave the viewport 🔍,
+a blog post and RFC on Ember.Component 📖,
+and last, but not least, document Ember apps with Docfy 📗!
 
 READMORE
 
 ---
 
-## [Detecting Ember.js Components Entering or Leaving the Viewport 🔍](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)
+## [Ember 3.20 Released 🚀](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html)
 
-[Koushik Radhakrishnan (@Koushikrad)](https://github.com/Koushikrad) wrote a blog post on [detecting when Ember components are entering or leaving the viewport](https://twitter.com/koushikrad/status/1287419970121379840).
+A new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) is up to announce the release of version 3.20 of Ember.js, Ember Data and Ember CLI! 
 
-Consider a dashboard with 10 widget components, each of which makes an API request. When a user lands on the dashboard page, do we need all the widgets to fetch their data at the same time, even if the user's viewport shows only 5 widgets at a time?
+3.20 includes several new features for the ecosystem.
 
-A solution is to use the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon, which detects if an Ember component has entered the browser's viewport. The addon tries a few different approaches (`IntersectionObserver` API, then `requestAnimationFrame`, then the Ember run loop and event listeners) to detect if a DOM element is in the user's browser.
+- In Ember.js, the `{{in-element}}` helper is available as public API. This helper solves rendering challenges similarly to `ember-wormhole` and `ember-elsewhere`. It allows rendering content into a destination elsewhere on a page.
+- Ember Data explicitly supports the combined use of `EmbeddedRecordsMixin` and `JSONAPISerializer` through the `isEmbeddedRecordsMixinCompatible` property.
+- Ember CLI allows syncing Blueprints when running `npx ember-cli-update`, which avoids some potential issues that previously existed when running this flow. Check out the [related RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more.
 
-By hooking up with the addon’s provided `inViewport` service, we are able to request data once the component is within the viewport.
+In Ember.js, `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying` are now deprecated. There were no deprecations for Ember Data. Ember CLI issues a warning for using Node 13 and deprecates the use of the `PACKAGER` experiment.
 
-```javascript
-const { onEnter } = this.inViewport.watchElement(this.element, { viewportTolerance });  
-onEnter(this._renderInView.bind(this));
-```
-
-The components that are not in view will not make a request for API data, unlike the route’s model hook using a `Promise.all`.
-
-Read more about detecting components from the [blog post](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)!
+For more information, give the [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) a read.
 
 ---
 
@@ -58,7 +53,7 @@ In the process of explaining the lifecycle methods, Raja details each step with 
 
 Read more about the element modifier manager and its internals [on dev.to](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40) today!
 
-### [The magic behind the ember modifiers ✨](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c)
+### [The magic behind Ember modifiers ✨](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c)
 
 His third blog post on Ember modifiers is titled [the magic behind the ember modifiers](https://twitter.com/_raja_sk_/status/1285631182697369601?s=20) where he talks about the internal workings of an Ember modifier - a feature that is offered by Ember Octane.
 
@@ -76,6 +71,29 @@ Among several addons that are based on ember modifier, **ember-render-modifiers*
 
 Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) today!
 
+P.S. [Robert Jackson (@rwjblue)](https://github.com/rwjblue) just published a major version bump of [ember-modifier](https://github.com/ember-modifier/ember-modifier/) to v2.x, check out the [Changelog](https://github.com/ember-modifier/ember-modifier/blob/master/CHANGELOG.md)!
+
+---
+
+## [Detecting Ember.js components entering or leaving the viewport 🔍](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)
+
+[Koushik Radhakrishnan (@Koushikrad)](https://github.com/Koushikrad) wrote a blog post on [detecting when Ember components are entering or leaving the viewport](https://twitter.com/koushikrad/status/1287419970121379840).
+
+Consider a dashboard with 10 widget components, each of which makes an API request. When a user lands on the dashboard page, do we need all the widgets to fetch their data at the same time, even if the user's viewport shows only 5 widgets at a time?
+
+A solution is to use the [ember-in-viewport](https://github.com/DockYard/ember-in-viewport) addon, which detects if an Ember component has entered the browser's viewport. The addon tries a few different approaches (`IntersectionObserver` API, then `requestAnimationFrame`, then the Ember run loop and event listeners) to detect if a DOM element is in the user's browser.
+
+By hooking up with the addon’s provided `inViewport` service, we are able to request data once the component is within the viewport.
+
+```javascript
+const { onEnter } = this.inViewport.watchElement(this.element, { viewportTolerance });  
+onEnter(this._renderInView.bind(this));
+```
+
+The components that are not in view will not make a request for API data, unlike the route’s model hook using a `Promise.all`.
+
+Read more about detecting components from the [blog post](https://medium.com/@koushikrad/using-an-ember-cli-addon-detecting-ember-js-components-entering-or-leaving-the-viewport-dda5ad9b46bf)!
+
 ---
 
 ## [Blog post and RFC on Ember.Component 📖](https://mehulkar.com/blog/2020/07/stop-extending-embers-built-in-components/)
@@ -88,33 +106,6 @@ This blog post continues the conversation Mehul started in [an RFC](https://gith
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Ember 3.20 Released 🚀](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html)
-
-A new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) is up to announce the release of version 3.20 of Ember.js, Ember Data and Ember CLI! 
-
-3.20 includes several new features for the ecosystem.
-
-- In Ember.js, the `{{in-element}}` helper is available as public API. This helper solves rendering challenges similarly to `ember-wormhole` and `ember-elsewhere`. It allows rendering content into a destination elsewhere on a page.
-- Ember Data explicitly supports the combined use of `EmbeddedRecordsMixin` and `JSONAPISerializer` through the `isEmbeddedRecordsMixinCompatible` property.
-- Ember CLI allows syncing Blueprints when running `npx ember-cli-update`, which avoids some potential issues that previously existed when running this flow. Check out the [related RFC](https://emberjs.github.io/rfcs/0477-blueprints-update.html) to learn more.
-
-In Ember.js, `Meta.prototype.setSourceDestroyed` and `Meta.prototype.setSourceDestroying` are now deprecated. There were no deprecations for Ember Data. Ember CLI issues a warning for using Node 13 and deprecates the use of the `PACKAGER` experiment.
-
-For more information, give the [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) a read.
-
----
-
 ## [Document Ember apps with Docfy 📗](https://docfy.dev/)
 
 Hope you didn't miss an [exciting announcement](https://twitter.com/josemarluedke/status/1281252101406855169) earlier in July. [Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) released [Docfy](https://docfy.dev/), a cross-framework tool to help you build documentation sites from Markdown files.
@@ -122,28 +113,6 @@ Hope you didn't miss an [exciting announcement](https://twitter.com/josemarluedk
 The best part? Docfy provides official support for Ember.js! You can style the Docfy components and leverage existing [remark](https://remark.js.org/) plugins too.
 
 Check out [Getting Started](https://docfy.dev/docs/ember) to learn more about adding Docfy to your Ember apps.
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -173,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, the crowd and the Learning Team
+Chris Ng, Abhilash LR, Isaac Lee, Jared Galanis, Amy Lam and the Learning Team
