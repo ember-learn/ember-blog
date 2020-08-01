@@ -9,7 +9,7 @@ responsive: true
 👋 Emberistas! 🐹
 
 Ember 3.20 Released 🚀,
-a series of blog posts on ember-modifers and its internals 🎉,
+a series of blog posts on ember-modifer and its internals 🎉,
 detect when Ember components enter or leave the viewport 🔍,
 a blog post and RFC on Ember.Component 📖,
 and last, but not least, document Ember apps with Docfy 📗!
@@ -34,44 +34,43 @@ For more information, give the [Ember.js blog post](https://blog.emberjs.com/202
 
 ---
 
-## [A series of blog posts on ember-modifers and its internals 🎉](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40)
+## [A series of blog posts on ember-modifer and its internals 🎉](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40)
 
-Have you been looking to get started with ember-modifiers with your Ember.js applications?
+Have you been looking to get started with ember-modifier in your Ember.js applications?
 
-[Raja SK (@RajaSK05)](https://github.com/RajaSK05) wrote a series of blog posts on **ember modifiers**.
+[Raja SK (@RajaSK05)](https://github.com/RajaSK05) wrote a series of blog posts on **Ember modifiers**.
 
 ### [How do Ember Modifiers get to be managed internally? 🥼](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40)
 
-In continuation of his first blog post titled [reusable DOM behavior in React vs Ember](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04), Raja wrote a second blog post that details about the ember modifier internals and what an **element modifier manager** is. He begins by talking about the modifier lifecycle methods. A modifier lifecycle consists of:
+In continuation of his first blog post [reusable DOM behavior in React vs Ember](https://dev.to/rajask05/reusable-dom-behavior-in-react-vs-ember-4p04), Raja wrote a second post detailing the ember-modifier internals and what an **element modifier manager** is. He begins by talking about the modifier lifecycle methods. A modifier lifecycle consists of:
 
 - createModifier()
 - installModifier()
 - updateModifier()
 - destroyModifier()
 
-In the process of explaining the lifecycle methods, Raja details each step with code snippets that make us understand what each of them means.
+In the process of explaining the lifecycle methods, Raja details each step with code snippets that help the reader understand what each of them means.
 
 Read more about the element modifier manager and its internals [on dev.to](https://dev.to/_raja_sk_/how-do-ember-modifiers-get-to-be-managed-internally-1i40) today!
 
 ### [The magic behind Ember modifiers ✨](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c)
 
-His third blog post on Ember modifiers is titled [the magic behind the ember modifiers](https://twitter.com/_raja_sk_/status/1285631182697369601?s=20) where he talks about the internal workings of an Ember modifier - a feature that is offered by Ember Octane.
+Raja SK's third blog post on Ember modifiers is titled [the magic behind the ember modifiers](https://twitter.com/_raja_sk_/status/1285631182697369601?s=20), where he talks about the internal workings of an Ember modifier - a feature that is offered by Ember Octane.
 
-In the process of explaining how a modifier works, he showcases by writing a simple autofocus modifier using the functional modifier approach.
+In the process of explaining how a modifier works, he showcases its use by writing a simple autofocus modifier using the functional modifier approach.
 
-For more details on the blog, read it today [on dev.to](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c).
+For more details on the blog, check it out [on dev.to](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c).
 
 ### [Demystifying ember-render-modifiers 😎](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57)
 
-As a succession to the previous three blog posts on Ember modifiers, [Raja SK (@RajaSK05)](https://github.com/RajaSK05) talks about [demystifying ember-render-modifiers](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) in his fourth blog post.
+Finally, Raja SK's fourth blog post talks about [demystifying ember-render-modifiers](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57).
 
-In this blog post, he talks about the [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers) that provides element modifiers that can be used to hook into specific portions of the rendering lifecycle of a component.
+He talks about [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers), which provide element modifiers that can be used to hook into specific portions of the rendering lifecycle of a component.
 
-Among several addons that are based on ember modifier, **ember-render-modifiers** is one of its kind that is simple to follow and understand its implementation. If you are looking to write your own custom modifiers, then ember-render-modifiers is a good place to start with.
+<!--alex ignore easy-->
+There are several addons based on ember-modifier, but **ember-render-modifiers** makes it easy to understand its implementation. If you are looking to write your own custom modifiers, then ember-render-modifiers is a good place to start with. Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) today!
 
-Read more on the [blog post on dev.to](https://dev.to/_raja_sk_/demystifying-ember-render-modifiers-3j57) today!
-
-P.S. [Robert Jackson (@rwjblue)](https://github.com/rwjblue) just published a major version bump of [ember-modifier](https://github.com/ember-modifier/ember-modifier/) to v2.x, check out the [Changelog](https://github.com/ember-modifier/ember-modifier/blob/master/CHANGELOG.md)!
+P.S. Related to all of this ember-modifier talk, [Robert Jackson (@rwjblue)](https://github.com/rwjblue) just published a major version bump of [ember-modifier](https://github.com/ember-modifier/ember-modifier/) to v2.x, check out the [Changelog](https://github.com/ember-modifier/ember-modifier/blob/master/CHANGELOG.md)!
 
 ---
 
@@ -102,7 +101,7 @@ There's an interesting perspective about how your team might handle usage of Emb
 
 The post indicates that in order to avoid introducing breaking changes you may want to consider not extending `Ember.Component` since `GlimmerComponent` does not have the same methods to support such extension.
 
-This blog post continues the conversation Mehul started in [an RFC](https://github.com/emberjs/rfcs/issues/587) on the subject earlier this year that proposes making `@ember/component` an optional feature. Conversations like these are vital to the health of Ember's ecosystem so if you're interested in participating in this conversation and have opinions head on over to the RFC and provide some feedback. 
+This blog post continues the conversation Mehul started in [an RFC](https://github.com/emberjs/rfcs/issues/587) on the subject earlier this year that proposes making `@ember/component` an optional feature. Conversations like these are vital to the health of Ember's ecosystem! So if you're interested in participating in this conversation and have opinions, head on over to the RFC and provide some feedback. 
 
 ---
 
