@@ -9,6 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+  
+<!--alex ignore just-->
 Just released: stable version of ember-bootstrap v4 💥
 ...
 
@@ -27,6 +29,7 @@ READMORE
 
 ---
 
+<!--alex ignore just-->
 ## [Just released: stable version of ember-bootstrap v4 💥](https://twitter.com/simonihmig/status/1290710885070262275)
 
 [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) announced the release of the **stable** version of ember-bootstrap v4, [tweeting](https://twitter.com/simonihmig/status/1290710885070262275) that it's another step toward a full Octane refactoring! Glimmer components are coming next. 
