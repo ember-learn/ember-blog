@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 159
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/07-the-ember-times-issue-159.html"
 responsive: true
@@ -9,6 +9,8 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Just released: stable version of ember-bootstrap v4 💥
+...
 
 READMORE
 
@@ -25,14 +27,13 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Just released: stable version of ember-bootstrap v4 💥](https://twitter.com/simonihmig/status/1290710885070262275)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Simon Ihmig (@simonihmig)](https://github.com/simonihmig) announced the release of the **stable** version of ember-bootstrap v4, [tweeting](https://twitter.com/simonihmig/status/1290710885070262275) that it's another step toward a full Octane refactoring! Glimmer components are coming next. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Bootstrap users can check out the full list of changes in the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). For breaking changes, give [ember-bootstrap-codemods](https://github.com/kaliber5/ember-bootstrap-codemods) a try. We are appreciative of all the codemods in the Ember community!
+
+Not familiar with ember-bootstrap? It's an ember-cli addon that provides a collection of native Ember components that mimic the [original Bootstrap](https://getbootstrap.com/) plugins and components in an Ember-friendly way, replacing the need for `bootstrap.js`. For more info, check out the [website](https://www.ember-bootstrap.com/) and the corresponding [repo](https://github.com/kaliber5/ember-bootstrap).
 
 ---
 
@@ -139,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
