@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 159
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/07-the-ember-times-issue-159.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Check out ember-dayjs-helpers 🕰️,
 READMORE
 
 ---
@@ -80,14 +80,19 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Check out ember-dayjs-helpers 🕰️](https://github.com/rajasegar/ember-dayjs-helpers)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created the [ember-dayjs-helpers](https://github.com/rajasegar/ember-dayjs-helpers) library which contains over 30+ template helpers based on [day.js](https://day.js.org/en), a fast 2kB alternative to Moment.js with the same modern API.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In your templates, you can easily use day.js APIs using the provided helpers. For example, you can use the `{{day-js}}` helper to display the current date or format a date provided.
+
+```hbs
+{{day-js}} => Display today's date
+{{day-js date='2019-01-25' format='DD-MM-YYYY'}} => 25-01-2019
+{{day-js date='2019-01-25' format='DD MMMM YYYY'}} => 25 January 2019
+```
+
+Check out the full project with the list of helpers provided on [GitHub](https://github.com/rajasegar/ember-dayjs-helpers)!
 
 ---
 
@@ -139,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
