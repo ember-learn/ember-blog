@@ -84,6 +84,7 @@ READMORE
 
 [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created the [ember-dayjs-helpers](https://github.com/rajasegar/ember-dayjs-helpers) library which contains over 30+ template helpers based on [day.js](https://day.js.org/en), a fast 2kB alternative to Moment.js with the same modern API.
 
+<!--alex ignore easy-->
 In your templates, you can easily use day.js APIs using the provided helpers. For example, you can use the `{{day-js}}` helper to display the current date or format a date provided.
 
 ```hbs
