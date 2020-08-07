@@ -36,7 +36,7 @@ READMORE
 
 Bootstrap users can check out the full list of changes in the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). For breaking changes, give [ember-bootstrap-codemods](https://github.com/kaliber5/ember-bootstrap-codemods) a try. We are appreciative of all the codemods in the Ember community!
 
-Not familiar with ember-bootstrap? It's an ember-cli addon that provides a collection of native Ember components that mimic the [original Bootstrap](https://getbootstrap.com/) plugins and components in an Ember-friendly way, replacing the need for `bootstrap.js`. For more info, check out the [website](https://www.ember-bootstrap.com/) and the corresponding [repo](https://github.com/kaliber5/ember-bootstrap).
+Not familiar with ember-bootstrap? It's an Ember CLI addon that provides a collection of Ember components that mimic the [original Bootstrap](https://getbootstrap.com/) plugins and components in an Ember-friendly way, replacing the need for `bootstrap.js`. For more info, check out the [website](https://www.ember-bootstrap.com/) and the corresponding [repo](https://github.com/kaliber5/ember-bootstrap).
 
 ---
 
