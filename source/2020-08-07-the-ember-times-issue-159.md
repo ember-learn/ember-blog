@@ -1,30 +1,16 @@
 ---
 title: The Ember Times - Issue No. 159
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/07-the-ember-times-issue-159.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Just released: stable version of ember-bootstrap v4 💥
-Check out ember-dayjs-helpers 🕰️,
-...
+Just released: stable version of ember-bootstrap v4 💥, and check out ember-dayjs-helpers 🕰️!
 
 READMORE
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -36,50 +22,6 @@ READMORE
 Bootstrap users can check out the full list of changes in the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). For breaking changes, give [ember-bootstrap-codemods](https://github.com/kaliber5/ember-bootstrap-codemods) a try. We are appreciative of all the codemods in the Ember community!
 
 Not familiar with ember-bootstrap? It's an Ember CLI addon that provides a collection of Ember components that mimic the [original Bootstrap](https://getbootstrap.com/) plugins and components in an Ember-friendly way, replacing the need for `bootstrap.js`. For more info, check out the [website](https://www.ember-bootstrap.com/) and the corresponding [repo](https://github.com/kaliber5/ember-bootstrap).
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -100,31 +42,9 @@ Check out the full project with the list of helpers provided on [GitHub](https:/
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="undefined" rel="noopener noreferrer" target="_blank">@amyrlam</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@bmish</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@chriskrycho</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@chrisrng</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@dcyriller</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@ghedamat</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@ijlee2</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@krisselden</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@locks</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@mehulkar</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@miguelverissimo</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@nickschot</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@pzuraq</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@rwjblue</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@snewcomer</a>, <a href="undefined" rel="noopener noreferrer" target="_blank">@tashvaqa</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -148,4 +68,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, and the Learning Team
