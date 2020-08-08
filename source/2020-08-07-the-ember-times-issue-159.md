@@ -8,6 +8,7 @@ responsive: true
 
 👋 Emberistas! 🐹
 
+<!--alex ignore just-->
 Just released: stable version of ember-bootstrap v4 💥, and check out ember-dayjs-helpers 🕰️!
 
 READMORE
