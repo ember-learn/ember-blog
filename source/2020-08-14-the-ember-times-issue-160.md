@@ -108,7 +108,7 @@ READMORE
 
 If this sounds right up your alley you can [upload your video on Dropbox](https://www.dropbox.com/request/4YAbKdJmvD9E0yqjVsz4).
 
-Alternatively, if webcams aren’t your thing, maybe you have some fun video impressions from the past years that capture the spirit of the conference. EmberFest folk strolling through that year's city, at the dinner party, or while in transit; anything that reflects the EmberFest vibe and builds anticipation for our next in-person gathering is great and much appreciated!
+Alternatively, if webcams aren’t your thing, maybe you have some fun video impressions from the past years that capture the spirit of the conference. Ember developers strolling through that year's city, at the dinner party, or while in transit. Anything that reflects the EmberFest vibe and builds anticipation for our next in-person gathering is great and much appreciated!
 
 ---
 
