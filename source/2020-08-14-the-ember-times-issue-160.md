@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 160
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/14-the-ember-times-issue-160.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+EmberFest: Share your virtual Hello with us! 🐹,
 READMORE
 
 ---
@@ -102,14 +102,13 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [EmberFest: Share your virtual Hello with us! 🐹](https://mailchi.mp/a241158d3c66/welcome-to-the-line-up-of-emberfest-6442608?e=7124c8fef8)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[EmberFest](http://emberfest.eu/), the European EmberJS conference, is [skipping](https://twitter.com/EmberFest/status/1263453851459497984) this year’s conference due to COVID-19. However, the organizers of the conference are [looking for people](https://mailchi.mp/a241158d3c66/welcome-to-the-line-up-of-emberfest-6442608?e=7124c8fef8) who are interested in sharing a personal message or a short Hello video virtually.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If this sounds right up your alley you can [upload your video on Dropbox](https://www.dropbox.com/request/4YAbKdJmvD9E0yqjVsz4).
+
+Alternatively, if webcams aren’t your thing, maybe you have some fun video impressions from the past years that capture the spirit of the conference. Ember developers strolling through that year's city, at the dinner party, or while in transit. Anything that reflects the EmberFest vibe and builds anticipation for our next in-person gathering is great and much appreciated!
 
 ---
 
@@ -139,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
