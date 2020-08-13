@@ -104,7 +104,7 @@ READMORE
 
 ## [EmberFest: Share your virtual Hello with us! 🐹](https://mailchi.mp/a241158d3c66/welcome-to-the-line-up-of-emberfest-6442608?e=7124c8fef8)
 
-[EmberFest](http://emberfest.eu/) the European EmberJS conference, is [skipping](https://twitter.com/EmberFest/status/1263453851459497984) this year’s conference due to COVID-19. The organizers of the conference are looking for people who are interested in sharing a personal message or a short Hello video with the rest of the attendees.
+[EmberFest](http://emberfest.eu/), the European EmberJS conference, is [skipping](https://twitter.com/EmberFest/status/1263453851459497984) this year’s conference due to COVID-19. However, the organizers of the conference are [looking for people](https://mailchi.mp/a241158d3c66/welcome-to-the-line-up-of-emberfest-6442608?e=7124c8fef8) who are interested in sharing a personal message or a short Hello video virtually.
 
 If this sounds right up your alley you can [upload your video on Dropbox](https://www.dropbox.com/request/4YAbKdJmvD9E0yqjVsz4).
 
