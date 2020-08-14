@@ -38,7 +38,7 @@ Check out the full interview on [the Ember Discuss forum](https://discuss.emberj
 
 <a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127">Read more</a>
 
-<p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
+<p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources, and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
 
 ---
 
