@@ -111,9 +111,9 @@ Be sure to check out Rajasegar's [talk](https://www.youtube.com/watch?v=uZrVHGEj
 
 If you haven't seen [Rajasegar Chandran's (@rajasegar)](https://github.com/rajasegar) fantastic new experimental terminal UI for `ember-cli`, [`ember-cli-next`](https://github.com/rajasegar/ember-cli-next), you may want to check it out.
 
-There are some pretty compelling ideas being presented in `ember-cli-next` around what a command line tool user interface could look like in the future. `ember-cli-next` allows `ember-cli` commands and project tasks to be displayed within a single unified terminal window.
+There are some pretty compelling ideas being presented in `ember-cli-next` around what command line user interface tooling could look like in the future. `ember-cli-next` allows `ember-cli` commands and project tasks to be displayed within a single unified terminal window.
 
-There is also a brief video demo to watch on [YouTube](https://www.youtube.com/watch?v=do9sRiOxenA&feature=youtu.be), that shows some of the things that `ember-cli-next` can do, and of course you can take a look at the repo [here](https://github.com/rajasegar/ember-cli-next).
+There is also a brief video demo to watch on [YouTube](https://www.youtube.com/watch?v=do9sRiOxenA&feature=youtu.be) that shows some of the things that `ember-cli-next` can do, and of course you can take a look at the repo [here](https://github.com/rajasegar/ember-cli-next).
 
 ---
 
