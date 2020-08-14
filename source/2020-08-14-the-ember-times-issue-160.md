@@ -83,7 +83,7 @@ Last month, [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) gave
 In addition, Rajasegar published an addon called [ember-csz](https://github.com/rajasegar/ember-csz). It provides a template helper so that we can try out `csz` in our Ember app.
 
 ```handlebars
-{{!-- app/compoments/my-button.hbs --}}
+{{!-- app/components/my-button.hbs --}}
 <button class={{this.styleForButton}} type="button">
   {{@label}}
 </button>
