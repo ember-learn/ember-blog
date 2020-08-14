@@ -12,6 +12,7 @@ responsive: true
 How to participate in the Ember RFC process 🚀,
 EmberFest: Share your virtual Hello with us! 🐹,
 Learn how to use csz in your Ember app 🌟,
+ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥,
 
 READMORE
 
