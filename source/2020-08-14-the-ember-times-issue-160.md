@@ -90,7 +90,7 @@ In addition, Rajasegar published an addon called [ember-csz](https://github.com/
 ```
 
 ```javascript
-// app/compoments/my-button.js
+// app/components/my-button.js
 import Component from '@glimmer/component';
 import csz from 'csz';
 
