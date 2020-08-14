@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 How to participate in the Ember RFC process 🚀,
 EmberFest: Share your virtual Hello with us! 🐹,
+Learn how to use csz in your Ember app 🌟,
 
 READMORE
 
@@ -75,14 +76,34 @@ All in all, the RFC process is important to the growth of our community, but it 
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Learn how to use csz in your Ember app 🌟](https://dev.to/rajasegar/ember-csz-a-css-in-js-solution-for-styling-in-ember-2mpp)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Last month, [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) gave a [virtual talk](https://www.youtube.com/watch?v=uZrVHGEjLhs) at ESNextConf. 🎉 He talked about [csz](https://github.com/lukejacksonn/csz), a super tiny, framework-agnostic CSS-in-JS solution.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In addition, Rajasegar published an addon called [ember-csz](https://github.com/rajasegar/ember-csz). It provides a template helper so that we can try out `csz` in our Ember app.
+
+```handlebars
+{{!-- app/components/my-button.hbs --}}
+<button class={{this.styleForButton}} type="button">
+  {{@label}}
+</button>
+```
+
+```javascript
+// app/components/my-button.js
+import Component from '@glimmer/component';
+import csz from 'csz';
+
+export default class MyButtonComponent extends Component {
+  styleForButton = csz`
+    background: ${this.args.primary ? 'palevioletred' : 'white'};
+    color: ${this.args.primary ? 'white' : 'palevioletred'};
+    padding: 0.25em 1em;
+  `;
+}
+```
+
+Be sure to check out Rajasegar's [talk](https://www.youtube.com/watch?v=uZrVHGEjLhs) and [blog post about ember-csz](https://dev.to/rajasegar/ember-csz-a-css-in-js-solution-for-styling-in-ember-2mpp) to learn more!
 
 ---
 
