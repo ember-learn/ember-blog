@@ -30,7 +30,7 @@ READMORE
   <img alt="Jared Galanis" title="Jared Galanis - Contributor to Ember" src="/images/blog/emberjstimes/jared_galanis.jpg" />
 </div>
 
-In the **fifteenth edition** of our contributor interview series, we're highlighting The Ember Times' very own [Isaac Lee (@ijlee2)](https://github.com/ijlee2) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis). We'd like to thank Isaac and Jared for their contributions to the Ember community, and congratulate them for joining the Ember Learning Core Team!
+In the **15th edition** of our contributor interview series, we're highlighting The Ember Times' very own [Isaac Lee (@ijlee2)](https://github.com/ijlee2) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis). We'd like to thank Isaac and Jared for their contributions to the Ember community, and congratulate them for joining the Ember Learning Core Team!
 
 TODO: add teaser blurb!
 
