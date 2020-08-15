@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 159
 author: Chris Ng, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/07-the-ember-times-issue-159.html"
 responsive: true
 ---
