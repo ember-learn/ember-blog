@@ -1,28 +1,24 @@
 ---
 title: The Ember Times - Issue No. 160
-author: Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, the crowd
+author: Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/14-the-ember-times-issue-160.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 "I contribute to Ember" with Isaac Lee and Jared Galanis 🙌,
-How to participate in the Ember RFC process 🚀,
+how to participate in the Ember RFC process 🚀,
 EmberFest: Share your virtual Hello with us! 🐹,
-Learn how to use csz in your Ember app 🌟,
-ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥,
+learn how to use csz in your Ember app 🌟,
+and last, but not least, ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥!
 
 READMORE
 
 ---
 
 ## ["I contribute to Ember" with Isaac Lee and Jared Galanis 🙌](https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127)
-
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <div class="float-right padded portrait-frame">
   <img alt="Isaac Lee" title="Isaac Lee - Contributor to Ember" src="/images/blog/emberjstimes/isaac_lee.jpg" />
@@ -70,28 +66,6 @@ All in all, the RFC process is important to the growth of our community, but it 
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Learn how to use csz in your Ember app 🌟](https://dev.to/rajasegar/ember-csz-a-css-in-js-solution-for-styling-in-ember-2mpp)
 
 Last month, [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) gave a [virtual talk](https://www.youtube.com/watch?v=uZrVHGEjLhs) at ESNextConf. 🎉 He talked about [csz](https://github.com/lukejacksonn/csz), a super tiny, framework-agnostic CSS-in-JS solution.
@@ -133,28 +107,6 @@ There is also a brief video demo to watch on [YouTube](https://www.youtube.com/w
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [EmberFest: Share your virtual Hello with us! 🐹](https://mailchi.mp/a241158d3c66/welcome-to-the-line-up-of-emberfest-6442608?e=7124c8fef8)
 
 [EmberFest](http://emberfest.eu/), the European EmberJS conference, is [skipping](https://twitter.com/EmberFest/status/1263453851459497984) this year’s conference due to COVID-19. However, the organizers of the conference are [looking for people](https://mailchi.mp/a241158d3c66/welcome-to-the-line-up-of-emberfest-6442608?e=7124c8fef8) who are interested in sharing a personal message or a short Hello video virtually.
@@ -191,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, the crowd and the Learning Team
+Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, and the Learning Team
