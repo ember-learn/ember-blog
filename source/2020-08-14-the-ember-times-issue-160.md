@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 160
 author: Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/14-the-ember-times-issue-160.html"
 responsive: true
 ---
