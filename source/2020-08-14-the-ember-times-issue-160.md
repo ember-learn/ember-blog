@@ -30,9 +30,7 @@ READMORE
 
 In the **15th edition** of our contributor interview series, we're highlighting The Ember Times' very own [Isaac Lee (@ijlee2)](https://github.com/ijlee2) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis). We'd like to thank Isaac and Jared for their contributions to the Ember community, and congratulate them for joining the Ember Learning Core Team!
 
-TODO: add teaser blurb!
-
-Check out the full interview on [the Ember Discuss forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127).
+Check out the full interview on [the Ember Discuss forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127). They discuss their biggest motivations in contributing to Ember and how they got started in open source.
 
 <a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127">Read more</a>
 
