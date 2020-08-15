@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 160
-author: Melanie Sumner, Chris Ng, Amy Lam, the crowd
+author: Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/14-the-ember-times-issue-160.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+"I contribute to Ember" with Isaac Lee and Jared Galanis 🙌,
 How to participate in the Ember RFC process 🚀,
 EmberFest: Share your virtual Hello with us! 🐹,
 Learn how to use csz in your Ember app 🌟,
@@ -18,14 +19,28 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## ["I contribute to Ember" with Isaac Lee and Jared Galanis 🙌](https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127)
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<div class="float-right padded portrait-frame">
+  <img alt="Isaac Lee" title="Isaac Lee - Contributor to Ember" src="/images/blog/emberjstimes/isaac_lee.jpg" />
+</div>
+
+<div class="float-right padded portrait-frame">
+  <img alt="Jared Galanis" title="Jared Galanis - Contributor to Ember" src="/images/blog/emberjstimes/jared_galanis.jpg" />
+</div>
+
+In the **15th edition** of our contributor interview series, we're highlighting The Ember Times' very own [Isaac Lee (@ijlee2)](https://github.com/ijlee2) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis). We'd like to thank Isaac and Jared for their contributions to the Ember community, and congratulate them for joining the Ember Learning Core Team!
+
+TODO: add teaser blurb!
+
+Check out the full interview on [the Ember Discuss forum](https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127).
+
+<a class="ember-button ember-button--centered" href="https://discuss.emberjs.com/t/i-contribute-to-ember-with-isaac-lee-and-jared-galanis/18127">Read more</a>
+
+<p style="font-style: italic;">The idea behind these interviews is to provide community members with more information and insight into open source contributions, learning resources, and community events. Contributors to the community gain a platform to share their thoughts on their own experiences and learnings as they were contributing to Ember. Our hope is that it gives first-time and advancing contributors a better sense of the fact that everyone starts out small, and that anyone can have a big impact on the community.</p>
 
 ---
 
@@ -176,4 +191,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Melanie Sumner, Chris Ng, Amy Lam, the crowd and the Learning Team
+Melanie Sumner, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, the crowd and the Learning Team
