@@ -10,9 +10,9 @@ responsive: true
 
 "I contribute to Ember" with Isaac Lee and Jared Galanis 🙌,
 how to participate in the Ember RFC process 🚀,
-EmberFest: Share your virtual Hello with us! 🐹,
+EmberFest: share your virtual Hello with us! 🐹,
 learn how to use csz in your Ember app 🌟,
-and last, but not least, ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥!
+and last, but not least, ember-cli-next: an experimental terminal UI for `ember-cli` 🔥!
 
 READMORE
 
@@ -95,7 +95,7 @@ Be sure to check out Rajasegar's [talk](https://www.youtube.com/watch?v=uZrVHGEj
 
 ---
 
-## [ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥](https://twitter.com/rajasegar_c/status/1292731035164188673)
+## [ember-cli-next: An experimental terminal UI for `ember-cli` 🔥](https://twitter.com/rajasegar_c/status/1292731035164188673)
 
 If you haven't seen [Rajasegar Chandran's (@rajasegar)](https://github.com/rajasegar) fantastic new experimental terminal UI for `ember-cli`, [`ember-cli-next`](https://github.com/rajasegar/ember-cli-next), you may want to check it out.
 
