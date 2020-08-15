@@ -12,6 +12,7 @@ responsive: true
 How to participate in the Ember RFC process 🚀,
 EmberFest: Share your virtual Hello with us! 🐹,
 Learn how to use csz in your Ember app 🌟,
+ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥,
 
 READMORE
 
@@ -107,14 +108,13 @@ Be sure to check out Rajasegar's [talk](https://www.youtube.com/watch?v=uZrVHGEj
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-cli-next: An Experimental Terminal UI for `ember-cli` 🔥](https://twitter.com/rajasegar_c/status/1292731035164188673)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you haven't seen [Rajasegar Chandran's (@rajasegar)](https://github.com/rajasegar) fantastic new experimental terminal UI for `ember-cli`, [`ember-cli-next`](https://github.com/rajasegar/ember-cli-next), you may want to check it out.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+There are some pretty compelling ideas being presented in `ember-cli-next` around what command line user interface tooling could look like in the future. `ember-cli-next` allows `ember-cli` commands and project tasks to be displayed within a single unified terminal window.
+
+There is also a brief video demo to watch on [YouTube](https://www.youtube.com/watch?v=do9sRiOxenA&feature=youtu.be) that shows some of the things that `ember-cli-next` can do, and you can take a look at the repo [here](https://github.com/rajasegar/ember-cli-next).
 
 ---
 
