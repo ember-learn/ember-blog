@@ -97,7 +97,7 @@ It is worth mentioning that other things need to be done in order to get Embroid
 
 ## [New Free Video and Instructor on EmberMap 📹](https://twitter.com/ember_map/status/1295828816011636743)
 
-EmberMap has a new instructor! [Lindsay Cade (@cadeParade)](https://github.com/cadeParade) has joined the EmberMap crew and they have recently released her first video which covers testing loading states 🎉. Bonus, this instructional video is free!
+EmberMap has a new instructor! [Lindsay Cade (@cadeParade)](https://github.com/cadeParade) has joined the EmberMap crew and released her first video, which covers testing loading states 🎉. Bonus, this instructional video is free!
 
 Lindsay teaches us how to use the wait helpers built into `ember-test-helpers` to ensure that you can write robust tests around loading state that wait for async behavior to resolve before making assertions.
 
