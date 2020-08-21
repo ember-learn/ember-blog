@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 161
-author: Chris Ng, the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-component-template-colocation-migrator now supports addons 🎉,
 READMORE
 
@@ -45,14 +46,13 @@ Try it out today by running the migrator in your app or addon: `npx github:ember
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Built with Ember.js: 10001 virtual art exhibit 🎨](https://10001.undercurrent.nyc/exhibit/teams)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Moacir P. de Sá Pereira (@muziejus)](http://github.com/muziejus) announced in a [tweet](https://twitter.com/muziejus/status/1291818497895477248) that while on vacation 🏝, he's been helping an art gallery put together a website for a virtual exhibition: [10001.undercurrent.nyc](https://10001.undercurrent.nyc/).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+> On August 5, [Undercurrent](https://undercurrent.nyc/) launched “10001,” a collaborative virtual project that continues through September 12. This project is co-organized by the [European Union National Institutes of Culture](https://eunicglobal.eu/)’s New York Cluster. Borrowing the zip code from both the Empire State Building and New York City’s Central Post Office, “10001” focuses on the collaboration of strangers and the narrative of their collective creative process using New York City as the linchpin. Coming from a variety of disciplines, twelve European Union artists who have never met each other will be randomly paired, making up a total of six teams. Through a series of Zoom sessions, each team will spend a six-week period developing a single project that will reimagine NYC post March 20, 2020.
+
+The 10001 website is built with Ember 3.18! It's fantastic to see Ember.js being used **in the wild**, and we think that the site design is pretty rad too. Look forward to checking out the content as the artists continue their work on this pandemic-friendly exhibition. 
 
 ---
 
@@ -159,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
