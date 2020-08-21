@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 161
-author: Chris Ng, Amy Lam, Jared Galanis the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
@@ -11,7 +11,9 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-component-template-colocation-migrator now supports addons 🎉,
+ember-mobile-menu v2 released 📱,
 Help with Embroider Readiness 🔥,
+  
 READMORE
 
 ---
@@ -54,6 +56,22 @@ Try it out today by running the migrator in your app or addon: `npx github:ember
 > On August 5, [Undercurrent](https://undercurrent.nyc/) launched “10001,” a collaborative virtual project that continues through September 12. This project is co-organized by the [European Union National Institutes of Culture](https://eunicglobal.eu/)’s New York Cluster. Borrowing the zip code from both the Empire State Building and New York City’s Central Post Office, “10001” focuses on the collaboration of strangers and the narrative of their collective creative process using New York City as the linchpin. Coming from a variety of disciplines, twelve European Union artists who have never met each other will be randomly paired, making up a total of six teams. Through a series of Zoom sessions, each team will spend a six-week period developing a single project that will reimagine NYC post March 20, 2020.
 
 The 10001 website is built with Ember 3.18! It's fantastic to see Ember.js being used **in the wild**, and we think that the site design is pretty rad too. Look forward to checking out the content as the artists continue their work on this pandemic-friendly exhibition. 
+
+---
+
+## [ember-mobile-menu v2 released 📱](https://nickschot.github.io/ember-mobile-menu/)
+
+Earlier in August, [Nick Schot (@nickschot)](https://github.com/nickschot) [announced the v2 release](https://twitter.com/nickschot/status/1290009657373626368) of `ember-mobile-menu`.
+
+<!-- alex ignore retext-equality -->
+In case you weren't aware, [`ember-mobile-menu`](https://github.com/nickschot/ember-mobile-menu) provides a gesture-enabled hamburger menu. You can check out a real-world implementation in [Empress Hummingbird](https://empress-hummingbird.netlify.app/).
+
+For a complete list of new features in v2, we encourage you to check out Nick's [tweet](https://twitter.com/nickschot/status/1290009657373626368) and the [repo changelog](https://github.com/nickschot/ember-mobile-menu/blob/master/CHANGELOG.md#v200-2020-08-01). Here are a few of the best:
+
+- Written in Octane (v3.20 at the time of writing)
+- Spring physics and cancellable/resumable finishing animations
+- Various menu styles
+- FastBoot support
 
 ---
 
@@ -168,4 +186,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jared Galanis the crowd and the Learning Team
+
+Chris Ng, Amy Lam, Isaac Lee, Jared Galanis the crowd and the Learning Team
