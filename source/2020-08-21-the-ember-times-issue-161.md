@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 161
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
@@ -9,19 +9,39 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+ember-component-template-colocation-migrator now supports addons 🎉,
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Release of ember-component-template-colocation-migrator 1.1.0 🎉](https://github.com/ember-codemods/ember-component-template-colocation-migrator/releases/tag/v1.1.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [ember-component-template-colocation-migrator](https://github.com/ember-codemods/ember-component-template-colocation-migrator) codemod co-locates component JS and HBS files as described in the [Component Templates Co-location RFC](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html). The v1.1.0 release adds [support for migrating addons](https://github.com/ember-codemods/ember-component-template-colocation-migrator/pull/14), but templates shared by multiple components are excluded. In this case, it is up to end users how to list those; they are reported in the same way other skipped templates (like partials) are. Similarly, mixins that use layout are not migrated.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+When running the codemod, instead of:
+
+
+```sh
+your-addon/
+  addon/
+    components/
+      some-component.js
+    templates/
+      components/
+        some-component.hbs
+```
+
+You will get:
+
+```sh
+your-addon/
+  addon/
+    components/
+      some-component.js
+      some-component.hbs
+```
+
+Try it out today by running the migrator in your app or addon: `npx github:ember-codemods/ember-component-template-colocation-migrator`
 
 ---
 
@@ -139,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
