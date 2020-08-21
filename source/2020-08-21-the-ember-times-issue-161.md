@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 161
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-component-template-colocation-migrator now supports addons 🎉,
+Help with Embroider Readiness 🔥,
 READMORE
 
 ---
@@ -56,14 +57,22 @@ The 10001 website is built with Ember 3.18! It's fantastic to see Ember.js being
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Help with Embroider Readiness 🔥](https://github.com/emberjs/ember.js/issues/19099)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Yehuda Katz (@wycats)](https://github.com/wycats) opened a [meta issue](https://github.com/emberjs/ember.js/issues/19099) this week concerning the readiness of [Embroider](https://github.com/embroider-build/embroider), Ember's next build system. The issue is meant to track the steps that must be taken before people can practically use Ember with Embroider as a supported option with route-based code splitting ("Embroider readiness").
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+An app that enables Embroider's route-based code splitting with `splitAtRoutes` mode must be able to operate in the presence of the following flags (which means the app is not using classic dynamic features):
+
+- staticAddonTestSupportTrees
+- staticAddonTrees
+- staticHelpers
+- staticComponents
+
+The first target for Emroider readiness is to create a transition path to route-based code splitting, which means that all addons included in the default blueprint must be able to do so. It also means that addons that are frequently used in real-world applications, such as `ember-concurrency`, need to be able to enable these flags.
+
+Embroider is a really important next step for the future of Ember and it would be helpful for anyone interested to test out Embroider readiness in their addon or application in `splitAtRoutes` mode with these flags enabled and provide feedback. If you are inclined, head on over to the [meta issue](https://github.com/emberjs/ember.js/issues/19099) and give it a read.
+
+It is worth mentioning that other things need to be done in order to get Embroider stabilized for use in Ember and you can check that list out in [Ed Faulkner's (@ef4)](https://github.com/ef4) tracking issue [here](https://github.com/embroider-build/embroider/issues/501).
 
 ---
 
@@ -159,4 +168,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jared Galanis the crowd and the Learning Team
