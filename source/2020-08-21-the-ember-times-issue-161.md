@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 161
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-component-template-colocation-migrator now supports addons 🎉,
+ember-mobile-menu v2 released 📱,
 READMORE
 
 ---
@@ -56,14 +57,19 @@ The 10001 website is built with Ember 3.18! It's fantastic to see Ember.js being
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-mobile-menu v2 released 📱](https://nickschot.github.io/ember-mobile-menu/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Earlier in August, [Nick Schot (@nickschot)](https://github.com/nickschot) [announced the v2 release](https://twitter.com/nickschot/status/1290009657373626368) of `ember-mobile-menu`.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!-- alex ignore retext-equality -->
+In case you weren't aware, [`ember-mobile-menu`](https://github.com/nickschot/ember-mobile-menu) provides a gesture-enabled hamburger menu. You can check out a real-world implementation in [Empress Hummingbird](https://empress-hummingbird.netlify.app/).
+
+For a complete list of new features in v2, we encourage you to check out Nick's [tweet](https://twitter.com/nickschot/status/1290009657373626368) and the [repo changelog](https://github.com/nickschot/ember-mobile-menu/blob/master/CHANGELOG.md#v200-2020-08-01). Here are a few of the best:
+
+- Written in Octane (v3.20 at the time of writing)
+- Spring physics and cancellable/resumable finishing animations
+- Various menu styles
+- FastBoot support
 
 ---
 
@@ -159,4 +165,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
