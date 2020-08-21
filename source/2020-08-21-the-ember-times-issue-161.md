@@ -41,7 +41,7 @@ your-addon/
       some-component.hbs
 ```
 
-Try it out today by running the migrator in your app: `npx github:ember-codemods/ember-component-template-colocation-migrator`
+Try it out today by running the migrator in your app or addon: `npx github:ember-codemods/ember-component-template-colocation-migrator`
 
 ---
 
