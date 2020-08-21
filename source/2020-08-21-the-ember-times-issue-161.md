@@ -16,7 +16,7 @@ READMORE
 
 ## [Release of ember-component-template-colocation-migrator 1.1.0 🎉](https://github.com/ember-codemods/ember-component-template-colocation-migrator/releases/tag/v1.1.0)
 
-The [ember-component-template-colocation-migrator](https://github.com/ember-codemods/ember-component-template-colocation-migrator) codemod will co-locate component JS and HBS files as described in the [Component Templates Co-location RFC](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html). The v1.1.0 release adds [support for migrating addons](https://github.com/ember-codemods/ember-component-template-colocation-migrator/pull/14) although templates shared by multiple components are excluded. In this case, it is up to end users how to list those; they are reported in the same way other skipped templates (like partials) are. Similarly Mixins which use layout are not migrated.
+The [ember-component-template-colocation-migrator](https://github.com/ember-codemods/ember-component-template-colocation-migrator) codemod co-locates component JS and HBS files as described in the [Component Templates Co-location RFC](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html). The v1.1.0 release adds [support for migrating addons](https://github.com/ember-codemods/ember-component-template-colocation-migrator/pull/14), but templates shared by multiple components are excluded. In this case, it is up to end users how to list those; they are reported in the same way other skipped templates (like partials) are. Similarly, mixins that use layout are not migrated.
 
 When running the codemod, instead of:
 
