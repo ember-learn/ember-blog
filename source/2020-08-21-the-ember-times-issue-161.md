@@ -101,7 +101,7 @@ EmberMap has a new instructor! [Lindsay Cade (@cadeParade)](https://github.com/c
 
 Lindsay teaches us how to use the wait helpers built into `ember-test-helpers` to ensure that you can write robust tests around loading state that wait for async behavior to resolve before making assertions.
 
-Check out the free video [here](https://embermap.com/video/testing-loading-states).
+Check out the free video at [EmberMap](https://embermap.com/video/testing-loading-states).
 
 ---
 
