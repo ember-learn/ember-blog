@@ -13,6 +13,7 @@ Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-component-template-colocation-migrator now supports addons 🎉,
 ember-mobile-menu v2 released 📱,
 Help with Embroider Readiness 🔥,
+New Free Video and Instructor on EmberMap 📹,
   
 READMORE
 
@@ -94,14 +95,13 @@ It is worth mentioning that other things need to be done in order to get Embroid
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [New Free Video and Instructor on EmberMap 📹](https://twitter.com/ember_map/status/1295828816011636743)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+EmberMap has a new instructor! [Lindsay Cade (@cadeParade)](https://github.com/cadeParade) has joined the EmberMap crew and released her first video, which covers testing loading states 🎉. Bonus, this instructional video is free!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Lindsay teaches us how to use the wait helpers built into `ember-test-helpers` to ensure that you can write robust tests around loading state that wait for async behavior to resolve before making assertions.
+
+Check out the free video at [EmberMap](https://embermap.com/video/testing-loading-states).
 
 ---
 
