@@ -6,11 +6,10 @@ alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-component-template-colocation-migrator now supports addons 🎉,
+Built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-mobile-menu v2 released 📱,
 Help with Embroider Readiness 🔥,
 New free video and instructor at EmberMap 📹,
@@ -134,6 +133,5 @@ Check out the free video at [EmberMap](https://embermap.com/video/testing-loadin
 That's another wrap! ✨
 
 Be kind,
-
 
 Chris Ng, Amy Lam, Isaac Lee, Jared Galanis, and the Learning Team
