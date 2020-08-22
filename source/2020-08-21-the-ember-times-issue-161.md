@@ -9,10 +9,10 @@ responsive: true
 👋 Emberistas! 🐹
 
 ember-component-template-colocation-migrator now supports addons 🎉,
-Built with Ember.js: 10001 virtual art exhibit 🎨,
+built with Ember.js: 10001 virtual art exhibit 🎨,
 ember-mobile-menu v2 released 📱,
-Help with Embroider Readiness 🔥,
-New free video and instructor at EmberMap 📹,
+help with Embroider readiness 🔥,
+and last, but not least, new free video and instructor at EmberMap 📹!
   
 READMORE
 
@@ -79,7 +79,7 @@ For a complete list of new features in v2, we encourage you to check out Nick's 
 
 ---
 
-## [Help with Embroider Readiness 🔥](https://github.com/emberjs/ember.js/issues/19099)
+## [Help with Embroider readiness 🔥](https://github.com/emberjs/ember.js/issues/19099)
 
 This week, [Yehuda Katz (@wycats)](https://github.com/wycats) opened a [meta issue](https://github.com/emberjs/ember.js/issues/19099) concerning the readiness of [Embroider](https://github.com/embroider-build/embroider), Ember's next build system. The issue is meant to track the steps that must be taken before people can practically use Ember with Embroider as a supported option with route-based code splitting ("Embroider readiness").
 
