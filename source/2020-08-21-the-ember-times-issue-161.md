@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 161
 author: Chris Ng, Amy Lam, Isaac Lee, Jared Galanis
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/21-the-ember-times-issue-161.html"
 responsive: true
 ---
