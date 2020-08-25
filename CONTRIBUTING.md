@@ -39,10 +39,10 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
 1. The file must be saved in the `source` directory. The file name must begin with `YYYY-MM-DD`.
 
-  ```bash
-  # Create an Ember Times blog post for August 29, 2020
-  touch source/2020-08-29-the-ember-times-issue-162.md
-  ```
+    ```bash
+    # Create an Ember Times blog post for August 29, 2020
+    touch source/2020-08-29-the-ember-times-issue-162.md
+    ```
 
 1. We use [alex](https://alexjs.com/) and [markdownlint](https://github.com/DavidAnson/markdownlint) for linting. If your branch's CI (continuous integration) didn't pass these linters, please read [Linters](documentations/linters.md) for more information. 
 
