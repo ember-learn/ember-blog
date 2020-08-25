@@ -33,7 +33,11 @@ Additional support came from [update to the Ember Guides](https://guides.emberjs
 
 ### Label and Input Support
 
-There were three things the team decided to do in this area: update the guides to provide more explicit guidance, provide an addon that would help provide `id`s within a specific context, and write an RFC to propose a more permanent solution. 
+There were 3 things the team decided to do in this area:
+
+- Update the guides to provide more explicit guidance
+- Provide an addon that would help provide `id`s within a specific context
+- Write an RFC to propose a more permanent solution
 
 [Benjamin Jegard](https://github.com/kamikillerto) created the [Ember Context Id Helper addon](https://github.com/KamiKillertO/ember-context-id-helper). The `{{context-id}}` generates a unique `id` for a given context. Because it uses the ember guidFor function under the hood, it will always return the same `id` for the same context. A use case for `context-id` helper is to programmatically associate `<label>`s and `<input>` element using the `<label>` `for` attribute and the `<input>`s `id` attribute. 
 
