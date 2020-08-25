@@ -25,9 +25,9 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
 1. Change directory.
 
-  ```bash
-  cd ember-blog
-  ```
+    ```bash
+    cd ember-blog
+    ```
 
 </details>
 
