@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 162
-author: the crowd
+author: Anne-Greeth van Herwijnen, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
@@ -8,15 +8,23 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Syntax highlighting in markdown with ember-showdown-prism 🔦,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [A new and easy way to add syntax highlighting to your code blocks, with `ember-showdown-prims` 🔦](https://twitter.com/real_ate/status/1297892167181099010)
 
-<change section title emoji>
+[Chris Manson (@mansona)](https://github.com/mansona) released the first working version of `ember-showdown-prism` this week. This drop-in addon automatically adds [Prism](https://prismjs.com/) syntax highlighting to Markdown code blocks if you are using [showdown](https://github.com/showdownjs/showdown). 
+
+This addon adds **two uniques** features on top of the `prism`  and `showdown` features. Firstly, if you provide a `data-filename` attribute, it will add this name to your code block including the file type. You’ve probably seen this before in the Ember Guides.  Secondly, the line numbers are part of the code block and also clickable in Fastboot and prember environments. 
+
+[Chris](https://github.com/mansona) extracted the code from the guides, and with the help of [Nick Schot (@nickschot)](https://github.com/nickschot) managed to give you this cool addon with these awesome features.
+
+Check out the [demo](https://ember-showdown-prism.netlify.app) and the [GitHub repo](https://github.com/empress/ember-showdown-prism) and add some cool code blocks to your blog or documentation!
+
 <consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
@@ -141,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
