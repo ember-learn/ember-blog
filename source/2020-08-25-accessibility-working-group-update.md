@@ -11,7 +11,7 @@ The Strike Team met weekly between [March 25](https://github.com/ember-a11y/core
 
 READMORE
 
-There were five items on the list: 
+There were five items listed in [Issue 595](https://github.com/emberjs/rfcs/issues/595): 
 
 1. Application Language Support
 2. Label/Input Support
