@@ -5,7 +5,9 @@ tags: Recent Posts, A11y, Accessibility, 2020
 responsive: true
 ---
 
-Back in March, an Accessibility(A11y) Strike Team was formed to address the issues outlined in [Ember RFC Issue 595- Technical Accessibility Issues in New Ember Apps](https://github.com/emberjs/rfcs/issues/595). This blog post is to update the community on that group's work. The Strike Team met weekly from [March 25th](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-03/march-25.md) to [June 24th](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-06/june-24.md). We even managed to celebrate [Global Accessibility Awareness Day](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html) somewhere in-between!
+Back in March, an Accessibility (A11y) Strike Team was formed to address the issues outlined in [Ember RFC Issue 595 - Technical Accessibility Issues in New Ember Apps](https://github.com/emberjs/rfcs/issues/595). This blog post is to update the community on that group's work.
+
+The Strike Team met weekly between [March 25](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-03/march-25.md) and [June 24](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-06/june-24.md). We even managed to celebrate [Global Accessibility Awareness Day](https://blog.emberjs.com/2020/05/21/global-accessibility-awareness-day.html)!
 
 READMORE
 
