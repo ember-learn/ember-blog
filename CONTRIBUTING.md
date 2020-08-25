@@ -19,9 +19,9 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
 1. Fork and clone this repo.
 
-  ```bash
-  git clone git@github.com:<your GitHub handle>/ember-blog.git
-  ```
+    ```bash
+    git clone git@github.com:<your GitHub handle>/ember-blog.git
+    ```
 
 1. Change directory.
 
