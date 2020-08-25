@@ -59,7 +59,7 @@ After discussion and some analysis, it was determined that some issues required 
 
 ### Support for `...attributes`
 
-As outlined in [Ember Issue 19026](https://github.com/emberjs/ember.js/issues/19026), `...attributes` does not have a guaranteed merge order, which is problematic for five ARIA attributes that can have multiple values in the form of an ID reference list and the order of these values matters.
+As outlined in [Ember Issue 19026](https://github.com/emberjs/ember.js/issues/19026), `...attributes` does not have a guaranteed merge order. This is problematic for 5 ARIA attributes because they can have multiple values in the form of an ID reference list and the order of these values matters.
 
 ### Accessible Routing
 
