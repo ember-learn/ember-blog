@@ -69,7 +69,7 @@ Until then, developers are encouraged to review the [accessibility section of th
 
 ## Ongoing Work
 
-At the final strike team meeting, we decided to continue the accessibility work in Ember and became the Ember A11y Working Group. We coordinate in the #dev-ember-a11y channel on [Ember's Discord server](https://discord.gg/emberjs), and meet as needed. Anyone who is interested is welcome to join in!
+At the final Strike Team meeting, we decided to continue the accessibility work in Ember and became the Ember A11y Working Group. We coordinate in the #dev-ember-a11y channel on [Ember's Discord server](https://discord.gg/emberjs) and meet as needed. Anyone who is interested is welcome to join in!
 
 Work is also underway to upscale the addons in the [Ember-A11y GitHub org](https://github.com/ember-a11y)! We are also continuing to add first-class accessibility support to ember-template-lint; coming soon is support for users to be able to [specifically only run the accessibility-related linting rules](https://github.com/ember-template-lint/ember-template-lint/pull/1443) on a codebase.
 
