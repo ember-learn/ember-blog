@@ -63,7 +63,7 @@ As outlined in [Ember Issue 19026](https://github.com/emberjs/ember.js/issues/19
 
 ### Accessible Routing
 
-There is still discussion going on about how to best resolve this issue in a permanent way. Despite a significant amount of [research into the issue](https://github.com/MelSumner/ember-a11y-roadmap/tree/master/rfc-research/router) and [an RFC](https://github.com/emberjs/rfcs/pull/433) that attempts to solve the issue, no known resolution has been agreed upon. 
+There is an ongoing discussion for how to best resolve this issue in a permanent way. Despite a significant amount of [research into the issue](https://github.com/MelSumner/ember-a11y-roadmap/tree/master/rfc-research/router) and [an RFC](https://github.com/emberjs/rfcs/pull/433) that attempts to solve the issue, no known resolution has been agreed upon. 
 
 Until then, developers are encouraged to review the [accessibility section of the Ember guides](https://guides.emberjs.com/release/accessibility/application-considerations/), and consider one of the routing-related addons for use. Options include [ember-self-focused](https://github.com/linkedin/self-focused/tree/master/packages/ember-self-focused), [a11y-announcer](https://github.com/ember-a11y/a11y-announcer), [ember-a11y](https://github.com/ember-a11y/ember-a11y), and [ember-a11y-refocus](https://github.com/ember-a11y/ember-a11y-refocus).
 
