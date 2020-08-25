@@ -53,21 +53,23 @@ In our [April 8th meeting](https://github.com/ember-a11y/core-notes/blob/ember-a
 
 [Benjamin Jegard](https://github.com/kamikillerto), [Melanie Sumner](https://github.com/melsumner) and [Ricardo Mendes](https://github.com/locks) authored [RFC 645](https://github.com/emberjs/rfcs/pull/645), which proposes that the Ember Page Title addon be added to the blueprints for new Ember apps. After Framework Core Team discussion, it was decided that the addon needed some work before the RFC could be accepted. That work was outlined [in an issue](https://github.com/adopted-ember-addons/ember-page-title/issues/167) and is [currently underway](https://github.com/adopted-ember-addons/ember-page-title/pull/168), thanks to community member [Raido Kuli](https://github.com/raido)!
 
-## Planning and Design Stage
+## Back to the Drawing Board
 
-After discussion and some analysis, it was determined that some issues required the attention of the [Framework Core Team](https://emberjs.com/teams/) to resolve. 
+After discussion and some analysis, it was determined that some issues required the attention of the [Framework Core Team](https://emberjs.com/teams/) to resolve. These issues will likely require re-thinking of significant Ember features, so some workarounds should be expected until they are resolved. 
 
 ### Support for `...attributes`
 
 As outlined in [Ember Issue 19026](https://github.com/emberjs/ember.js/issues/19026), `...attributes` does not have a guaranteed merge order. This is problematic for 5 ARIA attributes because they can have multiple values in the form of an ID reference list and the order of these values matters.
 
+This is likely to lead to some additional discussion about how Ember handles properties and attributes, and rethinking that approach to better support attributes.
+
 ### Accessible Routing
 
-There is an ongoing discussion for how to best resolve this issue in a permanent way. Despite a significant amount of [research into the issue](https://github.com/MelSumner/ember-a11y-roadmap/tree/master/rfc-research/router) and [an RFC](https://github.com/emberjs/rfcs/pull/433) that attempts to solve the issue, no known resolution has been agreed upon. 
+There is an ongoing discussion for how to best resolve this issue in a permanent way. Despite a significant amount of [research into the issue](https://github.com/MelSumner/ember-a11y-roadmap/tree/master/rfc-research/router) and [an RFC](https://github.com/emberjs/rfcs/pull/433) that attempts to solve the issue, no resolution has been agreed upon yet. However, the Framework Core Team has accepted that accessibility is a design constraint for any new router work.
 
 Until then, developers are encouraged to review the [accessibility section of the Ember guides](https://guides.emberjs.com/release/accessibility/application-considerations/), and consider one of the routing-related addons for use. Options include [ember-self-focused](https://github.com/linkedin/self-focused/tree/master/packages/ember-self-focused), [a11y-announcer](https://github.com/ember-a11y/a11y-announcer), [ember-a11y](https://github.com/ember-a11y/ember-a11y), and [ember-a11y-refocus](https://github.com/ember-a11y/ember-a11y-refocus).
 
-## Ongoing Work
+## A11y Working Group
 
 At the final Strike Team meeting, we decided to continue the accessibility work in Ember and became the Ember A11y Working Group. We coordinate in the #dev-ember-a11y channel on [Ember's Discord server](https://discord.gg/emberjs) and meet as needed. Anyone who is interested is welcome to join in!
 
