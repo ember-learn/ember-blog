@@ -15,7 +15,7 @@ READMORE
 
 ---
 
-## [A new and easy way to add syntax highlighting to your code blocks, with `ember-showdown-prims` 🔦](https://twitter.com/real_ate/status/1297892167181099010)
+## [A new way to add syntax highlighting to your code blocks, with `ember-showdown-prims` 🔦](https://twitter.com/real_ate/status/1297892167181099010)
 
 [Chris Manson (@mansona)](https://github.com/mansona) released the first working version of `ember-showdown-prism` this week. This drop-in addon automatically adds [Prism](https://prismjs.com/) syntax highlighting to Markdown code blocks if you are using [showdown](https://github.com/showdownjs/showdown). 
 
