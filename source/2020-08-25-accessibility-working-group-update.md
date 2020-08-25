@@ -51,7 +51,6 @@ Finally, support has been added to the [Ember Template Lint addon](https://githu
 
 In our [April 8th meeting](https://github.com/ember-a11y/core-notes/blob/ember-a11y/ember-a11y/2020-04/april-08.md), the team discussed how we thought we should approach page title support. More discussion throughout the month to follow led us to support the template-driven support for page titles in Ember apps. [Benjamin Jegard](https://github.com/kamikillerto), [Melanie Sumner](https://github.com/melsumner) and [Ricardo Mendes](https://github.com/locks) authored [RFC 645](https://github.com/emberjs/rfcs/pull/645), which proposes that the Ember Page Title addon be added to the blueprints for new Ember apps. After Framework Core Team discussion, it was decided that the addon needed some work before the RFC could be accepted; that work was outlined [in an issue](https://github.com/adopted-ember-addons/ember-page-title/issues/167) and is [currently underway](https://github.com/adopted-ember-addons/ember-page-title/pull/168), thanks to community member [Raido Kuli](https://github.com/raido)!
 
-
 ## Planning and Design Stage
 
 After discussion and some analysis, it was determined that some issues required the attention of the [Framework Core Team](https://emberjs.com/teams/) to resolve. 
