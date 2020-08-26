@@ -1,27 +1,30 @@
 ---
 title: The Ember Times - Issue No. 162
-author: Chris Ng, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+  
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Syntax highlighting in markdown with ember-showdown-prism 🔦,
 Read the proposed `{{id}}` helper RFC 🆔,
+
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [A new way to add syntax highlighting to your code blocks, with `ember-showdown-prism` 🔦](https://twitter.com/real_ate/status/1297892167181099010)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Manson (@mansona)](https://github.com/mansona) released the first working version of `ember-showdown-prism` this week. This drop-in addon automatically adds [Prism](https://prismjs.com/) syntax highlighting to Markdown code blocks if you are using [showdown](https://github.com/showdownjs/showdown). 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This addon adds **two unique** features on top of the `prism`  and `showdown` features. Firstly, if you provide a `data-filename` attribute, it will add this name to your code block including the file type. You’ve probably seen this before in the Ember Guides.  Secondly, line numbers are added to the code block and are also clickable which give you sharable links if you are using Fastboot or prember. 
+
+[Chris](https://github.com/mansona) extracted the code from the guides, and with the help of [Nick Schot (@nickschot)](https://github.com/nickschot) managed to give you this cool addon with these awesome features.
+
+Check out the [demo](https://ember-showdown-prism.netlify.app) and the [GitHub repo](https://github.com/empress/ember-showdown-prism) and add some cool code blocks to your blog or documentation!
 
 ---
 
@@ -159,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
