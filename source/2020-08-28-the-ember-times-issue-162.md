@@ -42,6 +42,7 @@ The proposed `{{id}}` helper can be invoked with either no arguments or with the
 {{/let}}
 ```
 
+<!--alex ignore savage-->
 The named argument `for` accepts any object, string, number, Element, or primitive, which will be treated as a stable reference for an id, allowing the helper to return the same id value for every invocation using the same for value.
 
 ```hbs
