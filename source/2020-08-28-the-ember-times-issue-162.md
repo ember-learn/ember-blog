@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 162
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Read the proposed `{{id}}` helper RFC 🆔,
 READMORE
 
 ---
@@ -25,14 +25,31 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [RFC: {{id}} Helper 🆔](https://github.com/emberjs/rfcs/pull/659)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Steve Szczecina (@steveszc)](https://github.com/steveszc) proposed adding a new built-in template helper `{{id}}` for generating unique IDs. This helper will function as a replacement for the `elementId` used within classical Ember components, which is not available in glimmer components or route templates. Furthermore it powers common use cases such as:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- Associating label and input elements using the label's for attribute and the input's id attribute.
+- Using WAI-ARIA attributes to improve accessibility (eg. aria-labelledby, aria-controls)
+- Integrating 3rd party libraries that attach themselves to DOM elements using DOM IDs (eg. maps, datepickers, jquery plugins, etc)
+
+The proposed `{{id}}` helper can be invoked with either no arguments or with the `for` argument. When no arguments are passed, it will return a new unique id string for every invocation. This invocation style would usually be paired with a `let` block.
+
+```hbs
+{{#let (id) as |emailId|}}
+  <label for={{emailId}}>Email address</label>
+  <input id={{emailId}} type="email" />
+{{/let}}
+```
+
+The named argument `for` accepts any object, string, number, Element, or primitive, which will be treated as a stable reference for an id, allowing the helper to return the same id value for every invocation using the same for value.
+
+```hbs
+<label for="{{id for=this}}-email">Email address</label>
+<input id="{{id for=this}}-email" type="email" />
+```
+
+For more information on why we need the `{{id}}` helper [read the pre-RFC issue](https://github.com/emberjs/rfcs/issues/612) or [comment on the RFC](https://github.com/emberjs/rfcs/pull/659) on GitHub!
 
 ---
 
@@ -141,4 +158,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
