@@ -19,7 +19,7 @@ READMORE
 
 [Chris Manson (@mansona)](https://github.com/mansona) released the first working version of `ember-showdown-prism` this week. This drop-in addon automatically adds [Prism](https://prismjs.com/) syntax highlighting to Markdown code blocks if you are using [showdown](https://github.com/showdownjs/showdown). 
 
-This addon adds **two uniques** features on top of the `prism`  and `showdown` features. Firstly, if you provide a `data-filename` attribute, it will add this name to your code block including the file type. You’ve probably seen this before in the Ember Guides.  Secondly, the line numbers are part of the code block and also clickable in Fastboot and prember environments. 
+This addon adds **two unique** features on top of the `prism`  and `showdown` features. Firstly, if you provide a `data-filename` attribute, it will add this name to your code block including the file type. You’ve probably seen this before in the Ember Guides.  Secondly, line numbers are added to the code block and are also clickable which give you sharable links if you are using Fastboot or prember. 
 
 [Chris](https://github.com/mansona) extracted the code from the guides, and with the help of [Nick Schot (@nickschot)](https://github.com/nickschot) managed to give you this cool addon with these awesome features.
 
