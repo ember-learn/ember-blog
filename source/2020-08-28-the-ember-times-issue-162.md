@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 162
-author: Anne-Greeth van Herwijnen, Chris Ng, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
@@ -9,10 +9,21 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
   
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Update from the Accessibility Working Group 🙌,
 Syntax highlighting in markdown with ember-showdown-prism 🔦,
 Read the proposed `{{id}}` helper RFC 🆔,
 
 READMORE
+
+---
+
+## [Update from the Accessibility Working Group 🙌](https://blog.emberjs.com/2020/08/25/accessibility-working-group-update.html)
+
+In March 2020, a group of Ember developers formed the Accessibility (A11y) Strike Team, now known as the **Ember A11y Working Group**. The group wanted to address the issues that were outlined in [RFC #595: Technical A11y Issues in New Ember Apps](https://github.com/emberjs/rfcs/issues/595).
+
+This week, [Melanie Sumner (@Melsumner)](https://github.com/MelSumner) published an [official blog post](https://blog.emberjs.com/2020/08/25/accessibility-working-group-update.html) to provide a status update. We encourage you to [read the blog post](https://blog.emberjs.com/2020/08/25/accessibility-working-group-update.html). Accessible apps are for everyone and the discussions, RFCs, and addons started by the A11y Strike Team may influence your app development.
+
+As always, we give a big shout-out to all community members who participated in the A11y Strike Team. 💜
 
 ---
 
@@ -162,4 +173,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd and the Learning Team
