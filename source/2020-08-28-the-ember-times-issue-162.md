@@ -41,7 +41,7 @@ Check out the [demo](https://ember-showdown-prism.netlify.app) and the [GitHub r
 
 ## [RFC: {{id}} Helper 🆔](https://github.com/emberjs/rfcs/pull/659)
 
-[Steve Szczecina (@steveszc)](https://github.com/steveszc) proposed adding a new built-in template helper `{{id}}` for generating unique IDs. This helper will function as a replacement for the `elementId` used within classical Ember components, which is not available in glimmer components or route templates. Furthermore it powers common use cases such as:
+[Steve Szczecina (@steveszc)](https://github.com/steveszc) proposed adding a built-in [`{{id}}` helper](https://github.com/emberjs/rfcs/pull/659) for generating unique IDs. This helper serves as a replacement for `elementId`, which is available in classic components but not in Glimmer components or route templates. Furthermore, it powers common use cases such as:
 
 - Associating label and input elements using the label's for attribute and the input's id attribute.
 - Using WAI-ARIA attributes to improve accessibility (eg. aria-labelledby, aria-controls)
