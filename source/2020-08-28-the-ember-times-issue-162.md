@@ -1,17 +1,16 @@
 ---
 title: The Ember Times - Issue No. 162
-author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
   
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Update from the Accessibility Working Group 🙌,
-Syntax highlighting in markdown with ember-showdown-prism 🔦,
-Read the proposed `{{id}}` helper RFC 🆔,
+syntax highlighting in markdown with ember-showdown-prism 🔦,
+and last, but not least, read the proposed `{{id}}` helper RFC 🆔.
 
 READMORE
 
@@ -175,4 +174,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
