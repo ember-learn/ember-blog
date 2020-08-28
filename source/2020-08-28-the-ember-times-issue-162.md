@@ -47,7 +47,9 @@ Check out the [demo](https://ember-showdown-prism.netlify.app) and the [GitHub r
 - Using WAI-ARIA attributes to improve accessibility (e.g. `aria-labelledby`, `aria-controls`)
 - Integrating 3rd party libraries that attach themselves to DOM elements using DOM IDs (e.g. maps, calendars, jQuery plugins)
 
-The proposed `{{id}}` helper can be invoked with either no arguments or with the `for` argument. When no arguments are passed, it will return a new unique id string for every invocation. This invocation style would usually be paired with a `let` block.
+The proposed `{{id}}` helper can be invoked in 2 ways: without any argument or with a `for` argument.
+
+When no arguments are passed, it will return a new unique ID string for every invocation. This invocation style would usually be paired with a `let` block.
 
 ```hbs
 {{#let (id) as |emailId|}}
