@@ -72,7 +72,7 @@ For more information on why we need the `{{id}}` helper, please check out [RFC #
 
 ## [Testing your Mirage.js setup 🧪](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/)
 
-If you're a Mirage.js user you may want to take a look at [Tobias Bieniek's @turbo87](https://github.com/turbo87/) new blog post on the [simplabs blog](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/) that discusses testing your Mirage setup. 🎉
+If you're a Mirage.js user, you may want to take a look at [Tobias Bieniek's (@turbo87)](https://github.com/turbo87/) new blog post on the [simplabs blog](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/) that discusses testing your Mirage setup. 🎉
 
 If you have used Mirage for your testing environment you know how powerful it can be, the post covers a different sort of test involving Mirage – tests that test your Mirage API. 🤯  As the post points out, true end-to-end testing can be costly in time and complexity, another way to achieve a similar assurance that your mocked API is returning results similar to your real API is to test it.
 
