@@ -76,7 +76,7 @@ If you're a Mirage.js user, you may want to take a look at [Tobias Bieniek's (@t
 
 If you have used Mirage for your testing environment, you know how powerful it can be. The post covers a different sort of test involving Mirage – tests that test your Mirage API. 🤯  As Tobias points out, true end-to-end testing can be costly in time and complexity. One way to achieve a similar assurance that your mocked API is returning results similar to your real API is to test it.
 
-In the post, you'll find several helpful examples of how you might go about achieving a set of tests that test your Mirage responses. If you're a Mirage user you really should go give [the post](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/) a read.
+You'll also find several helpful examples of how you might go about achieving a set of tests that test your Mirage responses. If you're a Mirage user you really should go give [the post](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/) a read.
 
 ---
 
