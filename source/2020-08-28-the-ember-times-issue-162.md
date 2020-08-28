@@ -66,7 +66,7 @@ The named argument `for` accepts an object, string, number, Element, or primitiv
 <input id="{{id for=this}}-email" type="email" />
 ```
 
-For more information on why we need the `{{id}}` helper [read the pre-RFC issue](https://github.com/emberjs/rfcs/issues/612) or [comment on the RFC](https://github.com/emberjs/rfcs/pull/659) on GitHub!
+For more information on why we need the `{{id}}` helper, please check out [RFC #659](https://github.com/emberjs/rfcs/pull/659). Be sure to provide your feedback by adding an emoji reaction or leaving a comment!
 
 ---
 
