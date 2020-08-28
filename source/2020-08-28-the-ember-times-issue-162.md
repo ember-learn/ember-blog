@@ -43,9 +43,9 @@ Check out the [demo](https://ember-showdown-prism.netlify.app) and the [GitHub r
 
 [Steve Szczecina (@steveszc)](https://github.com/steveszc) proposed adding a built-in [`{{id}}` helper](https://github.com/emberjs/rfcs/pull/659) for generating unique IDs. This helper serves as a replacement for `elementId`, which is available in classic components but not in Glimmer components or route templates. Furthermore, it powers common use cases such as:
 
-- Associating label and input elements using the label's for attribute and the input's id attribute.
-- Using WAI-ARIA attributes to improve accessibility (eg. aria-labelledby, aria-controls)
-- Integrating 3rd party libraries that attach themselves to DOM elements using DOM IDs (eg. maps, datepickers, jquery plugins, etc)
+- Associating label and input elements using the label's `for` attribute and the input's `id` attribute.
+- Using WAI-ARIA attributes to improve accessibility (e.g. `aria-labelledby`, `aria-controls`)
+- Integrating 3rd party libraries that attach themselves to DOM elements using DOM IDs (e.g. maps, calendars, jQuery plugins)
 
 The proposed `{{id}}` helper can be invoked with either no arguments or with the `for` argument. When no arguments are passed, it will return a new unique id string for every invocation. This invocation style would usually be paired with a `let` block.
 
