@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 162
-author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, the crowd
+author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
@@ -10,6 +10,7 @@ responsive: true
   
 Update from the Accessibility Working Group 🙌,
 syntax highlighting in markdown with ember-showdown-prism 🔦,
+Testing your Mirage.js setup 🧪,
 and last, but not least, read the proposed `{{id}}` helper RFC 🆔.
 
 READMORE
@@ -69,14 +70,13 @@ For more information on why we need the `{{id}}` helper, please check out [RFC #
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Testing your Mirage.js setup 🧪](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you're a Mirage.js user you may want to take a look at [Tobias Bieniek's @turbo87](https://github.com/turbo87/) new blog post on the [simplabs blog](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/) that discusses testing your Mirage setup. 🎉
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you have used Mirage for your testing environment you know how powerful it can be, the post covers a different sort of test involving Mirage – tests that test your Mirage API. 🤯  As the post points out, true end-to-end testing can be costly in time and complexity, another way to achieve a similar assurance that your mocked API is returning results similar to your real API is to test it.
+
+In the post, you'll find several helpful examples of how you might go about achieving a set of tests that test your Mirage responses. If you're a Mirage user you really should go give [the post](https://simplabs.com/blog/2020/08/28/testing-the-miragejs-setup/) a read.
 
 ---
 
@@ -174,4 +174,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, Jared Galanis the crowd and the Learning Team
