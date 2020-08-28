@@ -1,7 +1,7 @@
 ---
 title: Countdown to The New Year - Ember Template Lint
 author: Melanie Sumner
-tags: 2019, Accessibility, Addons, DecEmber
+tags: 2019, accessibility, Addons, DecEmber
 alias: 2019-12-19-countdown-to-the-new-year-ember-template-lint.md
 responsive: true
 ---
