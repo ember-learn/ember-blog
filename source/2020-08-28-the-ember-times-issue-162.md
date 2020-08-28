@@ -59,7 +59,7 @@ When no arguments are passed, it will return a new unique ID string for every in
 ```
 
 <!--alex ignore savage-->
-The named argument `for` accepts any object, string, number, Element, or primitive, which will be treated as a stable reference for an id, allowing the helper to return the same id value for every invocation using the same for value.
+The named argument `for` accepts an object, string, number, Element, or primitive, and treats it as a stable reference for an ID. This allows the helper to return the same ID for a given input.
 
 ```hbs
 <label for="{{id for=this}}-email">Email address</label>
