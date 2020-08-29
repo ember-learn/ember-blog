@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 162
 author: Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Amy Lam, Jared Galanis 
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/08/28-the-ember-times-issue-162.html"
 responsive: true
 ---
