@@ -1,11 +1,15 @@
 ---
 title: Ember 3.21 Released
-author: Kenneth Larsen
+author: Kenneth Larsen, Isaac Lee
 tags: Releases, 2020, 3, 3.21, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.21 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.5 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.21 of Ember.js, Ember Data, and Ember CLI.
+
+Version 3.20 of Ember is now promoted to LTS (Long Term Support). An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version of Ember was 3.16.
+
+This release kicks off the 3.22 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
