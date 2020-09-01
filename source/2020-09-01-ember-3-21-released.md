@@ -52,9 +52,15 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.21
 
-#### New Features (?)
+Ember Data 3.21 release saw a few improvements to documentation and continuous integration.
 
-#### Deprecations (?)
+#### New Features
+
+Ember Data 3.21 introduced no new features.
+
+#### Deprecations
+
+Ember Data 3.21 introduced no deprecations.
 
 For more details on changes in Ember Data 3.21, please review the
 [Ember Data 3.21.0 release page](https://github.com/emberjs/data/releases/tag/v3.21.0).
