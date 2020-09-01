@@ -86,9 +86,17 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.21
 
-#### New Features (?)
+#### New Features
 
-#### Deprecations (?)
+Ember CLI 3.21 introduced 2 new features.
+
+1. `ember new --lang` support has [landed](https://github.com/ember-cli/ember-cli/pull/9259) per [RFC #635](https://github.com/emberjs/rfcs/blob/master/text/0635-ember-new-lang.md).
+
+1. [ember-try](https://github.com/ember-cli/ember-try) configuration for addons has been updated. [`ember-lts-3.12` has been dropped](https://github.com/ember-cli/ember-cli/pull/9310) from the default testing matrix. (Existing addons should consider this as a breaking change.) In addition, [`ember-lts-3.20` has been added](https://github.com/ember-cli/ember-cli/pull/9308) to the default testing matrix.
+
+#### Deprecations
+
+Ember CLI 3.21 introduced no deprecations.
 
 ---
 
