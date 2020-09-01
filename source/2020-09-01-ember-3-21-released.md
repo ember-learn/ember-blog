@@ -28,9 +28,15 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 3.21 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
 
-#### New Features (?)
+#### New Features
 
-#### Deprecations (?)
+Ember.js 3.21 introduced no new features.
+
+#### Deprecations
+
+Ember.js 3.21 introduced 1 deprecation.
+
+1. `getWithDefault` (both the function and class method) has been [deprecated](https://github.com/emberjs/ember.js/pull/18993) per [RFC #554](https://github.com/emberjs/rfcs/blob/master/text/0554-deprecate-getwithdefault.md).
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
