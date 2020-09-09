@@ -89,7 +89,7 @@ GEM
     hooks (0.4.1)
       uber (~> 0.0.14)
     i18n (0.7.0)
-    json (2.1.0)
+    json (2.3.1)
     kramdown (1.9.0)
     listen (3.0.4)
       rb-fsevent (>= 0.9.3)
