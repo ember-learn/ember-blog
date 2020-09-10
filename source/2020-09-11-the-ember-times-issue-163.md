@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 163
-author: the crowd
+author: Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/11-the-ember-times-issue-163.html"
 responsive: true
@@ -8,20 +8,23 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Learn what's new in Ember 3.21 release 🎉,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Learn what's new in Ember 3.21 release 🎉](https://blog.emberjs.com/2020/09/02/ember-3-21-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember Blog [announced the v3.21 releases](https://blog.emberjs.com/2020/09/02/ember-3-21-released.html) of Ember.js, Ember Data, and Ember CLI. The occasion also marked the **LTS release of Ember v3.20**. It will receive [bug fixes until May 2021 and security patches until September 2021](https://emberjs.com/releases/lts).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The release of version 3.21 may affect your development workflow in a few ways:
+
+- `getWithDefault` (both the function and class method) has been deprecated per [RFC #554](https://github.com/emberjs/rfcs/blob/master/text/0554-deprecate-getwithdefault.md)
+- `ember new --lang` support has landed per [RFC #635](https://github.com/emberjs/rfcs/blob/master/text/0635-ember-new-lang.md)
+- [ember-try](https://github.com/ember-cli/ember-try) configuration for addons has been updated to include `ember-lts-3.20` and exclude `ember-lts-3.12`.
+
+The release also kicked off the 3.22 beta cycle. If you can, please help with testing beta builds and reporting bugs before version 3.22.0 is published. 💜
 
 ---
 
@@ -139,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
