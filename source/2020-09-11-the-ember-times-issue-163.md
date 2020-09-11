@@ -101,7 +101,7 @@ The release also kicked off the 3.22 beta cycle. If you can, please help with te
 
 If you are an addon maintainer, we encourage you to create issues with a well-defined scope for contributors to jump in and help. Be sure to label the issues with `Hacktoberfest` so that they're easier to discover. You can also tweet issues or repos with the hashtag `#Hacktoberfest`. Last but not least, please follow the [Ember Community Guidelines](https://emberjs.com/guidelines) and provide a welcoming experience to all contributors.
 
-If you are new to open source contribution, we encourage you to be curious and proactive in asking for help. (There is a `#hacktoberfest` channel on [Ember Discord](https://discord.gg/emberjs).) A repo may provide directions in `CONTRIBUTING` or `README` file to help you get started. An Ember addon that you have used before may be a good place to start; the Ember teams will also provide issues that may interest you.
+If you are new to open source contribution, we encourage you to be curious and proactive in asking for help. (There is a [`#hacktoberfest`](https://discord.com/channels/480462759797063690/496453502298750988) channel on [Ember Discord](https://discord.gg/emberjs).) A repo may provide directions in `CONTRIBUTING` or `README` file to help you get started. An Ember addon that you have used before may be a good place to start; the Ember teams will also provide issues that may interest you.
 
 - [https://help-wanted.emberjs.com](https://help-wanted.emberjs.com)
 - [https://github.com/emberjs](https://github.com/emberjs)
