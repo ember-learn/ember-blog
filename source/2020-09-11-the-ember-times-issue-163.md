@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Learn what's new in Ember 3.21 release 🎉,
+Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 
 READMORE
 
@@ -94,14 +95,21 @@ The release also kicked off the 3.22 beta cycle. If you can, please help with te
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻](https://hacktoberfest.digitalocean.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a month-long celebration of open source software. Between October 1 and October 31, you are encouraged to submit **4 quality pull requests to public GitHub repos**. In return, you'll get a limited edition Hacktoberfest T-shirt and stickers (plus knowledge and fun).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you are an addon maintainer, we encourage you to create issues with a well-defined scope for contributors to jump in and help. Be sure to label the issues with `Hacktoberfest` so that they're easier to discover. You can also tweet issues or repos with the hashtag `#Hacktoberfest`. Last but not least, please follow the [Ember Community Guidelines](https://emberjs.com/guidelines) and provide a welcoming experience to all contributors.
+
+If you are new to open source contribution, we encourage you to be curious and proactive in asking for help. (There is a [`#hacktoberfest`](https://discord.com/channels/480462759797063690/496453502298750988) channel on [Ember Discord](https://discord.gg/emberjs).) A repo may provide directions in `CONTRIBUTING` or `README` file to help you get started. An Ember addon that you have used before may be a good place to start; the Ember teams will also provide issues that may interest you.
+
+- [https://help-wanted.emberjs.com](https://help-wanted.emberjs.com)
+- [https://github.com/emberjs](https://github.com/emberjs)
+- [https://github.com/ember-cli](https://github.com/ember-cli)
+- [https://github.com/ember-data](https://github.com/ember-data)
+- [https://github.com/ember-learn](https://github.com/ember-learn)
+
+For more information, you can visit [Hacktoberfest Details](https://hacktoberfest.digitalocean.com/details) and [Hacktoberfest FAQ](https://hacktoberfest.digitalocean.com/faq).
 
 ---
 
