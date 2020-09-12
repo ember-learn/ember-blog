@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Learn what's new in Ember 3.21 release 🎉,
+Celebrate 3 addon major releases 🌟,
 Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 
 READMORE
@@ -29,14 +30,15 @@ The release also kicked off the 3.22 beta cycle. If you can, please help with te
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## Celebrate 3 addon major releases 🌟
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Three Ember addons recently published a major release:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- [ember-cli-typescript v4.0.0](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v4.0.0), in addition to introducing internal tests, enables the use of the [`declare` property modifier](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#the-usedefineforclassfields-flag-and-the-declare-property-modifier). Please check that `ember-cli-babel >= v7.17.0` and `ember-auto-import >= v1.6.0` (the latter if you use it).
+- [empress-blog v2.0.0](https://github.com/empress/empress-blog/releases/tag/v2.0.0) [significantly reduces the bundle size](https://twitter.com/real_ate/status/1301536390845534208) of most sites built with `empress-blog`. 
+- [eslint-plugin-ember v9.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v9.0.0) recommends 6 rules and provides an option to 3 existing rules.
+
+We thank all contributors who made these major releases possible: [Bouke Haarsma (@Bouke)](https://github.com/Bouke), [Bryan Mishkin (@bmish)](https://github.com/bmish), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), [Chris Mansona (@mansona)](https://github.com/mansona), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), [David Hamilton (@hjdivad)](https://github.com/hjdivad), [Ewan McDougall (@mrloop)](https://github.com/mrloop), [James Davis (@jamescdavis)](https://github.com/jamescdavis), and [Nick Schot (@nickschot)](https://github.com/nickschot).
 
 ---
 
