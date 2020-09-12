@@ -53,14 +53,11 @@ We thank all contributors who made these major releases possible: [Bouke Haarsma
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [CI with GitHub Actions for Ember Apps: Part 2 🎥](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In continuation of a blog post on [CI with GitHub Actions for Ember Apps](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/), [Isaac Lee(@ijlee2)](https://github.com/ijlee2) wrote another [blog post](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/) and how Github Actions saved time for his projects. He talks about how to migrate to v2 actions, lower the runtime costs, and to set up continuously deploy your Ember apps.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you are looking to setup Github Actions for your Ember apps, you should give [this blog post a read here](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/).
 
 ---
 
