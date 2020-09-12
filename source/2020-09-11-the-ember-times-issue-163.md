@@ -65,9 +65,7 @@ If you are looking to setup Github Actions for your Ember apps, you should give 
 
 ## [EmberJS with REST API 💪](https://github.com/ember-learn/ember-blog/pull/768)
 
-[John Costanzo (@jrock2004)](https://twitter.com/jrock2004) wrote a blog titled [EmberJS with REST API](https://github.com/ember-learn/ember-blog/pull/768). The blog details about how to get your APIs to work well with Ember Data out of the box if it follows REST API conventions. In case your APIs don't follow the REST conventions, the post details about modifying your Ember App' serializer to make them work.
-
-You should head over to [the blog post](https://github.com/ember-learn/ember-blog/pull/768) and give it a read.
+[John Costanzo (@jrock2004)](https://twitter.com/jrock2004) wrote a blog titled [EmberJS with REST API](https://github.com/ember-learn/ember-blog/pull/768). The blog details about how to get your APIs to work well with Ember Data out of the box if it follows REST API conventions. If in case your APIs don't follow the REST conventions, the post details about how to modify your Ember App' serializer to make them work.
 
 ---
 
