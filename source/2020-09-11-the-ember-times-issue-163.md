@@ -13,6 +13,7 @@ Celebrate 3 addon major releases 🌟,
 Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 Embroider preparation blog post 📖,
 EmberJS with REST API 💪,
+CI with GitHub Actions for Ember Apps: Part 2 🎥,
 
 READMORE
 
@@ -54,14 +55,11 @@ We thank all contributors who made these major releases possible: [Bouke Haarsma
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [CI with GitHub Actions for Ember Apps: Part 2 🎥](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In continuation of a blog post on [CI with GitHub Actions for Ember Apps](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/), [Isaac Lee (@ijlee2)](https://github.com/ijlee2) wrote another [blog post](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/) about how Github Actions saved time on his projects. He talks about how to migrate to v2 actions, lower the runtime costs, and set up continuous deployment for your Ember apps.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you are looking to setup Github Actions for your Ember apps, you should give [this blog post a read here](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/).
 
 ---
 
@@ -137,7 +135,7 @@ For more information, you can visit [Hacktoberfest Details](https://hacktoberfes
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/andreyfel" rel="noopener noreferrer" target="_blank">Andrey Fel (@andreyfel)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/chrisvdp" rel="noopener noreferrer" target="_blank">Chris van der Ploeg (@chrisvdp)</a>, <a href="https://github.com/ckarlbe" rel="noopener noreferrer" target="_blank">Kalle (@ckarlbe)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/kiwiupover" rel="noopener noreferrer" target="_blank">Dave Laird (@kiwiupover)</a>, <a href="https://github.com/knownasilya" rel="noopener noreferrer" target="_blank">Ilya Radchenko (@knownasilya)</a>, <a href="https://github.com/krisselden" rel="noopener noreferrer" target="_blank">Kris Selden (@krisselden)</a>, <a href="https://github.com/lifeart" rel="noopener noreferrer" target="_blank">Alex Kanunnikov (@lifeart)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/MelSumner" rel="noopener noreferrer" target="_blank">Melanie Sumner (@MelSumner)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/theenadayalank" rel="noopener noreferrer" target="_blank">Theenadayalan (@theenadayalank)</a>, <a href="https://github.com/toh995" rel="noopener noreferrer" target="_blank">@toh995</a>, and <a href="https://github.com/wycats" rel="noopener noreferrer" target="_blank">Yehuda Katz (@wycats)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
