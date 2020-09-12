@@ -24,8 +24,8 @@ The Ember Blog [announced the v3.21 releases](https://blog.emberjs.com/2020/09/0
 
 The release of version 3.21 may affect your development workflow in a few ways:
 
-- `getWithDefault` (both the function and class method) has been deprecated per [RFC #554](https://github.com/emberjs/rfcs/blob/master/text/0554-deprecate-getwithdefault.md)
-- `ember new --lang` support has landed per [RFC #635](https://github.com/emberjs/rfcs/blob/master/text/0635-ember-new-lang.md)
+- `getWithDefault` (both the function and class method) has been deprecated per [RFC #554](https://github.com/emberjs/rfcs/blob/master/text/0554-deprecate-getwithdefault.md).
+- `ember new --lang` support has landed per [RFC #635](https://github.com/emberjs/rfcs/blob/master/text/0635-ember-new-lang.md).
 - [ember-try](https://github.com/ember-cli/ember-try) configuration for addons has been updated to include `ember-lts-3.20` and exclude `ember-lts-3.12`.
 
 The release also kicked off the 3.22 beta cycle. If you can, please help with testing beta builds and reporting bugs before version 3.22.0 is published. 💜
