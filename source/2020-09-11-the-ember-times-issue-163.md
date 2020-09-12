@@ -1,18 +1,18 @@
 ---
 title: The Ember Times - Issue No. 163
-author: Isaac Lee, Jared Galanis, Abhilash LR, the crowd
+author: Isaac Lee, Jared Galanis, Abhilash LR, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/11-the-ember-times-issue-163.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-Learn what's new in Ember 3.21 release 🎉,
-Celebrate 3 addon major releases 🌟,
-Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
+Learn what's new in the Ember 3.21 release 🎉,
 Embroider preparation blog post 📖,
+get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 CI with GitHub Actions for Ember Apps: Part 2 🎥,
+and last, but not least, celebrate 3 addon major releases 🌟!
 
 READMORE
 
@@ -42,70 +42,6 @@ The blog post talks about how you can integrate Embroider into your build pipeli
 
 ---
 
-## Celebrate 3 addon major releases 🌟
-
-Three Ember addons recently published a major release:
-
-- [ember-cli-typescript v4.0.0](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v4.0.0), in addition to introducing internal tests, enables the use of the [`declare` property modifier](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#the-usedefineforclassfields-flag-and-the-declare-property-modifier). Please check that `ember-cli-babel >= v7.17.0` and `ember-auto-import >= v1.6.0` (the latter if you use it).
-- [empress-blog v2.0.0](https://github.com/empress/empress-blog/releases/tag/v2.0.0) [significantly reduces the bundle size](https://twitter.com/real_ate/status/1301536390845534208) of most sites built with `empress-blog`. 
-- [eslint-plugin-ember v9.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v9.0.0) recommends 6 rules and provides an option to 3 existing rules.
-
-We thank all contributors who made these major releases possible: [Bouke Haarsma (@Bouke)](https://github.com/Bouke), [Bryan Mishkin (@bmish)](https://github.com/bmish), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), [Chris Mansona (@mansona)](https://github.com/mansona), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), [David Hamilton (@hjdivad)](https://github.com/hjdivad), [Ewan McDougall (@mrloop)](https://github.com/mrloop), [James Davis (@jamescdavis)](https://github.com/jamescdavis), and [Nick Schot (@nickschot)](https://github.com/nickschot).
-
----
-
-## [CI with GitHub Actions for Ember Apps: Part 2 🎥](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/)
-
-In continuation of a blog post on [CI with GitHub Actions for Ember Apps](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/), [Isaac Lee (@ijlee2)](https://github.com/ijlee2) wrote another [blog post](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/) about how Github Actions saved time on his projects. He talks about how to migrate to v2 actions, lower the runtime costs, and set up continuous deployment for your Ember apps.
-
-If you are looking to setup Github Actions for your Ember apps, you should give [this blog post a read here](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/).
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻](https://hacktoberfest.digitalocean.com/)
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a month-long celebration of open source software. Between October 1 and October 31, you are encouraged to submit **4 quality pull requests to public GitHub repos**. In return, you'll get a limited edition Hacktoberfest T-shirt and stickers (plus knowledge and fun).
@@ -124,14 +60,23 @@ For more information, you can visit [Hacktoberfest Details](https://hacktoberfes
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [CI with GitHub Actions for Ember Apps: Part 2 🎥](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In continuation of a blog post on [CI with GitHub Actions for Ember Apps](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/), [Isaac Lee (@ijlee2)](https://github.com/ijlee2) wrote another [blog post](https://crunchingnumbers.live/2020/08/31/ci-with-github-actions-for-ember-apps-part-2/) about how Github Actions saved time on his projects. He talks about how to migrate to v2 actions, lower the runtime costs, and set up continuous deployment for your Ember apps.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you are looking to setup Github Actions for your Ember apps, you should give [this blog post a read here](https://crunchingnumbers.live/2020/03/17/ci-with-github-actions-for-ember-apps/).
+
+---
+
+## [Celebrate 3 addon major releases 🌟](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v4.0.0)
+
+Three Ember addons recently published a major release:
+
+- [ember-cli-typescript v4.0.0](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v4.0.0), in addition to introducing internal tests, enables the use of the [`declare` property modifier](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#the-usedefineforclassfields-flag-and-the-declare-property-modifier). Please check that `ember-cli-babel >= v7.17.0` and `ember-auto-import >= v1.6.0` (the latter if you use it).
+- [empress-blog v2.0.0](https://github.com/empress/empress-blog/releases/tag/v2.0.0) [significantly reduces the bundle size](https://twitter.com/real_ate/status/1301536390845534208) of most sites built with `empress-blog`. 
+- [eslint-plugin-ember v9.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v9.0.0) recommends 6 rules and provides an option to 3 existing rules.
+
+We thank all contributors who made these major releases possible: [Bouke Haarsma (@Bouke)](https://github.com/Bouke), [Bryan Mishkin (@bmish)](https://github.com/bmish), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), [Chris Mansona (@mansona)](https://github.com/mansona), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), [David Hamilton (@hjdivad)](https://github.com/hjdivad), [Ewan McDougall (@mrloop)](https://github.com/mrloop), [James Davis (@jamescdavis)](https://github.com/jamescdavis), and [Nick Schot (@nickschot)](https://github.com/nickschot).
 
 ---
 
@@ -161,4 +106,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jared Galanis, Abhilash LR, the crowd and the Learning Team
+Isaac Lee, Jared Galanis, Abhilash LR, Amy Lam and the Learning Team
