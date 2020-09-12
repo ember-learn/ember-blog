@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Learn what's new in Ember 3.21 release 🎉,
+Celebrate 3 addon major releases 🌟,
 Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 Embroider preparation blog post 📖,
 
@@ -37,6 +38,18 @@ Have you been thinking about giving Embroider a try in your addon? Well, the com
 If you are inclined to give this a go there's an ✨**awesome**✨ new [blog post](https://medium.com/@kiwiupover/embroider-preparation-14d59edafc0b) on this subject by [Dave Laird (@kiwiupover)](https://github.com/kiwiupover) that introduces some ideas about testing your addon against Embroider that may help you get started.
 
 The blog post talks about how you can integrate Embroider into your build pipeline and how you can run your tests against it with `ember-try`. If you are at all curious about Embroider and/or you help maintain an addon, you should go give the fantastic and timely post a read.
+
+---
+
+## Celebrate 3 addon major releases 🌟
+
+Three Ember addons recently published a major release:
+
+- [ember-cli-typescript v4.0.0](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v4.0.0), in addition to introducing internal tests, enables the use of the [`declare` property modifier](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-7.html#the-usedefineforclassfields-flag-and-the-declare-property-modifier). Please check that `ember-cli-babel >= v7.17.0` and `ember-auto-import >= v1.6.0` (the latter if you use it).
+- [empress-blog v2.0.0](https://github.com/empress/empress-blog/releases/tag/v2.0.0) [significantly reduces the bundle size](https://twitter.com/real_ate/status/1301536390845534208) of most sites built with `empress-blog`. 
+- [eslint-plugin-ember v9.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v9.0.0) recommends 6 rules and provides an option to 3 existing rules.
+
+We thank all contributors who made these major releases possible: [Bouke Haarsma (@Bouke)](https://github.com/Bouke), [Bryan Mishkin (@bmish)](https://github.com/bmish), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), [Chris Mansona (@mansona)](https://github.com/mansona), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), [David Hamilton (@hjdivad)](https://github.com/hjdivad), [Ewan McDougall (@mrloop)](https://github.com/mrloop), [James Davis (@jamescdavis)](https://github.com/jamescdavis), and [Nick Schot (@nickschot)](https://github.com/nickschot).
 
 ---
 
