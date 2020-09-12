@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 163
-author: Isaac Lee, Jared Galanis the crowd
+author: Isaac Lee, Jared Galanis, Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/11-the-ember-times-issue-163.html"
 responsive: true
@@ -12,6 +12,7 @@ Learn what's new in Ember 3.21 release 🎉,
 Celebrate 3 addon major releases 🌟,
 Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 Embroider preparation blog post 📖,
+CI with GitHub Actions for Ember Apps: Part 2 🎥,
 
 READMORE
 
@@ -160,4 +161,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Jared Galanis, Abhilash LR, the crowd and the Learning Team
