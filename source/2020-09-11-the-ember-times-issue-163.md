@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 163
-author: Isaac Lee, Jared Galanis the crowd
+author: Isaac Lee, Jared Galanis, Abhilash LR, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/11-the-ember-times-issue-163.html"
 responsive: true
@@ -12,6 +12,7 @@ Learn what's new in Ember 3.21 release 🎉,
 Celebrate 3 addon major releases 🌟,
 Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
 Embroider preparation blog post 📖,
+EmberJS with REST API 💪,
 
 READMORE
 
@@ -64,14 +65,11 @@ We thank all contributors who made these major releases possible: [Bouke Haarsma
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [EmberJS with REST API 💪](https://github.com/ember-learn/ember-blog/pull/768)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[John Costanzo (@jrock2004)](https://twitter.com/jrock2004) wrote a blog titled [EmberJS with REST API](https://github.com/ember-learn/ember-blog/pull/768). The blog details about how to get your APIs to work well with Ember Data out of the box if it follows REST API conventions. In case your APIs don't follow the REST conventions, the post details about modifying your Ember App' serializer to make them work.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You should head over to [the blog post](https://github.com/ember-learn/ember-blog/pull/768) and give it a read.
 
 ---
 
@@ -163,4 +161,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Jared Galanis, Abhilash LR, the crowd and the Learning Team
