@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 163
-author: Isaac Lee, the crowd
+author: Isaac Lee, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/11-the-ember-times-issue-163.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 Learn what's new in Ember 3.21 release 🎉,
 Celebrate 3 addon major releases 🌟,
 Get ready for Hacktoberfest 2020 👩🏽‍💻🧑🏽‍💻,
+Embroider preparation blog post 📖,
 
 READMORE
 
@@ -27,6 +28,16 @@ The release of version 3.21 may affect your development workflow in a few ways:
 - [ember-try](https://github.com/ember-cli/ember-try) configuration for addons has been updated to include `ember-lts-3.20` and exclude `ember-lts-3.12`.
 
 The release also kicked off the 3.22 beta cycle. If you can, please help with testing beta builds and reporting bugs before version 3.22.0 is published. 💜
+
+---
+
+## [Embroider preparation blog post 📖](https://medium.com/@kiwiupover/embroider-preparation-14d59edafc0b)
+
+Have you been thinking about giving Embroider a try in your addon? Well, the community could use your help in landing Embroider and you may want to consider trying it out! 
+
+If you are inclined to give this a go there's an ✨**awesome**✨ new [blog post](https://medium.com/@kiwiupover/embroider-preparation-14d59edafc0b) on this subject by [Dave Laird (@kiwiupover)](https://github.com/kiwiupover) that introduces some ideas about testing your addon against Embroider that may help you get started.
+
+The blog post talks about how you can integrate Embroider into your build pipeline and how you can run your tests against it with `ember-try`. If you are at all curious about Embroider and/or you help maintain an addon, you should go give the fantastic and timely post a read.
 
 ---
 
@@ -152,4 +163,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Jared Galanis the crowd and the Learning Team
