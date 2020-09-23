@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 164
-author: Abhilash LR, the crowd
+author: Abhilash LR, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/25-the-ember-times-issue-164.html"
 responsive: true
@@ -10,7 +10,7 @@ responsive: true
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 EmberJS with REST API 💪
-  
+Async Data and Autotracking in Ember Octane ✨,
 READMORE
 
 ---
@@ -89,14 +89,36 @@ The blog also discusses using [`keyForAttribute`](https://api.emberjs.com/ember-
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog Post: Async Data and Autotracking in Ember Octane ✨](https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A new blog post from [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) talks about [Async Data and Autotracking in Ember Octane](https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/). This blog post is a continuation of [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/), which describes a way to divest mixin and inheritance in favor of composition. Chris does this by using a [load helper](https://gist.github.com/chriskrycho/306a82990dd82203073272e055df5cd1) and a new `AsyncData` structure.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The new blog goes through treating that `AsyncData` as ordinary data, but making sure to handle all states (loading, loaded, error). By integrating with tracked properties, the `AsyncData` class reacts to its modeled states and internals, handling this transition for us. This enables us to access the data returned from the load helper as normal data and react based on its state.
+
+```js
+import Component from '@glimmer/component';
+import { load } from 'my-app/helpers/load';
+import { fetchSomeData } from 'my-app/data/fetchers';
+
+export default class Neato extends Component {
+  get data() {
+    return load(fetchSomeData(this.args.userId));
+  }
+
+  get displayData() {
+    switch (this.data.state) {
+      case 'LOADING':
+        return 'loading...';
+      case 'LOADED':
+        return this.data.value;
+      case 'ERROR':
+        return `Whoops! Something went wrong! ${this.data.error.message}`;
+    }
+  }
+}
+```
+
+Read more on the [full blog post on Chris’s blog](https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/).
 
 ---
 
@@ -137,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, the crowd and the Learning Team
+Abhilash LR, Chris Ng, the crowd and the Learning Team
