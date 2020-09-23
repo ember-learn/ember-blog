@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 164
-author: Abhilash LR, Chris Ng, the crowd
+author: Abhilash LR, Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/25-the-ember-times-issue-164.html"
 responsive: true
@@ -9,8 +9,11 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-EmberJS with REST API 💪
+EmberJS with REST API 💪,
+Readers' Question: Migrating off of mixins in Ember Octane 👋,
 Async Data and Autotracking in Ember Octane ✨,
+...
+
 READMORE
 
 ---
@@ -78,14 +81,67 @@ The blog also discusses using [`keyForAttribute`](https://api.emberjs.com/ember-
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Readers' Question: Migrating off of mixins in Ember Octane 👋](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Greetings from Ember Times HQ! We had a **Readers' Question** come in: 
+
+> What's the recommended alternative for `Ember.Mixin` in Octane?
+
+In Classic Ember, if you wanted to define a piece of DOM behavior that you could reuse across your application, you would define a component `Mixin` that implemented the appropriate lifecycle hooks. As of Ember 3.15, the Ember project recommends Ember Octane for new applications and addons. And idiomatic Octane recommends that you avoid mixins. Going back to [Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html), [Yehuda Katz (@wycats)'s](https://github.com/wycats) gives a migration example. Element modifiers provide a new way to reuse DOM behavior, without some of the drawbacks that mixins have.
+
+**Before (Classic Ember): Mixins**
+
+```js
+import Mixin from '@ember/object/mixin';
+
+export default Mixin.create({
+  didInsertElement() {
+    this._super();
+    activateTabs(this.element);
+  }
+
+  willDestroyElement() {
+    this._super();
+    deactivateTabs(this.element);
+  }
+})
+```
+
+And then you would use the `Mixin` in a component like this:
+
+```js
+import Component from '@ember/component';
+
+export default Component.extend(Tabs, {
+  // ...
+});
+```
+
+**After (Ember Octane): Element Modifiers**
+
+This is what our `Tabs` mixin looks like when reimplemented as a modifier.
+
+```js
+import { modifier } from 'ember-modifier';
+
+export default modifier(element => {
+  activateTabs(element);
+
+  return () => deactivateTabs(element);
+});
+```
+
+Since element modifiers work on any element, you don't need to create a whole component to create reusable DOM behavior. You can use a modifier on any element with this element modifier syntax.
+
+```hbs
+<div {{tabs}}></div>
+```
+
+Continuing further on mixins, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently blogged about [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/). A common pattern in many Classic Ember apps and addons was to use `PromiseProxyObject` mixin with `ObjectProxy` to expose the state of a promise to end users, and to make accessing the resolved data more convenient. 
+
+...add more here...
 
 ---
 
@@ -159,4 +215,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Chris Ng, the crowd and the Learning Team
+Abhilash LR, Chris Ng, Amy Lam, the crowd and the Learning Team
