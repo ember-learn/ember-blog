@@ -42,7 +42,7 @@ There's a [new beta release](https://github.com/machty/ember-concurrency/release
 As Max mentions in his tweet, 2.x is largely compatible with 1.x. For users that maintain addons that depend on `ember-concurrency`, it would be very helpful if you can use a wider version range so that some folks can try the 2.x betas and others can upgrade when they're able to. 
 
 More information about this and about upgrading to 2.0.0-beta.1 and other future 2.x releases in
-general can be found in the [updgrade document](https://github.com/machty/ember-concurrency/blob/v2/UPGRADING-2.x.md).
+general can be found in the [upgrade document](https://github.com/machty/ember-concurrency/blob/v2/UPGRADING-2.x.md).
 
 Go ahead and give the [release](https://github.com/machty/ember-concurrency/releases/tag/2.0.0-beta.1) notes a read.
 
