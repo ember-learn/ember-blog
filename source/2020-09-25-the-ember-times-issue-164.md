@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 164
-author: Abhilash LR, Chris Ng, the crowd
+author: Abhilash LR, Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/25-the-ember-times-issue-164.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 EmberJS with REST API 💪
 Async Data and Autotracking in Ember Octane ✨,
+ember-concurrency 2.0.0.beta-1 🎉,
 READMORE
 
 ---
@@ -34,14 +35,16 @@ The blog also discusses using [`keyForAttribute`](https://api.emberjs.com/ember-
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-concurrency 2.0.0.beta-1 🎉](https://twitter.com/m4xm4n/status/1308945677800681473)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a [new beta](https://github.com/machty/ember-concurrency/releases/tag/2.0.0-beta.1) of `ember-concurrency` released! Thanks to the hard work of [Max Fierke (@maxfierke)](https://github.com/maxfierke) 2.0.0.beta-1 introduces `@tracked` on Ember 3.16+, removes the ability to directly use the `{{aciton helper}}`, and removes the `get` and `set` compatibility methods from `Task`, `TaskGroup`, and `TaskInstance`.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As Max mentions in his tweet, 2.x is largely compatible with 1.x, so for users that maintain addons that depend on `ember-concurrency`, ti would be very helpful if you can use a wider version range so that folks can try the 2.x betas, and upgrade when they're able. 
+
+More information about this and about upgrading to 2.0.0-beta.1 and other future 2.x releases in
+general can be found in the [updgrade document](https://github.com/machty/ember-concurrency/blob/v2/UPGRADING-2.x.md).
+
+Go ahead and give the [release](https://github.com/machty/ember-concurrency/releases/tag/2.0.0-beta.1) notes a read.
 
 ---
 
@@ -159,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Chris Ng, the crowd and the Learning Team
+Abhilash LR, Chris Ng, Jared Galanis the crowd and the Learning Team
