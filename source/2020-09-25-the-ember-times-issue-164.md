@@ -37,7 +37,7 @@ The blog also discusses using [`keyForAttribute`](https://api.emberjs.com/ember-
 
 ## [ember-concurrency 2.0.0.beta-1 🎉](https://twitter.com/m4xm4n/status/1308945677800681473)
 
-There's a [new beta](https://github.com/machty/ember-concurrency/releases/tag/2.0.0-beta.1) of `ember-concurrency` released! Thanks to the hard work of [Max Fierke (@maxfierke)](https://github.com/maxfierke) 2.0.0.beta-1 introduces `@tracked` on Ember 3.16+, removes the ability to directly use the `{{aciton helper}}`, and removes the `get` and `set` compatibility methods from `Task`, `TaskGroup`, and `TaskInstance`.
+There's a [new beta release](https://github.com/machty/ember-concurrency/releases/tag/2.0.0-beta.1) of `ember-concurrency`! Thanks to the hard work of [Max Fierke (@maxfierke)](https://github.com/maxfierke) 2.0.0.beta-1 introduces `@tracked` on Ember 3.16+, removes the ability to directly use the `{{action}}` helper, and removes the `get` and `set` compatibility methods from `Task`, `TaskGroup`, and `TaskInstance`.
 
 As Max mentions in his tweet, 2.x is largely compatible with 1.x, so for users that maintain addons that depend on `ember-concurrency`, ti would be very helpful if you can use a wider version range so that folks can try the 2.x betas, and upgrade when they're able. 
 
