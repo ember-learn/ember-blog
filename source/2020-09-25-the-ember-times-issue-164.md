@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 164
-author: Abhilash LR, Chris Ng, Jared Galanis the crowd
+author: Abhilash LR, Chris Ng, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/25-the-ember-times-issue-164.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+A new reference page for Ember CLI commands 🔖,
 EmberJS with REST API 💪
 Async Data and Autotracking in Ember Octane ✨,
 ember-concurrency 2.0.0.beta-1 🎉,
@@ -16,14 +17,13 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [A new reference page for Ember CLI commands 🔖](https://cli.emberjs.com/release/advanced-use/cli-commands-reference/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember CLI Guides has a new webpage that lists [all Ember CLI commands](https://cli.emberjs.com/release/advanced-use/cli-commands-reference/). Please bookmark it for reference and onboarding new developers.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As you can imagine, the list of commands and command options grew over time so documenting it for the CLI Guides wasn't a trivial task. We'd like to recognize [Tim (@fozy81)](https://github.com/fozy81) for their amazing contribution. 💯
+
+As always, you can check commands and command options in your terminal by running `ember --help`. Please feel free to provide feedback for the new webpage. If you see incorrect or missing information, you can open an issue in the [cli-guides](https://github.com/ember-learn/cli-guides) repo.
 
 ---
 
@@ -162,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Abhilash LR, Chris Ng, Jared Galanis the crowd and the Learning Team
+Abhilash LR, Chris Ng, Jared Galanis, Isaac Lee, the crowd and the Learning Team
