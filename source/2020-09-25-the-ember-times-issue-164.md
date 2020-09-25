@@ -130,7 +130,7 @@ Read more on the [full blog post on Chris’s blog](https://v5.chriskrycho.com/j
 
 If you couldn't get enough [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), we have good news! 😄  Chris has released a follow-up blog post to the one referenced above. 
 
-This latest blog post covers how autotracking in Ember or Glimmer works in greater depth (including how some CS concepts are involved, think Lamport clocks 🤯), and shows how autotracking improves developer experienc. 🎉
+How does autotracking in Ember or Glimmer work? How does it improve developer experience? Which computer science concepts make it possible? (Answer: Lamport clocks 🤯)
 
 If you're ready to learn a bit more about how efficient the autotracking system in Ember or Glimmer apps can be, you should head on over to the [post](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/). 
 
