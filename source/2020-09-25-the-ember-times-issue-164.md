@@ -13,6 +13,7 @@ A new reference page for Ember CLI commands 🔖,
 EmberJS with REST API 💪
 Async Data and Autotracking in Ember Octane ✨,
 ember-concurrency 2.0.0.beta-1 🎉,
+Autotracking Developer Experience 🔥,
 READMORE
 
 ---
@@ -125,14 +126,15 @@ Read more on the [full blog post on Chris’s blog](https://v5.chriskrycho.com/j
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Autotracking Developer Experience 🔥](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you couldn't get enough [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), we have good news! 😄  Chris has released a follow-up blog post to the one referenced above. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+How does autotracking in Ember or Glimmer work? How does it improve developer experience? Which computer science concepts make it possible? (Answer: Lamport clocks 🤯)
+
+If you're ready to learn a bit more about how efficient the autotracking system in Ember or Glimmer apps can be, you should head on over to the [post](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/). 
+
+Rest assured, it's a pretty approachable explanation of some complex topics that we as Ember users benefit from in an Octane world. All are encouraged to go check it out!
 
 ---
 
