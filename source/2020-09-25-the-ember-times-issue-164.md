@@ -9,12 +9,31 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Become a writer for The Ember Times ✍️,
 A new reference page for Ember CLI commands 🔖,
 EmberJS with REST API 💪
 Async Data and Autotracking in Ember Octane ✨,
 ember-concurrency 2.0.0.beta-1 🎉,
 Autotracking Developer Experience 🔥,
 READMORE
+
+---
+
+## [Become a writer for The Ember Times ✍️](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md#writing-for-the-ember-times)
+
+The Ember Times, the newsletter for [Ember Blog](https://blog.emberjs.com/), is maintained by an all-volunteer team.
+
+Lately, the team has been busy with working on other Ember projects. To help everyone maintain a healthy work/life/open source balance, please consider **joining The Ember Times as a regular or guest writer**. We appreciate your help in any capacity. 🥰
+
+As writer, you will take on an active role in the Ember community and keep up with the latest events and discoveries. Prior experience in technical writing isn't required, as we will be happy to mentor and pair with you. We also encourage everyone around the globe to join; don't worry if English is your second language (or third, etc.).
+
+Are you interested? You can reach out to the team in a few different ways:
+
+- Chat on Discord in [#support-ember-times channel](https://discord.com/channels/480462759797063690/485450546887786506)
+- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo
+- Tweet us [`@embertimes` on Twitter](https://twitter.com/embertimes)
+
+We look forward to hear from you soon!
 
 ---
 
