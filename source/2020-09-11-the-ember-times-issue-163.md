@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 163
 author: Isaac Lee, Jared Galanis, Abhilash LR, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/11-the-ember-times-issue-163.html"
 responsive: true
 ---
