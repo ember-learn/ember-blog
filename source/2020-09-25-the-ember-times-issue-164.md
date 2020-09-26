@@ -30,8 +30,8 @@ As writer, you will take on an active role in the Ember community and keep up wi
 Are you interested? You can reach out to the team in a few different ways:
 
 - Chat on Discord in [#support-ember-times channel](https://discord.com/channels/480462759797063690/485450546887786506)
-- Message to `@embertimes` on Twitter
 - Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo
+- Tweet us [`@embertimes` on Twitter](https://twitter.com/embertimes)
 
 We look forward to hear from you soon!
 
