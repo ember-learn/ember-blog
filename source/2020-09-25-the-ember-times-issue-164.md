@@ -9,7 +9,7 @@ responsive: true
 👋 Emberistas! 🐹
 
 Hacktoberfest + The Ember Times ✍️,
-A new reference page for Ember CLI commands 🔖,
+a new reference page for Ember CLI commands 🔖,
 migrating off of mixins in Ember Octane 👋,
 async data and autotracking in Ember Octane ✨,
 autotracking developer experience 🔥,
@@ -83,7 +83,7 @@ export default Component.extend(Tabs, {
 });
 ```
 
-**After (Ember Octane): Element Modifiers**
+**After (Ember Octane): Element modifiers**
 
 This is what our `Tabs` mixin looks like when reimplemented as a modifier.
 
@@ -105,7 +105,7 @@ Since element modifiers work on any element, you don't need to create a whole co
 
 Continuing further on the subject of mixins, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently blogged about [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/). A common pattern in many Classic Ember apps and addons was to use `PromiseProxyObject` mixin with `ObjectProxy` to expose the state of a promise to end users, and to make accessing the resolved data more convenient. Be sure to read the [blog post](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/) for a deeper dive into a few suggested ways to approach a rewrite with a lightweight, auto-tracked, and Octane-ready solution. 
 
-P.S. Looking to future-proof no mixins in your codebase? We suggest enabling the [no-mixins rule on eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md).
+P.S. Looking to future-proof no mixins in your codebase? We suggest enabling the handy [no-mixins rule on eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md).
 
 ---
 
