@@ -8,8 +8,8 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-A new reference page for Ember CLI commands 🔖,
 Hacktoberfest + The Ember Times ✍️,
+A new reference page for Ember CLI commands 🔖,
 migrating off of mixins in Ember Octane 👋,
 async data and autotracking in Ember Octane ✨,
 autotracking developer experience 🔥,
@@ -20,6 +20,23 @@ READMORE
 
 ---
 
+## [Hacktoberfest + The Ember Times ✍️](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md#writing-for-the-ember-times)
+
+<!--alex ignore host-hostess-->
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a celebration of open source open to everyone in the global GitHub community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge!
+
+Need ideas for Hacktoberfest contributions? Or looking to get started in open source? We suggest working with us on the [next Ember Times issue](https://github.com/ember-learn/ember-blog/pull/778)! As you may know, The Ember Times is the newsletter for the official [Ember Blog](https://blog.emberjs.com/). As writer, you will take on an active role in the Ember community and keep up with the latest events and discoveries. Prior experience in technical writing isn't required, as we will be happy to mentor and pair with you. We also encourage everyone around the globe to join; don't worry if English is your second language (or third, etc.).
+
+Are you interested? You can reach out to the team in a few different ways:
+
+- Chat with us on Discord in [#support-ember-times channel](https://discord.com/channels/480462759797063690/485450546887786506).
+- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo. We have a running list of topics that you can claim for the upcoming [October 9th issue](https://github.com/ember-learn/ember-blog/pull/778) of The Ember Times! 
+- Tweet us [`@embertimes` on Twitter](https://twitter.com/embertimes).
+
+In addition to supporting Ember and open source, participants will receive a limited edition T-shirt or can choose to plant a tree! We look forward to hearing from you soon! 🥰
+
+---
+
 ## [A new reference page for Ember CLI commands 🔖](https://cli.emberjs.com/release/advanced-use/cli-commands-reference/)
 
 The Ember CLI Guides has a new webpage that lists [all Ember CLI commands](https://cli.emberjs.com/release/advanced-use/cli-commands-reference/). Please bookmark it for reference and onboarding new developers.
@@ -27,23 +44,6 @@ The Ember CLI Guides has a new webpage that lists [all Ember CLI commands](https
 As you can imagine, the list of commands and command options grew over time so documenting it for the CLI Guides wasn't a trivial task. We'd like to recognize [Tim (@fozy81)](https://github.com/fozy81) for their amazing contribution. 💯
 
 As always, you can check commands and command options in your terminal by running `ember --help`. Please feel free to provide feedback for the new webpage. If you see incorrect or missing information, you can open an issue in the [cli-guides](https://github.com/ember-learn/cli-guides) repo.
-
----
-
-## [Hacktoberfest + The Ember Times ✍️](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md#writing-for-the-ember-times)
-
-<!--alex ignore host-hostess-->
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a celebration of open source open to everyone in the global GitHub community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge!
-
-Need ideas for Hacktoberfest contributions? Or looking to get started in open source? We suggest working with us on the[next Ember Times issue](https://github.com/ember-learn/ember-blog/pull/778)! As you may know, The Ember Times is the newsletter for the official [Ember Blog](https://blog.emberjs.com/). As writer, you will take on an active role in the Ember community and keep up with the latest events and discoveries. Prior experience in technical writing isn't required, as we will be happy to mentor and pair with you. We also encourage everyone around the globe to join; don't worry if English is your second language (or third, etc.).
-
-Are you interested? You can reach out to the team in a few different ways:
-
-- Chat on Discord in [#support-ember-times channel](https://discord.com/channels/480462759797063690/485450546887786506)
-- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo. We have a running list of topics that you can claim for the [October 9th issue](https://github.com/ember-learn/ember-blog/pull/778) of The Ember Times 
-- Tweet us [`@embertimes` on Twitter](https://twitter.com/embertimes)
-
-In addition to supporting Ember and open source, participants will receive a limited edition T-shirt or can choose to plant a tree! We look forward to hearing from you soon! 🥰
 
 ---
 
