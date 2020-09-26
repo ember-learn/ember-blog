@@ -53,7 +53,7 @@ Greetings from Ember Times HQ! We had a **Readers' Question** come in:
 
 > What's the recommended alternative for `Ember.Mixin` in Octane?
 
-In Classic Ember, if you wanted to define a piece of DOM behavior that you could reuse across your application, you would define a component `Mixin` that implemented the appropriate lifecycle hooks. As of Ember 3.15, the Ember project recommends Ember Octane for new applications and addons. And idiomatic Octane recommends that you avoid mixins. Going back to [Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html), [Yehuda Katz (@wycats)'s](https://github.com/wycats) gives a migration example. Element modifiers provide a new way to reuse DOM behavior, without some of the drawbacks that mixins have.
+In Classic Ember, if you wanted to define a piece of DOM behavior that you could reuse across your application, you would define a component `Mixin` that implemented the appropriate lifecycle hooks. As of Ember 3.15, the Ember project recommends Ember Octane for new applications and addons. And idiomatic Octane recommends that you avoid mixins. Going back to [Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html), [Yehuda Katz (@wycats)](https://github.com/wycats) gives a migration example. Element modifiers provide a new way to reuse DOM behavior, without some of the drawbacks that mixins have.
 
 **Before (Classic Ember): Mixins**
 
@@ -103,7 +103,7 @@ Since element modifiers work on any element, you don't need to create a whole co
 <div {{tabs}}></div>
 ```
 
-Continuing further on mixins, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently blogged about [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/). A common pattern in many Classic Ember apps and addons was to use `PromiseProxyObject` mixin with `ObjectProxy` to expose the state of a promise to end users, and to make accessing the resolved data more convenient. Be sure to read the [blog post](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/) for a deeper dive into a few suggested ways to rewrite code into a lightweight, auto-tracke and Octane-ready solution. 
+Continuing further on the subject of mixins, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently blogged about [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/). A common pattern in many Classic Ember apps and addons was to use `PromiseProxyObject` mixin with `ObjectProxy` to expose the state of a promise to end users, and to make accessing the resolved data more convenient. Be sure to read the [blog post](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/) for a deeper dive into a few suggested ways to approach a rewrite with a lightweight, auto-tracked, and Octane-ready solution. 
 
 P.S. Looking to future-proof no mixins in your codebase? We suggest enabling the [no-mixins rule on eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md).
 
