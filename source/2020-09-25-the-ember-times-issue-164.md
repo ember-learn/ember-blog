@@ -32,18 +32,18 @@ As always, you can check commands and command options in your terminal by runnin
 
 ## [Hacktoberfest + The Ember Times ✍️](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md#writing-for-the-ember-times)
 
-<!--alex ignore host-->
+<!--alex ignore host-hostess-->
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a celebration of open source open to everyone in the global GitHub community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge!
 
-Need ideas for Hacktoberfest contributions? Or looking to get started in open source? We suggest working with us on the next Ember Times issue! As you may know, the Ember Times is the newsletter for the official [Ember Blog](https://blog.emberjs.com/). As writer, you will take on an active role in the Ember community and keep up with the latest events and discoveries. Prior experience in technical writing isn't required, as we will be happy to mentor and pair with you. We also encourage everyone around the globe to join; don't worry if English is your second language (or third, etc.).
+Need ideas for Hacktoberfest contributions? Or looking to get started in open source? We suggest working with us on the[next Ember Times issue](https://github.com/ember-learn/ember-blog/pull/778)! As you may know, The Ember Times is the newsletter for the official [Ember Blog](https://blog.emberjs.com/). As writer, you will take on an active role in the Ember community and keep up with the latest events and discoveries. Prior experience in technical writing isn't required, as we will be happy to mentor and pair with you. We also encourage everyone around the globe to join; don't worry if English is your second language (or third, etc.).
 
 Are you interested? You can reach out to the team in a few different ways:
 
 - Chat on Discord in [#support-ember-times channel](https://discord.com/channels/480462759797063690/485450546887786506)
-- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo, next issue here (TO BE ADDED)
+- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo. We have a running list of topics that you can claim for the [October 9th issue](https://github.com/ember-learn/ember-blog/pull/778) of The Ember Times 
 - Tweet us [`@embertimes` on Twitter](https://twitter.com/embertimes)
 
-We look forward to hear from you soon! 🥰
+In addition to supporting Ember and open source, participants will receive a limited edition T-shirt or can choose to plant a tree! We look forward to hearing from you soon! 🥰
 
 ---
 
@@ -109,7 +109,7 @@ P.S. Looking to future-proof no mixins in your codebase? We suggest enabling the
 
 ---
 
-## [Blog Post: Async Data and Autotracking in Ember Octane ✨](https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/)
+## [Blog post: Async data and autotracking in Ember Octane ✨](https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/)
 
 A new blog post from [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) talks about [Async Data and Autotracking in Ember Octane](https://v5.chriskrycho.com/journal/async-data-and-autotracking-in-ember-octane/). This blog post is a continuation of our previous writeup on [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/), which describes a way to divest mixin and inheritance in favor of composition. Chris does this by using a [load helper](https://gist.github.com/chriskrycho/306a82990dd82203073272e055df5cd1) and a new `AsyncData` structure.
 
@@ -142,9 +142,9 @@ Read more on the [full blog post on Chris’s blog](https://v5.chriskrycho.com/j
 
 ---
 
-## [Autotracking Developer Experience 🔥](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
+## [Autotracking developer experience 🔥](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
 
-If you couldn't get enough [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), we have good news! 😄  Chris has released a follow-up blog post to the one referenced above. 
+If you couldn't get enough from [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), there's even more! 😄  
 
 How does autotracking in Ember or Glimmer work? How does it improve developer experience? Which computer science concepts make it possible? (Answer: Lamport clocks 🤯)
 
