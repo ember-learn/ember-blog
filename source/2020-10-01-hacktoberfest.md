@@ -30,7 +30,9 @@ Here's what you can expect this year!
 - **On Friday, October 16th,** there will be an Ember Contributors Workshop! DESCRIPTION AND LINK
 - **Any time,** join the `#hacktoberfest` channel in the [Ember Community Discord]() to connect with other developers. You can find a buddy to pair with, a mentor to guide you, or toss around ideas.
 
-Additionally, there are several more groups within the Ember Community Discord where you can find other volunteers or mentors. There are Discord channels for women, lgbtq+, and people of color. If you belong to one of those groups, you can ask to join in the `#discord-server-admin` channel.
+If you are someone who is willing to help mentor new contributors, please let us know in `#hacktoberfest` on Discord. Addon maintainers are welcome to post issues they need help with too!
+
+Additionally, there are several more groups within the Ember Community Discord where you can find others to collaborate with. There are Discord channels for women, lgbtq+, and people of color. If you belong to one of those groups, you can ask to join in the `#discord-server-admin` channel.
 
 ## How do I choose what to work on?
 
