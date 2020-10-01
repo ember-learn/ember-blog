@@ -8,6 +8,7 @@ responsive: true
 Have you ever spotted something in Ember code or documentation that needed fixing?
 Did you want to get involved in contributing to open source, but you have no idea where to start?
 
+<!--alex ignore special-->
 Good news! It's Hacktoberfest 2020, and you are invited to participate in Ember-focused special events and mentorship opportunities through the month of October.
 You can make some commits, meet some new people, and maybe get some free stuff!
 
@@ -21,6 +22,7 @@ The premise is simple:
 - Make 4 valid Pull Requests to _any_ public repositories on GitHub
 - If you are among the first 70,000 developers who complete the challenge, you get a prize. This year, you can select between a T-shirt and a tree planted in your name.
 
+<!--alex ignore easy-->
 Many open source project maintainers put in some extra effort during Hacktoberfest to make it easy and fun to participate in open source.
 
 ## What is happening in the Ember community?
@@ -33,6 +35,7 @@ Here's what you can expect this year!
 
 If you are someone who is willing to help mentor new contributors, please let us know in `#hacktoberfest` on Discord. Addon maintainers are welcome to post issues they need help with too!
 
+<!--alex ignore women-->
 Additionally, there are several more groups within the Ember Community Discord where you can find others to collaborate with. There are Discord channels for women, LGBTQ+, and people of color. If you belong to one of those groups, you can ask to join in the `#discord-server-admin` channel.
 
 ## How do I choose what to work on?
@@ -43,4 +46,5 @@ For ideas, you can visit [Ember's Help Wanted](https://help-wanted.emberjs.com/)
 
 ## Can I participate if I am not working on Ember things?
 
+<!--alex ignore just-->
 Absolutely! Hacktoberfest is a celebration for all open source projects. Ember is just one of many.
