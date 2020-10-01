@@ -16,8 +16,9 @@ You can make some commits, meet some new people, and maybe get some free stuff!
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is an annual, worldwide celebration organized by DigitalOcean and sponsored by many companies that use open source software.
 
 The premise is simple: 
+
 - Sign up anytime between October 1 and October 31
-- Make four valid Pull Requests to _any_ public repositories on GitHub
+- Make 4 valid Pull Requests to _any_ public repositories on GitHub
 - If you are among the first 70,000 developers who complete the challenge, you get a prize. This year's prizes include T-shirts or a tree planted in your name.
 
 Many open source project maintainers put in some extra effort during Hacktoberfest to make it easy and fun to participate in open source.
