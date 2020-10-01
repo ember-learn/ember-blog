@@ -18,8 +18,8 @@ You can make some commits, meet some new people, and maybe get some free stuff!
 
 The premise is simple: 
 
-- Sign up anytime between October 1 and October 31
-- Make 4 valid Pull Requests to _any_ public repositories on GitHub
+- Sign up anytime between October 1 and October 31.
+- Make 4 valid Pull Requests to <span style="font-style: italic;">any</span> public repositories on GitHub.
 - If you are among the first 70,000 developers who complete the challenge, you get a prize. This year, you can select between a T-shirt and a tree planted in your name.
 
 <!--alex ignore easy-->
@@ -30,7 +30,7 @@ Many open source project maintainers put in some extra effort during Hacktoberfe
 Here's what you can expect this year!
 
 - **On Saturday, October 10th,** past contributors will be available to pair with anyone who wants to help out! If you have questions or need some help finding an issue to work on, this is a great place to start. Specific times will be announced soon.
-- **On Friday, October 16th,** there will be an Ember Contributors Workshop! Tickets are sold out but you can read more about he event on the [EmberFest website](http://emberfest.eu/)
+- **On Friday, October 16th,** there will be an Ember Contributors Workshop! Tickets are sold out but you can read more about the event on the [EmberFest website](http://emberfest.eu/).
 - **At any time,** join the `#hacktoberfest` channel in the [Ember Community Discord](https://discord.gg/emberjs) to connect with other developers. You can find a buddy to pair with, a mentor to guide you, or toss around ideas.
 
 If you are someone who is willing to help mentor new contributors, please let us know in `#hacktoberfest` on Discord. Addon maintainers are welcome to post issues they need help with too!
