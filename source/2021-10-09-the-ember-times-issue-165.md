@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 165
-author: the crowd
+author: Chris Ng, 
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/09-the-ember-times-issue-165.html"
 responsive: true
@@ -9,21 +9,25 @@ responsive: true
 🎃 NOTE: THIS ISSUE IS ACTUALLY FOR 2020, BUT COMMITTING PR'S FOR ISSUE #165 TO MASTER FOR HACKTOBERFEST! 🎃
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Read the blog post on Autotracking: Elegant DX Via Cutting-Edge CS 👣,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog Post: Autotracking - Elegant DX Via Cutting-Edge CS 👣](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a blog post on how the developer experience working with Ember’s [autotracking system](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) work as if it was “just JavaScript”. Particularly he goes through:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- There is no need to mark dependent keys on the getters
+- There is no need for a dedicated utility like `setState` or `this.set`
+- How it does not use two-way binding to achieve this
+
+The blog goes through Native Getters, how they are lazy evaluated when we need it and assessed without having to invoke it as a function. Next, Chris goes through Autotracking which is a lightweight reactivity system that uses a global clock which is connected to tracked state to know when to recompute the values in templates. Together these two concepts enables most of our code to be “just JavaScript” and gives us a very low-cost reactivity.
+
+Read the whole blog post at [Chris’s blog(https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
+!
 
 ---
 
@@ -141,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, and the Learning Team
