@@ -26,7 +26,7 @@ READMORE
 
 The blog goes through Native Getters, how they are lazy evaluated when we need it and assessed without having to invoke it as a function. Next, Chris goes through Autotracking which is a lightweight reactivity system that uses a global clock which is connected to tracked state to know when to recompute the values in templates. Together these two concepts enables most of our code to be “just JavaScript” and gives us a very low-cost reactivity.
 
-Read the whole blog post at [Chris’s blog(https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
+Read the whole blog post at [Chris’s blog](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
 !
 
 ---
