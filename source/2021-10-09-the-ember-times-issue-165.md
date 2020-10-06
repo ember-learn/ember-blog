@@ -29,7 +29,7 @@ READMORE
 
 ## [RFC: Deprecate tryInvoke 📜](https://github.com/emberjs/rfcs/pull/673)
 
-[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [Deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673) building on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
+[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673). It builds on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
 
 The author explains that, in most cases, function arguments should not be optional. In the rare occasion that it is optional, the Javascript language has [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) so we can deprecate the usage of `tryInvoke`.
 
