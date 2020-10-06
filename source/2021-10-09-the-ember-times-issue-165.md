@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 165
-author: Isaac Lee, the crowd
+author: Isaac Lee, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/09-the-ember-times-issue-165.html"
 responsive: true
@@ -9,7 +9,7 @@ responsive: true
 🎃 NOTE: THIS ISSUE IS ACTUALLY FOR 2020, BUT COMMITTING PR'S FOR ISSUE #165 TO MASTER FOR HACKTOBERFEST! 🎃
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Read the new RFC to deprecate `tryInvoke` 📜,
 Tips for switching from Ember Data to Ember Orbit 💡,
 
 READMORE
@@ -27,14 +27,29 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [RFC: Deprecate tryInvoke 📜](https://github.com/emberjs/rfcs/pull/673)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [Deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673) building on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+This is because in most cases, function arguments should not be optional, but in the rare occasion that it is optional, the Javascript language has [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) so we can deprecate the usage of `tryInvoke`.
+
+Before:
+```js
+import { tryInvoke } from '@ember/utils';
+ 
+foo() {
+ tryInvoke(this.args, 'bar', ['baz']);
+}
+```
+
+After:
+```js
+foo() {
+ this.args.bar?.('baz');
+}
+```
+
+Read the full [RFC on Github](https://github.com/emberjs/rfcs/pull/673)!
 
 ---
 
@@ -144,4 +159,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Chris Ng, the crowd and the Learning Team
