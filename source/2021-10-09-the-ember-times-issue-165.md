@@ -34,6 +34,7 @@ READMORE
 This is because in most cases, function arguments should not be optional, but in the rare occasion that it is optional, the Javascript language has [optional chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) so we can deprecate the usage of `tryInvoke`.
 
 Before:
+
 ```js
 import { tryInvoke } from '@ember/utils';
  
@@ -43,6 +44,7 @@ foo() {
 ```
 
 After:
+
 ```js
 foo() {
  this.args.bar?.('baz');
