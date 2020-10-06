@@ -1,6 +1,6 @@
 ---
 title: Ember 3.22 Released
-author: Isaac Lee, Ricardo Mendes
+author: Jared Galanis, Isaac Lee, Ricardo Mendes
 tags: Releases, 2020, 3, 3.22, Version 3.x
 responsive: true
 ---
@@ -31,6 +31,9 @@ Ember.js 3.22 is an incremental, backwards compatible release of Ember with bugf
 Ember.js 3.22 introduced <!-- TODO: Add number --> features.
 
 <!-- TODO: List features -->
+- Enabled `@ember/destroyable` API, which allows you to create and manage your own destroyables. For more information, please see the [Destroyables RFC](https://emberjs.github.io/rfcs/0580-destroyables.html).
+<!-- alex disable retext-equality -->
+- Enabled Cache API, a low-level primitive for memoizing the result of a function based on autotracking. (You can install a [polyfill](https://github.com/ember-polyfills/ember-cache-primitive-polyfill) for apps between versions 3.13 and 3.21.) For more information, please check the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/#toc_caching-of-tracked-properties) and [Autotracking Memoization RFC](https://emberjs.github.io/rfcs/0615-autotracking-memoization.html).
 
 #### Deprecations
 
