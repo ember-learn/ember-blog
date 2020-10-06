@@ -18,12 +18,14 @@ READMORE
 
 ## [Blog Post: Autotracking - Elegant DX Via Cutting-Edge CS 👣](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
 
+<!-- alex ignore just-->
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a blog post on how the developer experience working with Ember’s [autotracking system](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/) work as if it was “just JavaScript”. Particularly he goes through:
 
 - There is no need to mark dependent keys on the getters
 - There is no need for a dedicated utility like `setState` or `this.set`
 - How it does not use two-way binding to achieve this
 
+<!-- alex ignore just-->
 The blog goes through Native Getters, how they are lazy evaluated when we need it and assessed without having to invoke it as a function. Next, Chris goes through Autotracking which is a lightweight reactivity system that uses a global clock which is connected to tracked state to know when to recompute the values in templates. Together these two concepts enables most of our code to be “just JavaScript” and gives us a very low-cost reactivity.
 
 Read the whole blog post at [Chris’s blog](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/)
