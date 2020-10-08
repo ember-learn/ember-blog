@@ -29,7 +29,7 @@ Many open source project maintainers put in some extra effort during Hacktoberfe
 
 Here's what you can expect this year!
 
-- **On Saturday, October 10th,** past contributors will be available to pair with anyone who wants to help out! If you have questions or need some help finding an issue to work on, this is a great place to start. Specific times will be announced soon.
+- **On Saturday, October 10th,** past contributors will be available to pair with anyone who wants to help out! If you have questions or need some help finding an issue to work on, this is a great place to start. **Mentors are available [9am-10am ET](https://meetingzone.app/utc/saturday/1300), and [9pm-10pm ET](https://meetingzone.app/utc/sunday/0100)**. Click the links to see times in your own time zone.
 - **On Friday, October 16th,** there will be an Ember Contributors Workshop! Tickets are sold out but you can read more about the event on the [EmberFest website](http://emberfest.eu/).
 - **At any time,** join the `#hacktoberfest` channel in the [Ember Community Discord](https://discord.gg/emberjs) to connect with other developers. You can find a buddy to pair with, a mentor to guide you, or toss around ideas.
 
