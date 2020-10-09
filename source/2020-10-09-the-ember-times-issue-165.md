@@ -1,14 +1,12 @@
 ---
 title: The Ember Times - Issue No. 165
-author: Isaac Lee, Chris Ng, Jen Weber, the crowd
+author: Isaac Lee, Chris Ng, Jen Weber, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/10/09-the-ember-times-issue-165.html"
 responsive: true
 ---
 
-🎃 NOTE: THIS ISSUE IS ACTUALLY FOR 2020, BUT COMMITTING PR'S FOR ISSUE #165 TO MASTER FOR HACKTOBERFEST! 🎃
-
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 Read the new RFC to deprecate `tryInvoke` 📜,
 Tips for switching from Ember Data to Ember Orbit 💡,
@@ -174,4 +172,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Chris Ng, Jen Weber, the crowd and the Learning Team
+Isaac Lee, Chris Ng, Jen Weber, Amy Lam and the Learning Team
