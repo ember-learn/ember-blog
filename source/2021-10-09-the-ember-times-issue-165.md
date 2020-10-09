@@ -12,6 +12,7 @@ responsive: true
 
 Read the new RFC to deprecate `tryInvoke` 📜,
 Tips for switching from Ember Data to Ember Orbit 💡,
+Read the blog post on Ember Octane with Glimmer Components ✨, 
 Hacktoberfest 2020 events and info 🎃,
 
 READMORE
@@ -88,14 +89,18 @@ Have you always wanted to contribute to open source, but don't know where to sta
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog Post: Ember Octane with Glimmer Components ✨](https://simplabs.com/blog/2020/10/05/simpler-and-more-powerful-components-in-ember-octane-with-glimmer-components/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ricardo Mendes (@locks)](https://github.com/locks) in a blog post, goes through the challenges of building apps using classic Ember components and how Glimmer components address them in a modern, clean way. He goes through building Glimmer components from the viewpoint of classic Ember Components. Improvements include:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- Glimmer components use native class syntax and do not extend from EmberObject.
+- Separation of internal state (properties) and external state (arguments).
+- HTML-first approach makes for a much simpler API surface.
+
+With improvements such as Native Class Syntax, reducing the API surface, and removing framework gotchas like components adding a default `<div>` around itself provide the ability to reason about the code locally instead of having to rely on the framework knowledge.
+
+Read the full blog post on [Simpler and more powerful components in Ember Octane with Glimmer Components](https://simplabs.com/blog/2020/10/05/simpler-and-more-powerful-components-in-ember-octane-with-glimmer-components/) today!
+
 
 ---
 
