@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 164
 author: Abhilash LR, Chris Ng, Jared Galanis, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/09/25-the-ember-times-issue-164.html"
 responsive: true
 ---
