@@ -1,17 +1,18 @@
 ---
 title: The Ember Times - Issue No. 165
-author: Isaac Lee, Chris Ng, Jen Weber, Amy Lam
+author: Isaac Lee, Chris Ng, Jen Weber, Abhilash LR, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/10/09-the-ember-times-issue-165.html"
 responsive: true
 ---
 
-👋 Emberistas! 🐹
+வணக்கம் Emberistas! 🐹
 
 Hacktoberfest 2020 events and info 🎃,
 read the new RFC to deprecate `tryInvoke` 📜,
 read the blog post on Ember Octane with Glimmer Components ✨, 
-and last, but not least, tips for switching from Ember Data to Ember Orbit 💡!
+tips for switching from Ember Data to Ember Orbit 💡,
+and last, but not least, September EmberJS Chennai Meetup 🇮🇳 !
 
 READMORE
 
@@ -90,6 +91,20 @@ Read the full blog post on [Simpler and more powerful components in Ember Octane
 
 ---
 
+## [September EmberJS Chennai Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_syXUFhvYFLg8XmXWymsfWKi)
+
+On September 4th, 2020, EmberJS Chennai featured five speakers at their fourth Meetup and the first virtual one. Topics included:
+
+- [Contextual component design](https://youtu.be/EvkRpoeikWI) by Bhuvaneshwari K
+- [Progressive Web App using EmberJS](https://youtu.be/yp4PVKEjcqQ) by Monisha S
+- [Sequential rendering with EmberJS](https://youtu.be/-IKEDqXTbdQ) by [Kanalveli RA (@kaelinralav)](https://twitter.com/kaelinralav)
+- [Degrading Ember Apps gracefully when offline](https://youtu.be/1K712YagFE8) by Saravana Kumar V
+- [Building Bridges to the DOM with Modifiers](https://youtu.be/GCneFvINPVc) by [Rajasegar Chandran (@rajasegar_c)](https://twitter.com/rajasegar_c)
+
+You can watch al the five talks today on [Youtube playlist](https://www.youtube.com/playlist?list=PLh_rF0Qob_syXUFhvYFLg8XmXWymsfWKi). To learn more about EmberJS Chennai, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/EmberJS-Chennai/), and the [#as-india](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discord.com/invite/zT3asNS)!
+
+---
+
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/34Johnny69" rel="noopener noreferrer" target="_blank">@34Johnny69</a>, <a href="https://github.com/abraaoduarte" rel="noopener noreferrer" target="_blank">Abraão Duarte (@abraaoduarte)</a>, <a href="https://github.com/allthesignals" rel="noopener noreferrer" target="_blank">Matt Gardner (@allthesignals)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/Anshu-jindal" rel="noopener noreferrer" target="_blank">@Anshu-jindal</a>, <a href="https://github.com/bachvo" rel="noopener noreferrer" target="_blank">bach vo (@bachvo)</a>, <a href="https://github.com/BarryThePenguin" rel="noopener noreferrer" target="_blank">Jonathan Haines (@BarryThePenguin)</a>, <a href="https://github.com/Benjy1979" rel="noopener noreferrer" target="_blank">Ben Glancy (@Benjy1979)</a>, <a href="https://github.com/betocantu93" rel="noopener noreferrer" target="_blank">Alberto Cantú Gómez (@betocantu93)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/BradLeftley" rel="noopener noreferrer" target="_blank">Bradley Leftley (@BradLeftley)</a>, <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/chiragpat" rel="noopener noreferrer" target="_blank">Chirag Patel (@chiragpat)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/chrisvdp" rel="noopener noreferrer" target="_blank">Chris van der Ploeg (@chrisvdp)</a>, <a href="https://github.com/hergaiety" rel="noopener noreferrer" target="_blank">Ava Gaiety Wroten (@hergaiety)</a>, <a href="https://github.com/igorT" rel="noopener noreferrer" target="_blank">Igor Terzic (@igorT)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/JamesS-M" rel="noopener noreferrer" target="_blank">@JamesS-M</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/jcardali" rel="noopener noreferrer" target="_blank">Joe Cardali (@jcardali)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/jpsanantonio" rel="noopener noreferrer" target="_blank">Jayvic San Antonio (@jpsanantonio)</a>, <a href="https://github.com/jrowlingson" rel="noopener noreferrer" target="_blank">Jack Rowlingson (@jrowlingson)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/Kennie-create" rel="noopener noreferrer" target="_blank">@Kennie-create</a>, <a href="https://github.com/kiwiupover" rel="noopener noreferrer" target="_blank">Dave Laird (@kiwiupover)</a>, <a href="https://github.com/KroneckerDeIta" rel="noopener noreferrer" target="_blank">@KroneckerDeIta</a>, <a href="https://github.com/lukemelia" rel="noopener noreferrer" target="_blank">Luke Melia (@lukemelia)</a>, <a href="https://github.com/mahmoodhosseini" rel="noopener noreferrer" target="_blank">Mahmood Hosseini (@mahmoodhosseini)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/maxfierke" rel="noopener noreferrer" target="_blank">Max Fierke (@maxfierke)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/mixonic" rel="noopener noreferrer" target="_blank">Matthew Beale (@mixonic)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/nwhittaker" rel="noopener noreferrer" target="_blank">Nathan Whittaker (@nwhittaker)</a>, <a href="https://github.com/parikhdhruv24791" rel="noopener noreferrer" target="_blank">Dhruv Parikh (@parikhdhruv24791)</a>, <a href="https://github.com/Pustur" rel="noopener noreferrer" target="_blank">Loris Bettazza (@Pustur)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/raido" rel="noopener noreferrer" target="_blank">Raido Kuli (@raido)</a>, <a href="https://github.com/rishikesh7355" rel="noopener noreferrer" target="_blank">Rishikesh Yadav (@rishikesh7355)</a>, <a href="https://github.com/rohitpaulk" rel="noopener noreferrer" target="_blank">Paul Kuruvilla (@rohitpaulk)</a>, <a href="https://github.com/ronan-f" rel="noopener noreferrer" target="_blank">Ronan Fegan (@ronan-f)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/sdahlbac" rel="noopener noreferrer" target="_blank">Simon Dahlbacka (@sdahlbac)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/takshch" rel="noopener noreferrer" target="_blank">Taksh Chanana (@takshch)</a>, <a href="https://github.com/thisisgarv" rel="noopener noreferrer" target="_blank">@thisisgarv</a>, <a href="https://github.com/wycats" rel="noopener noreferrer" target="_blank">Yehuda Katz (@wycats)</a>, <a href="https://github.com/XenomShox" rel="noopener noreferrer" target="_blank">@XenomShox</a>, <a href="https://github.com/xuanluong" rel="noopener noreferrer" target="_blank">Sean Luong (@xuanluong)</a>, <a href="https://github.com/ygongdev" rel="noopener noreferrer" target="_blank">Yicheng (Jerry) Gong (@ygongdev)</a>, and <a href="https://github.com/zabrinatan" rel="noopener noreferrer" target="_blank">Zabrina (@zabrinatan)</a> for their contributions to Ember and related repositories! 💖</p>
@@ -116,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Chris Ng, Jen Weber, Amy Lam and the Learning Team
+Isaac Lee, Chris Ng, Jen Weber, Abhilash LR, Amy Lam and the Learning Team
