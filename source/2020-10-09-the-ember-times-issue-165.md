@@ -10,8 +10,8 @@ responsive: true
 
 Hacktoberfest 2020 events and info 🎃,
 read the new RFC to deprecate `tryInvoke` 📜,
-read the blog post on Ember Octane with Glimmer Components ✨, 
 tips for switching from Ember Data to Ember Orbit 💡,
+read the blog post on Ember Octane with Glimmer Components ✨, 
 and last, but not least, September EmberJS Chennai Meetup 🇮🇳 !
 
 READMORE
@@ -101,7 +101,7 @@ On September 4th, 2020, EmberJS Chennai featured five speakers at their fourth M
 - [Degrading Ember Apps gracefully when offline](https://youtu.be/1K712YagFE8) by Saravana Kumar V
 - [Building Bridges to the DOM with Modifiers](https://youtu.be/GCneFvINPVc) by [Rajasegar Chandran (@rajasegar_c)](https://twitter.com/rajasegar_c)
 
-You can watch al the five talks today on [Youtube playlist](https://www.youtube.com/playlist?list=PLh_rF0Qob_syXUFhvYFLg8XmXWymsfWKi). To learn more about EmberJS Chennai, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/EmberJS-Chennai/), and the [#as-india](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discord.com/invite/zT3asNS)!
+You can watch al the five talks today on [YouTube playlist](https://www.youtube.com/playlist?list=PLh_rF0Qob_syXUFhvYFLg8XmXWymsfWKi). To learn more about EmberJS Chennai, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/EmberJS-Chennai/), and the [#as-india](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discord.com/invite/zT3asNS)!
 
 ---
 
