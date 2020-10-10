@@ -8,23 +8,29 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Read the new RFC to deprecate `tryInvoke` 📜,
-Tips for switching from Ember Data to Ember Orbit 💡,
-Read the blog post on Ember Octane with Glimmer Components ✨, 
 Hacktoberfest 2020 events and info 🎃,
+read the new RFC to deprecate `tryInvoke` 📜,
+read the blog post on Ember Octane with Glimmer Components ✨, 
+and last, but not least, tips for switching from Ember Data to Ember Orbit 💡!
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Hacktoberfest 2020 events and info 🎃](https://blog.emberjs.com/2020/10/01/hacktoberfest.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Have you always wanted to contribute to open source, but don't know where to start? The month of October is the perfect time to give it a try!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<!-- alex disable special just gal-guy gals-men-->
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is an annual celebration of open source happens around the world, in thousands of projects on GitHub. Here in Ember land, we have lined up special events, mentoring, pairing, and more. You can read the full details in the [Ember blog](https://blog.emberjs.com/2020/10/01/hacktoberfest.html), but here are the highlights:
+
+- Tomorrow on **Saturday, October 10th**, drop into a pairing session! You can join voice chat on [Ember Discord](https://emberjs.com/community/), where mentors are available to to take your questions, give some advice, and do pair programming during two sessions. Just jump into the "General" voice channel on Discord, all the way at the bottom of the channels list. **Mentors are available [9am-10am ET](https://meetingzone.app/utc/saturday/1300), and [9pm-10pm ET](https://meetingzone.app/utc/sunday/0100)**. Click the links to see times in your own time zone.
+- You can **join the [#hacktoberfest](https://discord.com/channels/480462759797063690/496453502298750988) chat channel** that is open all day, every day. Volunteers are also keeping an eye there for questions or help reviewing pull requests.
+- On October 16th, there is a **sold out** Contributors Workshop. If you are registered and can't make it, please let the organizers know so that someone else can join!
+- If you are a **parent, person of color, LGBTQ+, or woman,** check out our channels for these groups! They are another great place to connect with others and maybe find a pairing buddy. <span style="font-style: italic;">Please note we are welcoming and respectful of trans women and any others who identify as women in a way that is significant to them.</span>
+- If you belong to one of those groups but have not joined the channel yet, you can ask in the [#discord-server-admin](https://discord.com/channels/480462759797063690/480499718330253342) channel or send a direct message to Melanie Sumner.
+
+<!-- alex enable special just gal-guy gals-men-->
 
 ---
 
@@ -70,23 +76,6 @@ We encourage you to check it out and bookmark the link for future reference!
 
 ---
 
-## [Hacktoberfest 2020 events and info 🎃](https://blog.emberjs.com/2020/10/01/hacktoberfest.html)
-
-Have you always wanted to contribute to open source, but don't know where to start? The month of October is the perfect time to give it a try!
-
-<!-- alex disable special just gal-guy gals-men-->
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) is an annual celebration of open source happens around the world, in thousands of projects on GitHub. Here in Ember land, we have lined up special events, mentoring, pairing, and more. You can read the full details in the [Ember blog](https://blog.emberjs.com/2020/10/01/hacktoberfest.html), but here are the highlights:
-
-- Tomorrow on **Saturday, October 10th**, drop into a pairing session! You can join voice chat on [Ember Discord](https://emberjs.com/community/), where mentors are available to to take your questions, give some advice, and do pair programming during two sessions. Just jump into the "General" voice channel on Discord, all the way at the bottom of the channels list. **Mentors are available [9am-10am ET](https://meetingzone.app/utc/saturday/1300), and [9pm-10pm ET](https://meetingzone.app/utc/sunday/0100)**. Click the links to see times in your own time zone.
-- You can **join the [#hacktoberfest](https://discord.com/channels/480462759797063690/496453502298750988) chat channel** that is open all day, every day. Volunteers are also keeping an eye there for questions or help reviewing pull requests.
-- On October 16th, there is a **sold out** Contributors Workshop. If you are registered and can't make it, please let the organizers know so that someone else can join!
-- If you are a **parent, person of color, LGBTQ+, or woman,** check out our channels for these groups! They are another great place to connect with others and maybe find a pairing buddy. <span style="font-style: italic;">Please note we are welcoming and respectful of trans women and any others who identify as women in a way that is significant to them.</span>
-- If you belong to one of those groups but have not joined the channel yet, you can ask in the [#discord-server-admin](https://discord.com/channels/480462759797063690/480499718330253342) channel or send a direct message to Melanie Sumner.
-
-<!-- alex enable special just gal-guy gals-men-->
-
----
-
 ## [Blog Post: Ember Octane with Glimmer Components ✨](https://simplabs.com/blog/2020/10/05/simpler-and-more-powerful-components-in-ember-octane-with-glimmer-components/)
 
 [Ricardo Mendes (@locks)](https://github.com/locks) in a blog post, goes through the challenges of building apps using classic Ember components and how Glimmer components address them in a modern, clean way. He goes through building Glimmer components from the viewpoint of classic Ember Components. Improvements include:
@@ -98,51 +87,6 @@ Have you always wanted to contribute to open source, but don't know where to sta
 With improvements such as Native Class Syntax, reducing the API surface, and removing framework gotchas like components adding a default `<div>` around itself provide the ability to reason about the code locally instead of having to rely on the framework knowledge.
 
 Read the full blog post on [Simpler and more powerful components in Ember Octane with Glimmer Components](https://simplabs.com/blog/2020/10/05/simpler-and-more-powerful-components-in-ember-octane-with-glimmer-components/) today!
-
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
