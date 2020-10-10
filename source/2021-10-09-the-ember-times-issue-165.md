@@ -8,7 +8,7 @@ responsive: true
 
 🎃 NOTE: THIS ISSUE IS ACTUALLY FOR 2020, BUT COMMITTING PR'S FOR ISSUE #165 TO MASTER FOR HACKTOBERFEST! 🎃
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+வணக்கம் Emberistas! 🐹
 
 Read the new RFC to deprecate `tryInvoke` 📜,
 Tips for switching from Ember Data to Ember Orbit 💡,
@@ -19,14 +19,17 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [September EmberJS Chennai Meetup 🇮🇳](https://www.youtube.com/playlist?list=PLh_rF0Qob_syXUFhvYFLg8XmXWymsfWKi)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+On September 4th, 2020, EmberJS Chennai featured five speakers at their fourth Meetup and the first virtual one. Topics included:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+- [Contextual component design](https://youtu.be/EvkRpoeikWI) by Bhuvaneshwari K
+- [Progressive Web App using EmberJS](https://youtu.be/yp4PVKEjcqQ) by Monisha S
+- [Sequential rendering with EmberJS](https://youtu.be/-IKEDqXTbdQ) by [Kanalveli RA (@kaelinralav)](https://twitter.com/kaelinralav)
+- [Degrading Ember Apps gracefully when offline](https://youtu.be/1K712YagFE8) by Saravana Kumar V
+- [Building Bridges to the DOM with Modifiers](https://youtu.be/GCneFvINPVc) by [Rajasegar Chandran (@rajasegar_c)](https://twitter.com/rajasegar_c)
+
+You can watch al the five talks today on [Youtube playlist](https://www.youtube.com/playlist?list=PLh_rF0Qob_syXUFhvYFLg8XmXWymsfWKi). To learn more about EmberJS Chennai, you can visit their [website](https://chennaiemberjs.in/) and follow them on [Twitter](https://twitter.com/EmberChennai), [Meetup](https://www.meetup.com/EmberJS-Chennai/), and the [#as-india](https://discordapp.com/channels/480462759797063690/562648585980739616) channel on [Discord](https://discord.com/invite/zT3asNS)!
 
 ---
 
