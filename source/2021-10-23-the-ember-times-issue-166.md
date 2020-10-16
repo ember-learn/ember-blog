@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 166
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/23-the-ember-times-issue-166.html"
 responsive: true
@@ -9,19 +9,20 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+New RFC to Deprecate transition methods of Controller and Route ✍️,
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [RFC: Deprecate transition methods of Controller and Route ✍️](https://github.com/emberjs/rfcs/pull/674)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) proposed a new RFC to [Deprecate transition methods of Controller and Route](https://github.com/emberjs/rfcs/pull/674) in order to reduce public API exposed related to routing.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The RFC aims to deprecate the methods `transitionTo` and `replaceWith` of the Route object and the methods `transitionToRoute` and `replaceRoute` of the Controller object. The existing methods `transitionTo` and `replaceWith` of the RouterService object should be used instead.
+
+The RFC proposes that the existing methods are today not documented properly so there are likely timing differences between the different routing calls even if from the outside they function the same. Supporting different ways to do the same increases complexity without providing much value and limiting options will make learning the framework easier for new developers.
+
+Read and comment on the [full RFC on GitHub](https://github.com/emberjs/rfcs/pull/674)!
 
 ---
 
@@ -139,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
