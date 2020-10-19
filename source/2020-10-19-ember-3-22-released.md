@@ -5,6 +5,8 @@ tags: Releases, 2020, 3, 3.22, Version 3.x
 responsive: true
 ---
 
+<!-- alex disable retext-equality -->
+
 Today the Ember project is releasing version 3.22 of Ember.js, Ember Data, and Ember CLI.
 
 This release kicks off the 3.23 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
@@ -36,10 +38,9 @@ Ember.js 3.22 introduced several bug fixes, including:
 
 Ember.js 3.22 introduced 3 features.
 
-- Enabled `@ember/destroyable` API, which allows you to create and manage your own destroyables. For more information, please see the [Destroyables RFC](https://emberjs.github.io/rfcs/0580-destroyables.html).
-<!-- alex disable retext-equality -->
-- Enabled Cache API, a low-level primitive for memoizing the result of a function based on autotracking. (You can install a [polyfill](https://github.com/ember-polyfills/ember-cache-primitive-polyfill) for apps between versions 3.13 and 3.21.) For more information, please check the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/#toc_caching-of-tracked-properties) and [Autotracking Memoization RFC](https://emberjs.github.io/rfcs/0615-autotracking-memoization.html).
-- Allowed passing the `transition` object to 2 route hooks, `activate` and `deactivate`.
+1. Enabled `@ember/destroyable` API, which allows you to create and manage your own destroyables. For more information, please see the [Destroyables RFC](https://emberjs.github.io/rfcs/0580-destroyables.html).
+2. Enabled Cache API, a low-level primitive for memoizing the result of a function based on autotracking. (You can install a [polyfill](https://github.com/ember-polyfills/ember-cache-primitive-polyfill) for apps between versions 3.13 and 3.21.) For more information, please check the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/#toc_caching-of-tracked-properties) and [Autotracking Memoization RFC](https://emberjs.github.io/rfcs/0615-autotracking-memoization.html).
+3. Allowed passing the `transition` object to 2 route hooks, `activate` and `deactivate`.
 
 #### Deprecations
 
@@ -73,7 +74,7 @@ Ember Data 3.22 introduced 0 features.
 
 Ember Data 3.22 introduced 1 deprecation.
 
-- Use of `najax` has been [deprecated](https://github.com/emberjs/data/pull/7230) in favor of `ember-fetch` when fastboot is installed.
+1. Use of `najax` has been [deprecated](https://github.com/emberjs/data/pull/7230) in favor of `ember-fetch` when fastboot is installed.
 
 For more details on changes in Ember Data 3.22, please review the
 [Ember Data 3.22.0 release page](https://github.com/emberjs/data/releases/tag/v3.22.0).
