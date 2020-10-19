@@ -26,6 +26,12 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 3.22 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
 
+Ember.js 3.22 introduced several bug fixes, including:
+
+- [#19094](https://github.com/emberjs/ember.js/pull/19094) `RouterService#isActive` now updates tracked properties correctly by consuming `currentURL` and `currentRouteName`;
+- [#19170](https://github.com/emberjs/ember.js/pull/19170) modifier manager 3.22 now accepts the resolved value of `owner.factoryFor` directly, which is in keeping with the way helpers and component managers work; and
+- [#19124](https://github.com/emberjs/ember.js/pull/19124) `protocolForUrl` now works in fastboot `fastboot@3.1.0` environment by leveraging the native JavaScript `URL` global
+
 #### New Features
 
 Ember.js 3.22 introduced <!-- TODO: Add number --> features.
@@ -51,21 +57,25 @@ For more details on changes in Ember.js 3.22, please review the [Ember.js 3.22.0
 
 ## Ember Data
 
-Ember Data is the official data persistence library for Ember.js applications.
+Ember Data is the official data persistence library for Ember.js applications. 
 
 ### Changes in Ember Data 3.22
 
+Ember Data 3.22 included several bug fixes of note, including:
+
+- several fixes ensuring that the `Errors.errorsFor` array and subarray are properly updated and that autotracking works [#7273](https://github.com/emberjs/data/pull/7273), [#7330](https://github.com/emberjs/data/pull/7330), and [#7331](https://github.com/emberjs/data/pull/7331);
+- [#7322](https://github.com/emberjs/data/pull/7322) disables the esm cache to solve build time errors some applications were experiencing; and
+- [#7126](https://github.com/emberjs/data/pull/7126) addresses relationship state when sideposting with `lid`.
+
 #### New Features
 
-Ember Data 3.22 introduced <!-- TODO: Add number --> features.
-
-<!-- TODO: List features -->
+There are no new features introduced in Ember Data 3.22.
 
 #### Deprecations
 
-Ember Data 3.22 introduced <!-- TODO: Add number --> deprecations.
+Ember Data 3.22 introduced 1 deprecation.
 
-<!-- TODO: List deprecations -->
+1. Use of `najax` has been [deprecated](https://github.com/emberjs/data/pull/7230) in favor of `ember-fetch` when fastboot is installed.
 
 For more details on changes in Ember Data 3.22, please review the
 [Ember Data 3.22.0 release page](https://github.com/emberjs/data/releases/tag/v3.22.0).
