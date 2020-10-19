@@ -46,11 +46,6 @@ Ember.js 3.22 introduced 3 features.
 
 Ember.js 3.22 introduced 0 deprecations.
 
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-
-For more details on changes in Ember.js 3.22, please review the [Ember.js 3.22.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.22.0).
 
 ---
 
