@@ -91,17 +91,16 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.22
 
+Ember CLI 3.22 includes only internal changes. However, please note that [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember) released a new major version, `v9.x`. The new version introduces 6 additional recommended rules and removed support of Node `v13`. To learn more, please [check out the changelog for `eslint-plugin-ember`](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v9.0.0).
+
+
 #### New Features
 
-Ember CLI 3.22 introduced <!-- TODO: Add number --> features.
-
-<!-- TODO: List features -->
+Ember CLI 3.22 introduced 0 features.
 
 #### Deprecations
 
-Ember CLI 3.22 introduced <!-- TODO: Add number --> deprecations.
-
-<!-- TODO: List deprecations -->
+Ember CLI 3.22 introduced 0 deprecations.
 
 ---
 
