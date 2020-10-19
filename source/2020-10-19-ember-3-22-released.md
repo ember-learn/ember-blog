@@ -30,9 +30,10 @@ Ember.js 3.22 is an incremental, backwards compatible release of Ember with bugf
 
 Ember.js 3.22 introduced several bug fixes, including:
 
-- [#19094](https://github.com/emberjs/ember.js/pull/19094) `RouterService#isActive` now updates tracked properties correctly by consuming `currentURL` and `currentRouteName`;
-- [#19170](https://github.com/emberjs/ember.js/pull/19170) modifier manager 3.22 now accepts the resolved value of `owner.factoryFor` directly, which is in keeping with the way helpers and component managers work; and
-- [#19124](https://github.com/emberjs/ember.js/pull/19124) `protocolForUrl` now works in fastboot `fastboot@3.1.0` environment by leveraging the native JavaScript `URL` global
+- `RouterService#isActive` updates correctly when the route changes ([#19094](https://github.com/emberjs/ember.js/pull/19094))
+- A custom modifier manager only consumes arguments that it actually uses. (Previously, the manager would eagerly consume all arguments.) In order for specific modifiers to take advantage of this change, they need to call `modifierCapabilities('3.22')` (instead of `'3.13'`). ([#19163](https://github.com/emberjs/ember.js/pull/19163))
+- Modifier manager accepts the resolved value of `owner.factoryFor` directly. This approach aligns with how helpers and component managers work. ([#19170](https://github.com/emberjs/ember.js/pull/19170))
+- Changes made to `protocolForUrl` (in `3.22.0-beta.2+`) work in `fastboot@3.1.0` environment by leveraging the native JavaScript `URL` global. ([#19124](https://github.com/emberjs/ember.js/pull/19124))
 
 #### New Features
 
