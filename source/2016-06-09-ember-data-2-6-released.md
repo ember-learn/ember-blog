@@ -36,6 +36,7 @@ For instance, if a user has many pets, which is a polymorphic relationship, the 
 }
 ```
 
+<!--alex ignore just-->
 This is particularly useful for polymorphic relationships not backed
   by [STI](https://en.wikipedia.org/wiki/Single_Table_Inheritance)
   when just including the id of the records is not enough.
