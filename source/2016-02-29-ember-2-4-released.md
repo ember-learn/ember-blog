@@ -4,7 +4,7 @@ responsive: true
 author: Matthew Beale
 tags: Releases, 2016, Version 2.x, 2.4, 2.5
 ---
-
+<!--alex disable -->
 Ember.js 2.4, a minor version release of Ember with backwards compatible
 changes, is released today. After an additional six-week maturation cycle
 as a stable release version, 2.4 will be declared Ember's first Long-Term

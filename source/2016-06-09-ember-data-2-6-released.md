@@ -4,7 +4,7 @@ responsive: true
 author: Brendan McLoughlin
 tags: Ember Data, 2016, Version 2.x
 ---
-
+<!--alex disable -->
 Ember Data 2.6, a minor version release of Ember Data, is
 released. This release represents the work of over 22 direct
 contributors, and over 85 commits.
