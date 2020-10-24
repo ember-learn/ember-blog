@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 166
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/23-the-ember-times-issue-166.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 New RFC to Deprecate transition methods of Controller and Route ✍️,
 Read the blog post on React component patterns in Ember ⚛️,
+Glimmer VM Tracking Video 📹,
 READMORE
 
 ---
@@ -49,14 +50,11 @@ Read the full blog post where Michael compares each pattern with code samples in
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Glimmer VM Tracking Video 📹](https://www.youtube.com/watch?v=BjKERSRpPeI)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We've had some nice blog posts on the subject of tracking in Octane recently, but if you've been wondering about how tracking works in the ✨✨Glimmer VM✨✨ and you learn better by audio visual 🔊📼 methods you may want to check out the [video on YouTube](https://www.youtube.com/watch?v=BjKERSRpPeI) that [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Chris Garrett (@pzuraq)](https://github.com/pzuraq) put out at the beginning of September on the subject.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+It's a very nice opportunity to watch and listen to two of the framework contributors discuss the internals of tracking in the Glimmer VM - we hope they put out another one soon!
 
 ---
 
@@ -143,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jared Galanis the crowd and the Learning Team
