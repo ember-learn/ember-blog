@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 165
 author: Isaac Lee, Chris Ng, Jen Weber, Abhilash LR, Amy Lam
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/10/09-the-ember-times-issue-165.html"
 responsive: true
 ---
