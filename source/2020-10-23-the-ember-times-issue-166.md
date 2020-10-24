@@ -12,7 +12,7 @@ New RFC to Deprecate transition methods of Controller and Route ✍️,
 learn what's new in the Ember 3.22 release 🎉
 read the blog post on React component patterns in Ember ⚛️,
 Glimmer VM tracking video 📹,
-RFC: Deprecate tryInvoke enters Final Comment Period 📜,
+Deprecate tryInvoke RFC enters Final Comment Period 📜,
 EmberMap Octane conversion video 📼,
 and last, but not least, built with Ember: Emojible 🥳!
 
@@ -69,7 +69,7 @@ It's a very nice opportunity to watch and listen to two framework contributors d
 
 ---
 
-## [RFC: Deprecate tryInvoke Enters Final Comment Period 📜](https://twitter.com/emberjs/status/1319720127320018944)
+## [Deprecate tryInvoke RFC enters Final Comment Period 📜](https://twitter.com/emberjs/status/1319720127320018944)
 
 [Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673), and we covered this a few weeks back. 
 
