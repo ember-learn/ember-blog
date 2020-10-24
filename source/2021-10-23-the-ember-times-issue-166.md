@@ -14,7 +14,8 @@ read the blog post on React component patterns in Ember ⚛️,
 Glimmer VM Tracking Video 📹,
 RFC: Deprecate tryInvoke Enters Final Comment Period 📜,
 EmberMap Octane Conversion Video 📼,
-  
+and last, but not least, built with Ember: Emojible 🥳!
+
 READMORE
 
 ---
@@ -87,36 +88,9 @@ The video covers how to convert an Ember Model to native class syntax and it is 
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Built with Ember: Emojible 🥳](https://creator.emojible.store/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We're big fans of emojis here at The Ember Times. With [Emojible](https://creator.emojible.store/), now you can create **your own** emojis! Show everyone how you really feel! Save your custom emojis and use them on Slack, Telegram, Signal, or anywhere you want to add some flair. From the [announcement on Twitter](https://twitter.com/emojible/status/1318534253471256576), we learned that the site was built with Ember.js! Awesome to see Ember on such a fun project. May we suggest a Tomster face in the next release?! 
 
 ---
 
