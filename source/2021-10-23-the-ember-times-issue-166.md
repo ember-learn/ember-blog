@@ -11,9 +11,9 @@ responsive: true
 New RFC to Deprecate transition methods of Controller and Route ✍️,
 learn what's new in the Ember 3.22 release 🎉
 read the blog post on React component patterns in Ember ⚛️,
-Glimmer VM Tracking Video 📹,
-RFC: Deprecate tryInvoke Enters Final Comment Period 📜,
-EmberMap Octane Conversion Video 📼,
+Glimmer VM tracking video 📹,
+RFC: Deprecate tryInvoke enters Final Comment Period 📜,
+EmberMap Octane conversion video 📼,
 and last, but not least, built with Ember: Emojible 🥳!
 
 READMORE
