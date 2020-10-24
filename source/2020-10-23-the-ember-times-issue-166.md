@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 166
 author: Chris Ng, Amy Lam, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
-alias : "blog/2021/10/23-the-ember-times-issue-166.html"
+alias : "blog/2020/10/23-the-ember-times-issue-166.html"
 responsive: true
 ---
 
