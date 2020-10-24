@@ -31,10 +31,12 @@ Read and comment on the [full RFC on GitHub](https://github.com/emberjs/rfcs/pul
 
 ## [Learn what's new in Ember 3.22 release 🎉](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html)
 
+<!--alex ignore host-hostess-->
 The Ember Blog [announced the v3.22 releases](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html) of Ember.js, Ember Data, and Ember CLI. There were a host of bug fixes across the board, one deprecation for Ember Data and several new features for Ember.js.
 
 The release of version 3.22 introduced some new features you may want to be aware of in Ember.js:
 
+<!--alex ignore savage-->
 1. Enabled `@ember/destroyable` API, which allows you to create and manage your own destroyables. For more information, please see the [Destroyables RFC](https://emberjs.github.io/rfcs/0580-destroyables.html).
 2. Enabled Cache API, a low-level primitive for memoizing the result of a function based on autotracking. (You can install a [polyfill](https://github.com/ember-polyfills/ember-cache-primitive-polyfill) for apps between versions 3.13 and 3.21.) For more information, please check the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/#toc_caching-of-tracked-properties) and [Autotracking Memoization RFC](https://emberjs.github.io/rfcs/0615-autotracking-memoization.html).
 3. Allowed passing the `transition` object to 2 route hooks, `activate` and `deactivate`.
