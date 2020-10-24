@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 166
-author: Chris Ng, Jared Galanis, Amy Lam
+author: Chris Ng, Amy Lam, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/23-the-ember-times-issue-166.html"
 responsive: true
@@ -12,6 +12,9 @@ responsive: true
 New RFC to Deprecate transition methods of Controller and Route ✍️,
 Learn what's new in Ember 3.22 release 🎉
 Read the blog post on React component patterns in Ember ⚛️,
+Glimmer VM Tracking Video 📹,
+RFC: Deprecate tryInvoke Enters Final Comment Period 📜,
+EmberMap Octane Conversion Video 📼,
   
 READMORE
 
@@ -58,36 +61,30 @@ Read the full blog post where Michael compares each pattern with code samples in
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Glimmer VM Tracking Video 📹](https://www.youtube.com/watch?v=BjKERSRpPeI)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We've had some nice blog posts on the subject of tracking in Octane recently, but if you've been wondering about how tracking works in the ✨✨Glimmer VM✨✨ and you learn better by audio visual 🔊📼 methods you may want to check out the [video on YouTube](https://www.youtube.com/watch?v=BjKERSRpPeI) that [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Chris Garrett (@pzuraq)](https://github.com/pzuraq) put out at the beginning of September on the subject.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+It's a very nice opportunity to watch and listen to two of the framework contributors discuss the internals of tracking in the Glimmer VM - we hope they put out another one soon!
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [RFC: Deprecate tryInvoke Enters Final Comment Period 📜](https://twitter.com/emberjs/status/1319720127320018944)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673), and we covered this a few weeks back. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You may recall that this RFC builds on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
+
+<!--alex ignore just-->
+Well this newer RFC has just entered final comment period so if you want to get your comments in you should head on over to the [RFC](https://github.com/emberjs/rfcs/pull/673) and provide your thoughts while you still can.
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [EmberMapOctane Conversion  Video 📼](https://twitter.com/ember_map/status/1319715247423369216)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The good folks over at EmberMap are kicking off a new video series lead by [Lindsay Cade (@cadeParade)](https://github.com/cadeParade) on converting to Octane and the [first look video](https://embermap.com/topics/converting-to-octane-first-look/converting-a-model) is out now 🎉!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The video covers how to convert an Ember Model to native class syntax and it is 💸 free 💸, so go watch the first in what is sure to be an awesome series of videos on Octane conversions!
 
 ---
 
@@ -152,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis, Amy Lam, and the Learning Team
+Chris Ng, Amy Lam, Jared Galanis the crowd and the Learning Team
