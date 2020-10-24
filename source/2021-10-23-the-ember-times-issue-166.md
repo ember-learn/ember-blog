@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 166
-author: Chris Ng, Amy Lam, Jared Galanis the crowd
+author: Chris Ng, Amy Lam, Jared Galanis
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/23-the-ember-times-issue-166.html"
 responsive: true
@@ -8,10 +8,9 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 New RFC to Deprecate transition methods of Controller and Route ✍️,
-Learn what's new in Ember 3.22 release 🎉
-Read the blog post on React component patterns in Ember ⚛️,
+learn what's new in the Ember 3.22 release 🎉
+read the blog post on React component patterns in Ember ⚛️,
 Glimmer VM Tracking Video 📹,
 RFC: Deprecate tryInvoke Enters Final Comment Period 📜,
 EmberMap Octane Conversion Video 📼,
@@ -32,7 +31,7 @@ Read and comment on the [full RFC on GitHub](https://github.com/emberjs/rfcs/pul
 
 ---
 
-## [Learn what's new in Ember 3.22 release 🎉](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html)
+## [Learn what's new in the Ember 3.22 release 🎉](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html)
 
 <!--alex ignore host-hostess-->
 The Ember Blog [announced the v3.22 releases](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html) of Ember.js, Ember Data, and Ember CLI. There were a host of bug fixes across the board, one deprecation for Ember Data and several new features for Ember.js.
@@ -44,15 +43,15 @@ The release of version 3.22 introduced some new features you may want to be awar
 2. Enabled Cache API, a low-level primitive for memoizing the result of a function based on autotracking. (You can install a [polyfill](https://github.com/ember-polyfills/ember-cache-primitive-polyfill) for apps between versions 3.13 and 3.21.) For more information, please check the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/#toc_caching-of-tracked-properties) and [Autotracking Memoization RFC](https://emberjs.github.io/rfcs/0615-autotracking-memoization.html).
 3. Allowed passing the `transition` object to 2 route hooks, `activate` and `deactivate`.
 
-Additionally Ember Data 3.22 introduced a deprecation for use of `najax` in favor of `ember-fetch` when fastboot is installed, and for new apps Ember CLI 3.22 will install v9 or higher of `eslint-plugin-ember`, which may limit the version of Node that you use.
+Additionally, Ember Data 3.22 introduced a deprecation for use of `najax` in favor of `ember-fetch` when fastboot is installed. And for new apps, Ember CLI 3.22 will install v9 or higher of `eslint-plugin-ember`, which may limit the version of Node that you use.
 
-The release also kicked off the 3.23 beta cycle. If you can, please help with testing beta builds and reporting bugs before version 3.23.0 is published. 
+The release also kicked off the 3.23 beta cycle. If you can, please help with testing beta builds and reporting bugs before version 3.23.0 is published!
 
 ---
 
-## [Blog: React Component Patterns in Ember.js ⚛️](https://www.effective-ember.com/blog/react-component-patterns/)
+## [React component patterns in Ember.js ⚛️](https://www.effective-ember.com/blog/react-component-patterns/)
 
-[Michael Klein (@LevelbossMike)](https://github.com/LevelbossMike) wrote a blog post comparing modern Ember with React. While not expert on React, the blog goes through how [React tackles challenges](https://dev.to/alexi_be3/react-component-patterns-49ho) when implementing SPAs. The blog goes through 3 different component patterns: Compound Component Pattern, Flexible Compound Component Pattern, and Provider Pattern - to see how each one is implemented in React and Ember.
+[Michael Klein (@LevelbossMike)](https://github.com/LevelbossMike) wrote a blog post comparing modern Ember with React. While not an expert on React, Michael goes through how [React tackles challenges](https://dev.to/alexi_be3/react-component-patterns-49ho) when implementing SPAs. The blog goes through 3 different component patterns: Compound Component Pattern, Flexible Compound Component Pattern, and Provider Pattern - to see how each one is implemented in React and Ember.
 
 <!--alex ignore obvious-->
 The blog argues that the [Octane Edition](https://emberjs.com/editions/octane/) of Ember provides conventions that help you fall into the pit of success instead of only giving you low-level primitives to solve common challenges in a multitude of ways with different tradeoffs that only seem to be obvious to people that are experts in React.
@@ -63,9 +62,9 @@ Read the full blog post where Michael compares each pattern with code samples in
 
 ## [Glimmer VM Tracking Video 📹](https://www.youtube.com/watch?v=BjKERSRpPeI)
 
-We've had some nice blog posts on the subject of tracking in Octane recently, but if you've been wondering about how tracking works in the ✨✨Glimmer VM✨✨ and you learn better by audio visual 🔊📼 methods you may want to check out the [video on YouTube](https://www.youtube.com/watch?v=BjKERSRpPeI) that [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Chris Garrett (@pzuraq)](https://github.com/pzuraq) put out at the beginning of September on the subject.
+We've had some nice blog posts on the subject of tracking in Octane recently, but if you've been wondering about how tracking works in the ✨✨Glimmer VM✨✨ and you learn better by audio visual 🔊📼 methods, you may want to check out the [video on YouTube](https://www.youtube.com/watch?v=BjKERSRpPeI) that [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Chris Garrett (@pzuraq)](https://github.com/pzuraq) put out at the beginning of September on the subject.
 
-It's a very nice opportunity to watch and listen to two of the framework contributors discuss the internals of tracking in the Glimmer VM - we hope they put out another one soon!
+It's a very nice opportunity to watch and listen to two framework contributors discuss the internals of tracking in the Glimmer VM - we hope they put out another one soon!
 
 ---
 
@@ -76,11 +75,11 @@ It's a very nice opportunity to watch and listen to two of the framework contrib
 You may recall that this RFC builds on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
 
 <!--alex ignore just-->
-Well this newer RFC has just entered final comment period so if you want to get your comments in you should head on over to the [RFC](https://github.com/emberjs/rfcs/pull/673) and provide your thoughts while you still can.
+Well this newer RFC has just entered Final Comment Period, so you should head on over to the [RFC](https://github.com/emberjs/rfcs/pull/673) and provide your thoughts while you still can.
 
 ---
 
-## [EmberMapOctane Conversion  Video 📼](https://twitter.com/ember_map/status/1319715247423369216)
+## [EmberMap Octane conversion video 📼](https://twitter.com/ember_map/status/1319715247423369216)
 
 The good folks over at EmberMap are kicking off a new video series lead by [Lindsay Cade (@cadeParade)](https://github.com/cadeParade) on converting to Octane and the [first look video](https://embermap.com/topics/converting-to-octane-first-look/converting-a-model) is out now 🎉!
 
@@ -149,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jared Galanis the crowd and the Learning Team
+Chris Ng, Amy Lam, Jared Galanis and the Learning Team
