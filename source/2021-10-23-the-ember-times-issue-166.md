@@ -1,16 +1,18 @@
 ---
 title: The Ember Times - Issue No. 166
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/23-the-ember-times-issue-166.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 New RFC to Deprecate transition methods of Controller and Route ✍️,
+Learn what's new in Ember 3.22 release 🎉
 Read the blog post on React component patterns in Ember ⚛️,
+  
 READMORE
 
 ---
@@ -27,14 +29,21 @@ Read and comment on the [full RFC on GitHub](https://github.com/emberjs/rfcs/pul
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Learn what's new in Ember 3.22 release 🎉](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!--alex ignore host-hostess-->
+The Ember Blog [announced the v3.22 releases](https://blog.emberjs.com/2020/10/20/ember-3-22-released.html) of Ember.js, Ember Data, and Ember CLI. There were a host of bug fixes across the board, one deprecation for Ember Data and several new features for Ember.js.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The release of version 3.22 introduced some new features you may want to be aware of in Ember.js:
+
+<!--alex ignore savage-->
+1. Enabled `@ember/destroyable` API, which allows you to create and manage your own destroyables. For more information, please see the [Destroyables RFC](https://emberjs.github.io/rfcs/0580-destroyables.html).
+2. Enabled Cache API, a low-level primitive for memoizing the result of a function based on autotracking. (You can install a [polyfill](https://github.com/ember-polyfills/ember-cache-primitive-polyfill) for apps between versions 3.13 and 3.21.) For more information, please check the [Ember Guides](https://guides.emberjs.com/release/in-depth-topics/autotracking-in-depth/#toc_caching-of-tracked-properties) and [Autotracking Memoization RFC](https://emberjs.github.io/rfcs/0615-autotracking-memoization.html).
+3. Allowed passing the `transition` object to 2 route hooks, `activate` and `deactivate`.
+
+Additionally Ember Data 3.22 introduced a deprecation for use of `najax` in favor of `ember-fetch` when fastboot is installed, and for new apps Ember CLI 3.22 will install v9 or higher of `eslint-plugin-ember`, which may limit the version of Node that you use.
+
+The release also kicked off the 3.23 beta cycle. If you can, please help with testing beta builds and reporting bugs before version 3.23.0 is published. 
 
 ---
 
@@ -143,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Jared Galanis, Amy Lam, and the Learning Team
