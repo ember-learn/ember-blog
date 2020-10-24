@@ -12,6 +12,8 @@ responsive: true
 New RFC to Deprecate transition methods of Controller and Route ✍️,
 Read the blog post on React component patterns in Ember ⚛️,
 Glimmer VM Tracking Video 📹,
+RFC: Deprecate tryInvoke Enters Final Comment Period 📜,
+EmberMapOctane Conversion  Video 📼,
 READMORE
 
 ---
@@ -58,25 +60,21 @@ It's a very nice opportunity to watch and listen to two of the framework contrib
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [RFC: Deprecate tryInvoke Enters Final Comment Period 📜](https://twitter.com/emberjs/status/1319720127320018944)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673), and we covered this a few weeks back. 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+You may recall that this RFC builds on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
+
+Well this newer RFC has just entered final comment period so if you want to get your comments in you should head on over to the [RFC](https://github.com/emberjs/rfcs/pull/673) and provide your thoughts while you still can.
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [EmberMapOctane Conversion  Video 📼](https://twitter.com/ember_map/status/1319715247423369216)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The good folks over at EmberMap are kicking off a new video series lead by [Lindsay Cade (@cadeParade)](https://github.com/cadeParade) on converting to Octane and the [first look video](https://embermap.com/topics/converting-to-octane-first-look/converting-a-model) is out now 🎉!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The video covers how to convert an Ember Model to native class syntax and it is 💸 free 💸, so go watch the first in what is sure to be an awesome series of videos on Octane conversions!
 
 ---
 
