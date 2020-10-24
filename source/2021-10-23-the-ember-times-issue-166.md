@@ -1,17 +1,18 @@
 ---
 title: The Ember Times - Issue No. 166
-author: Chris Ng, Jared Galanis the crowd
+author: Chris Ng, Jared Galanis, Amy Lam
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2021/10/23-the-ember-times-issue-166.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Learn what's new in Ember 3.22 release 🎉
+👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 New RFC to Deprecate transition methods of Controller and Route ✍️,
+Learn what's new in Ember 3.22 release 🎉
 Read the blog post on React component patterns in Ember ⚛️,
+  
 READMORE
 
 ---
@@ -135,9 +136,11 @@ Read the full blog post where Michael compares each pattern with code samples in
   <p>Wondering about something related to Ember, Ember Data, Glimmer, or addons in the Ember ecosystem, but don't know where to ask? Readers’ Questions are just for you!</p>
 
   <p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>
+</div>
 
-  <p>Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at <a href="https://discordapp.com/channels/480462759797063690/485450546887786506">#support-ember-times</a> on the <a href="https://discordapp.com/invite/zT3asNS">Ember Community Discord</a> or ping us <a href="https://twitter.com/embertimes">@embertimes</a> on Twitter.</p>
+> P.S. Did we miss your past Readers' Question? We've added a new optional field to include your contact info, in case we need some clarification to answer your question in an upcoming issue. Please chat with us at <a href="https://discordapp.com/channels/480462759797063690/485450546887786506">#support-ember-times</a> on the <a href="https://discordapp.com/invite/zT3asNS">Ember Community Discord</a> or ping us <a href="https://twitter.com/embertimes">@embertimes</a> on Twitter. As always, join us on Discord if you want want to write for the Ember Times or have a suggestion for next week's issue!</p>
 
+<div>
   <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://the-emberjs-times.ongoodbits.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://emberjs.com/blog/tags/newsletter.html">Ember blog</a>.</p>
 </div>
 
@@ -147,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jared Galanis, Amy Lam, and the Learning Team
