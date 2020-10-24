@@ -75,6 +75,7 @@ It's a very nice opportunity to watch and listen to two of the framework contrib
 
 You may recall that this RFC builds on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
 
+<!--alex ignore just-->
 Well this newer RFC has just entered final comment period so if you want to get your comments in you should head on over to the [RFC](https://github.com/emberjs/rfcs/pull/673) and provide your thoughts while you still can.
 
 ---
