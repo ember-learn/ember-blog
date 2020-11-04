@@ -24,8 +24,17 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      - name: Cache npm cache
+        id: cache-dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-${{ env.NODE_VERSION }}-${{ secrets.CACHE_VERSION }}-npm-cache
+          restore-keys: ${{ runner.os }}-${{ env.NODE_VERSION }}-${{ secrets.CACHE_VERSION }}-
+
       - name: Install dependencies
         run: npm install alex@8.0.1 markdownlint-cli@0.19.0 --global
+        if: steps.cache-dependencies.outputs.cache-hit != 'true'
 
       - name: Lint
         run: |
