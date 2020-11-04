@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 167
 author: the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
-alias : "blog/2021/11/06-the-ember-times-issue-167.html"
+alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
 ---
 
