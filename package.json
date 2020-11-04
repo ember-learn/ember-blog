@@ -1,0 +1,26 @@
+{
+  "name": "ember-blog",
+  "version": "1.0.0",
+  "description": "This repository contains the blog content for the Ember Blog.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ember-learn/ember-blog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ember-learn/ember-blog/issues"
+  },
+  "homepage": "https://github.com/ember-learn/ember-blog#readme",
+  "scripts": {
+    "lint:alex": "alex source",
+    "lint:md": "markdownlint source"
+  },
+  "devDependencies": {
+    "alex": "^9.0.1",
+    "markdownlint": "^0.21.1"
+  },
+  "engines": {
+    "node": "10.* || >= 12"
+  }
+}

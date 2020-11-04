@@ -12,3 +12,4 @@ build/
 .rvmrc
 .ruby-gemset
 .cache
+/node_modules/
