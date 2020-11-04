@@ -8,6 +8,7 @@ on:
 
 env:
   NODE_VERSION: 12
+  RUBY_VERSION: 2.4
 
 jobs:
   lint:
@@ -30,3 +31,28 @@ jobs:
         run: |
           ./scripts/validate.sh alex
           ./scripts/validate.sh markdownlint
+
+
+  build-app:
+    name: Build app
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Check out a copy of the repo
+        uses: actions/checkout@v2
+
+      - name: Use Ruby ${{ env.RUBY_VERSION }}
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ env.RUBY_VERSION }}
+
+      - name: Install Bundler
+        run: |
+          gem update --system
+          gem install bundler --version 1.17.2
+
+      - name: Install gems
+        run: bundle install --path vendor/bundle --jobs 4 --retry 3
+
+      - name: Build app
+        run: bundle exec middleman build
