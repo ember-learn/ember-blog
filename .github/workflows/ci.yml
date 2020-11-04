@@ -49,7 +49,7 @@ jobs:
       - name: Check out a copy of the repo
         uses: actions/checkout@v2
 
-      - name: Use Ruby ${{ env.RUBY_VERSION }}
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           # Gets Bundler version number from `BUNDLED WITH`
