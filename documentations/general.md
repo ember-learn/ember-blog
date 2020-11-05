@@ -56,7 +56,7 @@ A typical Git forking workflow can be used to contribute:
 
 For example, switch to this branch for issue 92: `blog/embertimes-92`
 
-`git switch -t upstream/blog/embertimes-167`
+`git switch -t upstream/blog/embertimes-165`
 
 - Find the latest blog issue template at `source/YYYY-MM-DD-the-ember-times-issue-#.md`
 
