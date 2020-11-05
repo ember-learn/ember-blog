@@ -94,7 +94,7 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
     git fetch upstream
 
     # Switch to the current Ember Times branch
-    git checkout blog/embertimes-165
+    git switch blog/embertimes-165
     ```
 
 1. Open the Markdown file for the current blog issue: `source/2020-10-09-the-ember-times-issue-165.md`.
