@@ -1,27 +1,26 @@
 ---
 title: The Ember Times - Issue No. 167
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+New Release and APIs for ember-a11y-testing 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Release 4.0.0 of ember-a11y-testing 🎉](https://github.com/ember-a11y/ember-a11y-testing/releases/tag/v4.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Steve Calvert (@scalvert)](https://github.com/scalvert) released 4.0.0 of [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing) which included changes to the API to make it hands off in terms of running accessibility audits. The `ember-a11y-testing` library is a wrapper around [Deque Labs'](https://github.com/dequelabs) [axe-core](https://github.com/dequelabs/axe-core) accessibility testing engine. It integrates into your testing environment using either a one-time setup, or in individual tests using an `a11yAudit()` test helper.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+With the new 4.0.0 release, you can do audit of your code using the regular test helper APIs by importing the [`setupGlobalA11yHooks` function](https://github.com/ember-a11y/ember-a11y-testing#setupglobala11yhooks-usage) and invoking it in `tests/test-helper.js`. The `setupGlobalA11yHooks` function lets you write your own strategy on when to invoke the audit using the `shouldAudit` argument so you can run it all the time, for all the configured helpers, every n tests, for specific modules or test names, by route, etc.
+
+Read more about the new changes to [ember-a11y-testing on GitHub](https://github.com/ember-a11y/ember-a11y-testing#setupglobala11yhooks-usage)!
 
 ---
 
@@ -139,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
