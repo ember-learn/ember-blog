@@ -1,13 +1,14 @@
 ---
 title: The Ember Times - Issue No. 167
-author: Chris Ng, the crowd
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+author: Ava Wroten, Chris Ng, the crowd
+tags: Recent Posts, Newsletter, A11y, Accessibility, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 New Release and APIs for ember-a11y-testing 🎉,
+New Octane ready release of the a11y focused ember-select-light 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -24,14 +25,15 @@ Read more about the new changes to [ember-a11y-testing on GitHub](https://github
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Release 2.0.x of ember-select-light 🎉](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ava Wroten (@hergaiety)](https://www.wroten.me/) released 2.0.0 of [ember-select-light](https://github.com/ember-a11y/ember-select-light/). You will find that the addon has moved to the [ember-a11y org](https://github.com/ember-a11y) (join us on [discord in #dev-ember-a11y](https://discord.gg/xBzFBMYv)) and is **Octane ready**.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+**ember-select-light is a simple and accessible `<select>` dropdown component** ✨. With a simple API you can pass in a flat or nested array of options, or yield out to your template code that handles options. The component pairs nicely with the latest [ember-component-patterns for Select Elements](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/select-element).
+
+The 2.0.0 release drops support for older versions of Node and Ember. At minimum, Node v10 LTS and Ember.js v3.16 LTS are suggested. It also introduces some breaking syntax changes (see the [upgrade guide](https://github.com/ember-a11y/ember-select-light/blob/main/UPGRADE.md)). Lastly, documentation has been updated.
+
+Read more about the new changes to [ember-select-light on GitHub](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)!
 
 ---
 
@@ -138,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Ava Wroten, Chris Ng, the crowd and the Learning Team
