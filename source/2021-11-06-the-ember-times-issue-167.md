@@ -7,7 +7,8 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-New Release and APIs for ember-a11y-testing 🎉, New Octane ready release of the a11y focused ember-select-light 🎉
+New Release and APIs for ember-a11y-testing 🎉,
+New Octane ready release of the a11y focused ember-select-light 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -26,11 +27,11 @@ Read more about the new changes to [ember-a11y-testing on GitHub](https://github
 
 ## [Release 2.0.x of ember-select-light 🎉](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)
 
-[Ava Wroten (@hergaiety)](https://www.wroten.me/) released 2.0.0 of [ember-select-light](https://github.com/ember-a11y/ember-select-light/) moving the addon into the [ember-a11y org](https://github.com/ember-a11y) (join us on [discord in #dev-ember-a11y](https://discord.gg/xBzFBMYv)) and making it **Octane ready**.
+[Ava Wroten (@hergaiety)](https://www.wroten.me/) released 2.0.0 of [ember-select-light](https://github.com/ember-a11y/ember-select-light/). You will find that the addon has moved to the [ember-a11y org](https://github.com/ember-a11y) (join us on [discord in #dev-ember-a11y](https://discord.gg/xBzFBMYv)) and is **Octane ready**.
 
-**ember-select-light is a simple and accessible `<select>` dropdown component** ✨. With a simple API you can pass in a flat or nested array of options or yield out to your own manually handled options template code. This component pairs nicely with the latest [ember-component-patterns for Select Elements](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/select-element).
+**ember-select-light is a simple and accessible `<select>` dropdown component** ✨. With a simple API you can pass in a flat or nested array of options, or yield out to your template code that handles options. The component pairs nicely with the latest [ember-component-patterns for Select Elements](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/select-element).
 
-With the new 2.0.0 drops support for older versions of Node and Ember. Node v10 LTS and Ember.js v3.16 LTS are suggested. Some breaking syntax changes (see the [upgrade guide](https://github.com/ember-a11y/ember-select-light/blob/main/UPGRADE.md)) Lastly, documentation and plenty of housekeeping was done leading up to this release.
+The 2.0.0 release drops support for older versions of Node and Ember. At minimum, Node v10 LTS and Ember.js v3.16 LTS are suggested. It also introduces some breaking syntax changes (see the [upgrade guide](https://github.com/ember-a11y/ember-select-light/blob/main/UPGRADE.md)). Lastly, documentation has been updated.
 
 Read more about the new changes to [ember-select-light on GitHub](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)!
 
