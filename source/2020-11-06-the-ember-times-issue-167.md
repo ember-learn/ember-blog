@@ -1,16 +1,16 @@
 ---
 title: The Ember Times - Issue No. 167
-author: Ava Wroten, Chris Ng, Isaac Lee, the crowd
+author: Ava Wroten, Chris Ng, Isaac Lee, Amy Lam
 tags: Recent Posts, Newsletter, A11y, Accessibility, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
+
 New Release and APIs for ember-a11y-testing 🎉,
-New Octane ready release of the a11y focused ember-select-light 🎉,
-2 deprecation RFCs merged,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+New Octane ready release of the a11y focused ember-select-light 🔦
+2 deprecation RFCs merged 🙌,
 
 READMORE
 
@@ -26,11 +26,12 @@ Read more about the new changes to [ember-a11y-testing on GitHub](https://github
 
 ---
 
-## [Release 2.0.x of ember-select-light 🎉](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)
+## [Release 2.0.x of ember-select-light 🔦](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)
 
 [Ava Wroten (@hergaiety)](https://www.wroten.me/) released 2.0.0 of [ember-select-light](https://github.com/ember-a11y/ember-select-light/). You will find that the addon has moved to the [ember-a11y org](https://github.com/ember-a11y) (join us on [discord in #dev-ember-a11y](https://discord.gg/xBzFBMYv)) and is **Octane ready**.
 
-**ember-select-light is a simple and accessible `<select>` dropdown component** ✨. With a simple API you can pass in a flat or nested array of options, or yield out to your template code that handles options. The component pairs nicely with the latest [ember-component-patterns for Select Elements](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/select-element).
+<!--alex ignore simple-->
+**ember-select-light is a simple and accessible `<select>` dropdown component** ✨. With its API, you can pass in a flat or nested array of options, or yield out to your template code that handles options. The component pairs nicely with the latest [ember-component-patterns for Select Elements](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/select-element).
 
 The 2.0.0 release drops support for older versions of Node and Ember. At minimum, Node v10 LTS and Ember.js v3.16 LTS are suggested. It also introduces some breaking syntax changes (see the [upgrade guide](https://github.com/ember-a11y/ember-select-light/blob/main/UPGRADE.md)). Lastly, documentation has been updated.
 
@@ -38,66 +39,11 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## 2 deprecation RFCs merged
+## [2 deprecation RFCs merged 🙌](https://github.com/emberjs/rfcs)
 
 On November 6, the Ember framework team met to discuss [RFC 673: Deprecate `tryInvoke`](https://github.com/emberjs/rfcs/pull/673) and [RFC 674: Deprecate transition methods of controller and route](https://github.com/emberjs/rfcs/pull/674). The team decided to move both RFCs forward to the Accepted stage, which will allow the author and others to work on implementation.
 
-We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo) and [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) for designing their RFC and addressing the community's feedback. For more information, please visit the links to the RFCs above.
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo) and [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) for designing their RFCs and addressing the community's feedback. For more information, please visit the links to the RFCs above.
 
 ---
 
@@ -138,4 +84,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Chris Ng, Isaac Lee, the crowd and the Learning Team
+Ava Wroten, Chris Ng, Isaac Lee, Amy Lam and the Learning Team
