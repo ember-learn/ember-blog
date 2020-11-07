@@ -9,8 +9,8 @@ responsive: true
 👋 Emberistas! 🐹
 
 New Release and APIs for ember-a11y-testing 🎉,
-new Octane ready release of the a11y focused ember-select-light 🔦
 two deprecation RFCs merged 🙌,
+new Octane ready release of the a11y focused ember-select-light 🔦,
 and last, but not least, ember-key-manager v1.0.0 ⌨️!
 
 READMORE
@@ -27,9 +27,17 @@ Read more about the new changes to [ember-a11y-testing on GitHub](https://github
 
 ---
 
+## [Two deprecation RFCs merged 🙌](https://github.com/emberjs/rfcs)
+
+On November 6th, the Ember framework team met to discuss [RFC 673: Deprecate `tryInvoke`](https://github.com/emberjs/rfcs/pull/673) and [RFC 674: Deprecate transition methods of controller and route](https://github.com/emberjs/rfcs/pull/674). The team decided to move both RFCs forward to the **Accepted stage**, which will allow the author and others to work on implementation.
+
+We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo) and [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) for designing their RFCs and addressing the community's feedback. For more information, please visit the links to the RFCs above.
+
+---
+
 ## [Release 2.0.x of ember-select-light 🔦](https://github.com/ember-a11y/ember-select-light/releases/tag/v2.0.0)
 
-[Ava Wroten (@hergaiety)](https://www.wroten.me/) released 2.0.0 of [ember-select-light](https://github.com/ember-a11y/ember-select-light/). You will find that the addon has moved to the [ember-a11y org](https://github.com/ember-a11y) (join us on [discord in #dev-ember-a11y](https://discord.gg/xBzFBMYv)) and is **Octane ready**.
+[Ava Wroten (@hergaiety)](https://www.wroten.me/) released 2.0.0 of [ember-select-light](https://github.com/ember-a11y/ember-select-light/). You will find that the addon has moved to the [ember-a11y org](https://github.com/ember-a11y) (join us on [Discord in #dev-ember-a11y](https://discord.com/invite/emberjs)) and is **Octane ready**.
 
 <!--alex ignore simple-->
 **ember-select-light is a simple and accessible `<select>` dropdown component** ✨. With its API, you can pass in a flat or nested array of options, or yield out to your template code that handles options. The component pairs nicely with the latest [ember-component-patterns for Select Elements](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/select-element).
@@ -40,17 +48,9 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ---
 
-## [Two deprecation RFCs merged 🙌](https://github.com/emberjs/rfcs)
-
-On November 6, the Ember framework team met to discuss [RFC 673: Deprecate `tryInvoke`](https://github.com/emberjs/rfcs/pull/673) and [RFC 674: Deprecate transition methods of controller and route](https://github.com/emberjs/rfcs/pull/674). The team decided to move both RFCs forward to the Accepted stage, which will allow the author and others to work on implementation.
-
-We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo) and [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) for designing their RFCs and addressing the community's feedback. For more information, please visit the links to the RFCs above.
-
----
-
 ## [ember-key-manager v1.0.0 ⌨️](https://github.com/IcarusWorks/ember-key-manager)
 
-ember-key-manager is a service for un(binding) key up and down events. [Bryan Crotaz (@BryanCrotaz)](https://github.com/BryanCrotaz) submitted a PR that brought [ember-key-manager](https://github.com/IcarusWorks/ember-key-manager) up to v1.0.0! With the major release, ember-key-manager now fully supports Octane, including template modifiers that can hook key presses to run component code. Learn more about ember-key-manager and similar addons under the [Keyboard Events tag on Ember Observer](https://emberobserver.com/categories/keyboard-events). 
+ember-key-manager is a service for un(binding) key up and down events. [Bryan Crotaz (@BryanCrotaz)](https://github.com/BryanCrotaz) submitted a PR that brought [IcarusWorks/ember-key-manager](https://github.com/IcarusWorks/ember-key-manager) up to v1.0.0! With the major release, ember-key-manager now fully supports Octane, including template modifiers that can hook key presses to run component code. Learn more about ember-key-manager and similar addons under the [Keyboard Events tag on Ember Observer](https://emberobserver.com/categories/keyboard-events). 
 
 ---
 
