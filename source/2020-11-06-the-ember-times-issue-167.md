@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 167
-author: Ava Wroten, Chris Ng, the crowd
+author: Ava Wroten, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, A11y, Accessibility, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 New Release and APIs for ember-a11y-testing 🎉,
 New Octane ready release of the a11y focused ember-select-light 🎉,
+2 deprecation RFCs merged,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -48,14 +49,11 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## 2 deprecation RFCs merged
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+On November 6, the Ember framework team met to discuss [RFC 673: Deprecate `tryInvoke`](https://github.com/emberjs/rfcs/pull/673) and [RFC 674: Deprecate transition methods of controller and route](https://github.com/emberjs/rfcs/pull/674). The team decided to move both RFCs forward to the Accepted stage, which will allow the author and others to work on implementation.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo) and [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) for designing their RFC and addressing the community's feedback. For more information, please visit the links to the RFCs above.
 
 ---
 
@@ -140,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Chris Ng, the crowd and the Learning Team
+Ava Wroten, Chris Ng, Isaac Lee, the crowd and the Learning Team
