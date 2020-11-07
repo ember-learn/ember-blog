@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 167
-author: Ava Wroten, Chris Ng, the crowd
+author: Ava Wroten, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, A11y, Accessibility, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 New Release and APIs for ember-a11y-testing 🎉,
 New Octane ready release of the a11y focused ember-select-light 🎉,
+2 deprecation RFCs merged,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -48,14 +49,11 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## 2 deprecation RFCs merged
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+On November 6, the Ember framework team met to discuss [RFC 673: Deprecate `tryInvoke`](https://github.com/emberjs/rfcs/pull/673) and [RFC 674: Deprecate transition methods of controller and route](https://github.com/emberjs/rfcs/pull/674). The team decided to move both RFCs forward to the Accepted stage, which will allow the author and others to work on implementation.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo) and [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) for designing their RFC and addressing the community's feedback. For more information, please visit the links to the RFCs above.
 
 ---
 
@@ -116,7 +114,7 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/bobisjan" rel="noopener noreferrer" target="_blank">Jan Bobisud (@bobisjan)</a>, <a href="https://github.com/mehulkar" rel="noopener noreferrer" target="_blank">Mehul Kar (@mehulkar)</a>, <a href="https://github.com/raido" rel="noopener noreferrer" target="_blank">Raido Kuli (@raido)</a>, <a href="https://github.com/Leooo" rel="noopener noreferrer" target="_blank">Lionel Viet (@Leooo)</a>, <a href="https://github.com/hergaiety" rel="noopener noreferrer" target="_blank">Ava Gaiety Wroten (@hergaiety)</a>, <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, <a href="https://github.com/Ian-Yy" rel="noopener noreferrer" target="_blank">Yyee (@Ian-Yy)</a>, <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/rreckonerr" rel="noopener noreferrer" target="_blank">Volodymyr Radchenko (@rreckonerr)</a>, <a href="https://github.com/sclaxton" rel="noopener noreferrer" target="_blank">Spencer Claxton (@sclaxton)</a>, <a href="https://github.com/jwlawrence" rel="noopener noreferrer" target="_blank">Joshua Lawrence (@jwlawrence)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/mk2" rel="noopener noreferrer" target="_blank">Haruka Asakura (@mk2)</a>, <a href="https://github.com/lukemelia" rel="noopener noreferrer" target="_blank">Luke Melia (@lukemelia)</a>, <a href="https://github.com/marcoow" rel="noopener noreferrer" target="_blank">Marco Otte-Witte (@marcoow)</a>, <a href="https://github.com/neojp" rel="noopener noreferrer" target="_blank">Joan Piedra (@neojp)</a>, <a href="https://github.com/chiragpat" rel="noopener noreferrer" target="_blank">Chirag Patel (@chiragpat)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/esbanarango" rel="noopener noreferrer" target="_blank">Esteban Arango Medina (@esbanarango)</a>, <a href="https://github.com/ratatatCat" rel="noopener noreferrer" target="_blank">@ratatatCat</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/jamescdavis" rel="noopener noreferrer" target="_blank">James C. Davis (@jamescdavis)</a>, <a href="https://github.com/igorT" rel="noopener noreferrer" target="_blank">Igor Terzic (@igorT)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/boris-petrov" rel="noopener noreferrer" target="_blank">Boris Petrov (@boris-petrov)</a>, <a href="https://github.com/vvkpd" rel="noopener noreferrer" target="_blank">Vivek Pandey (@vvkpd)</a>, <a href="https://github.com/xg-wang" rel="noopener noreferrer" target="_blank">Thomas Wang (@xg-wang)</a>, <a href="https://github.com/aguynamedryan" rel="noopener noreferrer" target="_blank">Ryan Duryea (@aguynamedryan)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/JamesS-M" rel="noopener noreferrer" target="_blank">@JamesS-M</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/tylerturdenpants" rel="noopener noreferrer" target="_blank">Ryan Mark (@tylerturdenpants)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/jbryson3" rel="noopener noreferrer" target="_blank">John Bryson (@jbryson3)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/drewlee" rel="noopener noreferrer" target="_blank">Andrew A Lee (@drewlee)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, and <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -140,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Chris Ng, the crowd and the Learning Team
+Ava Wroten, Chris Ng, Isaac Lee, the crowd and the Learning Team
