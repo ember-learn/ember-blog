@@ -9,8 +9,9 @@ responsive: true
 👋 Emberistas! 🐹
 
 New Release and APIs for ember-a11y-testing 🎉,
-New Octane ready release of the a11y focused ember-select-light 🔦
-2 deprecation RFCs merged 🙌,
+new Octane ready release of the a11y focused ember-select-light 🔦
+two deprecation RFCs merged 🙌,
+and last, but not least, ember-key-manager v1.0.0 ⌨️!
 
 READMORE
 
@@ -39,7 +40,7 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ---
 
-## [2 deprecation RFCs merged 🙌](https://github.com/emberjs/rfcs)
+## [Two deprecation RFCs merged 🙌](https://github.com/emberjs/rfcs)
 
 On November 6, the Ember framework team met to discuss [RFC 673: Deprecate `tryInvoke`](https://github.com/emberjs/rfcs/pull/673) and [RFC 674: Deprecate transition methods of controller and route](https://github.com/emberjs/rfcs/pull/674). The team decided to move both RFCs forward to the Accepted stage, which will allow the author and others to work on implementation.
 
@@ -47,14 +48,9 @@ We'd like to extend our thanks to [Bach Vo (@bachvo)](https://github.com/bachvo)
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-key-manager v1.0.0 ⌨️](https://github.com/IcarusWorks/ember-key-manager)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+ember-key-manager is a service for un(binding) key up and down events. [Bryan Crotaz (@BryanCrotaz)](https://github.com/BryanCrotaz) submitted a PR that brought [ember-key-manager](https://github.com/IcarusWorks/ember-key-manager) up to v1.0.0! With the major release, ember-key-manager now fully supports Octane, including template modifiers that can hook key presses to run component code. Learn more about ember-key-manager and similar addons under the [Keyboard Events tag on Ember Observer](https://emberobserver.com/categories/keyboard-events). 
 
 ---
 
