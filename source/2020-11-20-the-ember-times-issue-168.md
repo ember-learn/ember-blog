@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 168
-author: the crowd
+author: Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/20-the-ember-times-issue-168.html"
 responsive: true
@@ -25,14 +25,11 @@ READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [ember-bootstrap Octane updates 🏎](https://github.com/kaliber5/ember-bootstrap)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[kaliber5/ember-bootstrap](https://github.com/kaliber5/ember-bootstrap) v4.4.0 was recently released, continuing their incremental Octane rewrite. Tootips and popovers have been refactored to Glimmer components. Details can be found in the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). 
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Future plans are ...
 
 ---
 
@@ -139,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
