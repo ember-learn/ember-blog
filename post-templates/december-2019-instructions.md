@@ -1,10 +1,10 @@
 ---
 name: December 2019 Blog Series
-about: So I don't have to make 31 of these by hand
+# about: So I don't have to make 31 of these by hand
 title: Create a blog post for December DD, 2019 about the `ADDON` addon
-labels: decEmber, help wanted
-assignees: ''
-
+labels:
+  - december
+  - help-wanted
 ---
 
 ## Goal

@@ -1,9 +1,11 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
-alias : "blog/2020/xx/xx-the-ember-times-issue-XXX.html"
-responsive: true
+author:
+  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+tags:
+  - ewsletter
+  - ember-js-times
+  - '2020'
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹

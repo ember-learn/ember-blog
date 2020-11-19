@@ -1,9 +1,11 @@
 ---
 title: Countdown to The New Year - XYour Addon's Name In Title CaseX
-author: XYour NameX
-tags: 2019, Addons, DecEmber
-alias: 2019-12-XX-countdown-to-the-new-year-xthe-full-name-of-the-addon-hyphenatedx
-responsive: true
+authors:
+  - your-name # don't forget to create your author file too!
+tags:
+  - '2019'
+  - addons
+  - december
 ---
 
 **This is the XnthX in our December series–"Countdown to The New Year: 31 Days of Ember Addons". We plan to highlight a new addon each day until the new year, and we hope you'll join us for the fun!**
