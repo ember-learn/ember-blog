@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 168
-author: Amy Lam, the crowd
+author: Chris Ng, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/20-the-ember-times-issue-168.html"
 responsive: true
@@ -9,20 +9,20 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Read the blog on yieldable named blocks 📛,
 ember-bootstrap Octane updates 🏎,
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog: Modal Dialog Using Yieldable Named Blocks 📛](https://balinterdi.com/blog/making-a-modal-dialog-using-yieldable-named-blocks/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A blog post by [Balint Erdi (@balinterdi)](https://github.com/balinterdi) goes through how [Named Blocks](https://emberjs.github.io/rfcs/0226-named-blocks.html) allows us to have more than one block when invoking components using the angle-bracket syntax.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+With the [Yieldable Named Blocks RFC](https://emberjs.github.io/rfcs/0460-yieldable-named-blocks.html) accepted and the [ember-named-blocks-polyfill](https://github.com/ember-polyfills/ember-named-blocks-polyfill) already implementing it, we can use yieldable named blocks in our Ember apps today. The blog goes through using the `{{yield to=""}}` syntax to implement multiple named blocks in a modal example.
+
+Named blocks are useful anywhere where it makes sense to provide several "slots" that the user of the component can customize. Read the full post today on [Balint’s blog](https://balinterdi.com/blog/making-a-modal-dialog-using-yieldable-named-blocks/)!
 
 ---
 
@@ -141,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
