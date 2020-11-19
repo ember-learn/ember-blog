@@ -1,6 +1,6 @@
 ---
 title: Glimmer's In Canary, Test Your Apps!
-author: Yehuda
+author: Yehuda Katz
 tags: Compatibility, Recent Posts, 2015
 responsive: true
 ---

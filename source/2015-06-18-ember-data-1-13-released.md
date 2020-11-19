@@ -1,6 +1,6 @@
 ---
 title: Ember Data v1.13 Released
-author: Igor Terzic and the Ember Data Team
+author: Igor Terzic, the Ember Data Team
 tags: Ember Data, 2015, Version 2.x
 responsive: true
 ---

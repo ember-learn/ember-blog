@@ -1,6 +1,6 @@
 ---
 title: "Inside FastBoot: The Road to Server-Side Rendering"
-author: "Yehuda Katz & Tom Dale"
+author: Yehuda Katz, Tom Dale
 tags: Recent Posts, 2014
 responsive: true
 ---
