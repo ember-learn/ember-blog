@@ -1,6 +1,6 @@
 ---
 title: The Transition to Ember 2.0 in Detail
-author: Yehuda
+author: Yehuda Katz
 tags: Compatibility, Recent Posts, 2015
 responsive: trues
 ---

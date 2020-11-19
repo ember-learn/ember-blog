@@ -1,6 +1,6 @@
 ---
 title: Ember Guides Status Update
-author: Michael Kaiser-Nyman and Ricardo Mendes
+author: Michael Kaiser-Nyman, Ricardo Mendes
 tags: Recent Posts, 2015
 responsive: true
 ---

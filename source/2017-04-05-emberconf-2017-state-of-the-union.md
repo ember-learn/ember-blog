@@ -1,7 +1,7 @@
 ---
 title: "EmberConf 2017: State of the Union"
 responsive: true
-author: Tom Dale (with Yehuda Katz and Godfrey Chan)
+author: Tom Dale, Yehuda Katz, Godfrey Chan
 tags: Recent Posts, Roadmap, 2017
 ---
 

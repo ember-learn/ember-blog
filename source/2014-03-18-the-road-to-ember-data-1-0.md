@@ -1,6 +1,6 @@
 ---
 title: The Road to Ember Data 1.0
-author: Tom Dale & Yehuda Katz
+author: Tom Dale, Yehuda Katz
 tags: Recent Posts, Ember Data, Data, 2014, Roadmap
 responsive: true
 ---

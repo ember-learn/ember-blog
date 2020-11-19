@@ -1,6 +1,6 @@
 ---
 title: Ember.js 2.0 Released
-author: Yehuda Katz and Matthew Beale
+author: Yehuda Katz, Matthew Beale
 tags: Releases, 2015, Version 2.x
 responsive: true
 ---

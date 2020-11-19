@@ -1,6 +1,6 @@
 ---
 title: Making Ember.js Easier
-author: Tom Dale & Yehuda Katz
+author: Tom Dale, Yehuda Katz
 tags: Recent Posts, Community, 2013, Version 1.x
 responsive: true
 ---
