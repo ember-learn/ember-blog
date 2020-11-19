@@ -1,7 +1,7 @@
 ---
 title: Igor Terzic Joins the Core Team
 author: Tom Dale
-tags: Recent Posts, 2014, Annoucement
+tags: Recent Posts, 2014, Announcement
 responsive: true
 ---
 
