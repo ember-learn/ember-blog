@@ -9,12 +9,34 @@ const yamlFront = require('yaml-front-matter');
 const rimraf = require('rimraf');
 
 const dryRun = process.env.DRY_RUN;
+const postDateRegex = /(\d\d\d\d-\d\d-\d\d)-(.*)\..*/;
+
 
 const mdFiles = walkSync('source')
   .filter(path => ['.md', '.markdown'].includes(extname(path)));
 
 const existingAuthors = {};
 const existingTags = {};
+
+let redirects = [];
+
+redirects = mdFiles.map((file) => {
+  const match = file.match(postDateRegex);
+  if(!match) {
+    return;
+  }
+  const oldDate = match[1].replace('-', '/');
+  const titleWithoutDate = match[2];
+  const oldUrl = `/${oldDate}/${titleWithoutDate}.html`
+  const newUrl = `/${titleWithoutDate}/`
+  return `${oldUrl} ${newUrl} 301`
+})
+
+if (!dryRun) {
+  writeFileSync('.netlifyredirects', redirects.join('\n'));
+} else {
+  console.log({redirects})
+}
 
 let promises = mdFiles.map(async postFilename => {
   const file = readFileSync(join('source', postFilename));
@@ -32,7 +54,7 @@ let promises = mdFiles.map(async postFilename => {
 
   content = content.replace(/\nREADMORE\n/, '\n<!-- READMORE -->\n');
 
-  const match = postFilename.match(/(\d\d\d\d-\d\d-\d\d)-(.*)\..*/);
+  const match = postFilename.match(postDateRegex);
 
   if(!match) {
     return;
