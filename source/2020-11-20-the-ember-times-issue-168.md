@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+ember-bootstrap Octane updates 🏎,
 
 READMORE
 
@@ -27,9 +28,9 @@ READMORE
 
 ## [ember-bootstrap Octane updates 🏎](https://github.com/kaliber5/ember-bootstrap)
 
-[kaliber5/ember-bootstrap](https://github.com/kaliber5/ember-bootstrap) v4.4.0 was recently released, continuing their incremental Octane rewrite. Tootips and popovers have been refactored to Glimmer components. Details can be found in the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). 
+[kaliber5/ember-bootstrap](https://github.com/kaliber5/ember-bootstrap) v4.4 was recently released, continuing their incremental Octane rewrite. Tootips and popovers have been refactored to Glimmer components. 
 
-Future plans are ...
+For ember-bootstrap's 4.x cycle, the overarching goal is to incrementally rewrite all components to Glimmer components. The team is also aiming to replace all computed properties with tracked properties. These changes have been possible because all components were refactored to tagless components. Other highlights from ember-bootstrap 4.x include adding Embroider compatibility (including `staticComponents`) and dropping support for subclassing components. As a replacement, users can now build a component library on top of ember-bootstrap, in a change that improves the developer experience. For more details, check out the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). 
 
 ---
 
