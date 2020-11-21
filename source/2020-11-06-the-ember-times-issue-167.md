@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 167
 author: Ava Wroten, Chris Ng, Isaac Lee, Amy Lam
-tags: Recent Posts, Newsletter, A11y, Accessibility, Ember.js Times, Ember Times, 2020
+tags: Newsletter, A11y, Accessibility, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/06-the-ember-times-issue-167.html"
 responsive: true
 ---
