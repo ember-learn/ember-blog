@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 168
-author: Chris Ng, Amy Lam, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/20-the-ember-times-issue-168.html"
 responsive: true
@@ -11,6 +11,7 @@ responsive: true
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog on yieldable named blocks 📛,
 ember-bootstrap Octane updates 🏎,
+Keep up to date on `@use` and Resources RFC 💡,
 
 READMORE
 
@@ -38,14 +39,18 @@ For more details, check out the [changelog](https://github.com/kaliber5/ember-bo
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Introducing `@use` 💡](https://www.pzuraq.com/introducing-use/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In October, [Chris Garrett (@pzuraq)](https://github.com/pzuraq) published a blog post and an addon to highlight updates regarding the [`@use` and Resources RFC](https://github.com/emberjs/rfcs/blob/use-and-resources/text/0567-use-and-resources.md).
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+In [Introducing `@use`](https://www.pzuraq.com/introducing-use/), Chris explains how [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this) invites us to rethink template constructs. The addon proposes 4 top-level concepts:
+
+- Functions, meant to replace Ember helpers defined with the `helper()` function
+- Resources, to bridge a gap between imperative and declarative programming through `@use` decorator and `Resource` class
+- Modifiers, to handle DOM modifications
+- Effects, to pull a value out of the system and use it externally
+
+Be sure to read the blog post and try out the addon. We think it will give you a preview of what's coming next to Ember!
 
 ---
 
@@ -117,7 +122,7 @@ For more details, check out the [changelog](https://github.com/kaliber5/ember-bo
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/jamescdavis" rel="noopener noreferrer" target="_blank">James C. Davis (@jamescdavis)</a>, <a href="https://github.com/defraz" rel="noopener noreferrer" target="_blank">Christopher Fraser (@defraz)</a>, <a href="https://github.com/hergaiety" rel="noopener noreferrer" target="_blank">Ava Gaiety Wroten (@hergaiety)</a>, <a href="https://github.com/kiwiupover" rel="noopener noreferrer" target="_blank">Dave Laird (@kiwiupover)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/cincodenada" rel="noopener noreferrer" target="_blank">Joel Bradshaw (@cincodenada)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/GuillaumeCisco" rel="noopener noreferrer" target="_blank">Cisco Guillaume (@GuillaumeCisco)</a>, <a href="https://github.com/chrismllr" rel="noopener noreferrer" target="_blank">Chris Miller (@chrismllr)</a>, <a href="https://github.com/raido" rel="noopener noreferrer" target="_blank">Raido Kuli (@raido)</a>, <a href="https://github.com/eddiemm" rel="noopener noreferrer" target="_blank">Edgar Mancia (@eddiemm)</a>, <a href="https://github.com/achambers" rel="noopener noreferrer" target="_blank">Aaron Chambers (@achambers)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/KrishnaRPatel" rel="noopener noreferrer" target="_blank">Krishna Patel (@KrishnaRPatel)</a>, <a href="https://github.com/shivani2692" rel="noopener noreferrer" target="_blank">@shivani2692</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/pgengler" rel="noopener noreferrer" target="_blank">Phil Gengler (@pgengler)</a>, <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a>, <a href="https://github.com/jwlawrence" rel="noopener noreferrer" target="_blank">Joshua Lawrence (@jwlawrence)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/jsturgis" rel="noopener noreferrer" target="_blank">Jeff Sturgis (@jsturgis)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/xg-wang" rel="noopener noreferrer" target="_blank">Thomas Wang (@xg-wang)</a>, <a href="https://github.com/fozy81" rel="noopener noreferrer" target="_blank">Tim (@fozy81)</a>, <a href="https://github.com/nickschot" rel="noopener noreferrer" target="_blank">Nick Schot (@nickschot)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, and <a href="https://github.com/patocallaghan" rel="noopener noreferrer" target="_blank">Pat O'Callaghan (@patocallaghan)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -141,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
