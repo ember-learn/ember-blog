@@ -11,6 +11,7 @@ responsive: true
 Read the blog on yieldable named blocks 📛,
 keep up to date on `@use` and Resources RFC 💡,
 ember-bootstrap Octane updates 🏎,
+and last, but not least, from Phorest: Ember is still a good decision in 2020! 🙌
 
 READMORE
 
@@ -53,14 +54,17 @@ For more details, check out the [changelog](https://github.com/kaliber5/ember-bo
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [From Phorest: Ember is still a good decision in 2020 🙌](https://nothingventured.rocks/we-chose-ember-in-2015-and-it-is-still-a-good-decision-in-2020-c2eb1502a20a)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Tomek Nieżurawski (@tniezurawski)](https://github.com/tniezurawski) wrote abut how his company, [Phorest](https://www.phorest.com/), chose Ember in 2015...and that choice is still a good decision in 2020. Music to our ears! In the [blog post](https://nothingventured.rocks/we-chose-ember-in-2015-and-it-is-still-a-good-decision-in-2020-c2eb1502a20a), Tomek touches on some of the benefits of Ember:
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+* Conventions
+* Don't have to reinvent the wheel
+* Stability
+* Ecosystem
+* Community
+
+With Ember, some "limitations" and so-called conventions can save developers time. While the learning curve can be seen as steep, you won't experience **decision paralysis** as in other frameworks. Phorest found that Ember saved them a lot of time during their journey, allowing them to build high-quality software fast. Dive into the [article](https://nothingventured.rocks/we-chose-ember-in-2015-and-it-is-still-a-good-decision-in-2020-c2eb1502a20a) to read more about Phorest's experience with Ember!
 
 ---
 
