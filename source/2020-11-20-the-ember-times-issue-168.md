@@ -1,17 +1,16 @@
 ---
 title: The Ember Times - Issue No. 168
-author: Chris Ng, Amy Lam, Isaac Lee, the crowd
+author: Chris Ng, Amy Lam, Isaac Lee
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/20-the-ember-times-issue-168.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog on yieldable named blocks 📛,
+keep up to date on `@use` and Resources RFC 💡,
 ember-bootstrap Octane updates 🏎,
-Keep up to date on `@use` and Resources RFC 💡,
 
 READMORE
 
@@ -27,6 +26,21 @@ Named blocks are useful anywhere where it makes sense to provide several "slots"
 
 ---
 
+## [Introducing `@use` 💡](https://www.pzuraq.com/introducing-use/)
+
+In October, [Chris Garrett (@pzuraq)](https://github.com/pzuraq) published a blog post and an addon to highlight updates regarding the [`@use` and Resources RFC](https://github.com/emberjs/rfcs/blob/use-and-resources/text/0567-use-and-resources.md).
+
+In [Introducing `@use`](https://www.pzuraq.com/introducing-use/), Chris explains how [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this) invites us to rethink template constructs. The addon proposes four top-level concepts:
+
+1. Functions, meant to replace Ember helpers defined with the `helper()` function
+1. Resources, to bridge a gap between imperative and declarative programming through `@use` decorator and `Resource` class
+1. Modifiers, to handle DOM modifications
+1. Effects, to pull a value out of the system and use it externally
+
+Be sure to read the blog post and try out the addon. We think it will give you a preview of what's coming next to Ember!
+
+---
+
 ## [ember-bootstrap Octane updates 🏎](https://github.com/kaliber5/ember-bootstrap)
 
 [kaliber5/ember-bootstrap](https://github.com/kaliber5/ember-bootstrap) v4.4 was recently released, continuing their incremental Octane rewrite. Tooltips and popovers have been refactored to Glimmer components. 
@@ -36,76 +50,6 @@ For ember-bootstrap's 4.x cycle, the overarching goal is to incrementally rewrit
 Other highlights from ember-bootstrap 4.x include adding Embroider compatibility (including `staticComponents`) and dropping support for subclassing components. As a replacement, users can now build a component library on top of ember-bootstrap, in a change that improves the developer experience.
 
 For more details, check out the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). 
-
----
-
-## [Introducing `@use` 💡](https://www.pzuraq.com/introducing-use/)
-
-In October, [Chris Garrett (@pzuraq)](https://github.com/pzuraq) published a blog post and an addon to highlight updates regarding the [`@use` and Resources RFC](https://github.com/emberjs/rfcs/blob/use-and-resources/text/0567-use-and-resources.md).
-
-In [Introducing `@use`](https://www.pzuraq.com/introducing-use/), Chris explains how [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this) invites us to rethink template constructs. The addon proposes 4 top-level concepts:
-
-- Functions, meant to replace Ember helpers defined with the `helper()` function
-- Resources, to bridge a gap between imperative and declarative programming through `@use` decorator and `Resource` class
-- Modifiers, to handle DOM modifications
-- Effects, to pull a value out of the system and use it externally
-
-Be sure to read the blog post and try out the addon. We think it will give you a preview of what's coming next to Ember!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -146,4 +90,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Amy Lam, Isaac Lee and the Learning Team
