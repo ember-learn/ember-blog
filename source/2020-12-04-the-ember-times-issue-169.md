@@ -1,27 +1,28 @@
 ---
 title: The Ember Times - Issue No. XXS
-author: the crowd
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/04-the-ember-times-issue-169.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Watch a Deep Dive on Component Primitives 📺],
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Watch: Component Primitives Deep Dive 📺](
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Garrett (@pzuraq)](https://github.com/pzuraq) and [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) [deep dived](https://twitter.com/pzuraq/status/1331340528705671168) into Ember's component primitives such as the `setComponentTemplate`, `setComponentManager`, and `precompileTemplate` APIs.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Chris walks through the problem of formalizing relationships between the javascript component and its handlebars template. This is done by preprocessing the template via the `precompileTemplate` API and then establishing that relationship to the javascript component using the `setComponentTemplate` API.
+
+These [primitives](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html#low-level-primitives) are actually public so anyone can make a transform or parser to build their own custom template import syntax. This flexibility means we can experiment using these primitives before finalizing the API. We can even iterate on it later on to find the best fit for our ecosystem.
+
+Watch the [full video discussion](https://www.youtube.com/watch?v=O74WizsVAQU) on YouTube!
 
 ---
 
@@ -139,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
