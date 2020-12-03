@@ -1,7 +1,7 @@
 ---
 title: Global Accessibility Awareness Day
 author: Melanie Sumner
-tags: Recent Posts, 2019, accessibility
+tags: Recent Posts, 2019, Accessibility
 responsive: true
 ---
 

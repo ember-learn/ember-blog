@@ -1,7 +1,7 @@
 ---
 title: Accessibility Working Group Update
 author: Melanie Sumner
-tags: Recent Posts, A11y, Accessibility, 2020
+tags: Recent Posts, Ember A11y, Accessibility, 2020
 responsive: true
 ---
 
