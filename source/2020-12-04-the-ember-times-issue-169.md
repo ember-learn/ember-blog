@@ -1,16 +1,29 @@
 ---
-title: The Ember Times - Issue No. XXS
-author: the crowd
+title: The Ember Times - Issue No. 169
+author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/04-the-ember-times-issue-169.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Watch a deep dive on component primitives 📺,
 
 READMORE
+
+---
+
+## [Watch: Component primitives deep dive 📺](
+
+[Chris Garrett (@pzuraq)](https://github.com/pzuraq) and [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) [deep dived](https://twitter.com/pzuraq/status/1331340528705671168) into Ember's component primitives such as the `setComponentTemplate`, `setComponentManager`, and `precompileTemplate` APIs.
+
+Chris walks through the problem of formalizing relationships between the JavaScript component and its Handlebars template. This is done by preprocessing the template via the `precompileTemplate` API and then establishing that relationship to the JavaScript component using the `setComponentTemplate` API.
+
+These [primitives](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html#low-level-primitives) are actually public so anyone can make a transform or parser to build their own custom template import syntax. This flexibility means we can experiment using these primitives before finalizing the API. We can even iterate on it later on to find the best fit for our ecosystem.
+
+Watch the [full video discussion](https://www.youtube.com/watch?v=O74WizsVAQU) on YouTube!
 
 ---
 
@@ -139,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
