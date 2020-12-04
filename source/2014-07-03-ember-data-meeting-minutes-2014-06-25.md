@@ -1,7 +1,7 @@
 ---
 title: Ember Data Meeting Minutes - 2014/06/25
 author: Igor Terzic
-tags: Recent Posts, 2014, Ember Data, Data
+tags: Recent Posts, 2014, Ember Data
 responsive: true
 ---
 

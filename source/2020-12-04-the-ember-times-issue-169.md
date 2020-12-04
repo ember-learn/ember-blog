@@ -1,14 +1,15 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 169
 author: Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/04-the-ember-times-issue-169.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Watch a deep dive on component primitives 📺,
+👋 Emberistas! 🐹
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Watch a deep dive on component primitives 📺,
 
 READMORE
 
@@ -23,6 +24,17 @@ Chris walks through the problem of formalizing relationships between the JavaScr
 These [primitives](https://emberjs.github.io/rfcs/0481-component-templates-co-location.html#low-level-primitives) are actually public so anyone can make a transform or parser to build their own custom template import syntax. This flexibility means we can experiment using these primitives before finalizing the API. We can even iterate on it later on to find the best fit for our ecosystem.
 
 Watch the [full video discussion](https://www.youtube.com/watch?v=O74WizsVAQU) on YouTube!
+
+---
+
+## [Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
