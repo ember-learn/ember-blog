@@ -14,7 +14,7 @@ READMORE
 
 ---
 
-## [Watch: Component Primitives Deep Dive 📺](
+## [Watch: Component primitives deep dive 📺](
 
 [Chris Garrett (@pzuraq)](https://github.com/pzuraq) and [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) [deep dived](https://twitter.com/pzuraq/status/1331340528705671168) into Ember's component primitives such as the `setComponentTemplate`, `setComponentManager`, and `precompileTemplate` APIs.
 
