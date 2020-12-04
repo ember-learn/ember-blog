@@ -7,7 +7,7 @@ responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Watch a Deep Dive on Component Primitives 📺],
+Watch a deep dive on component primitives 📺,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
