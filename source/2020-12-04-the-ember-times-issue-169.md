@@ -15,7 +15,7 @@ READMORE
 
 ---
 
-## [Watch: Component primitives deep dive 📺](
+## [Watch: Component primitives deep dive 📺](https://www.youtube.com/watch?v=O74WizsVAQU)
 
 [Chris Garrett (@pzuraq)](https://github.com/pzuraq) and [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) [deep dived](https://twitter.com/pzuraq/status/1331340528705671168) into Ember's component primitives such as the `setComponentTemplate`, `setComponentManager`, and `precompileTemplate` APIs.
 
@@ -29,8 +29,6 @@ Watch the [full video discussion](https://www.youtube.com/watch?v=O74WizsVAQU) o
 
 ## [The "Rock & Roll with Ember band" interview series 🎸](https://balinterdi.com/blog/)
 
-<consider adding some bold to your paragraph>
-
 [Balint Erdi (@balinterdi)](https://github.com/balinterdi), author of the popular book, [Rock & Roll with Ember.js (RaRwE)](https://balinterdi.com/rock-and-roll-with-emberjs/), has started a ["Rock & Roll with Ember band" interview series](https://balinterdi.com/blog/) on his blog. We enjoyed reading these interviews about members from the beloved Ember community!
 
 * 🎤 [Stuart Guthrie (@stuartg99)](https://github.com/stuartg99) of Freshwater, New South Wales, Australia talked about his experience since choosing Ember four years ago as the founder of [Polonious Pty Ltd](https://polonious-systems.com/). "We selected Emberjs as it was community driven, the community was well led and had a good 'vibe', still does."
@@ -38,95 +36,7 @@ Watch the [full video discussion](https://www.youtube.com/watch?v=O74WizsVAQU) o
 * 🎹 [Ben Borowski (@typeoneerror)](https://github.com/typeoneerror) of Canada used Ember on his side project, [Doki.io](https://doki.io/). Things he's jazzed about in the Ember world are code-splitting and the [@use RFC](https://www.pzuraq.com/introducing-use/), which we discussed in [Ember Times Issue #168](https://blog.emberjs.com/2020/11/20/the-ember-times-issue-168.html).
 * 🎷 [Aad Versteden (@madnificent)](https://github.com/madnificent) of Belgium is the co-founder and CEO of [redpencil.io](https://redpencil.io/), a consultancy which tries to keep the web an open space. Most of their backend work is [semantic.works](https://semantic.works/), which heavily pushes for Ember on the frontend. Aad would like to see the community more involved in [ember-animated](https://github.com/ember-animation/ember-animated). He's also hopeful that [Embroider](https://github.com/embroider-build/embroider) will bring us tree shaking. Check out the [full post](https://balinterdi.com/blog/the-rock-roll-with-ember-band-aad-versteden/) to read about Aad's thoughts on the pros and cons of Ember Data.
 
-Find all the interviews here: [https://balinterdi.com/blog/](https://balinterdi.com/blog/).
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Find all the interviews here: [balinterdi.com/blog](https://balinterdi.com/blog/).
 
 ---
 
