@@ -1,11 +1,13 @@
 ---
 title: Ember 3.23 Released
-author: Ricardo Mendes
+author: Ricardo Mendes, Isaac Lee
 tags: Releases, 2020, 3, 3.23, Version 3.x
 responsive: true
 ---
 
-Today the Ember project is releasing version 3.23 of Ember.js, Ember Data, and Ember CLI. This release kicks off the 3.5 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Today the Ember project is releasing version 3.23 of Ember.js, Ember Data, and Ember CLI.
+
+This release kicks off the 3.24 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -22,7 +24,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.23
 
-Ember.js 3.23 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is COUNT (#) new feature, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.23 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are COUNT (#) features, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
 
 #### New Features (2)
 
@@ -47,6 +49,7 @@ Ember Data is the official data persistence library for Ember.js applications.
 ### Changes in Ember Data 3.23
 
 This release included several bug fixes and improvements, such as:
+
 - Improved debug message ([#7337](https://github.com/emberjs/data/pull/7337)).
 - Polymorphic relation type changes on first load ([#7363](https://github.com/emberjs/data/pull/7363/files)).
 
@@ -60,9 +63,8 @@ _editor note_ will fill out once the pending deprecation guide is out.
 
 No new deprecations introduced in Ember Data VER.
 
-For more details on changes in Ember Data VER, please review the
-[Ember Data VER.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
-
+For more details on changes in Ember Data 3.23, please review the
+[Ember Data 3.23.0 release page](https://github.com/emberjs/data/releases/tag/v3.23.0).
 
 ---
 
@@ -76,11 +78,10 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 You may upgrade Ember CLI easily using the ember-cli-update project:
 
 ```bash
-npm install -g ember-cli-update
-ember-cli-update
+npx ember-cli-update
 ```
 
-This utility will help you to update your app or add-on to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the github README](https://github.com/ember-cli/ember-cli-update).
+This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
 
 While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
@@ -91,8 +92,8 @@ Blueprints for new applications were updated for the new testing setup ([#9340](
 ---
 
 For more details on the changes in Ember CLI 3.23 and detailed upgrade
-instructions, please review the [Ember CLI  3.23.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.23.0).
+instructions, please review the [Ember CLI 3.23.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.23.0).
 
 ## Thank You!
 
-As a community-driven open-source project with an ambitious scope, each of these releases serve as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
+As a community-driven open-source project with an ambitious scope, each of these releases serves as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
