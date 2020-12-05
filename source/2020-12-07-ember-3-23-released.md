@@ -35,17 +35,17 @@ Ember.js 3.23 introduced several bug fixes, including:
 - Prevented dynamic invocation of string value when referenced directly in angle brackets ([#19122](https://github.com/emberjs/ember.js/pull/19122))
 - Issued a deprecation for tracked mutation in `constructor` during rendering ([#19282](https://github.com/emberjs/ember.js/pull/19282)) ⚠️
 
-#### New Features (2)
+#### New Features
 
-First new feature (1 of 2)
+<!--alex disable savage-->
+Ember.js 3.23 introduced 2 features.
 
-Second new feature (2 of 2)
+1. Implemented and enabled `invokeHelper` from [JavaScript Helper Invocation API RFC](https://github.com/emberjs/rfcs/blob/master/text/0626-invoke-helper.md). The `invokeHelper` can be used to create and call an instance of the helper in a component. ([#19171](https://github.com/emberjs/ember.js/pull/19171), [#19182](https://github.com/emberjs/ember.js/pull/19182))
+2. Implemented and enabled helper manager from [Helper Managers RFC](https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md). It provides a low-level primitive for defining helpers. ([#19160](https://github.com/emberjs/ember.js/pull/19160), [#19182](https://github.com/emberjs/ember.js/pull/19182))
 
-#### Deprecations (0)
+#### Deprecations
 
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
+Ember.js 3.23 introduced 0 deprecations.
 
 For more details on changes in Ember.js 3.23, please review the [Ember.js 3.23.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.23.0).
 
