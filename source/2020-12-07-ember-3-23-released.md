@@ -24,7 +24,16 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.23
 
-Ember.js 3.23 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are COUNT (#) features, COUNT (#) deprecations, and COUNT (#) bugfixes in this version.
+Ember.js 3.23 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
+
+Ember.js 3.23 introduced several bug fixes, including:
+
+- Updated Glimmer (rendering engine) to improve developer experience with debugging ([#19213](https://github.com/emberjs/ember.js/pull/19213))
+- Ensured that `(fn (mut ...))` works with falsy values ([#19221](https://github.com/emberjs/ember.js/pull/19221))
+- Fixed bugs in query parameters with intermediate transitions ([#19249](https://github.com/emberjs/ember.js/pull/19249))
+- Prevented multiple serialization of query parameters on `activeTransition` ([#19236](https://github.com/emberjs/ember.js/pull/19236))
+- Prevented dynamic invocation of string value when referenced directly in angle brackets ([#19122](https://github.com/emberjs/ember.js/pull/19122))
+- Issued a deprecation for tracked mutation in `constructor` during rendering ([#19282](https://github.com/emberjs/ember.js/pull/19282)) ⚠️
 
 #### New Features (2)
 
