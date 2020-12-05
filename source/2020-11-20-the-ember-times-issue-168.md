@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 168
 author: Chris Ng, Amy Lam, Isaac Lee
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+tags: Newsletter, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/11/20-the-ember-times-issue-168.html"
 responsive: true
 ---
