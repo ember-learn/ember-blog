@@ -8,8 +8,7 @@ responsive: true
 
 👋 Emberistas! 🐹
 
-Watch a deep dive on component primitives 📺, and
-the "Rock & Roll with Ember band" interview series 🎸!
+Watch a deep dive on component primitives 📺, and check out the "Rock & Roll with Ember band" interview series 🎸!
 
 READMORE
 
