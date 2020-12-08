@@ -142,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Ava Wroten, the crowd and the Learning Team
