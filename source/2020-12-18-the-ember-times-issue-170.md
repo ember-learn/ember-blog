@@ -1,27 +1,30 @@
 ---
 title: The Ember Times - Issue No. 170
-author: the crowd
-tags: Recent Posts, Newsletter, Ember.js Times, Ember Times, 2020
+author: Ava Wroten, the crowd
+tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Explore Ember/Glimmer component performance 🚅, .
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Glimmer and Ember component performance playground 🚅](https://nullvoxpopuli.github.io/ember-three-boxes-demo/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+> Using @glimmer/component instead of @ember/component can get you up to 2x speed boosts at almost half the memory consumption.
+> [@nullvoxpopuli](https://twitter.com/nullvoxpopuli) ([source](https://twitter.com/nullvoxpopuli/status/1335616011744251907))
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Play with [the interactive browser demo](https://nullvoxpopuli.github.io/ember-three-boxes-demo/) or [explore the source](https://github.com/NullVoxPopuli/ember-three-boxes-demo) behind a performance comparison of Native JS, Ember Components and Glimmer Components. Feel the performance improvements the core team has achieved for yourself! 🔥
+
+![Glimmer rendering thousands of three.js elements with fast performance](/images/blog/emberjstimes/nullvoxpopuli-glimmer-performance.png)
+
+Within [the source README.md](https://github.com/NullVoxPopuli/ember-three-boxes-demo/blob/master/README.md) are links to Twitter conversations happening across frameworks as well including similar projects for [React (demo)](https://twitter.com/0xca0a/status/1199997552466288641) and [Svelte (demo)](https://twitter.com/Rich_Harris/status/1200807952522842112). 🌐
 
 ---
 
@@ -139,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Ava Wroten, the crowd and the Learning Team
