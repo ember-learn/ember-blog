@@ -15,7 +15,7 @@ READMORE
 
 ---
 
-## [Glimmer and Ember component performance playground 🚅](https://twitter.com/nullvoxpopuli/status/1335616011744251907)
+## [Glimmer and Ember component performance playground 🚅](https://nullvoxpopuli.github.io/ember-three-boxes-demo/)
 
 > Using @glimmer/component instead of @ember/component can get you up to 2x speed boosts at almost half the memory consumption.
 > [@nullvoxpopuli](https://twitter.com/nullvoxpopuli) ([source](https://twitter.com/nullvoxpopuli/status/1335616011744251907))
