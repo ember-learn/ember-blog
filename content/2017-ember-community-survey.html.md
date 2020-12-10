@@ -29,8 +29,8 @@ With 2017 already under way, we would like your help to learn
 about who is in the Ember community and how they work with the framework.
 To that end, we're pleased to announce the official 2017 Ember Community Survey.
 
-<a href="/ember-community-survey-2017" class="survey-button orange button">
-  Survey Landing Page <img src="/images/survey/right-arrow.png" alt="Arrow to the right" />
+<a href="https://emberjs.com/ember-community-survey-2017" class="es-button">
+  Survey Landing Page
 </a>
 
 This is our third year learning about the community's makeup and interests,
@@ -52,4 +52,3 @@ If you have any immediate questions, feel free to email
 Tom ([@tzellman](https://twitter.com/tzellman)) and
 the survey team via
 [survey@201-created.com](mailto:survey@201-created.com).
-

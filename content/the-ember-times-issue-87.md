@@ -93,7 +93,7 @@ A large part of the work for **Octane** ⛽️ is documentation! **Would you lik
   Ember Learning team member <a href="https://github.com/jessica-jordan" target="jj">@jessica-jordan</a> highlights in her answer some of the plethora of advantages that a data management library like Ember Data offers for <strong>building easy-to-maintain</strong> applications that also <strong>scale well</strong>.</p>
 
   <p>
-    <a class="ember-button" href="https://discuss.emberjs.com/t/readers-questions-what-are-the-benefits-of-using-ember-data-over-ajax/16254">Read more</a>
+    <a class="es-button" href="https://discuss.emberjs.com/t/readers-questions-what-are-the-benefits-of-using-ember-data-over-ajax/16254">Read more</a>
   </p>
 </div>
 

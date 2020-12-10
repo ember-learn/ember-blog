@@ -29,8 +29,8 @@ about who is in the Ember community and how they work with the framework.
 To that end, we're pleased to announce
 the official 2016 Ember Community Survey!
 
-<a href="/ember-community-survey-2016" class="survey-button orange button">
-  Survey Landing Page <img src="/images/survey/right-arrow.png" alt="Arrow to the right" />
+<a href="https://emberjs.com/ember-community-survey-2016" class="es-button">
+  Survey Landing Page
 </a>
 
 Completing the survey should take about fifteen minutes. We will be accepting

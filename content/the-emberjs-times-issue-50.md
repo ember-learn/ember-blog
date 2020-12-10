@@ -99,7 +99,7 @@ We all love reading the Ember blog. It’s an awesome way to find out what’s h
 </div>
 
 <div class="blog-row">
-  <a class="ember-button" href="https://discuss.emberjs.com/t/readers-questions-id-like-to-contribute-to-ember-how-can-i-get-started/14915">Read more</a>
+  <a class="es-button" href="https://discuss.emberjs.com/t/readers-questions-id-like-to-contribute-to-ember-how-can-i-get-started/14915">Read more</a>
 </div>
 
 <div class="blog-row">

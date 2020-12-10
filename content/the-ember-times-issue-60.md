@@ -91,7 +91,7 @@ For the most up-to-date Ember reference material, check out the [Guides](https:/
   <p>This week's Readers' Question is all about best practices in Ember apps and one of the most popular design patterns - the <strong>"Data Down, Actions Up"
   paradigm</strong> - is explained in more detail. Read this week's answer by <a href="https://github.com/jessica-jordan" target="gh-jj">@jessica-jordan</a> on the <a href="https://discuss.emberjs.com/t/readers-questions-what-is-meant-by-the-term-data-down-actions-up/15311" target="discuss">official Ember Forum here</a>.</p>
 
-<p><a class="ember-button" href="https://discuss.emberjs.com/t/readers-questions-what-is-meant-by-the-term-data-down-actions-up/15311" target="compmanager">Read more</a></p>
+<p><a class="es-button" href="https://discuss.emberjs.com/t/readers-questions-what-is-meant-by-the-term-data-down-actions-up/15311" target="compmanager">Read more</a></p>
 <br/>
 
 <p><strong>Submit your own</strong> short and sweet <strong>question</strong> under <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>. And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞</p>

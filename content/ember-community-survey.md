@@ -9,7 +9,7 @@ tags: []
 ---
 
 
-What an incredible time to be in the Ember Community! 
+What an incredible time to be in the Ember Community!
 
 - Ember.js completed seven backward-compatible minor version releases in the last year.
 - An amazing 200+ community members contributed to core Ember projects (that's not even counting the 4500+ ember addons!)
@@ -18,8 +18,8 @@ What an incredible time to be in the Ember Community!
 
 With 2019 already under way, we would like your help to learn about who is in the Ember community and how they work with the framework. To that end, we're pleased to announce the official 2019 Ember Community Survey.
 
-<a href="/ember-community-survey-2019" class="survey-button orange button">
-Survey Landing Page <img src="/images/survey/right-arrow.png" alt="" role="presentation" />
+<a href="https://emberjs.com/ember-community-survey-2019" class="es-button">
+  Survey Landing Page
 </a>
 
 This is the fifth year we're learning about the community's makeup and interests, and we look forward to sharing the results at [EmberConf 2019](http://emberconf.com/) on March 18th. Over 1300 participants took part in the survey in 2018 ([2018 survey results](https://www.emberjs.com/ember-community-survey-2018/)) and we are aiming for even more participation this year!
