@@ -51,7 +51,7 @@ Starting version 3.0, you can [decide what library to use for syntax highlightin
 {{/let}}
 ```
 
-<figure>
+<figure class="mb-4">
   <img alt="Code snippet highlighted with Prism JS" src="/images/blog/2019-12-29/code-snippet-prism.png">
   <figcaption>Code snippet highlighted with Prism.js</figcaption>
 </figure>
@@ -66,7 +66,7 @@ Maybe you want [Highlight.js](https://highlightjs.org/) instead:
 {{/let}}
 ```
 
-<figure>
+<figure class="mb-4">
   <img alt="Code snippet highlighted with Highlight JS" src="/images/blog/2019-12-29/code-snippet-highlight.png">
   <figcaption>Code snippet highlighted with Highlight.js</figcaption>
 </figure>
