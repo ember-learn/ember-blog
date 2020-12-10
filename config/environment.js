@@ -27,6 +27,8 @@ module.exports = function(environment) {
       title: 'Ember.js Blog',
       description: 'Official Blog for the Ember.js Open Source Project',
       paginate: true,
+      logo: "/images/logos/e-icon.png",
+      twitter: "emberjs",
     }
   };
 

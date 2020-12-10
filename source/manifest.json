@@ -8,12 +8,8 @@
   "background_color": "#faf4f1",
   "icons": [
     {
-      "src": "/images/logos/ember-logo.png",
-      "sizes": "596x227"
-    },
-    {
-      "src": "/images/logos/ember-logo.svg",
-      "sizes": "94x37"
+      "src": "/images/logos/e-icon.png",
+      "sizes": "512x512"
     }
   ]
 }
