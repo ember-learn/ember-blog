@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, the crowd
+author: Ava Wroten, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
@@ -8,7 +8,8 @@ responsive: true
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-Explore Ember/Glimmer component performance 🚅, .
+Explore Ember/Glimmer component performance 🚅,
+Read the blog post on the Ember Octane mental model ✍️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 READMORE
@@ -28,14 +29,13 @@ Within [the source README.md](https://github.com/NullVoxPopuli/ember-three-boxes
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Blog: Ember Octane is a New Mental Model ✍️](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a [blog post](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/) on how Ember Octane is not a 1:1 translation from Ember Classic but rather a whole new way of thinking and designing your code. This new programming model means that some patterns that you’re used to using in the Classic paradigm simply do not work in the new paradigm.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Chris goes through a couple examples of code that was fundamentally coupled to Ember Classic idioms such as the [Evented API](https://api.emberjs.com/ember/release/classes/Evented) and usage of `didReceiveAttrs`. The blog argues these cases where rare, it’s possible the abstraction would benefit from being reworked substantially towards the Octane idioms.
+
+Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/) or follow the [discussion on GitHub](https://github.com/emberjs/rfcs/pull/669#issuecomment-739320902)!
 
 ---
 
@@ -142,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, the crowd and the Learning Team
+Ava Wroten, Chris Ng, the crowd and the Learning Team
