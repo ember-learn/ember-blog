@@ -1,15 +1,16 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, the crowd
+author: Ava Wroten, Amy Lam, the crowd
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👏 Emberistas! 🐹
 
-Explore Ember/Glimmer component performance 🚅, .
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Explore Ember/Glimmer component performance 🚅, .
+Ember + Tailwind 2.0 🎨,
 
 READMORE
 
@@ -39,14 +40,11 @@ Within [the source README.md](https://github.com/NullVoxPopuli/ember-three-boxes
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Ember + Tailwind CSS 2.0 🎨](https://twitter.com/alexlafroscia/status/1330557883566739456)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+On the functional CSS train? Now that Tailwind 2.0 is out, you may be looking for guidance on setting it up in your Ember app, as there are some slight differences from Tailwind 1.x. [Ray Tiley (@raytiley)](https://github.com/raytiley/tailwind-ember-example) put together [tailwind-ember-example](https://github.com/raytiley/tailwind-ember-example) to demonstrate how to get things configured in Ember. Check out the conversation on [Twitter](https://twitter.com/raytiley/status/1330493161848905730) or chime in on [GitHub](https://github.com/raytiley/tailwind-ember-example) if you have more to add or run into any gotchas!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+What's new in Tailwind 2.0? A new color palette, dark mode support, an extra wide 2XL breakpoint, and more. (Note that Tailwind 2.0 is not compatible with IE11, but IE11's end of life is set for 2021.) Check out Tailwind's fancy [release trailer video](https://www.youtube.com/watch?v=3u_vIdnJYLc&feature=emb_logo) or the [blog post](https://blog.tailwindcss.com/tailwindcss-v2) for more details.
 
 ---
 
@@ -142,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, the crowd and the Learning Team
+Ava Wroten, Amy Lam, the crowd and the Learning Team
