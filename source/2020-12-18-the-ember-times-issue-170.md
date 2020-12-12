@@ -9,6 +9,7 @@ responsive: true
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 Explore Ember/Glimmer component performance 🚅,
+<!--alex ignore nuts-->
 Read the blog post on the Ember Octane mental model ✍️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
