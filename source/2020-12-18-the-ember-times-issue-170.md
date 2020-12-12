@@ -33,6 +33,7 @@ Within [the source README.md](https://github.com/NullVoxPopuli/ember-three-boxes
 <!--alex ignore nuts-->
 ## [Blog: Ember Octane is a New Mental Model ✍️](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/)
 
+<!--alex ignore easy-->
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a [blog post](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/) on how Ember Octane is not a 1:1 translation from Ember Classic but rather a whole new way of thinking and designing your code. This new programming model means that some patterns that you’re used to using in the Classic paradigm simply do not work in the new paradigm.
 
 Chris goes through a couple examples of code that was fundamentally coupled to Ember Classic idioms such as the [Evented API](https://api.emberjs.com/ember/release/classes/Evented) and usage of `didReceiveAttrs`. The blog argues these cases where rare, it’s possible the abstraction would benefit from being reworked substantially towards the Octane idioms.
