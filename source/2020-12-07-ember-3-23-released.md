@@ -93,7 +93,8 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.23
 
-Blueprints for new applications were updated for the new testing setup ([#9340](https://github.com/ember-cli/ember-cli/pull/9340), [#9371](https://github.com/ember-cli/ember-cli/pull/9371/files)).
+No significant changes were introduced in this version of Ember CLI.
+Upcoming changes to how the blueprint for new applications sets up testing were delayed to next minor version due to regressions.
 
 ---
 
