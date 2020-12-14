@@ -66,11 +66,8 @@ This release included several bug fixes and improvements, such as:
 
 **najax when ember-fetch is also a dependency**
 
-[#7230](https://github.com/emberjs/data/pull/7230).
-_editor note_ will fill out once the pending deprecation guide is out.
-
-
-No new deprecations introduced in Ember Data VER.
+Building on the deprecation of the previous minor version, [#7230](https://github.com/emberjs/data/pull/7230) also triggers a deprecation warning when `ember-fetch` is installed to better guide users on how to update their app.
+You can consult the [Deprecate `najax` request](https://deprecations.emberjs.com/ember-data/v3.x/#toc_ember-data-najax-fallback) deprecation guide for more information.
 
 For more details on changes in Ember Data 3.23, please review the
 [Ember Data 3.23.0 release page](https://github.com/emberjs/data/releases/tag/v3.23.0).
