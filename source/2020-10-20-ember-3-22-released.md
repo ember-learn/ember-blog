@@ -70,7 +70,7 @@ Ember Data 3.22 introduced 0 features.
 
 Ember Data 3.22 introduced 1 deprecation.
 
-1. Use of `najax` has been [deprecated](https://github.com/emberjs/data/pull/7230) in favor of `ember-fetch` when fastboot is installed.
+1. Use of `najax` has been [deprecated](https://github.com/emberjs/data/pull/7230) in favor of `ember-fetch` when FastBoot is installed. To learn how to migrate your app, please see the [Deprecations Guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_ember-data-najax-fallback).
 
 For more details on changes in Ember Data 3.22, please review the
 [Ember Data 3.22.0 release page](https://github.com/emberjs/data/releases/tag/v3.22.0).
