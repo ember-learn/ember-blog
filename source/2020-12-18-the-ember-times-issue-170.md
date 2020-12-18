@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, the crowd
+author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, Jared Galanis the crowd
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
@@ -13,6 +13,7 @@ Explore Ember/Glimmer component performance 🚅,
 Read the blog post on the Ember Octane mental model ✍️,
 Ember + Tailwind 2.0 🎨,
 Learn how to use WebSockets with Ember Data 📟,
+Glimmer apps with Snowpack 🔥️⛄,
 
 READMORE
 
@@ -76,14 +77,21 @@ The blog post is a step-by-step explanation with extensive code examples of usin
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Glimmer apps with Snowpack 🔥️⛄](https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's an awesome new [blog post](https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc) from [Rajasegar Chandran @rajasegar](https://github.com/rajasegar) about how to build your Glimmer app with Snowpack 🔥️⛄!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The Glimmer VM runs the components we know and 💜 in Ember, and it is designed to run them super fast 🔥. Snowpack ⛄️ is a new, lightning-fast frontend build tool designed for the modern web. Snowpack leverages JavaScript's native module system [(ESM)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import).
+
+The post explains how to create a Snowpack app, add dependencies such as a Glimmer and how to configure Snowpack.
+
+It's an exciting foray into new technologies that are built to optimize our experience as developers and users of web technologies.
+
+But that is not all. Rajasegar has also created a `create-snowpack-app` [template](https://github.com/rajasegar/snowpack-app-template-glimmer) to bootstrap your Glimmer app and use Snowpack. 
+
+There's also a sample Todo list app built using these exciting new technologies if you want to [check it out](https://todolist-glimmer-snowpack.surge.sh/).
+
+Still not enough cool frontend bundler technology for you? Well, Rajasegar has written a [follow up post](https://dev.to/rajasegar/building-glimmer-apps-with-rollup-3jcj) about how to use Rollup with a Glimmer app as well!
 
 ---
 
@@ -157,4 +165,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
+Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, Jared Galanis the crowd and the Learning Team
