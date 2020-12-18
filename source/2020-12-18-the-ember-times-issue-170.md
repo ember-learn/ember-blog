@@ -19,7 +19,7 @@ READMORE
 
 ## [Ember 3.23 Released 🐹](https://blog.emberjs.com/2020/12/14/ember-3-23-released.html)
 
-Version 3.23 of Ember.js, Ember Data, and Ember CLI was released on December 14, 2020! The next release will be in [6 weeks time](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html), please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
+Version 3.23 of Ember.js, Ember Data, and Ember CLI was released on December 14, 2020! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
 
 Ember.js 3.23 included bug fixes including improving error ergonomics ([#19213](https://github.com/emberjs/ember.js/pull/19213)) and implemented and enabled the `invokeHelper` from [JavaScript Helper Invocation API RFC](https://github.com/emberjs/rfcs/blob/master/text/0626-invoke-helper.md) and the helper manager from [Helper Managers RFC](https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md). There were no deprecations in Ember 3.23.
 
