@@ -89,7 +89,7 @@ It's an exciting foray into new technologies that are built to optimize our expe
 
 But that is not all. Rajasegar has also created a `create-snowpack-app` [template](https://github.com/rajasegar/snowpack-app-template-glimmer) to bootstrap your Glimmer app and use Snowpack. 
 
-There's also a sample Todo list app built using these exciting new technologies if you want to [check it out](https://todolist-glimmer-snowpack.surge.sh/).
+There's also a sample Todo List app built using these exciting new technologies if you want to [check it out](https://todolist-glimmer-snowpack.surge.sh/).
 
 Still not enough cool frontend bundler technology for you? Well, Rajasegar has written a follow-up post about [how to use Rollup with a Glimmer app](https://dev.to/rajasegar/building-glimmer-apps-with-rollup-3jcj) as well!
 
