@@ -79,7 +79,7 @@ The blog post is a step-by-step explanation with extensive code examples of usin
 
 ## [Glimmer apps with Snowpack 🔥️⛄](https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc)
 
-There's an awesome new [blog post](https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc) from [Rajasegar Chandran @rajasegar](https://github.com/rajasegar) about how to build your Glimmer app with Snowpack 🔥️⛄!
+There's an awesome new [blog post](https://dev.to/rajasegar/building-glimmer-apps-with-snowpack-igc) from [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) about how to build your Glimmer app with Snowpack 🔥️⛄!
 
 The Glimmer VM runs the components we know and 💜 in Ember, and it is designed to run them super fast 🔥. Snowpack ⛄️ is a new, lightning-fast frontend build tool designed for the modern web. Snowpack leverages [JavaScript's native module system](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import).
 
