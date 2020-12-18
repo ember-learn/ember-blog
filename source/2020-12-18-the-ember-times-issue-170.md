@@ -55,7 +55,7 @@ What's new in Tailwind 2.0? A new color palette, dark mode support, an extra wid
 
 If you want to learn how to update your Ember app with live data provided by others, [Josh Justice @CodingItWrong](https://github.com/codingitwrong) wrote a [blog](https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html) about how to use **WebSockets** in combination with JSON:API to get live updates in your app. 
 
-The blog post is a step-by-step explanation with extensive code examples. At the end of the blogpost you will have a ToDo list that will update information of all users to each other. Live updates are a new way of thinking about data flow in your app, but the libraries that you probably are already using allow you to add them without too much code. This blog will give you a nice place to start experimenting with this cool technology.
+The blog post is a step-by-step explanation with extensive code examples of using WebSockets with Ember Data. At the end of the blog post you will have a ToDo list that will update information of all users to each other. Live updates are a new way of thinking about the data flow in your app, but the libraries that you probably are already using allow you to add them without adding too much code. This blog will give you a nice place to start experimenting with this cool technology.
 
 
 <add blurb and emoji to "SOME-INTRO-HERE">
