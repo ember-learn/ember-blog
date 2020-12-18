@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, Amy Lam, Chris Ng, the crowd
+author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, the crowd
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
@@ -12,6 +12,7 @@ Explore Ember/Glimmer component performance 🚅,
 <!--alex ignore nuts-->
 Read the blog post on the Ember Octane mental model ✍️,
 Ember + Tailwind 2.0 🎨,
+Learn how to use WebSockets with Ember Data 📟,
 
 READMORE
 
@@ -64,13 +65,13 @@ What's new in Tailwind 2.0? A new color palette, dark mode support, an extra wid
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Live updates with WebSockets in Ember Data 📟](https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you want to learn how to update your Ember app with live data provided by others, [Josh Justice @CodingItWrong](https://github.com/codingitwrong) wrote a [blog](https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html) about how to use **WebSockets** in combination with JSON:API to get live updates in your app. 
 
-<add your name to author list, top and bottom>
+The blog post is a step-by-step explanation with extensive code examples of using WebSockets with Ember Data. At the end of the blog post you will have a ToDo list that will update information of all users to each other. Live updates are a new way of thinking about the data flow in your app, but the libraries that you probably are already using allow you to add them without adding too much code. This blog will give you a nice place to start experimenting with this cool technology.
+
+
 <add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
@@ -156,4 +157,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Amy Lam, Chris Ng, the crowd and the Learning Team
+Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
