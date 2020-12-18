@@ -83,7 +83,7 @@ There's an awesome new [blog post](https://dev.to/rajasegar/building-glimmer-app
 
 The Glimmer VM runs the components we know and 💜 in Ember, and it is designed to run them super fast 🔥. Snowpack ⛄️ is a new, lightning-fast frontend build tool designed for the modern web. Snowpack leverages JavaScript's native module system [(ESM)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import).
 
-The post explains how to create a Snowpack app, add dependencies such as a Glimmer and how to configure Snowpack.
+The post explains how to create a Snowpack app, add dependencies such as Glimmer, and how to configure Snowpack.
 
 It's an exciting foray into new technologies that are built to optimize our experience as developers and users of web technologies.
 
