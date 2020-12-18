@@ -7,13 +7,27 @@ responsive: true
 ---
 
 👏 Emberistas! 🐹
-
+Ember 3.23 is Released! 🐹,
 Explore Ember/Glimmer component performance 🚅,
 <!--alex ignore nuts-->
 Read the blog post on the Ember Octane mental model ✍️,
 Ember + Tailwind 2.0 🎨,
 
 READMORE
+
+---
+
+## [Ember 3.23 Released 🐹](https://blog.emberjs.com/2020/12/14/ember-3-23-released.html)
+
+Version 3.23 of Ember.js, Ember Data, and Ember CLI was released on December 14, 2020! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
+
+Ember.js 3.23 included [improved error ergonomics](https://github.com/emberjs/ember.js/pull/19213), the `invokeHelper` from [JavaScript Helper Invocation API RFC](https://github.com/emberjs/rfcs/blob/master/text/0626-invoke-helper.md), and the helper manager from [Helper Managers RFC](https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md). There were no deprecations in Ember 3.23.
+
+Ember Data 3.23 [deprecates](https://deprecations.emberjs.com/ember-data/v3.x/#toc_ember-data-najax-fallback) `najax` requests when `ember-fetch` is installed to better guide users on how to update their app. If you do not have jQuery [enabled](https://guides.emberjs.com/release/configuring-ember/optional-features/), this deprecation does not apply to you.
+
+There were [no significant changes](https://github.com/ember-cli/ember-cli/releases/tag/v3.23.0) in Ember CLI 3.23.
+
+Read the full [Ember 3.23 release notes](https://blog.emberjs.com/2020/12/14/ember-3-23-released.html) for the complete information.
 
 ---
 
