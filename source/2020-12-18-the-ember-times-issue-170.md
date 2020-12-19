@@ -6,7 +6,7 @@ alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
 ---
 
-👏 Emberistas! 🐹
+👋 Emberistas! 🐹
 
 <!--alex ignore nuts-->
 Ember 3.23 released 🎉,
@@ -38,7 +38,7 @@ Read the full [Ember 3.23 release notes](https://blog.emberjs.com/2020/12/14/emb
 ## [Glimmer and Ember component performance playground 🚅](https://nullvoxpopuli.github.io/ember-three-boxes-demo/)
 
 > Using @glimmer/component instead of @ember/component can get you up to 2x speed boosts at almost half the memory consumption.
-> [@nullvoxpopuli](https://twitter.com/nullvoxpopuli) ([source](https://twitter.com/nullvoxpopuli/status/1335616011744251907))
+> -[@nullvoxpopuli](https://twitter.com/nullvoxpopuli) ([source](https://twitter.com/nullvoxpopuli/status/1335616011744251907))
 
 Play with the [interactive browser demo](https://nullvoxpopuli.github.io/ember-three-boxes-demo/) or [explore the source](https://github.com/NullVoxPopuli/ember-three-boxes-demo) behind a performance comparison of Native JS, Ember Components and Glimmer Components. Feel the performance improvements the core team has achieved for yourself! 🔥
 
