@@ -1,0 +1,15 @@
+{
+  "name": "Ember.js",
+  "short_name": "Ember.js",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#e04e39",
+  "background_color": "#faf4f1",
+  "icons": [
+    {
+      "src": "/images/logos/e-icon.png",
+      "sizes": "512x512"
+    }
+  ]
+}
