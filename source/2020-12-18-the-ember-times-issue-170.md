@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, the crowd
+author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
@@ -13,6 +13,7 @@ Explore Ember/Glimmer component performance 🚅,
 Read the blog post on the Ember Octane mental model ✍️,
 Ember + Tailwind 2.0 🎨,
 Learn how to use WebSockets with Ember Data 📟,
+Meet `fractal-page-object` ❄️,
 
 READMORE
 
@@ -87,14 +88,11 @@ The blog post is a step-by-step explanation with extensive code examples of usin
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Meet `fractal-page-object` ❄️](https://twitter.com/bendemboski/status/1338545855054270464)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ben Demboski (@bendemboski)](https://github.com/bendemboski) released [fractal-page-object](https://github.com/bendemboski/fractal-page-object), a lightweight JavaScript [page object](https://martinfowler.com/bliki/PageObject.html) addon for testing. It is framework-agnostic but is built with Ember and `qunit-dom` in mind. 🧡
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Please give it a try and provide feedback. To learn more about testing with `fractal-page-object`, you can check out the [README file](https://github.com/bendemboski/fractal-page-object#fractal-page-object).
 
 ---
 
@@ -157,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, the crowd and the Learning Team
+Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, the crowd and the Learning Team
