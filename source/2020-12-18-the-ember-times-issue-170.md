@@ -1,20 +1,21 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, Jared Galanis, Isaac Lee, the crowd
+author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, Jared Galanis, Isaac Lee
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
 ---
 
 👏 Emberistas! 🐹
-Ember 3.23 is Released! 🐹,
-Explore Ember/Glimmer component performance 🚅,
+
 <!--alex ignore nuts-->
-Read the blog post on the Ember Octane mental model ✍️,
+Ember 3.23 released 🎉,
+explore Ember/Glimmer component performance 🚅,
+read the blog post on the Ember Octane mental model ✍️,
 Ember + Tailwind 2.0 🎨,
-Learn how to use WebSockets with Ember Data 📟,
+learn how to use WebSockets with Ember Data 📟,
 Glimmer apps with Snowpack 🔥️⛄,
-Meet `fractal-page-object` ❄️,
+and last, but not least, meet `fractal-page-object` ❄️!
 
 READMORE
 
@@ -22,7 +23,7 @@ READMORE
 
 ## [Ember 3.23 Released 🐹](https://blog.emberjs.com/2020/12/14/ember-3-23-released.html)
 
-Version 3.23 of Ember.js, Ember Data, and Ember CLI was released on December 14, 2020! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
+Version 3.23 of Ember.js, Ember Data, and Ember CLI was released on December 14th! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
 
 Ember.js 3.23 included [improved error ergonomics](https://github.com/emberjs/ember.js/pull/19213), the `invokeHelper` from [JavaScript Helper Invocation API RFC](https://github.com/emberjs/rfcs/blob/master/text/0626-invoke-helper.md), and the helper manager from [Helper Managers RFC](https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md). There were no deprecations in Ember 3.23.
 
@@ -39,7 +40,7 @@ Read the full [Ember 3.23 release notes](https://blog.emberjs.com/2020/12/14/emb
 > Using @glimmer/component instead of @ember/component can get you up to 2x speed boosts at almost half the memory consumption.
 > [@nullvoxpopuli](https://twitter.com/nullvoxpopuli) ([source](https://twitter.com/nullvoxpopuli/status/1335616011744251907))
 
-Play with [the interactive browser demo](https://nullvoxpopuli.github.io/ember-three-boxes-demo/) or [explore the source](https://github.com/NullVoxPopuli/ember-three-boxes-demo) behind a performance comparison of Native JS, Ember Components and Glimmer Components. Feel the performance improvements the core team has achieved for yourself! 🔥
+Play with the [interactive browser demo](https://nullvoxpopuli.github.io/ember-three-boxes-demo/) or [explore the source](https://github.com/NullVoxPopuli/ember-three-boxes-demo) behind a performance comparison of Native JS, Ember Components and Glimmer Components. Feel the performance improvements the core team has achieved for yourself! 🔥
 
 ![Glimmer rendering thousands of three.js elements with fast performance](/images/blog/emberjstimes/nullvoxpopuli-glimmer-performance.png)
 
@@ -48,7 +49,7 @@ Within [the source README.md](https://github.com/NullVoxPopuli/ember-three-boxes
 ---
 
 <!--alex ignore nuts-->
-## [Blog: Ember Octane is a New Mental Model ✍️](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/)
+## [Blog: Ember Octane is a new mental model ✍️](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/)
 
 <!--alex ignore easy-->
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a [blog post](https://v5.chriskrycho.com/journal/ember-octane-is-a-new-mental-model/) on how Ember Octane is not a 1:1 translation from Ember Classic but rather a whole new way of thinking and designing your code. This new programming model means that some patterns that you’re used to using in the Classic paradigm simply do not work in the new paradigm.
@@ -59,7 +60,7 @@ Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/e
 
 ---
 
-## [Ember + Tailwind CSS 2.0 🎨](https://twitter.com/alexlafroscia/status/1330557883566739456)
+## [Ember + Tailwind CSS 2.0 🎨](https://twitter.com/raytiley/status/1330493161848905730)
 
 On the functional CSS train? Now that Tailwind 2.0 is out, you may be looking for guidance on setting it up in your Ember app, as there are some slight differences from Tailwind 1.x. [Ray Tiley (@raytiley)](https://github.com/raytiley/tailwind-ember-example) put together [tailwind-ember-example](https://github.com/raytiley/tailwind-ember-example) to demonstrate how to get things configured in Ember. Check out the conversation on [Twitter](https://twitter.com/raytiley/status/1330493161848905730) or chime in on [GitHub](https://github.com/raytiley/tailwind-ember-example) if you have more to add or run into any gotchas!
 
@@ -69,12 +70,9 @@ What's new in Tailwind 2.0? A new color palette, dark mode support, an extra wid
 
 ## [Live updates with WebSockets in Ember Data 📟](https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html)
 
-If you want to learn how to update your Ember app with live data provided by others, [Josh Justice @CodingItWrong](https://github.com/codingitwrong) wrote a [blog](https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html) about how to use **WebSockets** in combination with JSON:API to get live updates in your app. 
+If you want to learn how to update your Ember app with live data provided by others, [Josh Justice (@CodingItWrong)](https://github.com/codingitwrong) wrote a [blog](https://codingitwrong.com/2020/10/02/ember-data-live-updates-with-rails.html) about how to use **WebSockets** in combination with JSON:API to get live updates in your app. 
 
-The blog post is a step-by-step explanation with extensive code examples of using WebSockets with Ember Data. At the end of the blog post you will have a ToDo list that will update information of all users to each other. Live updates are a new way of thinking about the data flow in your app, but the libraries that you probably are already using allow you to add them without adding too much code. This blog will give you a nice place to start experimenting with this cool technology.
-
-
-<add blurb and emoji to "SOME-INTRO-HERE">
+The blog post is a step-by-step explanation with extensive code examples of using WebSockets with Ember Data. At the end of the blog post you will have a Todo List that will update information of all users to each other. Live updates are a new way of thinking about the data flow in your app, but the libraries that you probably are already using allow you to add them without adding too much code. This blog will give you a nice place to start experimenting with this cool technology.
 
 ---
 
@@ -104,39 +102,6 @@ Please give it a try and provide feedback. To learn more about testing with `fra
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/GavinJoyce" rel="noopener noreferrer" target="_blank">Gavin Joyce (@GavinJoyce)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/lifeart" rel="noopener noreferrer" target="_blank">Alex Kanunnikov (@lifeart)</a>, <a href="https://github.com/drewlee" rel="noopener noreferrer" target="_blank">Andrew A Lee (@drewlee)</a>, <a href="https://github.com/efx" rel="noopener noreferrer" target="_blank">Eli Flanagan (@efx)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/jeffdaley" rel="noopener noreferrer" target="_blank">Jeff Daley (@jeffdaley)</a>, <a href="https://github.com/nruth" rel="noopener noreferrer" target="_blank">Nicholas Rutherford (@nruth)</a>, <a href="https://github.com/BryanCrotaz" rel="noopener noreferrer" target="_blank">Bryan (@BryanCrotaz)</a>, <a href="https://github.com/spham92" rel="noopener noreferrer" target="_blank">Steven Pham (@spham92)</a>, <a href="https://github.com/suchitadoshi1987" rel="noopener noreferrer" target="_blank">Suchita Doshi (@suchitadoshi1987)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/taltcher" rel="noopener noreferrer" target="_blank">Tal Tchernihovski (@taltcher)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/hergaiety" rel="noopener noreferrer" target="_blank">Ava Gaiety Wroten (@hergaiety)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/mrloop" rel="noopener noreferrer" target="_blank">Ewan McDougall (@mrloop)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/nickschot" rel="noopener noreferrer" target="_blank">Nick Schot (@nickschot)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, and <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a> for their contributions to Ember and related repositories! 💖</p>
@@ -163,4 +128,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, Jared Galanis, Isaac Lee, the crowd and the Learning Team
+Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, Jared Galanis, Isaac Lee, and the Learning Team
