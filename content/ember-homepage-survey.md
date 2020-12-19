@@ -11,20 +11,20 @@ tags:
 
 The first version of [emberjs.com](/) was created over 7 years ago, in 2011! Since then there's not only been a major redesign, but countless features, blog posts, guides, examples, and lessons learned added to the site. It's been thrilling to watch the Ember community evolve emberjs.com over the years.
 
-<div class="grid">
-  <div class="col">
+<div class="layout mb-3">
+  <div class="lg:col-2 sm:col-2">
     <h3 class="text-center">2011</h3>
     <a href="/images/blog/2018-07-30-ember-homepage-survey/2011.png">
       <img src="/images/blog/2018-07-30-ember-homepage-survey/2011.png" alt="Emberjs.com in 2011">
     </a>
   </div>
-  <div class="col">
+  <div class="lg:col-2 sm:col-2">
     <h3 class="text-center">2015</h3>
     <a href="/images/blog/2018-07-30-ember-homepage-survey/2015.png">
       <img src="/images/blog/2018-07-30-ember-homepage-survey/2015.png" alt="Emberjs.com in 2015">
     </a>
   </div>
-  <div class="col">
+  <div class="lg:col-2 sm:col-2">
     <h3 class="text-center">2018</h3>
     <img src="/images/blog/2018-07-30-ember-homepage-survey/2018.png" alt="The future homepage?">
   </div>
