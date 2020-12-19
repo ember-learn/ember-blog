@@ -87,7 +87,7 @@ You can also check out the release blog post's **Deprecations** sections to ensu
 next major release. Read all about 👀 it on the Ember Blog:
 
 <div class="blog-row">
-  <a class="ember-button"
+  <a class="es-button"
     href="https://www.emberjs.com/blog/2018/07/02/ember-3-2-released.html"
     target="blog"
     aria-label="Read more about the 3.2 Ember release on the Ember blog">Read more</a>

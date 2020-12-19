@@ -75,7 +75,7 @@ Read and comment on the [full RFC on GitHub](https://github.com/emberjs/rfcs/pul
 2019 is rapidly approaching, and you've got one more thing to do before EOY: buy your EmberConf ticket! This year's Early-Bird discount is significant ($50), while supplies last or until 12/31. So before anything else, here's that big shiny button! 🆗
 
 <div class="blog-row">
-  <a class="ember-button" style="width:260px" href="https://emberconf.com/register.html">Register Now</a>
+  <a class="es-button" style="width:260px" href="https://emberconf.com/register.html">Register Now</a>
 </div>
 
 The program has been announced and is looking really great: so many new faces, and a bunch of familiar old ones! Be sure to check out the [full schedule](https://emberconf.com/schedule.html) for all the details.

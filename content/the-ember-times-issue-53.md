@@ -109,7 +109,7 @@ Interested in the whole conversation? Checkout [@Alonski's](https://github.com/A
 </div>
 
 <div class="blog-row">
-  <a class="ember-button" href="https://discuss.emberjs.com/t/readers-questions-can-i-start-using-module-unification-in-my-app/15029">Read more</a>
+  <a class="es-button" href="https://discuss.emberjs.com/t/readers-questions-can-i-start-using-module-unification-in-my-app/15029">Read more</a>
 </div>
 
 <div class="blog-row">
