@@ -1,0 +1,5 @@
+---
+name: Mascot
+image: ''
+imageMeta: ''
+---
