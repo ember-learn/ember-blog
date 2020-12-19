@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 170
-author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, Jared Galanis the crowd
+author: Ava Wroten, Amy Lam, Anne-Greeth van Herwijne, Chris Ng, Jared Galanis, Isaac Lee, the crowd
 tags: Recent Posts, Newsletter, Performance, Ember Octane, Ember.js Times, Ember Times, 2020
 alias : "blog/2020/12/18-the-ember-times-issue-170.html"
 responsive: true
@@ -14,6 +14,7 @@ Read the blog post on the Ember Octane mental model ✍️,
 Ember + Tailwind 2.0 🎨,
 Learn how to use WebSockets with Ember Data 📟,
 Glimmer apps with Snowpack 🔥️⛄,
+Meet `fractal-page-object` ❄️,
 
 READMORE
 
@@ -95,14 +96,11 @@ Still not enough cool frontend bundler technology for you? Well, Rajasegar has w
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [Meet `fractal-page-object` ❄️](https://twitter.com/bendemboski/status/1338545855054270464)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ben Demboski (@bendemboski)](https://github.com/bendemboski) released [fractal-page-object](https://github.com/bendemboski/fractal-page-object), a lightweight JavaScript [page object](https://martinfowler.com/bliki/PageObject.html) addon for testing. It is framework-agnostic but is built with Ember and `qunit-dom` in mind. 🧡
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Please give it a try and provide feedback. To learn more about testing with `fractal-page-object`, you can check out the [README file](https://github.com/bendemboski/fractal-page-object#fractal-page-object).
 
 ---
 
@@ -141,7 +139,7 @@ Still not enough cool frontend bundler technology for you? Well, Rajasegar has w
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/GavinJoyce" rel="noopener noreferrer" target="_blank">Gavin Joyce (@GavinJoyce)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/lifeart" rel="noopener noreferrer" target="_blank">Alex Kanunnikov (@lifeart)</a>, <a href="https://github.com/drewlee" rel="noopener noreferrer" target="_blank">Andrew A Lee (@drewlee)</a>, <a href="https://github.com/efx" rel="noopener noreferrer" target="_blank">Eli Flanagan (@efx)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/jeffdaley" rel="noopener noreferrer" target="_blank">Jeff Daley (@jeffdaley)</a>, <a href="https://github.com/nruth" rel="noopener noreferrer" target="_blank">Nicholas Rutherford (@nruth)</a>, <a href="https://github.com/BryanCrotaz" rel="noopener noreferrer" target="_blank">Bryan (@BryanCrotaz)</a>, <a href="https://github.com/spham92" rel="noopener noreferrer" target="_blank">Steven Pham (@spham92)</a>, <a href="https://github.com/suchitadoshi1987" rel="noopener noreferrer" target="_blank">Suchita Doshi (@suchitadoshi1987)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/taltcher" rel="noopener noreferrer" target="_blank">Tal Tchernihovski (@taltcher)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/hergaiety" rel="noopener noreferrer" target="_blank">Ava Gaiety Wroten (@hergaiety)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/mrloop" rel="noopener noreferrer" target="_blank">Ewan McDougall (@mrloop)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/nickschot" rel="noopener noreferrer" target="_blank">Nick Schot (@nickschot)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, and <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -165,4 +163,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, Jared Galanis the crowd and the Learning Team
+Ava Wroten, Amy Lam, Anne-Greeth van Herwijnen, Chris Ng, Jared Galanis, Isaac Lee, the crowd and the Learning Team
