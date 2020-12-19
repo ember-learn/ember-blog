@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 170
 authors:
   - ava-wroten
   - amy-lam
-  - anne-greeth-van-herwijne
+  - anne-greeth-van-herwijnen
   - chris-ng
   - jared-galanis
   - isaac-lee
