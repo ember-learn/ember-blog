@@ -28,6 +28,7 @@ This week we have an Ember standard for i18n 🌍, more convenient **transitions
 [@snewcomer](https://github.com/snewcomer) and [@cibernox](https://github.com/cibernox) [announced](https://twitter.com/MiguelCamba/status/1054699605865177089) a new way to internationalize Ember apps, [ember-i18n](https://github.com/jamesarosen/ember-i18n) is now deprecated in favour of [ember-intl](https://github.com/ember-intl/ember-intl)! This will provide Ember with a standard package for internationalization.
 
 There are [many reasons](https://twitter.com/MiguelCamba/status/1054720978478084097) to make the change such as:
+
 - Using the [**ICU message format**](https://formatjs.io/guides/message-syntax/) which is a standard in the i18n industry
 - **Locale-aware** numbers, dates, times, currencies, decimals, and percentages!
 - Uses the [**Native Intl API**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl)

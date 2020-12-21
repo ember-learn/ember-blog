@@ -41,6 +41,7 @@ by making use of the addon `ember-decorators` - seeing the classy ✨ future of 
 
 Now the follow-up [Native Class Roadmap RFC](https://github.com/emberjs/rfcs/pull/338) from the author of [RFC#240](https://emberjs.github.io/rfcs/0240-es-classes.html) has made its debut.
 It explains how several changes to the current API of `EmberObject`
+
 - including an [update](#toc_a-href-https-github-com-emberjs-rfcs-pull-337-native-class-constructor-update-a) to how the `constructor` method operates -
 will be necessary to make ES Classes true first-class citizens in the Ember ecosystem
 and how `EmberObject` can be safely deprecated in the further future.
