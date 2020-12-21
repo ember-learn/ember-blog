@@ -133,11 +133,11 @@ This release introduces `key-up` and `key-down` actions. For example:
 
 Ember.js 1.9 comes with several performance improvements.
 
-* The implementation of `_super` in Ember is fairly complex, and can
+- The implementation of `_super` in Ember is fairly complex, and can
 perform badly. Ember 1.9 uses a check against the string version of a
 function to determine if all parts of the implementation are needed, or
 if some work can be skipped.
-* Additional improvements to the performance of `Ember.Map` have been made.
+- Additional improvements to the performance of `Ember.Map` have been made.
 
 Thanks to [@stefanpenner](https://twitter.com/stefanpenner) for his continued
 efforts on performance tuning.
@@ -236,10 +236,10 @@ on the [forum](http://discuss.emberjs.com/) or `#ember-dev` IRC chatroom.
 Block parameters are a new feature introduced with 1.10. They address
 two problems in Ember:
 
-* The non-context switching version of `{{#each}}` and `{{#with}}` are inconsistent.
+- The non-context switching version of `{{#each}}` and `{{#with}}` are inconsistent.
   `{{#each car in cars}}` and `{{#with model as car}}` have similar meaning but
   different syntaxes.
-* Ember's components are strictly encapsulated. Values are explicitly passed
+- Ember's components are strictly encapsulated. Values are explicitly passed
   in, and only actions are emitted from components. The inability to pass values
   makes composition of components difficult.
 
@@ -288,18 +288,18 @@ Many thanks to [@\_mmun](https://twitter.com/_mmun) for the implementation of th
 
 A release of Ember.js consists of three files:
 
-* `ember.prod.js` - an un-minified production build (no asserts)
-* `ember.min.js` - a minified production build
-* `ember.js` - a development build (with asserts)
+- `ember.prod.js` - an un-minified production build (no asserts)
+- `ember.min.js` - a minified production build
+- `ember.js` - a development build (with asserts)
 
 The non-production build of Ember will not perform as well as the
 production build. To ensure there is no confusion about using the
 `ember.js` build in production, Ember.js 1.10 and later will use a
 new filename:
 
-* `ember.prod.js` - an un-minified production build (no asserts)
-* `ember.min.js` - a minified production build
-* `ember.debug.js` - a development build (with asserts)
+- `ember.prod.js` - an un-minified production build (no asserts)
+- `ember.min.js` - a minified production build
+- `ember.debug.js` - a development build (with asserts)
 
 An `ember.js` file will continue to be provided with a deprecation warning.
 
@@ -307,7 +307,7 @@ An `ember.js` file will continue to be provided with a deprecation warning.
 
 The following deprecations are scheduled for release with Ember.js 1.10:
 
-* Setting the `childViews` property on a view definition will be deprecated in
+- Setting the `childViews` property on a view definition will be deprecated in
   1.10. For example:
 
 ```js
@@ -336,12 +336,12 @@ export default Ember.ContainerView.extend({
 });
 ```
 
-* The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
+- The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
   are rarely used, but introduce significant overhead to the observer system
   in general. For observer use that requires the previous value of a property
   be known, implementing a cache is simple and more efficient. Read more about
   how to do this in [the deprecations page](http://emberjs.com/deprecations/v1.x#toc_deprecate-beforeobservers).
-* Quote-less outlet names are deprecated in 1.10. An example of this is
+- Quote-less outlet names are deprecated in 1.10. An example of this is
   `{{outlet modal}}`, which would be re-written as `{{outlet "modal"}}`.
   This ensures the outlet helper is consistent with others, where unquoted
   words are values and not string literals.
@@ -351,5 +351,5 @@ may be added to the 1.10 release.
 
 ## Changelogs
 
-+ [Ember.js 1.9.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.9.0/CHANGELOG.md)
-+ [Ember.js 1.10.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.10.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.9.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.9.0/CHANGELOG.md)
+- [Ember.js 1.10.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.10.0-beta.1/CHANGELOG.md)

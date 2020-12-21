@@ -133,9 +133,9 @@ Looking for some more Ember content to watch? The first batch of EmberCamp 2018 
 
 We especially enjoyed [@toranb](https://github.com/toranb)'s talk [Fast Feedback, Forward Progress](https://www.youtube.com/watch?v=wX8PxE0BVjI&list=PL4eq2DPpyBbm-vTgHMdBjUi1Qd5GiRIfW&index=4) where he talks about ways to **work smarter, not harder** as developers. He shares ways to choose productivity with a few stories in Ember.
 
-* Test driven development: Choose a feedback loop designed for experimentation and learning
-* Hot reloading: Choose a feedback loop designed with layout in mind
-* User experience: Choose a feedback loop your customers will love
+- Test driven development: Choose a feedback loop designed for experimentation and learning
+- Hot reloading: Choose a feedback loop designed with layout in mind
+- User experience: Choose a feedback loop your customers will love
 
 Stay tuned for future announcements by following [@embercamp](https://twitter.com/embercamp) on Twitter. And **save the date**, EmberCamp Chicago 2019 will be on August 23rd.
 

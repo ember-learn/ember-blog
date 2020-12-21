@@ -33,13 +33,13 @@ abandoning existing codebases.
 
 Some of the immediate benefits of this refactor are:
 
-* The removal of recursion from the rendering layer. This decreases garbage
+- The removal of recursion from the rendering layer. This decreases garbage
 collection pressure during rendering and allows the re-use of objects during
 render (for example, the render buffer).
-* Improved HTML namespace and contextual element tracking. This introduces
+- Improved HTML namespace and contextual element tracking. This introduces
 support for components, data-binding, and logic within inline SVG documents.
 [Example JSBin](http://jsbin.com/woxes/8/)
-* Prior versions of Ember.js relied upon script tags to mark
+- Prior versions of Ember.js relied upon script tags to mark
 regions of data bound content. For example a simple template of `{{name}}`
 might be rendered into the page as:
 
@@ -67,13 +67,13 @@ test their applications on 1.8 beta. Delivering this update without breaking
 Ember.js 1.8 comes with several performance improvements in other parts of the
 codebase.
 
-* Ember.js APIs often require the use of a string to lookup a class or route.
+- Ember.js APIs often require the use of a string to lookup a class or route.
 Often these strings must be passed through a normalization step before they are
 used, such as pluralizing, singularizing, or changing snake\_case to camelCase.
 1.8 introduces several caches for these operations, resulting in common
 operations being performed far fewer times.
-* The refactoring of commonly de-optimized functions in v8 and other browsers.
-* The conversion of `MANDATORY_SETTER` from a runtime flag into a build-time
+- The refactoring of commonly de-optimized functions in v8 and other browsers.
+- The conversion of `MANDATORY_SETTER` from a runtime flag into a build-time
 feature flag. This allows relevant code paths in `get` and `set` to be slimmer
 in production builds.
 
@@ -91,24 +91,24 @@ from old APIs.
 
 Four notable deprecations are added with the release of 1.8.
 
-* `Ember.Set` is a class for managing an unordered collection of objects ([api
+- `Ember.Set` is a class for managing an unordered collection of objects ([api
 docs](http://emberjs.com/api/classes/Ember.Set.html)). It is a private API and
 thus subject to change, however several libraries have chosen to use it despite
 this. Since the addition of this API to Ember, the ES6 draft has matured in its
 description of a native JavaScript Set class. `Ember.Set` is not compatible
 with the upcoming API, and is now deprecated.
-* In an effort to more closely align `Ember.Map` with ES6, the `remove` method
+- In an effort to more closely align `Ember.Map` with ES6, the `remove` method
 has been deprecated in favor of `delete`.
-* The `currentWhen` property on links is deprecated in favor of `current-when`.
+- The `currentWhen` property on links is deprecated in favor of `current-when`.
 This property name more closely tracks how component properties will be used in the
 future.
-* Old versions of Ember.js, the guides, and the API documentation suggested
+- Old versions of Ember.js, the guides, and the API documentation suggested
 looking up views as globals. For example `{{view App.SomeView}}`. In
 Ember.js 1.8 this style of view lookup is deprecated in favor of using a
 string, similar to how other class lookups behave in Ember. [See
 this page](http://emberjs.com/deprecations/v1.x#toc_global-lookup-of-views)
 for details about transitioning away from global view lookups.
-* URLs containing a hash and no `/`, such as `/foo#bar` are handled by the
+- URLs containing a hash and no `/`, such as `/foo#bar` are handled by the
 router's `hash` location handler. When using the `auto` location handler, the
 presence of `#` will cause the `hash` handler to be chosen over the `history`
 handlers, despite the lack of a leading `/` in the path (for example `/foo#/bar`.
@@ -126,22 +126,22 @@ deprecations).
 In this release there are several small breaking changes that may impact your
 application.
 
-* `didInsertElement` is now always called on a child view before it is called
+- `didInsertElement` is now always called on a child view before it is called
 on a rendering parent view. In previous releases of Ember.js `didInsertElement`
 would often be called first on a parent view, however this behavior was
 inconsistent. In general, developers are encouraged
 to consider scheduling work into the `afterRender` queue if it includes
 accessing DOM not immediately under that view's control.
-* Actions defined directly on the controller object
+- Actions defined directly on the controller object
 and not in the `actions:` hash have been deprecated since Ember.js 1.0. In
 Ember.js 1.8 support for those actions has been removed.
-* `Ember.Map` has been tweaked to more closely match the ES6 spec for `Map`. The
+- `Ember.Map` has been tweaked to more closely match the ES6 spec for `Map`. The
 `forEach` callback now takes `value,key,map` as arguments. Previously it was passed
 `key,value`. This API is private, but several libraries have chosen to use it
 despite this. Ember-Data now includes [a polyfill](https://github.com/emberjs/data/blob/master/packages/ember-data/lib/system/map.js). `Ember.OrderedSet`, a super class of `Ember.Map`, has
 also had minor ES6 cleanups applied.
 to allow consistent usage across the pre-1.8 and 1.8 API.
-* Ember.js has long had an run-time flag called `MANDATORY_SETTER`. With this
+- Ember.js has long had an run-time flag called `MANDATORY_SETTER`. With this
 flag enabled, attempts to set an observed object property without the use of
 `Ember.set()` would throw an error (a desirable behavior for development
 builds). This runtime flag has been changed to a
@@ -157,16 +157,16 @@ week for six weeks, then promoted to release.
 
 In Ember.js 1.9 several new features and changes will be introduced.
 
-* "Streams" are a new Ember.js internal that replace bindings at the lowest
+- "Streams" are a new Ember.js internal that replace bindings at the lowest
 level of the Ember rendering pipeline. They greatly simplify the implementation
 of template helpers and are yet another important step toward the landing of
 HTMLBars.
-* Handlebars 2.0 will be required for Ember.js 1.9. See [this summary
+- Handlebars 2.0 will be required for Ember.js 1.9. See [this summary
 of the transition](http://emberjs.com/blog/2014/10/16/handlebars-update.html)
 for more details.
-* Further performance improvements and bugfixes.
+- Further performance improvements and bugfixes.
 
 ## Changelogs
 
-+ [Ember.js 1.8.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.8.0/CHANGELOG.md)
-+ [Ember.js 1.9.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.9.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.8.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.8.0/CHANGELOG.md)
+- [Ember.js 1.9.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.9.0-beta.1/CHANGELOG.md)

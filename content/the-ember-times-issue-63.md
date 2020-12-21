@@ -37,9 +37,9 @@ The Ember Data team is looking for community help to bring RecordData to a stabl
 
 Community action items:
 
-* Once [3.5.0-beta.2](https://github.com/emberjs/data/pull/5616) is released, configure your apps/addons to test against this version!
-* Report errors encountered, and help triage/replicate as much as possible.
-* Help refactor existing addons to utilize RecordData instead of likely-removed intimate APIs. For a good starter list, see Ember Data's [external-partner tests](https://github.com/emberjs/data/blob/master/.travis.yml#L87-L103).
+- Once [3.5.0-beta.2](https://github.com/emberjs/data/pull/5616) is released, configure your apps/addons to test against this version!
+- Report errors encountered, and help triage/replicate as much as possible.
+- Help refactor existing addons to utilize RecordData instead of likely-removed intimate APIs. For a good starter list, see Ember Data's [external-partner tests](https://github.com/emberjs/data/blob/master/.travis.yml#L87-L103).
 
 ---
 
@@ -48,10 +48,10 @@ Community action items:
 
 The benefit of this being that this gives the Ember Community an opportunity to bring our documentation and marketing up-to-date to reflect the improvements we’ve made since the previous edition. According to the RFC, the right time to declare a new edition is when:
 
-* A significant, coherent set of new features and APIs have all landed in the stable channel.
-* Error messages and the developer ergonomics of those new features have been fully polished.
-* Tooling (the Ember Inspector, blueprints, codemods, etc.) has been updated to work with these new features.
-* API documentation, guides, tutorials, and example code has been updated to incorporate the new features.
+- A significant, coherent set of new features and APIs have all landed in the stable channel.
+- Error messages and the developer ergonomics of those new features have been fully polished.
+- Tooling (the Ember Inspector, blueprints, codemods, etc.) has been updated to work with these new features.
+- API documentation, guides, tutorials, and example code has been updated to incorporate the new features.
 
 Make sure to [read the entire RFC](https://github.com/emberjs/rfcs/blob/9c7fe3f4e947b5f79050214334a98673494c25d7/text/0000-editions.md) and [leave a comment with your thoughts](https://github.com/emberjs/rfcs/pull/371).
 

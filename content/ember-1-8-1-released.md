@@ -46,8 +46,8 @@ in a number of modules, and we have expanded our work around for more modules in
 
 Further Reading:
 
-* https://bugs.webkit.org/show_bug.cgi?id=138038
-* https://github.com/emberjs/ember.js/issues/5606
+- https://bugs.webkit.org/show_bug.cgi?id=138038
+- https://github.com/emberjs/ember.js/issues/5606
 
 ### Support rendering of null-prototype objects
 
@@ -98,5 +98,5 @@ progress [here](https://code.google.com/p/chromium/issues/detail?id=428313).
 
 ## Changelogs
 
-+ [Ember.js 1.8.0 to 1.8.1 commit log](https://github.com/emberjs/ember.js/compare/v1.8.0...stable)
-+ [Ember.js 1.8.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.8.1/CHANGELOG.md)
+- [Ember.js 1.8.0 to 1.8.1 commit log](https://github.com/emberjs/ember.js/compare/v1.8.0...stable)
+- [Ember.js 1.8.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.8.1/CHANGELOG.md)

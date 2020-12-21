@@ -58,12 +58,12 @@ into two phases:
 
 **Phase 1** is completed in 2.15.0.
 
-* Implement a public service named `'router'`.
-* Expose the `currentRouteName`,
+- Implement a public service named `'router'`.
+- Expose the `currentRouteName`,
   `currentURL`, `location`, and `rootURL` on the service.
-* Additionally expose
+- Additionally expose
   `transitionTo` and `replaceWith` as methods on the service.
-* Provide the method `urlFor` to the service for generating URLs based on a
+- Provide the method `urlFor` to the service for generating URLs based on a
   route name and models.
 
 An example of this API would be to transition to another route from a
@@ -93,9 +93,9 @@ documentation](https://www.emberjs.com/api/ember/2.15/classes/RouterService).
 **Phase 2** is pending implementation of the new public `RouteInfo` API. It is
 not included in Ember 2.15.0.
 
-* Expand the service with the methods `isActive`, `recognize`, and
+- Expand the service with the methods `isActive`, `recognize`, and
   `recognizeAndLoad`.
-* Deprecate the `willTransition` and `didTransition` router hooks (not the
+- Deprecate the `willTransition` and `didTransition` router hooks (not the
   route actions of the same name). Replace them with events emitted by the
   router service which have improved timing and public API arguments:
   `routeWillChange` and `routeDidChange`.
@@ -137,13 +137,13 @@ And in an engine access those values on the `model` property:
 
 Other changes include:
 
-* Ember 2.15.0 blueprints will no longer generate names for initializers and
+- Ember 2.15.0 blueprints will no longer generate names for initializers and
   instance initializers.
-* The deprecated API `_lookupFactory` has been removed in this release. See
+- The deprecated API `_lookupFactory` has been removed in this release. See
   the [deprecation
   guide](https://www.emberjs.com/deprecations/v2.x/#toc_migrating-from-_lookupfactory-to-factoryfor)
   for details about moving away from this API.
-* The Glimmer-VM rendering engine has been updated in this release, matching
+- The Glimmer-VM rendering engine has been updated in this release, matching
   Ember's rendering engine to that of the Glimmer.js library at its EmberConf
   release. Included are VM improvement such as the "stack VM", improved
   assertion stripping in production builds, and a more complete Glimmer-VM
@@ -198,9 +198,9 @@ To help us test the migration path, existing applications can move to adopt
 the new import style immediately. Using 2.16-beta of Ember is suggested, but
 not actually required. To update an application:
 
-* Upgrade ember-cli-babel to v6.8.0 or greater. This may require you to upgrade
+- Upgrade ember-cli-babel to v6.8.0 or greater. This may require you to upgrade
   ember-cli generally depending on your current version.
-* Install and run the
+- Install and run the
   [ember-modules-codemod](https://github.com/ember-cli/ember-modules-codemod).
   This command will migrate legacy code that imports the `'ember'` package to
   the new modules, updating files in place.
@@ -226,16 +226,16 @@ package provides a linting rule that can remove usage of the legacy modules
 provided by ember-cli-shims.
 To run this follow these steps:
 
-* Install eslint-plugin-ember v4.3.0 or greater as a dev dependency for your
+- Install eslint-plugin-ember v4.3.0 or greater as a dev dependency for your
   application.
-* Follow the eslint-plugin-ember
+- Follow the eslint-plugin-ember
   [usage instructions](https://github.com/ember-cli/eslint-plugin-ember#-usage)
   and update your `.eslintrc.js` appropriately.
   For more detailed instructions, see this excellent blog post:
   [How To Use Ember’s New Module Import Syntax Today](https://medium.com/@Dhaulagiri/embers-javascript-modules-api-b4483782f329)
-* Run `./node_modules/.bin/eslint --fix` to convert ember-cli-shims module usage to plain `'ember'`
+- Run `./node_modules/.bin/eslint --fix` to convert ember-cli-shims module usage to plain `'ember'`
   imports.
-* Run the ember-modules-codemod as described above.
+- Run the ember-modules-codemod as described above.
 
 By trying these migration steps on your applications, you can provide valuable
 feeback to improve the final process announced with 2.16.
@@ -245,9 +245,9 @@ feeback to improve the final process announced with 2.16.
 To prepare your addons for Ember 2.16, we encourage you to take the following
 steps during the beta cycle:
 
-* Upgrade your ember-cli-babel dependency to v6.8.0. This will permit your addon
+- Upgrade your ember-cli-babel dependency to v6.8.0. This will permit your addon
   to use the new modules in the `addon/` and `test/` directories.
-* Ensure the `app/` and `test-support/` directories (both part of the dependent
+- Ensure the `app/` and `test-support/` directories (both part of the dependent
   app's build) contain only re-exports.
 
 This will ensure applications have a path forward in 2.16 to drop
@@ -260,7 +260,7 @@ Community Slack](https://embercommunity.slack.com/messages/C045BNHAP/).
 
 One new deprecation is introduced in Ember.js 2.16-beta:
 
-* For historical reasons, Ember controllers have a private property `content`
+- For historical reasons, Ember controllers have a private property `content`
   that aliases the `model` property. Relying on this legacy behavior is
   deprecated and will be unsupported in Ember 2.17. See the
   [deprecation guide](https://www.emberjs.com/deprecations/v2.x/#toc_controller-content-alias)

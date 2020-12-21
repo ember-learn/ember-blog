@@ -234,20 +234,20 @@ land in Ember.js 1.13.
 
 The following deprecations are scheduled for release with Ember.js 1.11:
 
-* The `ObjectController` will be removed in Ember 2.0. In Ember 1.11,
+- The `ObjectController` will be removed in Ember 2.0. In Ember 1.11,
   both explicitly using an `ObjectController` and using the proxying behavior
   of a generated `ObjectController` will raise deprecation warnings. See the
   [deprecation guide](/guides/deprecations#toc_objectcontroller) for more details.
-* Initializing instances (via `container.lookup`) in initializers is deprecated. For
+- Initializing instances (via `container.lookup`) in initializers is deprecated. For
   initialization that requires instances Ember has introduced "instance initializers". See
   the [deprecation guide](/guides/deprecations#toc_access-to-instances-in-initializers)
   for more information, as well as this [documentation PR](https://github.com/emberjs/website/pull/1951)
   and [the implementation PR](https://github.com/emberjs/ember.js/pull/10256).
-* Not a deprecation, but related: The `{{bind}}` template helper was a private
+- Not a deprecation, but related: The `{{bind}}` template helper was a private
   helper, and has been deprecated
   since Ember 1.10. It has been removed in Ember.js 1.11.
 
 ## Changelogs
 
-+ [Ember.js 1.11.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.11.0/CHANGELOG.md)
-+ [Ember.js 1.12.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.12.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.11.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.11.0/CHANGELOG.md)
+- [Ember.js 1.12.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.12.0-beta.1/CHANGELOG.md)

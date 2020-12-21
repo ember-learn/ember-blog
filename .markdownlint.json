@@ -7,7 +7,6 @@
   "no-trailing-punctuation": false,
   "no-trailing-spaces": false,
   "no-multiple-blanks": false,
-  "MD004": false,
   "MD005": false,
   "MD007": false,
   "MD010": false,

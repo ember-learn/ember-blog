@@ -236,20 +236,20 @@ removal in a later major release (such as 2.0). The
 [deprecations page](/deprecations/) summarizes
 deprecations and demonstrates how to update to a new API.
 
-* The explicit `{{bind}}` helper has been deprecated. This helper has
+- The explicit `{{bind}}` helper has been deprecated. This helper has
   long been marked private, and was a legacy Sproutcore
   feature. This helper will be removed in Ember 1.11.
-* Quote-less outlet names are deprecated in 1.10. An example of this is
+- Quote-less outlet names are deprecated in 1.10. An example of this is
   `{{outlet modal}}`, which should be re-written as `{{outlet "modal"}}`.
   This ensures the outlet helper is consistent with others, where unquoted
   words are values and not string literals.
-* The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
+- The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
   are rarely used, but introduce significant overhead to the observer system
   in general. For observer use that requires the previous value of a property
   be known, implementing a cache is simple and more efficient. Read more about
   how to do this on [the deprecations page](/deprecations/v1.x#toc_deprecate-beforeobservers).
-* Observing the `childViews` array of a `ContainerView` is deprecated.
-* Setting the `childViews` property on a view definition is deprecated in
+- Observing the `childViews` array of a `ContainerView` is deprecated.
+- Setting the `childViews` property on a view definition is deprecated in
   1.10. For example:
 
 ```js
@@ -421,7 +421,7 @@ this new feature.
 
 The following deprecations are scheduled for release with Ember.js 1.11:
 
-* The `ObjectController` will be removed in Ember 2.0. In Ember 1.11,
+- The `ObjectController` will be removed in Ember 2.0. In Ember 1.11,
   both explicitly using an `ObjectController` and using the proxying behavior
   of a generated `ObjectController` will raise deprecation warnings.
 
@@ -430,8 +430,8 @@ may be added to the 1.11 release.
 
 ## Changelogs
 
-+ [Ember.js 1.10.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.10.0/CHANGELOG.md)
-+ [Ember.js 1.11.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.11.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.10.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.10.0/CHANGELOG.md)
+- [Ember.js 1.11.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.11.0-beta.1/CHANGELOG.md)
 
 *Using Ember? Please take ten minutes to share your
 feedback by participating in the [2015 Ember Community Survey](http://goo.gl/forms/6yIsF3TNsQ). Open
