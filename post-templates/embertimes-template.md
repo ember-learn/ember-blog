@@ -14,7 +14,62 @@ tags:
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [1. Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [2. Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [3. Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [4. Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [5. Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add blurb and emoji to "SOME-INTRO-HERE">
+
+---
+
+## [6. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -36,7 +91,7 @@ tags:
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
+## [7. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -47,62 +102,7 @@ tags:
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
+## [8. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>

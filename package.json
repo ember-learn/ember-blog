@@ -13,10 +13,10 @@
   "scripts": {
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
-    "lint:alex": "alex content/**/*.md",
+    "lint:alex": "alex {content,post-templates}/**/*.md",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
-    "lint:md": "markdownlint content/**/*.md",
+    "lint:md": "markdownlint {content,post-templates}/**/*.md",
     "start": "ember serve",
     "test": "ember test"
   },
