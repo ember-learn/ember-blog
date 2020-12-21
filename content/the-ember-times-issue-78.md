@@ -31,7 +31,7 @@ you can now more easily keep up with the changes being made as well! When
 you open a new version of Ember Inspector, you'll now be shown an info tab
 with all the changes since the last version.
 
-![](https://imgur.com/BiqsmqV.png)
+![A screenshot of Ember Inspector](https://imgur.com/BiqsmqV.png)
 
 We also did a few third party library swaps and updates,
 most notably switching from [ember-pikaday](https://github.com/adopted-ember-addons/ember-pikaday) to
