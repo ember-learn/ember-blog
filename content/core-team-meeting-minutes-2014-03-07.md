@@ -37,7 +37,7 @@ core team member and let them know!
     Should query paramters remain on route change? When do we want it? All the time?
     How do we disable it? Proposals thus far:
 
-    ```
+    ```text
     /r?sort=asc ← keep
     /r/ios?sort=hot ← keep? “model specific state”
     /r/gonewild ← keep? “model specific state”
@@ -46,7 +46,7 @@ core team member and let them know!
 
     or
 
-    ```
+    ```text
     /blog/somepost?comments=true
     then navigate to
     /blog/someOtherPost?comments=true ← keep?
@@ -57,7 +57,7 @@ core team member and let them know!
 
     Possible opt-out via helper?
 
-    ```
+    ```handlebars
     {{link-to ‘Home’ ‘home’ (query-params sort=null)}}
     ```
 

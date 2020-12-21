@@ -82,7 +82,7 @@ There are a few free and paid options out there, but for simplicity, let's use [
 
 Open up your `config/environment.js` and add this:
 
-```
+```javascript
 'mapbox-gl': {
   accessToken: 'ACCESS TOKEN HERE',
   map: {

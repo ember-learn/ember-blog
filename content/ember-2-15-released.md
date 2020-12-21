@@ -301,20 +301,20 @@ There is a new experimental tool for Ember CLI upgrades called
 [ember-cli-update](https://github.com/kellyselden/ember-cli-update.git).
 To use it, run this command to install it globally:
 
-```
+```bash
 npm install -g ember-cli-update
 ```
 
 Then run:
 
-```
+```bash
 ember-cli-update
 ```
 
 It runs your system git merge tool if it finds a conflict. This can be pretty
 overwhelming for beginners, so you can run
 
-```
+```bash
 ember-cli-update --ignore-conflicts
 ```
 
@@ -323,13 +323,13 @@ to handle the conflicts yourself.
 If this new tool is giving you problems, you can still upgrade your projects
 manually. To upgrade your projects using `yarn` run:
 
-```
+```bash
 yarn upgrade ember-cli
 ```
 
 To upgrade your projects using `npm` run:
 
-```
+```bash
 npm install --save-dev ember-cli
 ```
 

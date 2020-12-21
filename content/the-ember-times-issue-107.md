@@ -59,7 +59,7 @@ If you're already an avid user of Ember Auto Import (or plan to become one), be 
 
 If you want to opt-in to these Node polyfills using Ember Auto Import, you can [configure them accordingly](https://github.com/ef4/ember-auto-import/issues/224#issuecomment-503400386) via the `autoImport` options in your `ember-cli-build.js`:
 
-```
+```javascript
 // ember-cli-build.js
 let app = new EmberApp(defaults, {
   autoImport: {

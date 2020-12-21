@@ -189,13 +189,13 @@ applications.
 You may upgrade Ember CLI separately from Ember.js and Ember Data. To upgrade
 your projects using `yarn` run:
 
-```
+```bash
 yarn upgrade ember-cli
 ```
 
 To upgrade your projects using `npm` run:
 
-```
+```bash
 npm install --save-dev ember-cli
 ```
 
@@ -223,7 +223,7 @@ For example to generate an [`ember-cli-deploy`](http://ember-cli-deploy.com/)
 plugin use the `@ember-cli-deploy/plugin-blueprint` package ([repo on
 GitHub](https://github.com/ember-cli-deploy/plugin-blueprint)):
 
-```
+```bash
 ember new my-new-deploy-plugin -b @ember-cli-deploy/plugin-blueprint
 ```
 

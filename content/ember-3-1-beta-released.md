@@ -149,7 +149,7 @@ Ember applications have long created a wrapping `div` around their rendered
 content: `<div class="ember-view">`. With ember-optional-features, this
 functionality can now be disabled:
 
-```
+```bash
 ember feature:disable application-template-wrapper
 ```
 

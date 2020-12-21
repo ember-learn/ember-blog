@@ -185,13 +185,13 @@ applications.
 You may upgrade Ember CLI separately from Ember.js and Ember Data! To upgrade
 your projects using `yarn` run:
 
-```
+```bash
 yarn upgrade ember-cli
 ```
 
 To upgrade your projects using `npm` run:
 
-```
+```bash
 npm install --save-dev ember-cli
 ```
 
@@ -233,7 +233,7 @@ Babel 6 support has been added to Ember CLI internally and is now used by defaul
 Due to the way that Ember CLI handles transpilation this transition can be done gradually by updating each addon to utilize newer versions of
 [ember-cli-babel](https://github.com/babel/ember-cli-babel). Updating your application to start using Babel 6 for its own transpilation is as simple as:
 
-```sh
+```bash
 # if using yarn:
 yarn upgrade ember-cli-babel@6
 
@@ -261,7 +261,7 @@ ergonomics to generate non-Ember applications. Common examples of this are:
 
 These can be used as simply as:
 
-```
+```bash
 npm install -g ember-cli@2.14.0-beta.1
 ember new ember-cli-deploy-hello -b @ember-cli-deploy/plugin-blueprint
 ```

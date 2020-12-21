@@ -81,7 +81,7 @@ core team member and let them know!
   
   Example log entries:
   
-  ```
+  ```bash
   [ ] route:application ..........................................  App.ApplicationRoute
   [✓] route:index ................................................  App.IndexRoute
   [ ] controller:application .....................................  App.ApplicationController

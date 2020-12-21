@@ -86,7 +86,7 @@ A `LOG_RESOLVER` flag can now be added to your application instance to get nice 
 showing each lookup the resolver is doing, including which were "hits" and which were "misses"
 (checked items are "hits"):
 
-```
+```bash
 [ ] route:application ..........................................  App.ApplicationRoute
 [✓] route:index ................................................  App.IndexRoute
 [ ] controller:application .....................................  App.ApplicationController
@@ -98,7 +98,7 @@ Previously the following code would bind `this` in the template block to the
 itemController's content (even though the keyword form of `{{each}}` or `{{with}}` is used). In 1.6.0
 the context of the  block will correctly be unchanged, and the `post` property will be wrapped in the `post` controller.
 
-```
+```handlebars
 {{#each post in posts itemController='post'}}
   {{this}} - Should be the surrounding context, NOT changed to that of the itemController.
 {{/each}}
