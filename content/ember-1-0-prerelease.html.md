@@ -1,14 +1,12 @@
 ---
-title: ''
-authors: []
-date: 2012-08-03T00:00:00.000Z
-tags: []
----
---- 
 title: Ember 1.0 Prerelease
-author: Peter Wagenet
-tags: Releases, Version 1.x, Prerelease, 2012, Router
-responsive: true
+authors:
+  - peter-wagenet
+date: 2012-08-03T00:00:00.000Z
+tags:
+  - releases
+  - '2012'
+  - version-1-x
 ---
 
 We're pleased to announce the Ember 1.0 Prerelease. It's been a couple
