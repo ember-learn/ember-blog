@@ -53,6 +53,7 @@ Read and comment on the [Decorator Support RFC](https://github.com/emberjs/rfcs/
 ---
 
 ## [Let's Fully Deprecate Partials! 🥛](https://github.com/emberjs/rfcs/pull/449)
+
 **Partials** in Ember have been around for quite some time. Today however, they are considered bad practice and all of their functionality **can be replaced** with Components. There is an [Ember Template Lint rule](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-partial.md) against their use. There was a [Pre-RFC](https://github.com/emberjs/rfcs/issues/390) created a while ago that recommended deprecating partials. Today we finally have a full RFC to [Deprecate Partials](https://github.com/emberjs/rfcs/pull/449) written up by [@GavinJoyce](https://github.com/GavinJoyce). If you want to learn more about the deprecation or maybe the alternatives to partials [check out the RFC](https://github.com/gavinjoyce/rfcs/blob/gj/deprecate-partials/text/0000-template.md). Also be sure to chime in and voice your concerns or add a 👍🎉 to the [RFC itself](https://github.com/emberjs/rfcs/pull/449).
 
 ---

@@ -46,6 +46,7 @@ core team member and let them know!
 
 
 ### HTMLBars
+
 Most of this weeks discussion focused on our largest ongoing project: HTMLBars.
 We're hoping HTMLBars is on track to make it into the 1.9 or 1.10 beta series.
 

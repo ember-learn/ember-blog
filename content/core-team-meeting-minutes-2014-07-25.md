@@ -44,22 +44,26 @@ core team member and let them know!
 [@wycats](https://twitter.com/wycats)
 
 ### Face to Face July 2014
+
 Last week the core team (and those on path to core) met in New York City for
 our periodic face to face meeting. Tom and Yehuda will be posting notes from
 that meeting in the coming weeks. Thank you to our friends at [Pivotal
 Labs](http://pivotallabs.com/) for hosting us in their awesome new office.
 
 ### Built With Ember
+
 A few months ago we [began tracking](https://docs.google.com/document/d/1ZWYq3gwkPTzUiyqr4x_asSj8wIgfvg8XyLmU3Yx_FPE/edit) some of the ambitious apps made
 with Ember.js. The folks at [Blimp](http://www.getblimp.com/) have turned that
 document into a curated list of awesome Ember.js applications. [Check it
 out](http://builtwithember.io/).
 
 ### ember-cli website
+
 `ember-cli`, our ES6 module-based build tool has a new site. [Give it a
 browse](http://www.ember-cli.com/)
 
 ### Modularizing Ember.js's Repository
+
 We've started moving more external dependencies out of the Ember.js repository
 and have begun work to turn some infrequently used parts of the framework into
 their own libraries. These will still be built into the `1.x` series of

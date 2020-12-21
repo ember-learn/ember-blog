@@ -41,6 +41,7 @@ This release also contains 5 deprecations for Ember, so if you plan on upgrading
 ---
 
 ## [RFC for Single-File Components & Template Import Primitives](https://github.com/emberjs/rfcs/pull/454) 🔬
+
 [@tomdale](https://github.com/tomdale) recently opened up an RFC to explore adding single-file components and module imports in component templates!
 
 The **SFC & Template Import Primitives RFC** proposes adding experimental low-level primitives for embedding templates in JavaScript and associating templates with component classes, two highly-requested features. 🎉

@@ -19,6 +19,7 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 [@ebryn](https://twitter.com/ebryn), [@krisselden](https://twitter.com/krisselden), [@machty](https://twitter.com/machty),
 [@rwjblue](https://twitter.com/rwjblue), [@wagenet](https://twitter.com/wagenet), [@tomdale](https://twitter.com/tomdale)
 

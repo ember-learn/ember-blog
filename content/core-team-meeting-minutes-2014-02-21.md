@@ -20,11 +20,14 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @tomdale, @trek, @wagenet, @wycats
 
 
 ### Topics
+
 #### Old Stack Overflow questions
+
 Last week we started the process of cleaning up old questions on Stack Overflow by
 collecting a list of questions and evaluating whether the question still made
 sense and, if so, whether selected answer was still the best available answer.
@@ -39,9 +42,11 @@ If you're looking to help, please [check out this document](https://docs.google.
 and give us feedback on some older Stack Overflow questions and answers!
 
 #### ES6ifying core
+
 This work continues [here](https://github.com/emberjs/ember.js/pull/4374).
 
 #### Features pending 'Go' decision.
+
 The core team reviewed the following pull requests for future inclusion in
 the 1.6.x beta series:
 

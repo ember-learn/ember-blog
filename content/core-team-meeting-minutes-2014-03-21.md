@@ -19,11 +19,13 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @rwjblue, @stefanpenner, @trek, @wycats, @wifelette
 
 ### Topics
 
 #### PRs/Issues To Review
+
 We reviewed the following PRs and Issues:
 
 *  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)

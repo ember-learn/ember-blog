@@ -70,6 +70,7 @@ Listen to the full [podcast]( https://emberweekend.com/episodes/empress-the-embe
 ---
 
 ## [Singleton Record Data RFC 💾](https://github.com/emberjs/rfcs/pull/461)
+
 Want to learn more about how some of Ember Data's APIs are developing? Take a peek at the Singleton Record Data RFC recently opened by [@runspired](https://github.com/runspired).
 
 This RFC focuses on ensuring that Record Data can be implemented as a singleton, eliminates some redundant APIs and simplifies method signatures. This plan for Record Data offers opportunities for **performance optimizations** ⚡️ and **improved feature sets**! ✨

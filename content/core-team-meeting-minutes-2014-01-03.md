@@ -19,9 +19,11 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @trek, @wagenet, @wycats
 
 ### Go/No-Go for 1.4
+
 It's that time in the [beta release cycle](/builds/#/beta) where the core team
 gives a "go" or "no-go" vote to feature-flagged beta functionality.
 

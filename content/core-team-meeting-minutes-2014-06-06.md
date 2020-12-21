@@ -41,6 +41,7 @@ core team member and let them know!
 [@tomdale](https://twitter.com/tomdale)
 
 ### Where have all the minutes gone, long time passing?
+
 Many people have reached out on twitter wondering where the meeting
 minutes for May have gone. We'd like to apologize: many of us were
 traveling, attending conferences, and/or handling cross-state moves during May.
@@ -48,6 +49,7 @@ Meetings have still been taking place, topics discussed, and advanced thought
 leadership generated, but attendance and note taking have been sporadic.
 
 ### Ember 1.6/1.7.beta Delayed
+
 We've been delaying the release of Ember 1.6 and the start of the 1.7.beta
 branch for a few weeks to address outstanding issues that have been reported
 and to ensure certain features make it into the 1.7.beta cycle.
@@ -55,6 +57,7 @@ and to ensure certain features make it into the 1.7.beta cycle.
 There are two main concerns:
 
 #### Module Performance Regression
+
 Despite what the anti-framework crowd might think, Ember.js was written from the
 start to be composed of many smaller, single purpose modules. Some of these are
 pulled in from external repositories and some are contained inside
@@ -80,6 +83,7 @@ able to output a build that does not require a loader for Ember.js internals. Ev
 should be sure to thank [Brian Donovan](https://twitter.com/eventualbuddha) and [Square](https://twitter.com/squareeng) for their amazing work on bringing ES6 modules to us today.
 
 #### Query Parameters
+
 When we released 1.0 we pledged to follow [Semantic Versioning](http://semver.org/) and not break public-facing API until 2.0. Because of this, we're hesitant to release extensions to Ember.js's
 public API until we feel confident supporting it for the foreseeable future. We've taken several stabs
 at adding query parameters to our router. People have been very happy with the [latest incarnation](/guides/routing/query-params/) available on canary builds, but there have been a few

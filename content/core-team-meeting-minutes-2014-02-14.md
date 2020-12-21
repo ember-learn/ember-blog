@@ -20,11 +20,14 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @trek, @wagenet, @wycats
 
 
 ### Topics
+
 #### ES6ifying core
+
 Last month we completed the migration of [ember-data](https://github.com/emberjs) to the ES6 module syntax. This lets us use [clearer dependency declarations](https://github.com/emberjs/data/blob/master/packages/ember-data/lib/serializers/rest_serializer.js#L5-L8), stay clear of module syntax battles (you can export to whichever module format best conforms to your deeply held beliefs on JavaScript modules), and continues our pattern of bringing future JavaScript features to you today.
 
 Work has started on the [porting Ember.js to ES6 module syntax as well!](https://github.com/emberjs/ember.js/commit/8c0a52cb10efbaede8e14cca24fa5c05bcf121ff).
@@ -35,6 +38,7 @@ Resolution: @rwjblue hands off the grunt work to @trek and @fivetanley so he's n
 
 
 #### Ghost.js Admin
+
 The fine folks at [Ghost](https://ghost.org/) have hit a complexity ceiling with their current admin interface (a mixed client/server rendering solution with Backbone tossed in). They're [discussing various solutions for a rewrite](https://github.com/TryGhost/Ghost/issues/2144) and Ember.js is among the options.
 
 The core team discussed devoting some time to helping the Ghost team evaluate Ember.js as a possible solution.
@@ -43,6 +47,7 @@ If you'd like to help or weigh in – especially if you're a current Ghost user 
 Resolution: @trek will devote some time to helping the Ghost team. Possibly on a small spike.
 
 #### Getting rid of old Stack Overflow questions/answers
+
 We frequently get comments about older Stack Overflow questions and answers. Answers
 related to pre-release versions of Ember have a high likelihood of no longer being valid.
 Stack Overflow has a policy of not deleting questions related to older versions of software,
@@ -64,6 +69,7 @@ We're working to do some form of cleanup for questions like these. The first ste
 Resolution: @trek will get this list created somehow.
 
 #### Features pending 'Go' decision.
+
 The core team reviewed the following pull requests for future inclusion in the 1.6.x beta series:
 
 *  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)

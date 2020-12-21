@@ -114,6 +114,7 @@ Try out [Embroider](https://github.com/embroider-build/embroider) today!
 ---
 
 ## [@action, on & fn blog post 🚀](https://www.pzuraq.com/ember-octane-update-action/)
+
 If you haven't been following the discussion on `@action`, `{{on}}`, and `{{fn}}`, this is the **blog post for you**!
 
 [@pzuraq](https://github.com/pzuraq) continues his wonderful series of blog posts with a new one that focuses on the evolution of `@action`, `{{on}}`, and `{{fn}}` in detail.

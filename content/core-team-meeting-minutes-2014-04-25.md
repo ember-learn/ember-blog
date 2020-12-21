@@ -44,6 +44,7 @@ core team member and let them know!
 ### Topics
 
 ### Build Tools Redux Progresss
+
 When Ember.js took its first tentative steps into the world there existed no
 ecosystem of build tools for ambitious applications in the browser. Instead,
 we needed to [build these tools](https://github.com/livingsocial/rake-pipeline)

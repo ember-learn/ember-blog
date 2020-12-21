@@ -43,6 +43,7 @@ core team member and let them know!
 [@wycats](https://twitter.com/wycats)
 
 ### Revamp the Getting Started Guide
+
 We're starting work to revamp
 our [Getting Started Guide](http://emberjs.com/guides/getting-started/).
 TodoMVC is just too small of an app to demonstrate enough topics. We were
@@ -55,6 +56,7 @@ nested view and data hierarchies, url-driven applications, intuitive
 query paramater behaviors.
 
 ### Deprecating global view lookup from templates
+
 As we move towards a world where ES6 syntax and modules
 become viable we continue to deprecate some "old style"
 globals lookup. The following uses will all trigger

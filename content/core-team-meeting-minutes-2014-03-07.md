@@ -20,6 +20,7 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @rwjblue, @stefanpenner, @tomdale, @trek, @wycats
 
 ### Topics

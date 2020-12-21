@@ -40,6 +40,7 @@ Look for this speedup soon in an Ember App near you!
 ---
 
 ## [Oh, No(de) He Didn't!](https://github.com/ef4/ember-auto-import)
+
 [Edward Faulkner](https://github.com/ef4) has just released version 1.0 of `ember-auto-import`. This addon allows you to add dependencies using NPM or Yarn with **zero configuration**. It can be used both in apps and addons and deduplicates correctly across all addons and the app itself.
 
 All you have to do is type `ember install ember-auto-import` and you’re ready to add whatever dependency you want to your project using NPM or yarn.

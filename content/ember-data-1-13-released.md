@@ -620,6 +620,7 @@ underlying implementation and will allow us to easily use methods like
 in the future.
 
 ### Using JSON API Error object format
+
 Similarly to the rest of Ember Data 1.13, we have refactored the error handling to use JSON API. JSON API has specified an
 [error objects](http://jsonapi.org/format/#error-objects)
 format. Starting with Ember Data 1.13 we are using JSON API format to

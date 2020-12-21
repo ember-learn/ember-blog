@@ -30,6 +30,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.6
+
 Ember.js 3.6 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There are 2 new features, 6 deprecations, and 13 bugfixes in this version.
 
 #### New Features (2)
@@ -199,10 +200,12 @@ To update your project you need to run the following steps:
 ### Changes in Ember CLI 3.6
 
 #### New Features (1)
+
 **Prevent double builds in CI (1 of 1)**
 Until version 3.6 the addon author (unless the addon was in an org) would always end up with two CI builds for every PR. One for the branch push and one for the PR update. This is now fixed in Ember CLI 3.6 (for TravisCI users).
 
 #### Deprecations (0)
+
 There's no deprecations in this version.
 
 ---

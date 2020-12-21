@@ -37,6 +37,7 @@ Also The Ember Times will notify you, as soon as the full recordings of the conf
 ---
 
 ## [Coming Soon in Ember Octane](https://blog.emberjs.com/2019/02/11/coming-soon-in-ember-octane-part-1.html)
+
 If you haven't seen them already, you won't want to miss the amazing 🎉 and in-depth **blog posts** 📖 that [@pzuraq](https://github.com/pzuraq) has been putting out covering many of the new features of **Ember Octane**!
 
 It's a five part series covering Native Classes and Decorators, Angle Brackets & Named Arguments, Tracked Properties, Element Modifiers and Glimmer Components, all broken out into separate blog posts.

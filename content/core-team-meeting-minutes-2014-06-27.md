@@ -42,4 +42,5 @@ core team member and let them know!
 [@wycats](https://twitter.com/wycats)
 
 ### 1.6 and 1.7.beta
+
 We're cutting these today and publishing.

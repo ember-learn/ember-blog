@@ -28,6 +28,7 @@ The 2018 Roadmap led to the ["Octane Edition" of Ember, currently in preview](ht
 To contribute a post: Tweet a link to the post with the hashtag #EmberJS2019 or email a link to roadmap@emberjs.com. These posts will be collected and categorized, and each one will be read by those working to draft the Roadmap RFC.
 
 ### _Format_
+
 Your post can be on any online writing platform, but we suggest:
 
 * A post on your personal or company blog

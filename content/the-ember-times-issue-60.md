@@ -25,6 +25,7 @@ This week's Ember Times is all about **cool web fonts** 😎, community **chat**
 ---
 
 ## [Taking Web Fonts to the Next Level 🔠](https://github.com/vitch/ember-cli-webfont)
+
 Do you like web fonts? Of course you do! Then it’s a good thing that `ember-cli-webfonts` just released version 1.0 🎉
 
 Now you can use the `webfonts-generator` to **easily generate web fonts** as part of your ember build process. By default the addon expects to find SVG files in `app/webfont-svg` but all of this can be customised alongside with class prefixes, base selectors, font names and much more.
