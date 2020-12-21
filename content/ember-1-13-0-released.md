@@ -298,11 +298,11 @@ for implementing this feature.
 In preparation for Ember 2.0, 1.13 introduces many deprecations. These include:
 
 - All view APIs in Ember. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-view)
-  - `Ember.CoreView`, `Ember.View`, `Ember.CollectionView`, `Ember.ContainerView`
-  - `{{view 'some-helper'}}`
-  - The `{{view}}` keyword for accessing properties on a view
-  - `Ember.Select` and `{{view "select"}}`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-select)
-  - `Ember.LinkView` in favor of `Ember.LinkComponent`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-linkview)
+    - `Ember.CoreView`, `Ember.View`, `Ember.CollectionView`, `Ember.ContainerView`
+    - `{{view 'some-helper'}}`
+    - The `{{view}}` keyword for accessing properties on a view
+    - `Ember.Select` and `{{view "select"}}`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-select)
+    - `Ember.LinkView` in favor of `Ember.LinkComponent`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-linkview)
 - Options to the `{{#each` helper that trigger a legacy and poorly performing
   legacy layer. These options are: `itemView`, `itemViewClass`, `tagName`, `emptyView` and `emptyViewClass`.
 - The `itemController` argument for `{{#each`.

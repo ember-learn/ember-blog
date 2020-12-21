@@ -34,13 +34,13 @@ On March 16—just in time for EmberConf!—[Ember 3.17 was officially announced
 Ember 3.17 introduced these changes:
 
 - Ember.js
-  - Significantly updated the Glimmer rendering engine
+    - Significantly updated the Glimmer rendering engine
 - Ember CLI
-  - Removed internal usage of `RSVP` in favor of native promises
-  - Removed `ember-cli-eslint` and `ember-cli-template-lint` in favor of `eslint` and `ember-template-lint`
-  - Ensured that `npm test` or `yarn test` fails when `lint:js` or `lint:hbs` fails
-  - Ensured that `npm test` or `yarn test` in an addon fails if `ember-try` scenarios fail
-  - Removed a number of older experiments (module unification and delayed transpilation)
+    - Removed internal usage of `RSVP` in favor of native promises
+    - Removed `ember-cli-eslint` and `ember-cli-template-lint` in favor of `eslint` and `ember-template-lint`
+    - Ensured that `npm test` or `yarn test` fails when `lint:js` or `lint:hbs` fails
+    - Ensured that `npm test` or `yarn test` in an addon fails if `ember-try` scenarios fail
+    - Removed a number of older experiments (module unification and delayed transpilation)
 
 To learn more about upgrading to Ember 3.17, please visit the [Ember Blog](https://blog.emberjs.com/2020/03/16/ember-3-17-released.html). We encourage you to help test 3.17 and 3.18 beta and report any bugs. Thank you!
 

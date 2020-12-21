@@ -55,7 +55,7 @@ Currently the Guides and API are not versioned, which increasingly leads to
 pain around new feature documentation. The plan is to beging publishing guides
 and API to a subdomains and version them:
 
-  * http://guides.emberjs.com/ (defaults to latest)
-  * http://guides.emberjs.com/1.8
-  * http://api.ember.js.com/ (defaults to latest)
-  * http://api.ember.js.com/1.8
+* http://guides.emberjs.com/ (defaults to latest)
+* http://guides.emberjs.com/1.8
+* http://api.ember.js.com/ (defaults to latest)
+* http://api.ember.js.com/1.8

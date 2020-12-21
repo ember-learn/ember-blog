@@ -48,13 +48,13 @@ related to pre-release versions of Ember have a high likelihood of no longer bei
 Stack Overflow has a policy of not deleting questions related to older versions of software,
 but we think pre-release software is exceptional for a few reasons:
     
-  * pre-release software is often undocumented and unfinished, leading people to use
+* pre-release software is often undocumented and unfinished, leading people to use
     Stack Overflow as a place to find answers at higher rates than for relased software
-  * people should not continue using pre-release software for long after an official
+* people should not continue using pre-release software for long after an official
     release, so there is little value in having those answers around for future reference
-  * good questions might have wildly different answers before and after a 1.0 release
+* good questions might have wildly different answers before and after a 1.0 release
     but there's no way for a new user to know
-  * some questions themselves will no longer make sense as features are added or removed
+* some questions themselves will no longer make sense as features are added or removed
 
 An example of a question that should be deleted is this [question related to Ember.Button](http://stackoverflow.com/questions/8672287/ember-js-how-to-use-em-button). Ember.Button has long been deprecated and removed. The pattern for actions has changed significantly since that question was asked in December 2011. However, someone wondering how to handle buttons in Ember who searches for "ember and buttons stackoverflow" will get this question as a top result.
 
@@ -66,25 +66,25 @@ Resolution: @trek will get this list created somehow.
 #### Features pending 'Go' decision.
 The core team reviewed the following pull requests for future inclusion in the 1.6.x beta series:
 
-  *  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
+*  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
     
       @stefanpenner and @tomdale still need to pow-wow on this.
 
       Resolution: @stefanpenner and @tomdale will speak.
 
-  *  `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
+*  `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
     @stefanpenner and @tomdale still need to pow-wow on this.
 
     Resolution: @stefanpenner and @tomdale will speak.
 
-  *  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
     
     @wycats and @machty continued discussion on lazy loading. Goal is to get it in during this beta cycle
   
     Resolution: @machty & @stefanpenner have a man-date to discuss lazy loading.
 
-  *  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
+*  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
   
   Still blocked on [computed.literal](https://github.com/emberjs/ember.js/pull/4185)
 
@@ -92,21 +92,21 @@ The core team reviewed the following pull requests for future inclusion in the 1
   Resolution: The original behavior wasn't intended. Changing now might be breaking change
   in some people's apps. We'll put it through a multi-cycle deprecation/removal path.
 
-  *  `ember-metal-computed-empty-array` [#4219](https://github.com/emberjs/ember.js/pull/4219)
+*  `ember-metal-computed-empty-array` [#4219](https://github.com/emberjs/ember.js/pull/4219)
 
   Resolution: "Go". Upgrade to a Bugfix is it doesn't require a flag.
 
-  *  `ember-runtime-test-friendly-promises` [#4176](https://github.com/emberjs/ember.js/pull/4176)
+*  `ember-runtime-test-friendly-promises` [#4176](https://github.com/emberjs/ember.js/pull/4176)
 
   Resolution: Peter will try in [Skylight](https://www.skylight.io/)'s tests and
   offer feedback
 
-  *  `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
+*  `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
 
   Resolution: Already conceptually a "Go". @machty will make nestable routes in the next week or so so this can be merged.
 
 
-  * [BUGFIX beta Still update HTML5 history if the previous state was null](https://github.com/emberjs/ember.js/pull/4235)
+* [BUGFIX beta Still update HTML5 history if the previous state was null](https://github.com/emberjs/ember.js/pull/4235)
 
   iframes may set null values onto the HTML5 history state. The router will sometimes pick up the null value as current
   instead of the window's nominal state (which was set by Ember). The old logic required that a prior state be present, 

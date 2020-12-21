@@ -322,12 +322,12 @@ Ember Data 3.1 contains bug fixes and build improvements for Ember Data.
     - `Ember.Map` adds a static `create` method (which simply instantiates itself with `new Ember.Map()`)
     - `Ember.Map` does not accept constructor arguments
     - `Ember.Map` does not have:
-      - `@@species`
-      - `@@iterator`
-      - `entries`
-      - `values` This implementation adds a deprecated backwards compatibility for:
-          - `copy`
-          - `isEmpty`
+        - `@@species`
+        - `@@iterator`
+        - `entries`
+        - `values` This implementation adds a deprecated backwards compatibility for:
+            - `copy`
+            - `isEmpty`
 
 This is needed because `Map` requires instantiation with `new`, and by default Babel transpilation will do `superConstructor.apply(this, arguments)` which throws an error with native `Map`. The desired code (if we lived in an "only native class" world) would be:
 

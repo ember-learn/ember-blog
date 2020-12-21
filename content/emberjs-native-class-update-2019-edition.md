@@ -458,15 +458,15 @@ let person = new Person('Carol', 'Danvers');
 This means that any utility classes written using `EmberObject` can be rewritten and converted away from it. In fact, you should only need to remember the rules in this post for _framework primitives_, such as:
 
 * Ember
-  * `@ember/component`
-  * `@ember/controller`
-  * `@ember/helper`
-  * `@ember/route`
-  * `@ember/service`
+    * `@ember/component`
+    * `@ember/controller`
+    * `@ember/helper`
+    * `@ember/route`
+    * `@ember/service`
 * Ember Data
-  * `@ember-data/adapter`
-  * `@ember-data/model`
-  * `@ember-data/serializer`
+    * `@ember-data/adapter`
+    * `@ember-data/model`
+    * `@ember-data/serializer`
 
 `@glimmer/component`, which was just accepted via RFC, will be implemented _without_ extending `EmberObject` which means you will not need to remember the rules and exceptions for newer components either. In general, when in doubt, use native classes!
 

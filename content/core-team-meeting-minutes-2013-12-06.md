@@ -34,8 +34,8 @@ public, we'll be posting notes from these meetings.
 
 Resolutions:
 
-  * @trek publish core team meeting notes
-  * @trek post weekly reminders that the core team meeting occurs and invite people
+* @trek publish core team meeting notes
+* @trek post weekly reminders that the core team meeting occurs and invite people
     to contact individual core team members if they have issued they’d like raised.
 
 #### HTMLBars
@@ -43,7 +43,7 @@ Resolutions:
 
 Resolutions:
   
-  * @krisselden will come a bit early to the face to face to get mind-dumped. @machty
+* @krisselden will come a bit early to the face to face to get mind-dumped. @machty
     is already familiar with writing Handlebars runtime compatible template languages
     from his work on [Emblem.js](http://emblemjs.com/) so can also help get this
     over the last few hurdles.

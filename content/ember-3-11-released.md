@@ -127,19 +127,19 @@ Finally, it should be noted that the `{{action}}` modifier, and in some cases, D
 
 Inject Parameter Normalization normalizes this contract for all Ember base classes - that is, framework classes that are provided by Ember:
 
-  - `GlimmerComponent`
-  - `EmberComponent`
-  - `Service`
-  - `Route`
-  - `Controller`
-  - `Helper`
+- `GlimmerComponent`
+- `EmberComponent`
+- `Service`
+- `Route`
+- `Controller`
+- `Helper`
 
 Along with framework clases provided by Ember Data:
 
-  - `Model`
-  - `Adapter`
-  - `Serializer`
-  - `Transform`
+- `Model`
+- `Adapter`
+- `Serializer`
+- `Transform`
 
 For more info please refer to [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0451-injection-parameter-normalization.md).
 

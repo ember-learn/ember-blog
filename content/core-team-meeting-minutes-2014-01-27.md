@@ -30,7 +30,7 @@ due to the Google outage that affected Google Hangouts.
 #### Issues Discussion:
 The core team discussed the following Github Issues
 
-  * `ember-routing-auto-location` [#3725](https://github.com/emberjs/ember.js/pull/3725).
+* `ember-routing-auto-location` [#3725](https://github.com/emberjs/ember.js/pull/3725).
 
     resolution:
 
@@ -41,7 +41,7 @@ The core team discussed the following Github Issues
     * document that backend support is needed and that your app will not have 
       canonical URLs (i.e. every URL will have two versions in the wild: `/#/foo` and `/foo`)
 
-  * Bound Action Lookup [#3936](https://github.com/emberjs/ember.js/pull/3936)
+* Bound Action Lookup [#3936](https://github.com/emberjs/ember.js/pull/3936)
 
     We added default fall back to allow a static string action name if a property isn't found,
     but it is possible that this will break things if you have a property AND an action named
@@ -51,7 +51,7 @@ The core team discussed the following Github Issues
 
     resolution: Ensure docs are updated so unquoted style is not used before shipping.
 
-  * `ember-views-bindable-attributes` [#4170](https://github.com/emberjs/ember.js/pull/4170)
+* `ember-views-bindable-attributes` [#4170](https://github.com/emberjs/ember.js/pull/4170)
 
     We like the idea generally but there are doubts having a a separate API, we should explore pushing it into a single API. Differences between this and `attributeBindings` are too subtle, we should not fragment
 
@@ -60,19 +60,19 @@ The core team discussed the following Github Issues
     resolution: @ebryn will talk to Robert
 
 
-  * Replace `module` with *something* else. [#3838](https://github.com/emberjs/ember.js/pull/3838)
+* Replace `module` with *something* else. [#3838](https://github.com/emberjs/ember.js/pull/3838)
   
     This is due to an issue under Node (since `module` is a reserved word). It ultimately doesn't matter what we decide on, but if we want the test suite to run under Node (for `ember-runtime` and `ember-metal` specifically, but also possibly `ember-data`) we need to use something that isn't a keyword.
 
     resolution: QUnit.module, but check for prior art. (@stefanpenner)
 
-  * Update Backburner (and Docs). [#4120](https://github.com/emberjs/ember.js/pull/4120)
+* Update Backburner (and Docs). [#4120](https://github.com/emberjs/ember.js/pull/4120)
 
     Contains potentially breaking change to `throttle` to default to running immediately (from [ebryn/backburner.js#55](https://github.com/ebryn/backburner.js/pull/55) ).
    
     resolution: it was a bug, breaking it is fine.
 
-  * [https://github.com/emberjs/ember.js/issues/3256](https://github.com/emberjs/ember.js/issues/3256)
+* [https://github.com/emberjs/ember.js/issues/3256](https://github.com/emberjs/ember.js/issues/3256)
   
     resolution: bindingPaths to globals should be canned, so we won't support additional features built on
     on this behavior.

@@ -78,12 +78,12 @@ Check out the updates at [ember-twiddle.com](https://t.co/PMkoyGsnSv?amp=1) and 
 [Abhilash LR (@abhilashlr)](https://github.com/abhilashlr) blogs about **optimizing build timelines & bundle size** in your Ember apps, the first in a series on getting started with performance optimizations! Check out his tips and tricks in the writeup [here](https://abhilashlr.in/ember-performance-tweaks-part-1). Highlights include:
 
 * Speeding up development
-  * Removing tests from the dev build
-  * Removing Mirage from the dev build
-  * Minification, gzip or brotli compression, and fingerprinting
+    * Removing tests from the dev build
+    * Removing Mirage from the dev build
+    * Minification, gzip or brotli compression, and fingerprinting
 * Asset size
-  * Analyze bundle size and optimize asset size
-  * Removing dependencies not needed on app boot
+    * Analyze bundle size and optimize asset size
+    * Removing dependencies not needed on app boot
 
 > The smaller the page assets, the faster it is for the user to view them. The faster it is for the user to view the page with text and UI, the greater trust they have on our apps/websites.
 

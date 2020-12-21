@@ -24,7 +24,7 @@ core team member and let them know!
 
 ### Go/No-Go Feature Listing
 
-  * `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
+* `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
       @krisselden: likes the feature a lot (we should “just doit”)
       @wycats: naming with globals is totally unsolvable.
       @machty: If FooLoading is ambiguous, we should just warn that global mode is not supported for this feature
@@ -33,36 +33,36 @@ core team member and let them know!
       resolution: Tom and Stef will review
 
 
-  * `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
+* `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
 
       resolution: check local first, warn and fallback to global seems like a good strategy
 
-  * `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
+* `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
       resolution: Tom and Stef will review
 
-  * `version api docs`
+* `version api docs`
 
     Often asked for. We should work with community, see if robert can own, and help delegate.
 
-  * `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
 
     misleading bug reports, but eager loader of controllers was the original pain point that kept
     this a "No go"
 
 
-  *  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
+*  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
 
     @wycats: aliased to short words in the examples, should be documented to match this?
     @ebryn:: new CP work may have issues, @wycats and @ebryn and David should talk.
 
     resolution: @ebryn will talk to David about blocking
 
-  * `ember-routing-auto-location` [#3725](https://github.com/emberjs/ember.js/pull/3725)
+* `ember-routing-auto-location` [#3725](https://github.com/emberjs/ember.js/pull/3725)
 
      resolution: Alex will make sure docs are good, then this becomes a "Go"
 
-  * `ember-routing-bound-action-name` [#3936](https://github.com/emberjs/ember.js/pull/3936)
+* `ember-routing-bound-action-name` [#3936](https://github.com/emberjs/ember.js/pull/3936)
 
     resolution: "Go" but we need an intermediate release issuing deprecation warnings, a future release will have break. This future release may contain some helpful warning, and the release notes will contain this info.
 
