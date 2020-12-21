@@ -21,7 +21,7 @@ In this week's edition we're sharing news about a fresh 🥒  RFC to deprecate `
 
 ---
 
-## [Deprecate All the Property 🏠 Modifiers ](https://github.com/emberjs/rfcs/pull/375)
+## [Deprecate All the Property 🏠 Modifiers](https://github.com/emberjs/rfcs/pull/375)
 
 Remember `.property()`?
 

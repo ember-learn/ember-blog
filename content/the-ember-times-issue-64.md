@@ -30,7 +30,7 @@ Even more **modern** than _IRC_ and _ICQ_ combined, you can now chat with other 
 
 ---
 
-## [A Public Factory 🏭 for Your Models ](https://github.com/emberjs/rfcs/pull/372)
+## [A Public Factory 🏭 for Your Models](https://github.com/emberjs/rfcs/pull/372)
 
 A brand-new 🔥 **Request For Comments (RFC)** makes addon authors' and Ember power users' 💪 hearts ♡ leap for joy:
 The previously [deprecated Ember Data `store` method `modelFactoryFor`](https://github.com/emberjs/data/blob/v3.3.1/addon/-private/system/store.js#L2083) is making its comeback as an official, **public API**.
