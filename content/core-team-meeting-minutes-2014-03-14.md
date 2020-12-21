@@ -48,7 +48,7 @@ core team member and let them know!
   My concern is the modification in this particular code path.
 
   Resolution: this used to be how create worked, but we moved away with this for performance reasons. `.extend`
-  is intended for design-time use, not runtime: use `.extend().create() or `.createWithMixins()`
+  is intended for design-time use, not runtime: use `.extend().create()` or `.createWithMixins()`
 
 * [Use injected test helpers instead of local functions.](https://github.com/emberjs/ember.js/pull/4520)
 

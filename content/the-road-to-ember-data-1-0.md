@@ -178,7 +178,7 @@ that work?
 Ember Data 1.0 introduces a subclass of Promise called `DataBoundPromise`. This
 object allows you to observe properties on the Promise, just as you would on a
 normal object. When the promise resolves, those properties will be updated to
-match the underlying object. If you `get `a property from a `DataBoundPromise`
+match the underlying object. If you `get` a property from a `DataBoundPromise`
 when it is unresolved, it will return `undefined`.
 
 ```js
