@@ -7,7 +7,7 @@ This project uses [Alex](https://github.com/wooorm/alex)
 
 - a wording linter for insensitive language - to make sure that new posts are as inviting and approachable to its readers as possible.
 
-The Travis CI process for this project will run `alex` on all new changes which have been made
+The CI for this project will run `alex` on all new changes which have been made
 in the `source/blog/` directory and issue a warning if it encounters any controversial language.
 
 If you'd like to lint your changes locally, you can install `alex` and run it from your command line
