@@ -63,7 +63,6 @@ the 1.6.x beta series:
     Resolution: Revert.
 
 
-
 * `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
 
     @stefanpenner and @machty met in person on Tuesday to discuss an API that supported
@@ -73,7 +72,4 @@ the 1.6.x beta series:
     URL. False params should be represented as “=false”, rather than merely being absent
     from URL (which was ambiguous). So, this example JSBin from the docs is wrong:
     [http://emberjs.jsbin.com/ucanam/2708](http://emberjs.jsbin.com/ucanam/2708).
-
-
-
 

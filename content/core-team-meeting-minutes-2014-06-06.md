@@ -92,7 +92,3 @@ on route exit) is about to land and we should hopefully include query parameters
 
 If you're thinking "pft, how hard is it to tack a `?` to the end of a URL?", there's a great [EmberConf presentation](https://www.youtube.com/watch?v=Syv_OTzHOr0) about the road to discovering what exactly query parameters are trying to express in a long running, stateful application.
 
-
-
-
-

@@ -3,7 +3,7 @@
   "line-length": false,
   "no-duplicate-heading": { "siblings_only": true },
   "no-inline-html": false,
+  "no-multiple-blanks": { "maximum": 2 },
   "no-trailing-punctuation": false,
-  "no-multiple-blanks": false,
   "MD007": { "indent": 4 }
 }

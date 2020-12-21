@@ -79,5 +79,3 @@ The core team discussed the following Github Issues
     resolution: bindingPaths to globals should be canned, so we won't support additional features built on
     on this behavior.
 
-
-

@@ -144,7 +144,6 @@ this feature and [@knownasilya](https://github.com/knownasilya) for
 proposing the [RFC](https://github.com/emberjs/rfcs/pull/1).
 
 
-
 ### Upcoming Features in Ember Data 2.6.beta-1
 
 - `ds-serialize-ids-and-types`

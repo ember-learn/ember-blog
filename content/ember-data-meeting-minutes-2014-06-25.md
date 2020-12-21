@@ -70,4 +70,3 @@ that would resolve once all the relationships are loaded.
 [@wycats](https://twitter.com/wycats) was very excited about the possibility of having Ember-Data support async wait from ES7.
 Said it could make dealing with asynchronicity much nicer. No conclusion, due to a lack of time for someone to investigate.
 
-
