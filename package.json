@@ -13,6 +13,7 @@
   "scripts": {
     "build": "ember build --environment=production",
     "lint": "npm-run-all --aggregate-output --continue-on-error --parallel lint:*",
+    "lint:alex": "alex content/**/*.md",
     "lint:hbs": "ember-template-lint .",
     "lint:js": "eslint .",
     "lint:md": "markdownlint content/**/*.md",
@@ -23,6 +24,7 @@
     "@ember/optional-features": "^2.0.0",
     "@glimmer/component": "^1.0.1",
     "@glimmer/tracking": "^1.0.1",
+    "alex": "^9.1.0",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "dashify": "^2.0.0",
