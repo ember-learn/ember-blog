@@ -40,11 +40,11 @@ Ember.js 3.4 is an incremental, backwards compatible release of Ember with bugfi
 
 #### New Features (3)
 
-**Implement optional jQuery Integration (1 of 3)**
+##### Implement optional jQuery Integration (1 of 3)
 
 See [emberjs/rfcs#294](https://github.com/emberjs/rfcs/blob/master/text/0294-optional-jquery.md) to get more prose
 
-**Angle Bracket Invocation (2 of 3)**
+##### Angle Bracket Invocation (2 of 3)
 
 In Ember 3.4 it is now possible to use angle bracket invocation. This means that you're now able to replace the classic invocation syntax:
 
@@ -76,7 +76,7 @@ The main advantage of the angle bracket invocation syntax is clarity. Because co
 
 Guides will be updated to reflect the new syntax in the coming weeks.
 
-**Custom Component Manager (3 of 3)**
+##### Custom Component Manager (3 of 3)
 
 Ember 3.4 ships with the new Custom Component Manager feature enabled by default. This feature gives addon authors access to a low-level API for creating component base classes which addon users can re-use and extend components from. Addon authors gain finer-grained control over the semantics of the components exported from their addons by the means of the component manager API.
 
@@ -151,7 +151,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.4, please review the [Ember.js 3.4.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.4.0).
 
-**Use closure actions instead of `sendAction` (1 of 2)**
+##### Use closure actions instead of `sendAction` (1 of 2)
 
 In Ember 1.13 closure actions were introduced as a recommended replacement for `sendAction`. With `sendAction` the developer passes the name of an action, and when `sendAction` is called Ember.js would look up that action in the parent context and invoke it if present. This had a handful of caveats:
 
@@ -162,7 +162,7 @@ Closure actions solve those problems and are also more intuitive to use.
 
 To read more about this deprecation and how to refactor your existing code have a look at [the deprecations page](https://emberjs.com/deprecations/v3.x#toc_ember-component-send-action).
 
-**Ember 2 Legacy (2 of 2)**
+##### Ember 2 Legacy (2 of 2)
 
  Version 3.4 is the last version of Ember that will work with the polyfill addon for features that were deprecated in 2.x. If you have been using [ember-2-legacy](https://github.com/emberjs/ember-2-legacy), it's time to move forward.
 
@@ -228,11 +228,11 @@ Ember CLI 3.4.0 is also effectively fast-forwarded to 3.4.1 due to an essential 
 
 #### New Features (2)
 
-**Added Support for Node 10 (1 of 2)**
+##### Added Support for Node 10 (1 of 2)
 
 Ember CLI 3.4 now supports Node 10. Simultaneously, Node 4 has been dropped from Ember CLI's support matrix. When upgrading to Ember CLI 3.4, please make sure to use it together with Node 6 and above.
 
-**Template Linting (2 of 2)**
+##### Template Linting (2 of 2)
 
 Ember CLI 3.4 adds automatic template linting to your application via _ember-template-lint_ according to the [recommmended list of rules](https://github.com/ember-template-lint/ember-template-lint/blob/master/lib/config/recommended.js). Ember CLI will generate a `TemplateLint` test file for each of your templates to your test suite automatically to be run via `ember test`.
 

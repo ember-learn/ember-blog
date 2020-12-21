@@ -32,7 +32,7 @@ Ember.js 3.10 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (4)
 
-**Angle Bracket Invocation for Nested Components (1 of 4)**
+##### Angle Bracket Invocation for Nested Components (1 of 4)
 
 From Ember 3.10 onwards you can use **angle bracket invocation syntax** for **nested** components. Nested components are components which are defined in a nested directory structure of your application.
 
@@ -81,7 +81,7 @@ This feature has no impact on the way components are looked up on the container 
 You can read more about this feature in the [original Request for Comments (RFC)](https://emberjs.github.io/rfcs/0457-nested-lookups.html).
 
 
-**Angle Bracket Invocation for Built-In Components (2 of 4)**
+##### Angle Bracket Invocation for Built-In Components (2 of 4)
 
 With Ember 3.10+ you can use **angle bracket invocation syntax** for the **three built-in components** that Ember itself provides to your application automatically: `input`, `link-to` and `textarea`. This version of Ember aligns the API of these built-ins with the requirements of the angle bracket invocation syntax.
 
@@ -113,7 +113,7 @@ With Ember 3.10 and higher, you may alternatively use the angle bracket invocati
 
 You can read more about the API of built-in components when used with angle bracket invocation syntax in [the original RFC](https://emberjs.github.io/rfcs/0459-angle-bracket-built-in-components.html).
 
-**RouteInfo Metadata (3 of 4)**
+##### RouteInfo Metadata (3 of 4)
 
 An Ember application provides information about routes via the `RouteInfo` object. For example, the [`Transition`](https://api.emberjs.com/ember/release/classes/Transition) object that is provided to [event listeners for route changes](https://api.emberjs.com/ember/release/classes/RouterService/events/routeDidChange) provides a `from` and `to` property representing a `RouteInfo` object. These provide information about the former and the entry route.
 
@@ -169,7 +169,7 @@ export default Service.extend({
 
 We encourage you to give [the original RFC a read](https://emberjs.github.io/rfcs/0398-RouteInfo-Metadata.html) for more details about the API and other interesting use cases for `RouteInfo` metadata in your application.
 
-**Native Decorator Support (4 of 4)**
+##### Native Decorator Support (4 of 4)
 
 With Ember.js 3.10 you get the possibility to use native decorators in your application. To learn how to get started using native decorators, have a look at the [original RFC](https://emberjs.github.io/rfcs/0440-decorator-support.html).
 
@@ -181,7 +181,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.10, please review the [Ember.js 3.10.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.10.0).
 
-**Application Controller Router Properties (1 of 1)**
+##### Application Controller Router Properties (1 of 1)
 
 `ApplicationController#currentPath` and `ApplicationController#currentRouteName` are deprecated in Ember.js 3.10. They are no longer needed since the `RouterService` now has `RouterService#currentPath` and `RouterService#currentRouteName`.
 
@@ -227,11 +227,11 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### New Features (2)
 
-**Native Decorator Support (1 of 2)**
+##### Native Decorator Support (1 of 2)
 
 As with Ember.js, Ember CLI now supports native decorators.
 
-**Drop Node 6 support (2 of 2)**
+##### Drop Node 6 support (2 of 2)
 
 Ember CLI 3.10 officially drops support for Node 6. Ember.js still supports it until all the blueprints are updated.
 Maintainers of addons are encouraged to make a _major version_ release of their addons when upgrading to 3.10, since dropping Node 6 support may be a breaking change for some of their library's users.

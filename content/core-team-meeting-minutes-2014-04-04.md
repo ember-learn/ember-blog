@@ -40,7 +40,7 @@ core team member and let them know!
 
   +1 by @stefanpenner, but he requests @krisselden to review.
 
-  **Resolution**
+  Resolution:
 
   Seems good, but @krisselden will review in further detail. Will attempt to have this update in 1.6.0-beta.2.
 

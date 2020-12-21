@@ -62,7 +62,7 @@ Greetings from Ember Times HQ! We had a **Readers' Question** come in:
 
 In Classic Ember, if you wanted to define a piece of DOM behavior that you could reuse across your application, you would define a component `Mixin` that implemented the appropriate lifecycle hooks. As of Ember 3.15, the Ember project recommends Ember Octane for new applications and addons. And idiomatic Octane recommends that you avoid mixins. Going back to [Octane is Here](https://blog.emberjs.com/2019/12/20/octane-is-here.html), [Yehuda Katz (@wycats)](https://github.com/wycats) gives a migration example. Element modifiers provide a new way to reuse DOM behavior, without some of the drawbacks that mixins have.
 
-**Before (Classic Ember): Mixins**
+### Before (Classic Ember): Mixins
 
 ```js
 import Mixin from '@ember/object/mixin';
@@ -90,7 +90,7 @@ export default Component.extend(Tabs, {
 });
 ```
 
-**After (Ember Octane): Element modifiers**
+### After (Ember Octane): Element modifiers
 
 This is what our `Tabs` mixin looks like when reimplemented as a modifier.
 

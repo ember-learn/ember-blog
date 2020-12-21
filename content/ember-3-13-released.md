@@ -90,13 +90,13 @@ Ember.js 3.13 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (5)
 
-**Tracked Properties and Tracked Property Updates (1 of 5)**
+##### Tracked Properties and Tracked Property Updates (1 of 5)
 
 Tracked properties introduce a simpler and more ergonomic system for tracking state change in Ember applications. Tracked properties allow Ember to reduce its API surface area while producing code that is both more intuitive and less error-prone.
 
 Have a look at the [guides] to learn more about tracked properties. For design details, check out [RFC 410](https://github.com/emberjs/rfcs/blob/master/text/0410-tracked-properties.md) and [RFC 478](https://github.com/emberjs/rfcs/blob/master/text/0478-tracked-properties-updates.md).
 
-**Component Templates Co-location: Part One (2 of 5)**
+##### Component Templates Co-location: Part One (2 of 5)
 
 Component co-location is available in Ember 3.13. This feature allows you to group a component's template and JavaScript files together in the file system. For example, a component named `user-profile` would be made up of the following files:
 
@@ -111,13 +111,13 @@ app
 
 [The RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md) contains a detailed explanation of the design of this feature.
 
-**`component-class` generator (3 of 5)**
+##### `component-class` generator (3 of 5)
 
 With the Octane preview enabled, a component generated using `ember generate component <component name>` will no longer include a component class by default.
 
 In cases where you need a component class file, you can either pass the `--with-component-class` flag to the `component` generator, or add one after the fact with the new `ember generate component-class <component name>` generator.
 
-**Detect the edition that is in use (4 of 5)**
+##### Detect the edition that is in use (4 of 5)
 
 For addon authors, it is now possible to detect which edition is in use at build-time with `@ember/edition-utils`.
 
@@ -127,7 +127,7 @@ import { has } from '@ember/edition-utils';
 let isOctane = has('octane');
 ```
 
-**Add `updateHook` component-manager capability (5 of 5)**
+##### Add `updateHook` component-manager capability (5 of 5)
 
 There is a new capability for component managers which allows you to opt-in or opt-out of whether to have an `updateComponent` hook on your component manager.
 
@@ -141,7 +141,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.13, please review the [Ember.js 3.13.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.13.0).
 
-**Deprecate support for mouseEnter/Leave/Move Ember events (1 of 1)**
+##### Deprecate support for mouseEnter/Leave/Move Ember events (1 of 1)
 
 Ember.js 3.13 deprecates support for `mouseEnter`, `mouseLeave` and `mouseMove` Ember events. [The deprecation guide](https://deprecations.emberjs.com/v3.x#toc_action-mouseenter-leave-move) contains guidance on how to migrate away from these events.
 

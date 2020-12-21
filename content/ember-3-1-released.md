@@ -118,7 +118,7 @@ ember install @ember/optional-features
 
 Thanks to [Godfrey Chan](https://twitter.com/chancancode) and [Robert Jackson](https://twitter.com/rwjblue/) for their work on the optional features system.
 
-**New Optional Feature: Application Template Wrapper**
+##### New Optional Feature: Application Template Wrapper
 
 Ember applications have long created a wrapping `div` around their rendered content: `<div class="ember-view">`. With ember-optional-features, this functionality can now be disabled:
 
@@ -132,7 +132,7 @@ Additionally, enabling this feature will prompt you to optionally run a codemod 
 
 Although disabling this feature will eventually be the default for Ember, leaving the feature enabled is not deprecated in this release. You can read more details about this optional feature and the motivations for introducing it in [RFC #280](https://github.com/emberjs/rfcs/blob/master/text/0280-remove-application-wrapper.md).
 
-**New Optional Feature: Template-only Glimmer Components**
+##### New Optional Feature: Template-only Glimmer Components
 
 Ember components implicitly create an element in the DOM where they are invoked, and the contents of their templates are then treated as "innerHTML" inside that DOM element. For example, this component template:
 
