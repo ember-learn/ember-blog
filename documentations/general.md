@@ -1,6 +1,6 @@
 # General
 
-The Ember blog is the official news outlet of the Ember Learning Core team. You can publish new posts by adding a markdown file (`.md`) to the `source/blog` directory.
+The Ember blog is the official news outlet of the Ember Learning Core team. You can publish new posts by adding a markdown file (`.md`) to the `content` directory.
 
 ## Ember Times
 
@@ -60,7 +60,7 @@ For example, switch to this branch for issue 92: `blog/embertimes-92`
 git switch -t upstream/blog/embertimes-165 # or, git checkout blog/embertimes-165
 ```
 
-- Find the latest blog issue template at `source/YYYY-MM-DD-the-ember-times-issue-#.md`
+- Find the latest blog issue template at `content/YYYY-MM-DD-the-ember-times-issue-#.md`
 
 For example: `2019-04-05-the-ember-times-issue-92`
 
@@ -95,4 +95,4 @@ Thank you for contributing to Ember Times!
 
 ## DecEmber
 
-In December 2019 we are organising a blog series featuring an interesting addon each day. If you want to contribute, please claim one of the `December` issues in the [`ember-learn/ember-blog` repository](https://github.com/ember-learn/ember-blog/issues?q=is%3Aissue+is%3Aopen+december) and review [our December Contribution Guide to get started!](https://github.com/ember-learn/ember-blog/blob/master/source/december-2019-blog-series-template.md)
+In December 2019 we are organising a blog series featuring an interesting addon each day. If you want to contribute, please claim one of the `December` issues in the [`ember-learn/ember-blog` repository](https://github.com/ember-learn/ember-blog/issues?q=is%3Aissue+is%3Aopen+december) and review [our December Contribution Guide to get started!](https://github.com/ember-learn/ember-blog/blob/master/post-templates/december-2019-template.md)

@@ -29,6 +29,12 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
     cd ember-blog
     ```
 
+1. Install packages.
+
+    ```bash
+    npm install
+    ```
+
 </details>
 
 
@@ -37,14 +43,14 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
 1. We use [Markdown](https://www.markdownguide.org/cheat-sheet/) when writing a blog post.
 
-1. The file must be saved in the `source` directory. The file name must begin with `YYYY-MM-DD`.
+1. The file must be saved in the `content` directory. The file name must begin with `YYYY-MM-DD`.
 
     ```bash
     # Create an Ember Times blog post for August 29, 2020
-    touch source/2020-08-29-the-ember-times-issue-162.md
+    touch content/2020-08-29-the-ember-times-issue-162.md
     ```
 
-1. We use [alex](https://alexjs.com/) and [markdownlint](https://github.com/DavidAnson/markdownlint) for linting. If your branch's CI (continuous integration) didn't pass these linters, please read [Linters](documentations/linters.md) for more information. 
+1. We use [alex](https://alexjs.com/) and [markdownlint](https://github.com/DavidAnson/markdownlint) for linting. If your branch's CI (continuous integration) didn't pass these linters, please consider rewording or updating Markdown syntax to fix the error. If the linter incorrectly marked something as an error, you may add an exception to your file.
 
 </details>
 
@@ -52,12 +58,13 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 <details>
 <summary>Running app locally (optional)</summary>
 
-1. You can preview how the blog post looks by running the app locally.
+1. You can preview how the blog post looks by running the Ember app locally.
 
-1. For more information, please check these documentations:
+    ```bash
+    ember serve
+    ```
 
-  - [Running Locally with Docker](documentations/running-locally-with-docker.md)
-  - [Running Locally with Ruby and Middleman](documentations/running-locally-with-ruby-and-middleman.md)
+1. Visit [http://localhost:4200](http://localhost:4200).
 
 </details>
 
@@ -97,7 +104,7 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
     git switch -t upstream/blog/embertimes-165 # or, git checkout blog/embertimes-165
     ```
 
-1. Open the Markdown file for the current blog issue: `source/2020-10-09-the-ember-times-issue-165.md`.
+1. Open the Markdown file for the current blog issue: `content/2020-10-09-the-ember-times-issue-165.md`.
 
 1. Add your name, introductory line, and writing to the Markdown file. You'll see useful notes and placeholders in the file.
 
