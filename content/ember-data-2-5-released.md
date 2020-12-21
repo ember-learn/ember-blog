@@ -48,10 +48,10 @@ in [RFC 57](https://github.com/emberjs/rfcs/pull/57). References is a
 low level API to perform meta-operations on records, has-many
 relationships and belongs-to relationships:
 
-  - get the current local data synchronously without triggering a fetch or producing a promise
-  - notify the store that a fetch for a given record has begun, and provide a promise for its result
-  - similarly, notify a record that a fetch for a given relationship has begun, and provide a promise for its result
-  - retrieve server-provided metadata about a record or relationship
+- get the current local data synchronously without triggering a fetch or producing a promise
+- notify the store that a fetch for a given record has begun, and provide a promise for its result
+- similarly, notify a record that a fetch for a given relationship has begun, and provide a promise for its result
+- retrieve server-provided metadata about a record or relationship
 
 Consider the following `post` model:
 

@@ -26,12 +26,12 @@ core team member and let them know!
 
 #### Features pending 'Go' decision. [Tracking Issue](https://github.com/emberjs/ember.js/issues/4052)
 
-  *  `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
+*  `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
     Resolution: Go
 
 ### PR's/Issues To Review
 
-  * Query Params New - Sticky Params?
+* Query Params New - Sticky Params?
 
     Should query paramters remain on route change? When do we want it? All the time?
     How do we disable it? Proposals thus far:
@@ -59,12 +59,12 @@ core team member and let them know!
     ```
 
     some options:
-      * Preserve stickiness as the default, but add a (query-params-reset) subexpression helper
+    * Preserve stickiness as the default, but add a (query-params-reset) subexpression helper
         (in addition to query-params) that can take 0 or more args and will reset any query params
         not explicitly specified in the helper invocation. The puts the stickiness in the control
         of the caller (the link-to helper).
 
-      * Add a sticky option to the route query params config hash, which defaults to true. If set to
+    * Add a sticky option to the route query params config hash, which defaults to true. If set to
         false, any links into that route will reset (unless QP values are explicitly provided in the
         link-to helper), but any links to that route from within that route hierarchy will be sticky,
         which effectively makes it so that if you leave a route and come back into it via a link-to,
@@ -77,7 +77,7 @@ core team member and let them know!
       Resolution: Sticky by default, with appropriate escape valves to opt out per route change
 
 
-  * [ES6 ember-metal, ember-runtime, ember-debug](https://github.com/emberjs/ember.js/pull/4374)
+* [ES6 ember-metal, ember-runtime, ember-debug](https://github.com/emberjs/ember.js/pull/4374)
 
     Work is currently being done (by @thomasaboyt amongst others) on the es6-module-transpiler
     to remove the need for intermediate variables. This will both reduce filesize (less total
@@ -92,14 +92,14 @@ core team member and let them know!
 
     RESOLUTION: Merge (pending specific issues that have already been noted), but before shipping another globals build we should deal with the file size issue. We have ~7 weeks until the 1.6 release.
 
-  * [The `each` helper checks that the metamorph tags have the same parent.](https://github.com/emberjs/ember.js/pull/4404)
+* [The `each` helper checks that the metamorph tags have the same parent.](https://github.com/emberjs/ember.js/pull/4404)
 
     This was generally approved in the 2014-02-28 meeting once some verbiage tweaks were made. @trek's suggested
     changes have been made, this is ready to go.
 
     Resolution: merge.
 
-  * [FEATURE Ember.computed.instance](https://github.com/emberjs/ember.js/pull/4291)
+* [FEATURE Ember.computed.instance](https://github.com/emberjs/ember.js/pull/4291)
 
     > A computed property that creates a new instance of source. `source` can be any
     > Class constructor, object, array, or a path to a local property.  Optionally you can
@@ -108,7 +108,7 @@ core team member and let them know!
 
   Resolution: make it an add on that’s not core. CPM.
 
-  * [Deprecate edge-case get and normalizeTuple behavior before fixes](https://github.com/emberjs/ember.js/pull/4124)
+* [Deprecate edge-case get and normalizeTuple behavior before fixes](https://github.com/emberjs/ember.js/pull/4124)
 
     PR [#3852](https://github.com/emberjs/ember.js/pull/3852) changes some edge case behavior for get and normalizeTuple. Ahead of those changes, this commit introduces deprecation notices.
 
@@ -117,7 +117,7 @@ core team member and let them know!
     * Deprecate normalizeTuple calls that return a non-global contenxt
       and a simple global path.
 
-  * [Deprecate global access from templates](https://github.com/emberjs/ember.js/pull/4459)
+* [Deprecate global access from templates](https://github.com/emberjs/ember.js/pull/4459)
 
     PR by @mixonic:
 
@@ -130,7 +130,7 @@ core team member and let them know!
     >
     > @ebryn yo.
 
-  * [Container throws if injection registered for already instantiated type](https://github.com/emberjs/ember.js/pull/4328)
+* [Container throws if injection registered for already instantiated type](https://github.com/emberjs/ember.js/pull/4328)
 
     > Prior to this commit, the container would happily allow you to register an injection for a
     > type that had already been instantiated. This led to confusing-to-debug situations where an
@@ -143,7 +143,7 @@ core team member and let them know!
 
     Resolution: @stefanpenner & @wycats will chat.
 
-  * [Expose asObject to Ember.Handlebars.precompile](https://github.com/emberjs/ember.js/pull/4097)
+* [Expose asObject to Ember.Handlebars.precompile](https://github.com/emberjs/ember.js/pull/4097)
 
     Comment from @rwjblue:
 

@@ -43,7 +43,7 @@ core team member and let them know!
 
 ### Features pending 'Go' decisions
 
-  * [ember-routing-consistent-resources](https://github.com/emberjs/ember.js/pull/4251)
+* [ember-routing-consistent-resources](https://github.com/emberjs/ember.js/pull/4251)
 
     This PR adds .index, .loading, and .error sub-routes for resources created even
     if no callback was provided so `this.resource('foo')` and

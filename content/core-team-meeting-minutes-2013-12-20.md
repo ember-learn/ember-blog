@@ -36,8 +36,8 @@ try it, and offer feedback.
 
 Resolutions:
   
-  * @trek will start working on docs.
-  * @tomdale, @wycats will publish an ember data update blog post.
+* @trek will start working on docs.
+* @tomdale, @wycats will publish an ember data update blog post.
 
 #### Query Params
 Some debate about the correct location for defining and handling query parameters
@@ -45,7 +45,7 @@ Some debate about the correct location for defining and handling query parameter
 
 Resolutions:
   
-  * a smaller group will handle that discussion
+* a smaller group will handle that discussion
 
 #### Pods
 During the face-to-face we floated the idea of organizing an application's files in a
@@ -55,4 +55,4 @@ this structure.
 
 Resolutions:
     
-  * @trek will reach out to people said they've built in this style.
+* @trek will reach out to people said they've built in this style.

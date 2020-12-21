@@ -32,8 +32,8 @@ core team member and let them know!
 
   Still, checking `obj[keyName] === value` in these [lines] (https://github.com/selvagsz/ember.js/blob/master/packages_es6/ember-metal/lib/property_set.js#L52-54) is bypassed in two cases
 
-  * If the setter value is `undefined`
-  * If the setter property lies inside the proxied content
+    * If the setter value is `undefined`
+    * If the setter property lies inside the proxied content
 
   Using `get(obj, keyName)` might resolve. But was quite nervous to do that as it may involve some additional function calls
 

@@ -60,36 +60,36 @@ underlying library that will power Ember.js's rewritten view layer.
 
 ### Features Pending Go/No-Go
 
-   * [ember-metal-is-present](https://github.com/emberjs/ember.js/pull/5136)
+* [ember-metal-is-present](https://github.com/emberjs/ember.js/pull/5136)
 
       Resolution: this is excellent addon material. Revert.
 
-   * [event-dispatcher-can-disable-event-manager](https://github.com/emberjs/ember.js/pull/5116)
+* [event-dispatcher-can-disable-event-manager](https://github.com/emberjs/ember.js/pull/5116)
 
       Resolution: event dispatcher is being deprecated, but we'll have hooks for
                   libraries like (Hammer.js)[http://hammerjs.github.io/] to
                   integrate with. Revert.
 
-   * [ember-routing-linkto-target-attribute]
+* [ember-routing-linkto-target-attribute]
 
       Resolution: This is a Go.
 
 ### Issues for Discussion
 
-  * [Fix {{#with view.foo as bar}} #5115](https://github.com/emberjs/ember.js/pull/5115)
+* [Fix {{#with view.foo as bar}} #5115](https://github.com/emberjs/ember.js/pull/5115)
 
     This is a bug. Merged.
 
-  * [Fix usage of document.body.contains](https://github.com/emberjs/ember.js/pull/5089)
+* [Fix usage of document.body.contains](https://github.com/emberjs/ember.js/pull/5089)
 
     This is not required in metal-views, so the problem should go away. The suggested
     polyfill with feature flag for 1.7 OK until that time.
 
-  * [Force remove `required` attribute for IE8](https://github.com/emberjs/ember.js/pull/4936)
+* [Force remove `required` attribute for IE8](https://github.com/emberjs/ember.js/pull/4936)
 
     Scumbag IE. This is merged
 
-  * [Actions should be looked up via `Ember.get`](https://github.com/emberjs/ember.js/pull/4920)
+* [Actions should be looked up via `Ember.get`](https://github.com/emberjs/ember.js/pull/4920)
 
     `:-1:` as is, need to re-work and add a 're-bubble' phase that checks `actionMissing`
     good idea, but seems like it may require a lot of work.

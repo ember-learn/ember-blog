@@ -297,8 +297,8 @@ if the network is down, you can implement `shouldBackgroundReloadRecord`
 ```js
 shouldBackgroundReloadRecord: function(store, snapshot) {
   if (window.navigator.connection === 'cellular' ||
-  	window.navigator.connection === 'none') {
-  	return false;
+    window.navigator.connection === 'none') {
+    return false;
   } else {
     return true;
   }
@@ -422,8 +422,7 @@ and your server payload looked like:
 
 Your serializer would get the payload passed in an `extract` hook and its job was to:
  
-- normalize and `store.push` everything that is not the `primary record`, in this
-	case the array of sideloaded accounts
+- normalize and `store.push` everything that is not the `primary record`, in this case the array of sideloaded accounts
 - normalize and return the primary data, in this case the `user` data
 
 Having these two ways of pushing data to the store, with both returning primary record data
@@ -578,7 +577,7 @@ error handling:
 - Cleaner adapter hooks for errors
 - Using JSON API Error object format
 
-###Cleaner adapter hooks for errors
+### Cleaner adapter hooks for errors
 
 Previously, if you were subclassing the `RestAdapter` you could overwrite
 `ajaxSuccess` and `ajaxError` hooks to implement custom error handling.
@@ -620,7 +619,7 @@ underlying implementation and will allow us to easily use methods like
 [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch?hl=en)
 in the future.
 
-###Using JSON API Error object format
+### Using JSON API Error object format
 Similarly to the rest of Ember Data 1.13, we have refactored the error handling to use JSON API. JSON API has specified an
 [error objects](http://jsonapi.org/format/#error-objects)
 format. Starting with Ember Data 1.13 we are using JSON API format to

@@ -38,10 +38,10 @@ can be found on this Github issue:
 The following features look good in their current incarnation and will likely receive a "go"
 vote:
 
-  * [ember-testing-routing-helpers](https://github.com/emberjs/ember.js/pull/3711)
-  * [computed-read-only](https://github.com/emberjs/ember.js/pull/3879)
-  * [ember-metal-is-blank](https://github.com/emberjs/ember.js/pull/4049)
-  * [ember-eager-url-update](https://github.com/emberjs/ember.js/pull/4122)
+* [ember-testing-routing-helpers](https://github.com/emberjs/ember.js/pull/3711)
+* [computed-read-only](https://github.com/emberjs/ember.js/pull/3879)
+* [ember-metal-is-blank](https://github.com/emberjs/ember.js/pull/4049)
+* [ember-eager-url-update](https://github.com/emberjs/ember.js/pull/4122)
 
 #### [string-humanize](https://github.com/emberjs/ember.js/pull/3224) and [string-parameterize](https://github.com/emberjs/ember.js/pull/3953)
 There is a concern that this increases the surface area of API and the size of the framework
@@ -53,7 +53,7 @@ and the common case is already handled by existing libraries.
 
 Resolutions:
   
-  * Revert.
+* Revert.
 
 
 #### [ember-handlebars-caps-lookup](https://github.com/emberjs/ember.js/pull/3218)
@@ -64,25 +64,25 @@ issues for people who used this as part of their app design.
   
 Some proposed ideas:
 
-  * try local lookup first
-  * try global lookup and issue a deprecation warning ("will be removed in 2.0")
+* try local lookup first
+* try global lookup and issue a deprecation warning ("will be removed in 2.0")
 
 Resolutions:
   
-  * Revert.
-  * @wycats will talk to the author about a revert and our preferred way forward for this
+* Revert.
+* @wycats will talk to the author about a revert and our preferred way forward for this
     behavior
 
 #### [ember-testing-triggerEvent-helper](https://github.com/emberjs/ember.js/pull/3792)
 
 Looks good but needs some revision:
 
-  * Needs mechanism for customizing event with additional data (i.e. which key is being pressed)
-  * Possibly have `keyEvent` event helper use `triggerEvent` internally
+* Needs mechanism for customizing event with additional data (i.e. which key is being pressed)
+* Possibly have `keyEvent` event helper use `triggerEvent` internally
 
 Resolutions:
 
-  * @ebryn will provide feedback on the PR
+* @ebryn will provide feedback on the PR
 
 #### [composable-computed-properties](https://github.com/emberjs/ember.js/pull/3696)
 Possibly still needs some work (there some unhandled todos)? Will be a "go" when
@@ -90,7 +90,7 @@ these are addressed.
 
 Resolutions:
 
-  * @trek will ask about the status of remaining todos
+* @trek will ask about the status of remaining todos
 
 #### [query-params-new](https://github.com/emberjs/ember.js/pull/4008)
 @wycats and @machty chatted about some last minute issues. This PR should be good soon.
@@ -99,7 +99,7 @@ happens if two controllers in same hierarchy have the same parameter name).
 
 Resolutions:
 
-  * @machty will keep chugging along
+* @machty will keep chugging along
 
 
 #### [ember-routing-loading-error-substates](https://github.com/emberjs/ember.js/pull/3655)
