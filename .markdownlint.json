@@ -7,11 +7,5 @@
   "no-trailing-punctuation": false,
   "no-trailing-spaces": false,
   "no-multiple-blanks": false,
-  "MD007": { "indent": 4 },
-  "MD039": false,
-  "MD040": false,
-  "MD042": false,
-  "MD045": false,
-  "MD046": false,
-  "MD047": false,
+  "MD007": { "indent": 4 }
 }

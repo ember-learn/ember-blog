@@ -26,21 +26,21 @@ core team member and let them know!
 ### Go/No-Go Feature Listing
 
 * `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
-      @krisselden: likes the feature a lot (we should “just doit”)
-      @wycats: naming with globals is totally unsolvable.
-      @machty: If FooLoading is ambiguous, we should just warn that global mode is not supported for this feature
-      @tomdale: we need a separate task force for thinking about module mode only features.
 
-      resolution: Tom and Stef will review
+    @krisselden: likes the feature a lot (we should “just doit”)
+    @wycats: naming with globals is totally unsolvable.
+    @machty: If FooLoading is ambiguous, we should just warn that global mode is not supported for this feature
+    @tomdale: we need a separate task force for thinking about module mode only features.
 
+    resolution: Tom and Stef will review
 
 * `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
 
-      resolution: check local first, warn and fallback to global seems like a good strategy
+    resolution: check local first, warn and fallback to global seems like a good strategy
 
 * `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
-      resolution: Tom and Stef will review
+    resolution: Tom and Stef will review
 
 * `version api docs`
 
@@ -51,7 +51,6 @@ core team member and let them know!
     misleading bug reports, but eager loader of controllers was the original pain point that kept
     this a "No go"
 
-
 * `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
 
     @wycats: aliased to short words in the examples, should be documented to match this?
@@ -61,7 +60,7 @@ core team member and let them know!
 
 * `ember-routing-auto-location` [#3725](https://github.com/emberjs/ember.js/pull/3725)
 
-     resolution: Alex will make sure docs are good, then this becomes a "Go"
+    resolution: Alex will make sure docs are good, then this becomes a "Go"
 
 * `ember-routing-bound-action-name` [#3936](https://github.com/emberjs/ember.js/pull/3936)
 
@@ -77,9 +76,9 @@ core team member and let them know!
     For example:
 
     ```javascript
-     App.Router.map(function() {
-       this.resource("home");
-     });
+    App.Router.map(function() {
+      this.resource("home");
+    });
     ```
 
     Prior to this feature `home.index` route would not be created for the above resource.
@@ -103,7 +102,6 @@ core team member and let them know!
 
     This should be totally backwards compatible unless someone is doing something extremely strange.
 
-
     resolution: make this work only for routes, not resources for now. The interim solution.
 
 * [FEATURE ember-document-title](https://github.com/emberjs/ember.js/pull/3689)
@@ -116,7 +114,6 @@ core team member and let them know!
     * [titleToken bound to controller/model properties](http://jsbin.com/ucanam/3303)
     * [Overriding doc.title format in deeper routes](http://jsbin.com/ucanam/3304)
 
-
     resolution: pause, until @wycats and @tomdale can review tokens behavior. Its getting close and we want this.
 
 * [Convert Checkbox and Select to Components.](https://github.com/emberjs/ember.js/pull/3935)
@@ -128,7 +125,4 @@ core team member and let them know!
     Let's just confirm what to use as a prefix. Is `QUnit.module` OK, or should we create our own
     (perhaps `EmberDev.module` or something)?
 
-
     resolution: "Go"
-
-

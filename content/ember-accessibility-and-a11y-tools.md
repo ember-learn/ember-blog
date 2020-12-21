@@ -32,7 +32,7 @@ yarn # or npm install
 
 Next, install ember-a11y-testing and start the app:
 
-```
+```bash
 ember install ember-a11y-testing
 ember server
 ```
@@ -117,7 +117,7 @@ To use this addon, wrap content in the ally-landmark block and say what kind of 
 
 And here's the html output with the correct role assigned:
 
-```
+```html
 <footer id="ember337" role="contentinfo" class="ember-view"> 
   This is a footer!
 </footer>
@@ -143,7 +143,7 @@ I learned from [Robert DeLuca](https://github.com/Robdel12) that [most front end
 
 While ember-a11y refers to a whole bunch of tools, there's one addon that is simply called [ember-a11y](https://github.com/ember-a11y/ember-a11y) too. The main task of this addon is to handle focus correctly so that users with Assistive Technology can navigate content as changes happen inside the `{{outlet}}` of a route. 
 
-```
+```bash
 ember install ember-a11y
 ```
 

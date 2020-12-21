@@ -49,7 +49,7 @@ improve. This benchmark shows time-to-initial render of
 [emberaddons.com](http://emberaddons.com/) measured using
 [ember-macro-benchmark](https://github.com/krisselden/ember-macro-benchmark):
 
-![](/images/blog/2017-07-03/initial-render.png)
+![A comparison render times among Ember 2.12, 2.13, and 2.14](/images/blog/2017-07-03/initial-render.png)
 
 We're continuing to make similar improvements across the Ember project
 libraries. By measuring the impact of these changes as we make them, we
@@ -189,13 +189,13 @@ applications.
 You may upgrade Ember CLI separately from Ember.js and Ember Data. To upgrade
 your projects using `yarn` run:
 
-```
+```bash
 yarn upgrade ember-cli
 ```
 
 To upgrade your projects using `npm` run:
 
-```
+```bash
 npm install --save-dev ember-cli
 ```
 
@@ -223,7 +223,7 @@ For example to generate an [`ember-cli-deploy`](http://ember-cli-deploy.com/)
 plugin use the `@ember-cli-deploy/plugin-blueprint` package ([repo on
 GitHub](https://github.com/ember-cli-deploy/plugin-blueprint)):
 
-```
+```bash
 ember new my-new-deploy-plugin -b @ember-cli-deploy/plugin-blueprint
 ```
 
@@ -257,7 +257,7 @@ instructions, please review the [Ember CLI 2.14.0 release page](https://github.c
 Ember CLI 2.15.0 will introduce improved error messages that appear in your browser.
 This change means less checking of the console for build errors. For example:
 
-![](/images/blog/2017-07-03/error.png)
+![A screenshot of improved error messages in Ember 2.15](/images/blog/2017-07-03/error.png)
 
 For more details on the changes in Ember CLI 2.15.0-beta.1 and detailed upgrade
 instructions, please review the [Ember CLI 2.15.0-beta.1 release page](https://github.com/ember-cli/ember-cli/releases/tag/v2.15.0-beta.1).

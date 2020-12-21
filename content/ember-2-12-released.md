@@ -195,13 +195,13 @@ applications.
 You may upgrade Ember CLI separately from Ember.js and Ember Data! To upgrade
 your projects using `yarn` run:
 
-```
+```bash
 yarn upgrade ember-cli
 ```
 
 To upgrade your projects using `npm` run:
 
-```
+```bash
 npm install --save-dev ember-cli
 ```
 

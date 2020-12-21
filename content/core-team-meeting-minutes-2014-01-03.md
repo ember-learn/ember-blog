@@ -39,8 +39,8 @@ gives a "go" or "no-go" vote to feature-flagged beta functionality.
 * address [https://github.com/emberjs/ember.js/issues/4050](https://github.com/emberjs/ember.js/issues/4050) (@stefanpenner)
 * ensure lookupFactory and creates with content
 
-    ```
-    {{#with foo controller=’someController}}
+    ```handlebars
+    {{#with foo controller=someController}}
     ```
 
 #### ember-metal-with-proxy: go

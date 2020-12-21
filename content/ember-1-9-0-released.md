@@ -50,7 +50,7 @@ bower install --save handlebars#2.0.0
 Additionally the template pre-compiler (installed via npm)
 will require an update:
 
-```
+```bash
 npm uninstall --save-dev broccoli-ember-hbs-template-compiler
 npm install --save-dev ember-cli-htmlbars@0.6.0
 ```
@@ -77,7 +77,8 @@ implementation then updated every Handlebars helper to the new API.
 Ember.js routes have long supported an `activate` and `deactivate` hook.
 For example:
 
-```app/routes/index.js
+```javascript
+// app/routes/index.js
 export default Ember.Route.extend({
   activate: function(){
     collectAnalytics();
@@ -87,7 +88,8 @@ export default Ember.Route.extend({
 
 Ember.js 1.9 introduces corresponding events for these hooks.
 
-```app/routes/index.js
+```javascript
+// app/routes/index.js
 export default Ember.Route.extend({
   collectAnalytics: function(){
     collectAnalytics();
@@ -213,7 +215,7 @@ smooth transition to release.
 To test your Ember-CLI codebase on Ember.js 1.10 and HTMLBars, follow these steps
 to upgrade Ember:
 
-```
+```bash
 rm -rf bower_components
 bower install --save ember#beta
 bower install
@@ -221,7 +223,7 @@ bower install
 
 Then update your template compiler to HTMLBars:
 
-```
+```bash
 npm uninstall --save-dev broccoli-ember-hbs-template-compiler
 npm install --save-dev ember-cli-htmlbars
 ```

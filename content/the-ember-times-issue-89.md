@@ -58,7 +58,7 @@ So if you have a good idea to help make MU a success Ember, **join the discussio
 
 The RFC proposes an extension to the angle bracket invocation syntax, namely introducing a **new syntax to handle named blocks** as seen below using the `<:>` and `</:>` syntax.
 
-```
+```text
 AngleBracketWithBlock :
   "<" ComponentTag ComponentArgs? BlockParams? ">"
   BlockBody
