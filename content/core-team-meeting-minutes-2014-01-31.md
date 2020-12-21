@@ -20,6 +20,7 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @wifelette, @wycats
 
 ### Go/No-Go Feature Listing
@@ -51,7 +52,7 @@ core team member and let them know!
     this a "No go"
 
 
-*  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
+* `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
 
     @wycats: aliased to short words in the examples, should be documented to match this?
     @ebryn:: new CP work may have issues, @wycats and @ebryn and David should talk.

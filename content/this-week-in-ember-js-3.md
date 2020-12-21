@@ -37,6 +37,7 @@ As always, check out [BREAKING_CHANGES](https://github.com/emberjs/data/blob/mas
 for information about updating your apps.
 
 ### DS.JSONSerializer
+
 In the last post we talked about the changes in the serialization API's renaming methods
 to remove the JSON specificity whilst adding hooks to manage relationship dirtiness.
 
@@ -78,6 +79,7 @@ properties on your instance. The old behavior is available via `createWithMixins
 This change should increase object creation performance by 2x.
 
 ### Other changes of note
+
 `reject` and `rejectProperty` methods have been added to `Ember.Enumerable`.
 
 `Ember.none` and `Ember.empty` have been renamed to `Ember.isEmpty` and `Ember.isNone`

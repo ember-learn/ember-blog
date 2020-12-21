@@ -300,6 +300,7 @@ Stef landing some commits on improving `pushPayload` calls and a [commit
 to Backburner][backburner-commit] improving many hot code paths in Ember Data.
 
 ### Better Support for Nested Records.
+
 `buildURL` now takes a record, on which you can look up the relationship if you
 need to build a nested URL. For example:
 

@@ -112,9 +112,11 @@ module API.
 #### Notable Bug Fixes
 
 ##### [PR #4025 Use keyForRelationship for belongsTo and hasMany](https://github.com/emberjs/data/pull/4025/)
+
 The `EmbeddedRecordsMixin` now uses [keyForRelationship](http://emberjs.com/api/data/classes/DS.RESTSerializer.html#method_keyForRelationship) to generate the serialized key for embedded relationships. Thanks to [@GCorbel](https://github.com/GCorbel) for this fix.
 
 ##### [PR #3866 Allow store.push to accept { data: null }](https://github.com/emberjs/data/pull/3866)
+
 The JSONAPISerializer now correctly accepts `{"data": null}` as a valid response instead of throwing an unhelpful error message. Thanks to [@mitchlloyd](https://github.com/mitchlloyd) for the [bug report](https://github.com/emberjs/data/issues/3790).
 
 

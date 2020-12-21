@@ -27,6 +27,7 @@ At last, there's news about **👩‍💻 Twiddle** as well as a nice **📹 vid
 ---
 
 ## [Organising the Organisers](https://emberjs.com/blog/2018/06/30/organizing-our-contributors.html)
+
 The Ember Team has published a new blog post outlining some **structural changes** to the **Core teams**. It contains two changes: A new Steering Committee and a renaming of some of the existing teams.
 
 The Steering Committee will be responsible for areas like community guidelines, managing Ember’s brand, dealing with legal questions and much more.
@@ -96,6 +97,7 @@ next major release. Read all about 👀 it on the Ember Blog:
 ---
 
 ## [Open Source Live](https://www.youtube.com/watch?v=Dx0vfMyQJMU&feature=youtu.be)
+
 Now that the Guides and Deprecations have been moved into Ember apps, [emberjs.com](https://emberjs.com/) needs to be moved to an Ember app too! [Chris Manson](https://github.com/mansona) and [Melanie Sumner](https://github.com/MelSumner) recorded their **latest pairing session**, where they are working on **adding the beta** [ember-learn/ember-styleguide](https://github.com/ember-learn/ember-styleguide) to the new [ember-learn/ember-website](https://github.com/ember-learn/ember-website) (a rewrite of [emberjs/website](https://github.com/emberjs/website) in Ember, so as to make it easier to contribute to). Check out the video to learn more about Learning Team happenings and pair programming for knowledge sharing!
 
 ---

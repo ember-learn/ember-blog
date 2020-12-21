@@ -43,6 +43,7 @@ If you would like to **chime in** and join the discussion be sure to check out t
 ---
 
 ## [A New and Dynamic RFC](https://github.com/cibernox/rfcs/blob/dynamic-tag-names/text/0000-dynamic-tag-names.md)
+
 [@cibernox](https://github.com/cibernox) has submitted a new RFC suggesting **dynamic tag names in glimmer templates**. In the transition from using inner-html semantics to using outer-html semantics in components there's one feature that has been lost: Being able to dynamically define the tag name of components.
 
 To solve this issue the RFC proposes a new `element` helper that takes a tag name and generates a contextual component that, when invoked, renders the selected element. Like this:

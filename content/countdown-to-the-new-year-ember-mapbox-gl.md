@@ -31,6 +31,7 @@ Yes, it's satisfying to solve the problem yourself, but it's smarter—and quick
 say, [building your own file uploader](https://emberobserver.com/?query=file%20upload).
 
 A cursory glance at the available mapping addons show up a few options:
+
 - [ember-mapbox-gl](https://github.com/kturney/ember-mapbox-gl) (Full disclosure: I'm a contributor, although [kturney](https://github.com/kturney) does most of the work!)
 - [ember-leaflet](https://github.com/miguelcobain/ember-leaflet)
 - [ember-google-maps](https://github.com/sandydoo/ember-google-maps)

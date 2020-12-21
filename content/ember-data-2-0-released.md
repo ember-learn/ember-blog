@@ -96,7 +96,7 @@ App.PostController = Ember.Controller.extend({
 });
 ```
 
-# Ember Data 2.1 Beta
+## Ember Data 2.1 Beta
 
 Ember Data data 2.1 will be the first release following Ember's 6 week
 release cycle. Rather then rush new features into the beta before they

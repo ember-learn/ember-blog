@@ -22,6 +22,7 @@ This week you can read all about a new RFC for **accessible routing** 🗺, angl
 ---
 
 ## [New RFC: Accessible Routing in Ember 🗺](https://github.com/emberjs/rfcs/pull/433)
+
 Currently, routing in Ember is not natively accessible for users with assistive technology. This means that whenever the user navigates to a new route within an Ember application, screen readers do not read out the new content or appropriately move focus. This new RFC by [@MelSumner](https://github.com/MelSumner) proposes a solution to this so **Ember routing can be natively accessible for users with assistive technology**.
 
 Feel free to read the [RFC](https://github.com/MelSumner/rfcs/blob/MelSumner-a11y-routing/text/0000-a11y-routing.md) and leave your thoughts as a comment.
@@ -35,6 +36,7 @@ A [quest issue](https://github.com/ember-learn/guides-source/issues/139) to conv
 ---
 
 ## [Decorate Today! The Ember Way! 📍](http://ember-decorators.github.io/ember-decorators/)
+
 [Ember Decorators](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) are the future of using Ember along with native Javascript classes. The addon [ember-decorators](https://github.com/ember-decorators/ember-decorators) allows you to use **"The Javascript of the Future, Today!"**
 Once you install it you will have a fully RFC compliant implementation of Ember Decorators.
 The [Ember Decorators RFC](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) was merged into the RFC repo about two weeks ago. It will take some time until this functionality is in Ember Core.

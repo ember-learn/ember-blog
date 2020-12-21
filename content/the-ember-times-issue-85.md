@@ -26,11 +26,13 @@ In this week's issue: watch the Ember.js Documentary 🍿, check out the Ember.j
 <!--alex ignore spa-->
 JavaScript was not always the dominant force in the web. Today a lot of SPA features we see around the web were pioneered by Ember. Explore the story of why and how Ember.js came to be in [Ember.js: The Documentary](http://videos.honeypot.io/emberjs-documentary-2019/)!
 
-Here are some quick snippets from the film:
+Here are a couple of quick snippets from the film. Tom Dale said:
 
-> “JavaScript frameworks don’t have to be disposable software. Web applications don’t have to be disposable software. You don’t need to tell your manager we need to stop writing any new features for the next 6 months because it’s been 2 years and we need to rewrite – Ember is a symbol of the fact that that is a false dichotomy.” - Tom Dale
+> JavaScript frameworks don’t have to be disposable software. Web applications don’t have to be disposable software. You don’t need to tell your manager we need to stop writing any new features for the next 6 months because it’s been 2 years and we need to rewrite – Ember is a symbol of the fact that that is a false dichotomy.
 
-> “I really hope the best of Ember is ahead because I think front end engineering needs it … needs an example of something that is not trying to tell people that when something goes wrong it’s their own fault. So like something that tells you if you’re a beginner like this is for you.” - Yehuda Katz
+Yahuda Katz said:
+
+> I really hope the best of Ember is ahead because I think front end engineering needs it … needs an example of something that is not trying to tell people that when something goes wrong it’s their own fault. So like something that tells you if you’re a beginner like this is for you.
 
 Check out the [full documentary](https://www.youtube.com/watch?v=Cvz-9ccflKQ) featuring [@wycats](https://github.com/wycats), [@tomdale](https://github.com/tomdale), [@wifelette](https://github.com/wifelette), [@GavinJoyce](https://github.com/GavinJoyce), [@balinterdi](https://github.com/balinterdi), [@MelSumner](https://github.com/MelSumner), [@jessica-jordan](https://github.com/jessica-jordan) and other members of the community on [YouTube](https://www.youtube.com/watch?v=Cvz-9ccflKQ)!
 

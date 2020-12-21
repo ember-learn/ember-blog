@@ -19,21 +19,23 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @rwjblue, @stefanpenner, @trek, @wycats, @wifelette
 
 ### Topics
 
 #### PRs/Issues To Review
+
 We reviewed the following PRs and Issues:
 
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
 
     Nothing new here. We're working very hard to get this correct the first time
     and have something to demo at EmberConf.
 
 * Move instanceMetas into object's meta [#4559](https://github.com/emberjs/ember.js/pull/4559)
 
-    InstanceMetas for objects' ReduceComputedPropertys are stored on the RCP instance (ie. on the descriptor) as `this._instanceMetas[key]` where key = guidOfTheObject + ':' + propertyName (see http://git.io/t9bKxA). The RCP can't know when the object is garbage collected, hence the _instanceMetas array grows unbounded.
+    InstanceMetas for objects' ReduceComputedPropertys are stored on the RCP instance (ie. on the descriptor) as `this._instanceMetas[key]` where key = guidOfTheObject + ':' + propertyName (see [http://git.io/t9bKxA](http://git.io/t9bKxA)). The RCP can't know when the object is garbage collected, hence the _instanceMetas array grows unbounded.
 
     Resolution: if David Hamilton +1’s, we merge as a bugfix.
 

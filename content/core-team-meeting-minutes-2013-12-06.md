@@ -23,11 +23,13 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @trek, @wagenet, @wycats
 
 ### Topics
 
 #### Transparency
+
 We've heard a few comments that people would like greater Core Team transparency.
 Since the weekly meetings are the only significant group communication that isn't
 public, we'll be posting notes from these meetings.
@@ -39,6 +41,7 @@ Resolutions:
     to contact individual core team members if they have issued they’d like raised.
 
 #### HTMLBars
+
 @wycats says it’s ready to hand off to someone else. 
 
 Resolutions:

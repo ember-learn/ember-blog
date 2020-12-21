@@ -20,16 +20,19 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @rwjblue, @stefanpenner, @tomdale, @trek, @wycats
 
 ### Topics
 
 ### Go/No-Go Feature Listing
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
      Still a no-go, while @machty and @wycats hash out the specifics
 
 
 ### PR's/Issues To Review
+
 * [canSetInnerHTML: IE cannot set innerHTML on several tags](https://github.com/emberjs/ember.js/pull/4496)
 
   IE doesn't support .innerHTML = on COL, COLGROUP, FRAMESET, HTML, STYLE, TABLE, TBODY, TFOOT, THEAD, TITLE, or TR.
@@ -45,7 +48,7 @@ core team member and let them know!
   My concern is the modification in this particular code path.
 
   Resolution: this used to be how create worked, but we moved away with this for performance reasons. `.extend`
-  is intended for design-time use, not runtime: use `.extend().create() or `.createWithMixins()`
+  is intended for design-time use, not runtime: use `.extend().create()` or `.createWithMixins()`
 
 * [Use injected test helpers instead of local functions.](https://github.com/emberjs/ember.js/pull/4520)
 

@@ -44,6 +44,7 @@ core team member and let them know!
 ### Topics
 
 ### Build Tools Redux Progresss
+
 When Ember.js took its first tentative steps into the world there existed no
 ecosystem of build tools for ambitious applications in the browser. Instead,
 we needed to [build these tools](https://github.com/livingsocial/rake-pipeline)
@@ -57,11 +58,11 @@ and better declare and manage our external dependencies.
 
 ### PR's/Issues To Review
 
-*  `ember-routing-linkto-target-attribute` [#4718](https://github.com/emberjs/ember.js/pull/4718)
+* `ember-routing-linkto-target-attribute` [#4718](https://github.com/emberjs/ember.js/pull/4718)
 
     Resolution: Good to merge into Canary, but not a "Go" yet.
 
-*  `ember-routing-will-change-hooks` [#4760](https://github.com/emberjs/ember.js/pull/4760)
+* `ember-routing-will-change-hooks` [#4760](https://github.com/emberjs/ember.js/pull/4760)
 
     Resolution: Good to merge into Canary, but not a "Go" yet.
 

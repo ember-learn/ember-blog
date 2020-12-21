@@ -20,11 +20,14 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @trek, @wagenet, @wycats
 
 
 ### Topics
+
 #### ES6ifying core
+
 Last month we completed the migration of [ember-data](https://github.com/emberjs) to the ES6 module syntax. This lets us use [clearer dependency declarations](https://github.com/emberjs/data/blob/master/packages/ember-data/lib/serializers/rest_serializer.js#L5-L8), stay clear of module syntax battles (you can export to whichever module format best conforms to your deeply held beliefs on JavaScript modules), and continues our pattern of bringing future JavaScript features to you today.
 
 Work has started on the [porting Ember.js to ES6 module syntax as well!](https://github.com/emberjs/ember.js/commit/8c0a52cb10efbaede8e14cca24fa5c05bcf121ff).
@@ -35,6 +38,7 @@ Resolution: @rwjblue hands off the grunt work to @trek and @fivetanley so he's n
 
 
 #### Ghost.js Admin
+
 The fine folks at [Ghost](https://ghost.org/) have hit a complexity ceiling with their current admin interface (a mixed client/server rendering solution with Backbone tossed in). They're [discussing various solutions for a rewrite](https://github.com/TryGhost/Ghost/issues/2144) and Ember.js is among the options.
 
 The core team discussed devoting some time to helping the Ghost team evaluate Ember.js as a possible solution.
@@ -43,6 +47,7 @@ If you'd like to help or weigh in – especially if you're a current Ghost user 
 Resolution: @trek will devote some time to helping the Ghost team. Possibly on a small spike.
 
 #### Getting rid of old Stack Overflow questions/answers
+
 We frequently get comments about older Stack Overflow questions and answers. Answers
 related to pre-release versions of Ember have a high likelihood of no longer being valid.
 Stack Overflow has a policy of not deleting questions related to older versions of software,
@@ -64,27 +69,28 @@ We're working to do some form of cleanup for questions like these. The first ste
 Resolution: @trek will get this list created somehow.
 
 #### Features pending 'Go' decision.
+
 The core team reviewed the following pull requests for future inclusion in the 1.6.x beta series:
 
-*  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
+* `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
     
       @stefanpenner and @tomdale still need to pow-wow on this.
 
       Resolution: @stefanpenner and @tomdale will speak.
 
-*  `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
+* `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
     @stefanpenner and @tomdale still need to pow-wow on this.
 
     Resolution: @stefanpenner and @tomdale will speak.
 
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
     
     @wycats and @machty continued discussion on lazy loading. Goal is to get it in during this beta cycle
   
     Resolution: @machty & @stefanpenner have a man-date to discuss lazy loading.
 
-*  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
+* `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
   
   Still blocked on [computed.literal](https://github.com/emberjs/ember.js/pull/4185)
 
@@ -92,16 +98,16 @@ The core team reviewed the following pull requests for future inclusion in the 1
   Resolution: The original behavior wasn't intended. Changing now might be breaking change
   in some people's apps. We'll put it through a multi-cycle deprecation/removal path.
 
-*  `ember-metal-computed-empty-array` [#4219](https://github.com/emberjs/ember.js/pull/4219)
+* `ember-metal-computed-empty-array` [#4219](https://github.com/emberjs/ember.js/pull/4219)
 
   Resolution: "Go". Upgrade to a Bugfix is it doesn't require a flag.
 
-*  `ember-runtime-test-friendly-promises` [#4176](https://github.com/emberjs/ember.js/pull/4176)
+* `ember-runtime-test-friendly-promises` [#4176](https://github.com/emberjs/ember.js/pull/4176)
 
   Resolution: Peter will try in [Skylight](https://www.skylight.io/)'s tests and
   offer feedback
 
-*  `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
+* `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
 
   Resolution: Already conceptually a "Go". @machty will make nestable routes in the next week or so so this can be merged.
 

@@ -39,11 +39,12 @@ Be sure to [read the original proposal over at Github](https://github.com/emberj
 ---
 
 ## [I'm willing to wait for it 🎶](https://github.com/emberjs/data/pull/5545)
+
 A new PR has been merged to Ember Data that improves your use of `async ... await` while simultaneously detecting asynchronous test leaks in their data layer.
 
 The feature works in non-production environments and they made sure that the test-waiter does not cause waiting by default in order to prevent breaking any apps that upgrade their version of Ember Data.
 
-This new feature comes with two feature flags `store.shouldTrackAsyncRequests `  and `store.generateStackTracesForTrackedRequests`. To learn all about them and some more information on this new feature, be sure to check out [the pull request](https://github.com/emberjs/data/pull/5545).
+This new feature comes with two feature flags `store.shouldTrackAsyncRequests` and `store.generateStackTracesForTrackedRequests`. To learn all about them and some more information on this new feature, be sure to check out [the pull request](https://github.com/emberjs/data/pull/5545).
 
 ---
 
@@ -59,6 +60,7 @@ Melanie mentioned how she practices **Servant Leadership** which she described a
 Sam and Melanie then talked about the native accessibility story for Ember going through the [ARIA spec](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA) and seeing if it makes sense to implement it in Ember. There are loads of opportunities here as even having a modal or select dropdown be both accessible and customizable would be a huge leap for web developers. Having that built into Ember by default will be a game changer.
 
 Click the links below watch the full interview:
+
 - 🎥 [EmberMap](https://embermap.com/topics/the-embermap-podcast/melanie-sumner-on-empowering-javascript-engineers)
 - 🎙️ [iTunes](https://itunes.apple.com/us/podcast/the-embermap-podcast/id1288274408?mt=2)
 - 📺 [YouTube](https://www.youtube.com/watch?v=KXFYNhNgn_Q)

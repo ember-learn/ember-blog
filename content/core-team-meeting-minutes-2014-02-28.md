@@ -20,10 +20,13 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @rwjblue, @stefanpenner, @tomdale, @trek, @wycats
 
 ### Topics
+
 #### Hello, Ghost
+
 A few weeks ago [@jacob4u2 reached out over twitter](https://twitter.com/jacob4u2/status/434059022220541952)
 to let us know the popular Node.js-based blogging platform [Ghost](https://ghost.org/) was looking to
 reinvent their admin interface and were discussing various browser JavaScript libraries. The
@@ -45,6 +48,7 @@ Resolution:
 
 
 #### ES6ifying core
+
 The migration of ember-metal, ember-runtime, and ember-debug to ES6-style modules is
 [completed but not yet merged](https://github.com/emberjs/ember.js/pull/4374).  In making
 large changes we're always especially cautious about accidentally breaking existing
@@ -62,22 +66,23 @@ Resolution:
 
 
 #### Features pending 'Go' decision.
+
 The core team reviewed the following pull requests for future inclusion in
 the 1.6.x beta series:
 
-*  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
+* `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
     Still blocked on module vs global object lookup form, which causes naming collisions.
 
     Resolution: will remain on canary until we've moved to modules and have a modular
     loader.
 
-*  `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
+* `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
     The original author has become unresponsive.
 
     Resolution: approach @mixonic to take over.
 
 
-*  `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
+* `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
 
     Resolution: It’s a go.
 

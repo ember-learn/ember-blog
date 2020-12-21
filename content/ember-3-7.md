@@ -27,6 +27,7 @@ You can read more about our general release process here:
 Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.7
+
 Ember.js 3.7 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations. There is zero (0) new feature, zero (0) deprecations, and three (3) bugfixes in this 3.7 version.
 
 Note that in Ember.js 3.7 support for Node 4 has been explicitly dropped. Node 4 is no longer supported by the Node.js team either, and that Ember CLI had already dropped support in early 2018. This means that if you are on Node 4 and want to upgrade you will need to upgrade your version of Node first.

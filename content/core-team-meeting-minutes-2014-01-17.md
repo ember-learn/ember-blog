@@ -20,9 +20,11 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @trek, @wagenet, @wycats, @wifelette
 
 ### Pending Go/No-Go
+
 We received feedback that too many flagged features in canary were
 not getting enough discussion from the core team early in the release cycle.
 
@@ -44,6 +46,7 @@ vote:
 * [ember-eager-url-update](https://github.com/emberjs/ember.js/pull/4122)
 
 #### [string-humanize](https://github.com/emberjs/ember.js/pull/3224) and [string-parameterize](https://github.com/emberjs/ember.js/pull/3953)
+
 There is a concern that this increases the surface area of API and the size of the framework
 without providing enough benefit that is unique to Ember.js. If the package manager ecosystem
 for browser JavaScript were more mature, these would clear cases for community contribution.
@@ -57,6 +60,7 @@ Resolutions:
 
 
 #### [ember-handlebars-caps-lookup](https://github.com/emberjs/ember.js/pull/3218)
+
 A bare capitalized word in Handlebars should look up on current scope.
 `{{CONSTANT}}` and `{{#each CONSTANT}}` did global lookup mostly by side effect, 
 this was not intended API, but we need to think through backwards compatibility
@@ -85,6 +89,7 @@ Resolutions:
 * @ebryn will provide feedback on the PR
 
 #### [composable-computed-properties](https://github.com/emberjs/ember.js/pull/3696)
+
 Possibly still needs some work (there some unhandled todos)? Will be a "go" when
 these are addressed.
 
@@ -93,6 +98,7 @@ Resolutions:
 * @trek will ask about the status of remaining todos
 
 #### [query-params-new](https://github.com/emberjs/ember.js/pull/4008)
+
 @wycats and @machty chatted about some last minute issues. This PR should be good soon.
 The removal of query prefixing should provide a nicer query string  (the `[]` prefixing only
 happens if two controllers in same hierarchy have the same parameter name).
@@ -103,6 +109,7 @@ Resolutions:
 
 
 #### [ember-routing-loading-error-substates](https://github.com/emberjs/ember.js/pull/3655)
+
 Currently `state/loading` and `state_loading` both reify into StateLoading under the current
 resolver. Custom resolvers (like those in EmberAppKit) don't have this issue, but the global
 resolver does. We can't make this work until modularization is done.

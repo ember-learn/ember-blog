@@ -144,6 +144,7 @@ the transform.
 
 
 ##### Example
+
 ```app/models/post.js
 export default DS.Model.extend({
   title: DS.attr('string'),

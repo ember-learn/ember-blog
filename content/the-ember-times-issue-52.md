@@ -41,6 +41,7 @@ by making use of the addon `ember-decorators` - seeing the classy ✨ future of 
 
 Now the follow-up [Native Class Roadmap RFC](https://github.com/emberjs/rfcs/pull/338) from the author of [RFC#240](https://emberjs.github.io/rfcs/0240-es-classes.html) has made its debut.
 It explains how several changes to the current API of `EmberObject`
+
 - including an [update](#toc_a-href-https-github-com-emberjs-rfcs-pull-337-native-class-constructor-update-a) to how the `constructor` method operates -
 will be necessary to make ES Classes true first-class citizens in the Ember ecosystem
 and how `EmberObject` can be safely deprecated in the further future.
@@ -89,6 +90,7 @@ The RFC states that, in this possible scenario, users would drop `EmberObject` i
 ---
 
 ## [New Tutorial on Accessibility](https://emberjs.com/blog/2018/06/17/ember-accessibility-and-a11y-tools.html)
+
 Ever wondered how to write accessible Ember apps? Jen Weber wrote a [great tutorial](https://emberjs.com/blog/2018/06/17/ember-accessibility-and-a11y-tools.html) explaining all you need to get started. She takes you through setting up `ember-a11y-testing`, a tool made to do automated accessibility testing, adding accessibility checks to rendering tests and how to fix the issues found.
 
 The tutorial ends with a nice section on what to do next. One thing is automated testing but as developers our responsibility is much bigger than that.

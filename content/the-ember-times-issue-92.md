@@ -29,6 +29,7 @@ The **video** recordings of **EmberConf 2019** are now available! But first, rea
 [@lisaychuang](https://twitter.com/lisaychuang) shares her experience from this year’s EmberConf, and encourages newcomers in any tech community to **attend a tech conference** (and possibly **volunteer**!).
 
 As a volunteer, you can get:
+
 * A warm welcome to the community
 * Behind the scene access
 * A chill home base during the conference

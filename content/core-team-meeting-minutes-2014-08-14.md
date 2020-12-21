@@ -46,16 +46,18 @@ core team member and let them know!
 [@wycats](https://twitter.com/wycats)
 
 ### Explore using Lodash
+
 We reviewed a [PR that replaces Ember builtin array extensions internals with Lodash](https://github.com/emberjs/ember.js/pull/5019).
 
 Assuming no performance regressions, we're in favor.
 
 ### Guides and API versioned and subdomained
+
 Currently the Guides and API are not versioned, which increasingly leads to
 pain around new feature documentation. The plan is to beging publishing guides
 and API to a subdomains and version them:
 
-* http://guides.emberjs.com/ (defaults to latest)
-* http://guides.emberjs.com/1.8
-* http://api.ember.js.com/ (defaults to latest)
-* http://api.ember.js.com/1.8
+* [http://guides.emberjs.com/](http://guides.emberjs.com/) (defaults to latest)
+* [http://guides.emberjs.com/1.8](http://guides.emberjs.com/1.8)
+* [http://api.ember.js.com/](http://api.ember.js.com/) (defaults to latest)
+* [http://api.ember.js.com/1.8](http://api.ember.js.com/1.8)

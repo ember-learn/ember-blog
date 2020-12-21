@@ -41,6 +41,7 @@ core team member and let them know!
 [@wycats](https://twitter.com/wycats)
 
 ### Path to Core
+
 Members of the community who have a sustained and significant contribution to
 Ember.js are invited to join the core team and help us guide the framework's
 future direction. Members we'd like to add are put on the "path to core" and

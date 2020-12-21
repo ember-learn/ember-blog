@@ -20,13 +20,14 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @rwjblue, @stefanpenner, @tomdale, @trek, @wycats
 
 ### Topics
 
 #### Features pending 'Go' decision. [Tracking Issue](https://github.com/emberjs/ember.js/issues/4052)
 
-*  `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
+* `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
     Resolution: Go
 
 ### PR's/Issues To Review
@@ -44,6 +45,7 @@ core team member and let them know!
     ```
 
     or
+
     ```
     /blog/somepost?comments=true
     then navigate to
@@ -54,6 +56,7 @@ core team member and let them know!
     ```
 
     Possible opt-out via helper?
+
     ```
     {{link-to ‘Home’ ‘home’ (query-params sort=null)}}
     ```
@@ -72,7 +75,7 @@ core team member and let them know!
         pressing the back button will be "sticky" since the previous values on the controller will be
         restored based on the previous URL.
 
-      Example JSBin: http://emberjs.jsbin.com/ucanam/4102
+      Example JSBin: [http://emberjs.jsbin.com/ucanam/4102](http://emberjs.jsbin.com/ucanam/4102)
 
       Resolution: Sticky by default, with appropriate escape valves to opt out per route change
 
@@ -151,7 +154,6 @@ core team member and let them know!
     > changed upstream (in Handlebars itself), but as I reviewed (to let you know where that change
     > would be needed) I realized that this PR is simply exposing the functionality that already
     > exists within Handlebars, but is not exposed to `Ember.Handlebars.precompile`.
-
     > As such, I think that we should likely re-evaluate the prior decision.
 
     Resolution. Ship it. This just passes from Handlebars to Ember.Handlebars

@@ -20,11 +20,13 @@ If you have a topic you'd like to see covered, contact your favorite
 core team member and let them know!
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @trek, @wagenet, @wycats
 
 ### Topics
 
 #### Features pending 'Go' decision.
+
 The core team reviewed the following pull requests for inclusion in the 1.5.x beta series:
 
 * `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
@@ -78,6 +80,7 @@ The core team reviewed the following pull requests for inclusion in the 1.5.x be
     resolution: Still "No go", tokenization needs some polish related to nested resources
 
 #### Features currently slated for 1.5.0 beta series
+
 The core team reviewed the following pull requests for already enabled in canary builds for inclusion in the 1.5.x beta series. All still have a "Go" vote.
 
 * `ember-testing-routing-helpers` [#3711](https://github.com/emberjs/ember.js/pull/3711)
@@ -90,6 +93,7 @@ The core team reviewed the following pull requests for already enabled in canary
 
 
 #### Feature Process
+
 We reviewed the a proposed change to the process for adding features. This isn't a major departure, just an iteration
 on what we are currently doing:
 
@@ -114,5 +118,6 @@ Process:
 resolution: "Go" and CONTRIBUTOR.md should be update accordingly.
 
 #### Security Process
+
 Currently we do security releases all the way back to 1.0.x. At some point that will be untenable (not yet though).
 There was some discussions about Long Term Support release structures: every odd/even becomes LTS, or even 5th release, or we only support previous three revisions (which would be all releases in the last 4.5 months with our current release model).

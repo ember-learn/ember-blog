@@ -23,11 +23,13 @@ This week's core team meeting was rescheduled from Friday, January 24 to Monday,
 due to the Google outage that affected Google Hangouts.
 
 #### Attendees
+
 @ebryn, @krisselden, @machty, @stefanpenner, @tomdale, @trek, @wagenet, @wycats
 
 ### Topics
 
 #### Issues Discussion:
+
 The core team discussed the following Github Issues
 
 * `ember-routing-auto-location` [#3725](https://github.com/emberjs/ember.js/pull/3725).

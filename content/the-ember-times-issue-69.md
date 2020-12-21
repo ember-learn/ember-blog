@@ -23,6 +23,7 @@ This week we're discussing 4️⃣ fresh RFCs 🥑: bringing truth helpers to Em
 ---
 
 ## [Help Yourselves to Default Template Helpers 🍽️](https://github.com/emberjs/rfcs/pull/388)
+
 If you find yourself often reaching for the addon [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) in your templates then this [new RFC by @cibernox](https://github.com/emberjs/rfcs/pull/388) is for you. This **Request for Comments (RFC)** proposes bringing in some of the **template helpers** in `ember-truth-helpers` into **Ember Core**.
 
 The reasoning behind this is that a few helpers from this addon are so common in Ember apps that it makes sense to add them into Ember Core itself to **reduce the friction** of needing to install an addon to get them.
@@ -54,6 +55,7 @@ Curious to know more? Here's the [full proposal](https://github.com/emberjs/rfcs
 ---
 
 ## [We've Got You Covered ⛑](https://github.com/emberjs/ember.js/pull/16910)
+
 You might have noticed that sometimes when a new release of Ember is out some API documentation can disappear. This happens when code gets moved around in Ember, such as putting functions in their own modules, which makes it easy to make mistakes that impact the documentation parser. [@ef4](https://github.com/ef4) added [test coverage](https://github.com/emberjs/ember.js/pull/16910) for exactly these cases.
 
 This means that when a new release is prepared these tests will most likely catch any unintentional documentation changes.
