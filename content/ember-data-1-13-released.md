@@ -105,7 +105,7 @@ that has gone into Ember Data:
 
 As always this release can be obtained from npm (for
 use with ember-cli), rubygems, or bower. The builds are also available
-as static files at [http://emberjs.com/builds]().
+as static files at [http://emberjs.com/builds](http://emberjs.com/builds).
 
 ## New Features
 
