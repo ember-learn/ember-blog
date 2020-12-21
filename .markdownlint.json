@@ -8,7 +8,6 @@
   "no-trailing-spaces": false,
   "no-multiple-blanks": false,
   "MD007": { "indent": 4 },
-  "MD031": false,
   "MD032": false,
   "MD034": false,
   "MD038": false,

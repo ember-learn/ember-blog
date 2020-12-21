@@ -45,6 +45,7 @@ core team member and let them know!
     ```
 
     or
+
     ```
     /blog/somepost?comments=true
     then navigate to
@@ -55,6 +56,7 @@ core team member and let them know!
     ```
 
     Possible opt-out via helper?
+
     ```
     {{link-to ‘Home’ ‘home’ (query-params sort=null)}}
     ```

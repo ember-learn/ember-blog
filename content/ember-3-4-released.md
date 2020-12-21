@@ -114,6 +114,7 @@ export default {
  initialize
 };
 ```
+
 Next, you can create a new component class depending on this component manager using the `setComponentManager` util as follows:
 
 ```js

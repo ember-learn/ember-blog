@@ -146,6 +146,7 @@ While ember-a11y refers to a whole bunch of tools, there's one addon that is sim
 ```
 ember install ember-a11y
 ```
+
 Install it and replace instances of `{{outlet}}` with 
 `{{focusing-outlet}}`.
 

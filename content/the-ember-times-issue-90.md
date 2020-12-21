@@ -71,6 +71,7 @@ An example: The following usages are equivalent:
 ```handlebars
 <div {{on "click" this.handleClick passive=true}}></div>
 ```
+
 ```js
 element.addEventListener('click', this.handleClick, { passive: true });
 ```

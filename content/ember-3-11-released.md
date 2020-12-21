@@ -112,6 +112,7 @@ export default Component.extend({
   })
 }
 ```
+
 ```hbs
 Current count: {{this.count}}
 
