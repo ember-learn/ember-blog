@@ -101,7 +101,7 @@ Process:
     * PR is merged so makes it into a canary build
 * Feature is added to [Features Pending 'Go' Decision](https://github.com/emberjs/ember.js/issues/4052) Issue
 * New Issue is created with a check-list of items to be completed prior to receiving a 'Go' vote. 
-  This should include at least the following entries:
+  * This should include at least the following entries:
     * Security Audit
     * Core Team Sign-off
   * Should be given a special tag (to make it easy to find later)

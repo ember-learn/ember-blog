@@ -49,16 +49,16 @@ We reviewed the following PRs and Issues:
 
     Resolution: Seems reasonable. Merge
 
-* Deprecate App.Store in favor of App.ApplicationStore [#1808](https://github.com/emberjs/data/pull/1808)
+  * Deprecate App.Store in favor of App.ApplicationStore [#1808](https://github.com/emberjs/data/pull/1808)
 
-  This makes the application level store lookup much closer to the reset of our conventions (ala `App.ApplicationAdapter` and `App.ApplicationSerializer`).
+    This makes the application level store lookup much closer to the reset of our conventions (ala `App.ApplicationAdapter` and `App.ApplicationSerializer`).
 
-  This change also allows specifying a custom store when using non-global resolver (i.e. EAK/ember-cli). Previously, we were only looking for a property `Store` hung off of the application instance. Now you can have a module named (in the case of stock EAK setup):
-   `app/stores/application` or `app/application/store.js` (pods structure).
+    This change also allows specifying a custom store when using non-global resolver (i.e. EAK/ember-cli). Previously, we were only looking for a property `Store` hung off of the application instance. Now you can have a module named (in the case of stock EAK setup):
+     `app/stores/application` or `app/application/store.js` (pods structure).
 
-  A deprecation warning was added, and the prior technique still works so this is not a breaking change (although I believe that we should remove before the prior lookup prior to 1.0).
+    A deprecation warning was added, and the prior technique still works so this is not a breaking change (although I believe that we should remove before the prior lookup prior to 1.0).
 
-  Resolution: Seems reasonable. Merge
+    Resolution: Seems reasonable. Merge
 
 
 
