@@ -32,7 +32,7 @@ What's in store for the future? The [project](https://github.com/ember-learn/emb
 
 ## [Ember tutorials on MDN 🎉](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials)
 
-[Preston Sego (@NullVoxPopuli)](https://github.com/nullvoxpopuli) shared the [news](https://twitter.com/nullvoxpopuli/status/1262124413794881541) that [Ember tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials) are now on the Mozilla Developer Network (MDN) web docs, along with React and Vue! It's awesome to see Ember included in [MDN](https://developer.mozilla.org/), one of the most respected resources on the web for frontend developers. 
+[Preston Sego (@NullVoxPopuli)](https://github.com/nullvoxpopuli) shared the [news](https://twitter.com/nullvoxpopuli/status/1262124413794881541) that [Ember tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials) are now on the Mozilla Developer Network (MDN) web docs, along with React and Vue! It's awesome to see Ember included in [MDN](https://developer.mozilla.org/), one of the most respected resources on the web for frontend developers.
 
 In the [Ember tutorial](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks#Ember_tutorials), you'll build a **TodoMVC app in Ember**. You can verify your code with the [tutorial code repository](https://github.com/NullVoxPopuli/ember-todomvc-tutorial/tree/master/steps/00-finished-todomvc/todomvc) and also check out a [live deployed version](https://nullvoxpopuli.github.io/ember-todomvc-tutorial/). Thank you @NullVoxPopuli for your efforts in getting the word out about Ember! 👏
 
@@ -43,11 +43,11 @@ In the [Ember tutorial](https://developer.mozilla.org/en-US/docs/Learn/Tools_and
 
 RFC Final Comment Period (FCP) closing alert 🚨!
 
-The ✨awesome ✨ Request for Comments (RFC) by [Mehul Kar (@mehulkar)](https://github.com/mehulkar) about changing the name of an Ember app's test directories to be more in sync with naming provided in the official guides has entered the last week of FCP. 
+The ✨awesome ✨ Request for Comments (RFC) by [Mehul Kar (@mehulkar)](https://github.com/mehulkar) about changing the name of an Ember app's test directories to be more in sync with naming provided in the official guides has entered the last week of FCP.
 
 The RFC proposes that this unification could make it easier to have a shared language between tests, and would reduce confusion for newer users when using Ember CLI.
 
-If you're interested in the subject and have opinions you want to voice, now would be a good time to head on over to the [RFC](https://github.com/emberjs/rfcs/pull/575) and provide some feedback. 
+If you're interested in the subject and have opinions you want to voice, now would be a good time to head on over to the [RFC](https://github.com/emberjs/rfcs/pull/575) and provide some feedback.
 
 ---
 

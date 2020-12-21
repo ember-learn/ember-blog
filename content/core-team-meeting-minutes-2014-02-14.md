@@ -10,10 +10,10 @@ tags:
 ---
 
 
-Although most of our collaboration takes place on Github, IRC 
+Although most of our collaboration takes place on Github, IRC
 (`#emberjs` on freenode.net), and our [Discourse site](http://discuss.emberjs.com/)
-the [Ember.js Core Team](/team) meets privately every 
-Friday at 2pm EST/11am PST through Google Hangout for a weekly 
+the [Ember.js Core Team](/team) meets privately every
+Friday at 2pm EST/11am PST through Google Hangout for a weekly
 discussion of all things Ember.
 
 If you have a topic you'd like to see covered, contact your favorite
@@ -52,7 +52,7 @@ We frequently get comments about older Stack Overflow questions and answers. Ans
 related to pre-release versions of Ember have a high likelihood of no longer being valid.
 Stack Overflow has a policy of not deleting questions related to older versions of software,
 but we think pre-release software is exceptional for a few reasons:
-    
+
 * pre-release software is often undocumented and unfinished, leading people to use
     Stack Overflow as a place to find answers at higher rates than for relased software
 * people should not continue using pre-release software for long after an official
@@ -73,7 +73,7 @@ Resolution: @trek will get this list created somehow.
 The core team reviewed the following pull requests for future inclusion in the 1.6.x beta series:
 
 * `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
-    
+
       @stefanpenner and @tomdale still need to pow-wow on this.
 
       Resolution: @stefanpenner and @tomdale will speak.
@@ -85,7 +85,7 @@ The core team reviewed the following pull requests for future inclusion in the 1
     Resolution: @stefanpenner and @tomdale will speak.
 
 * `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
-    
+
     @wycats and @machty continued discussion on lazy loading. Goal is to get it in during this beta cycle
   
     Resolution: @machty & @stefanpenner have a man-date to discuss lazy loading.
@@ -115,7 +115,7 @@ The core team reviewed the following pull requests for future inclusion in the 1
 * [BUGFIX beta Still update HTML5 history if the previous state was null](https://github.com/emberjs/ember.js/pull/4235)
 
   iframes may set null values onto the HTML5 history state. The router will sometimes pick up the null value as current
-  instead of the window's nominal state (which was set by Ember). The old logic required that a prior state be present, 
+  instead of the window's nominal state (which was set by Ember). The old logic required that a prior state be present,
   this logic allows a null state to be replaced or pushed over.
 
 

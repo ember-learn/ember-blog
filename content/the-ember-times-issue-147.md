@@ -67,15 +67,15 @@ Do you follow a similar pattern or have another approach to autosaving your user
 
 ## [Embroider & memoization RFCs entered Final Comment Period 💬](https://github.com/emberjs/rfcs/pulls)
 
-In case you missed it, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their Final Comment Period (FCP) on May 1. And [memoizing functions](https://github.com/emberjs/rfcs/pull/615) was merged in today! 
+In case you missed it, the RFCs for [Embroider](https://github.com/emberjs/rfcs/pull/507) and [memoizing functions](https://github.com/emberjs/rfcs/pull/615) entered their Final Comment Period (FCP) on May 1. And [memoizing functions](https://github.com/emberjs/rfcs/pull/615) was merged in today!
 
 ---
 
 ## [ember-keyboard RFC ⌨️](https://github.com/adopted-ember-addons/ember-keyboard/pull/135)
 
-If you've ever wondered about some of the finer details of the `code` and `key` properties of keyboard events in modern browsers, you may want to check out [Luke Melia's (@lukemelia)](https://github.com/lukemelia) recent [RFC](https://github.com/adopted-ember-addons/ember-keyboard/pull/135) for `ember-keyboard`. 
+If you've ever wondered about some of the finer details of the `code` and `key` properties of keyboard events in modern browsers, you may want to check out [Luke Melia's (@lukemelia)](https://github.com/lukemelia) recent [RFC](https://github.com/adopted-ember-addons/ember-keyboard/pull/135) for `ember-keyboard`.
 
-In case you didn't know, `ember-keyboard` is a ✨fantastic✨ Ember addon for the painless support of keyboard events. 
+In case you didn't know, `ember-keyboard` is a ✨fantastic✨ Ember addon for the painless support of keyboard events.
 
 <!-- alex ignore just-->
 The team that supports `ember-keyboard` could really use community feedback on this one so if you're a user of the addon, interested in the subject or just feel like helping out, please head on over to the RFC and comment!

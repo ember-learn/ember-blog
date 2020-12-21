@@ -19,7 +19,7 @@ Additionally, versions 3.4 of Ember, Ember CLI, and Ember Data are now promoted 
 Term Support. An LTS version of Ember continues to receive security updates
 for 9 release cycles (54 weeks)
 and bugfixes for 6 cycles (36 weeks).
-LTS releases typically occur every four minor versions. 
+LTS releases typically occur every four minor versions.
 The previous LTS version for Ember was 2.18. 3.4 is the first LTS for
 Ember CLI and Ember Data.
 
@@ -40,10 +40,10 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.5
 
-Ember.js 3.5 is an incremental, backwards compatible release of Ember with bugfixes. 
+Ember.js 3.5 is an incremental, backwards compatible release of Ember with bugfixes.
 It is common for minor releases to provide bugfixes that pave the way for
 release of new features in future releases.
-There are zero (0) new features, zero (0) deprecations, and two (2) small 
+There are zero (0) new features, zero (0) deprecations, and two (2) small
 bugfixes in this version.
 Contributors to the Ember.js codebase itself should note that it now uses
 Typescript 3.0 internally.
@@ -136,8 +136,8 @@ The milestone is the release of `3.4 LTS`, our very first `LTS` release! From he
 
 Broccoli is an asset pipeline used by Ember. For quite a long time, tools in the Ember
 Ecosystem relied on a fork of Broccoli. However, as of this release, Ember CLI now uses
-[Broccoli 2.0](https://github.com/broccolijs/broccoli) directly! 
-See [this Ember.js Times Reader's question](https://discuss.emberjs.com/t/readers-questions-why-does-ember-use-broccoli-and-how-is-it-different-from-webpack-rollup-parcel/15384) 
+[Broccoli 2.0](https://github.com/broccolijs/broccoli) directly!
+See [this Ember.js Times Reader's question](https://discuss.emberjs.com/t/readers-questions-why-does-ember-use-broccoli-and-how-is-it-different-from-webpack-rollup-parcel/15384)
 to learn more about what makes Broccoli awesome and why it is used instead of Parcel or Webpack.
 Many thanks to contributors and maintainers of Broccoli who helped with the migration.
 

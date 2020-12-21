@@ -9,10 +9,10 @@ tags:
 ---
 
 
-Although most of our collaboration takes place on Github, IRC 
+Although most of our collaboration takes place on Github, IRC
 (`#emberjs` on freenode.net), and our [Discourse site](http://discuss.emberjs.com/)
-the [Ember.js Core Team](/team) meets privately every 
-Friday at 2pm EST/11am PST through Google Hangout for a weekly 
+the [Ember.js Core Team](/team) meets privately every
+Friday at 2pm EST/11am PST through Google Hangout for a weekly
 discussion of all things Ember.
 
 We want to ensure that our process and thinking is totally transparent
@@ -42,7 +42,7 @@ Resolutions:
 
 #### HTMLBars
 
-@wycats says it’s ready to hand off to someone else. 
+@wycats says it’s ready to hand off to someone else.
 
 Resolutions:
   

@@ -71,7 +71,7 @@ Read more about this deprecation in [the RFC](https://github.com/emberjs/rfcs/bl
 
 ##### Deprecate `Ember.$()` (6 of 6)
 
-Using `Ember.$()` will now throw a deprecation warning. 
+Using `Ember.$()` will now throw a deprecation warning.
 
 What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
 

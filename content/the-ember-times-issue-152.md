@@ -51,7 +51,7 @@ To learn more about modern keyboard API and your migration path, we encourage yo
 
 - [Official documentation](http://adopted-ember-addons.github.io/ember-keyboard/)
 - [v6.0.0 changelog](https://github.com/adopted-ember-addons/ember-keyboard/blob/v6.0.0/CHANGELOG.md)
-- [API design](https://github.com/adopted-ember-addons/ember-keyboard/blob/master/API-DESIGN.md) 
+- [API design](https://github.com/adopted-ember-addons/ember-keyboard/blob/master/API-DESIGN.md)
 - [Migration example from `crates.io`](https://github.com/rust-lang/crates.io/pull/2563)
 
 Last but not least, don't forget to thank [Luke Melia (@lukemelia)](https://github.com/lukemelia), [Sean Clark (@optikalefx)](https://github.com/optikalefx), [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli), [Matt McManus (@mattmcmanus)](https://github.com/mattmcmanus), [Sean Juarez (@seanCodes)](https://github.com/seanCodes), and [Ben Demboski (@bendemboski)](https://github.com/bendemboski) for shaping the new `ember-keyboard` API.
@@ -74,7 +74,7 @@ Have you wanted to use [`ember-concurrency`](https://github.com/machty/ember-con
 
 The main advantage of the async method syntax over the default `ember-concurrency` generator method syntax is that it works better with the TypeScript compiler and things powered by it, such as the JavaScript language server in Visual Studio Code. Due to the fact that TypeScript already understands the `await` keyword natively, the compiler understands that yielding a value "returns" its resolved value - something not possible with generator method syntax.
 
-Head on over to the [repo](https://github.com/chancancode/ember-concurrency-async) to learn more and take a look at some examples of how `ember-concurrency-async` can help you write `ember-concurrency` tasks in TypeScript. 
+Head on over to the [repo](https://github.com/chancancode/ember-concurrency-async) to learn more and take a look at some examples of how `ember-concurrency-async` can help you write `ember-concurrency` tasks in TypeScript.
 
 ---
 
@@ -84,7 +84,7 @@ Hot 🔥 off the press is a brand new [RFC](https://github.com/emberjs/rfcs/pull
 
 As part of the effort to make new Ember apps more conformant for digital accessibility requirements at a global scale, this RFC proposes an interactive workflow for new Ember apps. This will also have the benefit of assisting new users who prefer an interactive model of new app creation.
 
-This new wizard for creating Ember apps would prompt users who type `ember new` into their command line with a series of questions that will help in defining certain aspects of their app, including whether the app is an app or addon, the app name, what the spoken/content language is, and what dependency manager and CI system are used. 
+This new wizard for creating Ember apps would prompt users who type `ember new` into their command line with a series of questions that will help in defining certain aspects of their app, including whether the app is an app or addon, the app name, what the spoken/content language is, and what dependency manager and CI system are used.
 
 If you have ideas about this exciting addition to Ember tooling please head on over to the [RFC](https://github.com/emberjs/rfcs/pull/638) and share your thoughts.
 

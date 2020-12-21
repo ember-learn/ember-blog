@@ -51,9 +51,9 @@ Read the full RFC: [emberjs/rfcs#294](https://github.com/emberjs/rfcs/blob/maste
 Implemented deprecation of `Ember.Map`, `Ember.MapWithDefault`, and `Ember.OrderedSet` because not only were they private classes, they had also remained unused in Ember for some time now. Read the full (rendered) RFC: [emberjs/rfc#237](https://github.com/emberjs/rfcs/blob/master/text/0237-deprecation-ember-map.md)
 
 **deprecation of copy/copyable (3 of 3)**
-We've implemented deprecation of `Ember.copy` and `Ember.Copyable` - the `copy` function and `Copyable` mixin of `@ember/object/internals`. Ember isn't using it internally- it's leftover from SproutCore(!), and we're at the point where we realized we could clean this one up. 
+We've implemented deprecation of `Ember.copy` and `Ember.Copyable` - the `copy` function and `Copyable` mixin of `@ember/object/internals`. Ember isn't using it internally- it's leftover from SproutCore(!), and we're at the point where we realized we could clean this one up.
 
-Shallow copies of the form `copy(x)` or `copy(x, false)` can be replaced mechanically with `Object.assign({}, x)`. 
+Shallow copies of the form `copy(x)` or `copy(x, false)` can be replaced mechanically with `Object.assign({}, x)`.
 
 If you're using it in your addon, you might want to read the entire text of the RFC for advice on how to replace this in your addon: [emberjs/rfcs#322](https://github.com/emberjs/rfcs/blob/master/text/0322-deprecate-copy-copyable.md).
 

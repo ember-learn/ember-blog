@@ -18,7 +18,7 @@ tags:
 Hacktoberfest 2020 events and info 🎃,
 read the new RFC to deprecate `tryInvoke` 📜,
 tips for switching from Ember Data to Ember Orbit 💡,
-read the blog post on Ember Octane with Glimmer Components ✨, 
+read the blog post on Ember Octane with Glimmer Components ✨,
 and last, but not least, September EmberJS Chennai Meetup 🇮🇳 !
 
 <!-- READMORE -->

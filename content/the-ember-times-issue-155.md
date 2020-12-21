@@ -93,7 +93,7 @@ Please show support by sharing the tutorial with people who are looking to devel
 Interested in helping Ember.js 🔥 get the recognition it deserves among other frontend tools? You may want to participate in the [State of Frontend Survey](https://tsh.io/state-of-frontend/).
 
 <!--alex ignore easy of-course-->
-This survey aims to assess frontend developers' work. It gives us a chance to provide input on tooling that we use (Ember, of course!). 
+This survey aims to assess frontend developers' work. It gives us a chance to provide input on tooling that we use (Ember, of course!).
 
 It also allows participants the opportunity to comment on tooling they would like to learn and provide thoughts about the future of frontend development trends.
 

@@ -27,7 +27,7 @@ and last, but not least, document Ember apps with Docfy 📗!
 
 ## [Ember 3.20 Released 🚀](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html)
 
-A new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) is up to announce the release of version 3.20 of Ember.js, Ember Data and Ember CLI! 
+A new [Ember.js blog post](https://blog.emberjs.com/2020/07/29/ember-3-20-released.html) is up to announce the release of version 3.20 of Ember.js, Ember Data and Ember CLI!
 
 3.20 includes several new features for the ecosystem.
 
@@ -108,7 +108,7 @@ There's an interesting perspective about how your team might handle usage of Emb
 
 The post indicates that in order to avoid introducing breaking changes you may want to consider not extending `Ember.Component` since `GlimmerComponent` does not have the same methods to support such extension.
 
-This blog post continues the conversation Mehul started in [an RFC](https://github.com/emberjs/rfcs/issues/587) on the subject earlier this year that proposes making `@ember/component` an optional feature. Conversations like these are vital to the health of Ember's ecosystem! So if you're interested in participating in this conversation and have opinions, head on over to the RFC and provide some feedback. 
+This blog post continues the conversation Mehul started in [an RFC](https://github.com/emberjs/rfcs/issues/587) on the subject earlier this year that proposes making `@ember/component` an optional feature. Conversations like these are vital to the health of Ember's ecosystem! So if you're interested in participating in this conversation and have opinions, head on over to the RFC and provide some feedback.
 
 ---
 

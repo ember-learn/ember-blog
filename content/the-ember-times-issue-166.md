@@ -76,7 +76,7 @@ It's a very nice opportunity to watch and listen to two framework contributors d
 
 ## [Deprecate tryInvoke RFC enters Final Comment Period 📜](https://twitter.com/emberjs/status/1319720127320018944)
 
-[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673), and we covered this a few weeks back. 
+[Bach Vo (@bachvo)](https://github.com/bachvo) created a new RFC to [deprecate tryInvoke](https://github.com/emberjs/rfcs/pull/673), and we covered this a few weeks back.
 
 You may recall that this RFC builds on top of the previous [RFC to deprecate getWithDefault](https://emberjs.github.io/rfcs/0554-deprecate-getwithdefault.html).
 
@@ -95,7 +95,7 @@ The video covers how to convert an Ember Model to native class syntax and it is 
 
 ## [Built with Ember: Emojible 🥳](https://creator.emojible.store/)
 
-We're big fans of emojis here at The Ember Times. With [Emojible](https://creator.emojible.store/), now you can create **your own** emojis! Show everyone how you really feel! Save your custom emojis and use them on Slack, Telegram, Signal, or anywhere you want to add some flair. From the [announcement on Twitter](https://twitter.com/emojible/status/1318534253471256576), we learned that the site was built with Ember.js! Awesome to see Ember on such a fun project. May we suggest a Tomster face in the next release?! 
+We're big fans of emojis here at The Ember Times. With [Emojible](https://creator.emojible.store/), now you can create **your own** emojis! Show everyone how you really feel! Save your custom emojis and use them on Slack, Telegram, Signal, or anywhere you want to add some flair. From the [announcement on Twitter](https://twitter.com/emojible/status/1318534253471256576), we learned that the site was built with Ember.js! Awesome to see Ember on such a fun project. May we suggest a Tomster face in the next release?!
 
 ---
 

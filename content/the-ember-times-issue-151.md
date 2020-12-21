@@ -21,7 +21,7 @@ change the way you load your data with `ember-await` ⌚,
 beta release of ember-data-model-fragments 🚢,
 connect an Ember App to an OAuth2 Python Flask Server 🔐,
 and last, but not least, integrate Netlify with empress-blog 🚀!
- 
+
 <!-- READMORE -->
 
 ---
@@ -61,11 +61,11 @@ Try out [`ember-await`](https://exelord.gitbook.io/ember-await/) today!
 ## [Beta release of ember-data-model-fragments 🚢](https://github.com/lytics/ember-data-model-fragments/releases/tag/5.0.0-beta.0)
 
 New beta alert! 🚨 Version 5.0.0-beta.0 of `ember-data-model-fragments` has recently been released!  
- 
+
 This beta provides support for Ember Data 3.13+ and includes a pretty serious rewrite to accommodate `RecordData`. Big shout out to the team behind it, and [Igor Terzic
 (@igorT)](https://github.com/igorT) for all the help! 😃
 
-If you use model fragments, please try it out in your app and let [Rich Glazerman (@richgt)](https://github.com/richgt) know if things are working. 
+If you use model fragments, please try it out in your app and let [Rich Glazerman (@richgt)](https://github.com/richgt) know if things are working.
 
 ---
 

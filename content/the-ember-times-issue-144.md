@@ -62,7 +62,7 @@ The **Template Strict Mode** RFC has also entered FCP! This RFC from [Godfrey Ch
 
 ## [Ember Conf 2020 trainings 🚀](https://emberconf.com/#/schedule/)
 
-A heads up that some of the Ember Conf 2020 trainings are now available online at no additional cost! 💸 
+A heads up that some of the Ember Conf 2020 trainings are now available online at no additional cost! 💸
 
 You can check out [EmberMap's](https://embermap.com/) awesome trainings on [Domain Modeling for JavaScript Apps with Mirage JS](https://twitter.com/ember_map/status/1245011062417772548) and [Tailwind CSS Tips, Tricks & Best Practices](https://twitter.com/ember_map/status/1246071188394250240)!
 

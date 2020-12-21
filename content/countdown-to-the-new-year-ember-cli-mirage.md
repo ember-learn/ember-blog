@@ -15,20 +15,20 @@ tags:
 
 ## Day 2
 
-Today we are going to look at one of our community's most popular addons- [ember-cli-mirage](https://emberobserver.com/addons/ember-cli-mirage). 
+Today we are going to look at one of our community's most popular addons- [ember-cli-mirage](https://emberobserver.com/addons/ember-cli-mirage).
 
 <!-- READMORE -->
 
 ### What It Does
 
-The `ember-cli-mirage` addon is a client-side server to help you build, test, and demo your Ember app. It helps developers be more productive by providing ways to generate fake data, allowing front-end engineers to spend more time focusing on the UI. 
+The `ember-cli-mirage` addon is a client-side server to help you build, test, and demo your Ember app. It helps developers be more productive by providing ways to generate fake data, allowing front-end engineers to spend more time focusing on the UI.
 
 ### Why I Like It
 
-As I was informally polling the community about their favorite Ember addons, ember-cli-mirage came up A LOT. For good reason, too. It's well-supported by the addon maintainers, there's a dedicated [documentation site](https://www.ember-cli-mirage.com/), and there's support on the [Ember Community Discord server](https://discord.gg/emberjs) in the #ec-mirage channel. 
+As I was informally polling the community about their favorite Ember addons, ember-cli-mirage came up A LOT. For good reason, too. It's well-supported by the addon maintainers, there's a dedicated [documentation site](https://www.ember-cli-mirage.com/), and there's support on the [Ember Community Discord server](https://discord.gg/emberjs) in the #ec-mirage channel.
 
 > "It’s a part of the ecosystem I dearly miss when I work with other frameworks."
 
-As an extra bonus, EmberMap has generously made their ["Mirage Tips and Tricks" video series](https://embermap.com/topics/mirage-tips-and-tricks) free to everyone (usually for subscribers only!) for December. Be sure to check it out! 
+As an extra bonus, EmberMap has generously made their ["Mirage Tips and Tricks" video series](https://embermap.com/topics/mirage-tips-and-tricks) free to everyone (usually for subscribers only!) for December. Be sure to check it out!
 
 Do you use this addon? [Or one like it?](https://emberobserver.com/categories/mocking,-fixtures,-and-factories) We'd love to hear about the Ember addons that bring you joy!

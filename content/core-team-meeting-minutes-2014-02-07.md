@@ -10,10 +10,10 @@ tags:
 ---
 
 
-Although most of our collaboration takes place on Github, IRC 
+Although most of our collaboration takes place on Github, IRC
 (`#emberjs` on freenode.net), and our [Discourse site](http://discuss.emberjs.com/)
-the [Ember.js Core Team](/team) meets privately every 
-Friday at 2pm EST/11am PST through Google Hangout for a weekly 
+the [Ember.js Core Team](/team) meets privately every
+Friday at 2pm EST/11am PST through Google Hangout for a weekly
 discussion of all things Ember.
 
 If you have a topic you'd like to see covered, contact your favorite
@@ -60,11 +60,11 @@ The core team reviewed the following pull requests for inclusion in the 1.5.x be
 
 
 * `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
-    
+
     resolution: "Go", already in beta
 
 * `ember-handlebars-log-primitives` [#4252](https://github.com/emberjs/ember.js/pull/4252)
-    
+
     resolution: "Go"
 
 * `ember-document-title` [#3689](https://github.com/emberjs/ember.js/pull/3689)
@@ -76,7 +76,7 @@ The core team reviewed the following pull requests for inclusion in the 1.5.x be
     * [Basic example of titleToken + title (reversed)](http://jsbin.com/ucanam/3300)
     * [titleToken bound to controller/model properties](http://jsbin.com/ucanam/3303)
     * [Overriding doc.title format in deeper routes](http://jsbin.com/ucanam/3304)
-    
+
     resolution: Still "No go", tokenization needs some polish related to nested resources
 
 #### Features currently slated for 1.5.0 beta series
@@ -104,7 +104,7 @@ Process:
     * That PR is reviewed, and generally confirmed to be a solid idea
     * PR is merged so makes it into a canary build
 * Feature is added to [Features Pending 'Go' Decision](https://github.com/emberjs/ember.js/issues/4052) Issue
-* New Issue is created with a check-list of items to be completed prior to receiving a 'Go' vote. 
+* New Issue is created with a check-list of items to be completed prior to receiving a 'Go' vote.
     * This should include at least the following entries:
         * Security Audit
         * Core Team Sign-off

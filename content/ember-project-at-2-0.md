@@ -21,7 +21,7 @@ Starting with Ember 2.0, we will coordinate every release of Ember with releases
 * Liquid Fire
 * List View
 
-**All of these tools will share a version number with Ember itself.** 
+**All of these tools will share a version number with Ember itself.**
 
 Upgrading to Ember 2.3 means that you'll get a new version of the Ember tools and a new version of Ember. You'll also get new versions of Liquid Fire, List View and Ember Data designed to work with (and tested against) Ember 2.3.
 

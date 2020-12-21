@@ -58,7 +58,7 @@ Read more about the new changes to [ember-select-light on GitHub](https://github
 
 ## [ember-key-manager v1.0.0 ⌨️](https://github.com/IcarusWorks/ember-key-manager)
 
-ember-key-manager is a service for un(binding) key up and down events. [Bryan Crotaz (@BryanCrotaz)](https://github.com/BryanCrotaz) submitted a PR that brought [IcarusWorks/ember-key-manager](https://github.com/IcarusWorks/ember-key-manager) up to v1.0.0! With the major release, ember-key-manager now fully supports Octane, including template modifiers that can hook key presses to run component code. Learn more about ember-key-manager and similar addons under the [Keyboard Events tag on Ember Observer](https://emberobserver.com/categories/keyboard-events). 
+ember-key-manager is a service for un(binding) key up and down events. [Bryan Crotaz (@BryanCrotaz)](https://github.com/BryanCrotaz) submitted a PR that brought [IcarusWorks/ember-key-manager](https://github.com/IcarusWorks/ember-key-manager) up to v1.0.0! With the major release, ember-key-manager now fully supports Octane, including template modifiers that can hook key presses to run component code. Learn more about ember-key-manager and similar addons under the [Keyboard Events tag on Ember Observer](https://emberobserver.com/categories/keyboard-events).
 
 ---
 

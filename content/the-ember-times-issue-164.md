@@ -37,7 +37,7 @@ Need ideas for Hacktoberfest contributions? Or looking to get started in open so
 Are you interested? You can reach out to the team in a few different ways:
 
 - Chat with us on Discord in [#support-ember-times channel](https://discord.com/channels/480462759797063690/485450546887786506).
-- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo. We have a running list of topics that you can claim for the upcoming [October 9th issue](https://github.com/ember-learn/ember-blog/pull/778) of The Ember Times! 
+- Leave a comment in the [ember-blog](https://github.com/ember-learn/ember-blog/pulls) repo. We have a running list of topics that you can claim for the upcoming [October 9th issue](https://github.com/ember-learn/ember-blog/pull/778) of The Ember Times!
 - Tweet us [`@embertimes` on Twitter](https://twitter.com/embertimes).
 
 In addition to supporting Ember and open source, participants will receive a limited edition T-shirt or can choose to plant a tree! We look forward to hearing from you soon! 🥰
@@ -56,7 +56,7 @@ As always, you can check commands and command options in your terminal by runnin
 
 ## [Migrating off of mixins in Ember Octane 👋](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/)
 
-Greetings from Ember Times HQ! We had a **Readers' Question** come in: 
+Greetings from Ember Times HQ! We had a **Readers' Question** come in:
 
 > What's the recommended alternative for `Ember.Mixin` in Octane?
 
@@ -110,7 +110,7 @@ Since element modifiers work on any element, you don't need to create a whole co
 <div {{tabs}}></div>
 ```
 
-Continuing further on the subject of mixins, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently blogged about [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/). A common pattern in many Classic Ember apps and addons was to use `PromiseProxyObject` mixin with `ObjectProxy` to expose the state of a promise to end users, and to make accessing the resolved data more convenient. Be sure to read the [blog post](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/) for a deeper dive into a few suggested ways to approach a rewrite with a lightweight, auto-tracked, and Octane-ready solution. 
+Continuing further on the subject of mixins, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently blogged about [Migrating Off of PromiseProxyMixin in Ember Octane](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/). A common pattern in many Classic Ember apps and addons was to use `PromiseProxyObject` mixin with `ObjectProxy` to expose the state of a promise to end users, and to make accessing the resolved data more convenient. Be sure to read the [blog post](https://v5.chriskrycho.com/journal/migrating-off-of-promiseproxymixin-in-ember-octane/) for a deeper dive into a few suggested ways to approach a rewrite with a lightweight, auto-tracked, and Octane-ready solution.
 
 P.S. Looking to future-proof no mixins in your codebase? We suggest enabling the handy [no-mixins rule on eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-mixins.md).
 
@@ -155,7 +155,7 @@ If you couldn't get enough from [Chris Krycho (@chriskrycho)](https://github.com
 
 How does autotracking in Ember or Glimmer work? How does it improve developer experience? Which computer science concepts make it possible? (Answer: Lamport clocks 🤯)
 
-If you're ready to learn a bit more about how efficient the autotracking system in Ember or Glimmer apps can be, you should head on over to the [post](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/). 
+If you're ready to learn a bit more about how efficient the autotracking system in Ember or Glimmer apps can be, you should head on over to the [post](https://v5.chriskrycho.com/journal/autotracking-elegant-dx-via-cutting-edge-cs/).
 
 Rest assured, it's a pretty approachable explanation of some complex topics that we as Ember users benefit from in an Octane world. All are encouraged to go check it out!
 
@@ -165,7 +165,7 @@ Rest assured, it's a pretty approachable explanation of some complex topics that
 
 There's a [new beta release](https://github.com/machty/ember-concurrency/releases/tag/2.0.0-beta.1) of `ember-concurrency`! Thanks to the hard work of [Max Fierke (@maxfierke)](https://github.com/maxfierke) 2.0.0.beta-1 introduces `@tracked` on Ember 3.16+, removes the ability to directly use the `{{action}}` helper, and removes the `get` and `set` compatibility methods from `Task`, `TaskGroup`, and `TaskInstance`.
 
-As Max mentions in his tweet, 2.x is largely compatible with 1.x. For users that maintain addons that depend on `ember-concurrency`, it would be very helpful if you can use a wider version range so that some folks can try the 2.x betas and others can upgrade when they're able to. 
+As Max mentions in his tweet, 2.x is largely compatible with 1.x. For users that maintain addons that depend on `ember-concurrency`, it would be very helpful if you can use a wider version range so that some folks can try the 2.x betas and others can upgrade when they're able to.
 
 More information about this and about upgrading to 2.0.0-beta.1 and other future 2.x releases in
 general can be found in the [upgrade document](https://github.com/machty/ember-concurrency/blob/v2/UPGRADING-2.x.md).
@@ -176,7 +176,7 @@ Go ahead and give the [release](https://github.com/machty/ember-concurrency/rele
 
 ## [EmberJS with REST API 💪](https://jcwebconcepts.net/emberjs-with-rest-api/)
 
-[John Costanzo (@jrock2004)](https://twitter.com/jrock2004) wrote a blog titled [EmberJS with REST API](https://jcwebconcepts.net/emberjs-with-rest-api/). The blog explains how to get your APIs to work well with Ember Data out of the box, if it follows REST API conventions. If your APIs don't follow REST conventions, the post gives details about how to modify your Ember app serializer to make it work with Ember Data. 
+[John Costanzo (@jrock2004)](https://twitter.com/jrock2004) wrote a blog titled [EmberJS with REST API](https://jcwebconcepts.net/emberjs-with-rest-api/). The blog explains how to get your APIs to work well with Ember Data out of the box, if it follows REST API conventions. If your APIs don't follow REST conventions, the post gives details about how to modify your Ember app serializer to make it work with Ember Data.
 
 The blog also discusses using [`keyForAttribute`](https://api.emberjs.com/ember-data/release/classes/JSONAPISerializer/methods/keyForAttribute?anchor=keyForAttribute) to make some of the manual work a little easier, so that you do not have to map each API property to the Ember model property. Head over to [the blog post](https://jcwebconcepts.net/emberjs-with-rest-api/) today and give it a read.
 

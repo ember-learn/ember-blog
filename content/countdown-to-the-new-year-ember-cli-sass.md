@@ -36,7 +36,7 @@ The addon also supports common, advanced use cases for Ember projects:
 
 There are two areas to examine here: (1) why I love Sass, and (2) why I love ember-cli-sass.
 
-#### Why I Love Sass 
+#### Why I Love Sass
 
 [Sass (Syntactically Awesome Style Sheets)](https://sass-lang.com/), which builds on top of CSS, provides features that help increase my productivity as designer and developer.
 

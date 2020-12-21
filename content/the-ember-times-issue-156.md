@@ -41,7 +41,7 @@ export default Component.extend({
 
 The blog post goes through how to use ember-concurrency with Ember Octane and TypeScript. For Octane, we need to use Native Class Syntax. The [ember-concurrency-decorators](https://github.com/machty/ember-concurrency-decorators) package was created to make this work for ember-concurrency.
 
-However, decorators cannot change the type of the thing they decorate. To allow TypeScript, the [ember-concurrency-ts](https://github.com/chancancode/ember-concurrency-ts) package was created to provide a couple of utility functions such as `taskFor`. 
+However, decorators cannot change the type of the thing they decorate. To allow TypeScript, the [ember-concurrency-ts](https://github.com/chancancode/ember-concurrency-ts) package was created to provide a couple of utility functions such as `taskFor`.
 
 Finally, the [ember-concurrency-async](https://github.com/chancancode/ember-concurrency-async) package provides a Babel transform that allows you to define ember-concurrency tasks using async/await rather than generator function. This simplifies using `taskFor` on assignment while providing complete type-safety for ember-concurrency tasks.
 
@@ -64,18 +64,18 @@ Read the [full blog post](https://dev.to/rajask05/reusable-dom-behavior-in-react
 
 ## [Mirage JS with GraphQL 🏝](https://github.com/miragejs/graphql)
 
- Have you been wanting to use [Mirage JS](https://miragejs.com/) with GraphQL? 
- 
+ Have you been wanting to use [Mirage JS](https://miragejs.com/) with GraphQL?
+
  Thanks to [Rocky Neurock (@jneurock)](https://github.com/jneurock), [Mirage GraphQL](https://github.com/miragejs/graphql) provides the ability to create a GraphQL route handler based on your GraphQL and Mirage schemas.
 
- Mirage GraphQL does a bunch of things: 
+ Mirage GraphQL does a bunch of things:
 
 - It fulfills GraphQL requests by fetching data from Mirage's database.
 - It filters records from Mirage's database by using arguments from your GraphQL queries.
 - It handles create, update and delete type mutations automatically based on some conventions.
 - It allows you to supply your own resolvers (for cases where the automatic query and mutation resolution isn't sufficient).
 
-There's plenty of examples on how to get started using GraphQL with Mirage JS using Mirage GraphQL over at the repo, go ahead and [check them out for yourself](https://github.com/miragejs/graphql#example-use-cases). 
+There's plenty of examples on how to get started using GraphQL with Mirage JS using Mirage GraphQL over at the repo, go ahead and [check them out for yourself](https://github.com/miragejs/graphql#example-use-cases).
 
 ---
 

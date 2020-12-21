@@ -58,7 +58,7 @@ Rather than storing application state globally (either in a global variable or a
 
 The container also serves as a registry of your application code, and its "resolver" paved the way for Ember to move from globals-based code to [JavaScript modules](http://jsmodules.io/) by abstracting lookups (e.g. Ember asking for a controller named "users") from the actual location of code.
 
-The good news is that this means that the internals of Ember always look up (and create) objects through the container. 
+The good news is that this means that the internals of Ember always look up (and create) objects through the container.
 
 Unfortunately, we made a minor mistake in our original design. Currently, every application has only a single container. This assumption works fine when running your application in the browser, since you only load and run the application once per browser page load.
 

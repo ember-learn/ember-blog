@@ -39,4 +39,4 @@ The joy it brings me is that it keeps my code tidy and resilient. I can spend mo
 
 This addon is Octane-ready. For developers who are using Ember Octane or Native Classes, [ember-concurrency-decorators](https://github.com/machty/ember-concurrency-decorators) provides decorator syntax for tasks, which isn't strictly necessary, but it looks nicer.
 
-Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy! 
+Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!

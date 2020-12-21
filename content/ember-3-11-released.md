@@ -57,7 +57,7 @@ export default Component.extend({
   })
 }
 ```
- 
+
 ```hbs
 Current count: {{this.count}}
 
@@ -118,11 +118,11 @@ Current count: {{this.count}}
 
 <button {{on "click" this.countUp passive=true}}>Add One</button>
 ```
- 
+
 The `{{on}}` modifier in this example attaches a passive "click" event listener on the button, such that when the button is clicked, the `countUp` action will be called. Just as before, wrapping our function in an `action` call ensures the `countUp` action will have the right `this` value at runtime.
 
 By default, the action passed to the `{{on}}` modifier will receive the DOM event as an argument. The `fn` helper can be used in conjunction with the `{{on}}` modifier to alter this behavior. Along with the "Splattributes" feature mentioned above, the `{{on}}` modifier can also be applied to component elements as well.
- 
+
 Finally, it should be noted that the `{{action}}` modifier, and in some cases, DOM properties like `onclick=` could previously be used to accomplish similar functionalities. However, both of these approaches have their own drawbacks. Therefore, Ember users are encouraged to migrate to the `{{on}}` modifier along with the `action` method where possible and appropriate. See [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0471-on-modifier.md) for more details and examples.
 
 ##### Inject Parameter Normalization (4 of 4)

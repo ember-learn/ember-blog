@@ -14,7 +14,7 @@ tags:
 
 ## Day 18
 
-Today we are going to look at the 11th most popular addon on Ember Observer: [`ember-composable-helpers`](https://emberobserver.com/addons/ember-composable-helpers). 
+Today we are going to look at the 11th most popular addon on Ember Observer: [`ember-composable-helpers`](https://emberobserver.com/addons/ember-composable-helpers).
 
 <!-- READMORE -->
 
@@ -22,11 +22,11 @@ Today we are going to look at the 11th most popular addon on Ember Observer: [`e
 
 The `ember-composable-helper` addon provides composable helpers for Ember apps, which allows for more declarative templating.
 
-Now, the first time I read that sentence, I thought, "huh what?" so I want to break it down a little more. 
+Now, the first time I read that sentence, I thought, "huh what?" so I want to break it down a little more.
 
-This addon provides helpers. Useful helpers (like [`filter-by`](https://github.com/DockYard/ember-composable-helpers#filter-by), [`repeat`](https://github.com/DockYard/ember-composable-helpers#repeat), and [`group-by`](https://github.com/DockYard/ember-composable-helpers#group-by), to name a few. These helpers can be used together (imagine using `group-by` in conjunction with `filter-by`...go ahead, imagine it, I'll wait...). 
+This addon provides helpers. Useful helpers (like [`filter-by`](https://github.com/DockYard/ember-composable-helpers#filter-by), [`repeat`](https://github.com/DockYard/ember-composable-helpers#repeat), and [`group-by`](https://github.com/DockYard/ember-composable-helpers#group-by), to name a few. These helpers can be used together (imagine using `group-by` in conjunction with `filter-by`...go ahead, imagine it, I'll wait...).
 
-The declarative bit means that we're telling our template _what_ we want to do, succinctly; `ember-composable-helpers` tells our app _how_ to do it, saving us time and increasing our productivity. 
+The declarative bit means that we're telling our template _what_ we want to do, succinctly; `ember-composable-helpers` tells our app _how_ to do it, saving us time and increasing our productivity.
 
 ### Why I Like It
 

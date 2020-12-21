@@ -59,7 +59,7 @@ Ember.js 3.22 introduced 0 deprecations.
 
 ## Ember Data
 
-Ember Data is the official data persistence library for Ember.js applications. 
+Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.22
 

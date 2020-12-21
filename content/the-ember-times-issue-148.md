@@ -60,13 +60,13 @@ Check out the full video explaining the `{{on}}` modifier on [EmberMap](https://
 
 There's a new blog post 🎉 by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) about some behavior that may surprise you involving auto-tracking when using `mut` or the `set` helper, and how they can differ from the use of actions in Ember Octane.
 
-Read more about this at [Chris' blog](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/). It's a quick read that may prevent you some refactoring pain if you're aware of the issues ahead of time. 😃 
+Read more about this at [Chris' blog](https://v5.chriskrycho.com/journal/mut-and-set-and-auto-tracking-in-ember-octane/). It's a quick read that may prevent you some refactoring pain if you're aware of the issues ahead of time. 😃
 
 ---
 
 ## [Ember Twiddle updates 🌟](https://twitter.com/gaurav9576/status/1259933735442698242)
 
-Ember Twiddle [0.17.1](https://github.com/ember-cli/ember-twiddle/releases/tag/v0.17.1) is here, now supporting **Ember 3.18** and template colocation! Need to share an Ember code reproduction? Ember Twiddle is a JSFiddle for Ember. 
+Ember Twiddle [0.17.1](https://github.com/ember-cli/ember-twiddle/releases/tag/v0.17.1) is here, now supporting **Ember 3.18** and template colocation! Need to share an Ember code reproduction? Ember Twiddle is a JSFiddle for Ember.
 
 Check out the updates at [ember-twiddle.com](https://t.co/PMkoyGsnSv?amp=1) and thank you to [Gaurav Munjal (@Gaurav0)](https://github.com/Gaurav0), [@RajaSK05](https://github.com/RajaSK05) and [Gokul Kathirvel
 (@gokatz)](https://github.com/gokatz) for their contributions to the release! 👏

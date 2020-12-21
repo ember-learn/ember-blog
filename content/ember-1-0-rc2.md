@@ -61,7 +61,7 @@ This allows you to use `{{render}}` in a loop:
 ### Unwrapping an `ObjectController`'s Model
 
 When passing an `ObjectController` as a parameter to the `action`
-or `linkTo` helpers, Ember now unwraps the underlying model and 
+or `linkTo` helpers, Ember now unwraps the underlying model and
 passes it through.
 
 Most importantly, this allows you to add an `itemController` to

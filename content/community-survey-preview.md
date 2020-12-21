@@ -36,7 +36,7 @@ having joined the official Discord server (join via the [Ember Community page](h
 that launched last September. We're eager to hear how people are using Ember
 and what they plan for the future.
 
-Here are the key dates for this year's survey: 
+Here are the key dates for this year's survey:
 
 * 02/16 - 02/17 : Survey question feedback
 * 02/18 - 03/08 : Survey open to the public for responses

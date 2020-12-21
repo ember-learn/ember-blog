@@ -303,7 +303,7 @@ We may also add a syntax for making all helpers in a package available:
 
 Handlebars compiles templates down into an intermediate AST. This AST
 can change between Handlebars versions. Additionally, Handlebars syntax
-may be extended, or change in version 2.0. 
+may be extended, or change in version 2.0.
 
 Given that components are distributed on bower, should they be shipped
 with their templates pre-compiled, or should we leave it up to ember-cli

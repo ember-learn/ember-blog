@@ -39,4 +39,4 @@ I also imagine that it has saved a ton of time across the Ember community, since
 
 This addon is Octane-ready!
 
-Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy! 
+Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!

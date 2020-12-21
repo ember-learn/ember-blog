@@ -197,7 +197,7 @@ instructions, please review the [Ember CLI  3.13.0 release page](https://github.
 
 If you are upgrading from the previous LTS version (3.8) to 3.12 then you are getting access to these features:
 
-* `router` service 
+* `router` service
 * Support for native classes
 * The `array` helper
 * Element Modifier Manager (and modifiers in general)

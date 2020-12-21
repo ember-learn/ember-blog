@@ -40,7 +40,7 @@ for practical code examples on how to use it and pop by the [#ember-data channel
 
 ## [From Figma to Ember to Storybook…with two clicks 🎨](https://gos.si/blog/from-figma-to-ember-to-storybook-with-2-clicks/)
 
-[Thomas Gossmann (@gossi)](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) has been published and will tell you all about how to organise your design in Figma. 
+[Thomas Gossmann (@gossi)](https://github.com/gossi) has started a blog post series on Figma, Ember and Storybook. [Part 1: Full Featured Themes in Figma](https://gos.si/blog/full-featured-themes-in-figma/) has been published and will tell you all about how to organise your design in Figma.
 
 Stay tuned for Part 2 on design tokens and Part 3 on documentation within the Ember Ecosystem. Follow [@unistyler](https://twitter.com/unistyler) on Twitter to be notified when they are published.
 

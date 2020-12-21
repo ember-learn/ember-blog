@@ -126,7 +126,7 @@ To see a code example of switching from `Ember.merge` to `Ember.assign` please r
 
 ##### HandlerInfos Removal (4 of 6)
 
-Due to the [router service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) it is necessary to rename the private API `HandlerInfo` to `RouteInfo`. 
+Due to the [router service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) it is necessary to rename the private API `HandlerInfo` to `RouteInfo`.
 
 If you need to access information about the routes you are most likely better served by injecting the router service as it exposes a publicly supported version of the `RouteInfo`s.
 For help on how to do this please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_remove-handler-infos).

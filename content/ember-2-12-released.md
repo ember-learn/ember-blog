@@ -272,7 +272,7 @@ for more details.
 #### Targets
 
 In order to allow addons to understand the desired target platforms of the app that they are operating in, a new file has been added
-to all generated projects: `config/targets.js`. This file exposes the supported targets so that tooling such as [autoprefixer](https://github.com/postcss/autoprefixer) 
+to all generated projects: `config/targets.js`. This file exposes the supported targets so that tooling such as [autoprefixer](https://github.com/postcss/autoprefixer)
 and [babel-preset-env](https://github.com/babel/babel-preset-env) can properly understand the level of transpilation that is needed.
 
 The default `config/targets.js` looks like:
@@ -303,13 +303,13 @@ After much work, Babel 6 support has been added to Ember CLI internally and for 
 The latest beta of `ember-cli-babel@6` takes advantage of the new `project.targets` API along with [`babel-preset-env`](https://github.com/babel/babel-preset-env)
 to allow applications to have significantly better control of exactly what is transpiled. `babel-preset-env` utilizes the [caniuse](http://caniuse.com/) and
 [@kangax](https://github.com/kangax)'s [ES6 compatibility database](https://kangax.github.io/compat-table/es6/) to know which features are available natively and which
-require transpilation. For example, with the proper targets configuration `ember-cli-babel` will no longer transpile `const` / `let`, 
+require transpilation. For example, with the proper targets configuration `ember-cli-babel` will no longer transpile `const` / `let`,
 `() => { }` functions, `class`, etc.
 
 The work done in `ember-cli-babel` allows both `ember-cli-babel@5` and `ember-cli-babel@6` to coexist peacefully, so it is safe for addon authors
 to begin updating their internal `ember-cli-babel` dependency so that applications can take advantage of more of these `babel@6` features.
 
-Please test your applications and addons with `ember-cli-babel@6` and report any issues you encounter. Due to the large number of changes required 
+Please test your applications and addons with `ember-cli-babel@6` and report any issues you encounter. Due to the large number of changes required
 internally, we would like a larger than normal beta testing base to ensure things are as stable as possible before 2.13.0 is released.
 
 #### Other Notable Changes

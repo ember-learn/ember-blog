@@ -4,7 +4,6 @@
   "no-duplicate-heading": { "siblings_only": true },
   "no-inline-html": false,
   "no-trailing-punctuation": false,
-  "no-trailing-spaces": false,
   "no-multiple-blanks": false,
   "MD007": { "indent": 4 }
 }
