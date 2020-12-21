@@ -5,5 +5,5 @@
   "no-inline-html": false,
   "no-multiple-blanks": { "maximum": 2 },
   "no-trailing-punctuation": false,
-  "MD007": { "indent": 4 }
+  "ul-indent": { "indent": 4 }
 }
