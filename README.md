@@ -1,7 +1,7 @@
-# Ember Blog
+[![This project uses GitHub Actions for continuous integration.](https://github.com/ember-learn/ember-blog/workflows/CI/badge.svg)](https://github.com/ember-learn/ember-blog/actions?query=workflow%3ACI)
+[![Chat with Ember community on Discord](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/emberjs)
 
-[![Build Status](https://travis-ci.org/ember-learn/ember-blog.svg?branch=master)](https://travis-ci.org/ember-learn/ember-blog)
-<a href="https://discord.gg/emberjs"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat"></a>
+# Ember Blog
 
 This repository contains the blog content for the [Ember.js public website](https://emberjs.com).
 
