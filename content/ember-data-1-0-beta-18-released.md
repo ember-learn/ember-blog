@@ -16,9 +16,9 @@ patches!
 
 While many bugs were stomped, some important changes are worth calling out:
 
-# (Possibly) Breaking Deprecations
+## (Possibly) Breaking Deprecations
 
-## record.constructor.typeKey is now record.constructor.modelName
+### record.constructor.typeKey is now record.constructor.modelName
 
 In Ember Data, when you ask for a model, Ember Data looks its class up using
 Ember's [Dependency Injection][dep-inj] API.  When the model class is looked
@@ -63,7 +63,7 @@ We changed `typeKey` to `modelName` to allow us to align to dasherized strings
 as Ember and Ember CLI also align with dasherized strings. Changing the name
 allows us to make this change with a deprecation phase.
 
-## DS.RESTSerializer.typeForRoot is now DS.RESTSerializer.modelNameFromPayloadKey
+### DS.RESTSerializer.typeForRoot is now DS.RESTSerializer.modelNameFromPayloadKey
 
 To gain more consistency in the naming change of  `typeKey` to `modelName`,
 `typeForRoot` has been renamed to `modelNameFromPayloadKey`. The function
@@ -71,9 +71,9 @@ serves the same purpose, so this should be a quick refactor you can achieve via
 search and replace in your project. While *calling* typeForRoot will trigger a
 deprecation warning, overriding in a subclass won't.
 
-# New Features
+## New Features
 
-## DS.RESTSerializer.payloadKeyFromModelName
+### DS.RESTSerializer.payloadKeyFromModelName
 
 While `modelNameFromPayloadKey` returns a *model* for a JSON payload key,
 `payloadKeyFromModelName` can be used to override the serialization of a model
@@ -109,14 +109,14 @@ While this was possible previously in Ember Data, we noticed that users used
 several different hooks to achieve this goal, so it made sense to make one
 unifying place for this kind of serialization.
 
-## store.unloadAll() can now unload all models when not passed a modelName
+### store.unloadAll() can now unload all models when not passed a modelName
 
 Previously, `store.unloadAll` required a `modelName` argument to unload records
 of a type.  Now, you can unload all records without calling `store.destroy`.
 Thanks to [svox1](https://github.com/emberjs/data/pull/2999) for this pull
 request!
 
-## DS.RESTAdapter.buildURL refactored into different hooks
+### DS.RESTAdapter.buildURL refactored into different hooks
 
 `buildURL` has been refactored into several hooks like `urlForFindQuery`. This
 makes overriding methods like `buildURL` easier to reason about and easier to
