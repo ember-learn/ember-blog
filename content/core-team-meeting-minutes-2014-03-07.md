@@ -152,7 +152,6 @@ core team member and let them know!
     > changed upstream (in Handlebars itself), but as I reviewed (to let you know where that change
     > would be needed) I realized that this PR is simply exposing the functionality that already
     > exists within Handlebars, but is not exposed to `Ember.Handlebars.precompile`.
-
     > As such, I think that we should likely re-evaluate the prior decision.
 
     Resolution. Ship it. This just passes from Handlebars to Ember.Handlebars

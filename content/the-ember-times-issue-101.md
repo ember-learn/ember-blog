@@ -64,7 +64,7 @@ He shares three concrete ideas to make growing Ember a reality:
 ) on how “we can iteratively move forward into the future that can actually happen.”
 
 > Having a great packaging system is critical to Ember's success. This wish list is not long, but very important to land and 'get right'. [...] We really need to adopt Embroider!
-
+>
 > The Ember project as a whole needs to get much better about closing the loop on these dead ends, and communicate more clearly with the community so that they can avoid known future pitfalls when developing their ambitious applications.
 
 ---
