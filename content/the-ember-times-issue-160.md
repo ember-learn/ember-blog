@@ -51,15 +51,15 @@ The Request For Comments (RFC) process is intended to provide a consistent and c
 
 Many changes, including bug fixes and documentation improvements, can be implemented and reviewed via the normal GitHub pull request workflow on the appropriate repo. Some changes though are "substantial", and we ask that these be put through a bit of a design process and produce a consensus among the Ember core teams.
 
-So, what's a good way to propose **your awesome idea**? Well, there are a few options: 
+So, what's a good way to propose **your awesome idea**? Well, there are a few options:
 
-1. Chat with others about your idea in the [#dev-rfc channel](https://discord.com/channels/480462759797063690/500803406676492298) in [Discord](https://discord.gg/emberjs). This is a good way to get some initial feedback on your idea from folks in the community who have experience writing RFCs. They can also help you figure out if an RFC is already in the core team's backlog, and what next steps might look like. 
+1. Chat with others about your idea in the [#dev-rfc channel](https://discord.com/channels/480462759797063690/500803406676492298) in [Discord](https://discord.gg/emberjs). This is a good way to get some initial feedback on your idea from folks in the community who have experience writing RFCs. They can also help you figure out if an RFC is already in the core team's backlog, and what next steps might look like.
 1. Submit an issue to the [RFC repo](https://github.com/emberjs/rfcs/). This is a great way to receive feedback <span style="font-style: italic;">before</span> you start writing the RFC, and will help you maintain efficiency.
 
-Once you are ready to write the RFC for your awesome idea, there are a few important steps: 
+Once you are ready to write the RFC for your awesome idea, there are a few important steps:
 
-1. Read through the entire [README](https://github.com/emberjs/rfcs/) so that you understand what your RFC needs to succeed. Sometimes folks will skip over the ["How we teach this"](https://github.com/emberjs/rfcs/blob/master/0000-template.md#how-we-teach-this) section or the ["Alternatives"](https://github.com/emberjs/rfcs/blob/master/0000-template.md#alternatives) section of the template, and both of those are important to include for the RFC to proceed. 
-1. Find a core team member to champion the RFC! All RFCs need a core team champion, so review the [team list](https://emberjs.com/teams/) to see who you should approach about championing your issue. That core team member makes sure that your RFC is discussed in meetings, so it's essential to have one if you want your awesome idea to succeed! 
+1. Read through the entire [README](https://github.com/emberjs/rfcs/) so that you understand what your RFC needs to succeed. Sometimes folks will skip over the ["How we teach this"](https://github.com/emberjs/rfcs/blob/master/0000-template.md#how-we-teach-this) section or the ["Alternatives"](https://github.com/emberjs/rfcs/blob/master/0000-template.md#alternatives) section of the template, and both of those are important to include for the RFC to proceed.
+1. Find a core team member to champion the RFC! All RFCs need a core team champion, so review the [team list](https://emberjs.com/teams/) to see who you should approach about championing your issue. That core team member makes sure that your RFC is discussed in meetings, so it's essential to have one if you want your awesome idea to succeed!
 
 If you're interested in eventually writing RFCs but don't know where to start, here are some steps you can take on your own:
 

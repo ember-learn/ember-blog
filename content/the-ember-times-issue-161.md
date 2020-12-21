@@ -65,7 +65,7 @@ npx github:ember-codemods/ember-component-template-colocation-migrator
 
 > On August 5, [Undercurrent](https://undercurrent.nyc/) launched “10001,” a collaborative virtual project that continues through September 12. This project is co-organized by the [European Union National Institutes of Culture](https://eunicglobal.eu/)’s New York Cluster. Borrowing the zip code from both the Empire State Building and New York City’s Central Post Office, “10001” focuses on the collaboration of strangers and the narrative of their collective creative process using New York City as the linchpin. Coming from a variety of disciplines, twelve European Union artists who have never met each other will be randomly paired, making up a total of six teams. Through a series of Zoom sessions, each team will spend a six-week period developing a single project that will reimagine NYC post March 20, 2020.
 
-The 10001 website is built with Ember 3.18! It's fantastic to see Ember.js being used **in the wild**, and we think that the site design is pretty rad too. Look forward to checking out the content as the artists continue their work on this pandemic-friendly exhibition. 
+The 10001 website is built with Ember 3.18! It's fantastic to see Ember.js being used **in the wild**, and we think that the site design is pretty rad too. Look forward to checking out the content as the artists continue their work on this pandemic-friendly exhibition.
 
 ---
 

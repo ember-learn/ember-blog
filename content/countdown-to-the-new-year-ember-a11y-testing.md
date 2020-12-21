@@ -27,11 +27,11 @@ The `ember-a11y-testing` addon is a wrapper around [Deque Labs'](https://github.
 
 ### Why I Like It
 
-Like many of you out there, I too developed webapps without realizing the impact that accessible apps can have on users. In fact, I 
+Like many of you out there, I too developed webapps without realizing the impact that accessible apps can have on users. In fact, I
 started learning about a11y problems through this addon when I added it to a few apps that I was working on when this addon got
-released back in 2015. 
+released back in 2015.
 
-While there's more to building accessible apps than automated tools (like this addon) can help with, it does help ensure that 
+While there's more to building accessible apps than automated tools (like this addon) can help with, it does help ensure that
 common a11y violations are captured before they can make their way to users.
 
 The best part about this addon is that it lets you conditionally turn off parts or the entire violation report so that you don't have
@@ -40,4 +40,4 @@ that setting so that we can work on addressing those violations whenever we can 
 
 This addon is Octane-ready. Give it a try today & begin your a11y journey with it.
 
-Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy! 
+Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!

@@ -19,7 +19,7 @@ You can make some commits, meet some new people, and maybe get some free stuff!
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is an annual, worldwide celebration organized by DigitalOcean and sponsored by many companies that use open source software.
 
-The premise is simple: 
+The premise is simple:
 
 - Sign up anytime between October 1 and October 31.
 - Make 4 valid Pull Requests to <span style="font-style: italic;">any</span> public repositories on GitHub.

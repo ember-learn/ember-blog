@@ -32,7 +32,7 @@ Because of the Ember community's strong focus on conventional app structure, we 
 
 In this series of blog posts, we will demystify our efforts, and talk about implementation details. We will also give you a sense of our progress. Like every Ember feature, FastBoot will be landing a bit at a time, so every new release will unlock more capabilities. As features land, we will talk about how you can take advantage of them in your own apps.
 
-**The Journey So Far**
+## The Journey So Far
 
 From the beginning, we knew that we would eventually want to tackle running JavaScript apps on the server, but we didn't want to bet Ember on a boil-the-ocean effort to solve every aspect of client-side development at once.
 
@@ -42,7 +42,7 @@ Even during the most recent HTMLBars effort, which is inherently a DOM-based ren
 
 Because of this, we were able to get the Ember framework executing in Node in just a day of work, and were able to get an app completely booted and routing in under a week.
 
-**Abstracting Feature Detection**
+## Abstracting Feature Detection
 
 One of the first problems we encountered when trying to execute Ember in node was top-level feature detection. Because Ember previously assumed it was running inside a browser, it inadvertently relied on the existence of basic DOM APIs, like `window`, the `document` and `navigator`.
 
@@ -50,7 +50,7 @@ While the vast majority of the subsequent code was resilient to environments wit
 
 To address this issue, we moved all top-level assumptions into [an `environment` abstraction](https://github.com/emberjs/ember.js/blob/master/packages/ember-metal/lib/environment.js). If you look at it, it's really boring; it just lets top-level code throughout the framework quickly short-circuit if basic DOM facilities are missing.
 
-**The Container and Session**
+## The Container and Session
 
 Ember's powerful dependency injection ("DI") system has been a boon for managing application state, supporting the transition from globals to modules, and ensuring tests are fast and robust.
 
@@ -58,7 +58,7 @@ Rather than storing application state globally (either in a global variable or a
 
 The container also serves as a registry of your application code, and its "resolver" paved the way for Ember to move from globals-based code to [JavaScript modules](http://jsmodules.io/) by abstracting lookups (e.g. Ember asking for a controller named "users") from the actual location of code.
 
-The good news is that this means that the internals of Ember always look up (and create) objects through the container. 
+The good news is that this means that the internals of Ember always look up (and create) objects through the container.
 
 Unfortunately, we made a minor mistake in our original design. Currently, every application has only a single container. This assumption works fine when running your application in the browser, since you only load and run the application once per browser page load.
 
@@ -76,7 +76,7 @@ This approach also has a side-benefit for testing: it allows us to reduce the am
 
 Both of these efforts (breaking out an environment and the design of the session) are incremental pieces that provide value on their own, and [have already landed on master](https://github.com/emberjs/ember.js/pull/9981) thanks to the tireless work of [Dan Gebhardt](https://twitter.com/dgeb). Working with [LinkedIn](https://www.linkedin.com) and [Bustle](http://www.bustle.com) closely has helped us to work through the initial requirements, and identify steps that we could take that would help enterprising teams make progress while we take the next steps.
 
-**Next Steps**
+## Next Steps
 
 In the coming weeks, we are going to dive head-first into HTMLbars, getting it ready for its new life running inside a Node.js environment. We'll start by making sure that the [`DOMHelper`](https://github.com/tildeio/htmlbars/blob/master/packages/morph/lib/dom-helper.js) abstraction is used everywhere that interacts with the DOM, providing us a chokepoint to implement a fake DOM on the server that builds up strings of HTML instead of interacting with a real DOM.
 

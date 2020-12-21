@@ -105,4 +105,4 @@ By sharing common solutions to common problems with other communities we not onl
 With our efforts to flesh out Octane, improve the build system and align it with the rest of the JavaScript community, raise the baseline support for accessible applications, and to better communicate in 2020 we will lower barriers to adoption of Ember, but also to our own collaboration with the greater JavaScript project.
 
 Want to get involved? Visit our [community page](https://emberjs.com/community/)
-and feel free to join us on Discord (chat) or Discourse (forum discussion). 
+and feel free to join us on Discord (chat) or Discourse (forum discussion).

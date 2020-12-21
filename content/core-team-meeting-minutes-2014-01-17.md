@@ -34,7 +34,7 @@ To tighten up the feedback loop, the core team will regularly
 review features on our canary builds and work with authors sooner to address concerns.
 
 The current list of features on master but not enabled in the 1.4 family of beta builds
-can be found on this Github issue: 
+can be found on this Github issue:
 [https://github.com/emberjs/ember.js/issues/4052](https://github.com/emberjs/ember.js/issues/4052)
 
 The following features look good in their current incarnation and will likely receive a "go"
@@ -51,7 +51,7 @@ There is a concern that this increases the surface area of API and the size of t
 without providing enough benefit that is unique to Ember.js. If the package manager ecosystem
 for browser JavaScript were more mature, these would clear cases for community contribution.
 String inflection is notoriously hard to get correct, especially with internationalization,
-and the common case is already handled by existing libraries. 
+and the common case is already handled by existing libraries.
 @trek [even maintains one](https://github.com/trek/fleck)
 
 Resolutions:
@@ -62,7 +62,7 @@ Resolutions:
 #### [ember-handlebars-caps-lookup](https://github.com/emberjs/ember.js/pull/3218)
 
 A bare capitalized word in Handlebars should look up on current scope.
-`{{CONSTANT}}` and `{{#each CONSTANT}}` did global lookup mostly by side effect, 
+`{{CONSTANT}}` and `{{#each CONSTANT}}` did global lookup mostly by side effect,
 this was not intended API, but we need to think through backwards compatibility
 issues for people who used this as part of their app design.
   

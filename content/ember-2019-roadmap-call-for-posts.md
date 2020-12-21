@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Ember in 2018 (and 2019) has been more exciting than ever! We've been working diligently to advance the project based on our [2018 Roadmap](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md), but while we work to finish that, it is time to think about the future. 
+Ember in 2018 (and 2019) has been more exciting than ever! We've been working diligently to advance the project based on our [2018 Roadmap](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md), but while we work to finish that, it is time to think about the future.
 
 The Ember team would like you to write a blog post to propose goals and direction for Ember for the next year. The content of these posts will help us to draft our next Roadmap RFC.
 
@@ -17,9 +17,9 @@ The Ember team would like you to write a blog post to propose goals and directio
 
 The Roadmap will outline the community's priorities for the next year. It will be presented as an RFC and follow [the normal RFC process](https://github.com/emberjs/rfcs). The RFC will be written based on community input--the blog posts we've requested and other community discussion--and curation from the core teams.
 
-This is will be our second annual Roadmap RFC. To see the results of the process, see [the 2018 Roadmap RFC](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md). 
+This is will be our second annual Roadmap RFC. To see the results of the process, see [the 2018 Roadmap RFC](https://github.com/emberjs/rfcs/blob/master/text/0364-roadmap-2018.md).
 
-The 2018 Roadmap led to the ["Octane Edition" of Ember, currently in preview](https://emberjs.com/editions/octane/). Octane [includes many features](https://github.com/emberjs/ember.js/issues/17234), most of which have already landed in a stable release. As the edition nears completion, we want the community to think beyond Octane to the next steps for Ember. The resulting Roadmap for 2019 will not necessarily include an edition but will outline what we will be working toward. 
+The 2018 Roadmap led to the ["Octane Edition" of Ember, currently in preview](https://emberjs.com/editions/octane/). Octane [includes many features](https://github.com/emberjs/ember.js/issues/17234), most of which have already landed in a stable release. As the edition nears completion, we want the community to think beyond Octane to the next steps for Ember. The resulting Roadmap for 2019 will not necessarily include an edition but will outline what we will be working toward.
 
 **The Roadmap process is part of our on-going effort to have shared, clear, and published project-wide goals.**
 
@@ -36,7 +36,7 @@ Your post can be on any online writing platform, but we suggest:
 
 ### _Topic ideas_
 
-We'd like to hear about any aspect of Ember you have hopes for in 2019--not just about the Ember.js framework. Please include your desires for Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related. 
+We'd like to hear about any aspect of Ember you have hopes for in 2019--not just about the Ember.js framework. Please include your desires for Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related.
 
 Here are some broad ideas that might help you get started:
 
@@ -46,7 +46,7 @@ Here are some broad ideas that might help you get started:
 * Ecosystem needs
 * Tooling enhancements
 
-We strongly encourage posts replying to or building off of others' posts. Please try to keep the discussion in the form of blog posts. 
+We strongly encourage posts replying to or building off of others' posts. Please try to keep the discussion in the form of blog posts.
 
 To kickoff the process, we've collected some early posts:
 

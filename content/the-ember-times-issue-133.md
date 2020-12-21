@@ -15,7 +15,7 @@ tags:
 
 ✌️ Emberistas! 🐹
 
-This week: 
+This week:
 Check out the RFC for Improved Ember Registry APIs 🗒️®️,
 Octane community feedback from FlashRecruit 👏,
 contributing to OSS with confidence at EmberConf 💪,

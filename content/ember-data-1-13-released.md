@@ -13,10 +13,10 @@ tags:
 
 We are proud to announce the release of Ember Data 1.13. This
 represents the first stable release of Ember Data since its creation
-over 3 years ago. 
+over 3 years ago.
 
 As we explained in the [The Ember 2.x Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
-blog post, going forward Ember Data will be syncing up its releases and version numbers with Ember.js releases. 
+blog post, going forward Ember Data will be syncing up its releases and version numbers with Ember.js releases.
 
 **Ember Data 1.13 is the first release of Ember Data that syncs its
   version with a version of Ember.js.** It will be followed by Ember Data 2.0, which will be released alongside Ember.js 2.0. **Ember Data 1.13 is fully backwards compatible with Ember Data beta.19, allowing for a smooth upgrade path.**
@@ -24,7 +24,7 @@ blog post, going forward Ember Data will be syncing up its releases and version 
 ## Ember Data 1.13 Overview
 
 Ember Data 1.13 is a massive release we are very proud of.
-The highlight of the Ember Data 1.13 release is a total overhaul of Ember Data's internal format and Serializer API to follow JSON API. 
+The highlight of the Ember Data 1.13 release is a total overhaul of Ember Data's internal format and Serializer API to follow JSON API.
 
 Two years ago Tom Dale and Yehuda Katz [published](http://emberjs.com/blog/2013/05/03/ember-data-progress-update.html) a vision for how Ember Data should look in the future and articulated the need for a single, ubiquitous JSON API standard.
 
@@ -65,7 +65,7 @@ breaking changes between Ember Data 1.13 and Ember Data beta.19. Ember Data foll
 and then move to Ember Data 2.0. It is critically important to do this process step by step**, as it will give you easy to follow deprecation warnings.
 Otherwise, your app might fail in hard-to-debug ways.
 
-If you have customized your serializer, you should upgrade to Ember Data 1.13, 
+If you have customized your serializer, you should upgrade to Ember Data 1.13,
 check the upgrade guide to see if you need to make any changes, and then set a
 temporary flag on your Serializer: `isNewSerializerAPI`. This will opt you into
 the new serializer API. Once you are on the Ember Data 2.0 train, new Serializer API
@@ -83,7 +83,7 @@ of the deprecations for you.
 We would like to extend a special thanks to the many contributors who
 have helped out with this release. We would also like to recognize the
 following contributors who helped with multiple issues leading up to
-this release. If you would like to help, please join #dev-ember-data in the 
+this release. If you would like to help, please join #dev-ember-data in the
 [Ember Community](https://ember-community-slackin.herokuapp.com/) on Slack.
 
 - [@turbo87](https://github.com/turbo87)
@@ -124,7 +124,7 @@ of other methods is confusing for both new and existing developers. As a result,
 store methods to make them more consistent and approachable for all
 developers.
 
-In particular, `store.find`, `store.all`, `store.getById` have been 
+In particular, `store.find`, `store.all`, `store.getById` have been
 deprecated and are replaced with consistently named methods. New methods follow a simple convention: If they are async and potentially go to the server, they start with `find`, and if they only get store local data without side-effects they start with `peek`.
 If they return a single record they end in `Record` and if they return all the records they end in `All` .
 
@@ -199,7 +199,7 @@ of these two behaviors are the most common use case and deserving of being the d
 - Next time return cached data
 - Fetch new data in the background and update
 
-This is the behavior of the new `findRecord` and `findAll` methods. 
+This is the behavior of the new `findRecord` and `findAll` methods.
 
 The first time you call `findRecord` and `findAll` they behave the same as
 the old `find` method:
@@ -374,8 +374,8 @@ JSON API Adapter will be the default loaded by Ember Data.
 ### Internal Format Change to JSON API
 
 In Ember Data beta.19, you communicated updates to the store by calling
-`store.push(type, id)`. We have now changed `store.push` so it receives a 
-JSON API object, `store.push({JSON API compound document})` 
+`store.push(type, id)`. We have now changed `store.push` so it receives a
+JSON API object, `store.push({JSON API compound document})`
 
 For example
 
@@ -421,7 +421,7 @@ and your server payload looked like:
 ```
 
 Your serializer would get the payload passed in an `extract` hook and its job was to:
- 
+
 - normalize and `store.push` everything that is not the `primary record`, in this case the array of sideloaded accounts
 - normalize and return the primary data, in this case the `user` data
 
@@ -488,7 +488,7 @@ Previously the possible places to modify a response for `store.find('user', 1)` 
 - `normalizeRelationships`
 - `normalizeAttributes`
 
-The new Serializer API allowed us to simplify these. If you receive a response 
+The new Serializer API allowed us to simplify these. If you receive a response
 to `store.findRecord('user', 1)` in Ember Data 1.13 you can customize your response
 in
 
@@ -586,7 +586,7 @@ correct level at which to implement error handling.
 
  In Ember Data 1.13 we are introducing a new, simpler adapter hook:
 `handleResponse` while deprecating `ajaxSuccess` and
-`ajaxError`. 
+`ajaxError`.
 
 The responsibility of `handleResponse` is to take the returned status,
 response headers and payload, and decide whether to pass the payload through as
@@ -624,7 +624,7 @@ in the future.
 Similarly to the rest of Ember Data 1.13, we have refactored the error handling to use JSON API. JSON API has specified an
 [error objects](http://jsonapi.org/format/#error-objects)
 format. Starting with Ember Data 1.13 we are using JSON API format to
-communicate errors from the adapter to the store. 
+communicate errors from the adapter to the store.
 We are deprecating the current Ruby on Rails inspired
 format for creating `InvalidError` objects and replacing it with
 proper JSON API objects. The old format is supported with a

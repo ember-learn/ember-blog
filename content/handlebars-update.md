@@ -24,7 +24,7 @@ Ember application:
 For more information about the changes please review the [release notes](https://github.com/wycats/handlebars.js/blob/master/release-notes.md).
 
 Since the release of Ember 1.0.0, Ember has required Handlebars 1.x. As each new version of
-Handlebars has been released we have needed to update our version requirement to allow the 
+Handlebars has been released we have needed to update our version requirement to allow the
 latest and greatest. Thankfully, throughout this process we have been able to maintain backwards
 compatibility with all versions of Handlebars since 1.0.0.
 

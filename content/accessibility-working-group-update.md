@@ -16,7 +16,7 @@ The Strike Team met weekly between [March 25](https://github.com/ember-a11y/core
 
 <!-- READMORE -->
 
-There were five items listed in [Issue 595](https://github.com/emberjs/rfcs/issues/595): 
+There were five items listed in [Issue 595](https://github.com/emberjs/rfcs/issues/595):
 
 1. Application Language Support
 2. Label/Input Support
@@ -24,7 +24,7 @@ There were five items listed in [Issue 595](https://github.com/emberjs/rfcs/issu
 4. Support for `...attributes`
 5. Accessible Routing Support
 
-## Active Work 
+## Active Work
 
 ### Application Language Support
 
@@ -44,9 +44,9 @@ There were 3 things the team decided to do in this area:
 - Provide an addon that would help provide `id`s within a specific context
 - Write an RFC to propose a more permanent solution
 
-[Benjamin Jegard](https://github.com/kamikillerto) created the [Ember Context Id Helper addon](https://github.com/KamiKillertO/ember-context-id-helper). The `{{context-id}}` generates a unique `id` for a given context. Because it uses Ember's `guidFor` function under the hood, it will always return the same `id` for the same context. A use case for `context-id` helper is to programmatically associate `<label>`s and `<input>` element using the `<label>` `for` attribute and the `<input>`s `id` attribute. 
+[Benjamin Jegard](https://github.com/kamikillerto) created the [Ember Context Id Helper addon](https://github.com/KamiKillertO/ember-context-id-helper). The `{{context-id}}` generates a unique `id` for a given context. Because it uses Ember's `guidFor` function under the hood, it will always return the same `id` for the same context. A use case for `context-id` helper is to programmatically associate `<label>`s and `<input>` element using the `<label>` `for` attribute and the `<input>`s `id` attribute.
 
-This addon took inspiration from the pre-RFC for the `guid-for` helper, which resulted in [RFC 659, which proposes a new built-in template helper](https://github.com/emberjs/rfcs/pull/659), authored by [Steve Szczecina](https://github.com/steveszc). 
+This addon took inspiration from the pre-RFC for the `guid-for` helper, which resulted in [RFC 659, which proposes a new built-in template helper](https://github.com/emberjs/rfcs/pull/659), authored by [Steve Szczecina](https://github.com/steveszc).
 
 [Rajasegar Chandran](https://github.com/rajasegar) and [Jen Weber](https://github.com/jenweber) updated the [Official Ember Guides](https://guides.emberjs.com/release/components/built-in-components/#toc_ways-to-associate-labels-and-inputs) with more explicit information for how to associate `<label>` and `<input>` elements. [Melanie Sumner](https://github.com/melsumner) also authored [ember-component-patterns](https://emberjs-1.gitbook.io/ember-component-patterns/form-components/input) that reflect best practices for `<input>` fields.
 
@@ -60,7 +60,7 @@ In our [April 8th meeting](https://github.com/ember-a11y/core-notes/blob/ember-a
 
 ## Back to the Drawing Board
 
-After discussion and some analysis, it was determined that some issues required the attention of the [Framework Core Team](https://emberjs.com/teams/) to resolve. These issues will likely require re-thinking of significant Ember features, so some workarounds should be expected until they are resolved. 
+After discussion and some analysis, it was determined that some issues required the attention of the [Framework Core Team](https://emberjs.com/teams/) to resolve. These issues will likely require re-thinking of significant Ember features, so some workarounds should be expected until they are resolved.
 
 ### Support for `...attributes`
 
@@ -82,4 +82,4 @@ Work is also underway to upscale the addons in the [Ember-A11y GitHub org](https
 
 ## Thank You
 
-A huge thank you to all of the community members who participated in the Ember A11y Strike Team: [Abhilash Ramesh](https://github.com/abhilashlr), [Amy Lam](https://github.com/amyrlam), [Ava Wroten](https://github.com/hergaiety), [Benjamin Jegard](https://github.com/kamikillerto), [Emmanuel Patrick](https://github.com/the-bionic), [Eric Kelly](https://github.com/HeroicEric), [Frédéric Soumaré](https://github.com/hakilebara), [Jamie White](https://github.com/jgwhite), [Jen Weber](https://github.com/jenweber), [John Costanzo](https://github.com/jrock2004), [Joseph Sumner](https://github.com/josephdsumner), [Lennex Zinyando](https://github.com/zinyando), [Lenora Porter](https://github.com/lenoraporter), [Melanie Sumner](https://github.com/melsumner), [Praskovia Root](https://github.com/praskovia-root), [Rajasegar Chandran](https://github.com/rajasegar), [Robert Jackson](https://github.com/rwjblue), [Steve Szczecina](https://github.com/steveszc), and [Seema Shariat](https://github.com/seemajune). 
+A huge thank you to all of the community members who participated in the Ember A11y Strike Team: [Abhilash Ramesh](https://github.com/abhilashlr), [Amy Lam](https://github.com/amyrlam), [Ava Wroten](https://github.com/hergaiety), [Benjamin Jegard](https://github.com/kamikillerto), [Emmanuel Patrick](https://github.com/the-bionic), [Eric Kelly](https://github.com/HeroicEric), [Frédéric Soumaré](https://github.com/hakilebara), [Jamie White](https://github.com/jgwhite), [Jen Weber](https://github.com/jenweber), [John Costanzo](https://github.com/jrock2004), [Joseph Sumner](https://github.com/josephdsumner), [Lennex Zinyando](https://github.com/zinyando), [Lenora Porter](https://github.com/lenoraporter), [Melanie Sumner](https://github.com/melsumner), [Praskovia Root](https://github.com/praskovia-root), [Rajasegar Chandran](https://github.com/rajasegar), [Robert Jackson](https://github.com/rwjblue), [Steve Szczecina](https://github.com/steveszc), and [Seema Shariat](https://github.com/seemajune).

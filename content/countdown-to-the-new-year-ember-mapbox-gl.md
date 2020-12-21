@@ -24,7 +24,7 @@ Have you ever wondered how to _make maps in Ember_? No? Okay, but you should!
 
 This post is about adding an interactive map to your Ember project. By the end of this post, you'll have a map of the location of your company's business (provided that it has some physical location in Cartesian space).
 
-(Note: I'm not talking about [these kinds of maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), although they're not totally unrelated). 
+(Note: I'm not talking about [these kinds of maps](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), although they're not totally unrelated).
 
 Every time I need to solve a problem in Ember, I do a quick search through the Ember addon ecosystem.
 Yes, it's satisfying to solve the problem yourself, but it's smarter—and quicker—to use someone else's code. Shoulders of giants, people. Now, web mapping is a pretty complicated suite of technologies, so the temptation to reinvent _that_ wheel isn't as strong as,
@@ -35,7 +35,7 @@ A cursory glance at the available mapping addons show up a few options:
 - [ember-mapbox-gl](https://github.com/kturney/ember-mapbox-gl) (Full disclosure: I'm a contributor, although [kturney](https://github.com/kturney) does most of the work!)
 - [ember-leaflet](https://github.com/miguelcobain/ember-leaflet)
 - [ember-google-maps](https://github.com/sandydoo/ember-google-maps)
- 
+
 Am I missing any? Let me know. But I'm pretty confident these are the top mapping addons.
 
 How do they work? They all have a one thing in common: declarative templating. Most of the mapping objects you see on screen
@@ -58,7 +58,7 @@ are managed using template components and helper invocations:
 ```
 
 This makes for a pretty nice experience, especially in terms of long-run maintainence because the visual aspects of
-your application correspond to a specific part of the template file. 
+your application correspond to a specific part of the template file.
 
 (What would alternative be? I've seen some wild spaghetti monsters and they are not pleasant to deal with because they
 do not encapsulate _lifecycle management_).
@@ -132,7 +132,7 @@ This simply instantiates a new map by creating new element in the DOM and bindin
 >
 ```
 
-This creates a mapbox-gl [source](https://docs.mapbox.com/mapbox-gl-js/api/#sources), and passes options to it. What are those options? First, the _type_ describes the kind of source that mapbox should use. What is a [GeoJSON](https://geojson.org/)? It's a standard for representing geographic information in JSON. That explains the shape of the `data` property: a GeoJSON object specifies its own `type`. For our purposes, we're using a point: 
+This creates a mapbox-gl [source](https://docs.mapbox.com/mapbox-gl-js/api/#sources), and passes options to it. What are those options? First, the _type_ describes the kind of source that mapbox should use. What is a [GeoJSON](https://geojson.org/)? It's a standard for representing geographic information in JSON. That explains the shape of the `data` property: a GeoJSON object specifies its own `type`. For our purposes, we're using a point:
 
 > For type "Point", the "coordinates" member is a single position.
 
@@ -181,7 +181,7 @@ Much of ember-mapbox-gl is simply a _bindings_ layer. It provides a declarative 
 
 I'm a little disappointed by the dearth of free and open _vector_ map data providers. That said, if you find that you would like to host your own map tile provider, check out [OpenMapTiles](https://openmaptiles.org/). It's a free and open source server that hosts those tile URLs we were using at the beginning. My team uses it and have had no issues.
 
-Thanks for reading! If you have any questions, please message me via the [Ember Discord](https://discord.gg/emberjs) chat (Matt Gardner#6278). 
-I'm more than happy to help! 
+Thanks for reading! If you have any questions, please message me via the [Ember Discord](https://discord.gg/emberjs) chat (Matt Gardner#6278).
+I'm more than happy to help!
 
 Do you use this addons? Or any like them? We'd love to hear about Ember addons that bring you joy!

@@ -58,7 +58,6 @@ Each winter, [npm, Inc.](https://www.npmjs.com/) circulates a survey of software
 ---
 
 
-
 ## [JSON:API Update 1.1 🇯](https://twitter.com/jsonapi/status/1069593631365959680)
 
 **JSON:API 1.1 RC1** is released! 🎉🎊🎈 The spec will hopefully be finalized by January 31 which is very exciting! If you use JSON:API and are able to, try out the upcoming version and give some feedback.

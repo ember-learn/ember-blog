@@ -97,7 +97,7 @@ Let's add the label. The `for` attribute should match the input id.
 
 ![A form with labels](/images/blog/2018-06-17-ember-accessibility-and-a11y-tools/form-with-labels.png)
 
-Now the filter has a label, and the tests pass! 
+Now the filter has a label, and the tests pass!
 
 Fixing issues with contrast, aria labels, and DOM elements is an important step towards building an accessible app. That said, there are some tools that help reduce the amount of work that you have to do by hand, and we'll cover those next.
 
@@ -139,18 +139,18 @@ One common issue in single page application frameworks is that they wrap a devel
 
 ### Using the ember-a11y addon for focus management
 
-I learned from [Robert DeLuca](https://github.com/Robdel12) that [most front end frameworks have flaws](https://medium.com/@robdel12/single-page-apps-routers-are-broken-255daa310cf) that affect Assistive Technology like screen readers. One of those flaws is focus management, and there's already an addon for it. 
+I learned from [Robert DeLuca](https://github.com/Robdel12) that [most front end frameworks have flaws](https://medium.com/@robdel12/single-page-apps-routers-are-broken-255daa310cf) that affect Assistive Technology like screen readers. One of those flaws is focus management, and there's already an addon for it.
 
-While ember-a11y refers to a whole bunch of tools, there's one addon that is simply called [ember-a11y](https://github.com/ember-a11y/ember-a11y) too. The main task of this addon is to handle focus correctly so that users with Assistive Technology can navigate content as changes happen inside the `{{outlet}}` of a route. 
+While ember-a11y refers to a whole bunch of tools, there's one addon that is simply called [ember-a11y](https://github.com/ember-a11y/ember-a11y) too. The main task of this addon is to handle focus correctly so that users with Assistive Technology can navigate content as changes happen inside the `{{outlet}}` of a route.
 
 ```bash
 ember install ember-a11y
 ```
 
-Install it and replace instances of `{{outlet}}` with 
+Install it and replace instances of `{{outlet}}` with
 `{{focusing-outlet}}`.
 
-So why is this necessary? If you're looking at a decently accessible website and you hit the tab key, you'll see the focus jump between different elements - things get highlighted. Front end frameworks like Ember sometimes get in the way of the DOM structure that works best for screen reader focus, since as you move between routes, only part of the page changes. The contents of `{{outlet}}` are dynamic. 
+So why is this necessary? If you're looking at a decently accessible website and you hit the tab key, you'll see the focus jump between different elements - things get highlighted. Front end frameworks like Ember sometimes get in the way of the DOM structure that works best for screen reader focus, since as you move between routes, only part of the page changes. The contents of `{{outlet}}` are dynamic.
 
 The problem is that screen readers rely heavily on what has focus. Imagine if you had to start reading at the very top of the page whenever a route in your app changed, instead of just reading the content that is new, or if you weren't able to tell that some content had changed! ember-a11y corrects for that focus problem so that Assistive Technology navigation using focus works correctly. From the README:
 
@@ -162,7 +162,7 @@ It's our responsibility as developers to build inclusive tech, so keep learning 
 
 There are already many community addons available that solve different issues. While we still have a ways to go, new advances are being made too. For example, there is a [Semantic Test Selectors RFC](https://github.com/emberjs/rfcs/pull/327) being drafted and an [experimental addon](https://github.com/tradegecko/ember-semantic-test-helpers) in development to go with it! These efforts followed [Jamie White's](https://github.com/jgwhite) talk from EmberConf, [Say More](https://www.youtube.com/watch?v=iAyRVPSOpy8).
 
-Almost all of us will have a disability at some point in our lives. Accessible web practices lead to better user experience --- things like improved keyboard navigation, text that is still readable on a dim monitor, and clear pointers on how to interact with a UI. 
+Almost all of us will have a disability at some point in our lives. Accessible web practices lead to better user experience --- things like improved keyboard navigation, text that is still readable on a dim monitor, and clear pointers on how to interact with a UI.
 
 Here are some ways you can help improve accessibility in Ember and the JavaScript ecosystem:
 

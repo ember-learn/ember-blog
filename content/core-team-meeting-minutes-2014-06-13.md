@@ -47,4 +47,4 @@ for usage details.
 
 In the last meeting we discussed why the release of 1.6 and 1.7.beta was delayed.
 In this meeting we resolved to not delay releases just because we hope to include
-a specific feature. 
+a specific feature.

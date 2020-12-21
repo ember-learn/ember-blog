@@ -15,7 +15,7 @@ The preview of the Octane edition of Ember is coming soon, and with all these fa
 
 In order to prepare for the new edition, the Learning Core Team spent time figuring out how to best transition the existing docs in such a way that was consistent with iterative innovation.
 
-One of the goals of improving the guides in general was to improve the learning flow in the guides (see [RFC #431](https://github.com/emberjs/rfcs/pull/431)). As such, we determined that a change to the table of contents was in order.   
+One of the goals of improving the guides in general was to improve the learning flow in the guides (see [RFC #431](https://github.com/emberjs/rfcs/pull/431)). As such, we determined that a change to the table of contents was in order.
 
 ## Updating the guides
 

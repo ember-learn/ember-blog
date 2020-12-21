@@ -92,11 +92,11 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### New Features (2)
 
-**Compatibility section in addon README (1 of 2)**
+##### Compatibility section in addon README (1 of 2)
 
 Whenever you generate a new addon using Ember CLI it will automatically generate a README file for your addon. With Ember CLI 3.7 this README will now include a compatibility section that will allow you to easily communicate to users of the addon what is needed to use the addon.
 
-**Remove last usage of Babel 6 (2 of 2)**
+##### Remove last usage of Babel 6 (2 of 2)
 
 Ember CLI 3.7 has removed the last usage of Babel 6 which was used for supporting compiling templates in `addon/` and supporting `addon-test-support/` in addons that themselves do not have any `.js` processors (e.g. no dependency on `ember-cli-babel`).
 

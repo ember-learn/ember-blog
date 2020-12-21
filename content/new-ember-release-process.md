@@ -9,7 +9,7 @@ tags:
 ---
 
 
-Now that we've shipped Ember 1.0 final, it's time to look forward to future 
+Now that we've shipped Ember 1.0 final, it's time to look forward to future
 releases.
 
 The plan moving forward is to adopt a Chrome-like release cycle: more frequent releases with more clarity about where features are in the pipeline.

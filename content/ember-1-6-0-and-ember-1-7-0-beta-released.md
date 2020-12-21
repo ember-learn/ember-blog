@@ -49,7 +49,7 @@ In 1.6.0 you do not need to do this promise run loop wrapping simply for the pur
 
 #### Ember.Route.prototype.render Now has a model Option
 
-Previously, you would need to set the model explicitly on the other controller using 
+Previously, you would need to set the model explicitly on the other controller using
 `controllerFor` (while trying to render a different template with `renderTemplate#render`).
 
 Now `render` has an option to set the model that set the controller's content after the controller has been

@@ -48,8 +48,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.16, please review the [Ember.js 3.16.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.16.0).
 
-
-**Deprecate Global Resolver (1 of 1)**
+##### Deprecate Global Resolver (1 of 1)
 
 Over the past years we have transitioned to using Ember-CLI as the main way to compile Ember apps. The globals resolver is a holdover and primarily facilitates use of Ember without Ember-CLI.
 
@@ -98,12 +97,12 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### New Features (2)
 
-**Drop Node 8 support (1 of 2)**
+##### Drop Node 8 support (1 of 2)
 
 Ember CLI 3.16 officially drops support for Node 8. Ember.js still supports it until all the blueprints are updated.
 Maintainers of addons are encouraged to make a _major version_ release of their addons when upgrading to 3.16, since dropping Node 8 support may be a breaking change for some of their library's users.
 
-**Drop Ember 3.8 from `ember-try` test scenarios in addon blueprints (2 of 2)**
+##### Drop Ember 3.8 from `ember-try` test scenarios in addon blueprints (2 of 2)
 
 For addons that are upgrading to version 3.16 of Ember CLI, note that the `ember-try.js` scenarios
 in the blueprints no longer include 3.8. Addon maintainers who decide to also drop Ember 3.8 from

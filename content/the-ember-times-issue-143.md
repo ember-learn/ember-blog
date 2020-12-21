@@ -82,7 +82,7 @@ We encourage you to check out the Ember CLI documentation to understand your too
 
 There's an awesome new test helper by [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia) that rethinks the approach on how we wait for asynchronous behavior to resolve in our tests! 🎉
 
-Typically in Ember tests you'd use one of the several available test helpers that [wait until a promise resolves](https://github.com/emberjs/ember-test-helpers/blob/master/API.md#waituntil) before making some kind of assertion against the state of your application. However, using wait test helpers in this way can add complexity to your tests and couple ⛓ your tests to your implementation code. 
+Typically in Ember tests you'd use one of the several available test helpers that [wait until a promise resolves](https://github.com/emberjs/ember-test-helpers/blob/master/API.md#waituntil) before making some kind of assertion against the state of your application. However, using wait test helpers in this way can add complexity to your tests and couple ⛓ your tests to your implementation code.
 
 With [`qunit-wait-for`](https://github.com/alexlafroscia/qunit-wait-for) the idea is to let assertions run immediately and fail gracefully until they pass or a timeout is reached. This allows you to wait ⏳ for async behavior to complete without your test code knowing any more than it needs to know about your app code. All you have to do is wrap your assertion with a `waitFor` assertion provided by `qunit-wait-for`, it's very cool!
 

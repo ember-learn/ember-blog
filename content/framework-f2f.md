@@ -32,13 +32,13 @@ Among the RFCs discussed were:
 - [Tracked Properties](https://github.com/emberjs/rfcs/pull/410)
 - [Decorators](https://github.com/emberjs/rfcs/pull/408)
 
-One of the framework’s main strengths is that Ember apps have uncommon longevity compared to many other apps in the JavaScript ecosystem. We believe it’s important that these new features all work well as a whole unit, in terms of current user adoption, new learner experience, and technical performance. 
+One of the framework’s main strengths is that Ember apps have uncommon longevity compared to many other apps in the JavaScript ecosystem. We believe it’s important that these new features all work well as a whole unit, in terms of current user adoption, new learner experience, and technical performance.
 
 To learn more about Octane and how these RFCs work to support it, see the [2018 Roadmap RFC](https://github.com/emberjs/rfcs/pull/364) by Tom Dale, which introduces Octane, and the [Editions RFC](https://github.com/emberjs/rfcs/pull/371) by Dave Wasmer.
 
 ## Review of website improvement progress
 
-There is an opportunity to refresh and renew more than our APIs. As previously described in [The Ember Times](https://the-emberjs-times.ongoodbits.com/), significant work is underway to improve the architecture, look, and feel of our public website, [emberjs.com](https://emberjs.com). Framework core team members received an update on the latest progress, which is now an [RFC open to public review](https://github.com/emberjs/rfcs/pull/425). Over the past year, many pieces of the multiple web apps that make up our public site have been refactored to use a central style guide and common UI components, making the upcoming visual refactor possible. This work has been done in [ember-styleguide](https://github.com/ember-learn/ember-styleguide). 
+There is an opportunity to refresh and renew more than our APIs. As previously described in [The Ember Times](https://the-emberjs-times.ongoodbits.com/), significant work is underway to improve the architecture, look, and feel of our public website, [emberjs.com](https://emberjs.com). Framework core team members received an update on the latest progress, which is now an [RFC open to public review](https://github.com/emberjs/rfcs/pull/425). Over the past year, many pieces of the multiple web apps that make up our public site have been refactored to use a central style guide and common UI components, making the upcoming visual refactor possible. This work has been done in [ember-styleguide](https://github.com/ember-learn/ember-styleguide).
 
 There has been major progress in accessibility, consistency, and better marketing messaging of the site, but there’s still more work to do! The Learning Team and the Website Strike team are on the job. Stay tuned for more updates in the new year.
 
@@ -48,7 +48,7 @@ It’s safe to say that there’s a lot of work to do for the features and docum
 
 ## What’s next?
 
-Before every [EmberConf](https://emberconf.com/), the largest gathering of Ember devs, there’s always a flurry of activity. It seems like the first quarter of 2019 might be the liveliest one yet! There are less than two months to go, and some big plans underway. Stay tuned for updates via [The Ember Times](https://the-emberjs-times.ongoodbits.com/), the [Ember.js Twitter](https://twitter.com/emberjs), and “watch” the [ember.js GitHub repository](https://github.com/emberjs/ember.js)... if you dare. 
+Before every [EmberConf](https://emberconf.com/), the largest gathering of Ember devs, there’s always a flurry of activity. It seems like the first quarter of 2019 might be the liveliest one yet! There are less than two months to go, and some big plans underway. Stay tuned for updates via [The Ember Times](https://the-emberjs-times.ongoodbits.com/), the [Ember.js Twitter](https://twitter.com/emberjs), and “watch” the [ember.js GitHub repository](https://github.com/emberjs/ember.js)... if you dare.
 
 Hope to see you in March at EmberConf!
 

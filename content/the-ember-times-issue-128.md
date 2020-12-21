@@ -18,7 +18,7 @@ Updates for the Octane/Classic Ember Cheat Sheet 🎮,
 check out the new accessible controls for ember-sortable 🎛️,
 introduce adaptive loading to your app with Ember Device 📶,
 a new testing codemod from Freshworks 🎉,
-and more DecEmber 📆 updates! 
+and more DecEmber 📆 updates!
 
 <!-- READMORE -->
 
@@ -88,7 +88,7 @@ You can find all codemods by Freshworks on their [GitHub repo](https://github.co
 
 ## [DecEmber: An Addon a Day 📆](https://blog.emberjs.com/tags/december.html)
 
-DecEmber is going strong, highlighting a new addon each day until the calendar turns! Check out the [latest DecEmber posts](https://blog.emberjs.com/tags/december.html), covering addons such as [`ember-auto-import`](https://blog.emberjs.com/2019/12/06/countdown-to-the-new-year-ember-auto-import.html), [`ember-cli-sass`](https://blog.emberjs.com/2019/12/08/countdown-to-the-new-year-ember-cli-sass.html), and [`ember-simple-auth`](https://blog.emberjs.com/2019/12/13/countdown-to-the-new-year-ember-simple-auth.html). 
+DecEmber is going strong, highlighting a new addon each day until the calendar turns! Check out the [latest DecEmber posts](https://blog.emberjs.com/tags/december.html), covering addons such as [`ember-auto-import`](https://blog.emberjs.com/2019/12/06/countdown-to-the-new-year-ember-auto-import.html), [`ember-cli-sass`](https://blog.emberjs.com/2019/12/08/countdown-to-the-new-year-ember-cli-sass.html), and [`ember-simple-auth`](https://blog.emberjs.com/2019/12/13/countdown-to-the-new-year-ember-simple-auth.html).
 
 ---
 

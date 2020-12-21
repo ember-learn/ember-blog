@@ -55,7 +55,3 @@ branch to enable users to decide how to group coalesced requests.
 
 The hook was given a +1. We also realized that this hook will also solve the problem of [URLs being too long for findMany](https://github.com/emberjs/data/issues/651)
 
-
-
-
-

@@ -37,14 +37,14 @@ Ember.js 3.8 is an incremental, backwards compatible release of Ember with bugfi
 
 #### New Features (2)
 
-**Element Modifier Manager (1 of 2)**
+##### Element Modifier Manager (1 of 2)
 
 <!-- alex ignore special -->
 A modifier manager is an object that is responsible for coordinating the lifecycle events that occurs when invoking, installing and updating an element modifier. This new feature is introduced as a  very low-level API. Most likely you will never - as an Ember app developer - need to use this but it might come in handy for some add-on developers. In this way, the Ember app developers will benefit from this feature by subclassing these special modifiers provided by addons.
 
 If you're interested in learning more about how to use this new feature, then please refer to the [RFC](https://github.com/emberjs/rfcs/blob/master/text/0373-Element-Modifier-Managers.md).
 
-**Array helper (2 of 2)**
+##### Array helper (2 of 2)
 
 Ember 3.8 introduces the `{{array}}` helper to create an array in a template. This helper works in similar fashion to the already existing `{{hash}}` helper.
 
@@ -60,7 +60,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.8, please review the [Ember.js 3.8.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.8.0).
 
-**Component Manager Factory Function (1 of 1)**
+##### Component Manager Factory Function (1 of 1)
 
 `setComponentManager` no longer takes a string to associate the custom component class and the component manager. Instead you must pass a factory function that produces an instance of the component manager. For more information please refer to the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_component-manager-string-lookup)
 

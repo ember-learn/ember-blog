@@ -28,7 +28,7 @@ large interconnected object graphs.
 
 - The number of objects allocated during view rendering has been cut down.
 
-The ongoing performance effort is being championed 
+The ongoing performance effort is being championed
 by Erik Bryn and Kris Selden.
 
 ### Testing

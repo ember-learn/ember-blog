@@ -25,7 +25,7 @@ Today, we write such poems in code, using [ember-animated](https://emberobserver
 
 ### What It Does
 
-`ember install ember-animated` is an invitation for creativity. This addon provides animation primitives and some built-in transitions that help bring interfaces to life! You can animate across route changes, content can flow smoothly when new data arrives, and web interactions can compete with the kinds of interfaces that are usually only seen in native applications. 
+`ember install ember-animated` is an invitation for creativity. This addon provides animation primitives and some built-in transitions that help bring interfaces to life! You can animate across route changes, content can flow smoothly when new data arrives, and web interactions can compete with the kinds of interfaces that are usually only seen in native applications.
 
 ### Why I Like It
 
@@ -36,4 +36,4 @@ The out-of-the-box motions are helpful, and I also appreciate that I can write m
 
 This addon is Octane ready, although its documentation needs some Octane code examples added in. Check out the [Issues](https://github.com/ember-animation/ember-animated/issues) to help out!
 
-Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy! 
+Do you use this addon? Or one like it? We'd love to hear about Ember addons that bring you joy!

@@ -25,7 +25,7 @@ Unfortunately, this work lead to an error when `CollectionView` instances were u
 ### Invalid URLs
 
 Refactoring in the router initialization process lead to a bug that caused the browsers URL
-to become out of sync with the correct URL when the back button was pressed while using 
+to become out of sync with the correct URL when the back button was pressed while using
 `HistoryLocation`.
 
 This regression is fixed in 1.11.1.

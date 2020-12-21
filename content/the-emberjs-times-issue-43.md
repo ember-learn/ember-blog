@@ -178,7 +178,6 @@ and shares his in-depth knowledge of ember-data internals to make it easier for 
 **Submit your own** short and sweet **question** under [bit.ly/ask-ember-core](https://bit.ly/ask-ember-core). And don’t worry, there are no silly questions, we appreciate them all - promise! 🤞
 
 
-
 That's another wrap!  ✨
 
 Be kind,

@@ -14,7 +14,7 @@ At EmberConf in March of this year, [we announced Glimmer.js][ann-glimmer-js], a
 library for building modern UI components optimized for the mobile web. I wanted
 to give an update on what we've been working on since then.
 
-[ann-glimmer-js]: https://emberjs.com/blog/2017/04/05/emberconf-2017-state-of-the-union.html#toc_introducing-glimmer-js 
+[ann-glimmer-js]: https://emberjs.com/blog/2017/04/05/emberconf-2017-state-of-the-union.html#toc_introducing-glimmer-js
 
 There were two primary motivations for releasing Glimmer.js as a standalone project:
 

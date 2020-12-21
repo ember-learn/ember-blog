@@ -23,7 +23,7 @@ Other than bug fixes, there are a few things we've changed that
 could affect your 1.0.pre apps.
 
 * `{{outlet}}` now creates a Metamorph rather than a `<div>`. This makes
-  it less obtrusive, but you may have to change your HTML or CSS if you 
+  it less obtrusive, but you may have to change your HTML or CSS if you
   were relying on the `<div>`.
 * We have removed `CP_DEFAULT_CACHEABLE` and `VIEW_PRESERVES_CONTEXT`
   flags. Both behaviors are now always on.
@@ -47,7 +47,7 @@ beta release. Here are a few of them:
 
 * New Router API: This is mostly finalized but has not yet been
   implemented.
-* New Computed Property API: We're working on a new API for Computed 
+* New Computed Property API: We're working on a new API for Computed
   Property getters and setters. Don't worry, we expect to support
   the existing one for the foreseeable future.
 * Asynchronous Observers: Currently observers are fired immediately

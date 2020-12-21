@@ -43,13 +43,13 @@ With [RFC#578: Ability to hook into build process without addons](https://github
 
 If you have not had a chance to check out [Gavin Joyce's (@GavinJoyce)](https://github.com/GavinJoyce) blog post on the evolution of Ember and Intercom, and the accompanying talk, you might want to give it a read / watch!
 
-The [blog post](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/) covers the **massive growth of Intercom over 6 years**, how the company came to choose Ember and how Intercom's growth tracks with the growth of Ember over time. 
+The [blog post](https://www.intercom.com/blog/videos/evolution-of-ember-at-intercom/) covers the **massive growth of Intercom over 6 years**, how the company came to choose Ember and how Intercom's growth tracks with the growth of Ember over time.
 
-Interestingly, many of the principles of R&D, design and Engineering overlap with Ember's conventions and release cycles. 
+Interestingly, many of the principles of R&D, design and Engineering overlap with Ember's conventions and release cycles.
 
-The blog post also provides some nice detail on the technical evolution in Ember's rendering engine and it provides a look at how Ember Octane can let us write beautiful, minimal and clean components in mostly native JavaScript. 
+The blog post also provides some nice detail on the technical evolution in Ember's rendering engine and it provides a look at how Ember Octane can let us write beautiful, minimal and clean components in mostly native JavaScript.
 
-It's a fascinating and encouraging read, and it's very cool to see how the stability and innovation of Ember has allowed Intercom to build the amazing product it is today! 
+It's a fascinating and encouraging read, and it's very cool to see how the stability and innovation of Ember has allowed Intercom to build the amazing product it is today!
 
 ---
 

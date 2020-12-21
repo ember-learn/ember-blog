@@ -21,7 +21,7 @@ Community addon updates: stable version of ember-bootstrap v4 released 💥, and
 <!--alex ignore just-->
 ## [Just released: stable version of ember-bootstrap v4 💥](https://twitter.com/simonihmig/status/1290710885070262275)
 
-[Simon Ihmig (@simonihmig)](https://github.com/simonihmig) announced the **stable release** of ember-bootstrap v4, [tweeting](https://twitter.com/simonihmig/status/1290710885070262275) that it's another step toward a full Octane refactoring! Glimmer components are coming next. 
+[Simon Ihmig (@simonihmig)](https://github.com/simonihmig) announced the **stable release** of ember-bootstrap v4, [tweeting](https://twitter.com/simonihmig/status/1290710885070262275) that it's another step toward a full Octane refactoring! Glimmer components are coming next.
 
 Bootstrap users can check out the full list of changes in the [changelog](https://github.com/kaliber5/ember-bootstrap/blob/master/CHANGELOG.md). For breaking changes, give [ember-bootstrap-codemods](https://github.com/kaliber5/ember-bootstrap-codemods) a try. We are appreciative of all the codemods in the Ember community!
 

@@ -70,7 +70,7 @@ This release included several bug fixes and improvements, such as:
 
 #### Deprecations (1)
 
-**najax when ember-fetch is also a dependency**
+##### najax when ember-fetch is also a dependency
 
 Building on the deprecation of the previous minor version, [#7230](https://github.com/emberjs/data/pull/7230) also triggers a deprecation warning when `ember-fetch` is installed to better guide users on how to update their app.
 You can consult the [Deprecate `najax` request](https://deprecations.emberjs.com/ember-data/v3.x/#toc_ember-data-najax-fallback) deprecation guide for more information.

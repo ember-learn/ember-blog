@@ -154,4 +154,3 @@ can be bound to conditionally disable a link:
 
 Thanks to Trek Glowacki for this improvement.
 
-

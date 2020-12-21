@@ -29,7 +29,7 @@ core team member and let them know!
 
 * [BUGFIX beta Allow setting of `undefined` value to a `content` property](https://github.com/emberjs/ember.js/pull/4645)
 
-  Fixes setting of `undefined` value to a content property. 
+  Fixes setting of `undefined` value to a content property.
 
   Still, checking `obj[keyName] === value` in these [lines](https://github.com/selvagsz/ember.js/blob/master/packages_es6/ember-metal/lib/property_set.js#L52-54) is bypassed in two cases
 
@@ -40,7 +40,7 @@ core team member and let them know!
 
   +1 by @stefanpenner, but he requests @krisselden to review.
 
-  **Resolution**
+  Resolution:
 
   Seems good, but @krisselden will review in further detail. Will attempt to have this update in 1.6.0-beta.2.
 
@@ -102,7 +102,7 @@ core team member and let them know!
 * [FEATURE ember-handlebars-radio-buttons Implement radio buttons](https://github.com/emberjs/ember.js/pull/4352)
 
   This updates [#1235](https://github.com/emberjs/ember.js/pull/1235) to extend component, adds handlebar helpers,
-  updates tests and documentation. I think a lot of people would be pleased to see radio buttons in the core and I 
+  updates tests and documentation. I think a lot of people would be pleased to see radio buttons in the core and I
   see a lot of developers at my company have a hard time with radio buttons when they first get started with Ember,
   so I think this would be a great addition to the core.
 

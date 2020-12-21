@@ -43,26 +43,25 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.9, please review the [Ember.js 3.9.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.9.0).
 
-
-**Computed Property Overridability (1 of 6)**
+##### Computed Property Overridability (1 of 6)
 
 Ember's computed properties are overridable by default if no setter is defined. This behavior is bug prone and has been deprecated. `readOnly()`, the modifier that prevents this behavior, will be deprecated once overridability has been removed. Please have a look at [the deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-override) for more information on this deprecation.
 
-**Computed Property `.property()` Modifier (2 of 6)**
+##### Computed Property `.property()` Modifier (2 of 6)
 
 `.property()` is a modifier that adds additional property dependencies to an existing computed property. To update, move the dependencies to the main computed property definition and you shouldn't see a deprecation warning any more. For more information please refer to [the deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-property).
 
-**Computed Property Volatility (3 of 6)**
+##### Computed Property Volatility (3 of 6)
 
 `.volatile()` is a computed property modifier which makes a computed property recalculate every time it is accessed, instead of caching. It also prevents property notifications from ever occuring on the property, which is generally not the behavior that developers are after. Volatile properties are usually used to simulate the behavior of native getters, which means that they would otherwise behave like normal properties.
 
 To update, consider upgrading to native class syntax and using native getters directly instead. There's guide on how to do this in the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_computed-property-volatile).
 
-**Deprecate `@ember/object#aliasMethod` (4 of 6)**
+##### Deprecate `@ember/object#aliasMethod` (4 of 6)
 
 `@ember/object#aliasMethod` is a little known and rarely used method that allows user's to add aliases to objects defined with EmberObject. The deprecation warning can be removed by refactoring it into having one function call the other directly. To see how to do this, please refer to the [deprecations app](https://emberjs.com/deprecations/v3.x#toc_object-alias-method)
 
-**Deprecate `this.$()` in components (5 of 6)**
+##### Deprecate `this.$()` in components (5 of 6)
 
 As part of the work in making Ember lean by default using `this.$()` in components is now deprecated. What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
 
@@ -70,9 +69,9 @@ If you still would like to use jQuery in your application you will need to use t
 
 Read more about this deprecation in [the RFC](https://github.com/emberjs/rfcs/blob/master/text/0386-remove-jquery.md).
 
-**Deprecate `Ember.$()` (6 of 6)**
+##### Deprecate `Ember.$()` (6 of 6)
 
-Using `Ember.$()` will now throw a deprecation warning. 
+Using `Ember.$()` will now throw a deprecation warning.
 
 What is important to notice about this deprecations is that **this does not mean that we discourage the use of jQuery** in Ember applications. In fact, there are a lot of cases where jQuery is still very useful.
 
@@ -129,17 +128,17 @@ There are two (2) new features and one (1) bugfix.
 
 #### New Features (2)
 
-**`ember-welcome-page` updated to use angle bracket invocation syntax (1 of 2)**
+##### `ember-welcome-page` updated to use angle bracket invocation syntax (1 of 2)
 
 The welcome page that is generated in new Ember apps is now converted to use the angle bracket invocation syntax. This means that instead of adding `{{welcome-page}}` to `application.hbs` we now add `<WelcomePage />`.
 
-**Support for Node 11 (2 of 2)**
+##### Support for Node 11 (2 of 2)
 
 Ember CLI is now tested against Node 11. If developers use it for their apps and addons, the CLI will not show a warning anymore.
 
 #### Bugfixes (1)
 
-**Module unification blueprint updates (1 of 1)**
+##### Module unification blueprint updates (1 of 1)
 
 The "Module Unification" blueprints have received several bugfixes and enhancements. For more details have a look at [the release notes](https://github.com/ember-cli/ember-cli/releases/tag/v3.9.0).
 

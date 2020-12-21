@@ -87,7 +87,6 @@ the 1.6.x beta series:
     Resolution: It’s a go.
 
 
-
 #### PR's/Issues To Review
 
 * [Do not setup listeners for destroyed Arrays](https://github.com/emberjs/ember.js/pull/4436)
@@ -148,6 +147,4 @@ the 1.6.x beta series:
     return data.
     * Deprecate normalizeTuple calls that return a non-global context
     and a simple global path.
-
-
 

@@ -35,11 +35,12 @@ Ember.js 3.6 is an incremental, backwards compatible release of Ember with bugfi
 
 #### New Features (2)
 
-**Native Classes (1 of 2)**
+##### Native Classes (1 of 2)
 
 The [ES Class](https://emberjs.github.io/rfcs/0240-es-classes.html) and [Native Class Constructor Update](https://emberjs.github.io/rfcs/0337-native-class-constructor-update.html) RFCs officially ship in 3.6! This feature means that usage of native classes has stabilized, and they are considered public API whose behavior will not change.
 
-**Great, so I can use `class` syntax now?!**
+###### Great, so I can use `class` syntax now?!
+
 Hold your horses! It's not _quite_ that simple yet.
 
 The behavior of native classes is stable, but currently Ember does not support or recommend the usage of class fields or decorators, which are both still undergoing the TC39 process. TC39 (Technical Committee number 39) is a part of ECMA, the institution which standardizes the JavaScript language under the “ECMAScript” specification. Subsequent RFCs will have to be made to make these officially part of Ember.
@@ -49,7 +50,7 @@ Without decorators or class fields, the benefits of class syntax are generally n
 
 With this in mind, the official Ember recommendation is to continue using the standard `EmberObject.extend()` syntax for defining your factories if you are not risk tolerant. The guides will continue to use this syntax for the time being as well.
 
-**So what's the point then?**
+###### So what's the point then?
 
 Stabilizing the behavior of classes gives early adopters an API to build on. For users who are more risk tolerant and want to be early adopters, community projects such as [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) and [ember-decorators](https://github.com/ember-decorators/ember-decorators) are providing the transforms and decorators necessary to use class syntax today, and are dedicated to remaining stable and providing an update path through any changes that occur in TC39 as the proposals are finalized.
 
@@ -57,7 +58,7 @@ Early adopters have been helping tremendously to sort out the details here and m
 
 For users who aren't ready to adopt, that's OK - the EmberObject model will continue to be supported for some time to come. In addition, work is progressing on a [codemod](https://github.com/ember-codemods/ember-es6-class-codemod) which will transform the old class model to the new one seamlessly, making the transition easy from day one.
 
-**Usage Notes**
+###### Usage Notes
 
 There are a few notable changes and features for native classes:
 
@@ -67,7 +68,7 @@ There are a few notable changes and features for native classes:
 - Using native classes, and switching back to the old Ember Object model is fully supported.
 - For early adopters who are used to argument values and values passed to `create` being overriden, this is no longer the case! Class field values will be the default, and any value passed to a class on creation will override that value.
 
-**Compatibility and Polyfill**
+###### Compatibility and Polyfill
 
 A polyfill for this behavior has been built which backports this behavior to both Ember 3.4 and 3.5. You can see it [here](https://github.com/pzuraq/ember-native-class-polyfill), or install it using ember-cli:
 
@@ -77,7 +78,7 @@ ember install ember-native-class-polyfill
 
 We would like to add support for prior LTS versions (2.18 and 2.16) as well, so if you would like to contribute, ping us in the #st-native-classes channel on Discord or in the [Native Class Quest issue](https://github.com/emberjs/ember.js/issues/16927) on Github!
 
-**Final stage of the router service RFC (2 of 2)**
+##### Final stage of the router service RFC (2 of 2)
 
 <!--alex ignore rejects -->
 Ember 3.6 introduces the final stages of the router service RFC. The release includes two new methods: [`recognize(url)`](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md#new-method-url-recognition) that can return a `RouteInfo` based on the URL you pass and [`recognizeAndLoad(url)`](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md#new-method-recognize-and-load-models) that takes a string URL and returns a promise that resolves to a `RouteInfoWithAttributes` for the leaf-most route represented by the URL. The promise rejects if the URL is not recognized or an unhandled exception is encountered.
@@ -95,7 +96,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 For more details on changes in Ember.js 3.6, please review the [Ember.js 3.6 release page](https://github.com/emberjs/ember.js/releases/tag/v3.6.0).
 
-**new EmberObject (1 of 6)**
+##### new EmberObject (1 of 6)
 
 We are deprecating usage of `new EmberObject()` to construct instances of `EmberObject` and its subclasses. This affects all classes that extend from `EmberObject` as well, including user defined classes and Ember classes such as:
 
@@ -109,13 +110,13 @@ Instead, you should use `EmberObject.create()` to create new instances of classe
 
 To read more about this deprecation and how to refactor your existing code have a look at [the deprecations page](https://www.emberjs.com/deprecations/v3.x/#toc_object-new-constructor).
 
-**Remove All Listeners/Observers (2 of 6)**
+##### Remove All Listeners/Observers (2 of 6)
 
 When using both the `removeListener` and `removeObserver` methods, users can omit the final string or method argument to trigger an undocumented codepath that will remove _all_ event listeners/observers for the given key. This functionality will be removed since it is uncommonly used, undocumented, and adds a fair amount of complexity to a critical path.
 
 To read more about this deprecation and how to refactor your existing code have a look at [the deprecations page](https://www.emberjs.com/deprecations/v3.x/#toc_events-remove-all-listeners).
 
-**Deprecate Ember.merge (3 of 6)**
+##### Deprecate Ember.merge (3 of 6)
 
 Ever since `Ember.assign` was released, `Ember.merge` became mostly unnecessary. To cut down on duplication, we are now recommending using `Ember.assign` instead of `Ember.merge`.
 
@@ -123,15 +124,14 @@ If you need to support Ember <=2.4 you can use [ember-assign-polyfill](https://g
 
 To see a code example of switching from `Ember.merge` to `Ember.assign` please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_ember-polyfills-deprecate-merge).
 
+##### HandlerInfos Removal (4 of 6)
 
-**HandlerInfos Removal (4 of 6)**
-
-Due to the [router service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) it is necessary to rename the private API `HandlerInfo` to `RouteInfo`. 
+Due to the [router service RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md) it is necessary to rename the private API `HandlerInfo` to `RouteInfo`.
 
 If you need to access information about the routes you are most likely better served by injecting the router service as it exposes a publicly supported version of the `RouteInfo`s.
 For help on how to do this please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_remove-handler-infos).
 
-**Deprecate Router Events (5 of 6)**
+##### Deprecate Router Events (5 of 6)
 
 Currently, application-wide transition monitoring is spread out throughout the `Route` classes. This does not really belong here but in the `Router` service instead.
 
@@ -142,7 +142,7 @@ In addition, they receive `handlerInfos` in their arguments, which are an undocu
 
 For examples on how to transition both the `Route` and `Router` usages of `willTransition` and `didTransition`, please refer to the [deprecation app](https://deprecations.emberjs.com/v3.x#toc_deprecate-router-events).
 
-**Transition State Removal (6 of 6)**
+##### Transition State Removal (6 of 6)
 
 The `Transition` object is a public interface that actually exposed internal state used by router.js to perform routing.
 

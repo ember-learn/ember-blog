@@ -176,6 +176,5 @@ this feature and [@knownasilya](https://github.com/knownasilya) for
 proposing the [RFC](https://github.com/emberjs/rfcs/pull/1).
 
 
-
 For more details on changes in the 2.5 beta, please review the
 [Ember Data 2.5.0-beta.1 CHANGELOG](https://github.com/emberjs/data/blob/v2.5.0-beta.1/CHANGELOG.md).

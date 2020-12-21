@@ -1,11 +1,9 @@
 {
   "default": true,
   "line-length": false,
-  "no-duplicate-heading": false,
-  "no-emphasis-as-heading": false,
+  "no-duplicate-heading": { "siblings_only": true },
   "no-inline-html": false,
+  "no-multiple-blanks": { "maximum": 2 },
   "no-trailing-punctuation": false,
-  "no-trailing-spaces": false,
-  "no-multiple-blanks": false,
-  "MD007": { "indent": 4 }
+  "ul-indent": { "indent": 4 }
 }

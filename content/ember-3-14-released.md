@@ -87,7 +87,7 @@ Ember.js 3.14 is an incremental, backwards compatible release of Ember with bugf
 
 #### New Features (1)
 
-**`@model` in Route Templates (1 of 1)**
+##### `@model` in Route Templates (1 of 1)
 
 Route templates can now access the route's model with `@model` in addition to `this.model`. By treating `@model` as an argument, route templates better parallel component templates. Furthermore, the concept of teaching a `this` context for templates can be delayed.
 
@@ -152,7 +152,7 @@ compared with v3.13.
 
 #### Deprecations (1)
 
-**Default Adapters and Serializers (1 of 1)**
+##### Default Adapters and Serializers (1 of 1)
 
 Ember Data 3.14 introduces deprecations for the default adapters and
 serializers. The motivation for these deprecations is described in [RFC
