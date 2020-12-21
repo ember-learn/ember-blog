@@ -297,8 +297,8 @@ if the network is down, you can implement `shouldBackgroundReloadRecord`
 ```js
 shouldBackgroundReloadRecord: function(store, snapshot) {
   if (window.navigator.connection === 'cellular' ||
-  	window.navigator.connection === 'none') {
-  	return false;
+    window.navigator.connection === 'none') {
+    return false;
   } else {
     return true;
   }
@@ -422,8 +422,7 @@ and your server payload looked like:
 
 Your serializer would get the payload passed in an `extract` hook and its job was to:
  
-- normalize and `store.push` everything that is not the `primary record`, in this
-	case the array of sideloaded accounts
+- normalize and `store.push` everything that is not the `primary record`, in this case the array of sideloaded accounts
 - normalize and return the primary data, in this case the `user` data
 
 Having these two ways of pushing data to the store, with both returning primary record data
