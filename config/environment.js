@@ -29,7 +29,18 @@ module.exports = function(environment) {
       paginate: true,
       logo: "/images/logos/e-icon.png",
       twitter: "emberjs",
-    }
+    },
+
+    metricsAdapters: [
+      {
+        name: 'GoogleAnalytics',
+        environments: ['production'],
+        config: {
+          id: 'UA-27675533-1',
+          require: ['linkid']
+        }
+      },
+    ],
   };
 
   if (environment === 'development') {
