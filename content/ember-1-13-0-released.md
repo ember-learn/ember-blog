@@ -46,18 +46,18 @@ to fire should upgrade to 2.0 without changes.
 
 The easiest way to work through deprecations is the **Ember Inspector**. Thanks to the work of Teddy Zeenny, deprecations will be routed to the "Deprecations" inspector pane, where you can get a grouped list of them as well as the line of code in your app that triggered the deprecation. You can also ask for a full stack trace of any deprecation.
 
-#### Improved Rerender Performance
+### Improved Rerender Performance
 
 Previous iterations of Ember's rendering engine **relied** on granular observation for efficiency. When a piece of dynamic content was rendered, Ember registered observers, updating the content when the value changed.
 
 While this was reasonably efficient in cases where the developer could easily use `set` (and the array equivalents) to mutate values, it had two related issues:
 
-* This forced developers to represent all changes in terms of granular
+- This forced developers to represent all changes in terms of granular
   observers. In many cases this could be extremely awkward. This was
   especially problematic when working with Arrays, since (for example)
   representing a sort as a series of mutations is conceptually complex
   and can be cost-prohibitive.
-* Ember itself was extremely inefficient when an entire object or
+- Ember itself was extremely inefficient when an entire object or
   array was replaced, despite the fact that this was often the most
   natural way to represent the change. This meant that while it was
   usually possible in theory to "just re-render" a component, it was,
@@ -81,7 +81,7 @@ Glimmer's performance, and to [LinkedIn](http://www.linkedin.com) and
 [Bustle](http://www.bustle.com/) for their
 generous sponsorship of this work.
 
-#### Component Lifecycle Hooks
+### Component Lifecycle Hooks
 
 A number of new component lifecycle hooks have been introduced to Ember 1.13.
 Using these hooks allows you to write data down, action up (DDAU) style
@@ -89,33 +89,33 @@ components today, despite the two-way data binding of curly components.
 
 On first render (in order):
 
-* `didInitAttrs` runs after a component was created and passed attrs are guaranteed to be present. In Ember 1.13, the attributes will be available as `this.get('attrName')`.
-* `didReceiveAttrs` runs after `didInitAttrs`, and it also runs on
+- `didInitAttrs` runs after a component was created and passed attrs are guaranteed to be present. In Ember 1.13, the attributes will be available as `this.get('attrName')`.
+- `didReceiveAttrs` runs after `didInitAttrs`, and it also runs on
   subsequent re-renders, which is useful for logic that is the same
   on all renders. It does not run when the component has been re-rendered from the inside.
-* `willRender` runs before the template is rendered. It runs when the
+- `willRender` runs before the template is rendered. It runs when the
   template is updated for any reason (both initial and re-render, and
   regardless of whether the change was caused by an attrs change or
   re-render).
-* `didInsertElement` runs after the template has rendered and the
+- `didInsertElement` runs after the template has rendered and the
   element is in the DOM.
-* `didRender` runs after `didInsertElement` (it also runs on subsequent
+- `didRender` runs after `didInsertElement` (it also runs on subsequent
   re-renders).
 
 On re-render (in order):
 
-* `didUpdateAttrs` runs when the attributes of a component have changed
+- `didUpdateAttrs` runs when the attributes of a component have changed
   (but not when the component is re-rendered, via `component.rerender`,
   `component.set`, or changes in models or services used by the
   template).
-* `didReceiveAttrs`, same as above.
-* `willUpdate` runs when the component is re-rendering for any reason,
+- `didReceiveAttrs`, same as above.
+- `willUpdate` runs when the component is re-rendering for any reason,
   including `component.rerender()`, `component.set()` or changes in
   models or services used by the template.
-* `willRender`, same as above
-* `didUpdate` runs after the template has re-rendered and the DOM is
+- `willRender`, same as above
+- `didUpdate` runs after the template has re-rendered and the DOM is
   now up to date.
-* `didRender`, same as above.
+- `didRender`, same as above.
 
 Note that a component is re-rendered whenever:
 
@@ -128,7 +128,7 @@ Note that a component is re-rendered whenever:
 Because of the Glimmer engine, these re-renders are fast, and avoid
 unnecessary work.
 
-#### Closure Actions
+### Closure Actions
 
 In Ember 1.x, the actions system used bubbling as a solution for passing user
 behavior to a parent scope. For example, when clicking a button an action
@@ -173,25 +173,25 @@ export default Ember.Component.extend({
 
 Actions:
 
-* Can be passed multiple arguments
-* Return a value. For example `var result = this.attrs.submit();`
-* Can curry. For example `submit=(action 'setName' 'Sal')` would pass `"Sal"` as
+- Can be passed multiple arguments
+- Return a value. For example `var result = this.attrs.submit();`
+- Can curry. For example `submit=(action 'setName' 'Sal')` would pass `"Sal"` as
   the first argument to `setName` when `submit` is called. Actions can curry
   multiple times, adding arguments at each scope. For example `submit=(action attrs.actionPassedIn someProp)` just adds an argument to any already curried onto `actionPassedIn`.
 
 Additionally the `action` helper has two options:
 
-* `(action 'save' target=session)` would look at the `actions` hash on the
+- `(action 'save' target=session)` would look at the `actions` hash on the
   `session` object instead of the current context.
-* `(action 'save' value="currentTarget.value")` would read the path `currentTarget.value`
+- `(action 'save' value="currentTarget.value")` would read the path `currentTarget.value`
   off whatever the first argument to the called action is. This is handy for
   destructuring objects passed as the first argument (like DOM events).
 
-#### Note: Angle Bracket Components
+### Note: Angle Bracket Components
 
 Ember 2.1 will (likely) ship with angle-bracket components, which will introduce one-way data flow **by default**, and provide an opt-in for two-way data flow. Existing components maintain the existing behavior (for compatibility). While the internals of Ember 2.0 support a distinction between one-way and two-way bindings, that distinction will remain largely internal until Ember 2.1.
 
-#### New Ember.js Helper API
+### New Ember.js Helper API
 
 Ember's helper story prior to 1.13 has been inconsistent and neglected. In
 1.13, we're introducing a new API for writing helpers along with a set of
@@ -199,11 +199,11 @@ constraints and features informed by real-world experience.
 
 Ember helpers:
 
-* Represent a single value
-* Do not manage DOM or control flow
-* Can recompute themselves, similar to how a component can rerender
-* Can optionally access services
-* Do not require a dash
+- Represent a single value
+- Do not manage DOM or control flow
+- Can recompute themselves, similar to how a component can rerender
+- Can optionally access services
+- Do not require a dash
 
 Helpers come in two flavors. The first is a function-based API we call a
 shorthand helper. For example, this shorthand helper joins a first and
@@ -259,7 +259,7 @@ requirements for this API to our attention and testing changes with little notic
 Thanks to [@mixonic](https://twitter.com/mixonic)
 and [@rwjblue](https://twitter.com/rwjblue) for the implementation.
 
-#### Component Block Info
+### Component Block Info
 
 Ember.js 1.13 introduces two new template keywords that provide reflection on
 how a component is called.
@@ -293,26 +293,26 @@ with block params (invoke in block form with `as |someParam|`).
 Thanks to [@mmun](https://twitter.com/_mmun) and [@rwjblue](https://twitter.com/rwjblue)
 for implementing this feature.
 
-#### Notable Deprecations in 1.13
+### Notable Deprecations in 1.13
 
 In preparation for Ember 2.0, 1.13 introduces many deprecations. These include:
 
-* All view APIs in Ember. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-view)
-  * `Ember.CoreView`, `Ember.View`, `Ember.CollectionView`, `Ember.ContainerView`
-  * `{{view 'some-helper'}}`
-  * The `{{view}}` keyword for accessing properties on a view
-  * `Ember.Select` and `{{view "select"}}`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-select)
-  * `Ember.LinkView` in favor of `Ember.LinkComponent`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-linkview)
-* Options to the `{{#each` helper that trigger a legacy and poorly performing
+- All view APIs in Ember. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-view)
+  - `Ember.CoreView`, `Ember.View`, `Ember.CollectionView`, `Ember.ContainerView`
+  - `{{view 'some-helper'}}`
+  - The `{{view}}` keyword for accessing properties on a view
+  - `Ember.Select` and `{{view "select"}}`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-select)
+  - `Ember.LinkView` in favor of `Ember.LinkComponent`. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-linkview)
+- Options to the `{{#each` helper that trigger a legacy and poorly performing
   legacy layer. These options are: `itemView`, `itemViewClass`, `tagName`, `emptyView` and `emptyViewClass`.
-* The `itemController` argument for `{{#each`.
-* The `bind-attr` helper. Using helpers and HTMLBars-style attribute binding
+- The `itemController` argument for `{{#each`.
+- The `bind-attr` helper. Using helpers and HTMLBars-style attribute binding
   is preferred.
-* Reading `this.get('template')` to check for a yielded block on components.
+- Reading `this.get('template')` to check for a yielded block on components.
   Instead, use the `hasBlock` API.
-* Non-block param `{{with`
-* The `view` and `viewClass` params for `{{outlet}}`
-* `Ember.reduceComputed` and `Ember.arrayComputed` in favor of plain normal
+- Non-block param `{{with`
+- The `view` and `viewClass` params for `{{outlet}}`
+- `Ember.reduceComputed` and `Ember.arrayComputed` in favor of plain normal
   array manipulations. [See deprecation guide](http://emberjs.com/deprecations/v1.x/#toc_ember-reducecomputed-ember-arraycomputed)
 
 ## Ember 2.0 beta
@@ -335,7 +335,7 @@ iterate forward.
 Because of the focus on landing migration paths for 1.x codebases in 1.13,
 2.0 will have few new features. Among them are:
 
-#### each-in helper
+### each-in helper
 
 The `each-in` helper allows the iteration of object properties. For example,
 given this value for `items`:
@@ -361,7 +361,7 @@ cause a rerender, but `.set('items', val)` will.
 Thanks to [@tomdale](http://twitter.com/tomdale) and implementing this
 feature, and to several others for helping push it to completion.
 
-#### get helper
+### get helper
 
 The `get` helper provides a bound way to fetch a single property from an object.
 For example given these items:
@@ -387,7 +387,7 @@ This becomes more powerful when the second argument is a bound path:
 
 Thanks to [@jmurphyau](https://twitter.com/jmurphyau) for implementing this feature.
 
-#### Notable Breaking Changes in Ember 2.0
+### Notable Breaking Changes in Ember 2.0
 
 Ember 2.0 will remove a number of public APIs, all of which should have been
 deprecated in the 1.13 release and have a viable migration path. The Ember
@@ -401,58 +401,58 @@ represents what we believe the breaking changes will be.
 Many controller APIs are removed in Ember 2.0. Routeable controllers still
 exist, but all other uses have been deprecated. This includes:
 
-* `{{render "some-controller"}}`
-* `{{each item itemController="some-controller"}}` - This usage can be replaced
+- `{{render "some-controller"}}`
+- `{{each item itemController="some-controller"}}` - This usage can be replaced
   by nesting a component inside the item, and by using helpers.
-* `Ember.ObjectController`
-* `Ember.ArrayController`
-* The `{{controller}}` keyword
-* `needs:` on controllers
+- `Ember.ObjectController`
+- `Ember.ArrayController`
+- The `{{controller}}` keyword
+- `needs:` on controllers
 
 All view APIs are removed in Ember 2.0. This includes:
 
-* `Ember.CoreView`, `Ember.View`, `Ember.ContainerView` and `Ember.CollectionView`
-* `Ember._Metamorph`, `Ember._MetamorphView`
-* The `{{view "some-view"}}` helper
-* The `{{view}}` keyword
-* `{{each itemView=`, `{{each itemViewClass=`, `{{each tagName=`, `{{each emptyView=`, `{{each emptyViewClass`
-* `Ember.Select` and `{{view "select"}}`
-* `Ember.Checkbox` is not removed, but will become a component instead of a view
+- `Ember.CoreView`, `Ember.View`, `Ember.ContainerView` and `Ember.CollectionView`
+- `Ember._Metamorph`, `Ember._MetamorphView`
+- The `{{view "some-view"}}` helper
+- The `{{view}}` keyword
+- `{{each itemView=`, `{{each itemViewClass=`, `{{each tagName=`, `{{each emptyView=`, `{{each emptyViewClass`
+- `Ember.Select` and `{{view "select"}}`
+- `Ember.Checkbox` is not removed, but will become a component instead of a view
 
 The most commonly used parts of the `view` API will be supported into the forseeable future via a core-supported addon.
 
 All Handlebars APIs are removed in Ember 2.0. This includes:
 
-* `Ember.Handlebars.helper`, `Ember.Handlebars.makeBoundHelper` and `Ember.Handlebars.helper`
-* `Ember.Handlebars.compile`
+- `Ember.Handlebars.helper`, `Ember.Handlebars.makeBoundHelper` and `Ember.Handlebars.helper`
+- `Ember.Handlebars.compile`
 
 Several template helpers are removed in Ember 2.0. These include:
 
-* `{{bindAttr}}`
-* `{{bind-attr}}` (use HTMLBars-style attribute bindings instead)
-* `{{bind}}`
-* `{{template}}` (use `{{partial}}` instead)
-* `{{linkTo}}` (use `{{link-to}}` instead)
-* `{{collection items}}`
-* Non-block params versions of `{{#each}}` and `{{#with}}`
-* Legacy arguments to `{{#each}}`, `{{outlet}}`
+- `{{bindAttr}}`
+- `{{bind-attr}}` (use HTMLBars-style attribute bindings instead)
+- `{{bind}}`
+- `{{template}}` (use `{{partial}}` instead)
+- `{{linkTo}}` (use `{{link-to}}` instead)
+- `{{collection items}}`
+- Non-block params versions of `{{#each}}` and `{{#with}}`
+- Legacy arguments to `{{#each}}`, `{{outlet}}`
 
 The following routing APIs are removed:
 
-* `#hash` paths with no forward leading slash
+- `#hash` paths with no forward leading slash
 
 Other APIs:
 
-* `Ember.tryFinally`
-* `Ember.tryCatchFinally`
-* `Ember.required`
-* `Ember.Map#remove`
-* `Ember.Set`
-* `Ember.computed.defaultTo`
-* `Ember.DeferredMixin`
-* `Ember.Deferred` (use `Ember.RSVP.Promise` instead)
-* `Ember.reduceComputed` and `Ember.arrayComputed` (use plain array manipulation)
-* `Ember.Freezable` (use Object.freeze instead)
+- `Ember.tryFinally`
+- `Ember.tryCatchFinally`
+- `Ember.required`
+- `Ember.Map#remove`
+- `Ember.Set`
+- `Ember.computed.defaultTo`
+- `Ember.DeferredMixin`
+- `Ember.Deferred` (use `Ember.RSVP.Promise` instead)
+- `Ember.reduceComputed` and `Ember.arrayComputed` (use plain array manipulation)
+- `Ember.Freezable` (use Object.freeze instead)
 
 Additionally, IE8 is no longer supported in Ember 2.x. IE9+ is supported.
 
@@ -460,5 +460,5 @@ Many of these deprecated APIs will be moved into core-supported addons, or have 
 
 ## Changelogs
 
-+ [Ember.js 1.13.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.13.0/CHANGELOG.md)
-+ [Ember.js 2.0.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v2.0.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.13.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.13.0/CHANGELOG.md)
+- [Ember.js 2.0.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v2.0.0-beta.1/CHANGELOG.md)

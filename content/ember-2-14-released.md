@@ -70,13 +70,13 @@ deprecations.
 
 Two new deprecations are introduces in Ember 2.14.0:
 
-* `Ember.MODEL_FACTORY_INJECTIONS` is deprecated. This flag enabled DI behavior
+- `Ember.MODEL_FACTORY_INJECTIONS` is deprecated. This flag enabled DI behavior
   required by Ember Data prior to changes landed in Ember 2.11. It is intimate
   API scheduled for removal in Ember 2.17.0. If your application sets this
   flag you can safely remove it. See the [deprecation guide
   entry](https://www.emberjs.com/deprecations/v2.x/#toc_ember-model_factory_injections-removed) and the [implementation PR](https://github.com/emberjs/ember.js/pull/15204)
   for more details.
-* Use of the `eventManager` property on components and the `canDispatchToEventManager`
+- Use of the `eventManager` property on components and the `canDispatchToEventManager`
   property on `EventManager`s has been deprecated. These rarely used and
   undocumented parts of the already obscure event manager API where designed for
   touch-event use cases that now have other and better solutions. See the
@@ -93,14 +93,14 @@ For more details on changes in Ember.js 2.14.0, please review the
 
 Ember.js 2.15.0 will introduce two new features:
 
-* [RFC #225](https://github.com/emberjs/rfcs/pull/225) adds the argument
+- [RFC #225](https://github.com/emberjs/rfcs/pull/225) adds the argument
   `model` to the `{{mount}}` engine helper. For example `{{mount 'admin'
   model=(hash user=user)}}` would provide the object with `{user}` as a `model`
   property on the engine's application route. See the [implementation
   PR](https://github.com/emberjs/ember.js/pull/15174) and
   [followup PR](https://github.com/emberjs/ember.js/pull/15325/files) for more
   details.
-* Implementation phase 1 for [RFC #95](https://github.com/emberjs/rfcs/pull/95),
+- Implementation phase 1 for [RFC #95](https://github.com/emberjs/rfcs/pull/95),
   the routing service.
   This RFC describes a first-class
   public API routing service. Amongst other changes, the service provides a way for
@@ -237,16 +237,16 @@ Two other examples of this feature being used in the wild are:
 
 #### Other Notable Changes
 
-+ Node 7.x on Windows is now supported.
-+ By default, Ember CLI collects usage information. Documentation has now been
+- Node 7.x on Windows is now supported.
+- By default, Ember CLI collects usage information. Documentation has now been
 added describing what is collected and who has access to this information.
   See
   [Analytics.md](https://github.com/ember-cli/ember-cli/blob/master/Analytics.md)
   for more information.
-+ A flag `--no-welcome` has been added for `ember new` and `ember init`. Use
+- A flag `--no-welcome` has been added for `ember new` and `ember init`. Use
   this flag to skip the inclusion of `ember-welcome-page` as a dependency in
   newly created projects.
-+ The Ember CLI team recommends Ember Addons use the lowest supported Node release when
+- The Ember CLI team recommends Ember Addons use the lowest supported Node release when
   running CI. As of this release, that means Node 4.x.
 
 For more details on the changes in Ember CLI 2.14.0 and detailed upgrade

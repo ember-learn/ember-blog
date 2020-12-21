@@ -125,7 +125,7 @@ In addition to the major changes mentioned above this release also
 includes many bug fixes and documentation updates. Be sure to check
 out the change log for the full list of updates.
 
-+ [Ember Data 1.0.0-beta.16 CHANGELOG](https://github.com/emberjs/data/blob/v1.0.0-beta.16/CHANGELOG.md)
+- [Ember Data 1.0.0-beta.16 CHANGELOG](https://github.com/emberjs/data/blob/v1.0.0-beta.16/CHANGELOG.md)
 
 
 <!-- Links -->

@@ -21,7 +21,7 @@ blog post, going forward Ember Data will be syncing up its releases and version 
 **Ember Data 1.13 is the first release of Ember Data that syncs its
   version with a version of Ember.js.** It will be followed by Ember Data 2.0, which will be released alongside Ember.js 2.0. **Ember Data 1.13 is fully backwards compatible with Ember Data beta.19, allowing for a smooth upgrade path.**
 
-### Ember Data 1.13 Overview
+## Ember Data 1.13 Overview
 
 Ember Data 1.13 is a massive release we are very proud of.
 The highlight of the Ember Data 1.13 release is a total overhaul of Ember Data's internal format and Serializer API to follow JSON API. 
@@ -109,7 +109,7 @@ as static files at [http://emberjs.com/builds]().
 
 ## New Features
 
-## Simplified Find Methods
+### Simplified Find Methods
 
 Ember Data methods on the store have grown organically over the life
 of the project. Originally, Ember Data started with `store.find(type)`
@@ -128,7 +128,7 @@ In particular, `store.find`, `store.all`, `store.getById` have been
 deprecated and are replaced with consistently named methods. New methods follow a simple convention: If they are async and potentially go to the server, they start with `find`, and if they only get store local data without side-effects they start with `peek`.
 If they return a single record they end in `Record` and if they return all the records they end in `All` .
 
-#### Reorganized Find Methods
+### Reorganized Find Methods
 
 <table>
   <thead>
@@ -157,7 +157,7 @@ If they return a single record they end in `Record` and if they return all the r
 
 \* A query usually does not return all the records of a type, so doesn't end in `All`.
 
-#### query and queryRecord
+### query and queryRecord
 
 The final use case for the old `store.find` method was issuing queries
 to the server. This usage of `store.find(type, { query })` has been
@@ -252,7 +252,7 @@ store.findAll('user');  //after that returns from cache, but updates in backgrou
 store.findAll('user', { reload: true });  //enforces getting fresh data
 ```
 
-#### `fetchById` and `fetchAll` Replaced by `findRecord` and `findAll`
+### `fetchById` and `fetchAll` Replaced by `findRecord` and `findAll`
 
 Having these two methods, with customizable flags allows us to get rid of:
 `store.fetchById` and `store.fetchAll`.

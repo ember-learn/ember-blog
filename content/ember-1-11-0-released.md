@@ -19,7 +19,7 @@ across over 646 commits.
 
 ## New Features in Ember.js 1.11
 
-#### Bound Attribute Syntax
+### Bound Attribute Syntax
 
 Current Ember developers are familiar with the `bind-attr` syntax, used
 to declare an attribute binding on an HTML element. An original
@@ -83,7 +83,7 @@ Many thanks to [@mixonic](http://twitter.com/mixonic), [@\_mmun](http://twitter.
 and [@wycats](http://twitter.com/wycats) for their effort on the design and implementation
 of this feature.
 
-#### Escaping Content in HTMLBars
+### Escaping Content in HTMLBars
 
 Bound attribute syntax introduces several new uses of mustaches
 (the `{{` syntax used in Ember templates). These new uses
@@ -150,7 +150,7 @@ export default Ember.Component.extend({
 A less savory alternative is to use the `{{{` "escaped mustache" style. There are
 plans to improve escaped content as we approach 2.0.
 
-#### Inline if
+### Inline if
 
 In 1.11 Ember's `if` helper can be used in the inline form:
 
@@ -161,7 +161,7 @@ In 1.11 Ember's `if` helper can be used in the inline form:
 Thanks to [@eaf4](https://twitter.com/eaf4) and [@marciojunior\_me](https://twitter.com/marciojunior_me) for
 implementing this feature.
 
-#### Each with Index
+### Each with Index
 
 The `each` helper will support an `index` block param in Ember 1.11:
 
@@ -175,7 +175,7 @@ The `each` helper will support an `index` block param in Ember 1.11:
 Thanks to [@timmyce](https://twitter.com/timmyce) and [@\_mmun](https://twitter.com/_mmun) for
 implementing this feature.
 
-#### Named Substates
+### Named Substates
 
 Two routing substates exist for Ember routes. The `loading` substate will be entered
 if the async hooks of a route are still processing, and the `error` substate will be
@@ -191,7 +191,7 @@ onto the substate. So a valid loading substate for `application` can be defined 
 
 Thanks to [@machty](http://twitter.com/machty) for landing this feature.
 
-#### Component Helper
+### Component Helper
 
 Ember components can be bound via the `component` helper. For example this logic
 in a template:
@@ -218,7 +218,7 @@ the value of the property changes, the rendered component will also change.
 A big thank you to [@lukemelia](https://twitter.com/lukemelia) for shipping
 this new feature.
 
-#### Performance Improvements
+### Performance Improvements
 
 Ember.js 1.10 has favorable rendering performance compared to previous releases. We're
 pleased that Ember 1.11 builds upon that progress. Compared to 1.10, common list
@@ -230,24 +230,24 @@ Progress continues on the [Glimmer rendering engine](https://github.com/emberjs/
 announced at EmberConf 2015. This dramatic performance improvement is expected to
 land in Ember.js 1.13.
 
-#### Notable Deprecations in 1.11
+### Notable Deprecations in 1.11
 
 The following deprecations are scheduled for release with Ember.js 1.11:
 
-* The `ObjectController` will be removed in Ember 2.0. In Ember 1.11,
+- The `ObjectController` will be removed in Ember 2.0. In Ember 1.11,
   both explicitly using an `ObjectController` and using the proxying behavior
   of a generated `ObjectController` will raise deprecation warnings. See the
   [deprecation guide](/guides/deprecations#toc_objectcontroller) for more details.
-* Initializing instances (via `container.lookup`) in initializers is deprecated. For
+- Initializing instances (via `container.lookup`) in initializers is deprecated. For
   initialization that requires instances Ember has introduced "instance initializers". See
   the [deprecation guide](/guides/deprecations#toc_access-to-instances-in-initializers)
   for more information, as well as this [documentation PR](https://github.com/emberjs/website/pull/1951)
   and [the implementation PR](https://github.com/emberjs/ember.js/pull/10256).
-* Not a deprecation, but related: The `{{bind}}` template helper was a private
+- Not a deprecation, but related: The `{{bind}}` template helper was a private
   helper, and has been deprecated
   since Ember 1.10. It has been removed in Ember.js 1.11.
 
 ## Changelogs
 
-+ [Ember.js 1.11.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.11.0/CHANGELOG.md)
-+ [Ember.js 1.12.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.12.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.11.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.11.0/CHANGELOG.md)
+- [Ember.js 1.12.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.12.0-beta.1/CHANGELOG.md)

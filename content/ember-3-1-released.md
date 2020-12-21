@@ -317,17 +317,17 @@ Ember Data 3.1 contains bug fixes and build improvements for Ember Data.
 
 **Two** new deprecations are introduced in Ember Data 3.1.
 
-* `Ember.Map` was a private API provided by Ember (for quite some time). Unfortunately, Ember Data made `Ember.Map` part of its public API surface via documentation blocks. `Ember.Map` is [scheduled for deprecation](scheduled for deprecation), after we make sure that Ember Data will continue working after this feature is deprecated and removed.`Ember.Map` differs from native `Map` in a few ways:
-    * `Ember.Map` has custom `copy` and `isEmpty` methods which are not present in native `Map`
-    * `Ember.Map` adds a static `create` method (which simply instantiates itself with `new Ember.Map()`)
-    * `Ember.Map` does not accept constructor arguments
-    * `Ember.Map` does not have:
-      * `@@species`
-      * `@@iterator`
-      * `entries`
-      * `values` This implementation adds a deprecated backwards compatibility for:
-          * `copy`
-          * `isEmpty`
+- `Ember.Map` was a private API provided by Ember (for quite some time). Unfortunately, Ember Data made `Ember.Map` part of its public API surface via documentation blocks. `Ember.Map` is [scheduled for deprecation](scheduled for deprecation), after we make sure that Ember Data will continue working after this feature is deprecated and removed.`Ember.Map` differs from native `Map` in a few ways:
+    - `Ember.Map` has custom `copy` and `isEmpty` methods which are not present in native `Map`
+    - `Ember.Map` adds a static `create` method (which simply instantiates itself with `new Ember.Map()`)
+    - `Ember.Map` does not accept constructor arguments
+    - `Ember.Map` does not have:
+      - `@@species`
+      - `@@iterator`
+      - `entries`
+      - `values` This implementation adds a deprecated backwards compatibility for:
+          - `copy`
+          - `isEmpty`
 
 This is needed because `Map` requires instantiation with `new`, and by default Babel transpilation will do `superConstructor.apply(this, arguments)` which throws an error with native `Map`. The desired code (if we lived in an "only native class" world) would be:
 

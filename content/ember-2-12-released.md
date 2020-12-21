@@ -169,11 +169,11 @@ The feature also introduces some new errors to rest adapter which will
 be used to reject the adapter promises based on http status of the API
 response.
 
-* [401] `DS.UnauthorizedError`
-* [403] `DS.ForbiddenError`
-* [404] `DS.NotFoundError`
-* [409] `DS.ConflictError`
-* [500] `DS.ServerError`
+- [401] `DS.UnauthorizedError`
+- [403] `DS.ForbiddenError`
+- [404] `DS.NotFoundError`
+- [409] `DS.ConflictError`
+- [500] `DS.ServerError`
 
 Thanks to [tchak](https://github.com/tchak) and
 [twokul](https://github.com/tchak) for their work on this feature and
@@ -244,9 +244,9 @@ Combined, these changes result in a `node_modules` size reduction of approximate
 
 #### Other Notable Changes
 
-* `ember-data` has been removed from the addon blueprint.
-* Properly call `preprocessTree` / `postprocessTree` for addons.
-* Split serving assets into separate internal addons. This enables work to push ember-cli-fastboot towards 1.0.0.
+- `ember-data` has been removed from the addon blueprint.
+- Properly call `preprocessTree` / `postprocessTree` for addons.
+- Split serving assets into separate internal addons. This enables work to push ember-cli-fastboot towards 1.0.0.
 
 For more details on the changes in Ember CLI 2.12 and detailed upgrade
 instructions, please review the [Ember CLI 2.12.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v2.12.0).
@@ -314,9 +314,9 @@ internally, we would like a larger than normal beta testing base to ensure thing
 
 #### Other Notable Changes
 
-* `bower.json` is no longer included in a newly generated project.
-* Fix command interruption issues on windows.
-* Added `filesToRemove` property for custom blueprints.
+- `bower.json` is no longer included in a newly generated project.
+- Fix command interruption issues on windows.
+- Added `filesToRemove` property for custom blueprints.
 
 For more details on the changes in Ember CLI 2.13.0-beta.1 and detailed upgrade
 instructions, please review the [Ember CLI 2.13.0-beta.1 release page](https://github.com/ember-cli/ember-cli/releases/tag/v2.13.0-beta.1).

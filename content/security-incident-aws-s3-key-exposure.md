@@ -68,6 +68,6 @@ If you discover a security-related issue in Ember, we ask that you follow our [d
 
 #### Additional Reading
 
-* [Ember.js Security Policy Announcement](/blog/2013/04/05/announcing-the-ember-security-policy.html)
-* [Ember.js Security Policy](/security/)
-* [Ember.js Security Mailing List](https://groups.google.com/forum/#!forum/ember-security)
+- [Ember.js Security Policy Announcement](/blog/2013/04/05/announcing-the-ember-security-policy.html)
+- [Ember.js Security Policy](/security/)
+- [Ember.js Security Mailing List](https://groups.google.com/forum/#!forum/ember-security)

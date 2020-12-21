@@ -60,11 +60,11 @@ For users who aren't ready to adopt, that's OK - the EmberObject model will cont
 
 There are a few notable changes and features for native classes:
 
-* `new` syntax is not currently supported with classes that extend from `EmberObject`. You must continue to use the `create` method when making new instances of classes, even if they are defined using native class syntax. If you want to use `new` syntax, consider creating classes which do _not_ extend from `EmberObject`. Ember features, such as computed properties and decorators, will still work with base-less classes.
-* Instead of using `this._super()`, you must use standard `super` syntax. See the [MDN docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Super_class_calls_with_super) for more details.
-* Native classes support using [constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Constructor) to set up newly-created instances. Ember uses these to, among other things, support features that need to retrieve other entities by name, like Service injection and `getOwner`. To ensure your custom instance setup logic takes place after this important work is done, avoid using the `constructor` in favor of `init`.
-* Using native classes, and switching back to the old Ember Object model is fully supported.
-* For early adopters who are used to argument values and values passed to `create` being overriden, this is no longer the case! Class field values will be the default, and any value passed to a class on creation will override that value.
+- `new` syntax is not currently supported with classes that extend from `EmberObject`. You must continue to use the `create` method when making new instances of classes, even if they are defined using native class syntax. If you want to use `new` syntax, consider creating classes which do _not_ extend from `EmberObject`. Ember features, such as computed properties and decorators, will still work with base-less classes.
+- Instead of using `this._super()`, you must use standard `super` syntax. See the [MDN docs on classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Super_class_calls_with_super) for more details.
+- Native classes support using [constructors](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#Constructor) to set up newly-created instances. Ember uses these to, among other things, support features that need to retrieve other entities by name, like Service injection and `getOwner`. To ensure your custom instance setup logic takes place after this important work is done, avoid using the `constructor` in favor of `init`.
+- Using native classes, and switching back to the old Ember Object model is fully supported.
+- For early adopters who are used to argument values and values passed to `create` being overriden, this is no longer the case! Class field values will be the default, and any value passed to a class on creation will override that value.
 
 **Compatibility and Polyfill**
 
@@ -98,11 +98,11 @@ For more details on changes in Ember.js 3.6, please review the [Ember.js 3.6 rel
 
 We are deprecating usage of `new EmberObject()` to construct instances of `EmberObject` and its subclasses. This affects all classes that extend from `EmberObject` as well, including user defined classes and Ember classes such as:
 
-* `Component`
-* `Controller`
-* `Service`
-* `Route`
-* `Model`
+- `Component`
+- `Controller`
+- `Service`
+- `Route`
+- `Model`
 
 Instead, you should use `EmberObject.create()` to create new instances of classes that extend from `EmberObject`. If you are using native class syntax instead of `EmberObject.extend()` to define your classes, you can also refactor to _not_ extend from `EmberObject`, and continue to use `new` syntax.
 

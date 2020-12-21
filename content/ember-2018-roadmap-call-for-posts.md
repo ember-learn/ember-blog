@@ -25,7 +25,7 @@ The Roadmap will outline the community's priorities for the remainder of the yea
 
 To contribute a post: Tweet a link to the post with the hashtag [#EmberJS2018](https://twitter.com/hashtag/emberjs2018) or, if you're not on Twitter, email a link to `roadmap@emberjs.com`. These posts will be collected and categorized, and each one will be read by those working to draft the Roadmap RFC. 
 
-#### Format
+### Format
 
 Your post can be on any online writing platform, but we suggest:
 
@@ -33,7 +33,7 @@ Your post can be on any online writing platform, but we suggest:
 * A [Medium](https://medium.com/) post
 * A [GitHub gist](https://gist.github.com/)
 
-#### Topic Ideas
+### Topic Ideas
 
 We'd like to hear about any aspect of Ember you have hopes for in 2018--not just about the Ember.js framework. Please include your desires for Ember Data, Ember CLI, tooling, the community, addons, and anything else Ember-related.
 
@@ -52,7 +52,7 @@ To kickoff the process, we've collected some early posts:
 * [Blog Post for an Ambitious Framework](https://blog.201-created.com/blog-post-for-an-ambitious-framework-d7e9248893fa) by Matthew Beale and the [201 Created](https://www.201-created.com/) team
 * [Wishing on a Star](https://medium.com/@melaniesumner/wishing-on-a-star-722a4fe590a7) by Melanie Sumner 
 
-#### Preliminary Timeline
+### Preliminary Timeline
 
 Dates may change, but this is a general overview of the upcoming process:
 

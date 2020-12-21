@@ -34,7 +34,7 @@ complete API compatibility it demonstrates our commitment to stability without s
 
 ## New Features and Deprecations in Ember.js 1.9
 
-#### Handlebars 2.0
+### Handlebars 2.0
 
 As [announced in October](http://emberjs.com/blog/2014/10/16/handlebars-update.html), Ember.js 1.9
 adds support for Handlebars 2.0 templates and removes support for Handlebars 1.x templates. This
@@ -57,7 +57,7 @@ npm install --save-dev ember-cli-htmlbars@0.6.0
 
 Non-CLI applications will likewise require a bump of their Handlebars dependency version.
 
-#### Streams
+### Streams
 
 Data-binding in Ember.js has traditionally been based on the concept of a key-value
 observer. In Ember 1.x, KVO observers fire immediately upon the change of a value,
@@ -72,7 +72,7 @@ Ember's codebase for HTMLBars.
 Thanks to [@\_mmun](https://twitter.com/_mmun), [@ebryn](https://twitter.com/ebryn), and [@krisselden](https://twitter.com/krisselden) who wrote an Ember.js stream
 implementation then updated every Handlebars helper to the new API.
 
-#### Activate and Deactivate Events
+### Activate and Deactivate Events
 
 Ember.js routes have long supported an `activate` and `deactivate` hook.
 For example:
@@ -97,7 +97,7 @@ export default Ember.Route.extend({
 
 Thanks to [@pangratz](https://twitter.com/pangratz) for the addition of this feature.
 
-#### pauseTest
+### pauseTest
 
 When debugging an Ember acceptance test, it can be helpful to
 pause and inspect the DOM or application state.
@@ -115,7 +115,7 @@ test('clicking login authenticates', function(){
 
 Thanks to [@katiegengler](https://twitter.com/katiegengler) for the addition of this feature.
 
-#### key-up and key-down actions
+### key-up and key-down actions
 
 The `{{input}}` and `{{textarea}}` helpers in Ember emit several
 actions, including `enter`, `insert-newline`, `escape-press`, `focus-in`,
@@ -129,20 +129,20 @@ This release introduces `key-up` and `key-down` actions. For example:
 {{input value=name key-up="validateName"}}
 ```
 
-#### Performance Improvements
+### Performance Improvements
 
 Ember.js 1.9 comes with several performance improvements.
 
-* The implementation of `_super` in Ember is fairly complex, and can
+- The implementation of `_super` in Ember is fairly complex, and can
 perform badly. Ember 1.9 uses a check against the string version of a
 function to determine if all parts of the implementation are needed, or
 if some work can be skipped.
-* Additional improvements to the performance of `Ember.Map` have been made.
+- Additional improvements to the performance of `Ember.Map` have been made.
 
 Thanks to [@stefanpenner](https://twitter.com/stefanpenner) for his continued
 efforts on performance tuning.
 
-#### Notable Deprecations
+### Notable Deprecations
 
 As Ember.js moves forward, various APIs are deprecated to allow for their
 removal in a later major release (such as 2.0). The
@@ -231,15 +231,15 @@ build pipelines update to support HTMLBars. If you manage a project
 and have any difficulty, reach out to the community and core team
 on the [forum](http://discuss.emberjs.com/) or `#ember-dev` IRC chatroom.
 
-#### Block Params
+### Block Params
 
 Block parameters are a new feature introduced with 1.10. They address
 two problems in Ember:
 
-* The non-context switching version of `{{#each}}` and `{{#with}}` are inconsistent.
+- The non-context switching version of `{{#each}}` and `{{#with}}` are inconsistent.
   `{{#each car in cars}}` and `{{#with model as car}}` have similar meaning but
   different syntaxes.
-* Ember's components are strictly encapsulated. Values are explicitly passed
+- Ember's components are strictly encapsulated. Values are explicitly passed
   in, and only actions are emitted from components. The inability to pass values
   makes composition of components difficult.
 
@@ -284,30 +284,30 @@ car's name.
 
 Many thanks to [@\_mmun](https://twitter.com/_mmun) for the implementation of this important new feature.
 
-#### Renaming Release Files
+### Renaming Release Files
 
 A release of Ember.js consists of three files:
 
-* `ember.prod.js` - an un-minified production build (no asserts)
-* `ember.min.js` - a minified production build
-* `ember.js` - a development build (with asserts)
+- `ember.prod.js` - an un-minified production build (no asserts)
+- `ember.min.js` - a minified production build
+- `ember.js` - a development build (with asserts)
 
 The non-production build of Ember will not perform as well as the
 production build. To ensure there is no confusion about using the
 `ember.js` build in production, Ember.js 1.10 and later will use a
 new filename:
 
-* `ember.prod.js` - an un-minified production build (no asserts)
-* `ember.min.js` - a minified production build
-* `ember.debug.js` - a development build (with asserts)
+- `ember.prod.js` - an un-minified production build (no asserts)
+- `ember.min.js` - a minified production build
+- `ember.debug.js` - a development build (with asserts)
 
 An `ember.js` file will continue to be provided with a deprecation warning.
 
-#### Notable Deprecations in 1.10
+### Notable Deprecations in 1.10
 
 The following deprecations are scheduled for release with Ember.js 1.10:
 
-* Setting the `childViews` property on a view definition will be deprecated in
+- Setting the `childViews` property on a view definition will be deprecated in
   1.10. For example:
 
 ```js
@@ -336,12 +336,12 @@ export default Ember.ContainerView.extend({
 });
 ```
 
-* The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
+- The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
   are rarely used, but introduce significant overhead to the observer system
   in general. For observer use that requires the previous value of a property
   be known, implementing a cache is simple and more efficient. Read more about
   how to do this in [the deprecations page](http://emberjs.com/deprecations/v1.x#toc_deprecate-beforeobservers).
-* Quote-less outlet names are deprecated in 1.10. An example of this is
+- Quote-less outlet names are deprecated in 1.10. An example of this is
   `{{outlet modal}}`, which would be re-written as `{{outlet "modal"}}`.
   This ensures the outlet helper is consistent with others, where unquoted
   words are values and not string literals.
@@ -351,5 +351,5 @@ may be added to the 1.10 release.
 
 ## Changelogs
 
-+ [Ember.js 1.9.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.9.0/CHANGELOG.md)
-+ [Ember.js 1.10.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.10.0-beta.1/CHANGELOG.md)
+- [Ember.js 1.9.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.9.0/CHANGELOG.md)
+- [Ember.js 1.10.0-beta.1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.10.0-beta.1/CHANGELOG.md)

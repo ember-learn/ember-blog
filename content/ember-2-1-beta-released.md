@@ -30,7 +30,7 @@ features will be part of the 2.1 stable version.
 
 A summary of the new features in today's release follows.
 
-#### `{{get}}` Helper
+### `{{get}}` Helper
 
 The `{{get}}` helper allows dynamic property lookup on objects in templates.
 For example, these two usages are equivalent:
@@ -58,7 +58,7 @@ demonstrated how useful this helper would be. Trying his
 [ember-truth-helpers](https://github.com/jmurphyau/ember-truth-helpers) addon
 is highly recommended.
 
-#### `{{each-in}}` Helper
+### `{{each-in}}` Helper
 
 The `{{each-in}}` helper iterates keys and values of an object. It is similar
 conceptually to the `for (key in object) {` syntax of JavaScript. For example,
@@ -84,7 +84,7 @@ Thanks to [@tomdale](https://twitter.com/tomdale) for the
 implementation of this feature, and thanks to
 [@miguelcamba](https://twitter.com/miguelcamba) for his followup PRs.
 
-#### Deprecate and Warn Handlers
+### Deprecate and Warn Handlers
 
 In the run up to Ember 2.0, it became clear that the tooling for management of
 deprecations was poor. One of the reasons for this was the lack of a public,
@@ -141,7 +141,7 @@ Thanks to [@rwjblue](https://twitter.com/rwjblue) for
 shipping this API and the polyfill addon, and to [@mixonic](https://twitter.com/mixonic)
 for the RFC.
 
-#### Registry and Container Reform
+### Registry and Container Reform
 
 The Ember.js registry and container are some of the most extensively used
 private APIs in the framework. They

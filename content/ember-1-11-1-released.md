@@ -34,10 +34,10 @@ This regression is fixed in 1.11.1.
 
 A couple regressions were fixed for Handlebars helpers with 1.11.1:
 
-* The inverse template (aka `{{else}}` block) of Handlebars helpers was not properly accounted
+- The inverse template (aka `{{else}}` block) of Handlebars helpers was not properly accounted
   for during the HTMLBars transition. Using an `{{else}}` block with a Handlebars helper has
   not been function since 1.9.0.
-* The main block could not be rendered even if `options.fn()` was called within the helper. This
+- The main block could not be rendered even if `options.fn()` was called within the helper. This
 regression was first introduced in 1.11.0-beta.4.
 
 ### Incorrect Assertion for {{each foos itemControler='bar'}}
@@ -57,5 +57,5 @@ but if you do not the views template will be defaulted to a template with the sa
 
 ## Changelogs
 
-+ [Ember.js 1.11.0 to 1.11.1 commit log](https://github.com/emberjs/ember.js/compare/v1.11.0...v1.11.1)
-+ [Ember.js 1.11.1 CHANGELOG](https://github.com/emberjs/ember.js/releases/tag/v1.11.1)
+- [Ember.js 1.11.0 to 1.11.1 commit log](https://github.com/emberjs/ember.js/compare/v1.11.0...v1.11.1)
+- [Ember.js 1.11.1 CHANGELOG](https://github.com/emberjs/ember.js/releases/tag/v1.11.1)
