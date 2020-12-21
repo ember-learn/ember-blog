@@ -34,7 +34,7 @@ complete API compatibility it demonstrates our commitment to stability without s
 
 ## New Features and Deprecations in Ember.js 1.9
 
-#### Handlebars 2.0
+### Handlebars 2.0
 
 As [announced in October](http://emberjs.com/blog/2014/10/16/handlebars-update.html), Ember.js 1.9
 adds support for Handlebars 2.0 templates and removes support for Handlebars 1.x templates. This
@@ -57,7 +57,7 @@ npm install --save-dev ember-cli-htmlbars@0.6.0
 
 Non-CLI applications will likewise require a bump of their Handlebars dependency version.
 
-#### Streams
+### Streams
 
 Data-binding in Ember.js has traditionally been based on the concept of a key-value
 observer. In Ember 1.x, KVO observers fire immediately upon the change of a value,
@@ -72,7 +72,7 @@ Ember's codebase for HTMLBars.
 Thanks to [@\_mmun](https://twitter.com/_mmun), [@ebryn](https://twitter.com/ebryn), and [@krisselden](https://twitter.com/krisselden) who wrote an Ember.js stream
 implementation then updated every Handlebars helper to the new API.
 
-#### Activate and Deactivate Events
+### Activate and Deactivate Events
 
 Ember.js routes have long supported an `activate` and `deactivate` hook.
 For example:
@@ -97,7 +97,7 @@ export default Ember.Route.extend({
 
 Thanks to [@pangratz](https://twitter.com/pangratz) for the addition of this feature.
 
-#### pauseTest
+### pauseTest
 
 When debugging an Ember acceptance test, it can be helpful to
 pause and inspect the DOM or application state.
@@ -115,7 +115,7 @@ test('clicking login authenticates', function(){
 
 Thanks to [@katiegengler](https://twitter.com/katiegengler) for the addition of this feature.
 
-#### key-up and key-down actions
+### key-up and key-down actions
 
 The `{{input}}` and `{{textarea}}` helpers in Ember emit several
 actions, including `enter`, `insert-newline`, `escape-press`, `focus-in`,
@@ -129,7 +129,7 @@ This release introduces `key-up` and `key-down` actions. For example:
 {{input value=name key-up="validateName"}}
 ```
 
-#### Performance Improvements
+### Performance Improvements
 
 Ember.js 1.9 comes with several performance improvements.
 
@@ -142,7 +142,7 @@ if some work can be skipped.
 Thanks to [@stefanpenner](https://twitter.com/stefanpenner) for his continued
 efforts on performance tuning.
 
-#### Notable Deprecations
+### Notable Deprecations
 
 As Ember.js moves forward, various APIs are deprecated to allow for their
 removal in a later major release (such as 2.0). The
@@ -231,7 +231,7 @@ build pipelines update to support HTMLBars. If you manage a project
 and have any difficulty, reach out to the community and core team
 on the [forum](http://discuss.emberjs.com/) or `#ember-dev` IRC chatroom.
 
-#### Block Params
+### Block Params
 
 Block parameters are a new feature introduced with 1.10. They address
 two problems in Ember:
@@ -284,7 +284,7 @@ car's name.
 
 Many thanks to [@\_mmun](https://twitter.com/_mmun) for the implementation of this important new feature.
 
-#### Renaming Release Files
+### Renaming Release Files
 
 A release of Ember.js consists of three files:
 
@@ -303,7 +303,7 @@ new filename:
 
 An `ember.js` file will continue to be provided with a deprecation warning.
 
-#### Notable Deprecations in 1.10
+### Notable Deprecations in 1.10
 
 The following deprecations are scheduled for release with Ember.js 1.10:
 

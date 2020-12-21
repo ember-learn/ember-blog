@@ -23,7 +23,7 @@ Ember 1.12 is a relatively light release, and includes features that move Ember
 closer to ES6 class syntax and the first parts of the internal implementation
 needed for a stable release of the FastBoot addon.
 
-#### New Computed Syntax
+### New Computed Syntax
 
 Per [RFC #11](https://github.com/emberjs/rfcs/pull/11), Ember is introducing a
 new syntax for computed properties. This change better aligns computed property
@@ -124,7 +124,7 @@ export default Ember.Object.extend({
 
 [decorators]: https://github.com/wycats/javascript-decorators
 
-#### Instance Initializers
+### Instance Initializers
 
 The next feature, instance initializers, makes it possible for FastBoot
 applications to run many requests concurrently.
@@ -186,7 +186,7 @@ Thanks to [@tomdale](https://twitter.com/tomdale), [@wycats](https://twitter.com
 [@dgeb](https://twitter.com/dgeb) for this feature and other
 refactoring work around application initialization.
 
-#### Initializer Context
+### Initializer Context
 
 Previously, the `this` scope of an initializer was simply the global scope.
 [#10179](https://github.com/emberjs/ember.js/pull/10179) changed initializer
@@ -225,7 +225,7 @@ finish line. It's inspiring.
 
 [almost]: https://www.isemberfastyet.com
 
-#### The 1.13.x Series
+### The 1.13.x Series
 
 In most cases, you should expect Glimmer to be faster at both initial rendering
 and updates. If you find performance regressions in idiomatic usage in your app,

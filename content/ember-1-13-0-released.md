@@ -46,7 +46,7 @@ to fire should upgrade to 2.0 without changes.
 
 The easiest way to work through deprecations is the **Ember Inspector**. Thanks to the work of Teddy Zeenny, deprecations will be routed to the "Deprecations" inspector pane, where you can get a grouped list of them as well as the line of code in your app that triggered the deprecation. You can also ask for a full stack trace of any deprecation.
 
-#### Improved Rerender Performance
+### Improved Rerender Performance
 
 Previous iterations of Ember's rendering engine **relied** on granular observation for efficiency. When a piece of dynamic content was rendered, Ember registered observers, updating the content when the value changed.
 
@@ -81,7 +81,7 @@ Glimmer's performance, and to [LinkedIn](http://www.linkedin.com) and
 [Bustle](http://www.bustle.com/) for their
 generous sponsorship of this work.
 
-#### Component Lifecycle Hooks
+### Component Lifecycle Hooks
 
 A number of new component lifecycle hooks have been introduced to Ember 1.13.
 Using these hooks allows you to write data down, action up (DDAU) style
@@ -128,7 +128,7 @@ Note that a component is re-rendered whenever:
 Because of the Glimmer engine, these re-renders are fast, and avoid
 unnecessary work.
 
-#### Closure Actions
+### Closure Actions
 
 In Ember 1.x, the actions system used bubbling as a solution for passing user
 behavior to a parent scope. For example, when clicking a button an action
@@ -187,11 +187,11 @@ Additionally the `action` helper has two options:
   off whatever the first argument to the called action is. This is handy for
   destructuring objects passed as the first argument (like DOM events).
 
-#### Note: Angle Bracket Components
+### Note: Angle Bracket Components
 
 Ember 2.1 will (likely) ship with angle-bracket components, which will introduce one-way data flow **by default**, and provide an opt-in for two-way data flow. Existing components maintain the existing behavior (for compatibility). While the internals of Ember 2.0 support a distinction between one-way and two-way bindings, that distinction will remain largely internal until Ember 2.1.
 
-#### New Ember.js Helper API
+### New Ember.js Helper API
 
 Ember's helper story prior to 1.13 has been inconsistent and neglected. In
 1.13, we're introducing a new API for writing helpers along with a set of
@@ -259,7 +259,7 @@ requirements for this API to our attention and testing changes with little notic
 Thanks to [@mixonic](https://twitter.com/mixonic)
 and [@rwjblue](https://twitter.com/rwjblue) for the implementation.
 
-#### Component Block Info
+### Component Block Info
 
 Ember.js 1.13 introduces two new template keywords that provide reflection on
 how a component is called.
@@ -293,7 +293,7 @@ with block params (invoke in block form with `as |someParam|`).
 Thanks to [@mmun](https://twitter.com/_mmun) and [@rwjblue](https://twitter.com/rwjblue)
 for implementing this feature.
 
-#### Notable Deprecations in 1.13
+### Notable Deprecations in 1.13
 
 In preparation for Ember 2.0, 1.13 introduces many deprecations. These include:
 
@@ -335,7 +335,7 @@ iterate forward.
 Because of the focus on landing migration paths for 1.x codebases in 1.13,
 2.0 will have few new features. Among them are:
 
-#### each-in helper
+### each-in helper
 
 The `each-in` helper allows the iteration of object properties. For example,
 given this value for `items`:
@@ -361,7 +361,7 @@ cause a rerender, but `.set('items', val)` will.
 Thanks to [@tomdale](http://twitter.com/tomdale) and implementing this
 feature, and to several others for helping push it to completion.
 
-#### get helper
+### get helper
 
 The `get` helper provides a bound way to fetch a single property from an object.
 For example given these items:
@@ -387,7 +387,7 @@ This becomes more powerful when the second argument is a bound path:
 
 Thanks to [@jmurphyau](https://twitter.com/jmurphyau) for implementing this feature.
 
-#### Notable Breaking Changes in Ember 2.0
+### Notable Breaking Changes in Ember 2.0
 
 Ember 2.0 will remove a number of public APIs, all of which should have been
 deprecated in the 1.13 release and have a viable migration path. The Ember

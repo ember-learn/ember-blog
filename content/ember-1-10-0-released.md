@@ -44,7 +44,7 @@ stagnation" is made of.
 
 ## New Features in Ember.js 1.10
 
-#### HTMLBars 0.8.5
+### HTMLBars 0.8.5
 
 Ember.js 1.10 is dependent on HTMLBars 0.8.5. To ease this and later template
 library version changes, Ember's template compiler will be packaged as a
@@ -82,7 +82,7 @@ review the instructions [published by Robert Jackson this week](/blog/2015/02/05
 and join the conversation at [discuss.emberjs.com](http://discuss.emberjs.com/)
 or on IRC.
 
-#### Performance Improvements
+### Performance Improvements
 
 Ember.js 1.8 introduced a performance regression that we expected to re-coup in
 the 1.10 release. In December the team at [Discourse](http://www.discourse.org/) created the
@@ -99,7 +99,7 @@ the core team and community. Specific goals include reactive rendering for
 HTMLBars, more optimized metal views, limiting observation, and refinements to the Ember
 object model.
 
-#### Chained Else Blocks
+### Chained Else Blocks
 
 HTMLBars is built using the Handlebars parser, and will continue to gain
 features related to template syntax. Ember 1.10 features support for chained
@@ -119,7 +119,7 @@ helpers.
 You can read more about the implemetation [in the Handlebars repo](https://github.com/wycats/handlebars.js/pull/892).
 Thanks to [@kpdecker](http://twitter.com/kpdecker) for this improvement.
 
-#### Block Params
+### Block Params
 
 Ember 1.10 introduces block parameters. Block params provide consistent
 scope to templates, and allow components to pass internal values to a downstream
@@ -174,7 +174,7 @@ export default Ember.Component.extend({
 
 Many thanks to [@\_mmun](https://twitter.com/_mmun) for the implementation of this new feature.
 
-#### Injected Properties
+### Injected Properties
 
 Ember 1.x has exposed two APIs for managing dependency injection. The first is
 the application initializer API, using `register` and `inject` methods on an
@@ -229,7 +229,7 @@ detail.
 
 Thanks to [slindberg](https://github.com/slindberg) for his implementation of this feature.
 
-#### Notable Deprecations
+### Notable Deprecations
 
 As Ember.js moves forward, various APIs are deprecated to allow for their
 removal in a later major release (such as 2.0). The
@@ -284,7 +284,7 @@ Ember.js 1.11 beta continues a series of releases iterating the framework
 toward our 2.0 goals. In six weeks, these and a few other features will
 be declared stable.
 
-#### Inline if
+### Inline if
 
 In 1.11 Ember's `if` helper can be used in the inline form:
 
@@ -295,7 +295,7 @@ In 1.11 Ember's `if` helper can be used in the inline form:
 Thanks to [@marciojunior\_me](https://twitter.com/marciojunior_me) for
 implementing this feature.
 
-#### Each with Index
+### Each with Index
 
 The `each` helper will support an `index` block param in Ember 1.11:
 
@@ -309,7 +309,7 @@ The `each` helper will support an `index` block param in Ember 1.11:
 Thanks to [@\_mmun](https://twitter.com/_mmun) for
 implementing this feature.
 
-#### Bound Attribute Syntax
+### Bound Attribute Syntax
 
 Current Ember developers are familiar with the `bind-attr` syntax, used
 to declare an attribute binding on an HTML element. An original
@@ -372,7 +372,7 @@ Many thanks to [@mixonic](http://twitter.com/mixonic), [@\_mmun](http://twitter.
 and [@wycats](http://twitter.com/wycats) for their effort on the design and implementation
 of this feature.
 
-#### Named Substates
+### Named Substates
 
 Two routing substates exist for Ember routes. The `loading` substate will be entered
 if the async hooks of a route are still processing, and the `error` substate will be
@@ -388,7 +388,7 @@ onto the substate. So a valid loading substate for `application` can be defined 
 
 Thanks to [@machty](http://twitter.com/machty) for landing this feature.
 
-#### Component Helper
+### Component Helper
 
 Ember components can be bound via the `component` helper. For example this logic
 in a template:
@@ -417,7 +417,7 @@ the value of the property changes, the rendered component will also change.
 A big thank you to [@lukemelia](https://twitter.com/lukemelia) for shipping
 this new feature.
 
-#### Notable Deprecations in 1.11
+### Notable Deprecations in 1.11
 
 The following deprecations are scheduled for release with Ember.js 1.11:
 

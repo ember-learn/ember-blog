@@ -46,7 +46,7 @@ our [security announcements mailing
 list](https://groups.google.com/forum/#!forum/ember-security).  It is
 extremely low-traffic and only contains announcements such as these.
 
-#### Additional Reading
+### Additional Reading
 
 * [Ember.js Security Policy Announcement](/blog/2013/04/05/announcing-the-ember-security-policy.html)
 * [Ember.js Security Policy](/security/)
