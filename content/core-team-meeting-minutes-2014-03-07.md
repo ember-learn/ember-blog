@@ -27,7 +27,7 @@ core team member and let them know!
 
 #### Features pending 'Go' decision. [Tracking Issue](https://github.com/emberjs/ember.js/issues/4052)
 
-*  `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
+* `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
     Resolution: Go
 
 ### PR's/Issues To Review

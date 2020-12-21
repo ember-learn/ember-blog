@@ -58,11 +58,11 @@ and better declare and manage our external dependencies.
 
 ### PR's/Issues To Review
 
-*  `ember-routing-linkto-target-attribute` [#4718](https://github.com/emberjs/ember.js/pull/4718)
+* `ember-routing-linkto-target-attribute` [#4718](https://github.com/emberjs/ember.js/pull/4718)
 
     Resolution: Good to merge into Canary, but not a "Go" yet.
 
-*  `ember-routing-will-change-hooks` [#4760](https://github.com/emberjs/ember.js/pull/4760)
+* `ember-routing-will-change-hooks` [#4760](https://github.com/emberjs/ember.js/pull/4760)
 
     Resolution: Good to merge into Canary, but not a "Go" yet.
 

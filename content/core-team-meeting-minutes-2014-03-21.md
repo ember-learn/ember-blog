@@ -28,7 +28,7 @@ core team member and let them know!
 
 We reviewed the following PRs and Issues:
 
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
 
     Nothing new here. We're working very hard to get this correct the first time
     and have something to demo at EmberConf.

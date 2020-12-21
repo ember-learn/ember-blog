@@ -27,7 +27,7 @@ core team member and let them know!
 
 ### Go/No-Go Feature Listing
 
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
      Still a no-go, while @machty and @wycats hash out the specifics
 
 

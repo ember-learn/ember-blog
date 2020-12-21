@@ -72,25 +72,25 @@ Resolution: @trek will get this list created somehow.
 
 The core team reviewed the following pull requests for future inclusion in the 1.6.x beta series:
 
-*  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
+* `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
     
       @stefanpenner and @tomdale still need to pow-wow on this.
 
       Resolution: @stefanpenner and @tomdale will speak.
 
-*  `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
+* `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
     @stefanpenner and @tomdale still need to pow-wow on this.
 
     Resolution: @stefanpenner and @tomdale will speak.
 
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
     
     @wycats and @machty continued discussion on lazy loading. Goal is to get it in during this beta cycle
   
     Resolution: @machty & @stefanpenner have a man-date to discuss lazy loading.
 
-*  `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
+* `composable-computed-properties` [#3696](https://github.com/emberjs/ember.js/pull/3696)
   
   Still blocked on [computed.literal](https://github.com/emberjs/ember.js/pull/4185)
 
@@ -98,16 +98,16 @@ The core team reviewed the following pull requests for future inclusion in the 1
   Resolution: The original behavior wasn't intended. Changing now might be breaking change
   in some people's apps. We'll put it through a multi-cycle deprecation/removal path.
 
-*  `ember-metal-computed-empty-array` [#4219](https://github.com/emberjs/ember.js/pull/4219)
+* `ember-metal-computed-empty-array` [#4219](https://github.com/emberjs/ember.js/pull/4219)
 
   Resolution: "Go". Upgrade to a Bugfix is it doesn't require a flag.
 
-*  `ember-runtime-test-friendly-promises` [#4176](https://github.com/emberjs/ember.js/pull/4176)
+* `ember-runtime-test-friendly-promises` [#4176](https://github.com/emberjs/ember.js/pull/4176)
 
   Resolution: Peter will try in [Skylight](https://www.skylight.io/)'s tests and
   offer feedback
 
-*  `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
+* `ember-routing-inherits-parent-model` [#4246](https://github.com/emberjs/ember.js/pull/4246)
 
   Resolution: Already conceptually a "Go". @machty will make nestable routes in the next week or so so this can be merged.
 

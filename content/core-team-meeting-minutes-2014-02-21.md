@@ -51,7 +51,7 @@ The core team reviewed the following pull requests for future inclusion in
 the 1.6.x beta series:
 
 
-*  `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
+* `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
     While its heart is in the right place, we think this is a bandaid on top of a
     testing infrastructure that needs a bottoms-up rethink.
@@ -64,7 +64,7 @@ the 1.6.x beta series:
 
 
 
-*  `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
+* `query-params-new` [#4008](https://github.com/emberjs/ember.js/pull/4008)
 
     @stefanpenner and @machty met in person on Tuesday to discuss an API that supported
     lazy loading of routes and will continue the conversation as these changes are made.

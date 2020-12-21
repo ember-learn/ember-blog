@@ -70,19 +70,19 @@ Resolution:
 The core team reviewed the following pull requests for future inclusion in
 the 1.6.x beta series:
 
-*  `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
+* `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
     Still blocked on module vs global object lookup form, which causes naming collisions.
 
     Resolution: will remain on canary until we've moved to modules and have a modular
     loader.
 
-*  `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
+* `ember-handlebars-caps-lookup` [#3218](https://github.com/emberjs/ember.js/pull/3218)
     The original author has become unresponsive.
 
     Resolution: approach @mixonic to take over.
 
 
-*  `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
+* `ember-routing-add-model-option` [#4293](https://github.com/emberjs/ember.js/pull/4293)
 
     Resolution: It’s a go.
 
