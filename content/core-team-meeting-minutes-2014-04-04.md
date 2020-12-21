@@ -31,7 +31,7 @@ core team member and let them know!
 
   Fixes setting of `undefined` value to a content property. 
 
-  Still, checking `obj[keyName] === value` in these [lines] (https://github.com/selvagsz/ember.js/blob/master/packages_es6/ember-metal/lib/property_set.js#L52-54) is bypassed in two cases
+  Still, checking `obj[keyName] === value` in these [lines](https://github.com/selvagsz/ember.js/blob/master/packages_es6/ember-metal/lib/property_set.js#L52-54) is bypassed in two cases
 
     * If the setter value is `undefined`
     * If the setter property lies inside the proxied content

@@ -72,7 +72,7 @@ the 1.6.x beta series:
     Resolution: Not ready just yet. We don’t  want to serialize default values into the
     URL. False params should be represented as “=false”, rather than merely being absent
     from URL (which was ambiguous). So, this example JSBin from the docs is wrong:
-    http://emberjs.jsbin.com/ucanam/2708.
+    [http://emberjs.jsbin.com/ucanam/2708](http://emberjs.jsbin.com/ucanam/2708).
 
 
 

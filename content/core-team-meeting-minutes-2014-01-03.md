@@ -36,7 +36,7 @@ gives a "go" or "no-go" vote to feature-flagged beta functionality.
 #### with-controller: go
 
 * make sure to add parentController immediately after merge (@kselden)
-* address https://github.com/emberjs/ember.js/issues/4050 (@stefanpenner)
+* address [https://github.com/emberjs/ember.js/issues/4050](https://github.com/emberjs/ember.js/issues/4050) (@stefanpenner)
 * ensure lookupFactory and creates with content
 
     ```

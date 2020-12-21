@@ -75,7 +75,7 @@ core team member and let them know!
         pressing the back button will be "sticky" since the previous values on the controller will be
         restored based on the previous URL.
 
-      Example JSBin: http://emberjs.jsbin.com/ucanam/4102
+      Example JSBin: [http://emberjs.jsbin.com/ucanam/4102](http://emberjs.jsbin.com/ucanam/4102)
 
       Resolution: Sticky by default, with appropriate escape valves to opt out per route change
 

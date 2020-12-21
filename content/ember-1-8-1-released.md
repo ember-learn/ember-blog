@@ -46,8 +46,8 @@ in a number of modules, and we have expanded our work around for more modules in
 
 Further Reading:
 
-- https://bugs.webkit.org/show_bug.cgi?id=138038
-- https://github.com/emberjs/ember.js/issues/5606
+- [https://bugs.webkit.org/show_bug.cgi?id=138038](https://bugs.webkit.org/show_bug.cgi?id=138038)
+- [https://github.com/emberjs/ember.js/issues/5606](https://github.com/emberjs/ember.js/issues/5606)
 
 ### Support rendering of null-prototype objects
 

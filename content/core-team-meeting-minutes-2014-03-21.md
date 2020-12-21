@@ -35,7 +35,7 @@ We reviewed the following PRs and Issues:
 
 * Move instanceMetas into object's meta [#4559](https://github.com/emberjs/ember.js/pull/4559)
 
-    InstanceMetas for objects' ReduceComputedPropertys are stored on the RCP instance (ie. on the descriptor) as `this._instanceMetas[key]` where key = guidOfTheObject + ':' + propertyName (see http://git.io/t9bKxA). The RCP can't know when the object is garbage collected, hence the _instanceMetas array grows unbounded.
+    InstanceMetas for objects' ReduceComputedPropertys are stored on the RCP instance (ie. on the descriptor) as `this._instanceMetas[key]` where key = guidOfTheObject + ':' + propertyName (see [http://git.io/t9bKxA](http://git.io/t9bKxA)). The RCP can't know when the object is garbage collected, hence the _instanceMetas array grows unbounded.
 
     Resolution: if David Hamilton +1’s, we merge as a bugfix.
 
