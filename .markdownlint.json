@@ -1,7 +1,7 @@
 {
   "default": true,
   "line-length": false,
-  "no-duplicate-heading": false,
+  "no-duplicate-heading": { "siblings_only": true },
   "no-emphasis-as-heading": false,
   "no-inline-html": false,
   "no-trailing-punctuation": false,
