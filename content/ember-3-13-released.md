@@ -60,7 +60,7 @@ setEdition('octane');
 
 If you have an `.ember-cli` file instead of an `.ember-cli.js` file, you can convert it by renaming it to `.ember-cli.js`, then taking the existing JSON object and assigning it to `module.exports`. For example, if you have an `.ember-cli` file with:
 
-```javascripton
+```javascript
 // .ember-cli
 {
   "disableAnalytics": false

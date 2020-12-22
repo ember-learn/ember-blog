@@ -30,7 +30,7 @@ do the following:
   1. remove the `ember-data` package from your `bower.json`
   2. update `ember-cli-shims` package to version `0.1.0`
 
-```diff
+```json
    ...
    "dependencies": {
      "handlebars": "2.0.0",
@@ -45,7 +45,7 @@ do the following:
 
 Then in your `package.json` update `ember-data` to `^2.3.0`
 
-```diff
+```json
    ...
    "devDependencies": {
      ...
@@ -153,7 +153,8 @@ test them out please update the version of Ember Data in package.json
 to `emberjs/data#master` and add the feature to the `EmberENV`'s
 `FEATURES` object in `config/environment.js`.
 
-```config/environment.js
+```javascript
+// config/environment.js
 var ENV = {
   EmberENV: {
     FEATURES: {
@@ -203,7 +204,8 @@ relationships and belongs-to relationships:
 
 Consider the following `post` model:
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 import Model from 'ember-data/model';
 import { belongsTo, hasMany } from 'ember-data/relationships';
 

@@ -185,7 +185,8 @@ A new `serializeId()` method has been added to `JSONSerializer`,
 working with a backend that requires your ids to be something other
 than a string.
 
-```app/serializers/application.js
+```javascript
+// app/serializers/application.js
 import DS from 'ember-data';
 
 export default DS.JSONSerializer.extend({

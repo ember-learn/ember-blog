@@ -126,7 +126,8 @@ For example, in an application you might pass some values from a template:
 
 And in an engine access those values on the `model` property:
 
-```admin/app/templates/application.hbs
+```handlebars
+{{!-- admin/app/templates/application.hbs --}}
 <h2>Admin area: {{model.title}}</h2>
 <div>
   Please sign in: {{model.signInButton}}

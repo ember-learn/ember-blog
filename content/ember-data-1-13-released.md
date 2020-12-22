@@ -713,7 +713,8 @@ deprecation warning.
 To silence the warning and continue using the `RESTAdapter` you will
 need to set the `RESTAdapter` as your application adapter.
 
-```app/adapters/application.js
+```javascript
+// app/adapters/application.js
 import DS from 'ember-data';
 
 export default DS.RESTAdapter;

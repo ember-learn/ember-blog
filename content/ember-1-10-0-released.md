@@ -143,9 +143,9 @@ variables into child scopes allows for new patterns of component composition.
 Block params are passed from a template via the `yield` helper. For example, this
 component yields the `fullName` and `age` values:
 
-```app/components/x-customer.js
+```javascript
+// app/components/x-customer.js
 export default Ember.Component.extend({
-
   fullName: function(){
     var customer = this.get('customer');
     return [customer.get('firstName'), customer.get('lastName')].join(' ');
@@ -154,17 +154,18 @@ export default Ember.Component.extend({
   age: function(){
     return (new Date() - this.get('birthday')) / (86400000 * 365);
   }.property('birthday')
-
 });
 ```
 
-```app/components/x-customer.hbs
+```handlebars
+{{!-- app/components/x-customer.hbs --}}
 <div class="customer">
   {{yield fullName age}}
 </div>
 ```
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <div class="layout">
   {{#x-customer customer=model birthday=model.birthday as |fullName age|}}
     Hello, {{fullName}}. You are {{age}} years old.

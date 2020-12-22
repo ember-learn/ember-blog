@@ -136,13 +136,15 @@ Although disabling this feature will eventually be the default for Ember, leavin
 
 Ember components implicitly create an element in the DOM where they are invoked, and the contents of their templates are then treated as "innerHTML" inside that DOM element. For example, this component template:
 
-```app/templates/components/hello-world.hbs
+```handlebars
+{{!-- app/templates/components/hello-world.hbs --}}
 Hello World!
 ```
 
 When invoked as:
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <section>
   {{hello-world}}
 </section>
@@ -170,13 +172,15 @@ ember feature:enable template-only-glimmer-components
 
 Once enabled, any component template file without a corresponding JavaScript file will behave like "outerHTML". For example the component file:
 
-```app/templates/components/hello-world.hbs
+```handlebars
+{{!-- app/templates/components/hello-world.hbs --}}
 Hello World!
 ```
 
 Without any corresponding JavaScript file, and invoked as:
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <section>
   {{hello-world}}
 </section>
@@ -384,13 +388,14 @@ export function pushPayload(store, modelName, rawPayload) {
 }
 ```
 
-```diff
-+import { pushPayload } from '<app-name>/utils/push-payload';
+```javascript
+// Before
+this.get('store').pushPayload(modelName, rawPayload);
 
-...
+// After
+import { pushPayload } from '<app-name>/utils/push-payload';
 
--this.get('store').pushPayload(modelName, rawPayload);
-+pushPayload(this.get('store'), modelName, rawPayload);
+pushPayload(this.get('store'), modelName, rawPayload);
 ```
 
 ### Deprecations in Ember Data 3.2

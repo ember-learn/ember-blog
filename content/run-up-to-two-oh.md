@@ -303,7 +303,8 @@ In Ember 1.13, you can write the same component this way:
 <my-counter count={{mut activatedCount}} />
 ```
 
-```my-counter.js
+```javascript
+// my-counter.js
 export default Component.extend({
   click: function() {
     this.attrs.count.update(this.attrs.count.value + 1);
@@ -342,7 +343,8 @@ function (i.e. "[currying][currying]").
 Starting in Ember 1.13, a new `action` helper provides you with a way to
 do both of these things:
 
-```parent-component.hbs
+```handlebars
+{{!-- parent-component.hbs --}}
 {{#each users as |user|}}
   <big-button on-active={{action 'selectedUser' user}} />
 
@@ -351,7 +353,8 @@ do both of these things:
 {{/each}}
 ```
 
-```parent-component.js
+```javascript
+// parent-component.js
 export default Component.extend({
   actions: {
     selectedUser(user) {
@@ -362,7 +365,8 @@ export default Component.extend({
 });
 ```
 
-```big-button.js
+```javascript
+// big-button.js
 export default Component.extend({
   click: function() {
     this.attrs['on-active']();
@@ -383,7 +387,8 @@ updates one of its values.
 <my-text on-enter={{action (mut currentText)}} />
 ```
 
-```my-text.js
+```javascript
+// my-text.js
 export default Component.extend({
   keyUp(event) {
     if (event.which === 13) {

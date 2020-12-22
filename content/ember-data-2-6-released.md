@@ -106,7 +106,7 @@ request using `jQuery.ajax` and attaches success and failure handlers.
 Say your API handles creation of resources via PUT, this can now be
 customized as follows:
 
-``` js
+```javascript
 // adapters/application.js
 import DS from 'ember-data';
 

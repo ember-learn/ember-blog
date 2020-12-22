@@ -145,7 +145,8 @@ enables return values, and introduces some powerful new currying capabilities.
 For example, action `submit` is passed to `my-component` where it is called upon
 click:
 
-```app/controllers/index.js
+```javascript
+// app/controllers/index.js
 import Ember from "ember";
 
 export default Ember.Controller.extend({
@@ -157,11 +158,13 @@ export default Ember.Controller.extend({
 });
 ```
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 {{my-component submit=(action 'setName')}}
 ```
 
-```app/components/my-component.js
+```javascript
+// app/components/my-component.js
 import Ember from "ember";
 
 export default Ember.Component.extend({
@@ -209,7 +212,8 @@ Helpers come in two flavors. The first is a function-based API we call a
 shorthand helper. For example, this shorthand helper joins a first and
 last name:
 
-```app/helpers/full-name.js
+```javascript
+// app/helpers/full-name.js
 import Ember from "ember";
 
 export default Ember.Helper.helper(function(params, hash) {
@@ -238,7 +242,8 @@ some control over their own invalidation and recomputation. In these cases, a he
 For example, this helper computes a name based on a `name-builder` service. It
 also recomputes whenever the `isAnonymized` state on that service changes:
 
-```app/helpers/full-name.js
+```javascript
+// app/helpers/full-name.js
 import Ember from "ember";
 
 export default Ember.Helper.extend({
@@ -267,7 +272,8 @@ how a component is called.
 `hasBlock` will be true when a component is invoked in block form. For example
 given this component:
 
-```app/components/show-full-name.hbs
+```handlebars
+{{!-- app/components/show-full-name.hbs --}}
 {{#if hasBlock}}
   {{yield fullName}}
 {{else}}

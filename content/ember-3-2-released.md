@@ -218,13 +218,14 @@ export function pushPayload(store, modelName, rawPayload) {
 }
 ```
 
-```diff
-+import { pushPayload } from '<app-name>/utils/push-payload';
+```javascript
+// Before
+this.get('store').pushPayload(modelName, rawPayload);
 
-...
+// After
+import { pushPayload } from '<app-name>/utils/push-payload';
 
--this.get('store').pushPayload(modelName, rawPayload);
-+pushPayload(this.get('store'), modelName, rawPayload);
+pushPayload(this.get('store'), modelName, rawPayload);
 ```
 
 #### Deprecations (0)

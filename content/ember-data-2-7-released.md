@@ -34,7 +34,8 @@ In Ember Data 2.5 and Ember Data 2.6 the following generator command for buildin
 
 It would generate the following blueprint:
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 import Model from 'ember-data/model';
 import attr from 'ember-data/attr';
 import { belongsTo, hasMany } from 'ember-data/relationships';
@@ -49,7 +50,8 @@ export default Model.extend({
 
 Ember Data 2.7 the same command will now generate the following blueprint:
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 import DS from 'ember-data';
 
 export default DS.Model.extend({
@@ -84,7 +86,8 @@ Data 2.7.
 
 Allow `null`/`undefined` values for boolean attributes via `attr('boolean', { allowNull: true })`
 
-```app/models/user.js
+```javascript
+// app/models/user.js
 import DS from 'ember-data';
 
 export default DS.Model.extend({
@@ -154,7 +157,8 @@ request using `jQuery.ajax` and attaches success and failure handlers.
 Say your API handles creation of resources via PUT, this can now be
 customized as follows:
 
-```adapters/application.js
+```javascript
+// adapters/application.js
 import DS from 'ember-data';
 
 export default DS.RESTAdapter.extend({

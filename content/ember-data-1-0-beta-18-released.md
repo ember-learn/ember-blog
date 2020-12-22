@@ -80,7 +80,8 @@ While `modelNameFromPayloadKey` returns a *model* for a JSON payload key,
 *to the server.* For instance, you may have a Post model, but your server
 expects a `message` as the root. You can override it like so:
 
-```app/serializers/application.js
+```javascript
+// app/serializers/application.js
 export default DS.RESTSerializer.extend({
   payloadKeyFromModelName: (modelName) {
     if (modelName === 'post') {
@@ -93,7 +94,7 @@ export default DS.RESTSerializer.extend({
 
 This would produce the following payload:
 
-```javascripton
+```javascript
 {
   "message": {
     "id": "1",

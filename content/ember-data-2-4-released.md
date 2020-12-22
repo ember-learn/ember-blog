@@ -87,7 +87,8 @@ relationships and belongs-to relationships:
 
 Consider the following `post` model:
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 import Model from 'ember-data/model';
 import { belongsTo, hasMany } from 'ember-data/relationships';
 
@@ -145,7 +146,8 @@ the transform.
 
 ##### Example
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 export default DS.Model.extend({
   title: DS.attr('string'),
   markdown: DS.attr('markdown', {
@@ -157,7 +159,8 @@ export default DS.Model.extend({
 });
 ```
 
-```app/transforms/markdown.js
+```javascript
+// app/transforms/markdown.js
 export default DS.Transform.extend({
   serialize: function (deserialized, attributeMeta) {
     return deserialized.raw;
