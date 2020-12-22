@@ -47,7 +47,7 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
     ```bash
     # Create an Ember Times blog post for August 29, 2020
-    touch content/2020-08-29-the-ember-times-issue-162.md
+    touch content/the-ember-times-issue-162.md
     ```
 
 1. We use [alex](https://alexjs.com/) and [markdownlint](https://github.com/DavidAnson/markdownlint) for linting. If your branch's CI (continuous integration) didn't pass these linters, please consider rewording or updating Markdown syntax to fix the error. If the linter incorrectly marked something as an error, you may add an exception to your file.
