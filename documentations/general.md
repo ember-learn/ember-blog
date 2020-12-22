@@ -60,7 +60,7 @@ For example, switch to this branch for issue 92: `blog/embertimes-92`
 git switch -t upstream/blog/embertimes-165 # or, git checkout blog/embertimes-165
 ```
 
-- Find the latest blog issue template at `content/YYYY-MM-DD-the-ember-times-issue-#.md`
+- Find the latest blog issue template at `content/the-ember-times-issue-#.md`
 
 For example: `2019-04-05-the-ember-times-issue-92`
 
