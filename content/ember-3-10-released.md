@@ -52,7 +52,7 @@ For example, if you had a component nested in your `app/` directory as follows:
 you had to invoke the component in your template using the classic curly invocation syntax up until Ember 3.9. You can do so as follows:
 
 
-```hbs
+```handlebars
 {{! simple invocation }}
 {{blog/post-item}}
 
@@ -64,7 +64,7 @@ you had to invoke the component in your template using the classic curly invocat
 
 With Ember 3.10 you can alternatively invoke the same, nested component in your template with angle bracket invocation syntax:
 
-```hbs
+```handlebars
 {{! simple invocation }}
 <Blog::PostItem />
 
@@ -87,7 +87,7 @@ With Ember 3.10+ you can use **angle bracket invocation syntax** for the **three
 
 Previously, you were only able to invoke built-ins in your template using the classic, curly braces syntax:
 
-```hbs
+```handlebars
 {{input type="text" value="Katie Gengler"}}
 
 {{link-to "Edit Photo" "photos.edit" photo}}
@@ -97,7 +97,7 @@ Previously, you were only able to invoke built-ins in your template using the cl
 
 With Ember 3.10 and higher, you may alternatively use the angle bracket invocation syntax as follows:
 
-```hbs
+```handlebars
 <Input @type="text" @value="Katie Gengler" />
 
 {{! link-to with a single model }}

@@ -58,7 +58,7 @@ export default Component.extend({
 }
 ```
 
-```hbs
+```handlebars
 Current count: {{this.count}}
 
 <MyButton @click={{this.countUp}}>Add One</MyButton>
@@ -66,7 +66,7 @@ Current count: {{this.count}}
 
 The `{{fn}}` helper provides a way to pass arguments into actions and "bundle" them up, so that they can be passed around to other components and still retain the provided arguments when called:
 
-```hbs
+```handlebars
 Current count: {{this.count}}
 
 {{!-- when not passing arguments, these are equivalent --}}
@@ -79,7 +79,7 @@ Current count: {{this.count}}
 
 In addition to the basic use case shown here, the `{{fn}}` helper supports other advanced use cases, such as adding more arguments to an existing function.
 
-```hbs
+```handlebars
 {{#let (fn this.log "hello") as |hello|}}
   {{!-- calls this.log("hello", "world") --}}
   <MyButton @click={{fn hello "world"}}>
@@ -113,7 +113,7 @@ export default Component.extend({
 }
 ```
 
-```hbs
+```handlebars
 Current count: {{this.count}}
 
 <button {{on "click" this.countUp passive=true}}>Add One</button>

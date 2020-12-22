@@ -202,7 +202,7 @@ Ember introduced contextual components in Ember 2.3. Contextual components close
 
 As the implementation of contextual components has been refined in the Glimmer VM, a notable discrepancy has been noticed in how they handle positional params. Given the following template:
 
-```hbs
+```handlebars
 {{#with (component 'x-foo' 1 2 3) as |comp|}}
   {{component comp 4 5 6}}
 {{/with}}
@@ -271,7 +271,7 @@ This helper enables you to introduce bindings in your templates, without having 
 
 For example, imagine you want to pass the same hash of options to two different different components, you can now do the following:
 
-```hbs
+```handlebars
 {{#let (hash theme="fairyfloss" indentation=4) as |options|}}
   {{code-editor options=options}}
   {{code-preview options=options}}

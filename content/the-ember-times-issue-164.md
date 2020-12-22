@@ -106,7 +106,7 @@ export default modifier(element => {
 
 Since element modifiers work on any element, you don't need to create a whole component to create reusable DOM behavior. You can use a modifier on any element with this element modifier syntax.
 
-```hbs
+```handlebars
 <div {{tabs}}></div>
 ```
 

@@ -261,7 +261,7 @@ As the implementation of contextual components has been refined in the Glimmer
 VM, a notable discrepancy has been noticed in how they handle positional
 params. Given the following template:
 
-```hbs
+```handlebars
 {{#with (component 'x-foo' 1 2 3) as |comp|}}
   {{component comp 4 5 6}}
 {{/with}}

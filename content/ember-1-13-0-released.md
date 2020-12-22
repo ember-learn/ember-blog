@@ -277,7 +277,7 @@ given this component:
 
 Then these two usages would be valid:
 
-```hbs
+```handlebars
 {{! app/index/template.hbs }}
 
 Full name: {{show-full-name firstName=firstName lastName=lastName}}
@@ -349,7 +349,7 @@ let items = {
 
 The following template will iterate the keys:
 
-```hbs
+```handlebars
 {{#each-in items as |key value|}}
   <p>{{key}}: {{value}}</p>
 {{/each-in}}
@@ -375,13 +375,13 @@ let items = {
 
 The following template display `1234`:
 
-```hbs
+```handlebars
 {{get items 'Item 1'}}
 ```
 
 This becomes more powerful when the second argument is a bound path:
 
-```hbs
+```handlebars
 {{get items somePathWithAKey}}
 ```
 

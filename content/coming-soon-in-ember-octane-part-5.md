@@ -164,14 +164,14 @@ This makes templates much easier to reason about, since the full definition is n
 
 This does bring up the question of attribute reflection though. As we learned about in the post on [Angle Bracket syntax](https://www.pzuraq.com/coming-soon-in-ember-octane-part-2-angle-brackets-and-named-arguments/), attributes that are added to a component when used with angle brackets will be reflected onto the main element:
 
-```hbs
+```handlebars
 <MyButton class="custom-btn" aria-labelledby="my-label"/>
 ```
 
 <!-- alex ignore special -->
 With Classic Components, the main component _is_ the wrapper element. In Glimmer Components, there is no clear main element - there could be multiple top level elements, or there could be _no_ elements, just text. This is what the special `...attributes` syntax is used for:
 
-```hbs
+```handlebars
 <!-- app/templates/components/hello-button.hbs -->
 <button ...attributes class="btn" role="button">
   Hello, world!
@@ -183,20 +183,20 @@ This syntax allows you to choose which element(s) the attributes get applied to.
 
 Another cool feature of this syntax is that the _order_ it is applied in can be used to determine how it overrides attributes. Attributes that come _before_ `...attributes` will be overridden, but attributes that come _after_ will not. For example, given these two possibilities:
 
-```hbs
+```handlebars
 <div data-foo="inner" ...attributes></div>
 <div ...attributes data-foo="inner"></div>
 ```
 
 With this invocation:
 
-```hbs
+```handlebars
 <Foo data-foo="outer" />
 ```
 
 We would get this result:
 
-```hbs
+```handlebars
 <div data-foo="outer"></div>
 <div data-foo="inner"></div>
 ```

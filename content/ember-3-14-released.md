@@ -95,7 +95,7 @@ These motivations as well as the detailed design of this feature are described i
 
 A template such as the following can now be refactored from using `this.model`:
 
-```hbs
+```handlebars
 {{!-- The model for this route is the current user --}}
 
 <div>
@@ -110,7 +110,7 @@ A template such as the following can now be refactored from using `this.model`:
 
 To use `@model`:
 
-```hbs
+```handlebars
 {{!-- The model for this route is the current user --}}
 
 <div>

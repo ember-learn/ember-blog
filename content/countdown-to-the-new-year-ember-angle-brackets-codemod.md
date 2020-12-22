@@ -31,7 +31,7 @@ Here is an example of typical conversion:
 
 #### Before
 
-```hbs
+```handlebars
 {{site-header user=this.user class=(if this.user.isAdmin "admin")}}
 
 {{#super-select selected=this.user.country as |s|}}
@@ -45,7 +45,7 @@ Here is an example of typical conversion:
 
 #### After
 
-```hbs
+```handlebars
 <SiteHeader @user={{this.user}} class={{if this.user.isAdmin "admin"}} />
 <SuperSelect @selected={{this.user.country}} as |s|>
   {{#each this.availableCountries as |country|}}

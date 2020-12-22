@@ -48,7 +48,7 @@ See [emberjs/rfcs#294](https://github.com/emberjs/rfcs/blob/master/text/0294-opt
 
 In Ember 3.4 it is now possible to use angle bracket invocation. This means that you're now able to replace the classic invocation syntax:
 
-```hbs
+```handlebars
 {{site-header user=this.user class=(if this.user.isAdmin "admin")}}
 
 {{#super-select selected=this.user.country as |option|}}
@@ -60,7 +60,7 @@ In Ember 3.4 it is now possible to use angle bracket invocation. This means that
 
 with the angle bracket invocation syntax:
 
-```hbs
+```handlebars
 <SiteHeader @user={{this.user}} class={{if this.user.isAdmin "admin"}} />
 
 <SuperSelect @selected={{this.user.country}} as |Option|>
