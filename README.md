@@ -27,7 +27,7 @@ Some tips for working with git/GitHub can be found in
 
 ### Contributing troubleshooting
 
-We are using [Alex](https://github.com/wooorm/alex) for insensitive language checking and [markdownlint](https://github.com/DavidAnson/markdownlint). If your CI branch build is failing from these linters, please see [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/source/CONTRIBUTING.md) for more info.
+We are using [Alex](https://github.com/wooorm/alex) for insensitive language checking and [markdownlint](https://github.com/DavidAnson/markdownlint). If your CI branch build is failing from these linters, please see [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md) for more info.
 
 ## Prerequisites
 
