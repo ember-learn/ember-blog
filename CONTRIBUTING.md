@@ -43,7 +43,7 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
 1. We use [Markdown](https://www.markdownguide.org/cheat-sheet/) when writing a blog post.
 
-1. The file must be saved in the `content` directory. The file name must begin with `YYYY-MM-DD`.
+1. The file must be saved in the `content` directory.
 
     ```bash
     # Create an Ember Times blog post for August 29, 2020
