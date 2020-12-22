@@ -33,19 +33,19 @@ The [RFC: Improved Ember Registry APIs](https://github.com/emberjs/rfcs/pull/585
 
 From:
 
-```js
+```javascript
 getOwner(this).lookup('service:session');
 ```
 
 To:
 
-```js
+```javascript
 getOwner(this).lookup({ type: 'service', name: 'session' })
 ```
 
 From:
 
-```js
+```javascript
 class Example {
   @service('global@session')
   session;
@@ -54,7 +54,7 @@ class Example {
 
 To:
 
-```js
+```javascript
 class Example {
   @service({ namespace: 'global', name: 'session' })
   session;

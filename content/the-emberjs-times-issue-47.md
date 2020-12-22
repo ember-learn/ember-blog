@@ -38,7 +38,7 @@ The RFC design is pretty straightforward and proposes that all `meta` and `links
 
 Similarly, `meta` and `links` will be exposed on instances of `DS.Snapshot`. Although `meta` and `links` are getters on `DS.Model`s, they will be exposed on `DS.Snapshot` as methods:
 
-```js
+```javascript
 class Snapshot {
   links() {}
   meta() {}
@@ -83,7 +83,7 @@ The `templateRecast` API offers you methods for creating abstract syntax trees (
 
 See it in action:
 
-```js
+```javascript
 const { transform } = require('ember-template-recast');
 
 const template = `

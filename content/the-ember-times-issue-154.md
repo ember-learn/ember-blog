@@ -36,13 +36,13 @@ For example, suppose you want to update the footer in `application.hbs` from a c
 
 Route:
 
-```hbs
+```handlebars
 <Portal @target="footer-title">Step 1</Portal>
 ```
 
 Application:
 
-```hbs
+```handlebars
 {{outlet}}
 
 <footer class="sticky-footer">

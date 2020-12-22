@@ -70,7 +70,8 @@ or router.
 
 If you have a template like this:
 
-```posts.hbs
+```handlebars
+{{!-- posts.hbs --}}
 <ul>
 {{#each controller itemController='postItem'}}
   <li><button {{action 'selectPost' this}}>{{name}}</button></li>

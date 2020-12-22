@@ -85,7 +85,7 @@ array. This can be used to filter out deleted but unsaved records to
 preserve the old behavior, where records are removed from collections
 as soon as they are deleted. This addon work with Ember Data 1.13 and Ember Data 2.0.
 
-```js
+```javascript
 App.PostController = Ember.Controller.extend({
   allPosts: function() {
     return this.store.peekAll('post');

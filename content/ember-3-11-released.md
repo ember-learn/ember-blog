@@ -45,7 +45,7 @@ The [`{{fn}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers
 
 The `action` method creates an action from a simple function so that it can be passed to event handlers in templates. It ensures that the `this` value in the `countUp` action will always be the component instance, which allows it to be freely passed to other components. Where this falls short is when we need to pass arguments to these actions.
 
-```js
+```javascript
 import Component from "@ember/component";
 import { action } from '@ember/object';
 
@@ -58,7 +58,7 @@ export default Component.extend({
 }
 ```
 
-```hbs
+```handlebars
 Current count: {{this.count}}
 
 <MyButton @click={{this.countUp}}>Add One</MyButton>
@@ -66,7 +66,7 @@ Current count: {{this.count}}
 
 The `{{fn}}` helper provides a way to pass arguments into actions and "bundle" them up, so that they can be passed around to other components and still retain the provided arguments when called:
 
-```hbs
+```handlebars
 Current count: {{this.count}}
 
 {{!-- when not passing arguments, these are equivalent --}}
@@ -79,7 +79,7 @@ Current count: {{this.count}}
 
 In addition to the basic use case shown here, the `{{fn}}` helper supports other advanced use cases, such as adding more arguments to an existing function.
 
-```hbs
+```handlebars
 {{#let (fn this.log "hello") as |hello|}}
   {{!-- calls this.log("hello", "world") --}}
   <MyButton @click={{fn hello "world"}}>
@@ -100,7 +100,7 @@ It should also be noted that the `{{action}}` helper can previously be used to a
 
 The [`{{on}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers/methods/fn?anchor=on) modifier provides a straightforward way to listen to DOM events on arbitrary elements.
 
-```js
+```javascript
 import Component from "@ember/component";
 import { action } from '@ember/object';
 
@@ -113,7 +113,7 @@ export default Component.extend({
 }
 ```
 
-```hbs
+```handlebars
 Current count: {{this.count}}
 
 <button {{on "click" this.countUp passive=true}}>Add One</button>
@@ -184,7 +184,7 @@ The packages feature also introduces a new import syntax.
 
 Previously:
 
-```js
+```javascript
 import Model from 'ember-data/model';
 import attr from 'ember-data/attr';
 import { belongsTo, hasMany } from 'ember-data/relationships';
@@ -192,7 +192,7 @@ import { belongsTo, hasMany } from 'ember-data/relationships';
 
 or:
 
-```js
+```javascript
 import DS from 'ember-data';
 
 const { Model, attr, belongsTo, hasMany } = DS;
@@ -200,7 +200,7 @@ const { Model, attr, belongsTo, hasMany } = DS;
 
 Can now be achieved like this:
 
-```js
+```javascript
 import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 ```
 

@@ -74,7 +74,7 @@ Basically the RFC describes, in 2 parts, how to write tests that "say more" abou
 
 Essentially the RFC proposes using labels, rather than selectors, to interact with elements in tests.  For example
 
-```js
+```javascript
 await fillIn('.login-form .field-email', 'alice@example.com');
 await fillIn('.login-form .field-password', 'topsecret');
 await click('.submit-btn');
@@ -82,7 +82,7 @@ await click('.submit-btn');
 
 becomes
 
-```js
+```javascript
 await fillIn('Email', 'alice@example.com');
 await fillIn('Password', 'topsecret');
 await click('Log in');

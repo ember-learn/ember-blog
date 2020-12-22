@@ -36,7 +36,7 @@ Now that we are doing regular releases, the API revision check has been
 removed. You no longer need to provide the API revision number when
 defining your store:
 
-```js
+```javascript
 App.Store = DS.Store.extend({
   // Delete this!
   revision: 13

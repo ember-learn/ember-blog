@@ -63,7 +63,7 @@ However, early adopters of native classes have experienced some serious issues d
 
 The new implementation of the `EmberObject` would look like the following:
 
-```js
+```javascript
 class EmberObject {
   constructor(props) {
     // ..class setup things

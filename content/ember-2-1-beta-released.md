@@ -96,7 +96,7 @@ this behavior, register a handler and write custom logic. For example this
 handler would throw an exception for any deprecation messages with the word
 `should` in them:
 
-```js
+```javascript
 Ember.Debug.registerDeprecationHandler((message, options, next) => {
   if (message.indexOf('should') !== -1) {
     throw new Error('Deprecation message with should: '+message);
@@ -109,7 +109,7 @@ Ember.Debug.registerDeprecationHandler((message, options, next) => {
 
 In this example, all warnings are silenced:
 
-```js
+```javascript
 // next is not called, so no warnings get the default behavior
 Ember.Debug.registerWarnHandler(() => {});
 ```

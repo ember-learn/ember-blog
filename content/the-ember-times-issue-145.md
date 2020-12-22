@@ -91,7 +91,7 @@ This edition of EmberMap’s [What’s New in Ember](https://embermap.com/topics
 
 The [`fn` helper](http://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/fn?anchor=fn) which has been available since [Ember 3.11](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html), provides a way to pass arguments to actions. While this may be something Ember already provided for a long time, the EmberMap video goes through the nuisance of how the `fn` helper provides added functionality by binding the `this` context and currying the arguments passed. For example, it allows you to [pass parameters along to functions](https://guides.emberjs.com/release/upgrading/current-edition/action-on-and-fn/) in your templates:
 
-```hbs
+```handlebars
 <!-- Before -->
 <button {{action 'handleClick' 123}}>Click Me!</button>
 <MyComponent @onClick={{action 'handleClick' 123}} />

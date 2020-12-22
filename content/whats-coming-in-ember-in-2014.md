@@ -93,7 +93,7 @@ development and is subject to change.
 
 ### Initializing an App
 
-```sh
+```bash
 ember new my-app
 ```
 
@@ -102,13 +102,13 @@ an app, a router, etc.
 
 ### Starting the Development Server
 
-```sh
+```bash
 ember server
 ```
 
 ### Running Tests
 
-```sh
+```bash
 ember test
 ```
 
@@ -119,7 +119,7 @@ output easier to work with.
 You can also host the QUnit test harness for manual testing by
 running:
 
-```sh
+```bash
 ember test:server
 ```
 
@@ -128,7 +128,7 @@ ember test:server
 The Ember CLI supports bower natively. Just use the commands
 you're used to:
 
-```sh
+```bash
 bower install moment
 ```
 
@@ -145,7 +145,7 @@ automatically, by shimming AMD, CommonJS and browser global packages:
 Even if a library was shipped as AMD, you would be able to use it as
 though it was an ES6 module:
 
-```js
+```javascript
 import md from "markdown";
 ```
 
@@ -174,7 +174,7 @@ tossed around are:
 Here is a rough example of the kind of layout you might see when
 initializing a new Ember app via the CLI:
 
-```text
+```markup
 app/
   controllers/
   models/
@@ -198,7 +198,7 @@ modules/           // non-MVC stuff
 Right now, many Ember projects have adopted a Rails-style directory
 layout where everything is grouped by type:
 
-```text
+```markup
 app/
   controllers/
     post.js

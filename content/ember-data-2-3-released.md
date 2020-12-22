@@ -30,7 +30,7 @@ do the following:
   1. remove the `ember-data` package from your `bower.json`
   2. update `ember-cli-shims` package to version `0.1.0`
 
-```diff
+```json
    ...
    "dependencies": {
      "handlebars": "2.0.0",
@@ -45,7 +45,7 @@ do the following:
 
 Then in your `package.json` update `ember-data` to `^2.3.0`
 
-```diff
+```json
    ...
    "devDependencies": {
      ...
@@ -69,7 +69,7 @@ their application instead of accessing modules top level `DS` namespace.
 
 The following module paths are considered to be public API and will be supported until at least Ember Data 3.0:
 
-```js
+```javascript
 // DS.Model
 import Model from 'ember-data/model';
 
@@ -153,7 +153,8 @@ test them out please update the version of Ember Data in package.json
 to `emberjs/data#master` and add the feature to the `EmberENV`'s
 `FEATURES` object in `config/environment.js`.
 
-```config/environment.js
+```javascript
+// config/environment.js
 var ENV = {
   EmberENV: {
     FEATURES: {
@@ -177,13 +178,13 @@ sideloaded relationships. Thanks to
 [@HeroicEric](https://github.com/HeroicEric) for implementing this
 feature.
 
-```js
+```javascript
 // GET /articles/1?include=comments
 
 var article = this.store.findRecord('article', 1, { include: 'comments' });
 ```
 
-```js
+```javascript
 // GET /articles?include=comments
 
 var article = this.store.findAll('article', { include: 'comments' });
@@ -203,7 +204,8 @@ relationships and belongs-to relationships:
 
 Consider the following `post` model:
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 import Model from 'ember-data/model';
 import { belongsTo, hasMany } from 'ember-data/relationships';
 
@@ -215,7 +217,7 @@ export default Model.extend({
 
 The references API now allows the possibility to interact with the relationships:
 
-```js
+```javascript
 var post = store.peekRecord('post', 1);
 
 // check if the author is already loaded, without triggering a request

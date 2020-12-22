@@ -71,7 +71,7 @@ client-side web applications.
 To take a simple example, sometimes a has-many relationship is stored in the
 parent record's JSON representation:
 
-```js
+```javascript
 {
   "id": 1,
   "name": "Lord Grantham",
@@ -81,7 +81,7 @@ parent record's JSON representation:
 
 Other times, the same relationship may be saved as a foreign key on the children:
 
-```js
+```javascript
 {
   "id": 2,
   "name": "Lady Mary",
@@ -181,7 +181,7 @@ normal object. When the promise resolves, those properties will be updated to
 match the underlying object. If you `get` a property from a `DataBoundPromise`
 when it is unresolved, it will return `undefined`.
 
-```js
+```javascript
 var article = comment.get('article');
 
 // If the promise has not yet resolved

@@ -67,7 +67,8 @@ The primary migration effort is that you should expect to adjust any relative pa
 
 As an example, given this configuration where you have configured a different `rootURL` and `baseURL`:
 
-```config/environment.js
+```javascript
+// config/environment.js
 var ENV = {
   /* ... */
   rootURL: '/path/to/application/',
@@ -90,7 +91,8 @@ You would remove the `baseURL` option and modify your templates like so:
 
 One of the most common use cases for `baseURL` was pointing to assets on a CDN. After this change to remove `baseURL` you should use the `prepend` option for [`broccoli-asset-rev`](https://github.com/rickharrison/broccoli-asset-rev) which is included with Ember CLI apps by default. For example, in `ember-cli-build.js`:
 
-```ember-cli-build.js
+```javascript
+// ember-cli-build.js
 var app = new EmberApp(defaults, {
   // Add options here
   fingerprint: {
@@ -101,7 +103,8 @@ var app = new EmberApp(defaults, {
 
 Note that the `prepend` option only applies when doing *production* builds via something like `ember build --prod`. Given the above example, and this input:
 
-```config/environment.js
+```javascript
+// config/environment.js
 var ENV = {
   /* ... */
   rootURL: '/path/to/application/'
@@ -128,7 +131,8 @@ Note that `rootURL` *is present* as part of the path for the CDN-hosted assets i
 
 We also use the setting for `rootURL` at runtime in the application's router:
 
-```app/router.js
+```javascript
+// app/router.js
 import Ember from 'ember';
 import config from './config/environment';
 
@@ -139,7 +143,8 @@ const Router = Ember.Router.extend({
 
 In most cases this does exactly what you want it to do. However, if you wish to mount the application at a different place than the Ember CLI `rootURL` specifies for its `ember serve` location, you may add an additional property in your config, `routerRootURL`, to specify the path that your application will live at runtime.
 
-```config/environment.js
+```javascript
+// config/environment.js
 var ENV = {
   /* ... */
   rootURL: '/',
@@ -180,7 +185,7 @@ This can be useful to address relative URLs which are being inserted via templat
 
 Using our new release channel setup, you can try this change by upgrading your Ember CLI app to the canary channel:
 
-```sh
+```bash
 npm install --save-dev ember-cli/ember-cli#canary
 ```
 

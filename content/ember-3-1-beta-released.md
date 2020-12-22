@@ -44,7 +44,7 @@ Starting in Ember 3.1 (and described in [RFC
 are now able to read the value of a computed property using a native ES5 getter.
 For example, this component which uses computed properties:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -63,7 +63,7 @@ export default Component.extend({
 
 Can be re-written using ES5 getters:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -171,13 +171,15 @@ Ember components implicitly create an element in the DOM where they are
 invoked, and the contents of their templates are then treated as "innerHTML"
 inside that DOM element. For example, this component template:
 
-```app/templates/components/hello-world.hbs
+```handlebars
+{{!-- app/templates/components/hello-world.hbs --}}
 Hello World!
 ```
 
 When invoked as:
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <section>
   {{hello-world}}
 </section>
@@ -214,13 +216,15 @@ ember feature:enable template-only-glimmer-components
 Once enabled, any component template file without a corresponding JavaScript
 file will behave like "outerHTML". For example the component file:
 
-```app/templates/components/hello-world.hbs
+```handlebars
+{{!-- app/templates/components/hello-world.hbs --}}
 Hello World!
 ```
 
 Without any corresponding JavaScript file, and invoked as:
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <section>
   {{hello-world}}
 </section>
@@ -261,7 +265,7 @@ As the implementation of contextual components has been refined in the Glimmer
 VM, a notable discrepancy has been noticed in how they handle positional
 params. Given the following template:
 
-```hbs
+```handlebars
 {{#with (component 'x-foo' 1 2 3) as |comp|}}
   {{component comp 4 5 6}}
 {{/with}}

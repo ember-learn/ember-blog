@@ -295,7 +295,7 @@ While extracting Glimmer to be used standalone from Ember, we also took the oppo
 
 Tired of remembering all of the magic properties needed to configure a component's root element?
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({
@@ -317,7 +317,7 @@ In Glimmer, the component's root element is defined in the template, so all of t
 
 This gets even nicer once you introduce dynamic data from the component into it. Here's the Ember component:
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({
@@ -336,7 +336,7 @@ Now in a Glimmer component, using ES6 class syntax to provide dynamic data:
 <input disabled type="range" class={{type}} />
 ```
 
-```js
+```javascript
 import Component from '@glimmer/component';
 
 export default class extends Component {
@@ -350,7 +350,7 @@ Because Glimmer is written in TypeScript, it has great autocomplete and type def
 
 JavaScript is still the primary way to write Glimmer apps. Because it's extracted from a JavaScript framework, Glimmer's API has been designed to be used with JavaScript from the start. TypeScript is just an extra tool in your toolbelt—if you want it.
 
-```js
+```javascript
 import Component from '@glimmer/component';
 export default class extends Component {
   firstName: string;
@@ -362,7 +362,7 @@ export default class extends Component {
 
 Ember users love computed properties, but getting used to their syntax can be a challenge. Because Glimmer uses ES6 classes, you can use standard getters and setters:
 
-```js
+```javascript
 import Component from '@glimmer/component';
 
 export default class extends Component {
@@ -379,7 +379,7 @@ export default class extends Component {
 
 Glimmer uses decorators (a Stage 2 TC39 proposal) to augment a class's properties and methods. For example, to mark a component property as "tracked" (so changes to it are updated in the DOM), use the `@tracked` decorator:
 
-```js
+```javascript
 import Component, { tracked } from '@glimmer/component';
 
 export default class extends Component {
@@ -397,7 +397,7 @@ export default class extends Component {
 
 Actions in Glimmer are just functions, with optional argument currying. Use the `{{action}}` helper to bind the function to the component context:
 
-```js
+```javascript
 import Component, { tracked } from '@glimmer/component';
 
 export default class extends Component {

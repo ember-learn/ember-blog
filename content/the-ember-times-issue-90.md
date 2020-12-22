@@ -72,7 +72,7 @@ An example: The following usages are equivalent:
 <div {{on "click" this.handleClick passive=true}}></div>
 ```
 
-```js
+```javascript
 element.addEventListener('click', this.handleClick, { passive: true });
 ```
 

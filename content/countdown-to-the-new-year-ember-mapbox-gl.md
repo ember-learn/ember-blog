@@ -41,7 +41,7 @@ Am I missing any? Let me know. But I'm pretty confident these are the top mappin
 How do they work? They all have a one thing in common: declarative templating. Most of the mapping objects you see on screen
 are managed using template components and helper invocations:
 
-```hbs
+```handlebars
 <MapboxGl as |map|>
   <map.source
     @options=(hash type='geojson' data=(hash type='Point' coordinates=(array  -96.7969879, 32.7766642 ))) as |source|
@@ -101,7 +101,7 @@ What is this `style` property? It's the reason we had to grab an API key from Ma
 
 Now, add this to one of your templates:
 
-```hbs
+```handlebars
 <MapboxGl as |map|>
   <map.source
     @options=(hash type='geojson' data=(hash type='Point' coordinates=(array  -96.7969879, 32.7766642 ))) as |source|
@@ -119,14 +119,14 @@ Now, add this to one of your templates:
 
 What is going on? Line by line:
 
-```hbs
+```handlebars
 <MapboxGl as |map|>
 ```
 
 This simply instantiates a new map by creating new element in the DOM and binding the map instance to it.
 
 
-```hbs
+```handlebars
 <map.source
   @options=(hash type='geojson' data=(hash type='Point' coordinates=(array  -96.7969879, 32.7766642 ))) as |source|
 >
@@ -140,7 +140,7 @@ That's a little far into the weeds, but it's worth mentioning because there actu
 
 **Generally, you'll find that most of the components in _ember_-mapbox-gl correspond to the various _mapbox_-gl APIs. That means you can use the MapboxGL documentation site proper when using this addon**
 
-```hbs
+```handlebars
     <source.layer layer=(hash
       type='circle'
       paint=(hash
@@ -167,7 +167,7 @@ Here's a run-through of what we did:
 
 Why all this work? Because the addon is dealing with all the "gotchas" that come with lifecycle management. That means you can use these components as you would any other component:
 
-```hbs
+```handlebars
 {{#if this.someCondition}}
   <map.layer /> {{!-- show something !}}
 {{/if}}

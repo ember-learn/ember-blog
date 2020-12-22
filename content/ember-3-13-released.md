@@ -36,7 +36,7 @@ You can try out the Octane preview by performing a few steps:
 
 Add the following packages if they aren't already present at this version:
 
-```js
+```javascript
 npm install --save-dev @ember/edition-utils@^1.1.1
 npm install --save-dev @glimmer/component@^0.14.0-alpha.13
 ```
@@ -51,7 +51,7 @@ ember feature:disable application-template-wrapper
 
 Specify the Octane edition in `.ember-cli.js` by adding the following lines to the beginning of the file:
 
-```js
+```javascript
 // .ember-cli.js
 const { setEdition } = require('@ember/edition-utils');
 
@@ -60,7 +60,7 @@ setEdition('octane');
 
 If you have an `.ember-cli` file instead of an `.ember-cli.js` file, you can convert it by renaming it to `.ember-cli.js`, then taking the existing JSON object and assigning it to `module.exports`. For example, if you have an `.ember-cli` file with:
 
-```json
+```javascript
 // .ember-cli
 {
   "disableAnalytics": false
@@ -69,7 +69,7 @@ If you have an `.ember-cli` file instead of an `.ember-cli.js` file, you can con
 
 The equivalent `.ember-cli.js` file would be:
 
-```js
+```javascript
 // .ember-cli.js
 module.exports = {
   "disableAnalytics": false
@@ -121,7 +121,7 @@ In cases where you need a component class file, you can either pass the `--with-
 
 For addon authors, it is now possible to detect which edition is in use at build-time with `@ember/edition-utils`.
 
-```js
+```javascript
 import { has } from '@ember/edition-utils';
 
 let isOctane = has('octane');

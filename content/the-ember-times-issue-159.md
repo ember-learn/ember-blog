@@ -36,7 +36,7 @@ Not familiar with ember-bootstrap? It's an Ember CLI addon that provides a colle
 <!--alex ignore easy-->
 In your templates, you can easily use day.js APIs using the provided helpers. For example, you can use the `{{day-js}}` helper to display the current date or format a date provided.
 
-```hbs
+```handlebars
 {{day-js}} => Display today's date
 {{day-js date='2019-01-25' format='DD-MM-YYYY'}} => 25-01-2019
 {{day-js date='2019-01-25' format='DD MMMM YYYY'}} => 25 January 2019

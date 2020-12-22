@@ -43,7 +43,7 @@ change does not affect the template syntax or public API of Ember applications.
 Projects using an Ember-CLI version less than 0.1.5 will require a bump
 of the Handlebars dependency version:
 
-```text
+```markup
 bower install --save handlebars#2.0.0
 ```
 
@@ -159,7 +159,8 @@ is a step toward that goal.
 
 Two Ember helpers support context switching. The first is `{{each}}`:
 
-```app/templates/people.hbs
+```handlebars
+{{!-- app/templates/people.hbs --}}
 {{! this context is the controller }}
 {{#each model}}
   {{name}} {{! this context is each person }}
@@ -168,7 +169,8 @@ Two Ember helpers support context switching. The first is `{{each}}`:
 
 The non-context switching version of this helper is now preferred:
 
-```app/templates/people.hbs
+```handlebars
+{{!-- app/templates/people.hbs --}}
 {{! this context is the controller }}
 {{#each person in model}}
   {{person.name}} {{! this context is still the controller }}
@@ -177,7 +179,8 @@ The non-context switching version of this helper is now preferred:
 
 The second helper is `{{with}}`:
 
-```app/templates/person.hbs
+```handlebars
+{{!-- app/templates/people.hbs --}}
 {{! this context is the controller }}
 {{#with model}}
   {{name}} {{! this context is the person }}
@@ -186,7 +189,8 @@ The second helper is `{{with}}`:
 
 The non-context switching version of this helper is now preferred:
 
-```app/templates/person.hbs
+```handlebars
+{{!-- app/templates/people.hbs --}}
 {{! this context is the controller }}
 {{#with model as person}}
   {{person.name}} {{! this context is still the controller }}
@@ -264,7 +268,8 @@ Preserving template scope context results in easier to read templates.
 
 Any component in Ember 1.10 can use this feature. For example:
 
-```app/templates/components/my-unordered-list.hbs
+```handlebars
+{{!-- app/templates/components/my-unordered-list.hbs --}}
 <ul>
   {{#each items as |item|}}
     <li>{{yield item}}</li>
@@ -272,7 +277,8 @@ Any component in Ember 1.10 can use this feature. For example:
 </ul>
 ```
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 {{#my-unordered-list items=cars as |car|}}
   Auto: {{car.name}}
 {{/my-unordered-list}}
@@ -312,7 +318,7 @@ The following deprecations are scheduled for release with Ember.js 1.10:
 - Setting the `childViews` property on a view definition will be deprecated in
   1.10. For example:
 
-```js
+```javascript
 var ChildB = Ember.View.extend();
 
 export default Ember.ContainerView.extend({
@@ -325,7 +331,7 @@ This use of `childViews` is inconsistent with other uses throughout Ember, and
 as a result is difficult to implement with good performance. Explicitly creating
 views upon initialization is preferred:
 
-```js
+```javascript
 var ChildB = Ember.View.extend();
 
 export default Ember.ContainerView.extend({

@@ -58,7 +58,7 @@ The proposed `{{id}}` helper can be invoked in 2 ways: without any argument or w
 
 When no arguments are passed, it will return a new unique ID string for every invocation. This invocation style would usually be paired with a `let` block.
 
-```hbs
+```handlebars
 {{#let (id) as |emailId|}}
   <label for={{emailId}}>Email address</label>
   <input id={{emailId}} type="email" />
@@ -68,7 +68,7 @@ When no arguments are passed, it will return a new unique ID string for every in
 <!--alex ignore savage-->
 The named argument `for` accepts an object, string, number, Element, or primitive, and treats it as a stable reference for an ID. This allows the helper to return the same ID for a given input.
 
-```hbs
+```handlebars
 <label for="{{id for=this}}-email">Email address</label>
 <input id="{{id for=this}}-email" type="email" />
 ```

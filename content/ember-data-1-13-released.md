@@ -164,7 +164,7 @@ to the server. This usage of `store.find(type, { query })` has been
 deprecated and replaced by a new `query` method
 on the store.
 
-```js
+```javascript
 store.query(type, { query });
 ```
 
@@ -172,7 +172,7 @@ In addition to `store.query` we have also added a `queryRecord` for
 issuing arbitrary queries to the backend where the expected response
 is a single record.
 
-```js
+```javascript
 store.queryRecord(type, { query });
 ```
 
@@ -204,7 +204,7 @@ This is the behavior of the new `findRecord` and `findAll` methods.
 The first time you call `findRecord` and `findAll` they behave the same as
 the old `find` method:
 
-```js
+```javascript
 //visiting /users/1 for the first time
 model: function() {
   //We do not already have the user, so
@@ -217,7 +217,7 @@ model: function() {
 However if you already have the data cached locally, they resolve immediately
 while fetching new data in the background:
 
-```js
+```javascript
 //visiting /users/1 for the second time
 model: function() {
   //We already have the user, so store.findRecord
@@ -237,7 +237,7 @@ If, for example you want to charge user for a purchase, and want to make sure yo
 get their latest account balance, you can pass a `reload: true` option that will
 ensure we get the freshest data before continuing:
 
-```js
+```javascript
 //visiting /users/1/confirm-payment
 model: function() {
   return this.store.findRecord('user', 1, { reload: true });
@@ -246,7 +246,7 @@ model: function() {
 
 All of these behaviors are also shared by `findAll`:
 
-```js
+```javascript
 store.findAll('user');  //goes to the server the first time
 store.findAll('user');  //after that returns from cache, but updates in background
 store.findAll('user', { reload: true });  //enforces getting fresh data
@@ -257,7 +257,7 @@ store.findAll('user', { reload: true });  //enforces getting fresh data
 Having these two methods, with customizable flags allows us to get rid of:
 `store.fetchById` and `store.fetchAll`.
 
-```js
+```javascript
 store.fetchById(type, id) -> store.findRecord(type, id, { reload: true });
 store.fetchAll(type, id) -> store.findAll(type, { reload: true });
 ```
@@ -274,7 +274,7 @@ Now, whenever you call `findRecord` or `findAll`, and the record is already cach
 
 For example, if you are building an events ticketing system, in which users can only reserve tickets for 20 minutes at a time, and want to ensure that in each route you have data that is no more than 20 minutes old you could write:
 
-```js
+```javascript
 shouldReloadRecord: function(store, ticketSnapshot) {
   let timeDiff = moment().diff(ticketSnapshot.attr('lastAccessedAt')).minutes();
   if (timeDiff > 20) {
@@ -294,7 +294,7 @@ user interactions while waiting on data update.
 You can also customize whether you should try and do a background update. For example, if you do not want to fetch complex data over a mobile connection, or
 if the network is down, you can implement `shouldBackgroundReloadRecord`
 
-```js
+```javascript
 shouldBackgroundReloadRecord: function(store, snapshot) {
   if (window.navigator.connection === 'cellular' ||
     window.navigator.connection === 'none') {
@@ -315,7 +315,7 @@ Ember Data 2.0 this will be changed to always return `true`.
 
 Symmetric methods have also been added for `store.findAll`.
 
-```js
+```javascript
 shouldReloadAll: function(store, snapshotRecordArray)
 shouldBackgroundReloadAll: function(store, snapshotRecordArray)
 ```
@@ -379,13 +379,13 @@ JSON API object, `store.push({JSON API compound document})`
 
 For example
 
-```js
+```javascript
 store.push('user', { id: 1, name: 'Pangratz' });
 ```
 
 becomes
 
-```js
+```javascript
 store.push({
   data: {
     id: '1', 
@@ -410,7 +410,7 @@ that convert the old `store.push` format into the new format.
 If you made a `store.findRecord('user', 1)` request in Ember Data beta.19
 and your server payload looked like:
 
-```js
+```javascript
 {
   user: { id: 1, name: 'wecc', accounts: [1, 2] },
   accounts: [
@@ -437,7 +437,7 @@ Serializers should now implement, and just return JSON API from that hook.
 
 For example a Serializer responsible for normalizing the above sample payload would just transform it to:
 
-```js
+```javascript
 {
   data: { 
     id: '1', 
@@ -595,7 +595,7 @@ a success, or to return an instance of `AdapterError` or `InvalidError`.
 For example, if your API engineers for some unknown reason decided to return
 `200 OK` with an error message, you could subclass your adapter to handle this:
 
-```js
+```javascript
 handleResponse: function(status, headers, payload) {
   if (status === 200 && payload.errors) {
     return new InvalidError(payload.errors);
@@ -632,7 +632,7 @@ deprecation warning in 1.13.
 
 Deprecated format:
 
-```js
+```javascript
 new DS.InvalidError({
   first_name: ['is invalid']
 });
@@ -640,7 +640,7 @@ new DS.InvalidError({
 
 New format:
 
-```js
+```javascript
 new DS.InvalidError([
   {
     source: { pointer: 'data/attributes/first_name' },
@@ -713,7 +713,8 @@ deprecation warning.
 To silence the warning and continue using the `RESTAdapter` you will
 need to set the `RESTAdapter` as your application adapter.
 
-```app/adapters/application.js
+```javascript
+// app/adapters/application.js
 import DS from 'ember-data';
 
 export default DS.RESTAdapter;
@@ -749,7 +750,7 @@ in the future that allows you to check dirtiness of relationships.
 If you previously used the preload argument to `store.find` it has
 been moved into the preload key on `findRecord`'s options argument
 
-```js
+```javascript
 // Deprecated
 store.find('comment', 1, { post: 1 });
 

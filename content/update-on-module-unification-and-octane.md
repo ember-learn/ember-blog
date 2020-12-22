@@ -229,7 +229,7 @@ don't leak into the rest of the app. If we have a component called
 `list-paginator` and it has a child component called `paginator-control`, MU
 allows us to organize them like this:
 
-```text
+```markup
 src
 ├── ui
 │   ├── components
@@ -393,7 +393,7 @@ You can even imagine an (again, **very hypothetical**) single-file component
 format that places the template right within the component's class. Here, a
 unified imports solution feels especially natural:
 
-```js
+```javascript
 // src/ui/components/blog-post.gbs
 
 import Component from '@glimmer/component';

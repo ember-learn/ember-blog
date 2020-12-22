@@ -35,7 +35,7 @@ method accepts several configuration options.
 For example, you might use this API to manually boot an Ember application
 and then instruct it to visit a URL:
 
-```js
+```javascript
 import MyApp from 'my-app';
 
 $(function() {
@@ -85,11 +85,13 @@ This helper is introduced to make the new contextual components feature
 more convenient, and it will often be used with the `{{yield` helper. For
 example:
 
-```app/templates/components/nice-person.hbs
+```handlebars
+{{!-- app/templates/components/nice-person.hbs --}}
 {{yield (hash name='Bob')}}
 ```
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 {{#nice-person as |person|}}
   Hello, my name is {{person.name}}
 {{/nice-person}}
@@ -112,7 +114,8 @@ privately share data, but be invoked in a flexible manner. For example,
 this `{{alert-box}}` component yields a contextual component composed
 of the `alert-box-button` component and the attribute `onclick`:
 
-```app/templates/components/alert-box.hbs
+```handlebars
+{{!-- app/templates/components/alert-box.hbs --}}
 <div class="alert-box">
   {{yield (hash
     close-button=(component 'alert-box-button' onclick=(action 'close'))
@@ -120,7 +123,8 @@ of the `alert-box-button` component and the attribute `onclick`:
 </div>
 ```
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 {{#alert-box as |box|}}
   Danger, Will Robinson!
   <div style="float:right">
@@ -164,7 +168,7 @@ object is deprecated in favor of a public owner API.**
 For example, this component will dynamically lookup an audio service based
 on the `audioType` of its model:
 
-```js
+```javascript
 import Ember from 'ember';
 const {
   Component,

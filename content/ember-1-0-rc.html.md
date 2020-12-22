@@ -23,7 +23,7 @@ the emberjs/ember.js repo on GitHub and consider helping out.
 
 You can now transition to a new route without creating an entry in the history:
 
-```js
+```javascript
 // instead of this, which creates a history entry
 router.transitionTo('index');
 
@@ -56,7 +56,7 @@ objects.
 As of Ember 1.0 RC1, you can use `App.register` to override the default lookup
 for controllers and other objects. For example:
 
-```js
+```javascript
 App.register('controller:post', Ember.ObjectController.extend());
 ```
 
@@ -66,7 +66,7 @@ to find objects, but you can use this API for advanced usages.
 Similarly, you can use `App.inject` to tell Ember to automatically inject
 objects into other Ember objects.
 
-```js
+```javascript
 App.register('network:main', App.NetworkAdapter);
 App.inject('controller', 'network', 'network:main');
 ```

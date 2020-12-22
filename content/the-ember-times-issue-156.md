@@ -28,7 +28,7 @@ and last, but not least, Mirage JS with GraphQL 🏝!
 
 ember-concurrency is an addon that manages asynchronous tasks in Ember applications. The addon traditionally exports a `task` function which is used similarly to a computed property.
 
-```js
+```javascript
 import { task } from 'ember-concurrency';
 
 export default Component.extend({

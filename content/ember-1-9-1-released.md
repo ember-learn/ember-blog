@@ -39,7 +39,7 @@ Since its inception, Ember.js has automatically guarded against these
 attacks by HTML-escaping any bound data that goes into the DOM. For
 example, given this model data:
 
-```js
+```javascript
 {
   "firstName": "<script type=javascript>alert('pwned!');</script>"
 }
@@ -59,7 +59,8 @@ However, there is still another potential exploit vector: bound attributes.
 Let's say you display a profile for your users and allow them to supply
 an arbitrary homepage that your app links to:
 
-```app/templates/user.hbs
+```handlebars
+{{!-- app/templates/user.hbs --}}
 First Name: {{firstName}}
 Homepage: <a {{bind-attr href=homepageUrl}}>{{homepageUrl}}</a>
 ```
@@ -67,7 +68,7 @@ Homepage: <a {{bind-attr href=homepageUrl}}>{{homepageUrl}}</a>
 While this template may look harmless at first glance, imagine a
 malicious user provides the following data:
 
-```js
+```javascript
 {
   "firstName": "Guardians of Peace",
   "homepageUrl": "javascript:alert('Kim Jong Un is not to be

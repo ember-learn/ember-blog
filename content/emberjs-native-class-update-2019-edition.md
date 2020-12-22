@@ -38,7 +38,7 @@ After the [original ES Class RFC](https://github.com/emberjs/rfcs/blob/master/te
 
 This means that many of the workarounds that were used to assign class fields before are _no longer necessary_ 🎉. It is now best practice to assign default values to class fields:
 
-```js
+```javascript
 // before
 class Person extends EmberObject {
   firstName = this.firstName || 'Bruce';
@@ -66,7 +66,7 @@ class Person extends EmberObject {
 
 As a consequence of the constructor update RFC, creating an instance of a class using `new EmberObject()` was made impossible. This was never a _public_ API, but did work previously, and some users had begun using it this way. For classes that extend `EmberObject`, you should continue to use `create()`:
 
-```js
+```javascript
 class Person extends EmberObject {
   firstName = 'Bruce';
   lastName = 'Wayne';
@@ -80,7 +80,7 @@ let person = Person.create({
 
 It's important to note that this **only applies to classes that extend `EmberObject`**! For classes that do not, you should define your own constructor and use `new`:
 
-```js
+```javascript
 class Person {
   constructor(firstName, lastName) {
     this.firstName = firstName;
@@ -100,7 +100,7 @@ There were also two changes to the behavior of the `constructor` method in class
 
 These both get assigned _after_ the object has been fully created, but _before_ `init` is called. So, they are both available in `init`. The official recommendation is to always use `init` when extending from any `EmberObject` based classes, since it will consistently have everything needed.
 
-```js
+```javascript
 // before
 class Profile extends Component {
   @service store;
@@ -132,7 +132,7 @@ class Profile extends Component {
 
 When extending using `extend()`, all values that were passed in to the method were assigned to the _prototype_ of the class.
 
-```js
+```javascript
 const Person = EmberObject.extend({
   sayHello() {
     console.log('hi!');
@@ -147,7 +147,7 @@ console.log(Person.prototype.hasOwnProperty('friends')); // true
 
 This led to the infamous "shared state" problem, where an object or array passed into a class definition would be shared between every instance of that class:
 
-```js
+```javascript
 let peterParker = Person.create();
 let wandaMaximoff = Person.create();
 
@@ -160,7 +160,7 @@ By contrast, when using `class ... extends`, only <span style="font-style: itali
 <span style="font-style: italic;">getters/setters</span> are assigned to the prototype. Class fields are assigned to the
 <span style="font-style: italic;">instance</span> of the class:
 
-```js
+```javascript
 class Person extends EmberObject {
   sayHello() {
     console.log('hi!');
@@ -180,7 +180,7 @@ console.log(peterParker.hasOwnProperty('friends')) // true
 
 One common pattern that existed to avoid the shared state problem in classic classes was assigning values in the `init` hook of the class. With native class fields this is _not_ an issue. Class fields are assigned a new copy of their value for every instance, which means that there is no accidental sharing of state. The current best practice is to move any property assignments in `init` to class fields:
 
-```js
+```javascript
 // before
 const Person = EmberObject.extend({
   init() {
@@ -196,7 +196,7 @@ class Person extends EmberObject {
 
 One exception here is when you are assigning a value that was passed into the class constructor, for classes that do _not_ extend `EmberObject`, or when you are defining a value based on _other_ values:
 
-```js
+```javascript
 class Person {
   constructor(firstName, lastName) {
     this.firstName = firstName;
@@ -218,7 +218,7 @@ class Person {
 
 The other exception is for static values that _should_ be constant. Creating a new instance of the value for each instance of the class is _usually_ a good thing, but in some cases this can be really bad for performance. For example, if you ever used the `layout` property to create a "single file component" with `ember-cli-handlebars-inline-precompile`, this will now create a new template per instance! This is why we created the `@layout` decorator in `ember-decorators`:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { layout } from '@ember-decorators/component';
 import hbs from 'htmlbars-inline-precompile';
@@ -247,7 +247,7 @@ In cases where other types of values are static like this, consider create const
 
 This one is more of a general native classes rule, rather than an Ember specific one. However, it is a pattern that is becoming more and more common, and it's something that should be avoided. Specifically, developers in the wider Javascript community are using arrow functions to create bound instance methods on a class for things like event handlers:
 
-```js
+```javascript
 // do not copy this. This is an antipattern!
 class Checkbox {
   onClick = () => {
@@ -272,7 +272,7 @@ For more details, check out [this rationale](https://github.com/mbrowne/bound-de
 
 Instead, you can use the `@action` decorator provided by Ember (and Ember Decorators), which binds a the handler lazily:
 
-```js
+```javascript
 class Checkbox {
   @action
   onClick() {
@@ -293,7 +293,7 @@ When using native classes, you should _never_ use `this._super()`. Unfortunately
 
 All instances of calls to `this._super()` can be replaced instead with the `super` keyword. `super` works a little bit differently than `this._super()` though. When called in a constructor, you use it directly:
 
-```js
+```javascript
 class Car extends Vehicle {
   constructor() {
     super(...arguments);
@@ -305,7 +305,7 @@ class Car extends Vehicle {
 
 It's actually a syntax error if you don't use `super` this way in constructors. However, when not used from the constructor, `super` gives access to _all_ of the parent class's instance properties and methods, and you must call the method on it explicitly:
 
-```js
+```javascript
 class Car extends Vehicle {
   start() {
     super.start(...arguments);
@@ -317,7 +317,7 @@ class Car extends Vehicle {
 
 You can even call _other_ inherited methods using this, which is why you must specify it in the first place:
 
-```js
+```javascript
 class Car extends Vehicle {
   start() {
     super.ignition(...arguments);
@@ -331,7 +331,7 @@ This design choice for `super` was really about embracing the nature of Javascri
 
 Finally, as with classic classes, you should generally pass all arguments through to the super calls for existing lifecycle hooks:
 
-```js
+```javascript
 class MultiSelectComponent extends Component {
   didInsertElement() {
     super.didInsertElement(...arguments);
@@ -347,7 +347,7 @@ One major part of the original classes RFC was ensuring that native classes that
 
 However, it is also possible to use this feature in other ways, some of which have become antipatterns over time. For instance, `ember-cli-typescript` has recommended that users define their classes like so:
 
-```ts
+```typescript
 // do not copy this. This is an antipattern!
 export default class PersonComponent extends Component.extend({
   fullName: computed('firstName', 'lastName', {
@@ -369,7 +369,7 @@ So coming back to the original question - when should you use `.extend()`? There
 
 1. When you are passing mixins to a class defined with native class syntax:
 
-   ```js
+   ```javascript
    export default class PersonComponent extends Component.extend(
      FullNameMixin,
      OtherMixin
@@ -381,7 +381,7 @@ So coming back to the original question - when should you use `.extend()`? There
 
 2. When you are using classic class syntax to define a class:
 
-   ```js
+   ```javascript
    export default Component.extend({
      fullName: computed({
        get() {
@@ -402,7 +402,7 @@ Native classes don't _really_ have equivalents to `EmberObject`s ability to reop
 
 However, there are legitimate use cases. In general, if you are relying on this behavior, you should _first_ try to find a way to refactor off of it without touching prototypes, constructors, etc. In the case of `.reopenClass()`, this will often times be as simple as adding `static` class fields and methods to the class definition, since that's almost always what the method is used for:
 
-```js
+```javascript
 // before
 export default Component.extend({}).reopenClass({
   positionalParams: ['title', 'body']
@@ -422,7 +422,7 @@ Alright, so after reading through all of that you may be thinking "that is a _lo
 
 All of Ember's decorators are completely compatible with _plain_ native classes. There is absolutely no need to extend `EmberObject`, and in fact it should be considered best practice to _avoid_ `EmberObject` whenever possible:
 
-```js
+```javascript
 // before
 class Person extends EmberObject {
   firstName = null;
@@ -478,7 +478,7 @@ This section is for a few remaining tips/best practices that I have developed my
 
 Anonymous classes are a thing in JS:
 
-```js
+```javascript
 export default class {
 
 }
@@ -498,7 +498,7 @@ Note that this only applies to _class names_, appending the type to the end of f
 
 Class fields get assigned in order, from top to bottom. This means that it's entirely possible for a class field to rely on the values of _other_ class fields:
 
-```js
+```javascript
 class Person {
   firstName = 'Tony';
   lastName = 'Stark';
@@ -511,7 +511,7 @@ This is a bad idea because it makes your class harder to refactor. Moving a fiel
 
 Note that this really only applies to class fields - once you're in a "hook" of some kind, like the `constructor` or `init`, it's safe to start using values. This is because moving the constructor around is safe, and functions are pretty easy to reason about locally (usually 😬):
 
-```js
+```javascript
 // EmberObject based class
 import Component from '@ember/component';
 

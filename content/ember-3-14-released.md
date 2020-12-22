@@ -34,7 +34,7 @@ With the exception of an updated release of `@glimmer/component`, the steps to t
 
 Add the following packages if they aren't already present at this version:
 
-```js
+```javascript
 npm install --save-dev @ember/edition-utils@^1.1.1
 npm install --save-dev @glimmer/component@^1.0.0-beta.1
 ```
@@ -48,7 +48,7 @@ ember feature:disable application-template-wrapper
 
 Specify the Octane edition in `.ember-cli.js` by adding the following lines to the beginning of the file:
 
-```js
+```javascript
 // .ember-cli.js
 const { setEdition } = require("@ember/edition-utils");
 
@@ -57,7 +57,7 @@ setEdition("octane");
 
 If you have an `.ember-cli` file instead of an `.ember-cli.js` file, you can convert it by renaming it to `.ember-cli.js`, then taking the existing JSON object and assigning it to `module.exports`. For example, if you have an `.ember-cli` file with:
 
-```json
+```javascript
 // .ember-cli
 {
   "disableAnalytics": false
@@ -66,7 +66,7 @@ If you have an `.ember-cli` file instead of an `.ember-cli.js` file, you can con
 
 The equivalent `.ember-cli.js` file would be:
 
-```js
+```javascript
 // .ember-cli.js
 module.exports = {
   disableAnalytics: false
@@ -95,7 +95,7 @@ These motivations as well as the detailed design of this feature are described i
 
 A template such as the following can now be refactored from using `this.model`:
 
-```hbs
+```handlebars
 {{!-- The model for this route is the current user --}}
 
 <div>
@@ -110,7 +110,7 @@ A template such as the following can now be refactored from using `this.model`:
 
 To use `@model`:
 
-```hbs
+```handlebars
 {{!-- The model for this route is the current user --}}
 
 <div>

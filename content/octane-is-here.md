@@ -43,7 +43,7 @@ The first big improvement in Ember Octane is Glimmer Components. Ember has had a
 
 The thing that jumps out at you when you look at classic components is that you configure a "root element" using a JavaScript microsyntax.
 
-```js
+```javascript
 import Component from '@ember/component';
 
 export default Component.extend({
@@ -82,7 +82,7 @@ In Classic Ember, if you wanted to define a piece of DOM behavior that you could
 
 For example, let's say we have a third-party library that exposes `activateTabs` and `deactivateTabs` functions, both of which take an element. In Classic Ember, you could write a mixin like this:
 
-```js
+```javascript
 import Mixin from '@ember/object/mixin';
 
 export default Mixin.create({
@@ -100,7 +100,7 @@ export default Mixin.create({
 
 And then you would use it in a component like this:
 
-```js
+```javascript
 import Component from '@ember/component';
 
 export default Component.extend(Tabs, {
@@ -120,7 +120,7 @@ Ember Octane provides a new way to reuse DOM behavior: element modifiers. The si
 
 This is what our `Tabs` mixin looks like when reimplemented as a modifier.
 
-```js
+```javascript
 import { modifier } from 'ember-modifier';
 
 export default modifier(element => {
@@ -156,7 +156,7 @@ In Classic Ember, you mutate reactive properties by using `set`, and any computa
 
 Here's the computed properties example from Ember 3.14's guides:
 
-```js
+```javascript
 import EmberObject, { computed } from '@ember/object';
 
 const Person = EmberObject.extend({
@@ -192,7 +192,7 @@ This design makes it harder to break up a computed property into smaller functio
 
 Octane's reactivity model, tracked properties, have a much lighter footprint.
 
-```js
+```javascript
 class Person {
   @tracked firstName;
   @tracked lastName;
@@ -299,7 +299,7 @@ In addition to the elimination of computed properties, the Glimmer reactivity mo
 
 The Octane reactivity model wouldn't be very useful for existing Ember users if it was hard to use objects implemented using the classic reactivity model from objects implemented using the Octane model. For that reason, we worked hard to ensure that existing Ember applications can freely use classic objects in classes built using tracked properties.
 
-```js
+```javascript
 class Contact {
   @tracked person;
 

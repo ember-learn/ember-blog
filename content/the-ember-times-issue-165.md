@@ -50,7 +50,7 @@ The author explains that, in most cases, function arguments should not be option
 
 Before:
 
-```js
+```javascript
 import { tryInvoke } from '@ember/utils';
  
 foo() {
@@ -60,7 +60,7 @@ foo() {
 
 After:
 
-```js
+```javascript
 foo() {
  this.args.bar?.('baz');
 }

@@ -29,13 +29,13 @@ performance.
 Thanks to [@HeroicEric](https://github.com/HeroicEric) for
 implementing this feature.
 
-```js
+```javascript
 // GET /articles/1?include=comments
 
 var article = this.store.findRecord('article', 1, { include: 'comments' });
 ```
 
-```js
+```javascript
 // GET /articles?include=comments
 
 var article = this.store.findAll('article', { include: 'comments' });
@@ -55,7 +55,8 @@ relationships and belongs-to relationships:
 
 Consider the following `post` model:
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 import Model from 'ember-data/model';
 import { belongsTo, hasMany } from 'ember-data/relationships';
 
@@ -67,7 +68,7 @@ export default Model.extend({
 
 The references API now allows the possibility to interact with the relationships:
 
-```js
+```javascript
 var post = store.peekRecord('post', 1);
 
 // check if the author is already loaded, without triggering a request
@@ -113,7 +114,8 @@ the transform.
 
 ##### Example
 
-```app/models/post.js
+```javascript
+// app/models/post.js
 export default DS.Model.extend({
   title: DS.attr('string'),
   markdown: DS.attr('markdown', {
@@ -125,7 +127,8 @@ export default DS.Model.extend({
 });
 ```
 
-```app/transforms/markdown.js
+```javascript
+// app/transforms/markdown.js
 export default DS.Transform.extend({
   serialize: function (deserialized, attributeMeta) {
     return deserialized.raw;
@@ -154,7 +157,7 @@ serializing has many relationships using the `DS.EmbeddedRecordsMixin` that  wil
 
 For instance, if a user has many pets, which is a polymorphic relationship, the generated payload would be:
 
-```js
+```javascript
 {
   "user": {
     "id": "1"

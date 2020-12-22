@@ -52,7 +52,7 @@ Ember's object system has long used `set` and `get` to access properties. These 
 
 Starting in Ember 3.1 (and described in [RFC281](https://github.com/emberjs/rfcs/blob/master/text/0281-es5-getters.md)) you are now able to read the value of a computed property using a native ES5 getter. For example, this component which uses computed properties:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -71,7 +71,7 @@ export default Component.extend({
 
 Can be re-written using ES5 getters:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -136,13 +136,15 @@ Although disabling this feature will eventually be the default for Ember, leavin
 
 Ember components implicitly create an element in the DOM where they are invoked, and the contents of their templates are then treated as "innerHTML" inside that DOM element. For example, this component template:
 
-```app/templates/components/hello-world.hbs
+```handlebars
+{{!-- app/templates/components/hello-world.hbs --}}
 Hello World!
 ```
 
 When invoked as:
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <section>
   {{hello-world}}
 </section>
@@ -170,13 +172,15 @@ ember feature:enable template-only-glimmer-components
 
 Once enabled, any component template file without a corresponding JavaScript file will behave like "outerHTML". For example the component file:
 
-```app/templates/components/hello-world.hbs
+```handlebars
+{{!-- app/templates/components/hello-world.hbs --}}
 Hello World!
 ```
 
 Without any corresponding JavaScript file, and invoked as:
 
-```app/templates/index.hbs
+```handlebars
+{{!-- app/templates/index.hbs --}}
 <section>
   {{hello-world}}
 </section>
@@ -202,7 +206,7 @@ Ember introduced contextual components in Ember 2.3. Contextual components close
 
 As the implementation of contextual components has been refined in the Glimmer VM, a notable discrepancy has been noticed in how they handle positional params. Given the following template:
 
-```hbs
+```handlebars
 {{#with (component 'x-foo' 1 2 3) as |comp|}}
   {{component comp 4 5 6}}
 {{/with}}
@@ -271,7 +275,7 @@ This helper enables you to introduce bindings in your templates, without having 
 
 For example, imagine you want to pass the same hash of options to two different different components, you can now do the following:
 
-```hbs
+```handlebars
 {{#let (hash theme="fairyfloss" indentation=4) as |options|}}
   {{code-editor options=options}}
   {{code-preview options=options}}
@@ -331,7 +335,7 @@ Ember Data 3.1 contains bug fixes and build improvements for Ember Data.
 
 This is needed because `Map` requires instantiation with `new`, and by default Babel transpilation will do `superConstructor.apply(this, arguments)` which throws an error with native `Map`. The desired code (if we lived in an "only native class" world) would be:
 
-  ```js
+  ```javascript
   export default class MapWithDeprecations extends Map {
     constructor(options) {
       super();
@@ -373,7 +377,7 @@ During the Ember Data 3.2 beta cycle, the Ember Data team is planning on releasi
 
 If you rely on the `ds-pushpayload-return` feature flag, you can use the following pattern to manually serialize the API response and push the record into the store.
 
-```js
+```javascript
 export function pushPayload(store, modelName, rawPayload) {
    let ModelClass = store.modelFor(modelName);
    let serializer = store.serializerFor(modelName);
@@ -384,13 +388,14 @@ export function pushPayload(store, modelName, rawPayload) {
 }
 ```
 
-```diff
-+import { pushPayload } from '<app-name>/utils/push-payload';
+```javascript
+// Before
+this.get('store').pushPayload(modelName, rawPayload);
 
-...
+// After
+import { pushPayload } from '<app-name>/utils/push-payload';
 
--this.get('store').pushPayload(modelName, rawPayload);
-+pushPayload(this.get('store'), modelName, rawPayload);
+pushPayload(this.get('store'), modelName, rawPayload);
 ```
 
 ### Deprecations in Ember Data 3.2
@@ -453,13 +458,13 @@ For more details on the changes in Ember CLI 3.1 and detailed upgrade instructio
 
 This is, to put it quite simply, totally awesome. It means that this code:
 
-```js
+```javascript
 assert.equal(this.element.querySelector('.title').textContent.trim(), 'Hello World!');
 ```
 
 becomes this:
 
-```js
+```javascript
 assert.dom('.title').hasText('Hello World!');
 ```
 

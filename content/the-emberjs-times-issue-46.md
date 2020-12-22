@@ -44,14 +44,14 @@ Looking for inspiration? Check out the [#EmberJS2018 hashtag](https://twitter.co
 
 The API allowed the creation of an `App` global like this:
 
-```js
+```javascript
 // app.js
 var App = Ember.Application.create();
 ```
 
 and the further setup of your Ember app based off this global:
 
-```js
+```javascript
 // app.js
 App.Router.map(function() {
   this.route('about');

@@ -45,7 +45,7 @@ In Ember.js 2.16 the recommended way to access framework code in Ember
 applications is via the JavaScript modules API described in
 [RFC #176](https://github.com/emberjs/rfcs/blob/master/text/0176-javascript-module-api.md). For example this basic component definition in 2.15:
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({
@@ -56,7 +56,7 @@ export default Ember.Component.extend({
 
 Would in 2.16 conventions be written as:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { inject as service } from '@ember/service';
 
@@ -102,7 +102,7 @@ To update an application:
   This command will migrate legacy code that imports the `'ember'` package to
   the new modules, updating files in place.
 
-```sh
+```bash
 npm install ember-modules-codemod -g
 cd my-ember-app
 ember-modules-codemod

@@ -132,7 +132,7 @@ This package adds roughly .6 KB when minified and compressed to your application
 in production; however, you can now opt out of shipping this addon in production
 via options in `ember-cli-build.js`
 
-```js
+```javascript
 let app = new EmberApp(defaults, {
   emberData: {
     includeDataAdapterInProduction: false

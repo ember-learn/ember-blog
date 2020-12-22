@@ -45,7 +45,7 @@ While we have been able to use [native ES5 getters](https://blog.emberjs.com/201
 
 Classic syntax:
 
-```js
+```javascript
 import { tracked } from "@glimmer/tracking";
 
 export default Component.extend({
@@ -55,7 +55,7 @@ export default Component.extend({
 
 Octane syntax:
 
-```js
+```javascript
 import { tracked } from '@glimmer/tracking';
 
 class Person {

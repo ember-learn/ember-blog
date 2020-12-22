@@ -48,7 +48,7 @@ See [emberjs/rfcs#294](https://github.com/emberjs/rfcs/blob/master/text/0294-opt
 
 In Ember 3.4 it is now possible to use angle bracket invocation. This means that you're now able to replace the classic invocation syntax:
 
-```hbs
+```handlebars
 {{site-header user=this.user class=(if this.user.isAdmin "admin")}}
 
 {{#super-select selected=this.user.country as |option|}}
@@ -60,7 +60,7 @@ In Ember 3.4 it is now possible to use angle bracket invocation. This means that
 
 with the angle bracket invocation syntax:
 
-```hbs
+```handlebars
 <SiteHeader @user={{this.user}} class={{if this.user.isAdmin "admin"}} />
 
 <SuperSelect @selected={{this.user.country}} as |Option|>
@@ -82,7 +82,7 @@ Ember 3.4 ships with the new Custom Component Manager feature enabled by default
 
 A component manager can be registered in two different ways - declaratively or imperatively. For an implicit registration you may create a new file in the `app/component-managers` directory:
 
-```js
+```javascript
 // ember-basic-component/app/component-managers/basic.js
 
 import EmberObject from '@ember/object';
@@ -97,7 +97,7 @@ When developing an addon and exporting a component manager itself, please follow
 
 For an imperative registration of a component manager, you can create a new initializer as follows:
 
-```js
+```javascript
 // ember-basic-component/app/initializers/register-basic-component-manager.js
 
 const MANAGER = {
@@ -117,7 +117,7 @@ export default {
 
 Next, you can create a new component class depending on this component manager using the `setComponentManager` util as follows:
 
-```js
+```javascript
 // ember-basic-component/app/components/foo-bar.js
 
 import EmberObject from '@ember/object';
@@ -130,7 +130,7 @@ export default setComponentManager('basic', EmberObject.extend({
 
 Finally, users of the `ember-basic-component` addon in this example, will be able to reuse and extend that component just like any other classic component:
 
-```js
+```javascript
 // an-addon-users-app/app/components/foo-bar-custom.js
 
 import FooBar from 'ember-basic-component/components/foo-bar';

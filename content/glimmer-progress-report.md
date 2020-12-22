@@ -230,7 +230,8 @@ install from npm and use in their apps. It wraps an `<img>` element and renders
 a low-resolution image by default, swapping in a high-resolution image when
 clicked.
 
-```HiResImage.jsx
+```javascript
+// HiResImage.jsx
 import { Component } from 'react';
 
 export default class HiResImage extends Component {
@@ -246,14 +247,14 @@ export default class HiResImage extends Component {
 
 Now we can use the component like this:
 
-```HiResImage.jsx
+```html
 <HiResImage src="corgi.jpg" hiResSrc="corgi@2x.jpg" />
 ```
 
 But what happens if I want to set the width of the underlying `img` element via
 its `width` attribute?
 
-```HiResImage.jsx
+```html
 <HiResImage width="100%" src="corgi.jpg" hiResSrc="corgi@2x.jpg" />
 ```
 
@@ -281,7 +282,7 @@ With Glimmer.js, you explicitly disambiguate between properties and attributes v
 the presence of the `@` sigil. In symmetry with HTML, attributes do not have `@`,
 while component arguments (`props` in React parlance) do:
 
-```template.hbs
+```handlebars
 <HiResImage @src="corgi.jpg" @hiResSrc="corgi@2x.jpg" width="100%" />
 ```
 
@@ -298,7 +299,8 @@ attributes from the outside onto an element).
 
 In our case, the Glimmer.js version of the `HiResImage` component might look like this:
 
-```component.js
+```javascript
+// component.js
 import Component, { tracked } from '@glimmer/component';
 
 export default class HiResImage extends Component {
@@ -310,7 +312,8 @@ export default class HiResImage extends Component {
 }
 ```
 
-```template.hbs
+```handlebars
+{{!-- template.hbs --}}
 {{#if hiRes}}
   <img src={{@hiResSrc}} ...attributes>
 {{else}}
@@ -345,7 +348,8 @@ For example, if I had a `Modal` component and I wanted to always render its
 content into a specially-styled element at the root of the body (with `position:
 fixed`, say), I might write it like this:
 
-```component.js
+```javascript
+// component.js
 import Component from '@glimmer/component';
 
 export default class Modal extends Component {
@@ -353,7 +357,8 @@ export default class Modal extends Component {
 }
 ```
 
-```template.hbs
+```handlebars
+{{!-- template.hbs --}}
 {{#in-element modalElement}}
   <h1>Modal</h1>
   {{yield}}
@@ -363,7 +368,8 @@ export default class Modal extends Component {
 Now in my app, I can invoke my `Modal` component as deep into the hierarchy as I
 want, and the content will be rendered into the root modal element:
 
-```template.hbs
+```handlebars
+{{!-- template.hbs --}}
 {{#if hasErrors}}
   <Modal>
     <p>You dun goofed:</p>

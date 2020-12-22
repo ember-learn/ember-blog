@@ -31,7 +31,7 @@ Starting with Ember 3.11, Ember Data will be shipped as a **collection of small 
 
 Say hello to the new import syntax:
 
-```js
+```javascript
 import Model, { attr, belongsTo, hasMany } from '@ember-data/model';
 ```
 

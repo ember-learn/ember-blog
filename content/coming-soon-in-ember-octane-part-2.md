@@ -170,7 +170,7 @@ We can immediately tell now by looking at this template that `@todos` is an argu
 </ul>
 ```
 
-```js
+```javascript
 // todo-list.js
 export default class TodoList extends Component {
   @computed('todos.length')
