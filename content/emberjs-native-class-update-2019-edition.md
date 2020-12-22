@@ -347,7 +347,7 @@ One major part of the original classes RFC was ensuring that native classes that
 
 However, it is also possible to use this feature in other ways, some of which have become antipatterns over time. For instance, `ember-cli-typescript` has recommended that users define their classes like so:
 
-```ts
+```typescript
 // do not copy this. This is an antipattern!
 export default class PersonComponent extends Component.extend({
   fullName: computed('firstName', 'lastName', {

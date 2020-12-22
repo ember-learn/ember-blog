@@ -112,7 +112,7 @@ And last, but certainly not least, the namesake of Glimmer Components - compatib
 <!-- alex ignore just -->
 As mentioned above, Glimmer Components have just two lifecycle hooks - the `constructor` function for setting up the component, and the `willDestroy` function for tearing it down. It also has just 3 properties: `isDestroying`, `isDestroyed`, and `args` (which we'll go over later on).
 
-```ts
+```typescript
 interface GlimmerComponent<T = object> {
   args: T;
 
