@@ -174,7 +174,7 @@ tossed around are:
 Here is a rough example of the kind of layout you might see when
 initializing a new Ember app via the CLI:
 
-```text
+```markup
 app/
   controllers/
   models/
@@ -198,7 +198,7 @@ modules/           // non-MVC stuff
 Right now, many Ember projects have adopted a Rails-style directory
 layout where everything is grouped by type:
 
-```text
+```markup
 app/
   controllers/
     post.js

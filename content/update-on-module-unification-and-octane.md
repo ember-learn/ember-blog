@@ -229,7 +229,7 @@ don't leak into the rest of the app. If we have a component called
 `list-paginator` and it has a child component called `paginator-control`, MU
 allows us to organize them like this:
 
-```text
+```markup
 src
 ├── ui
 │   ├── components
