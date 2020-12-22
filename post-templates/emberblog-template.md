@@ -16,9 +16,9 @@ This release kicks off the VER+0.1 beta cycle for all sub-projects. We encourage
 You can read more about our general release process here:
 
 - [Release Dashboard](http://emberjs.com/releases/)
-- [The Ember Release Cycle](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
-- [The Ember Project](http://emberjs.com/blog/2015/06/16/ember-project-at-2-0.html)
-- [Ember LTS Releases](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html)
+- [The Ember Release Cycle](https://blog.emberjs.com/new-ember-release-process/)
+- [The Ember Project](https://blog.emberjs.com/ember-project-at-2-0/)
+- [Ember LTS Releases](https://blog.emberjs.com/announcing-embers-first-lts/)
 
 ---
 
