@@ -104,7 +104,7 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
     git switch -t upstream/blog/embertimes-165 # or, git checkout blog/embertimes-165
     ```
 
-1. Open the Markdown file for the current blog issue: `content/2020-10-09-the-ember-times-issue-165.md`.
+1. Open the Markdown file for the current blog issue: `content/the-ember-times-issue-165.md`.
 
 1. Add your name, introductory line, and writing to the Markdown file. You'll see useful notes and placeholders in the file.
 
