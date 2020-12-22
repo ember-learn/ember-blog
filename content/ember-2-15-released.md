@@ -205,7 +205,7 @@ not actually required. To update an application:
   This command will migrate legacy code that imports the `'ember'` package to
   the new modules, updating files in place.
 
-```sh
+```bash
 npm install ember-modules-codemod -g
 cd my-ember-app
 ember-modules-codemod

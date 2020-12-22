@@ -70,7 +70,7 @@ If your CSS (or JavaScript) relies on this `<div>`, you can explicitly add it to
 
 You opt in to this change by
 
-```sh
+```bash
 ember feature:disable application-template-wrapper
 ```
 
@@ -85,7 +85,7 @@ Alternatively, you could migrate away from using jQuery in your application, but
 
 You opt in to this change by:
 
-```sh
+```bash
 ember feature:disable jquery-integration
 ```
 
@@ -103,7 +103,7 @@ Alternatively, you could eliminate any references to the implicit component by r
 
 When done, you can opt in to the new behavior:
 
-```sh
+```bash
 ember feature:enable template-only-glimmer-components
 ```
 

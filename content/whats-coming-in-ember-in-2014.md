@@ -93,7 +93,7 @@ development and is subject to change.
 
 ### Initializing an App
 
-```sh
+```bash
 ember new my-app
 ```
 
@@ -102,13 +102,13 @@ an app, a router, etc.
 
 ### Starting the Development Server
 
-```sh
+```bash
 ember server
 ```
 
 ### Running Tests
 
-```sh
+```bash
 ember test
 ```
 
@@ -119,7 +119,7 @@ output easier to work with.
 You can also host the QUnit test harness for manual testing by
 running:
 
-```sh
+```bash
 ember test:server
 ```
 
@@ -128,7 +128,7 @@ ember test:server
 The Ember CLI supports bower natively. Just use the commands
 you're used to:
 
-```sh
+```bash
 bower install moment
 ```
 

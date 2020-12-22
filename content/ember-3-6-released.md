@@ -72,7 +72,7 @@ There are a few notable changes and features for native classes:
 
 A polyfill for this behavior has been built which backports this behavior to both Ember 3.4 and 3.5. You can see it [here](https://github.com/pzuraq/ember-native-class-polyfill), or install it using ember-cli:
 
-```sh
+```bash
 ember install ember-native-class-polyfill
 ```
 

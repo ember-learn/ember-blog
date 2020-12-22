@@ -180,7 +180,7 @@ This can be useful to address relative URLs which are being inserted via templat
 
 Using our new release channel setup, you can try this change by upgrading your Ember CLI app to the canary channel:
 
-```sh
+```bash
 npm install --save-dev ember-cli/ember-cli#canary
 ```
 

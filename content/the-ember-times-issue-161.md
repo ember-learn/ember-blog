@@ -31,7 +31,7 @@ The [ember-component-template-colocation-migrator](https://github.com/ember-code
 When running the codemod, instead of:
 
 
-```sh
+```bash
 your-addon/
   addon/
     components/
@@ -43,7 +43,7 @@ your-addon/
 
 You will get:
 
-```sh
+```bash
 your-addon/
   addon/
     components/

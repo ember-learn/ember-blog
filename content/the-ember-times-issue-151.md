@@ -75,7 +75,7 @@ If you use model fragments, please try it out in your app and let [Rich Glazerma
 
 The blog post goes through adding a custom authenticator (called `custom-oauth2` in our example), using the `ember g` command to tell [ember-simple-auth](https://ember-simple-auth.com/) how to connect and authenticate with our authentication server.
 
-```sh
+```bash
 ember g authenticator custom-oauth2
 ```
 
