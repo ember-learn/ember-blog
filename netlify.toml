@@ -29,3 +29,9 @@
 [context.branch-deploy]
 
 [context.branch-deploy.environment]
+
+[[redirects]]
+from = "/tags/*"
+to = "/tag/:splat"
+status = 301
+force = false
