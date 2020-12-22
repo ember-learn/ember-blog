@@ -52,7 +52,7 @@ Ember's object system has long used `set` and `get` to access properties. These 
 
 Starting in Ember 3.1 (and described in [RFC281](https://github.com/emberjs/rfcs/blob/master/text/0281-es5-getters.md)) you are now able to read the value of a computed property using a native ES5 getter. For example, this component which uses computed properties:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -71,7 +71,7 @@ export default Component.extend({
 
 Can be re-written using ES5 getters:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -331,7 +331,7 @@ Ember Data 3.1 contains bug fixes and build improvements for Ember Data.
 
 This is needed because `Map` requires instantiation with `new`, and by default Babel transpilation will do `superConstructor.apply(this, arguments)` which throws an error with native `Map`. The desired code (if we lived in an "only native class" world) would be:
 
-  ```js
+  ```javascript
   export default class MapWithDeprecations extends Map {
     constructor(options) {
       super();
@@ -373,7 +373,7 @@ During the Ember Data 3.2 beta cycle, the Ember Data team is planning on releasi
 
 If you rely on the `ds-pushpayload-return` feature flag, you can use the following pattern to manually serialize the API response and push the record into the store.
 
-```js
+```javascript
 export function pushPayload(store, modelName, rawPayload) {
    let ModelClass = store.modelFor(modelName);
    let serializer = store.serializerFor(modelName);
@@ -453,13 +453,13 @@ For more details on the changes in Ember CLI 3.1 and detailed upgrade instructio
 
 This is, to put it quite simply, totally awesome. It means that this code:
 
-```js
+```javascript
 assert.equal(this.element.querySelector('.title').textContent.trim(), 'Hello World!');
 ```
 
 becomes this:
 
-```js
+```javascript
 assert.dom('.title').hasText('Hello World!');
 ```
 

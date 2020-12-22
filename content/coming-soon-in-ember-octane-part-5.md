@@ -46,7 +46,7 @@ Near the end of the Ember@v1 cycle, the community started noticing some pain poi
 
 2. **Wrapper Element**: Components had an implicit wrapper element that always wrapped the template, and required creating a class to customize:
 
-```js
+```javascript
 import Component from '@ember/component';
 
 export default Component.extend({
@@ -59,7 +59,7 @@ export default Component.extend({
 This meant that the template was not the only source-of-truth for the final output of the component - users had to read the component class to know if it had customized the template in some way. It also meant users would oftentimes have to create a class just to customize this element, in what would otherwise be a Template-Only component.
 3. **Arguments**: Arguments to a component were assigned directly as properties on the component's instance. This would often lead to conflicts between arguments and properties or methods on a component, and make it difficult to tell the two apart:
 
-```js
+```javascript
 import Component from '@ember/component';
 
 export default Component.extend({
@@ -134,7 +134,7 @@ Reducing the number of lifecycle hooks makes designing a component that much sim
 <!-- alex ignore just -->
 In Glimmer Components, what you see in the template is what you get in the output. There is no wrapping element around the template - the template represents the "outer edge" of the component, instead of being just the "inside". This means that you don't have to use APIs like `tagName`, `classNames`, or `attributeBindings` to customize your template, ever. This component:
 
-```js
+```javascript
 // app/templates/hello-button.js
 import Component from '@ember/component';
 
@@ -207,7 +207,7 @@ This system is much more flexible overall, and means we can write easier to unde
 
 Arguments in Glimmer Components are placed on the `args` property, instead of directly on component properties. This makes it much more clear what values are _arguments_ that are passed to the component, and which are properties that the component uses itself internally. Revisiting our example from the introduction, this:
 
-```js
+```javascript
 import Component from '@ember/component';
 
 export default Component.extend({
@@ -223,7 +223,7 @@ export default Component.extend({
 
 Becomes this:
 
-```js
+```javascript
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 
@@ -265,7 +265,7 @@ Glimmer Components being cross-compatible means that Ember users can share code 
 
 Like always, I'd like to end on a high note. Here's an example from the popular [ember-toggle](https://github.com/knownasilya/ember-toggle) addon, which provides a nice toggle component, the `x-toggle-label` component:
 
-```js
+```javascript
 import { readOnly } from '@ember/object/computed';
 import Component from '@ember/component';
 import { computed } from '@ember/object';
@@ -310,7 +310,7 @@ export default Component.extend({
 
 As you can see, the component code is really heavy, and most of that is customization of the element. Converting it over to a Glimmer component, along with all the other improvements from Octane, we have:
 
-```js
+```javascript
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 

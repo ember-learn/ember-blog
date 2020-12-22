@@ -92,7 +92,7 @@ I'm going to give a brief overview of the structure of a Broccoli plugin and the
 
 Here is a basic example of a plugin:
 
-```js
+```javascript
 const Plugin = require('broccoli-plugin');
 
 class BroccoliStaticSiteJson extends Plugin {
@@ -118,7 +118,7 @@ module.exports = BroccoliStaticSiteJson;
 
 This isn't exactly the _most_ basic example of a plugin as it has some of the business logic and API of `broccoli-static-site-json` exposed. It is not 100% obvious by the above example, but it is telling us that if we wanted to use this plugin we would do something like this:
 
-```js
+```javascript
 const jsonTree = new StaticSiteJson('input', {
   contentFolder: 'output-jsons',
 })
@@ -132,7 +132,7 @@ When this is used in Ember CLI or any other Broccoli pipeline, the `build()` fun
 
 Let's show the whole `build()` function and then break it down piece by piece. Note: I've removed some things that aren't necessary for the explanation of this process like a few optional defensive programming steps, to make this easier to follow.
 
-```js
+```javascript
 build() {
   // build content folder if it doesn't exist
   if (!existsSync(join(this.outputPath, this.options.contentFolder))) {
@@ -178,7 +178,7 @@ This may seem a bit scary, but don't worry we will break it down, and hopefully 
 
 The first piece is just a bit of housecleaning. We want to make sure the output folder exists before we continue and if it doesn't we need to create it:
 
-```js
+```javascript
 // build content folder if it doesn't exist
 if (!existsSync(join(this.outputPath, this.options.contentFolder))) {
   mkdirSync(join(this.outputPath, this.options.contentFolder));
@@ -187,7 +187,7 @@ if (!existsSync(join(this.outputPath, this.options.contentFolder))) {
 
 One thing that you will notice right off the bat is that we are using functions like `exitsSync()`, `mkdirSync()` and `join()` which are all native NodeJS functions. You can see where they are coming from if you look at the top of the `index.js` file to see the require statements:
 
-```js
+```javascript
 const { extname, join, dirname } = require('path');
 const {
   readFileSync,
@@ -203,7 +203,7 @@ You can read more about these functions on the official NodeJS documentation for
 
 Before I started building `broccoli-static-site-json`, [Ricardo Mendes AKA @locks](https://github.com/locks) and [Jared Galanis](https://github.com/jaredgalanis) had begun the process of building the Markdown sources directories that would allow us to manage different versions of the Ember Guides more effectively. One of the key aspects of this structure was that it included a [`pages.yml`](https://github.com/ember-learn/guides-source/blob/master/guides/v2.15.0/pages.yml) file that specified the Table of Contents (ToC) for any particular version of the Guides. What we needed to do as part of this process was to parse this YAML file and output a JSON:API based file in the output directory. Here is the code for that:
 
-```js
+```javascript
 // build pages file
 if (existsSync(join(this.options.folder, 'pages.yml'))) {
   let pages = yaml.safeLoad(readFileSync(join(this.options.folder, 'pages.yml'), 'utf8'));
@@ -214,7 +214,7 @@ if (existsSync(join(this.options.folder, 'pages.yml'))) {
 
 This snippet first checks to see if the input folder contains a `pages.yml` file and if it does it loads it using [js-yaml](https://www.npmjs.com/package/js-yaml). After it loads the data, it writes a _serialized_ version of the file to the output folder, and the serialization is done using [jsonapi-serializer](https://github.com/SeyZ/jsonapi-serializer) with the following serializer definition:
 
-```js
+```javascript
 const TableOfContentsSerializer = new Serializer('page', {
   id: 'url',
   attributes: [
@@ -229,7 +229,7 @@ const TableOfContentsSerializer = new Serializer('page', {
 
 Next up is the main event, converting a nested structure of Markdown files into a nested structure of JSON:API documents. This one will be simpler to follow if we take it in bite-sized chunks. Let's start with getting the Markdown files:
 
-```js
+```javascript
 const paths = walkSync(this.inputPaths);
 
 const mdFiles = paths.filter(path => extname(path) === '.md');
@@ -239,7 +239,7 @@ This code uses [`walkSync`](https://github.com/joliss/node-walk-sync) to list al
 
 Next it's time to load each of those files into an array:
 
-```js
+```javascript
 const fileData = mdFiles.map(path => ({
   path,
   content: readFileSync(join(this.options.folder, path)),
@@ -251,7 +251,7 @@ const fileData = mdFiles.map(path => ({
 
 We used [`Array.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) twice to convert a list of file _names_ into a data structure that contains everything that we need. The first map converts the file names into an array of objects that looks something like this:
 
-```js
+```javascript
 [{
   path: '/getting-started/index.md',
   content: `---
@@ -271,7 +271,7 @@ As you can see each object remembers the path to the file that was created and h
 
 After the second `map()` function the `fileData` array looks like this:
 
-```js
+```javascript
 [{
   path: '/getting-started/index.md',
   title: 'Getting Started',
@@ -285,7 +285,7 @@ After the second `map()` function the `fileData` array looks like this:
 
 This leaves us finally ready to serialize into JSON:API. Next we need to loop over the `fileData` array and write our JSON files out to disk:
 
-```js
+```javascript
 fileData.forEach((file) => {
   const directory = dirname(join(this.outputPath, this.options.contentFolder, file.path));
   if (!existsSync(directory)) {
@@ -302,7 +302,7 @@ The first thing we do in this function is to make sure that the folder we want t
 
 Next we serialize the `file` object using another `jsonapi-serializer` and write the serialized document to disk. Here is the serializer definition for the `ContentSerializer`, which is only very slightly more complicated than the one for the pages in the ToC:
 
-```js
+```javascript
 const ContentSerializer = new Serializer('content', {
   id: 'path',
   attributes: [

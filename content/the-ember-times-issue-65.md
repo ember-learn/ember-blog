@@ -25,7 +25,7 @@ In this week's edition we're sharing news about a fresh 🥒  RFC to deprecate `
 
 Remember `.property()`?
 
-```js
+```javascript
 fullName: computed(function() {
   // ...
 }).property('firstName', 'lastName'),
@@ -34,7 +34,7 @@ fullName: computed(function() {
 This **modifier** for **computed properties** in Ember has been around for quite a while.
 And even though computed properties have already allowed to pass in dependent keys as an argument directly, e.g....
 
-```js
+```javascript
 fullName: computed('firstName', 'lastName', function() {
   // ...
 }),

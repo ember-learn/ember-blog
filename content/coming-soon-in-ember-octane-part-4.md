@@ -50,7 +50,7 @@ There are a few reasons modifiers end up being a better solution for DOM manipul
 <!-- alex ignore easily -->
 1. **They allow targeting specific elements more easily.** Lifecycle hooks only allow you to work with the component's _root_ element, if it has one. If you want to target any other element in the component, it can be a lot of work. For instance, to do the same thing as our original example with the `on` modifier, we would have to use `querySelector` in our `didInsertElement` hook to find the `button` element:
 
-```js
+```javascript
 didInsertElement() {
   this.element
     .querySelector('button')
@@ -68,7 +68,7 @@ This type of code can get even trickier in larger components, where you may have
 {{/if}}
 ```
 
-```js
+```javascript
 didInsertElement() {
   this.element
     .querySelector('button')
@@ -101,7 +101,7 @@ This cleans things up considerably. We don't have to duplicate logic in the comp
 
 2. **They allow related code to live in the same place.** The above example is even more complicated in actuality, because it's missing its _teardown_ logic. If we aren't careful, we could end up leaking event listeners, or in an inconsistent state when the `if` statement toggles. Here's what the _full_ logic for our component should look like:
 
-```js
+```javascript
 class HelloWorld extends Component {
   addTooltipListener() {
     // save the element so we can remove the listener later
@@ -197,7 +197,7 @@ User defined modifiers haven't been finalized just yet. Instead, Ember has creat
 
 These modifiers would be more fully featured, with an instance and state, and the ability to control each lifecycle event:
 
-```js
+```javascript
 export default class DarkMode extends Modifier {
   @service userSettings;
 
@@ -230,7 +230,7 @@ This API gives users the ability to have fine grained control over how they upda
 
 These modifiers would use a functional API, similar to `useLayoutEffect` in React, where they would consist of a single function that returns a cleanup function (if needed):
 
-```js
+```javascript
 function darkMode(userSettings, element, [darkModeClass]) {
   if (userSettings.darkModeEnabled) {
     element.classList.add(darkModeClass);
@@ -254,7 +254,7 @@ export default modifier(
 
 The cleanup function would run _every_ time the modifier updates, so in some cases this won't be performant enough. In many cases though, like this one, the increased ergonomics of it will be worth the extra cost. This version would also clean up very nicely in the future if decorators are made available to functions and function parameters:
 
-```js
+```javascript
 @modifier
 function darkMode(
   @service userSettings,
@@ -300,7 +300,7 @@ We'll also be using _theoretical_ user APIs this time around, because the detail
 
 Starting out, this is what our component looks like:
 
-```js
+```javascript
 import Component from '@ember/component';
 
 import { run } from '@ember/runloop';
@@ -391,7 +391,7 @@ export default Component.extend(TransitionMixin, {
 
 You'll notice that I've omitted some of the implementation details of the component so we can focus on the parts we're going to replace with modifiers. The same functionality can be refactored with two different functional modifiers - `if` and `hammer`:
 
-```js
+```javascript
 // /addon/modifiers/if.js
 function _if(
   element,
@@ -405,7 +405,7 @@ function _if(
 export default modifier(_if);
 ```
 
-```js
+```javascript
 // /addon/modifiers/hammer.js
 const HAMMER_TYPE = {
   swipe: Hammer.Swipe,
@@ -446,7 +446,7 @@ export default modifier(hammer);
 
 The `if` modifier conditionally applies another modifier based on the the value passed to it, and the `hammer` modifier is a general purpose wrapper around the Hammer library. We can now use these modifiers without writing _any_ component code:
 
-```js
+```javascript
 import Component from '@ember/component';
 import template from '../templates/components/paper-toast-inner';
 import TransitionMixin from 'ember-css-transitions/mixins/transition-mixin';
@@ -504,7 +504,7 @@ export default class PaperToastInner extends Component.extend(TransitionMixin) {
 <!-- alex ignore easy -->
 As you can see, this is a fair amount less code overall. It's also code that is _very_ easy to reuse now, since all of the implementation concerns for Hammer have been extracted. We could also pre-apply some of the modifiers options directly, for instance if the horizontal-swipe settings are used commonly in the app:
 
-```js
+```javascript
 // /addon/modifiers/horizontal-swipe.js
 import hammer from './hammer';
 

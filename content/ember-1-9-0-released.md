@@ -312,7 +312,7 @@ The following deprecations are scheduled for release with Ember.js 1.10:
 - Setting the `childViews` property on a view definition will be deprecated in
   1.10. For example:
 
-```js
+```javascript
 var ChildB = Ember.View.extend();
 
 export default Ember.ContainerView.extend({
@@ -325,7 +325,7 @@ This use of `childViews` is inconsistent with other uses throughout Ember, and
 as a result is difficult to implement with good performance. Explicitly creating
 views upon initialization is preferred:
 
-```js
+```javascript
 var ChildB = Ember.View.extend();
 
 export default Ember.ContainerView.extend({

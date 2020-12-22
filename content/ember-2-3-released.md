@@ -35,7 +35,7 @@ method accepts several configuration options.
 For example, you might use this API to manually boot an Ember application
 and then instruct it to visit a URL:
 
-```js
+```javascript
 import MyApp from 'my-app';
 
 $(function() {
@@ -164,7 +164,7 @@ object is deprecated in favor of a public owner API.**
 For example, this component will dynamically lookup an audio service based
 on the `audioType` of its model:
 
-```js
+```javascript
 import Ember from 'ember';
 const {
   Component,

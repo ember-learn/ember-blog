@@ -35,7 +35,7 @@ By default, the object that you return from a route's `model` hook is
 set as the `model` property on the corresponding controller. So, for
 example, if you have this route:
 
-```js
+```javascript
 App.PhotosRoute = Ember.Route.extend({
   model: function() {
     return App.Photo.find();
@@ -51,7 +51,7 @@ What if you need to set up additional controllers, beyond the primary
 controller associated with that route? In that case, you can implement
 the `setupController` hook:
 
-```js
+```javascript
 App.PhotosRoute = Ember.Route.extend({
   model: function() {
     return App.Photo.find();
@@ -74,7 +74,7 @@ If your route implements the `setupController` hook *and* you want to
 preserve default behavior, **make sure you call `_super()` from within
 the hook**:
 
-```js
+```javascript
 App.PhotosRoute = Ember.Route.extend({
   model: function() {
     return App.Photo.find();

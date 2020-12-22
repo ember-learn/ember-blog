@@ -124,7 +124,7 @@ export default Component.extend({
 
 In Ember Octane, extend from a new base class: `@glimmer/component` and use native class syntax.
 
-```js
+```javascript
 import Component from '@glimmer/component';
 
 export default class extends Component {

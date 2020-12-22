@@ -83,7 +83,7 @@ It also discusses custom data such as `serverTokenEndpoint`, `clientId`, and `se
 
 Now we can use [ember-simple-auth](https://ember-simple-auth.com/) as a session management tool to handle querying for the current state of the user through the `session` Ember Service it provides.
 
-```js
+```javascript
 this.session.authenticate(
   'authenticator:custom-oauth2', 'password', this.username, this.password
 );

@@ -52,7 +52,7 @@ classes. This is easier than manually setting up the listeners in
 
 Instead of:
 
-```js
+```javascript
 App.Person = DS.Model.extend({
   init: function() {
     this.on('didLoad', this, function() {
@@ -68,7 +68,7 @@ App.Person = DS.Model.extend({
 
 You can just do this:
 
-```js
+```javascript
 App.Person = DS.Model.extend({
   finishedLoading: function() {
     // do stuff
@@ -87,7 +87,7 @@ create a computed property that returns an Array of their ages.
 
 Currently, the easiest way to do that is:
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   childAges: function() {
     return this.get('children').mapBy('age');
@@ -102,7 +102,7 @@ chained or doing expensive work, it can add up.
 
 Enter Array Computed properties:
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   childAges: Ember.computed.mapBy('children', 'age')
 });
@@ -110,7 +110,7 @@ App.Person = Ember.Object.extend({
 
 You can also chain these Array computed properties together:
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   childAges: Ember.computed.mapBy('children', 'age'),
   maxChildAge: Ember.computed.max('childAges')
@@ -197,7 +197,7 @@ you can no longer rely on the side effect of `set`. Instead, specify
 that the observer should also run after `init` by using
 `.on('init')`.
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   init: function() {
     this.set('salutation', "Mr/Ms");
@@ -241,7 +241,7 @@ In the past, we were loose with our requirements for quoting strings in Handleba
 Currently, there is an inconsistency between properties set when passing
 a hash to `create` and setting those same properties in `init`.
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   firstNameDidChange: function() {
     // this observer does not fire
@@ -257,7 +257,7 @@ In this case, because the properties were set by passing a hash to
 But let's look at what happens in RC7 when the same initialization is
 done via the `init` method:
 
-```js
+```javascript
 // WARNING: OLD BEHAVIOR
 
 App.Person = Ember.Object.extend({
@@ -283,7 +283,7 @@ after construction, which is why `create` behaves the way it does.
 Also, because the only way to define initial properties that have arrays
 or objects as values is in `init`, there is a further inconsistency:
 
-```js
+```javascript
 // WARNING: OLD BEHAVIOR
 
 App.Person = Ember.Object.extend({
@@ -308,7 +308,7 @@ when initialization is done by using `.on('init')`. This will also be
 more resiliant to refactoring, and not rely on a side effect of an
 `init`-time `set`.
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   firstNameDidChange: function() {
     // some side effect that happens when first name changes
@@ -327,7 +327,7 @@ property.  Imagine we are trying to model [Schrödinger's famous
 cat](http://en.wikipedia.org/wiki/Schr%C3%B6dinger's_cat) using an Ember.js
 object.
 
-```js
+```javascript
 App.Cat = Ember.Object.extend({
   isDead: function() {
     return Math.rand() > 0.5;
@@ -344,7 +344,7 @@ perhaps neither.
 In reality, whether or not our cat has shuffled off this mortal coil is only
 determined the first time we ask for it:
 
-```js
+```javascript
 cat.get('isDead');
 // true
 // …or false, half the time
@@ -361,7 +361,7 @@ dependent keys changes?
 In previous versions of Ember.js, the answer was "yes." For example,
 given this class:
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   observerCount: 0,
 
@@ -377,7 +377,7 @@ App.Person = Ember.Object.extend({
 
 Changing any of the dependent keys would trigger the observer:
 
-```js
+```javascript
 // WARNING: OLD BEHAVIOR DO NOT RELY ON THIS
 
 var person = App.Person.create({
@@ -406,7 +406,7 @@ For example, imagine we are building a model to represent a blog post
 that lazily loads the post's comments if they are used (in a template,
 for instance).
 
-```js
+```javascript
 App.BlogPost = Ember.Object.extend({
   comments: function() {
     var comments = [];
@@ -438,7 +438,7 @@ in a template:
 However, now we want to add a computed property that selects the first
 comment from the array of loaded comments:
 
-```js
+```javascript
 App.BlogPost = Ember.Object.extend({
   comments: function() {
     var comments = [];
@@ -501,7 +501,7 @@ straightforward: just `get()` the computed property in your class's
 For example, to update the observer example above, we can retain the
 pre-RC8 behavior by "precomputing" the `fullName` property:
 
-```js
+```javascript
 App.Person = Ember.Object.extend({
   init: function() {
     this.get('fullName');

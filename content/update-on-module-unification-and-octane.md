@@ -393,7 +393,7 @@ You can even imagine an (again, **very hypothetical**) single-file component
 format that places the template right within the component's class. Here, a
 unified imports solution feels especially natural:
 
-```js
+```javascript
 // src/ui/components/blog-post.gbs
 
 import Component from '@glimmer/component';

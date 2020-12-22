@@ -57,7 +57,7 @@ is, the value is set with a property. For example:
 <input disabled={{isDisabled}}>
 ```
 
-```js
+```javascript
 // disabled is a property of input elements, so...
 input.disabled = true;
 ```
@@ -69,7 +69,7 @@ attribute:
 <div class={{color}}>
 ```
 
-```js
+```javascript
 // class is not a property of div elements, do...
 div.setAttribute('class', 'red');
 ```

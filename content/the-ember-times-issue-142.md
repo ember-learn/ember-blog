@@ -42,14 +42,14 @@ If you are interested in **helping** with modernising the Ember API Docs - be it
 
 In this example, `sortBy` will return the string argument passed or will default to the string `’id’`:
 
-```js
+```javascript
 @arg(string)
 sortBy = 'id';
 ```
 
 Instead of writing something like this:
 
-```js
+```javascript
 get sortBy() {
   const { sortBy='id' } = this.args;
   assert('`sortBy` must be a string', typeof sortBy === 'string');
@@ -59,7 +59,7 @@ get sortBy() {
 
 Furthermore `ember-arg-types` leverages the [facebook/prop-types](https://github.com/facebook/prop-types) library by importing type validators for runtime type checking. As an example, the `name` argument below is required to be a string.
 
-```js
+```javascript
 import Component from '@glimmer/component';
 import { arg } from 'ember-arg-types';
 import { string } from 'prop-types';

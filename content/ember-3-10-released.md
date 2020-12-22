@@ -124,7 +124,7 @@ The `RouteInfo` Metadata feature adds a `buildRouteInfoMetadata` method to the [
 
 If, for example, you wanted to track a user's details together with a tracking event for visiting the profile page, you could leverage the `RouteInfo`'s metadata as follows:
 
-```js
+```javascript
 // app/route/profile.js
 import Route from '@ember/routing/route';
 import { inject } from '@ember/service';
@@ -144,7 +144,7 @@ export default Route.extend({
 });
 ```
 
-```js
+```javascript
 // app/services/analytics.js
 import Service, { inject } from '@ember/service';
 

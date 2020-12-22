@@ -92,7 +92,7 @@ For a long time, Ember has provided two systems for applications to perform data
 
 The second system uses the `Ember.Binding` namespace or any property with the postfix of `Binding` on an object. For example:
 
-```js
+```javascript
 export default Ember.Component.extend({
   wowBinding: 'MyApp.wowObject',
   thingContainer: {},
@@ -140,7 +140,7 @@ Ember Data deprecated access to `window.DS` early in 2.x. Instead, accessing the
 
 To access Ember Data in applications we suggest importing the `DS` namespace. For example:
 
-```js
+```javascript
 import DS from 'ember-data';
 ```
 

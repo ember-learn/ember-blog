@@ -29,7 +29,7 @@ On to tracked properties!
 
 For most Ember users, typing out lists of dependencies should be second nature. Ember has never had the equivalent of React's `shouldComponentUpdate` or `React.memo`, instead relying on `set` (roughly equivalent to `setState`), and explicit property dependencies for computed properties:
 
-```js
+```javascript
 // components/clock.js
 export default Component.extend({
   init() {
@@ -77,7 +77,7 @@ Tracked properties are Ember's next iteration on this system. They address all o
 
 For example, here's the `ClockComponent` class from earlier refactored with tracked properties:
 
-```js
+```javascript
 // components/clock.js
 export default class ClockComponent extends Component {
   @tracked date;
@@ -105,7 +105,7 @@ But the benefits go _beyond_ just removing all of that boilerplate.
 
 We now have an _explicit_ list of all trackable values on a class. This means that we can very quickly look at a class and see where the "important" values are, in a single declarative list:
 
-```js
+```javascript
 // components/person.js
 export default class PersonComponent extends Component {
   @tracked firstName;
@@ -125,7 +125,7 @@ export default class PersonComponent extends Component {
 
 Before, it was not uncommon to have these values be _implicit_. Somewhere in the code flow, something would use `set`, and the value would suddenly exist:
 
-```js
+```javascript
 // components/person.js
 export default Component.extend({
   // This computed property _implies_ that `firstName` and `lastName`
@@ -153,7 +153,7 @@ It was often convention to assign default values to these fields so that they co
 
 We also have _control_ over what values are trackable. With `set`, it's possible to "reach" into objects and observe any values you want. This makes the previous problem that much worse!
 
-```js
+```javascript
 // utils/person.js
 
 // This might be confusing at first - it looks like an empty class.
@@ -162,7 +162,7 @@ We also have _control_ over what values are trackable. With `set`, it's possible
 export default EmberObject.extend({});
 ```
 
-```js
+```javascript
 // components/person.js
 export default Component.extend({
   init() {
@@ -190,7 +190,7 @@ Because of this effect, _any_ external class can essentially expand a class's pu
 
 By comparison, for this to work at _all_ with tracked properties, `firstName` and `lastName` _must_ be annotated:
 
-```js
+```javascript
 // utils/person.js
 
 // `firstName` and `lastName` are the only watchable values on
@@ -202,7 +202,7 @@ export default class Person {
 }
 ```
 
-```js
+```javascript
 // components/person.js
 export default class PersonComponent extends Component {
   person = new Person();
@@ -237,7 +237,7 @@ You may be looking at these examples and thinking, "This is great in _theory_, b
 
 Luckily, tracked properties are _fully_ backwards compatible with computed properties and the `get`/`set` system, and they also work in classic class syntax. You can access a tracked property from a computed, and it will be picked up without having to add the dependency:
 
-```js
+```javascript
 // components/person.js
 export default Component.extend({
   firstName: tracked(),
@@ -270,7 +270,7 @@ Alright, let's once again take the new feature and put it to use! This time I'm 
 
 > Note: I've also edited down some of the classes to show only the parts relevant to tracked properties, and this is _not_ a full conversion as there may be more tracked values used in other contexts which I did not add.
 
-```js
+```javascript
 // ember-cli-flash/addon/flash/object.js
 import Evented from '@ember/object/evented';
 import EmberObject, { set, get } from '@ember/object';
@@ -285,7 +285,7 @@ export default EmberObject.extend(Evented, {
 });
 ```
 
-```js
+```javascript
 // ember-cli-flash/addon/components/flash-message.js
 import { htmlSafe, classify } from '@ember/string';
 import Component from '@ember/component';
@@ -398,7 +398,7 @@ export default Component.extend({
 
 You can see from this example the implicit state problem I mentioned earlier. We can see from the `FlashMessage` component that it definitely _expects_ the flash object to have quite a few values on it, but we aren't seeing them here. Let's update it to tracked properties and see how that changes things:
 
-```js
+```javascript
 // ember-cli-flash/addon/flash/object.js
 import Evented from '@ember/object/evented';
 import EmberObject, { set, get } from '@ember/object';
@@ -418,7 +418,7 @@ export default class FlashObject extends EmberObject.extend(Evented) {
 }
 ```
 
-```js
+```javascript
 // ember-cli-flash/addon/components/flash-message.js
 import { htmlSafe, classify } from '@ember/string';
 import Component from '@ember/component';

@@ -64,7 +64,7 @@ In Classic Ember, if you wanted to define a piece of DOM behavior that you could
 
 ### Before (Classic Ember): Mixins
 
-```js
+```javascript
 import Mixin from '@ember/object/mixin';
 
 export default Mixin.create({
@@ -82,7 +82,7 @@ export default Mixin.create({
 
 And then you would use the `Mixin` in a component like this:
 
-```js
+```javascript
 import Component from '@ember/component';
 
 export default Component.extend(Tabs, {
@@ -94,7 +94,7 @@ export default Component.extend(Tabs, {
 
 This is what our `Tabs` mixin looks like when reimplemented as a modifier.
 
-```js
+```javascript
 import { modifier } from 'ember-modifier';
 
 export default modifier(element => {
@@ -122,7 +122,7 @@ A new blog post from [Chris Krycho (@chriskrycho)](https://github.com/chriskrych
 
 The new blog goes through treating that `AsyncData` as ordinary data, but making sure to handle all states (loading, loaded, error). By integrating with tracked properties, the `AsyncData` class reacts to its modeled states and internals, handling this transition for us. This enables us to access the data returned from the load helper as normal data and react based on its state.
 
-```js
+```javascript
 import Component from '@glimmer/component';
 import { load } from 'my-app/helpers/load';
 import { fetchSomeData } from 'my-app/data/fetchers';

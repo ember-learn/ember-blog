@@ -69,7 +69,7 @@ into two phases:
 An example of this API would be to transition to another route from a
 component:
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({
@@ -165,7 +165,7 @@ In Ember.js 2.16 the recommended way to access framework code in Ember
 applications will be via the JavaScript modules API described in
 [RFC #176](https://github.com/emberjs/rfcs/blob/master/text/0176-javascript-module-api.md). For example this basic component definition in 2.15.0:
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({
@@ -176,7 +176,7 @@ export default Ember.Component.extend({
 
 Would in 2.16 conventions be written as:
 
-```js
+```javascript
 import { inject as service } from '@ember/service';
 import Component from '@ember/component';
 

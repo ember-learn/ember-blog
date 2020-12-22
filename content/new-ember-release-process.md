@@ -53,7 +53,7 @@ will be wrapped in a feature flag. This will make it very easy for the core
 team and the community to see which features are in development and how far
 along they are.
 
-```js
+```javascript
 if (Ember.FEATURES.isEnabled('link-to')) {
   // implementation here
 }
@@ -84,7 +84,7 @@ your own peril.
 On the latest or canary builds, you can enable any experimental feature
 using a flag:
 
-```js
+```javascript
 Ember.FEATURES['link-to'] = true;
 Ember.FEATURES['router-facelift'] = true;
 ```

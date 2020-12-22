@@ -161,7 +161,7 @@ This feature introduces an `extend` method on errors which allows
 users to create their own custom errors that extend from
 `DS.AdapterError`.
 
-```js
+```javascript
 const MyCustomError = DS.AdapterError.extend({ message: "My custom error." });
 ```
 
@@ -277,7 +277,7 @@ and [babel-preset-env](https://github.com/babel/babel-preset-env) can properly u
 
 The default `config/targets.js` looks like:
 
-```js
+```javascript
 module.exports = {
   browsers: [
     'ie 9',

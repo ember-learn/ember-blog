@@ -39,7 +39,7 @@ log a deprecated warning to encourage you to use the new apis.
 
 To access attributes you should now use the `attr` function.
 
-```js
+```javascript
 // Ember Data 1.0.0-beta.14.1
 post.get('title');
 // Ember Data 1.0.0-beta.15
@@ -48,7 +48,7 @@ postSnapshot.attr('title');
 
 To access a belongsTo relationship you should use `.belongsTo()` method.
 
-```js
+```javascript
 // Ember Data 1.0.0-beta.14.1
 post.get('author');
 // Ember Data 1.0.0-beta.15
@@ -57,7 +57,7 @@ postSnapshot.belongsTo('author');
 
 To access a hasMany relationship you should use `.hasMany()` method.
 
-```js
+```javascript
 // Ember Data 1.0.0-beta.14.1
 post.get('comments');
 // Ember Data 1.0.0-beta.15
@@ -96,7 +96,7 @@ field name when making an ajax request.
 It is possible to disable this behavior, by setting `sortQueryParams`
 to be false on your adapter.
 
-```js
+```javascript
 App.ApplicationAdapter = DS.RESTAdapter.extend({
   namespace: 'api/v1',
   sortQueryParams: false

@@ -29,13 +29,13 @@ performance.
 Thanks to [@HeroicEric](https://github.com/HeroicEric) for
 implementing this feature.
 
-```js
+```javascript
 // GET /articles/1?include=comments
 
 var article = this.store.findRecord('article', 1, { include: 'comments' });
 ```
 
-```js
+```javascript
 // GET /articles?include=comments
 
 var article = this.store.findAll('article', { include: 'comments' });
@@ -67,7 +67,7 @@ export default Model.extend({
 
 The references API now allows the possibility to interact with the relationships:
 
-```js
+```javascript
 var post = store.peekRecord('post', 1);
 
 // check if the author is already loaded, without triggering a request
@@ -154,7 +154,7 @@ serializing has many relationships using the `DS.EmbeddedRecordsMixin` that  wil
 
 For instance, if a user has many pets, which is a polymorphic relationship, the generated payload would be:
 
-```js
+```javascript
 {
   "user": {
     "id": "1"

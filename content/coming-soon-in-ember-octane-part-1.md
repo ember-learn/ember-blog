@@ -66,7 +66,7 @@ Enough background, let's move onto some demonstrations!
 
 Classes have existed since the very earliest versions of Ember, when it was still named SproutCore 2. Back in 2011, ES6 did not yet exist, and a true native class syntax wasn't even a remote possibility. Many frameworks ended up creating their own class-like wrappers around JavaScript's prototypical inheritance, Ember included. It looked very much like it looks today:
 
-```js
+```javascript
 // A person class defined in Ember v1
 var Person = Ember.Object.extend({
   firstName: 'Steve',
@@ -111,7 +111,7 @@ There are some noticeable differences here, but most of these are unrelated to c
 
 Let's take a look at what this looks like when converted to native classes:
 
-```js
+```javascript
 import EmberObject, { computed } from '@ember/object';
 
 class Person extends EmberObject {
@@ -135,7 +135,7 @@ let phoenix = Person.create({ firstName: 'Jean', lastName: 'Gray' });
 
 Now that's much cleaner! We have far fewer opening and closing brackets, and we're using the native `get fullName()` syntax to define the getter meaning we don't have to remember that funky `computed()` syntax. Computed properties are decorators now, and assigned values are class fields. In fact, we can go one step further - we don't even need to extend from `EmberObject` anymore:
 
-```js
+```javascript
 import { computed, set } from '@ember/object';
 
 class Person {
@@ -166,7 +166,7 @@ We can completely drop the weight of using Ember's legacy class system and rely 
 <!-- alex ignore just-->
 Another thing you may have noticed in the above examples is that we're using the exact same import paths for everything, including `computed`. At first this may seem like a breaking change! How can `computed` be a modern class decorator _and_ be used in classic class syntax, without breaking anything? Shouldn't it be imported from a different location or something? In fact, it doesn't need to be at all. `computed` is fully compatible with _both_ classic classes and native classes, along with all existing computed property macros in Ember and the Ember addon ecosystem! This is perfectly valid syntax that will Just Work™️:
 
-```js
+```javascript
 import EmberObject, { computed, set } from '@ember/object';
 
 const ClassicClassPerson = EmberObject.extend({
@@ -217,7 +217,7 @@ The reason this is possible is, behind the scenes, `computed` has _always_ been 
 
 You may be familiar with the proposed decorator syntax for JavaScript, but if not the basic gist is that you can "decorate" class fields and methods with additional behavior:
 
-```js
+```javascript
 class Person {
   constructor(firstName, lastName) {
     this.firstName = firstName;
@@ -279,7 +279,7 @@ These cover all of the basic functionality provided by the current classic class
 <!-- alex ignore bigger-->
 Alright, with that in mind, let's take on a bigger, more complete example! This is a component from [emberobserver.com](https://emberobserver.com/), one of the larger components I could find in the application ([source here](https://github.com/emberobserver/client/blob/343e7f39b035897e4db0b4be45ca3a1cd238eacc/app/components/addon-source-usages.js)):
 
-```js
+```javascript
 import { inject as service } from '@ember/service';
 import Component from '@ember/component';
 import { computed } from '@ember/object';
@@ -348,7 +348,7 @@ function filterByFilePath(usages, filterTerm) {
 
 And here is the same component, fully converted to native classes using Ember's built-in decorators and the and [ember-concurrency-decorators](https://github.com/machty/ember-concurrency-decorators) library:
 
-```js
+```javascript
 import { inject as service } from '@ember/service';
 import Component from '@ember/component';
 import { action, computed } from '@ember/object';
@@ -434,7 +434,7 @@ In addition, tooling like IDEs (WebStorm, VSCode), typecheckers (Flow, TypeScrip
 
 Native class fields also add _private_ fields, which allow us to have truly private instance state for the first time (without using a `WeakMap`, which is highly unergonomic):
 
-```js
+```javascript
 class Person {
   #firstName;
   #lastName;

@@ -24,7 +24,7 @@ list.
 {{foo-bar class="from-template"}}
 ```
 
-```js
+```javascript
 App.FooBarComponent = Ember.Component.extend({
   classNameBindings: [':from-class'],
   attributeBindings: ['class']

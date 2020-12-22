@@ -69,7 +69,7 @@ their application instead of accessing modules top level `DS` namespace.
 
 The following module paths are considered to be public API and will be supported until at least Ember Data 3.0:
 
-```js
+```javascript
 // DS.Model
 import Model from 'ember-data/model';
 
@@ -177,13 +177,13 @@ sideloaded relationships. Thanks to
 [@HeroicEric](https://github.com/HeroicEric) for implementing this
 feature.
 
-```js
+```javascript
 // GET /articles/1?include=comments
 
 var article = this.store.findRecord('article', 1, { include: 'comments' });
 ```
 
-```js
+```javascript
 // GET /articles?include=comments
 
 var article = this.store.findAll('article', { include: 'comments' });
@@ -215,7 +215,7 @@ export default Model.extend({
 
 The references API now allows the possibility to interact with the relationships:
 
-```js
+```javascript
 var post = store.peekRecord('post', 1);
 
 // check if the author is already loaded, without triggering a request

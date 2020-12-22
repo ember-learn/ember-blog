@@ -44,7 +44,7 @@ Starting in Ember 3.1 (and described in [RFC
 are now able to read the value of a computed property using a native ES5 getter.
 For example, this component which uses computed properties:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 
@@ -63,7 +63,7 @@ export default Component.extend({
 
 Can be re-written using ES5 getters:
 
-```js
+```javascript
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 

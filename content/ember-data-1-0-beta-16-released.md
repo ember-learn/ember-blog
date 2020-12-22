@@ -62,7 +62,7 @@ Snapshots are backwards-compatible with records (with deprecation warnings) and
 it should be pretty straight forward to update current code to the public
 Snapshot API:
 
-```js
+```javascript
 post.get('id')           => postSnapshot.id
 post.get('title')        => postSnapshot.attr('title')
 post.get('author')       => postSnapshot.belongsTo('author')
@@ -85,7 +85,7 @@ The store has now been registered as a service. So when you are using
 Ember Data 1.0.0-beta.16 with Ember 1.10+ you can now inject the store
 into any Ember object managed by the container.
 
-```js
+```javascript
 App.TweetComposerComponent = Ember.Component.extend({
   store: Ember.inject.service(),
   newTweet: function() {
@@ -103,7 +103,7 @@ work implementing this feature!
 relationships. This allows Ember Data to reference Mixins instead of
 Model classes as the type argument for relationships.
 
-```js
+```javascript
 App.Comment = DS.Model.extend({
   owner: belongsTo('commentable', { polymorphic: true })
 });

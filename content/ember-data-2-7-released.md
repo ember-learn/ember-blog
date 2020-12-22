@@ -98,7 +98,7 @@ export default DS.Model.extend({
 
 This feature exposes a `links` object on a `RecordArray`. This can be used to load additional links when  present in the response JSON-API document.
 
-```js
+```javascript
 store.query('post', { isRecent: true }).then((posts) => {
   posts.get('links.next');
 });

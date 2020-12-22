@@ -27,7 +27,7 @@ serializing has many relationships using the `DS.EmbeddedRecordsMixin` that  wil
 
 For instance, if a user has many pets, which is a polymorphic relationship, the generated payload would be:
 
-```js
+```javascript
 {
   "user": {
     "id": "1"
@@ -54,7 +54,7 @@ implementing this feature.
 
 Allow `null`/`undefined` values for boolean attributes via `attr('boolean', { allowNull: true })`
 
-```js
+```javascript
 // app/models/user.js
 import Model from 'ember-data/model';
 import attr from 'ember-data/attr';
@@ -128,7 +128,7 @@ implementing this feature.
 
 This feature exposes a `links` object on a `RecordArray`. This can be used to load additional links when  present in the response JSON-API document.
 
-```js
+```javascript
 store.query('post', { isRecent: true }).then((posts) => {
   posts.get('links.next');
 });

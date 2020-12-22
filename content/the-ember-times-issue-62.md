@@ -86,7 +86,7 @@ Services also get some **appreciation** in this RFC. The suggestion is that all 
 
 An example:
 
-```js
+```javascript
 export default Ember.Component.extend({
 
   // inject src/services/geo.js

@@ -93,7 +93,7 @@ export default DS.RESTSerializer.extend({
 
 This would produce the following payload:
 
-```json
+```javascripton
 {
   "message": {
     "id": "1",

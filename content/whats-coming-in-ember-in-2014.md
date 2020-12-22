@@ -145,7 +145,7 @@ automatically, by shimming AMD, CommonJS and browser global packages:
 Even if a library was shipped as AMD, you would be able to use it as
 though it was an ES6 module:
 
-```js
+```javascript
 import md from "markdown";
 ```
 

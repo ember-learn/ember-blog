@@ -30,7 +30,7 @@ details.
 
 [@pangratz](https://github.com/pangratz) [added public paths](https://github.com/emberjs/data/pull/4125) to make it easy to import the `DS.EmbeddedRecordsMixin` and `DS.Serializer` modules.
 
-```js
+```javascript
 // DS.EmbeddedRecordsMixin
 import EmbeddedRecordsMixin from 'ember-data/serializers/embedded-records-mixin';
 
@@ -61,13 +61,13 @@ sideload in a response. Thanks to
 [@HeroicEric](https://github.com/HeroicEric) for implementing this
 feature.
 
-```js
+```javascript
 // GET /articles/1?include=comments
 
 var article = this.store.findRecord('article', 1, { include: 'comments' });
 ```
 
-```js
+```javascript
 // GET /articles?include=comments
 
 var article = this.store.findAll('article', { include: 'comments' });
@@ -99,7 +99,7 @@ export default Model.extend({
 
 The references API now allows the possibility to interact with the relationships:
 
-```js
+```javascript
 var post = store.peekRecord('post', 1);
 
 // check if the author is already loaded, without triggering a request

@@ -180,7 +180,7 @@ pattern enabled by `component.rerender()` and `component.set()`.
 
 In Ember 1.12, you might write something like this:
 
-```js
+```javascript
 Component.extend({
   didInsertElement() {
     this.$().button({
@@ -211,7 +211,7 @@ changes coming from the *outside*.
 Starting with Ember 1.13, you will be able to express the same concept
 more clearly:
 
-```js
+```javascript
 Component.extend({
   didInsertElement() {
     this.$().button({
@@ -277,7 +277,7 @@ You might write such a component this way in Ember 1.12:
 {{my-counter count=activatedCount}}
 ```
 
-```js
+```javascript
 // my-counter.js
 export default Component.extend({
   click: function() {

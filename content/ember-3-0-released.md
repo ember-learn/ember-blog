@@ -142,7 +142,7 @@ automate most of the change.
 Ember's computed property system requires the use of the `.get(` method to read
 the value of a computed property. For example:
 
-```js
+```javascript
 emberObject.get('someComputedProperty'); // returns the value
 ```
 
@@ -150,7 +150,7 @@ In some cases, application code may have
 incorrectly been relying on the presence of a value for the property itself,
 for example:
 
-```js
+```javascript
 emberObject.someComputedProperty; // an instance of ComputedPropertyDescriptor
 ```
 

@@ -340,7 +340,7 @@ Because of the focus on landing migration paths for 1.x codebases in 1.13,
 The `each-in` helper allows the iteration of object properties. For example,
 given this value for `items`:
 
-```js
+```javascript
 let items = {
   "Item 1": 1234,
   "Item 2": 3456
@@ -366,7 +366,7 @@ feature, and to several others for helping push it to completion.
 The `get` helper provides a bound way to fetch a single property from an object.
 For example given these items:
 
-```js
+```javascript
 let items = {
   "Item 1": 1234,
   "Item 2": 3456

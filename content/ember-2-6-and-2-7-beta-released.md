@@ -56,7 +56,7 @@ comparable method exists for `uniq`.
 
 Ember 2.7 adds `uniqBy` as an computed property macro. For example:
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({
@@ -79,7 +79,7 @@ export default Ember.Component.extend({
 
 `uniqBy` is also added as an array method. For example:
 
-```js
+```javascript
 import Ember from 'ember';
 
 export default Ember.Component.extend({

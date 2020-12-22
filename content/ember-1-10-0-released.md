@@ -252,7 +252,7 @@ deprecations and demonstrates how to update to a new API.
 - Setting the `childViews` property on a view definition is deprecated in
   1.10. For example:
 
-```js
+```javascript
 var ChildB = Ember.View.extend();
 
 export default Ember.ContainerView.extend({
@@ -265,7 +265,7 @@ This use of `childViews` is inconsistent with other uses throughout Ember, and
 as a result is difficult to implement with good performance. Explicitly creating
 views upon initialization is preferred:
 
-```js
+```javascript
 var ChildB = Ember.View.extend();
 
 export default Ember.ContainerView.extend({
@@ -347,7 +347,7 @@ is, the value is set with a property. For example:
 <input disabled={{isDisabled}}>
 ```
 
-```js
+```javascript
 // disabled is a property of input elements, so...
 input.disabled = true;
 ```
@@ -359,7 +359,7 @@ attribute:
 <div class={{color}}>
 ```
 
-```js
+```javascript
 // class is not a property of div elements, do...
 div.setAttribute('class', 'red');
 ```
