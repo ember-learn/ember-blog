@@ -44,7 +44,7 @@ dasherized string:
 var record = store.push('post', {id: 1});
 ```
 
-To help you upgrade through this change easily, we've written an [Ember
+To help you upgrade through this change, we've written an [Ember
 Watson command](https://github.com/abuiles/ember-watson#ember-watsonconvert-ember-data-model-lookups).
 You can use this command-line tool in both Ember-CLI projects and
 "globals mode" style projects.

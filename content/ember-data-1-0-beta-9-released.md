@@ -94,12 +94,8 @@ See the section below on "Coalescing Find Requests" for more information.
 
 #### Deserializing Relationships
 
-Thanks to Igor Terzic, Brendan Mcloughlin, and Bill Heaton, the
-`DS.EmbeddedRecordsMixin` was extracted out of `DS.ActiveModelSerializer` in
-Ember Data v1.0.0-beta.8 so that users of `JSONSerializer`, `RESTSerializer`, and
-`ActiveModelSerializer` could easily serialize and deserialize relationships. To
-use the code in your app, you can include the `EmbeddedRecordsMixin` into your
-serializer:
+<!-- alex ignore easy -->
+Thanks to Igor Terzic, Brendan Mcloughlin, and Bill Heaton, the `DS.EmbeddedRecordsMixin` was extracted out of `DS.ActiveModelSerializer` in Ember Data v1.0.0-beta.8 so that users of `JSONSerializer`, `RESTSerializer`, and `ActiveModelSerializer` could easily serialize and deserialize relationships. To use the code in your app, you can include the `EmbeddedRecordsMixin` into your serializer:
 
 ```javascript
 App.PostSerializer = DS.RESTSerializer.extend(DS.EmbeddedRecordsMixin);

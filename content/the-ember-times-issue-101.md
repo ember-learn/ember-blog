@@ -63,6 +63,7 @@ He shares three concrete ideas to make growing Ember a reality:
 ), namely [Embroider](https://github.com/embroider-build/embroider), and his second blog was around [policy changes](https://www.rwjblue.com/2019/05/31/ember-js-2019-roadmap-wishes-policy-changes/
 ) on how “we can iteratively move forward into the future that can actually happen.”
 
+<!-- alex ignore clearly -->
 > Having a great packaging system is critical to Ember's success. This wish list is not long, but very important to land and 'get right'. [...] We really need to adopt Embroider!
 >
 > The Ember project as a whole needs to get much better about closing the loop on these dead ends, and communicate more clearly with the community so that they can avoid known future pitfalls when developing their ambitious applications.
@@ -90,6 +91,7 @@ He shares three concrete ideas to make growing Ember a reality:
 
 [@jenweber](https://github.com/jenweber) encourages [focusing on documentation, learning, and teaching accessibility through code examples](https://jenweber.netlify.com/the-ember-experience/).
 
+<!-- alex ignore easy -->
 > The ideal Ember Experience is that things work as they should out-of-the-box, following modern web development patterns. It's easy to get ramped up using real-world code examples that teach the recommended practices used by experienced Ember developers, from day one.
 
 ---

@@ -50,7 +50,7 @@ The easiest way to work through deprecations is the **Ember Inspector**. Thanks 
 
 Previous iterations of Ember's rendering engine **relied** on granular observation for efficiency. When a piece of dynamic content was rendered, Ember registered observers, updating the content when the value changed.
 
-While this was reasonably efficient in cases where the developer could easily use `set` (and the array equivalents) to mutate values, it had two related issues:
+While this was reasonably efficient in cases where the developer could use `set` (and the array equivalents) to mutate values, it had two related issues:
 
 - This forced developers to represent all changes in terms of granular
   observers. In many cases this could be extremely awkward. This was

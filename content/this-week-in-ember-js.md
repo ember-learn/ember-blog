@@ -28,6 +28,7 @@ chunks of the UI, and didn't have to make any changes in the rest of the
 app. It's exactly this type of encapsulation that makes Ember a win, and
 I'm glad to see it happening in real life.
 
+<!-- alex ignore chairman-chairwoman -->
 I gave a talk on Ember Data, and discussed some of the new APIs we'll be
 working on over the next few months. Yehuda gave a talk about the router
 proposal. The pork belly buns from the Chairman Bao
@@ -98,6 +99,7 @@ To that end, I wrote a "Core Concepts" guide that I hope you will find
 helpful. It's not up yet (I'm still working on a branch of the website)
 but you can [view the Markdown on GitHub](https://github.com/emberjs/website/blob/doc-refactor/source/guides/getting-started/core-concepts.md).
 
+<!-- alex ignore easy -->
 We want to make Ember.js as easy for new developers to pick up as
 possible, so your feedback about our documentation, as always, is
 extremely important. Please review and let me know what you think!

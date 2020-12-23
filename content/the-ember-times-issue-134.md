@@ -33,6 +33,7 @@ from the new way of importing with the help of the [ember-data packages polyfill
 
 The polyfill ensures that any instances of the Packages API import statements are transformed back to the legacy "DS" EmberData import syntax. You can opt-in to using the polyfill in your app, by upgrading your ember-cli-babel dependency to [version 7.14](https://github.com/babel/ember-cli-babel/releases/tag/v7.14.0) or higher for this [new feature](https://github.com/babel/ember-cli-babel/pull/318).
 
+<!-- alex ignore dad-mom -->
 Wanna learn more about how to use the new packages import syntax for ember-data? Be sure to give the [Ember 3.11 release post](https://blog.emberjs.com/2019/07/15/ember-3-11-released.html) another read
 for practical code examples on how to use it and pop by the [#ember-data channel on the Ember Discord](https://discordapp.com/invite/emberjs) for more questions and discussions.
 

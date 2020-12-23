@@ -44,6 +44,7 @@ There is even a [codemod](https://github.com/DockYard/ember-i18n-to-intl-migrato
 
 Inspired by the [experimental addon ember-router-helpers](https://github.com/rwjblue/ember-router-helpers) a [**new RFC (Request for Comments)**](https://github.com/emberjs/rfcs/pull/391) illustrates a possible, new way to **route** through your Ember apps.
 
+<!-- alex ignore easy -->
 Several **new template helpers and element modifiers** for routing are proposed: This includes a `transition-to` element modifier for easy route-to-route transitions [surpassing some of the drawbacks](https://github.com/emberjs/rfcs/blob/new-router-helpers/text/0000-router-helpers.md#motivation) of the functionally similar `link-to` helper. But also the design of and the motivation behind new, useful helpers like `root-url`, `is-active` and `is-loading` among others are explained in great detail in the RFC itself.
 
 Curious? Be sure to give the [proposal a read and make your thoughts known in the comments below!](https://github.com/emberjs/rfcs/pull/391)

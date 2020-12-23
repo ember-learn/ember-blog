@@ -32,11 +32,8 @@ core team member and let them know!
 
 #### Ember Data
 
-Ember data is now less of an ORM and more of a pluggable framework for assembling
-your own data communication layer for Ember.js applications (with some nice defaults for
-people's whose APIs follow common patterns). However, the interface – especially on the
-"normal form" of return values – isn't well documented so people aren't able to easily jump in,
-try it, and offer feedback.
+<!-- alex ignore easy -->
+Ember data is now less of an ORM and more of a pluggable framework for assembling your own data communication layer for Ember.js applications (with some nice defaults for people's whose APIs follow common patterns). However, the interface – especially on the "normal form" of return values – isn't well documented so people aren't able to easily jump in, try it, and offer feedback.
 
 Resolutions:
   

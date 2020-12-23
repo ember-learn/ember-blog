@@ -37,7 +37,7 @@ community should migrate to the 2.x series as soon as possible.
 It is important to note that Ember 1.13 will come with deprecation
 warnings for everything that we will break in Ember 2.0. As a result,
 if you are running Ember 1.13 without any deprecation warnings, you
-should be able to easily upgrade to Ember 2.0. And because of the
+should be able to upgrade to Ember 2.0. And because of the
 Semantic Versioning guarantees in the Ember 2.x series, it should be
 relatively simple to upgrade from Ember 1.13 to the most recent version
 of Ember 2.x when you are able to drop IE8 support.
@@ -90,7 +90,7 @@ unsupported version of JavaScript, or no JavaScript at all.
 
 It is worth noting that FastBoot, in the medium term, will have good
 support for read-only content sites. However, while it is possible to
-support forms pretty easily, forms without JavaScript (using cookie
+support forms, forms without JavaScript (using cookie
 authentication) introduce the prospect of CSRF attacks. A good solution
 for FastBoot forms that is also secure is probably a longer-term
 project. We would encourage the community to experiment with a secure

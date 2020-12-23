@@ -25,6 +25,7 @@ Hello, pleased to eat you, Emberistas! -Dracula 🦇
 
 Trick or treat! The fifth annual Hacktoberfest is here! Support open source and earn a limited edition T-shirt by making **five** pull requests this month to any public repos...why not all Ember ones?!
 
+<!-- alex ignore dad-mom -->
 Looking for something to work on? Pop into the [#hacktoberfest](https://discordapp.com/channels/480462759797063690/496453502298750988) channel on the [Ember Community Discord](https://discordapp.com/invite/zT3asNS) and ask away with questions! Here are some issues to get you started:
 
 * [ember-learn/cli-guides-source](https://github.com/ember-learn/cli-guides-source/issues)

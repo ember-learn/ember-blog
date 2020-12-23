@@ -40,7 +40,7 @@ to do the same thing.
 ### Item Controller
 
 If you want every item in a `{{#each}}` to be wrapped in an `ObjectController`,
-you can do so easily:
+you can do so:
 
 ```handlebars
 {{#each posts itemController="post"}}

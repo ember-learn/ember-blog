@@ -40,6 +40,7 @@ state." And because the URL is just a serialization of your
 application's state, you just tell us how to build the URL and we'll
 keep it up-to-date as your users move throughout the application.
 
+<!-- alex ignore easy -->
 We're still making tweaks to the router API to make it as easy as
 possible for new users to pick up, but we think that modeling your apps
 as discrete states is the way all apps will be built in the future. It's
@@ -81,9 +82,7 @@ view, you can use the `view` keyword, i.e. `{{view.myProp}}`.
 * `Ember.Object#canInvoke`, `tryInvoke` - simplifies checking to see if
   a method can be invoked on the object.
 * jQuery 1.6 is no longer supported. You must use 1.7 or greater.
-* Handlebars is no longer bundled with Ember. This allows you to more
-  easily control your version as well as allowing for the runtime only
-  version to be used.
+* Handlebars is no longer bundled with Ember. This allows you to better control your version as well as allowing for the runtime only version to be used.
 * ViewStates are now deprecated.
 * Binding transforms have been removed in favor of computed properties.
 * Async state transitions have been removed in favor of transitional

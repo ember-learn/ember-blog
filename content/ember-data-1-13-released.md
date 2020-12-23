@@ -62,7 +62,7 @@ Ember Data 1.13 is backwards-compatible with previous beta versions, and there a
 breaking changes between Ember Data 1.13 and Ember Data beta.19. Ember Data follows Ember.js's lead in not removing any features in this release. The upgrade path should be familiar to Ember.js users: upgrade, remove deprecations, upgrade again.
 
 **You should update your codebase to Ember Data 1.13, remove all the deprecations
-and then move to Ember Data 2.0. It is critically important to do this process step by step**, as it will give you easy to follow deprecation warnings.
+and then move to Ember Data 2.0. It is critically important to do this process step by step** so that you won't miss deprecation warnings.
 Otherwise, your app might fail in hard-to-debug ways.
 
 If you have customized your serializer, you should upgrade to Ember Data 1.13,
@@ -264,6 +264,7 @@ store.fetchAll(type, id) -> store.findAll(type, { reload: true });
 
 ### New Adapter Hooks for Better Caching
 
+<!-- alex ignore easy -->
 While `store.findRecord` and `store.findAll` now have sensible caching defaults
 and are easy to override in specific places in the app, oftentimes your app and
 adapter layer have specific knowledge related to caching. For example, your backend
@@ -615,7 +616,7 @@ error object.
 This refactor also allows us to abstract away the jQuery `jqXHR` object, which
 was tying Ember Data's Rest Adapter too closely with jQuery's implementation of ajax. New hooks take three arguments instead of `jqXHR`: status code, a hash of
 response headers and parsed payload. It makes them agnostic about the
-underlying implementation and will allow us to easily use methods like
+underlying implementation and will allow us to use methods like
 [fetch](https://developers.google.com/web/updates/2015/03/introduction-to-fetch?hl=en)
 in the future.
 

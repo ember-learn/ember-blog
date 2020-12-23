@@ -16,12 +16,14 @@ it can be to get started with Ember. Yesterday, one of the [most active
 comment threads on Hacker
 News](https://news.ycombinator.com/item?id=5406857) was largely about just that.
 
+<!-- alex ignore easy -->
 We hear you loud and clear. Ember.js is not easy to get started with, and we take that very seriously. We are all working nights and weekends to make the framework as approachable as humanly possible.
 
 One of the Hacker News commenters, kanja, nailed it. In response to another commenter who felt like the negative reaction was strong:
 
 > It's incredibly out of proportion - but people really want to use ember (because it promises all these great things!) and they're frustrated by the docs (because they're not really good for first time users) so this is kind of a flash point.
 
+<!-- alex ignore easy -->
 Absolutely right. Ember promises—and, we think, delivers—tremendous value. But ramping up to that point is not easy, and we received this feedback repeatedly and take it very seriously.
 
 There was another common sentiment that we'd like to address:

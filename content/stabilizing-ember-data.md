@@ -76,7 +76,7 @@ which we will slowly iterate towards our long-term, ambitious goal.
 ## The Basic Adapter
 
 The Ember Data adapter layer, which is responsible for finding and
-saving records, is currently designed to make it easy to build reusable
+saving records, is currently designed to help with building reusable
 adapters, like the ones people have written for
 [Parse](https://github.com/clintjhill/ember-parse-adapter) or
 [CouchDB](https://github.com/pangratz/ember-couchdb-adapter). It is not

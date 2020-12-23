@@ -65,6 +65,7 @@ If you can contribute to everyone's learning today, we ask that you help **updat
 
 ## [Ember RealWorld App is Feature Complete 🌠](https://github.com/gothinkster/ember-realworld)
 
+<!-- alex ignore dad-mom -->
 [RealWorld](https://github.com/gothinkster/realworld), "the mother of all demo apps", is an open source initiative to showcase a full stack app built using any frontend or backend framework/library. It provides a spec for both the API and the frontend. The idea is to show how a "real world" app can be built using different frameworks/libraries.
 
 The Ember RealWorld implementation is finally complete! It was started over two years ago by [Alon Bukai (@Alonski)](https://github.com/Alonski) and after all this time is finally feature complete. A large number of contributors helped out along the way: [Jonathan Goldman (@jonnii)](https://github.com/jonnii), [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia), [Laura Kajpust (@delusioninabox)](https://github.com/delusioninabox), [Pat O'Callaghan (@patocallaghan)](https://github.com/patocallaghan), [Garrick Cheung (@GCheung55)](https://github.com/GCheung55), [Chris Manson (@mansona)](https://github.com/mansona), and [John (@johpol)](https://github.com/johpol).

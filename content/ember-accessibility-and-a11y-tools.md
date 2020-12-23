@@ -18,6 +18,7 @@ _This article was written as of Ember.js version 3.1. The same approach applies 
 
 ## Using ember-a11y-testing
 
+<!-- alex ignore easy -->
 We don't have to learn a thousand rules to start building accessible apps. There are amazing community contributors who are working hard to make it as easy as possible to follow web best practices, and they created a set of tools referred to as [ember-a11y](https://github.com/ember-a11y).
 
 [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing) is an addon that reveals actionable improvements to your app's accessibility and guides us through making the changes.
@@ -63,6 +64,7 @@ test('accessibility check', async function (assert) {
 });
 ```
 
+<!-- alex ignore cracks -->
 It's important to incorporate the check into the test suite, because in larger apps, it's nearly impossible to know how adjusting the value of a CSS color variable will affect every single UI state. It's better to have programmatic checks to prevent things from slipping through the cracks. Combined with Continuous Integration (CI) pipelines, we can make accessibility a requirement to merge, without us needing to personally implore coworkers to follow the standards.
 
 ### Run the test suite

@@ -49,8 +49,8 @@ You can already test this by [getting the beta](https://github.com/ember-cli/emb
 A new Request for Comments (RFC) is aiming to improve the flexibility of another previously
 RFC'ed feature that is interesting for Ember addon authors who are passionate about `Components`.
 The [Component Manager™ feature](https://emberjs.github.io/rfcs/0213-custom-components.html) which had
-already had been accepted by the Ember community in the [spring of this year](https://github.com/emberjs/rfcs/pull/213#issuecomment-374981569) defines a **new low-level primitive** that would allow developers to create flexible and efficient **component base classes**
-which can easily be extended from. This can for example be leveraged by UI addons that expose
+already had been accepted by the Ember community in the [spring of this year](https://github.com/emberjs/rfcs/pull/213#issuecomment-374981569) defines a **new low-level primitive** that would allow developers to create flexible, efficient, and extensible **component base classes**.
+This can for example be leveraged by UI addons that expose
 components to their parent apps and which want to allow end users to extend from these base components themselves.
 
 And today the saga of the Manager of Custom Components continues:

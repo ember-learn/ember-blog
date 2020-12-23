@@ -72,7 +72,7 @@ with the angle bracket invocation syntax:
 
 **It's important to note that the classic invocation syntax is not deprecated in favour of this new invocation.** You're still free to use the classic invocation syntax; but users should be aware that angle bracket invocation does have a few advantages.
 
-The main advantage of the angle bracket invocation syntax is clarity. Because component invocation is often encapsulating important pieces of UI, a dedicated syntax would help visually distinguish them from other handlebars constructs, such as control flow and dynamic values. This can be seen in the example shown above – the angle bracket syntax made it very easy to see the component invocations as well as the `{{#each}}` loop, especially with syntax highlight.
+The main advantage of the angle bracket invocation syntax is clarity. Because component invocation is often encapsulating important pieces of UI, a dedicated syntax would help visually distinguish them from other handlebars constructs, such as control flow and dynamic values. This can be seen in the example shown above. The angle bracket syntax helps you see the component invocations and the `{{#each}}` loop, especially with syntax highlight.
 
 Guides will be updated to reflect the new syntax in the coming weeks.
 

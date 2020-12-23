@@ -47,6 +47,7 @@ middle of working on, though do note that all new APIs in Canary are
 subject to change. To see what features are available to be enabled, see
 [FEATURES.md](https://github.com/emberjs/ember.js/blob/master/FEATURES.md).
 
+<!-- alex ignore easy -->
 We're excited about kicking off the new release process because we think
 that it will allow us to deliver a higher-quality product more
 frequently. We also believe that using feature flags in our Canary

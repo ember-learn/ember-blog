@@ -71,7 +71,7 @@ the [new-router](https://github.com/emberjs/ember.js/tree/new-router) branch.
 
 Check out a quick rundown of the changes in [this gist](https://gist.github.com/3981133).
 
-We believe that this is the final step to make Ember an easily accessible
+We believe that this is the final step to make Ember an accessible
 framework for new developers.
 
 ### View default context

@@ -50,7 +50,7 @@ dealing with relationships.
 
 ## A Single Source of Truth
 
-Modeling relationships between records is easily the most difficult feature
+Modeling relationships between records is the most difficult feature
 we've added to Ember Data. Finding a common solution is complicated because of
 how much JSON servers differ from one another. Things get even more interesting
 when you introduce streaming changes over WebSockets.
@@ -153,6 +153,7 @@ note: if you have not read Isaac's [excellent essay on async
 APIs](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony),
 please do).
 
+<!-- alex ignore easy -->
 We strongly consider how easy or difficult refactorings are when designing
 APIs, and in this case, we made a mistake. Making small changes to your server
 API should not require widespread changes to the application that consumes it.
@@ -215,7 +216,7 @@ Once the issues we've outlined above are complete, we'll be releasing a 1.0 of E
 
 For example, if Ember.js 1.7 is the current stable version at the time of Ember Data's first stable release, it will be Ember Data 1.7.
 
-As with Ember.js, we intend Ember Data to follow the same [Chrome-inspired six-week release process](/blog/2013/09/06/new-ember-release-process.html). That release process has paid dividends in terms of predictability and momentum, and the feedback has been overwhelmingly positive. Importantly, having separate stable, beta and canary releases also allows us to clearly [communicate which features are stable](http://emberjs.com/builds/#/beta) and ready for production, and which are still being worked on.
+As with Ember.js, we intend Ember Data to follow the same [Chrome-inspired six-week release process](/blog/2013/09/06/new-ember-release-process.html). That release process has paid dividends in terms of predictability and momentum, and the feedback has been overwhelmingly positive. Importantly, having separate stable, beta and canary releases also allows us to [communicate which features are stable](http://emberjs.com/builds/#/beta) and ready for production, and which are still being worked on.
 
 ## A Framework for Data
 

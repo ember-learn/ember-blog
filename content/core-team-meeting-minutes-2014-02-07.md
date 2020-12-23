@@ -108,6 +108,7 @@ Process:
     * This should include at least the following entries:
         * Security Audit
         * Core Team Sign-off
+    <!-- alex ignore easy -->
     * Should be given a special tag (to make it easy to find later)
     * Should be assigned to the original feature contributor
     * This can serve as the proper place to ask for changes/fixes to the feature

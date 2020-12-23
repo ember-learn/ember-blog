@@ -65,7 +65,7 @@ leave your comments for it.
 
 If you're making use of `this.get('store').filter` in your app or addon,
 check out the documentation of the <i>ember-data-filter</i> addon and
-follow the dedicated [guide on how to refactor this easily](https://github.com/ember-data/ember-data-filter#recommended-refactor-guide).
+follow the dedicated [guide on how to refactor](https://github.com/ember-data/ember-data-filter#recommended-refactor-guide).
 
 In other Ember Data news, another proposal focuses on removing usage of the `Ember.Evented` mixin
 in Ember Data specifically.

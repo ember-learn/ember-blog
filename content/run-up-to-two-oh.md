@@ -202,12 +202,14 @@ One problem with this code is that the observer can fire at any time,
 and it executes both when the value is changed from inside the component
 and when it is changed from the outside.
 
+<!-- alex ignore easy -->
 As we'll see in the next section, conflating changes coming from the
 inside with changes coming from the outside can make it difficult to
-reason about the data flow, and makes it very easy for code in your
+reason about the data flow, and makes it easy for code in your
 component to accidentally trigger observers that were intended for
 changes coming from the *outside*.
 
+<!-- alex ignore clearly -->
 Starting with Ember 1.13, you will be able to express the same concept
 more clearly:
 
@@ -379,7 +381,7 @@ component can provide whatever function it wants.
 
 Another nice touch, `action` works seamlessly with `mut`. This means
 that from the component's perspective, it's just calling a callback, but
-the code that calls the component can easily pass in a callback that
+the code that calls the component can pass in a callback that
 updates one of its values.
 
 ```handlebars

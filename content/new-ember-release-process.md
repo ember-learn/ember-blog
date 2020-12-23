@@ -49,7 +49,7 @@ out all of the mechanics for the process going forward.
 ### Feature Flags
 
 Starting today, all new features on master that introduce new public APIs
-will be wrapped in a feature flag. This will make it very easy for the core
+will be wrapped in a feature flag. This will help the core
 team and the community to see which features are in development and how far
 along they are.
 
