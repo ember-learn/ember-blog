@@ -24,7 +24,7 @@ Solving the whole problem involves not just the view layer, but the entire lifec
 
 We are building this feature into Ember.js, **and we're calling it FastBoot**.
 
-FastBoot will allow you to deliver the HTML and CSS for a page in your Ember app right away, then allow the JavaScript to take over once it has finished loading. Your Ember app will behave no differently than server-rendered apps when it comes to search engines, mobile users, cURL, or users with JavaScript disabled.
+FastBoot will allow you to deliver the HTML and CSS for a page in your Ember app right away, then allow the JavaScript to take over once it has finished loading. Your Ember app will behave no differently than server-rendered apps when it comes to search engines, mobile users, cURL, or users who turned off JavaScript.
 
 For everyone else, you'll still have the responsiveness and interactivity users have come to expect from Ember apps.
 
@@ -68,6 +68,7 @@ This also works fine in tests, with the exception that we are doing more work th
 
 When running on the server, however, we realized that a single Ember application needs to be able to continue serving requests even if a previous request is waiting for an async operation (such as fetching a model) to complete.
 
+<!-- alex ignore host-hostess -->
 This means that we needed to tweak our approach and allow applications to host multiple of what we call "sessions" at a time. Sessions allow us to separate the code registry (which doesn't change once the app is booted) from the application state.
 
 ![Architecture diagram showing state extracted into Session objects](/images/blog/2014-12-22-inside-fastboot-the-road-to-server-side-rendering/new-school.png)

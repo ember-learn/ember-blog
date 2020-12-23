@@ -22,7 +22,7 @@ It provides a complete solution for server-side rendering of your app from devel
 FastBoot works by running your Ember app in Node and shipping the rendered HTML of your initial requested route in your index.html (which also contains scripts for your app to boot in browser) to the user.
 This helps you show meaningful content to your user while the JavaScript is being downloaded, and also helps the initial page of your app to paint faster.
 Once the JavaScript downloads and your Ember app in the browser boots, it takes over the initial rendered HTML.
-It also helps the content in your Ember application to be accessible to everyone, even if they have JavaScript disabled.
+It also helps the content in your Ember application to be accessible to everyone, even if they turned off JavaScript.
 
 FastBoot brings in an ecosystem to make it easier for your Ember apps to be built and deployed in a FastBoot-friendly way. To make your Ember app run in FastBoot, you simply need to install the `ember-cli-fastboot` addon and make sure your app runs in Node. After installing the addon, you can continue building and developing your app using the same Ember CLI commands as you would without FastBoot. FastBoot also provides an application server ([`fastboot-app-server`](https://github.com/ember-fastboot/fastboot-app-server)) to run and deploy your Ember app in a Node environment. It manages downloading the Ember app, starting multiple HTTP server processes, and detecting when new versions of the application have been deployed.
 

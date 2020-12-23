@@ -210,7 +210,7 @@ Majority of the changes in this release happened under the hood to improve docum
 
 #### NPM 5 and Node 8 support
 
-Ember CLI now supports Node 8 and npm 5 out of the box, make sure to try it out! Some developers reported issues with `node@8.1.0` where Ember CLI would hang indefinitely. After upgrading to version `node@8.1.2`+ this issue no longer appeared.
+Ember CLI now supports Node 8 and npm 5 out of the box, make sure to try it out! Some developers reported issues with `node@8.1.0` where Ember CLI would be unresponsive. After upgrading to version `node@8.1.2`+ this issue no longer appeared.
 
 #### Specifying a blueprint for a new app
 

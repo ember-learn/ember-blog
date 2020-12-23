@@ -120,7 +120,7 @@ Thanks to [Godfrey Chan](https://twitter.com/chancancode) and [Robert Jackson](h
 
 ##### New Optional Feature: Application Template Wrapper
 
-Ember applications have long created a wrapping `div` around their rendered content: `<div class="ember-view">`. With ember-optional-features, this functionality can now be disabled:
+Ember applications have long created a wrapping `div` around their rendered content: `<div class="ember-view">`. With ember-optional-features, this functionality can now be turned off:
 
 ```bash
 ember feature:disable application-template-wrapper
@@ -198,6 +198,7 @@ Enabling this feature may require changes to your application's CSS, or to any o
 
 However, enabling this feature will prompt you to optionally run a codemod which creates backing classes for all template-only components, meaning both the implicit `div` and backing class are retained.
 
+<!-- alex ignore invalid -->
 Although enabling this feature will eventually be the default for Ember, leaving the feature disabled is not deprecated in this release. You can read more details about this optional feature and the motivations for introducing it in [RFC #278](https://github.com/emberjs/rfcs/blob/master/text/0278-template-only-components.md).
 
 #### Positional Params Bug Fix (4 of 4)

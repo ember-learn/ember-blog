@@ -606,7 +606,7 @@ handleResponse: function(status, headers, payload) {
 ```
 
 You could also subclass two helper methods, `isInvalid` and `isSuccess`
-to customize when you adapter considers a request succesful or invalid.
+to customize when you adapter considers a request succesful or not valid.
 
 Default implementation of `isInvalid` returns
 true if http status code is `422`, however, you may desire other
