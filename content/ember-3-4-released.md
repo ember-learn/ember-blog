@@ -128,7 +128,7 @@ export default setComponentManager('basic', EmberObject.extend({
 }));
 ```
 
-Finally, users of the `ember-basic-component` addon in this example, will be able to reuse and extend that component just like any other classic component:
+Finally, users of the `ember-basic-component` addon in this example, will be able to reuse and extend that component like any other classic component:
 
 ```javascript
 // an-addon-users-app/app/components/foo-bar-custom.js

@@ -8,9 +8,9 @@ tags:
 ---
 
 
-Handlebars 2.0 was released just a few weeks ago, and since its release we have received many
+Handlebars 2.0 was released a few weeks ago, and since its release we have received many
 requests to update Ember to allow the use of the latest version.  Handlebars 2.0 contains
-a number of changes the list below represents just a few that are likely to affect your
+a number of changes the list below represents a few that are likely to affect your
 Ember application:
 
 * Precompiler output has changed, which breaks compatibility with prior versions of the

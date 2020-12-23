@@ -10,7 +10,7 @@ tags:
 ---
 
 
-Ember.js 1.0 RC5 has just been released and is now available from the
+Ember.js 1.0 RC5 has been released and is now available from the
 main website as well as [builds.emberjs.com](http://builds.emberjs.com).
 
 RC5 fixes several regressions and bugs found in RC4. Notably:

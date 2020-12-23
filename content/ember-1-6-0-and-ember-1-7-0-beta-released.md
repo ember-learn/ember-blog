@@ -11,8 +11,7 @@ tags:
 
 
 We are pleased to announce that both Ember.js 1.6.0 and the first beta in the 1.7 series
-have just been released. This comes as the sixth cycle of our release process that began
-just after 1.0 was released.
+have been released. This comes as the sixth cycle of our release process that began after 1.0 was released.
 
 ### Delays Detailed
 
@@ -23,7 +22,7 @@ loading the transpiled modules. Unfortunately, adding the additional loader over
 boot has a fairly significant performance impact on boot speed of older mobile clients
 (approximately 5-10% boot time penalty).
 
-This regression was brought to our attention just before 1.6.0 was intended to ship (late
+This regression was brought to our attention before 1.6.0 was intended to ship (late
 May), and we decided to hold the release until a fix could be applied. In retrospect this
 was absolutely the wrong decision. The fix has taken much longer than originally anticipated
 and in the meantime folks are stuck with 1.5.1. Many of our users either are not affected

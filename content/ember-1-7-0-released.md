@@ -11,8 +11,7 @@ tags:
 
 
 We are pleased to announce that both Ember.js 1.7.0 and the first beta in the 1.8 series
-have been released. This comes as the seventh cycle of our release process that began just
-after 1.0 was released.
+have been released. This comes as the seventh cycle of our release process that began after 1.0 was released.
 
 This release brings bug fixes, potentially breaking changes and new features.
 

@@ -45,7 +45,7 @@ This feature is done and on `master`!
 
 Ember Data has always been smart enough to know that when you set a `belongsTo` relationship, the child record should be added to the parent's corresponding `hasMany` relationship.
 
-Unfortunately, it was pretty braindead about *which* `hasMany` relationship it would update. Before, it would just pick the first relationship it found with the same type as the child.
+Unfortunately, it was pretty braindead about *which* `hasMany` relationship it would update. Before, it would pick the first relationship it found with the same type as the child.
 
 Because it's reasonable for people to have multiple `belongsTo`/`hasMany`s for the same type, we added support for specifying an inverse:
 

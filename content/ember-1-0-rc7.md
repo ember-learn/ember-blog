@@ -41,4 +41,4 @@ Ember’s old router was deprecated prior to the first RC and while it’s never
 
 * Added functionality to Router.map to allow it to be called multiple times without the map being overwritten. Allows routes to be added at runtime.
 
-_UPDATE:_ The post previously recommended the use of `Route#generateController` for cases where the controller was not associated with a route. We are now directing users to just explicitly declare the controller's class instead of relying on generation.
+_UPDATE:_ The post previously recommended the use of `Route#generateController` for cases where the controller was not associated with a route. We are now directing users to explicitly declare the controller's class instead of relying on generation.

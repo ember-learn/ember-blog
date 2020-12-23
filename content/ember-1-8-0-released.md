@@ -12,7 +12,7 @@ tags:
 
 We are pleased to announce that both Ember.js 1.8.0 and the first beta in the
 1.9 series have been released. This comes as the eighth cycle of our release
-process that began just after 1.0 was released.
+process that began after 1.0 was released.
 
 This release represents the effort of at least 40 contributors across over 600 commits.
 

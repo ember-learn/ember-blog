@@ -65,6 +65,7 @@ with Ember Data, you know that it is essentially a process of translating things
 in JavaScript before it goes into Ember Data. If you're using JSON:API upfront, things are a lot
 easier to deal with, and you get to make use of the simplicity of Ember Data.
 
+<!-- alex ignore just -->
 Broccoli is an **asset pipeline** that deals very effectively with the file system. It is Just Javascript™️ in theory. One of the issues that makes Broccoli more
 challenging to work with is the lack of documentation, or at least that _used_ to be the case. Over
 the last few months, [Oli Griffiths](https://github.com/oligriffiths) has been very active in the
@@ -83,7 +84,7 @@ Since the early days of `broccoli-static-site-json`, things have gotten a tiny b
 
 ## The main plugin
 
-The simple early experiment of the `broccoli-static-site-json` had an `index.js` file (the only active file at the time) with a total of 119 lines of code, the main active lines making up the `build()` of the Broccoli plugin just adding up to 50 lines of code, which is definitely small enough for us to deep dive into in this post. 💪
+The simple early experiment of the `broccoli-static-site-json` had an `index.js` file (the only active file at the time) with a total of 119 lines of code, the main active lines making up the `build()` of the Broccoli plugin only adding up to 50 lines of code, which is definitely small enough for us to deep dive into in this post. 💪
 
 I'm going to give a brief overview of the structure of a Broccoli plugin and then go into detail of each line of the main `build()` function.
 
@@ -175,7 +176,7 @@ This may seem a bit scary, but don't worry we will break it down, and hopefully 
 
 #### Creating the output folder
 
-The first piece is just a bit of housecleaning. We want to make sure the output folder exists before we continue and if it doesn't we need to create it:
+The first piece is a bit of housecleaning. We want to make sure the output folder exists before we continue and if it doesn't we need to create it:
 
 ```javascript
 // build content folder if it doesn't exist
@@ -319,7 +320,7 @@ const ContentSerializer = new Serializer('content', {
 });
 ```
 
-In this case we use `keyForAttribute()` to rename `__content` to just be `content`.
+In this case we use `keyForAttribute()` to rename `__content` to be `content`.
 
 ## Conclusion
 

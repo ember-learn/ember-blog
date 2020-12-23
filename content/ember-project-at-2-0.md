@@ -11,7 +11,7 @@ tags:
 
 For the past several years, when we've talked about "Ember releases", we were always talking about releases of the Ember codebase itself.
 
-In practice, that has meant that in order to put together the full, recommended Ember stack, you needed to figure out not just what Ember version to use, but what versions of our other libraries and tools worked with it.
+In practice, that has meant that in order to put together the full, recommended Ember stack, you needed to figure out not only what Ember version to use, but also what versions of our other libraries and tools worked with it.
 
 Starting with Ember 2.0, we will coordinate every release of Ember with releases of the main ecosystem tools maintained by the core team:
 
@@ -66,6 +66,7 @@ This is not the case if you are trying to upgrade to Ember 2.5 while remaining o
 
 **In practice, the fact that all of these libraries share the same SemVer requirements should make upgrading across all five components more straight forward than trying to cobble together a multi-version stack yourself.**
 
+<!-- alex ignore just -->
 > I don't agree with anything you said here and just want to pick and choose the versions of the libraries I want to use.
 
 Go for it! The people maintaining each of these libraries want older versions of the libraries to work with newer versions of Ember, because it makes their jobs easier.

@@ -53,7 +53,7 @@ model was simply `undefined`. The assertion has been updated to ignore falsey `m
 
 In 1.11.0 using the `{{render}}` helper (i.e. `{{render 'post'}}`) when a `PostView` is present would not
 provide the view with a template (it was assumed to be manually specified in the view via `templateName`
-property). As of 1.11.1 you can specify the `templateName` in the `{{render}}` helpers view (just like in 1.11.0),
+property). As of 1.11.1 you can specify the `templateName` in the `{{render}}` helpers view (similarly to in 1.11.0),
 but if you do not the views template will be defaulted to a template with the same name as the view itself.
 
 ## Changelogs

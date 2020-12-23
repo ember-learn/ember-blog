@@ -23,7 +23,7 @@ This week boolean component arguments 👻 are in for an RFC, learn more about c
 
 ## [Boolean Dreams Come True ☁️](https://github.com/emberjs/rfcs/pull/407)
 
-Ever wanted to pass **boolean arguments** to your **components** _just_ like you would pass boolean attributes - like checked or readonly - to an HTML element?
+Ever wanted to pass **boolean arguments** to your **components** like you would pass boolean attributes - like checked or readonly - to an HTML element?
 
 This fresh [RFC (Request for Comments) discusses how this could become reality](https://github.com/hakubo/rfcs/blob/component-boolean-arguments/text/0000-component-boolean-arguments.md)!
 

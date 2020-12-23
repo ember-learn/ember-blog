@@ -32,7 +32,7 @@ The first version of [emberjs.com](/) was created over 7 years ago, in 2011! Sin
 
 <div class="spacer"></div>
 
-That said, we believe it's time for another redesign of the homepage. The marketing copy doesn't capture many of the amazing innovations that have landed in Ember over the past few years. We want the homepage to reflect just how great it is to be an Ember developer in 2018.
+That said, we believe it's time for another redesign of the homepage. The marketing copy doesn't capture many of the amazing innovations that have landed in Ember over the past few years. We want the homepage to reflect how great it is to be an Ember developer in 2018.
 
 But first we need your help!
 

@@ -48,9 +48,9 @@ Note: Releases are **considered done** when the [blog post](https://blog.emberjs
 
 Building a [Fastboot](https://ember-fastboot.com/) powered Ember application? Struggling with **writing meaningful tests** for it, that take into account outgoing network requests?
 
-Imagine if you could **mock network requests** for your Fastboot test suite with ease, just as you already do using [Ember CLI Mirage](https://www.ember-cli-mirage.com/) when testing the client-side of your app.
+Imagine if you could **mock network requests** for your Fastboot test suite with ease, like you do with [Ember CLI Mirage](https://www.ember-cli-mirage.com/) when testing the client-side of your app.
 
-Your testing dreams have just come true! [Ember CLI Fastboot Testing](https://embermap.github.io/ember-cli-fastboot-testing/) provides you with useful test helpers and a mock server for intercepting requests from your Fastboot app while testing. Learn how to mock network requests with it by checking out this [amazing introduction](https://embermap.com/video/fastboot-network-mocking) by [our friends at EmberMap](https://embermap.com) and test away! ✨
+Your testing dreams can come true! [Ember CLI Fastboot Testing](https://embermap.github.io/ember-cli-fastboot-testing/) provides you with useful test helpers and a mock server for intercepting requests from your Fastboot app while testing. Learn how to mock network requests with it by checking out this [amazing introduction](https://embermap.com/video/fastboot-network-mocking) by [our friends at EmberMap](https://embermap.com) and test away! ✨
 
 ---
 

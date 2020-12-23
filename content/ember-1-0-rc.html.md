@@ -31,7 +31,7 @@ router.transitionTo('index');
 router.replaceWith('index');
 ```
 
-In the `redirect` hook, you can just use `replaceWith` and Ember won't create
+In the `redirect` hook, you can use `replaceWith` and Ember won't create
 a history entry.
 
 In a controller, you can use `replaceRoute` (instead of `transitionToRoute`)

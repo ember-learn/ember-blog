@@ -58,7 +58,7 @@ Existing applications are able to continue using `baseURL` with a deprecation wa
 
 #### New Applications
 
-If you're starting a new application using an Ember CLI canary (or eventually 2.7 stable) everything should work correctly out of the box. We've been very careful to make sure that the out of the box experience is as smooth as possible. For the built-in development server all assets will be served at the `rootURL`. Relative URLs will continue to work just fine inside of your CSS files and paths to assets included in your templates, `index.html`, or inserted via `{{content-for}}` should specify a root-relative path.
+If you're starting a new application using an Ember CLI canary (or eventually 2.7 stable) everything should work correctly out of the box. We've been very careful to make sure that the out of the box experience is as smooth as possible. For the built-in development server all assets will be served at the `rootURL`. Relative URLs will continue to work fine inside of your CSS files and paths to assets included in your templates, `index.html`, or inserted via `{{content-for}}` should specify a root-relative path.
 
 #### Upgrading
 

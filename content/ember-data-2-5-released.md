@@ -170,10 +170,7 @@ For instance, if a user has many pets, which is a polymorphic relationship, the 
 }
 ```
 
-This is particularly useful for polymorphic relationships not backed
-  by [STI](https://en.wikipedia.org/wiki/Single_Table_Inheritance)
-  when just including the id of the records is not enough.
-
+This is particularly useful for polymorphic relationships not backed by [STI](https://en.wikipedia.org/wiki/Single_Table_Inheritance) when including the id of the records is not enough.
 
 For more details on changes in the 2.6 beta, please review the
 [Ember Data 2.6.0-beta.1 CHANGELOG](https://github.com/emberjs/data/blob/v2.6.0-beta.1/CHANGELOG.md).

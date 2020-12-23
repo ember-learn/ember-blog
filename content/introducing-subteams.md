@@ -15,7 +15,7 @@ decision-making and coordination—something we're calling Subteams. We mentione
 some of this in this year's EmberConf keynote, and wanted to expand on the
 specific details.
 
-Ember.js was once just a view layer for rendering templates in the
+Ember.js was once only a view layer for rendering templates in the
 browser, but has grown to become a complete SDK for the web. With one
 `npm install`, you get everything you need to create a modern web
 application.
@@ -109,7 +109,7 @@ While the Ember CLI and Ember Data subteams should be self-explanatory,
 this one is the newest and may require some explanation.
 
 We intentionally did not call this subteam _Documentation_,
-because documentation is just one part of how new users learn to use
+because documentation is only one part of how new users learn to use
 Ember. People start learning the second they land on the website
 homepage, or when they see a presentation at their local user group.
 

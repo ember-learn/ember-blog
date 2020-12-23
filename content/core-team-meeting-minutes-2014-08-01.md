@@ -46,7 +46,7 @@ core team member and let them know!
 
 We're starting work to revamp
 our [Getting Started Guide](http://emberjs.com/guides/getting-started/).
-TodoMVC is just too small of an app to demonstrate enough topics. We were
+TodoMVC is too small of an app to demonstrate enough topics. We were
 holding off in hopes that there would be further progress on the [successor
 to TodoMVC](https://github.com/tastejs/TasteApp) but this project has stalled.
 

@@ -35,6 +35,7 @@ Therefore, to make sure the developer experience for Ember apps with FastBoot is
 
 This also unlocked the potential to be able to run the server and browser versions of an app during development with a single command: the `ember serve` command Ember developers are already used to.
 
+<!-- alex ignore just -->
 We also exposed an [additional public API](https://github.com/ember-cli/rfcs/pull/80) in Ember CLI that allowed FastBoot to serve index.html with server rendered template using `ember serve`. This API allows any other addon to tap into Ember CLI’s development-time Express server, not just FastBoot.
 
 All of these changes meant that we had to make a hard decision to break some addons’ compatibility with FastBoot. There were many addons that were made FastBoot-compatible (during early adoption), and we tried very hard to make sure these continued to work with this change. However, there was no good way to do so in all cases without compromising the developer experience. Therefore, we realized we had to break some addons that were already FastBoot-compatible. We have a [migration guide](https://gist.github.com/kratiahuja/d22de0fb1660cf0ef58f07a6bcbf1a1c) for addon authors to migrate to the new build strategy, and have already proactively reached out to many addon authors to help them resolve any compatibility issues

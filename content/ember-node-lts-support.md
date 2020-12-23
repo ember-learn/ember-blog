@@ -13,7 +13,7 @@ Ember is committed to being a good steward of our collective codebases as part o
 
 ### What does support mean?
 
-All Ember projects can be expected to work in any of the supported Node.js versions and will support every documented feature. We will not maintain separate branches or classes of support for different Node.js support classifications. For example, Ember CLI can be expected to work just the same running on a "Maintenance" Node.js version as it does on a "Current" Node.js version. Not all of our projects presently align to this pattern but we will, over time, coalesce to this state.
+All Ember projects can be expected to work in any of the supported Node.js versions and will support every documented feature. We will not maintain separate branches or classes of support for different Node.js support classifications. For example, Ember CLI can be expected to work the same running on a "Maintenance" Node.js version as it does on a "Current" Node.js version. Not all of our projects presently align to this pattern but we will, over time, coalesce to this state.
 
 Meeting this commitment does not come without cost and tough decisions. However, as maintainers of foundational libraries, we believe that it is in our best interest to validate the legitimacy of the Node.js LTS plans, help position Node.js as a reliable and dependable tool for all enterprises, and contribute toward improving the reputation of the ecosystem.
 

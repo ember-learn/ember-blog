@@ -36,7 +36,7 @@ been fetched in the store. Sometimes, this is not desirable. For example, you
 may not know if you have already loaded the post in another request via
 sideloading, or you want the most up to date information. You could either
 check if the record existed using
-[store.hasRecordForId][store-has-record-for-id], or just always call
+[store.hasRecordForId][store-has-record-for-id], or always call
 [reload][model-reload] on your model in the route's `afterModel`hook.
 
 `store.fetch` wraps this common pattern by reloading a record if it exists in
@@ -106,7 +106,7 @@ var Post = DS.Model.extend({
 });
 ```
 
-**no longer works**. Instead, you should just watch each attribute like you
+**no longer works**. Instead, you should watch each attribute like you
 would with any `Ember.Object`:
 
 ```javascript

@@ -156,5 +156,5 @@ core team member and let them know!
     > exists within Handlebars, but is not exposed to `Ember.Handlebars.precompile`.
     > As such, I think that we should likely re-evaluate the prior decision.
 
-    Resolution. Ship it. This just passes from Handlebars to Ember.Handlebars
+    Resolution. Ship it. This passes from Handlebars to Ember.Handlebars
 

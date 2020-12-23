@@ -15,7 +15,7 @@ Emberistas שלום! 🐹
 
 Read either on the [Ember blog](https://www.emberjs.com/blog/2018/06/22/the-ember-times-issue-52.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/2018/06/22/the-ember-times-issue-52) what has been going on in Emberland this week.
 
-Those **Request for Comments (RFCs)** just keep coming and this is why we present **4 entirely new** proposals
+Those **Request for Comments (RFCs)** keep coming and this is why we present **4 entirely new** proposals
 that you shouldn't miss this week.
 We also have an amazing **tutorial** for creating **accessible web applications** for you, to give you a head start in developing, shipping and testing your apps for **a11y** 👭
 

@@ -79,7 +79,7 @@ If you include the `ember.debug.js` file instead of a production file the compil
 
 ### Template Compilation Build Tools
 
-There are any number of build tool libraries that are intended to make the server side compilation of templates easier. Here are just a few (please let us know of others):
+There are any number of build tool libraries that are intended to make the server side compilation of templates easier. Here are a few (please let us know of others):
 
 * [ember-cli-htmlbars](https://github.com/rondale-sc/ember-cli-htmlbars) - Can be used either as a standalone Broccoli plugin, or as an ember-cli addon.
 * [grunt-ember-templates](https://github.com/dgeb/grunt-ember-templates) - Works as a Grunt plugin. To precompile HTMLBars templates, you must supply specific parameters to your task definition as mentioned in [this PR](https://github.com/dgeb/grunt-ember-templates/pull/77).

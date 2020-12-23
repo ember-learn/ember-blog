@@ -27,9 +27,9 @@ core team member and let them know!
 
 * `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
 
-    @krisselden: likes the feature a lot (we should “just doit”)
+    @krisselden: likes the feature a lot (we should do it)
     @wycats: naming with globals is totally unsolvable.
-    @machty: If FooLoading is ambiguous, we should just warn that global mode is not supported for this feature
+    @machty: If FooLoading is ambiguous, we should warn that global mode is not supported for this feature
     @tomdale: we need a separate task force for thinking about module mode only features.
 
     resolution: Tom and Stef will review
@@ -122,7 +122,7 @@ core team member and let them know!
 
 * [Use `QUnit.module` instead of `module`.](https://github.com/emberjs/ember.js/pull/3838)
 
-    Let's just confirm what to use as a prefix. Is `QUnit.module` OK, or should we create our own
+    Let's confirm what to use as a prefix. Is `QUnit.module` OK, or should we create our own
     (perhaps `EmberDev.module` or something)?
 
     resolution: "Go"

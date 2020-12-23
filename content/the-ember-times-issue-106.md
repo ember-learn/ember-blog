@@ -47,7 +47,7 @@ We encourage you to learn today about [Ember Data packages in 3.11](https://embe
 
 Starting with regular HTML and CSS and going through hands-on experience working with glimmer components, tracked properties, actions, and modifiers – the Ember Octane Fundamentals training provides detailed steps in creating your own server-rendered chat application.
 
-What’s even better is that since this is licensed under the BSD-2-Clause, you can feel free to use this material to conduct workshops in your own groups! Just make sure to give some feedback to [@mike-north](https://github.com/mike-north)!
+What’s even better is that since this is licensed under the BSD-2-Clause, you can feel free to use this material to conduct workshops in your own groups! Make sure to give some feedback to [@mike-north](https://github.com/mike-north)!
 
 ---
 

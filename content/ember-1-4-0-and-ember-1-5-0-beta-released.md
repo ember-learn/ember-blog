@@ -11,8 +11,8 @@ tags:
 
 
 We are pleased to announce that both Ember.js 1.4.0 and the first beta in the 1.5 series
-have just been released. This comes as the fourth cycle of our six-week release
-process that began just after 1.0 was released.
+have been released. This comes as the fourth cycle of our six-week release
+process that began after 1.0 was released.
 
 ### New features in 1.4
 
@@ -118,6 +118,7 @@ Then from the template:
 {{input autofocus=omgAutofocusMe}}
 ```
 
+<!-- alex ignore just -->
 This certainly is not ideal, and causes many issues for people that expect it to "just work".
 
 Thankfully, this has gotten MUCH better with the 1.4 release. In 1.4 any attribute bindings that do not

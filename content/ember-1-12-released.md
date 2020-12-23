@@ -205,8 +205,9 @@ Ember 1.13 is:
 * the last minor release in the 1.x series
 * the first release that includes the new **Glimmer rendering engine**
 
-Just to recap; what is Glimmer?
+To recap; what is Glimmer?
 
+<!-- alex disable just -->
 * A new faster rendering engine that is especially fast at updates.
 * An implementation of the React-inspired "just re-render it" programming model
   for components, with one-way data flow by default and better enforcement for
@@ -214,6 +215,7 @@ Just to recap; what is Glimmer?
 * Supports angle-bracket components (`<my-component />`), ergonomic attributes
   (`<my-link href="{{url}}.html">go home</my-link>`), that hews closely to HTML
   syntax with a few small enhancements.
+<!-- alex enable just -->
 
 We'll be writing a blog post that expands on the programming model of Ember 2.0
 and talks about the most important new features in the next few days, and full

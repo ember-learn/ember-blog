@@ -54,7 +54,7 @@ See the full list on the [cli-guides-source Quest issue](https://github.com/embe
 
 Have you heard of **Ember's future default project layout**? If you haven't, you can read about it the [Module Unification RFC](https://github.com/emberjs/rfcs/blob/master/text/0143-module-unification.md).
 
-The initial work on Module Unification is **nearly complete**, as **[there are only a handful of tasks left](https://github.com/emberjs/ember.js/issues/16373)** and some of the tasks just need a good amount of spelunking time.
+The initial work on Module Unification is **nearly complete**, as **[there are only a handful of tasks left](https://github.com/emberjs/ember.js/issues/16373)** and some of the tasks need a good amount of spelunking time.
 If you can donate some of your time to help finish this up, the entire community will forever be in your debt. 💖
 
 Also, if you are a user of namespaced components, [this RFC](https://github.com/emberjs/rfcs/pull/367) is a must read. Please leave your thoughts on the [Module Unification Packages RFC](https://github.com/emberjs/rfcs/pull/367) as nested components affect the majority of Ember projects.
