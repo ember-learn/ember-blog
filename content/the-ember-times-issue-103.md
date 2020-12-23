@@ -15,6 +15,7 @@ tags:
 
 हॅलो Emberistas! 🐹
 
+<!-- alex disable easy -->
 This week:
 submit to the Ember Camp Chicago CfP 🌭,
 celebration of 55 posts for #EmberJS2019 🎉,
@@ -23,6 +24,7 @@ examine alternatives to the input helper 🤔,
 watch the Visual Regression Testing Made Easy talk video 📺,
 more expressive dependency injection ⬅️,
 and clean out unused components from your 🐹 app!
+<!-- alex enable easy -->
 
 <!-- READMORE -->
 
@@ -70,11 +72,13 @@ You can learn more from their [recorded interview](https://www.youtube.com/watch
 
 ---
 
+<!-- alex disable easy -->
 ## [Talk Video: Visual Regression Testing Made Easy 📺](https://www.youtube.com/watch?v=d0ZCJNeybbs)
 
 [@patocallaghan](https://github.com/patocallaghan) gave a lightning talk on **“Visual Regression Testing Made Easy”** at the April 2019 [DublinJS Meetup](https://www.meetup.com/DublinJS/). In his talk, Pat used [Percy](https://percy.io/) to scale visual regression testing from a manual to an automated workflow. You can catch potential CSS bugs, remove certain types of tests, and deal with large refactors and migrations. _“Styles can sometimes make bad things happen.”_ Percy gives you confidence when you make big changes.
 
 Check out the [full lightning talk video](https://www.youtube.com/watch?v=d0ZCJNeybbs) just published this week!
+<!-- alex enable easy -->
 
 ---
 

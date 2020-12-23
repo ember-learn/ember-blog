@@ -50,7 +50,7 @@ dealing with relationships.
 
 ## A Single Source of Truth
 
-Modeling relationships between records is easily the most difficult feature
+Modeling relationships between records is the most difficult feature
 we've added to Ember Data. Finding a common solution is complicated because of
 how much JSON servers differ from one another. Things get even more interesting
 when you introduce streaming changes over WebSockets.
@@ -153,6 +153,7 @@ note: if you have not read Isaac's [excellent essay on async
 APIs](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony),
 please do).
 
+<!-- alex ignore easy -->
 We strongly consider how easy or difficult refactorings are when designing
 APIs, and in this case, we made a mistake. Making small changes to your server
 API should not require widespread changes to the application that consumes it.

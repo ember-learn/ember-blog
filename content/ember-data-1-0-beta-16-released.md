@@ -32,6 +32,7 @@ the Ember Data project.
 
 ### The store now passes snapshots instead of records to adapter methods
 
+<!-- alex ignore easy -->
 In 1.0.0-beta.15 Ember Data introduce the Snapshot API and began
 passing snapshot instances into all serializers to prevent
 side-effects from occurring when inspecting relationships for

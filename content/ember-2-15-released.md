@@ -351,7 +351,7 @@ a practical alternative to running browsers headless via tools like Xvbf. It
 has, however, been a proxy for what we really want to test– the browsers that
 users are running.
 
-Now that we can easily test in headless Chrome the motivation for using
+Now that we can test in headless Chrome, the motivation for using
 PhantomJS has diminished, and as a result it is [no longer actively maintained](https://groups.google.com/d/msg/phantomjs/9aI5d-LDuNE/5Z3SMZrqAQAJ).
 
 #### app.import files within node_modules

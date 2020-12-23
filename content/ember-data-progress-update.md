@@ -36,7 +36,7 @@ server-side web application. On the first day, you begin the process of
 familiarizing yourself with the codebase.
 
 Since you have experience with the server-side MVC framework that this
-company uses, it's pretty easy going. You see that the templates are
+company uses, the day is going well. You see that the templates are
 cleanly separated from the controller logic, which is itself cleanly
 separated from the models.
 

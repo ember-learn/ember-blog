@@ -90,6 +90,7 @@ You can find more details [here](https://github.com/emberjs/ember.js/pull/3695).
 
 ##### Stubbable `controllers` Property
 
+<!-- alex ignore easy -->
 Prior to Ember 1.3 you could not easily stub out any dependencies specified with `needs`.
 Now you can unit test controllers and stub their dependencies all within
 `TheControllerClass.create()` instead of having to use a container, register stubbed

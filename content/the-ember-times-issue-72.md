@@ -74,6 +74,7 @@ Help these amazing projects to get their test coverage up to par by **writing un
 - [Ember API Docs Client](https://github.com/ember-learn/ember-api-docs)
 - [Ember JSON API Docs](https://github.com/ember-learn/ember-jsonapi-docs)
 
+<!-- alex ignore dad-mom -->
 Questions? Looking for some guidance to get started? Pop by the [#dev-ember-learning](https://discordapp.com/channels/480462759797063690/480777444203429888) channel on [the Ember Community Chat](https://discordapp.com/invite/zT3asNS) and ask away!
 
 ---

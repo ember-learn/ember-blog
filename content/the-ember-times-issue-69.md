@@ -46,9 +46,9 @@ Read more about the new, proposed API and the motivation behind it [in the origi
 
 ## [🍬 Sugar-, 🍞 Gluten- & jQuery-Free Ember Apps 🐹 by Default](https://github.com/emberjs/rfcs/pull/386)
 
-Previous RFC-driven efforts already provided an **option** for you to **exclude jQuery** from your Ember app builds easily ([1](https://emberjs.github.io/rfcs/0294-optional-jquery.html), [2](https://www.emberjs.com/blog/2018/07/16/ember-3-3-released.html#toc_new-features-1), [3](https://github.com/ember-learn/guides-source/pull/64)). Now [a **follow-up RFC**](https://github.com/emberjs/rfcs/pull/386) takes the idea of **reducing the initial bundle size** of apps even further.
+Previous RFC-driven efforts already provided an **option** for you to **exclude jQuery** from your Ember app builds ([1](https://emberjs.github.io/rfcs/0294-optional-jquery.html), [2](https://www.emberjs.com/blog/2018/07/16/ember-3-3-released.html#toc_new-features-1), [3](https://github.com/ember-learn/guides-source/pull/64)). Now [a **follow-up RFC**](https://github.com/emberjs/rfcs/pull/386) takes the idea of **reducing the initial bundle size** of apps even further.
 
-The new proposal envisions apps to provide an **easy opt-in** for the UI library, but to **exclude jQuery by default**. The RFC suggests that this will make it easier for developers and addon authors to provide smaller apps from the start and only include the dependency back in if it is _really_ needed.
+The new proposal envisions apps to provide an **opt-in** for the UI library, but to **exclude jQuery by default**. The RFC suggests that this will make it easier for developers and addon authors to provide smaller apps from the start and only include the dependency back in if it is _really_ needed.
 
 Curious to know more? Here's the [full proposal](https://github.com/emberjs/rfcs/pull/386).
 
@@ -56,6 +56,7 @@ Curious to know more? Here's the [full proposal](https://github.com/emberjs/rfcs
 
 ## [We've Got You Covered ⛑](https://github.com/emberjs/ember.js/pull/16910)
 
+<!-- alex ignore easy -->
 You might have noticed that sometimes when a new release of Ember is out some API documentation can disappear. This happens when code gets moved around in Ember, such as putting functions in their own modules, which makes it easy to make mistakes that impact the documentation parser. [@ef4](https://github.com/ef4) added [test coverage](https://github.com/emberjs/ember.js/pull/16910) for exactly these cases.
 
 This means that when a new release is prepared these tests will most likely catch any unintentional documentation changes.

@@ -65,8 +65,7 @@ with Ember Data, you know that it is essentially a process of translating things
 in JavaScript before it goes into Ember Data. If you're using JSON:API upfront, things are a lot
 easier to deal with, and you get to make use of the simplicity of Ember Data.
 
-Broccoli is an **asset pipeline** that deals very effectively with the file system. It is all Just
-Javascript™️, so it is in theory quite easy to handle. One of the issues that makes Broccoli more
+Broccoli is an **asset pipeline** that deals very effectively with the file system. It is Just Javascript™️ in theory. One of the issues that makes Broccoli more
 challenging to work with is the lack of documentation, or at least that _used_ to be the case. Over
 the last few months, [Oli Griffiths](https://github.com/oligriffiths) has been very active in the
 Broccoli community and has recently published a [Broccoli

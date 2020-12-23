@@ -18,9 +18,11 @@ Mholweni Emberistas! 🐹
 
 Read either on the [Ember blog](https://www.emberjs.com/blog/2018/06/29/the-ember-times-issue-53.html) or in our [e-mail newsletter](https://the-emberjs-times.ongoodbits.com/2018/06/29/the-ember-times-issue-53) what has been going on in Emberland this week.
 
+<!-- alex disable easy -->
 And this week we not only have an insider tip on how to dramatically **reduce** your **app build times** 🕐 for you,
 but we're also reporting back on **easy-peasy module imports** 🙌 and - last, but not least! - presenting you a **brand-new Readers' Question** 💯 in this edition of the Ember Times.
 Check it out!
+<!-- alex enable easy -->
 
 <!-- READMORE -->
 
@@ -57,11 +59,13 @@ Read all about the version 1.0 release on the [forum](https://discuss.emberjs.co
 on September 21st!
 Read more about the event on [the official website](http://embercamp.com/).
 
+<!-- alex disable easy -->
 And also important:
 Among the motto _"It's Easy In Ember"_ the event organizers are curious about **your talk ideas**; and more than happy
 to support you in making your proposal a real success! 🌟
 The [Call for Proposals](https://cfp.emberconf.com/events/embercamp-chicago-2018) for talk submissions is still **open until July 22**.
 Unsure if you can **see yourself speaking** in the first place but curious what public speaking is about?
+<!-- alex enable easy -->
 
 <!--alex ignore gal-guy-->
 Find ideas,

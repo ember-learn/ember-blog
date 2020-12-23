@@ -59,6 +59,7 @@ Side note 2. [If you haven't joined the Ember Community on Discord, do so today]
 
 According to the results of the latest community survey, modern Ember apps are everywhere! We can see that a great number of Ember apps has kept up with the latest releases. Most Ember apps beyond 3.x were locked in at [version 3.7, 3.4 and 3.8](https://emberjs.com/ember-community-survey-2019/#MS_Q401).
 
+<!-- alex ignore easy -->
 Seeing that a great number of Ember apps has managed to keep up with some of the latest releases is quite striking. It shows that Ember continues to deliver on its promise of **Stability without Stagnation**. As a framework that has thrived in the fast-paced front-end ecosystem for over seven years, Ember has always promoted itself as a stable and reliable solution for developers who want to make sure that the applications they're building are not only functional, but also still easy to maintain and upgrade tomorrow.
 
 A major contributing factor for the project's stability is [the fine-tuned release process](https://emberjs.com/releases/) which offers a straightforward upgrade path. The release process has been refined several times in the past. A 6-week release cycle started with Ember 1.0 (that was more than 5 years ago!) and provided the community with beta and canary builds, as well as [feature flags for public API changes that aren't yet released](https://blog.emberjs.com/2013/09/06/new-ember-release-process.html) for every single release. A few years later, the [LTS releases](https://blog.emberjs.com/2016/02/25/announcing-embers-first-lts.html) made it even easier for developers to keep up with important updates and bug fixes while still being able to upgrade their applications smoothly in their own time.
@@ -91,7 +92,7 @@ This quote reminded us of our past Readers’ Question from [@kategengler](https
 - Ember CLI makes it simple to get a local development environment going.
 - LTS releases ensure you don’t have to constantly update Ember to get bug and security fixes.
 - Ember evolves without making sudden breaking changes. API changes are signaled well in advance of a major version through deprecations, with the major versions merely removing those deprecated APIs.
-- The Ember community is active, helpful, and easy to find in the [Ember Community on Discord](https://discordapp.com/invite/zT3asNS).
+- The Ember community is active and helpful, and can be found in the [Ember Community on Discord](https://discordapp.com/invite/zT3asNS).
 
 ---
 

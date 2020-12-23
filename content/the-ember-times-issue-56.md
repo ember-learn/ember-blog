@@ -90,6 +90,7 @@ The Ember Weekend podcast is back on the mic! Want to hear more about some recen
 
 ---
 
+<!-- alex ignore dad-mom -->
 Have a suggestion for next week's Ember Times? Want to write for us? Pop into [#topic-embertimes](https://embercommunity.slack.com/messages/C8P6UPWNN/)
 on the Ember Community [Slack](https://ember-community-slackin.herokuapp.com/) or ping us [@embertimes](https://twitter.com/embertimes) on Twitter.
 

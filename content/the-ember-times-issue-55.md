@@ -47,6 +47,7 @@ Interested in contributing in a hurry? According to [@mixonic](https://twitter.c
 
 ## [Have you ever dreamt about creating your very own RFC? ✨](https://github.com/emberjs/rfcs/pulls)
 
+<!-- alex ignore dad-mom -->
 If you've ever wondered how **Request for Comments** come about, now you have a great chance to peak into its thought process. It might look like they pop up overnight, but there is actually a lot of work and support that goes into them before they are ready.
 
 As an example, our beloved contributor [@jenweber](https://github.com/jenweber) is doing an amazing job by putting together tutorials for `ember-cli`. 👏 More specifically these tutorials will explain basic commands and how to make your first addon.
@@ -82,7 +83,7 @@ And now that you know, why not stay tuned for this specific RFC and make your co
 These past days, weeks and months lots of efforts have been focused on improving the
 **discoverability of official Ember resources** including the website, the Guides or the API docs.
 The visibility of these sites to various search engines 🔍 , for example, DuckDuckGo, Baidu, AOL Search, Dogpile or Google
-plays a major role in how easy it is for developers to find the information they are looking for.
+plays a major role in helping developers find the information they are looking for.
 To improve Ember's visibility on the web, **Search-Engine Optimization (SEO)** of these pages is one of the most effective measures.
 
 Simple, yet effective improvements for Ember sites included tests of functional redirects ([1](https://github.com/emberjs/website/pull/3394)) and fixes for broken links ([2](https://github.com/emberjs/website/pull/3271), [3](https://github.com/emberjs/website/pull/3183), [4](https://github.com/emberjs/website/pull/3182)).

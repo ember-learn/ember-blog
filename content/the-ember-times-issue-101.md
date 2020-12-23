@@ -91,6 +91,7 @@ He shares three concrete ideas to make growing Ember a reality:
 
 [@jenweber](https://github.com/jenweber) encourages [focusing on documentation, learning, and teaching accessibility through code examples](https://jenweber.netlify.com/the-ember-experience/).
 
+<!-- alex ignore easy -->
 > The ideal Ember Experience is that things work as they should out-of-the-box, following modern web development patterns. It's easy to get ramped up using real-world code examples that teach the recommended practices used by experienced Ember developers, from day one.
 
 ---

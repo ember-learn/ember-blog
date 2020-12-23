@@ -54,7 +54,7 @@ To address this issue, we moved all top-level assumptions into [an `environment`
 
 Ember's powerful dependency injection ("DI") system has been a boon for managing application state, supporting the transition from globals to modules, and ensuring tests are fast and robust.
 
-Rather than storing application state globally (either in a global variable or as a property on a global object like `App`), all state in an idiomatic Ember app is stored inside an object called the "container". This makes it easy to throw away state between each automated test, ensuring you're testing what you think you're testing and not the side-effects of a previous test. It also improves the speed of tests, allowing you to run your test suite as you develop instead of waiting hours for a CI server.
+Rather than storing application state globally (either in a global variable or as a property on a global object like `App`), all state in an idiomatic Ember app is stored inside an object called the "container". As a result, state can be thrown away between each automated test, ensuring you're testing what you think you're testing and not the side-effects of a previous test. It also improves the speed of tests, allowing you to run your test suite as you develop instead of waiting hours for a CI server.
 
 The container also serves as a registry of your application code, and its "resolver" paved the way for Ember to move from globals-based code to [JavaScript modules](http://jsmodules.io/) by abstracting lookups (e.g. Ember asking for a controller named "users") from the actual location of code.
 

@@ -56,7 +56,7 @@ Stabilizing the behavior of classes gives early adopters an API to build on. For
 
 Early adopters have been helping tremendously to sort out the details here and make sure that the day the proposals advance, we are ready to land official support for them in Ember directly. Early adoption _does_ come with risks, so if you are considering it, be prepared to have to make changes in the future.
 
-For users who aren't ready to adopt, that's OK - the EmberObject model will continue to be supported for some time to come. In addition, work is progressing on a [codemod](https://github.com/ember-codemods/ember-es6-class-codemod) which will transform the old class model to the new one seamlessly, making the transition easy from day one.
+For users who aren't ready to adopt, that's OK - the EmberObject model will continue to be supported for some time to come. In addition, work is progressing on a [codemod](https://github.com/ember-codemods/ember-es6-class-codemod) which will transform the old class model to the new one seamlessly, helping with the migration from day one.
 
 ###### Usage Notes
 

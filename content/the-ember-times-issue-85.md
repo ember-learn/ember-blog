@@ -61,7 +61,7 @@ And now for the big surprise: **The newly deployed guides now contains angle bra
 Following the **deprecation** of other **modifier functions** of **computed properties** in the past ([1](https://emberjs.github.io/rfcs/0375-deprecate-computed-property-modifier.html), [2](https://emberjs.github.io/rfcs/0370-deprecate-computed-volatile.html)),
 a new Request for Comments (RFC) proposes the [deprecation of the `meta()` modifier](https://github.com/emberjs/rfcs/pull/441).
 
-The once useful function for sharing and looking up meta information through a cp, can now be easily substituted by using `WeakMap`s - making the deprecation of `computed().meta()` possible as proposed in the RFC.
+The once useful function for sharing and looking up meta information through a cp, can now be substituted by using `WeakMap`s - making the deprecation of `computed().meta()` possible as proposed in the RFC.
 
 You can read more about the suggested transition path in the [full proposal](https://github.com/emberjs/rfcs/blob/51b57a865a3c58393c44d73f1c4931878c994eef/text/0000-deprecate-computed-meta.md). And as always, don't forget to [comment, too](https://github.com/emberjs/rfcs/pull/441)!
 

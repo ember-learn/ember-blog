@@ -22,6 +22,7 @@ and suggest ideas for the upcoming Ember Octane issue ✍️!
 
 ---
 
+<!-- alex disable easy -->
 ## [Ember Octane Update for Modern Ember Tutorial 🎁](https://codingitwrong.com/2018/08/16/modern-ember.html)
 
 [@CodingItWrong](https://github.com/CodingItWrong) updated his [Modern Ember](https://codingitwrong.com/2018/08/16/modern-ember.html) tutorial to use [octane-app-blueprint](https://github.com/ember-cli/ember-octane-blueprint).
@@ -35,6 +36,7 @@ This tutorial provides an intro to:
 - and Co-locating component templates and classes for easy development
 
 Try out Ember Octane today which [@CodingItWrong](https://github.com/CodingItWrong) calls the “simplest, most straightforward, most productive frontend framework!”
+<!-- alex enable easy -->
 
 ---
 

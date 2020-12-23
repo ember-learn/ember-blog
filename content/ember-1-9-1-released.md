@@ -91,8 +91,7 @@ they trigger a top-level navigation and thus a potential exploit: `a`,
 `body`, `link`, `iframe`, and `img`.
 
 We'd like to thank Mano and Manoharan from Zoho for responsibly disclosing
-this potential XSS vector and working with us to find a solution that makes
-it as easy as possible for developers to write secure apps.
+this potential XSS vector and working with us to find a solution that helps developers write secure apps.
 
 ## Changelogs
 

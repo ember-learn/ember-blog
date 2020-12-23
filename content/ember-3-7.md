@@ -77,7 +77,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
-You may upgrade Ember CLI easily using the ember-cli-update project:
+You may upgrade Ember CLI using the ember-cli-update project:
 
 ```bash
 npm install -g ember-cli-update
@@ -94,7 +94,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ##### Compatibility section in addon README (1 of 2)
 
-Whenever you generate a new addon using Ember CLI it will automatically generate a README file for your addon. With Ember CLI 3.7 this README will now include a compatibility section that will allow you to easily communicate to users of the addon what is needed to use the addon.
+Whenever you generate a new addon using Ember CLI it will automatically generate a README file for your addon. With Ember CLI 3.7 this README will now include a compatibility section that will allow you to better communicate to users of the addon what is needed to use the addon.
 
 ##### Remove last usage of Babel 6 (2 of 2)
 

@@ -10,6 +10,7 @@ tags:
 
 We're just a few weeks away from the release of Ember 1.13 and Ember 2.0 beta, and while there's been a lot of focus on those releases, the trains will keep rolling on June 12. There will be a 2.1 release 6 weeks hence, and a 2.2 release 6 weeks later.
 
+<!-- alex ignore easy -->
 With all of the focus on Ember 2.0, it's easy to forget that 2.0 is just a six-week release, with the added ability to remove some built-up cruft. Because of the symbolic nature of 2.0, discussions about the future have had an artificial end date of June 12, which is now just three weeks away.
 
 This post gives some more details about what cruft will be removed in Ember 2.0, but, since the first features in Ember 2.1 will land in Canary just three weeks hence, what we plan to do in the early releases of Ember 2.x.
@@ -89,6 +90,7 @@ These lifecycle hooks will fire on all components (but not views), regardless of
 
 ## Angle Bracket Components
 
+<!-- alex ignore easy -->
 Angle bracket components (`<my-component>`) are a very important part of the Ember 2.x programming model. In addition to nicer syntax, they serve as an opt-in for component changes that we could not easily make compatibly, such as default one-way bindings.
 
 We originally thought that angle-bracket components would land in time for Ember 1.13, and they have already landed on Canary, and were included in the first 1.13 beta release.

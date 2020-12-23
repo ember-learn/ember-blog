@@ -53,6 +53,7 @@ Worst of all, and something that we can't code or document around, SVG `<use>` e
 
 ### How Do I Migrate?
 
+<!-- alex ignore easy -->
 Existing applications are able to continue using `baseURL` with a deprecation warning. For users who do want to migrate, the steps depend primarily on how your application is deployed. It's our goal is to make it easy for you to achieve the same behaviors you've had in the past.
 
 #### New Applications

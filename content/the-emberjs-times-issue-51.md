@@ -31,7 +31,7 @@ This is what's happened in Emberland this week 🐹:
 A polyfill that is now available is [ember-named-arguments-polyfill](https://github.com/rwjblue/ember-named-arguments-polyfill) which polyfills the named arguments feature to work for Ember 2.10+.
 
 This is helpful for add-on authors who want to leverage the named arguments feature for a cleaner template. So, components receiving an argument named `foo` can now do:
-`{{@foo}}`. This allows you to easily distinguish arguments from local variables, computed properties and such.
+`{{@foo}}`. This allows you to distinguish arguments from local variables, computed properties and such.
 
 Named arguments already landed in [Ember 3.1](https://www.emberjs.com/blog/2018/04/13/ember-3-1-released.html#toc_named-arguments-1-of-4) so this polyfill is for anyyone who didn't upgrade but still wants to use the feature.
 

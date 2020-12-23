@@ -17,7 +17,7 @@ tags:
 
 You can find our newsletter in both [the e-mail](https://the-emberjs-times.ongoodbits.com/)
 and the [blog format](https://emberjs.com/blog/2018/04/27/the-emberjs-times-issue-44.html).
-Share it even more easily with all your Ember friends!
+Share it with all your Ember friends!
 
 In this edition, we will share updates for **Ember CLI**, what's upcoming
 for Ember **documentation** very, very soon, and the latest **Ember patch** release that

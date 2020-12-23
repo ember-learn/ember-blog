@@ -7,7 +7,7 @@ tags:
   - '2014'
 ---
 
-
+<!-- alex ignore easy -->
 If you've been following along, the Ember issues tracker has grown to over 200 active issues. While this is better than some other large OSS projects, it's still too large for us on the core team to easily keep track of. There are also a number of issues that are over six months old and even a year or two old.
 
 Declaring straight-up issue bankruptcy is appealing, but does a disservice to everyone involved. There's a lot of useful information here for the core team and many of these issues are things we are actively working on solving. So we're attempting to cut down on the number of issues in a bit more targeted way.

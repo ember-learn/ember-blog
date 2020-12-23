@@ -31,7 +31,7 @@ Some of the things we've already been doing:
 - New Contributor Mentorship, the (currently informal) process where experienced contributors in the Ember ecosystem pair up with those who are learning and exploring.
 - Meetup Support, where organizers of groups around the world support each other and share ideas about the things that are and aren’t working for their groups. Meetup organizers also get together at EmberConf to share ideas and tips.
 
-There wasn't a central online listing of or hub for all these initiatives, and unifying them under the new single umbrella will make it easy for that information to get organized and dispersed. (For now, the largest collection of details is on [the EmberConf site](https://emberconf.com/mentorship-program.html), but new pages are in the works to port all this content to the Ember website soon.)
+There wasn't a central online listing of or hub for all these initiatives, and unifying them under the new single umbrella will help with organizing and sharing that information. (For now, the largest collection of details is on [the EmberConf site](https://emberconf.com/mentorship-program.html), but new pages are in the works to port all this content to the Ember website soon.)
 
 ## What’s New?
 

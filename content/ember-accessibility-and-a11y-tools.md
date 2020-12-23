@@ -18,6 +18,7 @@ _This article was written as of Ember.js version 3.1. The same approach applies 
 
 ## Using ember-a11y-testing
 
+<!-- alex ignore easy -->
 We don't have to learn a thousand rules to start building accessible apps. There are amazing community contributors who are working hard to make it as easy as possible to follow web best practices, and they created a set of tools referred to as [ember-a11y](https://github.com/ember-a11y).
 
 [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing) is an addon that reveals actionable improvements to your app's accessibility and guides us through making the changes.

@@ -99,6 +99,7 @@ To that end, I wrote a "Core Concepts" guide that I hope you will find
 helpful. It's not up yet (I'm still working on a branch of the website)
 but you can [view the Markdown on GitHub](https://github.com/emberjs/website/blob/doc-refactor/source/guides/getting-started/core-concepts.md).
 
+<!-- alex ignore easy -->
 We want to make Ember.js as easy for new developers to pick up as
 possible, so your feedback about our documentation, as always, is
 extremely important. Please review and let me know what you think!
