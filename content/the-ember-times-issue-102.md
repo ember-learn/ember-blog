@@ -41,6 +41,7 @@ Here are the highlights from this week's posts:
 
 [@efx](https://github.com/efx) shared [thoughts on existing posts](https://www.typedspace.com/2019-ember-js-roadmap/).
 
+<!-- alex ignore just -->
 > I think we should treat learning as important as the technical ideas that distinguish ember.js. [...] My fabulous colleagues have often asked spot-on, difficult questions about the guide's admonitions to do something a particular way. I too often resort to shallow "that is just the way it is" answers.
 
 ---

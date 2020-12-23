@@ -22,6 +22,7 @@ HTMLBars' attribute helpers instead of jQuery's.
 Unfortunately, this work lead to an error when `CollectionView` instances were used with
 `attributeBindings` specified.  This regression is fixed in 1.11.1.
 
+<!-- alex ignore invalid -->
 ### Invalid URLs
 
 Refactoring in the router initialization process lead to a bug that caused the browsers URL
@@ -42,7 +43,7 @@ regression was first introduced in 1.11.0-beta.4.
 
 ### Incorrect Assertion for {{each foos itemControler='bar'}}
 
-During the 1.11.0 cycle an issue regarding `{{each}}` with prototype extensions disabled was reported.
+During the 1.11.0 cycle, an issue was reported regarding `{{each}}` when prototype extensions were turned off.
 The solution to that issue was to add a much more helpful assertion when an `ArrayController`'s model
 did not have `Ember.Array` mixed into it. Unfortunately, this assertion also was triggered when the
 model was simply `undefined`. The assertion has been updated to ignore falsey `model`'s in 1.11.1.
@@ -52,7 +53,7 @@ model was simply `undefined`. The assertion has been updated to ignore falsey `m
 
 In 1.11.0 using the `{{render}}` helper (i.e. `{{render 'post'}}`) when a `PostView` is present would not
 provide the view with a template (it was assumed to be manually specified in the view via `templateName`
-property). As of 1.11.1 you can specify the `templateName` in the `{{render}}` helpers view (just like in 1.11.0),
+property). As of 1.11.1 you can specify the `templateName` in the `{{render}}` helpers view (similarly to in 1.11.0),
 but if you do not the views template will be defaulted to a template with the same name as the view itself.
 
 ## Changelogs

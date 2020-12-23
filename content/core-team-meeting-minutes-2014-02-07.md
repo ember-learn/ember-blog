@@ -94,7 +94,7 @@ The core team reviewed the following pull requests for already enabled in canary
 
 #### Feature Process
 
-We reviewed the a proposed change to the process for adding features. This isn't a major departure, just an iteration
+We reviewed the a proposed change to the process for adding features. This isn't a major departure, but an iteration
 on what we are currently doing:
 
 Process:

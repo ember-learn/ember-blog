@@ -20,8 +20,8 @@ can confidently make guarantees around not breaking the API. Specifically:
 2. All relationships will become async, but DataBoundPromises will make them
    work well in observers, computed properties and in templates.
 
-Just like how it took us a few attempts to get the router right—but now we've
-got the best one in JavaScript—getting Ember Data right has taken longer than
+Recall how it took us a few attempts to get the router right, but now we've
+got the best one in JavaScript. Getting Ember Data right has taken longer than
 we thought, but it's here and it's almost ready for a 1.0.
 
 * * *
@@ -64,6 +64,7 @@ domain-specific relationships quickly ends up with their own ad hoc
 mini-framework. As we did with Ember, we wanted to look at the problems shared
 across all of these applications, and tease out the core abstractions.
 
+<!-- alex ignore just -->
 We wanted to build something that was powerful, to help save time for advanced
 developers, while also being accessible to developers just getting started with
 client-side web applications.
@@ -96,7 +97,7 @@ I'll spare you the details, but the permutations get even more complex when you
 introduce things like streaming changes from the server over a socket.
 
 The point of highlighting the essential complexity here is to demonstrate that
-we couldn't just hardcode support for each one; each representation will likely
+we couldn't hardcode support for each one; each representation will likely
 co-exist and interoperate with multiple other representations.
 
 One-way relationships aren't too bad--you can get pretty far with hand-rolled
@@ -177,7 +178,7 @@ an Ember Data relationship in a template or in a computed property? How would
 that work?
 
 Ember Data 1.0 introduces a subclass of Promise called `DataBoundPromise`. This
-object allows you to observe properties on the Promise, just as you would on a
+object allows you to observe properties on the Promise, as you would on a
 normal object. When the promise resolves, those properties will be updated to
 match the underlying object. If you `get` a property from a `DataBoundPromise`
 when it is unresolved, it will return `undefined`.
@@ -230,6 +231,7 @@ Earlier on, when we started with Ember Data, we tried to codify good practices, 
 
 In order to make sure that the community would still be able to build on top of the Ember Data abstraction, we tried our best to isolate the code that is different between applications to the Adapter. This means that if someone writes a plugin for Ember Data, they can assume that models and relationships will look the same in all apps that use it, even though application backends can vary considerably.
 
+<!-- alex ignore just -->
 In earlier versions of Ember Data, we were too religious about this separation, forcing every application to bear significant costs in the adapter layer. When we rebooted Ember Data six months ago, we took a hard look at striking a better balance between these competing concerns. Based on the feedback we've gotten since then, we believe that Ember Data is now a great fit for applications that have very unique backends, as well as applications that want direction on how to build a backend that "just works" with Ember Data.
 
 We are committed to getting things right before declaring 1.0. The router in Ember.js went through several similar iterations, which were painful at the time, but we believe the results speak for themselves. Adapting to real-world usage is an important part of our design process, and we will always prioritize thinking through problems carefully over rushing to ship.

@@ -45,7 +45,7 @@ But what about all the other cool things that we mentioned in previous editions 
 When are all of these proposal finally gonna land?
 
 Features which haven't found their way into a stable release and have not been recommended by the [official Guides](https://github.com/ember-learn/guides-app) yet,
-might in fact have landed already. Like a hidden gem they just sit there for a while, only noticed by a few,
+might in fact have landed already. Like a hidden gem, they sit there for a while, only noticed by a few,
 but still ready to be tested and improved until they make it into a stable release.
 And so it seems some of the most exciting API changes in Ember this year have still **gone unnoticed**:
 But [AngleBracketComponents](#toc_a-href-https-github-com-rwjblue-ember-named-arguments-polyfill-back-to-the-future-a),

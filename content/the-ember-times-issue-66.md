@@ -52,7 +52,7 @@ Check it out on the [GitHub repo](https://github.com/mixonic/ember-cli-deprecati
 
 Ever had the need to read **query params (QPs)** off a `Controller` and pass it down to a component to change its UI state depending on the QP value?
 
-Ever had a hard time passing down QP values through layers and layers of components to do just that?
+Ever had a hard time passing down QP values through layers and layers of components?
 
 It doesn't have to be this way. Read [this new RFC](https://github.com/emberjs/rfcs/pull/380) about exposing QPs as a _computed property_ on the `RouterService`. It proposes that this `Service` can then be injected into components, which makes laborious passing of QP data obsolete.
 
@@ -73,7 +73,7 @@ Going forward the plan is to provide better testing for cases like this so you a
 Inspired by **Module Unification**, [@NullVoxPopuli](https://github.com/NullVoxPopuli) has
 written an article on **general project structure for single page apps.**
 In the article he explains how structure is not specific to Ember, React, Vue, or anything else,
-but just needs to meet a set of guidelines for some common desired goals.
+but needs to meet a set of guidelines for some common desired goals.
 
 Read it here: [_A general and flexible file structure that works for all projects in any ecosystem_](https://dev.to/nullvoxpopuli/a-general-and-flexible-file-structure-that-works-for-all-projects-in-any-ecosystem-1lp9)
 

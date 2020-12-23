@@ -269,7 +269,7 @@ While `store.findRecord` and `store.findAll` now have sensible caching defaults
 and are easy to override in specific places in the app, oftentimes your app and
 adapter layer have specific knowledge related to caching. For example, your backend
 might have given you an `expires` header, or you may not want to try fetching background updates if the network is down. To support these use cases, we have added new adapter
-hooks to customize caching app wide beyond just passing options to `findRecord` and `findAll`.
+hooks to customize caching app wide beyond passing options to `findRecord` and `findAll`.
 
 Now, whenever you call `findRecord` or `findAll`, and the record is already cached in the store, the store will ask the adapter whether it needs to immediately reload it, or if it needs to update it in the background.
 
@@ -400,7 +400,7 @@ store.push({
 
 This allows for much better and fine grained meta handling, and ensures we do
 not have to support, maintain and document a completely custom JSON format
-as we had to until now, but can just reference the [JSON API specification](http://jsonapi.org/).
+as we had to until now, but can reference the [JSON API specification](http://jsonapi.org/).
 
 We will be publishing an [ember-watson](https://github.com/abuiles/ember-watson) helper that will be rewriting all the uses
 of `store.push` inside your tests to the new format, as well as addon with helpers
@@ -431,12 +431,12 @@ from `extract` hooks but also doing `store.push` with other data was both confus
 hard to debug and optimize and also prevented us from implementing proper metadata support, especially for sideloaded arrays and records.
 
 In Ember Data 1.13 this process has been greatly simplified. **In 1.13 Serializers
-should just make the whole payload conform to the JSON API spec, and return the whole payload**. They should no longer `store.push` themselves.
+should make the whole payload conform to the JSON API spec, and return the whole payload**. They should no longer `store.push` themselves.
 
 In order to be backwards compatible, we created a new hook `normalizeResponse` which
-Serializers should now implement, and just return JSON API from that hook.
+Serializers should now implement and return JSON API from that hook.
 
-For example a Serializer responsible for normalizing the above sample payload would just transform it to:
+For example a Serializer responsible for normalizing the above sample payload would transform the payload to:
 
 ```javascript
 {
@@ -606,7 +606,7 @@ handleResponse: function(status, headers, payload) {
 ```
 
 You could also subclass two helper methods, `isInvalid` and `isSuccess`
-to customize when you adapter considers a request succesful or invalid.
+to customize when you adapter considers a request succesful or not valid.
 
 Default implementation of `isInvalid` returns
 true if http status code is `422`, however, you may desire other

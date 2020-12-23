@@ -11,8 +11,8 @@ tags:
 
 
 We are pleased to announce that both Ember.js 1.3.0 and the first beta in the 1.4 series
-have just been released. This comes as the third cycle of our six-week release
-process that began just after 1.0 was released.
+have been released. This comes as the third cycle of our six-week release
+process that began after 1.0 was released.
 
 ### New in 1.3
 

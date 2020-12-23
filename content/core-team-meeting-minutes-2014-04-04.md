@@ -121,7 +121,7 @@ core team member and let them know!
   **Resolution**
 
    It is possible to transition to a globbing route, but like any target route with a dynamic segment, you need to
-   provide a object / param, which in this case can just be a string of the path you want to use for that globbed segment:
+   provide a object / param, which in this case can be a string of the path you want to use for that globbed segment:
 
    `this.transitionTo('yargle', "MY/COOL/URL");`
 

@@ -183,6 +183,7 @@ to specify the HTTP method or
 provide custom HTTP headers per request. This feature has been available
 in beta builds since the 2.8 beta cycle.
 
+<!-- alex ignore invalid -->
 Unfortunately, this feature slipped into the code base without going
 though a proper RFC process. Despite being enabled in the beta channel
 for a while now, we decided that it should be disabled again in favour

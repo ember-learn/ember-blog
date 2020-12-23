@@ -141,7 +141,7 @@ This is an experiment to see if using decorators and a separate service to manag
 
 ## [One Hundred (and One) Editions of The Ember Times 📰 🎉](https://twitter.com/search?f=tweets&vertical=default&q=%23100EmberTimes)
 
- **The Ember Times**, one of your favourite news outlets about what's going on with Ember and its ecosystem, has just shipped its **one hundredth (and first) edition**! 🎉 The Ember Times now looks back at a long journey that started out over more than three years ago:
+ **The Ember Times**, one of your favourite news outlets about what's going on with Ember and its ecosystem, has shipped its **one hundredth (and first) edition**! 🎉 The Ember Times now looks back at a long journey that started out over more than three years ago:
 
 In its [first release on May 2nd 2016](https://the-emberjs-times.ongoodbits.com/2016/05/03/issue-1), Ember Learning and Framework Core team member **Ricardo Mendes**, also known as [@locks](https://github.com/locks) 🔒, wrote - among many other topics - about the motivation of the newsletter, the recent issue triaging work by [@pixelhandler](https://github.com/pixelhandler) and the [recent implementation efforts](https://github.com/emberjs/ember.js/pull/13316) to get **Glimmer 2**, Ember's super-fast rendering engine, over the finish line. 🏁
 

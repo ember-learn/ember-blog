@@ -36,8 +36,8 @@ Ember 1.0 Prerelease includes what we think is the most advanced tool
 for modeling your application's state: `Ember.Router`. The router allows
 you to describe the state of your application as discrete objects, which
 means it's impossible for your application to ever get into a "bad
-state." And because the URL is just a serialization of your
-application's state, you just tell us how to build the URL and we'll
+state." And because the URL is a serialization of your
+application's state, you tell us how to build the URL and we'll
 keep it up-to-date as your users move throughout the application.
 
 <!-- alex ignore easy -->

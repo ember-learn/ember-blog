@@ -82,6 +82,7 @@ By choosing Ember, you can **save your development team time**, particularly onc
 
 But it can be **challenging** to sway folks outside of the community to Ember. For example, another survey respondent shared:
 
+<!-- alex ignore just -->
 > [Ember] just isn't used broadly enough in my part of the country to encourage people in that direction. The exception is for a large team that is starting from scratch - there I would recommend it still.
 
 This quote reminded us of our past Readers’ Question from [@kategengler](https://github.com/kategengler), where she discussed ["How do I pitch Ember at my company?"](https://discuss.emberjs.com/t/readers-questions-how-do-i-pitch-ember-at-my-company/14289) We thought it would be worthwhile to share some of her tips again:
@@ -102,7 +103,7 @@ Of course the community survey highlights and reinforces so many of the aspects 
 
 Specifically the survey **empowers** community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
 
-Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL) we heard at EmberConf in 2019, like [@MelSumner](https://github.com/melsumner)'s amazing talk [Don't Break The Web](https://noti.st/melsumner/Phhimm/dont-break-the-web), highlighted the importance of improving accessibility not just in Ember, but across the web as a whole.  
+Also, some of the [excellent talks](https://www.youtube.com/playlist?list=PLE7tQUdRKcyYWLWrHgmWsvzsQBSWCLHYL) we heard at EmberConf in 2019, like [@MelSumner](https://github.com/melsumner)'s amazing talk [Don't Break The Web](https://noti.st/melsumner/Phhimm/dont-break-the-web), highlighted the importance of improving accessibility not only in Ember, but also across the web as a whole.  
 
 The results of the survey's [skillset self-appraisal](https://emberjs.com/ember-community-survey-2019/#stack-skills) underscore this point. While many survey participants identified themselves as possessing advanced skills in areas like Ember, JavaScript, HTML and CSS, almost 70% of participants self-identified at a beginner level skill regarding Accessible Rich Internet Applications (ARIA). So it turns out many of us can improve our skills in building **accessible applications**, let's seize the opportunity to improve and act on this data! ✨💪✨
 

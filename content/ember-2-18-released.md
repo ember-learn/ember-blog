@@ -218,10 +218,9 @@ Previously, if you were npm-linking an addon that had itself npm-linked a depend
 
 #### `crossdomain.xml` removed for new applications
 
+<!-- alex ignore hostesses-hosts -->
 `crossdomain.xml` was originally introduced to limit vulnerabilities when
-using the Flash Player.
-It did this by declaring which hosts the Flash Player could connect to outside
-the one hosting the file.
+using the Flash Player. It did this by declaring which hosts the Flash Player could connect to outside the one hosting the file.
 Browsers have since disabled Flash for security reasons, rendering the file moot.
 Ember CLI 2.18 will no longer generate the file for new applications.
 

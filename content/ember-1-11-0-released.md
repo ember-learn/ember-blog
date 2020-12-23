@@ -12,7 +12,7 @@ tags:
 
 We are pleased to announce the release of both Ember.js 1.11.0 and the
 first beta in the 1.12 series. This comes as the eleventh cycle of our
-release process that began just after 1.0 was released.
+release process that began after 1.0 was released.
 
 The 1.11 release represents the effort of at least 87 contributors
 across over 646 commits.
@@ -109,7 +109,7 @@ bound `style` attributes will warn when the value is not marked safe.
 ```
 
 The examples that follow are intended to demonstrate how this
-works in practice. For example these bindings Just Work:
+works in practice.
 
 ```handlebars
 {{! Works as expected }}

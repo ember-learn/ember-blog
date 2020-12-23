@@ -20,11 +20,11 @@ In this context, where the JavaScript app looks like a "normal" web page, loadin
 
 Being able to boot JavaScript apps on the server and "rehydrate" in the browser has been considered a Holy Grail for some time. However, most  attempts have focused solely on rendering the view layer on the server into HTML. This is an important step, but this alone does not sufficiently solve the problem.
 
-Solving the whole problem involves not just the view layer, but the entire lifecycle of booting an application: routing, fetching models, and rendering. By leaning heavily on Ember's conventional application structure, we can move this complexity out of each application and into the framework.
+Solving the whole problem involves not only the view layer, but also the entire lifecycle of booting an application: routing, fetching models, and rendering. By leaning heavily on Ember's conventional application structure, we can move this complexity out of each application and into the framework.
 
 We are building this feature into Ember.js, **and we're calling it FastBoot**.
 
-FastBoot will allow you to deliver the HTML and CSS for a page in your Ember app right away, then allow the JavaScript to take over once it has finished loading. Your Ember app will behave no differently than server-rendered apps when it comes to search engines, mobile users, cURL, or users with JavaScript disabled.
+FastBoot will allow you to deliver the HTML and CSS for a page in your Ember app right away, then allow the JavaScript to take over once it has finished loading. Your Ember app will behave no differently than server-rendered apps when it comes to search engines, mobile users, cURL, or users who turned off JavaScript.
 
 For everyone else, you'll still have the responsiveness and interactivity users have come to expect from Ember apps.
 
@@ -40,7 +40,7 @@ That being said, we have always kept this feature in mind as we were architectin
 
 Even during the most recent HTMLBars effort, which is inherently a DOM-based rendering engine, we made sure to use an [abstraction](https://github.com/tildeio/htmlbars/blob/master/packages/morph/lib/dom-helper.js) whenever we touched the DOM, so that we could swap it out for something else on the server. Similarly, when we designed the router, all communication with the URL went through a "[location](https://github.com/emberjs/ember.js/blob/master/packages/ember-routing/lib/location/api.js)" abstraction, instead of touching the URL bar directly. The routing microlibraries we built ([router.js](https://github.com/tildeio/router.js) and [route-recognizer](https://github.com/tildeio/route-recognizer)) were designed from the beginning to be decoupled from the DOM.
 
-Because of this, we were able to get the Ember framework executing in Node in just a day of work, and were able to get an app completely booted and routing in under a week.
+Because of this, we were able to get the Ember framework executing in Node in one day, and were able to get an app completely booted and routing in under a week.
 
 ## Abstracting Feature Detection
 
@@ -48,7 +48,7 @@ One of the first problems we encountered when trying to execute Ember in node wa
 
 While the vast majority of the subsequent code was resilient to environments without a DOM, the feature detection and helpful assertion messages ("you're using an old version of jQuery") was sloppy because it historically wasn't expecting to run in Node.
 
-To address this issue, we moved all top-level assumptions into [an `environment` abstraction](https://github.com/emberjs/ember.js/blob/master/packages/ember-metal/lib/environment.js). If you look at it, it's really boring; it just lets top-level code throughout the framework quickly short-circuit if basic DOM facilities are missing.
+To address this issue, we moved all top-level assumptions into [an `environment` abstraction](https://github.com/emberjs/ember.js/blob/master/packages/ember-metal/lib/environment.js). If you look at it, it's really boring; it lets top-level code throughout the framework quickly short-circuit if basic DOM facilities are missing.
 
 ## The Container and Session
 
@@ -68,6 +68,7 @@ This also works fine in tests, with the exception that we are doing more work th
 
 When running on the server, however, we realized that a single Ember application needs to be able to continue serving requests even if a previous request is waiting for an async operation (such as fetching a model) to complete.
 
+<!-- alex ignore host-hostess -->
 This means that we needed to tweak our approach and allow applications to host multiple of what we call "sessions" at a time. Sessions allow us to separate the code registry (which doesn't change once the app is booted) from the application state.
 
 ![Architecture diagram showing state extracted into Session objects](/images/blog/2014-12-22-inside-fastboot-the-road-to-server-side-rendering/new-school.png)

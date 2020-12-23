@@ -54,6 +54,7 @@ for more information.
 
 ### Bound handlebars helpers
 
+<!-- alex ignore just -->
 Ember.Handlebars just got a little bit smarter. `Ember.Handlebars.registerBoundHelper`
 provides a way to create your own bound custom helpers.
 

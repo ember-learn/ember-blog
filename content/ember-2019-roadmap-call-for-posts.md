@@ -36,7 +36,7 @@ Your post can be on any online writing platform, but we suggest:
 
 ### _Topic ideas_
 
-We'd like to hear about any aspect of Ember you have hopes for in 2019--not just about the Ember.js framework. Please include your desires for Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related.
+We'd like to hear about any aspect of Ember you have hopes for in 2019--not only about the Ember.js framework. Please include your desires for Ember Data, Ember CLI, learning, tooling, the community, addons, and anything else Ember-related.
 
 Here are some broad ideas that might help you get started:
 

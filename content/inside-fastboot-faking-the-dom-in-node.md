@@ -39,7 +39,7 @@ library.
 Importantly, `simple-dom` implements a very, very small subset of the WHATWG
 DOM specification, optimized for performance, and for the requirements
 of the Ember view layer. For example, it does not implement any part of
-the DOM that would require the use of accessors; it's just an attempt to
+the DOM that would require the use of accessors; it only attempts to
 faithfully represent the DOM as a **data structure**, not its complete
 API surface. (If you need the whole enchilada, check out something like
 [jsdom](https://github.com/tmpvar/jsdom), which is much more complete.)
@@ -53,14 +53,15 @@ provided by `simple-dom` rather than relying on the global `document`.
 This week, with our implementation of "the little DOM that could," we were
 able to get more and more sophisticated templates rendering to a string.
 
-First, we started with just a simple template that printed a string:
+First, we started with a simple template that printed a string:
 `<h1>Hello</h1>`.
 
 Then we moved on to bound expressions, so `<h1>Hello {{location}}</h1>`
 became `<h1>Hello World</h1>`.
 
+<!-- alex ignore just -->
 Yesterday, we got `{{#if}}` helpers and nested components working as
-well.  (Other helpers likely work, we just have not written tests for
+well. (Other helpers likely work; we just have not written tests for
 them yet.)
 
 Now that we have bare-bones rendering in place, we are theoretically

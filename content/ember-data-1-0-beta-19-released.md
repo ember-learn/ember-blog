@@ -19,7 +19,7 @@ Thank you for helping us push toward a stable release of Ember Data!
 
 `changedAttributes`, which represents the changes that have happened
 since the model was last synced with the server, are now available on
-the snapshot in your adapters and serializers, instead of just on
+the snapshot in your adapters and serializers, instead of on
 `DS.Model` instances.
 
 ## Breaking Changes

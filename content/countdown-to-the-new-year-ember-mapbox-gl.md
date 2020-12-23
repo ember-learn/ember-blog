@@ -179,6 +179,7 @@ Much of ember-mapbox-gl is simply a _bindings_ layer. It provides a declarative 
 
 ### Note on map data providers
 
+<!-- alex ignore host-hostess -->
 I'm a little disappointed by the dearth of free and open _vector_ map data providers. That said, if you find that you would like to host your own map tile provider, check out [OpenMapTiles](https://openmaptiles.org/). It's a free and open source server that hosts those tile URLs we were using at the beginning. My team uses it and have had no issues.
 
 Thanks for reading! If you have any questions, please message me via the [Ember Discord](https://discord.gg/emberjs) chat (Matt Gardner#6278).

@@ -48,7 +48,7 @@ There are more proposed solutions in [the RFC](https://github.com/emberjs/rfcs/b
 
 Have you ever wanted to **track** specific keywords for a particular route in your Ember app, but didn't know how to do so in an elegant fashion? Have you tried to update the `document.title` of a page depending on the specific point of time at which a route was visited, but realized that this couldn't be done without some effort?
 
-Then a brand-new **Request for Comments (RFC)** is just for you! The proposal [_RouteInfo Metadata_](https://github.com/emberjs/rfcs/pull/398) suggests a new way for reading and writing **application-specific metadata** to the corresponding _RouteInfo_ object. For more context on which information routes currently provide, be sure to also check out [the section about the RouteInfo type from the original RouterService RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md#routeinfo-type).
+Then a brand-new **Request for Comments (RFC)** is for you! The proposal [_RouteInfo Metadata_](https://github.com/emberjs/rfcs/pull/398) suggests a new way for reading and writing **application-specific metadata** to the corresponding _RouteInfo_ object. For more context on which information routes currently provide, be sure to also check out [the section about the RouteInfo type from the original RouterService RFC](https://github.com/emberjs/rfcs/blob/master/text/0095-router-service.md#routeinfo-type).
 
 And finally, read the full _RouteInfo Metadata_ proposal to learn more and leave your thoughts and questions in the [comments below the proposal](https://github.com/emberjs/rfcs/pull/398).
 

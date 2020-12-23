@@ -131,7 +131,7 @@ angle-bracket components.
 {{!-- title is a mutable two-way binding --}}
 {{my-component title=model.name}}
 
-{{!-- title is just an (immutable) value --}}
+{{!-- title is an (immutable) value --}}
 <my-component title={{model.name}} />
 ```
 
@@ -320,7 +320,7 @@ component to modify it. There are only a handful of additional
 characters, but the intent of the code is far clearer, both when the
 component is invoked and when the component is updating the attribute.
 
-In other words, `{{mut}}` just produces a regular JavaScript value that
+In other words, `{{mut}}` produces a regular JavaScript value that
 contains both the current value and a way to update it. The lifecycle
 hooks will fire at the same times as well.
 
@@ -380,7 +380,7 @@ Because `big-button` is simply invoking a function, the invoking
 component can provide whatever function it wants.
 
 Another nice touch, `action` works seamlessly with `mut`. This means
-that from the component's perspective, it's just calling a callback, but
+that from the component's perspective, it's only calling a callback, but
 the code that calls the component can pass in a callback that
 updates one of its values.
 
@@ -407,8 +407,7 @@ into a function that can be invoked.
 
 A component that wishes to support mutable bindings as actions need only
 invoke the callback with a new value. Actions from the `actions` hash,
-and even regular functions passed as `on-enter={{func}}` will work just
-fine.
+and even regular functions passed as `on-enter={{func}}` will work fine.
 
 ### Routeable Components
 

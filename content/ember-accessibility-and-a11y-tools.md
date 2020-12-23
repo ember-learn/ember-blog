@@ -10,7 +10,7 @@ tags:
 ---
 
 
-What is it like to build an accessible Ember app? With just a few lines of code, you can audit your app for problems, get customized advice on how to fix them, and see visual indications of which things on a page need work. We'll walk through an example using the [Super Rentals](https://github.com/ember-learn/super-rentals) app from Ember's [official tutorials](https://guides.emberjs.com/current/tutorial/ember-cli/). We'll also cover some improvements being made to Ember itself for a better experience out of the box.
+What is it like to build an accessible Ember app? With a few lines of code, you can audit your app for problems, get customized advice on how to fix them, and see visual indications of which things on a page need work. We'll walk through an example using the [Super Rentals](https://github.com/ember-learn/super-rentals) app from Ember's [official tutorials](https://guides.emberjs.com/current/tutorial/ember-cli/). We'll also cover some improvements being made to Ember itself for a better experience out of the box.
 
 An [accessible app](https://en.wikipedia.org/wiki/Web_accessibility) is one that gives all users equal access to information and functionality, including those who use Assistive Technology like screen readers. This kind of work is sometimes abbreviated as `a11y`. There are set standards called the [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/), and in many cases, [it's the law](https://www.w3.org/WAI/Policy/).
 
@@ -69,7 +69,7 @@ It's important to incorporate the check into the test suite, because in larger a
 
 ### Run the test suite
 
-Start up your app with `ember serve` and then navigate to [http://localhost:4200/tests](http://localhost:4200/tests) to see the browser-based test runner. Sure enough, we see some problems! Just like we saw in the console earlier, there are specific error messages and links to resources that help us to fix the problems.
+Start up your app with `ember serve` and then navigate to [http://localhost:4200/tests](http://localhost:4200/tests) to see the browser-based test runner. Sure enough, we see some problems! Like we saw in the console earlier, there are specific error messages and links to resources that help us to fix the problems.
 
 ![Errors in the tests route](/images/blog/2018-06-17-ember-accessibility-and-a11y-tools/route-test-errors.png)
 
@@ -105,7 +105,7 @@ Fixing issues with contrast, aria labels, and DOM elements is an important step 
 
 ## Using ember-a11y-landmarks for roles
 
-Here's just one example of an addon that helps reduce the number of changes to make by hand. The [ember-a11y-landmarks](https://github.com/ember-a11y/ember-a11y-landmarks) addon helps manage the roles that should go on semantic tags like `<header>` and `<nav>`, without needing to learn the intricacies of when to use them.
+Here's one example of an addon that helps reduce the number of changes to make by hand. The [ember-a11y-landmarks](https://github.com/ember-a11y/ember-a11y-landmarks) addon helps manage the roles that should go on semantic tags like `<header>` and `<nav>`, without needing to learn the intricacies of when to use them.
 
 One huge thing you can do to improve an app's accessibility is to use semantic tags in the HTML. For example, always use `<button>` for buttons, instead of making them `divs`. However, some semantic tags still need extra attributes called roles for screen readers to work right, and they only need them some of the time based on their position in the DOM. ember-a11y-landmarks to the rescue!
 
@@ -154,7 +154,7 @@ Install it and replace instances of `{{outlet}}` with
 
 So why is this necessary? If you're looking at a decently accessible website and you hit the tab key, you'll see the focus jump between different elements - things get highlighted. Front end frameworks like Ember sometimes get in the way of the DOM structure that works best for screen reader focus, since as you move between routes, only part of the page changes. The contents of `{{outlet}}` are dynamic.
 
-The problem is that screen readers rely heavily on what has focus. Imagine if you had to start reading at the very top of the page whenever a route in your app changed, instead of just reading the content that is new, or if you weren't able to tell that some content had changed! ember-a11y corrects for that focus problem so that Assistive Technology navigation using focus works correctly. From the README:
+The problem is that screen readers rely heavily on what has focus. Imagine if you had to start reading at the very top of the page whenever a route in your app changed, instead of reading the content that is new, or if you weren't able to tell that some content had changed! ember-a11y corrects for that focus problem so that Assistive Technology navigation using focus works correctly. From the README:
 
 > The current implementation of this addon will immediately apply focus to the most relevant piece of content based on actions users take (clicking buttons, links, etc). This allows screen readers to catch changes and read the right information, thus providing a much better experience for screen reader users.
 

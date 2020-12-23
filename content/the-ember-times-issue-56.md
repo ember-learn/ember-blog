@@ -29,7 +29,7 @@ in an Ember app near you soon! 🚀
 
 ## [Got Dependencies? 📦](https://github.com/ef4/ember-auto-import#dynamic-import)
 
-We’ve previously highlighted the great `ember-auto-import` by the wizardly [Edward Faulkner](https://github.com/ef4)🌟 as a way to import npm packages into your Ember app. With the latest update it just got way cooler.
+We’ve previously highlighted the great `ember-auto-import` by the wizardly [Edward Faulkner](https://github.com/ef4)🌟 as a way to import npm packages into your Ember app. With the latest update, it got way cooler.
 
 As he demonstrates in this [nice screencast](https://eaf4.com/dynamic-import-into-your-ember-app/), with v1.2.0 you can now lazy load dependencies via `import()`! The dynamic `import()` will load the dependency as well as all its recursive dependencies via a separate JavaScript file **at runtime**. That’s really awesome.
 

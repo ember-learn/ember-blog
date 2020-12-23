@@ -12,7 +12,7 @@ tags:
 What better way to celebrate the holiday season than with two
 brand-spankin' new releases of Ember.js?
 
-Hot off the presses, we've got 1.2.0 and 1.3.0 beta on deck just for
+Hot off the presses, we've got 1.2.0 and 1.3.0 beta on deck for
 you. Since we started following a [Chrome-like release
 cycle](/blog/2013/09/06/new-ember-release-process.html), we'll have two
 new releases for you every six weeks. 1.2.0 is the newest stable

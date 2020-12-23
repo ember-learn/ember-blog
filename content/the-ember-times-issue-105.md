@@ -95,7 +95,7 @@ Ember Inspector running, so if you would be interested in helping out, please re
 
 ## [Reminder: EmberFest CFP Deadline August 1st 🎤](https://cfp.emberfest.eu/events/emberfest-2019)
 
-A quick reminder that the [EmberFest](https://emberfest.eu/) **CFP deadline** is fast approaching. We are just short of a month away from the **August 1st** deadline, so get your talk in today!
+A quick reminder that the [EmberFest](https://emberfest.eu/) **CFP deadline** is fast approaching. We are only a month away from the **August 1st** deadline, so get your talk in today!
 
 Talks are **30 minutes long** and can range from in-depth technical talks to broader talks covering other aspects of software development.
 

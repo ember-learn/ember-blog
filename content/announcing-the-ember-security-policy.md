@@ -35,7 +35,7 @@ security releases of the framework. If you're deploying Ember to
 production, you or your security team may wish to subscribe.
 
 To be clear, there are no vulnerabilities we're aware of at this time
-and there is not a security release forthcoming. We just take security
+and there is not a security release forthcoming. We take security
 extremely seriously and believe that having a procedure in place ahead of
 time will allow us to respond most effectively should the
 worst happen.

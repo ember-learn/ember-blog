@@ -272,7 +272,7 @@ did it make new features more difficult to implement, it made it hard to
 implement them _efficiently_ out of the gate.
 
 As Ember has moved towards components and "data-down, actions-up", we wanted to
-do many optimizations that just weren't a good fit for the HTMLBars
+do many optimizations that weren't a good fit for the HTMLBars
 architecture. The lessons we learned from the spike ultimately leading us down
 the journey that is now known as the Glimmer 2 architecture. The underlying
 technologies are very interesting, but I will save those details for another

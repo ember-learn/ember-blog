@@ -10,7 +10,7 @@ tags:
 ---
 
 
-Just over a month ago, we told you about our [plans for stabilizing Ember
+A month ago, we told you about our [plans for stabilizing Ember
 Data](/blog/2013/03/22/stabilizing-ember-data.html). I'd like
 to give you an update on the status of those efforts.
 
@@ -57,7 +57,7 @@ You go to your manager's office and ask her about it.
 *"Oh yeah,"* she says, *"We didn't have time to learn how to setup an
 existing database, and our needs were pretty simple at the time. We
 decided to roll our own, lightweight database with a simplified query
-language.  I guess it sort of just grew over time as our needs grew."*
+language.  I guess it sort of grew over time as our needs grew."*
 
 Horrified, you tell her that you don't think it's going to be a good
 fit, turn in your badge, and head to your car.

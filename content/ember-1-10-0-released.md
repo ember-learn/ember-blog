@@ -12,7 +12,7 @@ tags:
 
 We are pleased to announce the release of both Ember.js 1.10.0 and the
 first beta in the 1.11 series. This comes as the tenth cycle of our
-release process that began just after 1.0 was released.
+release process that began after 1.0 was released.
 
 The 1.10 release represents the effort of at least 50 contributors
 across over 553 commits.

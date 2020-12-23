@@ -8,12 +8,12 @@ tags:
 ---
 
 
-We're just a few weeks away from the release of Ember 1.13 and Ember 2.0 beta, and while there's been a lot of focus on those releases, the trains will keep rolling on June 12. There will be a 2.1 release 6 weeks hence, and a 2.2 release 6 weeks later.
+We're a few weeks away from the release of Ember 1.13 and Ember 2.0 beta, and while there's been a lot of focus on those releases, the trains will keep rolling on June 12. There will be a 2.1 release 6 weeks hence, and a 2.2 release 6 weeks later.
 
-<!-- alex ignore easy -->
-With all of the focus on Ember 2.0, it's easy to forget that 2.0 is just a six-week release, with the added ability to remove some built-up cruft. Because of the symbolic nature of 2.0, discussions about the future have had an artificial end date of June 12, which is now just three weeks away.
+<!-- alex ignore easy just -->
+With all of the focus on Ember 2.0, it's easy to forget that 2.0 is just a six-week release, with the added ability to remove some built-up cruft. Because of the symbolic nature of 2.0, discussions about the future have had an artificial end date of June 12, which is now three weeks away.
 
-This post gives some more details about what cruft will be removed in Ember 2.0, but, since the first features in Ember 2.1 will land in Canary just three weeks hence, what we plan to do in the early releases of Ember 2.x.
+This post gives some more details about what cruft will be removed in Ember 2.0 and, since the first features in Ember 2.1 will land in three weeks, what we plan to do in the early releases of Ember 2.x.
 
 It's important to note that we've talked a lot about an improved "Ember 2 programming model" over the past several months, significantly inspired by React. While much of the model will be in place in Ember 2.0, the early releases of Ember 2.x (especially 2.1 and 2.2), will finish up some important features. This blog post details the expected timeline.
 
@@ -37,7 +37,7 @@ Some notable examples:
   `itemView`; superseded by using a component inside the loop
 * In `#with`, the `controller` option
 * The `Ember.Handlebars` namespace and all of its properties
-* `bind-attr`, superseded by just using attributes
+* `bind-attr`, superseded by using attributes
 * The legacy names `bindAttr` and `linkTo`
 * The `{{collection}}` helper
 * The `{{template}}` helper; superseded by `{{partial}}`
@@ -119,6 +119,7 @@ There are less than three weeks left until the 2.0-beta branch point, and given 
 
 **It is extremely likely to land in 2.1, or 2.2 at the latest.**
 
+<!-- alex ignore just -->
 The Routeable Component feature also includes a change that makes it possible to provide multiple asynchronous attributes to the component you are routing to, rather than just the `model` attribute. The `attrs` hook will run on every transition into the route, in contrast to the `model` hook, which doesn't run again in some cases.
 
 ## FastBoot

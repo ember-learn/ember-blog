@@ -25,7 +25,7 @@ Be sure to join the new Ember community chat on Discord 💬! This week, you can
 
 ## [Meet your Ember 🐹 friends at Discord 🗨](https://discord.gg/zT3asNS)
 
-The time has come: The **Ember Community is starting its big move over to [Discord](https://discord.gg/zT3asNS)**. As proposed in the [original and just recently accepted RFC (Request For Comments) for the migration](https://github.com/emberjs/rfcs/pull/345) you can now **chat** with your **Ember friends** 🐹👭👬👫 from all around the world on the Ember Discord server. This comes - among other benefits - with the advantage of **unlimited message history**.
+The time has come: The **Ember Community is starting its big move over to [Discord](https://discord.gg/zT3asNS)**. As proposed in the [original and recently accepted RFC (Request For Comments) for the migration](https://github.com/emberjs/rfcs/pull/345) you can now **chat** with your **Ember friends** 🐹👭👬👫 from all around the world on the Ember Discord server. This comes - among other benefits - with the advantage of **unlimited message history**.
 
 [Check out the new community chat today](https://discord.gg/zT3asNS), be sure to **set up your profile** as described in the `#setup-profile` channel and to join `#discord-server-admin` to gain access to your favorite discussions 💬.
 

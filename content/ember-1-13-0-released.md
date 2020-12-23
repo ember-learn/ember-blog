@@ -13,7 +13,7 @@ tags:
 
 We are pleased to announce the release of both Ember.js 1.13.0 and the
 first beta in the 2.0 series. This comes as the thirteenth cycle of our
-release process that began just after 1.0 was released.
+release process that began after 1.0 was released.
 
 The 1.13 release represents the effort of at least 43 contributors
 across over 680 commits.
@@ -52,6 +52,7 @@ Previous iterations of Ember's rendering engine **relied** on granular observati
 
 While this was reasonably efficient in cases where the developer could use `set` (and the array equivalents) to mutate values, it had two related issues:
 
+<!-- alex disable just -->
 - This forced developers to represent all changes in terms of granular
   observers. In many cases this could be extremely awkward. This was
   especially problematic when working with Arrays, since (for example)
@@ -62,6 +63,7 @@ While this was reasonably efficient in cases where the developer could use `set`
   natural way to represent the change. This meant that while it was
   usually possible in theory to "just re-render" a component, it was,
   in practice, cost prohibitive (to say the least).
+<!-- alex enable just -->
 
 To address these issues, Glimmer adopts a value-diffing strategy, using a virtual tree of the dynamic areas of the DOM. This means that even if the original data structure (for example, an array) is completely replaced, the DOM is not updated unless the resulting rendered content has changed.
 
@@ -139,7 +141,7 @@ a return value (since the return value of an action handler controlled further
 bubbling).
 
 Ember 2.x is component-driven, and replaces action bubbling with a function-passing
-solution. This greatly simplifies working with actions (they are just functions),
+solution. This greatly simplifies working with actions (they are functions, after all),
 enables return values, and introduces some powerful new currying capabilities.
 
 For example, action `submit` is passed to `my-component` where it is called upon
@@ -180,7 +182,7 @@ Actions:
 - Return a value. For example `var result = this.attrs.submit();`
 - Can curry. For example `submit=(action 'setName' 'Sal')` would pass `"Sal"` as
   the first argument to `setName` when `submit` is called. Actions can curry
-  multiple times, adding arguments at each scope. For example `submit=(action attrs.actionPassedIn someProp)` just adds an argument to any already curried onto `actionPassedIn`.
+  multiple times, adding arguments at each scope. For example `submit=(action attrs.actionPassedIn someProp)` adds an argument to any already curried onto `actionPassedIn`.
 
 Additionally the `action` helper has two options:
 

@@ -13,7 +13,7 @@ tags:
 
 In this year's [EmberConf keynote](https://www.youtube.com/watch?v=OInJBwS8VDQ&list=PL4eq2DPpyBblc8aQAd516-jGMdAhEeUiW),  Yehuda mentioned that we are working on a highly optimized rendering engine for Ember called Glimmer 2.
 
-On behalf of all the contributors who have lent a hand along the way, I am very excited to announce that we have just released Ember 2.9.0-alpha.1, the first official build with Glimmer 2 included.
+On behalf of all the contributors who have lent a hand along the way, I am very excited to announce that we have released Ember 2.9.0-alpha.1, the first official build with Glimmer 2 included.
 
 ## 🔑 A Key Milestone 🔑
 
@@ -27,7 +27,7 @@ From Ember's perspective, integrating Glimmer 2 does not expose any new user-fac
 
 That being said, despite our [best efforts](https://github.com/emberjs/ember.js/issues/13127), we might not have gotten every detail right in our very first attempt, hence the alpha releases. We would really appreciate it if you could start testing your applications and report any regressions. You may refer to the [master issue](https://github.com/emberjs/ember.js/issues/13949) for a list of known issues.
 
-It is worth noting that the version number (2.9.0-alpha.1) does not imply the new engine will be automatically included in the 2.9 final release. Just like any other changes, the Glimmer 2 integration is subject to the usual rigor and stability requirements of our [release process](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html). The core team will make the final decision on when to promote the feature into beta and stable releases based on our learnings from the alpha period.
+It is worth noting that the version number (2.9.0-alpha.1) does not imply the new engine will be automatically included in the 2.9 final release. Like any other changes, the Glimmer 2 integration is subject to the usual rigor and stability requirements of our [release process](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html). The core team will make the final decision on when to promote the feature into beta and stable releases based on our learnings from the alpha period.
 
 Based on current information, the 2.8-LTS release (when available) will likely be the final [LTS release](http://emberjs.com/blog/2016/02/25/announcing-embers-first-lts.html) to include the current-generation rendering engine, which will be supported with critical bugfixes until at least May 2017 and security patches until at least October 2017.
 
@@ -49,7 +49,7 @@ The project originally started when Tom, Yehuda and I spiked on implementing "an
 
 While HTMLBars handled basic templating, it left the implementation of many of Ember's view layer features (notably components) up to Ember itself. Not only did it make new features more difficult to implement, it made it hard to implement them _efficiently_ out of the gate.
 
-As Ember has moved towards components and "data-down, actions-up", we wanted to do many optimizations that just weren't a good fit for the HTMLBars architecture. The lessons we learned from the spike ultimately leading us down the journey that is now known as the Glimmer 2 architecture. The underlying technologies are very interesting, but I will save those details for another time.
+As Ember has moved towards components and "data-down, actions-up", we wanted to do many optimizations that weren't a good fit for the HTMLBars architecture. The lessons we learned from the spike ultimately leading us down the journey that is now known as the Glimmer 2 architecture. The underlying technologies are very interesting, but I will save those details for another time.
 
 **As an Ember user, you can expect the new engine to unlock some long-awaited features**, such as FastBoot rehydration and a refreshed approach to components once the initial integration is complete.
 

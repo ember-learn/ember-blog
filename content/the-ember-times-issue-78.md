@@ -102,7 +102,7 @@ The [RFC](https://github.com/pzuraq/emberjs-rfcs/blob/render-element-modifiers/t
 ## [The Ember Mentorship Program 👨‍🎓👩‍🎓](https://www.emberjs.com/blog/2018/12/17/mentorship-program.html)
 
 This week the new **Ember Mentorship Program** [has been officially announced](https://www.emberjs.com/blog/2018/12/17/mentorship-program.html)!
-It aims to guide the next wave of Ember developers of all experience levels into the community. By making developers succeed in [public speaking](https://emberconf.com/mentorship-program.html#evangelism), finding their space [in a supportive peer group](https://emberconf.com/mentorship-program.html#women-helping-women) or [leveling up their engineering skills](https://emberconf.com/mentorship-program.html#general-mentorship) the program is meant **just for you**!
+It aims to guide the next wave of Ember developers of all experience levels into the community. By making developers succeed in [public speaking](https://emberconf.com/mentorship-program.html#evangelism), finding their space [in a supportive peer group](https://emberconf.com/mentorship-program.html#women-helping-women) or [leveling up their engineering skills](https://emberconf.com/mentorship-program.html#general-mentorship) the program is **meant for you**!
 
 Learn all about [the Ember Mentorship Program and join the community](https://emberconf.com/mentorship-program.html)!
 

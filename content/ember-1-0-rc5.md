@@ -10,11 +10,12 @@ tags:
 ---
 
 
-Ember.js 1.0 RC5 has just been released and is now available from the
+Ember.js 1.0 RC5 has been released and is now available from the
 main website as well as [builds.emberjs.com](http://builds.emberjs.com).
 
 RC5 fixes several regressions and bugs found in RC4. Notably:
 
+<!-- alex disable hang -->
 * A performance regression caused by a change to run loop scheduling has
   been fixed. Thanks to [Erik Bryn](https://twitter.com/ebryn) for
   working on this.
@@ -23,6 +24,7 @@ RC5 fixes several regressions and bugs found in RC4. Notably:
 * The `ember-testing` package, which contains additional helpers for
   testing Ember.js apps, is no longer included in the production build.
   This means less JavaScript for end users to load over the network.
+<!-- alex enable hang -->
 
 Thank you to everyone who filed issues and pull requests. Please try out
 RC5 in your applications and report any issues or regressions you find

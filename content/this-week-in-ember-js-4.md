@@ -84,7 +84,7 @@ overwhelmingly positive. While we've had to make several tweaks over the
 past month to make sure the API is as intuitive as possible, the overall
 concepts behind the API have remained stable.
 
-We believe that we've finally worked out all of the kinks, and do not
+We believe that we've finally worked out the edge cases, and do not
 have any plans to make any further backwards-incompatible changes to the
 router API before the final 1.0 release.
 
@@ -156,7 +156,7 @@ bring them up to a similarly polished look-and-feel as the guides.
 
 ## Thanks
 
-We've been working on Ember.js for just over a year now, and it's no
+We've been working on Ember.js for a little over a year now, and it's no
 understatement to say that it has attracted some of the best and
 brightest web engineers on the planet. It has been extremely gratifying
 to see our ideas take form, and we can't wait to see what 2013 holds for

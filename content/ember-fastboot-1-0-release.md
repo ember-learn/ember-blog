@@ -22,7 +22,7 @@ It provides a complete solution for server-side rendering of your app from devel
 FastBoot works by running your Ember app in Node and shipping the rendered HTML of your initial requested route in your index.html (which also contains scripts for your app to boot in browser) to the user.
 This helps you show meaningful content to your user while the JavaScript is being downloaded, and also helps the initial page of your app to paint faster.
 Once the JavaScript downloads and your Ember app in the browser boots, it takes over the initial rendered HTML.
-It also helps the content in your Ember application to be accessible to everyone, even if they have JavaScript disabled.
+It also helps the content in your Ember application to be accessible to everyone, even if they turned off JavaScript.
 
 FastBoot brings in an ecosystem to make it easier for your Ember apps to be built and deployed in a FastBoot-friendly way. To make your Ember app run in FastBoot, you simply need to install the `ember-cli-fastboot` addon and make sure your app runs in Node. After installing the addon, you can continue building and developing your app using the same Ember CLI commands as you would without FastBoot. FastBoot also provides an application server ([`fastboot-app-server`](https://github.com/ember-fastboot/fastboot-app-server)) to run and deploy your Ember app in a Node environment. It manages downloading the Ember app, starting multiple HTTP server processes, and detecting when new versions of the application have been deployed.
 
@@ -35,6 +35,7 @@ Therefore, to make sure the developer experience for Ember apps with FastBoot is
 
 This also unlocked the potential to be able to run the server and browser versions of an app during development with a single command: the `ember serve` command Ember developers are already used to.
 
+<!-- alex ignore just -->
 We also exposed an [additional public API](https://github.com/ember-cli/rfcs/pull/80) in Ember CLI that allowed FastBoot to serve index.html with server rendered template using `ember serve`. This API allows any other addon to tap into Ember CLI’s development-time Express server, not just FastBoot.
 
 All of these changes meant that we had to make a hard decision to break some addons’ compatibility with FastBoot. There were many addons that were made FastBoot-compatible (during early adoption), and we tried very hard to make sure these continued to work with this change. However, there was no good way to do so in all cases without compromising the developer experience. Therefore, we realized we had to break some addons that were already FastBoot-compatible. We have a [migration guide](https://gist.github.com/kratiahuja/d22de0fb1660cf0ef58f07a6bcbf1a1c) for addon authors to migrate to the new build strategy, and have already proactively reached out to many addon authors to help them resolve any compatibility issues
