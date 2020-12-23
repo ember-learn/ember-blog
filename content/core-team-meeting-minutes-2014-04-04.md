@@ -114,7 +114,7 @@ core team member and let them know!
 
   I think it's a corner case, so I don't know if this should work, or if you would fix that.
   Anyway, in my application, I'm defining a notFound route, hit when the user plays with the url and gives something wrong.
-  I also want redirect to this route when the user try to access an unexisting record (ie the backend answer a 404). So I basically tried to define an error handler in the ApplicationRoute, and transitionTo('notFound'). Unfortunately it does not work. Though if I remove the globbing path, then it works for the redirection, but obviously not when entering unknown url.
+  I also want redirect to this route when the user try to access an unexisting record (ie the backend answer a 404). So I tried to define an error handler in the ApplicationRoute, and transitionTo('notFound'). Unfortunately it does not work. Though if I remove the globbing path, then it works for the redirection, but obviously not when entering unknown url.
   
   I made a jsbin reproducing it: [here](http://emberjs.jsbin.com/ucanam/4401/edit)
 

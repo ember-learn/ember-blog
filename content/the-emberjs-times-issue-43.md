@@ -70,7 +70,7 @@ and give your thoughts and suggestions in the discussion.
 
 A new RFC (Request for Comments) by [@jgwhite](https://github.com/jgwhite) has landed, titled "Semantic Test Selectors."
 The motivation behind this RFC first appeared in his talk [Say More] at EmberConf 2018.
-Basically the RFC describes, in 2 parts, how to write tests that "say more" about what the test is actually doing by writing less.  
+The RFC describes, in 2 parts, how to write tests that "say more" about what the test is actually doing by writing less.  
 
 Essentially the RFC proposes using labels, rather than selectors, to interact with elements in tests.  For example
 

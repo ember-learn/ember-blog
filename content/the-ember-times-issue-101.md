@@ -63,6 +63,7 @@ He shares three concrete ideas to make growing Ember a reality:
 ), namely [Embroider](https://github.com/embroider-build/embroider), and his second blog was around [policy changes](https://www.rwjblue.com/2019/05/31/ember-js-2019-roadmap-wishes-policy-changes/
 ) on how “we can iteratively move forward into the future that can actually happen.”
 
+<!-- alex ignore clearly -->
 > Having a great packaging system is critical to Ember's success. This wish list is not long, but very important to land and 'get right'. [...] We really need to adopt Embroider!
 >
 > The Ember project as a whole needs to get much better about closing the loop on these dead ends, and communicate more clearly with the community so that they can avoid known future pitfalls when developing their ambitious applications.

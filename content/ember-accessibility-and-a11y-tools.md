@@ -63,6 +63,7 @@ test('accessibility check', async function (assert) {
 });
 ```
 
+<!-- alex ignore cracks -->
 It's important to incorporate the check into the test suite, because in larger apps, it's nearly impossible to know how adjusting the value of a CSS color variable will affect every single UI state. It's better to have programmatic checks to prevent things from slipping through the cracks. Combined with Continuous Integration (CI) pipelines, we can make accessibility a requirement to merge, without us needing to personally implore coworkers to follow the standards.
 
 ### Run the test suite

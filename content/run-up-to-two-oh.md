@@ -208,6 +208,7 @@ reason about the data flow, and makes it very easy for code in your
 component to accidentally trigger observers that were intended for
 changes coming from the *outside*.
 
+<!-- alex ignore clearly -->
 Starting with Ember 1.13, you will be able to express the same concept
 more clearly:
 

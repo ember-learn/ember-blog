@@ -44,6 +44,7 @@ Whether you're a new Ember dev or an old hand, there is lots of work that you ca
 
 To help other contributors stay productive, please keep your contributions and questions limited to issues that are not being worked on by other contributors, and avoid asking for status updates. If you're curious about the progress of the Guides, you can follow along on commits to the [Guides repo](https://github.com/emberjs/guides) and read the [Docs team weekly meeting minutes](https://github.com/emberjs/core-notes/tree/master/docs-team).
 
+<!-- alex ignore brother-sister -->
 Like all of Ember.js and its sister projects, the Guides are maintained by an all-volunteer team. Please take a moment to thank them online, buy them a beer at your local meetup, and best yet, chip in and help out yourself!
 
 _Thanks to Yehuda Katz and Leah Silber for reviewing the draft of this post._

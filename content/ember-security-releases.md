@@ -10,7 +10,7 @@ tags:
   - '2014'
 ---
 
-
+<!-- alex ignore clearly -->
 Because developers trust Ember.js to handle sensitive customer data in
 production, we take the security of the project extremely seriously.  In
 fact, we're one of the few JavaScript projects that has a [clearly

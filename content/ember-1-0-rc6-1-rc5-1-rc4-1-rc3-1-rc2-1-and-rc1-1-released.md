@@ -14,6 +14,7 @@ tags:
 Because many Ember.js apps allow users to interact with private data, we
 take security issues very seriously.
 
+<!-- alex ignore clearly -->
 In fact, we're one of the few JavaScript projects that has a
 [clearly outlined security policy](/security/) and a
 [low-traffic mailing list exclusively for security

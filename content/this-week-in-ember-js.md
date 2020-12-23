@@ -28,6 +28,7 @@ chunks of the UI, and didn't have to make any changes in the rest of the
 app. It's exactly this type of encapsulation that makes Ember a win, and
 I'm glad to see it happening in real life.
 
+<!-- alex ignore chairman-chairwoman -->
 I gave a talk on Ember Data, and discussed some of the new APIs we'll be
 working on over the next few months. Yehuda gave a talk about the router
 proposal. The pork belly buns from the Chairman Bao
