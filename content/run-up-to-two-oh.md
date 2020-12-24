@@ -335,7 +335,7 @@ trigger an action an alternative function, because actions are strings,
 not functions.
 
 Even in Ember 1.12, you can always pass a function into a component, but
-if you simply do something like: `<my-component on-playing={{actions.playing}} />`,
+if you write something like: `<my-component on-playing={{actions.playing}} />`,
 the `this` in the function will be wrong (you want it to be the
 component). In addition, you want a way to pass arguments into the
 function (i.e. "[currying][currying]").
@@ -376,7 +376,7 @@ export default Component.extend({
 });
 ```
 
-Because `big-button` is simply invoking a function, the invoking
+Because `big-button` is invoking a function, the invoking
 component can provide whatever function it wants.
 
 Another nice touch, `action` works seamlessly with `mut`. This means
@@ -400,7 +400,7 @@ export default Component.extend({
 });
 ```
 
-In this case, `this.attrs['on-enter']` is simply a function. The
+In this case, `this.attrs['on-enter']` is a function. The
 `action` helper packages up a method in the component's `actions` hash,
 currying `this` (and other arguments). It also converts a `mut` object
 into a function that can be invoked.
@@ -448,7 +448,7 @@ regressions caused by Glimmer and do some light backporting of features
 that will aid in the transition.
 
 Note that Glimmer itself implemented the full Ember 1.x test suite, so
-many of the regressions are simple bugs, related to untested features,
+many of the regressions are easy-to-fix bugs, related to untested features,
 or related to private APIs. Based on experience over the past week
 attempting to integrate Canary into existing applications, we feel
 relatively optimistic about the plan of record for Ember 2.0, and where

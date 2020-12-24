@@ -28,6 +28,7 @@ FastBoot will allow you to deliver the HTML and CSS for a page in your Ember app
 
 For everyone else, you'll still have the responsiveness and interactivity users have come to expect from Ember apps.
 
+<!-- alex ignore simple -->
 Because of the Ember community's strong focus on conventional app structure, we believe that we can make server rendering so simple to enable and deploy that, in the long run, very few Ember apps would choose not to use it.
 
 In this series of blog posts, we will demystify our efforts, and talk about implementation details. We will also give you a sense of our progress. Like every Ember feature, FastBoot will be landing a bit at a time, so every new release will unlock more capabilities. As features land, we will talk about how you can take advantage of them in your own apps.

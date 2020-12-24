@@ -56,7 +56,7 @@ On an Open Source diet? Or looking for moar? [@runspired](https://github.com/run
 
 ## [A wizard to create Ember projects ✨‍](https://github.com/gossi/ember-cli-create)
 
-[@Gossi](https://github.com/gossi) released `ember-cli-create`, a project that allows you to create new Ember projects using a simple UI.
+[@Gossi](https://github.com/gossi) released `ember-cli-create`, a project that allows you to create new Ember projects using a UI.
 
 It visually provides options to choose from when generating the scaffold, for example:
 

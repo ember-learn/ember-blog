@@ -20,6 +20,7 @@ Today we are going to look at a rising star in our addon ecosystem- [ember-modif
 
 ### What It Does
 
+<!-- alex ignore simple -->
 The `ember-modifier` addon provides an API for authoring element modifiers in Ember. It mirrors Ember's [helper API](https://api.emberjs.com/ember/3.14/classes/Ember.Templates.helpers), and has forms for writing both simple functional modifiers and more complicated class modifiers.
 
 A modifier can add customized, automatic behavior to a DOM element, such as tracking scroll position or adding new event listeners. After you write a modifier, you can use it in a template like this:

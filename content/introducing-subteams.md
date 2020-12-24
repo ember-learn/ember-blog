@@ -20,6 +20,7 @@ browser, but has grown to become a complete SDK for the web. With one
 `npm install`, you get everything you need to create a modern web
 application.
 
+<!-- alex ignore simple -->
 Making things simple for developers often means a lot of coordination
 and decision-making behind the scenes. As the number of pieces making up
 Ember has grown—encompassing not only Ember.js but Ember CLI, Ember

@@ -123,7 +123,7 @@ What is going on? Line by line:
 <MapboxGl as |map|>
 ```
 
-This simply instantiates a new map by creating new element in the DOM and binding the map instance to it.
+This instantiates a new map by creating new element in the DOM and binding the map instance to it.
 
 
 ```handlebars
@@ -175,7 +175,7 @@ Why all this work? Because the addon is dealing with all the "gotchas" that come
 
 When the `someCondition` is truthy, it shows the layer. When it's falsey, it triggers the teardown methods inside mapbox-gl so things don't fall out of sync.
 
-Much of ember-mapbox-gl is simply a _bindings_ layer. It provides a declarative templating API for invoking parts of the mapbox-gl API proper. So, it's hands-off. But the price of customizability is having less of an opinion. As I mentioned earlier, that's where [Ember Leaflet](https://miguelcobain.github.io/ember-leaflet/) really shines, and I encourage you to look at that as well.
+Much of `ember-mapbox-gl` is a _bindings_ layer. It provides a declarative templating API for invoking parts of the mapbox-gl API proper. So, it's hands-off. But the price of customizability is having less of an opinion. As I mentioned earlier, that's where [Ember Leaflet](https://miguelcobain.github.io/ember-leaflet/) really shines, and I encourage you to look at that as well.
 
 ### Note on map data providers
 

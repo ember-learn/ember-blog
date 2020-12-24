@@ -28,7 +28,7 @@ This series is aimed at existing Ember users, but if you're new to Ember or trie
 
 ## Ember Templates: HTML++
 
-<!-- alex ignore easy-->
+<!-- alex ignore easy simple -->
 One of the things that sets Ember apart from other component based frameworks is its strong focus on templates that _extend_ HTML with a declarative, LISP-like syntax. Unlike JSX, which allows direct usage of Javascript wherever you want, or other framework's templating languages like Vue or Angular that lean heavily on HTML, Ember's syntax balances a mix of expressiveness and declarativeness that keeps template code relatively simple and easy to read, but doesn't prevent you from accomplishing your goals with artificial constraints.
 
 Ember templates draw their roots from the Handlebars templating language which used `{{doubleCurly}}` syntax to insert values into templates. For the first version of Ember, this templating language remained pretty basic. You could reference values in templates, render components, and use specialized helpers like `{{outlet}}` for routing, `{{if}}` for branching, and `{{each}}` for looping:

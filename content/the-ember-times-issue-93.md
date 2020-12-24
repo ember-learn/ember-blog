@@ -90,7 +90,7 @@ This quote reminded us of our past Readers’ Question from [@kategengler](https
 - Ember is used by large corporations such as LinkedIn, Intercom, Discourse, Sentry, and others.
 - Everything you need is included out-of-the-box (router, data layer, build tool), but there’s also the flexibility to replace pieces if needed.
 - There are many high-quality community-contributed/maintained addons. There are well-established solutions for common needs such as deployment, internationalization, accessibility, user interface elements, etc. See more at [emberobserver.com](https://emberobserver.com/).
-- Ember CLI makes it simple to get a local development environment going.
+- Ember CLI helps you get a local development environment going.
 - LTS releases ensure you don’t have to constantly update Ember to get bug and security fixes.
 - Ember evolves without making sudden breaking changes. API changes are signaled well in advance of a major version through deprecations, with the major versions merely removing those deprecated APIs.
 - The Ember community is active and helpful, and can be found in the [Ember Community on Discord](https://discordapp.com/invite/zT3asNS).

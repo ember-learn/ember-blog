@@ -157,6 +157,7 @@ As you can see, this is just a _bit_ convoluted. We have a lot of conditional co
 
 This is one of the remaining use cases for Ember's mixin functionality, and arguably modifiers solve it even more cleanly since the modifications are applied _where they happen_.
 
+<!-- alex ignore simple -->
 4. **They work with template-only components.** Currently you must always create a component class to do even simple DOM manipulation. With modifiers that's no longer necessary. In the future, this will mean more performance wins for simpler components, since they won't need a class instance.
 
 5. **They work with tag-less components and Glimmer components.** Currently, tag-less components (components with `tagName: ''`) have lifecycle hooks, but they don't have the `this.element` property since they don't have a wrapping element. This means that manipulating the DOM in them is pretty hard, you generally have to add a unique `id` to an element and select by that. Glimmer components also don't have `this.element` since they don't have a wrapping element either (more on that next time), and on top of that, they also don't have _any_ lifecycle hooks beyond the `constructor` and `willDestroy`.
@@ -283,6 +284,7 @@ There are several addons that have created modifiers that you can use in your ap
 2. `{{did-update}}`
 3. `{{will-destroy}}`
 
+<!-- alex ignore simple -->
 These modifiers are meant to be simple primitives that allow you to run code on each of the major lifecycle events that modifiers (and modifier managers) can have. They're also meant to help users refactor from classic components forward to Glimmer components, since Glimmer components don't have their own lifecycle hooks, though there are still some differences - notably, `{{did-update}}` does _not_ update every time the component rerenders, only when its arguments change.
 
 * [`ember-on-modifier`](https://github.com/buschtoens/ember-on-modifier), created by Jan Buschtöns, allows you to add event listeners of any kind directly to elements. This means you can cleanup any `ember-lifeline` code you have lying around and switch on over!

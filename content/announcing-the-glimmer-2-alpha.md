@@ -21,7 +21,7 @@ During the alpha testing period, we will publish new alpha builds on a weekly ca
 
 The purpose of the alpha releases is to enable our community – especially the addon and tooling ecosystem – to start testing the new engine for compatibility and offer feedback. Needless to say, the alpha releases are not intended for production use.
 
-To test your apps with the alpha builds, simply run `bower install --save ember#alpha` and follow the prompt to persist the resolution.
+To test your apps with the alpha builds, run `bower install --save ember#alpha` and follow the prompt to persist the resolution.
 
 From Ember's perspective, integrating Glimmer 2 does not expose any new user-facing features. Even though it is a complete rewrite under the hood, **we expect the final release to be a drop-in, completely backwards compatible upgrade** for virtually all Ember users. Notably, we will follow our usual [SemVer](http://semver.org) guarantee and ensure all public APIs continue to function as advertised. At this point, we do not expect to introduce any new deprecations along with the initial release.
 

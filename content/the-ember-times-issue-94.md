@@ -16,6 +16,7 @@ tags:
 
 Bonghjornu Emberistas! 🐹
 
+<!-- alex ignore simple -->
 This week: calling nested components in Angle Brackets Invocation Syntax 🔍, 2 RFCs for improving Ember Data 💬, an exclusive interview with Ember contributor @danielleadams 🎙, user impersonation with Ember Simple Auth 👤, check out code splitting on routes 🖖, a brand-new blog post about `@action`, `{{on}}` & `{{fn}}` 🚀, and last, but not least, EmberCamp videos are live! 🍿
 
 <!-- READMORE -->
@@ -97,8 +98,10 @@ You can read the full interview on [the Ember Forum](https://discuss.emberjs.com
 
 When developing SaaS (software as a service) applications, it is important to be able to log in as one of your users and see exactly what they see. This can help with debugging issues and aid your support team in assisting users.
 
+<!-- alex ignore simple -->
 [@matixmatix](https://github.com/matixmatix) has created an **awesome tutorial** on how this can be done using Ember.js (with [Ember Simple Auth](https://ember-simple-auth.com/)) and Ruby on Rails (with [Doorkeeper](https://github.com/doorkeeper-gem/doorkeeper) gem for OAuth2).
 
+<!-- alex ignore simple -->
 Achieving this is a fairly simple process. Normally, a client exchanges their username and password for an access token. To impersonate that user, we would need to create the token without the user's password. We can ask _DoorKeeper_ to issue a new token for the provided user directly. Lastly, we update our existing _OAuth2_ authorizer so that we can pass the token (instead of a password) to log in as that user.
 
 Read [@matixmatix](https://github.com/matixmatix)'s full [tutorial](https://codeandtechno.com/posts/user-impersonation-ember-simple-auth-doorkeeper/) to get started!

@@ -127,7 +127,7 @@ performance concern), but if/when the attribute is set on the view later (after 
 is setup at that time.
 
 This means that we are only creating observers for actual properties that are present, but we can list every
-valid HTML attribute in the `attributeBindings` property so that you can simply use them without having to reopen
+valid HTML attribute in the `attributeBindings` property so that you can use them without having to reopen
 internal classes.
 
 As of Ember 1.4 you should be able to use any HTML5 attribute with `{{input type="text"}}`, `{{textarea}}`, and

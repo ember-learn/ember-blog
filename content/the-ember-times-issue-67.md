@@ -73,7 +73,7 @@ There are plenty of [featured examples](https://storybook.js.org/examples/) that
 Do you ❤️ **Ember CLI**? And would you like to help the community to share this appreciation even further?
 Then be sure, to check out this [**new Quest Issue** for writing the brand-new documentation for Ember CLI](https://github.com/ember-learn/cli-guides-source/issues/3)! 💛
 
-**Help is needed** for anything ranging from copy-pasta-ing 🍝 to greenfield writing. To sign up and join the crowd, simply [add a comment to the Quest Issue](https://github.com/ember-learn/cli-guides-source/issues/3) and volunteer for a task.
+**Help is needed** for anything ranging from copy-pasta-ing 🍝 to greenfield writing. To sign up and join the crowd, [add a comment to the Quest Issue](https://github.com/ember-learn/cli-guides-source/issues/3) and volunteer for a task.
 
 ---
 

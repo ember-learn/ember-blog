@@ -400,7 +400,8 @@ We're working on [a linting rule](https://github.com/scalvert/eslint-plugin-embe
 
 Native classes don't _really_ have equivalents to `EmberObject`s ability to reopen class definitions willy-nilly and mess around with internals. You can patch class prototypes _directly_, but that's a much messier process in general, and that's a _good_ thing - it turns out being able to completely redefine classes arbitrarily is not a great idea 🙃
 
-However, there are legitimate use cases. In general, if you are relying on this behavior, you should _first_ try to find a way to refactor off of it without touching prototypes, constructors, etc. In the case of `.reopenClass()`, this will often times be as simple as adding `static` class fields and methods to the class definition, since that's almost always what the method is used for:
+<!-- alex ignore simple -->
+However, there are legitimate use cases. In general, if you are relying on this behavior, you should _first_ try to find a way to refactor off of it without touching prototypes, constructors, etc. In the case of `.reopenClass()`, this will oftentimes be as simple as adding `static` class fields and methods to the class definition, since that's almost always what the method is used for:
 
 ```javascript
 // before
@@ -414,6 +415,7 @@ export default class BlogPostComponent extends Component {
 }
 ```
 
+<!-- alex ignore easily -->
 In the cases where you _can't_ easily refactor away from `.reopen()` or `.reopenClass()`, it's generally recommended that you _do_ keep using them. Prototypes are _hard_ (as I've personally learned _many_ times throughout this process), and `EmberObject` and its methods are not deprecated, so they'll continue working for some time to come. You can take your time to think of better ways to refactor away from them, there's no rush!
 
 ## Avoiding `EmberObject`
@@ -468,7 +470,7 @@ This means that any utility classes written using `EmberObject` can be rewritten
     * `@ember-data/model`
     * `@ember-data/serializer`
 
-`@glimmer/component`, which was just accepted via RFC, will be implemented _without_ extending `EmberObject` which means you will not need to remember the rules and exceptions for newer components either. In general, when in doubt, use native classes!
+`@glimmer/component`, which was recently accepted via RFC, will be implemented _without_ extending `EmberObject` which means you will not need to remember the rules and exceptions for newer components either. In general, when in doubt, use native classes!
 
 ## Misc. Class Tips
 
@@ -490,7 +492,7 @@ While this may seem nice, if you do this everywhere it means that you're going t
 
 In my experience, it generally makes sense to add the _framework_ type of a class to its name as well. That is, if it is a _Route_, _Controller_, _Component_, or _Service_, you would want to name it `UserRoute`, `UserController`, `UserComponent`, or `UserService` respectively so you don't have 4 different classes named `User`!
 
-This is less of a hard and fast rule though. It generally doesn't make sense for Models for instance (`UserModel` sounds meh) or various utility classes. And if you prefer being able to omit `Component` from the name of every single component, maybe they're generally clear enough without it! Still, the fact that Routes and Controllers have so much overlap suggests you'll probably want to distinguish them, and for some reason I just feel the urge to add `Service` to the end of all my services.
+This is less of a hard and fast rule though. It generally doesn't make sense for Models for instance (`UserModel` sounds meh) or various utility classes. And if you prefer being able to omit `Component` from the name of every single component, maybe they're generally clear enough without it! Still, the fact that Routes and Controllers have so much overlap suggests you'll probably want to distinguish them, and for some reason I feel the urge to add `Service` to the end of all my services.
 
 Note that this only applies to _class names_, appending the type to the end of file names is definitely not a good idea.
 
@@ -509,7 +511,7 @@ class Person {
 
 This is a bad idea because it makes your class harder to refactor. Moving a field around can break your class in unexpected ways, and it might take minute to figure out what's going on. Class fields definitely _read_ declaratively, and the fact that they _do_ have an assignment order is actually rather odd in that sense - intuitively, you might expect them to all exist at once, like assigments on an object literal.
 
-Note that this really only applies to class fields - once you're in a "hook" of some kind, like the `constructor` or `init`, it's safe to start using values. This is because moving the constructor around is safe, and functions are pretty easy to reason about locally (usually 😬):
+Note that this really only applies to class fields - once you're in a "hook" of some kind, like the `constructor` or `init`, it's safe to start using values. This is because moving the constructor around is safe, and functions are can be reasoned about locally (usually 😬):
 
 ```javascript
 // EmberObject based class

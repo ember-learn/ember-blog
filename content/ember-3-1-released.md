@@ -324,7 +324,7 @@ Ember Data 3.1 contains bug fixes and build improvements for Ember Data.
 
 - `Ember.Map` was a private API provided by Ember (for quite some time). Unfortunately, Ember Data made `Ember.Map` part of its public API surface via documentation blocks. `Ember.Map` is [scheduled for deprecation](scheduled for deprecation), after we make sure that Ember Data will continue working after this feature is deprecated and removed.`Ember.Map` differs from native `Map` in a few ways:
     - `Ember.Map` has custom `copy` and `isEmpty` methods which are not present in native `Map`
-    - `Ember.Map` adds a static `create` method (which simply instantiates itself with `new Ember.Map()`)
+    - `Ember.Map` adds a static `create` method (which instantiates itself with `new Ember.Map()`)
     - `Ember.Map` does not accept constructor arguments
     - `Ember.Map` does not have:
         - `@@species`
@@ -457,7 +457,7 @@ For more details on the changes in Ember CLI 3.1 and detailed upgrade instructio
 
 **Qunit Dom** - In order to make DOM assertions more readable, the `qunit-dom` dependency will be added **by default** to all apps and addons. Opt out by removing it from your package.json file. See [https://github.com/simplabs/qunit-dom-codemod](https://github.com/simplabs/qunit-dom-codemod) to ease migration [(#7605)](https://github.com/ember-cli/ember-cli/pull/7605).
 
-This is, to put it quite simply, totally awesome. It means that this code:
+This is, in our opinion, totally awesome. It means that this code:
 
 ```javascript
 assert.equal(this.element.querySelector('.title').textContent.trim(), 'Hello World!');

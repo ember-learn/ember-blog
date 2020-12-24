@@ -41,12 +41,13 @@ The [ES Class](https://emberjs.github.io/rfcs/0240-es-classes.html) and [Native 
 
 ###### Great, so I can use `class` syntax now?!
 
-Hold your horses! It's not _quite_ that simple yet.
+<!-- alex ignore simple -->
+Hold your horses! It's not _quite_ that simple.
 
 The behavior of native classes is stable, but currently Ember does not support or recommend the usage of class fields or decorators, which are both still undergoing the TC39 process. TC39 (Technical Committee number 39) is a part of ECMA, the institution which standardizes the JavaScript language under the “ECMAScript” specification. Subsequent RFCs will have to be made to make these officially part of Ember.
 
 <!--alex ignore hook-->
-Without decorators or class fields, the benefits of class syntax are generally not worth the costs. Simple behaviors and features that we rely on day-to-day in Ember, such as service injections, computed properties, and actions, all require decorators. Even if you don't need any of these values, without class fields any class properties must be assigned in the `init` hook instead, and this would make it even _more_ difficult to update later on when class fields and decorators have shipped.
+Without decorators or class fields, the benefits of class syntax are generally not worth the costs. Easy-to-use behaviors and features that we rely on day-to-day in Ember, such as service injections, computed properties, and actions, all require decorators. Even if you don't need any of these values, without class fields any class properties must be assigned in the `init` hook instead, and this would make it even _more_ difficult to update later on when class fields and decorators have shipped.
 
 With this in mind, the official Ember recommendation is to continue using the standard `EmberObject.extend()` syntax for defining your factories if you are not risk tolerant. The guides will continue to use this syntax for the time being as well.
 

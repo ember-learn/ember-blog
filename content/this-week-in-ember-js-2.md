@@ -22,7 +22,7 @@ communication, there's no reason to restrict it so.
 To this end we've made two changes to Ember Data's `DS.Store`:
 
   1. A new `extractId` method has been added to the adapter for extracting the
-     ID from a data hash, by default this simply asks for `data.id`.
+     ID from a data hash, by default this asks for `data.id`.
   2. Any method with the term `JSON` has been renamed to use `Data` instead,
      for instance `DS.Serializer`'s `toJSON` method has been renamed to `toData`.
 

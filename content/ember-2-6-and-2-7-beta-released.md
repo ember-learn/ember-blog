@@ -28,7 +28,7 @@ The following deprecations are scheduled for release with Ember 2.6 and will be
 removed in Ember 3.0:
 
 * The `didInitAttrs` hook for component lifecycles is deprecated in favor of
-  simply using `init`. `didInitAttrs` had confusing timing
+  using `init`. `didInitAttrs` had confusing timing
   issues, and `init` fulfills the same role. See the [deprecation guide](http://emberjs.com/deprecations/v2.x/#toc_ember-component-didinitattrs) for more details.
 * Passing a `model` argument to `{{render}}` is deprecated in favor of using
   a component for the same cases. For example `{{render 'chat' roomModel}}`

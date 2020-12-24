@@ -16,13 +16,13 @@ tags:
 
 👋 Emberistas! 🐹
 
+<!-- alex disable simple -->
 Ember Styleguide 4.0.0 release 🔥,
 autotracking case study with TrackedMap 🐾🗺,
 simple drag and drop in Ember Octane 🐺,
 meet 2 developers who became Ember developers 🎉,
 and last, but not least, watch the new EmberMap video on the `{{fn}}` helper 📺!
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+<!-- alex enable simple -->
 
 <!-- READMORE -->
 
@@ -55,9 +55,11 @@ And by the way: Even though the case study is also a detailed guide on how to de
 
 ---
 
+<!-- alex disable simple -->
 ## [Simple drag and drop in Ember Octane 🐺](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i)
 
-In his [tutorial "Simple Drag and Drop in Ember Octane"](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i), Ember developer [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and you can extend it to meet your needs.
+In his tutorial, [Simple Drag and Drop in Ember Octane](https://dev.to/dgavey/simple-drag-and-drop-in-ember-octane-466i), Ember developer [Derek Gavey (@dgavey)](https://github.com/dgavey) gives you a straightforward [Ember Octane](https://emberjs.com/editions/octane/) way of making an **HTML drag and drop interface** for your site. The code is minimal and you can extend it to meet your needs.
+<!-- alex enable simple -->
 
 The secret? You can use [modifiers](https://guides.emberjs.com/release/components/template-lifecycle-dom-and-modifiers/#toc_event-handlers) to simplify adding drag events. Derek breaks everything down for you and explains each step.
 

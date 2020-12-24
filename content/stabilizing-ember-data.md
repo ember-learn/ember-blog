@@ -22,7 +22,7 @@ understand what is stable and what is not.
 
 To be clear, Ember Data is not a dependency of Ember.js.
 [Discourse](https://github.com/discourse/discourse), for example, uses
-its own, simple wrapper around
+its own wrapper around
 [`$.ajax`](https://github.com/discourse/discourse/blob/master/app/assets/javascripts/discourse/models/model.js).
 
 Even though Ember Data is not a dependency of Ember.js, loading data
@@ -30,7 +30,7 @@ from the server is an extremely important part of most web applications,
 and it's a problem that every Ember.js application will have to deal
 with.
 
-Our long-term goal is simple: we don't think most web developers should
+Our long-term goal is as follows: we don't think most web developers should
 have to write any custom XHR code for loading data. Strong conventions
 on the client and strong conventions on the server should allow them to
 communicate automatically.
@@ -42,7 +42,7 @@ be rock-solid across all sorts of different persistence layers—local
 storage, relational databases, and key-value stores, to name a few. To
 top it off, the asynchronous environment of the browser (with an often
 unreliable internet connection) adds significant complexity, and means
-we can't simply port the solutions to these problems that have been
+we have more to do besides porting solutions to these problems that have been
 pioneered on the server.
 
 Getting all of these features working well together is a challenging
@@ -84,7 +84,7 @@ well-suited for delegating out to `$.ajax` to work with an API
 that is not 100% consistent.
 
 To make it easier to use Ember Data with any kind of JSON data, we
-are introducing the Basic Adapter, which simply delegates to a `sync`
+are introducing the Basic Adapter, which delegates to a `sync`
 object on your model.
 
 Let's look at an example of using the Basic Adapter with the Twitter API.

@@ -69,7 +69,7 @@ We wanted to build something that was powerful, to help save time for advanced
 developers, while also being accessible to developers just getting started with
 client-side web applications.
 
-To take a simple example, sometimes a has-many relationship is stored in the
+To take an example, sometimes a has-many relationship is stored in the
 parent record's JSON representation:
 
 ```javascript
@@ -172,7 +172,7 @@ future, if the way you represent a relationship changes, or the order in which
 the relationship becomes available changes, your application will continue to
 function with no changes required.
 
-Using a Promise in JavaScript is pretty simple: call `.then` on it and do
+To use a Promise in JavaScript, call `.then` on it and do
 something with the returned value in the callback. But what if you want to use
 an Ember Data relationship in a template or in a computed property? How would
 that work?
@@ -227,6 +227,7 @@ As we outlined in [our keynote last week at Fluent](http://www.youtube.com/watch
 
 Relationships are difficult to get right, but by giving in to temptation and having everyone roll their own solutions, the community cannot build further abstractions on top of the concept of relationships.
 
+<!-- alex ignore primitive -->
 Earlier on, when we started with Ember Data, we tried to codify good practices, but didn't provide a flexible enough primitive underneath as an escape valve. Because people are interacting with servers they don't always control, we realized that having a good escape valve was more important in Ember Data than usual.
 
 In order to make sure that the community would still be able to build on top of the Ember Data abstraction, we tried our best to isolate the code that is different between applications to the Adapter. This means that if someone writes a plugin for Ember Data, they can assume that models and relationships will look the same in all apps that use it, even though application backends can vary considerably.

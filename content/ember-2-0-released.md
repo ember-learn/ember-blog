@@ -120,7 +120,7 @@ chance to transition to Routable Components.
 rendering engine introduced in Ember 1.13. These APIs allowed array operations
 to be performed without creating new arrays. Glimmer's value diffing makes this
 unnecessary. Computed property macros that operate on arrays are still present,
-but they are simply not backed by `ReduceComputed`.
+but they are not backed by `ReduceComputed`.
 
 **Context shifting in templates** (`{{#each}}` and `{{#with}}` without block
 params) is removed in Ember 2.0. For any template, there is now only one this

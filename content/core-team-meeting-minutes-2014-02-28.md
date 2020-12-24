@@ -137,6 +137,7 @@ the 1.6.x beta series:
     Resolution: hold off and talk about this at the next face to face.
 
 
+<!-- alex disable simple -->
 * [Deprecate edge-case get and normalizeTuple behavior before fixes](https://github.com/emberjs/ember.js/pull/4124)
 
     PR [#3852](https://github.com/emberjs/ember.js/pull/3852) changes some edge case behavior for get and normalizeTuple. Ahead of those changes, this commit introduces deprecation notices.
@@ -147,4 +148,4 @@ the 1.6.x beta series:
     return data.
     * Deprecate normalizeTuple calls that return a non-global context
     and a simple global path.
-
+<!-- alex enable simple -->

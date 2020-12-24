@@ -53,7 +53,7 @@ provided by `simple-dom` rather than relying on the global `document`.
 This week, with our implementation of "the little DOM that could," we were
 able to get more and more sophisticated templates rendering to a string.
 
-First, we started with a simple template that printed a string:
+First, we started with a template that only printed a string:
 `<h1>Hello</h1>`.
 
 Then we moved on to bound expressions, so `<h1>Hello {{location}}</h1>`

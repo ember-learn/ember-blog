@@ -20,7 +20,7 @@ Until recently, converting Ember templates to use Angle Bracket invocation was a
 
 ### What It Does
 
-Before Angle Bracket invocation, nearly every template construct in Ember was invoked using Handlebars `{{doubleCurly}}` syntax. This made differentiating between components, helpers, and plain values incredibly difficult.  Angle Brackets alleviate most of this ambiguity.  But what if you wanted to change every double curly component invocation to Angle Brackets?  That task could take forever (especially if you cant reliably tell the difference between everything in your templates)!  The Angle Bracket Codemod eases the transition in a few simple steps:
+Before Angle Bracket invocation, nearly every template construct in Ember was invoked using Handlebars `{{doubleCurly}}` syntax. This made differentiating between components, helpers, and plain values incredibly difficult.  Angle Brackets alleviate most of this ambiguity.  But what if you wanted to change every double curly component invocation to Angle Brackets?  That task could take forever (especially if you cant reliably tell the difference between everything in your templates)!  The Angle Bracket Codemod eases the transition in a few steps:
 
 1. It visits a URL of your app that is supplied as a command line argument
 2. A small bit of code is injected into the context of the app.

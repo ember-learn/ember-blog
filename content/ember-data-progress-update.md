@@ -54,6 +54,7 @@ you've never seen before.
 
 You go to your manager's office and ask her about it.
 
+<!-- alex ignore simple -->
 *"Oh yeah,"* she says, *"We didn't have time to learn how to setup an
 existing database, and our needs were pretty simple at the time. We
 decided to roll our own, lightweight database with a simplified query
@@ -95,7 +96,7 @@ a standard interchange format.
 The reality, however, is that Ember.js developers need to use existing
 APIs that aren't 100% consistent. While we were building towards the
 future, we were also trying to build something that could be used in the
-interim. In retrospect, trying to meet both goals simply muddled our
+interim. In retrospect, trying to meet both goals muddled our
 message, confused users, and complicated the architecture.
 
 Instead, **Ember Data will now focus on being the best possible library
@@ -174,7 +175,7 @@ Ruby on Rails) have volunteered to integrate this specification into the
 proof-of-concept will allow us to verify the specification is solving
 real-world problems.
 
-This work will make it extremely simple for Ember.js developers to
+This work will make it easier for Ember.js developers to
 integrate with Ruby on Rails, and we hope other server-side frameworks
 vendors follow suit.
 

@@ -39,7 +39,7 @@ Read the [release blog post](https://www.lexascms.com/blog/introducing-the-jsona
 <!--alex ignore easy-->
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has published the new **ember-data-lexascms** addon for easily integrating LexasCMS with any Ember.js application.
 
-Simply install the addon, configure your space ID and application adapters/serializers, and begin pulling content directly from LexasCMS using Ember Data.
+The step are: install the addon, configure your space ID and application adapters/serializers, and begin pulling content directly from LexasCMS using Ember Data.
 
 You can visit the addon's [GitHub repo](https://github.com/LexasCMS/ember-data-lexascms) for more details.
 
@@ -47,13 +47,15 @@ You can visit the addon's [GitHub repo](https://github.com/LexasCMS/ember-data-l
 
 A new integration guide for Ember.js has been published in the LexasCMS documentation.
 
-This guide will show you how simple it is to begin **pulling content from LexasCMS** into your Ember.js application.
+This guide will show you how to begin **pulling content from LexasCMS** into your Ember.js application.
 
 Check out the [full integration guide](https://www.lexascms.com/docs/integrations/ember-js/) on the LexasCMS website.
 
+<!-- alex disable simple -->
 ### [Simple blog website using Ember.js and LexasCMS](https://github.com/LexasCMS/example-ember-blog)
 
 [Michael Donaldson (@mike183)](https://www.github.com/mike183) has created an example of a simple blog website which has been **developed using Ember.js and LexasCMS**.
+<!-- alex enable simple -->
 
 You can view the source code in the [GitHub repo](https://github.com/LexasCMS/example-ember-blog), and even use the project to quickly deploy your very own blog using the "Deploy to Netlify" button in the repo's README.
 

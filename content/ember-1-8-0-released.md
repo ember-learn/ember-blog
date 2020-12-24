@@ -40,7 +40,7 @@ render (for example, the render buffer).
 support for components, data-binding, and logic within inline SVG documents.
 [Example JSBin](http://jsbin.com/woxes/8/)
 - Prior versions of Ember.js relied upon script tags to mark
-regions of data bound content. For example a simple template of `{{name}}`
+regions of data bound content. For example, a template that has `{{name}}`
 might be rendered into the page as:
 
 ```html

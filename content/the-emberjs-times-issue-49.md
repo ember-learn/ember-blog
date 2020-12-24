@@ -78,13 +78,14 @@ Ember CLI, which will (hopefully) make life much better for Windows developers. 
 
 Having made these original decisions, we ultimately decided to build something called [broccoli-static-site-json](https://github.com/stonecircle/broccoli-static-site-json), which as you can see has very similar goals to `broccoli-blog-api`:
 
+<!-- alex ignore simple -->
 > Simple Broccoli plugin that parses collections of Markdown files and exposes them as JSON:API documents in the output tree, under the specified paths. It also supports the use of front-matter to define metadata for each Markdown file.
 
 Since the early days of `broccoli-static-site-json`, things have gotten a tiny bit more complicated...more flexibility usually means more complexity! But to understand the basics of how effective Broccoli has been for this use case, we can go back and look at the files of the very first commit on 7 Nov 2017. We are going to go into more detail below, but if you want to follow along you can find the main index file [here](https://github.com/stonecircle/broccoli-static-site-json/blob/95cfe954e48da203eacba5fa154333cbc0b3a81d/index.js).
 
 ## The main plugin
 
-The simple early experiment of the `broccoli-static-site-json` had an `index.js` file (the only active file at the time) with a total of 119 lines of code, the main active lines making up the `build()` of the Broccoli plugin only adding up to 50 lines of code, which is definitely small enough for us to deep dive into in this post. 💪
+The early experiment of the `broccoli-static-site-json` had an `index.js` file (the only active file at the time) with a total of 119 lines of code, the main active lines making up the `build()` of the Broccoli plugin only adding up to 50 lines of code, which is definitely small enough for us to deep dive into in this post. 💪
 
 I'm going to give a brief overview of the structure of a Broccoli plugin and then go into detail of each line of the main `build()` function.
 

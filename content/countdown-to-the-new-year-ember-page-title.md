@@ -30,7 +30,7 @@ A quick tip about page titles! The title of each Web page should:
 
 ### Why I Like It
 
-Thanks to `ember-page-title`, you can provide users with a simple HTML browser title tag so they know where they are within your single-page application (SPA).
+Thanks to `ember-page-title`, you can provide users with an HTML browser title tag so they know where they are within your single-page application (SPA).
 
 How to use it:
 

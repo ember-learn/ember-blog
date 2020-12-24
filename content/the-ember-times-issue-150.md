@@ -63,7 +63,7 @@ If you're interested in commenting on the RFC, please head on over to the [PR](h
 
 ## ["My Experience with Ember.js" Part 2 🎬](https://www.youtube.com/watch?v=R2JdP4lb5Xw)
 
-[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has a second video out, [Creating an Ember Application](https://www.youtube.com/watch?v=R2JdP4lb5Xw)! He demonstrates how Ember CLI makes it simple to get started with Ember.js.
+[Cal Woolgar (@calWoolgar)](https://github.com/calWoolgar) has a second video out, [Creating an Ember Application](https://www.youtube.com/watch?v=R2JdP4lb5Xw)! He demonstrates how Ember CLI helps you get started with Ember.js.
 
 This video touches on an [Ember app's anatomy](https://guides.emberjs.com/release/getting-started/anatomy-of-an-ember-app/). With Ember CLI, you can create a fully working application with **one line of code!** 🎉
 
