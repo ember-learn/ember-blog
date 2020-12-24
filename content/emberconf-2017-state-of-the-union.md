@@ -222,6 +222,7 @@ Benchmarks are essential to measuring our performance improvements, but benchmar
 
 [V8's Benedikt Meurer has a fantastic blog post about their new Ignition + TurboFan architecture](http://benediktmeurer.de/2017/03/01/v8-behind-the-scenes-february-edition/), and how years of benchmark competition had caused them to be "over-focused on the peak performance case" while "baseline performance was a blind spot."
 
+<!-- alex ignore trap -->
 JavaScript libraries can fall into the same trap too. Community discussion often ends up focused around one measurement, which libraries then feel obligated to optimize for.
 
 For example, a few years ago it was updating performance and the infamous `dbmon` demo.

@@ -123,6 +123,7 @@ This change fixed some bugs around observers. Thanks to [Christoffer
 Persson][wecc] for helping to clean this up and fix some observer bugs around
 this!
 
+<!-- alex ignore special -->
 ## Special Thanks
 
 Thanks to [Christoffer Persson][wecc] for helping us implement bugfixes and API

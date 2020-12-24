@@ -8,7 +8,7 @@ tags:
   - '2016'
 ---
 
-
+<!-- alex ignore steward-stewardess -->
 Ember is committed to being a good steward of our collective codebases as part of the [Node.js](https://nodejs.org/en/) [ecosystem](https://www.npmjs.com/). In that spirit we will be following the [Node.js Long Term Support Schedule](https://github.com/nodejs/LTS#lts-schedule) to provide clear guarantees of which versions of Node.js we support and how long we will support them. We will test against the same set of releases which the Node.js Long-term Support Working Group says they support: any "Current", "Active LTS", or "Maintenance" releases.
 
 ### What does support mean?
@@ -47,4 +47,5 @@ We don't presently rely upon transpilation to support older versions of the Node
 
 Further, if we find ourselves maintaining our own forks or depending upon legacy versions of much of the JavaScript ecosystem, we reserve the option to change our approach in the future. As always we will be paying close attention to the community's needs and will give at least a six month notice of any change to this stated support policy.
 
+<!-- alex ignore special -->
 _Special thanks to [Hannah Wolfe](https://github.com/ErisDS) for helping direct us to this approach._

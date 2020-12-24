@@ -35,6 +35,7 @@ The `ember-bootstrap` addon's clean API's and native Ember components also provi
 
 Writing forms or modals with these components is a very enjoyable experience and has streamlined the code in several of my projects.
 
+<!-- alex ignore trap -->
 Also, recent versions of `ember-bootstrap` have added additional support for improving accessibility by using ember-focus-trap to implement focus trap for modals and keyboard navigation of dropdowns. `ember-bootstrap` has even added ember a11y tests to the addon's test suite!
 
 It gets better, too- `ember-bootstrap` is Octane ready and has refactored it's own components internally to use native classes and angle bracket syntax.

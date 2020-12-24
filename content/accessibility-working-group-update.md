@@ -28,8 +28,7 @@ There were five items listed in [Issue 595](https://github.com/emberjs/rfcs/issu
 
 ### Application Language Support
 
-<!-- alex ignore easy -->
-
+<!-- alex ignore easy white -->
 The goal of application language support was to provide a mechanism for new Ember apps to pass [WCAG Success Criteria 3.1.1 - Language of Page](https://www.w3.org/TR/WCAG21/#language-of-page). To meet that goal, [Joseph Sumner](https://github.com/josephdsumner), [Jamie White](https://github.com/jgwhite), [Ava Wroten](https://github.com/hergaiety) and [Melanie Sumner](https://github.com/melsumner) authored [RFC 635](https://emberjs.github.io/rfcs/0635-ember-new-lang.html), which proposed a `--lang` flag for `ember-cli`. This flag would enable developers to declare the application's language while they were creating the app, allowing them to more easily meet this particular success criteria. This RFC was merged on June 12th; the feature itself, authored by [Joseph Sumner](https://github.com/josephdsumner) with help from [Rob Jackson](https://github.com/rwjblue), was merged on August 24th.
 
 To add another layer of support and enhance the overall developer experience, the team also decided that it would be useful to have an interactive way to create new Ember apps. After some discussion, [Melanie Sumner](https://github.com/melsumner) authored [RFC 638](https://emberjs.github.io/rfcs/0638-interactive-app-creation.html). The RFC was accepted and merged on August 10th. Implementation is still pending.
@@ -82,4 +81,5 @@ Work is also underway to upscale the addons in the [Ember-A11y GitHub org](https
 
 ## Thank You
 
+<!-- alex ignore white -->
 A huge thank you to all of the community members who participated in the Ember A11y Strike Team: [Abhilash Ramesh](https://github.com/abhilashlr), [Amy Lam](https://github.com/amyrlam), [Ava Wroten](https://github.com/hergaiety), [Benjamin Jegard](https://github.com/kamikillerto), [Emmanuel Patrick](https://github.com/the-bionic), [Eric Kelly](https://github.com/HeroicEric), [Frédéric Soumaré](https://github.com/hakilebara), [Jamie White](https://github.com/jgwhite), [Jen Weber](https://github.com/jenweber), [John Costanzo](https://github.com/jrock2004), [Joseph Sumner](https://github.com/josephdsumner), [Lennex Zinyando](https://github.com/zinyando), [Lenora Porter](https://github.com/lenoraporter), [Melanie Sumner](https://github.com/melsumner), [Praskovia Root](https://github.com/praskovia-root), [Rajasegar Chandran](https://github.com/rajasegar), [Robert Jackson](https://github.com/rwjblue), [Steve Szczecina](https://github.com/steveszc), and [Seema Shariat](https://github.com/seemajune).

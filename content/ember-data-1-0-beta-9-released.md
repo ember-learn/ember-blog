@@ -312,12 +312,13 @@ App.CommentAdapter = DS.RestAdapter.extend({
 
 For more information, go to [Store documentation][store-docs].
 
+<!-- alex ignore special -->
 ## Special Thanks
 
 We'd like to thank the following members of the Ember.js community for their
 continued contributions to Ember Data:
 
-* Igor Terzic as the project's main steward (@terzicigor)
+* Igor Terzic as the project's main contributor (@terzicigor)
 * Brendan McLoughlin (@BezoMaxo) for responding to and triaging issues, and
   contributing documentation, bug fixes, and improvements.
 * Ilya Radchenko (@knownasilya)

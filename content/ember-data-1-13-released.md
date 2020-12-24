@@ -80,6 +80,7 @@ of the deprecations for you.
 **Ember Data 1.13 is the last release of Ember Data that supports IE8
   and the 1.x series of Ember.js. Ember Data 2.0-beta.1 will be released shortly, and it will follow the Ember.js release train.** Ember Data 2.0 will not work with the Ember.js 1.x series.
 
+<!-- alex ignore special -->
 We would like to extend a special thanks to the many contributors who
 have helped out with this release. We would also like to recognize the
 following contributors who helped with multiple issues leading up to
