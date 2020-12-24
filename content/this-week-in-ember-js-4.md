@@ -134,7 +134,7 @@ several steps:
 ## Documentation
 
 Perhaps the most widespread feedback we received from developers was:
-_"Ember.js looks really cool, but your documentation sucks."_ We heard
+_"Ember.js looks really cool, but your documentation is not."_ We heard
 you loud and clear.
 
 We recently launched the [completely redesigned Guides][5], and due to

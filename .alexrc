@@ -1,15 +1,7 @@
 {
   "allow": [
     "he-she",
-    "her-him",
-    "special",
-    "steward-stewardess",
-    "sucks",
-    "trap",
-    "waiters-waitresses",
-    "white",
-    "whites",
-    "whitespace"
+    "her-him"
   ],
   "profanitySureness": 1
 }

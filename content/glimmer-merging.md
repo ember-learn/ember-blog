@@ -131,7 +131,7 @@ part because of the simplification of the overall model.
 us, exceeding the improvements we've seen in benchmarks designed to
 stress-test pathological cases.**
 
-When upgrading to Glimmer, please pay special attention to the
+When upgrading to Glimmer, please pay attention to the
 real-world performance of your application **in production mode** and
 after clearing any deprecations with performance warnings.
 

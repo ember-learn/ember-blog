@@ -13,6 +13,7 @@ requests to update Ember to allow the use of the latest version.  Handlebars 2.0
 a number of changes the list below represents a few that are likely to affect your
 Ember application:
 
+<!-- alex disable whitespace -->
 * Precompiler output has changed, which breaks compatibility with prior versions of the
   runtime and precompiled output.
 * A JSON polyfill is required to run the compiler in IE8 and below. It's recommended
@@ -20,6 +21,7 @@ Ember application:
 * Lines containing only block statements and whitespace are now removed. This matches the
   Mustache spec but may cause issues with code that expects whitespace to exist but would
   not otherwise.
+<!-- alex enable whitespace -->
 
 For more information about the changes please review the [release notes](https://github.com/wycats/handlebars.js/blob/master/release-notes.md).
 

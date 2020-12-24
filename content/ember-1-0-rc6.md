@@ -39,6 +39,7 @@ For more on new router features, see:
 * [Usage Examples](https://gist.github.com/machty/5647589)
 * [Client-side Authentication Part 2 Embercast](http://www.embercasts.com/episodes/client-side-authentication-part-2)
 
+<!-- alex ignore special -->
 Special thanks to Alex Matchneer for his work on this!
 
 ***Ember Components***

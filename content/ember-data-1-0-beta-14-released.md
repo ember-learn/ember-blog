@@ -108,8 +108,10 @@ export default DS.RESTSerializer.extend({
 });
 ```
 
+<!-- alex ignore special -->
 ## Special Thanks
 
+<!-- alex ignore special -->
 A special thanks to [Dockyard][dockyard] for sponsoring Igor during the
 month of December!
 

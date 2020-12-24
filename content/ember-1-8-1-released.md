@@ -51,6 +51,7 @@ Further Reading:
 
 ### Support rendering of null-prototype objects
 
+<!-- alex ignore special -->
 meta-data objects in Ember-Data are null-prototype, a special kind of object created
 with `Object.create(null)`. In 1.8 these objects could not be rendered. 1.8.1 repairs
 this.
@@ -78,11 +79,13 @@ We've restored support for templates like this:
 </select>
 ```
 
+<!-- alex disable whitespace -->
 ### Known whitespace issues in Chrome
 
 Some templates may result in missing whitespace in Chrome. For example,
 if the following template renders initially with no names, then updates
 via data-binding later, the space between names may not be visible.
+<!-- alex enable whitespace -->
 
 ```handlebars
 {{firstName}} {{lastName}}

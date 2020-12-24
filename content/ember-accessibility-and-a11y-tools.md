@@ -162,6 +162,7 @@ The problem is that screen readers rely heavily on what has focus. Imagine if yo
 
 It's our responsibility as developers to build inclusive tech, so keep learning and building! [Melanie Sumner's](https://github.com/MelSumner) EmberConf talk [Accessibility for All](https://www.youtube.com/watch?v=6ydNf7e5P00) is a fast, concise introduction to accessibility in Ember, and [this article series](http://www.melsumner.com/blog/accessibility/a11y-accessibility-guide-ember-developers/) provides a deeper dive.
 
+<!-- alex ignore white -->
 There are already many community addons available that solve different issues. While we still have a ways to go, new advances are being made too. For example, there is a [Semantic Test Selectors RFC](https://github.com/emberjs/rfcs/pull/327) being drafted and an [experimental addon](https://github.com/tradegecko/ember-semantic-test-helpers) in development to go with it! These efforts followed [Jamie White's](https://github.com/jgwhite) talk from EmberConf, [Say More](https://www.youtube.com/watch?v=iAyRVPSOpy8).
 
 Almost all of us will have a disability at some point in our lives. Accessible web practices lead to better user experience --- things like improved keyboard navigation, text that is still readable on a dim monitor, and clear pointers on how to interact with a UI.
@@ -183,4 +184,5 @@ Accessible apps are better for everyone.
 
 Our community's improvements are the result of the hard work of many people! Shared solutions take more time to develop, but we can all move forward together.
 
+<!-- alex ignore white -->
 Many thanks to everyone who raises the profile of accessibility in Ember, the team behind a11y addons, contributors involved in getting some features into Ember itself, and those who encourage others to adopt accessible practices. Extra thanks to [Sean Massa](https://github.com/EndangeredMassa), [Melanie Sumner](https://github.com/MelSumner), [Jamie White](https://github.com/jgwhite), and [Robert DeLuca](https://github.com/Robdel12) for reviewing this post.

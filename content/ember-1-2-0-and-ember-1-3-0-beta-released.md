@@ -71,10 +71,8 @@ release. You can see a list of all the changes in the CHANGELOG:
 * [Ember.js 1.2.0 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.2.0/CHANGELOG)
 * [Ember.js 1.3.0 beta 1 CHANGELOG](https://github.com/emberjs/ember.js/blob/v1.3.0-beta.1/CHANGELOG.md)
 
-A very big thank you to everyone who contributed, and a
-special thank you to our release team that have collectively poured
-hours of their free time into automating the infrastructure around the
-release process.
+<!-- alex ignore special -->
+A very big thank you to everyone who contributed, and a special thank you to our release team that have collectively poured hours of their free time into automating the infrastructure around the release process.
 
 As usual, you can always find the latest stable, beta, and canary
 releases at [emberjs.com/builds](/builds).
