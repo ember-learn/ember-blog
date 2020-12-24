@@ -75,7 +75,7 @@ div.setAttribute('class', 'red');
 ```
 
 For SVG attributes and the style attribute, we've made an exception to this pattern
-and simply use `setAttribute` at all times.
+and use `setAttribute` at all times.
 Despite these exceptions, the property-first rule is a good way to describe what is
 happening behind the scenes. In practice, the binding syntax feels natural.
 

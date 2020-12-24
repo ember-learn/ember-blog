@@ -125,7 +125,7 @@ store methods to make them more consistent and approachable for all
 developers.
 
 In particular, `store.find`, `store.all`, `store.getById` have been
-deprecated and are replaced with consistently named methods. New methods follow a simple convention: If they are async and potentially go to the server, they start with `find`, and if they only get store local data without side-effects they start with `peek`.
+deprecated and are replaced with consistently named methods. New methods follow a convention: If they are async and potentially go to the server, they start with `find`, and if they only get store local data without side-effects they start with `peek`.
 If they return a single record they end in `Record` and if they return all the records they end in `All` .
 
 ### Reorganized Find Methods

@@ -219,7 +219,7 @@ This decision to drop support for IE9, IE10, and PhantomJS is pending completion
 
 ## Onward to 3.x
 
-Ember 3.x presents us an opportunity to do more than simply remove code. We’re excited to take the conventions Ember developers are building with and continue to streamline the framework around them.
+Ember 3.x presents us an opportunity to do more than removing code. We’re excited to take the conventions Ember developers are building with and continue to streamline the framework around them.
 
 Around the release of Ember 2.0 there were several features we ambitiously hoped to land during the 2.x cycle. We're not planning to rush these features in at the last minute.
 

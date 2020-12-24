@@ -117,6 +117,7 @@ for details.
 
 #### `Ember.Test.checkWaiters`
 
+<!-- alex ignore simple -->
 The new method `Ember.Test.checkWaiters` provides a simple mechanism for test
 tooling to determine whether all async test waiters have settled. This replaces
 the intimate API `Ember.Test.waiters`, which has been removed in Ember.js 2.8.
@@ -162,7 +163,7 @@ That being said, despite our [best efforts](https://github.com/emberjs/ember.js/
 and the extensive alpha testing, we still might have gotten a few details
 wrong, hence the beta releases. We would really appreciate it if you could
 start testing your applications and report any regressions, if you have not
-already done so. You may refer to the [master issue](https://github.com/emberjs/ember.js/issues/13949)
+already done so. You may refer to the [GitHub issue](https://github.com/emberjs/ember.js/issues/13949)
 for a list of known issues.
 
 It's also worth noting that the 2.8-LTS release (when available) will be the
@@ -177,7 +178,7 @@ Glimmer 2 adopted a new serialization format for the precompiled templates. The
 new serialization format offers a few benefits – among them are reduced byte
 size (hence download time) and parse time.
 
-Take this simple template for example:
+Take this template, for example:
 
 ```handlebars
 Hello {{name}}! {{#if isFriday}}Happy Friday!!!{{/if}}

@@ -15,7 +15,7 @@ Community members that want to help should familiarize themselves with the ember
 
 Next up, we plan to work on the blog! To help out with that, visit the [Emberify and Redesign the Ember Blog](https://github.com/orgs/ember-learn/projects/15) project board on GitHub. Let us know that you want to help in the `#st-website` channel on the [Ember Discord chat](https://discord.gg/emberjs) server.
 
-The [master project board](https://github.com/orgs/ember-learn/projects/39) shows, roughly, the order in which we plan to do the rest of the work:
+The [project board](https://github.com/orgs/ember-learn/projects/39) shows, roughly, the order in which we plan to do the rest of the work:
 
 - Blog
 - Guides

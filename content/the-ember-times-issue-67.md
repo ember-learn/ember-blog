@@ -48,9 +48,9 @@ Want to help improve Ember Observer? Have a friend or coworker looking for their
 
 What allowed this to happen is that CodeSandbox released server-side evaluated sandboxes, which now allows CLI Node apps to run and be served by the site.
 
-Of course we want to give a shoutout to [@Gaurav0](https://github.com/Gaurav0) and the rest of the [Ember Twiddle](https://ember-twiddle.com/) team for their **amazing** work. The way Ember Twiddle works is by [emulating](https://github.com/ember-cli/ember-twiddle/blob/ac116eb20d1e6c2152313f865159c443a9e2bd6f/app/services/ember-cli.js#L261-L295) a node environment. With CodeSandbox, we get **real Ember CLI** out of the box.
+We want to give a shoutout to [@Gaurav0](https://github.com/Gaurav0) and the rest of the [Ember Twiddle](https://ember-twiddle.com/) team for their **amazing** work. The way Ember Twiddle works is by [emulating](https://github.com/ember-cli/ember-twiddle/blob/ac116eb20d1e6c2152313f865159c443a9e2bd6f/app/services/ember-cli.js#L261-L295) a node environment. With CodeSandbox, we get **real Ember CLI** out of the box.
 
-There are of course a few issues that Mike is working on fixing, but we believe that this will be stable and usable soon. For example, `ember new app` doesn't work.
+There are a few issues that Mike is working on fixing, but we believe that this will be stable and usable soon. For example, `ember new app` doesn't work.
 
 To try this out today, use this [starter kit](https://codesandbox.io/s/github/mike-north/ember-new-output/tree/vanilla) or if you are feeling **adventurous** try out this [TypeScript starter kit](https://codesandbox.io/s/github/mike-north/ember-new-output/tree/typescript).
 
@@ -73,7 +73,7 @@ There are plenty of [featured examples](https://storybook.js.org/examples/) that
 Do you ❤️ **Ember CLI**? And would you like to help the community to share this appreciation even further?
 Then be sure, to check out this [**new Quest Issue** for writing the brand-new documentation for Ember CLI](https://github.com/ember-learn/cli-guides-source/issues/3)! 💛
 
-**Help is needed** for anything ranging from copy-pasta-ing 🍝 to greenfield writing. To sign up and join the crowd, simply [add a comment to the Quest Issue](https://github.com/ember-learn/cli-guides-source/issues/3) and volunteer for a task.
+**Help is needed** for anything ranging from copy-pasta-ing 🍝 to greenfield writing. To sign up and join the crowd, [add a comment to the Quest Issue](https://github.com/ember-learn/cli-guides-source/issues/3) and volunteer for a task.
 
 ---
 

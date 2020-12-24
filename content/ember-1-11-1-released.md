@@ -46,7 +46,7 @@ regression was first introduced in 1.11.0-beta.4.
 During the 1.11.0 cycle, an issue was reported regarding `{{each}}` when prototype extensions were turned off.
 The solution to that issue was to add a much more helpful assertion when an `ArrayController`'s model
 did not have `Ember.Array` mixed into it. Unfortunately, this assertion also was triggered when the
-model was simply `undefined`. The assertion has been updated to ignore falsey `model`'s in 1.11.1.
+model was `undefined`. The assertion has been updated to ignore falsey `model`'s in 1.11.1.
 
 
 ### {{render}} helper with View

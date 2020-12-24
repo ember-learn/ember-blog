@@ -94,7 +94,9 @@ Why should you become a speaker? Because this is a unique opportunity to share y
 
 Are you on the functional CSS train 🚂? Tailwind CSS is a highly customizable, low-level CSS framework that gives you all of the building blocks you need to build bespoke designs without any annoying opinionated styles you have to fight to override. [Balint Erdi (@balinterdi)](https://github.com/balinterdi) recently blogged about Ember, Tailwind and PostCSS. In [his first post](https://www.balinterdi.com/blog/ember-tailwind-css-postcss-import/), Balint explains how with [ember-auto-import](https://github.com/ef4/ember-auto-import), you can use [Tailwind](https://tailwindcss.com/) directly versus relying on the Ember-specific integrator package. (ember-cli-tailwind was deprecated, because this worked so well!) However, to make your Ember app integrate nicely with Post CSS, Balint suggests sticking with the integrator add-on [ember-cli-postcss](https://github.com/jeffjewiss/ember-cli-postcss). Check out [post-css-import](https://github.com/postcss/postcss-import) to be able to import styles from other files.
 
+<!-- alex disable masters -->
 In his [second post](https://www.balinterdi.com/blog/purging-css-in-ember-postcss-purgecss/), Balint details how he added Purgecss to the mix. [Purgecss](https://www.purgecss.com/) is a library that removes unused CSS, thus reducing the bundle size. Be sure to check out [Chris Masters (@chrism)](https://github.com/chrism)'s working example in his detailed **[emberjs-tailwind-purgecss README](https://github.com/chrism/emberjs-tailwind-purgecss)**. Balint also touches on using Purgecss only in production, which has its pros and cons. We definitely enjoyed the discussion about these blog posts on the [Twitter thread](https://twitter.com/baaz/status/1198982126860935168). Happy Tailwind-ing!
+<!-- alex enable masters -->
 
 ---
 

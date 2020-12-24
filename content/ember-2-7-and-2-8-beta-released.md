@@ -195,6 +195,7 @@ for details.
 
 #### `Ember.Test.checkWaiters`
 
+<!-- alex ignore simple -->
 The new method `Ember.Test.checkWaiters` provides a simple mechanism for test
 tooling to determine whether all async test waiters have settled. This replaces
 the intimate API `Ember.Test.waiters`, which has been deprecated and will be

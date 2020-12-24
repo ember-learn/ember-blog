@@ -43,7 +43,9 @@ We encourage you to learn today about [Ember Data packages in 3.11](https://embe
 
 ## [Tutorial: Ember Octane Fundamentals 🐹](https://twitter.com/michaellnorth/status/1148631049141751813)
 
+<!-- alex disable masters -->
 [@mike-north](https://github.com/mike-north) published a [new training video series on Frontend Masters](https://frontendmasters.com/courses/ember-octane/) on **Ember Octane Fundamentals**. If you are not a subscriber to Frontend Masters or prefer written instructions, there are [detailed written instructions hosted in GitHub](https://github.com/mike-north/ember-octane-workshop/tree/master/notes)!
+<!-- alex enable masters -->
 
 Starting with regular HTML and CSS and going through hands-on experience working with glimmer components, tracked properties, actions, and modifiers – the Ember Octane Fundamentals training provides detailed steps in creating your own server-rendered chat application.
 

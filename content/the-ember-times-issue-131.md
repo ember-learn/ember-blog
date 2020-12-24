@@ -88,7 +88,7 @@ For some Ember Data context, check out the [Guides](https://guides.emberjs.com/r
 
 ---
 
-## [Master powerful debugging strategies at EmberConf 💻](https://emberconf.com/#/speakers/samanta-de-barros)
+## [Learn powerful debugging strategies at EmberConf 💻](https://emberconf.com/#/speakers/samanta-de-barros)
 
 You've undoubtedly heard her talk about [creating progressive web applications with Ember](https://www.youtube.com/watch?v=OR1Tk_bwmZo)
 and [bulletproof addon testing](https://www.youtube.com/watch?v=31kVznd-zys) before, but now [Samanta de Barros (@sdebarros)](https://github.com/sdebarros)

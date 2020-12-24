@@ -231,7 +231,7 @@ recently wrote a blog post reviewing the new feature and how to utilize it: [Emb
 
 Babel 6 support has been added to Ember CLI internally and is now used by default for newly generated projects (both applications and addons).
 Due to the way that Ember CLI handles transpilation this transition can be done gradually by updating each addon to utilize newer versions of
-[ember-cli-babel](https://github.com/babel/ember-cli-babel). Updating your application to start using Babel 6 for its own transpilation is as simple as:
+[ember-cli-babel](https://github.com/babel/ember-cli-babel). Here's how to update your application to start using Babel 6 for its own transpilation:
 
 ```bash
 # if using yarn:
@@ -258,8 +258,7 @@ ergonomics to generate non-Ember applications. Common examples of this are:
 - Generate a new [Glimmer.js](https://glimmerjs.com/) application. See [glimmerjs/glimmer-blueprint](https://github.com/glimmerjs/glimmer-blueprint).
 - Generate a new [ember-cli-deploy](http://ember-cli-deploy.com/) plugin. See [ember-cli-deploy/plugin-blueprint](https://github.com/ember-cli-deploy/plugin-blueprint).
 
-
-These can be used as simply as:
+To do so, run in your terminal:
 
 ```bash
 npm install -g ember-cli@2.14.0-beta.1

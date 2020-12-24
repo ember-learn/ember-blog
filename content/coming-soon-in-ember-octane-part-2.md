@@ -28,7 +28,7 @@ This series is aimed at existing Ember users, but if you're new to Ember or trie
 
 ## Ember Templates: HTML++
 
-<!-- alex ignore easy-->
+<!-- alex ignore easy simple -->
 One of the things that sets Ember apart from other component based frameworks is its strong focus on templates that _extend_ HTML with a declarative, LISP-like syntax. Unlike JSX, which allows direct usage of Javascript wherever you want, or other framework's templating languages like Vue or Angular that lean heavily on HTML, Ember's syntax balances a mix of expressiveness and declarativeness that keeps template code relatively simple and easy to read, but doesn't prevent you from accomplishing your goals with artificial constraints.
 
 Ember templates draw their roots from the Handlebars templating language which used `{{doubleCurly}}` syntax to insert values into templates. For the first version of Ember, this templating language remained pretty basic. You could reference values in templates, render components, and use specialized helpers like `{{outlet}}` for routing, `{{if}}` for branching, and `{{each}}` for looping:
@@ -437,7 +437,7 @@ In my opinion, this is much easier to skim through and get a general sense of qu
 The title of this post is actually inaccurate - all of these features have already landed in Ember, and have been usable for some time! You can try them out now, and they're fully backwards compatible with older features and components.
 
 <!-- alex ignore just-->
-The nature of Editions is that some of the new features land sooner rather than later, and we just haven't really had a chance to polish up the guides and the DX for learning all of them. Octane gives us a focal point that allows us to sum everything up, and update all of our learning materials and guides, but if you're interested in early adoption things have been landing in master for some time now!
+The nature of Editions is that some of the new features land sooner rather than later, and we just haven't really had a chance to polish up the guides and the DX for learning all of them. Octane gives us a focal point that allows us to sum everything up, and update all of our learning materials and guides, but if you're interested in early adoption things have been landing in `master` for some time now!
 
 ## Conclusion
 

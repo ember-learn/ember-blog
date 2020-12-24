@@ -24,7 +24,7 @@ contain an important security fix.
 
 * 1.10.1 -- [Compare View](https://github.com/emberjs/ember.js/compare/v1.10.0...v1.10.1)
 * 1.11.2 -- [Compare View](https://github.com/emberjs/ember.js/compare/v1.11.1...v1.11.2)
-* Additionally the stable, beta, and master branches have all been patched
+* Additionally the stable, beta, and `master` branches have all been patched
 
 These releases contain a fix for an XSS vulnerability that
 you can learn more about on our security mailing list:

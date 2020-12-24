@@ -33,7 +33,7 @@ Ember website.
 
 [1]: /builds/
 
-All new features will start out on master, behind a feature flag. Canary
+All new features will start out on the `master` branch behind a feature flag. Canary
 and `latest` builds will ship with all experimental features, enable-able
 at runtime.
 
@@ -48,7 +48,7 @@ out all of the mechanics for the process going forward.
 
 ### Feature Flags
 
-Starting today, all new features on master that introduce new public APIs
+Starting today, all new features on `master` that introduce new public APIs
 will be wrapped in a feature flag. This will help the core
 team and the community to see which features are in development and how far
 along they are.
@@ -100,14 +100,16 @@ Every six weeks, we will:
 
 See more on the release branch below.
 
+<!-- alex disable master -->
 #### Branch Master to Beta
+<!-- alex enable master -->
 
 First, the core team will review all feature flags on `master`, and make
 a Go/No-Go decision for each of them.
 
 Any feature that is not ready to go will be stripped from the beta build.
 
-Feature development will continue on master, and get another shot at the
+Feature development will continue on `master`, and get another shot at the
 next departing train, six weeks hence.
 
 #### The Beta Branch

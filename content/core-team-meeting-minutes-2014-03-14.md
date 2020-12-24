@@ -53,7 +53,7 @@ core team member and let them know!
 * [Use injected test helpers instead of local functions.](https://github.com/emberjs/ember.js/pull/4520)
 
   Since we are injecting the application with our helpers (into the App.testHelpers hash), we should be using
-  that helper and not simply calling the function in local scope.
+  that helper and not calling the function in local scope.
 
   As the tests show, this allows a user to override the internal helpers with a tailored version for their scenarios.
 

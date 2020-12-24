@@ -8,8 +8,6 @@ tags:
   - '2016'
 ---
 
-
-<!--alex disable easy just of-course obvious-->
 Ember is a truly community-driven framework, with contributors and core
 team members who live all over the world and work for many different
 companies. The vast majority of our collaboration happens online via
@@ -89,7 +87,7 @@ We had a wide-ranging discussion about documentation. Generally,
 documentation has been significantly improved but we always want to do
 more to make sure developers have a great experience.
 
-We discussed several relatively easy improvements that would be high
+We discussed several relatively easy-to-do improvements that would be high
 value:
 
 1. Encourage more core team members to join in on the documentation
@@ -110,7 +108,7 @@ As Ember adoption increases, one common question we get is: how can
 multiple teams work on an Ember app without stepping on each others'
 toes?
 
-The answer to that question is engines. Just over a year ago, Yehuda and I
+The answer to that question is engines. A little over a year ago, Yehuda and I
 submitted [RFC #10: Engines][engines-rfc], describing a way to break
 apart a large Ember app into several, smaller apps that can be merged
 together into a cohesive whole.
@@ -139,7 +137,7 @@ ember-engines addon][dans-talk].
 ### Better App Componentization
 
 Developers love Ember components because they help break up your UI into
-small pieces that you can easily reason about.
+small pieces that you can reason about.
 
 On the other end of the spectrum, engines allow you to break up
 monolithic apps into a smaller set of apps that you can develop
@@ -188,7 +186,7 @@ Ember apps on the same page: each Ember app installs its own set of
 event listeners. We can optimize startup performance for these cases by
 having a set of event listeners that each Ember app instance can share.
 
-But it's not just Ember that would benefit. Other libraries like React
+But it's not Ember that would benefit only. Other libraries like React
 use event delegation as well. We discussed whether it would be possible
 to create a dispatch engine that was low-level enough that all of the
 React, Ember, etc. apps running on a single page could share it, and only pay the
@@ -214,7 +212,7 @@ begin to think about what an Ember 3.0 might look like.
 More importantly, we discussed what factors are still keeping some apps
 on 1.12 and 1.13, and what we can do to address them.
 
-Of course, some teams are happy to stick with a 1.x version that works
+Some teams may stick with a 1.x version that works
 for them; we won't be able to get everyone to upgrade to 2.x, at least
 right away. Rather, our goal is that anyone on 1.12 or 1.13 who <span style="font-style: italic;">wants</span>
 to be on 2.x should have a way to get there.
@@ -228,7 +226,7 @@ performance regression. But if they cannot upgrade to 1.13, which
 contains the deprecation warnings needed to make a smooth transition to 2.x, how
 can they ever get there?
 
-The answer, of course, is to use 1.12 for deploying to production, but
+The answer is to use 1.12 for deploying to production, but
 switch to 1.13 temporarily while developing to get the list of
 deprecations to fix.
 
@@ -310,7 +308,7 @@ for developers:
 2. We will try to only introduce a handful of deprecations per release,
    so that no one release feels overwhelming and the upgrade cost can be
    paid over the entire major version cycle.
-3. Deprecations will not be merged into master until a deprecation guide
+3. Deprecations will not be merged into `master` until a deprecation guide
    has been written.
 4. Deprecation guides will be more holistic and include more than one
    example. Ideally, deprecation guides would contain code snippets from
@@ -331,6 +329,7 @@ server rendering of Handlebars templates working for the better part of
 a year, integrating server-side rendering into the application
 architecture and ecosystem takes a lot of work.
 
+<!-- alex ignore simple -->
 Our hope with FastBoot is that it's so easy to use, the majority of
 Ember users enable it. We don't want server-side rendering to be
 something you can kind of do with weeks and weeks of work; we want it to
@@ -357,7 +356,7 @@ engine that we hope will start paying dividends soon.
 
 ### Ember as a Stable Core
 
-If there was one thing that became obvious to me at this meeting, it is
+If there was one thing that became apparent to me at this meeting, it is
 that Ember has become a stable core on top of which developers can build
 amazing web applications&mdash;without fearing they will be left behind.
 
@@ -384,7 +383,7 @@ blocks have unlocked frameworks and libraries like jQuery, Ember,
 Angular and React.
 
 By focusing first on raw capabilities before ease-of-use, you keep the
-scope constrained. You can ship features faster, and by exposing just
+scope constrained. You can ship features faster, and by exposing only
 the building blocks, you can let experimentation and competition in the
 ecosystem find an API that developers love&mdash;without breaking
 backwards compatibility.
@@ -406,6 +405,7 @@ And because the majority of FastBoot's developer-facing API lives in an
 addon, we can rapidly iterate separate from Ember's typical six week
 release cycle.
 
+<!-- alex ignore easy -->
 And, as described in the above Engines section, the `ember-engines`
 addon is taking a similar approach. We'll figure out the minimum set of
 changes needed to the core framework to make them work, then rapidly
@@ -432,9 +432,9 @@ and rewrite it in a year or two.
 As the set of things needed to build a modern web app
 grows&mdash;Service Workers, Web Workers, offline sync, push
 notifications, OS integration, server-side rendering, fast re-rendering, WebSockets,
-reliable deployment, CSS postprocessing, and animation, to name just a
+reliable deployment, CSS postprocessing, and animation, to name only a
 few&mdash;we think Ember will be better positioned than ever to help
-developers build amazing things. Soon, it will just flat out not be
+developers build amazing things. Soon, it will flat out not be
 feasible to do everything yourself.
 
 Thank you for being a part of the Ember community. It's going to be a

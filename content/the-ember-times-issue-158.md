@@ -64,7 +64,7 @@ Read more about the element modifier manager and its internals [on dev.to](https
 
 Raja SK's third blog post on Ember modifiers is titled [the magic behind the ember modifiers](https://twitter.com/_raja_sk_/status/1285631182697369601?s=20), where he talks about the internal workings of an Ember modifier - a feature that is offered by Ember Octane.
 
-In the process of explaining how a modifier works, he showcases its use by writing a simple autofocus modifier using the functional modifier approach.
+In the process of explaining how a modifier works, he showcases its use by writing an autofocus modifier using the functional modifier approach.
 
 For more details on the blog, check it out [on dev.to](https://dev.to/_raja_sk_/the-magic-behind-the-ember-modifiers-164c).
 

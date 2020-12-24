@@ -262,8 +262,7 @@ Ember CLI 2.10 removes Ember.js 1.13 from the default testing matrix in the
 addon blueprint. Given that we now have two LTS releases in the Ember.js 2.x
 series, we no longer feel that supporting Ember.js 1.13 is a reasonable
 default for newly-created addons. You may continue to support Ember.js 1.13 in
-your addons (and in most cases it's simple to do) by adding it back into the
-testing matrix.
+your addons by adding it back into the testing matrix.
 
 For more details on the changes in Ember CLI 2.10 and detailed upgrade
 instructions, please review the [Ember CLI 2.10.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v2.10.0).

@@ -72,7 +72,7 @@ model, and hook it all up to the `App.PostsController`. But these
 globals are not hardcoded into the framework—instead, there's a default
 resolver that encapsulates all of these naming conventions.
 
-To write an Ember app that uses modules, it's as simple as swapping out
+To write an Ember app that uses modules, swap out
 the default resolver for one that requires named modules instead of
 looking for globals.
 

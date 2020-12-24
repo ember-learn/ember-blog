@@ -16,10 +16,11 @@ process that began after 1.0 was released.
 
 ### New features in 1.5
 
+<!-- alex disable savage -->
 #### Handlebars Logging of Primitive Values
 
-This feature allows you to log primitive values (strings, numbers, etc) from within your
-templates. Previously, the `{{log}}` helper only allowed usage of bound property lookup.
+This feature allows you to log primitive values (strings, numbers, etc) from within your templates. Previously, the `{{log}}` helper only allowed usage of bound property lookup.
+<!-- alex enable savage -->
 
 ```handlebars
 {{log "**LOOKEY HERE**"}}

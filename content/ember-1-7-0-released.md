@@ -81,9 +81,8 @@ Please review the new [Deprecations Page](http://emberjs.com/deprecations/) for 
 
 ### Controller's `model` property
 
-On Controllers, the content property is now derived from model. This reduces many caveats
-with model/content, and also sets a simple ground rule: Never set a controller's content,
-rather always set its model.
+<!-- alex ignore simple -->
+On Controllers, the content property is now derived from model. This reduces many caveats with model/content, and also sets a simple ground rule: Never set a controller's content, rather always set its model.
 
 ### `bind-attr` and empty arrays
 

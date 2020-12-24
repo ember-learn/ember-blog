@@ -143,7 +143,7 @@ One common issue in single page application frameworks is that they wrap a devel
 
 I learned from [Robert DeLuca](https://github.com/Robdel12) that [most front end frameworks have flaws](https://medium.com/@robdel12/single-page-apps-routers-are-broken-255daa310cf) that affect Assistive Technology like screen readers. One of those flaws is focus management, and there's already an addon for it.
 
-While ember-a11y refers to a whole bunch of tools, there's one addon that is simply called [ember-a11y](https://github.com/ember-a11y/ember-a11y) too. The main task of this addon is to handle focus correctly so that users with Assistive Technology can navigate content as changes happen inside the `{{outlet}}` of a route.
+While ember-a11y refers to a whole bunch of tools, there's one addon called [ember-a11y](https://github.com/ember-a11y/ember-a11y). The main task of this addon is to handle focus correctly so that users with Assistive Technology can navigate content as changes happen inside the `{{outlet}}` of a route.
 
 ```bash
 ember install ember-a11y

@@ -104,7 +104,7 @@ configuration away from Bower. The
 [ember-source-channel-url](https://github.com/ember-cli/ember-source-channel-url)
 addon provides an API for fetching the appropriate URL for a given channel.
 The latest version of Ember CLI's addon blueprint uses this API out of the box,
-so most addons simply need to upgrade to Ember CLI 3.0 to complete their move
+so most addons only need to upgrade to Ember CLI 3.0 to complete their move
 away from Bower.
 
 ## Changes in Ember.js 3.0
@@ -126,7 +126,7 @@ and [RFC #268](https://github.com/emberjs/rfcs/blob/master/text/0268-acceptance-
 
 You can find the final documentation for these test helpers at:
 
-* [github.com/emberjs/ember-test-helpers/blob/master/API.md](https://github.com/emberjs/ember-test-helpers/blob/master/API.md)
+* [ember-test-helpers API documentation](https://github.com/emberjs/ember-test-helpers/blob/master/API.md)
 
 And additionally the [Ember.js Testing
 Guides](https://guides.emberjs.com/v3.0.0/testing/) have been updated.

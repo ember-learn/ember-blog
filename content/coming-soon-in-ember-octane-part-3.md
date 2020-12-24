@@ -65,7 +65,7 @@ This is also what enables Ember's [_dependency injection_ system](https://guides
 
 However, this all comes at a cost. We have to use `set` _everywhere_ to ensure that the system picks up changes (up until recently we also had to use `get` to get them, but thankfully that constraint was [mostly removed recently](https://github.com/emberjs/rfcs/blob/master/text/0281-es5-getters.md)), and we have to type out these lists of dependencies for any derived values in the system. This can take quite a lot of time and effort, and requires diligence to maintain.
 
-<!--alex ignore easy-->
+<!-- alex ignore easy simple -->
 So, Ember's current system isn't quite "automatic" either. It's _conventional_ - by following the rules, you get the benefits of `shouldComponentUpdate` without having to work out the details yourself. It's pretty easy to follow those rules, because they _are_ simple and straightforward, but it still can be tedious and feels like boilerplate, and if there's an unofficial Ember motto it may be "get rid of the boilerplate!"
 
 ### Flip It Around!
@@ -186,6 +186,7 @@ export default Component.extend({
 });
 ```
 
+<!-- alex ignore simply -->
 Because of this effect, _any_ external class can essentially expand a class's public API at any point in time simply because it's convenient. In large codebases, this can lead to the true definition of a class being spread out across many different files, actions, helper functions, and computed properties. In other words, it leads to spaghetti.
 
 By comparison, for this to work at _all_ with tracked properties, `firstName` and `lastName` _must_ be annotated:

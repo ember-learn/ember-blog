@@ -40,7 +40,7 @@ render (for example, the render buffer).
 support for components, data-binding, and logic within inline SVG documents.
 [Example JSBin](http://jsbin.com/woxes/8/)
 - Prior versions of Ember.js relied upon script tags to mark
-regions of data bound content. For example a simple template of `{{name}}`
+regions of data bound content. For example, a template that has `{{name}}`
 might be rendered into the page as:
 
 ```html
@@ -152,7 +152,7 @@ be removed from production builds entirely.
 
 As with any minor release of Ember.js, the current canary branch is forked
 to become the next beta. This ensures a constant graduation of features and
-improvements from master to release. Builds of beta are made available every
+improvements for release. Builds of beta are made available every
 week for six weeks, then promoted to release.
 
 In Ember.js 1.9 several new features and changes will be introduced.

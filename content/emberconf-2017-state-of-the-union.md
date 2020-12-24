@@ -10,8 +10,6 @@ tags:
   - '2017'
 ---
 
-
-<!--alex disable savage just of-course obvious trap jesus easy clearly-->
 Ember.js (or should we say [Amber.js](http://yehudakatz.com/2011/12/08/announcing-amber-js/)) turned five years old last December. In some ways, five years is a short amount of time. But when measured in web framework years, it feels like a downright eternity.
 
 As Yehuda and I were getting ready for our keynote presentation at this year's EmberConf, we tried to remember what developing web apps was really like in 2011. We knew that the web had changed for the better since then, but I think we both had repressed our memories of how truly awful it was.
@@ -22,7 +20,7 @@ The most popular browser in 2011, by a wide margin, was IE8. Today, for most peo
 
 Today, we freely use new language features like async functions, destructuring assignment, classes, and arrow functions. We even get to use not-quite-standardized features like decorators ahead of time thanks to transpilers like Babel and TypeScript. In 2011, however, everyone was writing ES3. ES5 was considered too "cutting edge" for most people to adopt.
 
-DOM and CSS features we've come to take for granted weren't available, like Flexbox and even `querySelectorAll`. Things were so primitive that, hard as it is to believe now, _no one even questioned whether you might not need jQuery_.
+DOM and CSS features we've come to take for granted weren't available, like Flexbox and even `querySelectorAll`. Hard as it is to believe now, _no one even questioned whether you might not need jQuery_.
 
 ![Slide showing the state of the web in 2011. No browsers implement WebSockets, Flexbox doesn't exist, only 49% of browsers have Web Workers, and IE8 has 27% market share. Chrome (all versions) is a distant second place at 18% market share.](/images/blog/2017-04-05-emberconf-2017-state-of-the-union/web-in-2011.png)
 
@@ -58,7 +56,7 @@ As antiquated as this feels today, this was more or less how most JavaScript app
 
 Some parts of Ember are truly embarrassing to look back on. Because IE was so dominant, our rendering engine was optimized for its performance quirks. DOM APIs were extremely slow, so our templates were string-based: render everything as a string of HTML, and then insert it with a single `innerHTML` operation. (Modern rendering engines like React, Angular, and Glimmer all create their own DOM instead of asking the browser to parse HTML.)
 
-Unfortunately, letting the browser create our DOM elements for us led to some… interesting approaches to go back and find them later. For one thing, we had to use the awkward `{{bindAttr}}` helper just to bind an element's attributes.
+Unfortunately, letting the browser create our DOM elements for us led to some… interesting approaches to go back and find them later. For one thing, we had to use the awkward `{{bindAttr}}` helper to bind an element's attributes.
 
 ```handlebars
 <div id="logo">
@@ -104,7 +102,7 @@ Even worse was the [Eldritch horror awaiting anyone who looked at the DOM](http:
 </div>
 ```
 
-All of that just to render what today looks like this:
+All of that in order to render what today looks like this:
 
 ```html
 <div>
@@ -137,7 +135,7 @@ Ember's 2.0 release was also novel: it was the first framework to release a majo
 
 While the transition was bumpier than we would have liked for many people, this experiment showed how valuable focusing on upgrade paths is. Compared to the previous status quo of releasing new major versions that require you to effectively rewrite your app, we believe Ember 2.0 was an important bellwether that showed that JavaScript frameworks can make progress without breaking their ecosystem.
 
-Of course, I'd be remiss if I didn't mention the Ember router.
+I'd be remiss if I didn't mention the Ember router.
 
 Routers that map URLs on to application code exist in every server-side framework, such as Rails and Django. Stateful UI architecture has also been around forever. Ember's architecture borrows a lot from Cocoa, but the MVC idea has been around since at least Smalltalk-76.
 
@@ -159,7 +157,7 @@ But what should our next move be? Many worthy competitors have come along, witho
 
 We _could_ decide to put Ember into maintenance mode, cede the future to the newcomers, and focus on catering to the existing user base for many years to come. But I don't think that's what we should do.
 
-I think it's possible to stay cutting edge without breaking the apps people have spent years investing in, and I think we have just the formula for doing it.
+I think it's possible to stay cutting edge without breaking the apps people have spent years investing in, and I think we have the formula for doing it.
 
 ## What Didn't Work?
 
@@ -169,11 +167,11 @@ It's a little bit embarrassing to have to write this, since it's something I kne
 
 We wanted to make Ember easier to learn, so we wanted to eliminate controllers from the programming model. To do that, we wanted to introduce the idea of "routable components"—components that are managed by the router.
 
-But we also wanted to make Ember more approachable by introducing components that used `<angle-bracket>` syntax, so they work just like the HTML elements people are already familiar with. And if we were introducing routable components, they should obviously use the new component syntax—we shouldn't introduce a new API that people immediately felt like they had to rewrite.
+But we also wanted to make Ember more approachable by introducing components that used `<angle-bracket>` syntax, so they work like the HTML elements people are already familiar with. And if we were introducing routable components, they should use the new component syntax—we shouldn't introduce a new API that people immediately felt like they had to rewrite.
 
 We were also embarrassed that the design of the "pods" filesystem layout was left in a half-completed state, and we considered it to be a dead end for other features we wanted to introduce. But filesystem layout touches nearly everything, so the Module Unification RFC became another design that invisibly delayed other important features.
 
-All of this work felt high-stakes because it touched such a fundamental part of Ember: the component API. Ember contributors felt like this was their one shot to get in that feature they'd always wanted. And if you had one shot, one opportunity, to seize everything you ever wanted in one moment, would you capture it, or just let it slip?
+All of this work felt high-stakes because it touched such a fundamental part of Ember: the component API. Ember contributors felt like this was their one shot to get in that feature they'd always wanted. And if you had one shot, one opportunity, to seize everything you ever wanted in one moment, would you capture it, or let it slip?
 
 Creating this series of dependencies meant that one disagreement on a particular RFC could delay work on another that, from the outside, seemed unrelated. It also became near impossible for any one person to keep the state of all of the proposals in their head, so we did a very bad job of communicating status updates to the community. It's no surprise that many people perceive Ember as having slowed down over the last year.
 
@@ -191,7 +189,7 @@ While we figure out the best way to deploy production-ready server-side rendered
 
 Engines worked similarly: [an RFC proposed a small set of primitives](https://github.com/emberjs/rfcs/blob/master/text/0010-engines.md), and then the addon could build on these to add features we were less certain of.
 
-And, of course, there's Glimmer 2.
+And there's Glimmer 2.
 
 Shipping in Ember 2.10, this ground-up rewrite of our rendering engine was a huge success. We dramatically reduced compiled template size, with many apps seeing 30-50% reductions in total payload (after gzip!).
 
@@ -214,13 +212,13 @@ In some places, we're already good at this. For example, [ember-redux](http://ww
 
 If we do decide that an existing feature needs a rethink, we will follow the Glimmer model: keep both the old and new running at once, and hold off merging until tests (and your apps!) work without changes.
 
-This is another example of something that should have been more obvious to us ahead of time. We're big fans of the [Extensible Web Manifesto](https://github.com/extensibleweb/manifesto), and this bears an uncanny resemblance to that.
+This is another example of something that we should have observed ahead of time. We're big fans of the [Extensible Web Manifesto](https://github.com/extensibleweb/manifesto), and this bears an uncanny resemblance to that.
 
 ## Glimmer's Performance Sweet Spot
 
 Last year, we talked about Glimmer's VM architecture and promised many performance benefits to come. We delivered Glimmer in Ember 2.10 and this year we're continuing to reap the performance rewards of its modular VM architecture.
 
-Benchmarks are essential to measuring our performance improvements, but benchmarks are also dangerous. Focusing on the wrong benchmark, or just one kind of benchmark, can cause you to miss important context.
+Benchmarks are essential to measuring our performance improvements, but benchmarks are also dangerous. Focusing on the wrong benchmark, or only one kind of benchmark, can cause you to miss important context.
 
 [V8's Benedikt Meurer has a fantastic blog post about their new Ignition + TurboFan architecture](http://benediktmeurer.de/2017/03/01/v8-behind-the-scenes-february-edition/), and how years of benchmark competition had caused them to be "over-focused on the peak performance case" while "baseline performance was a blind spot."
 
@@ -254,13 +252,13 @@ Borrowing from Maslow's Hierarchy of Needs, Steve introduced the Apple Hierarchy
 
 ![Steve Jobs' Apple Hierarchy of Skepticism slide. Numbered 1 to 5, from bottom to top: Survival, Stable Business, Product Strategy, Applications, Growth. The Survival, Stable Business, and Product Strategy rows are colored orange to indicate that they've been overcome. Applications and Growth are colored blue to indicate that they are the next area Apple will focus on to persuade the skeptics.](/images/blog/2017-04-05-emberconf-2017-state-of-the-union/apple-hierarchy-of-skepticism.png)
 
-> "When I came to Apple a year ago, all I heard was 'Apple is dying, Apple can't survive.' It turns out that every time we convince people we've accomplished something at one level, they come up with something new. And I used to think this was a bad thing. I thought, 'Oh Jesus, when are they ever gonna believe that we're gonna be able to turn this thing around?'
+> "When I came to Apple a year ago, all I heard was 'Apple is dying, Apple can't survive.' It turns out that every time we convince people we've accomplished something at one level, they come up with something new. And I used to think this was a bad thing. I thought, 'When are they ever gonna believe that we're gonna be able to turn this thing around?'
 >
 > But actually now I think it's great! Because what it means is we've now convinced them that we've taken care of last month's question. And they're on to the next one! So I thought, let's get ahead of the game, let's figure out what all of the questions are gonna be, and map out where we are."
 
-Without being overly dramatic, I think there are some obvious parallels between the 90's era Mac and Ember. While we have a fantastic community and high-profile, successful apps, it can feel like the momentum is somewhere else. And I know Ember users who have told me they feel beleaguered by this common reaction: "You use Ember? I thought React was the new thing?" I've even gotten it from my Lyft driver.
+Without being overly dramatic, I think there are some parallels between the 90's era Mac and Ember. While we have a fantastic community and high-profile, successful apps, it can feel like the momentum is somewhere else. And I know Ember users who have told me they feel beleaguered by this common reaction: "You use Ember? I thought React was the new thing?" I've even gotten it from my Lyft driver.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/tomdale">@tomdale</a>: &quot;...if it makes you feel better, my lyft driver just asked &#39;isn&#39;t ember dead and react is the new thing?&#39;&quot;</p>&mdash; Lady Zahra (@ZeeJab) <a href="https://twitter.com/ZeeJab/status/847489050130788352">March 30, 2017</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/tomdale">@tomdale</a>: &quot;...if it makes you feel better, my lyft driver asked &#39;isn&#39;t ember dead and react is the new thing?&#39;&quot;</p>&mdash; Lady Zahra (@ZeeJab) <a href="https://twitter.com/ZeeJab/status/847489050130788352">March 30, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 When I think about the reasons people give for not using Ember, there are some that used to be common that I never hear anymore. Those ugly `<script>` tags in the DOM and lack of documentation were two major knocks against Ember, but we've since eliminated the DOM noise and invested heavily in guides and API documentation. We convinced people that these weren't a barrier anymore! But there are still lots of reasons people don't want to take another look at Ember.
@@ -281,7 +279,8 @@ Starting today, we can focus on overcoming these last three barriers to Ember's 
 
 With [Glimmer.js](https://glimmerjs.com), we've extracted the rendering engine that powers Ember and made it available to everyone.
 
-Glimmer is just the component layer, so it's up to you to decide if you need routing, a data layer, etc. If you want to drop Glimmer components into an existing app, it's as simple as adding a Web Component.
+<!-- alex ignore simple -->
+Glimmer is only the component layer, so it's up to you to decide if you need routing, a data layer, etc. If you want to drop Glimmer components into an existing app, it's as simple as adding a Web Component.
 
 For a quick, five minute tour of what building a Glimmer app is like, check out this video from [EmberMap](https://embermap.com/):
 
@@ -307,7 +306,7 @@ export default Ember.Component.extend({
 
 ```
 
-In Glimmer, the component's root element is defined in the template, so all of that goes away. (You can think of the component template now being "outer HTML" instead of "inner HTML".) Here's the same component in Glimmer, with just a template:
+In Glimmer, the component's root element is defined in the template, so all of that goes away. (You can think of the component template now being "outer HTML" instead of "inner HTML".) Here's the same component in Glimmer, with only a template:
 
 ```handlebars
 <input disabled type="range" />
@@ -348,7 +347,7 @@ export default class extends Component {
 
 Because Glimmer is written in TypeScript, it has great autocomplete and type definitions out of the box. And every new Glimmer app is configured to use TypeScript automatically.
 
-JavaScript is still the primary way to write Glimmer apps. Because it's extracted from a JavaScript framework, Glimmer's API has been designed to be used with JavaScript from the start. TypeScript is just an extra tool in your toolbelt—if you want it.
+JavaScript is still the primary way to write Glimmer apps. Because it's extracted from a JavaScript framework, Glimmer's API has been designed to be used with JavaScript from the start. TypeScript is an extra tool in your toolbelt—if you want it.
 
 ```javascript
 import Component from '@glimmer/component';
@@ -395,7 +394,7 @@ export default class extends Component {
 
 ### Actions
 
-Actions in Glimmer are just functions, with optional argument currying. Use the `{{action}}` helper to bind the function to the component context:
+Actions in Glimmer are functions, with optional argument currying. Use the `{{action}}` helper to bind the function to the component context:
 
 ```javascript
 import Component, { tracked } from '@glimmer/component';
@@ -441,6 +440,7 @@ But… where does that leave Ember?
 
 ## Back to Ember
 
+<!-- alex ignore easy -->
 We believe that the key to balancing stability and progress in Ember is to make it easy to do experimentation outside of the framework. The only way to truly get a sense of something is to be able to use it.
 
 **Glimmer components are the future of components in Ember.**
@@ -449,7 +449,7 @@ We want to let you—and everyone—get a chance to use Glimmer components befor
 
 A few weeks before EmberConf, [Godfrey Chan submitted the "Custom Component API" RFC](https://github.com/emberjs/rfcs/pull/213). This RFC is the key to bringing Glimmer components to Ember apps. Because the Glimmer VM is really a "library for writing component libraries," we can let addons specify their own custom component API.
 
-Notably, this means we're working on making it possible to use the Glimmer components you've seen above in your existing Ember apps, just by installing an addon.
+Notably, this means we're working on making it possible to use the Glimmer components you've seen above in your existing Ember apps by installing an addon.
 
 Best of all, Glimmer apps use the Module Unification filesystem layout. This is the link between the Ember and Glimmer worlds. If you decide you actually *do* need all of the functionality Ember offers, you will be able to drag and drop your Glimmer components into an Ember app.
 
@@ -461,22 +461,20 @@ Much of the secret sauce of a Glimmer app is in the ahead-of-time compilation we
 
 While we're excited about Glimmer, work on Ember is not slowing down. If anything, the focus on exposing capabilities means that the pace of community experimentation should noticeably tick upwards.
 
-Module Unification for Ember apps is [under active development](https://github.com/ember-cli/ember-resolver/pull/182). We're applying the lessons we learned and are working to expose the primitives needed to be able to implement the Module Unification filesystem layout in an addon. Development is happening on the master branch of `ember-resolver` [behind a feature flag](https://github.com/ember-cli/ember-resolver#current-feature-flags).
+Module Unification for Ember apps is [under active development](https://github.com/ember-cli/ember-resolver/pull/182). We're applying the lessons we learned and are working to expose the primitives needed to be able to implement the Module Unification filesystem layout in an addon. Development is happening on the `master` branch of `ember-resolver` [behind a feature flag](https://github.com/ember-cli/ember-resolver#current-feature-flags).
 
-As we upstream Glimmer.js code into Ember, this gives us a great excuse to [clean up older tests](https://github.com/emberjs/ember.js/issues/15058) so that we can easily run them against the old and new implementation, as we did with rendering tests and Glimmer VM integration.
+As we upstream Glimmer.js code into Ember, this gives us a great excuse to [clean up older tests](https://github.com/emberjs/ember.js/issues/15058) so that we can run them against the old and new implementation, as we did with rendering tests and Glimmer VM integration.
 
 We've also begun to [implement a routing service](https://github.com/emberjs/ember.js/pull/14805) that gives applications and addons imperative control over the router. This is exciting because, previously, routing-related features like the built-in `{{link-to}}` helper relied on private API. With the routing service, developers will have the tools to build their own `{{link-to}}` helper if they wish.
 
 Long term, our goal is to break Ember apart into a series of small modules. Each piece of Ember should be an npm package that you can remove if you don't need it.
 
-(Unlike most small modules approaches, of course, things will "just work" together if you _do_ need them. We remain strongly opposed to forcing integration work onto application developers.)
+(Unlike most small modules approaches, things will work together if you _do_ need them. We remain strongly opposed to forcing integration work onto application developers.)
 
 It should also work in reverse: if you start with Glimmer and realize you actually do need a router, services, a data layer, etc., you should be able to incrementally `npm install` your way to Ember.
 
 ![Diagram showing a spectrum from less complext to more complex. On the left side is Glimmer logo for less complex applications. On the right side is Ember, for ambitious applications. In the middle is a sequence of npm install commands that show how you can move incrementally up the scale, one package at a time: npm install @ember/router, npm install @ember/service, and npm install @ember data.](/images/blog/2017-04-05-emberconf-2017-state-of-the-union/spectrum-of-app-complexity.png)
 
 This is the future we've always dreamed of for Ember: a complete, cohesive front-end stack for those who want it, with the ability to quickly pare it down if the need arises.
-
-<!--alex enable savage just of-course obvious trap jesus easy clearly-->
 
 We're not there quite yet, but it's an exciting goal to build toward and I think we've shown tangible progress already with Glimmer. I hope you are as excited about Ember and Glimmer as we are, and we can't wait to see all of the cool stuff you build with them!

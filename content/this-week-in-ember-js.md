@@ -107,11 +107,7 @@ extremely important. Please review and let me know what you think!
 ---
 
 Finally, I'd like to give a shoutout to Trek Glowacki for doing an
-awesome job [repping the Ember.js community on the JS Jabber
-podcast](http://javascriptjabber.com/034-jsj-ember-js/). I had no idea
-how sexy his voice was.  If you haven't listened yet, it's worth your
-time. (Feel free to troll him about not knowing how the run loop works.
-;)
+awesome job [repping the Ember.js community on the JS Jabber podcast](http://javascriptjabber.com/034-jsj-ember-js/). If you haven't listened yet, it's worth your time.
 
 Me, Yehuda and the rest of the Tilde team will be in Hawaii next week
 for our company offsite. We should have wi-fi and be generally

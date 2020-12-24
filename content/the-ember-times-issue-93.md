@@ -17,7 +17,7 @@ tags:
 ഹായ് Emberistas! 🐹
 
 <!--alex ignore special-->
-Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today, as well as ways that we can reflect and improve. So enjoy the read. 📜
+Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You are welcome to [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today, as well as ways that we can reflect and improve. So enjoy the read. 📜
 
 <!-- READMORE -->
 
@@ -90,7 +90,7 @@ This quote reminded us of our past Readers’ Question from [@kategengler](https
 - Ember is used by large corporations such as LinkedIn, Intercom, Discourse, Sentry, and others.
 - Everything you need is included out-of-the-box (router, data layer, build tool), but there’s also the flexibility to replace pieces if needed.
 - There are many high-quality community-contributed/maintained addons. There are well-established solutions for common needs such as deployment, internationalization, accessibility, user interface elements, etc. See more at [emberobserver.com](https://emberobserver.com/).
-- Ember CLI makes it simple to get a local development environment going.
+- Ember CLI helps you get a local development environment going.
 - LTS releases ensure you don’t have to constantly update Ember to get bug and security fixes.
 - Ember evolves without making sudden breaking changes. API changes are signaled well in advance of a major version through deprecations, with the major versions merely removing those deprecated APIs.
 - The Ember community is active and helpful, and can be found in the [Ember Community on Discord](https://discordapp.com/invite/zT3asNS).
@@ -99,7 +99,7 @@ This quote reminded us of our past Readers’ Question from [@kategengler](https
 
 ## [How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
-Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on **things we can do better**. 🤔
+The community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on **things we can do better**. 🤔
 
 Specifically the survey **empowers** community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
 

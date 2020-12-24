@@ -37,7 +37,7 @@ You would also need to include `handlebars.runtime.js` in your final build
 
 #### Ember 1.10+
 
-With Ember 1.10, you will use the `ember-template-compiler.js` file that is paired with your Ember version. If you use our [Bower repo](https://github.com/components/ember), [RubyGem](https://rubygems.org/gems/ember-source), or simply download Ember from our [builds site](http://emberjs.com/builds/) there is a `ember-template-compiler.js` in the same path as `ember.debug.js` and `ember.prod.js`.
+With Ember 1.10, you will use the `ember-template-compiler.js` file that is paired with your Ember version. If you use our [Bower repo](https://github.com/components/ember) or [RubyGem](https://rubygems.org/gems/ember-source), or download Ember from our [builds site](http://emberjs.com/builds/), there is a `ember-template-compiler.js` in the same path as `ember.debug.js` and `ember.prod.js`.
 
 You can use this template compiler directly  and without additional requirements. For example:
 

@@ -45,7 +45,7 @@ Not only are there two confusing configuration options, but if only one of `base
 
 #### Integration With Other Applications
 
-Not every Ember application is full green field development. If you happened to have legacy user-generated HTML, or other data containing relative links, this didn't play nicely with the `<base>` tag. Rewriting this content is an option, but incurs cost and bugs more simply avoided by not including the `<base>` tag.
+Not every Ember application is full green field development. If you happened to have legacy user-generated HTML, or other data containing relative links, this didn't play nicely with the `<base>` tag. Rewriting this content is an option, but incurs cost and bugs that can be avoided by not including the `<base>` tag.
 
 #### SVG
 

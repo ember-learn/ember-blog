@@ -17,15 +17,15 @@ On behalf of all the contributors who have lent a hand along the way, I am very 
 
 ## 🔑 A Key Milestone 🔑
 
-During the alpha testing period, we will publish new alpha builds on a weekly cadence, following the [beta releases schedule](http://emberjs.com/builds/#/beta). The alpha releases will be cut from the master branch, but with all [experimental features](https://guides.emberjs.com/v2.7.0/configuring-ember/feature-flags/) other than `ember-glimmer` stripped from the builds.
+During the alpha testing period, we will publish new alpha builds on a weekly cadence, following the [beta releases schedule](http://emberjs.com/builds/#/beta). The alpha releases will be cut from the `master` branch, but with all [experimental features](https://guides.emberjs.com/v2.7.0/configuring-ember/feature-flags/) other than `ember-glimmer` stripped from the builds.
 
 The purpose of the alpha releases is to enable our community – especially the addon and tooling ecosystem – to start testing the new engine for compatibility and offer feedback. Needless to say, the alpha releases are not intended for production use.
 
-To test your apps with the alpha builds, simply run `bower install --save ember#alpha` and follow the prompt to persist the resolution.
+To test your apps with the alpha builds, run `bower install --save ember#alpha` and follow the prompt to persist the resolution.
 
 From Ember's perspective, integrating Glimmer 2 does not expose any new user-facing features. Even though it is a complete rewrite under the hood, **we expect the final release to be a drop-in, completely backwards compatible upgrade** for virtually all Ember users. Notably, we will follow our usual [SemVer](http://semver.org) guarantee and ensure all public APIs continue to function as advertised. At this point, we do not expect to introduce any new deprecations along with the initial release.
 
-That being said, despite our [best efforts](https://github.com/emberjs/ember.js/issues/13127), we might not have gotten every detail right in our very first attempt, hence the alpha releases. We would really appreciate it if you could start testing your applications and report any regressions. You may refer to the [master issue](https://github.com/emberjs/ember.js/issues/13949) for a list of known issues.
+That being said, despite our [best efforts](https://github.com/emberjs/ember.js/issues/13127), we might not have gotten every detail right in our very first attempt, hence the alpha releases. We would really appreciate it if you could start testing your applications and report any regressions. You may refer to the [GitHub issue](https://github.com/emberjs/ember.js/issues/13949) for a list of known issues.
 
 It is worth noting that the version number (2.9.0-alpha.1) does not imply the new engine will be automatically included in the 2.9 final release. Like any other changes, the Glimmer 2 integration is subject to the usual rigor and stability requirements of our [release process](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html). The core team will make the final decision on when to promote the feature into beta and stable releases based on our learnings from the alpha period.
 

@@ -56,7 +56,7 @@ contains a number of updates that result in a dramatic improvement.
 You can now specify custom hooks to notify the asynchronous test helpers when all
 async actions have completed. Under Ember 1.2 if you need to wait for an IndexDB
 action, the default `wait` implementation would not wait until that
-action finished. Now you can simply register your own hook that will instruct wait
+action finished. Now you can register your own hook that will instruct wait
 that it is truly time to continue.
 
 For example:

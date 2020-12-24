@@ -108,7 +108,7 @@ removed in Ember 3.0:
   a constructor for safe strings is deprecated, and will be removed.
   See the [deprecation guide](http://emberjs.com/deprecations/v2.x/#toc_use-ember-string-htmlsafe-over-ember-handlebars-safestring) for more details.
 * The `didInitAttrs` hook for component lifecycles is deprecated in favor of
-  simply using `init`. `didInitAttrs` had confusing timing
+  using `init`. `didInitAttrs` had confusing timing
   issues, and `init` fulfills the same role. See the [deprecation guide](http://emberjs.com/deprecations/v2.x/#toc_ember-component-didinitattrs) for more details.
 * Passing a `model` argument to `{{render}}` is deprecated in favor of using
   a component for the same cases. For example `{{render 'chat' roomModel}}`

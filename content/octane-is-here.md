@@ -138,7 +138,7 @@ You can use a modifier on any element using element modifier syntax.
 <div {{tabs}}></div>
 ```
 
-Element modifiers work on any element, meaning that you don't need to create a whole component simply to create reusable DOM behavior.
+Element modifiers work on any element, meaning that you don't need to create a whole component to create reusable DOM behavior.
 
 This way of writing modifiers assumes that when the arguments to a modifier change, it's fine to run the destructor and run the modifier from scratch. If you need more granular control, the `ember-modifier` package also provides a more advanced API.
 

@@ -12,7 +12,7 @@ tags:
 
 Open source project management is different than inside a typical software company. It's an example of the purest form of leadership: you’re getting a bunch of peers all moving in the same direction, despite no formal hierarchy or authority structure. It comes down to building consensus, persuasion, and setting the right examples.
 
-The Ember Core Team was formed in 2011 because even decentralized open source communities need leadership and shared direction. As our community and core contributor group grew, there was simply too much going on to keep all the work under the direct attention of the Core Team. And so multiple other teams emerged organically; first the Ember CLI team and Ember Data, and later the Learning team.
+The Ember Core Team was formed in 2011 because even decentralized open source communities need leadership and shared direction. As our community and core contributor group grew, there was too much going on to keep all the work under the direct attention of the Core Team. And so multiple other teams emerged organically; first the Ember CLI team and Ember Data, and later the Learning team.
 
 The work that all these teams do is equally important. But the historical accident of Ember Core being the first team left Ember Core with numerous varied jobs. It became the coordination point for both technical leadership and overall community support.
 
@@ -25,7 +25,7 @@ All that as it is, we also can’t lose our central coordination point, so along
 The Steering Committee will be responsible for things including, but not limited to:
 
 - Owning the [Community Guidelines](https://emberjs.com/guidelines/) and helping people stick to them
-- Serving as the public-facing ombudsman
+- Serving as the public-facing mediator
 - Organizing events and conferences
 - Supporting local meetup organizers
 - Managing Ember's brand and visual identity

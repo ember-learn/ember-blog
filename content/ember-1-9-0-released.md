@@ -347,7 +347,7 @@ export default Ember.ContainerView.extend({
 - The `beforeObserver` feature is deprecated in Ember 1.10. Before observers
   are rarely used, but introduce significant overhead to the observer system
   in general. For observer use that requires the previous value of a property
-  be known, implementing a cache is simple and more efficient. Read more about
+  be known, implementing a cache is easier and more efficient. Read more about
   how to do this in [the deprecations page](http://emberjs.com/deprecations/v1.x#toc_deprecate-beforeobservers).
 - Quote-less outlet names are deprecated in 1.10. An example of this is
   `{{outlet modal}}`, which would be re-written as `{{outlet "modal"}}`.

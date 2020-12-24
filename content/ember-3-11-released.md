@@ -43,7 +43,7 @@ For more information please refer to [the RFC](https://github.com/emberjs/rfcs/b
 
 The [`{{fn}}`](http://api.emberjs.com/ember/3.11/classes/Ember.Templates.helpers/methods/fn?anchor=fn) helper provides a way to pass arguments to actions.
 
-The `action` method creates an action from a simple function so that it can be passed to event handlers in templates. It ensures that the `this` value in the `countUp` action will always be the component instance, which allows it to be freely passed to other components. Where this falls short is when we need to pass arguments to these actions.
+The `action` method creates an action from a function so that it can be passed to event handlers in templates. It ensures that the `this` value in the `countUp` action will always be the component instance, which allows it to be freely passed to other components. Where this falls short is when we need to pass arguments to these actions.
 
 ```javascript
 import Component from "@ember/component";

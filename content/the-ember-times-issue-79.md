@@ -75,7 +75,7 @@ To read more on the `includeExternalHelpers` check out the [docs](https://github
 
 ## [Improving Testing One Partition at a Time 🍰](https://github.com/emberjs/rfcs/pull/426)
 
-**Ember's testing story** already makes testing incredibly approachable to developers, but what if it could bring even more to the table right from the start? Imagine being able to speed up your test suite with **parallel testing** or running tests in **randomized order** with a simple `ember test` command in your app.
+**Ember's testing story** already makes testing incredibly approachable to developers, but what if it could bring even more to the table right from the start? Imagine being able to speed up your test suite with **parallel testing** or running tests in **randomized order** with an `ember test` command in your app.
 
 A new [RFC proposes an update to the testing default in Ember apps and addons](https://github.com/emberjs/rfcs/pull/426) by providing [ember-exam](https://github.com/ember-cli/ember-exam) - an Ember addon developers can already use for advanced testing strategies - built into Ember's testing setup.
 

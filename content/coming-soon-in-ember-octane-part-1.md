@@ -24,7 +24,7 @@ If you've been paying attention in Ember lately you may have heard the term "Oct
 There _are_ more features that are part of Octane, such as Ember's new file system layout (also known as Module Unification), template imports, and other build improvements, but these are a bit out of my scope - I've personally been focused on the story for developers in the browser, writing app and addon code, and how that's going to change.
 
 <!-- alex ignore dives dive-->
-This series is aimed at existing Ember users, but if you're new to Ember or tried Ember a while ago and want to see how things are changing, I'll be providing context on the existing features as we go along. These posts won't be doing deep dives on all the edge cases of the functionality, they are moreso meant as an overview of what's coming. If you can't already tell, I'm very excited about these new features and the future of Ember with them, and can't wait to see them land in master! So, let's dive in!
+This series is aimed at existing Ember users, but if you're new to Ember or tried Ember a while ago and want to see how things are changing, I'll be providing context on the existing features as we go along. These posts won't be doing deep dives on all the edge cases of the functionality, they are moreso meant as an overview of what's coming. If you can't already tell, I'm very excited about these new features and the future of Ember with them, and can't wait to see them land! So, let's dive in!
 
 ### What Are Editions?
 

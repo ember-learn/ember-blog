@@ -44,7 +44,7 @@ as the dependent key.
 With 1.5.1 you were forced to wrap any Promise `resolve` and/or `reject` calls in an `Ember.run` loop
 while in testing, but the same code did not need to be wrapped in a run loop for normal operation.
 
-In 1.6.0 you do not need to do this promise run loop wrapping simply for the purposes of testing.
+In 1.6.0 you do not need to do this promise run loop wrapping for the purposes of testing.
 
 #### Ember.Route.prototype.render Now has a model Option
 

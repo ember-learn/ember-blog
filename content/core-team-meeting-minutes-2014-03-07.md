@@ -111,6 +111,7 @@ core team member and let them know!
 
   Resolution: make it an add on that’s not core. CPM.
 
+<!-- alex disable simple -->
 * [Deprecate edge-case get and normalizeTuple behavior before fixes](https://github.com/emberjs/ember.js/pull/4124)
 
     PR [#3852](https://github.com/emberjs/ember.js/pull/3852) changes some edge case behavior for get and normalizeTuple. Ahead of those changes, this commit introduces deprecation notices.
@@ -119,6 +120,7 @@ core team member and let them know!
       return data.
     * Deprecate normalizeTuple calls that return a non-global contenxt
       and a simple global path.
+<!-- alex enable simple -->
 
 * [Deprecate global access from templates](https://github.com/emberjs/ember.js/pull/4459)
 
@@ -152,7 +154,7 @@ core team member and let them know!
 
     > This was mentioned in the core team meeting on 2014-02-28. It was mentioned that this should be
     > changed upstream (in Handlebars itself), but as I reviewed (to let you know where that change
-    > would be needed) I realized that this PR is simply exposing the functionality that already
+    > would be needed) I realized that this PR is only exposing the functionality that already
     > exists within Handlebars, but is not exposed to `Ember.Handlebars.precompile`.
     > As such, I think that we should likely re-evaluate the prior decision.
 

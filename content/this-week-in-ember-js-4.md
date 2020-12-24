@@ -126,7 +126,7 @@ several steps:
 2. We will freeze the Ember 1.0 tests and run them against all builds of
    Ember in the 1.x series. This will notify us if we make a
    potentially backwards-incompatible change, and we can examine if it
-   is the result of an API change or simply brittle tests. If we have to
+   is the result of an API change or brittle tests. If we have to
    modify an old test, we will announce it here.
 
 [4]: http://semver.org/

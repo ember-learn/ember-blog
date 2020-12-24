@@ -78,6 +78,7 @@ He shares three concrete ideas to make growing Ember a reality:
 
 [@astronomersiva](https://github.com/astronomersiva) suggests [several ideas for increasing developer experience](https://siva.dev/ember-2019/).
 
+<!-- alex ignore simple -->
 > What I would like to see in this year's edition of Ember is developer friendliness. There are certain simple things that are annoyingly difficult to accomplish on EmberJS or are confusing to developers.
 
 ---

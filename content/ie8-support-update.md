@@ -38,8 +38,8 @@ It is important to note that Ember 1.13 will come with deprecation
 warnings for everything that we will break in Ember 2.0. As a result,
 if you are running Ember 1.13 without any deprecation warnings, you
 should be able to upgrade to Ember 2.0. And because of the
-Semantic Versioning guarantees in the Ember 2.x series, it should be
-relatively simple to upgrade from Ember 1.13 to the most recent version
+Semantic Versioning guarantees in the Ember 2.x series, you may only have
+few issues when upgrading from Ember 1.13 to the most recent version
 of Ember 2.x when you are able to drop IE8 support.
 
 For example, imagine you build the Ember app for Big Widget Enterprise
@@ -60,7 +60,7 @@ upgrade path.
 
 ## Ecosystem
 
-Of course, the above guarantees only apply to Ember, Ember Data, Ember
+The above guarantees only apply to Ember, Ember Data, Ember
 CLI, and the rest of the core-supported packages. Addon authors are
 free to define their own support matrices. We encourage those who
 depend on older browsers to contribute back by submitting PRs to the

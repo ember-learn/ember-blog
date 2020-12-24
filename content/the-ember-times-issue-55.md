@@ -86,6 +86,7 @@ The visibility of these sites to various search engines 🔍 , for example, Duck
 plays a major role in helping developers find the information they are looking for.
 To improve Ember's visibility on the web, **Search-Engine Optimization (SEO)** of these pages is one of the most effective measures.
 
+<!-- alex ignore simple -->
 Simple, yet effective improvements for Ember sites included tests of functional redirects ([1](https://github.com/emberjs/website/pull/3394)) and fixes for broken links ([2](https://github.com/emberjs/website/pull/3271), [3](https://github.com/emberjs/website/pull/3183), [4](https://github.com/emberjs/website/pull/3182)).
 Other high-impact efforts included a [new meta data structure for the new Guides](https://github.com/ember-learn/guides-app/pull/135)
 and the continuous evaluation of web crawler data.

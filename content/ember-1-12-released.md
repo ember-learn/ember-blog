@@ -47,6 +47,7 @@ export default Ember.Object.extend({
 });
 ```
 
+<!-- alex ignore simple -->
 This is still the way to write simple getters, the most common use-case for
 computed properties, in Ember 1.12.
 
@@ -188,7 +189,7 @@ refactoring work around application initialization.
 
 ### Initializer Context
 
-Previously, the `this` scope of an initializer was simply the global scope.
+Previously, the `this` scope of an initializer was the global scope.
 [#10179](https://github.com/emberjs/ember.js/pull/10179) changed initializer
 scopes to be the initializer object itself.
 

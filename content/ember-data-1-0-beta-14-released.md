@@ -13,7 +13,7 @@ tags:
 Due to a hiccup during the publishing step while releasing beta.13,
 we've removed beta.13 from npm and instead published beta.14. This
 release is available to you whether you are using npm and ember-cli,
-rubygems, or bower. Of course, the builds are always available as static
+rubygems, or bower. Note that the builds are always available as static
 files at [emberjs.com/builds](http://emberjs.com/builds).
 
 ## Improvements
