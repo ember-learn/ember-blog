@@ -33,7 +33,7 @@ This was delaying useful features making it into scheduled beta releases.
 To tighten up the feedback loop, the core team will regularly
 review features on our canary builds and work with authors sooner to address concerns.
 
-The current list of features on master but not enabled in the 1.4 family of beta builds
+The current list of features on `master` but not enabled in the 1.4 family of beta builds
 can be found on this Github issue:
 [https://github.com/emberjs/ember.js/issues/4052](https://github.com/emberjs/ember.js/issues/4052)
 

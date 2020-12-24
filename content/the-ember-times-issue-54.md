@@ -60,7 +60,7 @@ get all the TypeScript neatness to your test suite today and type on! ⌨
 [Ember Twiddle](https://ember-twiddle.com/) support for the latest (v3.2.2) release of Ember and Ember Data is here! With the great efforts of [@Gaurav0](https://github.com/Gaurav0), [@rwjblue](https://github.com/rwjblue) and [@gokatz](https://github.com/gokatz) you can now use the latest and greatest in Ember Land in your favorite browser Ember environment.
 
 Some cool updates are **new keyboard shortcuts** for `run now` and `save` as well as a shortcut for quickly commenting JavaScript code.
-There are also some updates to the contribution guide and of course it now supports Ember 3.0 - 3.2 out of the box!
+There are also some updates to the contribution guide, and it now supports Ember 3.0 - 3.2 out of the box!
 
 Ember Twiddle, currently at `v0.15.0` is a great tool that allows creating simple Ember apps to showcase ideas, bugs, issues, demos and more. It allows using addons with the included `twiddle.json` and has a built-in generator like Ember-CLI. There are even different keyboard layouts such as Vim, Emacs, Sublime and more.
 

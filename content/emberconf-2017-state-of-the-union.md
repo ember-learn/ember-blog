@@ -461,7 +461,7 @@ Much of the secret sauce of a Glimmer app is in the ahead-of-time compilation we
 
 While we're excited about Glimmer, work on Ember is not slowing down. If anything, the focus on exposing capabilities means that the pace of community experimentation should noticeably tick upwards.
 
-Module Unification for Ember apps is [under active development](https://github.com/ember-cli/ember-resolver/pull/182). We're applying the lessons we learned and are working to expose the primitives needed to be able to implement the Module Unification filesystem layout in an addon. Development is happening on the master branch of `ember-resolver` [behind a feature flag](https://github.com/ember-cli/ember-resolver#current-feature-flags).
+Module Unification for Ember apps is [under active development](https://github.com/ember-cli/ember-resolver/pull/182). We're applying the lessons we learned and are working to expose the primitives needed to be able to implement the Module Unification filesystem layout in an addon. Development is happening on the `master` branch of `ember-resolver` [behind a feature flag](https://github.com/ember-cli/ember-resolver#current-feature-flags).
 
 As we upstream Glimmer.js code into Ember, this gives us a great excuse to [clean up older tests](https://github.com/emberjs/ember.js/issues/15058) so that we can easily run them against the old and new implementation, as we did with rendering tests and Glimmer VM integration.
 

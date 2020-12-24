@@ -38,7 +38,7 @@ Looking for inspiration? Check out the [#EmberJS2018 hashtag](https://twitter.co
 Recently, lots of work has landed 🛬 in Ember CLI to bring the long-awaited **Packager feature** to life ([1](https://github.com/ember-cli/ember-cli/pull/7826), [2](https://github.com/ember-cli/ember-cli/pull/7818), [3](https://github.com/ember-cli/ember-cli/pull/7816), [4](https://github.com/ember-cli/ember-cli/pull/7796), [5](https://github.com/ember-cli/ember-cli/pull/7788)). The Packager will increase the **flexibility** of Ember's **build pipeline**, paving the way for other neat features like code splitting and tree shaking and finally allowing developers to further reduce the filesize of their applications by dramatic amounts.
 
 Want a recap of what's in for the Packager feature? Be sure to check out both the  the [original RFC (Request for Comments) proposal](https://github.com/chadhietala/rfcs/blob/packager/active/0002-packager.md), as well as [this year's update](https://github.com/ember-cli/rfcs/blob/master/active/0051-packaging.md) that details the motivation behind it.
-And want to know **when** it will finally land for an Ember app near you? Of course we'll let you know ASAP 🔜 in one of the upcoming editions of The Ember Times!
+And want to know **when** it will finally land for an Ember app near you? We'll let you know ASAP 🔜 in one of the upcoming editions of The Ember Times!
 
 ---
 

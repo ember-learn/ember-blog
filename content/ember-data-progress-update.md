@@ -87,7 +87,7 @@ ad hoc JavaScript to retrieve records from the same web server. An
 illustrated picture of Jackie Chan looking frustrated appears to the
 right.](/images/blog/most-web-architectures.png)
 
-The good news is that the solution should now appear obvious: if you
+The good news is that the solution is now more apparent: if you
 have a conventional framework on the server and a conventional framework
 on the client, they should be able to communicate, automatically, using
 a standard interchange format.
@@ -95,7 +95,7 @@ a standard interchange format.
 The reality, however, is that Ember.js developers need to use existing
 APIs that aren't 100% consistent. While we were building towards the
 future, we were also trying to build something that could be used in the
-interim. In retrospect, trying to serve two masters simply muddled our
+interim. In retrospect, trying to meet both goals simply muddled our
 message, confused users, and complicated the architecture.
 
 Instead, **Ember Data will now focus on being the best possible library
@@ -163,7 +163,7 @@ We have begun the process of documenting this format at
 Shirai](https://twitter.com/brixen). This is a living document that
 formally describes the JSON format we hope that the authors of
 server-side frameworks will use to get seamless compatibility with
-Ember.js applications. And, of course, other JavaScript framework are
+Ember.js applications. Other JavaScript framework are
 encouraged to adopt this format so that they can get the same benefit.
 
 Because the best standards are driven by real implementations, [Steve
@@ -178,7 +178,7 @@ This work will make it extremely simple for Ember.js developers to
 integrate with Ruby on Rails, and we hope other server-side frameworks
 vendors follow suit.
 
-Of course, the `RESTAdapter` will continue to be configurable, so if you
+The `RESTAdapter` will continue to be configurable, so if you
 want to use a JSON API that differs from the default specification, but
 is still consistent across all of your models, you don't have to write
 an adapter from scratch.

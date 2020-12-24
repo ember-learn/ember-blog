@@ -55,7 +55,7 @@ The videos from EmberFest are **now available** on [YouTube](https://www.youtube
 
 If you don’t know where to start, then we highly recommend the [opening keynote by Tom Dale](https://www.youtube.com/watch?v=oRzmDobMZ_Q&t=0s&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9&index=2) and the [closing keynote by Melanie Sumner](https://www.youtube.com/watch?v=xP-kog04lng&list=PLN4SpDLOSVkSB9034lDNdP1JoNBGssax9&index=21).
 
-Tom Dale spoke about what will happen next year when you generate a new Ember app. This involves super exciting things like the **module unification app structure**,  **angle bracket invocation**, **JavaScript classes**, **tracked properties** and much more. All of this is of course delivered with the usual Tom Dale dapperness and humor. Definitely worth a watch.
+Tom Dale spoke about what will happen next year when you generate a new Ember app. This involves super exciting things like the **module unification app structure**,  **angle bracket invocation**, **JavaScript classes**, **tracked properties** and much more. All of this is delivered with the usual Tom Dale dapperness and humor. Definitely worth a watch.
 
 Melanie Sumner delivered a thoughtful talk about how other peoples' views on something you enjoy - especially when you’re a smaller community - can create uncertainty, and why it shouldn’t. It delivers a few helpful tools and encourages us to **observe**, **analyse** and **think** before responding to critical claims. The talk is a great reminder to consider how we talk to each other and to enjoy doing what we do, no matter what others may think.
 
@@ -76,7 +76,7 @@ Give [ember-ast-hot-load](https://github.com/lifeart/ember-ast-hot-load) a try t
 ## [DecEmber is Almost Here! 📆](https://github.com/ember-learn/guides-source/labels/DecEmber)
 
 <!--alex ignore special-->
-Are you wondering what to do with all your vacation time in December? We got ya covered! The Core Learning Team is sponsoring Dec**Ember**, a hackathon event specifically targeted at learning team efforts. Look for special issues marked “Dec**Ember**” from December 1st-31st. Of course there will be **prizes**, too! Stay tuned for more details...
+Are you wondering what to do with all your vacation time in December? We got ya covered! The Core Learning Team is sponsoring Dec**Ember**, a hackathon event specifically targeted at learning team efforts. Look for special issues marked “Dec**Ember**” from December 1st-31st. There will be **prizes**, too! Stay tuned for more details...
 
 P.S. You can also register for [24 Pull Requests](https://24pullrequests.com/) - giving back little gifts of code for the holidays! ❄️
 

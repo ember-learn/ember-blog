@@ -60,7 +60,7 @@ upgrade path.
 
 ## Ecosystem
 
-Of course, the above guarantees only apply to Ember, Ember Data, Ember
+The above guarantees only apply to Ember, Ember Data, Ember
 CLI, and the rest of the core-supported packages. Addon authors are
 free to define their own support matrices. We encourage those who
 depend on older browsers to contribute back by submitting PRs to the

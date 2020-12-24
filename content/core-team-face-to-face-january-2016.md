@@ -310,7 +310,7 @@ for developers:
 2. We will try to only introduce a handful of deprecations per release,
    so that no one release feels overwhelming and the upgrade cost can be
    paid over the entire major version cycle.
-3. Deprecations will not be merged into master until a deprecation guide
+3. Deprecations will not be merged into `master` until a deprecation guide
    has been written.
 4. Deprecation guides will be more holistic and include more than one
    example. Ideally, deprecation guides would contain code snippets from

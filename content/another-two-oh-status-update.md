@@ -17,7 +17,7 @@ This post gives some more details about what cruft will be removed in Ember 2.0 
 
 It's important to note that we've talked a lot about an improved "Ember 2 programming model" over the past several months, significantly inspired by React. While much of the model will be in place in Ember 2.0, the early releases of Ember 2.x (especially 2.1 and 2.2), will finish up some important features. This blog post details the expected timeline.
 
-Of course, the six-week release cycle means that we ship on a train cycle, so the precise versions of specific features may change before they land in a final release.
+Note that the six-week release cycle means that we ship on a train cycle, so the precise versions of specific features may change before they land in a final release.
 
 ## Removals
 
@@ -109,7 +109,7 @@ The routeable components RFC was first published several months ago, and has bee
 
 The primary reason to attempt to land this feature in Ember 2.0, despite the fact that its development is at a relatively early stage, was a desire to deprecate controllers for 2.0. In Ember, in order to deprecate a public API, we require an alternate path for all of the use-cases of the old feature. In order to remove a feature in 2.0, it would have needed to be deprecated in 1.13.
 
-Together, that means that in order to remove controllers in 2.0, we needed to land routeable components, the transition from controllers, in 1.13. During the 1.13 canary cycle, it became obvious that removing controllers in 2.0 would be too aggressive, so the pressure to ship Routeable Components exactly in 2.0.0 is less.
+Together, that means that in order to remove controllers in 2.0, we needed to land routeable components, the transition from controllers, in 1.13. During the 1.13 canary cycle, it became apparent that removing controllers in 2.0 would be too aggressive, so the pressure to ship Routeable Components exactly in 2.0.0 is less.
 
 ---
 

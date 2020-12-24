@@ -17,8 +17,7 @@ while you get ready for the New Year, here's what's been happening in Ember.
 
 ### New Router API
 
-The new router API is has been [merged into
-master!](https://github.com/emberjs/ember.js/commit/44b23dcf245b0fffdeb29f9f8a5d1bbdc9eb7690)
+The [new router API has been merged](https://github.com/emberjs/ember.js/commit/44b23dcf245b0fffdeb29f9f8a5d1bbdc9eb7690)!
 We've spent a lot of time incorporating feedback about our first
 iteration of the router, and we think you're going to really love what
 we've come up with. It makes getting started super simple, and

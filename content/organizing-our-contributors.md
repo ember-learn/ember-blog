@@ -25,7 +25,7 @@ All that as it is, we also can’t lose our central coordination point, so along
 The Steering Committee will be responsible for things including, but not limited to:
 
 - Owning the [Community Guidelines](https://emberjs.com/guidelines/) and helping people stick to them
-- Serving as the public-facing ombudsman
+- Serving as the public-facing mediator
 - Organizing events and conferences
 - Supporting local meetup organizers
 - Managing Ember's brand and visual identity

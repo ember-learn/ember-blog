@@ -78,6 +78,7 @@ In a follow-up post, [@melsumner](http://github.com/melsumner) encouraged the co
 
 [@mehulkar](https://github.com/mehulkar) explained [several reasons that make Ember difficult to learn](https://mehulkar.com/blog/2019/06/emberjs2019-roadmap-response/) and how we can address them.
 
+<!-- alex ignore obvious -->
 > The Octane edition will be great for performance and developer ergonomics, but it doesn’t fundamentally bolster (or change) the selling points of Ember. I think we need to aggressively reduce the API surface area at every level from core classes to CLI tooling, converge into the JS ecosystem and “the platform”, and make the application’s inner workings more explicit by both providing low level primitives and using them in an obvious way.
 
 ---

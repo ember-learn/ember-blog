@@ -437,7 +437,7 @@ In my opinion, this is much easier to skim through and get a general sense of qu
 The title of this post is actually inaccurate - all of these features have already landed in Ember, and have been usable for some time! You can try them out now, and they're fully backwards compatible with older features and components.
 
 <!-- alex ignore just-->
-The nature of Editions is that some of the new features land sooner rather than later, and we just haven't really had a chance to polish up the guides and the DX for learning all of them. Octane gives us a focal point that allows us to sum everything up, and update all of our learning materials and guides, but if you're interested in early adoption things have been landing in master for some time now!
+The nature of Editions is that some of the new features land sooner rather than later, and we just haven't really had a chance to polish up the guides and the DX for learning all of them. Octane gives us a focal point that allows us to sum everything up, and update all of our learning materials and guides, but if you're interested in early adoption things have been landing in `master` for some time now!
 
 ## Conclusion
 

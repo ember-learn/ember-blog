@@ -89,7 +89,7 @@ Glimmer:
 * The compatibility layer is quite slow in some areas, making the
   overall Glimmer engine slower than we would like. We have plans to
   improve overall performance through the canary and beta cycle, and
-  then of course in the 2.0 release cycle.
+  then in the 2.0 release cycle.
 * **In general, the Glimmer effort was an attempt to improve
   re-rendering performance, especially in large lists.** It also laid
   the groundwork for significant performance work in initial render and

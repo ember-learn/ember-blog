@@ -74,13 +74,13 @@ The core team reviewed the following pull requests for future inclusion in the 1
 
 * `ember-routing-named-substates` [#3655](https://github.com/emberjs/ember.js/pull/3655)
 
-      @stefanpenner and @tomdale still need to pow-wow on this.
+      @stefanpenner and @tomdale still need to discuss this.
 
       Resolution: @stefanpenner and @tomdale will speak.
 
 * `ember-testing-simple-setup` [#3785](https://github.com/emberjs/ember.js/pull/3785)
 
-    @stefanpenner and @tomdale still need to pow-wow on this.
+    @stefanpenner and @tomdale still need to discuss this.
 
     Resolution: @stefanpenner and @tomdale will speak.
 

@@ -17,7 +17,7 @@ tags:
 ഹായ് Emberistas! 🐹
 
 <!--alex ignore special-->
-Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You can of course [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today, as well as ways that we can reflect and improve. So enjoy the read. 📜
+Welcome to a **Survey Special** of The Ember Times! Besides a **call for contribution** to the Ember Engines Guides MVP that we're featuring this week, this issue will highlight the **results** of this year's **Ember Community Survey**. With over 1200 responses, thanks to you, the results of this survey give a nice insight into the Ember Community, where we currently are and also what we can improve upon. You are welcome to [read the results yourself](https://emberjs.com/ember-community-survey-2019/), but we as Ember Times writers will give you a nice overview and highlight **three main reasons** why the community still **loves to use Ember** today, as well as ways that we can reflect and improve. So enjoy the read. 📜
 
 <!-- READMORE -->
 
@@ -99,7 +99,7 @@ This quote reminded us of our past Readers’ Question from [@kategengler](https
 
 ## [How Can We Improve? 💡 Looking Ahead... 👀🚀](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember)
 
-Of course the community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on **things we can do better**. 🤔
+The community survey highlights and reinforces so many of the aspects we all know and love about Ember.js, the community, the productivity, the stability! ♥️🎉✨ But, the survey also gives us as community members a chance to reflect on **things we can do better**. 🤔
 
 Specifically the survey **empowers** community members, gives us a voice and a chance to comment about [how we feel Ember can improve](https://emberjs.com/ember-community-survey-2019/#how-can-we-improve-ember). Some shout-outs this year include continuing to broaden and diversify opinions, lighter builds and less Ember-specific syntax.
 

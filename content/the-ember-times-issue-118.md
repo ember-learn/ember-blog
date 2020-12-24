@@ -31,7 +31,9 @@ watch EmberCamp 2019 🍿🎥!
 
 A recent [JavaScript Jabber](https://devchat.tv/js-jabber/) podcast had [Mike North @mike-north](https://github.com/mike-north) discussing the “New Ember” and how it is a lot more approachable now. This “New Ember”, or [Ember Octane](https://emberjs.com/editions/octane/), brings Ember from having the steepest learning curve of the popular JavaScript frameworks to hardly having to learn anything at all.
 
+<!-- alex disable masters -->
 Mike also talks about how Ember provides stability for developers using them by having a long track record for providing tools and education to make the upgrade seamless and even have old components living next to brand new ones with updated syntax. As a testament to this, Mike mentions that his original Frontend Masters course – Intro to Ember – that was recorded in 2015 only required very minor changes to update it to the [version we have today](https://frontendmasters.com/courses/ember-octane/).
+<!-- alex enable masters -->
 
 Listen to the full podcast on [JavaScript Jabber](https://devchat.tv/js-jabber/jsj-395-the-new-ember-with-mike-north/)!
 

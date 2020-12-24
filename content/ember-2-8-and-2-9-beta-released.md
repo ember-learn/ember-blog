@@ -162,7 +162,7 @@ That being said, despite our [best efforts](https://github.com/emberjs/ember.js/
 and the extensive alpha testing, we still might have gotten a few details
 wrong, hence the beta releases. We would really appreciate it if you could
 start testing your applications and report any regressions, if you have not
-already done so. You may refer to the [master issue](https://github.com/emberjs/ember.js/issues/13949)
+already done so. You may refer to the [GitHub issue](https://github.com/emberjs/ember.js/issues/13949)
 for a list of known issues.
 
 It's also worth noting that the 2.8-LTS release (when available) will be the

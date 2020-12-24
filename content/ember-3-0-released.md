@@ -126,7 +126,7 @@ and [RFC #268](https://github.com/emberjs/rfcs/blob/master/text/0268-acceptance-
 
 You can find the final documentation for these test helpers at:
 
-* [github.com/emberjs/ember-test-helpers/blob/master/API.md](https://github.com/emberjs/ember-test-helpers/blob/master/API.md)
+* [ember-test-helpers API documentation](https://github.com/emberjs/ember-test-helpers/blob/master/API.md)
 
 And additionally the [Ember.js Testing
 Guides](https://guides.emberjs.com/v3.0.0/testing/) have been updated.

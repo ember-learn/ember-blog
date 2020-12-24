@@ -169,7 +169,7 @@ load JSON data returned from the XHR into the store. It also includes
 several conveniences for common transformations, like camelizing
 property names and transforming values like dates.
 
-Of course, you are not required to use these conveniences. You can write
+Note that you are not required to use these conveniences. You can write
 whatever imperative code you'd like to transform the JSON returned from
 the server into the form that Ember Data is expecting. Here is the above
 example re-written without using the chained conveniences.
@@ -211,7 +211,7 @@ findTweets: function(user, name, process) {
 ## Timeline
 
 We have been working on this new API part-time for the past few weeks.
-You can see our progress on Ember Data's master branch, by looking at
+You can see our progress on Ember Data's `master` branch, by looking at
 [the tests][1] or [the implementation][2].
 
 [1]: https://github.com/emberjs/data/tree/master/packages/ember-data/tests/integration/adapters/basic_adapter
@@ -222,7 +222,7 @@ available in the [Ember.js Guides](/guides/). Once a
 few people have had the opportunity to use the Basic Adapter and
 sanity-check our work, we will start cutting beta releases of Ember
 Data. We think that this will be a lot easier for new developers than "make
-a build from master."
+a build from `master`."
 
 Our thanks go out to [John McDowall](http://mcdowall.info), who has been
 tracking our progress on Basic Adapter and writing documentation to go

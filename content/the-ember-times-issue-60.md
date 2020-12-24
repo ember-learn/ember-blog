@@ -26,7 +26,7 @@ This week's Ember Times is all about **cool web fonts** 😎, community **chat**
 
 ## [Taking Web Fonts to the Next Level 🔠](https://github.com/vitch/ember-cli-webfont)
 
-Do you like web fonts? Of course you do! Then it’s a good thing that `ember-cli-webfonts` released version 1.0 🎉
+Do you like web fonts? Then it’s a good thing that `ember-cli-webfonts` released version 1.0 🎉
 
 Now you can use the `webfonts-generator` to **generate web fonts** as part of your ember build process. By default the addon expects to find SVG files in `app/webfont-svg` but all of this can be customised alongside with class prefixes, base selectors, font names and much more.
 
@@ -44,7 +44,7 @@ If you're interested to join the discussion yourself, please take your time to
 read the [entire proposal here](https://github.com/MelSumner/rfcs/blob/feature/rfc-discord/text/0000-discord.md) and
 the comments along the RFC which have [already been made](https://github.com/emberjs/rfcs/pull/345).
 
-If you have new (and of course friendly! ❤️) information to add to the conversation, please do so [in the RFC's comments section](https://github.com/emberjs/rfcs/pull/345). And once again: Thank you all for all your feedback! ✨
+If you have new (and friendly! ❤️) information to add to the conversation, please do so [in the RFC's comments section](https://github.com/emberjs/rfcs/pull/345). And once again: Thank you all for all your feedback! ✨
 
 ---
 

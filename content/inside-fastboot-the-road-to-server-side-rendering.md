@@ -75,7 +75,7 @@ This means that we needed to tweak our approach and allow applications to host m
 
 This approach also has a side-benefit for testing: it allows us to reduce the amount of work we need to do between each test.
 
-Both of these efforts (breaking out an environment and the design of the session) are incremental pieces that provide value on their own, and [have already landed on master](https://github.com/emberjs/ember.js/pull/9981) thanks to the tireless work of [Dan Gebhardt](https://twitter.com/dgeb). Working with [LinkedIn](https://www.linkedin.com) and [Bustle](http://www.bustle.com) closely has helped us to work through the initial requirements, and identify steps that we could take that would help enterprising teams make progress while we take the next steps.
+Both of these efforts (breaking out an environment and the design of the session) are incremental pieces that provide value on their own, and [have already landed on `master` branch](https://github.com/emberjs/ember.js/pull/9981) thanks to the tireless work of [Dan Gebhardt](https://twitter.com/dgeb). Working with [LinkedIn](https://www.linkedin.com) and [Bustle](http://www.bustle.com) closely has helped us to work through the initial requirements, and identify steps that we could take that would help enterprising teams make progress while we take the next steps.
 
 ## Next Steps
 

@@ -454,7 +454,7 @@ attempting to integrate Canary into existing applications, we feel
 relatively optimistic about the plan of record for Ember 2.0, and where
 we are in the process.
 
-For obvious reasons (the recent merge of Glimmer), Ember 1.13-beta will
+Due to the recent merge of Glimmer, Ember 1.13-beta will
 be an unusually unstable beta release, but we are hopeful that the
 release of Ember 1.13.0 on June 12 will have shaken out the bulk of any
 problems.

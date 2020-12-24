@@ -116,7 +116,7 @@ class BroccoliStaticSiteJson extends Plugin {
 module.exports = BroccoliStaticSiteJson;
 ```
 
-This isn't exactly the _most_ basic example of a plugin as it has some of the business logic and API of `broccoli-static-site-json` exposed. It is not 100% obvious by the above example, but it is telling us that if we wanted to use this plugin we would do something like this:
+This isn't exactly the _most_ basic example of a plugin as it has some of the business logic and API of `broccoli-static-site-json` exposed. It is not apparent from the example above, but it is telling us that if we wanted to use this plugin we would do something like this:
 
 ```javascript
 const jsonTree = new StaticSiteJson('input', {
