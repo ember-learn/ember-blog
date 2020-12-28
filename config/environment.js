@@ -27,7 +27,7 @@ module.exports = function(environment) {
       title: 'Ember.js Blog',
       description: 'Official Blog for the Ember.js Open Source Project',
       paginate: true,
-      logo: "https://blog.emberjs.com/images/logos/e-icon.png",
+      logo: "/images/logos/e-icon.png",
       twitter: "emberjs",
     },
 
@@ -64,7 +64,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    // here you can enable a production-specific feature
+    // Configure host for empress-blog
+    ENV.blog.host = 'https://blog.emberjs.com';
   }
 
   return ENV;
