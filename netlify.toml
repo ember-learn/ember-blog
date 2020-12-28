@@ -35,3 +35,9 @@ from = "/tags/*"
 to = "/tag/:splat"
 status = 301
 force = false
+
+[[redirects]]
+from = "/feed.xml"
+to = "/rss.xml"
+status = 301
+force = false
