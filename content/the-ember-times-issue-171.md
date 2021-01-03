@@ -35,7 +35,7 @@ class Component {
 }
 ```
 
-The blog recommends to never assign from a property on `args` to a local class field in a Glimmer component because changes to the parent will never be reflected in the component. You should instead use getters which are re-executed when invoked unlike a class field which only has whatever value it has originally.
+The blog recommends to never assign from a property on `args` to a local class field in a Glimmer component because changes to the parent will never be reflected in the component. You should instead use getters that are re-computed when invoked.
 
 Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/).
 
