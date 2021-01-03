@@ -22,7 +22,7 @@ Read the blog on Understanding args in Glimmer Components ✍️,
 
 Chris explains how a Glimmer component works if you strip away all the reactivity and only do a single pass. The [Glimmer component API](https://api.emberjs.com/ember/3.23/modules/@glimmer%2Fcomponent) sets the `args` object on to the class in the `constructor`. The `args` object in a Glimmer component is also **read-only** since it is a [private class field](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) while exposed with a getter.
 
-```js
+```javascript
 class Component {
   #args: object;
   get args() {
