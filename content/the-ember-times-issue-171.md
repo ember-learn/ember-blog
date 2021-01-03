@@ -20,7 +20,7 @@ Read the blog on Understanding args in Glimmer Components ✍️,
 
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a blog post on [understanding `args` in Glimmer components](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/) with a focus on what happens when there are _updates_ to `args`.
 
-Chris explains how a Glimmer component works if you strip away all the reactivity and do just a single pass. The [Glimmer component API](https://api.emberjs.com/ember/3.23/modules/@glimmer%2Fcomponent) sets the `args` object on to the class in the `constructor`. The `args` object in a Glimmer component is also **read-only** since it is a [private class field](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) while exposed with a getter.
+Chris explains how a Glimmer component works if you strip away all the reactivity and only do a single pass. The [Glimmer component API](https://api.emberjs.com/ember/3.23/modules/@glimmer%2Fcomponent) sets the `args` object on to the class in the `constructor`. The `args` object in a Glimmer component is also **read-only** since it is a [private class field](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) while exposed with a getter.
 
 ```js
 class Component {
@@ -35,7 +35,7 @@ class Component {
 }
 ```
 
-The blog recommends to never assign from a property on `args` to a local class field in a Glimmer component because changes to the parent will never be reflected in the component. You should instead use getters which are re-executed when invoked unlike a class field which just has whatever value it has originally.
+The blog recommends to never assign from a property on `args` to a local class field in a Glimmer component because changes to the parent will never be reflected in the component. You should instead use getters which are re-executed when invoked unlike a class field which only has whatever value it has originally.
 
 Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/).
 
