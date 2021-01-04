@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 171
 author:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-01-15T00:00:00.000Z
 tags:
   - newsletter
@@ -11,17 +12,32 @@ tags:
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Read the blog on Understanding args in Glimmer Components ✍️,
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Blog: Understanding args in Glimmer Components ✍️](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a blog post on [understanding `args` in Glimmer components](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/) with a focus on what happens when there are _updates_ to `args`.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Chris explains how a Glimmer component works if you strip away all the reactivity and only do a single pass. The [Glimmer component API](https://api.emberjs.com/ember/3.23/modules/@glimmer%2Fcomponent) sets the `args` object on to the class in the `constructor`. The `args` object in a Glimmer component is also **read-only** since it is a [private class field](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields) while exposed with a getter.
+
+```javascript
+class Component {
+  #args: object;
+  get args() {
+    return this.#args;
+  }
+
+  constructor(args: object) {
+    this.#args = args;
+  }
+}
+```
+
+The blog recommends to never assign from a property on `args` to a local class field in a Glimmer component because changes to the parent will never be reflected in the component. You should instead use getters that are re-computed when invoked.
+
+Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/).
 
 ---
 
@@ -139,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, and the Learning Team
