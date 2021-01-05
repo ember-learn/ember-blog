@@ -27,9 +27,18 @@ You can read more about our general release process here:
 
 Ember.js is the core framework for building ambitious web applications.
 
-### Changes in Ember.js VER
+### Changes in Ember.js 3.24
 
-Ember.js VER is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
+Ember.js 3.24 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
+
+#### Bug Fixes
+
+Ember.js 3.24 introduced 4 bug fixes.
+
+1. When the `router` service is injected (e.g. into a component), the `router` service can automatically work in non-application tests. In other words, we no longer need to call `this.owner.setupRouter()`. ([#19080](https://github.com/emberjs/ember.js/pull/19080))
+2. When there is no template associated with a component class, the low-level API `getComponentTemplate()` now returns `undefined` instead of `null`. The return value of `undefined` is what had been specified in the [Component Templates Colocation RFC](https://github.com/emberjs/rfcs/blob/master/text/0481-component-templates-co-location.md#low-level-primitives). ([#19253](https://github.com/emberjs/ember.js/pull/19253))
+3. In an Ember Engines app, the `<LinkTo>` component once again supports [linking within an engine](https://ember-engines.com/docs/links#linking-within-an-engine). Please note, a fix was made possible through a breaking change in the private implementation of `<LinkTo>`. When you upgrade your app to v3.24 or above, you will want to upgrade Ember Engines too. You can [track the release status of Ember Engines on GitHub](https://github.com/ember-engines/ember-engines/issues/740). ([#19223](https://github.com/emberjs/ember.js/pull/19223)) ⚠️
+4. When a computed property has a dependent key that includes `@each`, followed by an aliased property, the computed property recomputes when the aliased property's value changes. ([#19280](https://github.com/emberjs/ember.js/pull/19280))
 
 #### Features
 
