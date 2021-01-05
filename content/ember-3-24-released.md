@@ -75,7 +75,7 @@ Deprecations are added to Ember.js when an API will be removed at a later date. 
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
-For more details on changes in Ember.js VER, please review the [Ember.js VER.0 release page](https://github.com/emberjs/ember.js/releases/tag/vVER.0).
+Last but not least, Ember.js 3.24 removed a few feature flags and an experimental API called `expandLocalLookup`. For more details on changes in Ember.js 3.24, please review the [Ember.js 3.24.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.24.0).
 
 ---
 
