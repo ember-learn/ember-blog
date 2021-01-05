@@ -50,13 +50,30 @@ Ember.js 3.24 introduced 3 features.
 
 #### Deprecations
 
-Ember.js VER introduced 0 deprecations.
+Ember.js 3.24 introduced 4 deprecations.
 
-<!-- Block start: If there were no deprecations, remove this block -->
+1. Going back to the interface of `DeprecationOptions` (see Features above), forgetting to pass `for` or `since` will trigger a deprecation message. ([#19133](https://github.com/emberjs/ember.js/pull/19133))
+2. `Ember.String.loc` function, `@ember/string#loc` function, and `{{loc}}` helper have been deprecated in favor of a dedicated localization solution like [ember-intl](https://github.com/ember-intl/ember-intl). For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x/#toc_ember-string-loc). ([#19211](https://github.com/emberjs/ember.js/pull/19211))
+3. Calling an [`Ember.String` method](https://api.emberjs.com/ember/3.23/classes/String)—`camelize`, `capitalize`, `classify`, `dasherize`, `decamelize`, `underscore`, or `w`—directly on a string is deprecated. Instead of calling the method on the string, you can import the function from `@ember/string`:
+
+    ```javascript
+    // Before
+    let mascot = 'Empress Zoey';
+    console.log(mascot.camelize());  // empressZoey
+
+    // After
+    import { camelize } from '@ember/string';
+
+    let mascot = 'Empress Zoey';
+    console.log(camelize(mascot));  // empressZoey
+    ```
+
+    For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x/#toc_ember-string-prototype-extensions). ([#19234](https://github.com/emberjs/ember.js/pull/19234))
+4. Use of `tryInvoke` from `@ember/utils` module has been deprecated in favor of using JavaScript's optional chaining `?.`. For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_ember-utils-try-invoke).
+
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-<!-- Block end -->
 
 For more details on changes in Ember.js VER, please review the [Ember.js VER.0 release page](https://github.com/emberjs/ember.js/releases/tag/vVER.0).
 
