@@ -42,10 +42,11 @@ Ember.js 3.24 introduced 4 bug fixes.
 
 #### Features
 
-Ember.js VER introduced 2 features.
+Ember.js 3.24 introduced 3 features.
 
-1. Feature description
-2. Feature description
+1. When `ember-page-title` is installed, the blueprint for a route template creates a `{{page-title}}` helper invocation in addition to `{{outlet}}`. For more information, please see [RFC #645](https://github.com/emberjs/rfcs/blob/master/text/0645-add-ember-page-title-addon.md) and [`ember-page-title` documentation](https://ember-cli.github.io/ember-page-title/). ([#19224](https://github.com/emberjs/ember.js/pull/19224))
+2. The interface of `DeprecationOptions`, which can be passed to the `deprecate()` function, requires the keys `for` and `since` to exist. For more information, please see the [Deprecation Staging RFC](https://github.com/emberjs/rfcs/blob/master/text/0649-deprecation-staging.md#deprecate). ([#19133](https://github.com/emberjs/ember.js/pull/19133))
+3. Glimmer VM, the rendering engine, has been upgraded to version 0.65.0. The upgrade includes a bug fix and a few upstreams. ([#19258](https://github.com/emberjs/ember.js/pull/19258), [#19261](https://github.com/emberjs/ember.js/pull/19261), [#19267](https://github.com/emberjs/ember.js/pull/19267))
 
 #### Deprecations
 
