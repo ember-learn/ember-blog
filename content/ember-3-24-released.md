@@ -110,8 +110,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
-<!--alex ignore easy-->
-You may upgrade Ember CLI easily using the ember-cli-update project:
+You may upgrade Ember CLI using the `ember-cli-update` project:
 
 ```bash
 npm install -g ember-cli-update
@@ -122,18 +121,29 @@ This utility will help you to update your app or addon to the latest Ember CLI v
 
 While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
-### Changes in Ember CLI VER
+### Changes in Ember CLI 3.24
+
+#### Bug Fixes
+
+Ember CLI 3.24 introduced 1 bug fix.
+
+1. When Embroider v2 addons are present, prevent forming a cycle in the build process. ([#9402](https://github.com/ember-cli/ember-cli/pull/9402))
 
 #### Features
 
-Ember CLI VER introduced 0 features.
+Ember CLI 3.24 upgraded the packages that are present in the `package.json` blueprint to their latest version. There are 4 notable changes to the `package.json` blueprint:
+
+1. `ember-page-title` has been added to the blueprint. For more information, please see [RFC #645](https://github.com/emberjs/rfcs/blob/master/text/0645-add-ember-page-title-addon.md) and [`ember-page-title` documentation](https://ember-cli.github.io/ember-page-title/). ([#9372](https://github.com/ember-cli/ember-cli/pull/9372), [#9382](https://github.com/ember-cli/ember-cli/pull/9382))
+2. `ember-qunit` has been upgraded to [v5](https://github.com/emberjs/ember-qunit/releases/tag/v5.0.0) (a major version change). Following the [migration guide](https://github.com/emberjs/ember-qunit/blob/master/docs/migration.md), the `package.json` blueprint includes `@ember/test-helpers` and `qunit`. The blueprints for `tests/index.html` and `tests/test-helper.js` have been updated as well. ([#9340](https://github.com/ember-cli/ember-cli/pull/9340), [#9371](https://github.com/ember-cli/ember-cli/pull/9371))
+3. `eslint-plugin-ember` has been upgraded to [v10](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v10.0.0) (a major version change), which promoted `octane` rules to `recommended` and enabled several additional rules as `recommended`. To learn more about these linting rules, please check the [`eslint-plugin-ember` documentation](https://github.com/ember-cli/eslint-plugin-ember/tree/v10.0.0#-rules). ([#9403](https://github.com/ember-cli/ember-cli/pull/9403))
+4. `prettier` (along with `eslint-config-prettier` and `eslint-plugin-prettier`) has been added to the blueprint. To learn more, please see [RFC #628](https://github.com/emberjs/rfcs/blob/master/text/0628-prettier.md) and [Prettier documentation](https://prettier.io/docs/en/index.html). ([#9391](https://github.com/ember-cli/ember-cli/pull/9391), [#9407](https://github.com/ember-cli/ember-cli/pull/9407), [#9410](https://github.com/ember-cli/ember-cli/pull/9410))
 
 #### Deprecations
 
-Ember CLI VER introduced 0 deprecations.
+Ember CLI 3.24 introduced 0 deprecations.
 
-For more details on the changes in Ember CLI VER and detailed upgrade
-instructions, please review the [Ember CLI VER.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/vVER.0).
+For more details on the changes in Ember CLI 3.24 and detailed upgrade
+instructions, please review the [Ember CLI 3.24.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.24.0).
 
 ## Thank You!
 
