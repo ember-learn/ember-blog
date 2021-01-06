@@ -29,7 +29,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.24
 
-Ember.js 3.24 is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
+Ember.js 3.24 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
 #### Bug Fixes
 
@@ -54,22 +54,54 @@ Ember.js 3.24 introduced 4 deprecations.
 
 1. Going back to the interface of `DeprecationOptions` (see Features above), forgetting to pass `for` or `since` will trigger a deprecation message. ([#19133](https://github.com/emberjs/ember.js/pull/19133))
 2. `Ember.String.loc` function, `@ember/string#loc` function, and `{{loc}}` helper have been deprecated in favor of a dedicated localization solution like [ember-intl](https://github.com/ember-intl/ember-intl). For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x/#toc_ember-string-loc). ([#19211](https://github.com/emberjs/ember.js/pull/19211))
-3. Calling an [`Ember.String` method](https://api.emberjs.com/ember/3.23/classes/String)—`camelize`, `capitalize`, `classify`, `dasherize`, `decamelize`, `underscore`, or `w`—directly on a string is deprecated. Instead of calling the method on the string, you can import the function from `@ember/string`:
+3. Calling `camelize`, `capitalize`, `classify`, `dasherize`, `decamelize`, `underscore`, or `w`—these are [`Ember.String` methods](https://api.emberjs.com/ember/3.23/classes/String)—on a string is deprecated. Instead of calling the method on the string, you can import the function from `@ember/string`:
 
     ```javascript
     // Before
     let mascot = 'Empress Zoey';
+
     console.log(mascot.camelize());  // empressZoey
 
     // After
     import { camelize } from '@ember/string';
 
     let mascot = 'Empress Zoey';
+
     console.log(camelize(mascot));  // empressZoey
     ```
 
     For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x/#toc_ember-string-prototype-extensions). ([#19234](https://github.com/emberjs/ember.js/pull/19234))
-4. Use of `tryInvoke` from `@ember/utils` module has been deprecated in favor of using JavaScript's optional chaining `?.`. For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_ember-utils-try-invoke).
+4. `tryInvoke` from `@ember/utils` module has been deprecated in favor of JavaScript's optional chaining `?.`.
+
+    ```javascript
+    // Before
+    import { tryInvoke } from '@ember/utils';
+
+    let today = new Date('01/07/2021');
+
+    tryInvoke(today, 'getTime');              // 1609974000000
+    tryInvoke(today, 'setFullYear', [2014]);  // 1389049200000
+    tryInvoke(today, 'noSuchMethod', [2014]); // undefined
+
+    // After
+    let today = new Date('01/07/2021');
+
+    today.getTime?.();          // 1609974000000
+    today.setFullYear?.(2014);  // 1389049200000
+    today.noSuchMethod?.(2014); // undefined
+
+    /*
+      Note, `today` is used in the context of `tryInvoke`.
+      As a result, we can assume that `today` is an object
+      and write `today.getTime` instead of `today?.getTime`.
+
+      The examples exist only to illustrate how to refactor
+      `tryInvoke`. Please don't write `today.getTime?.()`
+      in practice. :)
+    */
+    ```
+
+    For more information, please see the [Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_ember-utils-try-invoke).
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
