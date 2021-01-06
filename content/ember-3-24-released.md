@@ -83,18 +83,18 @@ Last but not least, Ember.js 3.24 removed a few feature flags and an experimenta
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-### Changes in Ember Data VER
+### Changes in Ember Data 3.24
 
 #### Features
 
-Ember Data VER introduced 0 features.
+Ember Data 3.24 introduced 0 features.
 
 #### Deprecations
 
-Ember Data VER introduced 0 deprecations.
+Ember Data 3.24 introduced 0 deprecations.
 
-For more details on changes in Ember Data VER, please review the
-[Ember Data VER.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
+For more details on changes in Ember Data 3.24, please review the
+[Ember Data 3.24.0 release page](https://github.com/emberjs/data/releases/tag/v3.24.0).
 
 ---
 
