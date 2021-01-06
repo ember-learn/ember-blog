@@ -85,6 +85,12 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 3.24
 
+#### Bug Fixes
+
+Ember Data 3.24 introduced 1 bug fix.
+
+1. In a production environment, an attempt to set something on a deleted record no longer shows the value in the error message. This was done to prevent leaking sensitive data. ([#7370](https://github.com/emberjs/data/pull/7370))
+
 #### Features
 
 Ember Data 3.24 introduced 0 features.
