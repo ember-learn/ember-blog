@@ -41,7 +41,34 @@ Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/u
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [2. Announcing the launch of the redesigned Ember Blog 🐹](https://blog.emberjs.com)
+
+[The Ember Blog](https://blog.emberjs.com/) has a new look and a new codebase!
+The Ember Blog was started 8 years ago, in 2012. For many years, it was a custom Ruby app
+that was mainly used for release blog posts.
+Today, the blog the home for The Ember Times,
+Release announcements, guest-written learning articles, and more,
+so a group of dedicated contributors set out to make some improvements.
+The blog is now an Ember app, and under the hood, it uses the same tech
+that powers the Ember Guides, [Empress](https://github.com/empress).
+Empress tools help turn markdown into HTML within an Ember app,
+meaning that articles are quick to write using Markdown, and contributors
+can use all the great tools that Ember has to offer.
+
+Please check out [the blog](https://blog.emberjs.com/) today!
+
+Did you spot any issues? Want to help build future features?
+You can find the main repository at
+[ember-learn/ember-blog](https://github.com/ember-learn/ember-blog) on GitHub.
+Most styles and components come from the shared component library that all Ember's public sites use,
+[ember-styleguide](https://github.com/ember-learn/ember-styleguide).
+The [empress-blog-ember-template](https://github.com/ember-learn/empress-blog-ember-template)
+has a lot of the layout logic that is specific to this blog,
+and [empress-blog](https://github.com/empress/empress-blog) handles the general application code for routing and data requests for blogs in general.
+
+If you like what you see, you can [make your own blog using Empress](https://github.com/empress/empress-blog#super-quick-start) in about 10 minutes!
+
+Many thanks to the contributors who worked on this project: <TODO>
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
