@@ -1,6 +1,6 @@
 ---
 title: Ember VER Released
-author:
+authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-XX-XXT00:00:00.000Z
 tags:
@@ -9,7 +9,7 @@ tags:
   - version-3-x
 ---
 
-Today the Ember project is releasing version VER of Ember.js, Ember Data, and Ember CLI.
+Today the Ember project is releasing version VER of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
 
 This release kicks off the VER+0.1 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -28,7 +28,11 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js VER
 
-Ember.js VER is an incremental, backwards compatible release of Ember with bugfixes, performance improvements, and minor deprecations.
+Ember.js VER is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
+
+#### Bug Fixes
+
+Ember.js VER introduced 0 bug fixes.
 
 #### Features
 
@@ -57,6 +61,10 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data VER
 
+#### Bug Fixes
+
+Ember Data VER introduced 0 bug fixes.
+
 #### Features
 
 Ember Data VER introduced 0 features.
@@ -76,8 +84,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 ### Upgrading Ember CLI
 
-<!--alex ignore easy-->
-You may upgrade Ember CLI easily using the ember-cli-update project:
+You may upgrade Ember CLI using the `ember-cli-update` project:
 
 ```bash
 npm install -g ember-cli-update
@@ -89,6 +96,10 @@ This utility will help you to update your app or addon to the latest Ember CLI v
 While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
 ### Changes in Ember CLI VER
+
+#### Bug Fixes
+
+Ember CLI VER introduced 0 bug fixes.
 
 #### Features
 
