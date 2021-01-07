@@ -1,6 +1,6 @@
 ---
 title: Ember 3.24 Released
-author:
+authors:
   - ricardo-mendes
   - isaac-lee
 date: 2021-01-07T00:00:00.000Z
