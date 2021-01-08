@@ -87,8 +87,7 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 You may upgrade Ember CLI using the `ember-cli-update` project:
 
 ```bash
-npm install -g ember-cli-update
-ember-cli-update
+npx ember-cli-update
 ```
 
 This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
