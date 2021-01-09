@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 171
 author:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - jen-weber
 date: 2021-01-15T00:00:00.000Z
 tags:
   - newsletter
@@ -13,7 +14,9 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Read the blog on Understanding args in Glimmer Components ✍️,
-
+Announcing the launch of the redesigned Ember Blog 🐹,
+...
+  
 ---
 
 ## [Blog: Understanding args in Glimmer Components ✍️](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/)
@@ -41,8 +44,9 @@ Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/u
 
 ---
 
-## [2. Announcing the launch of the redesigned Ember Blog 🐹](https://blog.emberjs.com)
+## [Announcing the launch of the redesigned Ember Blog 🐹](https://blog.emberjs.com)
 
+<!--alex ignore king-queen-->
 [The Ember Blog](https://blog.emberjs.com/) has a new look and a new codebase!
 The Ember Blog was started 8 years ago, in 2012. For many years, it was a custom Ruby app
 that was mainly used for release blog posts.
@@ -57,6 +61,7 @@ can use all the great tools that Ember has to offer.
 
 Please check out [the blog](https://blog.emberjs.com/) today!
 
+<!--alex ignore king-queen-->
 Did you spot any issues? Want to help build future features?
 You can find the main repository at
 [ember-learn/ember-blog](https://github.com/ember-learn/ember-blog) on GitHub.
@@ -182,4 +187,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, and the Learning Team
+Chris Ng, Jen Weber and the Learning Team
