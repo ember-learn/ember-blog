@@ -12,7 +12,24 @@ tags:
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember 3.24 Release 🐹,
 Read the blog on Understanding args in Glimmer Components ✍️,
+
+---
+
+## [Ember 3.24 Release 🐹](https://blog.emberjs.com/ember-3-24-released/)
+
+Version 3.24  of Ember.js, Ember Data, and Ember CLI was released on January 7, 2021! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
+
+Ember.js 3.24 included [blueprint changes](https://github.com/emberjs/ember.js/pull/19224) when [ember-page-title](https://github.com/ember-cli/ember-page-title) is installed, interface changes to `DeprecationOptions` requiring the keys `for` and `since` when using `deprecate()`, and updated the Glimmer VM to version 0.65.0.
+
+The function `tryInvoke` from `@ember/utils` module has been deprecated in favor of JavaScript's optional chaining `?.` There have also been various deprecations for `Ember.String` methods including the `Ember.String.loc` function. Please check the [Deprecations guide](https://deprecations.emberjs.com/v3.x/) for the full information.
+
+Ember Data 3.24 included a fix where an attempt to set something on a deleted record no longer shows the value in the error message in a production environment. This was [done](https://github.com/emberjs/data/pull/7370) to prevent leaking sensitive data.
+
+Ember CLI 3.24 upgraded the packages that are present in the package.json blueprint to their latest version which included a major version changes for [ember-qunit to v5](https://github.com/emberjs/ember-qunit/releases/tag/v5.0.0) and [eslint-plugin-ember to v10](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v10.0.0). The addon [ember-page-title](https://github.com/ember-cli/ember-page-title) was also added to the blueprint. Finally prettier (along with eslint-config-prettier and eslint-plugin-prettier) was also added to the blueprint from [RFC #628](https://github.com/emberjs/rfcs/blob/master/text/0628-prettier.md).
+
+Read the full [Ember 3.24 release notes](https://blog.emberjs.com/ember-3-24-released/) for the complete information.
 
 ---
 
