@@ -71,16 +71,10 @@ The [empress-blog-ember-template](https://github.com/ember-learn/empress-blog-em
 has a lot of the layout logic that is specific to this blog,
 and [empress-blog](https://github.com/empress/empress-blog) handles the general application code for routing and data requests for blogs in general.
 
+<!--alex ignore king-queen-->
 If you like what you see, you can [make your own blog using Empress](https://github.com/empress/empress-blog#super-quick-start) in about 10 minutes!
 
 Many thanks to the contributors who worked on this project: <TODO>
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
