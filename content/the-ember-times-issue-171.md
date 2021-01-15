@@ -138,7 +138,7 @@ If you haven't been following along, Rajasegar has published a number of fantast
 
 This new post looks at using the [single-spa library](https://single-spa.js.org/) to buld micro-frontends with Glimmer.
 
-Single-spa is a JavaScript router for front-end microservices that lets you use multiple frameworks in a single-page application. For the integration with Glimmer, Rajasegar has published a [single-spa plugin](https://github.com/rajasegar/single-spa-glimmer) that facilitates the injecting multiple super-fast Glimmer apps into a single page, something which is not otherwise possible.
+Single-spa is a JavaScript router for front-end microservices that lets you use multiple frameworks in a single-page application. For the integration with Glimmer, Rajasegar has published a [single-spa plugin](https://github.com/rajasegar/single-spa-glimmer) that facilitates injecting multiple super-fast Glimmer apps into a single page, something which is not otherwise possible.
 
 This setup is all pretty experimental and cutting-edge, but it does demonstrate the flexibility of Glimmer, and what you can do with it if you have very specific use cases.
 
