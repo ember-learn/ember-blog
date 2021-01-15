@@ -5,6 +5,7 @@ author:
   - jen-weber
   - amy-lam
   - isaac-lee
+  - jared-galanis
 date: 2021-01-15T00:00:00.000Z
 tags:
   - newsletter
@@ -19,6 +20,7 @@ Read the blog on Understanding args in Glimmer Components ✍️,
 Announcing the launch of the redesigned Ember Blog 🐹,
 Speakers wanted for EmberConf 2021 📆,
 9 RFCs for Ember 4.0 Milestone 💬,
+Micro-Frontends with Glimmer.js and single-spa 🔥,
 ...
   
 ---
@@ -128,14 +130,19 @@ While we'd like to cover each and every one in detail, we must ask you to be dil
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [Micro-Frontends with Glimmer.js and single-spa](https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There is another great new Glimmer-focused [blog post](https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa) from [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) about how to make Micro-Frontends with 🔥🔥🔥Glimmer.js and single-spa🔥🔥🔥!
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+If you haven't been following along, Rajasegar has published a number of fantastic [series of posts on dev.to](https://dev.to/rajasegar), many of which involve Glimmer.js. 
+
+This new post looks at using the [single-spa](https://single-spa.js.org/) library to build micro-frontends with Glimmer. 
+
+Single-spa is a JavaScript router for front-end microservices that lets you use multiple frameworks in a single-page application. For the integration with Glimmer, Rajasegar has published a [single-spa plugin](https://github.com/rajasegar/single-spa-glimmer) that facilitates the injecting multiple super fast Glimmer apps into a single page, something which is not otherwise possible.
+
+This setup is all pretty experimental and cutting-edge, but it does demonstrate the flexibility of Glimmer, and what you can do with it if you have very specific use cases. 
+
+Check this great post out and look for more great Glimmer content from Rajasegar in the future!
 
 ---
 
@@ -209,4 +216,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jen Weber, Amy Lam and the Learning Team
+Chris Ng, Jen Weber, Amy Lam, Jared Galanis and the Learning Team
