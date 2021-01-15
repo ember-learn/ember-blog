@@ -51,7 +51,7 @@ Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/u
 The Ember Blog was started 8 years ago, in 2012. For many years, it was a custom Ruby app
 that was mainly used for release blog posts.
 Today, the blog is the home for The Ember Times,
-Release announcements, guest-written learning articles, and more,
+release announcements, guest-written learning articles, and more,
 so a group of dedicated contributors set out to make some improvements.
 The blog is now an Ember app, and under the hood, it uses the same tech
 that powers the Ember Guides, [Empress](https://github.com/empress).
