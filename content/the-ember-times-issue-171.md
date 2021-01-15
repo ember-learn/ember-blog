@@ -134,13 +134,13 @@ While we'd like to cover each and every one in detail, we must ask you to be dil
 
 There is another great new Glimmer-focused [blog post](https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa) from [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) about how to make Micro-Frontends with 🔥🔥🔥Glimmer.js and single-spa🔥🔥🔥!
 
-If you haven't been following along, Rajasegar has published a number of fantastic [series of posts on dev.to](https://dev.to/rajasegar), many of which involve Glimmer.js. 
+If you haven't been following along, Rajasegar has published a number of fantastic [series of posts on dev.to](https://dev.to/rajasegar), many of which involve Glimmer.js.
 
-This new post looks at using the [single-spa](https://single-spa.js.org/) library to build micro-frontends with Glimmer. 
+This new post looks at using the [single-spa](https://single-spa.js.org/) library to build micro-frontends with Glimmer.
 
 Single-spa is a JavaScript router for front-end microservices that lets you use multiple frameworks in a single-page application. For the integration with Glimmer, Rajasegar has published a [single-spa plugin](https://github.com/rajasegar/single-spa-glimmer) that facilitates the injecting multiple super fast Glimmer apps into a single page, something which is not otherwise possible.
 
-This setup is all pretty experimental and cutting-edge, but it does demonstrate the flexibility of Glimmer, and what you can do with it if you have very specific use cases. 
+This setup is all pretty experimental and cutting-edge, but it does demonstrate the flexibility of Glimmer, and what you can do with it if you have very specific use cases.
 
 Check this great post out and look for more great Glimmer content from Rajasegar in the future!
 
