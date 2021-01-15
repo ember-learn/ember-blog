@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 171
 author:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - jen-weber
 date: 2021-01-15T00:00:00.000Z
 tags:
   - newsletter
@@ -14,7 +15,9 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 3.24 Release 🐹,
 Read the blog on Understanding args in Glimmer Components ✍️,
-
+Announcing the launch of the redesigned Ember Blog 🐹,
+...
+  
 ---
 
 ## [Ember 3.24 Release 🐹](https://blog.emberjs.com/ember-3-24-released/)
@@ -58,14 +61,37 @@ Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/u
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Announcing the launch of the redesigned Ember Blog 🐹](https://blog.emberjs.com)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!--alex ignore king-queen-->
+[The Ember Blog](https://blog.emberjs.com/) has a new look and a new codebase!
+The Ember Blog was started 8 years ago, in 2012. For many years, it was a custom Ruby app
+that was mainly used for release blog posts.
+Today, the blog is the home for The Ember Times,
+release announcements, guest-written learning articles, and more,
+so a group of dedicated contributors set out to make some improvements.
+The blog is now an Ember app, and under the hood, it uses the same tech
+that powers the Ember Guides, [Empress](https://github.com/empress).
+Empress tools help turn markdown into HTML within an Ember app,
+meaning that articles are quick to write using Markdown, and contributors
+can use all the great tools that Ember has to offer.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Please check out [the blog](https://blog.emberjs.com/) today!
+
+<!--alex ignore king-queen-->
+Did you spot any issues? Want to help build future features?
+You can find the main repository at
+[ember-learn/ember-blog](https://github.com/ember-learn/ember-blog) on GitHub.
+Most styles and components come from the shared component library that all Ember's public sites use,
+[ember-styleguide](https://github.com/ember-learn/ember-styleguide).
+The [empress-blog-ember-template](https://github.com/ember-learn/empress-blog-ember-template)
+has a lot of the layout logic that is specific to this blog,
+and [empress-blog](https://github.com/empress/empress-blog) handles the general application code for routing and data requests for blogs in general.
+
+<!--alex ignore king-queen-->
+If you like what you see, you can [make your own blog using Empress](https://github.com/empress/empress-blog#super-quick-start) in about 10 minutes!
+
+Many thanks to the contributors who worked on this project: <TODO>
 
 ---
 
@@ -172,4 +198,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, and the Learning Team
+Chris Ng, Jen Weber and the Learning Team
