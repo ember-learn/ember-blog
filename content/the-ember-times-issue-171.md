@@ -4,6 +4,7 @@ author:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - jen-weber
+  - amy-lam
 date: 2021-01-15T00:00:00.000Z
 tags:
   - newsletter
@@ -16,6 +17,7 @@ tags:
 Ember 3.24 Release 🐹,
 Read the blog on Understanding args in Glimmer Components ✍️,
 Announcing the launch of the redesigned Ember Blog 🐹,
+  Speakers wanted for EmberConf 2021 📆
 ...
   
 ---
@@ -95,14 +97,13 @@ Many thanks to the contributors who worked on this project: <TODO>
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Speakers wanted for EmberConf 2021 📆](https://emberconf.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+This year's [EmberConf](https://emberconf.com/) has been announced to take place March 29-30, 2021! EmberConf is 2 days of Ember talks, sessions and fun — streaming live virtually anywhere. Want to give a talk at EmberConf? We're now accepting proposals.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+EmberConf is great because our speakers are great, and you could be one of them. The Call for Papers (CFP) is public, starts out blind, and features a collaborative process to help applicants improve their proposals. Proposals will be accepted through **January 31st at 11:59pm PT**. Learn more at the [EmberConf 2021 CFP site](https://cfp.emberconf.com/events/emberconf-2021).
+
+There are a lot of options for talks this year. Conference talks can be 30, 15, 10, or 5 minutes total. Have a talk idea? The EmberConf team will be voting on and reviewing talks on a rolling basis, and will attempt to send feedback sooner than their final evaluation. **The earlier you submit, the more chance you'll have to tweak your pitch and improve your odds.** Sounds like a good plan for this weekend then?! 📝
 
 ---
 
@@ -198,4 +199,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jen Weber and the Learning Team
+Chris Ng, Jen Weber, Amy Lam and the Learning Team
