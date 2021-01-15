@@ -1,10 +1,10 @@
 ---
 title: The Ember Times - Issue No. 171
 author:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - jen-weber
   - amy-lam
+  - isaac-lee
 date: 2021-01-15T00:00:00.000Z
 tags:
   - newsletter
@@ -17,7 +17,8 @@ tags:
 Ember 3.24 Release 🐹,
 Read the blog on Understanding args in Glimmer Components ✍️,
 Announcing the launch of the redesigned Ember Blog 🐹,
-  Speakers wanted for EmberConf 2021 📆
+Speakers wanted for EmberConf 2021 📆,
+9 RFCs for Ember 4.0 Milestone 💬,
 ...
   
 ---
@@ -107,14 +108,23 @@ There are a lot of options for talks this year. Conference talks can be 30, 15, 
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [9 RFCs for Ember 4.0 Milestone 💬](https://github.com/emberjs/rfcs/milestone/1)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember Core Team has been working hard on paving way for [Ember 4.0 release](https://github.com/emberjs/rfcs/milestone/1). Last week, on January 9, [five RFCs entered the Final Comment Period](https://twitter.com/emberjs/status/1347731386002780162), for example.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Currently, a total of 9 RFCs are open under the 4.0 milestone:
+
+- [Deprecate `{{hasBlock}}` and `{{hasBlockParams}}` in Templates](https://github.com/emberjs/rfcs/pull/689)
+- [Deprecate `{{attrs}}` in Templates](https://github.com/emberjs/rfcs/pull/690)
+- [Deprecate Passing `classBinding` and `classNameBindings` as Arguments](https://github.com/emberjs/rfcs/pull/691)
+- [Deprecate Array Observers](https://github.com/emberjs/rfcs/pull/692)
+- [Deprecate `<LinkTo>` Component Positional Arguments](https://github.com/emberjs/rfcs/pull/698)
+- [Deprecate Octane Optional Features](https://github.com/emberjs/rfcs/pull/704)
+- [Deprecate jQuery Integration Optional Feature](https://github.com/emberjs/rfcs/pull/705)
+- [Deprecate the Ember Global](https://github.com/emberjs/rfcs/pull/706)
+- [Modernize Built-In Components (Part 2)](https://github.com/emberjs/rfcs/pull/707)
+
+While we'd like to cover each and every one in detail, we must ask you to be diligent and have a look when you find time. Please feel free to share the links with other developers and participate in the RFCs by providing feedback! 🌟
 
 ---
 
