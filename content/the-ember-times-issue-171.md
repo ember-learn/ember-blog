@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. 171
-author:
+authors:
   - chris-ng
   - jen-weber
   - amy-lam
@@ -34,7 +34,7 @@ There are a lot of options for talks this year. Conference talks can be 30, 15, 
 
 ---
 
-## [Ember 3.24 Release 🐹](https://blog.emberjs.com/ember-3-24-released/)
+## [Ember 3.24 release 🐹](https://blog.emberjs.com/ember-3-24-released/)
 
 Version 3.24  of Ember.js, Ember Data, and Ember CLI was released on January 7, 2021! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
 
@@ -50,7 +50,7 @@ Read the full [Ember 3.24 release notes](https://blog.emberjs.com/ember-3-24-rel
 
 ---
 
-## [Blog: Understanding args in Glimmer Components ✍️](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/)
+## [Blog: Understanding args in Glimmer components ✍️](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/)
 
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a blog post on [understanding `args` in Glimmer components](https://v5.chriskrycho.com/journal/understanding-args-in-glimmer-components/) with a focus on what happens when there are _updates_ to `args`.
 
@@ -165,4 +165,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jen Weber, Amy Lam,  Isaac Lee, Jared Galanis and the Learning Team
+Chris Ng, Jen Weber, Amy Lam, Isaac Lee, Jared Galanis and the Learning Team
