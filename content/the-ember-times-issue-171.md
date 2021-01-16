@@ -12,17 +12,26 @@ tags:
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Ember 3.24 Release 🐹,
-Read the blog on Understanding args in Glimmer Components ✍️,
-Announcing the launch of the redesigned Ember Blog 🐹,
 Speakers wanted for EmberConf 2021 📆,
-9 RFCs for Ember 4.0 Milestone 💬,
-Micro-Frontends with Glimmer.js and single-spa 🔥,
-...
-  
+Ember 3.24 Release 🐹,
+read the blog on understanding args in Glimmer components ✍️,
+announcing the launch of the redesigned Ember Blog 🐹,
+five RFCs for Ember 4.0 Milestone 💬,
+and last, but not least, 
+Micro-Frontends with Glimmer.js and single-spa 🔥!
+
+---
+
+## [Speakers wanted for EmberConf 2021 📆](https://emberconf.com/)
+
+This year's [EmberConf](https://emberconf.com/) has been announced to take place March 29-30, 2021! EmberConf is 2 days of Ember talks, sessions and fun — streaming live virtually anywhere. Want to give a talk at EmberConf? We're now accepting proposals.
+
+EmberConf is great because our speakers are great, and you could be one of them. The Call for Papers (CFP) is public, starts out blind, and features a collaborative process to help applicants improve their proposals. Proposals will be accepted through **January 31st at 11:59pm PT**. Learn more at the [EmberConf 2021 CFP site](https://cfp.emberconf.com/events/emberconf-2021).
+
+There are a lot of options for talks this year. Conference talks can be 30, 15, 10, or 5 minutes total. Have a talk idea? The EmberConf team will be voting on and reviewing talks on a rolling basis, and will attempt to send feedback sooner than their final evaluation. **The earlier you submit, the more chance you'll have to tweak your pitch and improve your odds.** Sounds like a good plan for this weekend then?! 📝
+
 ---
 
 ## [Ember 3.24 Release 🐹](https://blog.emberjs.com/ember-3-24-released/)
@@ -81,7 +90,7 @@ Empress tools help turn markdown into HTML within an Ember app,
 meaning that articles are quick to write using Markdown, and contributors
 can use all the great tools that Ember has to offer.
 
-Please check out [the blog](https://blog.emberjs.com/) today!
+Please check out [the blog](https://blog.emberjs.com/) today! Many thanks to the contributors who worked on this project! 👏
 
 <!--alex ignore king-queen-->
 Did you spot any issues? Want to help build future features?
@@ -96,23 +105,11 @@ and [empress-blog](https://github.com/empress/empress-blog) handles the general 
 <!--alex ignore king-queen-->
 If you like what you see, you can [make your own blog using Empress](https://github.com/empress/empress-blog#super-quick-start) in about 10 minutes!
 
-Many thanks to the contributors who worked on this project: <TODO>
-
 ---
 
-## [Speakers wanted for EmberConf 2021 📆](https://emberconf.com/)
+## [Five RFCs for Ember 4.0 Milestone 💬](https://github.com/emberjs/rfcs/milestone/1)
 
-This year's [EmberConf](https://emberconf.com/) has been announced to take place March 29-30, 2021! EmberConf is 2 days of Ember talks, sessions and fun — streaming live virtually anywhere. Want to give a talk at EmberConf? We're now accepting proposals.
-
-EmberConf is great because our speakers are great, and you could be one of them. The Call for Papers (CFP) is public, starts out blind, and features a collaborative process to help applicants improve their proposals. Proposals will be accepted through **January 31st at 11:59pm PT**. Learn more at the [EmberConf 2021 CFP site](https://cfp.emberconf.com/events/emberconf-2021).
-
-There are a lot of options for talks this year. Conference talks can be 30, 15, 10, or 5 minutes total. Have a talk idea? The EmberConf team will be voting on and reviewing talks on a rolling basis, and will attempt to send feedback sooner than their final evaluation. **The earlier you submit, the more chance you'll have to tweak your pitch and improve your odds.** Sounds like a good plan for this weekend then?! 📝
-
----
-
-## [9 RFCs for Ember 4.0 Milestone 💬](https://github.com/emberjs/rfcs/milestone/1)
-
-The Ember Core Team has been working hard on paving way for [Ember 4.0 release](https://github.com/emberjs/rfcs/milestone/1). This week on January 16th, four RFCs were merged, and [five RFCs entered the Final Comment Period](https://twitter.com/emberjs/status/1350282638670639105), for example.
+The Ember Core Team has been working hard on paving way for [Ember 4.0 release](https://github.com/emberjs/rfcs/milestone/1). This week on January 16th, four RFCs were merged, and [five RFCs entered the Final Comment Period](https://twitter.com/emberjs/status/1350282638670639105).
 
 Currently, a total of 5 RFCs are open under the 4.0 milestone:
 
@@ -122,7 +119,7 @@ Currently, a total of 5 RFCs are open under the 4.0 milestone:
 - [Deprecate the Ember Global](https://github.com/emberjs/rfcs/pull/706)
 - [Modernize Built-In Components (Part 2)](https://github.com/emberjs/rfcs/pull/707)
 
-While we'd like to cover each and every one in detail, we must ask you to be diligent and have a look when you find time. Please feel free to share the links with other developers and participate in the RFCs by providing feedback! 🌟
+Have a look at the outstanding RFCs when you find time. Please feel free to share the links with other developers and participate in the RFCs by providing feedback! 🌟
 
 ---
 
@@ -139,50 +136,6 @@ Single-spa is a JavaScript router for front-end microservices that lets you use 
 This setup is all pretty experimental and cutting-edge, but it does demonstrate the flexibility of Glimmer, and what you can do with it if you have very specific use cases.
 
 Check this great post out and look for more great Glimmer content from Rajasegar in the future!
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
 
 ---
 
@@ -212,4 +165,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jen Weber, Isaac Lee, Amy Lam, Jared Galanis and the Learning Team
+Chris Ng, Jen Weber, Amy Lam,  Isaac Lee, Jared Galanis and the Learning Team
