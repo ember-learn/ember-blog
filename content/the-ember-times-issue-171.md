@@ -20,7 +20,7 @@ read the blog on understanding args in Glimmer components ✍️,
 announcing the launch of the redesigned Ember Blog 🐹,
 five RFCs for Ember 4.0 Milestone 💬,
 and last, but not least,
-Micro-Frontends with Glimmer.js and single-spa 🔥!
+micro-frontends with Glimmer.js and single-spa 🔥!
 
 ---
 
@@ -123,7 +123,7 @@ Have a look at the outstanding RFCs when you find time. Please feel free to shar
 
 ---
 
-## [Micro-Frontends with Glimmer.js and single-spa](https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa)
+## [Micro-frontends with Glimmer.js and single-spa](https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa)
 
 There is another great new Glimmer-focused [blog post](https://dev.to/rajasegar/micro-frontends-with-glimmer-js-and-single-spa-42aa) from [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) about how to make Micro-Frontends with 🔥🔥🔥Glimmer.js and single-spa🔥🔥🔥!
 
