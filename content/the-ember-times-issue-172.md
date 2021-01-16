@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XXS
-author:
+title: The Ember Times - Issue No. 172
+authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-XX-XXT00:00:00.000Z
+date: 2021-01-29T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
@@ -130,7 +130,7 @@ tags:
 
   <p>Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at <a href="https://discordapp.com/channels/480462759797063690/485450546887786506">#support-ember-times</a> on the <a href="https://discord.gg/emberjs">Ember Community Discord</a> or ping us <a href="https://twitter.com/embertimes">@embertimes</a> on Twitter.</p>
 
-  <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://the-emberjs-times.ongoodbits.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://blog.emberjs.com/tag/newsletter">Ember blog</a>. See you in two weeks!</p>
+  <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://the-emberjs-times.ongoodbits.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://blog.emberjs.com/tag/newsletter">Ember blog</a>.</p>
 </div>
 
 ---
