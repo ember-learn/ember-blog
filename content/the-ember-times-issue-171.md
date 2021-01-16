@@ -216,4 +216,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jen Weber, Amy Lam, Jared Galanis and the Learning Team
+Chris Ng, Jen Weber, Isaac Lee, Amy Lam, Jared Galanis and the Learning Team
