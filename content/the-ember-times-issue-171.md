@@ -112,15 +112,11 @@ There are a lot of options for talks this year. Conference talks can be 30, 15, 
 
 ## [9 RFCs for Ember 4.0 Milestone 💬](https://github.com/emberjs/rfcs/milestone/1)
 
-The Ember Core Team has been working hard on paving way for [Ember 4.0 release](https://github.com/emberjs/rfcs/milestone/1). Last week, on January 9, [five RFCs entered the Final Comment Period](https://twitter.com/emberjs/status/1347731386002780162), for example.
+The Ember Core Team has been working hard on paving way for [Ember 4.0 release](https://github.com/emberjs/rfcs/milestone/1). This week on January 16th, four RFCs were merged, and [five RFCs entered the Final Comment Period](https://twitter.com/emberjs/status/1350282638670639105), for example.
 
-Currently, a total of 9 RFCs are open under the 4.0 milestone:
+Currently, a total of 5 RFCs are open under the 4.0 milestone:
 
 - [Deprecate `{{hasBlock}}` and `{{hasBlockParams}}` in Templates](https://github.com/emberjs/rfcs/pull/689)
-- [Deprecate `{{attrs}}` in Templates](https://github.com/emberjs/rfcs/pull/690)
-- [Deprecate Passing `classBinding` and `classNameBindings` as Arguments](https://github.com/emberjs/rfcs/pull/691)
-- [Deprecate Array Observers](https://github.com/emberjs/rfcs/pull/692)
-- [Deprecate `<LinkTo>` Component Positional Arguments](https://github.com/emberjs/rfcs/pull/698)
 - [Deprecate Octane Optional Features](https://github.com/emberjs/rfcs/pull/704)
 - [Deprecate jQuery Integration Optional Feature](https://github.com/emberjs/rfcs/pull/705)
 - [Deprecate the Ember Global](https://github.com/emberjs/rfcs/pull/706)
