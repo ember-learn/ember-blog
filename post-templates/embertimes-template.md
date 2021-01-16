@@ -1,6 +1,6 @@
 ---
 title: The Ember Times - Issue No. XXS
-author:
+authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-XX-XXT00:00:00.000Z
 tags:
