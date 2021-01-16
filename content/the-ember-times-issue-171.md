@@ -19,7 +19,7 @@ Ember 3.24 Release 🐹,
 read the blog on understanding args in Glimmer components ✍️,
 announcing the launch of the redesigned Ember Blog 🐹,
 five RFCs for Ember 4.0 Milestone 💬,
-and last, but not least, 
+and last, but not least,
 Micro-Frontends with Glimmer.js and single-spa 🔥!
 
 ---
