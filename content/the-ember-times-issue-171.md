@@ -117,10 +117,6 @@ The Ember Core Team has been working hard on paving way for [Ember 4.0 release](
 Currently, a total of 5 RFCs are open under the 4.0 milestone:
 
 - [Deprecate `{{hasBlock}}` and `{{hasBlockParams}}` in Templates](https://github.com/emberjs/rfcs/pull/689)
-- [Deprecate `{{attrs}}` in Templates](https://github.com/emberjs/rfcs/pull/690)
-- [Deprecate Passing `classBinding` and `classNameBindings` as Arguments](https://github.com/emberjs/rfcs/pull/691)
-- [Deprecate Array Observers](https://github.com/emberjs/rfcs/pull/692)
-- [Deprecate `<LinkTo>` Component Positional Arguments](https://github.com/emberjs/rfcs/pull/698)
 - [Deprecate Octane Optional Features](https://github.com/emberjs/rfcs/pull/704)
 - [Deprecate jQuery Integration Optional Feature](https://github.com/emberjs/rfcs/pull/705)
 - [Deprecate the Ember Global](https://github.com/emberjs/rfcs/pull/706)
