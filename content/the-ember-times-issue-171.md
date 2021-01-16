@@ -15,10 +15,10 @@ tags:
 👋 Emberistas! 🐹
 
 Speakers wanted for EmberConf 2021 📆,
-Ember 3.24 Release 🐹,
+Ember 3.24 release 🐹,
 read the blog on understanding args in Glimmer components ✍️,
 announcing the launch of the redesigned Ember Blog 🐹,
-five RFCs for Ember 4.0 Milestone 💬,
+five RFCs for Ember 4.0 milestone 💬,
 and last, but not least,
 micro-frontends with Glimmer.js and single-spa 🔥!
 
@@ -107,7 +107,7 @@ If you like what you see, you can [make your own blog using Empress](https://git
 
 ---
 
-## [Five RFCs for Ember 4.0 Milestone 💬](https://github.com/emberjs/rfcs/milestone/1)
+## [Five RFCs for Ember 4.0 milestone 💬](https://github.com/emberjs/rfcs/milestone/1)
 
 The Ember Core Team has been working hard on paving way for [Ember 4.0 release](https://github.com/emberjs/rfcs/milestone/1). This week on January 16th, four RFCs were merged, and [five RFCs entered the Final Comment Period](https://twitter.com/emberjs/status/1350282638670639105).
 
