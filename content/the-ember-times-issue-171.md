@@ -15,9 +15,9 @@ tags:
 👋 Emberistas! 🐹
 
 Speakers wanted for EmberConf 2021 📆,
-Ember 3.24 release 🐹,
+Ember 3.24 release 🙌,
 read the blog on understanding args in Glimmer components ✍️,
-announcing the launch of the redesigned Ember Blog 🐹,
+announcing the launch of the redesigned Ember Blog 📝,
 five RFCs for Ember 4.0 milestone 💬,
 and last, but not least,
 micro-frontends with Glimmer.js and single-spa 🔥!
@@ -34,7 +34,7 @@ There are a lot of options for talks this year. Conference talks can be 30, 15, 
 
 ---
 
-## [Ember 3.24 release 🐹](https://blog.emberjs.com/ember-3-24-released/)
+## [Ember 3.24 release 🙌](https://blog.emberjs.com/ember-3-24-released/)
 
 Version 3.24  of Ember.js, Ember Data, and Ember CLI was released on January 7, 2021! Please use the [ember-try](https://github.com/ember-cli/ember-try) addon to continuously test your projects against the latest Ember releases.
 
@@ -75,7 +75,7 @@ Read the full blog post on [Chris’s blog](https://v5.chriskrycho.com/journal/u
 
 ---
 
-## [Announcing the launch of the redesigned Ember Blog 🐹](https://blog.emberjs.com)
+## [Announcing the launch of the redesigned Ember Blog 📝](https://blog.emberjs.com)
 
 <!--alex ignore king-queen-->
 [The Ember Blog](https://blog.emberjs.com/) has a new look and a new codebase!
