@@ -145,3 +145,34 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
 
 
 ## Publishing an Issue of The Ember Times
+
+<details>
+<summary>Substack instructions</summary>
+1. Get a login to the Ember Times account on Substack from [#support-ember-times](https://discord.com/channels/480462759797063690/485450546887786506).
+1. Merge post PR to master on this repo. 
+1. Draft a new post in Substack. From https://github.com/ember-learn/ember-blog/find/master, search for the issue e.g. "171". 
+1. Copy the copy content of the blog from there into Substack. You will need to manually import images such as Office Hours Tomster mascot https://github.com/ember-learn/ember-blog/blob/master/public/images/tomsters/officehours.png.
+1. Manually import ember_E-icon-4c-Rounded-Rectangle.png for the Substack social preview. 
+1. Send to the list!
+</details>
+
+<details>
+<summary>Twitter instructions</summary>
+1. Post tweet on Tweetdeck to post on Monday (second day of #engagement)
+1. Set $natural reminder on Discord, for example: 1$natural on December 23th at 2:00pm send post tweet 2 news & announce @Alon (if you're avail!) :newspaper2: to #support-ember-times`
+1. Use one emoji for each line item as a bullet point
+1. Try to @ or hashtag when appropriate
+1. Include the URL to the blog
+</details>
+
+<details>
+<summary>dev.to instructions</summary>
+1. Copy raw from GitHub, delete top YAML portion.
+1. If they appear in the preview, delete any `alex-ignore` or `markdownlint-ignore`.
+1. Delete any italics classes such as <span style="font-style: italic;"></span>. Normal <em> or *italicizeme* markdown doesn't work in /ember-blog right now.
+1. Double curlies `{{` in header link titles will sometimes give you a liquid error. For example, with this heading `[No Implicit This or {{foo}} to {{this.foo}} Codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod)` I just deleted the double curlies to fix. 
+1. Check for weird line breaking. We can fix this with stricter markdownlint but it was a bit cumbersome for blog writers!
+1. Add canonical URL and series name (The Ember Times should come up)
+1. Add body image for Readers' Questions image manually https://github.com/ember-learn/ember-website/blob/master/public/images/tomsters/officehours.png.
+1. Format manually if needed.
+</details>
