@@ -17,7 +17,7 @@ Try TypeScript in your Ember app today with a video tutorial 🔤,
 
 ## [Video Tutorials: TypeScript Basics With EmberJS 🔤](https://twitter.com/knownasilya/status/1349571457983127561)
 
-[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) did a couple of videos on getting started with [TypeScript](https://www.typescriptlang.org/) for your EmberJS applications. 
+[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) did a couple of videos on getting started with [TypeScript](https://www.typescriptlang.org/) for your EmberJS applications.
 
 The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through setting up [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) which installs a variety of addons which provides blueprints, types, and the typescript dependency itself. It also adds the `tsconfig.json` file which [provides compiler options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to TypeScript.
 
