@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 172
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-01-29T00:00:00.000Z
 tags:
   - newsletter
@@ -9,19 +10,18 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Try TypeScript in your Ember app today with a video tutorial 🔤,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Video Tutorials: TypeScript Basics With EmberJS 🔤](https://twitter.com/knownasilya/status/1349571457983127561)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) did a couple of videos on getting started with [TypeScript](https://www.typescriptlang.org/) for your EmberJS applications.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through setting up [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) which installs a variety of addons which provides blueprints, types, and the typescript dependency itself. It also adds the `tsconfig.json` file which [provides compiler options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to TypeScript.
+
+The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth example of using TypeScript in Ember such as making a route, controller, and when using actions and decorators. We also briefly go through where to add global type declarations in your project and other tips for working with TypeScript in your Ember application today.
 
 ---
 
@@ -139,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, and the Learning Team
