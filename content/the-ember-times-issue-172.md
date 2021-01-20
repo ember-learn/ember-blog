@@ -32,7 +32,7 @@ The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth
 
 ## [Storybook for Ember tutorial 🎨](https://www.learnstorybook.com/intro-to-storybook/ember/en/get-started/)
 
-[Storybook](https://storybook.js.org/) has taken the world of **design systems** by storm! What is Storybook? Storybook makes building UI components isolated from the business logic and context of your app easier, sort of a "style guide as a service". Check out the new [Storybook for Ember tutorial](https://www.learnstorybook.com/intro-to-storybook/ember/en/get-started/) for guidance on setting up Storybook in your Ember app.
+[Storybook](https://storybook.js.org/) has taken the world of **design systems** by storm! What is Storybook? Storybook helps you build UI components that are isolated from business logic and context of your app. Sort of a "style guide as a service." Check out the new [Storybook for Ember tutorial](https://www.learnstorybook.com/intro-to-storybook/ember/en/get-started/) for guidance on setting up Storybook in your Ember app.
 
 [Thomas Gossmann (@gossi)](https://github.com/gossi) spearheaded the Ember + Storybook effort and wrote a complementary blog post, [Ember with Storybook – Behind the Scenes](https://gos.si/blog/ember-with-storybook-behind-the-scenes/). The post touches on how Storybook and Ember are independent build pipelines, options for writing Storybook docs in Markdown, and different strategies for Storybook setup depending on your app architecture (e.g. monorepo vs. multirepo). But wait, there's more - you can use @gossi's open source Ember design system, hokulea ([repo](https://github.com/hokulea/hokulea) and [Storybook](https://hokulea.netlify.app/), as a reference!
 
