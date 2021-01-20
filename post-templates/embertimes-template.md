@@ -21,7 +21,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -32,7 +32,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -43,7 +43,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -54,7 +54,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -65,7 +65,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -76,7 +76,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -87,7 +87,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -98,7 +98,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -109,7 +109,7 @@ tags:
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
 <add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
