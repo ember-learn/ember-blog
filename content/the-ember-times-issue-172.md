@@ -3,15 +3,18 @@ title: The Ember Times - Issue No. 172
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - amy-lam
 date: 2021-01-29T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-Try TypeScript in your Ember app today with a video tutorial 🔤,
+👋 Emberistas! 🐹
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Try TypeScript in your Ember app today with a video tutorial 🔤,
+Storybook for Ember tutorial 🎨,
 
 ---
 
@@ -23,16 +26,19 @@ The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through sett
 
 The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth example of using TypeScript in Ember such as making a route, controller, and when using actions and decorators. We also briefly go through where to add global type declarations in your project and other tips for working with TypeScript in your Ember application today.
 
+<insert youtube here? need to see if possible in substack>
+
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Storybook for Ember tutorial 🎨](https://www.learnstorybook.com/intro-to-storybook/ember/en/get-started/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Storybook](https://storybook.js.org/) has taken the world of **design systems** by storm! What is Storybook? Storybook makes building UI components isolated from the business logic and context of your app easier, sort of a "style guide as a service". Check out the new [Storybook for Ember tutorial](https://www.learnstorybook.com/intro-to-storybook/ember/en/get-started/) for guidance on setting up Storybook in your Ember app.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+[Thomas Gossmann (@gossi)](https://github.com/gossi) spearheaded the Ember + Storybook effort and wrote a complementary blog post, [Ember with Storybook – Behind the Scenes](https://gos.si/blog/ember-with-storybook-behind-the-scenes/). The post touches on how Storybook and Ember are independent build pipelines, options for writing Storybook docs in Markdown, and different strategies for Storybook setup depending on your app architecture (e.g. monorepo vs. multirepo). But wait, there's more - you can use @gossi's open source Ember design system, hokulea ([repo](https://github.com/hokulea/hokulea) and [Storybook](https://hokulea.netlify.app/), as a reference!
+
+Already using Storybook with Ember, or going to try it out in your application? Be sure to check out the [official Storybook docs](https://storybook.js.org/docs/ember/get-started/introduction) and contribute to the Ember section if you can to further flesh it out!
+
+<insert tweet https://twitter.com/unistyler/status/1343853626901590016 in substack>
 
 ---
 
@@ -139,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, and the Learning Team
+Chris Ng, Amy Lam and the Learning Team
