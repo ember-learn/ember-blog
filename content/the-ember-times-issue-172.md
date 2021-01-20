@@ -38,7 +38,7 @@ The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth
 
 Already using Storybook with Ember, or going to try it out in your application? Be sure to check out the [official Storybook docs](https://storybook.js.org/docs/ember/get-started/introduction) and contribute to the Ember section if you can to further flesh it out!
 
-<insert tweet https://twitter.com/unistyler/status/1343853626901590016 in substack>
+<insert tweet <https://twitter.com/unistyler/status/1343853626901590016> in substack>
 
 ---
 
