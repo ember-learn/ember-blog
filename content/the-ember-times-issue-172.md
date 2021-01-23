@@ -4,6 +4,7 @@ authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - amy-lam
+  - abhilashlr
 date: 2021-01-29T00:00:00.000Z
 tags:
   - newsletter
@@ -15,6 +16,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Try TypeScript in your Ember app today with a video tutorial 🔤,
 Storybook for Ember tutorial 🎨,
+Building a Router component for Glimmer.js 🧭,
 
 ---
 
@@ -51,14 +53,13 @@ Already using Storybook with Ember, or going to try it out in your application? 
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [3. Building a Router component for Glimmer.js 🧭](https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) wrote a blog on building routing components for apps built using Glimmer.js. Glimmer being rendering engine, unlike Ember that has the routing capabilities built in, his blog helps you to walk through how routing can be achieved for Glimmer apps. He talks about this Routing system by building a Route Registry, Route component, Link component, and the Router Component.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+As a bonus he also mentions about how you can achieve code-splitting JS bundles and lazy loading components.
+
+Read more about [Building a Router component for Glimmer.js](https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk) if you have been looking for routers for your Glimmer apps!
 
 ---
 
@@ -154,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam and the Learning Team
+Chris Ng, Amy Lam, Abhilash L R and the Learning Team
