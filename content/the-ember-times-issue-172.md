@@ -55,7 +55,7 @@ Already using Storybook with Ember, or going to try it out in your application? 
 
 ## [3. Building a Router component for Glimmer.js 🧭](https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk)
 
-[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) wrote a blog on building routing components for apps built using Glimmer.js. Glimmer being rendering engine, unlike Ember that has the routing capabilities built in, his blog helps you to walk through how routing can be achieved for Glimmer apps. He talks about this Routing system by building a Route Registry, Route component, Link component, and the Router Component.
+[Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) wrote a blog on building routing components for apps built using Glimmer.js. Unlike Ember, which has built-in routing, Glimmer is only a rendering engine. Rajasegar's blog walks through how routing can be achieved for Glimmer apps. He talks about this Routing system by building a Route Registry, Route component, Link component, and the Router Component.
 
 As a bonus he also mentions about how you can achieve code-splitting JS bundles and lazy loading components.
 
