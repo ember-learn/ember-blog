@@ -176,4 +176,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Abhilash L R and the Learning Team
+Chris Ng, Amy Lam, Abhilash L R, Jen Weber, and the Learning Team
