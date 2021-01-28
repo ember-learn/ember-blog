@@ -5,6 +5,7 @@ authors:
   - chris-ng
   - amy-lam
   - abhilashlr
+  - jen-weber
 date: 2021-01-29T00:00:00.000Z
 tags:
   - newsletter
@@ -14,9 +15,29 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Try TypeScript in your Ember app today with a video tutorial 🔤,
+Get your EmberConf talk proposals in ASAP!
+Then try TypeScript in your Ember app today with a video tutorial 🔤,
 Storybook for Ember tutorial 🎨,
 Building a Router component for Glimmer.js 🧭,
+
+---
+
+## [Remote EmberConf talk proposals due this Sunday!](https://emberconf.com/become-a-speaker)
+
+Developers around the world are invited to
+[submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)!
+The deadline for submissions is Sunday, January 31st at 11:59pm ET.
+
+Is there something cool you learned recently that you would like to share?
+Do you want to build up your speaking and teaching skills?
+Did you build something you are proud of?
+
+This is your chance to share it! Talks are pre-recorded and
+the conference is fully remote.
+
+If you have questions or need some help, visit the emberconf channel on the
+[Community Discord](https://emberjs.com/community/).
+Good luck!
 
 ---
 
@@ -155,4 +176,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Abhilash L R and the Learning Team
+Chris Ng, Amy Lam, Abhilash L R, Jen Weber, and the Learning Team
