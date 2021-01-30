@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 172
 authors:
   - chris-ng
   - amy-lam
-  - abhilashlr
+  - abhilash-lr
   - jen-weber
   - jared-galanis
 date: 2021-01-29T00:00:00.000Z
