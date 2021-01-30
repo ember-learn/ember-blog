@@ -20,7 +20,8 @@ Get your EmberConf talk proposals in ASAP!
 Then try TypeScript in your Ember app today with a video tutorial 🔤,
 Storybook for Ember tutorial 🎨,
 Building a Router component for Glimmer.js 🧭,
-
+Building Prototypes with Ember 🐹
+  
 ---
 
 ## [Remote EmberConf talk proposals due this Sunday!](https://emberconf.com/become-a-speaker)
@@ -85,11 +86,11 @@ Read more about [Building a Router component for Glimmer.js](https://dev.to/raja
 
 ---
 
-## [Building Prototypes with Ember 🐹](https://twitter.com/simplabs/status/1338871240342327296)
+## [Building prototypes with Ember 🐹](https://twitter.com/simplabs/status/1338871240342327296)
 
-If you have not seen the recent [simplabs](https://github.com/simplabs) blog post by [Florian Pichler @pichfl](https://github.com/pichfl) on Building prototypes with Ember.js, you may want to give it a read.
+If you have not seen the recent [simplabs](https://github.com/simplabs) blog post by [Florian Pichler (@pichfl)](https://github.com/pichfl) on Building prototypes with Ember.js, you may want to give it a read.
 
-Florian's post covers the approach they took in building [ember-hotspots](https://github.com/simplabs/ember-hotspots), an addon that can enable the experience of building prototypes that many design oriented software solutions provide, but in the framework we all know and love, Emberjs! 🔥
+Florian's post covers the approach they took in building [ember-hotspots](https://github.com/simplabs/ember-hotspots), an addon that can enable the experience of building prototypes that many design oriented software solutions provide, but in the framework we all know and love, Ember.js! 🔥
 
 The post dives into the details of how to create hotspots and efficiently handle images with preloading, and even discusses a little bit of the Broccoli work involved.
 
