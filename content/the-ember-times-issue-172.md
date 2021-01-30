@@ -14,17 +14,13 @@ tags:
 
 👋 Emberistas! 🐹
 
-Get your EmberConf talk proposals in ASAP!
-Then try TypeScript in your Ember app today with a video tutorial 🔤,
-Storybook for Ember tutorial 🎨,
-Building a Router component for Glimmer.js 🧭,
-Building Prototypes with Ember 🐹
+Get your EmberConf talk proposals in ASAP, TypeScript in Ember guide, Storybook for Ember tutorial, building a Router component for Glimmer.js, and building prototypes with Ember.
   
 ---
 
 ## [Remote EmberConf talk proposals due this Sunday! 🗣](https://emberconf.com/become-a-speaker)
 
-Developers around the world are invited to [submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)! The deadline for submissions is **Sunday, January 31st at 11:59pm ET**.
+Developers around the world are invited to [submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)! The deadline for submissions is this **Sunday, January 31st at 11:59pm ET**.
 
 Is there something cool you learned recently that you would like to share? Do you want to build up your speaking and teaching skills? Did you build something you are proud of?
 
@@ -40,9 +36,7 @@ If you have questions or need some help, visit the [#emberconf](https://discord.
 
 The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through setting up [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) which installs a variety of addons which provides blueprints, types, and the TypeScript dependency itself. It also adds the `tsconfig.json` file which [provides compiler options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to TypeScript.
 
-The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth example of using TypeScript in Ember such as making a route, controller, and when using actions and decorators. We also briefly go through where to add global type declarations in your project and other tips for working with TypeScript in your Ember application today.
-
-<insert youtube here? need to see if possible in substack>
+The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth example of using TypeScript in Ember such as making a route, controller, and when using actions and decorators. He also briefly goes through where to add global type declarations in your project and other tips for working with TypeScript in your Ember application today.
 
 ---
 
@@ -59,11 +53,9 @@ The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth
 But wait, there's more - you can use @gossi's open source Ember design system, hokulea, as a reference!
 
 - [GitHub Repo](https://github.com/hokulea/hokulea)
-- [Storybook](https://hokulea.netlify.app/)
+- [hokulea Storybook](https://hokulea.netlify.app/)
 
 Already using Storybook with Ember, or going to try it out in your application? Be sure to check out the [official Storybook docs](https://storybook.js.org/docs/ember/get-started/introduction) and contribute to the Ember section if you can to further flesh it out!
-
-<insert tweet <https://twitter.com/unistyler/status/1343853626901590016> in substack>
 
 ---
 
