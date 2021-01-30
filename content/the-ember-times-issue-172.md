@@ -1,7 +1,6 @@
 ---
 title: The Ember Times - Issue No. 172
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - amy-lam
   - abhilashlr
@@ -15,7 +14,6 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Get your EmberConf talk proposals in ASAP!
 Then try TypeScript in your Ember app today with a video tutorial 🔤,
 Storybook for Ember tutorial 🎨,
@@ -24,28 +22,21 @@ Building Prototypes with Ember 🐹
   
 ---
 
-## [Remote EmberConf talk proposals due this Sunday!](https://emberconf.com/become-a-speaker)
+## [Remote EmberConf talk proposals due this Sunday! 🗣](https://emberconf.com/become-a-speaker)
 
-Developers around the world are invited to
-[submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)!
-The deadline for submissions is Sunday, January 31st at 11:59pm ET.
+Developers around the world are invited to [submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)! The deadline for submissions is Sunday, January 31st at 11:59pm ET.
 
-Is there something cool you learned recently that you would like to share?
-Do you want to build up your speaking and teaching skills?
-Did you build something you are proud of?
+Is there something cool you learned recently that you would like to share? Do you want to build up your speaking and teaching skills? Did you build something you are proud of?
 
-This is your chance to share it! Talks are pre-recorded and
-the conference is fully remote.
+This is your chance to share it! Talks are pre-recorded and the conference is fully remote.
 
-If you have questions or need some help, visit the emberconf channel on the
-[Community Discord](https://emberjs.com/community/).
-Good luck!
+If you have questions or need some help, visit the [#emberconf](https://discord.com/channels/480462759797063690/480502413917421570) channel on the [Community Discord](https://emberjs.com/community/). Good luck!
 
 ---
 
-## [Video Tutorials: TypeScript Basics With EmberJS 🔤](https://twitter.com/knownasilya/status/1349571457983127561)
+## [Video tutorials: TypeScript basics with Ember.js 🔤](https://twitter.com/knownasilya/status/1349571457983127561)
 
-[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) did a couple of videos on getting started with [TypeScript](https://www.typescriptlang.org/) for your EmberJS applications.
+[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) did a couple of videos on getting started with [TypeScript](https://www.typescriptlang.org/) for your Ember.js applications.
 
 The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through setting up [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) which installs a variety of addons which provides blueprints, types, and the typescript dependency itself. It also adds the `tsconfig.json` file which [provides compiler options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to TypeScript.
 
@@ -76,7 +67,7 @@ Already using Storybook with Ember, or going to try it out in your application? 
 
 ---
 
-## [3. Building a Router component for Glimmer.js 🧭](https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk)
+## [Building a Router component for Glimmer.js 🧭](https://dev.to/rajasegar/building-a-router-component-for-glimmer-js-52bk)
 
 [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) wrote a blog on building routing components for apps built using Glimmer.js. Unlike Ember, which has built-in routing, Glimmer is only a rendering engine. Rajasegar's blog walks through how routing can be achieved for Glimmer apps. He talks about this Routing system by building a Route Registry, Route component, Link component, and the Router Component.
 
@@ -98,64 +89,9 @@ If you're interested, head on over to the [simplabs blog](https://simplabs.com/b
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/genisd" rel="noopener noreferrer" target="_blank">Daniel (@genisd)</a>, <a href="https://github.com/dwickern" rel="noopener noreferrer" target="_blank">Derek Wickern (@dwickern)</a>, <a href="https://github.com/dcyriller" rel="noopener noreferrer" target="_blank">Cyrille David (@dcyriller)</a>, <a href="https://github.com/Alonski" rel="noopener noreferrer" target="_blank">Alon Bukai (@Alonski)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/smfoote" rel="noopener noreferrer" target="_blank">Steven (@smfoote)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/abhilashlr" rel="noopener noreferrer" target="_blank">abhilashlr (@abhilashlr)</a>, <a href="https://github.com/lukemelia" rel="noopener noreferrer" target="_blank">Luke Melia (@lukemelia)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/BnitoBzh" rel="noopener noreferrer" target="_blank">@BnitoBzh</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/abadri" rel="noopener noreferrer" target="_blank">Abilash Badri (@abadri)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/chiragpat" rel="noopener noreferrer" target="_blank">Chirag Patel (@chiragpat)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, <a href="https://github.com/srsgores" rel="noopener noreferrer" target="_blank">Sean Goresht (@srsgores)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/lifeart" rel="noopener noreferrer" target="_blank">Alex Kanunnikov (@lifeart)</a>, <a href="https://github.com/xg-wang" rel="noopener noreferrer" target="_blank">Thomas Wang (@xg-wang)</a>, <a href="https://github.com/jamescdavis" rel="noopener noreferrer" target="_blank">James C. Davis (@jamescdavis)</a>, <a href="https://github.com/czikarito" rel="noopener noreferrer" target="_blank">Pawel Kuwik (@czikarito)</a>, <a href="https://github.com/Turbo87" rel="noopener noreferrer" target="_blank">Tobias Bieniek (@Turbo87)</a>, <a href="https://github.com/jderr-mx" rel="noopener noreferrer" target="_blank">John Derr (@jderr-mx)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/davecombs" rel="noopener noreferrer" target="_blank">Dave Combs (@davecombs)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/sukima" rel="noopener noreferrer" target="_blank">Devin Weaver (@sukima)</a>, and <a href="https://github.com/jelhan" rel="noopener noreferrer" target="_blank">Jeldrik Hanschke (@jelhan)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
