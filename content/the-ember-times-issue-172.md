@@ -24,7 +24,7 @@ Building Prototypes with Ember 🐹
 
 ## [Remote EmberConf talk proposals due this Sunday! 🗣](https://emberconf.com/become-a-speaker)
 
-Developers around the world are invited to [submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)! The deadline for submissions is Sunday, January 31st at 11:59pm ET.
+Developers around the world are invited to [submit talk proposals for EmberConf 2021](https://emberconf.com/become-a-speaker)! The deadline for submissions is **Sunday, January 31st at 11:59pm ET**.
 
 Is there something cool you learned recently that you would like to share? Do you want to build up your speaking and teaching skills? Did you build something you are proud of?
 
@@ -38,7 +38,7 @@ If you have questions or need some help, visit the [#emberconf](https://discord.
 
 [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) did a couple of videos on getting started with [TypeScript](https://www.typescriptlang.org/) for your Ember.js applications.
 
-The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through setting up [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) which installs a variety of addons which provides blueprints, types, and the typescript dependency itself. It also adds the `tsconfig.json` file which [provides compiler options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to TypeScript.
+The [first video](https://www.youtube.com/watch?v=G7QWvhMXMSc) goes through setting up [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) which installs a variety of addons which provides blueprints, types, and the TypeScript dependency itself. It also adds the `tsconfig.json` file which [provides compiler options](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to TypeScript.
 
 The [second video](https://www.youtube.com/watch?v=FOrCbXW223E) does an in-depth example of using TypeScript in Ember such as making a route, controller, and when using actions and decorators. We also briefly go through where to add global type declarations in your project and other tips for working with TypeScript in your Ember application today.
 
