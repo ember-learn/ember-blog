@@ -6,6 +6,7 @@ authors:
   - amy-lam
   - abhilashlr
   - jen-weber
+  - jared-galanis
 date: 2021-01-29T00:00:00.000Z
 tags:
   - newsletter
@@ -84,14 +85,15 @@ Read more about [Building a Router component for Glimmer.js](https://dev.to/raja
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Building Prototypes with Ember 🐹](https://twitter.com/simplabs/status/1338871240342327296)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you have not seen the recent [simplabs](https://github.com/simplabs) blog post by [Florian Pichler @pichfl](https://github.com/pichfl) on Building prototypes with Ember.js, you may want to give it a read.
 
-<add your name to author list, top and bottom>
-<add blurb and emoji to "SOME-INTRO-HERE">
+Florian's post covers the approach they took in building [ember-hotspots](https://github.com/simplabs/ember-hotspots), an addon that can enable the experience of building prototypes that many design oriented software solutions provide, but in the framework we all know and love, Emberjs! 🔥
+
+The post dives into the details of how to create hotspots and efficiently handle images with preloading, and even discusses a little bit of the Broccoli work involved.
+
+If you're interested, head on over to the [simplabs blog](https://simplabs.com/blog/2020/12/15/building-prototypes-with-emberjs-and-ember-hotspots/) and check out more about `ember-hotspots`!
 
 ---
 
@@ -176,4 +178,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Abhilash L R, Jen Weber, and the Learning Team
+Chris Ng, Amy Lam, Abhilash L R, Jen Weber, Jared Galanis and the Learning Team
