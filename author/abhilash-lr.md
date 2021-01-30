@@ -1,5 +1,5 @@
 ---
-name: Abhilash LR
+name: Abhilash Lr
 image: ''
 cover: ''
 website: ''
