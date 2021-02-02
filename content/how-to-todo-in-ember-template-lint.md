@@ -30,15 +30,15 @@ Now, however, we have a new option- we can also include number of `todos`.  Afte
 Run the command (`yarn lint:hbs`) again:
 <img src="/images/blog/how-to-todo-in-ember-template-lint/terminal-with-todo.png" alt="a terminal showing 2 errors, 0 warnings, and 0 todos" />
 
-Note: `ember-template-lint` also takes a `--quiet` flag, which won't print any warnings or todos, just errors.
+Note: `ember-template-lint` also takes a `--quiet` flag, which won't print any warnings or todos, only errors.
 
 Along with the ability to create todos out of currently failing rules, some options can be set to decide the number of days before the `todo` turns into a `warning` and then into an `error`.
 
 ### Why, though?
 
-This new feature is really intended to help apps at scale. It can be tricky to update a dependency like `ember-template-lint`, especially if it's a version that includes a new rule, simply due to the number of factors involved. Taking in a new version of the linter usually means a lot of communication and coordination about the new rule(s) and the larger your app gets, and the more developers you have, the more work this was. For global companies that use Ember, there might even be a committee just to handle linting rules. That's a lot of red tape!
+This new feature is really intended to help apps at scale. It can be tricky to update a dependency like `ember-template-lint`, especially if it's a version that includes a new rule, due to the number of factors involved. Taking in a new version of the linter usually means a lot of communication and coordination about the new rule(s) and the larger your app gets, and the more developers you have, the more work this was. For global companies that use Ember, there might even be a committee whose sole focus is to make decisions about linting rules. That's a lot of red tape!
 
-While the `pending` feature gave us _some_ of the desired functionality, it didn't really ensure that teams would be given the support they needed to actually fix existing issues- issues could just stay "pending" forever. Now that the `todo` feature has replaced the `pending` feature, we can be confident that when we introduce new linting rules, we're giving our development teams the support they need to remember to fix those issues.
+While the `pending` feature gave us _some_ of the desired functionality, it didn't really ensure that teams would be given the support they needed to actually fix existing issues- issues could stay "pending" forever. Now that the `todo` feature has replaced the `pending` feature, we can be confident that when we introduce new linting rules, we're giving our development teams the support they need to remember to fix those issues.
 
 Or, maybe a chart will help you visualize the value:
 <img src="/images/blog/how-to-todo-in-ember-template-lint/value-visualization.png" alt="a chart that shows how existing code receives a todo, while new code must follow the linting rules.">
@@ -114,7 +114,7 @@ yarn lint:hbs --fix
 
 Note: using `--fix` will also auto-fix any items that are automatically fixable. One place where this sometimes causes some concern is with the `require-button-type` rule. It will add a default `type="button"` to the `<button>` element, but may not automatically respect the prettier or beautify configs of the project.
 
-The `.lint-todo` folder should get checked in to the project's version control system, and teams should do a periodic review to ensure that they are fixing the todos and not just changing the due dates. Have a professional agreement with the other members of your team, and stay committed to fixing those todos.
+The `.lint-todo` folder should get checked in to the project's version control system, and teams should do a periodic review to ensure that they are fixing the todos and not changing the due dates. Have a professional agreement with the other members of your team, and stay committed to fixing those todos.
 
 ## Step 3: Enjoy Improved Code!
 
