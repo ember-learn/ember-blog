@@ -1,7 +1,7 @@
 ---
 title: How To Todo In Ember Template Lint
 authors:
-  - Melanie Sumner
+  - melanie-sumner
 date: 2021-02-02T00:00:00.000Z
 tags:
   - addons
