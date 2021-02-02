@@ -40,7 +40,7 @@ This new feature is really intended to help apps at scale. It can be tricky to u
 
 While the `pending` feature gave us _some_ of the desired functionality, it didn't really ensure that teams would be given the support they needed to actually fix existing issues- issues could stay "pending" forever. Now that the `todo` feature has replaced the `pending` feature, we can be confident that when we introduce new linting rules, we're giving our development teams the support they need to remember to fix those issues.
 
-Or, maybe a chart will help you visualize the value:
+Perhaps a visualization would also be useful:
 <img src="/images/blog/how-to-todo-in-ember-template-lint/value-visualization.png" alt="a chart that shows how existing code receives a todo, while new code must follow the linting rules.">
 
 All new code is immediately supported by new linting rules; existing code can have a timeline to provide a fix.
