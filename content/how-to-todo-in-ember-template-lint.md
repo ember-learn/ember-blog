@@ -112,7 +112,7 @@ If you run the linter after an issue is fixed, the linter will tell you that an 
 yarn lint:hbs --fix
 ```
 
-Note: using `--fix` will also auto-fix any items that are automatically fixable. One place where this sometimes causes some concern is with the `require-button-type` rule. It will add a default `type="button"` to the `<button>` element, but may not automatically respect the prettier or beautify configs of the project.
+Note: using `--fix` will also fix any items that are automatically fixable, which may cause an unwanted result. For example, the `require-button-type` rule may add a default `type="button"` to the `<button>` elements, but may not automatically respect the prettier or beautify configuration of the project.
 
 The `.lint-todo` folder should get checked in to the project's version control system, and teams should do a periodic review to ensure that they are fixing the todos and not changing the due dates. Have a professional agreement with the other members of your team, and stay committed to fixing those todos.
 
