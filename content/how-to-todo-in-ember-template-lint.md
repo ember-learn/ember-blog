@@ -38,7 +38,7 @@ Along with the ability to create todos out of currently failing rules, some opti
 
 This new feature is intended to help apps at a large scale. It can be tricky to update a dependency like `ember-template-lint` when it includes a new rule, due to a number of factors involved. Taking in a new version of the linter can mean communication and coordination about the new rule(s). The larger your app is and the more developers you have, the more work this can be. For global companies that use Ember, there might even be a committee whose sole focus is to make decisions about linting rules!
 
-While the `pending` feature gave us _some_ of the desired functionality, it didn't really ensure that teams would be given the support they needed to actually fix existing issues- issues could stay "pending" forever. Now that the `todo` feature has replaced the `pending` feature, we can be confident that when we introduce new linting rules, we're giving our development teams the support they need to remember to fix those issues.
+While the `pending` feature gave us _some_ of the desired functionality, it didn't ensure that teams would have support to fix existing issues. Issues could stay "pending" forever. The `todo` feature replaces the `pending` feature so that, when we introduce new linting rules, teams can remind one another to dedicate time to fix issues.
 
 Perhaps a visualization would also be useful:
 <img src="/images/blog/how-to-todo-in-ember-template-lint/value-visualization.png" alt="a chart that shows how existing code receives a todo, while new code must follow the linting rules.">
