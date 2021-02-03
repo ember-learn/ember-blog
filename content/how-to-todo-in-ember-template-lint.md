@@ -27,7 +27,7 @@ Now, however, we have a new option—we can also include number of `todos`. Firs
 "lint:hbs": "ember-template-lint . --include-todo",
 ```
 
-Run the command (`yarn lint:hbs`) again:
+Next, run the command `yarn lint:hbs` again:
 <img src="/images/blog/how-to-todo-in-ember-template-lint/terminal-with-todo.png" alt="a terminal showing 2 errors, 0 warnings, and 0 todos" />
 
 Note: `ember-template-lint` also takes a `--quiet` flag, which won't print any warnings or todos, only errors.
