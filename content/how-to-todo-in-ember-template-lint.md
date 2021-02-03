@@ -30,7 +30,7 @@ Now, however, we have a new option—we can also include number of `todos`. Firs
 Next, run the command `yarn lint:hbs` again:
 <img src="/images/blog/how-to-todo-in-ember-template-lint/terminal-with-todo.png" alt="a terminal showing 2 errors, 0 warnings, and 0 todos" />
 
-Note: `ember-template-lint` also takes a `--quiet` flag, which won't print any warnings or todos, only errors.
+Note: `ember-template-lint` also takes a `--quiet` flag, which won't print any warnings or todos—only errors.
 
 Along with the ability to create todos out of currently failing rules, some options can be set to decide the number of days before the `todo` turns into a `warning` and then into an `error`.
 
