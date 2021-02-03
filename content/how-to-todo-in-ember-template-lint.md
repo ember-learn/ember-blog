@@ -45,7 +45,7 @@ Perhaps a visualization would also be useful:
 
 All new code is immediately supported by new linting rules; existing code can have a timeline to provide a fix.
 
-We can even go a step farther, and customize the number of days to fix based on the rule itself. Super useful!
+We can even take a step further and customize the number of days to fix on a rule-by-rule basis. Super useful!
 
 ## Step 1: Strategize
 
