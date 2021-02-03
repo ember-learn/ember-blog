@@ -104,7 +104,7 @@ Let's break down what this command does:
 
 ## Step 2: Plan For Accountability
 
-After running the linter and creating all of the todos, a `.lint-todo` folder will appear in the root directory of the project. This is where you'll find the specifics about what file is failing what rule, and you can fix those issues.
+After running the linter and creating all of the todos, a `.lint-todo` folder will appear in the root directory of the project. This is where you'll find the specifics about which file is failing which rule so that you can fix the issues.
 
 If you run the linter after an issue is fixed, the linter will tell you that an issue has been resolved. To remove the resolved todo, use the `--fix` flag:
 
