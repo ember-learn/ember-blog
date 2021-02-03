@@ -21,7 +21,7 @@ With this new functionality, linting issues can be converted into a `todo` and d
 Previously, running the  `lint:hbs` script (default in an Ember app) would cause `ember-template-lint` to run on all of the `.hbs` files, and return a result that included number of `warnings` and number of `errors` found.
 <img src="/images/blog/how-to-todo-in-ember-template-lint/terminal-without-todo.png" alt="a terminal showing results that include 2 errors and 0 warnings" />
 
-Now, however, we have a new option- we can also include number of `todos`.  After updating the  `lint:hbs` script in the `package.json` file to use the `--include-todo` flag (we want to be reminded that we have todos!), like this:
+Now, however, we have a new option—we can also include number of `todos`. First, update the `lint:hbs` script in the `package.json` file to use the `--include-todo` flag (we want to be reminded that we have todos!):
 
 ```json
 "lint:hbs": "ember-template-lint . --include-todo",
