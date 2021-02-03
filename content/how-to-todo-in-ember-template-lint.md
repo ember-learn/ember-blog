@@ -66,7 +66,7 @@ It's possible that you don't care what the error is; all todos should have 15 da
 }
 ```
 
-The default values will vary from team to team, but in general the idea is this: it should be reasonable enough for teams to methodically work on past issues, but not too long that they are forgotten about. _*It should feel like a little bit of a stretch, but not stressful.*_
+The default values will vary from team to team. In essence, the values should be reasonable for teams to methodically work on past issues, but not too large that the issues will be forgotten. _*It should feel like a little bit of a stretch, but not stressful.*_
 
 ### Increasing specificity by rule
 
