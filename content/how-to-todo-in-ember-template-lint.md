@@ -14,7 +14,7 @@ tags:
 
 The new `todo` feature in the `ember-template-lint` addon provides a new option to the existing states for linting rules.
 
-With this new functionality, linting issues that are found can be converted into a `todo`, giving developers the ability to strategically plan the work to resolve issues in existing code. A `todo`, can be set to automatically become a `warning` and then an `error` with the use of a supporting feature called decay days.
+With this new functionality, linting issues can be converted into a `todo` and developers can strategically plan the work to resolve issues in existing code. A `todo` can be set to automatically become a `warning`, then an `error` with the use of a supporting feature called decay days.
 
 <img src="/images/blog/how-to-todo-in-ember-template-lint/todo-warning-error-graphic.png" alt="todo, warning, error">
 
