@@ -118,4 +118,4 @@ The `.lint-todo` folder should get checked in to the project's version control s
 
 ## Step 3: Enjoy Improved Code!
 
-By taking advantage of the new todo feature, dev teams are setting themselves up for success and higher quality code will result. If you have any questions about this new feature, check out the #e-template-lint channel in the [Ember Discord community chat](https://discord.gg/emberjs), or [file an issue](https://github.com/ember-template-lint/ember-template-lint/issues) on the project's repo.
+By taking advantage of the new todo feature, dev teams are setting themselves up for success and higher quality code. If you have any questions about this new feature, check out the #e-template-lint channel in the [Ember Discord community chat](https://discord.gg/emberjs), or [file an issue](https://github.com/ember-template-lint/ember-template-lint/issues) on the project's repo.
