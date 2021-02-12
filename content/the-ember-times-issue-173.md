@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 173
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - isaac-lee
 date: 2021-02-12T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Beta release of ember-template-lint v3 ✅,
+Learn more Ember.js in 2021 💡,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -36,14 +38,19 @@ Check out the full [plan for the 3.0.0 release](https://github.com/ember-templat
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## Learn more Ember.js in 2021 💡
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you are new to Ember.js in 2021—first of all, on behalf of the broader community, a warm welcome from The Ember Times! We're lucky to have you and hope that you will say hello and ask questions. 👋🏼
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Over the past couple of months, several people have helped out with your learning experience by publishing blog posts and videos. We'd like to list them here for your convenience (apologies if we missed something; please let us know on the [`#support-ember-times`](https://discord.com/channels/480462759797063690/485450546887786506) channel on [Discord](https://discord.gg/emberjs)):
+
+- [Ember.js Octane Basics](https://www.youtube.com/playlist?list=PLfQwL10yab39JgxX5PaVyqUkPs_0sT790) by Ilya Radchenko
+- [Ember.js Tutorial for Beginners in 2020](https://www.youtube.com/playlist?list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo) by Shawn Chen
+- [Ember & TypeScript series](https://www.youtube.com/playlist?list=PLfQwL10yab3_MLihiat-r9l8qt8x1RD7J) by Ilya Radchenko
+- [I ❤ Ember.js — Introduction](https://medium.com/search?q=I%20%E2%9D%A4%20Ember.js%20Evan%20Martinez) by Evan Martinez
+- [UI Automation Testing with Ember.js](https://www.youtube.com/watch?v=DoWdWxW1Sk0) by Palak Goel
+
+Please check them out to learn more about Ember.js. You can provide the authors support and encouragement by giving a thumbs up and sharing the link with others!
 
 ---
 
@@ -139,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
