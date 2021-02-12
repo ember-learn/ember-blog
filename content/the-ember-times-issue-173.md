@@ -42,7 +42,7 @@ Check out the full [plan for the 3.0.0 release](https://github.com/ember-templat
 
 If you are new to Ember.js in 2021—first of all, on behalf of the broader community, a warm welcome from The Ember Times! We're lucky to have you and hope that you will say hello and ask questions. 👋🏼
 
-Over the past couple of months, several people have helped out with your learning experience by publishing blog posts and videos. We'd like to list them here for your convenience (apologies if we missed something; please let us know on `#support-ember-times` channel on [Discord](https://discord.gg/emberjs)):
+Over the past couple of months, several people have helped out with your learning experience by publishing blog posts and videos. We'd like to list them here for your convenience (apologies if we missed something; please let us know on the [`#support-ember-times`](https://discord.com/channels/480462759797063690/485450546887786506) channel on [Discord](https://discord.gg/emberjs)):
 
 - [Ember.js Octane Basics](https://www.youtube.com/playlist?list=PLfQwL10yab39JgxX5PaVyqUkPs_0sT790) by Ilya Radchenko
 - [Ember.js Tutorial for Beginners in 2020](https://www.youtube.com/playlist?list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo)
