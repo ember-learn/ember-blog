@@ -45,7 +45,7 @@ If you are new to Ember.js in 2021—first of all, on behalf of the broader comm
 Over the past couple of months, several people have helped out with your learning experience by publishing blog posts and videos. We'd like to list them here for your convenience (apologies if we missed something; please let us know on the [`#support-ember-times`](https://discord.com/channels/480462759797063690/485450546887786506) channel on [Discord](https://discord.gg/emberjs)):
 
 - [Ember.js Octane Basics](https://www.youtube.com/playlist?list=PLfQwL10yab39JgxX5PaVyqUkPs_0sT790) by Ilya Radchenko
-- [Ember.js Tutorial for Beginners in 2020](https://www.youtube.com/playlist?list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo)
+- [Ember.js Tutorial for Beginners in 2020](https://www.youtube.com/playlist?list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo) by Shawn Chen
 - [Ember & TypeScript](https://www.youtube.com/playlist?list=PLfQwL10yab3_MLihiat-r9l8qt8x1RD7J) by Ilya Radchenko
 - [I ❤ Ember.js — Introduction](https://medium.com/search?q=I%20%E2%9D%A4%20Ember.js%20Evan%20Martinez) by Evan Martinez
 - [UI Automation Testing with Ember.js](https://www.youtube.com/watch?v=DoWdWxW1Sk0) by Palak Goel
