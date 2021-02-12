@@ -46,7 +46,7 @@ Over the past couple of months, several people have helped out with your learnin
 
 - [Ember.js Octane Basics](https://www.youtube.com/playlist?list=PLfQwL10yab39JgxX5PaVyqUkPs_0sT790) by Ilya Radchenko
 - [Ember.js Tutorial for Beginners in 2020](https://www.youtube.com/playlist?list=PLk51HrKSBQ88wDXgPF-QLMfPFlLwcjTlo) by Shawn Chen
-- [Ember & TypeScript](https://www.youtube.com/playlist?list=PLfQwL10yab3_MLihiat-r9l8qt8x1RD7J) by Ilya Radchenko
+- [Ember & TypeScript series](https://www.youtube.com/playlist?list=PLfQwL10yab3_MLihiat-r9l8qt8x1RD7J) by Ilya Radchenko
 - [I ❤ Ember.js — Introduction](https://medium.com/search?q=I%20%E2%9D%A4%20Ember.js%20Evan%20Martinez) by Evan Martinez
 - [UI Automation Testing with Ember.js](https://www.youtube.com/watch?v=DoWdWxW1Sk0) by Palak Goel
 
