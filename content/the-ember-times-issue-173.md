@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 173
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-02-12T00:00:00.000Z
 tags:
   - newsletter
@@ -9,19 +10,18 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Beta release of ember-template-lint v3 ✅,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Beta release of ember-template-lint v3 ✅](https://twitter.com/melaniersumner/status/1349820518216708096)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) which is a linter for template files in Ember has released a [beta version of 3.0.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v3.0.0-beta.0). This release will include the TODO feature which will help teams adopt the latest version of ember-template-lint and immediately apply linting rules to new code while allowing time to resolve existing issues.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+As part of the 3.0.0 beta release, a lot of rules have also been [turned on in the default recommended config](https://github.com/ember-template-lint/ember-template-lint/pull/1643). This version will also [promote the octane config](https://github.com/ember-template-lint/ember-template-lint/pull/1639) into the default recommended config.
+
+Check out the full [plan for the 3.0.0 release](https://github.com/ember-template-lint/ember-template-lint/issues/1315) on GitHub.
 
 ---
 
@@ -139,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
