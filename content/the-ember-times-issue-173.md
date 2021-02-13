@@ -85,7 +85,7 @@ Bonus! David has also recently released a [blog post](https://davidtang.io/trapp
 
 Coronavirus has robbed us of lots of things, and in the conference area, one of the things we all miss most is the *Hallway Track*. The random interactions we'd have meeting strangers and old friends in between sessions, on the lunch lines, at after parties, etc.
 
-We'll recapture some of this online, but nothing really replaces the feels of seeing someone else smile and hearing them tell their story. So let's get a mini version! We're looking for short (30 second to 2½ minute) videos from community members, basically just saying hello. Submit your videos [here](https://emberconf.com/about/community-spotlight), and they'll be curated by emcee [Julia Donaldson (@donaldsonjulia)](https://github.com/donaldsonjulia). 
+We'll recapture some of this online, but nothing really replaces the feels of seeing someone else smile and hearing them tell their story. So let's get a mini version! We're looking for short (30 second to 2½ minute) videos from community members, basically just saying hello. Submit your videos [here](https://emberconf.com/about/community-spotlight), and they'll be curated by emcee [Julia Donaldson (@donaldsonjulia)](https://github.com/donaldsonjulia).
 
 <https://twitter.com/username_juliaD/status/1359638284729688068>
 
