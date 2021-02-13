@@ -23,7 +23,7 @@ Beta release of ember-template-lint v3, Prettier for .hbs, learn more Ember.js i
 
 As part of the 3.0.0 beta release, a lot of rules have also been [turned on in the default recommended config](https://github.com/ember-template-lint/ember-template-lint/pull/1643). This version will also [promote the octane config](https://github.com/ember-template-lint/ember-template-lint/pull/1639) into the default recommended config.
 
-Check out the full [plan for the 3.0.0 release](https://github.com/ember-template-lint/ember-template-lint/issues/1315) on GitHub.
+Check out the full [plan for the 3.0.0 release](https://github.com/ember-template-lint/ember-template-lint/issues/1315) on GitHub and the related [blog post](https://blog.emberjs.com/how-to-todo-in-ember-template-lint).
 
 ---
 
@@ -35,8 +35,6 @@ Prettier is coming to an Ember `.hbs` file near you! [Prettier](https://prettier
 Check out [Jeldrik Hanschke (@jelhan)'s](https://github.com/jelhan) post [Format Glimmer templates with Prettier](https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa) and [tweet](https://twitter.com/jelhan1/status/1358537538932248576) to learn how to configure Prettier for Ember `.hbs` files, with specific tips to Prettier `.hbs` on save in VS Code. Note: Prettier for Glimmer templates does not (yet) respect meaningful whitespaces, which will be problematic if your application is not internationalized (i18n'd). Give it a try in your app to see if there are any gotchas.
 
 There is a PR from [Cyrille David (@dcyriller)](https://github.com/dcyriller) to [Move Handlebars support out of alpha to release](https://github.com/prettier/prettier/pull/10290) on Prettier as well.
-
-<for substack: <https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa>>
 
 ---
 
@@ -84,8 +82,6 @@ Coronavirus has robbed us of lots of things, and in the conference area, one of 
 
 <!-- alex ignore basically just -->
 We'll recapture some of this online, but nothing really replaces the feels of seeing someone else smile and hearing them tell their story. So let's get a mini version! We're looking for short (30 second to 2½ minute) videos from community members, basically just saying hello. Submit your videos [here](https://emberconf.com/about/community-spotlight), and they'll be curated by emcee [Julia Donaldson (@donaldsonjulia)](https://github.com/donaldsonjulia).
-
-<https://twitter.com/username_juliaD/status/1359638284729688068>
 
 ---
 
