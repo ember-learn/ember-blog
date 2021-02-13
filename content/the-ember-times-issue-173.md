@@ -36,7 +36,7 @@ Check out [Jeldrik Hanschke (@jelhan)'s](https://github.com/jelhan) post [Format
 
 There is a PR from [Cyrille David (@dcyriller)](https://github.com/dcyriller) to [Move Handlebars support out of alpha to release](https://github.com/prettier/prettier/pull/10290) on Prettier as well.
 
-<for substack: https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa>
+<for substack: <https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa>>
 
 ---
 
