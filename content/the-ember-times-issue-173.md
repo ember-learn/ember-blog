@@ -4,16 +4,17 @@ authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - isaac-lee
+  - amy-lam
 date: 2021-02-12T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 Beta release of ember-template-lint v3 ✅,
+Prettier for .hbs 😀
 Learn more Ember.js in 2021 💡,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
@@ -27,14 +28,16 @@ Check out the full [plan for the 3.0.0 release](https://github.com/ember-templat
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Prettier for .hbs 😀](https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Prettier is coming to an Ember `.hbs` file near you! [Prettier](https://prettier.io/) is a popular opinionated code formatter. New Ember projects get Prettier out of the box for `.js` files, and existing projects can adopt Prettier with [`ember-cli-update`](https://cli.emberjs.com/release/basic-use/upgrading/).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!-- alex ignore whitespaces -->
+Check out [Jeldrik Hanschke (@jelhan)'s](https://github.com/jelhan) post [Format Glimmer templates with Prettier](https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa) and [tweet](https://twitter.com/jelhan1/status/1358537538932248576) to learn how to configure Prettier for Ember `.hbs` files, with specific tips to Prettier `.hbs` on save in VS Code. Note: Prettier for Glimmer templates does not (yet) respect meaningful whitespaces, which will be problematic if your application is not internationalized (i18n'd). Give it a try in your app to see if there are any gotchas.
+
+There is a PR from [Cyrille David (@dcyriller)](https://github.com/dcyriller) to [Move Handlebars support out of alpha to release](https://github.com/prettier/prettier/pull/10290) on Prettier as well.
+
+<for substack: <https://dev.to/jelhan/format-glimmer-templates-with-prettier-ipa>>
 
 ---
 
@@ -137,7 +140,7 @@ Please check them out to learn more about Ember.js. You can provide the authors 
 
   <p>Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at <a href="https://discordapp.com/channels/480462759797063690/485450546887786506">#support-ember-times</a> on the <a href="https://discord.gg/emberjs">Ember Community Discord</a> or ping us <a href="https://twitter.com/embertimes">@embertimes</a> on Twitter.</p>
 
-  <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://embertimes.substack.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://blog.emberjs.com/tag/newsletter">Ember blog</a>. See you in two weeks!</p>
+  <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://embertimes.substack.com/">e-mail newsletter</a>, now on Substack! You can also find our posts on the <a href="https://blog.emberjs.com/tag/newsletter">Ember blog</a>. See you in two weeks!</p>
 </div>
 
 ---
@@ -146,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam and the Learning Team
