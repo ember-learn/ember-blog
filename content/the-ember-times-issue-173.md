@@ -68,6 +68,7 @@ There are a few new interesting podcasts on the block that either were recently 
 
 ## [Pro Ember Data Book 📖](https://twitter.com/iamdtang/status/1347253677438889985)
 
+<!-- alex ignore tang -->
 [David Tang @skaterdav85](https://github.com/skaterdav85) has recently published a new book about Ember Data 🔥🔥🔥! If you were a fan of David's previous book, Ember Data in the Wild, you'll love the new book, Pro Ember Data!
 
 Pro Ember Data covers a variety of topics that come up when working with Ember Data, including everything from adapters and serializers to polymorphic relationships and Pro Ember Data will teach you how to adapt Ember Data to fit your custom API.
