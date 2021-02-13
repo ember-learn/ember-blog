@@ -61,7 +61,7 @@ Please check them out to learn more about Ember.js. You can provide the authors 
 
 There are a few new interesting podcasts on the block that either were recently released or will be released soon that will cover Ember-related, and other, subjects:
 
-- For a more fully ember-focused podcast, check out [The Ember Report](https://twitter.com/kennethlarsen/status/1359568838401097729) by [Kenneth Larsen (@kennethlarsen)](https://github.com/kennethlarsen) and [Jan Buschtöns (@buschtoens)](https://github.com/buschtoens). The first episode was recently recorded and should hopefully be out soon!
+- For a more fully Ember-focused podcast, check out [The Ember Report](https://twitter.com/kennethlarsen/status/1359568838401097729) by [Kenneth Larsen (@kennethlarsen)](https://github.com/kennethlarsen) and [Jan Buschtöns (@buschtoens)](https://github.com/buschtoens). The first episode was recently recorded and should hopefully be out soon!
 - If you are interested in listening to conversations that are not exclusively tech-related and don't mind hearing a bit about whiskey, but also would like to hear about some web and Ember topics, [Whiskey Web and Whatnot](https://twitter.com/shipshapecode/status/1358853436486393865), by [Robert Wagner (@rwwagner90](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape released its first episode this week!
 
 ---
