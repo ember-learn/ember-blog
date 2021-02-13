@@ -52,6 +52,33 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 
 1. We use [alex](https://alexjs.com/) and [markdownlint](https://github.com/DavidAnson/markdownlint) for linting. If your branch's CI (continuous integration) didn't pass these linters, please consider rewording or updating Markdown syntax to fix the error. If the linter incorrectly marked something as an error, you may add an exception to your file.
 
+* If GitHub Actions lint CI fails on alex, the failure is usually listed **far** above `Exit status 1`.
+
+```
+⚠ 1 warning
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ember-blog@0.0.0 lint:alex: `alex {content,post-templates}/**/*.md`
+npm ERR! Exit status 1
+```
+
+Search for "warning" to see the specific alex failure, which will look like:
+
+```
+content/the-ember-times-issue-173.md
+  71:8-71:12  warning  Don’t use `Tang`, it’s profane  tang  retext-profanities
+```
+
+* If GitHub Actions lint CI fails on markdownlint, the failure is usually listed **closely** above `Exit status 1`. In the example below, the markdownlint error is `MD034`. Full list of rules can be found [here](https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md).
+
+```
+content/the-ember-times-issue-173.md:39:16 MD034/no-bare-urls Bare URL used [Context: "https://dev.to/jelhan/format-g..."]
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! ember-blog@0.0.0 lint:md: `markdownlint {content,post-templates}/**/*.md`
+npm ERR! Exit status 1
+```
+
 </details>
 
 
