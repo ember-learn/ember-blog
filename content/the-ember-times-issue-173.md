@@ -12,11 +12,8 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-Beta release of ember-template-lint v3 ✅,
-Prettier for .hbs 😀
-Learn more Ember.js in 2021 💡,
-New Ember-related podcasts 🎙,
-Pro Ember Data Book 📖,
+
+Beta release of ember-template-lint v3, Prettier for .hbs, learn more Ember.js in 2021, new Ember-related podcasts, Pro Ember Data book, and the EmberConf community spotlight!
 
 ---
 
@@ -68,7 +65,7 @@ There are a few new interesting podcasts on the block that either were recently 
 
 ---
 
-## [Pro Ember Data Book 📖](https://twitter.com/iamdtang/status/1347253677438889985)
+## [Pro Ember Data book 📖](https://twitter.com/iamdtang/status/1347253677438889985)
 
 <!-- alex ignore tang -->
 [David Tang (@skaterdav85)](https://github.com/skaterdav85) has recently published a new book about Ember Data 🔥🔥🔥! If you were a fan of David's previous book, Ember Data in the Wild, you'll love the new book, [Pro Ember Data](https://www.apress.com/us/book/9781484265604)!
