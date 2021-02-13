@@ -1,7 +1,6 @@
 ---
 title: The Ember Times - Issue No. 173
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - isaac-lee
   - jared-galanis
@@ -83,39 +82,6 @@ Bonus! David has also recently released a [blog post](https://davidtang.io/trapp
 ---
 
 ## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
