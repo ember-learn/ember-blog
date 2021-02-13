@@ -4,6 +4,7 @@ authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - isaac-lee
+  - jared-galanis
   - amy-lam
 date: 2021-02-12T00:00:00.000Z
 tags:
@@ -15,6 +16,8 @@ tags:
 Beta release of ember-template-lint v3 ✅,
 Prettier for .hbs 😀
 Learn more Ember.js in 2021 💡,
+New Ember-related podcasts 🎙,
+Pro Ember Data Book 📖,
 
 ---
 
@@ -57,25 +60,25 @@ Please check them out to learn more about Ember.js. You can provide the authors 
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## New Ember-related podcasts 🎙
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There are a few new interesting podcasts on the block that either were recently released or will be released soon that will cover Ember-related, and other, subjects:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- For a more fully Ember-focused podcast, check out [The Ember Report](https://twitter.com/kennethlarsen/status/1359568838401097729) by [Kenneth Larsen (@kennethlarsen)](https://github.com/kennethlarsen) and [Jan Buschtöns (@buschtoens)](https://github.com/buschtoens). The first episode was recently recorded and should hopefully be out soon!
+- If you are interested in listening to conversations that are not exclusively tech-related and don't mind hearing a bit about whiskey, but also would like to hear about some web and Ember topics, [Whiskey Web and Whatnot](https://twitter.com/shipshapecode/status/1358853436486393865), by [Robert Wagner (@rwwagner90](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape released its first episode this week, give it a listen and follow on [Spotify](https://open.spotify.com/show/19jiuHAqzeKnkleQUpZxDf)!
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [Pro Ember Data Book 📖](https://twitter.com/iamdtang/status/1347253677438889985)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!-- alex ignore tang -->
+[David Tang (@skaterdav85)](https://github.com/skaterdav85) has recently published a new book about Ember Data 🔥🔥🔥! If you were a fan of David's previous book, Ember Data in the Wild, you'll love the new book, [Pro Ember Data](https://www.apress.com/us/book/9781484265604)!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Pro Ember Data covers a variety of topics that come up when working with Ember Data, including everything from adapters and serializers to polymorphic relationships and Pro Ember Data will teach you how to adapt Ember Data to fit your custom API.
+
+If you've been looking to deepen your knowledge about Ember Data, definitely consider getting yourself a copy.
+
+Bonus! David has also recently released a [blog post](https://davidtang.io/trapping-focus-in-a-modal-in-ember/) on how to make modal's more accessible.
 
 ---
 
@@ -149,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam and the Learning Team
+Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, and the Learning Team
