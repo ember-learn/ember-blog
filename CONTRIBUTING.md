@@ -189,7 +189,7 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
 <summary>Twitter instructions</summary>
   
 1. Post tweet on Tweetdeck to post on Monday (second day of #engagement)
-1. Set $natural reminder on Discord, for example: `$natural on December 23th at 2:00pm send post tweet 2 news & announce @Alon (if you're avail!) :newspaper2: to #support-ember-times`
+1. Set $natural reminder on Discord, for example: `$natural on February 15th at 2:00pm send post tweet 2 news & announce @Alon (if you're avail!) :newspaper2: && @amyrlam publish dev.to to #support-ember-times`
 1. Use one emoji for each line item as a bullet point
 1. Try to @ or hashtag when appropriate
 1. Include the URL to the blog
