@@ -68,6 +68,8 @@ It's possible that you don't care what the error is; all todos should have 15 da
 
 The default values will vary from team to team. In essence, the values should be reasonable for teams to methodically work on past issues, but not too large that the issues will be forgotten. _*It should feel like a little bit of a stretch, but not stressful.*_
 
+Once the generic settings are in the `package.json` file, run `yarn ember-template-lint . --update-todo` (or, `yarn lint:hbs --update-todo`) and any linting issue that is found will have a `todo` created for it.
+
 ### Increasing specificity by rule
 
 It's also possible that you'd want to specify that a particular rule needs to be fix with more immediacy. In that case, you'd want to run that rule by itself. Let's use the `no-nested-interactive` rule as an example:
