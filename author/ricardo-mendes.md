@@ -2,7 +2,7 @@
 name: Ricardo Mendes
 image: ''
 cover: ''
-website: ''
-twitter: ''
+website: 'https://locks.wtf'
+twitter: 'locks'
 location: ''
 ---
