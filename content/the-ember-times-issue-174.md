@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 174
 authors:
+  - anne-greeth-van-herwijnen
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-02-26T00:00:00.000Z
 tags:
@@ -10,18 +11,16 @@ tags:
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Listen and be amazed about native apps and Ember 🎙️
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Building native apps with Ember.js 🎙️](https://audio.ember.report)
+ 
+The first [Ember Report](ember.report) [podcast](https://audio.ember.report/1680877/7875391-001-building-native-apps-with-ember-js) is **live**! You can find it on all the podcast platforms, like [Spotify](https://open.spotify.com/show/58CczXeudOxy4cCdQ0CJUi) and [Apple Podcasts](https://podcasts.apple.com/podcast/the-ember-report/id1554053161). [Kenneth Larsen (@kennethlarsen)](https://github.com/kennethlarsen) and [Jan Butschen (@buschtoens)](https://github.com/buschtoens) tell you all about the ins and outs of building native apps with Ember.js. Kenneth asks all the critical questions, you as a listener might have, and Jan shares his expertise on how they embedded their Ember.js app in [Capacitor](https://capacitorjs.com/docs), the successor to [Cordova](https://cordova.apache.org).
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+With practical examples and a ton of show notes, this podcast will get you started in the world of native apps as an Ember developer. From discussing the technology and the developer experience to discussing the future of native apps vs PWA’s, they’ve got you covered.
 
 ---
 
@@ -139,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
