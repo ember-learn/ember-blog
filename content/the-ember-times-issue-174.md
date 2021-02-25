@@ -2,6 +2,8 @@
 title: The Ember Times - Issue No. 174
 authors:
   - ava-wroten
+  - chris-ng
+  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-02-26T00:00:00.000Z
 tags:
   - newsletter
@@ -10,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Keep up with the latest in template linting with the tailwindcss linter.
+Keep up with the latest in template linting with the tailwindcss linter and the release of ember-browser-services.
 
 ---
 
@@ -48,14 +50,13 @@ _Tailwind classes can become quite verbose_ so it can be nice to encourage some 
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Release of ember-browser-services ⚙️](https://github.com/CrowdStrike/ember-browser-services)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [ember-browser-services](https://github.com/CrowdStrike/ember-browser-services) addon is officially released! The addon provides a collection of [Ember Services](https://guides.emberjs.com/release/services/) that allow for consistent interaction with browser APIs. This provides consistent interaction with browser APIs and easier testing.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+For tests, you can stub out the Ember Service from ember-browser-services with your own implementation in order to verify the behavior you were testing. Any changes to a service's implementation during a test are discarded after the test finishes, there’s even a shorthand way of doing so using the `setupBrowserFakes` export.
+
+Try out [ember-browser-services](https://github.com/CrowdStrike/ember-browser-services) today by checking out their code on GitHub!
 
 ---
 
@@ -140,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ava Wroten, and the Learning Team
+Ava Wroten, Chris Ng and the Learning Team
