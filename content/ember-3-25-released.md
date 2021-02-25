@@ -54,7 +54,7 @@ If these topics interest you, keep an eye on our [RFCs](https://github.com/ember
 This feature enables developers to yield distinct blocks from a component, unlocking powerful composition patterns for components.
 
 This feature is useful when you want to render different things depending on passed-in data.
-Let us implement a shopping cart that lists the items in it, or shows a message says that it is empty.
+Let us implement a shopping cart that lists the items in it, or shows a message that says it is empty.
 We will be using `{{gt}}` from [`ember-truth-helpers`](https://emberobserver.com/addons/ember-truth-helpers) to help implement this.
 
 First we write the component template:
