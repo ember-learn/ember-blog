@@ -104,7 +104,7 @@ But if `shoppingList` is empty, it renders the following instead:
 Named blocks are also useful if you want to ensure a certain structure to your HTML, but want to enable customization of the content.
 An example of this would be an `<Article>` component, as shown in the yieldable named blocks RFC ([#460](https://emberjs.github.io/rfcs/0460-yieldable-named-blocks.html#detailed-design)).
 
-You can find more information in the [Component API documentation](https://api.emberjs.com/ember/3.25/modules/@glimmer%2Fcomponent). More thorough documentation in the guides and tutorial will be released with the next version of Ember.
+You can find more information in the [Component API documentation](https://api.emberjs.com/ember/3.25/modules/@glimmer%2Fcomponent).
 
 #### Deprecations
 
