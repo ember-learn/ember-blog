@@ -17,7 +17,7 @@ Listen and be amazed about native apps and Ember 🎙️
 ---
 
 ## [Building native apps with Ember.js 🎙️](https://audio.ember.report)
- 
+
 The first [Ember Report](ember.report) [podcast](https://audio.ember.report/1680877/7875391-001-building-native-apps-with-ember-js) is **live**! You can find it on all the podcast platforms, like [Spotify](https://open.spotify.com/show/58CczXeudOxy4cCdQ0CJUi) and [Apple Podcasts](https://podcasts.apple.com/podcast/the-ember-report/id1554053161). [Kenneth Larsen (@kennethlarsen)](https://github.com/kennethlarsen) and [Jan Butschen (@buschtoens)](https://github.com/buschtoens) tell you all about the ins and outs of building native apps with Ember.js. Kenneth asks all the critical questions, you as a listener might have, and Jan shares his expertise on how they embedded their Ember.js app in [Capacitor](https://capacitorjs.com/docs), the successor to [Cordova](https://cordova.apache.org).
 
 With practical examples and a ton of show notes, this podcast will get you started in the world of native apps as an Ember developer. From discussing the technology and the developer experience to discussing the future of native apps vs PWA’s, they’ve got you covered.
