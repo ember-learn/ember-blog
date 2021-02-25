@@ -14,7 +14,7 @@ Keep up with the latest in template linting with the tailwindcss linter.
 
 ---
 
-## [1. Rediscover class sanity with tailwindcss linter for ember templates v2.x 🌬](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss)
+## [Rediscover class sanity with tailwindcss linter for ember templates v2.x 🌬](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss)
 
 Know what's cool? Respectful, emotionally responsible pull request reviews! A great way to do that is with linting tools to let the computer gently push collaborators towards codebase consistency instead of having to enforce standards through comments and suggestions.
 
