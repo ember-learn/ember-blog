@@ -4,6 +4,7 @@ authors:
   - anne-greeth-van-herwijnen
   - ava-wroten
   - chris-ng
+  - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-02-26T00:00:00.000Z
 tags:
@@ -16,6 +17,7 @@ tags:
 Listen and be amazed about native apps and Ember 🎙️,
 Keep up with the latest in template linting with the tailwindcss linter,
 Release of ember-browser-services ⚙️,
+Real-world Ember roundup 🙌
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -73,17 +75,6 @@ Try out [ember-browser-services](https://github.com/CrowdStrike/ember-browser-se
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [6. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
@@ -117,14 +108,12 @@ Try out [ember-browser-services](https://github.com/CrowdStrike/ember-browser-se
 
 ---
 
-## [8. Section title in sentence case 🐹](section-url)
+## Real-world Ember roundup 🙌
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* [Track performance of your web application with JavaScript](https://blog.forestadmin.com/track-performance-of-your-web-application-with-javascript-2/) discusses how Forest Admin used JavaScript's Performance API to implement tracking of app load time in their Ember web app. They're also monitoring the time of requests made by customers on their admin backend. They've implemented the functionality of react-addons-perf (now deprecated in React 16) in Ember. Check out the article for implementation details to track performance and improve the user experience for users. 
 
 ---
 
@@ -154,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, Ava Wroten, Chris Ng the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Ava Wroten, Chris Ng, Amy Lam the crowd and the Learning Team
