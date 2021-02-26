@@ -14,7 +14,8 @@ tags:
 👋 Emberistas! 🐹
 
 Listen and be amazed about native apps and Ember 🎙️,
-Keep up with the latest in template linting with the tailwindcss linter and the release of ember-browser-services.
+Keep up with the latest in template linting with the tailwindcss linter,
+Release of ember-browser-services ⚙️,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
