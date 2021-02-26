@@ -2,6 +2,8 @@
 title: The Ember Times - Issue No. 174
 authors:
   - anne-greeth-van-herwijnen
+  - ava-wroten
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-02-26T00:00:00.000Z
 tags:
@@ -9,9 +11,11 @@ tags:
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-Listen and be amazed about native apps and Ember 🎙️
+Listen and be amazed about native apps and Ember 🎙️,
+Keep up with the latest in template linting with the tailwindcss linter and the release of ember-browser-services.
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -21,6 +25,18 @@ Listen and be amazed about native apps and Ember 🎙️
 The first [Ember Report](ember.report) [podcast](https://audio.ember.report/1680877/7875391-001-building-native-apps-with-ember-js) is **live**! You can find it on all the podcast platforms, like [Spotify](https://open.spotify.com/show/58CczXeudOxy4cCdQ0CJUi) and [Apple Podcasts](https://podcasts.apple.com/podcast/the-ember-report/id1554053161). [Kenneth Larsen (@kennethlarsen)](https://github.com/kennethlarsen) and [Jan Butschen (@buschtoens)](https://github.com/buschtoens) tell you all about the ins and outs of building native apps with Ember.js. Kenneth asks all the critical questions, you as a listener might have, and Jan shares his expertise on how they embedded their Ember.js app in [Capacitor](https://capacitorjs.com/docs), the successor to [Cordova](https://cordova.apache.org).
 
 With practical examples and a ton of show notes, this podcast will get you started in the world of native apps as an Ember developer. From discussing the technology and the developer experience to discussing the future of native apps vs PWA’s, they’ve got you covered.
+
+---
+
+## [Rediscover class sanity with tailwindcss linter for ember templates v2.x 🌬](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss)
+
+Know what's cool? Respectful, emotionally responsible pull request reviews! A great way to do that is with linting tools to let the computer gently push collaborators towards codebase consistency instead of having to enforce standards through comments and suggestions.
+
+Ember has a wonderful suite of linting tools and hot off the presses is the chill plugin for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) for all of those [Tailwind CSS](https://tailwindcss.com/) users out there, v2.x of [ember-template-lint-plugin-tailwindcss](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss)!
+
+![Example of class-order rule](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss/-/raw/master/docs/rule/class-order.webm)
+
+_Tailwind classes can become quite verbose_ so it can be nice to encourage some standards for how so many classes can be cleanly added to the DOM. This latest version of the linter gives maintainers full control of **class ordering and when line breaks should occur** (both for _classes per line_ and optionally by _class grouping_).
 
 ---
 
@@ -46,14 +62,13 @@ With practical examples and a ton of show notes, this podcast will get you start
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Release of ember-browser-services ⚙️](https://github.com/CrowdStrike/ember-browser-services)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [ember-browser-services](https://github.com/CrowdStrike/ember-browser-services) addon is officially released! The addon provides a collection of [Ember Services](https://guides.emberjs.com/release/services/) that allow for consistent interaction with browser APIs. This provides consistent interaction with browser APIs and easier testing.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+For tests, you can stub out the Ember Service from ember-browser-services with your own implementation in order to verify the behavior you were testing. Any changes to a service's implementation during a test are discarded after the test finishes, there’s even a shorthand way of doing so using the `setupBrowserFakes` export.
+
+Try out [ember-browser-services](https://github.com/CrowdStrike/ember-browser-services) today by checking out their code on GitHub!
 
 ---
 
@@ -138,4 +153,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth van Herwijnen, the crowd and the Learning Team
+Anne-Greeth van Herwijnen, Ava Wroten, Chris Ng the crowd and the Learning Team
