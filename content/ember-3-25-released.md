@@ -89,9 +89,9 @@ Then when `shoppingList` contains multiple elements, like `[ "apple", "pear", "b
 
 ```handlebars
 <ul>
-  <li><p>apple</p</li>
-  <li><p>pear</p</li>
-  <li><p>banana</p</li>
+  <li><p>You have a apple.</p></li>
+  <li><p>You have a pear.</p></li>
+  <li><p>You have a banana.</p></li>
 </ul>
 ```
 
