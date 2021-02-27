@@ -13,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Podcast on native apps and Ember, keep up with the latest in template linting with the tailwindcss linter, release of ember-browser-services, and real-world Ember roundup.
+Podcast on native apps and Ember, keep up with the latest in template linting with the Tailwind CSS linter, release of ember-browser-services, and real-world Ember roundup.
 
 ---
 
