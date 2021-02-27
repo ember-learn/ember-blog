@@ -180,11 +180,12 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
 1. Merge post PR to master on this repo. 
 1. Draft a new post in Substack. From https://github.com/ember-learn/ember-blog/find/master, search for the issue e.g. "171". 
 1. Put greeting e.g. "👋 Emberistas! 🐹" and the intro AKA summary of articles in the Substack subtitle. No need to repeat in the content of the Substack itself. 
-3. Copy the copy content of the blog below the "intro" from there into Substack. 
-4. You will need to manually import images such as Office Hours Tomster mascot https://github.com/ember-learn/ember-blog/blob/master/public/images/tomsters/officehours.png.
-5. In Substack "Post settings", manually import https://github.com/ember-learn/ember-blog/blob/master/public/images/logos/e-icon.png for the Substack social preview.
-6. Send yourself a test email to preview how it looks.
-7. Send to the list!
+1. Copy the copy content of the blog below the "intro" from there into Substack. 
+1. You will need to manually import images such as Office Hours Tomster mascot https://github.com/ember-learn/ember-blog/blob/master/public/images/tomsters/officehours.png.
+1. In Substack "Post settings", manually import https://github.com/ember-learn/ember-blog/blob/master/public/images/logos/e-icon.png for the Substack social preview.
+1. Also in Substack "Post settings", you may want to remove "👋 Emberistas!" so that the social preview is "🐹 <intro-here>" as we are limited on space.
+1. Send yourself a test email to preview how it looks.
+1. Send to the list!
 
 </details>
 
