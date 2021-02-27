@@ -1,14 +1,14 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 175
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-XX-XXT00:00:00.000Z
+date: 2021-03-12T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
