@@ -34,8 +34,13 @@ Know what's cool? Respectful, emotionally responsible pull request reviews! A gr
 
 Ember has a wonderful suite of linting tools and hot off the presses is the chill plugin for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) for all of those [Tailwind CSS](https://tailwindcss.com/) users out there, v2.x of [ember-template-lint-plugin-tailwindcss](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss)!
 
-![Example of class-order rule](https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss/-/raw/master/docs/rule/class-order.webm)
+<video controls width="100%">
+    <source src="https://gitlab.com/michal-bryxi/open-source/ember-template-lint-plugin-tailwindcss/-/raw/master/docs/rule/class-order.webm"
+            type="video/webm" alt='Example of class-order rule'>
 
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<br>
 _Tailwind classes can become quite verbose_ so it can be nice to encourage some standards for how so many classes can be cleanly added to the DOM. This latest version of the linter gives maintainers full control of **class ordering and when line breaks should occur** (both for _classes per line_ and optionally by _class grouping_).
 
 ---
