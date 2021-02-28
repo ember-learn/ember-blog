@@ -34,7 +34,7 @@ Ember.js 3.25 is an incremental, backwards compatible release of Ember with bug 
 
 Ember.js 3.25 contains several bug fixes, including:
 
-- Empty `hmtmlSafe` strings are now considered false. ([#18148](https://github.com/emberjs/ember.js/pull/18148))
+- Empty `htmlSafe` strings are now considered false. ([#18148](https://github.com/emberjs/ember.js/pull/18148))
 - Template locals no longer clobber component invocations of the same name. ([#19351](https://github.com/emberjs/ember.js/pull/19351))
 - Improved error message when invoking nested components, e.g. `<Foo:Bar />`. ([#19336](https://github.com/emberjs/ember.js/pull/19336))
 - Improved error messages and stack traces for `<LinkTo />`. ([#19342](https://github.com/emberjs/ember.js/pull/19342))
