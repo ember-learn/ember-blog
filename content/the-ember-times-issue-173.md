@@ -19,7 +19,7 @@ Beta release of ember-template-lint v3, Prettier for .hbs, learn more Ember.js i
 
 ## [Beta release of ember-template-lint v3 ✅](https://twitter.com/melaniersumner/status/1349820518216708096)
 
-[ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) which is a linter for template files in Ember has released a [beta version of 3.0.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v3.0.0-beta.0). This release will include the TODO feature which will help teams adopt the latest version of ember-template-lint and immediately apply linting rules to new code while allowing time to resolve existing issues.
+[ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) which is a linter for template files in Ember has released a [beta version of 3.0.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v3.0.0-beta.0). Thanks to [Steve Calvert (@scalvert)](https://github.com/scalvert) and [Rob Jackson (@rwjblue)](https://github.com/rwjblue), this release will include the **TODO feature** which will help teams adopt the latest version of ember-template-lint and immediately apply linting rules to new code while allowing time to resolve existing issues.
 
 As part of the 3.0.0 beta release, a lot of rules have also been [turned on in the default recommended config](https://github.com/ember-template-lint/ember-template-lint/pull/1643). This version will also [promote the octane config](https://github.com/ember-template-lint/ember-template-lint/pull/1639) into the default recommended config.
 
