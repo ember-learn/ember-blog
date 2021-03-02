@@ -2,7 +2,7 @@
 
 ## Ember Times review template
 
-- [ ] Author's name at top and bottom
+- [ ] Add your name to top and bottom
 - [ ] Put emoji in writeup title
 - [ ] Link to external article/repo/etc in paragraph/body text, not just the header title (link in header title is optional now)
 - [ ] Add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account
