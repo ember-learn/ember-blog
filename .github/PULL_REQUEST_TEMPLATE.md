@@ -1,5 +1,13 @@
 <!--- Make sure to add a descriptive title in the field above! E.g. "Fixes the header title color on the homepage"  -->
 
+## Ember Times review template
+
+- [ ] Author's name at top and bottom
+- [ ] Put emoji in writeup title
+- [ ] Link to external article/repo/etc in paragraph/body text, not just the header title (link in header title is optional now)
+- [ ] Add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account
+- [ ] Check that all links work
+
 ## What it does
 <!--- Tell us what this fix does in a few sentences. E.g. "This updates the header title's font color to Ember Orange." -->
 
