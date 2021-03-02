@@ -4,6 +4,7 @@
 
 - [ ] Add your name to top and bottom
 - [ ] Put emoji in writeup title
+- [ ] Add a short blurb (could be the title) to the beginning
 - [ ] Link to external article/repo/etc in paragraph/body text, not just the writeup title (link in writeup title is optional now)
 - [ ] Add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account
 - [ ] Check that all links work
