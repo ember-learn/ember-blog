@@ -1,7 +1,6 @@
 import EmpressApplicationRoute from 'empress-blog/routes/application';
 import { inject as service } from '@ember/service';
 
-
 export default class ApplicationRoute extends EmpressApplicationRoute {
   @service metrics;
   @service router;

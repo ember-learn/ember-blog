@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = function(environment) {
+module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'ember-blog',
     environment,
@@ -14,8 +14,8 @@ module.exports = function(environment) {
       },
       EXTEND_PROTOTYPES: {
         // Prevent Ember Data from overriding Date.parse.
-        Date: false
-      }
+        Date: false,
+      },
     },
 
     APP: {
@@ -27,8 +27,8 @@ module.exports = function(environment) {
       title: 'Ember.js Blog',
       description: 'Official Blog for the Ember.js Open Source Project',
       paginate: true,
-      logo: "/images/logos/e-icon.png",
-      twitter: "emberjs",
+      logo: '/images/logos/e-icon.png',
+      twitter: 'emberjs',
     },
 
     metricsAdapters: [
@@ -37,8 +37,8 @@ module.exports = function(environment) {
         environments: ['production'],
         config: {
           id: 'UA-27675533-1',
-          require: ['linkid']
-        }
+          require: ['linkid'],
+        },
       },
     ],
   };
