@@ -21,8 +21,7 @@
     "lint:js:fix": "eslint . --fix",
     "lint:md": "markdownlint {content,post-templates}/**/*.md",
     "start": "ember serve",
-    "test": "npm-run-all lint test:*",
-    "test:ember": "ember test"
+    "test": "ember test"
   },
   "devDependencies": {
     "@ember/optional-features": "^2.0.0",
