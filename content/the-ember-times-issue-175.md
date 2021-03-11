@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 175
 authors:
+  - isaac-lee
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-12T00:00:00.000Z
 tags:
@@ -10,6 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
+`ember-responsive-image` v2 released 🖼️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -36,14 +38,23 @@ tags:
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [`ember-responsive-image` v2 released 🖼️](https://twitter.com/simonihmig/status/1369316435621724163)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[ember-responsive-image](https://github.com/kaliber5/ember-responsive-image) is an addon created by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig). At build time, the addon uses [sharp](https://github.com/lovell/sharp) to generate resized images that are optimized for web.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Simon [announced the v2 release](https://twitter.com/simonihmig/status/1369316435621724163), which provides the following features:
+
+- `<ResponsiveImage>` rewritten as a Glimmer component
+- Next-gen image formats WebP and AVIF
+- Fixed and responsive layouts
+- Lazy loading + LQIP (Low Quality Image Placeholders)
+- FastBoot and Embroider support
+
+To learn more how `ember-responsive-image` can help you optimize loading images, we encourage you to check out the following links:
+
+- [README: Basic Usage](https://github.com/kaliber5/ember-responsive-image#basic-usage)
+- [Maximally Optimizing Image Loading for the Web in 2021](https://www.industrialempathy.com/posts/image-optimizations/)
+- [Implementation in `ember-website` repo](https://github.com/ember-learn/ember-website/pull/769)
 
 ---
 
@@ -128,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Isaac Lee, the crowd and the Learning Team
