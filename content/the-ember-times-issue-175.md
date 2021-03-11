@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 175
 authors:
   - isaac-lee
+  - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-12T00:00:00.000Z
 tags:
@@ -12,6 +13,8 @@ tags:
 👋 Emberistas! 🐹
 
 `ember-responsive-image` v2 released 🖼️,
+Use Mirage JS to test non-trivial user flows ⬆️,
+...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -58,14 +61,11 @@ To learn more how `ember-responsive-image` can help you optimize loading images,
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Blog post: How Qonto used Mirage JS for complex user flow testing ⬆️](https://medium.com/qonto-way/how-to-handle-uploading-and-parsing-files-in-your-frontend-app-tests-19bee8e7a61f)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Sabin Hertanu (@herzzanu)](https://github.com/herzzanu) details a **testing challenge** he ran into at [Qonto](https://qonto.com/en) in the article [How to handle uploading and parsing files in your frontend app tests](https://medium.com/qonto-way/how-to-handle-uploading-and-parsing-files-in-your-frontend-app-tests-19bee8e7a61f). In Qonto's Ember app, users can upload a file to their servers for creating transfers in bulk. The server reads, parses, and processes the data before sending a list of transfers in response. Mocking the endpoints to accurately match this full process would take a lot of time and code, in addition to being challenging to maintain and scale.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Mirage JS](https://miragejs.com/) is a library for mocking API endpoints as [route handlers](https://miragejs.com/docs/main-concepts/route-handlers/) to test JavaScript apps, without having to rely on any backend services. Sabin discusses how Qonto uses Mirage [Factories](https://miragejs.com/docs/main-concepts/factories/) to test this tricky user flow. Check out the walkthru with test code samples in the [blog post](https://medium.com/qonto-way/how-to-handle-uploading-and-parsing-files-in-your-frontend-app-tests-19bee8e7a61f) to learn about how Qonto mocked the API to make sure it matches what they would expect from the real API in production. Effective testing can pay dividends in improving the developer experience and maintaining the quality of the user experience!
 
 ---
 
@@ -139,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, the crowd and the Learning Team
+Isaac Lee, Amy Lam, the crowd and the Learning Team
