@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 175
 authors:
   - isaac-lee
   - amy-lam
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-12T00:00:00.000Z
 tags:
@@ -11,7 +12,7 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
+Read the RFC on official TypeScript support on Ember ✅,
 `ember-responsive-image` v2 released 🖼️,
 Use Mirage JS to test non-trivial user flows ⬆️,
 ...
@@ -19,14 +20,18 @@ Use Mirage JS to test non-trivial user flows ⬆️,
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [RFC: Official TypeScript support ✅](https://github.com/emberjs/rfcs/pull/724)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) put up an [RFC for Official TypeScript support](https://github.com/emberjs/rfcs/pull/724) in Ember. The goal of the RFC is to determine if we should support [TypeScript](https://www.typescriptlang.org/) as a first-class citizen in Ember, and if yes, identify any gaps present today.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+> Ember officially supporting TypeScript means: All libraries which are installed as part of the default blueprint must ship accurate and up-to-date type definitions for the current edition. These types will uphold a Semantic Versioning commitment which includes a definition of SemVer for TypeScript types as well as a specification of supported compiler versions and settings, so that TypeScript will receive the same stability commitments as the rest of Ember.
+
+- Any addon that is part of the default blueprint must ship types.
+- The RFC explicitly does not require support for “typed templates”
+- Instead of opting into TypeScript using [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) it should be done by default
+- Define a policy on what constitutes a breaking change for consumers of a library which publishes types, including Ember’s core libraries
+
+Read and comment on the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/724)!
 
 ---
 
@@ -139,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Amy Lam, the crowd and the Learning Team
+Isaac Lee, Amy Lam, Chris Ng, the crowd and the Learning Team
