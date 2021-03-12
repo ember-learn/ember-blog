@@ -22,7 +22,7 @@ Use Mirage JS to test non-trivial user flows ⬆️,
 
 ## [RFC: Official TypeScript support ✅](https://github.com/emberjs/rfcs/pull/724)
 
-[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) put up an [RFC for Official TypeScript support](https://github.com/emberjs/rfcs/pull/724) in Ember. The goal of the RFC is to determine if we should support TypeScript](https://www.typescriptlang.org/) as a first-class citizen in Ember, and if yes, identify any gaps present today.
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) put up an [RFC for Official TypeScript support](https://github.com/emberjs/rfcs/pull/724) in Ember. The goal of the RFC is to determine if we should support [TypeScript](https://www.typescriptlang.org/) as a first-class citizen in Ember, and if yes, identify any gaps present today.
 
 > Ember officially supporting TypeScript means: All libraries which are installed as part of the default blueprint must ship accurate and up-to-date type definitions for the current edition. These types will uphold a Semantic Versioning commitment which includes a definition of SemVer for TypeScript types as well as a specification of supported compiler versions and settings, so that TypeScript will receive the same stability commitments as the rest of Ember.
 
