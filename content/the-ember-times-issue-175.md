@@ -42,8 +42,8 @@ P.S. Please spread the word about the survey, ask your friends and coworkers to 
 
 * Any addon that is part of the default blueprint must ship types
 * Define a policy on what constitutes a breaking change for consumers of a library which publishes types, including Ember’s core libraries
-* New Ember apps and addons should support TypeScript by default, though the details of what tha means (for example how it will use [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) or not) will be resolved in future RFCs
-* The RFC explicitly does not require support for “typed templates” (though the community is working on this and think it’s key to the long-term TypeScript story)
+* New Ember apps and addons should support TypeScript by default, though the details of what that means (for example how it will use [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) or not) will be resolved in future RFCs
+* The RFC explicitly does not require support for “typed templates” (though the community is working on this and thinks it’s key to the long-term TypeScript story)
 
 Read and comment on the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/724)!
 
