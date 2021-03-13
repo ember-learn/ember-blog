@@ -13,6 +13,8 @@ tags:
 ---
 
 👋 Emberistas! 🐹
+
+Ember Community Survey 2021 📆,
 Read the RFC on official TypeScript support on Ember ✅,
 Ember Conf Contributors Workshop 🐹,
 `ember-responsive-image` v2 released 🖼️,
@@ -21,6 +23,20 @@ New Podcast Episodes 🎙,
 Ember a Beacon of Productivity Blog Post 📖,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## [Ember Community Survey 2021 📆](https://emberjs.com/ember-community-survey-2021/)
+
+The annual community survey is up - please take the survey **today** and let us know what you think about Ember! 
+* Totally Anonymous: No personal identification is attached to survey responses. Last year, over 1000 participants shared information about themselves, their businesses, and applications.
+* At [EmberConf](https://emberconf.com/), the results to the 2021 survey will be shared with a comparison to the 2020 results. Detailed aggregate and individual responses will also be made public.
+
+<p><a class="es-button" href="https://emberjs.com/ember-community-survey-2021/">Take the 2021 Ember Community Survey</a></p>
+
+Questions? Feedback? Please join us in the [#dev-ember-learning](https://discord.com/channels/480462759797063690/480777444203429888) channel on the [Discord community chat](https://discord.gg/emberjs), or email the survey team via [survey@emberjs.com](mailto:survey@emberjs.com).
+
+P.S. Please spread the word about the survey, ask your friends and coworkers to fill it out today!
 
 ---
 
@@ -94,17 +110,6 @@ Also, the Whiskey, Web and Whatnot podcast has released a [cool new episode](htt
 [Marco Otte-Witte (@marcoow)](https://github.com/marcoow) has written an excellent new [blog post](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/) for the Simplabs blog about why Ember is still a beacon of productivty in a sea of complexity, even after 10 years.
 
 Marco covers how Ember's approach can avoid accidental complexity and all the other things that makes it such a great tool. Even if you know and love Ember, it's well worth a read, so please check out the post if you get a chance.
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
