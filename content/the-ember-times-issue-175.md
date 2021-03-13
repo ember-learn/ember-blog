@@ -13,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember Community Survey 2021, RFC: Official TypeScript support, EmberConf Contributors Workshop, Ember - a Beacon of Productivity, `ember-responsive-image` v2 released, use Mirage JS to test complex user flows, and new podcast episodes!
+Ember Community Survey 2021, official TypeScript support RFC, EmberConf Contributors Workshop, Ember - a beacon of productivity, `ember-responsive-image` v2 released, Mirage JS for complex testing, and new podcast episodes!
 
 ---
 
@@ -59,7 +59,7 @@ You can register for the workshop [here](https://tilde.wufoo.com/forms/emberconf
 
 ---
 
-## [Ember a Beacon of Productivity Blog Post 📖](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/)
+## [Ember - a beacon of productivity 📖](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/)
 
 [Marco Otte-Witte (@marcoow)](https://github.com/marcoow) has written an excellent new [blog post](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/) for the Simplabs blog about why Ember is still a beacon of productivty in a sea of complexity, even after 10 years.
 
@@ -100,7 +100,7 @@ To learn more how `ember-responsive-image` can help you optimize loading images,
 There are fresh episodes of the new Ember-related podcasts available now! 🔥🔥🔥
 
 <!-- alex ignore tang -->
-The [Ember Report](https://twitter.com/EmberReport) has published a [great episode](https://twitter.com/EmberReport/status/1369010817518166020) that features [David Tang (@skaterdav85)](https://github.com/skaterdav85) who shares all about how he came to write his Ember Data books, Ember Data in the Wild and the more recently published [Pro Ember Data](https://www.apress.com/us/book/9781484265604). They cover a ton of good subjects, such as how David got into teaching web development and also dig into a variety of Ember Data subjects, so check out the podcast when you can!
+The [Ember Report](https://twitter.com/EmberReport) has published a [great episode](https://twitter.com/EmberReport/status/1369010817518166020) that features [David Tang (@skaterdav85)](https://github.com/skaterdav85) who shares all about how he came to write his Ember Data books, "Ember Data in the Wild" and the more recently published [Pro Ember Data](https://www.apress.com/us/book/9781484265604). They cover a ton of good subjects, such as how David got into teaching web development and also dig into a variety of Ember Data subjects, so check out the podcast when you can!
 
 <!-- alex ignore of-course -->
 Also, the Whiskey, Web and Whatnot podcast has released a [cool new episode](https://twitter.com/shipshapecode/status/1369961936096538625) that features [Chris Garrett (@pzuraq)](https://github.com/pzuraq). They talk about whiskey, of course, but also cover some of the new exciting new things that Chris has been working on for Glimmer and Ember - strict mode and template imports amongst other things. Great stuff!
