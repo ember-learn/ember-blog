@@ -86,17 +86,6 @@ tags:
 
 ---
 
-## [Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [7. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
