@@ -13,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember Community Survey 2021, RFC: Official TypeScript support, EmberConf Contributors Workshop, `ember-responsive-image` v2 released, use Mirage JS to test complex user flows, new podcast episodes, and Ember - a Beacon of Productivity blog.
+Ember Community Survey 2021, RFC: Official TypeScript support, EmberConf Contributors Workshop, Ember - a Beacon of Productivity, `ember-responsive-image` v2 released, use Mirage JS to test complex user flows, and new podcast episodes!
 
 ---
 
@@ -59,6 +59,14 @@ You can register for the workshop [here](https://tilde.wufoo.com/forms/emberconf
 
 ---
 
+## [Ember a Beacon of Productivity Blog Post 📖](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/)
+
+[Marco Otte-Witte (@marcoow)](https://github.com/marcoow) has written an excellent new [blog post](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/) for the Simplabs blog about why Ember is still a beacon of productivty in a sea of complexity, even after 10 years.
+
+Marco covers how Ember's approach can avoid accidental complexity and all the other things that makes it such a great tool. Even if you know and love Ember, it's well worth a read, so please check out the post if you get a chance.
+
+---
+
 ## [`ember-responsive-image` v2 released 🖼️](https://twitter.com/simonihmig/status/1369316435621724163)
 
 [ember-responsive-image](https://github.com/kaliber5/ember-responsive-image) is an addon created by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig). At build time, the addon uses [sharp](https://github.com/lovell/sharp) to generate resized images that are optimized for web.
@@ -96,14 +104,6 @@ The [Ember Report](https://twitter.com/EmberReport) has published a [great episo
 
 <!-- alex ignore of-course -->
 Also, the Whiskey, Web and Whatnot podcast has released a [cool new episode](https://twitter.com/shipshapecode/status/1369961936096538625) that features [Chris Garrett (@pzuraq)](https://github.com/pzuraq). They talk about whiskey, of course, but also cover some of the new exciting new things that Chris has been working on for Glimmer and Ember - strict mode and template imports amongst other things. Great stuff!
-
----
-
-## [Ember a Beacon of Productivity Blog Post 📖](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/)
-
-[Marco Otte-Witte (@marcoow)](https://github.com/marcoow) has written an excellent new [blog post](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/) for the Simplabs blog about why Ember is still a beacon of productivty in a sea of complexity, even after 10 years.
-
-Marco covers how Ember's approach can avoid accidental complexity and all the other things that makes it such a great tool. Even if you know and love Ember, it's well worth a read, so please check out the post if you get a chance.
 
 ---
 
