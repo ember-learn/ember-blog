@@ -4,6 +4,7 @@ authors:
   - isaac-lee
   - amy-lam
   - chris-ng
+  - jared-galanis
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-12T00:00:00.000Z
 tags:
@@ -13,8 +14,11 @@ tags:
 
 👋 Emberistas! 🐹
 Read the RFC on official TypeScript support on Ember ✅,
+Ember Conf Contributors Workshop 🐹,
 `ember-responsive-image` v2 released 🖼️,
 Use Mirage JS to test non-trivial user flows ⬆️,
+New Podcast Episodes 🎙,
+Ember a Beacon of Productivity Blog Post 📖,
 ...
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -35,14 +39,13 @@ Read and comment on the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/724
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Ember Conf Contributors Workshop 🐹](https://emberconf.com/schedule/pre-conf_contributors-workshop)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We're certainly all excited about the upcoming (virtual) Ember Conf 2021, but don't forget that there's a Contributors Workshop too!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The Contributors Workshop, hosted by [Ricardo Mendes (@locks)](https://github.com/locks) and [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety), will bring our community together to share knowledge about how you can make your first contribution to Ember. There's not much more to it, all you need to bring is an eagerness to learn and contribute to the framework we know and love! 💜💛🧡❤️
+
+You can register for the workshop [here](https://tilde.wufoo.com/forms/emberconf-2021-contributors-workshop-registration/).
 
 ---
 
@@ -74,25 +77,21 @@ To learn more how `ember-responsive-image` can help you optimize loading images,
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## New Podcast Episodes 🎙
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There are fresh episodes of the new Ember-related podcasts available now! 🔥🔥🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The [Ember Report](https://twitter.com/EmberReport) has published a [great episode](https://twitter.com/EmberReport/status/1369010817518166020) that features [David Tang (@skaterdav85)](https://github.com/skaterdav85) who shares all about how he came to write his Ember Data books, Ember Data in the Wild and the more recently published [Pro Ember Data](https://www.apress.com/us/book/9781484265604). They cover a ton of good subjects, such as how David got into teaching web development and also dig into a variety of Ember Data subjects, so check out the podcast when you can!
+
+Also, the Whiskey, Web and Whatnot podcast has released a [cool new episode](https://twitter.com/shipshapecode/status/1369961936096538625) that features [Chris Garrett (@pzuraq)](https://github.com/pzuraq). They talk about whiskey, of course, but also cover some of the new exciting new things that Chris has been working on for Glimmer and Ember - strict mode and template imports amongst other things. Great stuff!
 
 ---
 
-## [6. Section title in sentence case 🐹](section-url)
+## [Ember a Beacon of Productivity Blog Post 📖](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Marco Otte-Witte (@marcoow)](https://github.com/marcoow) has written an excellent new [blog post](https://simplabs.com/blog/2021/03/12/Ember.js-in-2021---a-beacon-of-productivity/) for the Simplabs blog about why Ember is still a beacon of productivty in a sea of complexity, even after 10 years.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Marco covers how Ember's approach can avoid accidental complexity and all the other things that makes it such a great tool. Even if you know and love Ember, it's well worth a read, so please check out the post if you get a chance.
 
 ---
 
@@ -144,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Amy Lam, Chris Ng, the crowd and the Learning Team
+Isaac Lee, Amy Lam, Chris Ng, Jared Galanis the crowd and the Learning Team
