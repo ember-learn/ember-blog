@@ -84,6 +84,7 @@ There are fresh episodes of the new Ember-related podcasts available now! ðŸ”¥ðŸ
 <!-- alex ignore tang -->
 The [Ember Report](https://twitter.com/EmberReport) has published a [great episode](https://twitter.com/EmberReport/status/1369010817518166020) that features [David Tang (@skaterdav85)](https://github.com/skaterdav85) who shares all about how he came to write his Ember Data books, Ember Data in the Wild and the more recently published [Pro Ember Data](https://www.apress.com/us/book/9781484265604). They cover a ton of good subjects, such as how David got into teaching web development and also dig into a variety of Ember Data subjects, so check out the podcast when you can!
 
+<!-- alex ignore of-course -->
 Also, the Whiskey, Web and Whatnot podcast has released a [cool new episode](https://twitter.com/shipshapecode/status/1369961936096538625) that features [Chris Garrett (@pzuraq)](https://github.com/pzuraq). They talk about whiskey, of course, but also cover some of the new exciting new things that Chris has been working on for Glimmer and Ember - strict mode and template imports amongst other things. Great stuff!
 
 ---
