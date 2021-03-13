@@ -28,7 +28,8 @@ Ember a Beacon of Productivity Blog Post 📖,
 
 ## [Ember Community Survey 2021 📆](https://emberjs.com/ember-community-survey-2021/)
 
-The annual community survey is up - please take the survey **today** and let us know what you think about Ember! 
+The annual community survey is up - please take the survey **today** and let us know what you think about Ember!
+
 * Totally Anonymous: No personal identification is attached to survey responses. Last year, over 1000 participants shared information about themselves, their businesses, and applications.
 * At [EmberConf](https://emberconf.com/), the results to the 2021 survey will be shared with a comparison to the 2020 results. Detailed aggregate and individual responses will also be made public.
 
@@ -46,10 +47,10 @@ P.S. Please spread the word about the survey, ask your friends and coworkers to 
 
 > Ember officially supporting TypeScript means: All libraries which are installed as part of the default blueprint must ship accurate and up-to-date type definitions for the current edition. These types will uphold a Semantic Versioning commitment which includes a definition of SemVer for TypeScript types as well as a specification of supported compiler versions and settings, so that TypeScript will receive the same stability commitments as the rest of Ember.
 
-- Any addon that is part of the default blueprint must ship types.
-- The RFC explicitly does not require support for “typed templates”
-- Instead of opting into TypeScript using [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) it should be done by default
-- Define a policy on what constitutes a breaking change for consumers of a library which publishes types, including Ember’s core libraries
+* Any addon that is part of the default blueprint must ship types.
+* The RFC explicitly does not require support for “typed templates”
+* Instead of opting into TypeScript using [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) it should be done by default
+* Define a policy on what constitutes a breaking change for consumers of a library which publishes types, including Ember’s core libraries
 
 Read and comment on the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/724)!
 
@@ -71,17 +72,17 @@ You can register for the workshop [here](https://tilde.wufoo.com/forms/emberconf
 
 Simon [announced the v2 release](https://twitter.com/simonihmig/status/1369316435621724163), which provides the following features:
 
-- `<ResponsiveImage>` rewritten as a Glimmer component
-- Next-gen image formats WebP and AVIF
-- Fixed and responsive layouts
-- Lazy loading + LQIP (Low Quality Image Placeholders)
-- FastBoot and Embroider support
+* `<ResponsiveImage>` rewritten as a Glimmer component
+* Next-gen image formats WebP and AVIF
+* Fixed and responsive layouts
+* Lazy loading + LQIP (Low Quality Image Placeholders)
+* FastBoot and Embroider support
 
 To learn more how `ember-responsive-image` can help you optimize loading images, we encourage you to check out the following links:
 
-- [README: Basic Usage](https://github.com/kaliber5/ember-responsive-image#basic-usage)
-- [Maximally Optimizing Image Loading for the Web in 2021](https://www.industrialempathy.com/posts/image-optimizations/)
-- [Implementation in `ember-website` repo](https://github.com/ember-learn/ember-website/pull/769)
+* [README: Basic Usage](https://github.com/kaliber5/ember-responsive-image#basic-usage)
+* [Maximally Optimizing Image Loading for the Web in 2021](https://www.industrialempathy.com/posts/image-optimizations/)
+* [Implementation in `ember-website` repo](https://github.com/ember-learn/ember-website/pull/769)
 
 ---
 
