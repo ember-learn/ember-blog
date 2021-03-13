@@ -40,10 +40,10 @@ P.S. Please spread the word about the survey, ask your friends and coworkers to 
 
 > Ember officially supporting TypeScript means: All libraries which are installed as part of the default blueprint must ship accurate and up-to-date type definitions for the current edition. These types will uphold a Semantic Versioning commitment which includes a definition of SemVer for TypeScript types as well as a specification of supported compiler versions and settings, so that TypeScript will receive the same stability commitments as the rest of Ember.
 
-* Any addon that is part of the default blueprint must ship types.
-* The RFC explicitly does not require support for “typed templates”
-* Instead of opting into TypeScript using [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) it should be done by default
+* Any addon that is part of the default blueprint must ship types
 * Define a policy on what constitutes a breaking change for consumers of a library which publishes types, including Ember’s core libraries
+* New Ember apps and addons should support TypeScript by default, though the details of what tha means (for example how it will use [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) or not) will be resolved in future RFCs
+* The RFC explicitly does not require support for “typed templates” (though the community is working on this and think it’s key to the long-term TypeScript story)
 
 Read and comment on the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/724)!
 
