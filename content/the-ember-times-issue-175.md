@@ -13,13 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember Community Survey 2021 📆,
-Read the RFC on official TypeScript support on Ember ✅,
-Ember Conf Contributors Workshop 🐹,
-`ember-responsive-image` v2 released 🖼️,
-Use Mirage JS to test non-trivial user flows ⬆️,
-New Podcast Episodes 🎙,
-and Ember a Beacon of Productivity Blog Post 📖.
+Ember Community Survey 2021, RFC: Official TypeScript support, EmberConf Contributors Workshop, `ember-responsive-image` v2 released, use Mirage JS to test complex user flows, new podcast episodes, and Ember - a Beacon of Productivity blog.
 
 ---
 
@@ -30,7 +24,9 @@ The annual community survey is up - please take the survey **today** and let us 
 * Totally Anonymous: No personal identification is attached to survey responses. Last year, over 1000 participants shared information about themselves, their businesses, and applications.
 * At [EmberConf](https://emberconf.com/), the results to the 2021 survey will be shared with a comparison to the 2020 results. Detailed aggregate and individual responses will also be made public.
 
-<p><a class="es-button" href="https://emberjs.com/ember-community-survey-2021/">Take the 2021 Ember Community Survey</a></p>
+<center>
+<a class="es-button centered" href="https://emberjs.com/ember-community-survey-2021/">Take the 2021 Ember Community Survey</a>
+</center>
 
 Questions? Feedback? Please join us in the [#dev-ember-learning](https://discord.com/channels/480462759797063690/480777444203429888) channel on the [Discord community chat](https://discord.gg/emberjs), or email the survey team via [survey@emberjs.com](mailto:survey@emberjs.com).
 
@@ -53,9 +49,9 @@ Read and comment on the [RFC on GitHub](https://github.com/emberjs/rfcs/pull/724
 
 ---
 
-## [Ember Conf Contributors Workshop 🐹](https://emberconf.com/schedule/pre-conf_contributors-workshop)
+## [EmberConf Contributors Workshop 🐹](https://emberconf.com/schedule/pre-conf_contributors-workshop)
 
-We're certainly all excited about the upcoming (virtual) Ember Conf 2021, but don't forget that there's a Contributors Workshop too!
+We're certainly all excited about the upcoming (virtual) EmberConf 2021, but don't forget that there's a Contributors Workshop too!
 
 The Contributors Workshop, hosted by [Ricardo Mendes (@locks)](https://github.com/locks) and [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety), will bring our community together to share knowledge about how you can make your first contribution to Ember. There's not much more to it, all you need to bring is an eagerness to learn and contribute to the framework we know and love! 💜💛🧡❤️
 
@@ -137,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Isaac Lee, Amy Lam, Chris Ng, Jared Galanis the crowd and the Learning Team
+Isaac Lee, Amy Lam, Chris Ng, Jared Galanis, and the Learning Team
