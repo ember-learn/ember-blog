@@ -1,6 +1,7 @@
 <!--- Make sure to add a descriptive title in the field above! E.g. "Fixes the header title color on the homepage"  -->
 
 ## Ember Times review template
+<!--- Feel free to delete this section if not an Ember Times PR! -->
 
 - [ ] Add your name to top and bottom
 - [ ] Put emoji in writeup title
