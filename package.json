@@ -55,7 +55,7 @@
     "ember-source": "~3.25.1",
     "ember-template-lint": "^2.18.1",
     "empress-blog": "^3.0.2",
-    "empress-blog-ember-template": "^1.1.1",
+    "empress-blog-ember-template": "^1.1.2",
     "eslint": "^7.20.0",
     "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-ember": "^10.2.0",
