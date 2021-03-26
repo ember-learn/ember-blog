@@ -13,11 +13,10 @@ tags:
 
 👋 Emberistas! 🐹
 
-Listen, relax and get into the EmberConf vibe with Leah and Kenneth 📻,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 EmberConf is this Monday 🎉
+Listen, relax and get into the EmberConf vibe with Leah and Kenneth 📻,
 Meet Glint, a typed-template solution for Ember ✨,
-
 
 ---
 
@@ -43,6 +42,8 @@ In the latest [Ember Report](https://twitter.com/EmberReport) [podcast](https://
 This podcast gives a nice insight into the mind of a great conference organiser. There are also tips and pointers for people looking to organise conferences or meet-ups remotely and in real life.
 
 In addition to how to organise a conference, Leah tells us about her favourite talks and the cool things that will happen at EmberConf 2021, such as workshops and the [kids track](https://emberconf.com/kids).
+
+Be sure to check out the podcast episode, [Leah Silber on EmberConf 2021](https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021)!
 
 ---
 
