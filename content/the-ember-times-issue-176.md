@@ -42,7 +42,7 @@ In the latest [Ember Report](https://twitter.com/EmberReport) [podcast](https://
 
 This podcast gives a nice insight into the mind of a great conference organiser. There are also tips and pointers for people looking to organise conferences or meet-ups remotely and in real life.
 
-Besides information on how to organise a conference Leah also tells us about her favourite talks and the cool things that will happen this EmberConf including workshops and the [kids track](https://emberconf.com/kids).
+In addition to how to organise a conference, Leah tells us about her favourite talks and the cool things that will happen at EmberConf 2021, such as workshops and the [kids track](https://emberconf.com/kids).
 
 ---
 
