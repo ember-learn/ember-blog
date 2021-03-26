@@ -2,27 +2,32 @@
 title: The Ember Times - Issue No. 176
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - amy-lam
 date: 2021-03-26T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+EmberConf is this Monday 🎉
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [EmberConf is this Monday 🎉](https://emberconf.com/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+EmberConf is **the best place** to meet the folks behind the magic, and Virtual EmberConf 2021 is this upcoming Monday and Tuesday! 🙌 [EmberConf](https://emberconf.com/) is two days of Ember talks, sessions and fun -- streaming live virtually everywhere.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Hop onto the [Ember Discord](https://discord.gg/emberjs) to start chatting with your Ember friends in the [#emberconf](https://discord.com/channels/480462759797063690/480502413917421570) channel. Starting this Monday, most EmberConf chatter will take place in [#ec-hallway](https://discord.com/channels/480462759797063690/824756378814906435) and the dedicated-per-session channels under the "Virtual EmberConf" category.
+
+Here at the Ember Times, we are super excited about the conference [lineup](https://emberconf.com/schedule/). Monday is an optional day of workshops and BonusConf streams, from "Debugging Your Brain" to "Introducing Template Imports". Tuesday's main event will be a full day of keynotes and technical sessions, including "Ending the Plague of Memory Leaks", "Fast-Track Ember with Fastboot + Embroider", "Typed Ember `extends` Confidence", and more. P.S. It's still possible to attend last minute!
+
+* Tickets are $99. If you are unemployed, laid off, or a student, tickets are only $5. Tell a friend!
+* Monday's will include two AMA's and you can submit your questions [here](https://tilde.wufoo.com/forms/emberconf-2021-ama-questions/).
+    * AMA with [Robert Jackson (@rwjblue)](https://github.com/rwjblue), hosted by [Melanie Sumner (@MelSumner)](https://github.com/melsumner)
+    * AMA with [Yehuda Katz (@wycats)](https://github.com/wycats), hosted by [Julia Donaldson (@donaldsonjulia)](https://github.com/donaldsonjulia)
 
 ---
 
@@ -136,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
