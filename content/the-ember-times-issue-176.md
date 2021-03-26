@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 176
 authors:
   - amy-lam
   - isaac-lee
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-26T00:00:00.000Z
 tags:
@@ -15,7 +16,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 EmberConf is this Monday 🎉
 Meet Glint, a typed-template solution for Ember ✨,
-
+Release of ember-electron v3 ⚛️,
 
 ---
 
@@ -70,15 +71,16 @@ Please thank the Typed Ember team, which consists of [Dan Freeman (@dfreeman)](h
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [Release of ember-electron v3 ⚛️](https://twitter.com/bendemboski/status/1370905222336286721)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ember Electron V3](https://github.com/adopted-ember-addons/ember-electron/releases/tag/v3.0.0) was released by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) adding some key improvements over v2 including:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* latest Electron tooling
+* faster build pipeline
+* much improved developer ergonomics
+* restored support for Ember Inspector (and other extensions)
+
+Get started today with the [official Ember Electron docs](https://ember-electron.js.org/) and read more about the release on [GitHub](https://github.com/adopted-ember-addons/ember-electron/releases/tag/v3.0.0)!
 
 ---
 
@@ -144,4 +146,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Chris Ng, the crowd and the Learning Team
