@@ -1,8 +1,9 @@
 ---
 title: The Ember Times - Issue No. 176
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - amy-lam
+  - isaac-lee
+  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-26T00:00:00.000Z
 tags:
   - newsletter
@@ -13,6 +14,8 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 EmberConf is this Monday 🎉
+Meet Glint, a typed-template solution for Ember ✨,
+
 
 ---
 
@@ -43,15 +46,15 @@ Here at the Ember Times, we are super excited about the conference [lineup](http
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Introducing: Glint, a typed-template solution for GlimmerX and Ember ✨](https://www.salsify.com/blog/engineering/introducing-glint-a-typed-template-solution-for-glimmerx-and-ember)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+An [exciting news from the Typed Ember team](https://twitter.com/__dfreeman/status/1374765841158434816): You can use [Glint](https://github.com/typed-ember/glint) to **type check Ember and Glimmer templates**. "Similar to Vetur for Vue projects, Glint consists of a CLI (command-line interface) and a language server to provide feedback and enforce correctness both locally during editing and project-wide in CI (continuous integration)."
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<img alt="" role="presentation" src="/images/blog/2020-03-26/glint-featured.png" />
+
+To learn more why Glint was born and what you can do with Glint, we encourage you to have a look at the blog post, [Introducing: Glint, a typed-template solution for GlimmerX and Ember](https://www.salsify.com/blog/engineering/introducing-glint-a-typed-template-solution-for-glimmerx-and-ember). The blog post provides amazing screenshots and GIFs to demonstrate Glint in action.
+
+Please thank the Typed Ember team, which consists of [Dan Freeman (@dfreeman)](https://github.com/dfreeman), [James Davis (@jamescdavis)](https://github.com/jamescdavis), and [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), by trying out Glint today!
 
 ---
 
@@ -141,4 +144,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Isaac Lee, the crowd and the Learning Team
