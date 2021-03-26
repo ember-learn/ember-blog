@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 176
 authors:
+  - anne-greeth-van-herwijnen
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-03-26T00:00:00.000Z
 tags:
@@ -10,6 +11,7 @@ tags:
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
+Listen, relax and get into the EmberConf vibe with Leah and Kenneth 📻, 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -26,15 +28,13 @@ tags:
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [The ins and outs of organising EmberConf  📻](https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021)
+ 
+In the latest [Ember Report](https://twitter.com/EmberReport) [podcast]((https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021)) [Leah Silber (@wifelette)](https://twitter.com/wifelette) talks about organising EmberConf remote, the history of EmberConf and the topics like [**inclusion**](https://emberconf.com/about/inclusiveness-at-emberconf) that are so crucial to the EmberConf vibe. 
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+This podcast gives a nice insight in the mind of a great conference organiser with some tips and pointers for others looking to organise conferences or meet-ups remote and in real live. 
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Besides information on how to organise a conference Leah also tells us about her favourite talks and the cool things that will happen this EmberConf including workshops and the [kids track](https://emberconf.com/kids).
 
 ---
 
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
