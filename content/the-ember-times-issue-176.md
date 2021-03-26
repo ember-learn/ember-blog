@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 176
 authors:
   - amy-lam
+  - anne-greeth-van-herwijnen
   - isaac-lee
   - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
@@ -15,6 +16,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 EmberConf is this Monday 🎉
+Listen, relax and get into the EmberConf vibe with Leah and Kenneth 📻,
 Meet Glint, a typed-template solution for Ember ✨,
 Release of ember-electron v3 ⚛️,
 
@@ -35,15 +37,15 @@ Here at the Ember Times, we are super excited about the conference [lineup](http
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [The ins and outs of organising EmberConf 📻](https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In the latest [Ember Report](https://twitter.com/EmberReport) [podcast](https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021), [Leah Silber (@wifelette)](https://twitter.com/wifelette) talks about organising a remote EmberConf, the history of EmberConf, and additional topics like [inclusiveness](https://emberconf.com/about/inclusiveness-at-emberconf) that are so crucial to the EmberConf vibe.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+This podcast gives a nice insight into the mind of a great conference organiser. There are also tips and pointers for people looking to organise conferences or meet-ups remotely and in real life.
+
+In addition to how to organise a conference, Leah tells us about her favourite talks and the cool things that will happen at EmberConf 2021, such as workshops and the [kids track](https://emberconf.com/kids).
+
+Be sure to check out the podcast episode, [Leah Silber on EmberConf 2021](https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021)!
 
 ---
 
@@ -146,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Amy Lam, Anne-Greeth van Herwijnen, Isaac Lee, Chris Ng, the crowd and the Learning Team
