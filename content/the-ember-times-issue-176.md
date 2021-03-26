@@ -40,7 +40,7 @@ Here at the Ember Times, we are super excited about the conference [lineup](http
 
 In the latest [Ember Report](https://twitter.com/EmberReport) [podcast](https://audio.ember.report/1680877/8115211-003-leah-silber-on-emberconf-2021), [Leah Silber (@wifelette)](https://twitter.com/wifelette) talks about organising a remote EmberConf, the history of EmberConf, and additional topics like [inclusiveness](https://emberconf.com/about/inclusiveness-at-emberconf) that are so crucial to the EmberConf vibe.
 
-This podcast gives a nice insight in the mind of a great conference organiser with some tips and pointers for others looking to organise conferences or meet-ups remote and in real live.
+This podcast gives a nice insight into the mind of a great conference organiser. There are also tips and pointers for people looking to organise conferences or meet-ups remotely and in real life.
 
 Besides information on how to organise a conference Leah also tells us about her favourite talks and the cool things that will happen this EmberConf including workshops and the [kids track](https://emberconf.com/kids).
 
