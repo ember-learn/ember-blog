@@ -95,4 +95,4 @@ Thank you for contributing to Ember Times!
 
 ## DecEmber
 
-In December 2019 we are organising a blog series featuring an interesting addon each day. If you want to contribute, please claim one of the `December` issues in the [`ember-learn/ember-blog` repository](https://github.com/ember-learn/ember-blog/issues?q=is%3Aissue+is%3Aopen+december) and review [our December Contribution Guide to get started!](https://github.com/ember-learn/ember-blog/blob/master/post-templates/december-2019-template.md)
+In December 2019 we are organising a blog series featuring an interesting addon each day. If you want to contribute, please claim one of the `December` issues in the [`ember-learn/ember-blog` repository](https://github.com/ember-learn/ember-blog/issues?q=is%3Aissue+is%3Aopen+december) and review [our December Contribution Guide to get started!](https://github.com/ember-learn/ember-blog/blob/main/post-templates/december-2019-template.md)

@@ -27,7 +27,7 @@ and last, but not least, EmberJS with REST API 💪!
 
 ---
 
-## [Hacktoberfest + The Ember Times ✍️](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md#writing-for-the-ember-times)
+## [Hacktoberfest + The Ember Times ✍️](https://github.com/ember-learn/ember-blog/blob/main/CONTRIBUTING.md#writing-for-the-ember-times)
 
 <!--alex ignore host-hostess-->
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is a celebration of open source open to everyone in the global GitHub community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. All backgrounds and skill levels are encouraged to complete the challenge!
