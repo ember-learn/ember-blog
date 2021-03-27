@@ -59,18 +59,6 @@ Please thank the Typed Ember team, which consists of [Dan Freeman (@dfreeman)](h
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [Release of ember-electron v3 ⚛️](https://twitter.com/bendemboski/status/1370905222336286721)
 
 [Ember Electron V3](https://github.com/adopted-ember-addons/ember-electron/releases/tag/v3.0.0) was released by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) adding some key improvements over v2 including:
@@ -81,42 +69,6 @@ Please thank the Typed Ember team, which consists of [Dan Freeman (@dfreeman)](h
 * restored support for Ember Inspector (and other extensions)
 
 Get started today with the [official Ember Electron docs](https://ember-electron.js.org/) and read more about the release on [GitHub](https://github.com/adopted-ember-addons/ember-electron/releases/tag/v3.0.0)!
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
