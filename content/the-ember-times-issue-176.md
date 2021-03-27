@@ -13,10 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf is this Monday 🎉
-Listen, relax and get into the EmberConf vibe with Leah and Kenneth 📻,
-Meet Glint, a typed-template solution for Ember ✨,
-Release of ember-electron v3 ⚛️,
+EmberConf is this Monday, get into the EmberConf vibe with Leah and Kenneth, meet Glint, a typed-template solution for Ember, and the release of ember-electron v3!
 
 ---
 
