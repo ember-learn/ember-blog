@@ -49,7 +49,7 @@ Be sure to check out the podcast episode, [Leah Silber on EmberConf 2021](https:
 
 ## [Introducing: Glint, a typed-template solution for GlimmerX and Ember ✨](https://www.salsify.com/blog/engineering/introducing-glint-a-typed-template-solution-for-glimmerx-and-ember)
 
-An [exciting news from the Typed Ember team](https://twitter.com/__dfreeman/status/1374765841158434816): You can use [Glint](https://github.com/typed-ember/glint) to **type check Ember and Glimmer templates**. "Similar to Vetur for Vue projects, Glint consists of a CLI (command-line interface) and a language server to provide feedback and enforce correctness both locally during editing and project-wide in CI (continuous integration)."
+Some [exciting news from the Typed Ember team](https://twitter.com/__dfreeman/status/1374765841158434816): You can use [Glint](https://github.com/typed-ember/glint) to **type check Ember and Glimmer templates**. "Similar to Vetur for Vue projects, Glint consists of a CLI (command-line interface) and a language server to provide feedback and enforce correctness both locally during editing and project-wide in CI (continuous integration)."
 
 <img alt="" role="presentation" src="/images/blog/2020-03-26/glint-featured.png" />
 
