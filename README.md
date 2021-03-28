@@ -23,11 +23,11 @@ The best way to get started is to find issue labeled "good first issue" or "help
 Like most open source projects, contributors are encouraged to open an issue
 to propose changes and iterate on ideas before investing time in coding.
 Some tips for working with git/GitHub can be found in
-[Making your first pull request](https://github.com/ember-learn/guides-source/blob/master/CONTRIBUTING.md#making-your-first-pull-request) in the Guides respository.
+[Making your first pull request](https://github.com/ember-learn/guides-source/blob/main/CONTRIBUTING.md#making-your-first-pull-request) in the Guides respository.
 
 ### Contributing troubleshooting
 
-We are using [Alex](https://github.com/wooorm/alex) for insensitive language checking and [markdownlint](https://github.com/DavidAnson/markdownlint). If your CI branch build is failing from these linters, please see [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/master/CONTRIBUTING.md) for more info.
+We are using [Alex](https://github.com/wooorm/alex) for insensitive language checking and [markdownlint](https://github.com/DavidAnson/markdownlint). If your CI branch build is failing from these linters, please see [Contributing Guide](https://github.com/ember-learn/ember-blog/blob/main/CONTRIBUTING.md) for more info.
 
 ## Prerequisites
 
