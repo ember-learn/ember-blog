@@ -32,24 +32,23 @@ Ember.js 3.26 is an incremental, backwards compatible release of Ember with bug 
 
 #### Bug Fixes
 
-Ember.js 3.26 introduced 0 bug fixes.
+Ember.js 3.26 introduced 5 bug fixes. Here are a few notable ones:
+
+1. The Ember router and the `router` service have been updated so that an infinite recursion does not occur when the `router` service is injected into `app/router.js`. ([#19405](https://github.com/emberjs/ember.js/pull/19405))
+2. You can pass to an observer a dependent key whose name includes a colon. ([#19343](https://github.com/emberjs/ember.js/issues/19343))
+3. The Glimmer VM has been updated to prevent eagerly consuming arguments during modifier destruction. ([#19469](https://github.com/emberjs/ember.js/pull/19469))
 
 #### Features
 
-Ember.js 3.26 introduced 2 features.
-
-1. Feature description
-2. Feature description
+Ember.js 3.26 introduced 0 features.
 
 #### Deprecations
 
-Ember.js 3.26 introduced 0 deprecations.
+Ember.js 3.26 introduced 11 deprecations.
 
-<!-- Block start: If there were no deprecations, remove this block -->
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-<!-- Block end -->
 
 For more details on changes in Ember.js 3.26, please review the [Ember.js 3.26.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.26.0).
 
