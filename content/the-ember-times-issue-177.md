@@ -57,7 +57,7 @@ There's also plenty of official and unofficial bonus content out there, includin
 
 ## [Achieving A11y Automation Testing 🎥](https://twitter.com/TestJSSummit/status/1369241608944762883)
 
-If you're looking for some content in the wider JavaScript community beyond Ember Conf you can checkout the fantastic talk by [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety) at TestJS Summit covering [a11y automated testing](https://twitter.com/TestJSSummit/status/1369241608944762883)!🔥🔥🔥 
+If you're looking for some content in the wider JavaScript community beyond Ember Conf you can checkout the fantastic talk by [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety) at TestJS Summit covering [a11y automated testing](https://twitter.com/TestJSSummit/status/1369241608944762883)!🔥🔥🔥
 
 The talk covers not only what Ember does for accessibility in testing, but also highlights some approaches and tools you can use for making automation a11y focused in other frameworks.
 
