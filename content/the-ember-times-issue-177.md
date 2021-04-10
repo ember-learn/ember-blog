@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 177
 authors:
+  - jared-galanis
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-04-09T00:00:00.000Z
 tags:
@@ -10,7 +11,7 @@ tags:
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Virtual Ember Meetups 🐹
 
 ---
 
@@ -26,15 +27,15 @@ tags:
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## Virtual Ember Meetups 🐹
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Have you been missing attending your local Ember meetup during the pandemic? Well you're in luck, there are a couple of virtual Ember meetups happening next week that you can attend.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+1) If you've been wanting to learn more about what the Fastboot team is up to, you may want to check out the [online event](https://www.eventbrite.com/e/ember-fastboot-ssr-beyond-tickets-144468965565?aff=ebdssbonlinesearch) occurring on 4/14. There will be some great talks by members of Fastboot team, including appearances by [Dave Laird (@kiwiupover)](https://github.com/kiwiupover), [Suchita Doshi
+ (@suchitadoshi1987)](https://github.com/suchitadoshi1987), [Thomas Wang
+ (@xg-wang)](https://github.com/xg-wang) and [Scott Newcomer (@snewcomer)](https://github.com/snewcomer).
+
+2) Haven't had your fill yet? The next day (4/15) you can come visit with Emberistas and Embereños from Los Angeles, and far and wide, for some more good Fastboot content and discussions on modifiers and components at the [Ember LA Meetup](https://www.meetup.com/Ember-LA/events/277245874)!
 
 ---
 
@@ -136,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jared Galanis the crowd and the Learning Team
