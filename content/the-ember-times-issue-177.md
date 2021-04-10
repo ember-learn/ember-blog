@@ -11,7 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf videos, virtual Ember Meetups, achieving a11y automation testing, and severless functions in Ember and Glimmer.
+EmberConf videos, virtual Ember Meetups, achieving a11y automation testing, and serverless functions in Ember and Glimmer.
 
 ---
 
