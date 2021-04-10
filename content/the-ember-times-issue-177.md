@@ -36,10 +36,11 @@ If you're interested in some great notes about the talks you can find [Alex DiLi
 
 There's also plenty of official and unofficial bonus content out there, including:
 
-- an [unofficial TypeScript AMA](https://www.youtube.com/watch?v=CXv55zFcJdI) with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and  [David Baker (@acorncom)](https://github.com/acorncom); and
-- another [look at Mho](https://twitter.com/courajs/status/1379477838420713474) with [Edward Faulkner (@ef4)](https://github.com/ef4) and [Aaron Sikes (@courajs)](https://github.com/courajs).
+- An [unofficial TypeScript AMA](https://www.youtube.com/watch?v=CXv55zFcJdI) with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and  [David Baker (@acorncom)](https://github.com/acorncom)
+- Another [look at Mho](https://twitter.com/courajs/status/1379477838420713474) with [Edward Faulkner (@ef4)](https://github.com/ef4) and [Aaron Sikes (@courajs)](https://github.com/courajs)
+- Typed Ember extends Confidence blog series, which translates the talk to prose, with some bonus content that couldn't fit in the conference talk! Be sure to check out all three posts by [Krystan HuffMenne](https://github.com/gitKrystan)): [Part 1: What is TypeScript?](https://blog.skylight.io/ts-extends-confidence-1/), [Part 2: Converting Your Ember App to TypeScript](https://blog.skylight.io/ts-extends-confidence-2/), and [Part 3: The Real Benefits of TypeScript](https://blog.skylight.io/ts-extends-confidence-3/)
 
- Don't miss it friends!
+Don't miss it, friends!
 
 ---
 
