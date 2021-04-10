@@ -23,13 +23,13 @@ Heyo! Did you miss out on Virtual Ember Conf 2021? Did you see some talks, but m
 
 If you didn't get a chance to see them you shouldn't miss the two part keynotes [#1](https://www.youtube.com/watch?v=pJPUQQQ9QDg&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=10) and [#2](https://www.youtube.com/watch?v=1Z6cLV2licU&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=11) by none other than our own [Yehuda Katz (@wycats)](https://github.com/wycats) and [Godfrey Chan @chancancode)](https://github.com/chancancode).
 
-Also not to be missed are talks by Chris Garrett (@pzuraq)](https://github.com/pzuraq) on [template imports](https://www.youtube.com/watch?v=oQZJU7WDCZE&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=5), and a stunning [talk on building robust, reliable software](https://www.youtube.com/watch?v=Mt7v-VbFjxk&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=15) by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
+Also not to be missed are talks by [Chris Garrett (@pzuraq)](https://github.com/pzuraq) on [template imports](https://www.youtube.com/watch?v=oQZJU7WDCZE&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=5), and a stunning talk on [building robust and reliable software](https://www.youtube.com/watch?v=Mt7v-VbFjxk&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=15) by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
 
 A beautiful and inspiring 💖 talk about [Learning Ember in 2021](https://www.youtube.com/watch?v=MJ1t1K5r_gQ&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=16) by [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter).
 
 For sure, whatever you do, do not miss the absolutely mind blowing 🤯 closing keynote by [Edward Faulkner (@ef4)](https://github.com/ef4) about the future of build tooling, [Mho](https://www.youtube.com/watch?v=09USvAy7w9g&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=23).
 
-Really, all of the talks were quite ✨✨amazing✨✨ and if you have not seen them you should go check them out when you can.
+Really, all of the talks were quite ✨✨amazing✨✨ and if you have not seen them you should go check them out when you can. A big thank you to all the speakers at Virtual Ember Conf 2021!!! 🧡💛💜💙💚
 
 If you're interested in some great notes about the talks you can find [Alex DiLiberto's (@alexdiliberto)](https://github.com/alexdiliberto) [notes here](https://alexdiliberto.com/posts/emberconf-2021-notes/).
 
