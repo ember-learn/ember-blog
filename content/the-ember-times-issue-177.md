@@ -13,17 +13,33 @@ tags:
 
 Virtual Ember Meetups 🐹
 
+EmberConf Videos 🔥 📼,
+Achieving A11y Automation Testing 🎥,
+
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Virtual EmberConf 2021 🔥 📼](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Heyo! Did you miss out on Virtual EmberConf 2021? Did you see some talks, but missed others? Did you watch all of the content, but want to re-watch things!? 👀 Fear not, the the suite of full conference talks can now be found online now as [individual videos](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you didn't get a chance to see them you shouldn't miss the two part keynote [part 1](https://www.youtube.com/watch?v=pJPUQQQ9QDg&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=10) and [part 2](https://www.youtube.com/watch?v=1Z6cLV2licU&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=11) by none other than our own [Yehuda Katz (@wycats)](https://github.com/wycats) and [Godfrey Chan @chancancode)](https://github.com/chancancode).
+
+Also not to be missed are talks by [Chris Garrett (@pzuraq)](https://github.com/pzuraq) on [template imports](https://www.youtube.com/watch?v=oQZJU7WDCZE&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=5), and a stunning talk on [building robust and reliable software](https://www.youtube.com/watch?v=Mt7v-VbFjxk&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=15) by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
+
+There was also a beautiful and inspiring 💖 talk about [Learning Ember in 2021](https://www.youtube.com/watch?v=MJ1t1K5r_gQ&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=16) by [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter).
+
+For sure, whatever you do, do not miss the absolutely mind blowing 🤯 closing keynote by [Edward Faulkner (@ef4)](https://github.com/ef4) about the future of build tooling, [Mho](https://www.youtube.com/watch?v=09USvAy7w9g&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=23).
+
+Really, all of the talks were quite ✨✨amazing✨✨ and if you have not seen them you should go check them out when you can. A big thank you to all the speakers at Virtual Ember Conf 2021!!! 🧡💛💜💙💚
+
+If you're interested in some great notes about the talks you can find [Alex DiLiberto's (@alexdiliberto)](https://github.com/alexdiliberto) [notes here](https://alexdiliberto.com/posts/emberconf-2021-notes/).
+
+There's also plenty of official and unofficial bonus content out there, including:
+
+- an [unofficial TypeScript AMA](https://www.youtube.com/watch?v=CXv55zFcJdI) with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and  [David Baker (@acorncom)](https://github.com/acorncom); and
+- another [look at Mho](https://twitter.com/courajs/status/1379477838420713474) with [Edward Faulkner (@ef4)](https://github.com/ef4) and [Aaron Sikes (@courajs)](https://github.com/courajs).
+
+ Don't miss it friends!
 
 ---
 
@@ -39,15 +55,11 @@ Have you been missing attending your local Ember meetup during the pandemic? Wel
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Achieving A11y Automation Testing 🎥](https://twitter.com/TestJSSummit/status/1369241608944762883)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you're looking for some content in the wider JavaScript community beyond Ember Conf you can checkout the fantastic talk by [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety) at TestJS Summit covering [a11y automated testing](https://twitter.com/TestJSSummit/status/1369241608944762883)!🔥🔥🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The talk covers not only what Ember does for accessibility in testing, but also highlights some approaches and tools you can use for making automation a11y focused in other frameworks.
 
 ---
 
@@ -135,6 +147,6 @@ Have you been missing attending your local Ember meetup during the pandemic? Wel
 
 That's another wrap! ✨
 
-Be kind,
+Jared Galanis Be kind,
 
 Jared Galanis the crowd and the Learning Team
