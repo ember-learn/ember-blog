@@ -23,7 +23,7 @@ Heyo! Did you miss out on Virtual Ember Conf 2021? Did you see some talks, but m
 
 If you didn't get a chance to see them you shouldn't miss the two part keynotes [#1](https://www.youtube.com/watch?v=pJPUQQQ9QDg&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=10) and [#2](https://www.youtube.com/watch?v=1Z6cLV2licU&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=11) by none other than our own [Yehuda Katz (@wycats)](https://github.com/wycats) and [Godfrey Chan @chancancode)](https://github.com/chancancode).
 
-Also not to be missed are talks by Chris Garrett (@pzuraq)](https://github.com/pzuraq) on [template imports](https://www.youtube.com/watch?v=oQZJU7WDCZE&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=5), and a stunning [talk on programming concepts](https://www.youtube.com/watch?v=Mt7v-VbFjxk&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=15) by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
+Also not to be missed are talks by Chris Garrett (@pzuraq)](https://github.com/pzuraq) on [template imports](https://www.youtube.com/watch?v=oQZJU7WDCZE&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=5), and a stunning [talk on building robust, reliable software](https://www.youtube.com/watch?v=Mt7v-VbFjxk&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=15) by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
 
 A beautiful and inspiring 💖 talk about [Learning Ember in 2021](https://www.youtube.com/watch?v=MJ1t1K5r_gQ&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=16) by [Lenora Porter (@lenoraporter)](https://github.com/lenoraporter).
 
