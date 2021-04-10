@@ -13,7 +13,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
-Ember Conf Videos 🔥 📼,
+EmberConf Videos 🔥 📼,
 Achieving A11y Automation Testing 🎥,
 
 ---
