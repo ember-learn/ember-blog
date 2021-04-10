@@ -36,8 +36,7 @@ If you're interested in some great notes about the talks you can find [Alex DiLi
 There's also plenty of official and unofficial bonus content out there, including:
 
 - an [unofficial TypeScript AMA](https://www.youtube.com/watch?v=CXv55zFcJdI) with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and  [David Baker (@acorncom)](https://github.com/acorncom); and
-- another [look at Mho]https://twitter.com/courajs/status/1379477838420713474) with [Edward Faulkner (@ef4)] and [Aaron Sikes
- (@courajs)](https://github.com/courajs).
+- another [look at Mho](https://twitter.com/courajs/status/1379477838420713474) with [Edward Faulkner (@ef4)](https://github.com/ef4) and [Aaron Sikes (@courajs)](https://github.com/courajs).
 
  Don't miss it friends!
 
