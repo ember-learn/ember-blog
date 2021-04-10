@@ -20,7 +20,7 @@ Achieving A11y Automation Testing 🎥,
 
 ## [Virtual EmberConf 2021 🔥 📼](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK)
 
-Heyo! Did you miss out on Virtual Ember Conf 2021? Did you see some talks, but missed others? Did you watch all of the content, but want to re-watch things!? 👀 Fear not, the the suite of full conference talks can now be found online now as [individual videos](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK).
+Heyo! Did you miss out on Virtual EmberConf 2021? Did you see some talks, but missed others? Did you watch all of the content, but want to re-watch things!? 👀 Fear not, the the suite of full conference talks can now be found online now as [individual videos](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK).
 
 If you didn't get a chance to see them you shouldn't miss the two part keynote [part 1](https://www.youtube.com/watch?v=pJPUQQQ9QDg&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=10) and [part 2](https://www.youtube.com/watch?v=1Z6cLV2licU&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=11) by none other than our own [Yehuda Katz (@wycats)](https://github.com/wycats) and [Godfrey Chan @chancancode)](https://github.com/chancancode).
 
