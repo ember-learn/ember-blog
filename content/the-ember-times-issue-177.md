@@ -18,7 +18,7 @@ Achieving A11y Automation Testing 🎥,
 
 ---
 
-## [Virtual Ember Conf 2021 🔥 📼](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK)
+## [Virtual EmberConf 2021 🔥 📼](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK)
 
 Heyo! Did you miss out on Virtual Ember Conf 2021? Did you see some talks, but missed others? Did you watch all of the content, but want to re-watch things!? 👀 Fear not, the the suite of full conference talks can now be found online now as [individual videos](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK).
 
