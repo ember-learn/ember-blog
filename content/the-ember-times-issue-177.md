@@ -2,25 +2,25 @@
 title: The Ember Times - Issue No. 177
 authors:
   - jared-galanis
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - amy-lam
 date: 2021-04-09T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
+EmberConf videos 🔥 📼,
 Virtual Ember Meetups 🐹
-
-EmberConf Videos 🔥 📼,
-Achieving A11y Automation Testing 🎥,
+Achieving a11y automation testing 🎥,
+Severless functions in Ember and Glimmer 💯
 
 ---
 
 ## [Virtual EmberConf 2021 🔥 📼](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK)
 
-Heyo! Did you miss out on Virtual EmberConf 2021? Did you see some talks, but missed others? Did you watch all of the content, but want to re-watch things!? 👀 Fear not, the the suite of full conference talks can now be found online now as [individual videos](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK).
+Heyo! Did you miss out on Virtual EmberConf 2021? Did you see some talks, but missed others? Did you watch all of the content, but want to re-watch things!? 👀 Fear not, the suite of full conference talks can now be found online now as [individual videos](https://www.youtube.com/playlist?list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK).
 
 If you didn't get a chance to see them you shouldn't miss the two part keynote [part 1](https://www.youtube.com/watch?v=pJPUQQQ9QDg&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=10) and [part 2](https://www.youtube.com/watch?v=1Z6cLV2licU&list=PL4eq2DPpyBbkc3vz8_N4xkeboowQcPQbK&index=11) by none other than our own [Yehuda Katz (@wycats)](https://github.com/wycats) and [Godfrey Chan @chancancode)](https://github.com/chancancode).
 
@@ -43,7 +43,7 @@ There's also plenty of official and unofficial bonus content out there, includin
 
 ---
 
-## Virtual Ember Meetups 🐹
+## Virtual Ember meetups 🐹
 
 Have you been missing attending your local Ember meetup during the pandemic? Well you're in luck, there are a couple of virtual Ember meetups happening next week that you can attend.
 
@@ -55,7 +55,7 @@ Have you been missing attending your local Ember meetup during the pandemic? Wel
 
 ---
 
-## [Achieving A11y Automation Testing 🎥](https://twitter.com/TestJSSummit/status/1369241608944762883)
+## [Achieving a11y automation testing 🎥](https://twitter.com/TestJSSummit/status/1369241608944762883)
 
 If you're looking for some content in the wider JavaScript community beyond Ember Conf you can checkout the fantastic talk by [Ava Gaiety Wroten (@hergaiety)](https://github.com/hergaiety) at TestJS Summit covering [a11y automated testing](https://twitter.com/TestJSSummit/status/1369241608944762883)!🔥🔥🔥
 
@@ -63,69 +63,17 @@ The talk covers not only what Ember does for accessibility in testing, but also 
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Severless functions in Ember and Glimmer 💯](https://shipshape.io/blog/serverless-functions-ember-glimmer/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+After using [API Routes](https://nextjs.org/docs/api-routes/introduction) in Next.js, [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis) explored bringing the same functionality to Ember and Glimmer. Next's API routes are essentially node functions that deploy as serverless lambdas. They can provide a place to write a GraphQL endpoint, serve as a gateway to other APIs, or serve as a full-fledged backend that talks to a persistence layer.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The article walks through the setup of serverless functions in both Ember and Glimmer, using Netlify or Vercel. Check out Jared's blog post for [Ship Shape](https://shipshape.io/), [Serverless Functions in Ember and Glimmer](https://shipshape.io/blog/serverless-functions-ember-glimmer/) for more details and try it out yourself for some developer experience gains on the frontend!
 
 ---
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/hergaiety" rel="noopener noreferrer" target="_blank">Ava Gaiety Wroten (@hergaiety)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/lupestro" rel="noopener noreferrer" target="_blank">Ralph Mack (@lupestro)</a>, <a href="https://github.com/acorncom" rel="noopener noreferrer" target="_blank">David Baker (@acorncom)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/nickeidler" rel="noopener noreferrer" target="_blank">Nicholas Eidler (@nickeidler)</a>, <a href="https://github.com/raido" rel="noopener noreferrer" target="_blank">Raido Kuli (@raido)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/pernambucano" rel="noopener noreferrer" target="_blank">Paulo Fernandes (@pernambucano)</a>, <a href="https://github.com/afzal273" rel="noopener noreferrer" target="_blank">Afzal Syed (@afzal273)</a>, <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/Valgueiro" rel="noopener noreferrer" target="_blank">Mateus Valgueiro (@Valgueiro)</a>, <a href="https://github.com/theklr" rel="noopener noreferrer" target="_blank">Kevin R (@theklr)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/Krashaune" rel="noopener noreferrer" target="_blank">Kiera Thomasson (@Krashaune)</a>, <a href="https://github.com/xg-wang" rel="noopener noreferrer" target="_blank">Thomas Wang (@xg-wang)</a>, <a href="https://github.com/Angel-gc" rel="noopener noreferrer" target="_blank">Angel Concepcion (@Angel-gc)</a>, <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/ejfian-2020" rel="noopener noreferrer" target="_blank">@ejfian-2020</a>, <a href="https://github.com/sandstrom" rel="noopener noreferrer" target="_blank">@sandstrom</a>, <a href="https://github.com/milindalvares" rel="noopener noreferrer" target="_blank">Milind Alvares (@milindalvares)</a>, <a href="https://github.com/piotrekbator" rel="noopener noreferrer" target="_blank">Piotrek Bator (@piotrekbator)</a>, <a href="https://github.com/barelyknown" rel="noopener noreferrer" target="_blank">Sean Devine (@barelyknown)</a>, <a href="https://github.com/DanaKirsh" rel="noopener noreferrer" target="_blank">@DanaKirsh</a>, <a href="https://github.com/MarissaWood" rel="noopener noreferrer" target="_blank">Marissa Wood (@MarissaWood)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/hmajoros" rel="noopener noreferrer" target="_blank">Hank Majoros (@hmajoros)</a>, <a href="https://github.com/tricknotes" rel="noopener noreferrer" target="_blank">Ryunosuke Sato (@tricknotes)</a>, <a href="https://github.com/ziw" rel="noopener noreferrer" target="_blank">@ziw</a>, <a href="https://github.com/vivasconcelos" rel="noopener noreferrer" target="_blank">@vivasconcelos</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/esquith" rel="noopener noreferrer" target="_blank">Esquith Allen (@esquith)</a>, <a href="https://github.com/benjahur" rel="noopener noreferrer" target="_blank">@benjahur</a>, <a href="https://github.com/mamiller93" rel="noopener noreferrer" target="_blank">Matthew Miller (@mamiller93)</a>, and <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -147,6 +95,6 @@ The talk covers not only what Ember does for accessibility in testing, but also 
 
 That's another wrap! ✨
 
-Jared Galanis Be kind,
+Be kind,
 
-Jared Galanis the crowd and the Learning Team
+Jared Galanis, Amy Lam, and the Learning Team
