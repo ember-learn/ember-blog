@@ -61,7 +61,7 @@ The talk covers not only what Ember does for accessibility in testing, but also 
 
 ---
 
-## [Severless functions in Ember and Glimmer 💯](https://shipshape.io/blog/serverless-functions-ember-glimmer/)
+## [Serverless functions in Ember and Glimmer 💯](https://shipshape.io/blog/serverless-functions-ember-glimmer/)
 
 After using [API Routes](https://nextjs.org/docs/api-routes/introduction) in Next.js, [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis) explored bringing the same functionality to Ember and Glimmer. Next's API routes are essentially node functions that deploy as serverless lambdas. They can provide a place to write a GraphQL endpoint, serve as a gateway to other APIs, or serve as a full-fledged backend that talks to a persistence layer.
 
