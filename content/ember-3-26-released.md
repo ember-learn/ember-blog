@@ -113,7 +113,7 @@ Ember CLI 3.26 introduced 2 bug fixes.
 
 Ember CLI 3.26 introduced 1 feature.
 
-1. `ember-try` test scenarios for `embroider-safe` and `embroider-optimized` for addons are now enabled using [@embroider/test-setup](https://github.com/embroider-build/embroider/tree/master/packages/test-setup) allowing Embroider compatibility testing for addons test matrix.
+1. `ember-try` test scenarios for `embroider-safe` and `embroider-optimized` for addons are now enabled using [@embroider/test-setup](https://github.com/embroider-build/embroider/tree/master/packages/test-setup) allowing Embroider compatibility testing for addons test matrix ([#9436](https://github.com/ember-cli/ember-cli/pull/9436)).
 
 #### Deprecations
 
