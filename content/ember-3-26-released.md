@@ -107,11 +107,13 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 Ember CLI 3.26 introduced 2 bug fixes.
 
 1. Issue a better error message for add-on's missing an entry point. ([#9473](https://github.com/ember-cli/ember-cli/pull/9473)); and
-2. Add Prettier files to ".npmignore" file in addon blueprint ([#9437](https://github.com/ember-cli/ember-cli/pull/9437)).
+2. Add Prettier files to `.npmignore` file in addon blueprint ([#9437](https://github.com/ember-cli/ember-cli/pull/9437)).
 
 #### Features
 
-Ember CLI 3.26 introduced 0 features.
+Ember CLI 3.26 introduced 1 feature.
+
+1. `ember-try` test scenarios for `embroider-safe` and `embroider-optimized` for addons are now enabled using [@embroider/test-setup](https://github.com/embroider-build/embroider/tree/master/packages/test-setup) allowing Embroider compatibility testing for addons test matrix.
 
 #### Deprecations
 
