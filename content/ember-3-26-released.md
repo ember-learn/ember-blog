@@ -45,7 +45,13 @@ Ember.js 3.26 introduced 0 features.
 
 #### Deprecations
 
-Ember.js 3.26 introduced 11 deprecations.
+Ember.js 3.26 introduced 11 deprecations. To learn more how to update your code, please check the provided link to the Deprecations Guide.
+
+1. Component managers that use the `v3.4` capabilities should update to the most recent component capabilities available, which is currently `v3.13`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_manager-capabilities-components-3-4), [#19373](https://github.com/emberjs/ember.js/pull/19373))
+1. Modifier managers that use the `v3.13` capabilities should update to the most recent modifier capabilities available, which is currently `v3.22. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_manager-capabilities-modifiers-3-13), [#19373](https://github.com/emberjs/ember.js/pull/19373))
+1. Passing `classBinding` and `classNameBindings` as arguments has been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_class-binding-and-class-name-bindings-in-templates), [#19375](https://github.com/emberjs/ember.js/pull/19375))
+1. Accessing named arguments via `{{attrs}}` has been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_attrs-arg-access), [#19375](https://github.com/emberjs/ember.js/pull/19375))
+1. Array observers have been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_array-observers), [#19381](https://github.com/emberjs/ember.js/pull/19381))
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
