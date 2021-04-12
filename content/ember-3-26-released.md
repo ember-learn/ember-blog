@@ -47,6 +47,8 @@ Ember.js 3.26 introduced 0 features.
 
 Ember.js 3.26 introduced several deprecations in preparation for v4.0 release. To learn more how to update your code, please check the provided link to the Deprecations Guide.
 
+1. Transition methods of controllers and routes have been deprecated. Inject the `router` service and use the service's methods instead. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_routing-transition-methods), [#19255](https://github.com/emberjs/ember.js/pull/19255))
+1. Invoking the `<LinkTo>` component with positional arguments has been deprecated. Please provide named arguments such as `@route`, `@model`, `@models`, and `@query`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_ember-glimmer-link-to-positional-arguments), [#19345](https://github.com/emberjs/ember.js/pull/19345))
 1. The `{{with}}` helper has been deprecated, in favor of using `{{let}}`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_ember-glimmer-with-syntax), [#19346](https://github.com/emberjs/ember.js/pull/19346))
 1. Implicit injection has been deprecated. In particular, the `store` service from Ember Data must be explicitly injected into controllers and routes if they refer to `this.store`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_implicit-injections), [#19358](https://github.com/emberjs/ember.js/pull/19358))
 1. Browser support of Internet Explorer 11 has been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_3-0-browser-support-policy), [#19359](https://github.com/emberjs/ember.js/pull/19359))
@@ -78,6 +80,7 @@ Ember.js 3.26 introduced several deprecations in preparation for v4.0 release. T
 
 1. Component managers that use the `v3.4` capabilities should update to the most recent component capabilities available, which is currently `v3.13`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_manager-capabilities-components-3-4), [#19373](https://github.com/emberjs/ember.js/pull/19373))
 1. Modifier managers that use the `v3.13` capabilities should update to the most recent modifier capabilities available, which is currently `v3.22. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_manager-capabilities-modifiers-3-13), [#19373](https://github.com/emberjs/ember.js/pull/19373))
+1. The `{{hasBlock}}` and `{{hasBlockParams}}` properties have been deprecated. Use `{{has-block}}` and `{{has-block-params}}` helpers instead. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_has-block-and-has-block-params), [#19374](https://github.com/emberjs/ember.js/pull/19374))
 1. Passing `classBinding` and `classNameBindings` as arguments has been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_class-binding-and-class-name-bindings-in-templates), [#19375](https://github.com/emberjs/ember.js/pull/19375))
 1. Accessing named arguments via `{{attrs}}` has been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_attrs-arg-access), [#19375](https://github.com/emberjs/ember.js/pull/19375))
 1. Array observers have been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_array-observers), [#19381](https://github.com/emberjs/ember.js/pull/19381))
