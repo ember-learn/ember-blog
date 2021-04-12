@@ -45,7 +45,36 @@ Ember.js 3.26 introduced 0 features.
 
 #### Deprecations
 
-Ember.js 3.26 introduced 11 deprecations. To learn more how to update your code, please check the provided link to the Deprecations Guide.
+Ember.js 3.26 introduced several deprecations in preparation for v4.0 release. To learn more how to update your code, please check the provided link to the Deprecations Guide.
+
+1. The `{{with}}` helper has been deprecated, in favor of using `{{let}}`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_ember-glimmer-with-syntax), [#19346](https://github.com/emberjs/ember.js/pull/19346))
+1. Implicit injection has been deprecated. In particular, the `store` service from Ember Data must be explicitly injected into controllers and routes if they refer to `this.store`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_implicit-injections), [#19358](https://github.com/emberjs/ember.js/pull/19358))
+1. Browser support of Internet Explorer 11 has been deprecated. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_3-0-browser-support-policy), [#19359](https://github.com/emberjs/ember.js/pull/19359))
+1. Property fallback for implicit `this` has been deprecated. Please review the templates in your app and write `this.` when it is appropriate, e.g. change `{{localProperty}}` to `{{this.localProperty}}`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_this-property-fallback), [#19371](https://github.com/emberjs/ember.js/pull/19371))
+1. **Ember Classic has been deprecated.** ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_editions-classic), [#19372](https://github.com/emberjs/ember.js/pull/19372))
+
+    In preparation for v4.0 release, developers are encouraged to update their app to Ember Octane by following these steps:
+
+    - In `config/optional-features.json`, update the feature flags for Octane.
+    
+        ```json
+        {
+          "application-template-wrapper": false,
+          "template-only-glimmer-components": true
+        }
+        ```
+
+    - Specify the Octane edition in `package.json`.
+
+        ```json
+        {
+          "ember": {
+            "edition": "octane"
+          }
+        }
+        ```
+
+    - Check the [official upgrade guide](https://guides.emberjs.com/release/upgrading/current-edition/) and seek help in the `#help` channel on [Ember Discord](https://discord.gg/emberjs).
 
 1. Component managers that use the `v3.4` capabilities should update to the most recent component capabilities available, which is currently `v3.13`. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_manager-capabilities-components-3-4), [#19373](https://github.com/emberjs/ember.js/pull/19373))
 1. Modifier managers that use the `v3.13` capabilities should update to the most recent modifier capabilities available, which is currently `v3.22. ([Deprecations Guide](https://deprecations.emberjs.com/v3.x#toc_manager-capabilities-modifiers-3-13), [#19373](https://github.com/emberjs/ember.js/pull/19373))
