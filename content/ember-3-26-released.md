@@ -104,7 +104,10 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
-Ember CLI 3.26 introduced 0 bug fixes.
+Ember CLI 3.26 introduced 2 bug fixes.
+
+1. Issue a better error message for add-on's missing an entry point. ([#9473](https://github.com/ember-cli/ember-cli/pull/9473)); and
+2. Add Prettier files to ".npmignore" file in addon blueprint ([#9437](https://github.com/ember-cli/ember-cli/pull/9437)).
 
 #### Features
 
