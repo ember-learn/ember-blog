@@ -62,6 +62,7 @@ Ember.js 3.26 introduced several deprecations in preparation for v4.0 release. T
         ```json
         {
           "application-template-wrapper": false,
+          "jquery-integration": false,
           "template-only-glimmer-components": true
         }
         ```
