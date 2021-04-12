@@ -3,7 +3,7 @@ title: Ember 3.26 Released
 authors:
   - isaac-lee
   - jared-galanis
-date: 2021-03-31T00:00:00.000Z
+date: 2021-04-12T00:00:00.000Z
 tags:
   - releases
   - '2021'
