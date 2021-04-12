@@ -56,7 +56,7 @@ Ember.js 3.26 introduced several deprecations in preparation for v4.0 release. T
     In preparation for v4.0 release, developers are encouraged to update their app to Ember Octane by following these steps:
 
     - In `config/optional-features.json`, update the feature flags for Octane.
-    
+
         ```json
         {
           "application-template-wrapper": false,
