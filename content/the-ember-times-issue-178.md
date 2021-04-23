@@ -55,7 +55,7 @@ Steve Zelaznik (@zelaznik)](https://github.com/zelaznik).
 
 A new version of [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) has been published thanks to [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) and [Alex Kanunnikov (@lifeart)](https://github.com/lifeart).
 
-The Unstable Ember Language Server is a VSCode extension that provides VSCode users features like auto complete, goto definition and diagnostics for Ember projects. While the name contains the word “unstable” it is very **stable** and is actually a fork of the [original Ember Language Server project](https://github.com/ember-tooling/ember-language-server).
+The Unstable Ember Language Server is a VSCode extension that provides VSCode users features like auto complete, goto definition and diagnostics for Ember projects. While the name contains the word “unstable,” it is very **stable** and is actually a fork of the [original Ember Language Server project](https://github.com/ember-tooling/ember-language-server).
 
 This recent release adds [batman syntax](https://github.com/rwjblue/ember-holy-futuristic-template-namespacing-batman) support (namespaces) to [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) so try it out today on your VSCode!
 
