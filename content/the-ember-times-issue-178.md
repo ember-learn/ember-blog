@@ -30,7 +30,11 @@ Addon roundup 🙌,
 
 ## Addon roundup 🙌
 
-* Do you want to use OAuth in your Ember app? [Sinan Keskin (@sinankeskin)](https://github.com/sinankeskin) wrote a new addon, [ember-oauther](https://github.com/sinankeskin/ember-oauther), which allows you to sign in and register a user with OAuth easily! OAuth is an open standard for access delegation, commonly used as a way to register or log into a web app via their Facebook, Google, Microsoft, etc. login. Check out the [repo](https://github.com/sinankeskin/ember-oauther))and give it a try in your next app!
+We wanted to highlight some recent happenings around the web! Check them out and give them a try! 😎
+
+* Do you want to use OAuth in your Ember app? [Sinan Keskin (@sinankeskin)](https://github.com/sinankeskin) wrote a new addon, [ember-oauther](https://github.com/sinankeskin/ember-oauther), which allows you to sign in and register a user with OAuth **easily**! OAuth is an open standard for access delegation, commonly used as a way to register or log into a web app via their Facebook, Google, Microsoft, etc. login. 
+* [ember-resize-monitor](https://github.com/elwayman02/ember-resize-modifier) provides a [did-resize](https://ember-resize-modifier.jhawk.co/modifiers/did-resize/) modifier for detecting **resize events** on the element or component it's attached to. These events could include window resizing CSS changes, content updates, and more. [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) published a v0.2.0 and gave a shoutout to [Tamas Sule (@xjmdoo)](https://github.com/xjmdoo) for improving the addon's performance by 10x! 
+
 
 ---
 
