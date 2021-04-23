@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 178
 authors:
   - amy-lam
   - isaac-lee
+  - chris-ng
 date: 2021-04-23T00:00:00.000Z
 tags:
   - newsletter
@@ -14,6 +15,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Find out about Ember 3.26 release 🥳,
 Addon roundup 🙌,
+Updated Release of Unstable Ember Language Server ✨,
 
 ---
 
@@ -49,15 +51,13 @@ Steve Zelaznik (@zelaznik)](https://github.com/zelaznik).
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Updated Release of Unstable Ember Language Server ✨](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A new version of [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) has been published thanks to [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) and [Alex Kanunnikov (@lifeart)](https://github.com/lifeart).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The Unstable Ember Language Server is a VSCode extension that provides VSCode users features like auto complete, goto definition and diagnostics for Ember projects. While the name contains the word “unstable,” it is very **stable** and is actually a fork of the [original Ember Language Server project](https://github.com/ember-tooling/ember-language-server).
+
+This recent release adds [batman syntax](https://github.com/rwjblue/ember-holy-futuristic-template-namespacing-batman) support (namespaces) to [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) so try it out today on your VSCode!
 
 ---
 
@@ -147,4 +147,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Chris Ng, the crowd and the Learning Team
