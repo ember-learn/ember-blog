@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 178
 authors:
+  - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-04-23T00:00:00.000Z
 tags:
@@ -8,9 +9,10 @@ tags:
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Addon roundup 🙌,
 
 ---
 
@@ -26,15 +28,9 @@ tags:
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## Addon roundup 🙌
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* Do you want to use OAuth in your Ember app? [Sinan Keskin (@sinankeskin)](https://github.com/sinankeskin) wrote a new addon, [ember-oauther](https://github.com/sinankeskin/ember-oauther), which allows you to sign in and register a user with OAuth easily! OAuth is an open standard for access delegation, commonly used as a way to register or log into a web app via their Facebook, Google, Microsoft, etc. login. Check out the [repo](https://github.com/sinankeskin/ember-oauther))and give it a try in your next app!
 
 ---
 
@@ -136,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
