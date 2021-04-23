@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 178
 authors:
   - amy-lam
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - isaac-lee
 date: 2021-04-23T00:00:00.000Z
 tags:
   - newsletter
@@ -12,19 +12,28 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Find out about Ember 3.26 release 🥳,
 Addon roundup 🙌,
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Ember 3.26 Released 🥳](https://blog.emberjs.com/ember-3-26-released)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ember 3.26 release was announced](https://blog.emberjs.com/ember-3-26-released) on April 12, 2021. The release patched a few bug fixes in `ember-source` and `ember-cli`. It also introduced several deprecations in `ember-source` in preparation of the **upcoming Ember 4.0 release**.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+We encourage you to make time to address deprecated patterns in your apps and addons. The [Deprecations Guide](https://deprecations.emberjs.com/) provides examples of how you might update your code.
+
+Here are 3 quick tips for what you can do for Ember 3.26:
+
+1. To make a route transition in a controller or route, inject the `router` service and use its `transitionTo` or `replaceWith` method. You can check the [API Guides](https://api.emberjs.com/ember/release/classes/RouterService) to learn more about the `router` service.
+
+    For new code, using the `router` service shouldn't cause an issue. When you update existing code, however, your app may behave differently when the route transition occurs. Before any update, write tests that cover the intended behavior.
+
+2. When you invoke the `<LinkTo>` component with angle brackets, use named arguments to improve code readability. The arguments include `@route`, `@model`, `@models`, and `@query`.
+
+3. If you use Ember Data in a controller or route, inject the `store` service.
+
+Need help with upgrading your app? You can ask questions in the [Ember Discussion Form](https://discuss.emberjs.com/) or the `#help` channel on [Ember Discord](https://discord.gg/emberjs).
 
 ---
 
@@ -138,4 +147,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Isaac Lee, the crowd and the Learning Team
