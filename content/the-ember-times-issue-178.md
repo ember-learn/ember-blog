@@ -34,7 +34,8 @@ We wanted to highlight some recent happenings around the web! Check them out and
 
 * Do you want to use OAuth in your Ember app? [Sinan Keskin (@sinankeskin)](https://github.com/sinankeskin) wrote a new addon, [ember-oauther](https://github.com/sinankeskin/ember-oauther), which allows you to sign in and register a user with OAuth **easily**! OAuth is an open standard for access delegation, commonly used as a way to register or log into a web app via their Facebook, Google, Microsoft, etc. login. 
 * [ember-resize-monitor](https://github.com/elwayman02/ember-resize-modifier) provides a [did-resize](https://ember-resize-modifier.jhawk.co/modifiers/did-resize/) modifier for detecting **resize events** on the element or component it's attached to. These events could include window resizing CSS changes, content updates, and more. [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) published a v0.2.0 and gave a shoutout to [Tamas Sule (@xjmdoo)](https://github.com/xjmdoo) for improving the addon's performance by 10x! 
-
+* [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing) v4.0.4 is here! ember-a11y-testing is a wrapper around Deque Labs' [axe-core](https://github.com/dequelabs/axe-core) **accessibility testing engine**. The addon can be integrated in your testing environment either as a one-time setup, or in individual tests using an `a11yAudit()` test helper. Raise your Lighthouse score *and* improve the web at the same time! Thank you to the team that made this happen, including these recent contributors: [Andrew A Lee (@drewlee)](https://github.com/drewlee), [Dan Wenzel (@danwenzel)](https://github.com/danwenzel), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Steve Calvert (@scalvert)](https://github.com/scalvert), [Robert Jackson (@rwjblue)](https://github.com/rwjblue), [Travis Hoover (@thoov)](https://github.com/thoov), and [
+Steve Zelaznik (@zelaznik)](https://github.com/zelaznik).
 
 ---
 
