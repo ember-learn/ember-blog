@@ -12,13 +12,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-Find out about Ember 3.26 release 🥳,
-Updated Release of Unstable Ember Language Server ✨,
-and Addon roundup 🙌.
+Find out about the Ember 3.26 release, updated release of Unstable Ember Language Server, and addon roundup.
 
 ---
 
-## [Ember 3.26 Released 🥳](https://blog.emberjs.com/ember-3-26-released)
+## [Ember 3.26 released 🥳](https://blog.emberjs.com/ember-3-26-released)
 
 [Ember 3.26 release was announced](https://blog.emberjs.com/ember-3-26-released) on April 12, 2021. The release patched a few bug fixes in `ember-source` and `ember-cli`. It also introduced several deprecations in `ember-source` in preparation of the **upcoming Ember 4.0 release**.
 
@@ -38,7 +36,7 @@ Need help with upgrading your app? You can ask questions in the [Ember Discussio
 
 ---
 
-## [Updated Release of Unstable Ember Language Server ✨](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
+## [Updated release of Unstable Ember Language Server ✨](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
 
 A new version of [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) has been published thanks to [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) and [Alex Kanunnikov (@lifeart)](https://github.com/lifeart).
 
