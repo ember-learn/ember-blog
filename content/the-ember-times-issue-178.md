@@ -12,10 +12,9 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Find out about Ember 3.26 release 🥳,
-Addon roundup 🙌,
 Updated Release of Unstable Ember Language Server ✨,
+and Addon roundup 🙌.
 
 ---
 
@@ -39,18 +38,6 @@ Need help with upgrading your app? You can ask questions in the [Ember Discussio
 
 ---
 
-## Addon roundup 🙌
-
-We wanted to highlight some recent happenings around the web! Check them out and give them a try! 😎
-
-<!-- alex ignore easy -->
-* Do you want to use OAuth in your Ember app? [Sinan Keskin (@sinankeskin)](https://github.com/sinankeskin) wrote a new addon, [ember-oauther](https://github.com/sinankeskin/ember-oauther), which allows you to sign in and register a user with OAuth easily! OAuth is an open standard for **access delegation**, commonly used to help a user register or log in to a web app via their login for Facebook, Google, Microsoft, etc.
-* [ember-resize-monitor](https://github.com/elwayman02/ember-resize-modifier) provides a [did-resize](https://ember-resize-modifier.jhawk.co/modifiers/did-resize/) modifier for detecting **resize events** on the element or component it's attached to. These events could include window resizing CSS changes, content updates, and more. [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) published a v0.2.0 and gave a shoutout to [Tamas Sule (@xjmdoo)](https://github.com/xjmdoo) for improving the addon's performance by 10x!
-* [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing) v4.0.4 is here! ember-a11y-testing is a wrapper around Deque Labs' [axe-core](https://github.com/dequelabs/axe-core) **accessibility testing engine**. The addon can be integrated in your testing environment either as a one-time setup, or in individual tests using an `a11yAudit()` test helper. Raise your Lighthouse score *and* improve the web at the same time! Thank you to the team that made this happen, including these recent contributors: [Andrew A Lee (@drewlee)](https://github.com/drewlee), [Dan Wenzel (@danwenzel)](https://github.com/danwenzel), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Steve Calvert (@scalvert)](https://github.com/scalvert), [Robert Jackson (@rwjblue)](https://github.com/rwjblue), [Travis Hoover (@thoov)](https://github.com/thoov), and [
-Steve Zelaznik (@zelaznik)](https://github.com/zelaznik).
-
----
-
 ## [Updated Release of Unstable Ember Language Server ✨](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
 
 A new version of [Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) has been published thanks to [Suchita Doshi (@suchitadoshi1987)](https://github.com/suchitadoshi1987) and [Alex Kanunnikov (@lifeart)](https://github.com/lifeart).
@@ -61,63 +48,16 @@ This recent release adds [batman syntax](https://github.com/rwjblue/ember-holy-f
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+## Addon roundup 🙌
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+We wanted to highlight some recent happenings around the web! Check them out and give them a try! 😎
 
----
-
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!-- alex ignore easy -->
+* Do you want to use OAuth in your Ember app? [Sinan Keskin (@sinankeskin)](https://github.com/sinankeskin) wrote a new addon, [ember-oauther](https://github.com/sinankeskin/ember-oauther), which allows you to sign in and register a user with OAuth easily! OAuth is an open standard for **access delegation**, commonly used to help a user register or log in to a web app via their login for Facebook, Google, Microsoft, etc.
+* [ember-resize-monitor](https://github.com/elwayman02/ember-resize-modifier) provides a [did-resize](https://ember-resize-modifier.jhawk.co/modifiers/did-resize/) modifier for detecting **resize events** on the element or component it's attached to. These events could include window resizing CSS changes, content updates, and more. [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) published a v0.2.0 and gave a shoutout to [Tamas Sule (@xjmdoo)](https://github.com/xjmdoo) for improving the addon's performance by 10x!
+* [ember-a11y-testing](https://github.com/ember-a11y/ember-a11y-testing) v4.0.4 is here! ember-a11y-testing is a wrapper around Deque Labs' [axe-core](https://github.com/dequelabs/axe-core) **accessibility testing engine**. The addon can be integrated in your testing environment either as a one-time setup, or in individual tests using an `a11yAudit()` test helper. Raise your Lighthouse score *and* improve the web at the same time! Thank you to the team that made this happen, including these recent contributors: [Andrew A Lee (@drewlee)](https://github.com/drewlee), [Dan Wenzel (@danwenzel)](https://github.com/danwenzel), [Melanie Sumner (@MelSumner)](https://github.com/MelSumner), [Steve Calvert (@scalvert)](https://github.com/scalvert), [Robert Jackson (@rwjblue)](https://github.com/rwjblue), [Travis Hoover (@thoov)](https://github.com/thoov), and [
+Steve Zelaznik (@zelaznik)](https://github.com/zelaznik).
 
 ---
 
@@ -147,4 +87,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Amy Lam, Isaac Lee, Chris Ng, and the Learning Team
