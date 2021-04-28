@@ -32,7 +32,7 @@ Here are 3 quick tips for what you can do for Ember 3.26:
 
 3. If you use Ember Data in a controller or route, inject the `store` service.
 
-Need help with upgrading your app? You can ask questions in the [Ember Discussion Form](https://discuss.emberjs.com/) or the `#help` channel on [Ember Discord](https://discord.gg/emberjs).
+Need help with upgrading your app? You can ask questions in the [Ember Discussion Forum](https://discuss.emberjs.com/) or the `#help` channel on [Ember Discord](https://discord.gg/emberjs).
 
 ---
 
