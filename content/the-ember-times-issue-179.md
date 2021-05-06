@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 179
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - amy-lam
 date: 2021-05-07T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Readers' Question: What’s the current status of the Embroider project? 🧵
 
 ---
 
@@ -26,15 +28,25 @@ tags:
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## Readers' Question: What’s the current status of the Embroider project? 🧵
 
-<change section title emoji>
+<Amy's note: Am wondering if this would be better to publish when [https://github.com/thoov/rfcs/blob/enable-embroider/text/0000-enable-embroider.md](https://github.com/thoov/rfcs/blob/enable-embroider/text/0000-enable-embroider.md) is live on the emberjs/rfcs repo?>
+
+What's the current status of the Embroider project? [Embroider](https://github.com/embroider-build/embroider) is nearing a 1.0 release. The official cutover point will be when Ember CLI starts generating new apps with Embroider by default. 🙌
+
+If you're not familiar with Embroider, Embroider is a new build pipeline that will provide a way to compile Ember apps into spec-compliant, modern JavaScript. Using Embroider will make it easier to take advantage of code splitting and tree shaking in your app.
+
+Several large, heavily-tested Ember apps are already shipping to production with Embroider! However, there are some risks if you choose to use Embroider in production today. (You're likely to discover that some Ember addons don't work or will break your build. Also, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app.)
+
+Embroider has been a long time coming, and the future is looking bright. Embroider won't be turned on in the next Ember CLI 3.27 release, but there will be an RFC coming soon.
+
+Embroider was mentioned a few times at virtual EmberConf 2021:
+
+- [Keynote Part 2 AKA "Platform State of the Union"](https://youtu.be/1Z6cLV2licU?t=555) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had a focused Embroider overview.
+- [ ] TODO: Finish Ed's talk https://www.youtube.com/watch?v=09USvAy7w9g
+- [ ] TODO: Watch AMA with @rwjblue
+
 <consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -136,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
