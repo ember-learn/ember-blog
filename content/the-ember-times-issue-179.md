@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 179
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-05-07T00:00:00.000Z
 tags:
   - newsletter
@@ -9,20 +10,21 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+May 20th is Global Accessibility Awareness Day 💟,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [May 20th is Global Accessibility Awareness Day 💟](https://twitter.com/melaniersumner/status/1389703699241578502?s=20)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Global Accessibility Awareness Day](https://en.wikipedia.org/wiki/Global_Accessibility_Awareness_Day), an awareness day focusing on digital access and inclusion for the more than one billion people with disabilities and impairments, will be celebrated on May 20, 2021. Here are some suggestions from [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) on how you can get involved in some accessibility (a11y) related open source projects!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+1. Help convert [ember-component-patterns](https://github.com/ember-components/ember-component-patterns) from Gitbook to an Ember app
+2. Help with [a11y-automation.dev](https://github.com/MelSumner/a11y-automation) which is a project to track a11y automation
+3. Check out the [help wanted page](https://help-wanted.emberjs.com/ember-a11y) for issues in the [ember-a11y GitHub organization](https://github.com/ember-a11y)
+4. Help write some [a11y-related linting rules](https://github.com/ember-template-lint/ember-template-lint/issues?q=is%3Aopen+is%3Aissue+label%3Aa11y) for ember-template-lint
+
+For more ideas please check out the [Global Accessibility Awareness Day (GAAD) website](https://globalaccessibilityawarenessday.org/)!
 
 ---
 
@@ -136,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
