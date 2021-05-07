@@ -1,8 +1,8 @@
 ---
 title: The Ember Times - Issue No. 179
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - isaac-lee
 date: 2021-05-07T00:00:00.000Z
 tags:
   - newsletter
@@ -10,8 +10,19 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+Learn how JS frameworks solved the problem of rendering fast 🌐,
 May 20th is Global Accessibility Awareness Day 💟,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## [A Comparison of Rendering Engines of React, Angular, and Ember 🌐](https://www.heise.de/select/ix/2021/5/2018311514916341034)
+
+[Eine große Überraschung](https://twitter.com/jelhan1/status/1384931700036222981) from [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan): The May issue of iX, a computer magazine from Germany, features the article [Die Rendering-Engines von React, Angular und Ember im Vergleich](https://www.heise.de/select/ix/2021/5/2018311514916341034).
+
+The article is written for developers at all levels. Jeldrik provides a naive rendering engine to motivate the performance problems that it will encounter. Afterwards, you will get to learn how computer science helped create rendering engines that are performant.
+
+How do React, Angular, and Ember turn your single-page application code into what the user sees? What are the strengths and weaknesses in their approach? If you want to learn more about rendering engines, we encourage you to check out [Jeldrik's article in iX](https://www.heise.de/select/ix/2021/5/2018311514916341034)!
 
 ---
 
@@ -138,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
