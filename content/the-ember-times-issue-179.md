@@ -38,15 +38,14 @@ What's the current status of the Embroider project? [Embroider](https://github.c
 
 If you're not familiar with Embroider, Embroider is a new build pipeline that will provide a way to compile Ember apps into spec-compliant, modern JavaScript. Using Embroider will make it easier to take advantage of code splitting and tree shaking in your app.
 
-There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app. The [Community Adoption](https://github.com/emberjs/rfcs/blob/dbb7a7c5dc7a6698368f078aa66f97c4bddd4bcb/text/0000-enable-embroider.md#community-adoption) section of the RFC highlights that Embroider has created a testing package for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue will be created tracking the Top 100 addons according to [Ember Observer](https://emberobserver.com/).
+There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app. 
+
+The [Community Adoption](https://github.com/emberjs/rfcs/blob/dbb7a7c5dc7a6698368f078aa66f97c4bddd4bcb/text/0000-enable-embroider.md#community-adoption) section of the RFC highlights that Embroider has created a testing package for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue will be created tracking the Top 100 addons according to [Ember Observer](https://emberobserver.com/).
 
 In case you missed it, Embroider was mentioned at virtual EmberConf 2021:
 
 - [Keynote Part 2 AKA "Platform State of the Union"](https://www.youtube.com/watch?v=1Z6cLV2licU) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had an Embroider highlight, [starting here](https://youtu.be/1Z6cLV2licU?t=555).
-- In the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk, [Edward Faulkner (@ef4)](https://github.com/ef4) describes the Embroider vision and what it can unlock:
-
-<!-- alex ignore wjust -->
-> The future of web build tooling is exciting and very bright. It's good now and it's going to get even better. Embroider is the Ember community's bridge into that future. We're going to keep shipping, keep stabilizing, keep making it even easier and more default until every Ember app just works with all of these things that I'm showing you [in the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk], without extra effort.
+- In the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk, [Edward Faulkner (@ef4)](https://github.com/ef4) describes the Embroider vision and what it can unlock!
 
 ---
 
