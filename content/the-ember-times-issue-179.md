@@ -38,7 +38,7 @@ If you're not familiar with Embroider, Embroider is a new build pipeline that wi
 
 Several large, heavily-tested Ember apps are already shipping to production with Embroider! However, there are some risks if you choose to use Embroider in production today. (You're likely to discover that some Ember addons don't work or will break your build. Also, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app.)
 
-Embroider has been a long time coming, and the future is looking bright. Embroider won't be turned on in the next Ember CLI 3.27 release, but there will be an RFC coming soon.
+Embroider has been a long time coming, and the future is looking bright. **Embroider won't be turned on in the next Ember CLI 3.27 release**. There will be an RFC coming soon.
 
 Embroider was mentioned a few times at virtual EmberConf 2021:
 
