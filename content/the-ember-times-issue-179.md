@@ -13,6 +13,7 @@ tags:
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 Learn how JS frameworks solved the problem of rendering fast 🌐,
 May 20th is Global Accessibility Awareness Day 💟,
+Try out `@use` with Ember Apollo Client 💡,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Readers' Question: What’s the current status of the Embroider project? 🧵
 
@@ -38,6 +39,20 @@ How do React, Angular, and Ember turn your single-page application code into wha
 4. Help write some [a11y-related linting rules](https://github.com/ember-template-lint/ember-template-lint/issues?q=is%3Aopen+is%3Aissue+label%3Aa11y) for ember-template-lint
 
 For more ideas please check out the [Global Accessibility Awareness Day (GAAD) website](https://globalaccessibilityawarenessday.org/)!
+
+---
+
+## [Ember Apollo Client + `@use` 💡](https://dev.to/chrismllr/ember-apollo-client-use-5h3o)
+
+In a new app, [Chris Miller (@chrismllr)](https://github.com/chrismllr) got to try out [ember-apollo-client](https://github.com/ember-graphql/ember-apollo-client), a GraphQL client for Ember apps. 🧡
+
+Chris summarized his learning in the article [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o). The article concerns the following question:
+
+- Ember provides a few possible ways to fetch data. Which way do we follow with `ember-apollo-client` in the equation?
+
+Towards the end, Chris shows how to use the `@use` API (from [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this)) to wrap `ember-apollo-client` methods. This solution may apply to other data-fetching APIs, such as Ember Data.
+
+Interested in learning more? Check out [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o) today!
 
 ---
 
