@@ -30,23 +30,17 @@ Readers' Question: What’s the current status of the Embroider project? 🧵
 
 ## Readers' Question: What’s the current status of the Embroider project? 🧵
 
-<Amy's note: Am wondering if this would be better to publish when [https://github.com/thoov/rfcs/blob/enable-embroider/text/0000-enable-embroider.md](https://github.com/thoov/rfcs/blob/enable-embroider/text/0000-enable-embroider.md) is live on the emberjs/rfcs repo?>
-
-What's the current status of the Embroider project? [Embroider](https://github.com/embroider-build/embroider) is nearing a 1.0 release. The official cutover point will be when Ember CLI starts generating new apps with Embroider by default. 🙌
+What's the current status of the Embroider project? [Embroider](https://github.com/embroider-build/embroider) is nearing a 1.0 release. Embroider has been a long time coming, and the future is looking bright. Several large, heavily-tested Ember apps are already shipping to production with Embroider! The official cutover point will be when Ember CLI starts generating new apps with Embroider by default. 🙌 **Embroider won't be turned on in the next Ember CLI 3.27 release**, but the [Enable Embroider Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/746) was opened up today by [Travis Hoover (@thoov)](https://github.com/thoov), check it out!
 
 If you're not familiar with Embroider, Embroider is a new build pipeline that will provide a way to compile Ember apps into spec-compliant, modern JavaScript. Using Embroider will make it easier to take advantage of code splitting and tree shaking in your app.
 
-Several large, heavily-tested Ember apps are already shipping to production with Embroider! However, there are some risks if you choose to use Embroider in production today. (You're likely to discover that some Ember addons don't work or will break your build. Also, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app.)
+There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app. The [Community Adoption](https://github.com/emberjs/rfcs/blob/dbb7a7c5dc7a6698368f078aa66f97c4bddd4bcb/text/0000-enable-embroider.md#community-adoption) section of the RFC highlights that Embroider has created a testing package for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue willb e created tracking the Top 100 addons accordiong to [Ember Observer](https://emberobserver.com/).
 
-Embroider has been a long time coming, and the future is looking bright. **Embroider won't be turned on in the next Ember CLI 3.27 release**. There will be an RFC coming soon.
+In case you missed it, Embroider was mentioned a few times at virtual EmberConf 2021:
 
-Embroider was mentioned a few times at virtual EmberConf 2021:
-
-- [Keynote Part 2 AKA "Platform State of the Union"](https://youtu.be/1Z6cLV2licU?t=555) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had a focused Embroider overview.
-- [ ] TODO: Finish Ed's talk https://www.youtube.com/watch?v=09USvAy7w9g
-- [ ] TODO: Watch AMA with @rwjblue
-
-<consider adding some bold to your paragraph>
+- [ ] TODO: Watch AMA with @rwjblue https://alexdiliberto.com/posts/emberconf-2021-notes/#ama-with-rwjblue---robert-jackson
+- [Keynote Part 2 AKA "Platform State of the Union"](https://www.youtube.com/watch?v=1Z6cLV2licU) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had an Embroider highlight, [starting here](https://youtu.be/1Z6cLV2licU?t=555).
+- [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) by [Edward Faulkner (@ef4)](https://github.com/ef4)
 
 ---
 
