@@ -70,7 +70,7 @@ Interested in learning more? Check out [Ember Apollo Client + `@use`](https://de
 
 The article is written for developers at all levels. Jeldrik provides a naive rendering engine to motivate the performance problems that it will encounter. Afterwards, you will get to learn how computer science helped create rendering engines that are performant.
 
-How do React, Angular, and Ember turn your single-page application code into what the user sees? What are the strengths and weaknesses in their approach? If you want to learn more about rendering engines, we encourage you to check out [Jeldrik's article in iX](https://www.heise.de/select/ix/2021/5/2018311514916341034)! (Note: This article is in German, but can be translated by a browser such as Google Chrome. You'll need to sign up on Heise.de to read, but there is a free trial period.)
+How do React, Angular, and Ember turn your single-page application code into what the user sees? What are the strengths and weaknesses in their approach? If you want to learn more about rendering engines, we encourage you to check out [Jeldrik's article in iX](https://www.heise.de/select/ix/2021/5/2018311514916341034)! *(Note: This article is in German, but can be translated by a browser such as Google Chrome. You'll need to sign up on Heise.de to read, but there is a free trial period.)*
 
 ---
 
