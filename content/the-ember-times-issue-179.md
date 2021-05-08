@@ -1,8 +1,9 @@
 ---
 title: The Ember Times - Issue No. 179
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - amy-lam
+  - chris-ng
+  - isaac-lee
 date: 2021-05-07T00:00:00.000Z
 tags:
   - newsletter
@@ -10,21 +11,33 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Learn how JS frameworks solved the problem of rendering fast 🌐,
+May 20th is Global Accessibility Awareness Day 💟,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Readers' Question: What’s the current status of the Embroider project? 🧵
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [A Comparison of Rendering Engines of React, Angular, and Ember 🌐](https://www.heise.de/select/ix/2021/5/2018311514916341034)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Eine große Überraschung](https://twitter.com/jelhan1/status/1384931700036222981) from [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan): The May issue of iX, a computer magazine from Germany, features the article [Die Rendering-Engines von React, Angular und Ember im Vergleich](https://www.heise.de/select/ix/2021/5/2018311514916341034).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The article is written for developers at all levels. Jeldrik provides a naive rendering engine to motivate the performance problems that it will encounter. Afterwards, you will get to learn how computer science helped create rendering engines that are performant.
+
+How do React, Angular, and Ember turn your single-page application code into what the user sees? What are the strengths and weaknesses in their approach? If you want to learn more about rendering engines, we encourage you to check out [Jeldrik's article in iX](https://www.heise.de/select/ix/2021/5/2018311514916341034)!
+
+---
+
+## [May 20th is Global Accessibility Awareness Day 💟](https://twitter.com/melaniersumner/status/1389703699241578502?s=20)
+
+[Global Accessibility Awareness Day](https://en.wikipedia.org/wiki/Global_Accessibility_Awareness_Day), an awareness day focusing on digital access and inclusion for the more than one billion people with disabilities and impairments, will be celebrated on May 20, 2021. Here are some suggestions from [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) on how you can get involved in some accessibility (a11y) related open source projects!
+
+1. Help convert [ember-component-patterns](https://github.com/ember-components/ember-component-patterns) from Gitbook to an Ember app
+2. Help with [a11y-automation.dev](https://github.com/MelSumner/a11y-automation) which is a project to track a11y automation
+3. Check out the [help wanted page](https://help-wanted.emberjs.com/ember-a11y) for issues in the [ember-a11y GitHub organization](https://github.com/ember-a11y)
+4. Help write some [a11y-related linting rules](https://github.com/ember-template-lint/ember-template-lint/issues?q=is%3Aopen+is%3Aissue+label%3Aa11y) for ember-template-lint
+
+For more ideas please check out the [Global Accessibility Awareness Day (GAAD) website](https://globalaccessibilityawarenessday.org/)!
 
 ---
 
@@ -119,7 +132,7 @@ In case you missed it, Embroider was mentioned a few times at virtual EmberConf 
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/basz" rel="noopener noreferrer" target="_blank">Bas Kamer (@basz)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/esquith" rel="noopener noreferrer" target="_blank">Esquith Allen (@esquith)</a>, <a href="https://github.com/spham92" rel="noopener noreferrer" target="_blank">Steven Pham (@spham92)</a>, <a href="https://github.com/btecu" rel="noopener noreferrer" target="_blank">Bj Tecu (@btecu)</a>, <a href="https://github.com/tylerturdenpants" rel="noopener noreferrer" target="_blank">Ryan Mark (@tylerturdenpants)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/srih4ri" rel="noopener noreferrer" target="_blank">Srihari (@srih4ri)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/brendenpalmer" rel="noopener noreferrer" target="_blank">Brenden Palmer (@brendenpalmer)</a>, <a href="https://github.com/amk221" rel="noopener noreferrer" target="_blank">Andrew Kirwin (@amk221)</a>, <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, and <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -143,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
