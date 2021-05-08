@@ -12,20 +12,10 @@ tags:
 
 👋 Emberistas! 🐹
 
-Learn how JS frameworks solved the problem of rendering fast 🌐,
 May 20th is Global Accessibility Awareness Day 💟,
 Readers' Question: What’s the current status of the Embroider project? 🧵
 Try out `@use` with Ember Apollo Client 💡,
-
----
-
-## [A Comparison of Rendering Engines of React, Angular, and Ember 🌐](https://www.heise.de/select/ix/2021/5/2018311514916341034)
-
-[Eine große Überraschung](https://twitter.com/jelhan1/status/1384931700036222981) from [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan): The May issue of iX, a computer magazine from Germany, features the article [Die Rendering-Engines von React, Angular und Ember im Vergleich](https://www.heise.de/select/ix/2021/5/2018311514916341034).
-
-The article is written for developers at all levels. Jeldrik provides a naive rendering engine to motivate the performance problems that it will encounter. Afterwards, you will get to learn how computer science helped create rendering engines that are performant.
-
-How do React, Angular, and Ember turn your single-page application code into what the user sees? What are the strengths and weaknesses in their approach? If you want to learn more about rendering engines, we encourage you to check out [Jeldrik's article in iX](https://www.heise.de/select/ix/2021/5/2018311514916341034)!
+Learn how JS frameworks solved the problem of rendering fast 🌐,
 
 ---
 
@@ -44,13 +34,13 @@ For more ideas please check out the [Global Accessibility Awareness Day (GAAD) w
 
 ## Readers' Question: What’s the current status of the Embroider project? 🧵
 
-What's the current status of the Embroider project? [Embroider](https://github.com/embroider-build/embroider) is nearing a 1.0 release. Embroider has been a long time coming, and the future is looking bright. Several large, heavily-tested Ember apps are already shipping to production with Embroider! The official cutover point will be when Ember CLI starts generating new apps with Embroider by default. 🙌 **Embroider won't be turned on in the next Ember CLI 3.27 release**, but the [Enable Embroider Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/746) was opened up today by [Travis Hoover (@thoov)](https://github.com/thoov), check it out!
+What's the current status of the Embroider project? [Embroider](https://github.com/embroider-build/embroider) is nearing a 1.0 release. Embroider has been a long time coming, and the future is looking bright. Several large, heavily-tested Ember apps are already shipping to production with Embroider! The official cutover point will be when Ember CLI starts generating new apps with Embroider by default. 🙌 **Embroider won't be turned on in the next Ember CLI 3.27 release**, but the [Enable Embroider Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/746) was opened up today by [Travis Hoover (@thoov)](https://github.com/thoov). Check it out!
 
 If you're not familiar with Embroider, Embroider is a new build pipeline that will provide a way to compile Ember apps into spec-compliant, modern JavaScript. Using Embroider will make it easier to take advantage of code splitting and tree shaking in your app.
 
-There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app. The [Community Adoption](https://github.com/emberjs/rfcs/blob/dbb7a7c5dc7a6698368f078aa66f97c4bddd4bcb/text/0000-enable-embroider.md#community-adoption) section of the RFC highlights that Embroider has created a testing package for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue willb e created tracking the Top 100 addons accordiong to [Ember Observer](https://emberobserver.com/).
+There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app. The [Community Adoption](https://github.com/emberjs/rfcs/blob/dbb7a7c5dc7a6698368f078aa66f97c4bddd4bcb/text/0000-enable-embroider.md#community-adoption) section of the RFC highlights that Embroider has created a testing package for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue will be created tracking the Top 100 addons according to [Ember Observer](https://emberobserver.com/).
 
-In case you missed it, Embroider was mentioned a few times at virtual EmberConf 2021:
+In case you missed it, Embroider was mentioned at virtual EmberConf 2021:
 
 - [Keynote Part 2 AKA "Platform State of the Union"](https://www.youtube.com/watch?v=1Z6cLV2licU) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had an Embroider highlight, [starting here](https://youtu.be/1Z6cLV2licU?t=555).
 - In the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk, [Edward Faulkner (@ef4)](https://github.com/ef4) descrobes the Embroider vision and what it can unlock:
@@ -71,6 +61,16 @@ Chris summarized his learning in the article [Ember Apollo Client + `@use`](http
 Towards the end, Chris shows how to use the `@use` API (from [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this)) to wrap `ember-apollo-client` methods. This solution may apply to other data-fetching APIs, such as Ember Data.
 
 Interested in learning more? Check out [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o) today!
+
+---
+
+## [A Comparison of Rendering Engines of React, Angular, and Ember 🌐](https://www.heise.de/select/ix/2021/5/2018311514916341034)
+
+[Eine große Überraschung](https://twitter.com/jelhan1/status/1384931700036222981) from [Jeldrik Hanschke (@jelhan)](https://github.com/jelhan): The May issue of iX, a computer magazine from Germany, features the article [Die Rendering-Engines von React, Angular und Ember im Vergleich](https://www.heise.de/select/ix/2021/5/2018311514916341034).
+
+The article is written for developers at all levels. Jeldrik provides a naive rendering engine to motivate the performance problems that it will encounter. Afterwards, you will get to learn how computer science helped create rendering engines that are performant.
+
+How do React, Angular, and Ember turn your single-page application code into what the user sees? What are the strengths and weaknesses in their approach? If you want to learn more about rendering engines, we encourage you to check out [Jeldrik's article in iX](https://www.heise.de/select/ix/2021/5/2018311514916341034)! (Note: This article is in German, but can be translated by a browser such as Google Chrome. You'll need to sign up on Heise.de to read, but there is a free trial period.)
 
 ---
 
