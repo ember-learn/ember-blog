@@ -12,10 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-May 20th is Global Accessibility Awareness Day 💟,
-Readers' Question: What’s the current status of the Embroider project? 🧵
-Try out `@use` with Ember Apollo Client 💡,
-Learn how JS frameworks solved the problem of rendering fast 🌐,
+Global Accessibility Awareness Day, Readers' Question: Embroider status update, `@use` with Ember Apollo Client, and how JS frameworks solved the problem of rendering fast. 
 
 ---
 
