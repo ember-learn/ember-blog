@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Global Accessibility Awareness Day, Readers' Question: Embroider status update, `@use` with Ember Apollo Client, and how JS frameworks solved the problem of rendering fast. 
+Global Accessibility Awareness Day, Readers' Question: Embroider status update, `@use` with Ember Apollo Client, and how JS frameworks solved the problem of rendering fast.
 
 ---
 
@@ -35,7 +35,7 @@ What's the current status of the Embroider project? [Embroider](https://github.c
 
 If you're not familiar with Embroider, Embroider is a new build pipeline that will provide a way to compile Ember apps into spec-compliant, modern JavaScript. Using Embroider will make it easier to take advantage of code splitting and tree shaking in your app.
 
-There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app. 
+There are some risks if you choose to use Embroider in production today. You're likely to discover that some Ember addons don't work or will break your build. Right now, Embroider's own configuration options are subject to change, so you'll need to read the [CHANGELOG.md](https://github.com/embroider-build/embroider/blob/master/CHANGELOG.md) to check for any gotchas when updating Embroider packages in your app.
 
 The [Community Adoption](https://github.com/emberjs/rfcs/blob/dbb7a7c5dc7a6698368f078aa66f97c4bddd4bcb/text/0000-enable-embroider.md#community-adoption) section of the RFC highlights that Embroider has created a testing package for addon authors to consume in their ember-try scenarios to verify their addons work under Embroider. A meta issue will be created tracking the Top 100 addons according to [Ember Observer](https://emberobserver.com/).
 
