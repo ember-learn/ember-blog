@@ -43,7 +43,7 @@ There are some risks if you choose to use Embroider in production today. You're 
 In case you missed it, Embroider was mentioned at virtual EmberConf 2021:
 
 - [Keynote Part 2 AKA "Platform State of the Union"](https://www.youtube.com/watch?v=1Z6cLV2licU) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had an Embroider highlight, [starting here](https://youtu.be/1Z6cLV2licU?t=555).
-- In the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk, [Edward Faulkner (@ef4)](https://github.com/ef4) descrobes the Embroider vision and what it can unlock:
+- In the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk, [Edward Faulkner (@ef4)](https://github.com/ef4) describes the Embroider vision and what it can unlock:
 
 <!-- alex ignore wjust -->
 > The future of web build tooling is exciting and very bright. It's good now and it's going to get even better. Embroider is the Ember community's bridge into that future. We're going to keep shipping, keep stabilizing, keep making it even easier and more default until every Ember app just works with all of these things that I'm showing you [in the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk], without extra effort.
