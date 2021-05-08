@@ -10,12 +10,12 @@ tags:
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
+
 Learn how JS frameworks solved the problem of rendering fast 🌐,
 May 20th is Global Accessibility Awareness Day 💟,
-Try out `@use` with Ember Apollo Client 💡,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Readers' Question: What’s the current status of the Embroider project? 🧵
+Try out `@use` with Ember Apollo Client 💡,
 
 ---
 
@@ -42,20 +42,6 @@ For more ideas please check out the [Global Accessibility Awareness Day (GAAD) w
 
 ---
 
-## [Ember Apollo Client + `@use` 💡](https://dev.to/chrismllr/ember-apollo-client-use-5h3o)
-
-In a new app, [Chris Miller (@chrismllr)](https://github.com/chrismllr) got to try out [ember-apollo-client](https://github.com/ember-graphql/ember-apollo-client), a GraphQL client for Ember apps. 🧡
-
-Chris summarized his learning in the article [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o). The article concerns the following question:
-
-- Ember provides a few possible ways to fetch data. Which way do we follow with `ember-apollo-client` in the equation?
-
-Towards the end, Chris shows how to use the `@use` API (from [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this)) to wrap `ember-apollo-client` methods. This solution may apply to other data-fetching APIs, such as Ember Data.
-
-Interested in learning more? Check out [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o) today!
-
----
-
 ## Readers' Question: What’s the current status of the Embroider project? 🧵
 
 What's the current status of the Embroider project? [Embroider](https://github.com/embroider-build/embroider) is nearing a 1.0 release. Embroider has been a long time coming, and the future is looking bright. Several large, heavily-tested Ember apps are already shipping to production with Embroider! The official cutover point will be when Ember CLI starts generating new apps with Embroider by default. 🙌 **Embroider won't be turned on in the next Ember CLI 3.27 release**, but the [Enable Embroider Request for Comments (RFC)](https://github.com/emberjs/rfcs/pull/746) was opened up today by [Travis Hoover (@thoov)](https://github.com/thoov), check it out!
@@ -69,79 +55,22 @@ In case you missed it, Embroider was mentioned a few times at virtual EmberConf 
 - [Keynote Part 2 AKA "Platform State of the Union"](https://www.youtube.com/watch?v=1Z6cLV2licU) by [Godfrey Chan (@chancancode)](https://github.com/chancancode) had an Embroider highlight, [starting here](https://youtu.be/1Z6cLV2licU?t=555).
 - In the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk, [Edward Faulkner (@ef4)](https://github.com/ef4) descrobes the Embroider vision and what it can unlock:
 
+<!-- alex ignore wjust -->
 > The future of web build tooling is exciting and very bright. It's good now and it's going to get even better. Embroider is the Ember community's bridge into that future. We're going to keep shipping, keep stabilizing, keep making it even easier and more default until every Ember app just works with all of these things that I'm showing you [in the [Fun Fast Tools for Serious Work](https://www.youtube.com/watch?v=09USvAy7w9g) talk], without extra effort.
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Ember Apollo Client + `@use` 💡](https://dev.to/chrismllr/ember-apollo-client-use-5h3o)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In a new app, [Chris Miller (@chrismllr)](https://github.com/chrismllr) got to try out [ember-apollo-client](https://github.com/ember-graphql/ember-apollo-client), a GraphQL client for Ember apps. 🧡
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Chris summarized his learning in the article [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o). The article concerns the following question:
 
----
+- Ember provides a few possible ways to fetch data. Which way do we follow with `ember-apollo-client` in the equation?
 
-## [4. Section title in sentence case 🐹](section-url)
+Towards the end, Chris shows how to use the `@use` API (from [ember-could-get-used-to-this](https://github.com/pzuraq/ember-could-get-used-to-this)) to wrap `ember-apollo-client` methods. This solution may apply to other data-fetching APIs, such as Ember Data.
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Interested in learning more? Check out [Ember Apollo Client + `@use`](https://dev.to/chrismllr/ember-apollo-client-use-5h3o) today!
 
 ---
 
@@ -171,4 +100,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Isaac Lee, Amy Lam, the crowd and the Learning Team
+Chris Ng, Isaac Lee, Amy Lam, and the Learning Team
