@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 180
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - tim-foster
 date: 2021-05-21T00:00:00.000Z
 tags:
   - newsletter
@@ -10,19 +10,17 @@ tags:
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING> Quickstart to authentication
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+<!--alex disable simple-->
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+## [1. Ember Simple Auth Video 📽](https://www.youtube.com/watch?v=bSWN4_EbTPI)
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Need a friendly, step by step guide to adding authentication to your Ember app? Look no further than the Ember Simple Auth [Quickstart video](https://www.youtube.com/watch?v=bSWN4_EbTPI) published by [Simplabs](https://simplabs.com/). Acting as a helpful introduction to authentication/authorization using this popular [Ember addon](https://ember-simple-auth.com/).
+
+<!--alex enable simple-->
 
 ---
 
@@ -136,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Tim Foster and the Learning Team
