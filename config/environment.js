@@ -23,6 +23,11 @@ module.exports = function (environment) {
       // when it is created
     },
 
+    showdown: {
+      ghCompatibleHeaderId: true,
+      prefixHeaderId: 'toc_',
+    },
+
     blog: {
       title: 'Ember.js Blog',
       description: 'Official Blog for the Ember.js Open Source Project',
