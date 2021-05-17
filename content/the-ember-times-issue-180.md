@@ -18,7 +18,7 @@ tags:
 
 ## [1. Ember Simple Auth Video 📽](https://www.youtube.com/watch?v=bSWN4_EbTPI)
 
-Need a friendly, step by step guide to adding authentication to your Ember app? Look no further than the Ember Simple Auth [Quickstart video](https://www.youtube.com/watch?v=bSWN4_EbTPI) published by [Simplabs](https://simplabs.com/). Acting as a helpful introduction to authentication/authorization using this popular [Ember addon](https://ember-simple-auth.com/).
+Are you looking for a friendly, step by step guide to adding authentication to your Ember app? Look no further than the Ember Simple Auth [Quickstart video](https://www.youtube.com/watch?v=bSWN4_EbTPI) published by [Simplabs](https://simplabs.com/). Acting as a helpful introduction to authentication/authorization using this popular [Ember addon](https://ember-simple-auth.com/).
 
 <!--alex enable simple-->
 
