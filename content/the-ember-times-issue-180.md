@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 180
 authors:
   - tim-foster
+  - chris-ng
 date: 2021-05-21T00:00:00.000Z
 tags:
   - newsletter
@@ -9,7 +10,7 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+Prettier for Handlebars Support 🙌
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING> Quickstart to authentication
 
 ---
@@ -24,15 +25,16 @@ Are you looking for a friendly, step by step guide to adding authentication to y
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Prettier for Handlebars Support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars
+)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released [version 2.3.0](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars). Thank you to [Cyrille David (@dcyriller)](https://github.com/dcyriller) for pushing this initiative, which started in 2017, through the finish line.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and reprinting it with its own rules that take the maximum line length into account, wrapping code when necessary. This removes all bikeshedding on what rules we should have or shouldn’t have and instead provides one standard for everyone to use by default.
+
+In order to keep your project aligned with Prettier’s formatting we can use the Ember Template Lint plugin: [ember-template-lint-plugin-prettier](https://github.com/ember-template-lint/ember-template-lint-plugin-prettier). This plugin defines a _single rule_ that rule will compare your code with Prettier's output.
+
+So try it out today by using the **glimmer parser** for Prettier!
 
 ---
 
@@ -134,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster and the Learning Team
+Tim Foster, Chris Ng, and the Learning Team
