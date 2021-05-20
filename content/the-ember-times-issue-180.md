@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 180
 authors:
   - tim-foster
+  - chris-ng
   - amy-lam
 date: 2021-05-21T00:00:00.000Z
 tags:
@@ -10,12 +11,25 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
+  
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Prettier for Handlebars Support 🙌
 Quickstart to authentication,
 Built with Ember: Fleetbase,
 ...
+  
+---  
 
+## [Prettier for Handlebars Support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars)
+
+Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released [version 2.3.0](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars). Thank you to [Cyrille David (@dcyriller)](https://github.com/dcyriller) for pushing this initiative, which started in 2017, through the finish line.
+
+Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and reprinting it with its own rules that take the maximum line length into account, wrapping code when necessary. This removes all bikeshedding on what rules we should have or shouldn’t have and instead provides one standard for everyone to use by default.
+
+In order to keep your project aligned with Prettier’s formatting we can use the Ember Template Lint plugin: [ember-template-lint-plugin-prettier](https://github.com/ember-template-lint/ember-template-lint-plugin-prettier). This plugin defines a _single rule_ that rule will compare your code with Prettier's output.
+
+So try it out today by using the **glimmer parser** for Prettier!  
+  
 ---
 
 <!--alex disable simple-->
@@ -27,7 +41,7 @@ Are you looking for a friendly, step by step guide to adding authentication to y
 <!--alex enable simple-->
 
 ---
-
+  
 ## [Built with Ember: Fleetbase 🚀](https://fleetbase.io/)
 
 [Fleetbase](https://fleetbase.io/) is a new logistics platform built with Ember by co-founders [Ronald A. Richardson (@roncodes)](https://github.com/roncodes) and [Shiv Thakker (@shivthakker)](https://github.com/shivthakker). Fleetbase is an API-first logistics platform for developers and businesses. Customers can design, build, customize and control their logistics operations and experience using their APIs and console. Based in Singapore, Fleetbase has a mission to **tech enable** traditional businesses.
@@ -134,4 +148,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Amy Lam and the Learning Team
+Tim Foster, Chris Ng, Amy Lam, and the Learning Team
