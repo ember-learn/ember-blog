@@ -20,8 +20,7 @@ Built with Ember: Fleetbase,
   
 ---  
 
-## [Prettier for Handlebars Support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars
-)
+## [Prettier for Handlebars Support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars)
 
 Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released [version 2.3.0](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars). Thank you to [Cyrille David (@dcyriller)](https://github.com/dcyriller) for pushing this initiative, which started in 2017, through the finish line.
 
