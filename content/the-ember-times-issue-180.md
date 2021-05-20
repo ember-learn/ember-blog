@@ -2,15 +2,19 @@
 title: The Ember Times - Issue No. 180
 authors:
   - tim-foster
+  - amy-lam
 date: 2021-05-21T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING> Quickstart to authentication
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Quickstart to authentication,
+Built with Ember: Fleetbase,
+...
 
 ---
 
@@ -24,15 +28,11 @@ Are you looking for a friendly, step by step guide to adding authentication to y
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Built with Ember: Fleetbase 🚀](https://fleetbase.io/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Fleetbase](https://fleetbase.io/) is a new logistics platform built with Ember by co-founders [Ronald A. Richardson (@roncodes)](https://github.com/roncodes) and [Shiv Thakker (@shivthakker)](https://github.com/shivthakker). Fleetbase is an API-first logistics platform for developers and businesses. Customers can design, build, customize and control their logistics operations and experience using their APIs and console. Based in Singapore, Fleetbase has a mission to **tech enable** traditional businesses.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase)!
 
 ---
 
@@ -134,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster and the Learning Team
+Tim Foster, Amy Lam and the Learning Team
