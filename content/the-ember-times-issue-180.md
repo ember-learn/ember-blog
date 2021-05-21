@@ -4,6 +4,7 @@ authors:
   - tim-foster
   - chris-ng
   - amy-lam
+  - anne-greeth-van-herwijnen
 date: 2021-05-21T00:00:00.000Z
 tags:
   - newsletter
@@ -16,6 +17,7 @@ tags:
 Prettier for Handlebars Support 🙌
 Quickstart to authentication,
 Built with Ember: Fleetbase,
+Embroider in 3.5 weeks 📝,
 ...
   
 ---  
@@ -50,15 +52,15 @@ Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Embroider: from zero to route splitting in 3.5 weeks 📝](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you have been part of the Ember community for a while now and have read [The Ember Times' last issue](https://blog.emberjs.com/the-ember-times-issue-179#toc_readers-question-what%E2%80%99s-the-current-status-of-the-embroider-project-%F0%9F%A7%B5), you have probably heard about [Embroider](https://github.com/embroider-build/embroider). This project is currently at version 0.41.0 and usable in Ember projects.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Ben Demboski @bendemboski](https://github.com/bendemboski) wrote this [blog](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) about how they implemented Embroider in their [`ember-electron`](https://ember-electron.js.org) app.
+
+Ben's [blog post](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) explains in detail the app and the process they used to make their app use Embroider. All the hard things they ran into, such as ES6 module compliance and third-party add-ons. Luckily, after 3.5 weeks, they achieved what they wanted: **tree-shaking** and **code splitting across routes**. So if you want to start taking advantage of what Embroider has to offer, this post is a great place to start.
+
+If you read the blog, start with this project yourself and look for a place to get more help, check out the `#dev-embroider` channel on [Ember.JS discord](https://discord.gg/emberjs).
 
 ---
 
@@ -148,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Chris Ng, Amy Lam, and the Learning Team
+Tim Foster, Chris Ng, Amy Lam, Anne-Greeth van Herwijnen and the Learning Team
