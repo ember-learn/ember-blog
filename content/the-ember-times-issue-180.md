@@ -18,6 +18,7 @@ Prettier for Handlebars Support 🙌
 Quickstart to authentication,
 Built with Ember: Fleetbase,
 Embroider in 3.5 weeks 📝,
+New and shiny add-ons ✨,
 ...
   
 ---  
@@ -56,7 +57,7 @@ Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase
 
 If you have been part of the Ember community for a while now and have read [The Ember Times' last issue](https://blog.emberjs.com/the-ember-times-issue-179#toc_readers-question-what%E2%80%99s-the-current-status-of-the-embroider-project-%F0%9F%A7%B5), you have probably heard about [Embroider](https://github.com/embroider-build/embroider). This project is currently at version 0.41.0 and usable in Ember projects.
 
-[Ben Demboski @bendemboski](https://github.com/bendemboski) wrote this [blog](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) about how they implemented Embroider in their [`ember-electron`](https://ember-electron.js.org) app.
+[Ben Demboski (@bendemboski)](https://github.com/bendemboski) wrote this [blog](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) about how they implemented Embroider in their [`ember-electron`](https://ember-electron.js.org) app.
 
 Ben's [blog post](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) explains in detail the app and the process they used to make their app use Embroider. All the hard things they ran into, such as ES6 module compliance and third-party add-ons. Luckily, after 3.5 weeks, they achieved what they wanted: **tree-shaking** and **code splitting across routes**. So if you want to start taking advantage of what Embroider has to offer, this post is a great place to start.
 
@@ -64,15 +65,15 @@ If you read the blog, start with this project yourself and look for a place to g
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## New shiny addons ✨
+  
+The Ember addon ecosystem is always expanding and we love to keep you up to date with all of them. So here is a summarized list of the latest addons made by the community for the community.
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* [ember-bem-helpers](https://github.com/retailnext/ember-bem-helpers): BEM helpers for Ember.js applications
+* [ember-breadcrumb-trail](https://github.com/Windvis/ember-breadcrumb-trail): Minimalistic but very flexible breadcrumb management solution for Ember applications.
+* [ember-url-hash-polyfill](https://github.com/CrowdStrike/ember-url-hash-polyfill): Support for in/inter page linking / scrolling with hashes in EmberJS
+* [ember-cli-custom-properties](https://github.com/onehilltech/ember-cli-custom-properties): Adds support for CSS custom properties (variables) to components
+* [ember-statechart-component](https://github.com/NullVoxPopuli/ember-statechart-component): Statecharts as components. No classes. Pure declarative state transitions.
 
 ---
 
