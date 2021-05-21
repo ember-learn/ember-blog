@@ -64,9 +64,9 @@ Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase
 
 ---
 
-## New shiny add-ons ✨
+## New shiny addons ✨
   
-The Ember add-on ecosystem is always expanding and we love to keep you up to date with all of them. So here is a summarized list of the latest add-ons made by the community for the community.
+The Ember addon ecosystem is always expanding and we love to keep you up to date with all of them. So here is a summarized list of the latest add-ons made by the community for the community.
 
 * [ember-bem-helpers: BEM helpers for Ember.js applications](https://github.com/retailnext/ember-bem-helpers)
 * [ember-breadcrumb-trail: Minimalistic but very flexible breadcrumb management solution for Ember applications.](https://github.com/Windvis/ember-breadcrumb-trail)
