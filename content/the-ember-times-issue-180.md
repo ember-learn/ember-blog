@@ -4,6 +4,7 @@ authors:
   - tim-foster
   - chris-ng
   - amy-lam
+  - anne-greeth-van-herwijnen
 date: 2021-05-21T00:00:00.000Z
 tags:
   - newsletter
@@ -16,6 +17,7 @@ tags:
 Prettier for Handlebars Support 🙌
 Quickstart to authentication,
 Built with Ember: Fleetbase,
+New and shiny add-ons ✨,
 ...
   
 ---  
@@ -62,15 +64,15 @@ Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## New shiny add-ons ✨
+  
+The Ember add-on ecosystem is always expanding and we love to keep you up to date with all of them. So here is a summarized list of the latest add-ons made by the community for the community.
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* [ember-bem-helpers: BEM helpers for Ember.js applications](https://github.com/retailnext/ember-bem-helpers)
+* [ember-breadcrumb-trail: Minimalistic but very flexible breadcrumb management solution for Ember applications.](https://github.com/Windvis/ember-breadcrumb-trail)
+* [ember-url-hash-polyfill: Support for in/inter page linking / scrolling with hashes in EmberJS](https://github.com/CrowdStrike/ember-url-hash-polyfill)
+* [ember-cli-custom-properties: Adds support for CSS custom properties (variables) to components](https://github.com/onehilltech/ember-cli-custom-properties)
+* [ember-statechart-component: Statecharts as components. No classes. Pure declarative state transitions.](https://github.com/NullVoxPopuli/ember-statechart-component)
 
 ---
 
@@ -148,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Chris Ng, Amy Lam, and the Learning Team
+Tim Foster, Chris Ng, Amy Lam, Anne-Greeth van Herwijnen and the Learning Team
