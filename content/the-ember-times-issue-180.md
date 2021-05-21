@@ -74,6 +74,7 @@ The Ember addon ecosystem is always expanding and we love to keep you up to date
 * [ember-url-hash-polyfill](https://github.com/CrowdStrike/ember-url-hash-polyfill): Support for in/inter page linking / scrolling with hashes in EmberJS
 * [ember-cli-custom-properties](https://github.com/onehilltech/ember-cli-custom-properties): Adds support for CSS custom properties (variables) to components
 * [ember-statechart-component](https://github.com/NullVoxPopuli/ember-statechart-component): Statecharts as components. No classes. Pure declarative state transitions.
+* [ember-command](https://github.com/gossi/ember-command): An implementation of the command design pattern for #emberjs
 
 ---
 
