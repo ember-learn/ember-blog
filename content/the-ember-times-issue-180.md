@@ -68,11 +68,11 @@ Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase
   
 The Ember addon ecosystem is always expanding and we love to keep you up to date with all of them. So here is a summarized list of the latest add-ons made by the community for the community.
 
-* [ember-bem-helpers: BEM helpers for Ember.js applications](https://github.com/retailnext/ember-bem-helpers)
-* [ember-breadcrumb-trail: Minimalistic but very flexible breadcrumb management solution for Ember applications.](https://github.com/Windvis/ember-breadcrumb-trail)
-* [ember-url-hash-polyfill: Support for in/inter page linking / scrolling with hashes in EmberJS](https://github.com/CrowdStrike/ember-url-hash-polyfill)
-* [ember-cli-custom-properties: Adds support for CSS custom properties (variables) to components](https://github.com/onehilltech/ember-cli-custom-properties)
-* [ember-statechart-component: Statecharts as components. No classes. Pure declarative state transitions.](https://github.com/NullVoxPopuli/ember-statechart-component)
+* [ember-bem-helpers](https://github.com/retailnext/ember-bem-helpers): BEM helpers for Ember.js applications
+* [ember-breadcrumb-trail](https://github.com/Windvis/ember-breadcrumb-trail): Minimalistic but very flexible breadcrumb management solution for Ember applications.
+* [ember-url-hash-polyfill](https://github.com/CrowdStrike/ember-url-hash-polyfill): Support for in/inter page linking / scrolling with hashes in EmberJS
+* [ember-cli-custom-properties](https://github.com/onehilltech/ember-cli-custom-properties): Adds support for CSS custom properties (variables) to components
+* [ember-statechart-component](https://github.com/NullVoxPopuli/ember-statechart-component): Statecharts as components. No classes. Pure declarative state transitions.
 
 ---
 
