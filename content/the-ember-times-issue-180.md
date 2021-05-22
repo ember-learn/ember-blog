@@ -53,7 +53,7 @@ If you have been part of the Ember community for a while now and have read [The 
 
 Ben's [blog post](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) explains in detail the app and the process used to make the app use Embroider. All the hard things he ran into, such as ES6 module compliance and third-party add-ons. Luckily, after 3.5 weeks, Ben achieved **tree-shaking** and **code splitting across routes**. So if you want to start taking advantage of what Embroider has to offer, this post is a great place to start.
 
-If you read the blog, start with this project yourself and look for a place to get more help, check out the `#dev-embroider` channel on [Ember.JS discord](https://discord.gg/emberjs).
+If you read the blog, start with this project yourself and look for a place to get more help, check out the `#dev-embroider` channel on [Ember.JS Discord](https://discord.gg/emberjs).
 
 ---
 
