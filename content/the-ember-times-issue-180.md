@@ -13,13 +13,13 @@ tags:
 
 👋 Emberistas! 🐹
   
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Happy 10 year anniversary, Ember.js!
 Prettier for Handlebars Support 🙌,
 Embroider in 3.5 weeks 📝,
+Ember takes the GAAD Pledge,
 Quickstart to authentication,
 Built with Ember: Fleetbase,
-New and shiny add-ons ✨,
-...
+and new and shiny add-ons ✨.
   
 ---  
 
@@ -57,6 +57,14 @@ If you read the blog, start with this project yourself and look for a place to g
 
 ---
 
+## [Ember takes the GAAD Pledge 😍](https://blog.emberjs.com/gaad-2021)
+
+[Melanie Sumner (@MelSumner)](https://github.com/MelSumner) authored a blog post in conjuction with this week's [Global Accessibility Awareness Day](https://globalaccessibilityawarenessday.org/) (GAAD) to announce that Ember has taken the GAAD pledge **to make accessibility a core value of our framework**.
+
+Be sure to read the [post](https://blog.emberjs.com/gaad-2021) to learn more about what Ember has done so far in its efforts for “accessibility by default” , what accessibilty-related work is in the pipeline, and how you can get involved if you're interesting in contributing to Ember a11y efforts!
+
+---
+
 <!--alex disable simple-->
 ## [Ember Simple Auth Video 📽](https://www.youtube.com/watch?v=bSWN4_EbTPI)
 
@@ -84,54 +92,6 @@ The Ember addon ecosystem is always expanding and we love to keep you up to date
 * [ember-cli-custom-properties](https://github.com/onehilltech/ember-cli-custom-properties): Adds support for CSS custom properties (variables) to components
 * [ember-statechart-component](https://github.com/NullVoxPopuli/ember-statechart-component): Statecharts as components. No classes. Pure declarative state transitions.
 * [ember-command](https://github.com/gossi/ember-command): An implementation of the command design pattern for #emberjs
-
----
-
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
