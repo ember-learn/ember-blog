@@ -13,14 +13,8 @@ tags:
 
 👋 Emberistas! 🐹
   
-Happy 10 year anniversary, Ember.js!
-Prettier for Handlebars Support 🙌,
-Embroider in 3.5 weeks 📝,
-Ember takes the GAAD Pledge,
-Quickstart to authentication,
-Built with Ember: Fleetbase,
-and new and shiny add-ons ✨.
-  
+Ember's 10 year anniversary, Prettier for Handlebars support, Embroider in 3.5 weeks, GAAD pledge, quickstart to authentication, built with Ember: Fleetbase, and new and shiny add-ons ✨
+
 ---  
 
 ## Happy 10 year anniversary, Ember.js! 🎉
@@ -33,7 +27,7 @@ Many thanks to [Natasha Fel](https://twitter.com/NataliFel/status/13932409182584
 
 ---
 
-## [Prettier for Handlebars Support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars)
+## [Prettier for Handlebars support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars)
 
 Prettier can now officially format HTML templates with Handlebars (HBS) in the newly released [version 2.3.0](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars). Thank you to [Cyrille David (@dcyriller)](https://github.com/dcyriller) for pushing this initiative, which started in 2017, through the finish line.
 
