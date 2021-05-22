@@ -14,14 +14,24 @@ tags:
 👋 Emberistas! 🐹
   
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Prettier for Handlebars Support 🙌
+Prettier for Handlebars Support 🙌,
+Embroider in 3.5 weeks 📝,
 Quickstart to authentication,
 Built with Ember: Fleetbase,
-Embroider in 3.5 weeks 📝,
 New and shiny add-ons ✨,
 ...
   
 ---  
+
+## Happy 10 year anniversary, Ember.js! 🎉
+
+<div>
+  <img alt="Ember 10 year anniversary cake" title="Jared Galanis - Contributor to Ember" src="/images/blog/emberjstimes/ember-10-year-anniversary-cake.jpeg" />
+</div>
+
+Many thanks to [Natasha Fel](https://twitter.com/NataliFel/status/1393240918258499589) and [Andrey Fel (@andreyfel)](https://github.com/andreyfel) for sharing their photos from [Ember Nizhny Novgorod's Meetup](https://emberjs-nn.timepad.ru/event/1618665/), which featured a celebratory Nizhny Novgorod Tomster cake for Ember's big anniversary! Check out more photos from the meetup [here](https://vk.com/album-183353390_279540779).
+
+---
 
 ## [Prettier for Handlebars Support 🙌](https://prettier.io/blog/2021/05/09/2.3.0.html#ember--handlebars)
 
@@ -35,8 +45,19 @@ So try it out today by using the **glimmer parser** for Prettier!
   
 ---
 
-<!--alex disable simple-->
+## [Embroider: from zero to route splitting in 3.5 weeks 📝](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo)
 
+If you have been part of the Ember community for a while now and have read [The Ember Times' last issue](https://blog.emberjs.com/the-ember-times-issue-179#toc_readers-question-what%E2%80%99s-the-current-status-of-the-embroider-project-%F0%9F%A7%B5), you have probably heard about [Embroider](https://github.com/embroider-build/embroider). This project is currently at version 0.41.0 and usable in Ember projects.
+
+[Ben Demboski (@bendemboski)](https://github.com/bendemboski) wrote this [blog](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) about how he implemented Embroider in a commercial, [`ember-electron`](https://ember-electron.js.org) app.
+
+Ben's [blog post](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) explains in detail the app and the process used to make the app use Embroider. All the hard things he ran into, such as ES6 module compliance and third-party add-ons. Luckily, after 3.5 weeks, Ben achieved **tree-shaking** and **code splitting across routes**. So if you want to start taking advantage of what Embroider has to offer, this post is a great place to start.
+
+If you read the blog, start with this project yourself and look for a place to get more help, check out the `#dev-embroider` channel on [Ember.JS discord](https://discord.gg/emberjs).
+
+---
+
+<!--alex disable simple-->
 ## [Ember Simple Auth Video 📽](https://www.youtube.com/watch?v=bSWN4_EbTPI)
 
 Are you looking for a friendly, step by step guide to adding authentication to your Ember app? Look no further than the Ember Simple Auth [Quickstart video](https://www.youtube.com/watch?v=bSWN4_EbTPI) published by [Simplabs](https://simplabs.com/). This video provides helpful introduction to this popular authentication/authorization [Ember addon](https://ember-simple-auth.com/). [Marco Otte-Witte (@marcoow)](https://github.com/marcoow) explains this tricky part of app development using the latest Ember Octane syntax.
@@ -50,18 +71,6 @@ Are you looking for a friendly, step by step guide to adding authentication to y
 [Fleetbase](https://fleetbase.io/) is a new logistics platform built with Ember by co-founders [Ronald A. Richardson (@roncodes)](https://github.com/roncodes) and [Shiv Thakker (@shivthakker)](https://github.com/shivthakker). Fleetbase is an API-first logistics platform for developers and businesses. Customers can design, build, customize and control their logistics operations and experience using their APIs and console. Based in Singapore, Fleetbase has a mission to **tech enable** traditional businesses.
 
 Check out Fleetbase on [ProductHunt](https://www.producthunt.com/posts/fleetbase)!
-
----
-
-## [Embroider: from zero to route splitting in 3.5 weeks 📝](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo)
-
-If you have been part of the Ember community for a while now and have read [The Ember Times' last issue](https://blog.emberjs.com/the-ember-times-issue-179#toc_readers-question-what%E2%80%99s-the-current-status-of-the-embroider-project-%F0%9F%A7%B5), you have probably heard about [Embroider](https://github.com/embroider-build/embroider). This project is currently at version 0.41.0 and usable in Ember projects.
-
-[Ben Demboski (@bendemboski)](https://github.com/bendemboski) wrote this [blog](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) about how he implemented Embroider in a commercial, [`ember-electron`](https://ember-electron.js.org) app.
-
-Ben's [blog post](https://dev.to/bendemboski/embroider-from-zero-to-route-splitting-in-3-5-weeks-5abo) explains in detail the app and the process used to make the app use Embroider. All the hard things he ran into, such as ES6 module compliance and third-party add-ons. Luckily, after 3.5 weeks, Ben achieved **tree-shaking** and **code splitting across routes**. So if you want to start taking advantage of what Embroider has to offer, this post is a great place to start.
-
-If you read the blog, start with this project yourself and look for a place to get more help, check out the `#dev-embroider` channel on [Ember.JS discord](https://discord.gg/emberjs).
 
 ---
 
