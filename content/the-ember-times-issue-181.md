@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 181
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-06-04T00:00:00.000Z
 tags:
   - newsletter
@@ -9,20 +10,18 @@ tags:
 ---
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
-
+EmberFest 2021 is happening! 🏛️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [EmberFest 2021 is happening! 🏛️](https://twitter.com/EmberFest/status/1398291012489994241)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Mark your calendars for **September 30–October 1st** of 2021 – [EmberFest](https://emberfest.eu/) will be back as a hybrid on-site/virtual event! EmberFest is the European Community Ember Conference. The location will be a secret until ticket sales are open so stay tuned.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The EmberFest team is confident that this year’s conference can happen in person. At the same time, they realize that some people can’t or might not want to travel yet, so for the first time, EmberFest is going hybrid: there will be both on-site and remote tickets for a livestream available. Early bird tickets will start on **June 11, 2021**.
+
+If you’re interested in seeing what it’s like, check out the last [EmberFest conference in 2019](https://www.youtube.com/watch?v=8EyI_xyha6k) which was in Copenhagen!
 
 ---
 
@@ -136,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
