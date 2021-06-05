@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 181
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - jared-galanis
 date: 2021-06-04T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 EmberFest 2021 is happening! 🏛️,
+Remodeling an Ember App Blog Series 📖,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -25,15 +27,13 @@ If you’re interested in seeing what it’s like, check out the last [EmberFest
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Remodeling an Ember App Blog Series 📖](https://twitter.com/jwwweber/status/1400455533627207681)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In an exciting new series of new blog posts Ember Learning core team member [Jen Weber (@jenweber)](https://github.com/jenweber) is covering the process of bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+In the process of writing the posts Jen is pairing with Ember Data core team member, [Chris Thoburn (@runspired)](https://github.com/runspired), so there should be lots of great content to look forward to in the coming days.
+
+The first post, which is available now, lays the ground work for what Jen and Chris will be working on, and includes lists of how to approach overhauling an Ember app, some debugging strategies you might take and more. You can find the first introductory blog post [here on Jen's blog](https://www.jenweber.dev/remodeling-an-ember-app---introduction/).
 
 ---
 
@@ -135,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jared Galanis the crowd and the Learning Team
