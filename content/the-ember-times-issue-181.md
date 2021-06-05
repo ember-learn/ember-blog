@@ -1,23 +1,23 @@
 ---
 title: The Ember Times - Issue No. 181
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - jared-galanis
+  - amy-lam
 date: 2021-06-04T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
-<SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
+👋 Emberistas! 🐹
 EmberFest 2021 is happening! 🏛️,
 Remodeling an Ember App Blog Series 📖,
 Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
 ember-concurrency 2.1.0 release 🐹,
+Ember Data happenings 👀
 Keeping a Clean Git History 🖋,
 A New Episode of Web, Whiskey & Whatnot 🔈,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
@@ -62,13 +62,13 @@ If you been looking to access the internals of ember-concurrency that allow it t
 
 ---
 
-## [Keeping a Clean Git History 🖋](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
+## Ember Data happenings 👀
 
-Ember Learning core team member [Chris Manson (@mansona)](https://github.com/mansona) has published a super helpful new blog post about one of the developer fundamentals that we all should know about, how to keep a clean git history.
+In a prior issue, we mentioned that Ember.js celebrated it's 10th birthday! However, Ember Data's first commits in GitHub were ~15 years ago. The commit history started in SproutCore, which later morphed into Ember.js and Ember Data. Check out [Chris Thoburn (@runspired)'s](https://github.com/runspired)'s talk on [Ember Data](https://www.youtube.com/watch?v=zbqbsOyLM30) from Ember Fest 2019 for more background!
 
-Chris talks about the importance of keeping a tidy git history and provides some excellent tips and workflows on how one might go about doing that. There is also an in-depth working example of some challenges that come up when managing your commits and how you can use visual tools like [Fork](https://git-fork.com/) to achieve a higher level of mastery over your git history.
+In more Ember Data news, v4.0 is coming! Open [Ember Data RFCs](https://github.com/emberjs/rfcs/pulls?q=is%3Apr+is%3Aopen+label%3AT-ember-data) will target 5.0, and approved RFC's will be enabled in 4.1 at the soonest.
 
-Head on over to the Simplabs blog to check out the [post](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/) and learn how to clean up your git history!
+[RFC #475](https://github.com/emberjs/rfcs/pull/745) calls for modernizing the `PromiseManyArray`. The RFC intends to deprecate reading, mutating or operating on an async `hasMany` relationship before resolving its value in the application's JavaScript code. Rendering an async `hasMany` in a template will continue to work as expected. Check out the [rendered RFC](https://github.com/runspired/rfcs/blob/ember-data/deprecate-methods-on-promise-many-array/text/0745-ember-data-deprecate-methods-on-promise-many-array.md) and comment if you have any feedback!
 
 ---
 
@@ -80,33 +80,19 @@ Go checkout the episode wherever you listen to podcasts!
 
 ---
 
-## [7. Section title in sentence case 🐹](section-url)
+## [Keeping a Clean Git History 🖋](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Ember Learning core team member [Chris Manson (@mansona)](https://github.com/mansona) has published a super helpful new blog post about one of the developer fundamentals that we all should know about, how to keep a clean git history.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Chris talks about the importance of keeping a tidy git history and provides some excellent tips and workflows on how one might go about doing that. There is also an in-depth working example of some challenges that come up when managing your commits and how you can use visual tools like [Fork](https://git-fork.com/) to achieve a higher level of mastery over your git history.
 
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Head on over to the Simplabs blog to check out the [post](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/) and learn how to clean up your git history!
 
 ---
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/hannakim91" rel="noopener noreferrer" target="_blank">Hanna (she/her) (@hannakim91)</a>, <a href="https://github.com/brendenpalmer" rel="noopener noreferrer" target="_blank">Brenden Palmer (@brendenpalmer)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/Windvis" rel="noopener noreferrer" target="_blank">Sam Van Campenhout (@Windvis)</a>, <a href="https://github.com/btecu" rel="noopener noreferrer" target="_blank">Bj Tecu (@btecu)</a>, <a href="https://github.com/MichalBryxi" rel="noopener noreferrer" target="_blank">Michal Bryxí (@MichalBryxi)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/j000shDotCom" rel="noopener noreferrer" target="_blank">Josh Lindsay (@j000shDotCom)</a>, <a href="https://github.com/skaterdav85" rel="noopener noreferrer" target="_blank">David Tang (@skaterdav85)</a>, <a href="https://github.com/mixonic" rel="noopener noreferrer" target="_blank">Matthew Beale (@mixonic)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/stefanpenner" rel="noopener noreferrer" target="_blank">Stefan Penner (@stefanpenner)</a>, <a href="https://github.com/runnerboy22" rel="noopener noreferrer" target="_blank">Tyler (@runnerboy22)</a>, <a href="https://github.com/helgablazhkun" rel="noopener noreferrer" target="_blank">Olga Torkhanova (@helgablazhkun)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/aoumiri" rel="noopener noreferrer" target="_blank">Anass OUMIRI (@aoumiri)</a>, <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/elwayman02" rel="noopener noreferrer" target="_blank">Jordan Hawker (@elwayman02)</a>, <a href="https://github.com/lukemelia" rel="noopener noreferrer" target="_blank">Luke Melia (@lukemelia)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, and <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -130,4 +116,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis the crowd and the Learning Team
+Chris Ng, Jared Galanis, Amy Lam, and the Learning Team
