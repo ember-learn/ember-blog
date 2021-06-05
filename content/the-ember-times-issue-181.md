@@ -15,6 +15,7 @@ EmberFest 2021 is happening! 🏛️,
 Remodeling an Ember App Blog Series 📖,
 Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
 ember-concurrency 2.1.0 release 🐹,
+Keeping a Clean Git History 🖋,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -60,15 +61,13 @@ If you been looking to access the internals of ember-concurrency that allow it t
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [Keeping a Clean Git History 🖋](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Ember Learning core team member [Chris Manson (@mansona)](https://github.com/mansona) has published a super helpful new blog post about one of the developer fundamentals that we all should know about, how to keep a clean git history.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Chris talks about the importance of keeping a tidy git history and provides some excellent tips and workflows on how one might go about doing that. There is also an in-depth working example of some challenges that come up when managing your commits and how you can use visual tools like [Fork](https://git-fork.com/) to achieve a higher level of mastery over your git history.
+
+Head on over to the Simplabs blog to check out the [post](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/) and learn how to clean up your git history!
 
 ---
 
