@@ -51,7 +51,7 @@ If you haven't had enough Krycho 😄 and have some more time on your hands, you
 
 ## [ember-concurrency 2.1.0 release 🐹](https://twitter.com/m4xm4n/status/1399769152953462790)
 
-<!-- alex ignore waiters-->
+<!-- alex ignore retext-equality-->
 In case you hadn't noticed [Max Fierke (@maxfierke)](https://github.com/maxfierke) recently released version 2.1.0 of `ember-concurrency`! This release includes a public API for Yieldables. Yieldables let you hook into the low-level execution logic of an ember-concurrency task and provide a new way to instrument TaskInstances by providing a safe mechanism to implement custom waiters, hooks, introspection, and other operations from application code.
 
 ember-concurrency 2.1.0 also fixes an important bug where task state updates could be applied out of order in some situations.
