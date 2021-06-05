@@ -12,13 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberFest 2021 is happening! 🏛️,
-Remodeling an Ember App Blog Series 📖,
-Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
-ember-concurrency 2.1.0 release 🐹,
-Ember Data happenings 👀
-A New Episode of Web, Whiskey & Whatnot 🔈,
-Keeping a Clean Git History 🖋,
+EmberFest, remodeling an Ember app, Ember CLI history, ember-auto-import, web bundling, ember-concurrency release, Ember Data roundup, rwjblue podcast, and keeping a clean git history.
 
 ---
 
@@ -32,7 +26,7 @@ If you’re interested in seeing what it’s like, check out the last [EmberFest
 
 ---
 
-## [Ember CLI History, ember-auto-import, Web Bundling & More 🌎](https://twitter.com/chriskrycho/status/1397991369231138817)
+## [Ember CLI history, ember-auto-import, web bundling & more 🌎](https://twitter.com/chriskrycho/status/1397991369231138817)
 
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently got together with some LinkedIn colleagues, [Dave Combs (@davecombs)](https://github.com/davecombs) and [Richard Conrad (@grconrad)](https://github.com/grconrad), to chat about the history of Ember CLI, ember-auto-import, web bundling and more.
 
@@ -52,7 +46,7 @@ In more Ember Data news, v4.0 is coming! Open [Ember Data Request For Comments (
 
 ---
 
-## [Remodeling an Ember App Blog Series 📖](https://twitter.com/jwwweber/status/1400455533627207681)
+## [Remodeling an Ember app blog series 📖](https://twitter.com/jwwweber/status/1400455533627207681)
 
 In an exciting new series of new blog posts Ember Learning core team member [Jen Weber (@jenweber)](https://github.com/jenweber) is covering the process of bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy.
 
@@ -73,7 +67,7 @@ If you been looking to access the internals of ember-concurrency that allow it t
 
 ---
 
-## [A New Episode of Web, Whiskey & Whatnot 🔈](https://twitter.com/shipshapecode/status/1397661771146698752)
+## [A new episode of Web, Whiskey & Whatnot 🔈](https://twitter.com/shipshapecode/status/1397661771146698752)
 
 There's a new episode of the Ember-related podcast Web, Whiskey & Whatnot out 🎉! This episode features none other than [Robert Jackson (@rwjblue)](https://github.com/rwjblue). The Ship Shape gang and rwjblue discuss a bit about how rwjblue got involved in contributing to Ember.js, a bit about the web and, yes, a bit about whiskey.
 
@@ -81,7 +75,7 @@ Go checkout the episode wherever you listen to podcasts!
 
 ---
 
-## [Keeping a Clean Git History 🖋](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
+## [Keeping a clean git history 🖋](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
 
 Ember Learning core team member [Chris Manson (@mansona)](https://github.com/mansona) has published a super helpful new blog post about one of the developer fundamentals that we all should know about, how to keep a clean git history.
 
