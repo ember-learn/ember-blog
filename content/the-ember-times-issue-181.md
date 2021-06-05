@@ -29,7 +29,7 @@ If you’re interested in seeing what it’s like, check out the last [EmberFest
 
 ## [Remodeling an Ember App Blog Series 📖](https://twitter.com/jwwweber/status/1400455533627207681)
 
-In an exciting new series of new blog posts Ember Learning core team member [Jen Weber (@jenweber)](https://github.com/jenweber) is covering the process of bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy. 
+In an exciting new series of new blog posts Ember Learning core team member [Jen Weber (@jenweber)](https://github.com/jenweber) is covering the process of bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy.
 
 In the process of writing the posts Jen is pairing with Ember Data core team member, [Chris Thoburn (@runspired)](https://github.com/runspired), so there should be lots of great content to look forward to in the coming days.
 
