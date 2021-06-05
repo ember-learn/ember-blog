@@ -16,6 +16,7 @@ Remodeling an Ember App Blog Series 📖,
 Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
 ember-concurrency 2.1.0 release 🐹,
 Keeping a Clean Git History 🖋,
+A New Episode of Web, Whiskey & Whatnot 🔈,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -71,15 +72,11 @@ Head on over to the Simplabs blog to check out the [post](https://simplabs.com/b
 
 ---
 
-## [6. Section title in sentence case 🐹](section-url)
+## [A New Episode of Web, Whiskey & Whatnot 🔈](https://twitter.com/shipshapecode/status/1397661771146698752)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a new episode of the Ember-related podcast Web, Whiskey & Whatnot out 🎉! This episode features none other than [Robert Jackson (@rwjblue)](https://github.com/rwjblue). The Ship Shape gang and rwjblue discuss a bit about how rwjblue got involved in contributing to Ember.js, a bit about the web and, yes, a bit about whiskey.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Go checkout the episode wherever you listen to podcasts!
 
 ---
 
