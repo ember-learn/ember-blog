@@ -13,6 +13,8 @@ tags:
 👋 Emberistas! 🐹
 EmberFest 2021 is happening! 🏛️,
 Remodeling an Ember App Blog Series 📖,
+Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
+ember-concurrency 2.1.0 release 🐹,
 Ember Data happenings 👀
 
 ---
@@ -37,15 +39,24 @@ The first post, which is available now, lays the ground work for what Jen and Ch
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Ember CLI History, ember-auto-import, Web Bundling & More 🌎](https://twitter.com/chriskrycho/status/1397991369231138817)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently got together with some LinkedIn colleagues, [Dave Combs (@davecombs)](https://github.com/davecombs) and [Richard Conrad (@grconrad)](https://github.com/grconrad), to chat about the history of Ember CLI, ember-auto-import, web bundling and more.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you've been looking to learn more about how these things came into being and developed over time, including how they have had impact on the development of modern build tools like Embroider, then you may want to go check out the super interesting [video](https://www.youtube.com/watch?v=c5yV1HjGIK0).
+
+If you haven't had enough Krycho 😄 and have some more time on your hands, you might also want to go checkout a package that Chris [recently published](https://twitter.com/chriskrycho/status/1397747097487613952) called `ember-simple-track-helper` which essentially provides an equivalence for React's `useState` hook for Ember and Glimmer template only components.
+
+---
+
+## [ember-concurrency 2.1.0 release 🐹](https://twitter.com/m4xm4n/status/1399769152953462790)
+
+<!--alex ignore waiters-waitresses-->
+In case you hadn't noticed [Max Fierke (@maxfierke)](https://github.com/maxfierke) recently released version 2.1.0 of `ember-concurrency`! This release includes a public API for Yieldables. Yieldables let you hook into the low-level execution logic of an ember-concurrency task and provide a new way to instrument TaskInstances by providing a safe mechanism to implement custom waiters, hooks, introspection, and other operations from application code.
+
+ember-concurrency 2.1.0 also fixes an important bug where task state updates could be applied out of order in some situations.
+
+If you been looking to access the internals of ember-concurrency that allow it to go beyond what Promises are capable of, [this release](https://github.com/machty/ember-concurrency/releases/tag/2.1.0) might be of interest to you.
 
 ---
 
@@ -56,18 +67,6 @@ In a prior issue, we mentioned that Ember.js celebrated it's 10th birthday! Howe
 In more Ember Data news, v4.0 is coming! Open [Ember Data RFCs](https://github.com/emberjs/rfcs/pulls?q=is%3Apr+is%3Aopen+label%3AT-ember-data) will target 5.0, and approved RFC's will be enabled in 4.1 at the soonest.
 
 [RFC #475](https://github.com/emberjs/rfcs/pull/745) calls for modernizing the `PromiseManyArray`. The RFC intends to deprecate reading, mutating or operating on an async `hasMany` relationship before resolving its value in the application's JavaScript code. Rendering an async `hasMany` in a template will continue to work as expected. Check out the [rendered RFC](https://github.com/runspired/rfcs/blob/ember-data/deprecate-methods-on-promise-many-array/text/0745-ember-data-deprecate-methods-on-promise-many-array.md) and comment if you have any feedback!
-
----
-
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
