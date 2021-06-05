@@ -13,6 +13,7 @@ tags:
 <SAYING-HELLO-IN-YOUR-FAVORITE-LANGUAGE> Emberistas! 🐹
 EmberFest 2021 is happening! 🏛️,
 Remodeling an Ember App Blog Series 📖,
+Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -37,15 +38,13 @@ The first post, which is available now, lays the ground work for what Jen and Ch
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Ember CLI History, ember-auto-import, Web Bundling & More 🌎](https://twitter.com/chriskrycho/status/1397991369231138817)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently got together with some LinkedIn colleagues, [Dave Combs (@davecombs)](https://github.com/davecombs) and [Richard Conrad (@grconrad)](https://github.com/grconrad), to chat about the history of Ember CLI, ember-auto-import, web bundling and more.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you've been looking to learn more about how these things came into being and developed over time, including how they have had impact on the development of modern build tools like Embroider, then you may want to go check out the super interesting [video](https://www.youtube.com/watch?v=c5yV1HjGIK0).
+
+If you haven't had enough Krycho 😄 and have some more time on your hands, you might also want to go checkout a package that Chris [recently published](https://twitter.com/chriskrycho/status/1397747097487613952) called `ember-simple-track-helper` which essentially provides an equivalence for React's `useState` hook for Ember and Glimmer template only components.
 
 ---
 
