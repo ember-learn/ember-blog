@@ -14,6 +14,7 @@ tags:
 EmberFest 2021 is happening! 🏛️,
 Remodeling an Ember App Blog Series 📖,
 Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
+ember-concurrency 2.1.0 release 🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -48,15 +49,14 @@ If you haven't had enough Krycho 😄 and have some more time on your hands, you
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [ember-concurrency 2.1.0 release 🐹](https://twitter.com/m4xm4n/status/1399769152953462790)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!--alex ignore waiters-waitresses-->
+In case you hadn't noticed [Max Fierke (@maxfierke)](https://github.com/maxfierke) recently released version 2.1.0 of `ember-concurrency`! This release includes a public API for Yieldables. Yieldables let you hook into the low-level execution logic of an ember-concurrency task and provide a new way to instrument TaskInstances by providing a safe mechanism to implement custom waiters, hooks, introspection, and other operations from application code.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+ember-concurrency 2.1.0 also fixes an important bug where task state updates could be applied out of order in some situations.
+
+If you been looking to access the internals of ember-concurrency that allow it to go beyond what Promises are capable of, [this release](https://github.com/machty/ember-concurrency/releases/tag/2.1.0) might be of interest to you.
 
 ---
 
