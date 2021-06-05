@@ -17,6 +17,7 @@ Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
 ember-concurrency 2.1.0 release 🐹,
 Ember Data happenings 👀
 Keeping a Clean Git History 🖋,
+A New Episode of Web, Whiskey & Whatnot 🔈,
 
 ---
 
@@ -71,6 +72,14 @@ In more Ember Data news, v4.0 is coming! Open [Ember Data RFCs](https://github.c
 
 ---
 
+## [A New Episode of Web, Whiskey & Whatnot 🔈](https://twitter.com/shipshapecode/status/1397661771146698752)
+
+There's a new episode of the Ember-related podcast Web, Whiskey & Whatnot out 🎉! This episode features none other than [Robert Jackson (@rwjblue)](https://github.com/rwjblue). The Ship Shape gang and rwjblue discuss a bit about how rwjblue got involved in contributing to Ember.js, a bit about the web and, yes, a bit about whiskey.
+
+Go checkout the episode wherever you listen to podcasts!
+
+---
+
 ## [Keeping a Clean Git History 🖋](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
 
 Ember Learning core team member [Chris Manson (@mansona)](https://github.com/mansona) has published a super helpful new blog post about one of the developer fundamentals that we all should know about, how to keep a clean git history.
@@ -78,30 +87,6 @@ Ember Learning core team member [Chris Manson (@mansona)](https://github.com/man
 Chris talks about the importance of keeping a tidy git history and provides some excellent tips and workflows on how one might go about doing that. There is also an in-depth working example of some challenges that come up when managing your commits and how you can use visual tools like [Fork](https://git-fork.com/) to achieve a higher level of mastery over your git history.
 
 Head on over to the Simplabs blog to check out the [post](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/) and learn how to clean up your git history!
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
