@@ -11,33 +11,24 @@ tags:
 ---
 
 👋 Emberistas! 🐹
+
 EmberFest 2021 is happening! 🏛️,
 Remodeling an Ember App Blog Series 📖,
 Ember CLI History, ember-auto-import, Web Bundling & More 🌎,
 ember-concurrency 2.1.0 release 🐹,
 Ember Data happenings 👀
-Keeping a Clean Git History 🖋,
 A New Episode of Web, Whiskey & Whatnot 🔈,
+Keeping a Clean Git History 🖋,
 
 ---
 
 ## [EmberFest 2021 is happening! 🏛️](https://twitter.com/EmberFest/status/1398291012489994241)
 
-Mark your calendars for **September 30–October 1st** of 2021 – [EmberFest](https://emberfest.eu/) will be back as a hybrid on-site/virtual event! EmberFest is the European Community Ember Conference. The location will be a secret until ticket sales are open so stay tuned.
+Mark your calendars for **September 30th – October 1st** of 2021 – [EmberFest](https://emberfest.eu/) will be back as a hybrid on-site/virtual event! EmberFest is the European Community Ember Conference. The location will be a secret until ticket sales are open so stay tuned.
 
 The EmberFest team is confident that this year’s conference can happen in person. At the same time, they realize that some people can’t or might not want to travel yet, so for the first time, EmberFest is going hybrid: there will be both on-site and remote tickets for a livestream available. Early bird tickets will start on **June 11, 2021**.
 
-If you’re interested in seeing what it’s like, check out the last [EmberFest conference in 2019](https://www.youtube.com/watch?v=8EyI_xyha6k) which was in Copenhagen!
-
----
-
-## [Remodeling an Ember App Blog Series 📖](https://twitter.com/jwwweber/status/1400455533627207681)
-
-In an exciting new series of new blog posts Ember Learning core team member [Jen Weber (@jenweber)](https://github.com/jenweber) is covering the process of bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy.
-
-In the process of writing the posts Jen is pairing with Ember Data core team member, [Chris Thoburn (@runspired)](https://github.com/runspired), so there should be lots of great content to look forward to in the coming days.
-
-The first post, which is available now, lays the ground work for what Jen and Chris will be working on, and includes lists of how to approach overhauling an Ember app, some debugging strategies you might take and more. You can find the first introductory blog post [here on Jen's blog](https://www.jenweber.dev/remodeling-an-ember-app---introduction/).
+If you’re interested in seeing what it’s like, check out the last [EmberFest conference in 2019](https://www.youtube.com/watch?v=8EyI_xyha6k), which was in Copenhagen!
 
 ---
 
@@ -51,24 +42,34 @@ If you haven't had enough Krycho 😄 and have some more time on your hands, you
 
 ---
 
-## [ember-concurrency 2.1.0 release 🐹](https://twitter.com/m4xm4n/status/1399769152953462790)
-
-<!--alex ignore waiters-waitresses-->
-In case you hadn't noticed [Max Fierke (@maxfierke)](https://github.com/maxfierke) recently released version 2.1.0 of `ember-concurrency`! This release includes a public API for Yieldables. Yieldables let you hook into the low-level execution logic of an ember-concurrency task and provide a new way to instrument TaskInstances by providing a safe mechanism to implement custom waiters, hooks, introspection, and other operations from application code.
-
-ember-concurrency 2.1.0 also fixes an important bug where task state updates could be applied out of order in some situations.
-
-If you been looking to access the internals of ember-concurrency that allow it to go beyond what Promises are capable of, [this release](https://github.com/machty/ember-concurrency/releases/tag/2.1.0) might be of interest to you.
-
----
-
 ## Ember Data happenings 👀
 
 In a prior issue, we mentioned that Ember.js celebrated it's 10th birthday! However, Ember Data's first commits in GitHub were ~15 years ago. The commit history started in SproutCore, which later morphed into Ember.js and Ember Data. Check out [Chris Thoburn (@runspired)'s](https://github.com/runspired)'s talk on [Ember Data](https://www.youtube.com/watch?v=zbqbsOyLM30) from Ember Fest 2019 for more background!
 
-In more Ember Data news, v4.0 is coming! Open [Ember Data RFCs](https://github.com/emberjs/rfcs/pulls?q=is%3Apr+is%3Aopen+label%3AT-ember-data) will target 5.0, and approved RFC's will be enabled in 4.1 at the soonest.
+In more Ember Data news, v4.0 is coming! Open [Ember Data Request For Comments (RFCs)](https://github.com/emberjs/rfcs/pulls?q=is%3Apr+is%3Aopen+label%3AT-ember-data) will target 5.0, and approved RFC's will be enabled in 4.1 at the soonest.
 
 [RFC #475](https://github.com/emberjs/rfcs/pull/745) calls for modernizing the `PromiseManyArray`. The RFC intends to deprecate reading, mutating or operating on an async `hasMany` relationship before resolving its value in the application's JavaScript code. Rendering an async `hasMany` in a template will continue to work as expected. Check out the [rendered RFC](https://github.com/runspired/rfcs/blob/ember-data/deprecate-methods-on-promise-many-array/text/0745-ember-data-deprecate-methods-on-promise-many-array.md) and comment if you have any feedback!
+
+---
+
+## [Remodeling an Ember App Blog Series 📖](https://twitter.com/jwwweber/status/1400455533627207681)
+
+In an exciting new series of new blog posts Ember Learning core team member [Jen Weber (@jenweber)](https://github.com/jenweber) is covering the process of bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy.
+
+In the process of writing the posts Jen is pairing with Ember Data core team member, [Chris Thoburn (@runspired)](https://github.com/runspired), so there should be lots of great content to look forward to in the coming days.
+
+The first post, which is available now, lays the ground work for what Jen and Chris will be working on, and includes lists of how to approach overhauling an Ember app, some debugging strategies you might take and more. You can find the first introductory blog post [here on Jen's blog](https://www.jenweber.dev/remodeling-an-ember-app---introduction/).
+
+---
+
+## [ember-concurrency 2.1.0 release 🐹](https://twitter.com/m4xm4n/status/1399769152953462790)
+
+<!--alex ignore waiters-waitresses-->
+In case you hadn't noticed, [Max Fierke (@maxfierke)](https://github.com/maxfierke) recently released version 2.1.0 of `ember-concurrency`! This release includes a public API for Yieldables. Yieldables let you hook into the low-level execution logic of an ember-concurrency task and provide a new way to instrument TaskInstances by providing a safe mechanism to implement custom waiters, hooks, introspection, and other operations from application code.
+
+ember-concurrency 2.1.0 also fixes an important bug where task state updates could be applied out of order in some situations.
+
+If you been looking to access the internals of ember-concurrency that allow it to go beyond what Promises are capable of, [this release](https://github.com/machty/ember-concurrency/releases/tag/2.1.0) might be of interest to you.
 
 ---
 
