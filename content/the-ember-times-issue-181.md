@@ -38,7 +38,7 @@ The first post, which is available now, lays the ground work for what Jen and Ch
 
 ---
 
-## Ember CLI History, ember-auto-import, Web Bundling & More 🌎](https://twitter.com/chriskrycho/status/1397991369231138817)
+## [Ember CLI History, ember-auto-import, Web Bundling & More 🌎](https://twitter.com/chriskrycho/status/1397991369231138817)
 
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) recently got together with some LinkedIn colleagues, [Dave Combs (@davecombs)](https://github.com/davecombs) and [Richard Conrad (@grconrad)](https://github.com/grconrad), to chat about the history of Ember CLI, ember-auto-import, web bundling and more.
 
