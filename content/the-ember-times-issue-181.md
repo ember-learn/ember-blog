@@ -63,7 +63,7 @@ In case you hadn't noticed, [Max Fierke (@maxfierke)](https://github.com/maxfier
 
 ember-concurrency 2.1.0 also fixes an important bug where task state updates could be applied out of order in some situations.
 
-If you been looking to access the internals of ember-concurrency that allow it to go beyond what Promises are capable of, [this release](https://github.com/machty/ember-concurrency/releases/tag/2.1.0) might be of interest to you.
+If you have been looking to access the internals of ember-concurrency that allow it to go beyond what Promises are capable of, [this release](https://github.com/machty/ember-concurrency/releases/tag/2.1.0) might be of interest to you.
 
 ---
 
