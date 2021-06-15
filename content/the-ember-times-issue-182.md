@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 182
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - Tim Foster # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -11,17 +11,18 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Top-level Components
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [1. Migrating Controllers to top-level Components in Ember 📖](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc)
 
-<change section title emoji>
+Ever wondered if you can avoid controllers in Ember apps and use components *all the way down*? Well, in this great blog post, Juan Manuel Azambuja explores how you can replace your template content with a single component containing lots of nested components to do a lot of what controllers usually do. 
+
 <consider adding some bold to your paragraph>
 <add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
 <add short title to "SOME-INTRO-HERE">
 
 ---
@@ -136,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Tim Foster and the Learning Team
