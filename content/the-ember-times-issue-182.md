@@ -11,19 +11,13 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Top-level Components
+Controllers in Top-level Components
 
 ---
 
-## [1. Migrating Controllers to top-level Components in Ember 📖](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc)
+## [Migrating Controllers to top-level Components in Ember 📖](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc)
 
-Ever wondered if you can avoid controllers in Ember apps and use components *all the way down*? Well, in this great blog post, Juan Manuel Azambuja explores how you can replace your template content with a single component containing lots of nested components to do a lot of what controllers usually do. 
-
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add short title to "SOME-INTRO-HERE">
+In this [blog post](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc), [Juan Manuel Azambuja (@juanazam)](https://github.com/juanazam) shows a real world example of how to replace your template contents with a single top-level component. The top-level component can then take on a similar role as the controller. There's a few tricks to get this to work and a useful discussion of using [ember-modifiers](https://github.com/ember-modifier/ember-modifier) addon to solve updating issues. The blog sums up the advantages and disadvantages of this approach, cautioning that the framework doesn't fully support this solution without some compromises.   
 
 ---
 
