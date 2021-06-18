@@ -45,14 +45,6 @@ Ember development on Twitch.tv 📺,
 
 [Every Thursday at 11:30 - 13 GMT +2](https://www.twitch.tv/real_ate/schedule)  you can join Chris on an adventure through contributing in Open Source, chat with other Ember enthousiasts and get **inspired** to contribute yourself. 
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
 ---
 
 ## [4. Section title in sentence case 🐹](section-url)
