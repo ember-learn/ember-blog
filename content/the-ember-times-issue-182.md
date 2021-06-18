@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 182
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - tim-foster
   - chris-ng
 date: 2021-06-18T00:00:00.000Z
 tags:
@@ -10,6 +10,7 @@ tags:
 ---
 
 👋 Emberistas! 🐹
+Controllers in Top-level Components,
 Read the blog post on using the in-element helper ⛳,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -28,6 +29,14 @@ Common use cases for both include when a piece of UI is a logical child of a com
 The main takeaways is that  `in-element` needs the destination to exist before we use it while `ember-wormhole` does not, when the destination element changes the content is re-rendered completely for `in-element`, and by default the `in-element` helper will replace all the contents of the destination element (you will need to configure it not to using `insertBefore=null`).
 
 Read the full [blog post on LinkedIn](https://www.linkedin.com/pulse/emberjs-using-in-element-helper-faith-or/) and check out the [demo on GitHub](https://github.com/faith-or/emberjs-inelement-vs-wormhole-demo)!
+
+---
+
+## [Migrating Controllers to top-level Components in Ember 📖](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc)
+
+In this [blog post](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc), [Juan Manuel Azambuja (@juanazam)](https://github.com/juanazam) shows a real world example of how to replace your template contents with a single top-level component. The top-level component can then take on a similar role as the controller.
+
+Juan presents a few tricks as well as a useful discussion of using [ember-modifiers](https://github.com/ember-modifier/ember-modifier) addon to solve updating issues. The blog sums up the advantages and disadvantages of the top-level approach, and cautions that the framework doesn't fully support this solution without some compromises.
 
 ---
 
@@ -141,4 +150,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Tim Foster, Chris Ng, the crowd and the Learning Team
