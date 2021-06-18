@@ -26,7 +26,11 @@ The [in-element helper](https://api.emberjs.com/ember/3.20/classes/Ember.Templat
 
 Common use cases for both include when a piece of UI is a logical child of a component but needs to render somewhere else such as a loading screen, a modal, tooltip or even a dropdown. The differences between the two are slight. Faith goes into more detail in the blog post.
 
-The main takeaways is that  `in-element` needs the destination to exist before we use it while `ember-wormhole` does not, when the destination element changes the content is re-rendered completely for `in-element`, and by default the `in-element` helper will replace all the contents of the destination element (you will need to configure it not to using `insertBefore=null`).
+There are 3 main takeaways.
+
+1. `in-element` needs the destination to exist before we use it, while `ember-wormhole` does not.
+2. With `in-element`, when the destination element changes, the content is re-rendered completely.
+3. By default, the `in-element` helper will replace all the contents of the destination element. (You will need to configure it not to using `insertBefore=null`.)
 
 Read the full [blog post on LinkedIn](https://www.linkedin.com/pulse/emberjs-using-in-element-helper-faith-or/) and check out the [demo on GitHub](https://github.com/faith-or/emberjs-inelement-vs-wormhole-demo)!
 
