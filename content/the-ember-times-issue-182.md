@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 182
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - tim-foster # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -11,18 +11,15 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Controllers in Top-level Components
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Migrating Controllers to top-level Components in Ember 📖](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In this [blog post](https://dev.to/juanazam/migrating-controllers-to-top-level-components-in-ember-ggc), [Juan Manuel Azambuja (@juanazam)](https://github.com/juanazam) shows a real world example of how to replace your template contents with a single top-level component. The top-level component can then take on a similar role as the controller.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Juan presents a few tricks as well as a useful discussion of using [ember-modifiers](https://github.com/ember-modifier/ember-modifier) addon to solve updating issues. The blog sums up the advantages and disadvantages of the top-level approach, and cautions that the framework doesn't fully support this solution without some compromises.
 
 ---
 
@@ -136,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Tim Foster and the Learning Team
