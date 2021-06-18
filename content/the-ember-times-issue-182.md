@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 182
 authors:
   - tim-foster
+  - anne-greeth-van-herwijnen
   - chris-ng
 date: 2021-06-18T00:00:00.000Z
 tags:
@@ -11,6 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 Controllers in Top-level Components,
+Ember development on Twitch.tv 📺,
 Read the blog post on using the in-element helper ⛳,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -56,15 +58,11 @@ Juan presents a few tricks as well as a useful discussion of using [ember-modifi
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Ember development on Twitch.tv 📺](https://www.twitch.tv/real_ate/)
+  
+[Chris Manson @mansona](https://github.com/mansona) has started to stream Ember development on Twitch. In engaging [Twitch streams](https://www.twitch.tv/real_ate/videos) Chris shows how he does maintenance and development in the Ember ecosystem. Every stream has a nice table of contents and time boxed periods where Chris works on a certain topic.
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Every Thursday at 11:30 - 13:00 (GMT+2)](https://www.twitch.tv/real_ate/schedule), you can join Chris on an adventure through contributing in Open Source, chat with other Ember enthusiasts and get **inspired** to contribute yourself.
 
 ---
 
@@ -154,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Chris Ng, the crowd and the Learning Team
+Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, and the Learning Team
