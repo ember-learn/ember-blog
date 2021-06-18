@@ -4,6 +4,7 @@ authors:
   - tim-foster
   - anne-greeth-van-herwijnen
   - chris-ng
+  - isaac-lee
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -14,6 +15,7 @@ tags:
 Controllers in Top-level Components,
 Ember development on Twitch.tv 📺,
 Read the blog post on using the in-element helper ⛳,
+Plan sprints to upgrade Ember 🆕,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -46,15 +48,13 @@ Juan presents a few tricks as well as a useful discussion of using [ember-modifi
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [Ember Upgrade Sprints 🆕](https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A key ingredient of app development is maintenance. Without refactoring code and upgrading dependencies often, our development cycle can slow down and we may fail to meet compliance. When you have a couple of apps to maintain, upgrading Ember may not be a big problem. What can you do when you have many apps to maintain and work with many other people?
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+In [Ember Upgrade Sprints](https://blog.centrica.dev/ember/2021/04/08/ember-upgrade-sprints.html), [Steve Tyler (@stevetyler)](https://github.com/stevetyler) provides a few tips for upgrading apps with every LTS release ([Long-Term Support](https://emberjs.com/releases/lts/)). In addition, Steve shares some challenges that you may face and how you can orient your teams' sprints.
+
+For more information, we encourage you to check out the blog post. What are some of your insights and resources for upgrading Ember apps and addons? Please share them with the community!
 
 ---
 
@@ -152,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, and the Learning Team
+Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, and the Learning Team
