@@ -5,6 +5,7 @@ authors:
   - anne-greeth-van-herwijnen
   - chris-ng
   - isaac-lee
+  - jared-galanis
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -16,6 +17,7 @@ Controllers in Top-level Components,
 Ember development on Twitch.tv 📺,
 Read the blog post on using the in-element helper ⛳,
 Plan sprints to upgrade Ember 🆕,
+Remodeling an Ember App Part 2 🐹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -66,15 +68,15 @@ For more information, we encourage you to check out the blog post. What are some
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Remodeling an Ember App Part 2 🐹](https://www.jenweber.dev/remodeling-an-ember-app---testing/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Part 2 of [Jen Weber's (@jenweber)](https://github.com/jenweber) ✨fantastic✨ new series on bringing an older Ember app up-to-date with Octane and a modern Ember Data strategy is out now!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+In [part 2](https://www.jenweber.dev/remodeling-an-ember-app---testing/), Jen covers some testing and debugging strategies that [Chris Thoburn (@runspired)](https://github.com/runspired) shared and are particularly helpful when upgrading an Ember application.
+
+From approaches to how to optimize running the tests suite to approaches on how to deal with linting errors to better understanding application test failures, there is a ton of great content in the post that developers of any experience level could learn from.
+
+Be sure to continue to watch for additional posts with more great content as this series continues!
 
 ---
 
@@ -152,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, and the Learning Team
+Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jared Galanis, and the Learning Team
