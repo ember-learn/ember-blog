@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 182
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - anne-greeth-van-herwijnen
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -9,7 +10,7 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
+Ember development on Twitch.tv 📺,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -38,7 +39,11 @@ tags:
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Ember development on Twitch.tv 📺](https://www.twitch.tv/real_ate/)
+  
+[Chris Manson @mansona](https://github.com/mansona) has started to stream Ember development on Twitch. In engaging [Twitch streams](https://www.twitch.tv/real_ate/videos) Chris shows how he does maintenance and development in the Ember ecosystem. Every stream has a nice table of contents and time boxed periods where Chris works on a certain topic. 
+
+[Every Thursday at 11:30 - 13 GMT +2](https://www.twitch.tv/real_ate/schedule)  you can join Chris on an adventure through contributing in Open Source, chat with other Ember enthousiasts and get **inspired** to contribute yourself. 
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -136,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth van Herwijnen, the crowd and the Learning Team
