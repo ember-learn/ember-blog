@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 182
 authors:
   - tim-foster
   - anne-greeth-van-herwijnen
+  - chris-ng
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -12,7 +13,28 @@ tags:
 👋 Emberistas! 🐹
 Controllers in Top-level Components,
 Ember development on Twitch.tv 📺,
+Read the blog post on using the in-element helper ⛳,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## [Using the in-element helper ⛳](https://www.linkedin.com/pulse/emberjs-using-in-element-helper-faith-or/)
+
+[Faith Or (@faith-or)](https://github.com/faith-or) wrote a blog post on how they migrated from `ember-wormhole` to the built-in `in-element` helper introduced in Ember 3.20.
+
+[Ember Wormhole](https://github.com/yapplabs/ember-wormhole) is an addon that renders a child view somewhere else in the DOM _outside_ of the component.
+
+The [in-element helper](https://api.emberjs.com/ember/3.20/classes/Ember.Templates.helpers/methods/in-element?anchor=in-element) renders its block content outside of the regular flow, into a DOM element given by its `destinationElement` positional argument.
+
+Common use cases for both include when a piece of UI is a logical child of a component but needs to render somewhere else such as a loading screen, a modal, tooltip or even a dropdown. The differences between the two are slight. Faith goes into more detail in the blog post.
+
+There are 3 main takeaways.
+
+1. `in-element` needs the destination to exist before we use it, while `ember-wormhole` does not.
+2. With `in-element`, when the destination element changes, the content is re-rendered completely.
+3. By default, the `in-element` helper will replace all the contents of the destination element. (You will need to configure it not to using `insertBefore=null`.)
+
+Read the full [blog post on LinkedIn](https://www.linkedin.com/pulse/emberjs-using-in-element-helper-faith-or/) and check out the [demo on GitHub](https://github.com/faith-or/emberjs-inelement-vs-wormhole-demo)!
 
 ---
 
@@ -130,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Anne-Greeth van Herwijnen, and the Learning Team
+Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, and the Learning Team
