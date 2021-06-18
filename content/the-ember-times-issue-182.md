@@ -20,7 +20,7 @@ Read the blog post on using the in-element helper ⛳,
 
 [Faith Or (@faith-or)](https://github.com/faith-or) wrote a blog post on how they migrated from `ember-wormhole` to the built-in `in-element` helper introduced in Ember 3.20.
 
-[Ember Wormhole](https://github.com/yapplabs/ember-wormhole) is an addon that renders a child view somewhere else in the DOM.
+[Ember Wormhole](https://github.com/yapplabs/ember-wormhole) is an addon that renders a child view somewhere else in the DOM _outside_ of the component.
 
 The [in-element helper](https://api.emberjs.com/ember/3.20/classes/Ember.Templates.helpers/methods/in-element?anchor=in-element) renders its block content outside of the regular flow, into a DOM element given by its `destinationElement` positional argument.
 
