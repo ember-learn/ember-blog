@@ -16,7 +16,7 @@ Read the blog post on using the in-element helper ⛳,
 
 ---
 
-## [Blog Post: Using the in-element helper ⛳](https://www.linkedin.com/pulse/emberjs-using-in-element-helper-faith-or/)
+## [Using the in-element helper ⛳](https://www.linkedin.com/pulse/emberjs-using-in-element-helper-faith-or/)
 
 [Faith Or (@faith-or)](https://github.com/faith-or) wrote a blog post on how they migrated from `ember-wormhole` to the built-in `in-element` helper introduced in Ember 3.20.
 
