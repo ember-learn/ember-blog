@@ -60,7 +60,7 @@ Juan presents a few tricks as well as a useful discussion of using [ember-modifi
 
 ## [Ember development on Twitch.tv 📺](https://www.twitch.tv/real_ate/)
   
-[Chris Manson @mansona](https://github.com/mansona) has started to stream Ember development on Twitch. In engaging [Twitch streams](https://www.twitch.tv/real_ate/videos) Chris shows how he does maintenance and development in the Ember ecosystem. Every stream has a nice table of contents and time boxed periods where Chris works on a certain topic. 
+[Chris Manson @mansona](https://github.com/mansona) has started to stream Ember development on Twitch. In engaging [Twitch streams](https://www.twitch.tv/real_ate/videos) Chris shows how he does maintenance and development in the Ember ecosystem. Every stream has a nice table of contents and time boxed periods where Chris works on a certain topic.
 
 [Every Thursday at 11:30 - 13 GMT +2](https://www.twitch.tv/real_ate/schedule)  you can join Chris on an adventure through contributing in Open Source, chat with other Ember enthousiasts and get **inspired** to contribute yourself. 
 
