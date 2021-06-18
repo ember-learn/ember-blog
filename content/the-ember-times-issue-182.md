@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 182
 authors:
-  - Tim Foster # replace with real authors from the author folder (add yourself if you're not there)
+  - tim-foster # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
