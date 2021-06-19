@@ -6,6 +6,7 @@ authors:
   - chris-ng
   - isaac-lee
   - jared-galanis
+  - amy-lam
 date: 2021-06-18T00:00:00.000Z
 tags:
   - newsletter
@@ -13,12 +14,12 @@ tags:
 ---
 
 👋 Emberistas! 🐹
+
 Controllers in Top-level Components,
 Ember development on Twitch.tv 📺,
 Read the blog post on using the in-element helper ⛳,
 Plan sprints to upgrade Ember 🆕,
 Remodeling an Ember App Part 2 🐹,
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
@@ -80,60 +81,6 @@ Be sure to continue to watch for additional posts with more great content as thi
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
-
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
-
----
-
 ## [Connect with us 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
 
 <div class="blog-row">
@@ -146,6 +93,8 @@ Be sure to continue to watch for additional posts with more great content as thi
   <p>Want to write for the Ember Times? Have a suggestion for next week's issue? Join us at <a href="https://discordapp.com/channels/480462759797063690/485450546887786506">#support-ember-times</a> on the <a href="https://discord.gg/emberjs">Ember Community Discord</a> or ping us <a href="https://twitter.com/embertimes">@embertimes</a> on Twitter.</p>
 
   <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://embertimes.substack.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://blog.emberjs.com/tag/newsletter">Ember blog</a>. See you in two weeks!</p>
+
+  <p>We ran into some technical difficulties at Ember Times HQ and we'll be back with the **Contributors' corner** next issue!</p>
 </div>
 
 ---
@@ -154,4 +103,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jared Galanis, and the Learning Team
+Tim Foster, Anne-Greeth van Herwijnen, Chris Ng, Isaac Lee, Jared Galanis, Amy Lam, and the Learning Team
