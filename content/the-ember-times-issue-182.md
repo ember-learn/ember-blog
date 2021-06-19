@@ -15,11 +15,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Controllers in Top-level Components,
-Ember development on Twitch.tv 📺,
-Read the blog post on using the in-element helper ⛳,
-Plan sprints to upgrade Ember 🆕,
-Remodeling an Ember App Part 2 🐹,
+Using the in-element helper, migrating Controllers to top-level Components, Ember Upgrade Sprints, Ember development on Twitch, and remodeling an Ember App Part 2.
 
 ---
 
