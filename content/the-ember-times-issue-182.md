@@ -63,7 +63,7 @@ For more information, we encourage you to check out the blog post. What are some
 
 ## [Ember development on Twitch.tv 📺](https://www.twitch.tv/real_ate/)
   
-[Chris Manson @mansona](https://github.com/mansona) has started to stream Ember development on Twitch. In engaging [Twitch streams](https://www.twitch.tv/real_ate/videos) Chris shows how he does maintenance and development in the Ember ecosystem. Every stream has a nice table of contents and time boxed periods where Chris works on a certain topic.
+[Chris Manson (@mansona)](https://github.com/mansona) has started to stream Ember development on Twitch. In engaging [Twitch streams](https://www.twitch.tv/real_ate/videos) Chris shows how he does maintenance and development in the Ember ecosystem. Every stream has a nice table of contents and time boxed periods where Chris works on a certain topic.
 
 [Every Thursday at 10:30 - 13:00 (GMT+2)](https://www.twitch.tv/real_ate/schedule), you can join Chris on an adventure through contributing in Open Source, chat with other Ember enthusiasts and get **inspired** to contribute yourself.
 
@@ -94,7 +94,7 @@ Be sure to continue to watch for additional posts with more great content as thi
 
   <p>Keep on top of what's been going on in Emberland this week by subscribing to our <a href="https://embertimes.substack.com/">e-mail newsletter</a>! You can also find our posts on the <a href="https://blog.emberjs.com/tag/newsletter">Ember blog</a>. See you in two weeks!</p>
 
-  <p>We ran into some technical difficulties at Ember Times HQ and we'll be back with the **Contributors' corner** next issue!</p>
+  <p>P.S. We ran into some technical difficulties at Ember Times HQ...we'll be back with the <strong>Contributors' corner</strong> next issue!</p>
 </div>
 
 ---
