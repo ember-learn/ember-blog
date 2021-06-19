@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 183
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-XX-XXT00:00:00.000Z
+date: 2021-07-02T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
