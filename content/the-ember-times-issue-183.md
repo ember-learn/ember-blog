@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 183
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-07-01T00:00:00.000Z
 tags:
   - newsletter
@@ -9,20 +10,24 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
+Release of uELS v2.0.16 ✅,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Release of uELS v2.0.16 ✅](https://discord.com/channels/480462759797063690/480499624663056390/845766724040523786)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_ it actually has been **stable** and ready to use for day-to-day development!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Thanks to both [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia) and [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for new version release which provides:
+
+* Support workspace/didChangeConfiguration event
+* Improved startup speed by delaying template tokenization
+* Autocomplete now use global registry and file change events, not fs lookup, but we still do fs lookup on project initialization
+* Added template-lint severity support
+* Improved template-linting speed
+
+Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/lifeart/vscode-ember-unstable) or [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
 
 ---
 
@@ -136,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
