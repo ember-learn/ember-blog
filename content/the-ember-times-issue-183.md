@@ -36,7 +36,7 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ## Around the web 🌐
 
-* Using **empress-blog**? Check out [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi)'s bite-sized dev.to posts on [how to set up Mixpanel tracking events](https://dev.to/michalbryxi/mixpanel-empress-blog-5fd2) and [how to add a tag page to your main menu](https://dev.to/michalbryxi/tag-page-in-main-menu-for-empress-blog-31b9). Happy empress-blog-ing!
+* Using [empress-blog](https://github.com/empress/empress-blog)? If you're not familiar with it, empress-blog is the fully-functional, SEO friendly static site implementation of a blog system built on Ember. Check out [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi)'s bite-sized dev.to posts on [how to set up Mixpanel tracking events](https://dev.to/michalbryxi/mixpanel-empress-blog-5fd2) and [how to add a tag page to your main menu](https://dev.to/michalbryxi/tag-page-in-main-menu-for-empress-blog-31b9). Happy empress-blog-ing!
 * Want to migrate your Ember projects to Tailwind CSS, but don't know where to start? [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created the [ember-tailwind-codemod](https://github.com/rajasegar/ember-tailwind-codemod) addon to make your migrations less painful. Give it a spin on your repos and check out the README for contribution ideas.
 * [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) had *another* new addon, [ember-plantuml](https://github.com/rajasegar/ember-plantuml), which allows you to visualize your Ember components and models via PlantUML. You can also download the UML diagrams as SVG files. Look forward to trying it out, seems promising for visual learners! 
  
