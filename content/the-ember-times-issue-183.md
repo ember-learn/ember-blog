@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 183
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - amy-lam
 date: 2021-07-01T00:00:00.000Z
 tags:
   - newsletter
@@ -10,8 +11,10 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-Release of uELS v2.0.16 ✅,
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Release of uELS v2.0.16 ✅,
+Around the web 🌐
 
 ---
 
@@ -31,15 +34,9 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## Around the web 🌐
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* Using **empress-blog**? Check out [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi)'s dev.to posts on [how to set up Mixpanel tracking events](https://dev.to/michalbryxi/mixpanel-empress-blog-5fd2) and [how to add a tag page to your main menu](https://dev.to/michalbryxi/tag-page-in-main-menu-for-empress-blog-31b9). Happy empress-blog-ing!
 
 ---
 
@@ -141,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Amy Lam, the crowd and the Learning Team
