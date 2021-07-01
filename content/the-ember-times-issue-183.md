@@ -46,7 +46,7 @@ Do you want to share demos, gifs, or code snippets on Twitter? Try [limber.glimd
 
 <img src="https://twitter.com/i/status/1402650042364829700" alt="limber.glimdown.com preview">
 
-<embed tweet on Substack https://twitter.com/nullvoxpopuli/status/1402650042364829700>
+<embed [tweet](https://twitter.com/nullvoxpopuli/status/1402650042364829700) on Substack>
 
 ---
 
