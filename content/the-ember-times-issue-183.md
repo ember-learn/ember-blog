@@ -1,7 +1,6 @@
 ---
 title: The Ember Times - Issue No. 183
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - amy-lam
 date: 2021-07-01T00:00:00.000Z
@@ -12,9 +11,9 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of uELS v2.0.16 ✅,
 Addon roundup 🌐
+The difference between ember serve and npm run start 🖥
 
 ---
 
@@ -34,14 +33,6 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ---
 
-## Addon roundup 🌐
-
-* Using [empress-blog](https://github.com/empress/empress-blog)? If you're not familiar with it, empress-blog is the fully-functional, SEO friendly static site implementation of a blog system built on Ember. Check out [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi)'s bite-sized dev.to posts on [how to set up Mixpanel tracking events in empress-blog](https://dev.to/michalbryxi/mixpanel-empress-blog-5fd2) and [how to add a tag page to your empress-blog main menu](https://dev.to/michalbryxi/tag-page-in-main-menu-for-empress-blog-31b9).
-* Want to migrate your Ember projects to Tailwind CSS, but don't know where to start? [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created the [ember-tailwind-codemod](https://github.com/rajasegar/ember-tailwind-codemod) addon to make your migrations less painful. Give it a spin on your repos and check out the README for contribution ideas.
-* [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created *another* new addon, [ember-plantuml](https://github.com/rajasegar/ember-plantuml), which allows you to visualize your Ember components and models via PlantUML. You can also download the UML diagrams as SVG files. Look forward to trying it out, seems promising for visual learners!
-
----
-
 ## [3. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
@@ -54,15 +45,17 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [The difference between ember serve and npm run start 🖥](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Jesse Jordan (@jayjayjpg)](https://github.com/jayjayjpg) blogged about some subtle differences between `npm run start` and `ember serve`, inspired by [this question on StackOverflow](https://stackoverflow.com/questions/63340251/is-there-a-difference-between-ember-serve-and-npm-start). Even when using [nvm](https://github.com/nvm-sh/nvm), there can be some dependency gotchas with globally installed packages. Check out Jesse's [dev.to post](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p) for more info.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+---
+
+## Addon roundup 🌐
+
+* Using [empress-blog](https://github.com/empress/empress-blog)? If you're not familiar with it, empress-blog is the fully-functional, SEO friendly static site implementation of a blog system built on Ember. Check out [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi)'s bite-sized dev.to posts on [how to set up Mixpanel tracking events in empress-blog](https://dev.to/michalbryxi/mixpanel-empress-blog-5fd2) and [how to add a tag page to your empress-blog main menu](https://dev.to/michalbryxi/tag-page-in-main-menu-for-empress-blog-31b9).
+* Want to migrate your Ember projects to Tailwind CSS, but don't know where to start? [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created the [ember-tailwind-codemod](https://github.com/rajasegar/ember-tailwind-codemod) addon to make your migrations less painful. Give it a spin on your repos and check out the README for contribution ideas.
+* [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created *another* new addon, [ember-plantuml](https://github.com/rajasegar/ember-plantuml), which allows you to visualize your Ember components and models via PlantUML. You can also download the UML diagrams as SVG files. Look forward to trying it out, seems promising for visual learners!
 
 ---
 
@@ -140,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, and the Learning Team
