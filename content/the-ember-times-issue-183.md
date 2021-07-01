@@ -34,12 +34,6 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ---
 
-## [The difference between ember serve and npm run start 🖥](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p)
-
-[Jesse Jordan (@jayjayjpg)](https://github.com/jayjayjpg) blogged about some subtle differences between `npm run start` and `ember serve`, inspired by [this question on StackOverflow](https://stackoverflow.com/questions/63340251/is-there-a-difference-between-ember-serve-and-npm-start). Even when using [nvm](https://github.com/nvm-sh/nvm), there can be some dependency gotchas with globally installed packages. Check out Jesse's [dev.to post](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p) for more info.
-
----
-
 ## [Share code snippets on Twitter using Ember 🐦](https://limber.glimdown.com/?)
 
 Do you want to share demos, gifs, or code snippets on Twitter? Try [limber.glimdown.com](https://limber.glimdown.com/?) from [@NullVoxPopuli](https://github.com/nullvoxpopuli), built with Ember! Code snippets on [limber.glimdown.com](https://limber.glimdown.com/?) can be copied as text or images.
@@ -47,6 +41,12 @@ Do you want to share demos, gifs, or code snippets on Twitter? Try [limber.glimd
 <img src="https://twitter.com/i/status/1402650042364829700" alt="limber.glimdown.com preview">
 
 <embed [tweet](https://twitter.com/nullvoxpopuli/status/1402650042364829700) on Substack>
+
+---
+
+## [The difference between ember serve and npm run start 🖥](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p)
+
+[Jesse Jordan (@jayjayjpg)](https://github.com/jayjayjpg) blogged about some subtle differences between `npm run start` and `ember serve`, inspired by [this question on StackOverflow](https://stackoverflow.com/questions/63340251/is-there-a-difference-between-ember-serve-and-npm-start). Even when using [nvm](https://github.com/nvm-sh/nvm), there can be some dependency gotchas with globally installed packages. Check out Jesse's [dev.to post](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p) for more info.
 
 ---
 
