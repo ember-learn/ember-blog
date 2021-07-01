@@ -12,7 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 Release of uELS v2.0.16 ✅,
-Share demos easily on Twitter using Ember 🐦
+Share code snippets on Twitter using Ember 🐦
 The difference between ember serve and npm run start 🖥,
 Addon roundup 🌐,
 
@@ -40,7 +40,7 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ---
 
-## [Share demos easily on Twitter using Ember 🐦](https://limber.glimdown.com/?)
+## [Share code snippets on Twitter using Ember 🐦](https://limber.glimdown.com/?)
 
 Do you want to share demos, gifs, or code snippets on Twitter? Try [limber.glimdown.com](https://limber.glimdown.com/?) from [@NullVoxPopuli](https://github.com/nullvoxpopuli), built with Ember! Code snippets on [limber.glimdown.com](https://limber.glimdown.com/?) can be copied as text or images.
 
