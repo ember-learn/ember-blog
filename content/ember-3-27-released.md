@@ -1,17 +1,22 @@
 ---
 title: Ember 3.27 Released
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-05-XXT00:00:00.000Z
+  - matthew-beale
+  - ricardo-mendes
+  date: 2021-07-02T00:00:00.000Z
 tags:
   - releases
   - '2021'
   - version-3-x
 ---
 
-Today the Ember project is releasing version 3.27 of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
+Today the Ember project is announcing release 3.27 of Ember.js, Ember Data, and Ember CLI.
 
 This release kicks off the 3.28 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+
+Ember.js 3.28 is the final planned version of the 3.x release cycle, and will
+become an LTS release. As of the 3.28-beta being released, the main development
+branch of all Ember projects will become 4.0.
 
 You can read more about our general release process here:
 
@@ -29,49 +34,208 @@ Ember.js is the core framework for building ambitious web applications.
 ### Changes in Ember.js 3.27
 
 Ember.js 3.27 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
+For a full set of changes see [`CHANGELOG.md`](https://github.com/emberjs/ember.js/blob/master/CHANGELOG.md#v3270-may-3-2021).
 
-#### Bug Fixes
+#### Notable Bug Fixes
 
-Ember.js 3.27 introduced 0 bug fixes.
+* Prior to 3.27 `<:inverse>` would not always alias else blocks. This is
+corrected in [glimmerjs/glimmer-vm#1296](https://github.com/glimmerjs/glimmer-vm/pull/1296).
+* Ember.js 3.27.0 was released in early May and included several regressions.
+These were largely related to the changes in the glimmer VM and and the
+implementation of several deprecations.
 
 #### Features
 
-Ember.js 3.27 introduced 2 features.
+##### Contextual helpers & modifiers
 
-1. Feature description
-2. Feature description
+For several years Ember has provided a mechanism called "contextual components".
+This API allows a developer to yield a component, optionally with arguments
+to apply, into a block.
+
+In [RFC #432](https://github.com/emberjs/rfcs/blob/master/text/0432-contextual-helpers.md)
+additional APIs were proposed which allow helpers and modifiers to be used in
+the same way.
+
+For example the layout for a `SuperForm` component might be implemented as:
+
+```app/components/super-form/template.hbs
+<form>
+  {{yield (hash
+
+    Input=(component "super-input" form=this model=this.model)
+    Textarea=(component "super-textarea" form=this model=this.model)
+    Submit=(component "super-submit" form=this model=this.model)
+
+    is-valid=(helper "super-is-valid" form=this model=this.model)
+    error-for=(helper "super-error-for" form=this model=this.model)
+
+    auto-resize=(modifier "super-auto-resize")
+
+  )}}
+</form>
+```
+
+And be used as:
+
+```app/templates/index.hbs
+<SuperForm @model={{this.post}} as |f|>
+
+  {{! Invoke a contextual component }}
+  <f.Input @name="title" />
+
+  {{! Invoke contextual helpers }}
+  {{#unless (f.is-valid "title")}}
+    <div class="error">This field {{f.error-for "title"}}</div>
+  {{/unless}}
+
+  {{! Invoke a contextual modifier on a contextual component invocation }}
+  <f.Textarea @name="body" {{f.auto-resize maxHeight="500"}} />
+
+  <f.Submit />
+</SuperForm>
+```
+
+These APIs open the doors for the creation of new, more powerful abstractions.
 
 #### Deprecations
 
-Ember.js 3.27 introduced 0 deprecations.
+Ember 3.27 introduces the final set of deprecations targeting Ember 4.0. The
+newly introduced deprecations primarily impact uncommonly used APIs. As always,
+deprecated APIs are documented with a transition path in the [deprecation
+guides](https://deprecations.emberjs.com/v3.x).
 
-<!-- Block start: If there were no deprecations, remove this block -->
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
+Several notable deprecations include:
 
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-<!-- Block end -->
+##### Invoking Helpers Without Arguments and Parentheses in Named Argument Positions
 
-For more details on changes in Ember.js 3.27, please review the [Ember.js 3.27.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.27.0).
+In some templates, a helper passed as an argument can be treated as an
+invocation instead of passing the uninvoked helper as a value. For example:
+
+```hbs
+{{! is someHelper invoked, or pass as a reference? }}
+<SomeComponent @arg={{someHelper}} />
+```
+
+To better align helpers with how component and modifiers behave in the same
+setting, parenthesis are now required to cause an invocation:
+
+```hbs
+{{! (someHelper) is clearly an invocation with no arguments }}
+<SomeComponent @arg={{(someHelper)}} />
+```
+
+The non-param version of helper passing will pass a reference to the helper
+in Ember 4.0. See the [deprecation guide
+entry](https://deprecations.emberjs.com/v3.x#toc_argument-less-helper-paren-less-invocation)
+for more details.
+
+##### Importing Legacy Built-in Components 
+
+Historically, Ember applications have been able to import the base classes which
+define `<Input>`, `<Textarea>`, and `<LinkTo>` for reopening or subclassing. In
+Ember 4.0, we intend to improve the internal implementation of those built-ins.
+To allow this, we've been steadily deprecating parts of the built-in APIs
+throughout the 3.x release series.
+
+In 3.27, importing a the base classes of Ember built-ins is deprecated. In Ember
+4.0 these modules will be unavailable. The specific deprecated imports are:
+
+```js
+import Checkbox from '@ember/component/checkbox';
+import Textarea from '@ember/component/text-area';
+import TextField from '@ember/component/text-field';
+import LinkToComponent from '@ember/routing/link-component';
+```
+
+Accessing these classes through other paths, like the owner interface, is also
+deprecated.
+
+See the [deprecation guide
+entry](https://deprecations.emberjs.com/v3.x#toc_ember-built-in-components-import)
+for more details and guidance on migrating away from these APIs.
+
+Additionally, reopening these classes (for example to change the `tagName` on a
+`<LinkTo>` has been deprecated and will be unsupported in 4.0. See [the
+deprecation guide for migration strategies](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-reopen).
+
+##### Deprecate Legacy Arguments to Built-ins
+
+Ember's built-in components had a public interface largely defined by their
+implementation as classic Ember components. In order to refactor these built-ins
+to a more modern implementation and improve their interface, large parts of
+their API is deprecated in 3.27.
+
+These deprecations break down into two sections. First, there are arguments
+which are essentially setting HTML attributes or dealing with events. See [this
+guide entry on legacy attribute
+arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-attribute-arguments)
+for a detailed list of deprecated arguments and migration path.
+
+Second, there is a set of arguments which were effectively leaks of the private
+implemention, or which no longer have a clear meaning (or usefulness) in modern
+application development. See [this guide entry on legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments) for a detailed list and migration path.
+
+##### Deprecate the Ember Global
+
+Ember has long set a property on the `window` or `globalThis` global so that
+it can be accessed via `window.Ember`, for example. This approach to using Ember
+is incompatible with static analysis tools that can result in more optimized
+application payloads.
+
+In Ember 3.27, accessing the `Ember` object via a non-module-import is
+deprecated. Support for using Ember this way will be removed in Ember 4.0.
+
+Instead, applications should adopt the Ember module API. This means importing
+either the `Ember` object or a specific API from the module API:
+
+```app/components/some-component/component.js
+// Bad, deprecated
+export Ember.Component.extend({});
+```
+
+```app/components/some-component/component.js
+// Better
+import Ember from 'ember';
+export Ember.Component.extend({});
+```
+
+```js
+// Best
+import Component from '@ember/component';
+export Component.extend({});
+```
+
+See [the deprecation
+guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC
+#706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
+for more details and a transition path.
+
+#### Further information
+
+For apps which want to upgrade to Ember.js 4.0 on its release date, the list of
+deprecations in this release means their challenge is now well defined.
+Application maintainers should consider using the
+[ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
+addon to address deprecations incrementally after upgrading to 3.27. Keep an eye
+out for ember-cli-deprecation-workflow 2.0 in the coming days.
+
+For app maintainers who are in less of a hurry, **please note that Ember.js 3.28
+will contain no new deprecations targeting Emer.js 4.0**. Additionally, Ember.js
+3.28 will be promoted to LTS on the same day Ember.js 4.0 is released.
+
+We recommend that applications using LTS releases wait for the first LTS of
+Ember.js 4.x to upgrade, which will be Ember.js 4.4. Ember's 6 week release
+cycle means we expect there is about 44 weeks for apps upgrading from LTS-to-LTS
+to address 4.0-targeted deprecations before Ember.js 4.4-LTS is made available.
+
+For more details on changes in Ember.js 3.27, please review the [Ember.js 3.27.5 release page](https://github.com/emberjs/ember.js/blob/master/CHANGELOG.md#v3275-june-10-2021).
 
 ---
 
 ## Ember Data
 
 Ember Data is the official data persistence library for Ember.js applications.
-
-### Changes in Ember Data 3.27
-
-#### Bug Fixes
-
-Ember Data 3.27 introduced 0 bug fixes.
-
-#### Features
-
-Ember Data 3.27 introduced 0 features.
-
-#### Deprecations
-
-Ember Data 3.27 introduced 0 deprecations.
+Ember Data's 3.27 release largely consists of compatability work with Ember.js.
 
 For more details on changes in Ember Data 3.27, please review the
 [Ember Data 3.27.0 release page](https://github.com/emberjs/data/releases/tag/v3.27.0).
@@ -96,20 +260,16 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 3.27
 
-#### Bug Fixes
+Ember CLI 3.27 introduces a flag for enabling Embroider (Ember CLI's new build
+pipeline) for new applications and addons. For example:
 
-Ember CLI 3.27 introduced 0 bug fixes.
+```
+ember new my-app --embroider
+```
 
-#### Features
-
-Ember CLI 3.27 introduced 0 features.
-
-#### Deprecations
-
-Ember CLI 3.27 introduced 0 deprecations.
-
-For more details on the changes in Ember CLI 3.27 and detailed upgrade
-instructions, please review the [Ember CLI 3.27.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.27.0).
+For more details on changes and bugfixes in Ember CLI 3.27, see the [Ember 2.7.0
+changelog](https://github.com/ember-cli/ember-cli/blob/v3.27.0/CHANGELOG.md#v3270)
+and [Ember CLI 3.27.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.27.0).
 
 ## Thank You!
 
