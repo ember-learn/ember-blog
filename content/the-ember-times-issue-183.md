@@ -1,7 +1,6 @@
 ---
 title: The Ember Times - Issue No. 183
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - amy-lam
 date: 2021-07-01T00:00:00.000Z
@@ -12,9 +11,10 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Release of uELS v2.0.16 ✅,
-Addon roundup 🌐
+Share code snippets on Twitter using Ember 🐦
+The difference between ember serve and npm run start 🖥,
+Addon roundup 🌐,
 
 ---
 
@@ -34,35 +34,27 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ---
 
+## [Share code snippets on Twitter using Ember 🐦](https://limber.glimdown.com/?)
+
+Do you want to share demos, gifs, or code snippets on Twitter? Try [limber.glimdown.com](https://limber.glimdown.com/?) from [@NullVoxPopuli](https://github.com/nullvoxpopuli), built with Ember! Code snippets on [limber.glimdown.com](https://limber.glimdown.com/?) can be copied as text or images.
+
+<img src="https://twitter.com/i/status/1402650042364829700" alt="limber.glimdown.com preview">
+
+<embed [tweet](https://twitter.com/nullvoxpopuli/status/1402650042364829700) on Substack>
+
+---
+
+## [The difference between ember serve and npm run start 🖥](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p)
+
+[Jesse Jordan (@jayjayjpg)](https://github.com/jayjayjpg) blogged about some subtle differences between `npm run start` and `ember serve`, inspired by [this question on StackOverflow](https://stackoverflow.com/questions/63340251/is-there-a-difference-between-ember-serve-and-npm-start). Even when using [nvm](https://github.com/nvm-sh/nvm), there can be some dependency gotchas with globally installed packages. Check out Jesse's [dev.to post](https://dev.to/jayjayjpg/the-difference-between-ember-serve-and-npm-run-start-2m5p) for more info.
+
+---
+
 ## Addon roundup 🌐
 
 * Using [empress-blog](https://github.com/empress/empress-blog)? If you're not familiar with it, empress-blog is the fully-functional, SEO friendly static site implementation of a blog system built on Ember. Check out [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi)'s bite-sized dev.to posts on [how to set up Mixpanel tracking events in empress-blog](https://dev.to/michalbryxi/mixpanel-empress-blog-5fd2) and [how to add a tag page to your empress-blog main menu](https://dev.to/michalbryxi/tag-page-in-main-menu-for-empress-blog-31b9).
 * Want to migrate your Ember projects to Tailwind CSS, but don't know where to start? [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created the [ember-tailwind-codemod](https://github.com/rajasegar/ember-tailwind-codemod) addon to make your migrations less painful. Give it a spin on your repos and check out the README for contribution ideas.
 * [Rajasegar Chandran (@rajasegar)](https://github.com/rajasegar) created *another* new addon, [ember-plantuml](https://github.com/rajasegar/ember-plantuml), which allows you to visualize your Ember components and models via PlantUML. You can also download the UML diagrams as SVG files. Look forward to trying it out, seems promising for visual learners!
-
----
-
-## [3. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [4. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -116,7 +108,7 @@ Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/fozy81" rel="noopener noreferrer" target="_blank">Tim (@fozy81)</a>, <a href="https://github.com/jacojoubert" rel="noopener noreferrer" target="_blank">Jaco Joubert (@jacojoubert)</a>, <a href="https://github.com/saracope" rel="noopener noreferrer" target="_blank">Sara Cope (@saracope)</a>, <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/hannakim91" rel="noopener noreferrer" target="_blank">Hanna (she/her) (@hannakim91)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/prakashchoudhary07" rel="noopener noreferrer" target="_blank">Prakash Choudhary (@prakashchoudhary07)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/kiwiupover" rel="noopener noreferrer" target="_blank">Dave Laird (@kiwiupover)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/esquith" rel="noopener noreferrer" target="_blank">Esquith Allen (@esquith)</a>, <a href="https://github.com/lukeingalls" rel="noopener noreferrer" target="_blank">Luke Ingalls (@lukeingalls)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/ankushdharkar" rel="noopener noreferrer" target="_blank">Ankush Dharkar (@ankushdharkar)</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/chiragpat" rel="noopener noreferrer" target="_blank">Chirag Patel (@chiragpat)</a>, <a href="https://github.com/sumitd94" rel="noopener noreferrer" target="_blank">Sumit Dhanania (@sumitd94)</a>, and <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -140,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, and the Learning Team
