@@ -38,9 +38,9 @@ For a full set of changes see [`CHANGELOG.md`](https://github.com/emberjs/ember.
 
 #### Notable Bug Fixes
 
-* Prior to 3.27 `<:inverse>` would not always alias else blocks. This is
+- Prior to 3.27 `<:inverse>` would not always alias else blocks. This is
 corrected in [glimmerjs/glimmer-vm#1296](https://github.com/glimmerjs/glimmer-vm/pull/1296).
-* Ember.js 3.27.0 was released in early May and included several regressions.
+- Ember.js 3.27.0 was released in early May and included several regressions.
 These were largely related to the changes in the glimmer VM and and the
 implementation of several deprecations.
 
@@ -129,7 +129,7 @@ in Ember 4.0. See the [deprecation guide
 entry](https://deprecations.emberjs.com/v3.x#toc_argument-less-helper-paren-less-invocation)
 for more details.
 
-##### Importing Legacy Built-in Components 
+##### Importing Legacy Built-in Components
 
 Historically, Ember applications have been able to import the base classes which
 define `<Input>`, `<Textarea>`, and `<LinkTo>` for reopening or subclassing. In
@@ -206,8 +206,7 @@ export Component.extend({});
 ```
 
 See [the deprecation
-guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC
-#706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
+guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC 706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
 for more details and a transition path.
 
 #### Further information
@@ -263,7 +262,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 Ember CLI 3.27 introduces a flag for enabling Embroider (Ember CLI's new build
 pipeline) for new applications and addons. For example:
 
-```
+```bash
 ember new my-app --embroider
 ```
 
