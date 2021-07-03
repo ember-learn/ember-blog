@@ -3,7 +3,7 @@ title: Ember 3.27 Released
 authors:
   - matthew-beale
   - ricardo-mendes
-  date: 2021-07-02T00:00:00.000Z
+date: 2021-07-02T00:00:00.000Z
 tags:
   - releases
   - '2021'
