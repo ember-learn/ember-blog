@@ -10,15 +10,16 @@ tags:
   - version-3-x
 ---
 
-Today the Ember project is announcing release 3.27 of Ember.js, Ember Data, and Ember CLI.
+Today the Ember project is announcing release 3.27 of Ember.js, Ember Data, and Ember CLI. This is a minor version, stable release.
 
-This release kicks off the 3.28 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+We're also announcing the start of the 3.28 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
-Ember.js 3.28 is the final planned version of the 3.x release cycle, and will
+Ember.js 3.28 (again, starting **beta** today) is the final planned version of the 3.x release cycle, and will
 become an LTS release. As of the 3.28-beta being released, the main development
-branch of all Ember projects will become 4.0.
+branch of all Ember projects will become 4.0. Look for more information on Ember
+4.0 here on the blog this coming week.
 
-You can read more about our general release process here:
+You can read more about our general release process with these resources:
 
 - [Release Dashboard](http://emberjs.com/releases/)
 - [The Ember Release Cycle](https://blog.emberjs.com/new-ember-release-process/)
@@ -33,8 +34,8 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.27
 
-Ember.js 3.27 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
-For a full set of changes see [`CHANGELOG.md`](https://github.com/emberjs/ember.js/blob/master/CHANGELOG.md#v3270-may-3-2021).
+Ember.js 3.27 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and deprecations.
+For a full set of changes see [`CHANGELOG.md`](https://github.com/emberjs/ember.js/blob/master/CHANGELOG.md#v3275-june-10-2021).
 
 #### Notable Bug Fixes
 
@@ -104,7 +105,7 @@ newly introduced deprecations primarily impact uncommonly used APIs. As always,
 deprecated APIs are documented with a transition path in the [deprecation
 guides](https://deprecations.emberjs.com/v3.x).
 
-Several notable deprecations include:
+Several notable deprecations added in 3.27 are:
 
 ##### Invoking Helpers Without Arguments and Parentheses in Named Argument Positions
 
@@ -211,12 +212,14 @@ for more details and a transition path.
 
 #### Further information
 
-For apps which want to upgrade to Ember.js 4.0 on its release date, the list of
+For application maintainers who want to upgrade apps to Ember.js 4.0 on its release date, the list of
 deprecations in this release means their challenge is now well defined.
 Application maintainers should consider using the
 [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
-addon to address deprecations incrementally after upgrading to 3.27. Keep an eye
-out for ember-cli-deprecation-workflow 2.0 in the coming days.
+addon to address deprecations incrementally after upgrading to 3.27.
+ember-cli-deprecation-workflow 2.0 was released *today* in preperation for
+applications addressing Ember 3.x deprecations. Give us feedback in the issues
+on that repo.
 
 For app maintainers who are in less of a hurry, **please note that Ember.js 3.28
 will contain no new deprecations targeting Emer.js 4.0**. Additionally, Ember.js
@@ -265,6 +268,9 @@ pipeline) for new applications and addons. For example:
 ```bash
 ember new my-app --embroider
 ```
+
+Learn more about what Embroider offers and how to best configure it on the
+[embroider-build/embroider](https://github.com/embroider-build/embroider) repo.
 
 For more details on changes and bugfixes in Ember CLI 3.27, see the [Ember 2.7.0
 changelog](https://github.com/ember-cli/ember-cli/blob/v3.27.0/CHANGELOG.md#v3270)
