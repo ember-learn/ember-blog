@@ -45,7 +45,8 @@ For a full set of changes see [`CHANGELOG.md`](https://github.com/emberjs/ember.
 corrected in [glimmerjs/glimmer-vm#1296](https://github.com/glimmerjs/glimmer-vm/pull/1296).
 - Ember.js 3.27.0 was released in early May and included several regressions.
 These were largely related to the changes in the glimmer VM and and the
-implementation of several deprecations.
+implementation of several deprecations, and have been corrected in patch
+releases leading up to 3.27.5.
 
 ### Feature Additions
 
@@ -100,7 +101,7 @@ And be used as:
 </SuperForm>
 ```
 
-These APIs open the doors for the creation of new, more powerful abstractions.
+These APIs open the doors for the creation of new, more powerful UI abstractions.
 
 ### Deprecations
 
@@ -160,25 +161,25 @@ entry](https://deprecations.emberjs.com/v3.x#toc_ember-built-in-components-impor
 for more details and guidance on migrating away from these APIs.
 
 Additionally, reopening these classes (for example to change the `tagName` on a
-`<LinkTo>` has been deprecated and will be unsupported in 4.0. See [the
+`<LinkTo>`) has been deprecated and will be unsupported in 4.0. See [the
 deprecation guide for migration strategies](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-reopen).
 
 #### Deprecate Legacy Arguments to Built-ins
 
 Ember's built-in components had a public interface largely defined by their
 implementation as classic Ember components. In order to refactor these built-ins
-to a more modern implementation and improve their interface, large parts of
+to more modern implementations and improve their interfaces, large parts of
 their API is deprecated in 3.27.
 
 These deprecations break down into two sections. First, there are arguments
 which are essentially setting HTML attributes or dealing with events. See [this
 guide entry on legacy attribute
 arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-attribute-arguments)
-for a detailed list of deprecated arguments and migration path.
+for a detailed list of deprecated arguments and migration paths.
 
 Second, there is a set of arguments which were effectively leaks of the private
 implemention, or which no longer have a clear meaning (or usefulness) in modern
-application development. See [this guide entry on legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments) for a detailed list and migration path.
+application development. See [this guide entry on legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments) for a detailed list and migration paths.
 
 #### Deprecate the Ember Global
 
@@ -195,24 +196,24 @@ either the `Ember` object or a specific API from the module API:
 
 ```js
 // Bad, deprecated
-export Ember.Component.extend({});
+export default Ember.Component.extend({});
 ```
 
 ```js
 // Better
 import Ember from 'ember';
-export Ember.Component.extend({});
+export default Ember.Component.extend({});
 ```
 
 ```js
 // Best
 import Component from '@ember/component';
-export Component.extend({});
+export default Component.extend({});
 ```
 
 See [the deprecation
 guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC 706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
-for more details and a transition path.
+for more details and transition paths for other use cases.
 
 ### Further Information On Upgrade Timelines
 
@@ -225,13 +226,14 @@ ember-cli-deprecation-workflow 2.0 was released *today* in preperation for
 applications addressing Ember 3.x deprecations. Give us feedback in the issues
 on that repo.
 
-For app maintainers who are in less of a hurry, **please note that Ember.js 3.28
-will contain no new deprecations targeting Emer.js 4.0**. Additionally, Ember.js
+For app maintainers who are in less of a hurry, **please note that the upcoming
+release of Ember.js 3.28
+will contain no new deprecations targeting Ember.js 4.0**. Additionally, Ember.js
 3.28 will be promoted to LTS on the same day Ember.js 4.0 is released.
 
 We recommend that applications using LTS releases wait for the first LTS of
 Ember.js 4.x to upgrade, which will be Ember.js 4.4. Ember's 6 week release
-cycle means we expect there is about 44 weeks for apps upgrading from LTS-to-LTS
+cycle means we expect there is about 44 weeks (from today) for apps upgrading from LTS-to-LTS
 to address 4.0-targeted deprecations before Ember.js 4.4-LTS is made available.
 
 For more details on changes in Ember.js 3.27, please review the [Ember.js 3.27.5 release page](https://github.com/emberjs/ember.js/blob/master/CHANGELOG.md#v3275-june-10-2021).
