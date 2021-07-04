@@ -47,9 +47,9 @@ corrected in [glimmerjs/glimmer-vm#1296](https://github.com/glimmerjs/glimmer-vm
 These were largely related to the changes in the glimmer VM and and the
 implementation of several deprecations.
 
-### Features
+### Feature Additions
 
-#### Contextual helpers & modifiers
+#### Contextual Helpers & Modifiers
 
 For several years Ember has provided a mechanism called "contextual components".
 This API allows a developer to yield a component, optionally with arguments
@@ -117,7 +117,7 @@ In some templates, a helper passed as an argument can be treated as an
 invocation instead of passing the uninvoked helper as a value. For example:
 
 ```handlebars
-{{! is someHelper invoked, or pass as a reference? }}
+{{! is someHelper invoked, or passed as a reference? }}
 <SomeComponent @arg={{someHelper}} />
 ```
 
@@ -194,20 +194,17 @@ Instead, applications should adopt the Ember module API. This means importing
 either the `Ember` object or a specific API from the module API:
 
 ```js
-// app/components/some-component.js
 // Bad, deprecated
 export Ember.Component.extend({});
 ```
 
 ```js
-// app/components/some-component.js
 // Better
 import Ember from 'ember';
 export Ember.Component.extend({});
 ```
 
 ```js
-// app/components/some-component.js
 // Best
 import Component from '@ember/component';
 export Component.extend({});
@@ -217,7 +214,7 @@ See [the deprecation
 guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC 706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
 for more details and a transition path.
 
-### Further information
+### Further Information On Upgrade Timelines
 
 For application maintainers who want to upgrade apps to Ember.js 4.0 on its release date, the list of
 deprecations in this release means their challenge is now well defined.
