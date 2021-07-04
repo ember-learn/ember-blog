@@ -19,6 +19,8 @@ become an LTS release. As of the 3.28-beta being released, the main development
 branch of all Ember projects will become 4.0. Look for more information on Ember
 4.0 here on the blog this coming week.
 
+<!-- READMORE -->
+
 You can read more about our general release process with these resources:
 
 - [Release Dashboard](http://emberjs.com/releases/)
@@ -37,7 +39,7 @@ Ember.js is the core framework for building ambitious web applications.
 Ember.js 3.27 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and deprecations.
 For a full set of changes see [`CHANGELOG.md`](https://github.com/emberjs/ember.js/blob/master/CHANGELOG.md#v3275-june-10-2021).
 
-#### Notable Bug Fixes
+### Notable Bug Fixes
 
 - Prior to 3.27 `<:inverse>` would not always alias else blocks. This is
 corrected in [glimmerjs/glimmer-vm#1296](https://github.com/glimmerjs/glimmer-vm/pull/1296).
@@ -45,9 +47,9 @@ corrected in [glimmerjs/glimmer-vm#1296](https://github.com/glimmerjs/glimmer-vm
 These were largely related to the changes in the glimmer VM and and the
 implementation of several deprecations.
 
-#### Features
+### Features
 
-##### Contextual helpers & modifiers
+#### Contextual helpers & modifiers
 
 For several years Ember has provided a mechanism called "contextual components".
 This API allows a developer to yield a component, optionally with arguments
@@ -59,7 +61,8 @@ the same way.
 
 For example the layout for a `SuperForm` component might be implemented as:
 
-```app/components/super-form/template.hbs
+```handlebars
+// app/components/super-form.hbs
 <form>
   {{yield (hash
 
@@ -78,7 +81,8 @@ For example the layout for a `SuperForm` component might be implemented as:
 
 And be used as:
 
-```app/templates/index.hbs
+```handlebars
+// app/templates/index.hbs
 <SuperForm @model={{this.post}} as |f|>
 
   {{! Invoke a contextual component }}
@@ -98,7 +102,7 @@ And be used as:
 
 These APIs open the doors for the creation of new, more powerful abstractions.
 
-#### Deprecations
+### Deprecations
 
 Ember 3.27 introduces the final set of deprecations targeting Ember 4.0. The
 newly introduced deprecations primarily impact uncommonly used APIs. As always,
@@ -107,12 +111,12 @@ guides](https://deprecations.emberjs.com/v3.x).
 
 Several notable deprecations added in 3.27 are:
 
-##### Invoking Helpers Without Arguments and Parentheses in Named Argument Positions
+#### Invoking Helpers Without Arguments and Parentheses in Named Argument Positions
 
 In some templates, a helper passed as an argument can be treated as an
 invocation instead of passing the uninvoked helper as a value. For example:
 
-```hbs
+```handlebars
 {{! is someHelper invoked, or pass as a reference? }}
 <SomeComponent @arg={{someHelper}} />
 ```
@@ -120,7 +124,7 @@ invocation instead of passing the uninvoked helper as a value. For example:
 To better align helpers with how component and modifiers behave in the same
 setting, parenthesis are now required to cause an invocation:
 
-```hbs
+```handlebars
 {{! (someHelper) is clearly an invocation with no arguments }}
 <SomeComponent @arg={{(someHelper)}} />
 ```
@@ -130,7 +134,7 @@ in Ember 4.0. See the [deprecation guide
 entry](https://deprecations.emberjs.com/v3.x#toc_argument-less-helper-paren-less-invocation)
 for more details.
 
-##### Importing Legacy Built-in Components
+#### Importing Legacy Built-in Components
 
 Historically, Ember applications have been able to import the base classes which
 define `<Input>`, `<Textarea>`, and `<LinkTo>` for reopening or subclassing. In
@@ -159,7 +163,7 @@ Additionally, reopening these classes (for example to change the `tagName` on a
 `<LinkTo>` has been deprecated and will be unsupported in 4.0. See [the
 deprecation guide for migration strategies](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-reopen).
 
-##### Deprecate Legacy Arguments to Built-ins
+#### Deprecate Legacy Arguments to Built-ins
 
 Ember's built-in components had a public interface largely defined by their
 implementation as classic Ember components. In order to refactor these built-ins
@@ -176,7 +180,7 @@ Second, there is a set of arguments which were effectively leaks of the private
 implemention, or which no longer have a clear meaning (or usefulness) in modern
 application development. See [this guide entry on legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments) for a detailed list and migration path.
 
-##### Deprecate the Ember Global
+#### Deprecate the Ember Global
 
 Ember has long set a property on the `window` or `globalThis` global so that
 it can be accessed via `window.Ember`, for example. This approach to using Ember
@@ -189,18 +193,21 @@ deprecated. Support for using Ember this way will be removed in Ember 4.0.
 Instead, applications should adopt the Ember module API. This means importing
 either the `Ember` object or a specific API from the module API:
 
-```app/components/some-component/component.js
+```js
+// app/components/some-component.js
 // Bad, deprecated
 export Ember.Component.extend({});
 ```
 
-```app/components/some-component/component.js
+```js
+// app/components/some-component.js
 // Better
 import Ember from 'ember';
 export Ember.Component.extend({});
 ```
 
 ```js
+// app/components/some-component.js
 // Best
 import Component from '@ember/component';
 export Component.extend({});
@@ -210,7 +217,7 @@ See [the deprecation
 guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC 706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
 for more details and a transition path.
 
-#### Further information
+### Further information
 
 For application maintainers who want to upgrade apps to Ember.js 4.0 on its release date, the list of
 deprecations in this release means their challenge is now well defined.
