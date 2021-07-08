@@ -75,5 +75,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "ember-scroll": "github:simplabs/ember-scroll#fix-safari-no-scroll"
   }
 }
