@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 184
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-07-16T00:00:00.000Z
 tags:
   - newsletter
@@ -11,18 +12,26 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Introducing the a11y-disabled-modifier Modifier 💚,
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Introducing the a11y-disabled-modifier Modifier 💚](https://discord.com/channels/480462759797063690/480499624663056390/842592654696382474)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Inspired by the [CSSTricks](https://css-tricks.com/) blog post on [Making Disabled Buttons More Inclusive](https://css-tricks.com/making-disabled-buttons-more-inclusive/), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho/) created the [a11y-disabled-modifier](https://github.com/chriskrycho/a11y-disabled-modifier) addon.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The blog post argues against the `disabled` attribute in `<button>` in favor of the `aria-disabled` attribute since it does not prevent clicking and focusing on the button which is useful when you are navigating the site using the Tab key.
+
+This modifier implements accessible and usable button-disabling by adding `aria-disabled="true"` to the target element when the `when` named argument is truthy. It will also stop any clicks on the button from propagating and ensures form submission does not trigger.
+
+```hbs
+<form {{on "submit" this.submit}}>
+  <label>some text: <input type='text' /></label>
+  <button type='submit' {{disabled when=this.isInvalid}}>submit</button>
+</form>
+```
+
+Try it out today by running `ember install a11y-disabled-modifier` on your Ember app!
 
 ---
 
@@ -136,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
