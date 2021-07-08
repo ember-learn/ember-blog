@@ -16,6 +16,7 @@ Introducing the a11y-disabled-modifier Modifier 💚,
 
 ---
 
+<!--alex disable retext-equality-->
 ## [Introducing the a11y-disabled-modifier Modifier 💚](https://discord.com/channels/480462759797063690/480499624663056390/842592654696382474)
 
 Inspired by the [CSSTricks](https://css-tricks.com/) blog post on [Making Disabled Buttons More Inclusive](https://css-tricks.com/making-disabled-buttons-more-inclusive/), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho/) created the [a11y-disabled-modifier](https://github.com/chriskrycho/a11y-disabled-modifier) addon.
@@ -32,6 +33,7 @@ This modifier implements accessible and usable button-disabling by adding `aria-
 ```
 
 Try it out today by running `ember install a11y-disabled-modifier` on your Ember app!
+<!--alex enable retext-equality-->
 
 ---
 
