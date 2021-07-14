@@ -16,11 +16,11 @@ In his [EmberConf 2021 keynote](https://www.youtube.com/watch?v=pJPUQQQ9QDg), Ye
 
 Ember 3.27, which has already been released, was the final version of Ember to include new deprecations targeting Ember 4.0.
 
-Ember 3.28, which has been released as a beta, will be released as stable around August 9th. It will not introduce additional deprecations targeting Ember 4.0. Six weeks after its stable release, around September 13th, Ember 3.28 will become a [Long-Term Support](https://emberjs.com/releases/lts/) release.
+Ember 3.28, which has been released as a beta, will be released as stable around August 9th. It will not introduce additional deprecations targeting Ember 4.0. Six weeks after its stable release, around September 20th, Ember 3.28 will become a [Long-Term Support](https://emberjs.com/releases/lts/) release.
 
-**Ember 4.0 will be released around September 13th.** Ember 4.0 itself is not an LTS candidate.
+**Ember 4.0 will be released around September 20th.** Ember 4.0 itself is not an LTS candidate.
 
-Ember 4.4 will be the first LTS candidate of the 4.x series. It will be released as stable in February 2022 and as an LTS in March 2022.
+Ember 4.4 will be the first LTS candidate of the 4.x series. It will be released as stable around February 2022 and as an LTS around March 2022.
 
 ### Whats in a 4.0?
 
@@ -71,7 +71,7 @@ In contrast to prior major releases, we have no plans to offer an
 `ember-3-legacy` package which makes Ember 3.x APIs available for a limited time
 in Ember 4.0. This is based on fairly low use of these packages in the past.
 
-**Don't panic.** We expect many Ember users to be enthusiastic to adopt our 4.0 release, but for conservative consumers we continue to suggest using Ember's Long-Term Support releases. Ember 3.28, the last version of the 3.x cycle, will become an LTS in September 2021. The first 4.x release to be promoted to LTS will be Ember 4.4 in March 2022. This timeline provides a long window for your business to address any remaining 4.0-targeted deprecations if you're on the LTS cycle.
+**Don't panic.** We expect many Ember users to be enthusiastic to adopt our 4.0 release, but for conservative consumers we continue to suggest using Ember's Long-Term Support releases. Ember 3.28, the last version of the 3.x cycle, will become an LTS in September 2021. The first 4.x release to be promoted to LTS will be Ember 4.4 around March 2022. This timeline provides a long window for your business to address any remaining 4.0-targeted deprecations if you're on the LTS cycle.
 
 ### Contributing to Ember 4.0
 
