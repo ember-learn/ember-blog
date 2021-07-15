@@ -12,6 +12,9 @@ Contributors to the Ember project have been hard at work since [Ember Octane](ht
 
 Over the duration of a challenging (and sometimes devastating) year and a half, we've shipped a powerful new feature ([Named Blocks](https://api.emberjs.com/ember/3.26/modules/@glimmer%2Fcomponent#passing-multiple-blocks)) and supported an ecosystem shifting to Octane conventions. We've more closely aligned Ember with wider frontend conventions through improved publishing & build tooling ([Embroider](https://github.com/embroider-build/embroider)) and better support for TypeScript (both through [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript) and reducing reliance on type-unsafe framework features).
 
+Check out [Godfrey's EmberConf 2021 keynote](https://youtu.be/1Z6cLV2licU?t=103) for
+a more complete walk-through of recent changes in Ember.
+
 ## Announcing Ember 4.0
 
 In his [EmberConf 2021 keynote](https://www.youtube.com/watch?v=pJPUQQQ9QDg), Yehuda shared a name for Ember's next edition: **Polaris**. In order to unblock Polaris providing the best, most productive experience the Ember project can build, we're going to remove already-deprecated APIs in a 4.0 release.
