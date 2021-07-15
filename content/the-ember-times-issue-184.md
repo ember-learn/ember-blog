@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 184
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - tim-foster
 date: 2021-07-16T00:00:00.000Z
 tags:
   - newsletter
@@ -12,7 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Introducing the a11y-disabled-modifier Modifier 💚,
+Introducing the a11y-disabled-modifier Modifier 💚, Emberliners Talks 📽
 
 ---
 
@@ -37,9 +38,12 @@ Try it out today by running `ember install a11y-disabled-modifier` on your Ember
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [2. Emberliners talks 📽](section-url)
 
-<change section title emoji>
+Binge watch four great talks from your friends at Emberliners meetups!
+
+
+
 <consider adding some bold to your paragraph>
 <add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
@@ -147,4 +151,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Tim Foster, the crowd and the Learning Team
