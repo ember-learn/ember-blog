@@ -14,7 +14,7 @@ Over the duration of a challenging (and sometimes devastating) year and a half, 
 
 ## Announcing Ember 4.0
 
-In his [EmberConf 2021 keynote](https://www.youtube.com/watch?v=pJPUQQQ9QDg), Yehuda shared a name for Ember's next edition: **Polaris**. In order to unblock Polaris providing the best, more productive experience the Ember project can build, we're going to remove already-deprecated APIs in a 4.0 release.
+In his [EmberConf 2021 keynote](https://www.youtube.com/watch?v=pJPUQQQ9QDg), Yehuda shared a name for Ember's next edition: **Polaris**. In order to unblock Polaris providing the best, most productive experience the Ember project can build, we're going to remove already-deprecated APIs in a 4.0 release.
 
 Ember 3.27, which has already been released, was the final version of Ember to include new deprecations targeting Ember 4.0.
 
@@ -30,17 +30,17 @@ Since the release of Ember 2.0, major versions of Ember have been about removal 
 
 Additionally, Ember 4.0 does not remove the `EmberComponent` API or the core parts of the `EmberObject` system. These APIs are widely used, even after the release of Octane, by existing application and addon code.
 
-Ember 4.0 will remove all [Ember 3.x deprecations](https://deprecations.emberjs.com/v3.x) targeting Ember 4.0. These include:
+Ember 4.0 will remove [all APIs deprecated in Ember 3.x](https://deprecations.emberjs.com/v3.x) and targeting Ember 4.0. These include:
 
 - `Ember.Logger` is removed in favor of native `console` APIs. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-console-deprecate-logger).
 - `Copyable` mixin is removed in favor of the [ember-copy addon](https://github.com/emberjs/ember-copy). [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-runtime-deprecate-copy-copyable).
-- `sendAction` in favor of calling closure actions like any other callback. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-component-send-action).
-- `willTransition` and `didTransition` in favor of router service events. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_deprecate-router-events).
+- `sendAction` is removed in favor of calling closure actions like any other callback. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-component-send-action).
+- `willTransition` and `didTransition` are removed in favor of router service events. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_deprecate-router-events).
 - Computed Property `volatile()` calls are removed in favor of native getters. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_computed-property-volatile).
 - `this.$()` and other jQuery APIs are deprecated in favor of native brower equivalents. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_jquery-apis). An optional feature which restored this and other jQuery-specific features is also removed. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_optional-feature-jquery-integration).
 - `{{partial}}` is removed in favor of template-only components. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-partial).
 - Using the built-in global resolver (`App.FooController` anyone?) is deprecated in favor of using [ember-resolver](https://github.com/ember-cli/ember-resolver), already the default for Ember CLI generated apps. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-deprecate-globals-resolver).
-- Ambiguous references to a component's properties are removed, aka you must now write `{{this.someProp}}`. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_this-property-fallback).
+- Ambiguous references to a component's properties are removed. You must now write `{{this.someProp}}`. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_this-property-fallback).
 - `renderTemplate` is removed in favor of `{{in-element}}` or other rendering target redirection like [ember-wormhole](https://github.com/yapplabs/ember-wormhole). [Guide here](https://deprecations.emberjs.com/v3.x/#toc_route-render-template).
 - Support for the `Ember` global on `window` is removed in favor of importing the `Ember` object or using the module-based API. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-global).
 - Support for specific features of the `<LinkTo>`, `<Input>`, and `<Textarea>` components are removed. See guides on [positional arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-glimmer-link-to-positional-arguments), [legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments), [legacy HTML attributes](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-attribute-arguments), and [importing legacy built-in components](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-import).
@@ -53,9 +53,9 @@ entry](https://deprecations.emberjs.com/v3.x#toc_editions-classic) and
 Octane](https://guides.emberjs.com/v3.27.0/upgrading/current-edition/) guide for
 more details.
 
-The above APIs, listed as an example of what will be removed but not defining the complete list, show that API removals in 4.x tend to be for APIs that date back to Ember 1.x and are rarely used now (or should be rarely used).
+The above APIs, listed as an example of what will be removed but not defining the complete list, show that API removals in 4.x largely consist of APIs that date back to Ember 1.x, and are rarely used now (or should be rarely used).
 
-The most notable change is the completion of Ember 3.x's browser support policy. Ember 4.0 will support two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
+An additional important change is the completion of Ember 3.x's browser support policy. Ember 4.0 will support two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
 
 **Specifically, the Ember 4.x release policy includes support for Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari on desktop and mobile. It does not include support for any version of Internet Explorer.**
 
@@ -73,11 +73,11 @@ In contrast to prior major releases, we have no plans to offer an
 `ember-3-legacy` package that makes Ember 3.x APIs available for a limited time
 in Ember 4.0. This is based on fairly low use of these packages in the past.
 
-**Don't panic.** We expect many Ember users to enthusiastically adopt our 4.0 release. If you prefer a conservative upgrade path, we continue to suggest using Ember's Long-Term Support releases. Ember 3.28, the last version of the 3.x cycle, will become an LTS in September 2021. The first 4.x release to be promoted to LTS will be Ember 4.4 around March 2022. This timeline provides a long window for your business to address any remaining 4.0-targeted deprecations if you're on the LTS cycle.
+**Don't panic.** We expect many Ember users to enthusiastically adopt our 4.0 release. If you prefer a conservative upgrade path, we suggest using Ember's Long-Term Support releases. Ember 3.28, the last version of the 3.x cycle, will become an LTS in September 2021. The first 4.x release to be promoted to LTS will be Ember 4.4 around March 2022. This timeline provides a long window for your business to address any remaining 4.0-targeted deprecations (while using 3.28-LTS) before 4.4-LTS is promoted.
 
 ## Contributing to Ember 4.0
 
-In the [Ember.js](https://github.com/emberjs/ember.js), [Ember Data](https://github.com/emberjs/data), and [Ember CLI](https://github.com/ember-cli/ember-cli) repos, the final beta cycle of 3.x has already started. You are welcome to contribute to these repos by removing already deprecated functionality and IE11 compatibility code.
+In the [Ember.js](https://github.com/emberjs/ember.js), [Ember Data](https://github.com/emberjs/data), and [Ember CLI](https://github.com/ember-cli/ember-cli) repos, the final beta cycle of 3.x has already started. The `master` branch is ready for code changes targeting 4.0. You are welcome to contribute to these repos by removing already deprecated functionality and IE11 compatibility code.
 
 The core framework effort to prepare for 4.0 is tracked at
 [emberjs/ember.js#19545](https://github.com/emberjs/ember.js/issues/19545), and
