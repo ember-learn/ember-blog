@@ -22,7 +22,7 @@ Ember 3.28, which has been released as a beta, will be released as stable around
 
 Ember 4.4 will be the first LTS candidate of the 4.x series. It will be released as stable around February 2022 and as an LTS around March 2022.
 
-### Whats in a 4.0?
+## Whats in a 4.0?
 
 Since the release of Ember 2.0, major versions of Ember have been about removal of deprecated API, and not about the introduction of new features or development styles. **Ember 4.0 follows that tradition, and will contain no new features.**
 
@@ -61,7 +61,7 @@ Read more about this change in [the deprecation guide](https://deprecations.embe
 
 Existing Ember users should note that Ember 3.27 has already removed IE11 from the default target list for production and testing builds.
 
-### Planning your upgrade to 4.0
+## Planning your upgrade to 4.0
 
 For each API removed in Ember 4.0, you can find an entry in the [Ember 3.x deprecation guide](https://deprecations.emberjs.com/v3.x/). As many of the removed APIs have not been included in best practices or common documentation for the entire 3.x cycle, applications started on 3.x are expected to have a fairly smooth upgrade path.
 
@@ -73,7 +73,7 @@ in Ember 4.0. This is based on fairly low use of these packages in the past.
 
 **Don't panic.** We expect many Ember users to enthusiastically adopt our 4.0 release. If you prefer a conservative upgrade path, we continue to suggest using Ember's Long-Term Support releases. Ember 3.28, the last version of the 3.x cycle, will become an LTS in September 2021. The first 4.x release to be promoted to LTS will be Ember 4.4 around March 2022. This timeline provides a long window for your business to address any remaining 4.0-targeted deprecations if you're on the LTS cycle.
 
-### Contributing to Ember 4.0
+## Contributing to Ember 4.0
 
 In the [Ember.js](https://github.com/emberjs/ember.js), [Ember Data](https://github.com/emberjs/data), and [Ember CLI](https://github.com/ember-cli/ember-cli) repos, the final beta cycle of 3.x has already started. You are welcome to contribute to these repos by removing already deprecated functionality and IE11 compatibility code.
 
