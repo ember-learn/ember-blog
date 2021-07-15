@@ -178,7 +178,7 @@ arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-
 for a detailed list of deprecated arguments and migration paths.
 
 Second, there is a set of arguments which were effectively leaks of the private
-implemention, or which no longer have a clear meaning (or usefulness) in modern
+implementation, or which no longer have a clear meaning (or usefulness) in modern
 application development. See [this guide entry on legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments) for a detailed list and migration paths.
 
 #### Deprecate the Ember Global
@@ -278,7 +278,7 @@ ember new my-app --embroider
 Learn more about what Embroider offers and how to best configure it on the
 [embroider-build/embroider](https://github.com/embroider-build/embroider) repo.
 
-For more details on changes and bugfixes in Ember CLI 3.27, see the [Ember 2.7.0
+For more details on changes and bugfixes in Ember CLI 3.27, see the [Ember 3.27.0
 changelog](https://github.com/ember-cli/ember-cli/blob/v3.27.0/CHANGELOG.md#v3270)
 and [Ember CLI 3.27.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v3.27.0).
 
