@@ -82,7 +82,7 @@ The core framework effort to prepare for 4.0 is tracked at
 a list of deprecated APIs we need help to remove is tracked at
 [emberjs/ember.js#19617](https://github.com/emberjs/ember.js/issues/19617).
 
-Join us on [Discord](https://discord.com/invite/emberjs) in the `#dev-ember-js`, `#dev-ember-data`, or `dev-ember-cli` channels to find out how you can contribute.
+Join us on [Discord](https://discord.com/invite/emberjs) in the `#dev-ember-js`, `#dev-ember-data`, `#dev-ember-cli`, or `#dev-ember-learning` channels to find out how you can contribute.
 
 In less than six weeks we expect the first betas for 4.0 to be released. Please plan to test those releases with your applications and addons to smoke out any regressions.
 
