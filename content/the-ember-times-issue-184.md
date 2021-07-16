@@ -60,7 +60,7 @@ Try it out today by running `ember install a11y-disabled-modifier` on your Ember
 
 ## [Ember Berlin Meetup with 4 talks 📽](https://www.youtube.com/watch?v=c-sWTZJ6nlM&ab_channel=Pusherl)
 
-Four great talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/) now available for binge watching!
+Four amazing talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/) now available for binge watching!
   
 1. First up, is '[Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s)' by [Ben Demboski](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
   
@@ -70,7 +70,7 @@ Four great talks from our friends at [Emberliners meetups](https://www.meetup.co
 
 4. Lastly, [Michael Klein](https://github.com/levelbossmike) and [Clemens Mueller](https://github.com/pangratz) discuss '[On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s)' providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
 
-These talks give a great snapshot lots of exciting developments happening around the Ember community 💗. 
+These talks give a great snapshot lots of exciting developments happening around the Ember community 💗.
 
 ---
   
