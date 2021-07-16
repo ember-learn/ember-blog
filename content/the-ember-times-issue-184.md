@@ -62,13 +62,13 @@ Try it out today by running `ember install a11y-disabled-modifier` on your Ember
 
 Four amazing talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/) are now available for binge watching!
   
-1. First up, is '[Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s)' by [Ben Demboski](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
+1. First up, is '[Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s)' by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
   
-2. [Agathe Badia](https://github.com/Agathebadia) shows her fascinating work on creating a ['Colorblindness emulator with Ember, an A11y project'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
+2. [Agathe Badia (@Agathebadia)](https://github.com/Agathebadia) shows her fascinating work on creating a ['Colorblindness emulator with Ember, an A11y project'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
   
-3. [Francesco Novy](https://github.com/mydea) presents ['You could get used to this: Managing GraphQL data'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
+3. [Francesco Novy (@mydea)](https://github.com/mydea) presents ['You could get used to this: Managing GraphQL data'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
 
-4. Lastly, [Michael Klein](https://github.com/levelbossmike) and [Clemens Mueller](https://github.com/pangratz) discuss '[On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s)' providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
+4. Lastly, [Michael Klein (@levelbossmike)](https://github.com/levelbossmike) and [Clemens Mueller (@pangratz)](https://github.com/pangratz) discuss '[On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s)' providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
 
 These talks give a great snapshot lots of exciting developments happening around the Ember community 💗.
 
