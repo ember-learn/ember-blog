@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 184
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
+  - tim-foster
   - amy-lam
   - jessica-jordan
 date: 2021-07-16T00:00:00.000Z
@@ -16,6 +17,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 The Road to Ember 4.0 Polaris 🛣,
 Introducing the a11y-disabled-modifier Modifier 💚,
+Emberliners Talks 📽,
 Get your update for ember-engines 0.8.18 🎉,
 
 ---
@@ -56,6 +58,22 @@ Try it out today by running `ember install a11y-disabled-modifier` on your Ember
 
 ---
 
+## [Ember Berlin Meetup with 4 talks 📽](https://www.youtube.com/watch?v=c-sWTZJ6nlM&ab_channel=Pusherl)
+
+Four amazing talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/) are now available for binge watching!
+  
+1. First up, is '[Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s)' by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
+  
+2. [Agathe Badia (@Agathebadia)](https://github.com/Agathebadia) shows her fascinating work on creating a ['Colorblindness emulator with Ember, an A11y project'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
+  
+3. [Francesco Novy (@mydea)](https://github.com/mydea) presents ['You could get used to this: Managing GraphQL data'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
+
+4. Lastly, [Michael Klein (@levelbossmike)](https://github.com/levelbossmike) and [Clemens Mueller (@pangratz)](https://github.com/pangratz) discuss '[On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s)' providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
+
+These talks give a great snapshot lots of exciting developments happening around the Ember community 💗.
+
+---
+  
 ## [ember-engines v0.8.18 is out! 🎉](https://twitter.com/MVillander/status/1406367740668092420)
 
 If you're already using [ember-engines](https://ember-engines.com/) or plan on using it, be sure to [upgrade your dependency](https://twitter.com/MVillander/status/1406367740668092420)!
@@ -170,4 +188,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jesse Jordan, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jesse Jordan, Tim Foster the crowd and the Learning Team
