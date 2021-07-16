@@ -6,7 +6,6 @@ authors:
   - tim-foster
   - amy-lam
   - jessica-jordan
-
 date: 2021-07-16T00:00:00.000Z
 tags:
   - newsletter
@@ -16,7 +15,6 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
 Introducing the a11y-disabled-modifier Modifier 💚, Emberliners Talks 📽,
 The Road to Ember 4.0 Polaris 🛣,
 Introducing the a11y-disabled-modifier Modifier 💚,
@@ -36,7 +34,6 @@ Get your update for ember-engines 0.8.18 🎉,
 Please check out the [detailed post](https://blog.emberjs.com/the-road-to-ember-4-0/) in full for more details on how you can prepare for your upgrade!
 
 > We're looking forward to working with the community on Ember 4.0 and on the opportunities beyond it. As always we appreciate your support, your trust, and our common partnership.
-
 
 ---
 
@@ -63,10 +60,14 @@ Try it out today by running `ember install a11y-disabled-modifier` on your Ember
 
 ## [Ember Berlin Meetup with 4 talks 📽](https://www.youtube.com/watch?v=c-sWTZJ6nlM&ab_channel=Pusherl)
 
-You can binge watch four great talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/). 
+Four great talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/) now available for binge watching!
+  
 1. First up, is '[Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s)' by [Ben Demboski](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
+  
 2. [Agathe Badia](https://github.com/Agathebadia) shows her fascinating work on creating a ['Colorblindness emulator with Ember, an A11y project'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
+  
 3. [Francesco Novy](https://github.com/mydea) presents ['You could get used to this: Managing GraphQL data'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
+
 4. Lastly, [Michael Klein](https://github.com/levelbossmike) and [Clemens Mueller](https://github.com/pangratz) discuss '[On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s)' providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
 
 These talks give a great snapshot lots of exciting developments happening around the Ember community 💗. 
@@ -188,4 +189,3 @@ That's another wrap! ✨
 Be kind,
 
 Chris Ng, Amy Lam, Jesse Jordan, Tim Foster the crowd and the Learning Team
-
