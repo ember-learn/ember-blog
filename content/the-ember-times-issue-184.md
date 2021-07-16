@@ -15,9 +15,9 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Introducing the a11y-disabled-modifier Modifier 💚, Emberliners Talks 📽,
 The Road to Ember 4.0 Polaris 🛣,
 Introducing the a11y-disabled-modifier Modifier 💚,
+Emberliners Talks 📽,
 Get your update for ember-engines 0.8.18 🎉,
 
 ---
