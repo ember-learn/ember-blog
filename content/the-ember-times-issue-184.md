@@ -20,14 +20,14 @@ Introducing the a11y-disabled-modifier Modifier 💚,
 
 ## [The Road to Ember 4.0 Polaris 🛣](https://blog.emberjs.com/the-road-to-ember-4-0/)
 
-[Matthew Beale (@mixonic)](https://github.com/mixonic) from the Ember Core Framework and Steering Committee [teams](https://emberjs.com/teams/), writes about [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/) on the official Ember blog. 
+[Matthew Beale (@mixonic)](https://github.com/mixonic) from the Ember Core Framework and Steering Committee [teams](https://emberjs.com/teams/), writes about [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/) on the official Ember blog.
   
 - **Announcing Ember 4.0**: Ember 4.0 will be released around September 20th. Ember 4.4 will be the first LTS candidate of the 4.x series.
 - **Whats in a 4.0?**: As a major version of Ember, there are no new features. This sections discusses the removal of deprecated APIs. For example, `Ember.Logger` is removed in favor of native console APIs. Also, `sendAction` is removed in favor of calling closure actions like any other callback.
 - **Planning your upgrade to 4.0**: Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon as part of your upgrade process.
 - **Contributing to Ember 4.0**: Join us on Discord in the #dev-ember-js, #dev-ember-data, #dev-ember-cli, or #dev-ember-learning channels to find out how you can contribute.
   
-Please check out the [detailed post](https://blog.emberjs.com/the-road-to-ember-4-0/) in full for more details on how you can prepare for your upgrade! 
+Please check out the [detailed post](https://blog.emberjs.com/the-road-to-ember-4-0/) in full for more details on how you can prepare for your upgrade!
   
 > We're looking forward to working with the community on Ember 4.0 and on the opportunities beyond it. As always we appreciate your support, your trust, and our common partnership.
 
