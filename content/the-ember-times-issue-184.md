@@ -4,6 +4,7 @@ authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - amy-lam
+  - jessica-jordan
 date: 2021-07-16T00:00:00.000Z
 tags:
   - newsletter
@@ -15,24 +16,25 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 The Road to Ember 4.0 Polaris 🛣,
 Introducing the a11y-disabled-modifier Modifier 💚,
+Get your update for ember-engines 0.8.18 🎉,
 
 ---
 
 ## [The Road to Ember 4.0 Polaris 🛣](https://blog.emberjs.com/the-road-to-ember-4-0/)
 
 [Matthew Beale (@mixonic)](https://github.com/mixonic) from the Ember Core Framework and Steering Committee [teams](https://emberjs.com/teams/), writes about [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/) on the official Ember blog.
-  
+
 - **Announcing Ember 4.0**: Ember 4.0 will be released around September 20th. Ember 4.4 will be the first LTS candidate of the 4.x series.
 - **Whats in a 4.0?**: As a major version of Ember, there are no new features. This sections discusses the removal of deprecated APIs. For example, `Ember.Logger` is removed in favor of native console APIs. Also, `sendAction` is removed in favor of calling closure actions like any other callback.
 - **Planning your upgrade to 4.0**: Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon as part of your upgrade process.
 - **Contributing to Ember 4.0**: Join us on Discord in the #dev-ember-js, #dev-ember-data, #dev-ember-cli, or #dev-ember-learning channels to find out how you can contribute.
-  
+
 Please check out the [detailed post](https://blog.emberjs.com/the-road-to-ember-4-0/) in full for more details on how you can prepare for your upgrade!
-  
+
 > We're looking forward to working with the community on Ember 4.0 and on the opportunities beyond it. As always we appreciate your support, your trust, and our common partnership.
 
 ---
-  
+
 ## [Introducing the a11y-disabled-modifier Modifier 💚](https://discord.com/channels/480462759797063690/480499624663056390/842592654696382474)
 
 <!--alex disable invalid-->
@@ -42,7 +44,7 @@ The blog post argues against the `disabled` attribute in `<button>` in favor of 
 
 This modifier implements accessible and usable button-disabling by adding `aria-disabled="true"` to the target element when the `when` named argument is truthy. It will also stop any clicks on the button from propagating and ensures form submission does not trigger.
 
-```hbs
+```html
 <form {{on "submit" this.submit}}>
   <label>some text: <input type='text' /></label>
   <button type='submit' {{disabled when=this.isInvalid}}>submit</button>
@@ -51,6 +53,22 @@ This modifier implements accessible and usable button-disabling by adding `aria-
 
 Try it out today by running `ember install a11y-disabled-modifier` on your Ember app!
 <!--alex enable invalid-->
+
+---
+
+## [ember-engines v0.8.18 is out! 🎉](https://twitter.com/MVillander/status/1406367740668092420)
+
+If you're already using [ember-engines](https://ember-engines.com/) or plan on using it, be sure to [upgrade your dependency](https://twitter.com/MVillander/status/1406367740668092420)!
+
+The **latest patch release** of ember-engines not only includes bug fixes for older Ember apps, but also several build fixes and new deprecation warnings to help up you keep your application up-to-date.
+
+A huge thank you goes to [Travis Hoover (@thoov)](https://github.com/thoov), [Bert De Block (@bertdeblock)](https://github.com/bertdeblock), [Michael Villander (@villander)](https://github.com/villander) and [Robert Jackson (@rwjblue)](https://github.com/rwjblue) for their work on the project!
+
+Check out the full list of recent updates in the following **changelogs**:
+
+- [v0.8.16](https://github.com/ember-engines/ember-engines/releases/tag/v0.8.16)
+- [v0.8.17](https://github.com/ember-engines/ember-engines/releases/tag/v0.8.17)
+- [v0.8.18](https://github.com/ember-engines/ember-engines/releases/tag/v0.8.18)
 
 ---
 
@@ -152,4 +170,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, the crowd and the Learning Team
+Chris Ng, Amy Lam, Jesse Jordan, the crowd and the Learning Team
