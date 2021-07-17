@@ -62,7 +62,7 @@ Four amazing talks from our friends at [Emberliners meetups](https://www.meetup.
   
 1. First up, is [Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s) by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
   
-2. [Agathe Badia (@Agathebadia)](https://github.com/Agathebadia) shows her fascinating work on creating a [Colorblindness emulator with Ember, an A11y project](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
+2. [Agathe Badia (@Agathebadia)](https://github.com/Agathebadia) shows her fascinating work on creating a [Colorblindness emulator with Ember, an A11y project](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s).
   
 3. [Francesco Novy (@mydea)](https://github.com/mydea) presents [You could get used to this: Managing GraphQL data](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
 
