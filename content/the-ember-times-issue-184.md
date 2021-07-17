@@ -1,7 +1,6 @@
 ---
 title: The Ember Times - Issue No. 184
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
   - tim-foster
   - amy-lam
@@ -14,7 +13,6 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 The Road to Ember 4.0 Polaris 🛣,
 Introducing the a11y-disabled-modifier Modifier 💚,
 Emberliners Talks 📽,
@@ -29,7 +27,7 @@ Get your update for ember-engines 0.8.18 🎉,
 - **Announcing Ember 4.0**: Ember 4.0 will be released around September 20th. Ember 4.4 will be the first LTS candidate of the 4.x series.
 - **Whats in a 4.0?**: As a major version of Ember, there are no new features. This sections discusses the removal of deprecated APIs. For example, `Ember.Logger` is removed in favor of native console APIs. Also, `sendAction` is removed in favor of calling closure actions like any other callback.
 - **Planning your upgrade to 4.0**: Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon as part of your upgrade process.
-- **Contributing to Ember 4.0**: Join us on Discord in the #dev-ember-js, #dev-ember-data, #dev-ember-cli, or #dev-ember-learning channels to find out how you can contribute.
+- **Contributing to Ember 4.0**: Join us on [Discord](https://discord.com/invite/emberjs) in the #dev-ember-js, #dev-ember-data, #dev-ember-cli, or #dev-ember-learning channels to find out how you can contribute.
 
 Please check out the [detailed post](https://blog.emberjs.com/the-road-to-ember-4-0/) in full for more details on how you can prepare for your upgrade!
 
@@ -62,13 +60,13 @@ Try it out today by running `ember install a11y-disabled-modifier` on your Ember
 
 Four amazing talks from our friends at [Emberliners meetups](https://www.meetup.com/Ember-js-Berlin/) are now available for binge watching!
   
-1. First up, is '[Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s)' by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
+1. First up, is [Embroider: from zero to route splitting in 3.5 weeks](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=540s) by [Ben Demboski (@bendemboski)](https://github.com/bendemboski) which explores what it takes to update a large desktop Ember app to use Embroider.
   
-2. [Agathe Badia (@Agathebadia)](https://github.com/Agathebadia) shows her fascinating work on creating a ['Colorblindness emulator with Ember, an A11y project'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
+2. [Agathe Badia (@Agathebadia)](https://github.com/Agathebadia) shows her fascinating work on creating a [Colorblindness emulator with Ember, an A11y project](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=2156s)
   
-3. [Francesco Novy (@mydea)](https://github.com/mydea) presents ['You could get used to this: Managing GraphQL data'](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
+3. [Francesco Novy (@mydea)](https://github.com/mydea) presents [You could get used to this: Managing GraphQL data](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=3480s) - a great primer on GraphQL in Ember.
 
-4. Lastly, [Michael Klein (@levelbossmike)](https://github.com/levelbossmike) and [Clemens Mueller (@pangratz)](https://github.com/pangratz) discuss '[On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s)' providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
+4. Lastly, [Michael Klein (@levelbossmike)](https://github.com/levelbossmike) and [Clemens Mueller (@pangratz)](https://github.com/pangratz) discuss [On the development of reactive systems with Ember.js](https://www.youtube.com/watch?v=c-sWTZJ6nlM&t=5118s), providing an insightful view on approaching Ember development as a reactive system using [ember-statecharts](https://ember-statecharts.com/) addon.
 
 These talks give a great snapshot lots of exciting developments happening around the Ember community 💗.
 
@@ -90,81 +88,9 @@ Check out the full list of recent updates in the following **changelogs**:
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [4. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [5. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/mixonic" rel="noopener noreferrer" target="_blank">Matthew Beale (@mixonic)</a>, <a href="https://github.com/fozy81" rel="noopener noreferrer" target="_blank">Tim (@fozy81)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/tcouloumy" rel="noopener noreferrer" target="_blank">@tcouloumy</a>, <a href="https://github.com/kennethlarsen" rel="noopener noreferrer" target="_blank">Kenneth Larsen (@kennethlarsen)</a>, <a href="https://github.com/jayjayjpg" rel="noopener noreferrer" target="_blank">Jesse Jordan (@jayjayjpg)</a>, and <a href="https://github.com/wondersloth" rel="noopener noreferrer" target="_blank">Matthew Edwards (@wondersloth)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -188,4 +114,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Amy Lam, Jesse Jordan, Tim Foster the crowd and the Learning Team
+Chris Ng, Jesse Jordan, Tim Foster, Amy Lam, and the Learning Team
