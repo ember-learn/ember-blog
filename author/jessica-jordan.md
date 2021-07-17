@@ -1,5 +1,5 @@
 ---
-name: Jessica Jordan
+name: Jesse Jordan
 image: ''
 cover: ''
 website: ''
