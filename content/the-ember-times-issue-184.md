@@ -11,12 +11,9 @@ tags:
   - '2021'
 ---
 
-👋 Emberistas! 🐹
+👋 Emberistas! 🐹 
 
-The Road to Ember 4.0 Polaris 🛣,
-Introducing the a11y-disabled-modifier Modifier 💚,
-Emberliners Talks 📽,
-Get your update for ember-engines 0.8.18 🎉,
+The Road to Ember 4.0 Polaris, introducing a11y-disabled-modifier, Emberliners talks, and get your update for ember-engines 0.8.18.
 
 ---
 
