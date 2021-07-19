@@ -13,11 +13,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-The Road to Ember 4.0 Polaris, introducing a11y-disabled-modifier, Emberliners talks, and get your update for ember-engines 0.8.18.
+The Road to Ember 4.0, introducing a11y-disabled-modifier, Emberliners talks, and get your update for ember-engines 0.8.18.
 
 ---
 
-## [The Road to Ember 4.0 Polaris 🛣](https://blog.emberjs.com/the-road-to-ember-4-0/)
+## [The Road to Ember 4.0 🛣](https://blog.emberjs.com/the-road-to-ember-4-0/)
 
 [Matthew Beale (@mixonic)](https://github.com/mixonic) from the Ember Core Framework and Steering Committee [teams](https://emberjs.com/teams/), writes about [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/) on the official Ember blog.
 
