@@ -4,6 +4,7 @@ authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - amy-lam
   - jessica-jordan
+  - isaac-lee
 date: 2021-07-30T00:00:00.000Z
 tags:
   - newsletter
@@ -16,6 +17,7 @@ tags:
 Ember course on Educative 🆕,
 Using Ember with XState ❎,
 Let codemods upgrade your app and deal with jQuery 🤖,
+Testimony for Developing in Ember Octane 👍,
 
 ---
 
@@ -56,15 +58,13 @@ Read the full article [here](https://www.jenweber.dev/remodeling-an-ember-app---
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [Ember.js | The Good Parts 👍](https://medium.com/@sarbbottam/ember-js-the-good-parts-f80850414053)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Sarbbottam Bandyopadhyay (@sarbbottam)](https://github.com/sarbbottam), who has been developing Ember apps since mid-2017, once shared [the challenges that he had faced with Ember.js](https://medium.com/@sarbbottam/challenges-i-face-with-ember-js-59bfba30416e).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+This week, Sarbbottam gave an update to describe his **newfound developer productivity and happiness**, thanks to Ember Octane. Titled [Ember.js | The Good Parts](https://medium.com/@sarbbottam/ember-js-the-good-parts-f80850414053), the blog post provides several code examples of a before-and-after. It also describes how a change in syntax and new features (small adjustments) can mean a big improvement to developer experience.
+
+We encourage you to check out [Sarbbottam's blog post](https://medium.com/@sarbbottam/ember-js-the-good-parts-f80850414053)!
 
 ---
 
@@ -130,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Jesse Jordan, the crowd and the Learning Team
+Amy Lam, Jesse Jordan, Isaac Lee, the crowd and the Learning Team
