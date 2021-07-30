@@ -12,16 +12,8 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Using Ember with XState ❎,
 Ember course on Educative 🆕,
-
----
-
-## [Using Ember with XState ❎](https://emerson.github.io/posts/emberjs-with-xstate)
-
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Using Ember with XState ❎,
 
 ---
 
@@ -29,7 +21,7 @@ Ember course on Educative 🆕,
 
 ## [Developing Robust Ember.js Applications course on Educative 🆕](https://www.educative.io/courses/robust-ember-js-applications)
 
-Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Educative is a growing online platform to level up your coding skills. Their teaching philosophy revolves around "no more passive learning". Instead, the platform offers interactive in-browser environments to keep you engaged and test your progress as you go. 
+Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Educative is a growing online platform to level up your coding skills. Their teaching philosophy revolves around **no more passive learning**. Instead, the platform offers interactive in-browser environments to keep you engaged and test your progress as you go. 
 
 Takeaway skills:
 - Understand how Ember.js works in web applications
@@ -41,15 +33,13 @@ We look forward to giving the course a spin!
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Using Ember with XState ❎](https://emerson.github.io/posts/emberjs-with-xstate)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Over the past year, the frontend team at [iManage Closing Folders](https://www.closingfolders.com/) has been experimenting with state machines and Ember. What is a state machine? From [Understanding State Machines on freeCodeCamp](https://www.freecodecamp.org/news/state-machines-basics-of-computer-science-d42855debc66/), a state machine will read a series of inputs. When it reads an input, it will switch to a different state. Each state specifies which state to switch to, for a given input. 
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+In the post [Using EmberJS with XState](https://emerson.github.io/posts/emberjs-with-xstate), [Emerson Lackey (@Emerson)](https://github.com/Emerson) discusses the benefits and drawbacks of state machines. For example, state machines provide a framework-agnostic way of defining presentational state. State machines eliminate emergent states in favor or explicit states. For example, if you have two boolean states on a component, `isSaving` and `isError`, you actually have four states to consider. 
+
+Emerson walks through an example of how to use [XState](https://xstate.js.org/) and Ember to implement a signup form. We appreciate the detailed code walkthrough, and agree that the state visualizations are definitely awesome! In addition to the writeup, check out the accompanying full source of [emberjs-state-example on GitHub](https://github.com/Emerson/emberjs-xstate-example).
 
 ---
 
