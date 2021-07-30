@@ -17,7 +17,7 @@ New release of Unstable Ember Language Server, share code snippets on Twitter us
 
 ## [Release of uELS v2.0.16 ✅](https://discord.com/channels/480462759797063690/480499624663056390/845766724040523786)
 
-[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_ it actually has been **stable** and ready to use for day-to-day development!
+[Unstable Ember Language Server](https://github.com/lifeart/ember-language-server) is a fully featured fork of Ember Language Server. While the name says _unstable_ it actually has been **stable** and ready to use for day-to-day development!
 
 Thanks to both [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafroscia) and [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for new version release which provides:
 
@@ -27,7 +27,7 @@ Thanks to both [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafrosci
 * Added template-lint severity support
 * Improved template-linting speed
 
-Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/lifeart/vscode-ember-unstable) or [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
+Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/lifeart/vscode-ember-unstable), [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable), or [neoVim](https://github.com/NullVoxPopuli/coc-ember). uELS also works on Emacs using [lsp-mode](https://github.com/emacs-lsp/lsp-mode).
 
 ---
 
