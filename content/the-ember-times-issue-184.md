@@ -41,7 +41,7 @@ The blog post argues against the `disabled` attribute in `<button>` in favor of 
 
 This modifier implements accessible and usable button-disabling by adding `aria-disabled="true"` to the target element when the `when` named argument is truthy. It will also stop any clicks on the button from propagating and ensures form submission does not trigger.
 
-```html
+```handlebars
 <form {{on "submit" this.submit}}>
   <label>some text: <input type='text' /></label>
   <button type='submit' {{disabled when=this.isInvalid}}>submit</button>
