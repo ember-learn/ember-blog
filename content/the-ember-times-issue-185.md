@@ -5,6 +5,7 @@ authors:
   - amy-lam
   - jessica-jordan
   - isaac-lee
+  - chris-ng
 date: 2021-07-30T00:00:00.000Z
 tags:
   - newsletter
@@ -18,6 +19,7 @@ Ember course on Educative 🆕,
 Using Ember with XState ❎,
 Let codemods upgrade your app and deal with jQuery 🤖,
 Testimony for Developing in Ember Octane 👍,
+Try out the new release of ember-deep-tracked 🎉,
 
 ---
 
@@ -68,15 +70,24 @@ We encourage you to check out [Sarbbottam's blog post](https://medium.com/@sarbb
 
 ---
 
-## [6. Section title in sentence case 🐹](section-url)
+## [Release of ember-deep-tracked 🎉](https://twitter.com/nullvoxpopuli/status/1406022013639135232)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) published [ember-deep-tracked](https://github.com/NullVoxPopuli/ember-deep-tracked) which is a prototype of "deep tracking" for Ember.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+To try it out, you need to annotate the object using a decorator similar to `tracked`.
+
+```js
+import { tracked } from 'ember-deep-tracked';
+import Component from '@glimmer/component';
+
+export default class Foo extends Component {
+  @tracked obj = { bar: 2 };
+}
+```
+
+In the example above when the object `obj,bar` updates using `{{this.obj.bar}}` will also update since it is deeply tracked.
+
+Note the addon is not recommended for performance sensitive situations such as rendering a table from a large data set where updates to that data set are frequent. This is because without updates there will be an increase in initial render time.
 
 ---
 
@@ -130,4 +141,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Jesse Jordan, Isaac Lee, the crowd and the Learning Team
+Amy Lam, Jesse Jordan, Isaac Lee, Chris Ng, the crowd and the Learning Team
