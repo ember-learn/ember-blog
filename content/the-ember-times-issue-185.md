@@ -21,23 +21,24 @@ Using Ember with XState ❎,
 
 ## [Developing Robust Ember.js Applications course on Educative 🆕](https://www.educative.io/courses/robust-ember-js-applications)
 
-Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Educative is a growing online platform to level up your coding skills. Their teaching philosophy revolves around **no more passive learning**. Instead, the platform offers interactive in-browser environments to keep you engaged and test your progress as you go. 
+Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Educative is a growing online platform to level up your coding skills. Their teaching philosophy revolves around **no more passive learning**. Instead, the platform offers interactive in-browser environments to keep you engaged and test your progress as you go.
 
 Takeaway skills:
+
 - Understand how Ember.js works in web applications
 - Help the user understand how the different building blocks, including components, routing, and services, make everything work in Ember.js
 - Learn how to use Ember CLI
 - Learn how to completely develop and Ember.js application
 
-We look forward to giving the course a spin! 
+We look forward to giving the course a spin!
 
 ---
 
 ## [Using Ember with XState ❎](https://emerson.github.io/posts/emberjs-with-xstate)
 
-Over the past year, the frontend team at [iManage Closing Folders](https://www.closingfolders.com/) has been experimenting with state machines and Ember. What is a state machine? From [Understanding State Machines on freeCodeCamp](https://www.freecodecamp.org/news/state-machines-basics-of-computer-science-d42855debc66/), a state machine will read a series of inputs. When it reads an input, it will switch to a different state. Each state specifies which state to switch to, for a given input. 
+Over the past year, the frontend team at [iManage Closing Folders](https://www.closingfolders.com/) has been experimenting with state machines and Ember. What is a state machine? From [Understanding State Machines on freeCodeCamp](https://www.freecodecamp.org/news/state-machines-basics-of-computer-science-d42855debc66/), a state machine will read a series of inputs. When it reads an input, it will switch to a different state. Each state specifies which state to switch to, for a given input.
 
-In the post [Using EmberJS with XState](https://emerson.github.io/posts/emberjs-with-xstate), [Emerson Lackey (@Emerson)](https://github.com/Emerson) discusses the benefits and drawbacks of state machines. For example, state machines provide a framework-agnostic way of defining presentational state. State machines eliminate emergent states in favor or explicit states. For example, if you have two boolean states on a component, `isSaving` and `isError`, you actually have four states to consider. 
+In the post [Using EmberJS with XState](https://emerson.github.io/posts/emberjs-with-xstate), [Emerson Lackey (@Emerson)](https://github.com/Emerson) discusses the benefits and drawbacks of state machines. For example, state machines provide a framework-agnostic way of defining presentational state. State machines eliminate emergent states in favor or explicit states. For example, if you have two boolean states on a component, `isSaving` and `isError`, you actually have four states to consider.
 
 Emerson walks through an example of how to use [XState](https://xstate.js.org/) and Ember to implement a signup form. We appreciate the detailed code walkthrough, and agree that the state visualizations are definitely awesome! In addition to the writeup, check out the accompanying full source of [emberjs-state-example on GitHub](https://github.com/Emerson/emberjs-xstate-example).
 
