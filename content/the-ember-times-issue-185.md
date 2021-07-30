@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 185
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - amy-lam
 date: 2021-07-30T00:00:00.000Z
 tags:
   - newsletter
@@ -11,30 +12,32 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Using Ember with XState ❎,
+Ember course on Educative 🆕,
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Using Ember with XState ❎](https://emerson.github.io/posts/emberjs-with-xstate)
 
-<change section title emoji>
 <consider adding some bold to your paragraph>
 <add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
 <please include link to external article/repo/etc in paragraph / body text, not just header title above>
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+<img alt="Ember on Educative" src="/images/educative.avif" />
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+## [Developing Robust Ember.js Applications course on Educative 🆕](https://www.educative.io/courses/robust-ember-js-applications)
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Educative is a growing online platform to level up your coding skills. Their teaching philosophy revolves around "no more passive learning". Instead, the platform offers interactive in-browser environments to keep you engaged and test your progress as you go. 
+
+Takeaway skills:
+- Understand how Ember.js works in web applications
+- Help the user understand how the different building blocks, including components, routing, and services, make everything work in Ember.js
+- Learn how to use Ember CLI
+- Learn how to completely develop and Ember.js application
+
+We look forward to giving the course a spin! 
 
 ---
 
@@ -136,4 +139,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
