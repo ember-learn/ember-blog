@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 185
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - amy-lam
+  - jessica-jordan
 date: 2021-07-30T00:00:00.000Z
 tags:
   - newsletter
@@ -14,6 +15,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember course on Educative 🆕,
 Using Ember with XState ❎,
+Let codemods upgrade your app and deal with jQuery 🤖,
 
 ---
 
@@ -44,15 +46,13 @@ Emerson walks through an example of how to use [XState](https://xstate.js.org/) 
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [Let codemods upgrade your app and deal with jQuery 🤖](https://twitter.com/jwwweber/status/1415062325149720578)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Another **must-read tutorial** for anyone who is **building and maintaining Ember applications** is coming your way:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+In her article ["Remodeling an Ember App - Codemods and jQuery"](https://www.jenweber.dev/remodeling-an-ember-app---codemods) Ember core team member [Jen Weber (@jenweber)](https://github.com/jenweber) teaches you where to find **codemods** and how to use them for upgrades of your Ember app. Additionally, you will learn how you can make your app [exclude the jQuery dependency automatically](https://guides.emberjs.com/release/configuring-ember/optional-features/#toc_jquery-integration) to save a few extra kilobytes on your builds!
+
+Read the full article [here](https://www.jenweber.dev/remodeling-an-ember-app---codemods) (or alternatively on [dev.to](https://dev.to/jenweber/remodeling-an-ember-app-codemods-and-jquery-3e8k)) and if this tutorial helped you with your own upgrade, be sure to [share your experience on the post announcement](https://twitter.com/jwwweber/status/1415062325149720578)!
 
 ---
 
@@ -130,4 +130,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Jesse Jordan, the crowd and the Learning Team
