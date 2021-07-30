@@ -21,7 +21,7 @@ Using Ember with XState ❎,
 
 ## [Developing Robust Ember.js Applications course on Educative 🆕](https://www.educative.io/courses/robust-ember-js-applications)
 
-Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Educative is a growing online platform to level up your coding skills. Their teaching philosophy revolves around **no more passive learning**. Instead, the platform offers interactive in-browser environments to keep you engaged and test your progress as you go.
+Based on the popular book, [Rock and Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/), Educative has a new (paid) course, [Developing Robust Ember.js Applications](https://www.educative.io/courses/robust-ember-js-applications) by [Balint Erdi (@balinterdi)](https://github.com/balinterdi). Balint chose to partner with Educative because their courses are **interactive**: there are quizzes and coding challenges at the end of most chapters, which will help reinforce understanding and learning.
 
 Takeaway skills:
 
