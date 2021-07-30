@@ -6,6 +6,7 @@ authors:
   - jessica-jordan
   - isaac-lee
   - chris-ng
+  - jared-galanis
 date: 2021-07-30T00:00:00.000Z
 tags:
   - newsletter
@@ -20,6 +21,7 @@ Using Ember with XState ❎,
 Let codemods upgrade your app and deal with jQuery 🤖,
 Testimony for Developing in Ember Octane 👍,
 Try out the new release of ember-deep-tracked 🎉,
+Why Blueprints are Cool 😎,
 
 ---
 
@@ -91,6 +93,18 @@ Note the addon is not recommended for performance sensitive situations such as r
 
 ---
 
+## [Why Blueprints are Cool 😎](https://dev.to/jayjayjpg/why-blueprints-in-ember-are-cool-and-how-they-save-you-time-writing-tests-1p0b)
+
+If you've been using Ember for any length of time you almost certainly have come to appreciate the robust generators that `ember-cli` provides. Ember's first-in-class generators can cut down on development time by reducing the need to write boilerplate and reducing the risk of errors in setting up your code.
+
+If you've been wondering about how those generators get set up and how you can create your own, then you're in luck! There's a super helpful ✨✨new article✨✨ by our very own [Jessy Jordan (@jayjayjpg)](https://github.com/jayjayjpg) on how you can write your own blueprints to customize generator commands for use in setting up tests files in Ember 🔥🔥🔥.
+
+The article walks us through the process from top to bottom on how blueprints drive the built-in Ember generators for setting up tests, and how we can create our own blueprints for customizing this setup and make automating this part of writing tests a snap.
+
+By following the thorough explanations provided in [the article](https://dev.to/jayjayjpg/why-blueprints-in-ember-are-cool-and-how-they-save-you-time-writing-tests-1p0b) you can get started writing your own blueprints in no time!
+
+---
+
 ## [7. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
@@ -141,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Jesse Jordan, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Amy Lam, Jesse Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd and the Learning Team
