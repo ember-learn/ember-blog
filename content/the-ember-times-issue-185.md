@@ -14,12 +14,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember course on Educative 🆕,
-Using Ember with XState ❎,
-Let codemods upgrade your app and deal with jQuery 🤖,
-Testimony for Developing in Ember Octane 👍,
-Try out the new release of ember-deep-tracked 🎉,
-Why Blueprints are Cool 😎,
+New Educative course, using Ember with XState, let codemods upgrade your app & deal with jQuery, Ember.js: The Good Parts, new release of ember-deep-tracked, why blueprints are cool.
 
 ---
 
