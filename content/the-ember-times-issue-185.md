@@ -1,12 +1,11 @@
 ---
 title: The Ember Times - Issue No. 185
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-  - amy-lam
   - jessica-jordan
   - isaac-lee
   - chris-ng
   - jared-galanis
+  - amy-lam
 date: 2021-07-30T00:00:00.000Z
 tags:
   - newsletter
@@ -15,7 +14,6 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember course on Educative 🆕,
 Using Ember with XState ❎,
 Let codemods upgrade your app and deal with jQuery 🤖,
@@ -105,30 +103,6 @@ By following the thorough explanations provided in [the article](https://dev.to/
 
 ---
 
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank <a href="https://github.com/mixonic" rel="noopener noreferrer" target="_blank">Matthew Beale (@mixonic)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/faith-or" rel="noopener noreferrer" target="_blank">Faith Or (@faith-or)</a>, <a href="https://github.com/hadenpf" rel="noopener noreferrer" target="_blank">Haden (@hadenpf)</a>, <a href="https://github.com/pzuraq" rel="noopener noreferrer" target="_blank">Chris Garrett (@pzuraq)</a>, <a href="https://github.com/stefanpenner" rel="noopener noreferrer" target="_blank">Stefan Penner (@stefanpenner)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/igorT" rel="noopener noreferrer" target="_blank">Igor Terzic (@igorT)</a>, <a href="https://github.com/elwayman02" rel="noopener noreferrer" target="_blank">Jordan Hawker (@elwayman02)</a>, <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/mydea" rel="noopener noreferrer" target="_blank">Francesco Novy (@mydea)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/robertosequeira" rel="noopener noreferrer" target="_blank">Roberto Sequeira (@robertosequeira)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/hellomattio" rel="noopener noreferrer" target="_blank">Matt Doyle (@hellomattio)</a>, <a href="https://github.com/jayjayjpg" rel="noopener noreferrer" target="_blank">Jessy Jordan (@jayjayjpg)</a>, <a href="https://github.com/MrChocolatine" rel="noopener noreferrer" target="_blank">Max Z (@MrChocolatine)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/harshith-venkatesh" rel="noopener noreferrer" target="_blank">Harshith Venkatesh (@harshith-venkatesh)</a>, <a href="https://github.com/hmajoros" rel="noopener noreferrer" target="_blank">Hank Majoros (@hmajoros)</a>, and <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a> for their contributions to Ember and related repositories! 💖</p>
@@ -155,4 +129,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Jesse Jordan, Isaac Lee, Chris Ng, Jared Galanis the crowd and the Learning Team
+Jesse Jordan, Isaac Lee, Chris Ng, Jared Galanis, Amy Lam, and the Learning Team
