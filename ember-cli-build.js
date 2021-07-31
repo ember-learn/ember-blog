@@ -11,6 +11,7 @@ module.exports = function (defaults) {
       components: [
         'bash',
         'handlebars',
+        'markup', // hbs
         'markup-templating', // handlebars
         'javascript',
         'json',
