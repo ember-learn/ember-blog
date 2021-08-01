@@ -27,7 +27,12 @@ Thanks to both [Alex LaFroscia (@alexlafroscia)](https://github.com/alexlafrosci
 * Added template-lint severity support
 * Improved template-linting speed
 
-Try out uELS today by installing over [Open VSX](https://open-vsx.org/extension/lifeart/vscode-ember-unstable), [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable), or [neoVim](https://github.com/NullVoxPopuli/coc-ember). uELS also works on Emacs using [lsp-mode](https://github.com/emacs-lsp/lsp-mode).
+Try out uELS today:
+
+* [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
+* [neoVim](https://github.com/NullVoxPopuli/coc-ember)
+* Emacs using [lsp-mode](https://github.com/emacs-lsp/lsp-mode)
+* Use [Open VSX](https://open-vsx.org/extension/lifeart/vscode-ember-unstable) for hosting extensions with [GitPod](https://www.gitpod.io/), [Onivim](https://onivim.io/), [Coder](https://coder.com/), [VSCodium](https://vscodium.com/), and [Theia](https://theia-ide.org/).
 
 ---
 
