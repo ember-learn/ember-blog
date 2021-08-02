@@ -162,7 +162,11 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
 1. Note: If you are making a Handlebars code block, you must use `handlebars` instead of `hbs`. For example:
 
 ```handlebars
-{{something-cool}}
+{{!-- app/templates/application.hbs --}}
+
+<h1>Hello world!</h1>
+
+{{outlet}}
 ```
 
 </details>
