@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 186
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - tim-foster # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-13T00:00:00.000Z
 tags:
   - newsletter
@@ -11,18 +11,13 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+New release for ember-responsive-image
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Ember Responsive Image v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Optimising image size and formats to improve performance can get complicated, but [ember-responsive-image](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of it's abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
 
 ---
 
@@ -136,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Tim Foster and the Learning Team
