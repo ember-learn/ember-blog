@@ -46,7 +46,7 @@ The blog outlines several possibilities to avoid using these modifiers:
 - Creating your own custom modifier when behavior is tied to a particular DOM node or DOM tree
 - Starting Ember 3.25, using a local modifier which is only referenced within your component
 - Using `useFunction` from [ember-resources](https://github.com/NullVoxPopuli/ember-resources) to lazily load data instead of doing it in `did-insert` or `did-update` modifiers
-- Handling destruction using `registerDestructor` from [@ember/destroyable](https://api.emberjs.com/ember/release/modules/@ember%2Fdestroyable) or just using `willDestroy` directly from the [Glimmer lifecycle hook](https://api.emberjs.com/ember/release/modules/@glimmer%2Fcomponent#willdestroy)
+- Handling destruction using `registerDestructor` from [@ember/destroyable](https://api.emberjs.com/ember/release/modules/@ember%2Fdestroyable) or using `willDestroy` directly from the [Glimmer lifecycle hook](https://api.emberjs.com/ember/release/modules/@glimmer%2Fcomponent#willdestroy)
 
 Read more about the different strategies to avoiding lifecycle in components at the [Avoiding Lifecycle in Components blog post](https://nullvoxpopuli.com/avoiding-lifecycle)!
 
