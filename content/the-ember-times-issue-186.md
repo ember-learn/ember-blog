@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 186
 authors:
   - tim-foster # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-08-13T00:00:00.000Z
 tags:
   - newsletter
@@ -11,7 +12,8 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-New release for ember-responsive-image
+New release for ember-responsive-image 🖼,
+Read the blog post on Avoiding Lifecycle in Components ✍️,
 
 ---
 
@@ -33,15 +35,20 @@ Optimising image size and formats to improve performance can get complicated, bu
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [Blog Post: Avoiding Lifecycle in Components ✍️](https://twitter.com/nullvoxpopuli/status/1421128258427490311)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) published a blog post on [Avoiding Lifecycle in Components](https://nullvoxpopuli.com/avoiding-lifecycle), namely the lifecycle hooks that come with [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+For some context, ember-render-modifiers was created from [RFC 415: Render Element Modifiers](https://emberjs.github.io/rfcs/0415-render-element-modifiers.html) which introduced  three new generic element modifiers: `{{did-insert}}`, `{{did-update}}`, and `{{will-destroy}}`. The caveat however was that these modifiers were meant for quickly migrating away from classic Ember components to Glimmer components, because they largely allow you to use the same lifecycle hook methods you've already written while attaching them to these modifiers.
+
+The blog outlines several possibilities to avoid using these modifiers:
+
+- Creating your own custom modifier when behavior is tied to a particular DOM node or DOM tree
+- Starting Ember 3.25, using a local modifier which is only referenced within your component
+- Using `useFunction` from [ember-resources](https://github.com/NullVoxPopuli/ember-resources) to lazily load data instead of doing it in `did-insert` or `did-update` modifiers
+- Handling destruction using `registerDestructor` from [@ember/destroyable](https://api.emberjs.com/ember/release/modules/@ember%2Fdestroyable) or just using `willDestroy` directly from the [Glimmer lifecycle hook](https://api.emberjs.com/ember/release/modules/@glimmer%2Fcomponent#willdestroy)
+
+Read more about the different strategies to avoiding lifecycle in components at the [Avoiding Lifecycle in Components blog post](https://nullvoxpopuli.com/avoiding-lifecycle)!
 
 ---
 
@@ -131,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster and the Learning Team
+Tim Foster, Chris Ng, and the Learning Team
