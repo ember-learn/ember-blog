@@ -65,7 +65,7 @@ Read more about the different strategies to avoiding lifecycle in components at 
 
 ---
 
-## [Code in public: Ember development streaming on Twitch 📹](twitch.tv/real_ate)
+## [Code in public: Ember development streaming on Twitch 📹](https://www.twitch.tv/real_ate)
 
 [Chris Manson (@mansona)](https://github.com/mansona) of the Ember Learning Team continues to livestream open source Ember development on Twitch! Check out the channel at [twitch.tv/real_ate](https://www.twitch.tv/real_ate) and give it a follow! In the most recent stream, Chris does some coding work on [MelSumner/a11y-automation](https://github.com/MelSumner/a11y-automation), then switches gears to [empress/field-guide](https://github.com/empress/field-guide). Catch the next episode live [every Thursday from 10:30-13:00 (GMT+2)](https://www.twitch.tv/real_ate/schedule)!
 
