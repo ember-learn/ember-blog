@@ -1,8 +1,9 @@
 ---
 title: The Ember Times - Issue No. 186
 authors:
-  - tim-foster # replace with real authors from the author folder (add yourself if you're not there)
+  - tim-foster 
   - chris-ng
+  - amy-lam
 date: 2021-08-16T00:00:00.000Z
 tags:
   - newsletter
@@ -11,27 +12,9 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-New release for ember-responsive-image 🖼,
 Read the blog post on Avoiding Lifecycle in Components ✍️,
-
----
-
-## [`ember-responsive-image` v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
-
-Optimising image size and formats to improve performance can get complicated, but the [`ember-responsive-image`](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of its abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
-
----
-
-## [2. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+New release for ember-responsive-image 🖼,
+Announcing Glimmer Apollo 🎉
 
 ---
 
@@ -52,15 +35,19 @@ Read more about the different strategies to avoiding lifecycle in components at 
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [`ember-responsive-image` v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Optimising image size and formats to improve performance can get complicated, but the [`ember-responsive-image`](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of its abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+---
+
+## [Announcing Glimmer Apollo 🎉](https://glimmer-apollo.com/)
+
+[Jose Marluedke (@josemarluedke)](https://github.com/josemarluedke) shared [Glimmer Apollo](https://glimmer-apollo.com/) on [Twitter](https://twitter.com/josemarluedke/status/1410295473072611328), a new addon that integrates GraphQL in your Ember and Glimmer apps with a declarative API to query, mutate, and access GraphQL data.
+
+For background, [GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. [Apollo Client](https://www.apollographql.com/docs/react/) is a popular declarative data fetching library for GraphQL. Glimmer Apollo uses the concept of [Resources](https://www.pzuraq.com/introducing-use/) to enable the integration of Glimmer's autotracking system with Apollo Client. The library is also reactive: queries are automatically re-executed when arguments change. The UI reflects any changes when cache data is updated.
+
+Glimmer Apollo is written in TypeScript, allowing APIs to specify the shape of the result data and variables. TypeScript also has friendly IntelliSense while coding. Glimmer Apollo is also an **Embroider native addon** (v2) and uses FastBoot (server-side rendering). 💯
 
 ---
 
@@ -138,4 +125,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Tim Foster, Chris Ng, and the Learning Team
+Tim Foster, Chris Ng, Amy Lam, and the Learning Team
