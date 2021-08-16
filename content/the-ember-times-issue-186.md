@@ -66,7 +66,7 @@ Optimising image size and formats to improve performance can get complicated, bu
 
 For background, [GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. [Apollo Client](https://www.apollographql.com/docs/react/) is a popular declarative data fetching library for GraphQL. Glimmer Apollo uses the concept of [Resources](https://www.pzuraq.com/introducing-use/) to enable the integration of Glimmer's autotracking system with Apollo Client. The library is also reactive: queries are automatically re-executed when arguments change. The UI reflects any changes when cache data is updated.
 
-Glimmer Apollo is written in TypeScript, allowing APIs to specify the shape of the result data and variables. TypeScript also has friendly IntelliSense while coding. Glimmer Apollo is also an **Embroider native addon** (v2) and uses FastBoot (server-side rendering). 💯
+Glimmer Apollo is written in TypeScript, allowing APIs to specify the shape of the result data and variables. TypeScript also has friendly IntelliSense while coding. Glimmer Apollo is also an **Embroider native addon** (v2) and integrates with FastBoot (server-side rendering). 💯
 
 ---
 
