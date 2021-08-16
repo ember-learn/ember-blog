@@ -43,7 +43,7 @@ Optimising image size and formats to improve performance can get complicated, bu
 
 ## [Announcing Glimmer Apollo 🎉](https://glimmer-apollo.com/)
 
-[Jose Marluedke (@josemarluedke)](https://github.com/josemarluedke) shared [Glimmer Apollo](https://glimmer-apollo.com/) on [Twitter](https://twitter.com/josemarluedke/status/1410295473072611328), a new addon that integrates GraphQL in your Ember and Glimmer apps with a declarative API to query, mutate, and access GraphQL data.
+[Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) shared [Glimmer Apollo](https://glimmer-apollo.com/) on [Twitter](https://twitter.com/josemarluedke/status/1410295473072611328), a new addon that integrates GraphQL in your Ember and Glimmer apps with a declarative API to query, mutate, and access GraphQL data.
 
 For background, [GraphQL](https://graphql.org/) is a query language for APIs and a runtime for fulfilling those queries with your existing data. [Apollo Client](https://www.apollographql.com/docs/react/) is a popular declarative data fetching library for GraphQL. Glimmer Apollo uses the concept of [Resources](https://www.pzuraq.com/introducing-use/) to enable the integration of Glimmer's autotracking system with Apollo Client. The library is also reactive: queries are automatically re-executed when arguments change. The UI reflects any changes when cache data is updated.
 
