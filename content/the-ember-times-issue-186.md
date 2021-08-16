@@ -19,12 +19,6 @@ Code in public: Ember development streaming on Twitch 📹
 
 ---
 
-## [`ember-responsive-image` v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
-
-Optimising image size and formats to improve performance can get complicated, but the [`ember-responsive-image`](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of its abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
-
----
-
 ## [2. Section title in sentence case 🐹](section-url)
 
 <change section title emoji>
