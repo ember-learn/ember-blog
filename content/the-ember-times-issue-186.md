@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 186
 authors:
   - tim-foster # replace with real authors from the author folder (add yourself if you're not there)
   - chris-ng
-date: 2021-08-13T00:00:00.000Z
+date: 2021-08-16T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
@@ -11,7 +11,6 @@ tags:
 
 👋 Emberistas! 🐹
 
-- [ ] UPDATE DATE
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 New release for ember-responsive-image 🖼,
 Read the blog post on Avoiding Lifecycle in Components ✍️,
