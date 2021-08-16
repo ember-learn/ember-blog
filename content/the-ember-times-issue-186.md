@@ -19,18 +19,6 @@ Code in public: Ember development streaming on Twitch 📹
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [Blog Post: Avoiding Lifecycle in Components ✍️](https://twitter.com/nullvoxpopuli/status/1421128258427490311)
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) published a blog post on [Avoiding Lifecycle in Components](https://nullvoxpopuli.com/avoiding-lifecycle), namely the lifecycle hooks that come with [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers).
@@ -48,12 +36,6 @@ Read more about the different strategies to avoiding lifecycle in components at 
 
 ---
 
-## [`ember-responsive-image` v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
-
-Optimising image size and formats to improve performance can get complicated, but the [`ember-responsive-image`](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of its abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
-
----
-
 ## [Announcing Glimmer Apollo 🎉](https://glimmer-apollo.com/)
 
 [Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) shared [Glimmer Apollo](https://glimmer-apollo.com/) on [Twitter](https://twitter.com/josemarluedke/status/1410295473072611328), a new addon that integrates GraphQL in your Ember and Glimmer apps with a declarative API to query, mutate, and access GraphQL data.
@@ -64,46 +46,17 @@ Glimmer Apollo is written in TypeScript, allowing APIs to specify the shape of t
 
 ---
 
+## [`ember-responsive-image` v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
+
+Optimising image size and formats to improve performance can get complicated, but the [`ember-responsive-image`](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of its abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
+
+---
+
 ## [Code in public: Ember development streaming on Twitch 📹](https://www.twitch.tv/real_ate)
 
 <!-- alex ignore king-queen -->
 [Chris Manson (@mansona)](https://github.com/mansona) of the Ember Learning Team continues to livestream open source Ember development on Twitch! Check out the channel at [twitch.tv/real_ate](https://www.twitch.tv/real_ate) and give it a follow! In the most recent stream, Chris does some coding work on [MelSumner/a11y-automation](https://github.com/MelSumner/a11y-automation), then switches gears to [empress/field-guide](https://github.com/empress/field-guide). Catch the next episode live [every Thursday from 10:30-13:00 (GMT+2)](https://www.twitch.tv/real_ate/schedule)!
 
----
-
-## [6. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [7. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [8. Section title in sentence case 🐹](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
