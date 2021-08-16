@@ -14,7 +14,26 @@ tags:
 
 Read the blog post on Avoiding Lifecycle in Components ✍️,
 New release for ember-responsive-image 🖼,
-Announcing Glimmer Apollo 🎉
+Announcing Glimmer Apollo 🎉,
+Code in public: Ember development streaming on Twitch 📹
+
+---
+
+## [`ember-responsive-image` v3 release 🖼](https://github.com/kaliber5/ember-responsive-image)
+
+Optimising image size and formats to improve performance can get complicated, but the [`ember-responsive-image`](https://github.com/kaliber5/ember-responsive-image) addon has your back! Now you have even more reason to take advantage of its abilities following the annoucement by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig) of [version 3](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.0.0). This release provides support for Cloudinary and imgix image CDNs, further enriching a full set of functionality for re-sizing images and optimizing image loading times across all browsers. Go check it out.
+
+---
+
+## [2. Section title in sentence case 🐹](section-url)
+
+<change section title emoji>
+<consider adding some bold to your paragraph>
+<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
+<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+
+<add your name to author list, top and bottom>
+<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -51,15 +70,10 @@ Glimmer Apollo is written in TypeScript, allowing APIs to specify the shape of t
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [Code in public: Ember development streaming on Twitch 📹](https://www.twitch.tv/real_ate)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!-- alex ignore king-queen -->
+[Chris Manson (@mansona)](https://github.com/mansona) of the Ember Learning Team continues to livestream open source Ember development on Twitch! Check out the channel at [twitch.tv/real_ate](https://www.twitch.tv/real_ate) and give it a follow! In the most recent stream, Chris does some coding work on [MelSumner/a11y-automation](https://github.com/MelSumner/a11y-automation), then switches gears to [empress/field-guide](https://github.com/empress/field-guide). Catch the next episode live [every Thursday from 10:30-13:00 (GMT+2)](https://www.twitch.tv/real_ate/schedule)!
 
 ---
 
@@ -101,7 +115,7 @@ Glimmer Apollo is written in TypeScript, allowing APIs to specify the shape of t
 
 ## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/swarajpure" rel="noopener noreferrer" target="_blank">Swaraj Rajpure (@swarajpure)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/MelSumner" rel="noopener noreferrer" target="_blank">Melanie Sumner (@MelSumner)</a>, <a href="https://github.com/suchitadoshi1987" rel="noopener noreferrer" target="_blank">Suchita Doshi (@suchitadoshi1987)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/stefanpenner" rel="noopener noreferrer" target="_blank">Stefan Penner (@stefanpenner)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/dgeb" rel="noopener noreferrer" target="_blank">Dan Gebhardt (@dgeb)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/igorT" rel="noopener noreferrer" target="_blank">Igor Terzic (@igorT)</a>, <a href="https://github.com/xg-wang" rel="noopener noreferrer" target="_blank">Thomas Wang (@xg-wang)</a>, <a href="https://github.com/brendenpalmer" rel="noopener noreferrer" target="_blank">Brenden Palmer (@brendenpalmer)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, and <a href="https://github.com/jayjayjpg" rel="noopener noreferrer" target="_blank">Jessy Jordan (@jayjayjpg)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
