@@ -159,6 +159,14 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
     # Create a pull request from your repo on GitHub
     ```
 
+1. Note: If you are making a Handlebars code block, you must use `handlebars` instead of `hbs`. For example:
+
+```handlebars
+{{!-- app/templates/application.hbs --}}
+<h1>Hello world!</h1>
+{{outlet}}
+```
+
 </details>
 
 <details>
