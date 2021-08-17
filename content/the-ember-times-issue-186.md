@@ -12,14 +12,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-Read the blog post on Avoiding Lifecycle in Components ✍️,
-New release for ember-responsive-image 🖼,
-Announcing Glimmer Apollo 🎉,
-Code in public: Ember development streaming on Twitch 📹
+Read the blog post on Avoiding Lifecycle in Components, announcing Glimmer Apollo, new release for ember-responsive-image, and code in public: Ember dev streaming on Twitch.
 
 ---
 
-## [Blog Post: Avoiding Lifecycle in Components ✍️](https://twitter.com/nullvoxpopuli/status/1421128258427490311)
+## [Blog post: Avoiding Lifecycle in Components ✍️](https://twitter.com/nullvoxpopuli/status/1421128258427490311)
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) published a blog post on [Avoiding Lifecycle in Components](https://nullvoxpopuli.com/avoiding-lifecycle), namely the lifecycle hooks that come with [ember-render-modifiers](https://github.com/emberjs/ember-render-modifiers).
 
