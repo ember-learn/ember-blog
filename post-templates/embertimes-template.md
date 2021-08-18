@@ -14,7 +14,7 @@ tags:
 
 ---
 
-## [😄 Section title in sentence case](section-url)
+## [🐹 1. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -26,7 +26,7 @@ tags:
 
 ---
 
-## [⛽️ Section title in sentence case](section-url)
+## [🐹 2. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -38,7 +38,7 @@ tags:
 
 ---
 
-## [🎉 Section title in sentence case](section-url)
+## [🐹 3. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -50,7 +50,7 @@ tags:
 
 ---
 
-## [💾 Section title in sentence case](section-url)
+## [🐹 4. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -62,7 +62,7 @@ tags:
 
 ---
 
-## [📚 Section title in sentence case](section-url)
+## [🐹 5. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -74,7 +74,7 @@ tags:
 
 ---
 
-## [📝 Section title in sentence case](section-url)
+## [🐹 6. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -86,7 +86,7 @@ tags:
 
 ---
 
-## [🥁 Section title in sentence case](section-url)
+## [🐹 7. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -98,7 +98,7 @@ tags:
 
 ---
 
-## [🗳 Section title in sentence case](section-url)
+## [🐹 8. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
