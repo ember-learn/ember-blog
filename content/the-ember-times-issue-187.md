@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 187
 authors:
+  - anne-greeth-schot-van-herwijnen
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-27T00:00:00.000Z
 tags:
@@ -10,19 +11,18 @@ tags:
 
 👋 Emberistas! 🐹
 
+Ember-scroll-modifier and ember-user-activity updates 🚀,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [Ember-scroll-modifier and ember-user-activity updates 🚀](https://twitter.com/AxleHellfire/status/1424825542767874052)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Jordan Hawker (@elwayman02)] (https://github.com/elwayman02) announced updates to two of his add-ons. 
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Ember-Scroll-Modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
+
+[Ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
 
 ---
 
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
