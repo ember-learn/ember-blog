@@ -20,9 +20,9 @@ Ember-scroll-modifier and ember-user-activity updates 🚀,
 
 [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) announced updates to two of his add-ons.
 
-[Ember-Scroll-Modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
+[ember-scroll-modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
 
-[Ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
+[ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
 
 ---
 
