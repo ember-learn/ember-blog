@@ -18,7 +18,7 @@ Ember-scroll-modifier and ember-user-activity updates 🚀,
 
 ## [Ember-scroll-modifier and ember-user-activity updates 🚀](https://twitter.com/AxleHellfire/status/1424825542767874052)
 
-[Jordan Hawker (@elwayman02)] (https://github.com/elwayman02) announced updates to two of his add-ons. 
+[Jordan Hawker (@elwayman02)](https://github.com/elwayman02) announced updates to two of his add-ons.
 
 [Ember-Scroll-Modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
 
