@@ -1,5 +1,5 @@
 ---
-name: Anne-Greeth van Herwijnen
+name: Anne-Greeth Schot van Herwijnen
 image: ''
 cover: ''
 website: ''
