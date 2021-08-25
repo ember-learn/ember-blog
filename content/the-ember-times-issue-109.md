@@ -5,7 +5,7 @@ authors:
   - amy-lam
   - isaac-lee
   - jessica-jordan
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - jared-galanis
 date: 2019-08-02T00:00:00.000Z
 tags:

@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 89
 authors:
   - chris-ng
   - jessica-jordan
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - jen-weber
   - amy-lam
   - jared-galanis

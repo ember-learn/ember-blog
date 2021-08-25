@@ -4,7 +4,7 @@ authors:
   - chris-ng
   - jessica-jordan
   - jared-galanis
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - isaac-lee
   - amy-lam
 date: 2020-02-14T00:00:00.000Z

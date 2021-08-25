@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 182
 authors:
   - tim-foster
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - chris-ng
   - isaac-lee
   - jared-galanis

@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 88
 authors:
   - amy-lam
   - chris-ng
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - kenneth-larsen
   - jared-galanis
   - jessica-jordan
