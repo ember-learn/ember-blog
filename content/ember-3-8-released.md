@@ -3,7 +3,7 @@ title: Ember 3.8 Released
 authors:
   - melanie-sumner
   - kenneth-larsen
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
 date: 2019-02-27T00:00:00.000Z
 tags:
   - releases

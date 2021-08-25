@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 139
 authors:
   - abhilash-lr
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - preston-sego
   - isaac-lee
   - jared-galanis

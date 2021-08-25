@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 120
 authors:
   - isaac-lee
   - jeldrik-hanschke
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - pat-o-callaghan
   - jessica-jordan
   - amy-lam

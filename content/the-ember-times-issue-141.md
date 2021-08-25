@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 141
 authors:
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - preston-sego
   - jared-galanis
   - isaac-lee
