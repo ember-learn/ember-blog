@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 187
 authors:
   - anne-greeth-schot-van-herwijnen
+  - chris-ng
   - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-27T00:00:00.000Z
@@ -14,6 +15,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember-scroll-modifier and ember-user-activity updates 🚀,
+Release: ember-engines-router-service ⚙️,
 📺 Coding with the Dead on Twitch
 
 ---
@@ -25,6 +27,36 @@ Ember-scroll-modifier and ember-user-activity updates 🚀,
 [ember-scroll-modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
 
 [ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
+
+---
+
+## [Release: ember-engines-router-service ⚙️](https://twitter.com/MVillander/status/1423659543427522560)
+
+[Michael Villander (@villander)](https://github.com/villander) released the [ember-engines-router-service](https://github.com/villander/ember-engines-router-service) addon which provides the Router service for [ember-engines](https://github.com/ember-engines/ember-engines).
+
+The addon gives you access to the [RouterService API](https://api.emberjs.com/ember/release/classes/RouterService) inside each engine. This allows you to inject the router service as usual to your component within an engine and use APIs such as `transitionTo` and even `transitionToExternal` which help link `externalRoutes` together.
+
+```js
+import Component from '@glimmer/component';
+import { inject as service } from '@ember/service';
+import { action } from ‘@ember/object’;
+
+export default class SomeComponent extends Component {
+  @service router;
+
+  @action
+  transitionToHome() {
+    this.router.transitionToExternal('other.route');
+  }
+
+  @action
+  transitionToAdmin() {
+    this.router.transitionTo('admin.route');
+  }
+}
+```
+
+To learn more, [try it out today](https://github.com/villander/ember-engines-router-service) in your application or read the [Engine Linking RFC](https://github.com/emberjs/rfcs/pull/122) for more documentation.
 
 ---
 
@@ -137,4 +169,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, Amy Lam, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Chris Ng, Amy Lam, the crowd and the Learning Team
