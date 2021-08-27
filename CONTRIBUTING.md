@@ -221,3 +221,15 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
 1. Format manually if needed.
   
 </details>
+  
+## Upgrading dependencies
+  
+  If you are helping to update this app's dependencies, here are some things you may need to know.
+  
+<details>
+<summary>Things to check manually</summary>
+  
+In the deploy preview, check the "View source" on the page. Does it have the full HTML?
+If not, it indicates that there may be an issue with Fastboot.
+  
+</details>
