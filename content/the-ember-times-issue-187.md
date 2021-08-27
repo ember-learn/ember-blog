@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 187
 authors:
   - anne-greeth-schot-van-herwijnen
+  - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-27T00:00:00.000Z
 tags:
@@ -13,6 +14,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember-scroll-modifier and ember-user-activity updates 🚀,
+📺 Coding with the Dead on Twitch
 
 ---
 
@@ -26,15 +28,13 @@ Ember-scroll-modifier and ember-user-activity updates 🚀,
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [📺 Coding with the Dead on Twitch](https://twitter.com/muziejus/status/1427725501112717319)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+**[Studio Remote: Coding with the Dead](https://www.twitch.tv/videos/1121252669)** is a Twitch series from Columbia University Libraries. [Moacir P. de Sá Pereira (@muziejus)](https://github.com/muziejus) is your host, live streaming coding in Ember! In the most recent episode, Mocair works on [wandertext](https://github.com/wandertext/wandertext), an open source app to create and share semantically rich geospatial datasets. The app is currently under heavy development! It's neat that viewers can follow along with the code, project management via GitHub issues, debugging, spelunking through addons, and more!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!-- embed on substack, screenshot for blog? couldn't get twitter embed to work. most online converters  https://twitter.com/muziejus/status/1427725501112717319 -->
+
+Moacir is typically scheduled for Tuesday afternoons at 3pm ET on Twitch. Follow [CULStudio](https://www.twitch.tv/culstudio) on Twitch and check out the [schedule](https://www.twitch.tv/culstudio/schedule) to tune in live or async!
 
 ---
 
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Amy Lam, the crowd and the Learning Team
