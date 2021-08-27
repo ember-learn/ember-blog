@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 187
 authors:
   - anne-greeth-schot-van-herwijnen
   - chris-ng
+  - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-27T00:00:00.000Z
 tags:
@@ -15,6 +16,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember-scroll-modifier and ember-user-activity updates 🚀,
 Release: ember-engines-router-service ⚙️,
+📺 Coding with the Dead on Twitch
 
 ---
 
@@ -55,6 +57,17 @@ export default class SomeComponent extends Component {
 ```
 
 To learn more, [try it out today](https://github.com/villander/ember-engines-router-service) in your application or read the [Engine Linking RFC](https://github.com/emberjs/rfcs/pull/122) for more documentation.
+
+---
+
+## [📺 Coding with the Dead on Twitch](https://twitter.com/muziejus/status/1427725501112717319)
+
+<!--alex ignore host-hostess-->
+**[Studio Remote: Coding with the Dead](https://www.twitch.tv/videos/1121252669)** is a Twitch series from Columbia University Libraries. [Moacir P. de Sá Pereira (@muziejus)](https://github.com/muziejus) is your host, live streaming coding in Ember! In the most recent episode, Mocair works on [wandertext](https://github.com/wandertext/wandertext), an open source app to create and share semantically rich geospatial datasets. The app is currently under heavy development! It's neat that viewers can follow along with the code, project management via GitHub issues, debugging, spelunking through addons, and more!
+
+<!-- embed on substack, screenshot for blog? couldn't get twitter embed to work. most online converters  https://twitter.com/muziejus/status/1427725501112717319 -->
+
+Moacir is typically scheduled for Tuesday afternoons at 3pm ET on Twitch. Follow [CULStudio](https://www.twitch.tv/culstudio) on Twitch and check out the [schedule](https://www.twitch.tv/culstudio/schedule) to tune in live or async!
 
 ---
 
@@ -156,4 +169,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, Chris Ng, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Chris Ng, Amy Lam, the crowd and the Learning Team
