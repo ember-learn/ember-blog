@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 187
 authors:
   - anne-greeth-schot-van-herwijnen
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-27T00:00:00.000Z
 tags:
@@ -13,6 +14,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember-scroll-modifier and ember-user-activity updates 🚀,
+Release: ember-engines-router-service ⚙️,
 
 ---
 
@@ -26,15 +28,33 @@ Ember-scroll-modifier and ember-user-activity updates 🚀,
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Release: ember-engines-router-service ⚙️](https://twitter.com/MVillander/status/1423659543427522560)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Michael Villander (@villander)](https://github.com/villander) released the [ember-engines-router-service](https://github.com/villander/ember-engines-router-service) addon which provides the Router service for [ember-engines](https://github.com/ember-engines/ember-engines).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The addon gives you access to the [RouterService API](https://api.emberjs.com/ember/release/classes/RouterService) inside each engine. This allows you to inject the router service as usual to your component within an engine and use APIs such as `transitionTo` and even `transitionToExternal` which help link `externalRoutes` together.
+
+```js
+import Component from '@glimmer/component';
+import { inject as service } from '@ember/service';
+import { action } from ‘@ember/object’;
+
+export default class SomeComponent extends Component {
+  @service router;
+
+  @action
+  transitionToHome() {
+    this.router.transitionToExternal('other.route');
+  }
+
+  @action
+  transitionToAdmin() {
+    this.router.transitionTo('admin.route');
+  }
+}
+```
+
+To learn more, [try it out today](https://github.com/villander/ember-engines-router-service) in your application or read the [Engine Linking RFC](https://github.com/emberjs/rfcs/pull/122) for more documentation.
 
 ---
 
@@ -136,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Chris Ng, the crowd and the Learning Team
