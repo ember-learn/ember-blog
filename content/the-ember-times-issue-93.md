@@ -6,7 +6,7 @@ authors:
   - jared-galanis
   - jessica-jordan
   - amy-lam
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
 date: 2019-04-12T00:00:00.000Z
 tags:
   - newsletter

@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 174
 authors:
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - ava-wroten
   - chris-ng
   - amy-lam

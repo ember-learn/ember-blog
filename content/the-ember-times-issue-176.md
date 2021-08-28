@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 176
 authors:
   - amy-lam
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - isaac-lee
   - chris-ng
 date: 2021-03-26T00:00:00.000Z

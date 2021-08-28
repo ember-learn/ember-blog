@@ -14,7 +14,7 @@ tags:
 
 ---
 
-## [1. Section title in sentence case 🐹](section-url)
+## [🐹 1. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -26,7 +26,7 @@ tags:
 
 ---
 
-## [2. Section title in sentence case 🐹](section-url)
+## [🐹 2. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -38,7 +38,7 @@ tags:
 
 ---
 
-## [3. Section title in sentence case 🐹](section-url)
+## [🐹 3. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -50,7 +50,7 @@ tags:
 
 ---
 
-## [4. Section title in sentence case 🐹](section-url)
+## [🐹 4. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -62,7 +62,7 @@ tags:
 
 ---
 
-## [5. Section title in sentence case 🐹](section-url)
+## [🐹 5. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -74,7 +74,7 @@ tags:
 
 ---
 
-## [6. Section title in sentence case 🐹](section-url)
+## [🐹 6. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -86,7 +86,7 @@ tags:
 
 ---
 
-## [7. Section title in sentence case 🐹](section-url)
+## [🐹 7. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -98,7 +98,7 @@ tags:
 
 ---
 
-## [8. Section title in sentence case 🐹](section-url)
+## [🐹 8. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -110,13 +110,13 @@ tags:
 
 ---
 
-## [Contributors' corner 👏](https://guides.emberjs.com/release/contributing/repositories/)
+## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
-## [Connect with us 🤓](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
+## [🤓 Connect with us](https://docs.google.com/forms/d/e/1FAIpQLScqu7Lw_9cIkRtAiXKitgkAo4xX_pV1pdCfMJgIr6Py1V-9Og/viewform)
 
 <div class="blog-row">
   <img class="float-right small transparent padded" alt="Office Hours Tomster Mascot" title="Readers' Questions" src="/images/tomsters/officehours.png" />

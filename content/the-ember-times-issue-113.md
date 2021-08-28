@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 113
 authors:
   - chris-ng
   - jessica-jordan
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - isaac-lee
   - amy-lam
 date: 2019-08-30T00:00:00.000Z

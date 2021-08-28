@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 134
 authors:
   - chris-ng
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - isaac-lee
   - jessica-jordan
   - amy-lam

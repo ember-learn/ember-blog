@@ -4,7 +4,7 @@ authors:
   - chris-ng
   - alon-bukai
   - jessica-jordan
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - isaac-lee
   - jared-galanis
   - amy-lam

@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 108
 authors:
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - chris-ng
   - isaac-lee
   - jessica-jordan

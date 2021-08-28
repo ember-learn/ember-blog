@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 132
 authors:
-  - anne-greeth-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - chris-ng
   - jessica-jordan
   - isaac-lee
