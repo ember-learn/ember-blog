@@ -12,13 +12,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-Release: ember-engines-router-service ⚙️,
-Ember-scroll-modifier and ember-user-activity updates 🚀,
-📺 Coding with the Dead on Twitch
+Release: ember-engines-router-service, ember-scroll-modifier and ember-user-activity updates, and Coding with the Dead on Twitch.
 
 ---
 
-## [Release: ember-engines-router-service ⚙️](https://twitter.com/MVillander/status/1423659543427522560)
+## [⚙️ Release: ember-engines-router-service](https://twitter.com/MVillander/status/1423659543427522560)
 
 [Michael Villander (@villander)](https://github.com/villander) released the [ember-engines-router-service](https://github.com/villander/ember-engines-router-service) addon which provides the Router service for [ember-engines](https://github.com/ember-engines/ember-engines).
 
@@ -54,16 +52,14 @@ To learn more, [try it out today](https://github.com/villander/ember-engines-rou
 
 [ember-scroll-modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
 
-[ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
+[ember-user-activity](https://ember-user-activity.jhawk.co/) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
 
 ---
 
 ## [📺 Coding with the Dead on Twitch](https://twitter.com/muziejus/status/1427725501112717319)
 
 <!--alex ignore host-hostess-->
-**[Studio Remote: Coding with the Dead](https://www.twitch.tv/videos/1121252669)** is a Twitch series from Columbia University Libraries. [Moacir P. de Sá Pereira (@muziejus)](https://github.com/muziejus) is your host, live streaming coding in Ember! In the most recent episode, Mocair works on [wandertext](https://github.com/wandertext/wandertext), an open source app to create and share semantically rich geospatial datasets. The app is currently under heavy development! It's neat that viewers can follow along with the code, project management via GitHub issues, debugging, spelunking through addons, and more!
-
-<!-- embed on substack, screenshot for blog? couldn't get twitter embed to work. most online converters  https://twitter.com/muziejus/status/1427725501112717319 -->
+**[Studio Remote: Coding with the Dead](https://www.twitch.tv/videos/1121252669)** is a Twitch series from Columbia University Libraries. [Moacir P. de Sá Pereira (@muziejus)](https://github.com/muziejus) is your host, live streaming coding in Ember! In the most recent episode, Moacir works on [wandertext](https://github.com/wandertext/wandertext), an open source app to create and share semantically rich geospatial datasets. The app is currently under heavy development! It's neat that viewers can follow along with the code, project management via GitHub issues, debugging, spelunking through addons, and more!
 
 Moacir is typically scheduled for Tuesday afternoons at 3pm ET on Twitch. Follow [CULStudio](https://www.twitch.tv/culstudio) on Twitch and check out the [schedule](https://www.twitch.tv/culstudio/schedule) to tune in live or async!
 
