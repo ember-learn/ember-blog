@@ -4,7 +4,6 @@ authors:
   - anne-greeth-schot-van-herwijnen
   - chris-ng
   - amy-lam
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-08-27T00:00:00.000Z
 tags:
   - newsletter
@@ -13,20 +12,9 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Ember-scroll-modifier and ember-user-activity updates 🚀,
 Release: ember-engines-router-service ⚙️,
+Ember-scroll-modifier and ember-user-activity updates 🚀,
 📺 Coding with the Dead on Twitch
-
----
-
-## [🚀 Ember-scroll-modifier and ember-user-activity updates](https://twitter.com/AxleHellfire/status/1424825542767874052)
-
-[Jordan Hawker (@elwayman02)](https://github.com/elwayman02) announced updates to two of his add-ons.
-
-[ember-scroll-modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
-
-[ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
 
 ---
 
@@ -60,6 +48,16 @@ To learn more, [try it out today](https://github.com/villander/ember-engines-rou
 
 ---
 
+## [🚀 Ember-scroll-modifier and ember-user-activity updates](https://twitter.com/AxleHellfire/status/1424825542767874052)
+
+[Jordan Hawker (@elwayman02)](https://github.com/elwayman02) announced updates to two of his add-ons.
+
+[ember-scroll-modifiers](https://ember-scroll-modifiers.jhawk.co) got a minor update to add an amazing test helper to **make it easier** to test usage of the **scroll-into-view** modifier in your code.
+
+[ember-user-activity](ember-user-activity.jhawk.co) got a major update, with the release over version 6.0.0. This version drops support for Ember 3.16 and IE11. Not only does it drop support, but it enables the **use** in **Ember 4.0** 🥳!
+
+---
+
 ## [📺 Coding with the Dead on Twitch](https://twitter.com/muziejus/status/1427725501112717319)
 
 <!--alex ignore host-hostess-->
@@ -71,81 +69,9 @@ Moacir is typically scheduled for Tuesday afternoons at 3pm ET on Twitch. Follow
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 4. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 5. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/ChrisCarini" rel="noopener noreferrer" target="_blank">Chris Carini (@ChrisCarini)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/suchitadoshi1987" rel="noopener noreferrer" target="_blank">Suchita Doshi (@suchitadoshi1987)</a>, <a href="https://github.com/xg-wang" rel="noopener noreferrer" target="_blank">Thomas Wang (@xg-wang)</a>, <a href="https://github.com/aniketh-deepsource" rel="noopener noreferrer" target="_blank">@aniketh-deepsource</a>, <a href="https://github.com/raycohen" rel="noopener noreferrer" target="_blank">Ray Cohen (@raycohen)</a>, <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/hermionethebrightone" rel="noopener noreferrer" target="_blank">Hermione Granger (@hermionethebrightone)</a>, <a href="https://github.com/stefanpenner" rel="noopener noreferrer" target="_blank">Stefan Penner (@stefanpenner)</a>, <a href="https://github.com/btecu" rel="noopener noreferrer" target="_blank">Bj Tecu (@btecu)</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/Oluwadamilareolusakin" rel="noopener noreferrer" target="_blank">Tolulope Oluwadamilare Olusakin (@Oluwadamilareolusakin)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/rajakvk" rel="noopener noreferrer" target="_blank">@rajakvk</a>, <a href="https://github.com/harshith-venkatesh" rel="noopener noreferrer" target="_blank">Harshith Venkatesh (@harshith-venkatesh)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/igorT" rel="noopener noreferrer" target="_blank">Igor Terzic (@igorT)</a>, <a href="https://github.com/basz" rel="noopener noreferrer" target="_blank">Bas Kamer (@basz)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth Schot-van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, and <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -169,4 +95,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, Chris Ng, Amy Lam, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Chris Ng, Amy Lam, and the Learning Team
