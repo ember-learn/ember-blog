@@ -213,7 +213,6 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
   
 1. Copy raw from GitHub, delete top YAML portion.
 1. If they appear in the preview, delete any `alex-ignore` or `markdownlint-ignore`.
-1. Delete any italics classes such as <span style="font-style: italic;"></span>. Normal <em> or *italicizeme* markdown doesn't work in /ember-blog right now.
 1. Double curlies `{{` in header link titles will sometimes give you a liquid error. For example, with this heading `[No Implicit This or {{foo}} to {{this.foo}} Codemod](https://github.com/ember-codemods/ember-no-implicit-this-codemod)` I just deleted the double curlies to fix. 
 1. Check for weird line breaking. We can fix this with stricter markdownlint but it was a bit cumbersome for blog writers!
 1. Add canonical URL and series name (The Ember Times should come up)
@@ -224,7 +223,7 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
   
 ## Upgrading dependencies
   
-  If you are helping to update this app's dependencies, here are some things you may need to know.
+If you are helping to update this app's dependencies, here are some things you may need to know.
   
 <details>
 <summary>Things to check manually</summary>
