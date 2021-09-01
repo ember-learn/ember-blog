@@ -1,24 +1,25 @@
 ---
 title: Ember 3.28 Released
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-08-31T00:00:00.000Z
+  - matthew-beale
+  - isaac-lee
+date: 2021-09-02T00:00:00.000Z
 tags:
   - releases
   - '2021'
   - version-3-x
 ---
 
-Today the Ember project is releasing version 3.28 of Ember.js, Ember Data, and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
+Today the Ember project is announcing version 3.28 of Ember.js, Ember Data, and Ember CLI. This is a minor version, stable release.
 
-This release kicks off the 4.0 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+Ember 3.28 is also an LTS (Long Term Support) release candidate. In six weeks
+the latest patch version of 3.28 will be promoted to be the latest LTS release
+replacing 3.24-LTS.
 
-You can read more about our general release process here:
+**We're also announcing the start of the Ember 4.0 beta cycle for all sub-projects.** We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
-- [Release Dashboard](http://emberjs.com/releases/)
-- [The Ember Release Cycle](https://blog.emberjs.com/new-ember-release-process/)
-- [The Ember Project](https://blog.emberjs.com/ember-project-at-2-0/)
-- [Ember LTS Releases](https://blog.emberjs.com/announcing-embers-first-lts/)
+You can read more about Ember's plans for 4.0 in [The Road to Ember
+4.0](https://blog.emberjs.com/the-road-to-ember-4-0/)
 
 ---
 
@@ -46,9 +47,11 @@ Ember.js 3.28 introduced 2 features.
 Ember.js 3.28 introduced 0 deprecations.
 
 <!-- Block start: If there were no deprecations, remove this block -->
+
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
+
 <!-- Block end -->
 
 For more details on changes in Ember.js 3.28, please review the [Ember.js 3.28.0 release page](https://github.com/emberjs/ember.js/releases/tag/v3.28.0).
