@@ -32,7 +32,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 3.28
 
-Ember.js 3.28 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations. 3.28 is light on changes because we want the final release of the 2.x cycle to be as stable and battle-tested as possible, so it does not have new features.
+Ember.js 3.28 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations. 3.28 is light on changes because we want the final release of the 3.x cycle to be as stable and battle-tested as possible, so it does not have new features.
 
 #### Bug Fixes
 
