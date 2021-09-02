@@ -3,6 +3,7 @@ title: Ember 3.28 and 4.0 Beta Released
 authors:
   - matthew-beale
   - isaac-lee
+  - jen-weber
 date: 2021-09-02T00:00:00.000Z
 tags:
   - releases
