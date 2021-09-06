@@ -46,6 +46,16 @@ Ember Data is the official data persistence library for Ember.js applications. T
 
 ### Changes in Ember Data 3.28
 
+#### Improvements to relationship materialization & unloading performance
+
+A number of performance improvements ship in Ember Data 3.28, including
+significant improvements to relationship materialization and unloading performance
+via [emberjs/data#7491](https://github.com/emberjs/data/pull/7491) and
+[emberjs/data#7493](https://github.com/emberjs/data/pull/7493). Especially when
+loading large sets of data, the performance improvements should be notable.
+
+See the PRs linked above and [changelog](https://github.com/emberjs/data/blob/v3.28.3/CHANGELOG.md#release-3280-aug-20-2021) for further notes on performance improvements.
+
 #### Unload records from the store when calling `destroyRecord`
 
 `destroyRecord` would previously leave the deleted record in the store. This
@@ -107,7 +117,7 @@ For further details on these new capabilities, refer to:
 
 #### Bug Fixes
 
-Ember Data 3.28 introduced 12 bug fixes and some internal refactors. For the full set of changes, see the [CHANGELOG.md](https://github.com/emberjs/data/blob/v3.28.0/CHANGELOG.md#release-3280-aug-20-2021).
+Ember Data 3.28 introduced 12 bug fixes and some internal refactors. For the full set of changes, see the [CHANGELOG.md](https://github.com/emberjs/data/blob/v3.28.3/CHANGELOG.md#release-3280-aug-20-2021).
 
 ---
 
