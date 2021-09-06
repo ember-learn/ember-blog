@@ -46,6 +46,55 @@ Ember Data is the official data persistence library for Ember.js applications. T
 
 ### Changes in Ember Data 3.28
 
+#### Custom Model Classes
+
+Used conventionally, Ember Data blends the definition of a model's schema and
+record API into a single JavaScript class. For example:
+
+```js
+import Model from '@ember-data/model';
+
+export default class PersonModel extends Model {
+  /*
+   * Define a schema
+   */
+  @attr('string') firstName;
+  @attr('string') lastName;
+
+  /*
+   * Define an API on the record instance
+   */
+  get fullName() {
+    return `${this.firstName} ${this.lastName}`;
+  }
+}
+```
+
+Ember Data 3.28 introduces the ability to seperate model schema and record instance
+class definitions. This is a low-level capability we expect to be used by addon
+authors as they experiment in at least two areas:
+
+First, forcing the definition (statically or at runtime) of a distinct class for
+every model can cause performance issues. Large applications may have hundreds
+of models. If most or all of those models do not require unique classes, we're
+generating unnecessary memory load and asking more of the JIT's type system than
+may be necassary. In the extreme case, it may be possible for all record
+instances in an application to share a single root class.
+
+Second, the current Ember Data schema definition API forces definitions to be authored in
+JavaScript. Removing that limitation allows us to experiment with more optimal
+or powerful ways to encode schema (such as JSON). These alternatives may perform
+better (in payload size, or in parse/eval), may better support generation and
+synchornization with API typing systems, and better support static analysis
+(for example with TypeScript).
+
+For further details on these new capabilities, refer to:
+
+- [RFC #487: Custom Model Class](https://github.com/emberjs/rfcs/blob/master/text/0487-custom-model-classes.md)
+- [RFC #466: Request State Service](https://github.com/emberjs/rfcs/blob/master/text/0466-request-state-service.md)
+- [RFC #463: Record State on RecordData](https://github.com/emberjs/rfcs/blob/master/text/0463-record-data-state.md)
+- [RFC #463: RecordData Errors](https://github.com/emberjs/rfcs/blob/master/text/0465-record-data-errors.md)
+
 #### Bug Fixes
 
 Ember Data 3.28 introduced 12 bug fixes and some internal refactors. For the full set of changes, see the [CHANGELOG.md](https://github.com/emberjs/data/blob/v3.28.0/CHANGELOG.md#release-3280-aug-20-2021).
