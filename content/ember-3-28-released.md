@@ -46,6 +46,16 @@ Ember Data is the official data persistence library for Ember.js applications. T
 
 ### Changes in Ember Data 3.28
 
+#### Unload records from the store when calling `destroyRecord`
+
+`destroyRecord` would previously leave the deleted record in the store. This
+could cause issues if ids were re-used, or lead to extra filtering steps to
+confirm destroyed content was not in an array of models.
+
+3.28 will unload records from the store when `destroyRecord` is called. For more
+details see [emberjs/data#7258](https://github.com/emberjs/data/pull/7258) and
+the issues cross-linked from that PR.
+
 #### Custom Model Classes
 
 Used conventionally, Ember Data blends the definition of a model's schema and
