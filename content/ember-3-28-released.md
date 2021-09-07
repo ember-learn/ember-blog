@@ -115,6 +115,10 @@ For further details on these new capabilities, refer to:
 - [RFC #463: Record State on RecordData](https://github.com/emberjs/rfcs/blob/master/text/0463-record-data-state.md)
 - [RFC #463: RecordData Errors](https://github.com/emberjs/rfcs/blob/master/text/0465-record-data-errors.md)
 
+Much of this API surface is already used by the
+[ember-m3](https://github.com/hjdivad/ember-m3) project, which provides an
+alternative model class for Ember Data.
+
 #### Bug Fixes
 
 Ember Data 3.28 introduced 12 bug fixes and some internal refactors. For the full set of changes, see the [CHANGELOG.md](https://github.com/emberjs/data/blob/v3.28.3/CHANGELOG.md#release-3280-aug-20-2021).
