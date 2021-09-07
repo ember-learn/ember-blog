@@ -2,8 +2,8 @@
 title: Ember 3.28 and 4.0 Beta Released
 authors:
   - matthew-beale
-  - isaac-lee
   - jen-weber
+  - isaac-lee
 date: 2021-09-07T00:00:00.000Z
 tags:
   - releases
@@ -12,9 +12,9 @@ tags:
 ---
 
 After 3.5 years and 28 minor releases, Ember 3.28 marks the end of the project's 3.x series.
-To ensure a smooth upgrade path going into the 4.x series, 3.28 has been declared an LTS (Long Term Support) candidate. In six weeks
-the latest patch version of 3.28 will be promoted to be the latest LTS release,
-replacing 3.24-LTS.
+To ensure a smooth upgrade path going into the 4.x series, 3.28 has been declared an LTS (Long Term Support) candidate. In six weeks,
+the latest patch version of 3.28 will be promoted to be the latest LTS release
+and replace 3.24-LTS.
 
 **We're also announcing the start of the Ember 4.0 beta cycle for all sub-projects.** Following the process set in previous major versions, Ember 4.0's beta introduces no new features. Instead, it removes support for deprecated public APIs. We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. We also encourage everyone to help maintainers resolve deprecations in their favorite addons. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -42,29 +42,29 @@ In Ember 3.24, various string methods added to the `String.prototype` were depre
 
 ## Ember Data
 
-Ember Data is the official data persistence library for Ember.js applications. The changes introduced in Ember Data 2.18 mostly focus on bug fixes and refactors in preparation for 4.0.
+Ember Data is the official data persistence library for Ember.js applications. The changes introduced in Ember Data 3.28 focus on bug fixes and refactors in preparation for 4.0.
 
 ### Changes in Ember Data 3.28
 
 #### Improvements to relationship materialization & unloading performance
 
-A number of performance improvements ship in Ember Data 3.28, including
+A number of performance improvements were shipped in Ember Data 3.28, including
 significant improvements to relationship materialization and unloading performance
 via [emberjs/data#7491](https://github.com/emberjs/data/pull/7491) and
-[emberjs/data#7493](https://github.com/emberjs/data/pull/7493). Especially when
-loading large sets of data, the performance improvements should be notable.
+[emberjs/data#7493](https://github.com/emberjs/data/pull/7493). In particular,
+the performance improvements should be notable when loading large sets of data.
 
 See the PRs linked above and [changelog](https://github.com/emberjs/data/blob/v3.28.3/CHANGELOG.md#release-3280-aug-20-2021) for further notes on performance improvements.
 
 #### Unload records from the store when calling `destroyRecord`
 
 `destroyRecord` would previously leave the deleted record in the store. This
-could cause issues if ids were re-used, or lead to extra filtering steps to
-confirm destroyed content was not in an array of models.
+could cause issues if IDs were re-used, or could require extra filtering to
+confirm that destroyed content was not in an array of models.
 
 3.28 will unload records from the store when `destroyRecord` is called. For more
-details see [emberjs/data#7258](https://github.com/emberjs/data/pull/7258) and
-the issues cross-linked from that PR.
+details, see [emberjs/data#7258](https://github.com/emberjs/data/pull/7258) and
+the GitHub issues mentioned in the PR.
 
 #### Custom Model Classes
 
@@ -90,23 +90,23 @@ export default class PersonModel extends Model {
 }
 ```
 
-Ember Data 3.28 introduces the ability to seperate model schema and record instance
-class definitions. This is a low-level capability we expect to be used by addon
-authors as they experiment in at least two areas:
+Ember Data 3.28 introduces the ability to separate model schema and record instance
+class definitions. This is a low-level capability that we expect addon authors
+to use when they experiment in these areas (possibly others):
 
 First, forcing the definition (statically or at runtime) of a distinct class for
 every model can cause performance issues. Large applications may have hundreds
-of models. If most or all of those models do not require unique classes, we're
-generating unnecessary memory load and asking more of the JIT's type system than
-may be necassary. In the extreme case, it may be possible for all record
+of models. If most or all of these models do not require unique classes, we're
+generating more memory load and asking more of the JIT's type system than
+they may be necessary. In the extreme case, it may be possible for all record
 instances in an application to share a single root class.
 
 Second, the current Ember Data schema definition API forces definitions to be authored in
 JavaScript. Removing that limitation allows us to experiment with more optimal
 or powerful ways to encode schema (such as JSON). These alternatives may perform
 better (in payload size, or in parse/eval), may better support generation and
-synchornization with API typing systems, and better support static analysis
-(for example with TypeScript).
+synchronization with API typing systems, and better support static analysis
+(for example, with TypeScript).
 
 For further details on these new capabilities, refer to:
 
@@ -129,11 +129,11 @@ Ember CLI is the command line interface for managing and packaging Ember.js appl
 
 #### Drop Node 10 support
 
-Ember CLI 3.28 drops support for Node 10. Node 10 became end of life (it no longer received security updates) as of April 2021.
+Ember CLI 3.28 drops support for Node 10. Node 10 became end of life (it no longer receives security updates) in April 2021.
 
-##### Introducing `ember-addon.projectRoot`
+#### Introducing `ember-addon.projectRoot`
 
-This new configuration option allows you to run `ember s` from outside of a project's root directory. For example, if you're using yarn workspace or a monorepo and want to support running `ember serve` from the root of the repo, update the top-level `package.json` to include the following config:
+This new configuration option allows you to run `ember serve` from outside of a project's root directory. For example, if you're using yarn workspace or a monorepo and want to support running `ember serve` from the root of the repo, update the top-level `package.json` to include the following config:
 
 ```json
 {
