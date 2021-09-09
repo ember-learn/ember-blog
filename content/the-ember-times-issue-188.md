@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 188
 authors:
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-09-10T00:00:00.000Z
 tags:
@@ -11,6 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Twitter Thread: Ember is Data First 🐦,
 
 ---
 
@@ -38,15 +40,13 @@ tags:
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Twitter Thread: Ember is Data First 🐦](https://twitter.com/davert/status/1435372911452373000)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Michael Bodnarchuk (@DavertMik)](https://github.com/DavertMik) wrote a [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) on how tracked properties in Glimmer components help you build data-oriented components.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Michael mentions that in React you write hooks to update the component's state, while in Ember the component's state is tied to the data. This data first approach makes it so we can just pass the reacting class to the root component and we don't change any child components.
+
+Read the full [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) and let us know if you have any thoughts about it too!
 
 ---
 
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
