@@ -44,7 +44,7 @@ Twitter Thread: Ember is Data First 🐦,
 
 [Michael Bodnarchuk (@DavertMik)](https://github.com/DavertMik) wrote a [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) on how tracked properties in Glimmer components help you build data-oriented components.
 
-Michael mentions that in React you write hooks to update the component's state, while in Ember the component's state is tied to the data. This data first approach makes it so we can just pass the reacting class to the root component and we don't change any child components.
+Michael mentions that in React you write hooks to update the component's state, while in Ember the component's state is tied to the data. This data first approach makes it so we can pass the reacting class to the root component and we do not need to change any child components to make it work.
 
 Read the full [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) and let us know if you have any thoughts about it too!
 
