@@ -13,7 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Reactively handle audios in Octane with `ember-stereo` 🎵,
+Reactively handle audio in Octane with `ember-stereo` 🎵,
 Twitter Thread: Ember is Data First 🐦,
 
 ---
