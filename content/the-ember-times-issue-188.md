@@ -13,7 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Handle audios in Octane with `ember-stereo` 🎵,
+Reactively handle audios in Octane with `ember-stereo` 🎵,
 Twitter Thread: Ember is Data First 🐦,
 
 ---
@@ -30,9 +30,9 @@ Twitter Thread: Ember is Data First 🐦,
 
 ---
 
-## [Handle audios in Octane with `ember-stereo` 🎵](https://github.com/jkeen/ember-stereo)
+## [Reactively handle audios in Octane with `ember-stereo` 🎵](https://github.com/jkeen/ember-stereo)
 
-Since 2016, [Jeff Keen (@jkeen)](https://github.com/jkeen) helped develop the open-source [ember-hifi](https://github.com/nypublicradio/ember-hifi) for the NY Public Radio.
+Since 2016, [Jeff Keen (@jkeen)](https://github.com/jkeen) helped develop the open-source [ember-hifi](https://github.com/nypublicradio/ember-hifi) for the New York Public Radio.
 
 <!-- alex ignore retext-equality -->
 Jeff recently released its modern, reactive successor [ember-stereo](https://github.com/jkeen/ember-stereo). He has worked hard on making audio manipulation simple and providing [extensive examples](https://ember-stereo.com/docs). We encourage you to have a look!
@@ -40,7 +40,7 @@ Jeff recently released its modern, reactive successor [ember-stereo](https://git
 Out of the box, you will be provided with:
 
 - `stereo` service: It manages loading and playing sounds, making sure that only one sound plays at a time, setting volume, and providing system-level events that your application can tie into.
-- Several template helpers, to perform an action on, or retrieve information from, a sound or `url` string
+- Template helpers, which can perform an action on, or retrieve information from, a sound or `url` string—something entirely new from how `ember-hifi` did things!
 - A couple of modifiers, to help control volume and position
 - `setupStereoTest()`, to help write tests
 
