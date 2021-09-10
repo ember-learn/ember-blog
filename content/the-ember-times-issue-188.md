@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 188
 authors:
   - chris-ng
+  - isaac-lee
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-09-10T00:00:00.000Z
 tags:
@@ -12,6 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Handle audios in Octane with `ember-stereo` 🎵,
 Twitter Thread: Ember is Data First 🐦,
 
 ---
@@ -28,15 +30,19 @@ Twitter Thread: Ember is Data First 🐦,
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Handle audios in Octane with `ember-stereo` 🎵](https://github.com/jkeen/ember-stereo)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Since 2016, [Jeff Keen (@jkeen)](https://github.com/jkeen) helped develop the open-source [ember-hifi](https://github.com/nypublicradio/ember-hifi) for the NY Public Radio.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!-- alex ignore retext-equality -->
+Jeff recently released its modern, reactive successor [ember-stereo](https://github.com/jkeen/ember-stereo). He has worked hard on making audio manipulation simple and providing [extensive examples](https://ember-stereo.com/docs). We encourage you to have a look!
+
+Out of the box, you will be provided with:
+
+- `stereo` service: It manages loading and playing sounds, making sure that only one sound plays at a time, setting volume, and providing system-level events that your application can tie into.
+- Several template helpers, to perform an action on, or retrieve information from, a sound or `url` string
+- A couple of modifiers, to help control volume and position
+- `setupStereoTest()`, to help write tests
 
 ---
 
@@ -136,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Isaac Lee, the crowd and the Learning Team
