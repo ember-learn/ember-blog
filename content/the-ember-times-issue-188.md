@@ -35,7 +35,7 @@ Do you have some time to help out with shipping Ember v4? 🔥 The Learning Team
 Help wanted to complete this month:
 
 - The most pressing issue is the deprecation guides, please start here if you have bandwidth and comment to claim a subtask of the issue. [GitHub issue: Write missing deprecation guides](https://github.com/ember-learn/deprecation-app/issues/893)
-- Look through the API docs and remove references to classic syntax. We only want to show Octane style examples in v4. [GitHub issue](https://github.com/emberjs/ember.js/issues/19702)
+- Look through the API docs and remove references to classic syntax. We only want to show Octane style examples in v4. [GitHub issue: [Documentation] Epic - remove classic examples from API docs for Ember 4](https://github.com/emberjs/ember.js/issues/19702)
 
 In addition to commenting on the GitHub issues, we can also chat on [#dev-ember-learning on Discord](https://discord.com/channels/480462759797063690/480499624663056390/882839642448220230).
 
