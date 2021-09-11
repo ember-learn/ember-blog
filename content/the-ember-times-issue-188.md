@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember 3.28 and 4.0 Beta Released, open source contributors wanted for Ember v4, reactively handle audio in Octane with `ember-stereo`, and Twitter thread: Ember is data-first
+Ember 3.28 and 4.0 Beta Released, open source contributors wanted for Ember v4, reactively handle audio in Octane with `ember-stereo`, and Twitter thread: Ember is data-first.
 
 ---
 
