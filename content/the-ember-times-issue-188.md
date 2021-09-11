@@ -12,47 +12,21 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+🎉 Ember 3.28 and 4.0 Beta Released,
 Reactively handle audio in Octane with `ember-stereo` 🎵,
 Twitter Thread: Ember is Data First 🐦,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [🎉 Ember 3.28 and 4.0 Beta Released](section-url)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+After 3.5 years and 28 minor releases, Ember 3.28 marks the end of the project's 3.x series. To ensure a smooth upgrade path going into the 4.x series, 3.28 has been declared an LTS (Long Term Support) candidate. In six weeks, the latest patch version of 3.28 will be promoted to be the latest LTS release and replace 3.24-LTS.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+**We're also announcing the start of the Ember 4.0 beta cycle for all sub-projects.** Following the process set in previous major versions, Ember 4.0's beta introduces no new features. Instead, it removes support for deprecated public APIs. We encourage our community (especially addon authors) to help test beta builds and report any bugs before they are published as a stable release in six weeks' time. We also encourage everyone to help maintainers resolve deprecations in their favorite addons. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
----
+Developers who want to prepare for the upcoming 4.0 version of Ember should work to resolve all deprecation warnings in their apps and addons while using Ember 3.28. An app or addon with no deprecation warnings on Ember 3.28 should be able to upgrade from Ember 4.0 without making significant changes outside of the dependency versions.
 
-## [Reactively handle audios in Octane with `ember-stereo` 🎵](https://github.com/jkeen/ember-stereo)
-
-Since 2016, [Jeff Keen (@jkeen)](https://github.com/jkeen) helped develop the open-source [ember-hifi](https://github.com/nypublicradio/ember-hifi) for the New York Public Radio.
-
-<!-- alex ignore retext-equality -->
-Jeff recently released its modern, reactive successor [ember-stereo](https://github.com/jkeen/ember-stereo). He has worked hard on making audio manipulation simple and providing [extensive examples](https://ember-stereo.com/docs). We encourage you to have a look!
-
-Out of the box, you will be provided with:
-
-- `stereo` service: It manages loading and playing sounds, making sure that only one sound plays at a time, setting volume, and providing system-level events that your application can tie into.
-- Template helpers, which can perform an action on, or retrieve information from, a sound or `url` string—something entirely new from how `ember-hifi` did things!
-- A couple of modifiers, to help control volume and position
-- `setupStereoTest()`, to help write tests
-
----
-
-## [Twitter Thread: Ember is Data First 🐦](https://twitter.com/davert/status/1435372911452373000)
-
-[Michael Bodnarchuk (@DavertMik)](https://github.com/DavertMik) wrote a [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) on how tracked properties in Glimmer components help you build data-oriented components.
-
-Michael mentions that in React you write hooks to update the component's state, while in Ember the component's state is tied to the data. This data first approach makes it so we can pass the reacting class to the root component and we do not need to change any child components to make it work.
-
-Read the full [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) and let us know if you have any thoughts about it too!
+You can read more about Ember's plans for 4.0 in [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/). Please visit [Ember 3.28 and 4.0 Beta Released](https://blog.emberjs.com/ember-3-28-released/) for the rest of the post, including details on Ember.js, Ember Data, and Ember CLI. Many thanks to [Matthew Beale (@mixonic)](https://github.com/mixonic), [Jen Weber (@jenweber)](https://github.com/jenweber), and [Isaac Lee (@ijlee2)](https://github.com/ijlee2) for the excellent and informative writeup!
 
 ---
 
@@ -68,51 +42,29 @@ Read the full [Twitter Thread](https://twitter.com/davert/status/143537291145237
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [🎵 Reactively handle audios in Octane with `ember-stereo`](https://github.com/jkeen/ember-stereo)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Since 2016, [Jeff Keen (@jkeen)](https://github.com/jkeen) helped develop the open-source [ember-hifi](https://github.com/nypublicradio/ember-hifi) for the New York Public Radio.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!-- alex ignore retext-equality -->
+Jeff recently released its modern, reactive successor [ember-stereo](https://github.com/jkeen/ember-stereo). He has worked hard on making audio manipulation simple and providing [extensive examples](https://ember-stereo.com/docs). We encourage you to have a look!
 
----
+Out of the box, you will be provided with:
 
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- `stereo` service: It manages loading and playing sounds, making sure that only one sound plays at a time, setting volume, and providing system-level events that your application can tie into.
+- Template helpers, which can perform an action on, or retrieve information from, a sound or `url` string—something entirely new from how `ember-hifi` did things!
+- A couple of modifiers, to help control volume and position
+- `setupStereoTest()`, to help write tests
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [🐦 Twitter Thread: Ember is Data First](https://twitter.com/davert/status/1435372911452373000)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Michael Bodnarchuk (@DavertMik)](https://github.com/DavertMik) wrote a [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) on how tracked properties in Glimmer components help you build data-oriented components.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Michael mentions that in React you write hooks to update the component's state, while in Ember the component's state is tied to the data. This data first approach makes it so we can pass the reacting class to the root component and we do not need to change any child components to make it work.
 
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Read the full [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) and let us know if you have any thoughts about it too!
 
 ---
 
