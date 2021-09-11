@@ -12,14 +12,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember 3.28 and 4.0 Beta Released,
-Open source contributors wanted for Ember v4,
-Reactively handle audio in Octane with `ember-stereo`,
-Twitter thread: Ember is data-first,
+Ember 3.28 and 4.0 Beta Released, open source contributors wanted for Ember v4, reactively handle audio in Octane with `ember-stereo`, and Twitter thread: Ember is data-first
 
 ---
 
-## [🎉 Ember 3.28 and 4.0 Beta Released](section-url)
+## [🎉 Ember 3.28 and 4.0 Beta Released](https://blog.emberjs.com/ember-3-28-released/)
 
 After 3.5 years and 28 minor releases, Ember 3.28 marks the end of the project's 3.x series. To ensure a smooth upgrade path going into the 4.x series, 3.28 has been declared an LTS (Long Term Support) candidate. In six weeks, the latest patch version of 3.28 will be promoted to be the latest LTS release and replace 3.24-LTS.
 
