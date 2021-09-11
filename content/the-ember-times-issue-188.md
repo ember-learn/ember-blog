@@ -12,9 +12,10 @@ tags:
 
 👋 Emberistas! 🐹
 
-🎉 Ember 3.28 and 4.0 Beta Released,
-Reactively handle audio in Octane with `ember-stereo` 🎵,
-Twitter Thread: Ember is Data First 🐦,
+Ember 3.28 and 4.0 Beta Released,
+Open source contributors wanted for Ember v4,
+Reactively handle audio in Octane with `ember-stereo`,
+Twitter thread: Ember is data-first,
 
 ---
 
@@ -30,15 +31,16 @@ You can read more about Ember's plans for 4.0 in [The Road to Ember 4.0](https:/
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## 📣 Open source contributors wanted for Ember v4
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Do you have some time to help out with shipping Ember v4? 🔥 The Learning Team is preparing docs and guides, and we need your brainpower and writing skills!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Help wanted to complete this month:
+
+- The most pressing issue is the deprecation guides, please start here if you have bandwidth and comment to claim a subtask of the issue. [GitHub issue: Write missing deprecation guides](https://github.com/ember-learn/deprecation-app/issues/893)
+- Look through the API docs and remove references to classic syntax. We only want to show Octane style examples in v4. [GitHub issue](https://github.com/emberjs/ember.js/issues/19702)
+
+In addition to commenting on the GitHub issues, we can also chat on [#dev-ember-learning on Discord](https://discord.com/channels/480462759797063690/480499624663056390/882839642448220230).
 
 ---
 
@@ -58,13 +60,13 @@ Out of the box, you will be provided with:
 
 ---
 
-## [🐦 Twitter Thread: Ember is Data First](https://twitter.com/davert/status/1435372911452373000)
+## [🐦 Twitter thread: Ember is data-first](https://twitter.com/davert/status/1435372911452373000)
 
-[Michael Bodnarchuk (@DavertMik)](https://github.com/DavertMik) wrote a [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) on how tracked properties in Glimmer components help you build data-oriented components.
+[Michael Bodnarchuk (@DavertMik)](https://github.com/DavertMik) wrote a [Twitter thread](https://twitter.com/davert/status/1435372911452373000) on how tracked properties in Glimmer components help you build data-oriented components.
 
 Michael mentions that in React you write hooks to update the component's state, while in Ember the component's state is tied to the data. This data first approach makes it so we can pass the reacting class to the root component and we do not need to change any child components to make it work.
 
-Read the full [Twitter Thread](https://twitter.com/davert/status/1435372911452373000) and let us know if you have any thoughts about it too!
+Read the full [Twitter thread](https://twitter.com/davert/status/1435372911452373000) and let us know if you have any thoughts about it too!
 
 ---
 
