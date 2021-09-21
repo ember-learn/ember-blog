@@ -1,8 +1,9 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 189
 authors:
+  - amy-lam
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-XX-XXT00:00:00.000Z
+date: 2021-09-24T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
@@ -11,6 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+✨ ember-element-query v4
 
 ---
 
@@ -26,15 +28,15 @@ tags:
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [✨ ember-element-query v4](https://github.com/lolmaus/ember-element-query/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Andrey Mikhaylov (@lolmaus)](https://github.com/lolmaus) [announced](https://twitter.com/lolmaus_en/status/1424083417591914499) the release of [ember-element-query](https://github.com/lolmaus/ember-element-query/) v4, a **complete rewrite for Octane** with a new convenient API.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Element queries are a technique to do responsive transformations based on the element's own size, rather than the viewport size. You can implement reusable responsive components with encapsulated styles, that are decoupled from their parent context. Such components will realign their content depending on how much space is available to them.
+
+For example, if you put a responsive component into a tight sidebar, it will align its content vertically. When the sidebar expands, the component will realign horizontally, in order to efficiently use available space. Check out [Element Queries, And How You Can Use Them Today](https://www.smashingmagazine.com/2016/07/how-i-ended-up-with-element-queries-and-how-you-can-use-them-today/) on Smashing Magazine to learn more.
+
+Check out the detailed [README](https://github.com/lolmaus/ember-element-query/), which compares and contrasts with other addons in the space: [ember-fill-up](https://github.com/chadian/ember-fill-up/) and [ember-container-query](https://github.com/ijlee2/ember-container-query/). Give the addon a spin!
 
 ---
 
@@ -136,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Amy Lam, the crowd and the Learning Team
