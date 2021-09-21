@@ -30,7 +30,7 @@ tags:
 
 ## [✨ ember-element-query v4](https://github.com/lolmaus/ember-element-query/)
 
-[Andrey Mikhaylov (@lolmaus)](https://github.com/lolmaus) [announced](https://twitter.com/lolmaus_en/status/1424083417591914499) the release of [ember-element-query](https://github.com/lolmaus/ember-element-query/) v4, a **complete rewrite for Octane** with a new convenient API.
+[Andrey Mikhaylov (@lolmaus)](https://github.com/lolmaus) announced the [release]](https://twitter.com/lolmaus_en/status/1424083417591914499) of [ember-element-query](https://github.com/lolmaus/ember-element-query/) v4, a **complete rewrite for Octane** with a new convenient API.
 
 Element queries are a technique to do responsive transformations based on the element's own size, rather than the viewport size. You can implement reusable responsive components with encapsulated styles, that are decoupled from their parent context. Such components will realign their content depending on how much space is available to them.
 
