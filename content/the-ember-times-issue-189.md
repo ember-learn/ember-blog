@@ -30,13 +30,13 @@ tags:
 
 ## [✨ ember-element-query v4](https://github.com/lolmaus/ember-element-query/)
 
-[Andrey Mikhaylov (@lolmaus)](https://github.com/lolmaus) announced the [release]](https://twitter.com/lolmaus_en/status/1424083417591914499) of [ember-element-query](https://github.com/lolmaus/ember-element-query/) v4, a **complete rewrite for Octane** with a new convenient API.
+[Andrey Mikhaylov (@lolmaus)](https://github.com/lolmaus) announced the [release](https://twitter.com/lolmaus_en/status/1424083417591914499) of [ember-element-query](https://github.com/lolmaus/ember-element-query/) v4, a **complete rewrite for Octane** with a new convenient API.
 
 Element queries are a technique to do responsive transformations based on the element's own size, rather than the viewport size. You can implement reusable responsive components with encapsulated styles, that are decoupled from their parent context. Such components will realign their content depending on how much space is available to them.
 
 For example, if you put a responsive component into a tight sidebar, it will align its content vertically. When the sidebar expands, the component will realign horizontally, in order to efficiently use available space. Check out [Element Queries, And How You Can Use Them Today](https://www.smashingmagazine.com/2016/07/how-i-ended-up-with-element-queries-and-how-you-can-use-them-today/) on Smashing Magazine to learn more.
 
-Check out the detailed [README](https://github.com/lolmaus/ember-element-query/), which compares and contrasts with other addons in the space: [ember-fill-up](https://github.com/chadian/ember-fill-up/) and [ember-container-query](https://github.com/ijlee2/ember-container-query/). Give the addon a spin!
+Check out the detailed [README](https://github.com/lolmaus/ember-element-query/) and give the addon a spin! ember-element-query builds on the work started by [ember-fill-up](https://github.com/chadian/ember-fill-up/) and then [ember-container-query](https://github.com/ijlee2/ember-container-query/).
 
 ---
 
