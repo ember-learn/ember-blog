@@ -40,7 +40,7 @@ Historically, `ember-element-query` was the first Ember addon to offer element q
 
 The first element query addon to be released with feature completeness, full test coverage and lasting support was [Isaac Lee's (@ijlee2)](https://github.com/ijlee2/) `ember-container-query`, featured in [The Ember Times #153](https://blog.emberjs.com/the-ember-times-issue-153/). The re-release of `ember-element-query` followed suit with a subjectively more convenient, opinionated API, backed by modern, efficient `ResizeObserver` under the hood. [@ijlee2](https://github.com/ijlee2/) provided kind support, criticism and generously shared the demo app with [@lolmaus](https://github.com/lolmaus)'s `ember-element-query`.
 
-Check out the detailed [README](https://github.com/lolmaus/ember-element-query/) and give the addon a spin! 
+Check out the detailed [README](https://github.com/lolmaus/ember-element-query/) and give the addon a spin!
 
 ---
 
