@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 189
 authors:
   - amy-lam
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-09-24T00:00:00.000Z
 tags:
@@ -13,6 +14,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ✨ ember-element-query v4
+RFC: Asset Import Spec ✍️
 
 ---
 
@@ -44,15 +46,23 @@ Check out the detailed [README](https://github.com/lolmaus/ember-element-query/)
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [RFC: Asset Import Spec ✍️](https://github.com/emberjs/rfcs/pull/763)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Edward Faulkner (@ef4)](https://github.com/ef4) proposed a new [RFC](https://github.com/emberjs/rfcs/pull/763) which defines the standard semantics for what it means to depend on files that are not JavaScript or CSS, like images, fonts, and other media. The ecosystem today mostly relies on [broccoli-asset-rev](https://github.com/ember-cli/broccoli-asset-rev) which is a Broccoli plugin that adds fingerprint checksums and CDN URLs to your assets. The RFC argues that the broccoli-asset-rev plugin does not take advantage of the newer capabilities we have in [ember-auto-import](https://github.com/ef4/ember-auto-import) and [embroider](https://github.com/embroider-build/embroider). The proposed pull-based design lets code declare what assets it needs and then not worry about how those assets will get delivered is safer and easier to change in the future.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+```js
+import myImage from './hello.png';
+
+class extends Component {
+  myImage = myImage
+}
+```
+
+```hbs
+<img src={{this.myImage}} />
+```
+
+If this is something you are interested in, please read and discuss the [Asset Import Spec RFC on GitHub](https://github.com/emberjs/rfcs/pull/763)!
 
 ---
 
@@ -142,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, the crowd and the Learning Team
+Amy Lam, Chris Ng, the crowd and the Learning Team
