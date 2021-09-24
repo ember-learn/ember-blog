@@ -74,7 +74,7 @@ Next week, after a year of absence because of COVID, [EmberFest](https://emberfe
 
 There will be well-known EmberConf/Fest speakers like [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) and [Edward Faulkner (@ef4)](https://github.com/ef4), as well as first-time speakers like [Bartlomiej Dudzik (@BobrImperator)](https://github.com/BobrImperator), [Jenny Judova (@JennyJudova)](https://github.com/JennyJudova), and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl). The [line-up](https://emberfest.eu/schedule/) is super diverse and interesting for all Ember enthusiasts.
 
-There are still remote tickets available and even if you plan on coming last minute to Rome a few on-site tickets remain. We hope you enjoy this conference wherever you decide to join.
+Remote tickets are still available. A few on-site tickets too, if you plan on arriving at the last minute. We hope you enjoy EmberFest wherever you decide to join.
 
 ---
 
