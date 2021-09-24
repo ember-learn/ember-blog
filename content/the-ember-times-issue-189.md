@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 189
 authors:
   - amy-lam
   - chris-ng
+  - anne-greeth-schot-van-herwijnen
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-09-24T00:00:00.000Z
 tags:
@@ -15,6 +16,7 @@ tags:
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 ✨ ember-element-query v4
 RFC: Asset Import Spec ✍️
+🏛️ EmberFest 2021 - best of both worlds
 
 ---
 
@@ -66,15 +68,12 @@ If this is something you are interested in, please read and discuss the [Asset I
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [🏛️ EmberFest 2021 - best of both worlds](https://emberfest.eu)
+Next week after a year of absence because of COVID [EmberFest](https://emberfest.eu) is back. On the 30th of September and the 1st of October Emberistas will gather **digitally** and **analogue** in Rome to hear awesome Ember-talks. 
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+With well-known EmberConf/Fest speakers like [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) and [Edward Faulkner (@ef4)](https://github.com/ef4) and first time speakers like [Bartlomiej Dudzik (@BobrImperator)](https://github.com/BobrImperator), [Jenny Judova (@JennyJudova)](https://github.com/JennyJudova) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl] the line up is super diverse and interesting for all Ember enthousiasts.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+There are still remote tickets available and even if you plan on coming last minute to Rome a few on-site tickets remain. We hope you enjoy this conference wherever you decide to join.
 
 ---
 
@@ -152,4 +151,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Chris Ng, the crowd and the Learning Team
+Amy Lam, Chris Ng, Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
