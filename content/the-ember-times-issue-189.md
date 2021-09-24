@@ -72,7 +72,7 @@ If this is something you are interested in, please read and discuss the [Asset I
 
 Next week, after a year of absence because of COVID, [EmberFest](https://emberfest.eu) is back. On the 30th of September and the 1st of October, Emberistas will gather **digitally** and **on-site** in Rome to hear awesome Ember talks.
 
-With well-known EmberConf/Fest speakers like [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) and [Edward Faulkner (@ef4)](https://github.com/ef4) and first time speakers like [Bartlomiej Dudzik (@BobrImperator)](https://github.com/BobrImperator), [Jenny Judova (@JennyJudova)](https://github.com/JennyJudova) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl) the [line up](https://emberfest.eu/schedule/) is super diverse and interesting for all Ember enthousiasts.
+There will be well-known EmberConf/Fest speakers like [Melanie Sumner (@MelSumner)](https://github.com/MelSumner) and [Edward Faulkner (@ef4)](https://github.com/ef4), as well as first-time speakers like [Bartlomiej Dudzik (@BobrImperator)](https://github.com/BobrImperator), [Jenny Judova (@JennyJudova)](https://github.com/JennyJudova), and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl). The [line-up](https://emberfest.eu/schedule/) is super diverse and interesting for all Ember enthusiasts.
 
 There are still remote tickets available and even if you plan on coming last minute to Rome a few on-site tickets remain. We hope you enjoy this conference wherever you decide to join.
 
