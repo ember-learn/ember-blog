@@ -19,6 +19,7 @@ tags:
 RFC: Asset Import Spec ✍️
 🏛️ EmberFest 2021 - best of both worlds
 ⚡️ Glimmer cheatsheet
+📈 Glimmer Apollo v0.4.0
 
 ---
 
@@ -90,15 +91,11 @@ Take a look at the [Github repo](https://github.com/nullvoxpopuli/ember-cheat-sh
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [📈 Glimmer Apollo v0.4.0](https://twitter.com/josemarluedke/status/1441532888072142859)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) recently released a new [v0.4.0](https://github.com/josemarluedke/glimmer-apollo/releases/tag/v0.4.0) of Glimmer Apollo that includes support for [subscriptions](https://glimmer-apollo.com/docs/fetching/subscriptions/)! 🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you haven't checked out Glimmer Apollo and you would like to make use of Apollo to access GraphQL data in your Glimmer or Ember app, you should take a look at this [exciting project](https://github.com/josemarluedke/glimmer-apollo) and give [the docs](https://glimmer-apollo.com/docs) a read.
 
 ---
 
