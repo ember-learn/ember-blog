@@ -13,11 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-RFC: Asset Import Spec ✍️
-✨ ember-element-query v4
-🏛️ EmberFest 2021 - best of both worlds
-⚡️ Glimmer cheatsheet
-📈 Glimmer Apollo v0.4.0
+RFC: Asset Import Spec, ember-element-query v4, EmberFest 2021 - best of both worlds, Glimmer cheatsheet, and Glimmer Apollo v0.4.0.
 
 ---
 
@@ -111,4 +107,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Anne-Greeth Schot-van Herwijnen, Jared Galanis Amy Lam, and the Learning Team
+Chris Ng, Anne-Greeth Schot-van Herwijnen, Jared Galanis, Amy Lam, and the Learning Team
