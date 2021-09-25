@@ -82,11 +82,11 @@ Remote tickets are still available. A few on-site tickets too, if you plan on ar
 
 ## [⚡️ Glimmer Cheatsheet](https://twitter.com/nullvoxpopuli/status/1439652161625985037)
 
-If you've ever found the Ember Octane vs Ember Classic Cheat Sheet cheatsheet helpful, and you're also interested in Glimmer.js, you might want to check out the in-progress and exciting, but **unofficial**, [Glimmer Cheatsheet](https://cheatsheet.glimmer.nullvoxpopuli.com/docs) that [@NullVoxPopuli](https://github.com/NullVoxPopuli) recently started to put together.
+If you've ever found the Ember Octane vs Ember Classic Cheat Sheet cheatsheet helpful, and you're also interested in Glimmer.js, you might want to check out the in-progress and exciting, but **unofficial**, [Glimmer Cheatsheet](https://cheatsheet.glimmer.nullvoxpopuli.com/docs) that [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) recently started to put together.
 
 So far only part of the [templates page](https://cheatsheet.glimmer.nullvoxpopuli.com/docs/templates) has been written, but if you're interested in contributing there is a rough outline and placeholder i18n to help get you started.
 
-Take a look at the [Github repo](https://github.com/nullvoxpopuli/ember-cheat-sheet) or the [deployed app](https://cheatsheet.glimmer.nullvoxpopuli.com/docs) for more! 
+Take a look at the [Github repo](https://github.com/nullvoxpopuli/ember-cheat-sheet) or the [deployed app](https://cheatsheet.glimmer.nullvoxpopuli.com/docs) for more!
 
 ---
 
