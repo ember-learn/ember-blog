@@ -4,6 +4,7 @@ authors:
   - amy-lam
   - chris-ng
   - anne-greeth-schot-van-herwijnen
+  - jared-galanis
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-09-24T00:00:00.000Z
 tags:
@@ -17,6 +18,7 @@ tags:
 ✨ ember-element-query v4
 RFC: Asset Import Spec ✍️
 🏛️ EmberFest 2021 - best of both worlds
+⚡️ Glimmer cheatsheet
 
 ---
 
@@ -78,15 +80,13 @@ Remote tickets are still available. A few on-site tickets too, if you plan on ar
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [⚡️ Glimmer Cheatsheet](https://twitter.com/nullvoxpopuli/status/1439652161625985037)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you've ever found the Ember Octane vs Ember Classic Cheat Sheet cheatsheet helpful, and you're also interested in Glimmer.js, you might want to check out the in-progress and exciting, but **unofficial**, [Glimmer Cheatsheet](https://cheatsheet.glimmer.nullvoxpopuli.com/docs) that [@NullVoxPopuli](https://github.com/NullVoxPopuli) recently started to put together.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+So far only part of the [templates page](https://cheatsheet.glimmer.nullvoxpopuli.com/docs/templates) has been written, but if you're interested in contributing there is a rough outline and placeholder i18n to help get you started.
+
+Take a look at the [Github repo](https://github.com/nullvoxpopuli/ember-cheat-sheet) or the [deployed app](https://cheatsheet.glimmer.nullvoxpopuli.com/docs) for more! 
 
 ---
 
@@ -152,4 +152,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Amy Lam, Chris Ng, Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
+Amy Lam, Chris Ng, Anne-Greeth Schot-van Herwijnen, Jared Galanis the crowd and the Learning Team
