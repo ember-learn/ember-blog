@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 190
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-10-01T00:00:00.000Z
+date: 2021-10-08T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
