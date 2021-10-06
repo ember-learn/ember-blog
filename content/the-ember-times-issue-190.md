@@ -37,7 +37,7 @@ There are [81 Ember projects participating](https://github.com/search?q=topic%3A
 Here's a list of [recently updated issues](https://github.com/search?o=desc&q=topic%3Aember+topic%3Ahacktoberfest&s=updated&type=Repositories) in those repositories.
 
 Ember 4.0 is coming up, and so one area of need is to help addon maintainers
-upgrade to version 3.28 and resolve deprecations. Even if addon authors
+upgrade to version 3.28 and [resolve deprecations](https://deprecations.emberjs.com/). Even if addon authors
 do not have issues open for this work, you can open one and offer to help.
 
 You can also visit [Ember's Help Wanted](https://help-wanted.emberjs.com/) to find good issues to work on. The Ember Learning Team and others are curating some super beginner-friendly issues. In Help Wanted, you can find these issues, along with more intermediate and advanced issues. If you want to help, comment on an issue to let others know that you are working on it. If the issue you want to work on is taken, try asking if the other volunteers would like to collaborate!
