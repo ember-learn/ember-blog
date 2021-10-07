@@ -26,7 +26,7 @@ To participate:
 - Make 4 approved Pull Requests to public repositories on GitHub that have the `hacktoberfest` topic.
 Take a moment to learn about what goes into an ["approved" Pull request](https://hacktoberfest.digitalocean.com/resources/participation).
 - If you are among the first 50,000 developers who complete the challenge, you get a prize. This year, you can select between a T-shirt and a tree planted in your name.
-- Join the `#hacktoberfest` channel in the [Ember Community Discord](https://discord.gg/emberjs)
+- Join the [`#hacktoberfest`](https://discord.com/channels/480462759797063690/496453502298750988) channel in the [Ember Community Discord](https://discord.gg/emberjs)
 to collaborate with other participants!
 
 ### Ember projects you can help out with
