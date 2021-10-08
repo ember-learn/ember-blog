@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 190
 authors:
   - jen-weber
+  - chris-ng
   - isaac-lee
 date: 2021-10-08T00:00:00.000Z
 tags:
@@ -12,6 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 It's October, and that means its time for Hacktoberfest!
+Release of ember-popperjs 🎉
 Try out the first beta release of Ember 4.0 today!
 
 ---
@@ -54,6 +56,29 @@ If you are someone who is willing to help mentor new contributors, please let us
 Additionally, there are several more groups within the Ember Community Discord where you can find others to collaborate with. There are Discord channels for women, LGBTQ+, and people of color. If you belong to one of those groups, you can ask to join in the `#discord-server-admin` channel.
 
 ---
+
+## [Release of ember-popperjs 🎉](https://twitter.com/nullvoxpopuli/status/1444713887220240400)
+
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released v1.0.0 of [ember-popperjs](https://github.com/NullVoxPopuli/ember-popperjs) which provides a single `<PopperJS>` component with with APIs to create popover, tooltips, and more!
+
+The addon provides 2 modifiers: `{{trigger}}` which sets up the target element for the popover element to position itself to – and `{{popover}}` which attaches to the element that is the container of the popover content. There are also `placement` and `options` attributes which can be applied to [customize](https://popper.js.org/docs/v2/constructors/#options) the `<PopperJS>` behaviour.
+
+```hbs
+<PopperJS as |trigger popover|>
+  <button {{trigger}} {{on "click" this.yourClickHandler}}>
+    {{yield to="trigger"}}
+  </button>
+
+  {{#if this.yourVisibilityIndicator}}
+    <div {{popover}}>
+      This is a popover!
+      {{yield to="default"}}
+    </div>
+  {{/if}}
+</PopperJS>
+```
+
+Note that PopperJS does not provide styles for making a popover nor does it provide click handlers for showing and hiding the popover. Try it out today, it’s available on [GitHub](https://github.com/NullVoxPopuli/ember-popperjs)!
 
 ## [Ember 4.0.0-beta.1 released ✨](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
 
@@ -166,4 +191,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jen Weber, Isaac Lee, the crowd and the Learning Team
+Jen Weber, Isaac Lee, Chris Ng, the crowd and the Learning Team
