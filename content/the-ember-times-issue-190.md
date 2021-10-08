@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 190
 authors:
   - jen-weber
+  - chris-ng
 date: 2021-10-08T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 It's October, and that means its time for Hacktoberfest!
+Release of ember-popperjs 🎉
 
 ---
 
@@ -53,15 +55,28 @@ Additionally, there are several more groups within the Ember Community Discord w
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Release of ember-popperjs 🎉](https://twitter.com/nullvoxpopuli/status/1444713887220240400)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released v1.0.0 of [ember-popperjs](https://github.com/NullVoxPopuli/ember-popperjs) which provides a single `<PopperJS>` component with with APIs to create popover, tooltips, and more!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The addon provides 2 modifiers: `{{trigger}}` which sets up the target element for the popover element to position itself to – and `{{popover}}` which attaches to the element that is the container of the popover content. There are also `placement` and `options` attributes which can be applied to [customize](https://popper.js.org/docs/v2/constructors/#options) the `<PopperJS>` behaviour.
+
+```hbs
+<PopperJS as |trigger popover|>
+  <button {{trigger}} {{on "click" this.yourClickHandler}}>
+    {{yield to="trigger"}}
+  </button>
+
+  {{#if this.yourVisibilityIndicator}}
+    <div {{popover}}>
+      This is a popover!
+      {{yield to="default"}}
+    </div>
+  {{/if}}
+</PopperJS>
+```
+
+Note that PopperJS does not provide styles for making a popover nor does it provide click handlers for showing and hiding the popover. Try it out today, it’s available on [GitHub](https://github.com/NullVoxPopuli/ember-popperjs)!
 
 ---
 
@@ -163,4 +178,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, Jen Weber, the crowd and the Learning Team
