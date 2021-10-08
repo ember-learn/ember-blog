@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 190
 authors:
   - jen-weber
   - chris-ng
+  - isaac-lee
 date: 2021-10-08T00:00:00.000Z
 tags:
   - newsletter
@@ -13,6 +14,7 @@ tags:
 
 It's October, and that means its time for Hacktoberfest!
 Release of ember-popperjs 🎉
+Try out the first beta release of Ember 4.0 today!
 
 ---
 
@@ -77,6 +79,17 @@ The addon provides 2 modifiers: `{{trigger}}` which sets up the target element f
 ```
 
 Note that PopperJS does not provide styles for making a popover nor does it provide click handlers for showing and hiding the popover. Try it out today, it’s available on [GitHub](https://github.com/NullVoxPopuli/ember-popperjs)!
+
+## [Ember 4.0.0-beta.1 released ✨](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
+
+On October 4, the first beta of Ember 4.0 has been released. It contains improvements to documentation as well as a few new features:
+
+- Add `addons.exclude` and `addons.include` options (implements [RFC #639](https://github.com/emberjs/rfcs/pull/639))
+- Add `pnpm` support to `ember install` command
+- Default `ember new` and `ember addon` to use GitHub Actions (implements [RFC #696](https://github.com/emberjs/rfcs/pull/696))
+- Update app and addon blueprints to use `ember-auto-import@v2`
+
+For more information about the 4.0.0-beta.1 release, you can visit the [release page on GitHub](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1). We encourage you try it out and provide feedback.
 
 ---
 
@@ -178,4 +191,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jen Weber, the crowd and the Learning Team
+Jen Weber, Isaac Lee, Chris Ng, the crowd and the Learning Team
