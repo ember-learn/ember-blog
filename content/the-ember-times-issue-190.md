@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 190
 authors:
   - jen-weber
+  - isaac-lee
 date: 2021-10-08T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 It's October, and that means its time for Hacktoberfest!
+Try out the first beta release of Ember 4.0 today!
 
 ---
 
@@ -53,15 +55,16 @@ Additionally, there are several more groups within the Ember Community Discord w
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Ember 4.0.0-beta.1 released ✨](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+On October 4, the first beta of Ember 4.0 has been released. It contains improvements to documentation as well as a few new features:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- Add `addons.exclude` and `addons.include` options (implements [RFC #639](https://github.com/emberjs/rfcs/pull/639))
+- Add `pnpm` support to `ember install` command
+- Default `ember new` and `ember addon` to use GitHub Actions (implements [RFC #696](https://github.com/emberjs/rfcs/pull/696))
+- Update app and addon blueprints to use `ember-auto-import@v2`
+
+For more information about the 4.0.0-beta.1 release, you can visit the [release page on GitHub](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1). We encourage you try it out and provide feedback.
 
 ---
 
@@ -163,4 +166,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jen Weber, Isaac Lee, the crowd and the Learning Team
