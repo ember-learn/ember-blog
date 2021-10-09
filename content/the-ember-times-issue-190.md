@@ -4,6 +4,7 @@ authors:
   - jen-weber
   - chris-ng
   - isaac-lee
+  - amy-lam
 date: 2021-10-08T00:00:00.000Z
 tags:
   - newsletter
@@ -12,13 +13,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-It's October, and that means its time for Hacktoberfest!
-Release of ember-popperjs 🎉
-Try out the first beta release of Ember 4.0 today!
+It's October...and that means it's time for Hacktoberfest! Also, try out the first beta release of Ember 4.0 today, plus a release of ember-popperjs
 
 ---
 
-## [🎃 1. Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+## [🎃 Hacktoberfest](https://hacktoberfest.digitalocean.com/)
 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) is an annual, worldwide celebration organized by DigitalOcean and sponsored by many companies that use open source software.
 Many Ember projects are participating this year! If you complete the challenge,
@@ -37,7 +36,7 @@ to collaborate with other participants!
 
 Are you wondering what to work on?
 
-There are [81 Ember projects participating](https://github.com/search?q=topic%3Aember+topic%3Ahacktoberfest)!
+There are [100 and counting Ember projects participating](https://github.com/search?q=topic%3Aember+topic%3Ahacktoberfest)!
 Here's a list of [recently updated issues](https://github.com/search?o=desc&q=topic%3Aember+topic%3Ahacktoberfest&s=updated&type=Repositories) in those repositories.
 
 Ember 4.0 is coming up, and so one area of need is to help addon maintainers
@@ -48,12 +47,25 @@ You can also visit [Ember's Help Wanted](https://help-wanted.emberjs.com/) to fi
 
 ### Connect with other participants
 
-Join the `#hacktoberfest` channel in the [Ember Community Discord](https://discord.gg/emberjs) to connect with other developers. You can find a buddy to pair with, a mentor to guide you, or toss around ideas.
+Join the [`#hacktoberfest`](https://discord.com/channels/480462759797063690/496453502298750988) channel in the [Ember Community Discord](https://discord.gg/emberjs) to connect with other developers. You can find a buddy to pair with, a mentor to guide you, or toss around ideas.
 
-If you are someone who is willing to help mentor new contributors, please let us know in `#hacktoberfest` on Discord. Addon maintainers are welcome to post issues they need help with too!
+If you are someone who is willing to help mentor new contributors, please let us know in [`#hacktoberfest`](https://discord.com/channels/480462759797063690/496453502298750988) on Discord. Addon maintainers are welcome to post issues they need help with too!
 
 <!--alex ignore gal-guy -->
-Additionally, there are several more groups within the Ember Community Discord where you can find others to collaborate with. There are Discord channels for women, LGBTQ+, and people of color. If you belong to one of those groups, you can ask to join in the `#discord-server-admin` channel.
+Additionally, there are several more groups within the Ember Community Discord where you can find others to collaborate with. There are Discord channels for women, LGBTQ+, and people of color. If you belong to one of those groups, you can ask to join in the [`#discord-server-admin`](https://discord.com/channels/480462759797063690/480499718330253342) channel.
+
+---
+
+## [Ember 4.0.0-beta.1 released ✨](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
+
+On October 4, the first beta of Ember 4.0 has been released. It contains improvements to documentation as well as a few new features:
+
+- Add `addons.exclude` and `addons.include` options (implements [RFC #639](https://github.com/emberjs/rfcs/pull/639))
+- Add `pnpm` support to `ember install` command
+- Default `ember new` and `ember addon` to use GitHub Actions (implements [RFC #696](https://github.com/emberjs/rfcs/pull/696))
+- Update app and addon blueprints to use `ember-auto-import@v2`
+
+For more information about the 4.0.0-beta.1 release, you can visit the [release page on GitHub](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1). We encourage you try it out and provide feedback.
 
 ---
 
@@ -63,7 +75,7 @@ Additionally, there are several more groups within the Ember Community Discord w
 
 The addon provides 2 modifiers: `{{trigger}}` which sets up the target element for the popover element to position itself to – and `{{popover}}` which attaches to the element that is the container of the popover content. There are also `placement` and `options` attributes which can be applied to [customize](https://popper.js.org/docs/v2/constructors/#options) the `<PopperJS>` behaviour.
 
-```hbs
+```handlebars
 <PopperJS as |trigger popover|>
   <button {{trigger}} {{on "click" this.yourClickHandler}}>
     {{yield to="trigger"}}
@@ -79,89 +91,6 @@ The addon provides 2 modifiers: `{{trigger}}` which sets up the target element f
 ```
 
 Note that PopperJS does not provide styles for making a popover nor does it provide click handlers for showing and hiding the popover. Try it out today, it’s available on [GitHub](https://github.com/NullVoxPopuli/ember-popperjs)!
-
-## [Ember 4.0.0-beta.1 released ✨](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
-
-On October 4, the first beta of Ember 4.0 has been released. It contains improvements to documentation as well as a few new features:
-
-- Add `addons.exclude` and `addons.include` options (implements [RFC #639](https://github.com/emberjs/rfcs/pull/639))
-- Add `pnpm` support to `ember install` command
-- Default `ember new` and `ember addon` to use GitHub Actions (implements [RFC #696](https://github.com/emberjs/rfcs/pull/696))
-- Update app and addon blueprints to use `ember-auto-import@v2`
-
-For more information about the 4.0.0-beta.1 release, you can visit the [release page on GitHub](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1). We encourage you try it out and provide feedback.
-
----
-
-## [🐹 3. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 4. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 5. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -191,4 +120,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jen Weber, Isaac Lee, Chris Ng, the crowd and the Learning Team
+Jen Weber, Isaac Lee, Chris Ng, Amy Lam, and the Learning Team
