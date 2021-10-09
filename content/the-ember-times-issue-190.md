@@ -56,7 +56,7 @@ Additionally, there are several more groups within the Ember Community Discord w
 
 ---
 
-## [Ember 4.0.0-beta.1 released ✨](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
+## [✨ Ember 4.0.0-beta.1 released](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0-beta.1)
 
 On October 4, the first beta of Ember 4.0 has been released. It contains improvements to documentation as well as a few new features:
 
@@ -69,7 +69,7 @@ For more information about the 4.0.0-beta.1 release, you can visit the [release 
 
 ---
 
-## [Release of ember-popperjs 🎉](https://twitter.com/nullvoxpopuli/status/1444713887220240400)
+## [🎉 Release of ember-popperjs](https://twitter.com/nullvoxpopuli/status/1444713887220240400)
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released v1.0.0 of [ember-popperjs](https://github.com/NullVoxPopuli/ember-popperjs) which provides a single `<PopperJS>` component with with APIs to create popover, tooltips, and more!
 
