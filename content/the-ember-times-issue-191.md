@@ -1,7 +1,8 @@
 ---
 title: The Ember Times - Issue No. 191
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - the-crowd
+  - chris-ng # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-10-22T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Release of uELS 3.0.5 published to VSCode ✅
 
 ---
 
@@ -26,15 +28,13 @@ tags:
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Release of uELS 3.0.5 published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently [published v3.0.5 to VSCode](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support.
+
+As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions). This allows uELS to be integrated into any browser environment.
 
 ---
 
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
