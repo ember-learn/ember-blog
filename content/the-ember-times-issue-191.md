@@ -34,7 +34,7 @@ Release of uELS 3.0.5 published to VSCode ✅
 
 Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support.
 
-As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions) which allows uELS to be integrated into any browser environment.
+As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions). This allows uELS to be integrated into any browser environment.
 
 ---
 
