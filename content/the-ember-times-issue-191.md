@@ -12,7 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Release of uELS 3.0.5 published to to VSCode ✅
+Release of uELS 3.0.5 published to VSCode ✅
 
 ---
 
