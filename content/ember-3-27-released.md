@@ -215,6 +215,36 @@ See [the deprecation
 guide](https://deprecations.emberjs.com/v3.x/#toc_ember-global) and [RFC 706](https://github.com/emberjs/rfcs/blob/master/text/0706-deprecate-ember-global.md)
 for more details and transition paths for other use cases.
 
+#### Deprecate run loop and computed dot access
+
+Using `.` to access computed or run loop functions has been deprecated, such as `computed.filter`.
+Instead, import the value directly from the module:
+
+```js
+// Bad, deprecated
+import EmberObject, { computed } from '@ember/object';
+
+const Tomster = EmberObject.extend({
+  readyForCamp: computed.and('hasTent', 'hasBackpack'),
+  readyForHike: computed.and('hasWalkingStick', 'hasBackpack')
+})
+```
+
+```js
+// Good
+import EmberObject from '@ember/object';
+import { and } from '@ember/object/computed';
+
+class Tomster extends EmberObject {
+  @and('hasTent', 'hasBackpack') readyForCamp;
+  @and('hasWalkingStick', 'hasBackpack') readyForHike;
+}
+```
+
+Support for `.` to access computed or run loop functions will be removed in Ember 4.0.
+
+See [the deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_deprecated-run-loop-and-computed-dot-access).
+
 ### Further Information On Upgrade Timelines
 
 For application maintainers who want to upgrade apps to Ember.js 4.0 on its release date, the list of
