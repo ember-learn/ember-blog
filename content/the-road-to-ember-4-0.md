@@ -25,7 +25,7 @@ Ember 3.28, which has been released as a beta, will be released as stable around
 
 ***Update from October 27th 2021:** Getting Ember's codebase and the addon community
 prepared for 4.0 has taken us a bit longer than planned. Currently 4.0 is
-available in beta releases, and we're currently aiming for mid-November for a
+available in beta releases, and we're aiming at mid-November for a
 stable release.*
 
 **Ember 4.0 will be released around September 20th.** Ember 4.0 itself is not an LTS candidate.
