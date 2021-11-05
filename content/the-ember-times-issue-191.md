@@ -12,7 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Release of uELS 3.0.5 published to VSCode ✅
+Release of uELS 3.0.8 published to VSCode ✅
 
 ---
 
@@ -28,9 +28,9 @@ Release of uELS 3.0.5 published to VSCode ✅
 
 ---
 
-## [Release of uELS 3.0.5 published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
+## [Release of uELS 3.0.8 published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
 
-[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently [published v3.0.5 to VSCode](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
+[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently [published v3.0.8 to VSCode](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
 
 Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support.
 
