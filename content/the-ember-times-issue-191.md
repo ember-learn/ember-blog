@@ -2,7 +2,8 @@
 title: The Ember Times - Issue No. 191
 authors:
   - the-crowd
-  - chris-ng # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
+  - jared-galanis # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-10-22T00:00:00.000Z
 tags:
   - newsletter
@@ -12,7 +13,8 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Release of uELS 3.0.8 published to VSCode ✅
+Release of uELS 3.0.8 published to VSCode ✅,
+Ember.js Template Imports Blog Series 📚,
 
 ---
 
@@ -38,15 +40,22 @@ As part of the release, it added experimental [VSCode web-version support](https
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Ember.js Template Imports Blog Series 📚](https://v5.chriskrycho.com/journal/ember-template-imports/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a fantastic new 5 part series from [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) on template imports that goes into great detail comparing the various options for template imports that are on the table for the Ember and Glimmer community while we are experimenting with designs for components being available in the same file (you may have heard to this referred to as single-file components).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+So far, 4 parts of the 5 part series have been published and the posts cover an introduction on the formats, comparisons on teaching and understanding, tooling considerations and integrated testing.
+
+As is typical of the content Chris puts out, the discussion in this series is precise, thoughtful and complex. It will teach you a lot about single file components and what is involved in the decision making behind making such an important choice for our community.
+
+Many thanks to Chris for putting the thought process out there for all of us to better understand the options.
+
+You can find the 4 parts already published, here:
+
+- [Part 1, an introduction](https://v5.chriskrycho.com/journal/ember-template-imports/part-1/)
+- [Part 2, teaching and understanding components](https://v5.chriskrycho.com/journal/ember-template-imports/part-2/)
+- [Part 3, tradeoffs on tooling](https://v5.chriskrycho.com/journal/ember-template-imports/part-3/)
+- [Part 4, integrated testing](https://v5.chriskrycho.com/journal/ember-template-imports/part-4/)
 
 ---
 
@@ -136,4 +145,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Jared Galanis, the crowd and the Learning Team
