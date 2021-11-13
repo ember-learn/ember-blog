@@ -30,16 +30,6 @@ Ember.js Template Imports Blog Series 📚,
 
 ---
 
-## [Release of uELS 3.0.8 published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
-
-[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently [published v3.0.8 to VSCode](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
-
-Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support.
-
-As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions). This allows uELS to be integrated into any browser environment.
-
----
-
 ## [Ember.js Template Imports Blog Series 📚](https://v5.chriskrycho.com/journal/ember-template-imports/)
 
 There's a fantastic new 5 part series from [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) on template imports that goes into great detail comparing the various options for template imports that are on the table for the Ember and Glimmer community while we are experimenting with designs for components being available in the same file (you may have heard to this referred to as single-file components).
@@ -56,6 +46,17 @@ You can find the 4 parts already published, here:
 - [Part 2, teaching and understanding components](https://v5.chriskrycho.com/journal/ember-template-imports/part-2/)
 - [Part 3, tradeoffs on tooling](https://v5.chriskrycho.com/journal/ember-template-imports/part-3/)
 - [Part 4, integrated testing](https://v5.chriskrycho.com/journal/ember-template-imports/part-4/)
+
+---
+
+## [Release of uELS 3.0.8 published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
+
+[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently [published v3.0.8 to VSCode](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
+
+Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support.
+
+As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions). This allows uELS to be integrated into any browser environment.
+
 
 ---
 
