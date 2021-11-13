@@ -71,7 +71,7 @@ v2 of `tracked-built-ins` was released and it now supports Ember v4.x, has bette
 
 ## [Announcing Checkup v1.0.0 🩺](https://www.linkedin.com/pulse/announcing-checkup-10-steve-calvert/)
 
-The Checkup team has released version 1.0.0 of the Checkup framework, which if you did not know, provides a nice way to gather static analysis insights for your front-end projects. 
+The Checkup team has released version 1.0.0 of the Checkup framework, which if you did not know, provides a nice way to gather static analysis insights for your front-end projects.
 
 Checkup can be used in Ember and can make things like tracking progress like Octane migrations easier. There is a custom plugin system and it outputs to standard formats for integration with other common tooling like VS Code.
 
