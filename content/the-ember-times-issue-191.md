@@ -40,7 +40,7 @@ There's a fantastic new 5 part series from [Chris Krycho (@chriskrycho)](https:/
 
 So far, 4 parts of the 5 part series have been published and the posts cover an introduction on the formats, comparisons on teaching and understanding, tooling considerations and integrated testing.
 
-As is typical of the content Chris puts out, the discussion in this series is precise, thoughtful and complex. It will teach you a lot about single file components and what is involved in the decision making behind making such an important choice for our community.
+As is typical of the content Chris puts out, the discussion in this series is precise, thoughtful and complex. It will teach you a lot about single file components and what is involved in the decision making behind such an important choice for our community.
 
 Many thanks to Chris for putting the thought process out there for all of us to better understand the options.
 
