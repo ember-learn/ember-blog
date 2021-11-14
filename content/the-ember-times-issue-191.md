@@ -1,10 +1,9 @@
 ---
 title: The Ember Times - Issue No. 191
 authors:
-  - the-crowd
   - chris-ng
-  - jared-galanis # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-10-22T00:00:00.000Z
+  - jared-galanis
+date: 2021-11-14T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
@@ -12,12 +11,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 4 is approaching, checkout v4.0.0-beta.9 🐹,
 Ember.js Template Imports Blog Series 📚,
-Release of uELS 3.0.8 published to VSCode ✅,
+New Releases of uELS published to VSCode ✅,
 tracked-built-ins v2.0.0 🔥,
-Announcing Checkup v1.0.0 🩺
+Announcing Checkup v1.0.0 🩺,
 Addon roundup 🙌,
 GlimmerX Workshop Resources ✨,
 Migrating an Ember addon to the next-gen v2 format 🚀,
@@ -73,27 +71,32 @@ The [post](https://www.kaliber5.de/en/blog/v2-addon_en) covers all the necessary
 
 ---
 
-## [Release of uELS 3.0.8 published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
+## [New Releases of uELS published to VSCode ✅](https://discord.com/channels/480462759797063690/480499624663056390/896699510888226826)
 
-[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently [published v3.0.8 to VSCode](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)!
+[Unstable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is a fully featured fork of Ember Language Server. While the name says _unstable_, it actually is **stable** and recently several new versions [v3.0.8, v3.0.9 and v3.0.10](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) were published!
 
-Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support.
+Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the updates such as: async file system access, improved startup performance, fixed found issues, and multiple file system providers support. Also, Internationalization tooling was improved.
 
-As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions). This allows uELS to be integrated into any browser environment.
+As part of these releases, experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions) was added. This allows uELS to be integrated into any browser environment.
 
 ---
 
 ## [tracked-built-ins v2.0.0 🔥](https://github.com/tracked-tools/tracked-built-ins/releases/tag/v2.0.0)
 
-v2 of `tracked-built-ins` was released and it now supports Ember v4.x, has better internal implementations, includes a lot of dependency updates and provides fewer deprecation warnings!
+v2.0.0 of `tracked-built-ins` [was released](https://github.com/tracked-tools/tracked-built-ins/releases/tag/v2.0.0) and it now supports Ember v4.x, has better internal implementations, includes a lot of dependency updates and provides fewer deprecation warnings!
+
+Many thanks to [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Sergey Astapov
+ (@SergeAstapov)](https://github.com/SergeAstapov) for their work on this release.
 
 ---
 
 ## [Announcing Checkup v1.0.0 🩺](https://www.linkedin.com/pulse/announcing-checkup-10-steve-calvert/)
 
-The Checkup team has released version 1.0.0 of the Checkup framework, which, if you did not know, provides a nice way to gather static analysis insights for your front-end projects.
+The Checkup team has released version 1.0 of [the Checkup framework](https://github.com/checkupjs/checkup), which, if you did not know, provides a nice way to gather static analysis insights for your front-end projects.
 
 Checkup can be used in Ember and can make things like tracking progress in certain efforts, like Octane migrations, easier. There is a custom plugin system and it outputs to standard formats for integration with other common tooling like VS Code.
+
+Checkout the [blog post](https://www.linkedin.com/pulse/announcing-checkup-10-steve-calvert/) on the release by [Steve Calvert (@scalvert)](https://github.com/scalvert).
 
 ---
 
@@ -113,7 +116,7 @@ There's been quite a few new releases of Ember addons since our last issue. Chec
 
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank our <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/amandakalk" rel="noopener noreferrer" target="_blank">Amanda Cahill (@amandakalk)</a>, <a href="https://github.com/step2yeung" rel="noopener noreferrer" target="_blank">Stephen Yeung (@step2yeung)</a>, <a href="https://github.com/MelSumner" rel="noopener noreferrer" target="_blank">Melanie Sumner (@MelSumner)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/balinterdi" rel="noopener noreferrer" target="_blank">Balint Erdi (@balinterdi)</a>, <a href="https://github.com/rajakvk" rel="noopener noreferrer" target="_blank">@rajakvk</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/VincentMolinie" rel="noopener noreferrer" target="_blank">Vincent Molinié (@VincentMolinie)</a>, <a href="https://github.com/brkn" rel="noopener noreferrer" target="_blank">Berkan Ünal (@brkn)</a>, <a href="https://github.com/Windvis" rel="noopener noreferrer" target="_blank">Sam Van Campenhout (@Windvis)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/ddzz" rel="noopener noreferrer" target="_blank">Darius D. (@ddzz)</a>, <a href="https://github.com/raido" rel="noopener noreferrer" target="_blank">Raido Kuli (@raido)</a>, <a href="https://github.com/jamescdavis" rel="noopener noreferrer" target="_blank">James C. Davis (@jamescdavis)</a>, <a href="https://github.com/luxferresum" rel="noopener noreferrer" target="_blank">Lukas Kohler (@luxferresum)</a>, <a href="https://github.com/michaelbdai" rel="noopener noreferrer" target="_blank">Bing Dai (@michaelbdai)</a>, <a href="https://github.com/igorT" rel="noopener noreferrer" target="_blank">Igor Terzic (@igorT)</a>, <a href="https://github.com/krisselden" rel="noopener noreferrer" target="_blank">Kris Selden (@krisselden)</a>, <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/mixonic" rel="noopener noreferrer" target="_blank">Matthew Beale (@mixonic)</a>, <a href="https://github.com/Turbo87" rel="noopener noreferrer" target="_blank">Tobias Bieniek (@Turbo87)</a>, <a href="https://github.com/charlesfries" rel="noopener noreferrer" target="_blank">Charles Fries (@charlesfries)</a>, <a href="https://github.com/jfdnc" rel="noopener noreferrer" target="_blank">Jacob (@jfdnc)</a>, <a href="https://github.com/kdagnan" rel="noopener noreferrer" target="_blank">Kyle D. (@kdagnan)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/v-jiepeng" rel="noopener noreferrer" target="_blank">Jaydon Peng (@v-jiepeng)</a>, <a href="https://github.com/mehulkar" rel="noopener noreferrer" target="_blank">Mehul Kar (@mehulkar)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/thoov" rel="noopener noreferrer" target="_blank">Travis Hoover (@thoov)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/GreatWizard" rel="noopener noreferrer" target="_blank">Guillaume Gérard (@GreatWizard)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/ro0gr" rel="noopener noreferrer" target="_blank">Ruslan Hrabovyi (@ro0gr)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/square-brackets" rel="noopener noreferrer" target="_blank">Stjepan Petrusa (@square-brackets)</a>, and <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -137,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis, the crowd and the Learning Team
+Chris Ng, Jared Galanis and the Learning Team
