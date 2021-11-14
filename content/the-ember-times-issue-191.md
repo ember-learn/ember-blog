@@ -19,7 +19,7 @@ Release of uELS 3.0.8 published to VSCode ✅,
 tracked-built-ins v2.0.0 🔥,
 Announcing Checkup v1.0.0 🩺
 Addon roundup 🙌,
-Glimmerx Workshop Resources ✨,
+GlimmerX Workshop Resources ✨,
 Migrating an Ember addon to the next-gen v2 format 🚀,
 
 ---
@@ -53,7 +53,7 @@ You can find the 4 parts already published, here:
 
 ---
 
-## [Glimmerx Workshop Resources ✨](https://twitter.com/vaier/status/1456309739017707521)
+## [GlimmerX Workshop Resources ✨](https://twitter.com/vaier/status/1456309739017707521)
 
 Earlier this month [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) hosted [a workshop](https://holyjs-moscow.ru/talks/workshop-glimmerx-declarative-ui-i-derived-reactivity-in-27kb/) at the [HolyJS](https://holyjs-moscow.ru/) conference regarding GlimmerX and how you can use it to build declarative UIs.
 
@@ -65,7 +65,7 @@ Check it out if you get a chance!
 
 ## [Migrating an Ember addon to the next-gen v2 format 🚀](https://twitter.com/simonihmig/status/1457797305608781826)
 
-If you've seen the [v2 Addon Format RFC](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html) for embroider compatability and wondered how you can upgrade your addon to this new format, you're in luck.
+If you've seen the [v2 Addon Format RFC](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html) for embroider compatibility and wondered how you can upgrade your addon to this new format, you're in luck.
 
 There's a new blog post on how to go about migrating an Ember addon to the next-gen v2 format by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig).
 
@@ -102,10 +102,10 @@ Checkup can be used in Ember and can make things like tracking progress in certa
 There's been quite a few new releases of Ember addons since our last issue. Check them out and maybe give them a try! In no particular order:
 
 - [ember-simple-auth v4.1.0](https://github.com/simplabs/ember-simple-auth/releases/tag/4.1.0) was released which adds implementation for explicit API and deprecates implicit use of initializers in ESA. There's also a migration path, [here](https://github.com/simplabs/ember-simple-auth/blob/master/guides/upgrade-to-v4.md).
-- [ember-stateful-promise](https://github.com/snewcomer/ember-stateful-promise) is a new addon that helps with aysnc operations, including derived state for native promises and decorators to track promise state.
+- [ember-stateful-promise](https://github.com/snewcomer/ember-stateful-promise) is a new addon that helps with async operations, including derived state for native promises and decorators to track promise state.
 - [ember-autoresize-modifier v0.4.0](https://github.com/jelhan/ember-autoresize-modifier/releases/tag/v0.4.0) was released and now supports resizing textareas to fit content.
 - [ember-concurrency v.2.2.0](https://github.com/machty/ember-concurrency/releases/tag/2.2.0) was released and introduces a public task modifiers api and an onError option for the perform helper.
-- [ember-modifier v3.0.0](https://github.com/ember-modifier/ember-modifier/releases/tag/v3.0.0) was released and it fixes some bugs, adds Ember 4.x compatability and drops support for old versions of Node, Ember and TypeScript.
+- [ember-modifier v3.0.0](https://github.com/ember-modifier/ember-modifier/releases/tag/v3.0.0) was released and it fixes some bugs, adds Ember 4.x compatibility and drops support for old versions of Node, Ember and TypeScript.
 - [ember-exam v7.0.0](https://github.com/ember-cli/ember-exam/releases/tag/v7.0.0) was released, updating ember-auto-import to v2 for readiness for apps using ember-auto-import v2 and dropping support for node 10.
 - [ember-try v2.0.0](https://github.com/ember-cli/ember-try/releases/tag/v2.0.0) was released and now deprecated bower support is removed and experimental support for [pnpmjs](https://twitter.com/pnpmjs) has been added.
 
