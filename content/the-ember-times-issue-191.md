@@ -57,7 +57,7 @@ You can find the 4 parts already published, here:
 
 Earlier this month [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) hosted [a workshop](https://holyjs-moscow.ru/talks/workshop-glimmerx-declarative-ui-i-derived-reactivity-in-27kb/) at the [HolyJS](https://holyjs-moscow.ru/) conference regarding GlimmerX and how you can use it to build declarative UIs.
 
-Recently Alex has shared the [materials for the workshop](https://github.com/lifeart/glimmerx-workshop) which provide an excellent set of resources if you have been wondering what it takes to build an application using Glimmer. 
+Recently Alex has shared the [materials for the workshop](https://github.com/lifeart/glimmerx-workshop) which provide an excellent set of resources if you have been wondering what it takes to build an application using Glimmer.
 
 Check it out if you get a chance!
 
