@@ -65,7 +65,7 @@ Check it out if you get a chance!
 
 ## [Migrating an Ember addon to the next-gen v2 format 🚀](https://twitter.com/simonihmig/status/1457797305608781826)
 
-If you've seen the [v2 Addon Format RFC](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html) for embroider compatability and wondered how you can upgrade your addon to this new format, you're in luck. 
+If you've seen the [v2 Addon Format RFC](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html) for embroider compatability and wondered how you can upgrade your addon to this new format, you're in luck.
 
 There's a new blog post on how to go about migrating an Ember addon to the next-gen v2 format by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig).
 
@@ -110,55 +110,6 @@ There's been quite a few new releases of Ember addons since our last issue. Chec
 - [ember-try v2.0.0](https://github.com/ember-cli/ember-try/releases/tag/v2.0.0) was released and now deprecated bower support is removed and experimental support for [pnpmjs](https://twitter.com/pnpmjs) has been added.
 
 ---
-
-## [🐹 5. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
