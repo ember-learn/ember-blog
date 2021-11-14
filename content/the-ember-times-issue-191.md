@@ -18,7 +18,7 @@ Release of uELS 3.0.8 published to VSCode ✅,
 tracked-built-ins v2.0.0 🔥,
 Announcing Checkup v1.0.0 🩺
 Addon roundup 🙌,
-
+Glimmerx Workshop Resources ✨,
 
 ---
 
@@ -50,6 +50,16 @@ You can find the 4 parts already published, here:
 - [Part 2, teaching and understanding components](https://v5.chriskrycho.com/journal/ember-template-imports/part-2/)
 - [Part 3, tradeoffs on tooling](https://v5.chriskrycho.com/journal/ember-template-imports/part-3/)
 - [Part 4, integrated testing](https://v5.chriskrycho.com/journal/ember-template-imports/part-4/)
+
+---
+
+## [Glimmerx Workshop Resources ✨](https://twitter.com/vaier/status/1456309739017707521)
+
+Earlier this month [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) hosted [a workshop](https://holyjs-moscow.ru/talks/workshop-glimmerx-declarative-ui-i-derived-reactivity-in-27kb/) at the [HolyJS](https://holyjs-moscow.ru/) conference regarding GlimmerX and how you can use it to build declarative UIs.
+
+Recently Alex has shared the [materials for the workshop](https://github.com/lifeart/glimmerx-workshop) which provide an excellent set of resources if you have been wondering what it takes to build an application using Glimmer.
+
+Check it out if you get a chance!
 
 ---
 
