@@ -192,6 +192,7 @@ Thank you for contributing to The Ember Times! Let us know if you can be a guest
 1. You may need to manually import images such as Office Hours Tomster mascot https://github.com/ember-learn/ember-blog/blob/main/public/images/tomsters/officehours.png.
 1. Also in Substack "Post settings", you may want to remove "👋 Emberistas!" so that the social preview is "🐹 <intro-here>" as we are limited on space.
 1. Send yourself a test email to preview how it looks.
+1. Ensure the author for the issue in substack is set to The Ember Times and not your personal substack account (you can find this setting near the top of a draft just under subtitles).
 1. Send to the list!
 
 </details>
