@@ -18,7 +18,7 @@ tracked-built-ins v2.0.0 🔥,
 Announcing Checkup v1.0.0 🩺,
 Addon roundup 🙌,
 GlimmerX Workshop Resources ✨,
-Migrating an Ember addon to the next-gen v2 format 🚀,
+Migrating an Ember addon to the next-gen v2 format 🚀
 
 ---
 
