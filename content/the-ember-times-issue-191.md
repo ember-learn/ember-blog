@@ -110,6 +110,7 @@ There's been quite a few new releases of Ember addons since our last issue. Chec
 - [ember-try v2.0.0](https://github.com/ember-cli/ember-try/releases/tag/v2.0.0) was released and now deprecated bower support is removed and experimental support for [pnpmjs](https://twitter.com/pnpmjs) has been added.
 
 ---
+
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
