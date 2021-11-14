@@ -20,6 +20,7 @@ tracked-built-ins v2.0.0 🔥,
 Announcing Checkup v1.0.0 🩺
 Addon roundup 🙌,
 Glimmerx Workshop Resources ✨,
+Migrating an Ember addon to the next-gen v2 format 🚀,
 
 ---
 
@@ -59,6 +60,16 @@ Earlier this month [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) host
 Recently Alex has shared the [materials for the workshop](https://github.com/lifeart/glimmerx-workshop) which provide an excellent set of resources if you have been wondering what it takes to build an application using Glimmer.
 
 Check it out if you get a chance!
+
+---
+
+## [Migrating an Ember addon to the next-gen v2 format 🚀](https://twitter.com/simonihmig/status/1457797305608781826)
+
+If you've seen the [v2 Addon Format RFC](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html) for embroider compatability and wondered how you can upgrade your addon to this new format, you're in luck. 
+
+There's a new blog post on how to go about migrating an Ember addon to the next-gen v2 format by [Simon Ihmig (@simonihmig)](https://github.com/simonihmig).
+
+The [post](https://www.kaliber5.de/en/blog/v2-addon_en) covers all the necessary information on why and how you can make these upgrades for your addon.
 
 ---
 
