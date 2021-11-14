@@ -13,6 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember 4 is approaching, checkout v4.0.0-beta.9 🐹,
 Ember.js Template Imports Blog Series 📚,
 Release of uELS 3.0.8 published to VSCode ✅,
 tracked-built-ins v2.0.0 🔥,
@@ -22,15 +23,13 @@ Glimmerx Workshop Resources ✨,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [Ember 4 is approaching, checkout v4.0.0-beta.9 🐹](https://twitter.com/mixonic/status/1458594719093694466)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you've been following along with the progress on Ember 4 you might know that the next major version of Ember is approaching.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you are able to, you should check out [Ember v4.0.0-beta.9](https://github.com/emberjs/ember.js/releases/tag/v4.0.0-beta.9) in your cutting edge codebases now. A few minor API removals remain, but the vast bulk of planned changes from 3.28 are in this release.
+
+For more details on the road to Ember 4.0 see this [blog post](https://blog.emberjs.com/the-road-to-ember-4-0/).
 
 ---
 
