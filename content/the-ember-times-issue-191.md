@@ -13,8 +13,12 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-Release of uELS 3.0.8 published to VSCode ✅,
 Ember.js Template Imports Blog Series 📚,
+Release of uELS 3.0.8 published to VSCode ✅,
+tracked-built-ins v2.0.0 🔥,
+Announcing Checkup v1.0.0 🩺
+Addon roundup 🙌,
+
 
 ---
 
@@ -36,7 +40,7 @@ There's a fantastic new 5 part series from [Chris Krycho (@chriskrycho)](https:/
 
 So far, 4 parts of the 5 part series have been published and the posts cover an introduction on the formats, comparisons on teaching and understanding, tooling considerations and integrated testing.
 
-As is typical of the content Chris puts out, the discussion in this series is precise, thoughtful and complex. It will teach you a lot about single file components and what is involved in the decision making behind making such an important choice for our community.
+As is typical of the content Chris puts out, the discussion in this series is precise, thoughtful and complex. It will teach you a lot about single file components and what is involved in the decision making behind such an important choice for our community.
 
 Many thanks to Chris for putting the thought process out there for all of us to better understand the options.
 
@@ -57,18 +61,33 @@ Thank you to [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) for the up
 
 As part of the release, it added experimental [VSCode web-version support](https://code.visualstudio.com/api/extension-guides/web-extensions). This allows uELS to be integrated into any browser environment.
 
+---
+
+## [tracked-built-ins v2.0.0 🔥](https://github.com/tracked-tools/tracked-built-ins/releases/tag/v2.0.0)
+
+v2 of `tracked-built-ins` was released and it now supports Ember v4.x, has better internal implementations, includes a lot of dependency updates and provides fewer deprecation warnings!
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [Announcing Checkup v1.0.0 🩺](https://www.linkedin.com/pulse/announcing-checkup-10-steve-calvert/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Checkup team has released version 1.0.0 of the Checkup framework, which, if you did not know, provides a nice way to gather static analysis insights for your front-end projects.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Checkup can be used in Ember and can make things like tracking progress in certain efforts, like Octane migrations, easier. There is a custom plugin system and it outputs to standard formats for integration with other common tooling like VS Code.
+
+---
+
+## Addon roundup 🙌
+
+There's been quite a few new releases of Ember addons since our last issue. Check them out and maybe give them a try! In no particular order:
+
+- [ember-simple-auth v4.1.0](https://github.com/simplabs/ember-simple-auth/releases/tag/4.1.0) was released which adds implementation for explicit API and deprecates implicit use of initializers in ESA. There's also a migration path, [here](https://github.com/simplabs/ember-simple-auth/blob/master/guides/upgrade-to-v4.md).
+- [ember-stateful-promise](https://github.com/snewcomer/ember-stateful-promise) is a new addon that helps with aysnc operations, including derived state for native promises and decorators to track promise state.
+- [ember-autoresize-modifier v0.4.0](https://github.com/jelhan/ember-autoresize-modifier/releases/tag/v0.4.0) was released and now supports resizing textareas to fit content.
+- [ember-concurrency v.2.2.0](https://github.com/machty/ember-concurrency/releases/tag/2.2.0) was released and introduces a public task modifiers api and an onError option for the perform helper.
+- [ember-modifier v3.0.0](https://github.com/ember-modifier/ember-modifier/releases/tag/v3.0.0) was released and it fixes some bugs, adds Ember 4.x compatability and drops support for old versions of Node, Ember and TypeScript.
+- [ember-exam v7.0.0](https://github.com/ember-cli/ember-exam/releases/tag/v7.0.0) was released, updating ember-auto-import to v2 for readiness for apps using ember-auto-import v2 and dropping support for node 10.
+- [ember-try v2.0.0](https://github.com/ember-cli/ember-try/releases/tag/v2.0.0) was released and now deprecated bower support is removed and experimental support for [pnpmjs](https://twitter.com/pnpmjs) has been added.
 
 ---
 
