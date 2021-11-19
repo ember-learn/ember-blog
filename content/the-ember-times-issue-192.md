@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 192
 authors:
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-11-28T00:00:00.000Z
 tags:
@@ -9,20 +10,30 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
+Release of ember-functions-as-helper-polyfill 🎉,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [Release of ember-functions-as-helper-polyfill 🎉](https://twitter.com/nullvoxpopuli/status/1460052313624784899)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released the [ember-functions-as-helper-polyfill](https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill) addon which implements [RFC 756: Default Helper Manager](https://github.com/emberjs/rfcs/pull/756). The addon lets you use plain functions as helpers, check out the example below:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+```js
+import Component  from '@glimmer/component';
+
+export default class MyComponent extends Component {
+  myHelper = x => x * 2;
+}
+```
+
+```hbs
+{{this.myHelper 3}}
+```
+
+This reduces the need to create [traditional helpers](https://guides.emberjs.com/release/components/helper-functions/) especially when a helper is only really used within the same component. This addon reduces the amount of boilerplate code written and is a more portable mental model of how template and JS interact.
+
+Try out this functionality today with the [polyfill](https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill)!
 
 ---
 
@@ -136,4 +147,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
