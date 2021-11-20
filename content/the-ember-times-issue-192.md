@@ -31,7 +31,7 @@ export default class MyComponent extends Component {
 {{this.myHelper 3}}
 ```
 
-This reduces the need to create [traditional helpers](https://guides.emberjs.com/release/components/helper-functions/) especially when a helper is only really used within the same component. This addon reduces the amount of boilerplate code written and is a more portable mental model of how template and JS interact.
+This reduces the need to create [traditional helpers](https://guides.emberjs.com/release/components/helper-functions/) especially when a helper is only really used within the same component. This addon reduces the amount of boilerplate code written and is a more representational model of how template and JS interact.
 
 Try out this functionality today with the [polyfill](https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill)!
 
