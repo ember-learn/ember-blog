@@ -18,9 +18,14 @@ As planned, this release introduces no new features.
 
 This blog post will help you understand how to upgrade and navigate any breaking changes.
 
+Additionally, today the 4.1 beta cycle begins for these same projects.
+
+Finally, today we're also promoting Ember 3.28 to LTS ([3.28 release
+post](https://blog.emberjs.com/ember-3-28-released)).
+
 ## Our major release strategy
 
-Why are are there no new features in this release?
+Why are there no new features in this release?
 This has been the tradition for all major Ember releases since v2.
 We believe that major versions should be rare, and that when they happen,
 they should not introduce new features. 
@@ -53,11 +58,6 @@ cd my-project
 npx ember serve # Then visit http://localhost:4200
 ```
 
-Additionally, today the 4.1 beta cycle begins for these same projects.
-
-Finally, today we're also promoting Ember 3.28 to LTS ([3.28 release
-post](https://blog.emberjs.com/ember-3-28-released)).
-
 ## How to upgrade your project to Ember 4
 
 If your app/addon runs with no deprecations in the latest release of `v3.28`
@@ -71,7 +71,7 @@ Many developers can do this by running
 `npx ember-cli-update --to 3.28`. More details about how to upgrade your Ember
 app/addon are in the
 [general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
-2. Resolve all deprecation warnings. You may need to upgrade some
+2. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You may need to upgrade some
 of your dependencies if they are using deprecated APIs. Applications that need to upgrade through several versions may want to consider
 the
 [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
@@ -87,6 +87,7 @@ if you are on an earlier version.
 7. Upgrade your app to Ember 4
 
 ## What is in Ember 4?
+
 ### Browser Support in 4.0
 
 This release completes the work described in Ember 3.x's browser support policy. Ember 4.0 supports two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
@@ -97,11 +98,11 @@ Read more about this change in the [deprecation guide](https://deprecations.embe
 
 ### `ember-auto-import` is now required
 
-Using Ember 4 or higher requires that it has `ember-auto-import` installed, `v2` or later.
+Using Ember 4 or higher requires that the project has `ember-auto-import` installed, `v2` or later.
 Follow the "How to upgrade" steps above to learn what you need to do.
 
 Why is this change required? 
-Ember 4 unblocks some exciting developments within the framework itself. Behind the scenes, one goal for 4.x development cycle is to apply the
+It unblocks some exciting developments within the framework itself. Behind the scenes, one goal for 4.x development cycle is to apply the
 [v2 addon format](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html)
 to Ember itself.
 
@@ -201,6 +202,11 @@ Applications that need to upgrade through several versions may want to consider
 the
 [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
 addon to isolate individual deprecations.
+
+## Need help?
+
+Are you stuck on something? Do you have questions?
+Visit one of our [community chat groups](https://emberjs.com/community).
 
 ## What next?
 
