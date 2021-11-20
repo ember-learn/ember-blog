@@ -1,9 +1,8 @@
 ---
 title: Ember 4.0 released
 authors:
-  - matthew-beale
   - jen-weber
-date: 2021-09-20T00:00:00.000Z
+date: 2021-11-22T00:00:00.000Z
 tags:
   - releases
   - '2021'
@@ -11,14 +10,41 @@ tags:
 ---
 
 
-Today the Ember project is releasing version 4.0.0 of Ember.js, Ember Data, and
-Ember CLI. Ember 4.0 doesn't introduce any new functionality, instead it focuses
+Today, the Ember project is releasing version 4.0.0 of Ember.js, Ember Data, and
+Ember CLI. Ember it focuses
 the framework by removing long-deprecated APIs and support for legacy platforms.
-Our plans for Ember 4.0 were announced in July 2021 in 
+With these changes, Ember Octane becomes the norm!
+As planned, this release introduces no new features.
+
+This blog post will help you understand how to upgrade and navigate any breaking changes.
+
+## Our major release strategy
+
+Why are are there no new features in this release?
+This has been the tradition for all major Ember releases since v2.
+We believe that major versions should be rare, and that when they happen,
+they should not introduce new features. 
+
+This strategy aims to give Ember
+developers the time and space to upgrade dependencies and 
+navigate any breaking changes, without needing to
+learn lots of new things at the same time.
+In many libraries including Ember, a major release means that there are breaking changes.
+And while it would be exciting for major releases to be splashy and full of
+new features,
+we think it is more important to reduce risks for our developers and
+the users that depend on them.
+
+Our hope is that that library maintainers across the JavaScript ecosystem
+will follow this pattern, which makes it easier for developers to keep up
+with security patches and bugfixes in their project's dependencies.
+
+Our plans for Ember 4.0 were originally announced in July 2021 in 
 [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/).
 
-This blog post will help you understand what is being removed in 4.0 and what
-migration strategies are available. If you're interested in trying Ember for the
+## Trying Ember for the first time
+
+If you're interested in trying Ember for the
 first time today, get started by running:
 
 ```bash
@@ -32,18 +58,54 @@ Additionally, today the 4.1 beta cycle begins for these same projects.
 Finally, today we're also promoting Ember 3.28 to LTS ([3.28 release
 post](https://blog.emberjs.com/ember-3-28-released)).
 
+## How to upgrade your project to Ember 4
+
+If your app/addon runs with no deprecations in the latest release of `v3.28`
+and you have `v2` of `ember-auto-import` installed, you should be able to
+upgrade to Ember 4 with no additional changes.
+
+Follow these steps in order:
+
+1. Upgrade your project to the latest patch version of `v3.28`.
+Many developers can do this by running
+`npx ember-cli-update --to 3.28`. More details about how to upgrade your Ember
+app/addon are in the
+[general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
+2. Resolve all deprecation warnings. You may need to upgrade some
+of your dependencies if they are using deprecated APIs. Applications that need to upgrade through several versions may want to consider
+the
+[ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
+addon to isolate individual deprecations.
+3. Make sure your app builds successfully.
+4. Install `ember-auto-import` if your app does not already have it:
+`npx ember install ember-auto-import`.
+5. If you are already using `ember-auto-import`, make sure you are using `v2`.
+You can follow 
+[this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
+if you are on an earlier version.
+6. Make sure your app builds successfully.
+7. Upgrade your app to Ember 4
+
+## What is in Ember 4?
 ### Browser Support in 4.0
 
-This release completes the work described in Ember 3.x's browser support policy. Ember 4.0 will support two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
+This release completes the work described in Ember 3.x's browser support policy. Ember 4.0 supports two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
 
 Specifically, the Ember 4.x release policy includes support for Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari on desktop and mobile. It does not include support for any version of Internet Explorer.
 
 Read more about this change in the [deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_3-0-browser-support-policy) and at Ember's [browser support policy page](https://emberjs.com/browser-support/).
 
+### `ember-auto-import` is now required
+
+Using Ember 4 or higher requires that it has `ember-auto-import` installed, `v2` or later.
+Follow the "How to upgrade" steps above to learn what you need to do.
+
+Why is this change required? 
+Ember 4 unblocks some exciting developments within the framework itself. Behind the scenes, one goal for 4.x development cycle is to apply the
+[v2 addon format](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html)
+to Ember itself.
 
 ## Changes in Ember.js 4.0
-
----
 
 Ember.js is the core of the Ember framework. It provides routing, rendering, and
 dependency injection features.
@@ -52,20 +114,42 @@ Ember.js 4.0 introduces no new public API or deprecations. Instead, it is
 comprised of bug fixes and the removal of previously deprecated public API from
 the 3.x cycle.
 
+Ember 4.0 does _not_ remove the `EmberComponent` API or the core parts of the `EmberObject` system. These APIs are widely used, even after the release of Octane, by existing application and addon code.
+
 ### APIs Removed in 4.0
 
 Below we've listed some of the most significant API removals in Ember.js 4.0.
-and for an exhaustive list of removals, see the [Ember.js 3.x deprecation
+and for an full list of removals, see the [Ember.js 3.x deprecation
 guide](https://deprecations.emberjs.com/v3.x).
 
-TODO - list out key removals
+- `Ember.Logger` is removed in favor of native `console` APIs. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-console-deprecate-logger).
+- `Copyable` mixin is removed in favor of the [ember-copy addon](https://github.com/emberjs/ember-copy). [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-runtime-deprecate-copy-copyable).
+- `sendAction` is removed in favor of calling closure actions like any other callback. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-component-send-action).
+- `willTransition` and `didTransition` are removed in favor of router service events. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_deprecate-router-events).
+- Computed Property `volatile()` calls are removed in favor of native getters. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_computed-property-volatile).
+- `this.$()` and other jQuery APIs are deprecated in favor of native browser equivalents. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_jquery-apis). An optional feature which restored this and other jQuery-specific features is also removed. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_optional-feature-jquery-integration).
+- `{{partial}}` is removed in favor of template-only components. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-partial).
+- Using the built-in global resolver (`App.FooController` anyone?) is deprecated in favor of using [ember-resolver](https://github.com/ember-cli/ember-resolver), already the default for Ember CLI generated apps. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-deprecate-globals-resolver).
+- Ambiguous references to a component's properties are removed. You must now write `{{this.someProp}}`. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_this-property-fallback).
+- `renderTemplate` is removed in favor of `{{in-element}}` or other rendering target redirection like [ember-wormhole](https://github.com/yapplabs/ember-wormhole). [Guide here](https://deprecations.emberjs.com/v3.x/#toc_route-render-template).
+- Support for the `Ember` global on `window` is removed in favor of importing the `Ember` object or using the module-based API. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-global).
+- Support for certain features of the `<LinkTo>`, `<Input>`, and `<Textarea>` components are removed. See guides on [positional arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-glimmer-link-to-positional-arguments), [legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments), [legacy HTML attributes](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-attribute-arguments), and [importing legacy built-in components](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-import).
+- The internal APIs of `<LinkTo>`, `<Input>`, `<Checkbox>`, and `<Textarea>` are now private,
+and subclassing them is no longer supported.
+An example of subclassing looks like this: `export class MyLinkComponent extends LinkTo`.
+Apps or addons that subclass can install `@ember/legacy-built-in-components`
+as a stepping stone, following [this deprecation guide](https://deprecations.emberjs.com/v3.x#toc_ember-built-in-components-import).
+- ...and additional uncommon deprecations found in the [Ember.js 3.x deprecation
+guide](https://deprecations.emberjs.com/v3.x)
+
+Many of these removed APIs date back to Ember 1.x, and are rarely used now (or should be rarely used).
 
 For more details on the changes in Ember.js 4.0, please review the
 [Ember.js 4.0.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.0.0).
 
 ### Deprecations added in 4.0
 
-TODO - list deprecations
+- Use of `Ember.assign` is deprecated. You should replace any calls to `Ember.assign` with `Object.assign` or use the object spread operator. See the [deprecation guide](https://deprecations.emberjs.com/v4.x#toc_ember-polyfills-deprecate-assign) for examples.
 
 ## Changes in Ember Data 4.0
 
@@ -73,7 +157,15 @@ TODO - list deprecations
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-TODO
+This release removes APIs that were [deprecated in the 3.x cycle](https://deprecations.emberjs.com/ember-data/v3.x). They include:
+
+- The API `store.defaultAdapter` is removed - [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-adapter)
+- Support for relying on fallback behavior for adapter type is removed.
+You should [specify adapter types explicitly](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-adapter).
+- Similarly, `adapter.defaultSerializer` and support for relying on fallback behavior for the
+serializer type [is removed](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-serializers)
+- The [Evented API is removed](https://deprecations.emberjs.com/ember-data/v3.x#toc_evented-api-usage)
+- ...and other APIs listed in the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x)
 
 For more details on the changes in Ember Data 4.0, please review the
 [Ember Data 4.0.0 release page](https://github.com/emberjs/data/releases/tag/v4.0.0).
@@ -85,16 +177,12 @@ For more details on the changes in Ember Data 4.0, please review the
 Ember CLI is the command line interface for managing and packaging Ember.js
 applications.
 
-TODO
+There are no deprecations, removals, or new features in Ember CLI v4.
 
 For more details on the changes in Ember CLI 4.0 and detailed upgrade
 instructions, please review the [Ember CLI 4.0.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0).
 
-## Migrating to Ember 4.0
-
 ---
-
-TODO
 
 <!-- 
 Is there a legacy addon for Ember 4??? See blurb below from Ember 3.
@@ -114,6 +202,24 @@ the
 [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
 addon to isolate individual deprecations.
 
+## What next?
+
+Want to help make Ember 4 a success? Here are some things you can do!
+
+- Blog about your experience
+- If someone helps you with a question, consider positing both the question
+and answer to a public place like Stack Overflow or the Ember Discourse forums,
+so that others can learn from it
+- Help your favorite addons to upgrade to Ember 4
+- Stay tuned via the Ember Times for new features and requests for help
+implementing them.
+
 ### Thank You!
 
-TODO
+Thank you to all the amazing contributors who helped out with the
+Ember project! That includes those who made commits, helped teach others,
+wrote about Ember in their blog posts, and more.
+
+And thank you, Ember developers, for using these tools to build awesome
+things. We appreciated your patience with the delays in our original
+release timeline.
