@@ -2,6 +2,7 @@
 title: Ember 4.0 released
 authors:
   - jen-weber
+  - matthew-beale
 date: 2021-11-22T00:00:00.000Z
 tags:
   - releases
@@ -9,32 +10,40 @@ tags:
   - version-4-x
 ---
 
-
-Today, the Ember project is releasing version 4.0.0 of Ember.js, Ember Data, and
-Ember CLI. Ember it focuses
+Today, the Ember project is releasing version 4.0 of Ember.js, Ember Data, and
+Ember CLI. This major version bump focuses
 the framework by removing long-deprecated APIs and support for legacy platforms.
-With these changes, Ember Octane becomes the norm!
-As planned, this release introduces no new features.
+
+Although Ember "Octane" APIs have been the default for new applications since
+Ember 3.15, the framework has continued to support "Classic" framework features
+in accordance with our semantic versioning commitment. Ember 4.0 takes a step
+forward and drops already-deprecated classic APIs, however the foundational `EmberComponent`
+and `EmberObject`/`computed` APIs are not removed in this release.
 
 This blog post will help you understand how to upgrade and navigate any breaking changes.
 
-Additionally, today the 4.1 beta cycle begins for these same projects.
+Additionally, today the 4.1 beta cycle begins for these same projects. Ember's
+beta cycle normally takes about six weeks to mature a branch off `master` to
+release quality.
 
-Finally, today we're also promoting Ember 3.28 to LTS ([3.28 release
-post](https://blog.emberjs.com/ember-3-28-released)).
+Finally, today we're also promoting Ember 3.28 to become Ember's latest
+Long-Term Support (LTS) release. Ember's LTS release process provides bugfix
+support for about 36 weeks, and security patches for about 54 weeks. See the [3.28 release
+post](https://blog.emberjs.com/ember-3-28-released) and [LTS
+documentation](https://emberjs.com/releases/lts/) for more details.
 
-## Our major release strategy
+## Major Releases in Ember
 
 Why are there no new features in this release?
 This has been the tradition for all major Ember releases since v2.
 We believe that major versions should be rare, and that when they happen,
-they should not introduce new features. 
+they should not introduce new features.
 
 This strategy aims to give Ember
-developers the time and space to upgrade dependencies and 
+developers the time and space to upgrade dependencies and
 navigate any breaking changes, without needing to
 learn lots of new things at the same time.
-In many libraries including Ember, a major release means that there are breaking changes.
+In many libraries, including Ember, a major release means that there are breaking changes.
 And while it would be exciting for major releases to be splashy and full of
 new features,
 we think it is more important to reduce risks for our developers and
@@ -44,7 +53,7 @@ Our hope is that that library maintainers across the JavaScript ecosystem
 will follow this pattern, which makes it easier for developers to keep up
 with security patches and bugfixes in their project's dependencies.
 
-Our plans for Ember 4.0 were originally announced in July 2021 in 
+Our plans for Ember 4.0 were originally announced in July 2021 in
 [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/).
 
 ## Trying Ember for the first time
@@ -60,29 +69,29 @@ npx ember serve # Then visit http://localhost:4200
 
 ## How to upgrade your project to Ember 4
 
-If your app/addon runs with no deprecations in the latest release of `v3.28`
+If your app or addon runs with no deprecations in the latest release of `v3.28`
 and you have `v2` of `ember-auto-import` installed, you should be able to
 upgrade to Ember 4 with no additional changes.
 
 Follow these steps in order:
 
 1. Upgrade your project to the latest patch version of `v3.28`.
-Many developers can do this by running
-`npx ember-cli-update --to 3.28`. More details about how to upgrade your Ember
-app/addon are in the
-[general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
+   Many developers can do this by running
+   `npx ember-cli-update --to 3.28`. More details about how to upgrade your Ember
+   app/addon are in the
+   [general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
 2. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You may need to upgrade some
-of your dependencies if they are using deprecated APIs. Applications that need to upgrade through several versions may want to consider
-the
-[ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
-addon to isolate individual deprecations.
+   of your dependencies if they are using deprecated APIs. Applications that need to upgrade through several versions may want to consider
+   the
+   [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
+   addon to isolate individual deprecations.
 3. Make sure your app builds successfully.
 4. Install `ember-auto-import` if your app does not already have it:
-`npx ember install ember-auto-import`.
+   `npx ember install ember-auto-import`.
 5. If you are already using `ember-auto-import`, make sure you are using `v2`.
-You can follow 
-[this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
-if you are on an earlier version.
+   You can follow
+   [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
+   if you are on an earlier version.
 6. Make sure your app builds successfully.
 7. Upgrade your app to Ember 4
 
@@ -90,21 +99,24 @@ if you are on an earlier version.
 
 ### Browser Support in 4.0
 
-This release completes the work described in Ember 3.x's browser support policy. Ember 4.0 supports two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
+Ember 4.0 supports two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
 
-Specifically, the Ember 4.x release policy includes support for Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari on desktop and mobile. It does not include support for any version of Internet Explorer.
+Specifically, the Ember 4.x release policy includes support for Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari on desktop and mobile. **It does not include support for any version of Internet Explorer.**
 
 Read more about this change in the [deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_3-0-browser-support-policy) and at Ember's [browser support policy page](https://emberjs.com/browser-support/).
 
 ### `ember-auto-import` is now required
 
-Using Ember 4 or higher requires that the project has `ember-auto-import` installed, `v2` or later.
+Using Ember 4 or higher requires that the project has version `2.0.0` or later of `ember-auto-import` installed.
 Follow the "How to upgrade" steps above to learn what you need to do.
 
-Why is this change required? 
-It unblocks some exciting developments within the framework itself. Behind the scenes, one goal for 4.x development cycle is to apply the
-[v2 addon format](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html)
-to Ember itself.
+Why is this change required?
+`ember-auto-import` supports something we call the
+[v2 addon format](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html). This specification
+describes how to publish an Ember CLI addon which has minimal build overhead
+and better compatibility with modern build and analysis tooling (think [Webpack](https://webpack.js.org/)).
+Later in Ember's 4.x release cycle, we intend to release framework libraries as
+v2 addons to take advantage of those improvements.
 
 ## Changes in Ember.js 4.0
 
@@ -136,12 +148,13 @@ guide](https://deprecations.emberjs.com/v3.x).
 - Support for the `Ember` global on `window` is removed in favor of importing the `Ember` object or using the module-based API. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-global).
 - Support for certain features of the `<LinkTo>`, `<Input>`, and `<Textarea>` components are removed. See guides on [positional arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-glimmer-link-to-positional-arguments), [legacy arguments](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-arguments), [legacy HTML attributes](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-legacy-attribute-arguments), and [importing legacy built-in components](https://deprecations.emberjs.com/v3.x/#toc_ember-built-in-components-import).
 - The internal APIs of `<LinkTo>`, `<Input>`, `<Checkbox>`, and `<Textarea>` are now private,
-and subclassing them is no longer supported.
-An example of subclassing looks like this: `export class MyLinkComponent extends LinkTo`.
-Apps or addons that subclass can install `@ember/legacy-built-in-components`
-as a stepping stone, following [this deprecation guide](https://deprecations.emberjs.com/v3.x#toc_ember-built-in-components-import).
+  and subclassing them is no longer supported.
+  An example of subclassing looks like this: `export class MyLinkComponent extends LinkTo`.
+  Apps or addons that subclass can install
+  the library [`@ember/legacy-built-in-components`](https://github.com/emberjs/ember-legacy-built-in-components)
+  as a stepping stone, following [this deprecation guide](https://deprecations.emberjs.com/v3.x#toc_ember-built-in-components-import).
 - ...and additional uncommon deprecations found in the [Ember.js 3.x deprecation
-guide](https://deprecations.emberjs.com/v3.x)
+  guide](https://deprecations.emberjs.com/v3.x)
 
 Many of these removed APIs date back to Ember 1.x, and are rarely used now (or should be rarely used).
 
@@ -149,6 +162,9 @@ For more details on the changes in Ember.js 4.0, please review the
 [Ember.js 4.0.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.0.0).
 
 ### Deprecations added in 4.0
+
+Public API deprecations added in Ember 4.0 target removal in Ember 5.0. One
+such deprecation was introduced:
 
 - Use of `Ember.assign` is deprecated. You should replace any calls to `Ember.assign` with `Object.assign` or use the object spread operator. See the [deprecation guide](https://deprecations.emberjs.com/v4.x#toc_ember-polyfills-deprecate-assign) for examples.
 
@@ -162,9 +178,9 @@ This release removes APIs that were [deprecated in the 3.x cycle](https://deprec
 
 - The API `store.defaultAdapter` is removed - [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-adapter)
 - Support for relying on fallback behavior for adapter type is removed.
-You should [specify adapter types explicitly](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-adapter).
+  You should [specify adapter types explicitly](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-adapter).
 - Similarly, `adapter.defaultSerializer` and support for relying on fallback behavior for the
-serializer type [is removed](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-serializers)
+  serializer type [is removed](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-serializers)
 - The [Evented API is removed](https://deprecations.emberjs.com/ember-data/v3.x#toc_evented-api-usage)
 - ...and other APIs listed in the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x)
 
@@ -185,24 +201,6 @@ instructions, please review the [Ember CLI 4.0.0 release page](https://github.co
 
 ---
 
-<!-- 
-Is there a legacy addon for Ember 4??? See blurb below from Ember 3.
-
-To ensure as many applications as possible make the transition from 2.x to
-3.x, all public APIs removed in Ember.js 3.0 have been extracted into the
-[ember-2-legacy](https://github.com/emberjs/ember-2-legacy) addon. This addon
-will be supported through Ember.js 3.4, the first LTS of the 3.x series.
-
-The addon maintains support for all APIs in the [Ember.js 2.x deprecations
-guide](https://www.emberjs.com/deprecations/v2.x/). Please note that these are
-only APIs from Ember.js itself, and there is no extended support addon for
-features removed from Ember Data or Ember CLI. -->
-
-Applications that need to upgrade through several versions may want to consider
-the
-[ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
-addon to isolate individual deprecations.
-
 ## Need help?
 
 Are you stuck on something? Do you have questions?
@@ -214,18 +212,20 @@ Want to help make Ember 4 a success? Here are some things you can do!
 
 - Blog about your experience
 - If someone helps you with a question, consider positing both the question
-and answer to a public place like Stack Overflow or the Ember Discourse forums,
-so that others can learn from it
+  and answer to a public place like Stack Overflow or the Ember Discourse forums,
+  so that others can learn from it
 - Help your favorite addons to upgrade to Ember 4
 - Stay tuned via the Ember Times for new features and requests for help
-implementing them.
+  implementing them.
 
 ### Thank You!
 
-Thank you to all the amazing contributors who helped out with the
-Ember project! That includes those who made commits, helped teach others,
-wrote about Ember in their blog posts, and more.
+Thank you to all the amazing Ember 4.0 contributors. This
+release was a wide-ranging effort with over 50 API removals in
+the `ember-source` package alone, and required coordination of timelines and
+execution across all Ember's core libraries and teams. Ember is a project
+maintained largely by volunteers, and this release is the result of sustained
+contribution across many codebases, timezones, and interests.
 
-And thank you, Ember developers, for using these tools to build awesome
-things. We appreciated your patience with the delays in our original
-release timeline.
+We deeply appreciate the support of our contributors and user community. Thank
+you.
