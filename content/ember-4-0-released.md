@@ -64,7 +64,7 @@ first time today, get started by running:
 ```bash
 npx ember-cli new my-project
 cd my-project
-npx ember serve # Then visit http://localhost:4200
+ember serve # Then visit http://localhost:4200
 ```
 
 ## How to upgrade your project to Ember 4
