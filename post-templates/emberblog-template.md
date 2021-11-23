@@ -6,7 +6,7 @@ date: 2021-XX-XXT00:00:00.000Z
 tags:
   - releases
   - '2021'
-  - version-3-x
+  - version-4-x
 ---
 
 Today the Ember project is releasing version VER of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
@@ -46,9 +46,11 @@ Ember.js VER introduced 2 features.
 Ember.js VER introduced 0 deprecations.
 
 <!-- Block start: If there were no deprecations, remove this block -->
+
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
+
 <!-- Block end -->
 
 For more details on changes in Ember.js VER, please review the [Ember.js VER.0 release page](https://github.com/emberjs/ember.js/releases/tag/vVER.0).
