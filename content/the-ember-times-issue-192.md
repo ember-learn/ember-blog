@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 192
 authors:
   - chris-ng
+  - bmish
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-11-28T00:00:00.000Z
 tags:
@@ -11,6 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 Release of ember-functions-as-helper-polyfill 🎉,
+First pre-release of ember-template-lint v4 🧹,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -37,15 +39,20 @@ Try out this functionality today with the [polyfill](https://github.com/NullVoxP
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [First pre-release of ember-template-lint v4 🧹](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Bryan Mishkin (@bmish)](https://github.com/bmish) has kicked off the release cycle for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) v4 with the first pre-release version [v4.0.0-alpha.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The key changes so far include:
+
+* Adding over a dozen rules to the `recommended` config
+* Removing deprecated rules, options, and behaviors
+* Dropping support for old versions of Node
+* Enforcing stricter default behavior for a few rules
+* Enforcing stricter validation of configuration files and rule tests
+* Enforcing a strictly-defined public Node API
+
+Please test it out and provide feedback about the current changes or changes you would like to see by commenting in the [tracking issue](https://github.com/ember-template-lint/ember-template-lint/issues/1908).
 
 ---
 
@@ -147,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, the crowd and the Learning Team
+Chris Ng, Bryan Mishkin, the crowd and the Learning Team
