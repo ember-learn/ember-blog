@@ -41,7 +41,7 @@ Try out this functionality today with the [polyfill](https://github.com/NullVoxP
 
 ## [First pre-release of ember-template-lint v4 🧹](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)
 
-[Bryan Mishkin (@bmish)](https://github.com/bmish) has kicked off the release cycle for ember-template-lint v4 with the first pre-release version [v4.0.0-alpha.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)!
+[Bryan Mishkin (@bmish)](https://github.com/bmish) has kicked off the release cycle for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) v4 with the first pre-release version [v4.0.0-alpha.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)!
 
 The key changes so far include:
 
