@@ -73,7 +73,7 @@ Check out the interview to find out the answers to these questions!
 
 ## [Paired Programming 👭](https://nothingventured.rocks/the-perfect-pair-8d72db3d8a8b)
 
-Aoife and Mo, a senior and junior pair of engineers at Phorest, recently presented a lightening talk at Ember{{fest}} that addressed the topic of paired programming. They [documented their recent experiences with the activity](https://nothingventured.rocks/the-perfect-pair-8d72db3d8a8b) after electing to pair up to tackle learning Ember, the framework we know and love that they would be using to build a new application feature together. 
+Aoife and Mo, a senior and junior pair of engineers at Phorest, recently presented a lightening talk at Ember{{fest}} that addressed the topic of paired programming. They [documented their recent experiences with the activity](https://nothingventured.rocks/the-perfect-pair-8d72db3d8a8b) after electing to pair up to tackle learning Ember, the framework we know and love that they would be using to build a new application feature together.
 
 Not only did the two find this practice ideal for avoiding unnecessary code complexity, but it also helped with feelings of isolation that arose during the pandemic-induced shift to remote work. While one drawback this pair found was a difficulty in context switching, the positive takeaways they discovered in regard to paired programming exercises include:
 
