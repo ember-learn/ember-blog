@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 192
 authors:
   - chris-ng
   - bryan-mishkin
+  - isaac-lee
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-11-28T00:00:00.000Z
 tags:
@@ -13,6 +14,7 @@ tags:
 👋 Emberistas! 🐹
 Release of ember-functions-as-helper-polyfill 🎉,
 First pre-release of ember-template-lint v4 🧹,
+Phorest Interview of Balint Erdi 🎙️,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -56,15 +58,13 @@ Please test it out and provide feedback about the current changes or changes you
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Phorest Interview of Balint Erdi 🎙️](https://nothingventured.rocks/ember-phorest-with-balint-erdi-7e90126975ee)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Balint Erdi (@balinterdi)](https://github.com/balinterdi), author of [Rock & Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/) and co-organizer of [EmberFest](https://emberfest.eu/), recently got to share his thoughts of working with Ember. In addition to the [full video](https://www.youtube.com/watch?v=BQ46w3PGw7s), you can find a summary of the interview on [Phorest's blog](https://nothingventured.rocks/ember-phorest-with-balint-erdi-7e90126975ee).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+What is it like to transition a legacy desktop application to an Ember app? To develop a brand new app that runs on Embroider? How can I hire developers and provide a good culture to help with retention? And what was EmberFest 2021 like for Balint?
+
+Check out the interview to find out the answers to these questions!
 
 ---
 
@@ -154,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Bryan Mishkin, the crowd and the Learning Team
+Chris Ng, Bryan Mishkin, Isaac Lee, the crowd and the Learning Team
