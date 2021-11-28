@@ -4,6 +4,7 @@ authors:
   - chris-ng
   - bryan-mishkin
   - isaac-lee
+  - jessica-justice
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-11-28T00:00:00.000Z
 tags:
@@ -15,6 +16,8 @@ tags:
 Release of ember-functions-as-helper-polyfill 🎉,
 First pre-release of ember-template-lint v4 🧹,
 Phorest Interview of Balint Erdi 🎙️,
+Paired Programming 👭,
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -68,15 +71,14 @@ Check out the interview to find out the answers to these questions!
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [Paired Programming 👭](https://nothingventured.rocks/the-perfect-pair-8d72db3d8a8b)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Aoife and Mo, a senior and junior pair of women engineers at Phorest, recently presented a lightening talk at Ember{{fest}} that addressed the topic of paired programming. They [documented their recent experiences with the activity](https://nothingventured.rocks/the-perfect-pair-8d72db3d8a8b) after electing to pair up to tackle Ember, the framework they would be using to build a new application feature together. Not only did the two find this practice ideal for avoiding unnecessary code complexity, but it also helped with feelings of isolation that arose during the pandemic-induced shift to remote work. While one drawback this pair found was a difficulty in context switching, the positive takeaways they discovered in regard to paired programming exercises include:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- The opportunity to get to know one's colleagues on a personal level
+- A chance to grow one's programming and communication skills by observing, teaching, and asking questions
+- The strategic advantage that comes with discussing a plan of action in advance and breaking problems down into smaller chunks
+- An opportunity to build up a rapport with colleagues that led to more interaction overall and less time spent struggling alone
 
 ---
 
@@ -154,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Bryan Mishkin, Isaac Lee, the crowd and the Learning Team
+Chris Ng, Bryan Mishkin, Isaac Lee, Jessica Justice, the crowd and the Learning Team
