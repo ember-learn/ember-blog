@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 192
 authors:
   - chris-ng
-  - bmish
+  - bryan-mishkin
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-11-28T00:00:00.000Z
 tags:
@@ -21,7 +21,7 @@ First pre-release of ember-template-lint v4 🧹,
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released the [ember-functions-as-helper-polyfill](https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill) addon which implements [RFC 756: Default Helper Manager](https://github.com/emberjs/rfcs/pull/756). The addon lets you use plain functions as helpers, check out the example below:
 
-```js
+```javascript
 import Component  from '@glimmer/component';
 
 export default class MyComponent extends Component {
@@ -29,7 +29,7 @@ export default class MyComponent extends Component {
 }
 ```
 
-```hbs
+```handlebars
 {{this.myHelper 3}}
 ```
 
