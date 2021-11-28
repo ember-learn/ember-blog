@@ -1,18 +1,73 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 192
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
+  - bryan-mishkin
+  - isaac-lee
   - jessica-justice
-date: 2021-XX-XXT00:00:00.000Z
+  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+date: 2021-11-28T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
 ---
 
 👋 Emberistas! 🐹
+Release of ember-functions-as-helper-polyfill 🎉,
+First pre-release of ember-template-lint v4 🧹,
+Phorest Interview of Balint Erdi 🎙️,
 Paired Programming 👭,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## [Release of ember-functions-as-helper-polyfill 🎉](https://twitter.com/nullvoxpopuli/status/1460052313624784899)
+
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released the [ember-functions-as-helper-polyfill](https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill) addon which implements [RFC 756: Default Helper Manager](https://github.com/emberjs/rfcs/pull/756). The addon lets you use plain functions as helpers, check out the example below:
+
+```javascript
+import Component  from '@glimmer/component';
+
+export default class MyComponent extends Component {
+  myHelper = x => x * 2;
+}
+```
+
+```handlebars
+{{this.myHelper 3}}
+```
+
+This reduces the need to create [traditional helpers](https://guides.emberjs.com/release/components/helper-functions/) especially when a helper is only really used within the same component. This addon reduces the amount of boilerplate code written and is a more representational model of how template and JS interact.
+
+Try out this functionality today with the [polyfill](https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill)!
+
+---
+
+## [First pre-release of ember-template-lint v4 🧹](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)
+
+[Bryan Mishkin (@bmish)](https://github.com/bmish) has kicked off the release cycle for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) v4 with the first pre-release version [v4.0.0-alpha.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0-alpha.0)!
+
+The key changes so far include:
+
+* Adding over a dozen rules to the `recommended` config
+* Removing deprecated rules, options, and behaviors
+* Dropping support for old versions of Node
+* Enforcing stricter default behavior for a few rules
+* Enforcing stricter validation of configuration files and rule tests
+* Enforcing a strictly-defined public Node API
+
+Please test it out and provide feedback about the current changes or changes you would like to see by commenting in the [tracking issue](https://github.com/ember-template-lint/ember-template-lint/issues/1908).
+
+---
+
+## [Phorest Interview of Balint Erdi 🎙️](https://nothingventured.rocks/ember-phorest-with-balint-erdi-7e90126975ee)
+
+[Balint Erdi (@balinterdi)](https://github.com/balinterdi), author of [Rock & Roll with Ember.js](https://balinterdi.com/rock-and-roll-with-emberjs/) and co-organizer of [EmberFest](https://emberfest.eu/), recently got to share his thoughts of working with Ember. In addition to the [full video](https://www.youtube.com/watch?v=BQ46w3PGw7s), you can find a summary of the interview on [Phorest's blog](https://nothingventured.rocks/ember-phorest-with-balint-erdi-7e90126975ee).
+
+What is it like to transition a legacy desktop application to an Ember app? To develop a brand new app that runs on Embroider? How can I hire developers and provide a good culture to help with retention? And what was EmberFest 2021 like for Balint?
+
+Check out the interview to find out the answers to these questions!
 
 ---
 
@@ -24,43 +79,6 @@ Aoife and Mo, a senior and junior pair of women engineers at Phorest, recently p
 - A chance to grow one's programming and communication skills by observing, teaching, and asking questions
 - The strategic advantage that comes with discussing a plan of action in advance and breaking problems down into smaller chunks
 - An opportunity to build up a rapport with colleagues that led to more interaction overall and less time spent struggling alone
-- A chance to empower minorities in the tech space
-
----
-
-## [🐹 2. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 3. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 4. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -138,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jessica Justice, the crowd and the Learning Team
+Chris Ng, Bryan Mishkin, Isaac Lee, Jessica Justice, the crowd and the Learning Team
