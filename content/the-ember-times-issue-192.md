@@ -84,15 +84,13 @@ Not only did the two find this practice ideal for avoiding unnecessary code comp
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Ember.js Template Imports Blog Series Finale 📚](https://v5.chriskrycho.com/journal/ember-template-imports/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+You may remember from our last issue, that there has been a great new 5 part series from [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) on template imports. Well, part 5 of the series of posts is now out and there's also a bonus 6th post! 🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The [5th post](https://v5.chriskrycho.com/journal/ember-template-imports/part-5/) covers approaches to styling concerns in the context of template imports and the [6th post](https://v5.chriskrycho.com/journal/ember-template-imports/part-6/) provides a nice summary of all that's been discussed thus far in the series and what sorts of recommendations that Chris makes.
+
+If you have not had a chance to read the series, do yourself a favor and check it out [here](https://v5.chriskrycho.com/journal/ember-template-imports/).
 
 ---
 
