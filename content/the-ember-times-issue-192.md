@@ -19,6 +19,7 @@ First pre-release of ember-template-lint v4 🧹,
 Phorest Interview of Balint Erdi 🎙️,
 Paired Programming 👭,
 Ember.js Template Imports Blog Series Finale 📚,
+Deprecate Bower Support RFC ⏰
 
 ---
 
@@ -94,39 +95,11 @@ If you have not had a chance to read the series, do yourself a favor and check i
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [Deprecate Bower Support RFC ⏰](https://github.com/emberjs/rfcs/pull/772)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Bert De Block (@bertdeblock)](https://github.com/bertdeblock) recently published a much needed RFC that proposes how we might go about deprecating support for building Bower packages and the use of Bower-related APIs. ✨
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you are interested and would like to participate comment on the RFC, go ahead and give it a read and leave a comment [here](https://github.com/emberjs/rfcs/pull/772).
 
 ---
 
