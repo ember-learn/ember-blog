@@ -5,7 +5,8 @@ authors:
   - bryan-mishkin
   - isaac-lee
   - jessica-justice
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - jared-galanis
+  - the-crowd
 date: 2021-11-28T00:00:00.000Z
 tags:
   - newsletter
@@ -17,8 +18,7 @@ Release of ember-functions-as-helper-polyfill 🎉,
 First pre-release of ember-template-lint v4 🧹,
 Phorest Interview of Balint Erdi 🎙️,
 Paired Programming 👭,
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember.js Template Imports Blog Series Finale 📚,
 
 ---
 
@@ -132,7 +132,7 @@ If you have not had a chance to read the series, do yourself a favor and check i
 
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank our <a href="https://github.com/amyrlam" rel="noopener noreferrer" target="_blank">Amy Lam (@amyrlam)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/michaelbdai" rel="noopener noreferrer" target="_blank">Bing Dai (@michaelbdai)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/adrigzr" rel="noopener noreferrer" target="_blank">Adrián González Rus (@adrigzr)</a>, <a href="https://github.com/m1073496" rel="noopener noreferrer" target="_blank">Jessica Justice (@m1073496)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/jfdnc" rel="noopener noreferrer" target="_blank">Jacob (@jfdnc)</a>, <a href="https://github.com/chancancode" rel="noopener noreferrer" target="_blank">Godfrey Chan (@chancancode)</a>, <a href="https://github.com/kiwiupover" rel="noopener noreferrer" target="_blank">Dave Laird (@kiwiupover)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/Turbo87" rel="noopener noreferrer" target="_blank">Tobias Bieniek (@Turbo87)</a>, <a href="https://github.com/ddzz" rel="noopener noreferrer" target="_blank">Darius D. (@ddzz)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/lolmaus" rel="noopener noreferrer" target="_blank">Andrey Mikhaylov (lolmaus) (@lolmaus)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/SOUMOJIT-CHAKRABORTY" rel="noopener noreferrer" target="_blank">Soumojit Chakraborty (@SOUMOJIT-CHAKRABORTY)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/kdagnan" rel="noopener noreferrer" target="_blank">Kyle D. (@kdagnan)</a>, <a href="https://github.com/snewcomer" rel="noopener noreferrer" target="_blank">Scott Newcomer (@snewcomer)</a>, <a href="https://github.com/jaswilli" rel="noopener noreferrer" target="_blank">Jason Williams (@jaswilli)</a>, <a href="https://github.com/pbernery" rel="noopener noreferrer" target="_blank">Philippe Bernery (@pbernery)</a>, <a href="https://github.com/jherdman" rel="noopener noreferrer" target="_blank">James Herdman (@jherdman)</a>, and <a href="https://github.com/Windvis" rel="noopener noreferrer" target="_blank">Sam Van Campenhout (@Windvis)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
@@ -156,4 +156,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Bryan Mishkin, Isaac Lee, Jessica Justice, the crowd and the Learning Team
+Chris Ng, Bryan Mishkin, Isaac Lee, Jessica Justice, Jared Galanis and the Learning Team
