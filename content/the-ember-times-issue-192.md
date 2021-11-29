@@ -98,7 +98,7 @@ If you have not had a chance to read the series, do yourself a favor and check i
 
 [Bert De Block (@bertdeblock)](https://github.com/bertdeblock) recently published a much needed RFC that proposes how we might go about deprecating support for building Bower packages and the use of Bower-related APIs. ✨
 
-If you are interested and would like to participate comment on the RFC, go ahead and give it a read and leave a comment [here](https://github.com/emberjs/rfcs/pull/772).
+If you are interested and would like to participate in / comment on the RFC, go ahead and give it a read and leave a comment, [here](https://github.com/emberjs/rfcs/pull/772).
 
 ---
 
