@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 193
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - chris-ng
 date: 2021-12-12T00:00:00.000Z
 tags:
   - newsletter
@@ -11,18 +12,18 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember Addon Roundup 🌎,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## Ember Addon Roundup 🌎
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We’ve had several addons across the Ember ecosystem release updates recently, here’s what you may have missed and reasons to upgrade!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [Jon Kilroy (@jkusa)](https://github.com/jkusa) released [ember-arg-types v0.4.0](https://twitter.com/jonkilroy/status/1461089358338039815) which provides the **forbidExtraArgs** decorator for checking that only arguments with the `arg` decorator are provided to a component (useful for incorrect invocations).
+- [Luke Miela (@lukemiela)](https://github.com/lukemelia) and [Sergey Astapov (@SergeAstapov)](https://github.com/SergeAstapov) released [ember-keyboard 7.0.0-beta.0](https://github.com/adopted-ember-addons/ember-keyboard/releases/tag/v7.0.0-beta.0) which dropped deprecated features in the 6.x series.
+- [Chris Manson (@mansona)](https://github.com/mansona) released the [first version of the ember-cli-addon-docs migrator](https://twitter.com/real_ate/status/1464596213781704713) named [ecad-migrator](https://github.com/empress/ecad-migrator) which helps move your documentation to [Field Guide](https://github.com/empress/field-guide).
+- [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) released [ember-sortable v3.0](https://github.com/adopted-ember-addons/ember-sortable/blob/master/CHANGELOG.md#v300-2021-11-29) which removes the component version of the addon (only allows using the modifier version).
 
 ---
 
@@ -136,4 +137,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, the crowd and the Learning Team
