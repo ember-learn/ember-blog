@@ -3,7 +3,7 @@ title: Ember 4.0 released
 authors:
   - jen-weber
   - matthew-beale
-date: 2021-11-22T00:00:00.000Z
+date: 2021-12-06T00:00:00.000Z
 tags:
   - releases
   - '2021'
@@ -70,17 +70,31 @@ ember serve # Then visit http://localhost:4200
 ## How to upgrade your project to Ember 4
 
 If your app or addon runs with no deprecations in the latest release of `v3.28`
-and you have `v2` of `ember-auto-import` installed, you should be able to
-upgrade to Ember 4 with no additional changes.
+you should be able to upgrade to Ember 4 with no additional changes. Depending
+on how up to date your dependencies are, you may want to upgrade several of
+those before the jump including `ember-data`, `ember-auto-import`, and
+`ember-cli-htmbars`
 
 Follow these steps in order:
 
-1. Upgrade your project to the latest patch version of `v3.28`.
+1. Upgrade your project to the latest patch version of Ember `v3.28`.
    Many developers can do this by running
    `npx ember-cli-update --to 3.28`. More details about how to upgrade your Ember
    app/addon are in the
    [general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
-2. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You
+2. Upgrade the `ember-cli-htmlbars` dependency (if present) to the latest patch
+   release of `v6`. The final patch releases of the `v5` and `v6` series
+   include important fixes for how deprecations are presented.
+3. Install `ember-auto-import` if your app does not already have it follow the
+   [`ember-auto-import` installation
+   documentation](https://github.com/ef4/ember-auto-import#installation). The
+   short version is: `npm i --save-dev ember-auto-import webpack`.
+4. If you are already using `ember-auto-import`, make sure you are using `v2`.
+   You can follow
+   [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
+   if you are on an earlier version.
+5. Make sure your app builds successfully.
+6. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You
    may need to upgrade some of your dependencies if they are using deprecated
    APIs. See the [Ember Deprecation Guide](https://deprecations.emberjs.com/)
    for more details about specific deprecations and how to resolve them.
@@ -88,18 +102,9 @@ Follow these steps in order:
    consider the
    [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
    addon to isolate individual deprecations.
-3. Make sure your app builds successfully.
-4. Install `ember-auto-import` if your app does not already have it follow the
-   [`ember-auto-import` installation
-   documentation](https://github.com/ef4/ember-auto-import#installation). The
-   short version is: `npm i --save-dev ember-auto-import webpack`.
-5. If you are already using `ember-auto-import`, make sure you are using `v2`.
-   You can follow
-   [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
-   if you are on an earlier version.
-6. Make sure your app builds successfully and your test suite passes with no
+7. Make sure your app builds successfully and your test suite passes with no
    deprecations.
-7. Upgrade your app to Ember 4. Again,
+8. Upgrade your app to Ember 4. Again,
    many developers can do this by running
    `npx ember-cli-update --to 4.0`. More details about how to upgrade your Ember
    app/addon are in the
