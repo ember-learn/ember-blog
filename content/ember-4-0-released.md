@@ -11,8 +11,10 @@ tags:
 ---
 
 Today the Ember project is releasing version 4.0 of Ember.js, Ember Data, and
-Ember CLI. This major version bump focuses
+Ember CLI. Ember's 4.0 release focuses
 the framework by removing long-deprecated APIs and support for legacy platforms.
+This blog post will help you understand how to upgrade and navigate any breaking
+changes.
 
 Although [Ember "Octane"](https://emberjs.com/editions/octane/) APIs have been
 the default for new applications since Ember 3.15, the framework has continued
@@ -20,9 +22,6 @@ to support "Classic" framework features in accordance with our semantic
 versioning commitment. Ember 4.0 takes a step forward and drops
 already-deprecated classic APIs, however the foundational `EmberComponent` and
 `EmberObject`/`computed` APIs are not removed in this release.
-
-This blog post will help you understand how to upgrade and navigate any breaking
-changes.
 
 Additionally, today we're promoting Ember 3.28 to become Ember's latest
 Long-Term Support (LTS) release. Ember's LTS release process provides bugfix
@@ -38,7 +37,7 @@ released. Ember 4.4 will be the first candidate.
 ## Major Releases in Ember
 
 Why are there no new features in this release?
-This has been the tradition for all major Ember releases since v2.
+This has been Ember's tradition for major releases since v2.
 We believe that major versions should be rare, and that when they happen,
 they should not introduce new features.
 
@@ -49,7 +48,7 @@ release means that there are breaking changes. And while it would be exciting
 for major releases to be splashy and full of new features, we think it is more
 important to reduce risks for our developers and the users that depend on them.
 
-Our hope is that that library maintainers across the JavaScript ecosystem
+Our hope is that library maintainers across the JavaScript ecosystem
 will follow this pattern, which makes it easier for developers to keep up
 with security patches and bugfixes in their project's dependencies.
 
@@ -79,36 +78,34 @@ Follow these steps in order:
 
 1. Upgrade your project to the latest patch version of Ember `v3.28`.
    Many developers can do this by running
-   `npx ember-cli-update --to 3.28`. More details about how to upgrade your Ember
-   app/addon are in the
-   [general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
+   `npx ember-cli-update --to 3.28`. The
+   [general Ember upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself)
+   has more details about how to upgrade your Ember app/addon.
 2. Upgrade the `ember-cli-htmlbars` dependency (if present) to the latest patch
    release of `v6`. The final patch releases of the `v5` and `v6` series
-   include important fixes for how deprecations are presented.
-3. Install `ember-auto-import` if your app does not already have it follow the
-   [`ember-auto-import` installation
+   include important fixes for how deprecations are presented. 3. Install `ember-auto-import` if your app does not already have it as a
+   dependency. Follow the [`ember-auto-import` installation
    documentation](https://github.com/ef4/ember-auto-import#installation). The
    short version is: `npm i --save-dev ember-auto-import webpack`.
-4. If you are already using `ember-auto-import`, make sure you are using `v2`.
+3. If you are already using `ember-auto-import`, make sure you are using `v2`.
    You can follow
    [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
    if you are on an earlier version.
-5. Make sure your app builds successfully.
-6. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You
+4. Make sure your app builds successfully.
+5. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You
    may need to upgrade some of your dependencies if they are using deprecated
    APIs. See the [Ember Deprecation Guide](https://deprecations.emberjs.com/)
    for more details about specific deprecations and how to resolve them.
    Applications that need to upgrade through several versions may want to
-   consider the
-   [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow)
-   addon to isolate individual deprecations.
-7. Make sure your app builds successfully and your test suite passes with no
+   consider isolating individual deprecations by using
+   [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow).
+6. Make sure your app builds successfully and your test suite passes with no
    deprecations.
-8. Upgrade your app to Ember 4. Again,
+7. Upgrade your app to Ember 4. Again,
    many developers can do this by running
-   `npx ember-cli-update --to 4.0`. More details about how to upgrade your Ember
-   app/addon are in the
-   [general upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself).
+   `npx ember-cli-update --to 4.0`. Refer to the
+   [general Ember upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself)
+   for more details about how to upgrade your Ember app/addon.
 
 ## What is in Ember 4?
 
@@ -129,7 +126,7 @@ learn what you need to do.
 Why is this change required? `ember-auto-import` supports something we call the
 [v2 addon
 format](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html).
-This specification describes how to publish an Ember CLI addon which has minimal
+This specification describes how to publish an Ember CLI addon that has minimal
 build overhead and better compatibility with modern build and analysis tooling
 (think [Webpack](https://webpack.js.org/)). Later in Ember's 4.x release cycle,
 we intend to release framework libraries as v2 addons to take advantage of those
@@ -150,7 +147,7 @@ Octane, by existing application and addon code.
 ### APIs Removed in 4.0
 
 Below we've listed some of the most significant API removals in Ember.js 4.0.
-and for an full list of removals, see the [Ember.js 3.x deprecation
+For a complete list of removals, see the [Ember.js 3.x deprecation
 guide](https://deprecations.emberjs.com/v3.x).
 
 - `Ember.Logger` is removed in favor of native `console` APIs. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-console-deprecate-logger).
@@ -181,18 +178,16 @@ For more details on the changes in Ember.js 4.0, please review the
 
 ### Deprecations added in 4.0
 
-Public API deprecations added in Ember 4.0 target removal in Ember 5.0. One
-such deprecation was introduced:
+The following public API, marked as deprecated in Ember 4.0, will be removed in
+Ember 5.0:
 
 - Use of `Ember.assign` is deprecated. You should replace any calls to `Ember.assign` with `Object.assign` or use the object spread operator. See the [deprecation guide](https://deprecations.emberjs.com/v4.x#toc_ember-polyfills-deprecate-assign) for examples.
 
 ## Changes in Ember Data 4.0
 
----
-
 Ember Data is the official data persistence library for Ember.js applications.
 
-This release removes APIs that were [deprecated in the 3.x cycle](https://deprecations.emberjs.com/ember-data/v3.x). They include:
+This release removes APIs that were [deprecated in the 3.x cycle](https://deprecations.emberjs.com/ember-data/v3.x). Examples include:
 
 - The API `store.defaultAdapter` is removed - [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x#toc_ember-data-default-adapter)
 - Support for relying on fallback behavior for adapter type is removed.
@@ -207,8 +202,6 @@ For more details on the changes in Ember Data 4.0, please review the
 
 ## Changes in Ember CLI 4.0
 
----
-
 Ember CLI is the command line interface for managing and packaging Ember.js
 applications.
 
@@ -216,8 +209,6 @@ There are no deprecations, removals, or new features in Ember CLI v4.
 
 For more details on the changes in Ember CLI 4.0 and detailed upgrade
 instructions, please review the [Ember CLI 4.0.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0).
-
----
 
 ## Need help?
 
