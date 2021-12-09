@@ -36,21 +36,9 @@ released. Ember 4.4 will be the first candidate.
 
 ## Major Releases in Ember
 
-Why are there no new features in this release?
-This has been Ember's tradition for major releases since v2.
-We believe that major versions should be rare, and that when they happen,
-they should not introduce new features.
-
-This strategy aims to give Ember developers the time and space to upgrade
-dependencies and navigate any breaking changes, without needing to learn lots of
-new things at the same time. In many libraries, including Ember, a major
-release means that there are breaking changes. And while it would be exciting
-for major releases to be splashy and full of new features, we think it is more
-important to reduce risks for our developers and the users that depend on them.
-
-Our hope is that library maintainers across the JavaScript ecosystem
-will follow this pattern, which makes it easier for developers to keep up
-with security patches and bugfixes in their project's dependencies.
+Starting with Ember 2.0, major versions of Ember have been about removal
+of deprecated APIs, and not about the introduction of new features or development styles. 
+Ember 4.0 follows that tradition, and will contain no new features.
 
 Our plans for Ember 4.0 were originally announced in July 2021 in
 [The Road to Ember 4.0](https://blog.emberjs.com/the-road-to-ember-4-0/).
@@ -61,9 +49,12 @@ If you're interested in trying Ember for the
 first time today, get started by running:
 
 ```bash
-npx ember-cli new my-project
+# Make sure you are the latest npm version
+npm --version
+npx ember-cli@latest new my-project
 cd my-project
-ember serve # Then visit http://localhost:4200
+npx ember serve
+# Then visit http://localhost:4200
 ```
 
 ## How to upgrade your project to Ember 4
@@ -72,7 +63,7 @@ If your app or addon runs with no deprecations in the latest release of `v3.28`
 you should be able to upgrade to Ember 4 with no additional changes. Depending
 on how up to date your dependencies are, you may want to upgrade several of
 those before the jump including `ember-data`, `ember-auto-import`, and
-`ember-cli-htmbars`
+`ember-cli-htmlbars`
 
 Follow these steps in order:
 
@@ -83,11 +74,13 @@ Follow these steps in order:
    has more details about how to upgrade your Ember app/addon.
 2. Upgrade the `ember-cli-htmlbars` dependency (if present) to the latest patch
    release of `v6`. The final patch releases of the `v5` and `v6` series
-   include important fixes for how deprecations are presented. 3. Install `ember-auto-import` if your app does not already have it as a
-   dependency. Follow the [`ember-auto-import` installation
+   include important fixes for how deprecations are presented.
+3. Install `ember-auto-import`
+   - If your app does not already have it as a
+   dependency, follow the [`ember-auto-import` installation
    documentation](https://github.com/ef4/ember-auto-import#installation). The
    short version is: `npm i --save-dev ember-auto-import webpack`.
-3. If you are already using `ember-auto-import`, make sure you are using `v2`.
+   - If you are already using `ember-auto-import`, make sure you are using `v2`.
    You can follow
    [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
    if you are on an earlier version.
