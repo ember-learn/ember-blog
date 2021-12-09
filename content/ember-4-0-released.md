@@ -37,7 +37,7 @@ released. Ember 4.4 will be the first candidate.
 ## Major Releases in Ember
 
 Starting with Ember 2.0, major versions of Ember have been about removal
-of deprecated APIs, and not about the introduction of new features or development styles. 
+of deprecated APIs, and not about the introduction of new features or development styles.
 Ember 4.0 follows that tradition, and will contain no new features.
 
 Our plans for Ember 4.0 were originally announced in July 2021 in
