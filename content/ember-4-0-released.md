@@ -49,7 +49,7 @@ If you're interested in trying Ember for the
 first time today, get started by running:
 
 ```bash
-# Make sure you are the latest npm version
+# Make sure you are on the latest npm version, 8.x
 npm --version
 npx ember-cli@latest new my-project
 cd my-project
