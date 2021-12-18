@@ -108,6 +108,16 @@ Ember 4.0 supports two classes of browsers: Evergreen (those on a weeks-long, au
 
 Specifically, the Ember 4.x release policy includes support for Google Chrome, Mozilla Firefox, Microsoft Edge, and Apple Safari on desktop and mobile. **It does not include support for any version of Internet Explorer.**
 
+Supported browser ranges:
+
+* Chrome >= 92
+* Edge >= 93
+* Firefox >= 91
+* iOS >= 12
+* Safari >= 12
+* Chrome Android >= 96
+* Firefox Android >= 94
+
 Read more about this change in the [deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_3-0-browser-support-policy) and at Ember's [browser support policy page](https://emberjs.com/browser-support/).
 
 ### `ember-auto-import` is now required
