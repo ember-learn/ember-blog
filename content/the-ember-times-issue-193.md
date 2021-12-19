@@ -25,7 +25,7 @@ Uploading images to S3 in Ember 📸
 
 On December 8th Ember.js completed another trip around the 🌞 and turned 10 years old! 🥳
 
-[Yehuda Katz (@wycats)](https://github.com/wycats) recently [tweeted about the milestone for Ember](https://twitter.com/wycats/status/1468774795529515008) and noted some of the most notable things that been achieved in Ember's history:
+[Yehuda Katz (@wycats)](https://github.com/wycats) recently [tweeted about the milestone for Ember](https://twitter.com/wycats/status/1468774795529515008) and called out some of the most notable things that been achieved in Ember's history:
 
 - we adopted promises and made them the primary way to do async in Ember (2013)
 - we added first-class support for JS modules via ember-cli (2014)
@@ -44,11 +44,11 @@ On December 8th Ember.js completed another trip around the 🌞 and turned 10 ye
 <!-- alex ignore basically -->
 - SSR with rehydration with only mild strictness restrictions like not using real DOM at the top level of your module (also idiomatic, basically necessary for tests to function well)
 
-All of this has been achieved, and more! And as Yehuda points out, all of this doesn't even include our amazing progress on governance and release cadence.
+All of this has been achieved, and more! 🤯 And as Yehuda points out, all of this doesn't even include our amazing progress on governance and release cadence.
 
-What's more, in honor of the occasion [Mel Sumner (@MelSumner)](https://github.com/MelSumner) created an amazing tribute to the framework we know and 💛💙💜💚🧡 l️ove 💛💙💜💚🧡. The [Why Ember](https://whyember.com/) site is now live! The site contains a ton of information about what makes Ember such a great choice, including resources for those new to the framework or considering migrating and a list of some of awesome addons.
+What's more, in honor of the occasion [Mel Sumner (@MelSumner)](https://github.com/MelSumner) created an amazing website tribute to the framework we know and 💛💙💜💚🧡 l️ove 💛💙💜💚🧡. The [Why Ember](https://whyember.com/) site is now live! The site contains a ton of information about what makes Ember such a great choice, including resources for those new to the framework or considering migrating and a list of some of awesome addons.
 
-There have been many, many achievements over the last decade, and our core teams and community alike deserve to be proud of what we have accomplished - congratulations to all and we can't wait to see what's next! 🎉🚀
+There have been many, many achievements over the last decade, and our core teams and community members alike deserve to be proud of what we have accomplished - congratulations to all and we can't wait to see what's next! 🎉🚀
 
 ---
 
@@ -81,9 +81,9 @@ Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) today
 
 ## [Author Built-In Blueprints in TypeScript RFC in FCP ⌛️](https://github.com/emberjs/rfcs/pull/776)
 
-There's another ✨ awesome ✨ RFC on enabling blueprints to be written in TypeScript by [Chris Freeman (@cafreeman)](https://github.com/cafreeman) that's recently entered its final comment period.
+There's another ✨ awesome ✨ RFC that's recently entered its final comment period. This one is on enabling blueprints to be written in TypeScript and was written by [Chris Freeman (@cafreeman)](https://github.com/cafreeman).
 
-So if you are interested in contributing please head on over and comment on [the RFC](https://github.com/emberjs/rfcs/pull/776).
+So if you are interested in contributing please head on over and comment on [the RFC](https://github.com/emberjs/rfcs/pull/776) before time runs out!
 
 ---
 
@@ -92,9 +92,9 @@ So if you are interested in contributing please head on over and comment on [the
 There's a cool new video on Defaults & Initial Values in Octane by [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya
 )! 😎
 
-This video continues [the series](https://www.youtube.com/user/knownasilya/featured) that Ilya has been producing on features and patterns in developing using Ember Octane. In this episode Ilya checks out use of the `localCopy` decorator from [tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) to define class properties.
+This video continues [the series](https://www.youtube.com/user/knownasilya/featured) that Ilya has been producing on features and patterns in developing with Ember Octane. In this episode Ilya checks out use of the `localCopy` decorator from [tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) to define class properties.
 
-If you have haven't checked out the video you can find it [here](https://www.youtube.com/watch?v=lLQ7r1w1Ud4).
+If you have haven't seen the video you can find it [here](https://www.youtube.com/watch?v=lLQ7r1w1Ud4).
 
 ---
 
