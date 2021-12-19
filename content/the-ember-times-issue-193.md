@@ -60,15 +60,17 @@ We’ve had several addons across the Ember ecosystem release updates recently, 
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [First-Class Component Templates RFC 📖](https://github.com/emberjs/rfcs/pull/779)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Following his fanatastic [blog series on Ember Template Imports](https://v5.chriskrycho.com/journal/ember-template-imports/), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) has opened a [RFC covering First-Class Component Templates](https://github.com/emberjs/rfcs/pull/779).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The RFC proposes that we adopt `<template>` tags as a format for making component templates first-class participants in JavaScript and TypeScript with strict mode template semantics. As Chris mentions, doing so would help provide a number of new capabilities to Ember and Glimmer users:
+
+- accessing local JavaScript values with no ceremony and no backing class, enabling much easier use of existing JavaScript ecosystem tools, including especially styling libraries—standard CSS Modules will “just work,” for example
+- authoring more than one component in a single file, where colocation makes sense—and thereby providing more control over a component’s public API
+- likewise authoring locally-scoped helpers, modifiers, and other JavaScript functionality
+
+Go ahead and check out the [RFC today](https://github.com/emberjs/rfcs/pull/779).
 
 ---
 
