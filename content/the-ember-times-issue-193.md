@@ -12,9 +12,10 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Happy 10th Birthday Ember 🐹,
 Ember Addon Roundup 🌎,
+First-Class Component Templates RFC 📖,
+Defaults & Initial Values in Octane 🔥
 
 ---
 
@@ -74,15 +75,14 @@ Go ahead and check out the [RFC today](https://github.com/emberjs/rfcs/pull/779)
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [Defaults & Initial Values in Octane 🔥](https://twitter.com/knownasilya/status/1465902331753644041)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a cool new video on Defaults & Initial Values in Octane by [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya
+)! 😎
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+This video continues [the series](https://www.youtube.com/user/knownasilya/featured) that Ilya has been producing on features and patterns in developing using Ember Octane. In this episode Ilya checks out use of the `localCopy` decorator from [tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) to define class properties.
+
+If you have haven't checked out the video you can find it [here](https://www.youtube.com/watch?v=lLQ7r1w1Ud4).
 
 ---
 
