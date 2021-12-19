@@ -25,7 +25,7 @@ Uploading images to S3 in Ember 📸
 
 On December 8th Ember.js completed another trip around the 🌞 and turned 10 years old! 🥳
 
-[Yehuda Katz (@wycats)](https://github.com/wycats) recently [tweeted about the milestone for Ember](https://twitter.com/wycats/status/1468774795529515008) and called out some of the most notable things that been achieved in Ember's history:
+[Yehuda Katz (@wycats)](https://github.com/wycats) recently [tweeted about the milestone for Ember](https://twitter.com/wycats/status/1468774795529515008) and called out some of the most notable things that have been achieved in Ember's history:
 
 - we adopted promises and made them the primary way to do async in Ember (2013)
 - we added first-class support for JS modules via ember-cli (2014)
@@ -46,7 +46,7 @@ On December 8th Ember.js completed another trip around the 🌞 and turned 10 ye
 
 All of this has been achieved, and more! 🤯 And as Yehuda points out, all of this doesn't even include our amazing progress on governance and release cadence.
 
-What's more, in honor of the occasion [Mel Sumner (@MelSumner)](https://github.com/MelSumner) created an amazing website tribute to the framework we know and 💛💙💜💚🧡 l️ove 💛💙💜💚🧡. The [Why Ember](https://whyember.com/) site is now live! The site contains a ton of information about what makes Ember such a great choice, including resources for those new to the framework or considering migrating and a list of some of awesome addons.
+What's more, in honor of the occasion [Mel Sumner (@MelSumner)](https://github.com/MelSumner) created an amazing website tribute to the framework we know and 💛💙💜💚🧡 l️ove 💛💙💜💚🧡. The [Why Ember](https://whyember.com/) site is now live! The site contains a ton of information about what makes Ember such a great choice, including resources for those new to the framework or considering migrating and a list of some awesome addons.
 
 There have been many, many achievements over the last decade, and our core teams and community members alike deserve to be proud of what we have accomplished - congratulations to all and we can't wait to see what's next! 🎉🚀
 
@@ -67,7 +67,7 @@ We’ve had several addons across the Ember ecosystem release updates recently, 
 
 ## [First-Class Component Templates RFC 📖](https://github.com/emberjs/rfcs/pull/779)
 
-Following his fanatastic [blog series on Ember Template Imports](https://v5.chriskrycho.com/journal/ember-template-imports/), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) has opened a [RFC covering First-Class Component Templates](https://github.com/emberjs/rfcs/pull/779).
+Following his fantastic [blog series on Ember Template Imports](https://v5.chriskrycho.com/journal/ember-template-imports/), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) has opened a [RFC covering First-Class Component Templates](https://github.com/emberjs/rfcs/pull/779).
 
 The RFC proposes that we adopt `<template>` tags as a format for making component templates first-class participants in JavaScript and TypeScript with strict mode template semantics. As Chris mentions, doing so would help provide a number of new capabilities to Ember and Glimmer users:
 
@@ -89,20 +89,19 @@ So if you are interested in contributing please head on over and comment on [the
 
 ## [Defaults & Initial Values in Octane 🔥](https://twitter.com/knownasilya/status/1465902331753644041)
 
-There's a cool new video on Defaults & Initial Values in Octane by [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya
-)! 😎
+There's a cool new video on Defaults & Initial Values in Octane by [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya)! 😎
 
 This video continues [the series](https://www.youtube.com/user/knownasilya/featured) that Ilya has been producing on features and patterns in developing with Ember Octane. In this episode Ilya checks out use of the `localCopy` decorator from [tracked-toolbox](https://github.com/tracked-tools/tracked-toolbox) to define class properties.
 
-If you have haven't seen the video you can find it [here](https://www.youtube.com/watch?v=lLQ7r1w1Ud4).
+If you haven't seen the video you can find it [here](https://www.youtube.com/watch?v=lLQ7r1w1Ud4).
 
 ---
 
 ## [Uploading images to S3 in Ember 📸](https://balinterdi.com/blog/image-uploads-to-s3-in-ember-js/)
 
-Ever wanted to learn more about what it takes to upload files to a service like AWS S3 with Ember? Fortunately there's a great new article by [Balint Erdi (@balinterdi)](https://github.com/balinterdi) on exactly that!
+Ever wanted to learn more about what it takes to upload files to a service like AWS S3 with Ember? Fortunately, there's a great new article by [Balint Erdi (@balinterdi)](https://github.com/balinterdi) on exactly that!
 
-Balint walks us through the high-level architecture, setting up AWS for direct uploads, how to make a request for a pre-signed url and implementing things in Ember (and a backend).
+Balint walks us through the high-level architecture, setting up AWS for direct uploads, how to make a request for a pre-signed url, and implementing things in Ember (and a backend).
 
 Take a look at [the article](https://balinterdi.com/blog/image-uploads-to-s3-in-ember-js/) when you get a chance!
 
