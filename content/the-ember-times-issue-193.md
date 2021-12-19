@@ -62,6 +62,7 @@ We’ve had several addons across the Ember ecosystem release updates recently, 
 - [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) released [ember-sortable v3.0](https://github.com/adopted-ember-addons/ember-sortable/blob/master/CHANGELOG.md#v300-2021-11-29) which removes the component version of the addon (only allows using the modifier version).
 - [Isaac Lee (@ijlee2)](https://github.com/ijlee2) released [ember-container-query v2.0.0-alpha.0](https://github.com/ijlee2/ember-container-query/releases/tag/2.0.0-alpha.0) which drops support for Node v10 and Ember v3.16 LTS, replaces ember-did-resize-modifier with ember-on-resize-modifier and upgrades to be an Embroider v2 addon. If you've been using this addon, please provide any feedback you might have to the maintainer.
 - [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) released [tracked-built-ins v2.0.1](https://github.com/tracked-tools/tracked-built-ins/releases/tag/v2.0.1) which updates to the latest ember-cli-babel.
+
 ---
 
 ## [First-Class Component Templates RFC 📖](https://github.com/emberjs/rfcs/pull/779)
@@ -80,7 +81,7 @@ Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) today
 
 ## [Author Built-In Blueprints in TypeScript RFC in FCP ⌛️](https://github.com/emberjs/rfcs/pull/776)
 
-There's another ✨ awesome ✨ RFC on enabling blueprints to be written in TypeScript by [Chris Freeman (@cafreeman)](https://github.com/cafreeman) that's recently entered its final comment period. 
+There's another ✨ awesome ✨ RFC on enabling blueprints to be written in TypeScript by [Chris Freeman (@cafreeman)](https://github.com/cafreeman) that's recently entered its final comment period.
 
 So if you are interested in contributing please head on over and comment on [the RFC](https://github.com/emberjs/rfcs/pull/776).
 
