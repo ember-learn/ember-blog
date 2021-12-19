@@ -46,9 +46,9 @@ On December 8th Ember.js completed another trip around the 🌞 and turned 10 ye
 
 All of this has been achieved, and more! And as Yehuda points out, all of this doesn't even include our amazing progress on governance and release cadence.
 
-What's more, in honor of the occasion [Mel Sumner (@MelSumner)](https://github.com/MelSumner) created an amazing tribute to the framework we know and 💛💙💜💚🧡 l️ove 💛💙💜💚. The [Why Ember](https://whyember.com/) site is now live! The site contains a ton of information about what makes Ember such a great choice, including resources for those new to the framework or considering migrating and a list of some of awesome addons.
+What's more, in honor of the occasion [Mel Sumner (@MelSumner)](https://github.com/MelSumner) created an amazing tribute to the framework we know and 💛💙💜💚🧡 l️ove 💛💙💜💚🧡. The [Why Ember](https://whyember.com/) site is now live! The site contains a ton of information about what makes Ember such a great choice, including resources for those new to the framework or considering migrating and a list of some of awesome addons.
 
-There have been many, many achievements over the last decade, and our core teams and community alike deserve to be proud of what we have accomplished - congratulations to all! 🎉
+There have been many, many achievements over the last decade, and our core teams and community alike deserve to be proud of what we have accomplished - congratulations to all and we can't wait to see what's next! 🎉🚀
 
 ---
 
