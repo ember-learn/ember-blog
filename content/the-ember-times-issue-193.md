@@ -91,7 +91,7 @@ If you have haven't checked out the video you can find it [here](https://www.you
 
 Ever wanted to learn more about what it takes to upload files to a service like AWS S3 with Ember? Fortunately there's a great new article by [Balint Erdi (@balinterdi)](https://github.com/balinterdi) on exactly that!
 
-Balint walks us through the high-level architecture, setting up AWS for direct uploads, how to make a request for a pre-signed url and implementing things in Ember (and a backend). 
+Balint walks us through the high-level architecture, setting up AWS for direct uploads, how to make a request for a pre-signed url and implementing things in Ember (and a backend).
 
 Take a look at [the article](https://balinterdi.com/blog/image-uploads-to-s3-in-ember-js/) when you get a chance!
 
