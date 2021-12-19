@@ -38,6 +38,7 @@ On December 8th Ember.js completed another trip around the 🌞 and turned 10 ye
 - Landed Embroider, Ember's next generation, drop-in build system that natively supports npm packages, template imports (see above) and webpack bundling (2021). It also (already) supports route-based code-splitting for Ember apps that opt into slightly stricter (idiomatic) code
 - Large, real-world apps have been able to make the migration to route-based code splitting in a matter of a few weeks.
 - All of that doesn't include massive improvements to a11y, very strong TypeScript support (soon maintained officially by the framework team, once the relevant RFCs are approved), migration from a bespoke transpiler to Babel -> 6 -> 7 (transparently to users)
+<!-- alex ignore basically -->
 - SSR with rehydration with only mild strictness restrictions like not using real DOM at the top level of your module (also idiomatic, basically necessary for tests to function well)
 
 All of this has been achieved, and more! And as Yehuda points out, all of this doesn't even include our amazing progress on governance and release cadence.
