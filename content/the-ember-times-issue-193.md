@@ -4,7 +4,7 @@ authors:
   - the-crowd
   - chris-ng
   - jared-galanis
-date: 2021-12-12T00:00:00.000Z
+date: 2021-12-19T00:00:00.000Z
 tags:
   - newsletter
   - '2021'
@@ -15,7 +15,8 @@ tags:
 Happy 10th Birthday Ember 🐹,
 Ember Addon Roundup 🌎,
 First-Class Component Templates RFC 📖,
-Defaults & Initial Values in Octane 🔥
+Defaults & Initial Values in Octane 🔥,
+Uploading images to S3 in Ember 📸
 
 ---
 
@@ -71,7 +72,7 @@ The RFC proposes that we adopt `<template>` tags as a format for making componen
 - authoring more than one component in a single file, where colocation makes sense—and thereby providing more control over a component’s public API
 - likewise authoring locally-scoped helpers, modifiers, and other JavaScript functionality
 
-Go ahead and check out the [RFC today](https://github.com/emberjs/rfcs/pull/779).
+Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) today.
 
 ---
 
@@ -86,51 +87,13 @@ If you have haven't checked out the video you can find it [here](https://www.you
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Uploading images to S3 in Ember 📸](https://balinterdi.com/blog/image-uploads-to-s3-in-ember-js/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Ever wanted to learn more about what it takes to upload files to a service like AWS S3 with Ember? Fortunately there's a great new article by [Balint Erdi (@balinterdi)](https://github.com/balinterdi) on exactly that!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Balint walks us through the high-level architecture, setting up AWS for direct uploads, how to make a request for a pre-signed url and implementing things in Ember (and a backend).
 
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Take a look at [the article](https://balinterdi.com/blog/image-uploads-to-s3-in-ember-js/) when you get a chance!
 
 ---
 
