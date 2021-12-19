@@ -15,6 +15,7 @@ tags:
 Happy 10th Birthday Ember 🐹,
 Ember Addon Roundup 🌎,
 First-Class Component Templates RFC 📖,
+Author Built-In Blueprints in TypeScript RFC in FCP ⌛️,
 Defaults & Initial Values in Octane 🔥,
 Uploading images to S3 in Ember 📸
 
@@ -59,7 +60,8 @@ We’ve had several addons across the Ember ecosystem release updates recently, 
 - [Luke Miela (@lukemiela)](https://github.com/lukemelia) and [Sergey Astapov (@SergeAstapov)](https://github.com/SergeAstapov) released [ember-keyboard 7.0.0-beta.0](https://github.com/adopted-ember-addons/ember-keyboard/releases/tag/v7.0.0-beta.0) which dropped deprecated features in the 6.x series.
 - [Chris Manson (@mansona)](https://github.com/mansona) released the [first version of the ember-cli-addon-docs migrator](https://twitter.com/real_ate/status/1464596213781704713) named [ecad-migrator](https://github.com/empress/ecad-migrator) which helps move your documentation to [Field Guide](https://github.com/empress/field-guide).
 - [Scott Newcomer (@snewcomer)](https://github.com/snewcomer) released [ember-sortable v3.0](https://github.com/adopted-ember-addons/ember-sortable/blob/master/CHANGELOG.md#v300-2021-11-29) which removes the component version of the addon (only allows using the modifier version).
-
+- [Isaac Lee (@ijlee2)](https://github.com/ijlee2) released [ember-container-query v2.0.0-alpha.0](https://github.com/ijlee2/ember-container-query/releases/tag/2.0.0-alpha.0) which drops support for Node v10 and Ember v3.16 LTS, replaces ember-did-resize-modifier with ember-on-resize-modifier and upgrades to be an Embroider v2 addon. If you've been using this addon, please provide any feedback you might have to the maintainer.
+- [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) released [tracked-built-ins v2.0.1](https://github.com/tracked-tools/tracked-built-ins/releases/tag/v2.0.1) which updates to the latest ember-cli-babel.
 ---
 
 ## [First-Class Component Templates RFC 📖](https://github.com/emberjs/rfcs/pull/779)
@@ -73,6 +75,14 @@ The RFC proposes that we adopt `<template>` tags as a format for making componen
 - likewise authoring locally-scoped helpers, modifiers, and other JavaScript functionality
 
 Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) today.
+
+---
+
+## [Author Built-In Blueprints in TypeScript RFC in FCP ⌛️](https://github.com/emberjs/rfcs/pull/776)
+
+There's another ✨ awesome ✨ RFC on enabling blueprints to be written in TypeScript by [Chris Freeman (@cafreeman)](https://github.com/cafreeman) that's recently entered its final comment period. 
+
+So if you are interested in contributing please head on over and comment on [the RFC](https://github.com/emberjs/rfcs/pull/776).
 
 ---
 
