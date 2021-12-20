@@ -53,7 +53,7 @@ first time today, get started by running:
 npm --version
 npx ember-cli@latest new my-project
 cd my-project
-npx ember serve
+npm start
 # Then visit http://localhost:4200
 ```
 
