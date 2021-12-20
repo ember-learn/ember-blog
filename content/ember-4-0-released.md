@@ -120,7 +120,7 @@ Supported browser ranges:
 
 Read more about this change in the [deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_3-0-browser-support-policy) and at Ember's [browser support policy page](https://emberjs.com/browser-support/).
 
-### `ember-auto-import` is now required
+### ember-auto-import is now required
 
 Using Ember 4 or higher requires that the project has version 2.0.0 or later
 of `ember-auto-import` installed. Follow the "How to upgrade" steps above to
