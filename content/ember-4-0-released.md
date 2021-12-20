@@ -184,7 +184,7 @@ For more details on the changes in Ember.js 4.0, please review the
 The following public API, marked as deprecated in Ember 4.0, will be removed in
 Ember 5.0:
 
-- Use of `Ember.assign` is deprecated. You should replace any calls to `Ember.assign` with `Object.assign` or use the object spread operator. See the [deprecation guide](https://deprecations.emberjs.com/v4.x#toc_ember-polyfills-deprecate-assign) for examples.
+- Use of `Ember.assign` is deprecated. You should replace any calls to `Ember.assign` with `Object.assign` or use the [object spread operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax). See the [deprecation guide](https://deprecations.emberjs.com/v4.x#toc_ember-polyfills-deprecate-assign) for examples.
 
 ## Changes in Ember Data 4.0
 
@@ -222,11 +222,11 @@ Visit one of our [community chat groups](https://emberjs.com/community).
 
 Want to help make Ember 4 a success? Here are some things you can do!
 
-- Blog about your experience
-- If someone helps you with a question, consider positing both the question
+- Blog about your experience.
+- If someone helps you with a question, consider posting both the question
   and answer to a public place like Stack Overflow or the Ember Discourse forums,
-  so that others can learn from it
-- Help your favorite addons to upgrade to Ember 4
+  so that others can learn from it.
+- Help your favorite addons to upgrade to Ember 4!
 - Stay tuned via the Ember Times for new features and requests for help
   implementing them.
 
