@@ -208,7 +208,23 @@ For more details on the changes in Ember Data 4.0, please review the
 Ember CLI is the command line interface for managing and packaging Ember.js
 applications.
 
-There are no deprecations, removals, or new features in Ember CLI v4.
+Some notable changes in Ember CLI 4.0 include:
+
+- When generating a new Ember app (`ember new appname`) or addon
+  (`ember addon addonname`) the option `--ci-provider` is now available. This
+  can be passed `travis` or `github` to generate the appropriate CI
+  configuration files. See
+  [ember-cli/ember-cli#9579](https://github.com/ember-cli/ember-cli/pull/9579)
+  for more details.
+- Additionally, the default CI provider for newly generated apps and addons
+  is now GitHub Actions (replacing TravisCI).
+- Ember CLI's `EmberApp` accepts an option `addons` to manually control which
+  installed addons will be run during the build. The properties `exclude`
+  and `include` on this option have been introduced to replace the properties
+  `blacklist` and `whitelist`. The replaced properties will continue to function
+  until they can undergo a full deprecation and major release cycle. This
+  change is in support of [RFC
+  639](https://emberjs.github.io/rfcs/0639-replace-blacklist-whitelist.html).
 
 For more details on the changes in Ember CLI 4.0 and detailed upgrade
 instructions, please review the [Ember CLI 4.0.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.0.0).
