@@ -100,9 +100,9 @@ Follow these steps in order:
    [general Ember upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself)
    for more details about how to upgrade your Ember app/addon.
 
-## What is in Ember 4?
+## Notable changes
 
-### Browser Support in 4.0
+### Browser Support in Ember 4
 
 Ember 4.0 supports two classes of browsers: Evergreen (those on a weeks-long, auto-upgrade release cycle) and non-evergreen. This classification system allows us to create a rolling minimum version for evergreen browsers, while using a more traditional, pinned minimum version for non-evergreen browsers.
 
@@ -120,20 +120,22 @@ Supported browser ranges:
 
 Read more about this change in the [deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_3-0-browser-support-policy) and at Ember's [browser support policy page](https://emberjs.com/browser-support/).
 
-### ember-auto-import is now required
+### ember-auto-import is a required dependency
 
-Using Ember 4 or higher requires that the project has version 2.0.0 or later
-of `ember-auto-import` installed. Follow the "How to upgrade" steps above to
-learn what you need to do.
+Using Ember 4.x requires that your project depends on version 2.0+
+of the [`ember-auto-import` addon](https://github.com/ef4/ember-auto-import).
+Follow the "How to upgrade" steps above to learn how to upgrade.
 
-Why is this change required? `ember-auto-import` supports something we call the
+Why is this dependency required? `ember-auto-import` implements support in
+Ember CLI for something we call the
 [v2 addon
 format](https://emberjs.github.io/rfcs/0507-embroider-v2-package-format.html).
 This specification describes how to publish an Ember CLI addon that has minimal
 build overhead and better compatibility with modern build and analysis tooling
-(think [Webpack](https://webpack.js.org/)). Later in Ember's 4.x release cycle,
+(ala [Webpack](https://webpack.js.org/)). Later in Ember's 4.x release cycle,
 we intend to release framework libraries as v2 addons to take advantage of those
-improvements.
+improvements. Mandating the library is installed for 4.0 prepares Ember projects
+for that eventual change.
 
 ## Changes in Ember.js 4.0
 
@@ -248,7 +250,8 @@ Want to help make Ember 4 a success? Here are some things you can do!
 
 ### Thank You!
 
-Thank you to all the amazing Ember 4.0 contributors. This
+We want to offer a heart-felt **"thank you"** to our the amazing Ember 4.0
+contributors. This
 release was a wide-ranging effort with over 50 API removals in
 the `ember-source` package alone, and required coordination of timelines and
 execution across all Ember's core libraries and teams. Ember is a project
