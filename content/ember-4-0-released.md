@@ -77,13 +77,13 @@ Follow these steps in order:
    include important fixes for how deprecations are presented.
 3. Install `ember-auto-import`
    - If your app does not already have it as a
-   dependency, follow the [`ember-auto-import` installation
-   documentation](https://github.com/ef4/ember-auto-import#installation). The
-   short version is: `npm i --save-dev ember-auto-import webpack`.
+     dependency, follow the [`ember-auto-import` installation
+     documentation](https://github.com/ef4/ember-auto-import#installation). The
+     short version is: `npm i --save-dev ember-auto-import webpack`.
    - If you are already using `ember-auto-import`, make sure you are using `v2`.
-   You can follow
-   [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
-   if you are on an earlier version.
+     You can follow
+     [this upgrade guide](https://github.com/ef4/ember-auto-import/blob/main/docs/upgrade-guide-2.0.md)
+     if you are on an earlier version.
 4. Make sure your app builds successfully.
 5. Resolve all deprecation warnings. Deprecated APIs are removed in Ember 4. You
    may need to upgrade some of your dependencies if they are using deprecated
@@ -110,13 +110,13 @@ Specifically, the Ember 4.x release policy includes support for Google Chrome, M
 
 Supported browser ranges:
 
-* Chrome >= 92
-* Edge >= 93
-* Firefox >= 91
-* iOS >= 12
-* Safari >= 12
-* Chrome Android >= 96
-* Firefox Android >= 94
+- Chrome >= 92
+- Edge >= 93
+- Firefox >= 91
+- iOS >= 12
+- Safari >= 12
+- Chrome Android >= 96
+- Firefox Android >= 94
 
 Read more about this change in the [deprecation guide](https://deprecations.emberjs.com/v3.x/#toc_3-0-browser-support-policy) and at Ember's [browser support policy page](https://emberjs.com/browser-support/).
 
@@ -158,7 +158,7 @@ guide](https://deprecations.emberjs.com/v3.x).
 - `sendAction` is removed in favor of calling closure actions like any other callback. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-component-send-action).
 - `willTransition` and `didTransition` are removed in favor of router service events. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_deprecate-router-events).
 - Computed Property `volatile()` calls are removed in favor of native getters. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_computed-property-volatile).
-- `this.$()` and other jQuery APIs are deprecated in favor of native browser equivalents. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_jquery-apis). An optional feature which restored this and other jQuery-specific features is also removed. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_optional-feature-jquery-integration).
+- `this.$()` and other jQuery APIs have been removed in favor of native browser equivalents. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_jquery-apis). An optional feature which restored jQuery-specific features is also removed. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_optional-feature-jquery-integration).
 - `{{partial}}` is removed in favor of template-only components. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-partial).
 - Using the built-in global resolver (`App.FooController` anyone?) is deprecated in favor of using [ember-resolver](https://github.com/ember-cli/ember-resolver), already the default for Ember CLI generated apps. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_ember-deprecate-globals-resolver).
 - Ambiguous references to a component's properties are removed. You must now write `{{this.someProp}}`. [Guide here](https://deprecations.emberjs.com/v3.x/#toc_this-property-fallback).
