@@ -3,7 +3,7 @@ title: Ember 4.0 released
 authors:
   - jen-weber
   - matthew-beale
-date: 2021-12-06T00:00:00.000Z
+date: 2021-12-20T00:00:00.000Z
 tags:
   - releases
   - '2021'
