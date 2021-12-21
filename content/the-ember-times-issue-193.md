@@ -1,7 +1,6 @@
 ---
 title: The Ember Times - Issue No. 193
 authors:
-  - the-crowd
   - chris-ng
   - jared-galanis
 date: 2021-12-19T00:00:00.000Z
