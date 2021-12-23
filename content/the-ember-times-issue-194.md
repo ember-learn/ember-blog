@@ -1,6 +1,7 @@
 ---
 title: The Ember Times - Issue No. 194
 authors:
+  - chris-ng
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2021-01-02T00:00:00.000Z
 tags:
@@ -11,18 +12,24 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember 4.0 released 🐹,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [Ember 4.0 released 🐹](https://blog.emberjs.com/ember-4-0-released)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Ember released version 4.0 of Ember.js, Ember Data, and Ember CLI. Ember's 4.0 release focuses the framework by removing long-deprecated APIs and support for legacy platforms.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+While [Ember Octane](https://emberjs.com/editions/octane/) APIs have been the default for new applications since Ember 3.15, the framework has continued to support "Classic" framework features in accordance with its semantic versioning commitment. Ember 4.0 takes a step forward and drops already-deprecated classic APIs, however the foundational [EmberComponent](https://api.emberjs.com/ember/release/classes/Component) and [EmberObject](https://api.emberjs.com/ember/release/classes/EmberObject)/[computed](https://api.emberjs.com/ember/release/classes/@ember%2Fobject%2Fcomputed/methods) APIs are not removed in this release.
+
+Notable changes in the Ember 4.0 release includes:
+- Dropping Internet Explorer (IE) [browser support](https://emberjs.com/browser-support/)
+- [ember-auto-import](https://github.com/ef4/ember-auto-import) is a required dependency
+- `Ember.assign` is deprecated in Ember 4.0 and will be removed in Ember 5.0
+- No new public APIs, only bug fixes and removal of previously [deprecated public APIs](https://deprecations.emberjs.com/v3.x/)
+- Ember Data also removed previously [deprecated public APIs](https://deprecations.emberjs.com/ember-data/v3.x/)
+
+For more details on the changes in Ember.js 4.0, please review the [Ember.js 4.0.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.0.0).
 
 ---
 
@@ -136,4 +143,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Chris Ng, and the Learning Team
