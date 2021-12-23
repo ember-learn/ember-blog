@@ -23,6 +23,7 @@ Ember released version 4.0 of Ember.js, Ember Data, and Ember CLI. Ember's 4.0 r
 While [Ember Octane](https://emberjs.com/editions/octane/) APIs have been the default for new applications since Ember 3.15, the framework has continued to support "Classic" framework features in accordance with its semantic versioning commitment. Ember 4.0 takes a step forward and drops already-deprecated classic APIs, however the foundational [EmberComponent](https://api.emberjs.com/ember/release/classes/Component) and [EmberObject](https://api.emberjs.com/ember/release/classes/EmberObject)/[computed](https://api.emberjs.com/ember/release/classes/@ember%2Fobject%2Fcomputed/methods) APIs are not removed in this release.
 
 Notable changes in the Ember 4.0 release includes:
+
 - Dropping Internet Explorer (IE) [browser support](https://emberjs.com/browser-support/)
 - [ember-auto-import](https://github.com/ef4/ember-auto-import) is a required dependency
 - `Ember.assign` is deprecated in Ember 4.0 and will be removed in Ember 5.0
