@@ -44,15 +44,13 @@ In [another episode](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-le
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Ember Templates in Glimmer Cheatsheet 🔥](https://twitter.com/nullvoxpopuli/status/1474037335583080449)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's more content available at the great ✨ Glimmer Cheatsheet ✨ [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has put together!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The cheatsheet has expanded its coverage of how templates work in Ember.js along with some super nice examples of the syntax and notation.
+
+If you haven't had a chance to check it out yet, go ahead and have a look, [here](https://cheatsheet.glimmer.nullvoxpopuli.com/docs/templates)!
 
 ---
 
