@@ -40,7 +40,7 @@ There's a few new episodes of the Whiskey, Web and Whatnot that cover Ember rela
 
 First up is an [awesome episode](https://www.whiskeywebandwhatnot.fm/ember-vs-react-jamstack-and-holes-in-the-hiring-process-with-chris-manson/) that features [Chris Manson (@mansona)](https://github.com/mansona). Creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sat down with Chris and discussed a wide range of topics, including how Chris was introduced to Ember, Husky in open source, what Chris is working on now, `ember-cli-addon-docs`, the complexities of hiring developers and more.
 
-The gang behind Whiskey Web and Whatnot also had a chance to [chat with each other](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-learning-to-code-learning-to-hire-and-taking-the-entrepreneurial-leap/) and talk about the trajectory of Robert's career and how he was introduced to Ember.js, how Robert's fondness for Ember has grown over time through the strength of the community 💛🧡💜💚💙 and how he got involved with the Ember Learning Team.
+In [another episode](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-learning-to-code-learning-to-hire-and-taking-the-entrepreneurial-leap/), the gang behind Whiskey Web and Whatnot also had a chance to chat with each other and talk about the trajectory of Robert's career and how he was introduced to Ember.js, how Robert's fondness for Ember has grown over time through the strength of the community 💛🧡💜💚💙, how he got involved with the Ember Learning Team and a whole lot more!
 
 ---
 
