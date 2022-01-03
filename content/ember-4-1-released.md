@@ -34,8 +34,8 @@ Ember.js 4.1 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 4.1 introduced 2 bug fixes.
 
-1. passing an `ObjectProxy` to `isEmpty` with a property size now throws an assertion.
-2. the router has been updated so that when query params are using a nested value a `Route` can determine if that nested query param is marked as `refreshModel`.
+1. passing an `ObjectProxy` to `isEmpty` with a property size now throws an assertion. ([#17570](https://github.com/emberjs/ember.js/pull/17570))
+2. the router has been updated so that when query params are using a nested value a `Route` can determine if that nested query param is marked as `refreshModel`. ([#18269](https://github.com/emberjs/ember.js/pull/18269))
 
 #### Features
 
