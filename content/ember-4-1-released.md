@@ -6,7 +6,7 @@ date: 2022-01-03T00:00:00.000Z
 tags:
   - releases
   - '2022'
-  - Version-4-1
+  - Version-4-x
 ---
 
 Today the Ember project is releasing version 4.1 of Ember.js, Ember Data, and Ember CLI.
