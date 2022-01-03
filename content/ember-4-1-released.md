@@ -34,15 +34,16 @@ Ember.js 4.1 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 4.1 introduced 2 bug fixes.
 
-1. passing an `ObjectProxy` to `isEmpty` with a property size now throws an assertion ([#17570](https://github.com/emberjs/ember.js/pull/17570)).
-2. the router has been updated so that when query params are using a nested value a `Route` can determine if that nested query param is marked as `refreshModel` ([#18269](https://github.com/emberjs/ember.js/pull/18269)).
+1. Passing an `ObjectProxy` to `isEmpty` with a property size now throws an assertion ([#17570](https://github.com/emberjs/ember.js/pull/17570)).
+2. The router has been updated so that when query params are using a nested value a `Route` can determine if that nested query param is marked as `refreshModel` ([#18269](https://github.com/emberjs/ember.js/pull/18269)).
 
 #### Features
 
-Ember.js 4.1 introduced 2 features.
+Ember.js 4.1 introduced 3 features.
 
 1. There's now a `service` export available from `@ember/service` in favor of the previously used `inject`, which was previously typically aliased upon import to `service` ([#19776](https://github.com/emberjs/ember.js/pull/19776)).
 2. A `refresh` method has been added to the `RouterService` that calls `refresh` on all currently active routes, or if a route name is provided, refreshes only that route provided and its descendants ([#19471](https://github.com/emberjs/ember.js/pull/19471) / [#19834](https://github.com/emberjs/ember.js/pull/19834)).
+3. A `@cached` decorator for memoizing the result of a getter based on autotracking has been added to help when a getter is expensive and used very often ([#19772](https://github.com/emberjs/ember.js/pull/19772) / [#19826](https://github.com/emberjs/ember.js/pull/19826)).
 
 #### Deprecations
 
