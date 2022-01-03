@@ -47,9 +47,9 @@ Ember.js 4.1 introduced 3 features.
 
 #### Deprecations
 
-Ember.js 4.1 introduced 0 deprecations.
+Ember.js 4.1 introduced 1 deprecations.
 
-<!-- Block start: If there were no deprecations, remove this block -->
+1. The `AutoLocation` class, which previously served to support detection of browser support for the History Location API is now deprecated. Virtually all browsers now support the history API, so this is what 'auto' will resolve to in almost every case, rendering the `AutoLocation` class unnecessary. Instead, please set `locationType` in `config/environment.js` to 'history'. ([#19510](https://github.com/emberjs/ember.js/pull/19510)).
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
 
