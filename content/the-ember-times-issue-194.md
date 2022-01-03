@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 194
 authors:
   - chris-ng
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - jared-galanis
 date: 2021-01-02T00:00:00.000Z
 tags:
   - newsletter
@@ -11,8 +11,8 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 Ember 4.0 released 🐹,
+New Episodes of Whiskey, Web and Whatnot 🎙,
 
 ---
 
@@ -34,79 +34,17 @@ For more details on the changes in Ember.js 4.0, please review the [Ember.js 4.0
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [New Episodes of Whiskey, Web and Whatnot 🎙](https://twitter.com/shipshapecode/status/1468948885104115725)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's a few new episodes of the Whiskey, Web and Whatnot that cover Ember related topics and include Ember Learning Core Team members! 🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+First up is an [awesome episode](https://www.whiskeywebandwhatnot.fm/ember-vs-react-jamstack-and-holes-in-the-hiring-process-with-chris-manson/) that features [Chris Manson (@mansona)](https://github.com/mansona). Creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sat down with Chris and discussed a wide range of topics, including how Chris was introduced to Ember, Husky in open source, what Chris is working on now, `ember-cli-addon-docs`, the complexities of hiring developers and more.
+
+The gang behind Whiskey Web and Whatnot also had a chance to [chat with each other](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-learning-to-code-learning-to-hire-and-taking-the-entrepreneurial-leap/) and talk about the trajectory of Robert's career and how he was introduced to Ember.js, how Robert's fondness for Ember has grown over time through the strength of the community 💛🧡💜💚💙 and how he got involved with the Ember Learning Team.
 
 ---
 
 ## [🐹 3. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 4. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 5. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
@@ -144,4 +82,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, and the Learning Team
+Chris Ng, Jared Galanis and the Learning Team
