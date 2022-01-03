@@ -1,15 +1,15 @@
 ---
 title: Ember 4.1 Released
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2022-01-XXT00:00:00.000Z
+  - jared-galanis
+date: 2022-01-03T00:00:00.000Z
 tags:
   - releases
   - '2022'
   - Version-4-1
 ---
 
-Today the Ember project is releasing version 4.1 of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability o4.1 the addition of new features, and have an extended support schedule.--><!-- Block end -->
+Today the Ember project is releasing version 4.1 of Ember.js, Ember Data, and Ember CLI.
 
 This release kicks off the 4.2 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -32,7 +32,10 @@ Ember.js 4.1 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug Fixes
 
-Ember.js 4.1 introduced 0 bug fixes.
+Ember.js 4.1 introduced 2 bug fixes.
+
+1. passing an `ObjectProxy` to `isEmpty` with a property size now throws an assertion.
+2. the router has been updated so that when query params are using a nested value a `Route` can determine if that nested query param is marked as `refreshModel`.
 
 #### Features
 
