@@ -51,7 +51,7 @@ Ember Ignite is an international virtual mini conference scheduled for Wednesday
 Many teams talk about the challenges of hiring and training Ember developers, and this conference tackles those challenges directly.
 Attendees will level up their training and teaching skills in order to build strong teams.
 
-Tickets are donation-based with a suggested amount of $30 USD. Proceeds will go towards creating an open source curriculum for teaching Ember to junior developers and taking a live cohort of 10 junior engineers (with no experience) and teaching them Ember so well, that they'll go toe-to-toe against mid-level UI engineer candidates.
+Tickets are donation-based with a suggested amount of $30 USD. Proceeds will go towards creating an open source curriculum for teaching Ember to junior developers and taking a live cohort of 10 junior engineers (with no experience) and teaching them Ember so well, that they'll go toe-to-toe against mid-level UI engineer candidates. This effort is led by [Jai Bhagat](https://twitter.com/ChaiWithJai).
 
 [Register here](TODO) today!
 
