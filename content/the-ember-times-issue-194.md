@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 194
 authors:
   - chris-ng
+  - bryan-mishkin
   - jared-galanis
 date: 2021-01-05T00:00:00.000Z
 tags:
@@ -12,6 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 Ember 4.0 released 🐹,
+ember-template-lint 4.0 released 🧹,
 New Episodes of Whiskey, Web and Whatnot 🎙,
 
 ---
@@ -31,6 +33,22 @@ Notable changes in the Ember 4.0 release includes:
 - Ember Data also removed previously [deprecated public APIs](https://deprecations.emberjs.com/ember-data/v3.x/)
 
 For more details on the changes in Ember.js 4.0, please review the [Ember.js 4.0.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.0.0).
+
+---
+
+## [ember-template-lint 4.0.0 released 🧹](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0)
+
+[Version 4.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v4.0.0) has been released for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint), the linter for best practices with Ember handlebars templates. Check out the [migration guide](https://github.com/ember-template-lint/ember-template-lint/blob/v4.0.0/docs/migration/v4.md).
+
+The key changes include:
+
+- Converting the entire package to ESM
+- Adding over a dozen rules to the `recommended` config
+- Removing deprecated rules, options, and behaviors
+- Dropping support for old versions of Node
+- Enforcing stricter default behavior for a few rules
+- Enforcing stricter validation of configuration files and rule tests
+- Enforcing a strictly-defined public Node API
 
 ---
 
@@ -93,4 +111,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Jared Galanis and the Learning Team
+Chris Ng, Bryan Mishkin, Jared Galanis and the Learning Team
