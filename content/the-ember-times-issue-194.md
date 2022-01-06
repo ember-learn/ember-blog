@@ -44,7 +44,7 @@ In [another episode](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-le
 
 ---
 
-## [Ember Ignite virtual mini conference 🔥](TODO)
+## [Ember Ignite virtual mini conference 🔥](https://www.eventbrite.com/e/ember-ignite-tickets-232969998537)
 
 Ember Ignite is an international virtual mini conference scheduled for Wednesday, February 23rd!
 
@@ -53,7 +53,7 @@ Attendees will level up their training and teaching skills in order to build str
 
 Tickets are donation-based with a suggested amount of $30 USD. Proceeds will go towards creating an open source curriculum for teaching Ember to junior developers and taking a live cohort of 10 junior engineers (with no experience) and teaching them Ember so well, that they'll go toe-to-toe against mid-level UI engineer candidates. This effort is led by [Jai Bhagat](https://twitter.com/ChaiWithJai).
 
-[Register here](TODO) today!
+[Register here](https://www.eventbrite.com/e/ember-ignite-tickets-232969998537) today!
 
 ---
 
