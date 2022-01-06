@@ -44,6 +44,19 @@ In [another episode](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-le
 
 ---
 
+## [Ember Ignite virtual mini conference 🔥](TODO)
+
+Ember Ignite is an international virtual mini conference scheduled for Wednesday, February 23rd!
+
+Many teams talk about the challenges of hiring and training Ember developers, and this conference tackles those challenges directly.
+Attendees will level up their training and teaching skills in order to build strong teams.
+
+Tickets are donation-based with a suggested amount of $30 USD. Proceeds will go towards creating an open source curriculum for teaching Ember to junior developers and taking a live cohort of 10 junior engineers (with no experience) and teaching them Ember so well, that they'll go toe-to-toe against mid-level UI engineer candidates.
+
+[Register here](TODO) today!
+
+---
+
 ## [Ember Templates in Glimmer Cheatsheet 🔥](https://twitter.com/nullvoxpopuli/status/1474037335583080449)
 
 There's more content available at the great ✨ Glimmer Cheatsheet ✨ [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has put together!
