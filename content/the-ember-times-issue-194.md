@@ -13,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember 4.0 released 🐹,
+Ember 4.0 and 4.1 released 🐹,
 ember-template-lint 4.0 released 🧹,
 New Episodes of Whiskey, Web and Whatnot 🎙,
 Ember Ignite virtual mini conference 🔥,
@@ -21,7 +21,7 @@ Ember Templates in Glimmer Cheatsheet 📚,
 
 ---
 
-## [Ember 4.0 released 🐹](https://blog.emberjs.com/ember-4-0-released)
+## [Ember 4.0 and 4.1 released 🐹](https://blog.emberjs.com/ember-4-0-released)
 
 Ember released version 4.0 of Ember.js, Ember Data, and Ember CLI. Ember's 4.0 release focuses the framework by removing long-deprecated APIs and support for legacy platforms.
 
@@ -36,6 +36,8 @@ Notable changes in the Ember 4.0 release includes:
 - Ember Data also removed previously [deprecated public APIs](https://deprecations.emberjs.com/ember-data/v3.x/)
 
 For more details on the changes in Ember.js 4.0, please review the [Ember.js 4.0.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.0.0).
+
+Want to hear about an added bonus? Hot on the heels of 4.0, Ember 4.1 was also released this week and it introduced 3 features `service` export, `refresh` method from `RouterService`, and a `cached` decorator. It also introduced the deprecation of `AutoLocation`. Ember Data and Ember CLI did not introduce notable changes. See more about the 4.1 release [at](https://blog.emberjs.com/ember-4-1-released/).
 
 ---
 
