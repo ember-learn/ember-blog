@@ -4,6 +4,7 @@ authors:
   - chris-ng
   - bryan-mishkin
   - jared-galanis
+  - jen-weber
 date: 2021-01-05T00:00:00.000Z
 tags:
   - newsletter
@@ -15,6 +16,8 @@ tags:
 Ember 4.0 released 🐹,
 ember-template-lint 4.0 released 🧹,
 New Episodes of Whiskey, Web and Whatnot 🎙,
+Ember Ignite virtual mini conference 🔥,
+Ember Templates in Glimmer Cheatsheet 📚,
 
 ---
 
@@ -75,7 +78,7 @@ Tickets are donation-based with a suggested amount of $30 USD. Proceeds will go 
 
 ---
 
-## [Ember Templates in Glimmer Cheatsheet 🔥](https://twitter.com/nullvoxpopuli/status/1474037335583080449)
+## [Ember Templates in Glimmer Cheatsheet 📚](https://twitter.com/nullvoxpopuli/status/1474037335583080449)
 
 There's more content available at the great ✨ Glimmer Cheatsheet ✨ [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has put together!
 
@@ -111,4 +114,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Bryan Mishkin, Jared Galanis and the Learning Team
+Chris Ng, Bryan Mishkin, Jared Galanis, Jen Weber and the Learning Team
