@@ -19,9 +19,9 @@ Ember at LinkedIn Eng 2022 🎉,
 Why Ember at Gavant 💛,
 ember-template-lint 4.0 released 🧹,
 ember-focus-trap 1.0 released 🛳,
-New Polyfill for Plain Functions as Modifiers ✨,
+Polyfill for Plain Functions as Modifiers ✨,
 Ember Templates in Glimmer Cheatsheet 📚,
-New Episodes of Whiskey, Web and Whatnot 🎙
+Whiskey, Web and Whatnot Episodes 🎙
 
 ---
 
@@ -96,13 +96,13 @@ The key changes include:
 
 ---
 
-## [ember-focus-trap 1.0 released 🛳,](https://github.com/josemarluedke/ember-focus-trap/releases/tag/v1.0.0)
+## [ember-focus-trap 1.0 released 🛳](https://github.com/josemarluedke/ember-focus-trap/releases/tag/v1.0.0)
 
 [Version v1.0.0](https://github.com/josemarluedke/ember-focus-trap/releases/tag/v1.0.0) of `ember-focus-trap` was released recently by [Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) bringing some upgrades (to Ember 4!), enhancements (moving to v2 addon format and a monorepo setup) and bug fixes (removal of redundant code for return focus node).
 
 ---
 
-## [New Polyfill for Plain Functions as Modifiers ✨](https://twitter.com/nullvoxpopuli/status/1479971937707245568?s=20)
+## [Polyfill for Plain Functions as Modifiers ✨](https://twitter.com/nullvoxpopuli/status/1479971937707245568?s=20)
 
 There's a cool 😎 new polyfill for [plain functions as modifiers](https://github.com/NullVoxPopuli/ember-functions-as-modifiers-polyfill) by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) you might want to check out!
 
@@ -119,7 +119,7 @@ If you haven't had a chance to check it out yet, go ahead and have a look, [here
 
 ---
 
-## [New Episodes of Whiskey, Web and Whatnot 🎙](https://twitter.com/shipshapecode/status/1468948885104115725)
+## [Whiskey, Web and Whatnot Episodes 🎙](https://twitter.com/shipshapecode/status/1468948885104115725)
 
 There's a few new episodes of the Whiskey, Web and Whatnot that cover Ember related topics and include Ember Learning Core Team members! 🔥
 
