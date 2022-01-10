@@ -15,9 +15,10 @@ tags:
 
 Ember 4.0 and 4.1 released 🐹,
 ember-template-lint 4.0 released 🧹,
-New Episodes of Whiskey, Web and Whatnot 🎙,
+Ember at LinkedIn Eng 2022 🎉,
 Ember Ignite virtual mini conference 🔥,
 Ember Templates in Glimmer Cheatsheet 📚,
+New Episodes of Whiskey, Web and Whatnot 🎙,
 
 ---
 
@@ -57,13 +58,13 @@ The key changes include:
 
 ---
 
-## [New Episodes of Whiskey, Web and Whatnot 🎙](https://twitter.com/shipshapecode/status/1468948885104115725)
+## [Ember at LinkedIn Eng 2022 🎉](https://twitter.com/AxleHellfire/status/1478186542954733568)
 
-There's a few new episodes of the Whiskey, Web and Whatnot that cover Ember related topics and include Ember Learning Core Team members! 🔥
+If you're interested in hearing about how Ember is being used at LinkedIn in the LTS UI Infra team, you should check out the recent tweet thread 🧵 by [Jordan Hawker (@elwayman02)](https://github.com/elwayman02).
 
-First up is an [awesome episode](https://www.whiskeywebandwhatnot.fm/ember-vs-react-jamstack-and-holes-in-the-hiring-process-with-chris-manson/) that features [Chris Manson (@mansona)](https://github.com/mansona). Creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sat down with Chris and discussed a wide range of topics, including how Chris was introduced to Ember, Husky in open source, what Chris is working on now, `ember-cli-addon-docs`, the complexities of hiring developers and more.
+Jordan calls out many of the impressive achievements that the team has been able to deliver thus far, in part due to the power of Ember 🔥, and what is in store for 2022, including Embroider builds in production, completing Octane migrations, leveraging yarn workspaces and rolling out SSR!
 
-In [another episode](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-learning-to-code-learning-to-hire-and-taking-the-entrepreneurial-leap/), the gang behind Whiskey Web and Whatnot also had a chance to chat with each other and talk about the trajectory of Robert's career and how he was introduced to Ember.js, how Robert's fondness for Ember has grown over time through the strength of the community 💛🧡💜💚💙, how he got involved with the Ember Learning Team and a whole lot more!
+You may want to check out [the thread](https://twitter.com/AxleHellfire/status/1478186542954733568) for all of these reasons, but an added bonus is that this team at LinkedIn is hiring so take a look if you're in the market for a new position!
 
 ---
 
@@ -87,6 +88,16 @@ There's more content available at the great ✨ Glimmer Cheatsheet ✨ [NullVoxP
 The cheatsheet has expanded its coverage of how templates work in Ember.js along with some super nice examples of the syntax and notation.
 
 If you haven't had a chance to check it out yet, go ahead and have a look, [here](https://cheatsheet.glimmer.nullvoxpopuli.com/docs/templates)!
+
+---
+
+## [New Episodes of Whiskey, Web and Whatnot 🎙](https://twitter.com/shipshapecode/status/1468948885104115725)
+
+There's a few new episodes of the Whiskey, Web and Whatnot that cover Ember related topics and include Ember Learning Core Team members! 🔥
+
+First up is an [awesome episode](https://www.whiskeywebandwhatnot.fm/ember-vs-react-jamstack-and-holes-in-the-hiring-process-with-chris-manson/) that features [Chris Manson (@mansona)](https://github.com/mansona). Creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sat down with Chris and discussed a wide range of topics, including how Chris was introduced to Ember, Husky in open source, what Chris is working on now, `ember-cli-addon-docs`, the complexities of hiring developers and more.
+
+In [another episode](https://www.whiskeywebandwhatnot.fm/robbies-origin-story-learning-to-code-learning-to-hire-and-taking-the-entrepreneurial-leap/), the gang behind Whiskey Web and Whatnot also had a chance to chat with each other and talk about the trajectory of Robert's career and how he was introduced to Ember.js, how Robert's fondness for Ember has grown over time through the strength of the community 💛🧡💜💚💙, how he got involved with the Ember Learning Team and a whole lot more!
 
 ---
 
