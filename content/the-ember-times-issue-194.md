@@ -104,7 +104,7 @@ The key changes include:
 
 [New Polyfill for Plain Functions as Modifiers ✨](https://twitter.com/nullvoxpopuli/status/1479971937707245568?s=20)
 
-There's a cool 😎 new polyfill for [plain functions as modifiers](https://github.com/NullVoxPopuli/ember-functions-as-modifiers-polyfill) by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) you might want to check out! 
+There's a cool 😎 new polyfill for [plain functions as modifiers](https://github.com/NullVoxPopuli/ember-functions-as-modifiers-polyfill) by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) you might want to check out!
 
 
 ---
