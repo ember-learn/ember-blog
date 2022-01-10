@@ -3,8 +3,8 @@ title: The Ember Times - Issue No. 194
 authors:
   - chris-ng
   - bryan-mishkin
-  - jared-galanis
   - jen-weber
+  - jared-galanis
 date: 2022-01-09T00:00:00.000Z
 tags:
   - newsletter
@@ -21,7 +21,7 @@ ember-template-lint 4.0 released 🧹,
 ember-focus-trap 1.0 released 🛳,
 New Polyfill for Plain Functions as Modifiers ✨,
 Ember Templates in Glimmer Cheatsheet 📚,
-New Episodes of Whiskey, Web and Whatnot 🎙,
+New Episodes of Whiskey, Web and Whatnot 🎙
 
 ---
 
@@ -155,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Chris Ng, Bryan Mishkin, Jared Galanis, Jen Weber and the Learning Team
+Chris Ng, Bryan Mishkin, Jen Weber, Jared Galanis and the Learning Team
