@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 195
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2022-XX-XXT00:00:00.000Z
+  - jared-galanis
+date: 2022-01-23T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Jared Galanis and the Learning Team
