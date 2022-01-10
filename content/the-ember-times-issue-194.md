@@ -68,7 +68,7 @@ You may want to check out [the thread](https://twitter.com/AxleHellfire/status/1
 
 ---
 
-[Why Ember at Gavant 💛](https://www.gavant.com/library/ember-as-a-frontend-framework/)
+## [Why Ember at Gavant 💛](https://www.gavant.com/library/ember-as-a-frontend-framework/)
 
 There's a nice article by [Bill Dami (@billdami)](https://github.com/billdami) at Gavant describing why they chose Ember for their project and how it has benefited them! 👏
 
@@ -102,7 +102,7 @@ The key changes include:
 
 ---
 
-[New Polyfill for Plain Functions as Modifiers ✨](https://twitter.com/nullvoxpopuli/status/1479971937707245568?s=20)
+## [New Polyfill for Plain Functions as Modifiers ✨](https://twitter.com/nullvoxpopuli/status/1479971937707245568?s=20)
 
 There's a cool 😎 new polyfill for [plain functions as modifiers](https://github.com/NullVoxPopuli/ember-functions-as-modifiers-polyfill) by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) you might want to check out!
 
