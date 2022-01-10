@@ -5,10 +5,10 @@ authors:
   - bryan-mishkin
   - jared-galanis
   - jen-weber
-date: 2021-01-05T00:00:00.000Z
+date: 2022-01-09T00:00:00.000Z
 tags:
   - newsletter
-  - '2021'
+  - '2022'
 ---
 
 👋 Emberistas! 🐹
