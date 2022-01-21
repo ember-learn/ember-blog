@@ -60,12 +60,15 @@ To upgrade to using these types:
 4. **Update the core Ember and Ember Data types.** This may mean doing a fair bit of cleanup across your code base to bring things in line with the stricter and more robust types we now supply.
 
     * Upgrade `@types/ember` to `"~4.0"`.
+
     * Upgrade all `@types/ember__*` *except* `@types/ember__string` and `@types/ember__test-helpers` to `"~4.0"`.
+
     * Upgrade `@types/ember-data__*` to `"~4.0"`.
 
 5. **Update related types packages.** Some `@ember/*` packages are versioned separately from the packages in `ember-source` and so need their own updates:
 
     * Update `@types/ember__string` to `"~3.0"`.
+
     * Update `@ember/test-helpers` to `"~2.6"`. **This will not compile until you complete step 6 below.**
 
 6. **Update testing infrastructure.** While these packages are technically independent of the Ember major version, coordinating this particular upgrade required updating them in parallel.
@@ -96,8 +99,7 @@ We hope (and fully expect!) this to be the last major release of Ember’s types
 
 * More generally, having types as first-class parts of every design discussion means that new APIs will be TypeScript-friendly automatically. (Many older Ember APIs are *very* unfriendly to TypeScript!)
 
-<!-- alex ignore just -->
-* The supported TypeScript versions will be documented clearly, just like with Node and browsers, making it easier for you to know what you should do to stay up to date.
+* <!-- alex ignore just --> The supported TypeScript versions will be documented clearly, just like with Node and browsers, making it easier for you to know what you should do to stay up to date.
 
 * Breaking changes in one package will not necessarily cause breaking changes in other packages. The updates to the test infrastructure types, for example, will not breaking in the future!
 
