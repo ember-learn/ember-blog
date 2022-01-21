@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 195
 authors:
   - jared-galanis
+  - chris-ng
 date: 2022-01-23T00:00:00.000Z
 tags:
   - newsletter
@@ -11,6 +12,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+RFC: Add Ember Cookbook 🍳,
 
 ---
 
@@ -26,15 +28,15 @@ tags:
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [RFC: Add Ember Cookbook 🍳](https://github.com/emberjs/rfcs/pull/786)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ketaki Deo (@ketakideo)](https://github.com/ketakideo) opened an [RFC](https://github.com/emberjs/rfcs/pull/786) to add a cookbook section to our learning resources that will help Ember developers to learn maintainable, accessible patterns for common tasks.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Today, the Ember docs are missing [how-to guides](https://documentation.divio.com/how-to-guides/) that would provide goal-oriented answers and patterns to common problems Ember developers face on a daily basis. This [used to be available in v1.12](https://guides.emberjs.com/v1.12.0/cookbook/) but was removed in v1.13.
+
+These types of content exist today in the form of blogs, stackoverflow answers and efforts like [Ember Atlas](https://www.notion.so/emberatlas/The-Ember-Atlas-4094f81c86c34badb4a562ed29414ae1) but they are not discoverable and can sometimes be incorrect. The proposed Ember Cookbook will be managed and curated by the Ember Learning team which will work closely with the Ember Core team on upgrades to add, modify or delete information as needed.
+
+Read, comment, and discuss this proposal in the [RFC on Github](https://github.com/emberjs/rfcs/pull/786)!
 
 ---
 
@@ -136,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis and the Learning Team
+Jared Galanis, Chris Ng, and the Learning Team
