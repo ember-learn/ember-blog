@@ -1,7 +1,7 @@
 ---
 title: Ember v4 TypeScript Support Update
 authors:
-  - chriskrycho
+  - chris-krycho
 date: 2022-01-25T00:00:00.000Z
 tags:
   - '2022'
