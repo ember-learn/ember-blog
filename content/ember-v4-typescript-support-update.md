@@ -81,6 +81,12 @@ To upgrade to using these types:
 
 Once everything is compiling again, you will be good to go!
 
+**Note:** you *must* generate a new lockfile, use yarn `resolutions`, or manually delete all of these `@types` package versions from your existing lock file when doing the upgrade, or you will certainly see conflicts between existing (transitive) dependencies on these types and your updated versions. This is the result of two things which are reasonable on their own but do not work together well:
+
+* TypeScript can only type check successfully if there is only a single representation of a given type (for example, `EmberObject`). If it ends up with conflicting definitions of the same type, it has to give up because it does not know what it should choose.
+
+* npm and Yarn both try to preserve existing transitive dependencies and installing new copies when you bump a version. This is the safest behavior for runtime dependencies! It means that if you update a top-level dependency, if some other package is depending on a different version of it transitively, that other package does not break.
+
 
 ## What if I get stuck?
 
