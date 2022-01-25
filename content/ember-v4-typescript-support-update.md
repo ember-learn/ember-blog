@@ -9,7 +9,11 @@ tags:
 
 ---
 
-The [Typed Ember](https://github.com/typed-ember) team—[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), and [James Davis (@jamescdavis)](https://github.com/jamescdavis)—is happy to announce that the `@types` type definition packages, maintained on [Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped), now have full support for Ember 4.x! This is *two major changes* with *two big benefits*.
+The [Typed Ember](https://github.com/typed-ember) team—[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), and [James Davis (@jamescdavis)](https://github.com/jamescdavis)—is happy to announce that the `@types` type definition packages, maintained on [Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped), now have full support for Ember 4.x!
+
+[TypeScript](https://www.typescriptlang.org) is "JavaScript with syntax for types.… a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale." Using Ember will never require using TypeScript, but we aim to provide a best-in-class experience of using TypeScript, with benefits for JavaScript users too. Want to try it out? Follow [the docs](https://docs.ember-cli-typescript.com) for [ember-cli-typescript](https://github.com/typed-ember/ember-cli-typescript).
+
+This update for Ember v4 types brings *two major changes* with *two big benefits*.
 
 The two major changes:
 

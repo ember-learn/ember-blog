@@ -1,5 +1,5 @@
 ---
-name: Typescript
+name: TypeScript
 image:
 imageMeta:
 ---
