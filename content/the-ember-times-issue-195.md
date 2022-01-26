@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 195
 authors:
   - jared-galanis
   - chris-ng
+  - jen-weber
 date: 2022-01-23T00:00:00.000Z
 tags:
   - newsletter
@@ -16,15 +17,15 @@ RFC: Add Ember Cookbook 🍳,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [🐹 1. Submit your questions for the Ember Framework AMA, Feb 4th](section-url)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+On February 4th at 2pm Eastern Time, the Ember.js Framework team will livestream some community questions and answers.
+Would you like to submit a question or two?
+Use the Ember Times reader question form, <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>.
+"AMA" stands for "ask me anything - the team would love to hear what you are wondering about!
+  
+Livestream details will be posted on the [Ember.js Twitter](https://twitter.com/emberjs).
+The session will be recorded and published online, so if you miss the livestream, don't sweat it.
 
 ---
 
