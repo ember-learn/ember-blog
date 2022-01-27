@@ -17,6 +17,10 @@ Submit your questions for the Ember Framework AMA, Feb 4th 🙋‍♀,
 RFC: Add Ember Cookbook 🍳,
 Ember.js Triaging Office Hours 📚,
 Pass me the remote - meetup recordings about V2 addon format and teaching Ember 📹,
+Mel Sumner on the ShopTalkShow Podcast 🎙,
+Router Analysis Survey 🚀,
+How to's with Ember 🔥,
+Ember Addon Roundup 🌎
 
 ---
 
@@ -69,69 +73,45 @@ for teaching junior developers. Check out the videos!
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [Mel Sumner on the ShopTalkShow Podcast 🎙](https://shoptalkshow.com/499/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Ember Core team member [Melanie Sumner (@melsumner)](https://github.com/melsumner) recently appeared on [the Shop Talk Show podcast](https://shoptalkshow.com/499/) and shared experiences involving Ember, the importance of accessibility, and the web. ✨✨✨
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you have haven't had a chance to check it out, give it a [listen](https://shoptalkshow.com/499/).
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Router Analysis Survey 🚀](https://twitter.com/melaniersumner/status/1483476954926002182)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you're interested in providing feedback about Ember's router there's a cool [survey](https://airtable.com/shrtkMbAydgP7ecNK) you can participate in. You may end up helping shape the future of the Ember router by doing so! 😎
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## How to's with Ember 🔥
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) announced several new awesome example Ember repo's for [Wordle](https://twitter.com/nullvoxpopuli/status/1485438520604909575), [Tailwind](https://twitter.com/nullvoxpopuli/status/1485438520604909575) and [Embroider](https://twitter.com/nullvoxpopuli/status/1485281759415738372?s=20).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Be sure to check them out when you have a chance!
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## Ember Addon Roundup 🌎
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We’ve had several addons across the Ember ecosystem release updates recently, here’s what you may have missed and reasons to upgrade!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [Chris Manson (@mansona)](https://github.com/mansona) and [Sergey Astapov (@SergeAstapov)](https://github.com/SergeAstapov) released `ember-get-config` [v1.0.0](https://twitter.com/real_ate/status/1480910700088287239) which adds embroider support;
+- [Luke Melia (@lukemelia)](https://github.com/lukemelia) released `ember-keyboard` [7.0.0](https://twitter.com/lukemelia/status/1481002644508397572) which is compatible with Ember 4;
+- [Alex Kanunnikov (@lifeart)](https://github.com/lifeart) released `UELS` [v3.0.11](https://github.com/lifeart/vscode-ember/releases/tag/v3.0.11) with ember-template-lint v4 support;
+- [Brian Gantzler (@cah-briangantzler)](https://github.com/cah-briangantzler), [Edward Faulkner (@ef4)](https://github.com/ef4), [Mikhail Topolskiy (@whatthewhat)](https://github.com/whatthewhat), [Rahul Kumar (@rahulk94)](https://github.com/rahulk94), [Sergey Astapov (@SergeAstapov)](https://github.com/SergeAstapov) released `ember-cli-mirage` [v2.3.0](https://github.com/miragejs/ember-cli-mirage/releases/tag/v2.3.0);
+- [Tobias Bieniek (@Turbo87)](https://github.com/Turbo87) announced [new documentation](https://twitter.com/TobiasBieniek/status/1481664901231910918) for `ember-error-route`;
+- [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) released `ember-toggle` [v9.0.0](https://twitter.com/knownasilya/status/1481436036802793472) which adds caching to some getters performance and also drops support for Ember < 3.24; and
+- [Steve (@st-h)](https://github.com/st-h) released an octane ready [version of `ember-content-editable`](https://discord.com/channels/480462759797063690/480499624663056390/931947161476825118) and an Ember 4.x compatible version of [`ember-stripe-elements`](https://www.npmjs.com/package/@adopted-ember-addons/ember-stripe-elements).
 
 ---
 
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/shamrt" rel="noopener noreferrer" target="_blank">Shane Martin (@shamrt)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/sandstrom" rel="noopener noreferrer" target="_blank">@sandstrom</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/scalvert" rel="noopener noreferrer" target="_blank">Steve Calvert (@scalvert)</a>, <a href="https://github.com/cafreeman" rel="noopener noreferrer" target="_blank">Chris Freeman (@cafreeman)</a>, <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/st-h" rel="noopener noreferrer" target="_blank">Steve (@st-h)</a>, <a href="https://github.com/linearza" rel="noopener noreferrer" target="_blank">@linearza</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/fozy81" rel="noopener noreferrer" target="_blank">Tim (@fozy81)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/knownasilya" rel="noopener noreferrer" target="_blank">Ilya Radchenko (@knownasilya)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/denik1981" rel="noopener noreferrer" target="_blank">Demian Caldelas (@denik1981)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/jrjohnson" rel="noopener noreferrer" target="_blank">Jonathan Johnson (@jrjohnson)</a>, <a href="https://github.com/vihai" rel="noopener noreferrer" target="_blank">Daniele Orlandi (@vihai)</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/boris-petrov" rel="noopener noreferrer" target="_blank">Boris Petrov (@boris-petrov)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/charlesfries" rel="noopener noreferrer" target="_blank">Charles Fries (@charlesfries)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, and <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
