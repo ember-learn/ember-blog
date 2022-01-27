@@ -59,7 +59,7 @@ If you want to learn how to reproduce bugs, learn how to figure out if issues ar
 
 ## [Ember v4 TypeScript Support Update ✨](https://blog.emberjs.com/ember-v4-typescript-support-update)
 
-If you didn't notice, there's a new blog post by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho/) on the Ember blog about support for TypeScript in Ember 4.x! 
+If you didn't notice, there's a new blog post by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho/) on the Ember blog about support for TypeScript in Ember 4.x!
 
 The Typed Ember team has provided a ton of great detail on the latest in using TypeScript in Ember so go give [the post](https://blog.emberjs.com/ember-v4-typescript-support-update) a read today!
 
