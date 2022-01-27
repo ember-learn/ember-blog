@@ -51,21 +51,16 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 
 ## [Ember.js Triaging Office Hours 📚](https://discord.com/channels/@me/514450883774382122/936050318259662938)
   
-[@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/) has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many other.
+[@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/) has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many others.
 If you want to learn how to reproduce bugs, learn how to figure out if issues are still relevant, or you want to help Ember keep their project tidy, join locks at the `#issue-triage` channel of Ember's Discord every [Thursday at 15h GMT](https://meetingzone.app/utc/thursday/1500).
   
 ---
 
 ## [Pass me the remote - meetup recordings about V2 addon format and teaching Ember 📹](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
 
-With the new year and a new major version of Ember,
-remote events are in full swing, with recordings available
-so that Ember developers around the world can particiapte.
+With the new year and a new major version of Ember, remote events are in full swing, with recordings available so that Ember developers around the world can participate.
 
-Earlier this month,
-the Boston Ember Community meetup gathered remotely to learn
-about V2 addon formats and how Ember is a great tool
-for teaching junior developers. Check out the videos!
+Earlier this month, the Boston Ember Community meetup gathered remotely to learn about V2 addon formats and how Ember is a great tool for teaching junior developers. Check out the videos!
 
 [Ember CLI Addon Evolution](https://www.youtube.com/watch?v=5m40BCh3BGk) - Robert Jackson
 
@@ -77,7 +72,7 @@ for teaching junior developers. Check out the videos!
 
 Ember Core team member [Melanie Sumner (@melsumner)](https://github.com/melsumner) recently appeared on [the Shop Talk Show podcast](https://shoptalkshow.com/499/) and shared experiences involving Ember, the importance of accessibility, and the web. ✨✨✨
 
-If you have haven't had a chance to check it out, give it a [listen](https://shoptalkshow.com/499/).
+If you haven't had a chance to check it out, give it a [listen](https://shoptalkshow.com/499/).
 
 ---
 
