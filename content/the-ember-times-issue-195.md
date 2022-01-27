@@ -26,7 +26,7 @@ Ember Addon Roundup 🌎
 
 ## [Submit your questions for the Ember Framework AMA, Feb 4th 🙋‍♀️](https://bit.ly/ask-ember-core)
 
-On February 4th at 2pm Eastern Time, the Ember.js Framework team will livestream some community questions and answers.
+On February 4th at 2 pm Eastern Time, the Ember.js Framework team will livestream some community questions and answers.
 Would you like to submit a question or two?
 
 Use the Ember Times reader question form, <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>.
@@ -51,7 +51,7 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 
 ## [Ember.js Triaging Office Hours 📚](https://discord.com/channels/@me/514450883774382122/936050318259662938)
   
-[@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/) has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many others.
+[@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/), has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many others.
 If you want to learn how to reproduce bugs, learn how to figure out if issues are still relevant, or you want to help Ember keep their project tidy, join locks at the `#issue-triage` channel of Ember's Discord every [Thursday at 15h GMT](https://meetingzone.app/utc/thursday/1500).
   
 ---
