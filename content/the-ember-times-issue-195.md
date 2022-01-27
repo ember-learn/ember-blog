@@ -41,6 +41,13 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 
 ---
 
+## [Ember.js Triaging Office Hours](https://discord.com/channels/@me/514450883774382122/936050318259662938)
+  
+[@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/) has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many other.
+If you want to learn how to reproduce bugs, learn how to figure out if issues are still relevant, or you want to help Ember keep their project tidy, join locks at the `#issue-triage` channel of Ember's Discord every [Thursday at 15h GMT](https://meetingzone.app/utc/thursday/1500).
+  
+---
+
 ## [🐹 3. Pass me the remote - meetup recordings about V2 addon format and teaching Ember](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
 
 With the new year and a new major version of Ember,
