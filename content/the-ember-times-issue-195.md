@@ -16,6 +16,7 @@ tags:
 Submit your questions for the Ember Framework AMA, Feb 4th 🙋‍♀,
 RFC: Add Ember Cookbook 🍳,
 Ember.js Triaging Office Hours 📚,
+Pass me the remote - meetup recordings about V2 addon format and teaching Ember 📹,
 
 ---
 
@@ -51,7 +52,7 @@ If you want to learn how to reproduce bugs, learn how to figure out if issues ar
   
 ---
 
-## [🐹 3. Pass me the remote - meetup recordings about V2 addon format and teaching Ember](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
+## [Pass me the remote - meetup recordings about V2 addon format and teaching Ember 📹](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
 
 With the new year and a new major version of Ember,
 remote events are in full swing, with recordings available
