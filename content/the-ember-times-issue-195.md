@@ -45,14 +45,23 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
   
 [@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/) has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many other.
 If you want to learn how to reproduce bugs, learn how to figure out if issues are still relevant, or you want to help Ember keep their project tidy, join locks at the `#issue-triage` channel of Ember's Discord every [Thursday at 15h GMT](https://meetingzone.app/utc/thursday/1500).
+  
+---
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+## [🐹 3. Pass me the remote - meetup recordings about V2 addon format and teaching Ember](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+With the new year and a new major version of Ember,
+remote events are in full swing, with recordings available
+so that Ember developers around the world can particiapte.
+
+Earlier this month,
+the Boston Ember Community meetup gathered remotely to learn
+about V2 addon formats and how Ember is a great tool
+for teaching junior developers. Check out the videos!
+
+[Ember CLI Addon Evolution](https://www.youtube.com/watch?v=5m40BCh3BGk) - Robert Jackson
+
+[Why new developers should learn Ember.js](https://www.youtube.com/watch?v=1QoHyJUwZyk) - Ankush Dharkar
 
 ---
 
