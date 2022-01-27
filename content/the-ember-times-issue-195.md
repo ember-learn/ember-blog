@@ -41,15 +41,20 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [🐹 3. Pass me the remote - meetup recordings about V2 addon format and teaching Ember](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+With the new year and a new major version of Ember,
+remote events are in full swing, with recordings available
+so that Ember developers around the world can particiapte.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Earlier this month,
+the Boston Ember Community meetup gathered remotely to learn
+about V2 addon formats and how Ember is a great tool
+for teaching junior developers. Check out the videos!
+
+[Ember CLI Addon Evolution](https://www.youtube.com/watch?v=5m40BCh3BGk) - Robert Jackson
+
+[Why new developers should learn Ember.js](https://www.youtube.com/watch?v=1QoHyJUwZyk) - Ankush Dharkar
 
 ---
 
