@@ -4,7 +4,8 @@ authors:
   - jared-galanis
   - chris-ng
   - jen-weber
-date: 2022-01-23T00:00:00.000Z
+  - ricardo-mendes
+date: 2022-01-26T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
@@ -12,15 +13,17 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Submit your questions for the Ember Framework AMA, Feb 4th 🙋‍♀,
 RFC: Add Ember Cookbook 🍳,
+Ember.js Triaging Office Hours 📚,
 
 ---
 
-## [🐹 1. Submit your questions for the Ember Framework AMA, Feb 4th](section-url)
+## [Submit your questions for the Ember Framework AMA, Feb 4th 🙋‍♀️](https://bit.ly/ask-ember-core)
 
 On February 4th at 2pm Eastern Time, the Ember.js Framework team will livestream some community questions and answers.
 Would you like to submit a question or two?
+
 Use the Ember Times reader question form, <a href="https://bit.ly/ask-ember-core" target="rq">bit.ly/ask-ember-core</a>.
 "AMA" stands for "ask me anything - the team would love to hear what you are wondering about!
   
@@ -41,7 +44,7 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 
 ---
 
-## [Ember.js Triaging Office Hours](https://discord.com/channels/@me/514450883774382122/936050318259662938)
+## [Ember.js Triaging Office Hours 📚](https://discord.com/channels/@me/514450883774382122/936050318259662938)
   
 [@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/) has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many other.
 If you want to learn how to reproduce bugs, learn how to figure out if issues are still relevant, or you want to help Ember keep their project tidy, join locks at the `#issue-triage` channel of Ember's Discord every [Thursday at 15h GMT](https://meetingzone.app/utc/thursday/1500).
@@ -151,4 +154,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Chris Ng, and the Learning Team
+Jared Galanis, Chris Ng, Jen Weber, Ricardo Mendes and the Learning Team
