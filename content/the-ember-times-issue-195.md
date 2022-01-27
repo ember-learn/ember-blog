@@ -16,6 +16,7 @@ tags:
 Submit your questions for the Ember Framework AMA, Feb 4th 🙋‍♀,
 RFC: Add Ember Cookbook 🍳,
 Ember.js Triaging Office Hours 📚,
+Ember v4 TypeScript Support Update ✨,
 Pass me the remote - meetup recordings about V2 addon format and teaching Ember 📹,
 Mel Sumner on the ShopTalkShow Podcast 🎙,
 Router Analysis Survey 🚀,
@@ -54,6 +55,14 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 [@locks](https://github.com/locks), a member of the [Framework and Learning core teams](https://emberjs.com/teams/), has started weekly office hours for anyone that was to help triage issues and pull requests on Ember core projects, like [ember.js](https://github.com/emberjs/ember.js/), [ember-cli](https://github.com/ember-cli/ember-cli), [ember-data](https://github.com/emberjs/data), and many others.
 If you want to learn how to reproduce bugs, learn how to figure out if issues are still relevant, or you want to help Ember keep their project tidy, join locks at the `#issue-triage` channel of Ember's Discord every [Thursday at 15h GMT](https://meetingzone.app/utc/thursday/1500).
   
+---
+
+## [Ember v4 TypeScript Support Update ✨](https://blog.emberjs.com/ember-v4-typescript-support-update)
+
+If you didn't notice, there's a new blog post by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho/) on the Ember blog about support for TypeScript in Ember 4.x!
+
+The Typed Ember team has provided a ton of great detail on the latest in using TypeScript in Ember so go give [the post](https://blog.emberjs.com/ember-v4-typescript-support-update) a read today!
+
 ---
 
 ## [Pass me the remote - meetup recordings about V2 addon format and teaching Ember 📹](https://www.youtube.com/channel/UCfj7cVutJgO1PT78syaRkLg)
