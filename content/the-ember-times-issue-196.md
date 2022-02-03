@@ -2,7 +2,7 @@
 title: The Ember Times - Issue No. 196
 authors:
   - jared-galanis
-date: 2022-02-12T00:00:00.000Z
+date: 2022-02-13T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
