@@ -11,15 +11,15 @@ tags:
 
 👋 Emberistas! 🐹
 
-Whiskey, Web and Whatnot with Chris Thoburn 🔊
+Whiskey, Web and Whatnot with guest Chris Thoburn 🔊
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [Whiskey, Web and Whatnot with Chris Thoburn 🔊](https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/)
+## [Whiskey, Web and Whatnot with guest Chris Thoburn 🔊](https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/)
 
-[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Thoburn, A.K.A. Runspired, (@runspired)](https://github.com/runspired) in their latest [Whiskey, Web and Whatnot podcast episode](https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/). Runspired elaborates on his initial difficulties in picking up Ember, as well as the discoveries that led him to sticking with this framework for the long haul.
+[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Thoburn, A.K.A. Runspired, (@runspired)](https://github.com/runspired) in their latest [Whiskey, Web and Whatnot podcast episode](https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/). Runspired elaborates on his initial difficulties in picking up Ember, as well as the discoveries that led him to sticking with this framework for the long haul. The trio also discuss the unique benefits of Orbit.js, why Runspired finds JSON:API and GraphQL to be a perfect match, and how Ember data cares about making data cacheable, but not necessarily how that data is structured within the cache.
 
 ---
 
