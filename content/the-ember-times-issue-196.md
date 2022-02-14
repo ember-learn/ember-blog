@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 196
 authors:
   - jared-galanis
+  - jessica-justice
 date: 2022-02-13T00:00:00.000Z
 tags:
   - newsletter
@@ -10,19 +11,15 @@ tags:
 
 👋 Emberistas! 🐹
 
+Whiskey, Web and Whatnot with Chris Thoburn 🔊
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [Whiskey, Web and Whatnot with Chris Thoburn 🔊](https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Thoburn, A.K.A. Runspired, (@runspired)](https://github.com/runspired) in their latest [Whiskey, Web and Whatnot podcast episode](https://www.whiskeywebandwhatnot.fm/discovering-ember-adopting-orbit-and-unlocking-optimization-with-chris-thoburn-runspired/). Runspired elaborates on his initial difficulties in picking up Ember, as well as the discoveries that led him to sticking with this framework for the long haul.
 
 ---
 
@@ -136,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis and the Learning Team
+Jared Galanis, Jessica Justice and the Learning Team
