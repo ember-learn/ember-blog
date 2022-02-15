@@ -14,14 +14,14 @@ Extended CFP deadline for Ember conf 📢,
 Ember.js Framework Core Team AMA 🙋‍♀️,
 Chris Krycho is added to the Framework Core Team 🎉,
 Ember Addon Roundup 🌎,
-Whiskey, Web and Whatnot with guest Chris Thoburn 🔊, 
+Whiskey, Web and Whatnot with guest Chris Thoburn 🔊,
 Ember Ignite Reminder 🔥
 
 ---
 
 ## [Extended CFP deadline for Ember conf 📢](https://twitter.com/EmberConf/status/1493204657568636933)
 
-If you're still thinking about submitting a talk for Ember Conf you should know that the call for CFP's has been extended by 48 hours (end of 2/16), so you still have a little more time to get your talk idea submitted. 🎉 
+If you're still thinking about submitting a talk for Ember Conf you should know that the call for CFP's has been extended by 48 hours (end of 2/16), so you still have a little more time to get your talk idea submitted. 🎉
 
 For talk ideas or to get feedback on your talk head on over to [#talks](https://discord.com/channels/480462759797063690/480524456603680768) or chat more about EmberConf in [#emberconf](https://discord.com/channels/480462759797063690/480502413917421570).
 
@@ -31,11 +31,11 @@ For talk ideas or to get feedback on your talk head on over to [#talks](https://
 
 If you did not get a chance to listen to the live awesome Ember.js Framework Core Team Ask Me Anything (AMA) live stream event hosted by [Karl Becker (@karlbecker)](https://github.com/karlbecker) and [Jen Weber (@jwwweber)](https://twitter.com/jwwweber), __don't__ worry! You can listen to the [recorded session](https://www.youtube.com/watch?v=Ic_dGloHa5I) today! 🔥
 
-Ember Core Team members [Yehuda Katz (@wycats)](https://github.com/wycats), [Tom Dale (@tomdale)](https://github.com/tomdale), [Melanie Sumner (@melsumner)](https://github.com/melsumner), [Robert Jackson (@rwjblue)](https://github.com/rwjblue), [Katie Gengler (@kategengler)](https://github.com/kategengler), [Edward Faulkner (@ef4)](https://github.com/ef4), [Matthew Beale (@mixonic)](https://github.com/mixonic) and [Godfrey Chan (@chancancode)](https://github.com/chancancode) all got together to answer questions submitted to the Ember Times by readers. 
+Ember Core Team members [Yehuda Katz (@wycats)](https://github.com/wycats), [Tom Dale (@tomdale)](https://github.com/tomdale), [Melanie Sumner (@melsumner)](https://github.com/melsumner), [Robert Jackson (@rwjblue)](https://github.com/rwjblue), [Katie Gengler (@kategengler)](https://github.com/kategengler), [Edward Faulkner (@ef4)](https://github.com/ef4), [Matthew Beale (@mixonic)](https://github.com/mixonic) and [Godfrey Chan (@chancancode)](https://github.com/chancancode) all got together to answer questions submitted to the Ember Times by readers.
 
 It's an especially insightful peek into what these team members are working on and how they are thinking about the future of Ember.
 
-They talk about Ember Editions, how to get involved, the direction of the framework and more. If you're interested please go check out the video! 
+They talk about Ember Editions, how to get involved, the direction of the framework and more. If you're interested please go check out the video!
 
 Also look out for additional answers to questions asked during the AMA here in the Ember Times. 💛
 
