@@ -18,6 +18,7 @@ Whiskey, Web and Whatnot with guest Chris Thoburn 🔊,
 Ember Ignite Reminder 🔥
 
 ---
+
 ## [Extended CFP deadline for Ember conf 📢](https://twitter.com/EmberConf/status/1493204657568636933)
 
 If you're still thinking about submitting a talk for Ember Conf you should know that the call for CFP's has been extended by 48 hours (end of 2/16), so you still have a little more time to get your talk idea submitted. 🎉 
@@ -25,6 +26,7 @@ If you're still thinking about submitting a talk for Ember Conf you should know 
 For talk ideas or to get feedback on your talk head on over to [#talks](https://discord.com/channels/480462759797063690/480524456603680768) or chat more about EmberConf in [#emberconf](https://discord.com/channels/480462759797063690/480502413917421570).
 
 ---
+
 ## [Ember.js Framework Core Team AMA 🙋‍♀️](https://www.youtube.com/watch?v=Ic_dGloHa5I)
 
 If you did not get a chance to listen to the live awesome Ember.js Framework Core Team Ask Me Anything (AMA) live stream event hosted by [Karl Becker (@karlbecker)](https://github.com/karlbecker) and [Jen Weber (@jwwweber)](https://twitter.com/jwwweber), __don't__ worry! You can listen to the [recorded session](https://www.youtube.com/watch?v=Ic_dGloHa5I) today! 🔥
@@ -44,6 +46,7 @@ Also look out for additional answers to questions asked during the AMA here in t
 Please join us in welcoming the newest framework core team member, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho/)! 🥳 👏 🎉  Chris has contributed an amazing amount to the framework already and we can't wait to see what else is in store! 💜
 
 ---
+
 ## Ember Addon Roundup 🌎
 
 We’ve had several addons across the Ember ecosystem release updates recently, here’s what you may have missed and reasons to upgrade!
