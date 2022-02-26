@@ -20,7 +20,7 @@ First-Class Component Templates RFC in FCP 📖,
 
 The RFC proposes that we adopt `<template>` tags as a format for making component templates first-class participants in JavaScript and TypeScript with strict mode template semantics. As Chris mentions, doing so would help provide a number of new capabilities to Ember and Glimmer users:
 
-<!--alex ignore retext-equality-->
+<!--alex ignore just-->
 - accessing local JavaScript values with no ceremony and no backing class, enabling much easier use of existing JavaScript ecosystem tools, including especially styling libraries—standard CSS Modules will “just work,” for example
 - authoring more than one component in a single file, where colocation makes sense—and thereby providing more control over a component’s public API
 - likewise authoring locally-scoped helpers, modifiers, and other JavaScript functionality
