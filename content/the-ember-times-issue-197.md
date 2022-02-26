@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 197
 authors:
   - jared-galanis
+  - chris-ng
 date: 2022-02-27T00:00:00.000Z
 tags:
   - newsletter
@@ -9,20 +10,21 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+First-Class Component Templates RFC in FCP 📖,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [First-Class Component Templates RFC in FCP 📖](https://github.com/emberjs/rfcs/pull/779)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) who [recently joined](https://twitter.com/chriskrycho/status/1493295356368470019) the Ember Framework Core Team has the [RFC on First-Class Component Templates](https://github.com/emberjs/rfcs/pull/779) in FCP! This follows his detailed blog series on [Ember Template Imports](https://v5.chriskrycho.com/journal/ember-template-imports/).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The RFC proposes that we adopt `<template>` tags as a format for making component templates first-class participants in JavaScript and TypeScript with strict mode template semantics. As Chris mentions, doing so would help provide a number of new capabilities to Ember and Glimmer users:
+
+- accessing local JavaScript values with no ceremony and no backing class, enabling much easier use of existing JavaScript ecosystem tools, including especially styling libraries—standard CSS Modules will “just work,” for example
+- authoring more than one component in a single file, where colocation makes sense—and thereby providing more control over a component’s public API
+- likewise authoring locally-scoped helpers, modifiers, and other JavaScript functionality
+
+Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) on GitHub.
 
 ---
 
@@ -136,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis and the Learning Team
+Jared Galanis, Chris Ng, and the Learning Team
