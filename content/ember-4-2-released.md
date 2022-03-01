@@ -102,7 +102,7 @@ Ember CLI 4.2 introduced 4 bug fixes:
 
 #### Features
 
-Ember CLI 4.2 introduced 0 features.
+Ember CLI 4.2 introduced 1 feature.
 
 1. Add an `assert` and a `deprecate` utility. ([#9731](https://github.com/ember-cli/ember-cli/pull/9731))
 
