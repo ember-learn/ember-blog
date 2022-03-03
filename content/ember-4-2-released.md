@@ -3,7 +3,7 @@ title: Ember 4.2 Released
 authors:
   - jared-galanis
   - ricardo-mendes
-date: 2022-02-17T00:00:00.000Z
+date: 2022-03-03T00:00:00.000Z
 tags:
   - releases
   - '2022'
