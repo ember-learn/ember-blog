@@ -59,7 +59,11 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 #### Bug Fixes
 
-Ember Data 4.2 introduced 0 bug fixes.
+Ember Data 4.2 introduced 3 bug fixes and some tests and documentation improvements.
+
+- Update `@ember/string` to the latest version. The prior version used deprecated import paths that error under `ember-source` `v4.0`.
+- Bugfix for Embroider compatibility. Ensure `shouldCompileModules` is respected.
+- Resolve deprecated usage of `assign`.
 
 #### Features
 
@@ -69,8 +73,11 @@ Ember Data 4.2 introduced 0 features.
 
 Ember Data 4.2 introduced 0 deprecations.
 
+Support for the `toJSON` method on Ember Data records has been removed. It was deprecated in `3.x` and slated for removal in `4.x`.
+If your app uses this method, follow the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_record-toJSON).
+
 For more details on changes in Ember Data 4.2, please review the
-[Ember Data 4.2.0 release page](https://github.com/emberjs/data/releases/tag/v4.2.0).
+[Ember Data 4.2.0 commits](https://github.com/emberjs/data/compare/v4.1.0...v4.2.0).
 
 ---
 
