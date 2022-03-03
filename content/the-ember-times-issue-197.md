@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 197
 authors:
   - jared-galanis
   - chris-ng
+  - anne-greeth-schot-van-herwijnen
 date: 2022-02-27T00:00:00.000Z
 tags:
   - newsletter
@@ -10,7 +11,7 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-First-Class Component Templates RFC in FCP 📖,
+First-Class Component Templates RFC in FCP 📖, State of Frontend calls for you ❓
 
 ---
 
@@ -29,15 +30,11 @@ Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) on Gi
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [State of Frontend survey calls for you❓](https://tsh.io/state-of-frontend/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [State of Frontend 2022 survey](https://tsh.io/state-of-frontend/) hosted by [The Software House](https://tsh.io) is open. There is no known deadline. It actually takes the 8 minutes to fill in as they claim and you can select EmberJS from the options. So show the world some EmberJS representation and fill in the survey.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The survey asks about the tools, processes and solutions you use, like your editor and libraries. It also asks for you opinion on the future of certain topics like accessibility and technical concepts. Their call to you is: “We want to hear as many voices of the frontend people as possible. Too much happened over the last two years, and we want to talk about it. **No matter how your frontend experience looks like, your voice is exactly what we’re looking for**.”
 
 ---
 
@@ -139,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Chris Ng, and the Learning Team
+Jared Galanis, Chris Ng, Anne-Greeth Schot-van Herwijnen and the Learning Team
