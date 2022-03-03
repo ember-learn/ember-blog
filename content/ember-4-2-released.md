@@ -94,7 +94,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
-Ember CLI 4.2 introduced 4 bug fixes:
+Ember CLI 4.2 introduced 3 bug fixes:
 
 1. Updated mentions of the Ember CLI website to the new URL. ([#9681](https://github.com/ember-cli/ember-cli/pull/9681))
 1. Stale GitHub Actions workflows are cancelled when starting a new one. ([#9726](https://github.com/ember-cli/ember-cli/pull/9726))
