@@ -31,6 +31,7 @@ Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) on Gi
 ---
 
 ## [State of Frontend survey calls for you❓](https://tsh.io/state-of-frontend/)
+
 The [State of Frontend 2022 survey](https://tsh.io/state-of-frontend/) hosted by [The Software House](https://tsh.io) is open. There is no known deadline. It actually takes the 8 minutes to fill in as they claim and you can select EmberJS from the options. So show the world some EmberJS representation and fill in the survey.
 
 The survey asks about the tools, processes and solutions you use, like your editor and libraries. It also asks for you opinion on the future of certain topics like accessibility and technical concepts. Their call to you is: “We want to hear as many voices of the frontend people as possible. Too much happened over the last two years, and we want to talk about it. **No matter how your frontend experience looks like, your voice is exactly what we’re looking for**.”
