@@ -22,6 +22,7 @@ Ember 4.2 Released 🔥,
 Mocks with MSW Demo 🤖,
 Whiskey Web and Whatnot Episodes 🎙,
 EmberFest 2021 Videos 📹,
+Component Architecture Talk Slides 📽,
 ember-eui releases 🚀
 
 ---
