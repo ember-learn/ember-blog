@@ -22,6 +22,7 @@ Ember 4.2 Released 🔥,
 Mocks with MSW Demo 🤖,
 Whiskey Web and Whatnot Episodes 🎙,
 EmberFest 2021 Videos 📹,
+ember-eui releases 🚀
 
 ---
 
@@ -142,27 +143,19 @@ If you did not have a chance to attend EmberFest 2021, and want to catch up on w
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [Component Architecture Talk Slides 📽](https://twitter.com/unistyler/status/1500064502607491076)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Thomas Gossmann (@gossi)](https://github.com/gossi) recently released slides about Component Architecture from a recent talk at Ember Ignite!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The slides discuss the basics for component invocation and get into blocks, including named blocks, and yielded components as well. If you're looking for a nice overview on component architecture then [look no further](https://component-architecture-slides.netlify.app/).
 
 ---
 
-## [🐹 8. Section title in sentence case](section-url)
+## [ember-eui releases 🚀](https://twitter.com/betocantu93/status/1500187028524343309)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Beto Cantú (@betocantu93)](https://github.com/betocantu93) has released several new versions of `ember-eui` (elastic's ui styleguide for ember). The releases include support for staticComponents and splitAtRoutes from embroider, meaning "tree shaking" or not bundling unused code out of the box is now possible.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Go ahead and check out [the latest releaes](https://github.com/prysmex/ember-eui/releases)!
 
 ---
 
