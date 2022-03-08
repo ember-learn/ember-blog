@@ -137,6 +137,7 @@ Next up is an episode with **both** [Chris Manson (@mansona)](https://github.com
 
 The EmberFest 2021 videos of talks are now available for your ✨viewing pleasure✨!
 
+<!--alex ignore just-->
 If you did not have a chance to attend EmberFest 2021, and want to catch up on what happened last fall, or if you just want to re-live some of the moments, head on over and check out [the videos](https://www.youtube.com/playlist?list=PLN4SpDLOSVkR_vDs4_gKbYlzb5fFMMRex) today!
 
 ---
