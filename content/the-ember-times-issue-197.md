@@ -20,6 +20,7 @@ Add Ember Cookbook RFC is in FCP ⌛️,
 State of Frontend calls for you ❓,
 Ember 4.2 Released 🔥,
 Mocks with MSW Demo 🤖,
+Whiskey Web and Whatnot Episodes 🎙,
 
 ---
 
@@ -120,15 +121,14 @@ Go ahead and check out [the demo repo](https://github.com/NullVoxPopuli/ember-ms
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Whiskey Web and Whatnot Episodes 🎙](https://www.whiskeywebandwhatnot.fm/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There are two new awesome episodes of the Whiskey Web and Whatnot podcast featuring several Ember core team members! 🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+<!--alex ignore of-course-->
+First, creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Melanie Sumner (@melsumner)](https://github.com/melsumner) and they discuss work-life balance, Ember vs React, and of course #a11y! 💖 Check out the episode [here](https://www.whiskeywebandwhatnot.fm/work-life-balance-react-and-why-accessibility-is-everything-with-melanie-sumner/).
+
+Next up is an episode with **both** [Chris Manson (@mansona)](https://github.com/mansona) and [Chris Thoburn (@runspired)](https://github.com/runspired) chat with Robbie and Chuck about how to best get contributors on opensource projects and how TypeScript fits into that process! Check out the episode [here](https://www.whiskeywebandwhatnot.fm/runspired-vs-chris-manson-on-solving-the-number-one-ember-issue/).
 
 ---
 
