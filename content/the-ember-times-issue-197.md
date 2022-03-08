@@ -18,6 +18,7 @@ Official TypeScript Support in Ember RFC is merged 🥳,
 TypeScript Adoption Plan RFC is open 📓.
 Add Ember Cookbook RFC is in FCP ⌛️,
 State of Frontend calls for you ❓,
+Ember 4.2 Released 🔥,
 
 ---
 
@@ -102,15 +103,9 @@ The survey asks about the tools, processes and solutions you use, like your edit
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Ember 4.2 Released 🔥](https://blog.emberjs.com/ember-4-2-released)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+In case you missed it, Ember 4.2 was released last week! There were several bug fixes for different parts of the framework and 1 new feature in Ember CLI. Head on over to [the blog post](https://blog.emberjs.com/ember-4-2-released) to check out the details.
 
 ---
 
