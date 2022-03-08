@@ -25,7 +25,7 @@ State of Frontend calls for you ❓,
 
 It’s that time of year again 😀, the **annual official 2022 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
 
-Last year over 1000 people participated in the survey. As always, your participation is invaluable so please do consider participating. 
+Last year over 1000 people participated in the survey. As always, your participation is invaluable so please do consider participating.
 
 Go ahead and fill out the [survey here now](https://emberjs.com/survey/2022/). 🔥🔥🔥
 
