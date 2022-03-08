@@ -15,7 +15,7 @@ tags:
 Ember Annual Community Survey is here 🙋‍♀️,
 First-Class Component Templates RFC is merged 🎉,
 Official TypeScript Support in Ember RFC is merged 🥳,
-TypeScript Adoption Plan RFC is open 📓.
+TypeScript Adoption Plan RFC is open 📓,
 Add Ember Cookbook RFC is in FCP ⌛️,
 State of Frontend calls for you ❓,
 Ember 4.2 Released 🔥,
@@ -33,7 +33,7 @@ It’s that time of year again 😀, the **annual official 2022 Ember Community 
 
 Last year over 1000 people participated in the survey. As always, your participation is invaluable so please do consider participating.
 
-Go ahead and fill out the [survey here now](https://emberjs.com/survey/2022/). 🔥🔥🔥
+If you're ready, you can go ahead and fill out the [survey here now](https://emberjs.com/survey/2022/). 🔥🔥🔥
 
 If you have any questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
 
@@ -74,7 +74,7 @@ This is a really exciting development for the support of TypeScript in Ember and
 
 And that's not all, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) has also opened the [TypeScript Adoption Plan RFC](https://github.com/emberjs/rfcs/pull/800) which offers a detailed implementation plan for officially supporting TypeScript in Ember (which is in follow up to the aforementioned Official TypeScript Support RFC and covers the overall philosophy for what official support means).
 
-The RFC covers a lot, but a short list includes:
+The RFC covers a lot, but a short-list includes:
 
 - the SemVer policies Ember packages should adopt
 - how we will migrate users from depending on the `@types` definitions on DefinitelyTyped to Ember packages
@@ -90,7 +90,7 @@ Please head on over to [the RFC](https://github.com/emberjs/rfcs/pull/800) and g
 
 ## [Add Ember Cookbook RFC is in FCP ⌛️](https://twitter.com/emberjs/status/1496897870762553346)
 
-If you have not had the time to checkout the exciting [Add Ember Cookbook RFC](https://github.com/emberjs/rfcs/pull/786) by [Ketaki Deo (@ketakideo)](https://github.com/ketakideo), now is the time do so beacuse it's well into the FCP!
+If you have not had the time to checkout the exciting [Add Ember Cookbook RFC](https://github.com/emberjs/rfcs/pull/786) by [Ketaki Deo (@ketakideo)](https://github.com/ketakideo), now is the time do so because it's well into the FCP and time is running out!
 
 The RFC proposes adding a cookbook section to our learning resources that will help Ember developers to learn maintainable, accessible patterns for common tasks.
 
@@ -102,9 +102,9 @@ Read, comment, and discuss this proposal in the [RFC on Github](https://github.c
 
 ## [State of Frontend survey calls for you❓](https://tsh.io/state-of-frontend/)
 
-The [State of Frontend 2022 survey](https://tsh.io/state-of-frontend/) hosted by [The Software House](https://tsh.io) is open. There is no known deadline. It actually takes the 8 minutes to fill in as they claim and you can select EmberJS from the options. So show the world some EmberJS representation and fill in the survey.
+The [State of Frontend 2022 survey](https://tsh.io/state-of-frontend/) hosted by [The Software House](https://tsh.io) is open. There is no known deadline. It actually takes 8 minutes to fill in as they claim and you can select EmberJS from the options. So show the world some EmberJS representation and fill in the survey.
 
-The survey asks about the tools, processes and solutions you use, like your editor and libraries. It also asks for you opinion on the future of certain topics like accessibility and technical concepts. Their call to you is: “We want to hear as many voices of the frontend people as possible. Too much happened over the last two years, and we want to talk about it. **No matter how your frontend experience looks like, your voice is exactly what we’re looking for**.”
+The survey asks about the tools, processes and solutions you use, like your editor and libraries. It also asks for your opinion on the future of certain topics like accessibility and technical concepts. Their call to you is: “We want to hear as many voices of the frontend people as possible. Too much happened over the last two years, and we want to talk about it. **No matter how your frontend experience looks like, your voice is exactly what we’re looking for**.”
 
 ---
 
@@ -116,7 +116,7 @@ In case you missed it, Ember 4.2 was released last week! There were several bug 
 
 ## [Mocks with MSW Demo 🤖](https://twitter.com/nullvoxpopuli/status/1494427319552905216)
 
-Been curious about how to test against a fake API? Are you looking for a new library to do this? And do want to use the network tab for debugging? And do you also want a straight forward way to define mock data that doesn't get shipped to customers?
+Been curious about how to test against a fake API? Are you looking for a new library to do this? And do want to use the network tab for debugging? And do you also want a straightforward way to define mock data that doesn't get shipped to customers?
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) created a nice demo of how to get started using the [Mock Service Worker (MSW)](https://mswjs.io/) library with Ember.
 
@@ -131,7 +131,7 @@ There are two new awesome episodes of the Whiskey Web and Whatnot podcast featur
 <!--alex ignore of-course-->
 First, creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Melanie Sumner (@melsumner)](https://github.com/melsumner) and they discuss work-life balance, Ember vs React, and of course #a11y! 💖 Check out the episode [here](https://www.whiskeywebandwhatnot.fm/work-life-balance-react-and-why-accessibility-is-everything-with-melanie-sumner/).
 
-Next up is an episode with **both** [Chris Manson (@mansona)](https://github.com/mansona) and [Chris Thoburn (@runspired)](https://github.com/runspired) chat with Robbie and Chuck about how to best get contributors on opensource projects and how TypeScript fits into that process! Check out the episode [here](https://www.whiskeywebandwhatnot.fm/runspired-vs-chris-manson-on-solving-the-number-one-ember-issue/).
+Next up is an episode with **both** [Chris Manson (@mansona)](https://github.com/mansona) and [Chris Thoburn (@runspired)](https://github.com/runspired) chatting with Robbie and Chuck about how to best get contributors on opensource projects and how TypeScript fits into that process! Check out the episode [here](https://www.whiskeywebandwhatnot.fm/runspired-vs-chris-manson-on-solving-the-number-one-ember-issue/).
 
 ---
 
@@ -148,15 +148,15 @@ If you did not have a chance to attend EmberFest 2021, and want to catch up on w
 
 [Thomas Gossmann (@gossi)](https://github.com/gossi) recently released slides about Component Architecture from a recent talk at Ember Ignite!
 
-The slides discuss the basics for component invocation and get into blocks, including named blocks, and yielded components as well. If you're looking for a nice overview on component architecture then [look no further](https://component-architecture-slides.netlify.app/).
+The slides discuss the basics for component invocation and get into blocks, including named blocks, and yielded components as well. If you're looking for a nice overview of component architecture then [look no further](https://component-architecture-slides.netlify.app/).
 
 ---
 
 ## [ember-eui releases 🚀](https://twitter.com/betocantu93/status/1500187028524343309)
 
-[Beto Cantú (@betocantu93)](https://github.com/betocantu93) has released several new versions of `ember-eui` (elastic's ui styleguide for ember). The releases include support for staticComponents and splitAtRoutes from embroider, meaning "tree shaking" or not bundling unused code out of the box is now possible.
+[Beto Cantú (@betocantu93)](https://github.com/betocantu93) has released several new versions of `ember-eui` (elastic's ui styleguide for ember). The releases include support for `staticComponents` and `splitAtRoutes` from embroider, meaning "tree shaking" or not bundling unused code out of the box is now possible!
 
-Go ahead and check out [the latest releaes](https://github.com/prysmex/ember-eui/releases)!
+Go ahead and check out [the latest releases](https://github.com/prysmex/ember-eui/releases)!
 
 ---
 
