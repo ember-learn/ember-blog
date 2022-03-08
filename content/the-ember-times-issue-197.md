@@ -21,6 +21,7 @@ State of Frontend calls for you ❓,
 Ember 4.2 Released 🔥,
 Mocks with MSW Demo 🤖,
 Whiskey Web and Whatnot Episodes 🎙,
+EmberFest 2021 Videos 📹,
 
 ---
 
@@ -132,15 +133,11 @@ Next up is an episode with **both** [Chris Manson (@mansona)](https://github.com
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [EmberFest 2021 Videos 📹](https://twitter.com/EmberFest/status/1499747403846586372)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The EmberFest 2021 videos of talks are now available for your ✨viewing pleasure✨!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you did not have a chance to attend EmberFest 2021, and want to catch up on what happened last fall, or if you just want to re-live some of the moments, head on over and check out [the videos](https://www.youtube.com/playlist?list=PLN4SpDLOSVkR_vDs4_gKbYlzb5fFMMRex) today!
 
 ---
 
