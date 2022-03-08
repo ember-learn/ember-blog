@@ -4,29 +4,78 @@ authors:
   - jared-galanis
   - chris-ng
   - anne-greeth-schot-van-herwijnen
-date: 2022-02-27T00:00:00.000Z
+date: 2022-03-07T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
 ---
 
 👋 Emberistas! 🐹
-First-Class Component Templates RFC in FCP 📖, State of Frontend calls for you ❓
+
+First-Class Component Templates RFC is merged 🎉,
+Official TypeScript Support in Ember RFC is merged 🥳,
+TypeScript Adoption Plan RFC is open 📓.
+Add Ember Cookbook RFC is in FCP ⌛️,
+State of Frontend calls for you ❓,
 
 ---
 
-## [First-Class Component Templates RFC in FCP 📖](https://github.com/emberjs/rfcs/pull/779)
+## [First-Class Component Templates RFC is merged 🎉](https://github.com/emberjs/rfcs/pull/779)
 
-[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) who [recently joined](https://twitter.com/chriskrycho/status/1493295356368470019) the Ember Framework Core Team has the [RFC on First-Class Component Templates](https://github.com/emberjs/rfcs/pull/779) in FCP! This follows his detailed blog series on [Ember Template Imports](https://v5.chriskrycho.com/journal/ember-template-imports/).
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) who [recently joined](https://twitter.com/chriskrycho/status/1493295356368470019) the Ember Framework Core Team has been hard at work authoring many RFC's, including the [RFC on First-Class Component Templates](https://github.com/emberjs/rfcs/pull/779). We're happy to report this RFC is now merged! This follows Chris' detailed blog series on [Ember Template Imports](https://v5.chriskrycho.com/journal/ember-template-imports/).
 
-The RFC proposes that we adopt `<template>` tags as a format for making component templates first-class participants in JavaScript and TypeScript with strict mode template semantics. As Chris mentions, doing so would help provide a number of new capabilities to Ember and Glimmer users:
+The RFC proposed that we adopt `<template>` tags as a format for making component templates first-class participants in JavaScript and TypeScript with strict mode template semantics. As Chris mentions, doing so would help provide a number of new capabilities to Ember and Glimmer users:
 
 <!--alex ignore just-->
 - accessing local JavaScript values with no ceremony and no backing class, enabling much easier use of existing JavaScript ecosystem tools, including especially styling libraries—standard CSS Modules will “just work,” for example
 - authoring more than one component in a single file, where colocation makes sense—and thereby providing more control over a component’s public API
 - likewise authoring locally-scoped helpers, modifiers, and other JavaScript functionality
 
-Go ahead and check out [the RFC](https://github.com/emberjs/rfcs/pull/779) on GitHub.
+Go ahead and check out [the merged RFC](https://github.com/emberjs/rfcs/pull/779) on GitHub.
+
+---
+
+## [Official TypeScript Support in Ember RFC is merged 🥳](https://github.com/emberjs/rfcs/pull/724)
+
+As if one merged RFC weren't exciting enough, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) is also the author of a second recently merged [RFC on Official TypeScript Support in Ember](https://github.com/emberjs/rfcs/pull/724)!
+
+This RFC declares the intent to officially support TypeScript as a peer to JavaScript, in a way which makes the developer experience better for all Ember developers.
+
+The RFC says that:
+
+>Ember officially supporting TypeScript means: All libraries which are installed as part of the default blueprint must ship accurate and up-to-date type definitions for the current edition. These types will uphold a Semantic Versioning commitment which includes a definition of SemVer for TypeScript types as well as a specification of supported compiler versions and settings, so that TypeScript will receive the same stability commitments as the rest of Ember.
+
+This is a really exciting development for the support of TypeScript in Ember and you can read up on [the merged RFC](https://github.com/emberjs/rfcs/pull/724) on Github.
+
+---
+
+## [TypeScript Adoption Plan RFC is open 📓](https://github.com/emberjs/rfcs/pull/800)
+
+And that's not all, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) has also opened the [TypeScript Adoption Plan RFC](https://github.com/emberjs/rfcs/pull/800) which offers a detailed implementation plan for officially supporting TypeScript in Ember (which is in follow up to the aforementioned Official TypeScript Support RFC and covers the overall philosophy for what official support means).
+
+The RFC covers a lot, but a short list includes:
+
+- the SemVer policies Ember packages should adopt
+- how we will migrate users from depending on the `@types` definitions on DefinitelyTyped to Ember packages
+- test infrastructure to catch regressions early
+- updates to Ember CLI to support TypeScript
+- release "channel" testing analogous to Ember's existing feature flag system for runtime code
+- a basic communication plan for the rollout
+- updates to our guides, API docs, and even the version release blog post announcement
+
+Please head on over to [the RFC](https://github.com/emberjs/rfcs/pull/800) and give it a read or participate in the comments!
+
+---
+
+## [Add Ember Cookbook RFC is in FCP ⌛️](https://twitter.com/emberjs/status/1496897870762553346)
+
+If you have not had the time to checkout the exciting [Add Ember Cookbook RFC](https://github.com/emberjs/rfcs/pull/786) by [Ketaki Deo (@ketakideo)](https://github.com/ketakideo), now is the time do so beacuse it's well into the FCP!
+
+The RFC proposes adding a cookbook section to our learning resources that will help Ember developers to learn maintainable, accessible patterns for common tasks.
+
+These types of content exist today in the form of blogs, stackoverflow answers and efforts like [Ember Atlas](https://www.notion.so/emberatlas/The-Ember-Atlas-4094f81c86c34badb4a562ed29414ae1) but they are not discoverable and can sometimes be incorrect. The proposed Ember Cookbook will be managed and curated by the Ember Learning team which will work closely with the Ember Core team on upgrades to add, modify or delete information as needed.
+
+Read, comment, and discuss this proposal in the [RFC on Github](https://github.com/emberjs/rfcs/pull/786)!
 
 ---
 
