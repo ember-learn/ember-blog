@@ -12,11 +12,26 @@ tags:
 
 👋 Emberistas! 🐹
 
+Ember Annual Community Survey is here 🙋‍♀️,
 First-Class Component Templates RFC is merged 🎉,
 Official TypeScript Support in Ember RFC is merged 🥳,
 TypeScript Adoption Plan RFC is open 📓.
 Add Ember Cookbook RFC is in FCP ⌛️,
 State of Frontend calls for you ❓,
+
+---
+
+## [Ember Annual Community Survey is here 🙋‍♀️](https://twitter.com/emberjs/status/1500855711311478786)
+
+It’s that time of year again 😀, the **annual official 2022 Ember Community Survey** is here! Once again we would love your help to learn about who is in the Ember community and how they work with the framework.
+
+Last year over 1000 people participated in the survey. As always, your participation is invaluable so please do consider participating. 
+
+Go ahead and fill out the [survey here now](https://emberjs.com/survey/2022/). 🔥🔥🔥
+
+If you have any questions, feel free to email the survey team via survey@emberjs.com, or ping us in #dev-ember-learning on the [Discord chat](https://discordapp.com/invite/emberjs).
+
+Please share with your friends and colleagues! We want to hear from everyone who uses Ember!
 
 ---
 
