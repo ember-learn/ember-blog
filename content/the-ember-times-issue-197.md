@@ -19,6 +19,7 @@ TypeScript Adoption Plan RFC is open 📓.
 Add Ember Cookbook RFC is in FCP ⌛️,
 State of Frontend calls for you ❓,
 Ember 4.2 Released 🔥,
+Mocks with MSW Demo 🤖,
 
 ---
 
@@ -109,15 +110,13 @@ In case you missed it, Ember 4.2 was released last week! There were several bug 
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [Mocks with MSW Demo 🤖](https://twitter.com/nullvoxpopuli/status/1494427319552905216)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Been curious about how to test against a fake API? Are you looking for a new library to do this? And do want to use the network tab for debugging? And do you also want a straight forward way to define mock data that doesn't get shipped to customers?
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) created a nice demo of how to get started using the [Mock Service Worker (MSW)](https://mswjs.io/) library with Ember.
+
+Go ahead and check out [the demo repo](https://github.com/NullVoxPopuli/ember-msw-development/commits/main) today!
 
 ---
 
