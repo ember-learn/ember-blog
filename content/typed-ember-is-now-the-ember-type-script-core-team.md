@@ -31,4 +31,5 @@ From one angle, you could see this as nothing much changing, and you’d be righ
 
 We’d also like to take this opportunity to say thanks to the many contributors who have helped get us here, and *especially* to emeritus team members Derek Wickern and Mike North, who did an enormous amount of work to make Ember’s TypeScript story viable and sustainable.
 
+<!-- alex ignore just-->
 We’re incredibly excited about the future of TypeScript in Ember—and we’re just getting started.
