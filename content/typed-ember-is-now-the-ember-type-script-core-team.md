@@ -2,7 +2,7 @@
 title: Typed Ember is now the Ember TypeScript Core Team!
 authors:
   - chris-krycho
-date: 2023-03-09T18:40:00.000Z
+date: 2023-03-10T12:30:00.000Z
 tags:
   - '2022'
   - typescript
@@ -13,7 +13,7 @@ tags:
 
 Last Friday, the Ember project merged [RFC #0724: Official TypeScript Support](https://emberjs.github.io/rfcs/0724-road-to-typescript.html), committing to make TypeScript an officially-supported language for Ember.js. To make that a reality, we also need to have a team dedicated to maintaining Ember’s types and its TypeScript compiler integrations.
 
-Happily, we already have a group of people who do that! For the last five years, Ember has had community-driven TypeScript support, led by the past and present members of the Typed Ember team. 
+Happily, we already have a group of people who do that! For the last five years, Ember has had community-driven TypeScript support, led by the past and present members of the Typed Ember team.
 
 The Typed Ember team joins the Framework, Learning, CLI, and Data Core teams as a new Core sub-team: the **Ember TypeScript Core Team**. Its initial members are the current Typed Ember team: [James Davis (@jamescdavis)](https://github.com/jamescdavis), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), and [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
 
