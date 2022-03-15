@@ -2,7 +2,7 @@
 title: Typed Ember is now the Ember TypeScript Core Team!
 authors:
   - chris-krycho
-date: 2023-03-10T12:30:00.000Z
+date: 2022-03-10T12:30:00.000Z
 tags:
   - '2022'
   - typescript
