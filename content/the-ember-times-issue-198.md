@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 198
 authors:
   - jared-galanis
+  - jen-weber
 date: 2022-03-20T00:00:00.000Z
 tags:
   - newsletter
@@ -14,52 +15,46 @@ tags:
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 2. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+## [🗳️ 1. Fill out the Ember Community Survey by April 7th!](https://emberjs.com/survey/2022/)
+  
+The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem.
+Data informs project prioritization, it sparks new ideas, and reveals opportunities for growth.
+The Ember core teams would love to hear from you!
+  
+The survey is primarily intended for developers who use the Ember JavaScript framework, either for work or personal use, although any developer is welcome to fill out this survey. The survey should take approximately 15 minutes to complete in full, though all questions are optional.
+  
+[Learn more about the survey and fill it out](https://emberjs.com/survey/2022/) by April 7th!
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [📽️ 2. Hybrid Ember.js Europe Meetup, featuring Ember Data](https://twitter.com/embereurope)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+March 31st is the first Ember.js Meetup event!
+There will be an AMA (ask-me-anything) with Chris Thoburn and Scott Newcomer from the Ember Data Core team
+  
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+For more details, visit [Ember Europe on Twitter](https://twitter.com/embereurope)
+or [RSVP on Meetup](https://www.meetup.com/de-DE/ember-europe/events/283625821/).
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [📝 3. Upcoming free technical writing workshop](https://forms.gle/AvQFjjrJjozHBr529)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+What are the elements of great technical articles or examples? What are some tips for writing for a global audience? How do you find a place to begin when there are so many different directions you could go? How should your writing style change depending on where it will be published? Join the Ember Learning team for this workshop! It will be half instruction, half hands-on activities.
+  
+If there is enough interest, the workshop will be offered in two sessions:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- April 23rd - aimed at Western Hemisphere time zone participants
+- April 30th - aimed at Eastern Hemisphere time zone participants
+  
+To receive announcements about specific times and event details, please [fill out this form](https://forms.gle/AvQFjjrJjozHBr529).
 
+---
+
+## [🐹 4. EmberConf on April 19th](https://2022.emberconf.com/)
+
+EmberConf registration is open! Join the community remotely on April 19th for an [amazing lineup of talks](https://2022.emberconf.com/).
+  
 ---
 
 ## [🐹 5. Section title in sentence case](section-url)
@@ -136,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, the crowd and the Learning Team
+Jared Galanis, Jen Weber, and the Learning Team
