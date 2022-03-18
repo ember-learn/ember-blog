@@ -29,7 +29,7 @@ The survey is primarily intended for developers who use the Ember JavaScript fra
 
 ## [📽️ 2. Remote Ember.js Europe Meetup, featuring Ember Data](https://twitter.com/embereurope)
 
-March 31st is the first Ember.js Meetup event! 
+March 31st is the first Ember.js Meetup event!
 There will be an AMA (ask-me-anything) with Chris Thoburn and Scott Newcomer from the Ember Data Core team
   
 
