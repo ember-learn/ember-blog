@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 198
 authors:
   - jared-galanis
   - jen-weber
+  - chris-ng
 date: 2022-03-20T00:00:00.000Z
 tags:
   - newsletter
@@ -12,6 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Blog post: Making your dynamic Ember components work with Embroider 💥,
 
 ---
 
@@ -57,15 +59,13 @@ EmberConf registration is open! Join the community remotely on April 19th for an
   
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Blog post: Making your dynamic Ember components work with Embroider 💥](https://simplabs.com/blog/2022/03/17/dynamic-components-embroider/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Nick Schot (@nickschot)](https://github.com/nickschot) wrote a blog post on [making your dynamic Ember components work with Embroider](https://simplabs.com/blog/2022/03/17/dynamic-components-embroider/). [Embroider](https://github.com/embroider-build/embroider) is the future build system for Ember apps which unlocks features like splitting code per route by statically analyzing your codebase and dependencies. Dynamic components are components that are resolved at run-time rather than hardcoding the component to use using the [component helper](https://api.emberjs.com/ember/release/classes/Ember.Templates.helpers/methods/component?anchor=component) (e.g. `{{component "my-component"}}`).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Dynamic components are not by default compatible with Embroider's route-splitting feature since Embroider needs to be able to statically resolve components at build time. In the blog Nick discusses how they migrated [ember-promise-modals](https://github.com/simplabs/ember-promise-modals), an addon that relies on dynamic components, to be compatible with Embroider. They first used the `packageRules` as a compatibility feature to tell Embroider that an argument in the addon represents a component name.
+
+To fully leverage Embroider’s code splitting, they used the `ensure-safe-component` helper that [Embroider provides](https://github.com/embroider-build/embroider/blob/main/REPLACING-COMPONENT-HELPER.md) to turn a component class into a component definition that can be invoked in the template. This way the app code can be updated to actually import the component class so that Embroider can statically resolve this component.
 
 ---
 
@@ -131,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Jen Weber, and the Learning Team
+Jared Galanis, Jen Weber, Chris Ng, and the Learning Team
