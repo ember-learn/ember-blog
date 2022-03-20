@@ -4,7 +4,7 @@ authors:
   - jared-galanis
   - jen-weber
   - chris-ng
-  - sergeastapov
+  - serge-astapov
 date: 2022-03-20T00:00:00.000Z
 tags:
   - newsletter
@@ -13,12 +13,17 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Fill out the Ember Community Survey by April 7th! 🗳,
+Hybrid Ember.js Europe Meetup, featuring Ember Data 📽,
+Upcoming free technical writing workshop 📝,
+EmberConf on April 19th 🐹,
 Blog post: Making your dynamic Ember components work with Embroider 💥,
+Ember Addon Roundup 🌎,
+lint-to-the-future demo video 📹,
 
 ---
 
-## [🗳️ 1. Fill out the Ember Community Survey by April 7th!](https://emberjs.com/survey/2022/)
+## [Fill out the Ember Community Survey by April 7th! 🗳](https://emberjs.com/survey/2022/)
   
 The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem.
 Data informs project prioritization, it sparks new ideas, and reveals opportunities for growth.
@@ -30,7 +35,7 @@ The survey is primarily intended for developers who use the Ember JavaScript fra
 
 ---
 
-## [📽️ 2. Hybrid Ember.js Europe Meetup, featuring Ember Data](https://twitter.com/embereurope)
+## [Hybrid Ember.js Europe Meetup, featuring Ember Data 📽](https://twitter.com/embereurope)
 
 March 31st is the first Ember.js Meetup event!
 There will be an AMA (ask-me-anything) with Chris Thoburn and Scott Newcomer from the Ember Data Core team
@@ -41,7 +46,7 @@ or [RSVP on Meetup](https://www.meetup.com/de-DE/ember-europe/events/283625821/)
 
 ---
 
-## [📝 3. Upcoming free technical writing workshop](https://forms.gle/AvQFjjrJjozHBr529)
+## [Upcoming free technical writing workshop 📝](https://forms.gle/AvQFjjrJjozHBr529)
 
 What are the elements of great technical articles or examples? What are some tips for writing for a global audience? How do you find a place to begin when there are so many different directions you could go? How should your writing style change depending on where it will be published? Join the Ember Learning team for this workshop! It will be half instruction, half hands-on activities.
   
@@ -54,7 +59,7 @@ To receive announcements about specific times and event details, please [fill ou
 
 ---
 
-## [🐹 4. EmberConf on April 19th](https://2022.emberconf.com/)
+## [EmberConf on April 19th 🐹](https://2022.emberconf.com/)
 
 EmberConf registration is open! Join the community remotely on April 19th for an [amazing lineup of talks](https://2022.emberconf.com/).
   
@@ -92,15 +97,13 @@ If you'd like to help ecosystem move forward and convert more addons to v2 forma
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [lint-to-the-future demo video 📹](https://twitter.com/real_ate/status/1500839305878642692)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+`lint-to-the-future` helps facilitate adding new linting rules in projects progressively, where adding such rules without a tool like this can otherwise be a struggle and lead to linter error explosions.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you haven't had a chance to check out [Chris Manson's (@mansona)](https://github.com/mansona) new demo video on this awesome new [tool](https://github.com/mansona/lint-to-the-future), you may want to give it a watch. 😎
+
+You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc) or read a little about it on the [Simplabs blog](https://simplabs.com/blog/2022/03/07/better-code-with-lint-to-the-future/). If you want to checkout the repo, you can find it [here](https://github.com/mansona/lint-to-the-future).
 
 ---
 
