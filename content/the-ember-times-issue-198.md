@@ -108,7 +108,7 @@ Now's your last chance to review and comment before the RFC being accepted so he
 
 ## Ember Addon Roundup 🌎
 
-[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl) have released an awesome new [demo site](https://ember-aria.pages.dev/examples/aria-grid) for [ember-aria](https://github.com/CrowdStrike/ember-aria)! 
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl) have released an awesome new [demo site](https://ember-aria.pages.dev/examples/aria-grid) for [ember-aria](https://github.com/CrowdStrike/ember-aria)!
 
 We’ve also had several addons across the Ember ecosystem converted to v2 format recently!
 
