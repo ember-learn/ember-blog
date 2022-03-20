@@ -4,6 +4,7 @@ authors:
   - jared-galanis
   - jen-weber
   - chris-ng
+  - sergeastapov
 date: 2022-03-20T00:00:00.000Z
 tags:
   - newsletter
@@ -69,15 +70,25 @@ To fully leverage Embroider’s code splitting, they used the `ensure-safe-compo
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## Ember Addon Roundup 🌎
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We’ve had several addons across the Ember ecosystem converted to v2 format recently!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [Luke Melia (@lukemelia)](https://github.com/lukemelia) released `ember-keyboard` [8.0.0](https://github.com/adopted-ember-addons/ember-keyboard/releases/tag/v8.0.0)
+- [Miguel Andrade (@miguelcobain)](https://github.com/miguelcobain) released `ember-css-transitions` [4.0.0](https://github.com/peec/ember-css-transitions/releases/tag/v4.0.0)
+- [Edward Faulkner (@ef4)](https://github.com/ef4) released [ember-animated v1.0.0](https://github.com/ember-animation/ember-animated/releases/tag/v1.0.0)
+- [Edward Faulkner (@ef4)](https://github.com/ef4) released [ember-animated-tools v1.0.0](https://github.com/ember-animation/ember-animated-tools/releases/tag/v1.0.0)
+
+There is number of benefits to users of addons published in v2 format, some of which include:
+
+- faster builds and faster NPM installs
+- "zero-config import from NPM — both static and dynamic" as a first-class feature that works for both third-party libraries and Ember addons
+- support for arbitrary code splitting
+- tree-shaking of unused modules, components, helpers, etc. from the app and all addons
+
+To read more about v2 Addon Format, please check out [RFC 507](https://github.com/emberjs/rfcs/blob/master/text/0507-embroider-v2-package-format.md).
+
+If you'd like to help ecosystem move forward and convert more addons to v2 format, you may follow great guide [Porting an Addon to V2](https://github.com/embroider-build/embroider/blob/main/PORTING-ADDONS-TO-V2.md) made by [Edward Faulkner (@ef4)](https://github.com/ef4) or try [ember-addon-migrator](https://github.com/NullVoxPopuli/ember-addon-migrator) by [NullVoxPopuli](https://github.com/NullVoxPopuli).
 
 ---
 
@@ -131,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Jen Weber, Chris Ng, and the Learning Team
+Jared Galanis, Jen Weber, Chris Ng, Sergey Astapov and the Learning Team
