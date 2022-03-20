@@ -49,9 +49,9 @@ or [RSVP on Meetup](https://www.meetup.com/de-DE/ember-europe/events/283625821/)
 
 ## [Ember TypeScript Core Team 🔥](https://blog.emberjs.com/typed-ember-is-now-the-ember-type-script-core-team)
 
-In case you didn't know, the Ember project recently merged [RFC #0724: Official TypeScript Support](https://emberjs.github.io/rfcs/0724-road-to-typescript.html), committing to make TypeScript an officially-supported language for Ember.js. 
+In case you didn't know, the Ember project recently merged [RFC #0724: Official TypeScript Support](https://emberjs.github.io/rfcs/0724-road-to-typescript.html), committing to make TypeScript an officially-supported language for Ember.js.
 
-To facilitate this support and following a lot of fantastic work over the last 5 years the Typed Ember team is becoming an official Ember core team. The Typed Ember team joins the Framework, Learning, CLI, and Data Core teams as a new Core sub-team: the Ember TypeScript Core Team! 🎉 
+To facilitate this support and following a lot of fantastic work over the last 5 years the Typed Ember team is becoming an official Ember core team. The Typed Ember team joins the Framework, Learning, CLI, and Data Core teams as a new Core sub-team: the Ember TypeScript Core Team! 🎉
 
 The team's initial members are the current Typed Ember team: [James C. Davis (@jamescdavis)](https://github.com/jamescdavis), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), and [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
 
