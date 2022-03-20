@@ -19,8 +19,9 @@ Ember TypeScript Core Team 🔥,
 Upcoming free technical writing workshop 📝,
 EmberConf on April 19th 🐹,
 Blog post: Making your dynamic Ember components work with Embroider 💥,
-Ember Addon Roundup 🌎,
 lint-to-the-future demo video 📹,
+Ember Addon Roundup 🌎,
+Glimmer component Signature type RFC in FCP ⌛️
 
 ---
 
@@ -88,6 +89,16 @@ To fully leverage Embroider’s code splitting, they used the `ensure-safe-compo
 
 ---
 
+## [lint-to-the-future demo video 📹](https://twitter.com/real_ate/status/1500839305878642692)
+
+`lint-to-the-future` helps facilitate adding new linting rules in projects progressively, where adding such rules without a tool like this can otherwise be a struggle and lead to linter error explosions.
+
+If you haven't had a chance to check out [Chris Manson's (@mansona)](https://github.com/mansona) new demo video on this awesome new [tool](https://github.com/mansona/lint-to-the-future), you may want to give it a watch. 😎
+
+You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc) or read a little about it on the [Simplabs blog](https://simplabs.com/blog/2022/03/07/better-code-with-lint-to-the-future/). If you want to checkout the repo, you can find it [here](https://github.com/mansona/lint-to-the-future).
+
+---
+
 ## Ember Addon Roundup 🌎
 
 We’ve had several addons across the Ember ecosystem converted to v2 format recently!
@@ -110,13 +121,13 @@ If you'd like to help ecosystem move forward and convert more addons to v2 forma
 
 ---
 
-## [lint-to-the-future demo video 📹](https://twitter.com/real_ate/status/1500839305878642692)
+## [Glimmer component Signature type RFC in FCP ⌛️](https://twitter.com/emberjs/status/1504891469752160260)
 
-`lint-to-the-future` helps facilitate adding new linting rules in projects progressively, where adding such rules without a tool like this can otherwise be a struggle and lead to linter error explosions.
+[RFC 748 "Glimmer component Signature type"](https://github.com/emberjs/rfcs/pull/748) is now well into the in final comment period!
 
-If you haven't had a chance to check out [Chris Manson's (@mansona)](https://github.com/mansona) new demo video on this awesome new [tool](https://github.com/mansona/lint-to-the-future), you may want to give it a watch. 😎
+This RFC proposes to change GlimmerComponent's Args type parameter to a Signature type that can capture richer information about how a component can be invoked.
 
-You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc) or read a little about it on the [Simplabs blog](https://simplabs.com/blog/2022/03/07/better-code-with-lint-to-the-future/). If you want to checkout the repo, you can find it [here](https://github.com/mansona/lint-to-the-future).
+Now's your last chance to review and comment before the RFC being accepted so head on over to the RFC and contribute any thoughts you may have.
 
 ---
 
