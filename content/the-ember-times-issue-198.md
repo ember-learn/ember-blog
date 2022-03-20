@@ -26,11 +26,11 @@ Ember Addon Roundup 🌎
 ---
 
 ## [Fill out the Ember Community Survey by April 7th! 🗳](https://emberjs.com/survey/2022/)
-  
+
 The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem. The data informs project prioritization, sparks new ideas, and reveals opportunities for growth. The Ember core teams would love to hear from you!
-  
+
 The survey is primarily intended for developers who use the Ember JavaScript framework, either for work or personal use, although any developer is welcome to fill out this survey. The survey should take approximately 15 minutes to complete in full, though all questions are optional.
-  
+
 [Learn more about the survey and fill it out](https://emberjs.com/survey/2022/) by April 7th!
 
 ---
@@ -60,12 +60,12 @@ You can read more about the TypeScript Core Team announcement in the [Ember blog
 ## [Upcoming free technical writing workshop 📝](https://forms.gle/AvQFjjrJjozHBr529)
 
 What are the elements of great technical articles or examples? What are some tips for writing for a global audience? How do you find a place to begin when there are so many different directions you could go? How should your writing style change depending on where it will be published? Join the Ember Learning team for this workshop! It will be half instruction, half hands-on activities.
-  
+
 If there is enough interest, the workshop will be offered in two sessions:
 
 - April 23rd - aimed at Western Hemisphere time zone participants
 - April 30th - aimed at Eastern Hemisphere time zone participants
-  
+
 To receive announcements about specific times and event details, please [fill out this form](https://forms.gle/AvQFjjrJjozHBr529).
 
 ---
@@ -73,7 +73,7 @@ To receive announcements about specific times and event details, please [fill ou
 ## [EmberConf on April 19th 🐹](https://2022.emberconf.com/)
 
 EmberConf registration is open! Join the community remotely on April 19th for an [amazing lineup of talks](https://2022.emberconf.com/).
-  
+
 ---
 
 ## [Blog post: Making your dynamic Ember components work with Embroider 💥](https://simplabs.com/blog/2022/03/17/dynamic-components-embroider/)
@@ -88,27 +88,27 @@ To fully leverage Embroider’s code splitting, they used the `ensure-safe-compo
 
 ## [lint-to-the-future demo video 📹](https://twitter.com/real_ate/status/1500839305878642692)
 
-`lint-to-the-future` helps facilitate adding new linting rules in projects progressively, where adding such rules without a tool like this can otherwise be a struggle and lead to linter error explosions.
+`lint-to-the-future` helps facilitate adding new linting rules in projects progressively, where adding such rules without a tool like this can otherwise be a struggle and lead to linter error explosions. `lint-to-the-future` has a plugin system that enables it to work for a variety of platforms, but there is already a [plugin for Ember](https://github.com/mansona/lint-to-the-future-ember-template) available if you want to use it in your Ember project today!
 
 If you haven't had a chance to check out [Chris Manson's (@mansona)](https://github.com/mansona) new demo video on this awesome new [tool](https://github.com/mansona/lint-to-the-future), you may want to give it a watch. 😎
 
-You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc) or read a little about it on the [Simplabs blog](https://simplabs.com/blog/2022/03/07/better-code-with-lint-to-the-future/). If you want to checkout the repo, you can find it [here](https://github.com/mansona/lint-to-the-future).
+You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc) or read a little about it on the [Simplabs blog](https://simplabs.com/blog/2022/03/07/better-code-with-lint-to-the-future/). If you want to check out the repo, you can find it [here](https://github.com/mansona/lint-to-the-future).
 
 ---
 
 ## [Glimmer component Signature type RFC in FCP ⌛️](https://twitter.com/emberjs/status/1504891469752160260)
 
-[RFC 748 "Glimmer component Signature type"](https://github.com/emberjs/rfcs/pull/748) is now well into the in final comment period!
+[RFC 748 "Glimmer component Signature type"](https://github.com/emberjs/rfcs/pull/748) is now well into the final comment period!
 
 This RFC proposes to change GlimmerComponent's Args type parameter to a Signature type that can capture richer information about how a component can be invoked.
 
-Now's your last chance to review and comment before the RFC being accepted so head on over to the RFC and contribute any thoughts you may have.
+Now's your last chance to review and comment before the RFC is accepted so head on over to the RFC and contribute any thoughts you may have.
 
 ---
 
 ## Ember Addon Roundup 🌎
 
-[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl) have released an awesome new [demo site](https://ember-aria.pages.dev/examples/aria-grid) for [ember-aria](https://github.com/CrowdStrike/ember-aria)!
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl) have released an awesome new [aria-grid demo site](https://ember-aria.pages.dev/examples/aria-grid) for [ember-aria](https://github.com/CrowdStrike/ember-aria)!
 
 We’ve also had several addons across the Ember ecosystem converted to v2 format recently!
 
@@ -128,7 +128,7 @@ There is a number of benefits to users of addons published in v2 format, some of
 
 To read more about v2 Addon Format, please check out [RFC 507](https://github.com/emberjs/rfcs/blob/master/text/0507-embroider-v2-package-format.md).
 
-If you'd like to help ecosystem move forward and convert more addons to v2 format, you may follow great guide [Porting an Addon to V2](https://github.com/embroider-build/embroider/blob/main/PORTING-ADDONS-TO-V2.md) made by [Edward Faulkner (@ef4)](https://github.com/ef4) or try [ember-addon-migrator](https://github.com/NullVoxPopuli/ember-addon-migrator) by [NullVoxPopuli](https://github.com/NullVoxPopuli).
+If you'd like to help the ecosystem move forward and convert more addons to v2 format, you may follow the great guide [Porting an Addon to V2](https://github.com/embroider-build/embroider/blob/main/PORTING-ADDONS-TO-V2.md) made by [Edward Faulkner (@ef4)](https://github.com/ef4) or try [ember-addon-migrator](https://github.com/NullVoxPopuli/ember-addon-migrator) by [NullVoxPopuli](https://github.com/NullVoxPopuli).
 
 ---
 
