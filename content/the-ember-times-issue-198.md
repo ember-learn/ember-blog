@@ -20,16 +20,14 @@ Upcoming free technical writing workshop 📝,
 EmberConf on April 19th 🐹,
 Blog post: Making your dynamic Ember components work with Embroider 💥,
 lint-to-the-future demo video 📹,
-Ember Addon Roundup 🌎,
-Glimmer component Signature type RFC in FCP ⌛️
+Glimmer component Signature type RFC in FCP ⌛️,
+Ember Addon Roundup 🌎
 
 ---
 
 ## [Fill out the Ember Community Survey by April 7th! 🗳](https://emberjs.com/survey/2022/)
   
-The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem.
-Data informs project prioritization, it sparks new ideas, and reveals opportunities for growth.
-The Ember core teams would love to hear from you!
+The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem. The data informs project prioritization, sparks new ideas, and reveals opportunities for growth. The Ember core teams would love to hear from you!
   
 The survey is primarily intended for developers who use the Ember JavaScript framework, either for work or personal use, although any developer is welcome to fill out this survey. The survey should take approximately 15 minutes to complete in full, though all questions are optional.
   
@@ -40,11 +38,10 @@ The survey is primarily intended for developers who use the Ember JavaScript fra
 ## [Hybrid Ember.js Europe Meetup, featuring Ember Data 📽](https://twitter.com/embereurope)
 
 March 31st is the first Ember.js Meetup event!
-There will be an AMA (ask-me-anything) with Chris Thoburn and Scott Newcomer from the Ember Data Core team
-  
 
-For more details, visit [Ember Europe on Twitter](https://twitter.com/embereurope)
-or [RSVP on Meetup](https://www.meetup.com/de-DE/ember-europe/events/283625821/).
+There will be an AMA (ask-me-anything) with Chris Thoburn and Scott Newcomer from the Ember Data Core team.
+
+For more details, visit [Ember Europe on Twitter](https://twitter.com/embereurope) or [RSVP on Meetup](https://www.meetup.com/de-DE/ember-europe/events/283625821/).
 
 ---
 
@@ -56,7 +53,7 @@ To facilitate this support and following a lot of fantastic work over the last 5
 
 The team's initial members are the current Typed Ember team: [James C. Davis (@jamescdavis)](https://github.com/jamescdavis), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), and [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
 
-You can read more about the TypeScript Core Team announcement in this [post](https://blog.emberjs.com/typed-ember-is-now-the-ember-type-script-core-team).
+You can read more about the TypeScript Core Team announcement in the [Ember blog post](https://blog.emberjs.com/typed-ember-is-now-the-ember-type-script-core-team).
 
 ---
 
@@ -99,16 +96,30 @@ You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc)
 
 ---
 
+## [Glimmer component Signature type RFC in FCP ⌛️](https://twitter.com/emberjs/status/1504891469752160260)
+
+[RFC 748 "Glimmer component Signature type"](https://github.com/emberjs/rfcs/pull/748) is now well into the in final comment period!
+
+This RFC proposes to change GlimmerComponent's Args type parameter to a Signature type that can capture richer information about how a component can be invoked.
+
+Now's your last chance to review and comment before the RFC being accepted so head on over to the RFC and contribute any thoughts you may have.
+
+---
+
 ## Ember Addon Roundup 🌎
 
-We’ve had several addons across the Ember ecosystem converted to v2 format recently!
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Zoë Bijl (@ZoeBijl)](https://github.com/ZoeBijl) have released an awesome new [demo site](https://ember-aria.pages.dev/examples/aria-grid) for [ember-aria](https://github.com/CrowdStrike/ember-aria)!
+
+We’ve also had several addons across the Ember ecosystem converted to v2 format recently!
 
 - [Luke Melia (@lukemelia)](https://github.com/lukemelia) released `ember-keyboard` [8.0.0](https://github.com/adopted-ember-addons/ember-keyboard/releases/tag/v8.0.0)
 - [Miguel Andrade (@miguelcobain)](https://github.com/miguelcobain) released `ember-css-transitions` [4.0.0](https://github.com/peec/ember-css-transitions/releases/tag/v4.0.0)
 - [Edward Faulkner (@ef4)](https://github.com/ef4) released [ember-animated v1.0.0](https://github.com/ember-animation/ember-animated/releases/tag/v1.0.0)
 - [Edward Faulkner (@ef4)](https://github.com/ef4) released [ember-animated-tools v1.0.0](https://github.com/ember-animation/ember-animated-tools/releases/tag/v1.0.0)
 
-There is number of benefits to users of addons published in v2 format, some of which include:
+Many thanks to [Sergey Astapov (@SergeAstapov)](https://github.com/SergeAstapov) for their work on many of these releases!
+
+There is a number of benefits to users of addons published in v2 format, some of which include:
 
 - faster builds and faster NPM installs
 - "zero-config import from NPM — both static and dynamic" as a first-class feature that works for both third-party libraries and Ember addons
@@ -121,19 +132,9 @@ If you'd like to help ecosystem move forward and convert more addons to v2 forma
 
 ---
 
-## [Glimmer component Signature type RFC in FCP ⌛️](https://twitter.com/emberjs/status/1504891469752160260)
-
-[RFC 748 "Glimmer component Signature type"](https://github.com/emberjs/rfcs/pull/748) is now well into the in final comment period!
-
-This RFC proposes to change GlimmerComponent's Args type parameter to a Signature type that can capture richer information about how a component can be invoked.
-
-Now's your last chance to review and comment before the RFC being accepted so head on over to the RFC and contribute any thoughts you may have.
-
----
-
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/hakilebara" rel="noopener noreferrer" target="_blank">Frédéric Soumaré (@hakilebara)</a>, <a href="https://github.com/lcoq" rel="noopener noreferrer" target="_blank">Louis Coquio (@lcoq)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/fozy81" rel="noopener noreferrer" target="_blank">Tim (@fozy81)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/MelSumner" rel="noopener noreferrer" target="_blank">Melanie Sumner (@MelSumner)</a>, <a href="https://github.com/Mithrilhall" rel="noopener noreferrer" target="_blank">Eric (@Mithrilhall)</a>, <a href="https://github.com/joshuabremer" rel="noopener noreferrer" target="_blank">Josh Bremer (@joshuabremer)</a>, <a href="https://github.com/nlfurniss" rel="noopener noreferrer" target="_blank">Nathaniel Furniss (@nlfurniss)</a>, <a href="https://github.com/Windvis" rel="noopener noreferrer" target="_blank">Sam Van Campenhout (@Windvis)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/gossi" rel="noopener noreferrer" target="_blank">Thomas Gossmann (@gossi)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/mkszepp" rel="noopener noreferrer" target="_blank">@mkszepp</a>, and <a href="https://github.com/VincentMolinie" rel="noopener noreferrer" target="_blank">Vincent Molinié (@VincentMolinie)</a>  for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
