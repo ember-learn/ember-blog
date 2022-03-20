@@ -15,6 +15,7 @@ tags:
 
 Fill out the Ember Community Survey by April 7th! 🗳,
 Hybrid Ember.js Europe Meetup, featuring Ember Data 📽,
+Ember TypeScript Core Team 🔥,
 Upcoming free technical writing workshop 📝,
 EmberConf on April 19th 🐹,
 Blog post: Making your dynamic Ember components work with Embroider 💥,
@@ -43,6 +44,18 @@ There will be an AMA (ask-me-anything) with Chris Thoburn and Scott Newcomer fro
 
 For more details, visit [Ember Europe on Twitter](https://twitter.com/embereurope)
 or [RSVP on Meetup](https://www.meetup.com/de-DE/ember-europe/events/283625821/).
+
+---
+
+## [Ember TypeScript Core Team 🔥](https://blog.emberjs.com/typed-ember-is-now-the-ember-type-script-core-team)
+
+In case you didn't know, the Ember project recently merged [RFC #0724: Official TypeScript Support](https://emberjs.github.io/rfcs/0724-road-to-typescript.html), committing to make TypeScript an officially-supported language for Ember.js.
+
+To facilitate this support and following a lot of fantastic work over the last 5 years the Typed Ember team is becoming an official Ember core team. The Typed Ember team joins the Framework, Learning, CLI, and Data Core teams as a new Core sub-team: the Ember TypeScript Core Team! 🎉
+
+The team's initial members are the current Typed Ember team: [James C. Davis (@jamescdavis)](https://github.com/jamescdavis), [Dan Freeman (@dfreeman)](https://github.com/dfreeman), and [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho).
+
+You can read more about the TypeScript Core Team announcement in this [post](https://blog.emberjs.com/typed-ember-is-now-the-ember-type-script-core-team).
 
 ---
 
@@ -104,18 +117,6 @@ If you'd like to help ecosystem move forward and convert more addons to v2 forma
 If you haven't had a chance to check out [Chris Manson's (@mansona)](https://github.com/mansona) new demo video on this awesome new [tool](https://github.com/mansona/lint-to-the-future), you may want to give it a watch. 😎
 
 You can find the video on [YouTube](https://www.youtube.com/watch?v=bsDFXjDKjPc) or read a little about it on the [Simplabs blog](https://simplabs.com/blog/2022/03/07/better-code-with-lint-to-the-future/). If you want to checkout the repo, you can find it [here](https://github.com/mansona/lint-to-the-future).
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
