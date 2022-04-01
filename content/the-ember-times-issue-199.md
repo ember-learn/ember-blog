@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 199
 authors:
   - jared-galanis
+  - chris-ng
 date: 2022-04-03T00:00:00.000Z
 tags:
   - newsletter
@@ -11,18 +12,19 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Ember Addon Roundup 🌐,
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## Ember Addon Roundup 🌐
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Thoburn (@runspired)](https://github.com/runspired) released [Flexi 3.0 beta](https://github.com/html-next/flexi) after almost 5 years of hiatus! Flexi is a responsive-design layout framework focused on performance and maintainability, utilizing Ember for greater configuration and convenience. This release supports Ember 3.28+.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Josemar Luedke (@josemarluedke)](https://github.com/josemarluedke) released [Frontile v0.14.0](https://github.com/josemarluedke/frontile/releases/tag/v0.14.00). Frontile aims to provide the legos (components, helpers, modifiers, and styles) necessary for building consistent and powerful Ember.js apps while following best practices from the community and providing both low-level and high-level components for your application. This release adds Embroider support!
+
+[Giles Thompson (@gilest)](https://github.com/gilest) released [Ember File Upload v5](https://github.com/adopted-ember-addons/ember-file-upload/releases/tag/v5.0.0). Ember File Upload is an Ember addon that makes uploading files easy by managing uploads through queues in the background. This release provides Ember Octane, v4 and Embroider support. Check the [upgrade guide](https://ember-file-upload.pages.dev/docs/upgrade-guide#upgrading-to-v5) for more information.
+
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) released [ember-modifier v3.2.0](https://github.com/ember-modifier/ember-modifier/releases/tag/v3.2.0) which aligns the modifier design with the rest of the Ember ecosystem and improves its TypeScript support (including with Glint). Check the [changelog](https://github.com/ember-modifier/ember-modifier/releases/tag/v3.2.0) for full details and the [migration guide](https://github.com/ember-modifier/ember-modifier/blob/master/MIGRATIONS.md#40) for how to upgrade your code!
 
 ---
 
@@ -136,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis and the Learning Team
+Chris Ng, Jared Galanis and the Learning Team
