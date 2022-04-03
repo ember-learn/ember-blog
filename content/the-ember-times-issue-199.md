@@ -15,6 +15,7 @@ Fill out the Ember Community Survey by April 7th! 🗳,
 EmberConf on April 19th 🐹,
 Upcoming free technical writing workshop 📝,
 Decorators are in TC39 Stage 3 🎉,
+Whiskey Web and Whatnot Episodes 🎙,
 Ember Addon Roundup 🌐,
 
 ---
@@ -53,6 +54,16 @@ To receive announcements about specific times and event details, please [fill ou
 ## [Decorators are in TC39 Stage 3 🎉](https://twitter.com/pzuraq/status/1508518807438082060?s=20&t=skr-9rILFYLOh-eSyySySw)
 
 Decorators have been a thing in Ember for some time now, but recently TC39 advanced decorators to [Stage 3](https://tc39.es/process-document/)! 🎉 This is a step closer to the features of non-Angular-style decorators shipping natively in browsers rather than needing various degrees of expensive transpilation. Many thanks and congratulations to [Chris Garrett (@pzuraq)](https://github.com/pzuraq) for Championing this effort!
+
+---
+
+## [Whiskey Web and Whatnot Episodes 🎙](https://www.whiskeywebandwhatnot.fm/)
+
+There are two more new awesome episodes of the Whiskey Web and Whatnot podcast! 🔥
+
+First, creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Kara Luton (@karaluton)](https://github.com/karaluton) and they discuss Kara's experience learning and relearning Ember, why she loves the Ember community and her advice for those looking to switch careers. Check out the episode [here](https://www.whiskeywebandwhatnot.fm/transitioning-to-tech-and-writing-what-you-know-with-kara-luton/).
+
+Next up is an episode with Ember Learning Core Team member [Jen Weber (@jenweber)](https://github.com/jenweber) chatting with Robbie and Chuck about how to standardize an ever-evolving industry, the struggle to measure developer expertise, and why the Ember community is largely responsible for Jen's growth, career, and overall outlook on tech. Check out the episode [here](https://www.whiskeywebandwhatnot.fm/setting-standards-community-lifelines-and-the-beauty-of-open-source-with-jen-weber/).
 
 ---
 
