@@ -11,8 +11,41 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Fill out the Ember Community Survey by April 7th! 🗳,
+EmberConf on April 19th 🐹,
+Upcoming free technical writing workshop 📝,
 Ember Addon Roundup 🌐,
+
+---
+
+## [Fill out the Ember Community Survey by April 7th! 🗳](https://emberjs.com/survey/2022/)
+
+The annual Ember Community Survey is open for just a few more days (until 4/7)! This is another reminder that the Ember core teams would love to hear from you!
+
+The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem. The data informs project prioritization, sparks new ideas, and reveals opportunities for growth.
+
+The survey is primarily intended for developers who use the Ember JavaScript framework, either for work or personal use, although any developer is welcome to fill out this survey. The survey should take approximately 15 minutes to complete in full, though all questions are optional.
+
+[Learn more about the survey and fill it out](https://emberjs.com/survey/2022/) by April 7th!
+
+---
+
+## [EmberConf on April 19th 🐹](https://2022.emberconf.com/)
+
+Here's another friendly 🤠 reminder that EmberConf registration is open! Register now and join the community remotely on April 19th for an [amazing lineup of talks](https://2022.emberconf.com/).
+
+---
+
+## [Upcoming free technical writing workshop 📝](https://forms.gle/AvQFjjrJjozHBr529)
+
+What are the elements of great technical articles or examples? What are some tips for writing for a global audience? How do you find a place to begin when there are so many different directions you could go? How should your writing style change depending on where it will be published? This is also another reminder if you want to join the Ember Learning team for a workshop that covers all of this! It will be half instruction, half hands-on activities.
+
+If there is enough interest, the workshop will be offered in two sessions:
+
+- April 23rd - aimed at Western Hemisphere time zone participants
+- April 30th - aimed at Eastern Hemisphere time zone participants
+
+To receive announcements about specific times and event details, please [fill out this form](https://forms.gle/AvQFjjrJjozHBr529).
 
 ---
 
