@@ -61,7 +61,7 @@ Please join us in welcoming the newest Learning Core team member, [Chris Ng (@ch
 
 ## [Decorators are in TC39 Stage 3 🎉](https://twitter.com/pzuraq/status/1508518807438082060?s=20&t=skr-9rILFYLOh-eSyySySw)
 
-Decorators have been a thing in Ember for some time now, but recently TC39 advanced decorators to [Stage 3](https://tc39.es/process-document/)! 🎉 This is a step closer to the features of non-Angular-style decorators shipping natively in browsers rather than needing various degrees of expensive transpilation. Many thanks and congratulations to [Chris Garrett (@pzuraq)](https://github.com/pzuraq) for Championing this effort!
+Decorators have been a thing in Ember for some time now, but recently TC39 advanced decorators to [Stage 3](https://tc39.es/process-document/)! 🎉 This is a step closer to the features of non-Angular-style decorators shipping natively in browsers rather than needing various degrees of expensive transpilation. Many thanks and congratulations to [Chris Garrett (@pzuraq)](https://github.com/pzuraq) for championing this effort!
 
 ---
 
