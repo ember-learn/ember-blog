@@ -16,6 +16,7 @@ EmberConf on April 19th 🐹,
 Upcoming free technical writing workshop 📝,
 Decorators are in TC39 Stage 3 🎉,
 Whiskey Web and Whatnot Episodes 🎙,
+Dynamic component import demo 😎,
 Ember Addon Roundup 🌐,
 
 ---
@@ -64,6 +65,12 @@ There are two more new awesome episodes of the Whiskey Web and Whatnot podcast! 
 First, creators [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Kara Luton (@karaluton)](https://github.com/karaluton) and they discuss Kara's experience learning and relearning Ember, why she loves the Ember community and her advice for those looking to switch careers. Check out the episode [here](https://www.whiskeywebandwhatnot.fm/transitioning-to-tech-and-writing-what-you-know-with-kara-luton/).
 
 Next up is an episode with Ember Learning Core Team member [Jen Weber (@jenweber)](https://github.com/jenweber) chatting with Robbie and Chuck about how to standardize an ever-evolving industry, the struggle to measure developer expertise, and why the Ember community is largely responsible for Jen's growth, career, and overall outlook on tech. Check out the episode [here](https://www.whiskeywebandwhatnot.fm/setting-standards-community-lifelines-and-the-beauty-of-open-source-with-jen-weber/).
+
+---
+
+## [Dynamic component import demo 😎](https://twitter.com/nullvoxpopuli/status/1507715367581462531)
+
+Recently [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) put together a cool demo on how to dynamically import a component via `await import`. Check out the [repo](https://github.com/NullVoxPopuli/demo-ember-dynamic-component-import) and [further tweeted examples](https://twitter.com/nullvoxpopuli/status/1507716424546062340) today!
 
 ---
 
