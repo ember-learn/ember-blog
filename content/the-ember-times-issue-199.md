@@ -20,7 +20,7 @@ Ember Addon Roundup 🌐,
 
 ## [Fill out the Ember Community Survey by April 7th! 🗳](https://emberjs.com/survey/2022/)
 
-The annual Ember Community Survey is open for just a few more days (until 4/7)! This is another reminder that the Ember core teams would love to hear from you!
+The annual Ember Community Survey is open for only a few more days (until 4/7)! This is another reminder that the Ember core teams would love to hear from you!
 
 The annual [Ember Community Survey](https://emberjs.com/survey/2022/) helps guide direction in the Ember ecosystem. The data informs project prioritization, sparks new ideas, and reveals opportunities for growth.
 
