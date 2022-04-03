@@ -14,6 +14,7 @@ tags:
 Fill out the Ember Community Survey by April 7th! 🗳,
 EmberConf on April 19th 🐹,
 Upcoming free technical writing workshop 📝,
+Chris Ng is added to the Learning Core Team 🥳,
 Decorators are in TC39 Stage 3 🎉,
 Whiskey Web and Whatnot Episodes 🎙,
 Dynamic component import demo 😎,
@@ -49,6 +50,12 @@ If there is enough interest, the workshop will be offered in two sessions:
 - April 30th - aimed at Eastern Hemisphere time zone participants
 
 To receive announcements about specific times and event details, please [fill out this form](https://forms.gle/AvQFjjrJjozHBr529).
+
+---
+
+## [Chris Ng is added to the Learning Core Team 🥳](https://twitter.com/chrisrng/status/1510280206879186952)
+
+Please join us in welcoming the newest Learning Core team member, [Chris Ng (@chrisrng)](https://github.com/chrisrng)! 🥳 👏 🎉  Chris has contributed an amazing amount to Learning team efforts, like the Ember Times, already and we can't wait to see what else is in store!
 
 ---
 
