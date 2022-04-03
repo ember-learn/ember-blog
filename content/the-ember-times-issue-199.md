@@ -14,6 +14,7 @@ tags:
 Fill out the Ember Community Survey by April 7th! 🗳,
 EmberConf on April 19th 🐹,
 Upcoming free technical writing workshop 📝,
+Decorators are in TC39 Stage 3 🎉,
 Ember Addon Roundup 🌐,
 
 ---
@@ -46,6 +47,12 @@ If there is enough interest, the workshop will be offered in two sessions:
 - April 30th - aimed at Eastern Hemisphere time zone participants
 
 To receive announcements about specific times and event details, please [fill out this form](https://forms.gle/AvQFjjrJjozHBr529).
+
+---
+
+## [Decorators are in TC39 Stage 3 🎉](https://twitter.com/pzuraq/status/1508518807438082060?s=20&t=skr-9rILFYLOh-eSyySySw)
+
+Decorators have been a thing in Ember for some time now, but recently TC39 advanced decorators to [Stage 3](https://tc39.es/process-document/)! 🎉 This is a step closer to the features of non-Angular-style decorators shipping natively in browsers rather than needing various degrees of expensive transpilation. Many thanks and congratulations to [Chris Garrett (@pzuraq)](https://github.com/pzuraq) for Championing this effort!
 
 ---
 
