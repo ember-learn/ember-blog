@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 200
 authors:
   - jared-galanis
+  - chris-ng
 date: 2022-04-17T00:00:00.000Z
 tags:
   - newsletter
@@ -11,18 +12,14 @@ tags:
 👋 Emberistas! 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+EmberConf this week! 🐹,
 
 ---
+## [EmberConf this week! 🐹](https://2022.emberconf.com/)
 
-## [🐹 1. Section title in sentence case](section-url)
+It’s finally [EmberConf](https://2022.emberconf.com/) week with the main event happening on Tuesday, April 19th! EmberConf is the flagship digital event of the Ember.js community. It's your chance to hear from members of the [Ember Core Team](https://emberjs.com/teams/) along with top contributors and users. Join us as we celebrate the year and take a peek at what's ahead!
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Check out the [full speaker line up](https://2022.emberconf.com/schedule) for amazing in the schedule!
 
 ---
 
@@ -136,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis and the Learning Team
+Chris Ng, Jared Galanis and the Learning Team
