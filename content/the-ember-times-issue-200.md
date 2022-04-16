@@ -15,6 +15,7 @@ tags:
 EmberConf this week! 🐹,
 
 ---
+
 ## [EmberConf this week! 🐹](https://2022.emberconf.com/)
 
 It’s finally [EmberConf](https://2022.emberconf.com/) week with the main event happening on Tuesday, April 19th! EmberConf is the flagship digital event of the Ember.js community. It's your chance to hear from members of the [Ember Core Team](https://emberjs.com/teams/) along with top contributors and users. Join us as we celebrate the year and take a peek at what's ahead!
