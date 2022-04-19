@@ -87,8 +87,8 @@ attribute is involved in the `createRecord`.
 Ember Data 4.3 introduced 4 features.
 
 - [Better debuggability](https://github.com/emberjs/data/pull/7227)! When your
-app is in `DEBUG` mode, you can now dig into `Store`, `Symbol`, and
-`RecordReference` more easily.
+app is in `DEBUG` mode, it is now easier to dig into `Store`, `Symbol`, and
+`RecordReference`.
 - [Add support for Customizeable test setups](https://github.com/emberjs/data/pull/7887)
 as described in [RFC 637](https://emberjs.github.io/rfcs/0637-customizable-test-setups.html).
 - The Reference API is now [compatible with autotracking](https://github.com/emberjs/data/pull/7796).
