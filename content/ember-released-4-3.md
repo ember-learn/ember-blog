@@ -2,7 +2,9 @@
 title: Ember 4.3 Released
 authors:
   - the-ember-learning-team
-date: 2022-04-12T00:00:00.000Z
+  - jen-weber
+
+date: 2022-04-20T00:00:00.000Z
 tags:
   - releases
   - '2022'
@@ -34,9 +36,9 @@ Ember.js 4.3 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 4.3 introduced 3 bug fixes.
 
-- Memory leak in the Router Service class is fixed ([#20025](https://github.com/emberjs/ember.js/pull/20025)). This affected both tests and FastBoot, where we construct new instances of the service whenever we call the `visit` API.
-- Don’t serialize default Query Params on RouterService ([#19971](https://github.com/emberjs/ember.js/pull/19971)). Using `RouterService#transitionTo` does no longer add unspecified query parameters to the URL.
-- Correctly associate props with factory and owner in FactoryManager ([#20024](https://github.com/emberjs/ember.js/pull/20024))
+- A memory leak in the Router Service class is fixed ([#20025](https://github.com/emberjs/ember.js/pull/20025)). It was affecting tests and FastBoot apps.
+- Using `RouterService#transitionTo` no longer adds unspecified default query parameters to the URL ([#19971](https://github.com/emberjs/ember.js/pull/19971)).
+- FactoryManager correctly associate props with factory and owner ([#20024](https://github.com/emberjs/ember.js/pull/20024))
 
 #### Features
 
@@ -60,11 +62,39 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 #### Bug Fixes
 
-Ember Data 4.3 introduced 0 bug fixes and some tests and documentation improvements.
+Ember Data 4.3 introduced many bug fixes! Contributors to the project
+were hard at work to address things that were reported between `v3.28` and
+`v4.2`.
+
+Many of the bugfixes listed below have been backported to
+`v3.28`. That means if you get the latest patch release of `v3.28-v4.2`,
+you will get these benefits too.
+
+The list below covers highlights only. See the [commit history](https://github.com/emberjs/data/compare/v4.2.0...v4.3.0) for a comprehensive list.
+
+- Pushing records with duplicate identifiers does not cause duplicate records
+[#7801](https://github.com/emberjs/data/pull/7801)
+- Fix a bug with encoding space characters when serializing query params
+[#7834](https://github.com/emberjs/data/pull/7834)
+- Fix a regression where `createRecord` crashed when a setter which sets an
+attribute is involved in the `createRecord`.
+- Fix a regression to support `await` for loading relationships
+[#7684](https://github.com/emberjs/data/issues/7684)
+- [...and more!](https://github.com/emberjs/data/compare/v4.2.0...v4.3.0)
 
 #### Features
 
-Ember Data 4.3 introduced 0 features.
+Ember Data 4.3 introduced 4 features.
+
+- [Better debuggability](https://github.com/emberjs/data/pull/7227)! When your
+app is in `DEBUG` mode, you can now dig into `Store`, `Symbol`, and
+`RecordReference` more easily.
+- [Add support for Customizeable test setups](https://github.com/emberjs/data/pull/7887)
+as described in [RFC 637](https://emberjs.github.io/rfcs/0637-customizable-test-setups.html)
+- The Reference API is now [compatible with autotracking](https://github.com/emberjs/data/pull/7796).
+- `attributesDefinitionFor` and `relationshipsDefinitionFor` have 
+[simpler TypeScript types](https://github.com/emberjs/data/pull/7867/files),
+following [RFC 794](https://emberjs.github.io/rfcs/0794-ember-data-schema-definition-service-simplify.html)
 
 #### Deprecations
 
@@ -73,8 +103,17 @@ Ember Data 4.3 introduced 0 deprecations.
 Support for the `toJSON` method on Ember Data records has been removed. It was deprecated in `3.x` and slated for removal in `4.x`.
 If your app uses this method, follow the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_record-toJSON).
 
+Some more previously-deprecated APIs were slated for removal in the `4.x`
+series, and have [now been removed](https://github.com/emberjs/data/pull/7861):
+- evented
+- lifecycle events like `didCreate`
+- default adapter - adapter type must be specified now
+- test registrations
+- `belongs-to-push` of record
+- `mismatched-inverse`
+
 For more details on changes in Ember Data 4.3, please review the
-[Ember Data 4.3.0 commits](https://github.com/emberjs/data/compare/v4.1.0...v4.3.0).
+[Ember Data 4.3.0 commits](https://github.com/emberjs/data/compare/v4.2.0...v4.3.0).
 
 ---
 
