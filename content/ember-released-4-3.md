@@ -32,7 +32,10 @@ Ember.js 4.3 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug Fixes
 
-Ember.js 4.3 introduced 0 bug fixes.
+Ember.js 4.3 introduced 3 bug fixes.
+- Memory leak in the Router Service class is fixed([#20025](https://github.com/emberjs/ember.js/pull/20025)). This affected both tests and FastBoot, where we construct new instances of the service whenever we call the `visit` API.
+- Don’t serialize default Query Params on RouterService ([#19971](https://github.com/emberjs/ember.js/pull/19971)).  Using `RouterService#transitionTo` does no longer add unspecified query parameters to the URL.
+- Correctly associate props with factory and owner in FactoryManager ([#20024](https://github.com/emberjs/ember.js/pull/20024))
 
 #### Features
 
@@ -94,15 +97,22 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
-Ember CLI 4.3 introduced 0 bug fixes.
+Ember CLI 4.3 introduced 1 bug fix.
+- The broccoli debug folder is added to the `gitignore` file ([#9680](https://github.com/ember-cli/ember-cli/pull/9680)). 
 
 #### Features
 
-Ember CLI 4.3 introduced 0 features.
+Ember CLI 4.3 introduced 2 features.
+
+- Customisation of setupTest* functions ([#9803](https://github.com/ember-cli/ember-cli/pull/9803))
+This provide a default and convenient way for each project to customize the `setupApplicationTest`, `setupRenderingTest`, and `setupTest functions` from  [RFC #268](https://github.com/emberjs/rfcs/blob/master/text/0268-acceptance-testing-refactor.md)  and  [RFC #232](https://github.com/emberjs/rfcs/blob/master/text/0232-simplify-qunit-testing-api.md) .  This adds a  file `tests/helpers/index.js` where those functions will be wrapped and exported, creating a local place to edit for each type of test setup. Tests generated using ember generate will import the setup functions from that file.
+- Add support for specifying a path for the generate command  ([#9387](https://github.com/ember-cli/ember-cli/pull/9387)). This allows you to run `ember g ../../../node_modules/ember-source/blueprints/component` to generate a component.
 
 #### Deprecations
 
-Ember CLI 4.3 introduced 0 deprecations.
+Ember CLI 4.3 introduced 1 deprecation.
+
+- Deprecate Bower support ([#9707](https://github.com/ember-cli/ember-cli/pull/9707)). This implements the deprecation messages from [RFC 772](https://github.com/bertdeblock/rfcs/blob/deprecate-bower-apis/text/0772-deprecate-bower-support.md).
 
 For more details on the changes in Ember CLI 4.3 and detailed upgrade
 instructions, please review the [Ember CLI 4.3.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.3.0).
