@@ -1,7 +1,7 @@
 ---
 title: Ember 4.3 Released
 authors:
-  - the-ember-learning-team
+  - anne-greeth-schot-van-herwijnen
   - jen-weber
 
 date: 2022-04-20T00:00:00.000Z
