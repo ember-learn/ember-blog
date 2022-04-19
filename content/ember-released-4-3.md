@@ -92,8 +92,8 @@ app is in `DEBUG` mode, it is now easier to dig into `Store`, `Symbol`, and
 - [Add support for Customizeable test setups](https://github.com/emberjs/data/pull/7887)
 as described in [RFC 637](https://emberjs.github.io/rfcs/0637-customizable-test-setups.html).
 - The Reference API is now [compatible with autotracking](https://github.com/emberjs/data/pull/7796).
-- `attributesDefinitionFor` and `relationshipsDefinitionFor` have
-[simpler TypeScript types](https://github.com/emberjs/data/pull/7867/files),
+- `attributesDefinitionFor` and `relationshipsDefinitionFor` have a
+[simpler API](https://github.com/emberjs/data/pull/7867/files),
 following [RFC 794](https://emberjs.github.io/rfcs/0794-ember-data-schema-definition-service-simplify.html).
 
 #### Deprecations
