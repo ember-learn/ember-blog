@@ -92,7 +92,7 @@ app is in `DEBUG` mode, you can now dig into `Store`, `Symbol`, and
 - [Add support for Customizeable test setups](https://github.com/emberjs/data/pull/7887)
 as described in [RFC 637](https://emberjs.github.io/rfcs/0637-customizable-test-setups.html)
 - The Reference API is now [compatible with autotracking](https://github.com/emberjs/data/pull/7796).
-- `attributesDefinitionFor` and `relationshipsDefinitionFor` have 
+- `attributesDefinitionFor` and `relationshipsDefinitionFor` have
 [simpler TypeScript types](https://github.com/emberjs/data/pull/7867/files),
 following [RFC 794](https://emberjs.github.io/rfcs/0794-ember-data-schema-definition-service-simplify.html)
 
@@ -105,6 +105,7 @@ If your app uses this method, follow the [deprecation guide](https://deprecation
 
 Some more previously-deprecated APIs were slated for removal in the `4.x`
 series, and have [now been removed](https://github.com/emberjs/data/pull/7861):
+
 - evented
 - lifecycle events like `didCreate`
 - default adapter - adapter type must be specified now
