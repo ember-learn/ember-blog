@@ -11,7 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-TypeScript in Ember 🤝, 
+TypeScript in Ember 🤝,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
