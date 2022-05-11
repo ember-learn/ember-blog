@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 200
 authors:
   - jared-galanis
+  - chris-ng
   - anne-greeth-schot-van-herwijnen
 date: 2022-04-17T00:00:00.000Z
 tags:
@@ -10,32 +11,27 @@ tags:
 ---
 
 👋 Emberistas! 🐹
+TypeScript in Ember 🤝,
+Addon Roundup 🌐,
 Time to watch some movies 🍿,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [TypeScript in Ember 🤝](https://2022.emberconf.com/talks/the-road-to-typescript)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+As you might have noticed during [EmberConf 2022](https://2022.emberconf.com/talks) TypeScript and Ember are becoming more and more a thing. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) gave [a talk about Ember's road towards TypeScript](https://2022.emberconf.com/talks/the-road-to-typescript). He wrote multiple interesting blogposts about TypeScript: [Misusing TypeScript Assertion Functions for Fun and Profit](https://v5.chriskrycho.com/journal/misusing-typescript-assertion-functions-for-fun-and-profit/) and [SemVer for TS in Practice](https://v5.chriskrycho.com/journal/semver-for-ts-in-practice/). [Krystan Huffmeme (@gitKrystan)](https://github.com/gitKrystan) updated her [blogpost about TypeScript](https://blog.skylight.io/ts-extends-confidence-2-2022/) with the latest and greatest Ember + TypeScript practices. Not only in the realm of blogposts is TypeScript hot and happening, [ember-responsive-image latest update (v3.4.0)](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.4.0) adds Glint support to the add-on.
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## Addon Roundup 🌐
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released v4.7.0 of [ember-resources](https://github.com/NullVoxPopuli/ember-resources), an addon that implements the [Resource pattern](https://www.pzuraq.com/blog/introducing-use), which added the ability to make function-based resources.
+- [Tobias Bieniek (@Turbo87)](https://github.com/Turbo87) published a new version of [intellij-emberjs](https://github.com/Turbo87/intellij-emberjs) which is a plugin that provides basic Ember.js support to all JetBrains IDEs that support JavaScript. This release fixes the annoying `LineMarkerInfo` deprecation warning that was introduced in 2021.3.
+- [Tobias Bieniek (@Turbo87)](https://github.com/Turbo87) also released v1.0.0 of [ember-hbs-minifier](https://github.com/simplabs/ember-hbs-minifier) which shrinks your templates by removing unnecessary text nodes and collapsing into single space characters.
+- [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) released [ember-eui](https://github.com/prysmex/ember-eui) which provides Ember components for the [Elastic design system](https://github.com/elastic/eui). Check out the [demo](https://ember-eui.netlify.app/docs/introduction) to try it out!
+- [Isaac Lee (@ijlee2)](https://github.com/ijlee2) released [ember-container-query](https://github.com/ijlee2/ember-container-query) which is an addon that provides a component and several helpers to leverage container queries in your Ember app. Open the [demo](https://ember-container-query.netlify.app/) app to see it in action!
+- [Isaac Lee (@ijlee2)](https://github.com/ijlee2) also released [ember-workshop](https://github.com/ijlee2/ember-workshop) which is a demo app to illustrate core and latest concepts in Ember. Try it out today at the [demo](https://ember-workshop.netlify.app/) page!
 
 ---
 
@@ -131,4 +127,5 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Anne-Greeth Schot-van Herwijnen and the Learning Team
+
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng and the Learning Team
