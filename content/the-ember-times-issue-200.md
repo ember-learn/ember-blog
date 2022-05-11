@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 200
 authors:
   - jared-galanis
+  - anne-greeth-schot-van-herwijnen
 date: 2022-04-17T00:00:00.000Z
 tags:
   - newsletter
@@ -10,19 +11,14 @@ tags:
 
 👋 Emberistas! 🐹
 
+TypeScript in Ember 🤝,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [TypeScript in Ember 🤝](https://2022.emberconf.com/talks/the-road-to-typescript)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+As you might have noticed during [EmberConf 2022](https://2022.emberconf.com/talks) TypeScript and Ember are becoming more and more a thing. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) gave [a talk about Ember's road towards TypeScript](https://2022.emberconf.com/talks/the-road-to-typescript). He wrote multiple interesting blogposts about TypeScript: [Misusing TypeScript Assertion Functions for Fun and Profit](https://v5.chriskrycho.com/journal/misusing-typescript-assertion-functions-for-fun-and-profit/) and [SemVer for TS in Practice](https://v5.chriskrycho.com/journal/semver-for-ts-in-practice/). [Krystan Huffmeme (@gitKrystan)](https://github.com/gitKrystan) updated her [blogpost about TypeScript](https://blog.skylight.io/ts-extends-confidence-2-2022/) with the latest and greatest Ember + TypeScript practices. Not only in the realm of blogposts is TypeScript hot and happening, [ember-responsive-image latest update (v3.4.0)](https://github.com/kaliber5/ember-responsive-image/releases/tag/v3.4.0) adds Glint support to the add-on.
 
 ---
 
@@ -136,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen and the Learning Team
