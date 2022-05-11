@@ -11,8 +11,9 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
 TypeScript in Ember 🤝,
+Addon Roundup 🌐,
+Time to watch some movies 🍿,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -34,15 +35,9 @@ As you might have noticed during [EmberConf 2022](https://2022.emberconf.com/tal
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Ember videos 🎞️](https://2022.emberconf.com/talks)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+EmberConf 2022 was remote, so all [the videos](https://2022.emberconf.com/talks) are already available, including the [AMA with Robert Jackson (@rwjblue)](https://www.youtube.com/watch?v=huGc98lrLRk) that happend the week after the conference. The [Ember Ingnite videos are also on Youtube](https://www.youtube.com/channel/UCyloIQk1MS_kWEZOvUz8deg), including that talk by [Thomas Gossmann (@gossi)](https://github.com/gossi) about [Component Architecture](https://gos.si/blog/frontend-component-architecture/). **Have fun** watching all these amazing speakers 🍿!
 
 ---
 
@@ -131,5 +126,6 @@ As you might have noticed during [EmberConf 2022](https://2022.emberconf.com/tal
 That's another wrap! ✨
 
 Be kind,
+
 
 Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng and the Learning Team
