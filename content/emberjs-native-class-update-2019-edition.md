@@ -3,6 +3,7 @@ title: Ember.js Native Class Update - 2019 Edition
 authors:
   - chris-garrett
 date: 2019-01-26T00:00:00.000Z
+canonical: https://www.pzuraq.com/emberjs-native-class-update-2019-edition/
 tags:
   - '2019'
   - native-classes
@@ -550,4 +551,3 @@ Generally, derived state like this is handled better by getters/setters, so this
 <!--alex enable just easy-->
 
 And that's all folks! If you have more questions, join the [Ember Discord](https://www.emberjs.com/community/) and ask away, the `#e-decorators`, `#e-typescript`, `#st-native-classes`, and `#st-octane` channels are all great places to get some advice. Thanks for reading!
-

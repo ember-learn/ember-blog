@@ -3,6 +3,7 @@ title: 'Coming Soon in Ember Octane - Part 3: Tracked Properties'
 authors:
   - chris-garrett
 date: 2019-02-26T00:00:00.000Z
+canonical: https://www.pzuraq.com/coming-soon-in-ember-octane-part-3-tracked-properties/
 tags:
   - '2019'
   - ember-octane

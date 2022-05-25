@@ -3,6 +3,7 @@ title: 'Coming Soon in Ember Octane - Part 1: Native Classes'
 authors:
   - chris-garrett
 date: 2019-02-11T00:00:00.000Z
+canonical: https://www.pzuraq.com/coming-soon-in-ember-octane-part-1-native-classes/
 tags:
   - '2019'
   - ember-octane
