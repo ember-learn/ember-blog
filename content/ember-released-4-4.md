@@ -71,7 +71,9 @@ Ember Data 4.4 introduced 0 features.
 
 #### Deprecations
 
-Ember Data 4.4 introduced 0 deprecations.
+Ember Data 4.4 introduced 1 deprecations.
+
+- `Model.save()` will return a Promise instead of a `PromiseProxyMixin`. To return a promise, you can set your `compatWith` to 4.4.
 
 Support for the `toJSON` method on Ember Data records has been removed. It was deprecated in `3.x` and slated for removal in `4.x`.
 If your app uses this method, follow the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_record-toJSON).
