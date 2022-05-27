@@ -3,6 +3,7 @@ title: 'Coming Soon in Ember Octane - Part 5: Glimmer Components'
 authors:
   - chris-garrett
 date: 2019-03-14T00:00:00.000Z
+canonical: https://www.pzuraq.com/coming-soon-in-ember-octane-part-5-glimmer-components/
 tags:
   - '2019'
   - ember-octane

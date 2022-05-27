@@ -3,6 +3,7 @@ title: 'Coming Soon in Ember Octane - Part 4: Modifiers'
 authors:
   - chris-garrett
 date: 2019-03-06T00:00:00.000Z
+canonical: https://www.pzuraq.com/coming-soon-in-ember-octane-part-4-modifiers/
 tags:
   - '2019'
   - ember-octane

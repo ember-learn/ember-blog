@@ -3,6 +3,7 @@ title: 'Coming Soon in Ember Octane - Part 2: Angle Brackets & Named Arguments'
 authors:
   - chris-garrett
 date: 2019-02-19T00:00:00.000Z
+canonical: https://www.pzuraq.com/coming-soon-in-ember-octane-part-2-angle-brackets-and-named-arguments/
 tags:
   - '2019'
   - ember-octane
