@@ -2,7 +2,7 @@
 title: Ember 4.4 Released
 authors:
   - the-ember-learning-team
-date: 2022-05-9T00:00:00.000Z
+date: 2022-05-27T00:00:00.000Z
 tags:
   - releases
   - '2022'
