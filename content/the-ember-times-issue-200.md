@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 200
 authors:
   - jared-galanis
   - chris-ng
+  - NullVoxPopuli
   - anne-greeth-schot-van-herwijnen
 date: 2022-04-17T00:00:00.000Z
 tags:
@@ -128,4 +129,4 @@ That's another wrap! ✨
 Be kind,
 
 
-Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng, NullVoxPopuli and the Learning Team
