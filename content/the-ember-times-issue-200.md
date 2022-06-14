@@ -17,6 +17,7 @@ TypeScript in Ember 🤝,
 Addon Roundup 🌐,
 Time to watch some movies 🍿,
 Using Ember in 2022 🏙,
+Embroider is legit.
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -51,7 +52,12 @@ EmberConf 2022 was remote, so all [the videos](https://2022.emberconf.com/talks)
 
 ---
 
+<<<<<<< HEAD
 ## Why use Ember at your company? 🏙
+||||||| parent of bae0c25c (Blurb about embroider)
+## [🐹 4. Section title in sentence case](section-url)
+=======
+>>>>>>> bae0c25c (Blurb about embroider)
 
 [Kenny De Pauw from OTA insight](https://dev.to/otainsight) and [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara) from Qonto both wrote a blogpost about the benefits and relevance of EmberJS to their companies.
 
@@ -63,6 +69,36 @@ If you want to know more, check out the following blogposts:
 
 - [Why we use Ember.js at OTA Insight](https://dev.to/otainsight/why-we-use-emberjs-at-ota-insight-4oai)
 - [Stability without stagnation — Using Ember at Qonto](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b)
+
+## [🧵 5. Embroider is legit](https://github.com/embroider-build/embroider)
+
+Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid January 2021).
+Since even before v1.0.0, addon-authors have been adding **two** embroider-centric tests in C.I. for both "maximum compatibility" and "maximum strictness" to their ember-try configs.
+`ember-cli` has even added an `--embroider` flag out of the box for starting new projects with embroider.
+Try embroider out today in a new app!,
+
+```bash
+ember new my-app --embroider
+```
+
+Or, add embroider to an existing app via this codemod,
+
+```bash
+npx ember-apply embroider
+```
+
+This [`ember-apply`](https://github.com/NullVoxPopuli/ember-apply/) command automates the setup instructions in the [embroider README](https://github.com/embroider-build/embroider#how-to-try-it).
+
+And speaking of the README, it has a section of if _you_ should use embroider or not, today.
+
+> Several large, heavily-tested Ember apps are shipping to production with Embroider. So if you are excited to adopt Embroider, it is a reasonable choice. The main risks to be aware of if you choose to use Embroider in production are:
+>
+> - you're likely to discover some Ember addons don't work or break your build
+> - Embroider's own configuration options are subject to change, so you'll need to read the CHANGELOG.md when updating the Embroider packages.
+>
+> Alternatively, it is totally safe to stick with the traditional build pipeline and wait for the official cutover point when EmberCLI starts generating new apps with Embroider by default.
+
+Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
 ---
 
