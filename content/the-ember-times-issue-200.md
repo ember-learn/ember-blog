@@ -72,16 +72,17 @@ If you want to know more, check out the following blogposts:
 
 ## [🧵 5. Embroider is legit](https://github.com/embroider-build/embroider)
 
-Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid January 2021).
+Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid January 2021). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
+  
 Since even before v1.0.0, addon-authors have been adding **two** embroider-centric tests in C.I. for both "maximum compatibility" and "maximum strictness" to their ember-try configs.
 `ember-cli` has even added an `--embroider` flag out of the box for starting new projects with embroider.
-Try embroider out today in a new app!,
+Try embroider out today in a new app!
 
 ```bash
 ember new my-app --embroider
 ```
 
-Or, add embroider to an existing app via this codemod,
+Or, add embroider to an existing app via this codemod:
 
 ```bash
 npx ember-apply embroider
@@ -98,7 +99,7 @@ And speaking of the README, it has a section of if _you_ should use embroider or
 >
 > Alternatively, it is totally safe to stick with the traditional build pipeline and wait for the official cutover point when EmberCLI starts generating new apps with Embroider by default.
 
-Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
+Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on Webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
 ---
 
