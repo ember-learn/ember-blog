@@ -32,16 +32,16 @@ Ember.js 4.5 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug Fixes
 
-Ember.js 4.5 introduced TODO bug fixes.
+Ember.js 4.5 introduced 0 bug fixes.
 
 #### Features
 
-Ember.js 4.5 introduced TODO features.
+Ember.js 4.5 introduced 2 new features.
 
 1. Plain function as helpers
-2. Feature description
+2. `renderSettled` is now public API
 
-##### Plain functions as helpers
+##### 1. Plain functions as helpers
 
 You can now use plain functions as helpers in your component templates. This helps make the relationship between Ember component templates and their JavaScript class more intuitive.
 The full documentation can be found in [TODO link to guides]()
@@ -68,18 +68,22 @@ export default class MyComponent extends Component {
 
 Previously, you would need to [write a separate helper](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) in order to accomplish this.
 
-This feature was made possible when [RFC 188](https://rfcs.emberjs.com/id/0756-helper-default-manager) was implemented.
+This feature was made possible when [RFC 756](https://rfcs.emberjs.com/id/0756-helper-default-manager) was implemented.
+
+##### 2. `renderSettled` is now public API
+
+`renderSettled` is a method you can use in your application tests. For example, in a test, you might want to update some tracked state and then run some assertions after rendering has completed. The `renderSettled` method returns a promise which fulfills when rendering has completed.
+
+```
+import { renderSettled } from '@ember/renderer';
+```
+
+`renderSettled` is one chapter in some upcoming improvements to Ember's testing story. The ongoing work and goals are described in [RFC 785](https://rfcs.emberjs.com/id/0785-remove-set-get-in-tests).
+
 #### Deprecations
 
-Ember.js 4.5 introduced TODO deprecations.
+Ember.js 4.5 introduced 0 deprecations.
 
-<!-- Block start: If there were no deprecations, remove this block -->
-
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-
-<!-- Block end -->
 
 For more details on changes in Ember.js 4.5, please review the [Ember.js 4.5.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.5.0).
 
