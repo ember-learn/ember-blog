@@ -44,6 +44,7 @@ Ember.js 4.5 introduced TODO features.
 ##### Plain functions as helpers
 
 You can now use plain functions as helpers in your component templates. This helps make the relationship between Ember component templates and their JavaScript class more intuitive.
+The full documentation can be found in [TODO link to guides]()
 
 For example, here we create a method `double` and use it directly in a template:
 
