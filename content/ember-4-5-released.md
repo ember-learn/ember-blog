@@ -32,18 +32,45 @@ Ember.js 4.5 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug Fixes
 
-Ember.js 4.5 introduced 0 bug fixes.
+Ember.js 4.5 introduced TODO bug fixes.
 
 #### Features
 
-Ember.js 4.5 introduced 2 features.
+Ember.js 4.5 introduced TODO features.
 
-1. Feature description
+1. Plain function as helpers
 2. Feature description
 
+##### Plain functions as helpers
+
+You can now use plain functions as helpers in your component templates. This helps make the relationship between Ember component templates and their JavaScript class more intuitive.
+
+For example, here we create a method `double` and use it directly in a template:
+
+```js
+// my-component.js
+
+import Component from '@glimmer/component';
+
+export default class MyComponent extends Component {
+  double = num => num * 2;
+}
+```
+
+```hbs
+// my-component.hbs
+
+{{this.double 2}}
+
+<SomeComponent @foo={{this.double 2}} />
+```
+
+Previously, you would need to [write a separate helper](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) in order to accomplish this.
+
+This feature was made possible when [RFC 188](https://rfcs.emberjs.com/id/0756-helper-default-manager) was implemented.
 #### Deprecations
 
-Ember.js 4.5 introduced 0 deprecations.
+Ember.js 4.5 introduced TODO deprecations.
 
 <!-- Block start: If there were no deprecations, remove this block -->
 
@@ -65,15 +92,15 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 #### Bug Fixes
 
-Ember Data 4.5 introduced 0 bug fixes.
+Ember Data 4.5 introduced TODO bug fixes.
 
 #### Features
 
-Ember Data 4.5 introduced 0 features.
+Ember Data 4.5 introduced TODO features.
 
 #### Deprecations
 
-Ember Data 4.5 introduced 0 deprecations.
+Ember Data 4.5 introduced TODO deprecations.
 
 For more details on changes in Ember Data 4.5, please review the
 [Ember Data 4.5.0 release page](https://github.com/emberjs/data/releases/tag/v4.5.0).
@@ -98,17 +125,19 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 4.5
 
+This Ember CLI release drops support for Node 12. Node 12 reached "end of life"status (it no longer receives security updates) in April 2022.
+
 #### Bug Fixes
 
-Ember CLI 4.5 introduced 0 bug fixes.
+Ember CLI 4.5 introduced TODO bug fixes.
 
 #### Features
 
-Ember CLI 4.5 introduced 0 features.
+Ember CLI 4.5 introduced TODO features.
 
 #### Deprecations
 
-Ember CLI 4.5 introduced 0 deprecations.
+Ember CLI 4.5 introduced TODO deprecations.
 
 For more details on the changes in Ember CLI 4.5 and detailed upgrade
 instructions, please review the [Ember CLI 4.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.5.0).
