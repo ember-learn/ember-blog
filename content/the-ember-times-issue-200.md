@@ -5,6 +5,7 @@ authors:
   - chris-ng
   - NullVoxPopuli
   - anne-greeth-schot-van-herwijnen
+  - chris-manson
 date: 2022-04-17T00:00:00.000Z
 tags:
   - newsletter
@@ -130,4 +131,4 @@ That's another wrap! ✨
 Be kind,
 
 
-Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng, NullVoxPopuli and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng, NullVoxPopuli, Chris Manson, and the Learning Team
