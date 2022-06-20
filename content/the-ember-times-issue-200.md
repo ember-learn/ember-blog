@@ -15,6 +15,7 @@ tags:
 TypeScript in Ember 🤝,
 Addon Roundup 🌐,
 Time to watch some movies 🍿,
+Using Ember in 2022 🏙,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -42,15 +43,17 @@ EmberConf 2022 was remote, so all [the videos](https://2022.emberconf.com/talks)
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## Why use Ember at your company? 🏙
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Kenny De Pauw from OTA insight](https://dev.to/otainsight) and [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara) from Qonto both wrote a blogpost about the benefits and relevance of EmberJS to their companies. 
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[According to Kenny]( they are able to create new features quickly, have a codebase that’s scalable and have a good developer experience.
+
+[Frédéric says](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b): “Convention over configuration, Stability over stagnation, Climbing the mountain together, these are cardinal principles of the Ember framework. Beyond the tech, these principles are the reason we chose Ember and decided to stick with it.”
+
+If you want to know more, check out the blogposts
+- [Why we use Ember.js at OTA Insight](https://dev.to/otainsight/why-we-use-emberjs-at-ota-insight-4oai)
+- [Stability without stagnation — Using Ember at Qonto](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b)
 
 ---
 
