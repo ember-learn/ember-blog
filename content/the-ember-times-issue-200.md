@@ -51,7 +51,8 @@ EmberConf 2022 was remote, so all [the videos](https://2022.emberconf.com/talks)
 
 [Frédéric says](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b): “Convention over configuration, Stability over stagnation, Climbing the mountain together, these are cardinal principles of the Ember framework. Beyond the tech, these principles are the reason we chose Ember and decided to stick with it.”
 
-If you want to know more, check out the blogposts
+If you want to know more, check out the following blogposts:
+  
 - [Why we use Ember.js at OTA Insight](https://dev.to/otainsight/why-we-use-emberjs-at-ota-insight-4oai)
 - [Stability without stagnation — Using Ember at Qonto](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b)
 
