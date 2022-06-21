@@ -5,6 +5,7 @@ authors:
   - chris-ng
   - NullVoxPopuli
   - anne-greeth-schot-van-herwijnen
+  - chris-manson
 date: 2022-04-17T00:00:00.000Z
 tags:
   - newsletter
@@ -33,6 +34,7 @@ As you might have noticed during [EmberConf 2022](https://2022.emberconf.com/tal
 - [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) released [ember-eui](https://github.com/prysmex/ember-eui) which provides Ember components for the [Elastic design system](https://github.com/elastic/eui). Check out the [demo](https://ember-eui.netlify.app/docs/introduction) to try it out!
 - [Isaac Lee (@ijlee2)](https://github.com/ijlee2) released [ember-container-query](https://github.com/ijlee2/ember-container-query) which is an addon that provides a component and several helpers to leverage container queries in your Ember app. Open the [demo](https://ember-container-query.netlify.app/) app to see it in action!
 - [Isaac Lee (@ijlee2)](https://github.com/ijlee2) also released [ember-workshop](https://github.com/ijlee2/ember-workshop) which is a demo app to illustrate core and latest concepts in Ember. Try it out today at the [demo](https://ember-workshop.netlify.app/) page!
+- [Chris Manson (@mansona)](https://github.com/mansona) added a section to the [Lint to the Future](https://github.com/mansona/lint-to-the-future) documentation that describes how to build a plugin. Lint to the future is something that [Chris talked about at EmberConf](https://www.youtube.com/watch?v=Nl8gHDdkI0Y) and if you want to learn how to write your own plugin for Lint to the Future you can [now check out the Plugin Development Guide](https://github.com/mansona/lint-to-the-future/blob/main/docs/plugin-development.md).
 
 ---
 
@@ -129,4 +131,4 @@ That's another wrap! ✨
 Be kind,
 
 
-Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng, NullVoxPopuli and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, Chris Ng, NullVoxPopuli, Chris Manson, and the Learning Team
