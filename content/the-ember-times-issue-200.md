@@ -45,14 +45,14 @@ EmberConf 2022 was remote, so all [the videos](https://2022.emberconf.com/talks)
 
 ## Why use Ember at your company? 🏙
 
-[Kenny De Pauw from OTA insight](https://dev.to/otainsight) and [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara) from Qonto both wrote a blogpost about the benefits and relevance of EmberJS to their companies. 
+[Kenny De Pauw from OTA insight](https://dev.to/otainsight) and [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara) from Qonto both wrote a blogpost about the benefits and relevance of EmberJS to their companies.
 
-[According to Kenny]( they are able to create new features quickly, have a codebase that’s scalable and have a good developer experience.
+[According to Kenny](https://dev.to/otainsight/why-we-use-emberjs-at-ota-insight-4oai) they are able to create new features quickly, have a codebase that’s scalable and have a good developer experience.
 
 [Frédéric says](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b): “Convention over configuration, Stability over stagnation, Climbing the mountain together, these are cardinal principles of the Ember framework. Beyond the tech, these principles are the reason we chose Ember and decided to stick with it.”
 
 If you want to know more, check out the following blogposts:
-  
+
 - [Why we use Ember.js at OTA Insight](https://dev.to/otainsight/why-we-use-emberjs-at-ota-insight-4oai)
 - [Stability without stagnation — Using Ember at Qonto](https://medium.com/qonto-way/stability-without-stagnation-using-ember-at-qonto-b221b52b917b)
 
