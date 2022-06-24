@@ -52,12 +52,7 @@ EmberConf 2022 was remote, so all [the videos](https://2022.emberconf.com/talks)
 
 ---
 
-<<<<<<< HEAD
 ## Why use Ember at your company? 🏙
-||||||| parent of bae0c25c (Blurb about embroider)
-## [🐹 4. Section title in sentence case](section-url)
-=======
->>>>>>> bae0c25c (Blurb about embroider)
 
 [Kenny De Pauw from OTA insight](https://dev.to/otainsight) and [Frédéric Soumaré (@hakilebara)](https://github.com/hakilebara) from Qonto both wrote a blogpost about the benefits and relevance of EmberJS to their companies.
 
@@ -73,7 +68,7 @@ If you want to know more, check out the following blogposts:
 ## [🧵 5. Embroider is legit](https://github.com/embroider-build/embroider)
 
 Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid January 2021). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
-  
+
 Since even before v1.0.0, addon-authors have been adding **two** embroider-centric tests in C.I. for both "maximum compatibility" and "maximum strictness" to their ember-try configs.
 `ember-cli` has even added an `--embroider` flag out of the box for starting new projects with embroider.
 Try embroider out today in a new app!
