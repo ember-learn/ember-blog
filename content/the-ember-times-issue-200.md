@@ -6,7 +6,7 @@ authors:
   - NullVoxPopuli
   - anne-greeth-schot-van-herwijnen
   - chris-manson
-date: 2022-04-17T00:00:00.000Z
+date: 2022-06-26T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
