@@ -13,7 +13,7 @@ tags:
 👋 Emberistas! 🐹
 
 Embroider is legit.
-Advanced hbs template support in Intellij Idea.
+Advanced template support in Intellij Idea.
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -49,9 +49,9 @@ And speaking of the README, it has a section of if _you_ should use embroider or
 
 Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on Webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
-## [💻 1. Advanced hbs template support in Intellij Idea](https://github.com/patricklx/intellij-emberjs-experimental)
+## [💻 1. Advanced template support in Intellij Idea](https://github.com/patricklx/intellij-emberjs-experimental)
 
-In Intellij Idea the support for Emberjs templates has been quite lacking, Especially compared to vscode (Un)Stable Ember Language Server. With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental) I added many features to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. **You will need to disable or remove the other Ember.js plugin to prevent conflicts.**
+In Intellij Idea the support for Emberjs templates has been quite lacking, Especially compared to vscode (Un)Stable Ember Language Server. With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental) I added many features to the original plugin to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. **You will need to disable or remove the other Ember.js plugin to prevent conflicts.**
 
 This plugin adds:
 * **Smart** Handlebars references for tags/mustache paths and tag attributes. By smart i mean that in handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and its able to resolve array item type in `each`.
