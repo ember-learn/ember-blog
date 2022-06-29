@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 201
 authors:
   - anne-greeth-schot-van-herwijnen
   - NullVoxPopuli
+  - patricklx
 date: 2022-06-27T00:00:00.000Z
 tags:
   - newsletter
@@ -48,6 +49,19 @@ And speaking of the README, it has a section of if _you_ should use embroider or
 
 Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on Webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
+ ## [💻 1. Advanced template support in Intellij Idea](https://github.com/patricklx/intellij-emberjs-experimental)
+
+ In Intellij Idea the support for Emberjs templates has been quite lacking, Especially compared to vscode (Un)Stable Ember Language Server. With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental) I added many features to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. **You will need to disable or remove the other Ember.js plugin to prevent conflicts.**
+
+ This plugin adds:
+ * **Smart** Handlebars references for tags/mustache paths and tag attributes. By smart i mean that in handles ember helpers such as `let`, `hash`, `or`, `each`. References to javascript/typescript and its able to resolve array item type in `each`.
+ * Handlebars **autocompletion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if atttribtues are valid and if requeried ones are missing.
+ * Handlebars **parameter hints** for helpers/modifiers and components
+ * Handlebars **renaming** for mustache ids and html tags
+ * Includes Emberjs internal Components and Helpers with support for attributes and parameter hints.
+ * It also resolves {{or x y z}} to the first resolvable option, this makes {{component (or x y)}} work, e.g in **power-select**
+ * support for inline templates
+ * some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files. Only with `hbs` tags.  `<template>` will conflict with the internal definition of react...
 
 ## [🐹 1. Section title in sentence case](section-url)
 
@@ -171,4 +185,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, NullVoxPopuli and the Learning Team
+Anne-Greeth Schot-van Herwijnen, NullVoxPopuli, patricklx and the Learning Team
