@@ -1,4 +1,4 @@
-# Whiskey, Web and Whatnot with Chris Krycho
+# Whiskey, Web and Whatnot with Chris Krycho🔊
 
 Robert Wagner (@rwwagner90) and Chuck Carpenter (@chuckcarpenter) of Ship Shape sit down with Chris Krycho(@chriskrycho) for a podcast episode.Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, further on explaining its need and long term benefits.
 
