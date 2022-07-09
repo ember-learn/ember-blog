@@ -2,7 +2,8 @@
 title: Ember 4.5 Released
 authors:
   - jen-weber
-date: 2022-06-20T00:00:00.000Z
+  - chris-krycho
+date: 2022-07-12T00:00:00.000Z
 tags:
   - releases
   - '2022'
