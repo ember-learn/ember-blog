@@ -39,12 +39,11 @@ Ember.js 4.5 introduced 0 bug fixes.
 Ember.js 4.5 introduced 2 new features.
 
 1. Plain function as helpers
-2. `renderSettled` is now public API
+2. A new `renderSettled` test helper
 
 ##### 1. Plain functions as helpers
 
 You can now use plain functions as helpers in your component templates. This helps make the relationship between Ember component templates and their JavaScript class more intuitive.
-The full documentation can be found in [TODO link to guides]()
 
 For example, here we create a method `double` and use it directly in a template:
 
@@ -68,17 +67,29 @@ export default class MyComponent extends Component {
 
 Previously, you would need to [write a separate helper](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) in order to accomplish this.
 
-This feature was made possible when [RFC 756](https://rfcs.emberjs.com/id/0756-helper-default-manager) was implemented.
+We're working on updating the Guides to cover this pattern.
+For background, check out [RFC 756](https://rfcs.emberjs.com/id/0756-helper-default-manager), which designed this feature.
+Also, keep your eyes on this blog: we will have a dedicated blog post with a deep dive on this new capability in the next week or two!
 
-##### 2. `renderSettled` is now public API
+##### 2. A new `renderSettled` test helper
 
-`renderSettled` is a method you can use in your application tests. For example, in a test, you might want to update some tracked state and then run some assertions after rendering has completed. The `renderSettled` method returns a promise which fulfills when rendering has completed.
+Under the hood, Ember's tests use a "test waiters" system to allow you to control the flow of your tests in terms of the actual framework behavior.
+That way that your tests match exactly what the app does at runtime.
+However, making this work depends on Ember providing all the necessary hooks for test helpers to use, and there was one significant missing public API.
+You could wait for *all* of the test waiters to finish with `settled`, but there was no public way to wait for *just rendering* to finish.
+For example, you might want to wait for rendering to finish but *not* for an Ember Data `save` operation to finish, as part of testing a loading screen.
+
+Ember 4.5 introduces a new function, `renderSettled`, as a public way for test helpers to interact with the rendering phase of the application.
+`renderSettled` returns returns a promise which fulfills as soon as rendering has completed.
+It can be used in any rendering or application test.
+(It also works in other tests where you set up the rendering hooks manually, but this is unusual!)
 
 ```
 import { renderSettled } from '@ember/renderer';
 ```
 
-`renderSettled` is one chapter in some upcoming improvements to Ember's testing story. The ongoing work and goals are described in [RFC 785](https://rfcs.emberjs.com/id/0785-remove-set-get-in-tests).
+An upcoming release of `@ember/test-helpers` will take advantage of this to provide a new `await rerender()` helper.
+For more details, and how this fits into improvements to Ember's testing story, see [RFC 785](https://rfcs.emberjs.com/id/0785-remove-set-get-in-tests).
 
 #### Deprecations
 
