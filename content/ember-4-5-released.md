@@ -66,7 +66,7 @@ export default class MyComponent extends Component {
 <SomeComponent @foo={{this.double 2}} />
 ```
 
-Previously, you would need to [write a separate helper](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) in order to accomplish this.
+Previously, you would need to [write a helper](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) in order to accomplish this.
 
 We're working on updating the Guides to cover this pattern.
 For background, check out [RFC 756](https://rfcs.emberjs.com/id/0756-helper-default-manager), which designed this feature.
