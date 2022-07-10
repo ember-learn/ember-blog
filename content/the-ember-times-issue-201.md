@@ -54,6 +54,7 @@ Note that while some addons may break your build, this may be for the greater go
 In Intellij Idea the support for Emberjs templates has been quite lacking, Especially compared to vscode [(Un)Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable). With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental), [patricklx](https://github.com/patricklx) added many features to the [original plugin](https://github.com/Turbo87/intellij-emberjs) to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. **You will need to disable or remove the other Ember.js plugin to prevent conflicts.**
 
 This plugin adds:
+
 * **Smart** Handlebars references for tags/mustache paths and tag attributes. This means that it handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and its able to resolve array item type in `each`.
 * Handlebars **autocompletion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if atttribtues are valid and if requeried ones are missing.
 * Handlebars **parameter hints** for helpers/modifiers and components
