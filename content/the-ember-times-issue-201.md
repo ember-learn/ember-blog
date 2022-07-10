@@ -45,6 +45,7 @@ And speaking of the README, it has a section of if _you_ should use embroider or
 > - Embroider's own configuration options are subject to change, so you'll need to read the CHANGELOG.md when updating the Embroider packages.
 >
 > Alternatively, it is totally safe to stick with the traditional build pipeline and wait for the official cutover point when EmberCLI starts generating new apps with Embroider by default.
+
 Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on Webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
 
