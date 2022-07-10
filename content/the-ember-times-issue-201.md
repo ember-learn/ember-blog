@@ -55,14 +55,14 @@ In Intellij Idea the support for Emberjs templates has been quite lacking, Espec
 
 This plugin adds:
 
-* **Smart** Handlebars references for tags/mustache paths and tag attributes. This means that it handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and its able to resolve array item type in `each`.
-* Handlebars **autocompletion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if atttribtues are valid and if requeried ones are missing.
-* Handlebars **parameter hints** for helpers/modifiers and components
-* Handlebars **renaming** for mustache ids and html tags
-* Includes Emberjs internal Components and Helpers with documentation and support for attributes and parameter hints.
-* It also resolves {{or x y z}} to the first resolvable option, this makes {{component (or x y)}} work, e.g in **power-select**
-* support for inline templates
-* some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
+- **Smart** Handlebars references for tags/mustache paths and tag attributes. This means that it handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and its able to resolve array item type in `each`.
+- Handlebars **autocompletion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if atttribtues are valid and if requeried ones are missing.
+- Handlebars **parameter hints** for helpers/modifiers and components
+- Handlebars **renaming** for mustache ids and html tags
+- Includes Emberjs internal Components and Helpers with documentation and support for attributes and parameter hints.
+- It also resolves {{or x y z}} to the first resolvable option, this makes {{component (or x y)}} work, e.g in **power-select**
+- support for inline templates
+- some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
 
 ---
 
