@@ -77,6 +77,15 @@ This plugin adds:
 - Support for inline templates.
 - Some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
 
+
+---
+
+## [ember-statechart-component 📊](https://twitter.com/nullvoxpopuli/status/1543449217351442438)
+
+`ember-statechart-component` 6.0.0 has been [released](https://github.com/NullVoxPopuli/ember-statechart-component/releases/tag/v6.0.0) by [@NullVoxPopuli](https://github.com/NullVoxPopuli) and now includes support for Glint! There are also some breaking changes around the required versions of Ember involved so be sure to checkout the release notes.
+
+There's also been several patch and minor releases of the library since 6.0.0 was released so the latest is actually now v6.1.1. Those releases includes a few bug fixes and one new feature (automatic glint registration).
+
 ---
 
 ## [Whiskey Web and Whatnot Episodes 🔊](https://www.whiskeywebandwhatnot.fm/)
@@ -88,90 +97,6 @@ First, [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck C
 They also discuss the enthusiasm of newbies to use TypeScript and the complexities that might arise. If you want to know factors to consider when deciding to use TypeScript, they discuss a few. Chris suggests developers to learn Rust programming because learning functional programming helps broadening your horizon.
 
 Next up is an episode with Ember Framework Core Team member [Godfrey Chan @chancancode](https://github.com/chancancode) who chats with Robbie and Chuck about StarBeam and the Polaris Edition and the future of Ember.js! Check out the episode [here](https://www.whiskeywebandwhatnot.fm/polaris-starbeam-and-the-future-of-ember-with-godfrey-chan/).
-
----
-
-## [🐹 2. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 3. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 4. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 5. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
