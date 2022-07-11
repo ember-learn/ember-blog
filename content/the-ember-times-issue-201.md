@@ -36,7 +36,7 @@ Don't wait too long to book your ticket and travel as September will be here bef
 
 ## [Embroider is legit 🧵](https://github.com/embroider-build/embroider)
 
-Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid January 2021). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
+Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid-January 2021). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
 
 Since even before v1.0.0, addon-authors have been adding **two** embroider-centric tests in C.I. for both "maximum compatibility" and "maximum strictness" to their ember-try configs.
 `ember-cli` has even added an `--embroider` flag out of the box for starting new projects with embroider.
@@ -69,7 +69,7 @@ Note that while some addons may break your build, this may be for the greater go
 
 ## [Starbeam 🤩](https://twitter.com/wycats/status/1538888835064442880)
 
-If you haven't had a chance to checkout [Starbeam](https://github.com/starbeamjs/starbeam) from [Yehuda Katz (@wycats)](https://github.com/wycats), you're going to want to give it a look!
+If you haven't had a chance to check out [Starbeam](https://github.com/starbeamjs/starbeam) from [Yehuda Katz (@wycats)](https://github.com/wycats), you're going to want to give it a look!
 
 The TL;DR on Starbeam is that it's the best parts of the Ember auto-tracking system cleaned up and extracted into a standalone library optimized for universality. This means you can use the 🔥 Ember reactivity system 🔥 in frameworks like React, Vue and Svelte. Note, Starbeam should be available in Ember.js as well.
 
@@ -93,10 +93,10 @@ In Intellij Idea the support for Ember.js templates has been quite lacking, Espe
 
 This plugin adds:
 
-- **Smart** Handlebars references for tags/mustache paths and tag attributes. This means that it handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and its able to resolve array item type in `each`.
-- Handlebars **autocompletion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if atttribtues are valid and if requeried ones are missing.
+- **Smart** Handlebars references for tags/mustache paths and tag attributes. This means that it handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and it is able to resolve array item type in `each`.
+- Handlebars **auto-completion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if attributes are valid and if required ones are missing.
 - Handlebars **parameter hints** for helpers/modifiers and components.
-- Handlebars **renaming** for mustache ids and html tags.
+- Handlebars **renaming** for mustache ids and Html tags.
 - Includes support for Ember.js internal Components and Helpers with documentation and support for attributes and parameter hints.
 - It also resolves `{{or x y z}}` to the first resolvable option, this makes `{{component (or x y)}}` work, e.g in `power-select`.
 - Support for inline templates.
@@ -106,9 +106,9 @@ This plugin adds:
 
 ## [ember-statechart-component 6.0.0 📊](https://twitter.com/nullvoxpopuli/status/1543449217351442438)
 
-`ember-statechart-component` 6.0.0 has been [released](https://github.com/NullVoxPopuli/ember-statechart-component/releases/tag/v6.0.0) by [@NullVoxPopuli](https://github.com/NullVoxPopuli) and now includes support for Glint! There are also some breaking changes around the required versions of Ember involved so be sure to checkout the release notes.
+`ember-statechart-component` 6.0.0 has been [released](https://github.com/NullVoxPopuli/ember-statechart-component/releases/tag/v6.0.0) by [@NullVoxPopuli](https://github.com/NullVoxPopuli) and now includes support for Glint! There are also some breaking changes around the required versions of Ember involved so be sure to check out the release notes.
 
-There's also been several patch and minor releases of the library since 6.0.0 was released so the latest is actually now v6.1.1. Those releases includes a few bug fixes and one new feature (automatic glint registration).
+There's also been several patch and minor releases of the library since 6.0.0 was released so the latest is actually now v6.1.1. Those releases include a few bug fixes and one new feature (automatic glint registration).
 
 ---
 
@@ -116,9 +116,9 @@ There's also been several patch and minor releases of the library since 6.0.0 wa
 
 There are two new awesome episodes of the Whiskey Web and Whatnot podcast featuring two Ember core team members! 🔥
 
-First, [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) of the Ember Framework and Typescript Core Teams in this episode of [Whiskey, Web and Whatnot](https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/). Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, further on explaining the need and long term benefits.
+First, [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) of the Ember Framework and Typescript Core Teams in this episode of [Whiskey, Web and Whatnot](https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/). Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, and further explains the need and long-term benefits of TypeScript.
 
-They also discuss the enthusiasm of newbies to use TypeScript and the complexities that might arise. If you want to know factors to consider when deciding to use TypeScript, they discuss a few. Chris suggests developers to learn Rust programming because learning functional programming helps broadening your horizon.
+They also discuss the enthusiasm of newbies to use TypeScript and the complexities that might arise, factors to consider when deciding to use TypeScript, and how learning the Rust programming can help broaden you as a developer.
 
 Next up is an episode with Ember Framework Core Team member [Godfrey Chan @chancancode](https://github.com/chancancode) who chats with Robbie and Chuck about StarBeam and the Polaris Edition and the future of Ember.js! Check out the episode [here](https://www.whiskeywebandwhatnot.fm/polaris-starbeam-and-the-future-of-ember-with-godfrey-chan/).
 
