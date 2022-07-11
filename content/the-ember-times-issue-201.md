@@ -16,6 +16,7 @@ tags:
 
 EmberFest 2022 🇫🇷,
 Embroider is legit 🧵,
+Starbeam 🤩,
 Testing Tasks and Flexible Components Posts 📖,
 Advanced template support in Intellij Idea 💻,
 ember-statechart-component 6.0.0 📊,
@@ -66,13 +67,23 @@ Note that while some addons may break your build, this may be for the greater go
 
 ---
 
+## [Starbeam 🤩](https://twitter.com/wycats/status/1538888835064442880)
+
+If you haven't had a chance to checkout [Starbeam](https://github.com/starbeamjs/starbeam) from [Yehuda Katz (@wycats)](https://github.com/wycats), you're going to want to give it a look!
+
+The TL;DR on Starbeam is that it's the best parts of the Ember auto-tracking system cleaned up and extracted into a standalone library optimized for universality. This means you can use the 🔥 Ember reactivity system 🔥 in frameworks like React, Vue and Svelte. Note, Starbeam should be available in Ember.js as well.
+
+An [in-progress docs site](https://starbeamjs.com/) is up now, go check it out!
+
+---
+
 ## [Testing Tasks and Flexible Components Posts 📖](https://mfeckie.dev/)
 
 [Martin Feckie (@mfeckie)](https://github.com/mfeckie) has written two great new blog posts. One is on [testing ember-concurrency tasks](https://mfeckie.dev/testing-tasks/) and the other is about how to write [flexible components](https://mfeckie.dev/flexible-components/)! ✨
 
 For testing tasks, Martin shows you how to write a fake task helper to support writing tests that test tasks in the happy path. For flexible components, Martin makes the case for an alternative approach to flexible components.
 
-Go ahead and give the posts a ready today!
+Go ahead and give the posts a read today!
 
 ---
 
@@ -90,7 +101,6 @@ This plugin adds:
 - It also resolves `{{or x y z}}` to the first resolvable option, this makes `{{component (or x y)}}` work, e.g in `power-select`.
 - Support for inline templates.
 - Some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
-
 
 ---
 
