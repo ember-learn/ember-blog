@@ -36,7 +36,7 @@ Don't wait too long to book your ticket and travel as September will be here bef
 
 ## [Embroider is legit 🧵](https://github.com/embroider-build/embroider)
 
-Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid-January 2021). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
+Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid-January 2022). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
 
 Since even before v1.0.0, addon-authors have been adding **two** embroider-centric tests in C.I. for both "maximum compatibility" and "maximum strictness" to their ember-try configs.
 `ember-cli` has even added an `--embroider` flag out of the box for starting new projects with embroider.
