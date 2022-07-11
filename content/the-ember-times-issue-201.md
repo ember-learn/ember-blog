@@ -2,9 +2,11 @@
 title: The Ember Times - Issue No. 201
 authors:
   - anne-greeth-schot-van-herwijnen
-  - NullVoxPopuli
+  - nullvoxpopuli
   - patricklx
-date: 2022-06-27T00:00:00.000Z
+  - dhanush-kumar
+  - jared-galanis
+date: 2022-07-10T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
@@ -12,13 +14,13 @@ tags:
 
 👋 Emberistas! 🐹
 
-Embroider is legit.
-Advanced template support in Intellij Idea.
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Embroider is legit 🧵,
+Advanced template support in Intellij Idea 💻,
+Whiskey, Web and Whatnot Episodes 🔊,
 
 ---
 
-## [🧵 1. Embroider is legit](https://github.com/embroider-build/embroider)
+## [Embroider is legit 🧵](https://github.com/embroider-build/embroider)
 
 Embroider has been _declared_ stable since v1.0.0, or around 6 months ago (released mid January 2021). Embroider is the 2nd generation build pipeline to Ember Apps that enables the usage of “Standard JavaScript” and leverages standard JavaScript packagers such as Webpack.
 
@@ -49,28 +51,32 @@ And speaking of the README, it has a section of if _you_ should use embroider or
 
 Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on Webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
-## [💻 1. Advanced template support in Intellij Idea](https://github.com/patricklx/intellij-emberjs-experimental)
+## [Advanced template support in Intellij Idea 💻](https://github.com/patricklx/intellij-emberjs-experimental)
 
-In Intellij Idea the support for Emberjs templates has been quite lacking, Especially compared to vscode [(Un)Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable). With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental), [patricklx](https://github.com/patricklx) added many features to the [original plugin](https://github.com/Turbo87/intellij-emberjs) to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. **You will need to disable or remove the other Ember.js plugin to prevent conflicts.**
+In Intellij Idea the support for Ember.js templates has been quite lacking, Especially compared to vscode [(Un)Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable). With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental), [@patricklx](https://github.com/patricklx) added many features to the [original plugin](https://github.com/Turbo87/intellij-emberjs) to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. Note, you will need to disable or remove the other Ember.js plugin to prevent conflicts.
 
 This plugin adds:
 
 - **Smart** Handlebars references for tags/mustache paths and tag attributes. This means that it handles ember helpers such as `let`, `hash`, `or`, `each`, `yield`. References to javascript/typescript and its able to resolve array item type in `each`.
 - Handlebars **autocompletion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if atttribtues are valid and if requeried ones are missing.
-- Handlebars **parameter hints** for helpers/modifiers and components
-- Handlebars **renaming** for mustache ids and html tags
-- Includes Emberjs internal Components and Helpers with documentation and support for attributes and parameter hints.
-- It also resolves {{or x y z}} to the first resolvable option, this makes {{component (or x y)}} work, e.g in **power-select**
-- support for inline templates
-- some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
+- Handlebars **parameter hints** for helpers/modifiers and components.
+- Handlebars **renaming** for mustache ids and html tags.
+- Includes support for Ember.js internal Components and Helpers with documentation and support for attributes and parameter hints.
+- It also resolves `{{or x y z}}` to the first resolvable option, this makes `{{component (or x y)}}` work, e.g in `power-select`.
+- Support for inline templates.
+- Some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
 
 ---
 
-## [Whiskey, Web and Whatnot with Chris Krycho 🔊](https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/)
+## [Whiskey Web and Whatnot Episodes 🔊](https://www.whiskeywebandwhatnot.fm/)
 
-Robert Wagner (@rwwagner90) and Chuck Carpenter (@chuckcarpenter) of Ship Shape sit down with Chris Krycho(@chriskrycho) in this episode of [Whiskey, Web and Whatnot](https://www.whiskeywebandwhatnot.fm). Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, further on explaining the need and long term benefits.
+There are two new awesome episodes of the Whiskey Web and Whatnot podcast featuring two Ember core team members! 🔥
+
+First, [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) of the Ember Framework and Typescript Core Teams in this episode of [Whiskey, Web and Whatnot](https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/). Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, further on explaining the need and long term benefits.
 
 They also discuss the enthusiasm of newbies to use TypeScript and the complexities that might arise. If you want to know factors to consider when deciding to use TypeScript, they discuss a few. Chris suggests developers to learn Rust programming because learning functional programming helps broadening your horizon.
+
+Next up is an episode with Ember Framework Core Team member [Godfrey Chan @chancancode](https://github.com/chancancode) who chats with Robbie and Chuck about StarBeam and the Polaris Edition and the future of Ember.js! Check out the episode [here](https://www.whiskeywebandwhatnot.fm/polaris-starbeam-and-the-future-of-ember-with-godfrey-chan/).
 
 ---
 
@@ -184,4 +190,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, NullVoxPopuli, patricklx and the Learning Team
+Anne-Greeth Schot-van Herwijnen, NullVoxPopuli, patricklx, Dhanush Kumar and the Learning Team
