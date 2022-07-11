@@ -16,8 +16,10 @@ tags:
 
 EmberFest 2022 🇫🇷,
 Embroider is legit 🧵,
+Testing Tasks and Flexible Components Posts 📖,
 Advanced template support in Intellij Idea 💻,
-Whiskey, Web and Whatnot Episodes 🔊,
+ember-statechart-component 6.0.0 📊,
+Whiskey, Web and Whatnot Episodes 🔊
 
 ---
 
@@ -62,6 +64,18 @@ And speaking of the README, it has a section of if _you_ should use embroider or
 
 Note that while some addons may break your build, this may be for the greater good. For example, instead of relying on ember-specific solutions to certain build-time behaviors, you may now follow heavily documented, and asked about, and iterated on Webpack plugins. Additionally, removing addons with build-time behavior will speed up your overall dev-server start time.
 
+---
+
+## [Testing Tasks and Flexible Components Posts 📖](https://mfeckie.dev/)
+
+[Martin Feckie (@mfeckie)](https://github.com/mfeckie) has written two great new blog posts. One is on [testing ember-concurrency tasks](https://mfeckie.dev/testing-tasks/) and the other is about how to write [flexible components](https://mfeckie.dev/flexible-components/)! ✨
+
+For testing tasks, Martin shows you how to write a fake task helper to support writing tests that test tasks in the happy path. For flexible components, Martin makes the case for an alternative approach to flexible components.
+
+Go ahead and give the posts a ready today!
+
+---
+
 ## [Advanced template support in Intellij Idea 💻](https://github.com/patricklx/intellij-emberjs-experimental)
 
 In Intellij Idea the support for Ember.js templates has been quite lacking, Especially compared to vscode [(Un)Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable). With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental), [@patricklx](https://github.com/patricklx) added many features to the [original plugin](https://github.com/Turbo87/intellij-emberjs) to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. Note, you will need to disable or remove the other Ember.js plugin to prevent conflicts.
@@ -80,7 +94,7 @@ This plugin adds:
 
 ---
 
-## [ember-statechart-component 📊](https://twitter.com/nullvoxpopuli/status/1543449217351442438)
+## [ember-statechart-component 6.0.0 📊](https://twitter.com/nullvoxpopuli/status/1543449217351442438)
 
 `ember-statechart-component` 6.0.0 has been [released](https://github.com/NullVoxPopuli/ember-statechart-component/releases/tag/v6.0.0) by [@NullVoxPopuli](https://github.com/NullVoxPopuli) and now includes support for Glint! There are also some breaking changes around the required versions of Ember involved so be sure to checkout the release notes.
 
