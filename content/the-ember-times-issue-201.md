@@ -89,7 +89,11 @@ Go ahead and give the posts a read today!
 
 ## [Advanced template support in Intellij Idea 💻](https://github.com/patricklx/intellij-emberjs-experimental)
 
-In Intellij Idea the support for Ember.js templates has been quite lacking, Especially compared to vscode [(Un)Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable). With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental), [@patricklx](https://github.com/patricklx) added many features to the [original plugin](https://github.com/Turbo87/intellij-emberjs) to improve the UX of working/coding with templates. Search for the addon named `Ember Experimental.js` and give it a try. Note, you will need to disable or remove the other Ember.js plugin to prevent conflicts.
+In Intellij Idea Ember.js templates haven't been fully supported. This is notable when compared to vscode where the [(Un)Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable) is available.
+
+With [intellij-emberjs-experimental](https://github.com/patricklx/intellij-emberjs-experimental), [@patricklx](https://github.com/patricklx) has added many features to the fantastic [original plugin](https://github.com/Turbo87/intellij-emberjs) to improve the UX of working/coding with templates.
+
+If you're interested in trying out these new features give the experimental plugin a try. Note, you will need to disable or remove the original intellij-emberjs plugin to prevent conflicts.
 
 This plugin adds:
 
@@ -97,10 +101,10 @@ This plugin adds:
 - Handlebars **auto-completion** for tags (coming from blocks), tag attributes, mustache paths (js/ts) and named blocks. Also validates if attributes are valid and if required ones are missing.
 - Handlebars **parameter hints** for helpers/modifiers and components.
 - Handlebars **renaming** for mustache ids and Html tags.
-- Includes support for Ember.js internal Components and Helpers with documentation and support for attributes and parameter hints.
-- It also resolves `{{or x y z}}` to the first resolvable option, this makes `{{component (or x y)}}` work, e.g in `power-select`.
+- Support for Ember.js internal Components and Helpers with documentation and support for attributes and parameter hints.
+- It also resolves `{{or x y z}}` to the first resolvable option, this makes `{{component (or x y)}}` work (e.g in `power-select`).
 - Support for inline templates.
-- Some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
+- Some initial support for [.gjs](https://github.com/ember-template-imports/ember-template-imports) files.
 
 ---
 
@@ -116,7 +120,7 @@ There's also been several patch and minor releases of the library since 6.0.0 wa
 
 There are two new awesome episodes of the Whiskey Web and Whatnot podcast featuring two Ember core team members! 🔥
 
-First, [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) of the Ember Framework and Typescript Core Teams in this episode of [Whiskey, Web and Whatnot](https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/). Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, and further explains the need and long-term benefits of TypeScript.
+First, [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape sit down with [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) of the Ember Framework and Typescript Core Teams in [this episode](https://www.whiskeywebandwhatnot.fm/bringing-types-to-ember-with-chris-krycho/) of Whiskey, Web and Whatnot. Chris shares his initial work on getting TypeScript into Ember, how Typed-Ember got established, and further explains the need and long-term benefits of TypeScript.
 
 They also discuss the enthusiasm of newbies to use TypeScript and the complexities that might arise, factors to consider when deciding to use TypeScript, and how learning the Rust programming can help broaden you as a developer.
 
