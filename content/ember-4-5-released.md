@@ -85,7 +85,7 @@ Ember 4.5 introduces a new function, `renderSettled`, as a public way for test h
 It can be used in any rendering or application test.
 (It also works in other tests where you set up the rendering hooks manually, but this is unusual!)
 
-```
+```js
 import { renderSettled } from '@ember/renderer';
 ```
 
@@ -133,15 +133,28 @@ This Ember CLI release drops support for Node 12. Node 12 reached "end of life"s
 
 #### Bug Fixes
 
-Ember CLI 4.5 introduced TODO bug fixes.
+Ember CLI 4.5 introduced a variety of small bug fixes and documentation improvements.
+You can find the full list in the [Ember CLI 4.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.5.0).
 
 #### Features
 
-Ember CLI 4.5 introduced TODO features.
+Ember CLI 4.5 introduced 0 features.
 
 #### Deprecations
 
-Ember CLI 4.5 introduced TODO deprecations.
+Ember CLI 4.5 introduced 2 deprecations.
+
+- Using the terms `whitelist` and `blacklist` build options are deprecated. Please use
+`include` and `exclude` instead. Only the name of the option has changed, and
+the functionality is unchanged. This work to add the
+new option naming was initially planned in 
+[RFC 639](https://rfcs.emberjs.com/id/0639-replace-blacklist-whitelist),
+and the deprecation RFC is
+[RFC 801](https://rfcs.emberjs.com/id/0801-deprecate-blacklist-and-whitelist-build-options).
+- Support for[`ember-cli-jshint` is deprecated](https://github.com/ember-cli/ember-cli/pull/9909).
+
+The `addonJsFiles` method that was previously deprecated in `v3.13` of Ember CLI [has now been removed](https://github.com/ember-cli/ember-cli/pull/9898).
+
 
 For more details on the changes in Ember CLI 4.5 and detailed upgrade
 instructions, please review the [Ember CLI 4.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.5.0).
