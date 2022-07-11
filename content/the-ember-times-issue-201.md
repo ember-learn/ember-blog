@@ -38,7 +38,7 @@ Don't wait too long to book your ticket and travel as September will be here bef
 
 If you haven't had a chance to checkout [Starbeam](https://github.com/starbeamjs/starbeam) from [Yehuda Katz (@wycats)](https://github.com/wycats), you're going to want to give it a look!
 
-The TL;DR on Starbeam is that it's the best parts of the Ember auto-tracking system cleaned up and extracted into a standalone library optimized for universality. This means you can use the 🔥 Ember reactivity system 🔥 in other frameworks like React, Vue and Svelte.
+The TL;DR on Starbeam is that it's the best parts of the Ember auto-tracking system cleaned up and extracted into a standalone library optimized for universality. This means you can use the 🔥 Ember reactivity system 🔥 in frameworks like React, Vue and Svelte. Note, Starbeam should be available in Ember.js as well.
 
 An [in-progress docs site](https://starbeamjs.com/) is up now, go check it out!
 
@@ -101,7 +101,6 @@ This plugin adds:
 - It also resolves `{{or x y z}}` to the first resolvable option, this makes `{{component (or x y)}}` work, e.g in `power-select`.
 - Support for inline templates.
 - Some initial support for [.gjs]((https://github.com/ember-template-imports/ember-template-imports)) files.
-
 
 ---
 
