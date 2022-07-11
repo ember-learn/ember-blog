@@ -15,6 +15,7 @@ tags:
 👋 Emberistas! 🐹
 
 EmberFest 2022 🇫🇷,
+Starbeam 🤩,
 Embroider is legit 🧵,
 Testing Tasks and Flexible Components Posts 📖,
 Advanced template support in Intellij Idea 💻,
@@ -30,6 +31,16 @@ EmberFest 2022 is happening on September 22-23 in Paris 🇫🇷, and tickets ar
 If you’re looking for updates on the latest and greatest in Ember and Glimmer this is the place to be. EmberFest is also a great opportunity to get in touch with the European Ember Community (and friends from abroad) and hiring Ember talent.
 
 Don't wait too long to book your ticket and travel as September will be here before we know it!
+
+---
+
+## [Starbeam 🤩](https://twitter.com/wycats/status/1538888835064442880)
+
+If you haven't had a chance to checkout [Starbeam](https://github.com/starbeamjs/starbeam) from [Yehuda Katz (@wycats)](https://github.com/wycats), you're going to want to give it a look!
+
+The TL;DR on Starbeam is that it's the best parts of the Ember auto-tracking system cleaned up and extracted into a standalone library optimized for universality. This means you can use the 🔥 Ember reactivity system 🔥 in other frameworks like React, Vue and Svelte.
+
+An [in-progress docs site](https://starbeamjs.com/) is up now, go check it out!
 
 ---
 
