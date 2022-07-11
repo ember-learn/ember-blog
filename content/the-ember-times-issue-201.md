@@ -14,9 +14,20 @@ tags:
 
 👋 Emberistas! 🐹
 
+EmberFest 2022 🇫🇷,
 Embroider is legit 🧵,
 Advanced template support in Intellij Idea 💻,
 Whiskey, Web and Whatnot Episodes 🔊,
+
+---
+
+## [EmberFest 2022 🇫🇷](https://emberfest.eu/)
+
+EmberFest 2022 is happening on September 22-23 in Paris 🇫🇷, and tickets are now on sale! 😊
+
+If you’re looking for updates on the latest and greatest in Ember and Glimmer this is the place to be. EmberFest is also a great opportunity to get in touch with the European Ember Community (and friends from abroad) and hiring Ember talent.
+
+Don't wait too long to book your ticket and travel as September will be here before we know it!
 
 ---
 
@@ -190,4 +201,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, NullVoxPopuli, patricklx, Dhanush Kumar and the Learning Team
+Anne-Greeth Schot-van Herwijnen, NullVoxPopuli, patricklx, Dhanush Kumar, Jared Galanis and the Learning Team
