@@ -83,7 +83,7 @@ Also, keep your eyes on this blog: we will have a dedicated blog post with a dee
 Under the hood, Ember's tests use a "test waiters" system to allow you to control the flow of your tests in terms of the actual framework behavior.
 That way that your tests match exactly what the app does at runtime.
 
-<!-- alex ignore just-->
+<!-- alex ignore just waiters-waitresses-->
 However, making this work depends on Ember providing all the necessary hooks for test helpers to use, and there was one significant missing public API.
 You could wait for *all* of the test waiters to finish with `settled`, but there was no public way to wait for *just rendering* to finish.
 For example, you might want to wait for rendering to finish but *not* for an Ember Data `save` operation to finish, as part of testing a loading screen.
