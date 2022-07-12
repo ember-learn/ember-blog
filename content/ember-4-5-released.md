@@ -89,7 +89,7 @@ It can be used in any rendering or application test.
 import { renderSettled } from '@ember/renderer';
 ```
 
-An recent release of `@ember/test-helpers`, v2.8.0, takes advantage of this to provide a new `await rerender()` helper.
+An recent release of `@ember/test-helpers`, [v2.8.0](https://github.com/emberjs/ember-test-helpers/blob/master/CHANGELOG.md#v280-2022-05-17), takes advantage of this to provide a new `await rerender()` helper.
 For more details, and how this fits into improvements to Ember's testing story, see [RFC 785](https://rfcs.emberjs.com/id/0785-remove-set-get-in-tests).
 
 #### Deprecations
