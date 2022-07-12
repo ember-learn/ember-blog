@@ -79,7 +79,7 @@ Also, keep your eyes on this blog: we will have a dedicated blog post with a dee
 
 ##### 2. A new `renderSettled` test helper
 
-<!-- alex ignore waiters-->
+<!--alex ignore waiters-waitresses-->
 Under the hood, Ember's tests use a "test waiters" system to allow you to control the flow of your tests in terms of the actual framework behavior.
 That way that your tests match exactly what the app does at runtime.
 
