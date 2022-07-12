@@ -79,8 +79,11 @@ Also, keep your eyes on this blog: we will have a dedicated blog post with a dee
 
 ##### 2. A new `renderSettled` test helper
 
+<!-- alex ignore waiters-->
 Under the hood, Ember's tests use a "test waiters" system to allow you to control the flow of your tests in terms of the actual framework behavior.
 That way that your tests match exactly what the app does at runtime.
+
+<!-- alex ignore just-->
 However, making this work depends on Ember providing all the necessary hooks for test helpers to use, and there was one significant missing public API.
 You could wait for *all* of the test waiters to finish with `settled`, but there was no public way to wait for *just rendering* to finish.
 For example, you might want to wait for rendering to finish but *not* for an Ember Data `save` operation to finish, as part of testing a loading screen.
@@ -152,11 +155,11 @@ Ember CLI 4.5 introduced 2 deprecations.
 - Using the terms `whitelist` and `blacklist` build options are deprecated. Please use
 `include` and `exclude` instead. Only the name of the option has changed, and
 the functionality is unchanged. This work to add the
-new option naming was initially planned in 
+new option naming was initially planned in
 [RFC 639](https://rfcs.emberjs.com/id/0639-replace-blacklist-whitelist),
 and the deprecation RFC is
 [RFC 801](https://rfcs.emberjs.com/id/0801-deprecate-blacklist-and-whitelist-build-options).
-- Support for[`ember-cli-jshint` is deprecated](https://github.com/ember-cli/ember-cli/pull/9909).
+- Support for [`ember-cli-jshint` is deprecated](https://github.com/ember-cli/ember-cli/pull/9909).
 
 The `addonJsFiles` method that was previously deprecated in `v3.13` of Ember CLI [has now been removed](https://github.com/ember-cli/ember-cli/pull/9898).
 
