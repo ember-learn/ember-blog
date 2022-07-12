@@ -137,8 +137,6 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 4.5
 
-This Ember CLI release drops support for Node 12. Node 12 reached "end of life"status (it no longer receives security updates) in April 2022.
-
 #### Bug Fixes
 
 Ember CLI 4.5 introduced a variety of small bug fixes and documentation improvements.
