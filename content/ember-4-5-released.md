@@ -66,7 +66,7 @@ export default class MyComponent extends Component {
 <SomeComponent @foo={{this.double 2}} />
 ```
 
-Previously, documentation said to [write a separate helper](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) in order to accomplish this.
+Previously, you could define this locally, but still had to [use the `helper()`](https://guides.emberjs.com/release/components/helper-functions/#toc_writing-a-helper-function) function to accomplish this.
 
 We're working on updating the Guides to cover this pattern.
 For background, check out [RFC 756](https://rfcs.emberjs.com/id/0756-helper-default-manager), which designed this feature.
@@ -89,7 +89,7 @@ It can be used in any rendering or application test.
 import { renderSettled } from '@ember/renderer';
 ```
 
-An upcoming release of `@ember/test-helpers` will take advantage of this to provide a new `await rerender()` helper.
+An recent release of `@ember/test-helpers`, v2.8.0, takes advantage of this to provide a new `await rerender()` helper.
 For more details, and how this fits into improvements to Ember's testing story, see [RFC 785](https://rfcs.emberjs.com/id/0785-remove-set-get-in-tests).
 
 #### Deprecations
