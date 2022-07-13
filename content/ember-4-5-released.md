@@ -10,7 +10,7 @@ tags:
   - version-4-x
 ---
 
-Today the Ember project is releasing version 4.5 of Ember.js, Ember Data, and Ember CLI.
+Today the Ember project is releasing version 4.5 of Ember.js and Ember CLI.
 
 Version 4.4 of Ember is now promoted to LTS (Long Term Support).
 An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks).
