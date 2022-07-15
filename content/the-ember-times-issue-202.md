@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 202
 authors:
   - jared-galanis
+  - chris-ng
 date: 2022-07-24T00:00:00.000Z
 tags:
   - newsletter
@@ -9,20 +10,19 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+RFC: Evolving Ember's Major Version Process 🌲
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [RFC: Evolving Ember's Major Version Process 🌲](https://github.com/emberjs/rfcs/pull/830)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) published an RFC on [Evolving Ember’s Major Version Process](https://github.com/emberjs/rfcs/pull/830). The RFC proposes to put major versions on a predictable 60-week cadence, similar to the [6-week minor release cadence](https://emberjs.com/releases/).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The RFC argues that while [Ember mentions](https://emberjs.com/releases/) that it aims to "make major releases as rare as possible” since it forces development teams to spend time researching the changes and modifying their codebase before they can upgrade, it actually makes upgrades more painful rather than less painful. For Ember users while the major releases may be more rare, they actually become harder over time and for Ember maintainers the planning and coordination required for a major release happens on an ad hoc basis with no ability to plan for it in advance.
+
+Chris presents an alternate way to use SemVer by clarifying how we use major releases and editions, namely: never couple the addition of new features to breaking changes, Ember major versions should only remove deprecated features, and Ember's big releases are labeled as "Editions” and lands as a minor release and is therefore always backwards compatible.
+
+Read more about the RFC and add your comments on [GitHub](https://github.com/emberjs/rfcs/pull/830)!
 
 ---
 
@@ -136,4 +136,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis the crowd and the Learning Team
+Jared Galanis, Chris Ng, the crowd and the Learning Team
