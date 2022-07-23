@@ -14,6 +14,7 @@ RFC: Evolving Ember's Major Version Process 🌲,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊,
 Modern CSS in an embroider enabled app 📖,
+Ember Chessboard Videos 📼,
 
 ---
 
@@ -33,7 +34,7 @@ Read more about the RFC and add your comments on [GitHub](https://github.com/emb
 
 We’ve had several addons across the Ember ecosystem release updates recently, here’s what you may have missed:
 
-- [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli)'s `eslint-plugin-decorator-position` [now supports es-lint 8](https://twitter.com/nullvoxpopuli/status/1547769958230155269).
+- [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli)'s released [v5.0.0](https://github.com/NullVoxPopuli/eslint-plugin-decorator-position/blob/main/CHANGELOG.md#500-2022-07-15) of `eslint-plugin-decorator-position` which [now supports es-lint 8](https://twitter.com/nullvoxpopuli/status/1547769958230155269).
 - [Nick Schot (@nickschot)](https://github.com/nickschot) [announced the v3 release](https://twitter.com/nickschot/status/1550438922882371584) of `ember-mobile-menu` which includes support for PointerEvents so gestures for mouse or pen users can be enabled. Check the [release notes](https://github.com/nickschot/ember-mobile-menu/releases/tag/v3.0.0) for a bunch of other modernizations.
 - Not a release, but [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) announced [a draft PR](https://github.com/emberjs/ember-test-helpers/pull/1234) that introduces public TypeScript support in `ember-test-helpers`. This is the first official library publishing types under the TypeScript support policy adopted earlier this year.
 - [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) introduced [`ember-codemod-pod-to-octane`](https://github.com/ijlee2/ember-codemod-pod-to-octane), a codemod to help you un-pod Ember apps, addons, and engines.
@@ -59,15 +60,11 @@ The article covers setting up PostCSS and Tailwind configs, using Webpack, and m
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Ember Chessboard Videos 📼](https://twitter.com/knownasilya/status/1545585741073420288)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) released a couple of ✨ awesome new videos ✨ that run through building an Ember.js chessboard.js app using an exciting new (alpha) scaffolding library called [Engage](https://github.com/warp-drive-engineering/engage) that's authored by [Chris Thoburn (@runspired)](https://github.com/runspired)!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Head on over to YouTube and check out [part 1](https://www.youtube.com/watch?v=4Yt98vPyfv4) and [part 2](https://www.youtube.com/watch?v=WLGwOKD9PXo)!
 
 ---
 
