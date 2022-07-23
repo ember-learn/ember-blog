@@ -13,6 +13,7 @@ tags:
 RFC: Evolving Ember's Major Version Process 🌲,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊,
+Modern CSS in an embroider enabled app 📖,
 
 ---
 
@@ -50,15 +51,11 @@ Listen to [the episode](https://www.whiskeywebandwhatnot.fm/developing-orbit-and
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [Modern CSS in an embroider enabled app 📖](https://twitter.com/evo1/status/1547312309185511426)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Liam Potter (@evoactivity)](https://github.com/evoactivity) wrote a nice article about how to best use modern approaches to handling CSS in an embroider enabled Ember app! 🙌
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The article covers setting up PostCSS and Tailwind configs, using Webpack, and more! Go checkout [the article]https://github.com/evoactivity/ember-modern-css/blob/main/README.md) today!
 
 ---
 
