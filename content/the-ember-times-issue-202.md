@@ -14,6 +14,7 @@ RFC: Evolving Ember's Major Version Process 🌲,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊,
 Modern CSS in an embroider enabled app 📖,
+Ember Chessboard Videos 📼,
 
 ---
 
