@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 202
 authors:
   - jared-galanis
   - chris-ng
-date: 2022-07-24T00:00:00.000Z
+date: 2022-07-23T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
@@ -23,7 +23,7 @@ Ember Chessboard Videos 📼
 
 ## [Ember 4.5 Released](https://blog.emberjs.com/ember-4-5-released)
 
-Ember 4.5 was recently released and it included a few new features for Ember.js around using plain function as helpers, and a new renderSettled test helper. Ember CLI also introduced a few deprecations and various bug fixes.
+Ember 4.5 was recently released and it included a few new features for Ember.js around using plain functions as helpers and a new `renderSettled` test helper. Ember CLI also introduced a few deprecations and various bug fixes.
 
 Head on over to the [release post](https://blog.emberjs.com/ember-4-5-released) to get more details.
 
@@ -33,9 +33,9 @@ Head on over to the [release post](https://blog.emberjs.com/ember-4-5-released) 
 
 [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) published an RFC on [Evolving Ember’s Major Version Process](https://github.com/emberjs/rfcs/pull/830). The RFC proposes to put major versions on a predictable 60-week cadence, similar to the [6-week minor release cadence](https://emberjs.com/releases/).
 
-The RFC argues that while [Ember mentions](https://emberjs.com/releases/) that it aims to "make major releases as rare as possible” since it forces development teams to spend time researching the changes and modifying their codebase before they can upgrade, it actually makes upgrades more painful rather than less painful. For Ember users while the major releases may be more rare, they actually become harder over time and for Ember maintainers the planning and coordination required for a major release happens on an ad hoc basis with no ability to plan for it in advance.
+The RFC argues that while [Ember mentions](https://emberjs.com/releases/) that it aims to "make major releases as rare as possible” since it forces development teams to spend time researching the changes and modifying their codebase before they can upgrade, it actually makes upgrades more painful rather than less painful. For Ember users, while the major releases may be more rare, they actually become harder over time and for Ember maintainers the planning and coordination required for a major release happens on an ad hoc basis with no ability to plan for it in advance.
 
-Chris presents an alternate way to use SemVer by clarifying how we use major releases and editions, namely: never couple the addition of new features to breaking changes, Ember major versions should only remove deprecated features, and Ember's big releases are labeled as "Editions” and lands as a minor release and is therefore always backwards compatible.
+Chris presents an alternate way to use SemVer by clarifying how we use major releases and editions, namely: never couple the addition of new features to breaking changes, Ember major versions should only remove deprecated features, and Ember's big releases are labeled as "Editions” and lands as a minor release and are therefore always backwards compatible.
 
 Read more about the RFC and add your comments on [GitHub](https://github.com/emberjs/rfcs/pull/830)!
 
@@ -44,15 +44,15 @@ Read more about the RFC and add your comments on [GitHub](https://github.com/emb
 ## [RFC: Standardize npm yarn use ✨](https://github.com/emberjs/rfcs/pull/831)
 
 [Mehul Chaudhari (@MehulKChaudhari)](https://github.com/MehulKChaudhari) and [Dhanush Kumar
- (@dhanush027)](https://github.com/dhanush027) have co-authored a 😎 new RFC that focuses on standardizing the use of yarn and npm scripts in the Ember experience rather than using Ember specific commands. This could better align Ember with norms in the larger JavaScript community.
+ (@dhanush027)](https://github.com/dhanush027) have co-authored a 😎 new RFC that focuses on standardizing the use of yarn and npm scripts in the Ember experience rather than using Ember-specific commands. This could better align Ember with norms in the larger JavaScript community.
 
- If you're interested in this subject please head over to [the RFC](https://github.com/emberjs/rfcs/pull/831), give it a read and participate by commenting!
+ If you're interested in this subject please head over to [the RFC](https://github.com/emberjs/rfcs/pull/831), give it a read, and participate by commenting!
 
 ---
 
 ## [RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️](https://twitter.com/emberjs/status/1550796034049277953)
 
-The RFC for introducting public types for Owner, Transition, RouteInfo is now in its final comment period so if you're interested in participating in that discussion hurry over to the [RFC](https://github.com/emberjs/rfcs/pull/821) and leave a comment!
+The RFC for introducing public types for Owner, Transition, RouteInfo is now in its final comment period so if you're interested in participating in that discussion hurry over to the [RFC](https://github.com/emberjs/rfcs/pull/821) and leave a comment!
 
 ---
 
@@ -80,9 +80,9 @@ Listen to [the episode](https://www.whiskeywebandwhatnot.fm/developing-orbit-and
 
 ## [Modern CSS in an embroider enabled app 📖](https://twitter.com/evo1/status/1547312309185511426)
 
-[Liam Potter (@evoactivity)](https://github.com/evoactivity) wrote a nice article about how to best use modern approaches to handling CSS in an embroider enabled Ember app! 🙌
+[Liam Potter (@evoactivity)](https://github.com/evoactivity) wrote a nice article about how to best use modern approaches to handling CSS in an embroider-enabled Ember app! 🙌
 
-The article covers setting up PostCSS and Tailwind configs, using Webpack, and more! Go checkout [the article](https://github.com/evoactivity/ember-modern-css/blob/main/README.md) today!
+The article covers setting up PostCSS and Tailwind configs, using Webpack, and more! Go check out [the article](https://github.com/evoactivity/ember-modern-css/blob/main/README.md) today!
 
 ---
 
