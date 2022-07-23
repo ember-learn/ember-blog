@@ -15,6 +15,8 @@ Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊,
 Modern CSS in an embroider enabled app 📖,
 Ember Chessboard Videos 📼,
+RFC: Standardize npm yarn use ✨,
+RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️,
 
 ---
 
@@ -68,27 +70,18 @@ Head on over to YouTube and check out [part 1](https://www.youtube.com/watch?v=4
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [RFC: Standardize npm yarn use ✨](https://github.com/emberjs/rfcs/pull/831)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Mehul Chaudhari (@MehulKChaudhari)](https://github.com/MehulKChaudhari) and [Dhanush Kumar
+ (@dhanush027)](https://github.com/dhanush027) have co-authored a 😎 new RFC that focuses on standardizing the use of yarn and npm scripts in the Ember experience rather than using Ember specific commands. This could better align Ember with norms in the larger JavaScript community.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+ If you're interested in this subject please head over to [the RFC](https://github.com/emberjs/rfcs/pull/831), give it a read and participate by commenting!
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️](https://twitter.com/emberjs/status/1550796034049277953)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The RFC for introducting public types for Owner, Transition, RouteInfo is now in its final comment period so if you're interested in participating in that discussion hurry over to the [RFC](https://github.com/emberjs/rfcs/pull/821) and leave a comment!
 
 ---
 
