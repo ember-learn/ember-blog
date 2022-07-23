@@ -10,13 +10,22 @@ tags:
 ---
 
 👋 Emberistas! 🐹
+Ember 4.5 Released 🚀,
 RFC: Evolving Ember's Major Version Process 🌲,
+RFC: Standardize npm yarn use ✨,
+RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊,
 Modern CSS in an embroider enabled app 📖,
-Ember Chessboard Videos 📼,
-RFC: Standardize npm yarn use ✨,
-RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️,
+Ember Chessboard Videos 📼
+
+---
+
+## [Ember 4.5 Released](https://blog.emberjs.com/ember-4-5-released)
+
+Ember 4.5 was recently released and it included a few new features for Ember.js around using plain function as helpers, and a new renderSettled test helper. Ember CLI also introduced a few deprecations and various bug fixes.
+
+Head on over to the [release post](https://blog.emberjs.com/ember-4-5-released) to get more details.
 
 ---
 
@@ -29,6 +38,21 @@ The RFC argues that while [Ember mentions](https://emberjs.com/releases/) that i
 Chris presents an alternate way to use SemVer by clarifying how we use major releases and editions, namely: never couple the addition of new features to breaking changes, Ember major versions should only remove deprecated features, and Ember's big releases are labeled as "Editions” and lands as a minor release and is therefore always backwards compatible.
 
 Read more about the RFC and add your comments on [GitHub](https://github.com/emberjs/rfcs/pull/830)!
+
+---
+
+## [RFC: Standardize npm yarn use ✨](https://github.com/emberjs/rfcs/pull/831)
+
+[Mehul Chaudhari (@MehulKChaudhari)](https://github.com/MehulKChaudhari) and [Dhanush Kumar
+ (@dhanush027)](https://github.com/dhanush027) have co-authored a 😎 new RFC that focuses on standardizing the use of yarn and npm scripts in the Ember experience rather than using Ember specific commands. This could better align Ember with norms in the larger JavaScript community.
+
+ If you're interested in this subject please head over to [the RFC](https://github.com/emberjs/rfcs/pull/831), give it a read and participate by commenting!
+
+---
+
+## [RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️](https://twitter.com/emberjs/status/1550796034049277953)
+
+The RFC for introducting public types for Owner, Transition, RouteInfo is now in its final comment period so if you're interested in participating in that discussion hurry over to the [RFC](https://github.com/emberjs/rfcs/pull/821) and leave a comment!
 
 ---
 
@@ -70,36 +94,9 @@ Head on over to YouTube and check out [part 1](https://www.youtube.com/watch?v=4
 
 ---
 
-## [RFC: Standardize npm yarn use ✨](https://github.com/emberjs/rfcs/pull/831)
-
-[Mehul Chaudhari (@MehulKChaudhari)](https://github.com/MehulKChaudhari) and [Dhanush Kumar
- (@dhanush027)](https://github.com/dhanush027) have co-authored a 😎 new RFC that focuses on standardizing the use of yarn and npm scripts in the Ember experience rather than using Ember specific commands. This could better align Ember with norms in the larger JavaScript community.
-
- If you're interested in this subject please head over to [the RFC](https://github.com/emberjs/rfcs/pull/831), give it a read and participate by commenting!
-
----
-
-## [RFC: public types for Owner, Transition, RouteInfo in FCP ⌛️](https://twitter.com/emberjs/status/1550796034049277953)
-
-The RFC for introducting public types for Owner, Transition, RouteInfo is now in its final comment period so if you're interested in participating in that discussion hurry over to the [RFC](https://github.com/emberjs/rfcs/pull/821) and leave a comment!
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/donaldsonjulia" rel="noopener noreferrer" target="_blank">Julia Donaldson (@donaldsonjulia)</a>, <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth Schot-van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/dhanush027" rel="noopener noreferrer" target="_blank">Dhanush Kumar (@dhanush027)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/cdransf" rel="noopener noreferrer" target="_blank">Cory Dransfeldt (@cdransf)</a>, <a href="https://github.com/maxwondercorn" rel="noopener noreferrer" target="_blank">maxwondercorn (@maxwondercorn)</a>, and <a href="https://github.com/patricklx" rel="noopener noreferrer" target="_blank">@patricklx</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
