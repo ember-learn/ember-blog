@@ -11,7 +11,8 @@ tags:
 
 👋 Emberistas! 🐹
 RFC: Evolving Ember's Major Version Process 🌲,
-Ember Addon Roundup 🌐
+Ember Addon Roundup 🌐,
+Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊,
 
 ---
 
@@ -38,15 +39,13 @@ We’ve had several addons across the Ember ecosystem release updates recently, 
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊](https://twitter.com/shipshapecode/status/1547916152055091208)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+There's another new episode of Whiskey Web and Whatnot that you might want to check out and it features Ember core team alumni [Dan Gebhardt (@dgeb)](https://github.com/dgeb)! 🔥
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape chat with Dan about syncing data sources and handling spotty network connections, how Orbit.js helps to address these issues, and more!
+
+Listen to [the episode](https://www.whiskeywebandwhatnot.fm/developing-orbit-and-the-future-of-cross-framework-solutions-with-dan-gebhardt/) today.
 
 ---
 
