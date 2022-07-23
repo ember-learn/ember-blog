@@ -21,7 +21,7 @@ Ember Chessboard Videos 📼
 
 ---
 
-## [Ember 4.5 Released](https://blog.emberjs.com/ember-4-5-released)
+## [Ember 4.5 Released 🚀](https://blog.emberjs.com/ember-4-5-released)
 
 Ember 4.5 was recently released and it included a few new features for Ember.js around using plain functions as helpers and a new `renderSettled` test helper. Ember CLI also introduced a few deprecations and various bug fixes.
 
