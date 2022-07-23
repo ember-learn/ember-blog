@@ -41,7 +41,7 @@ We’ve had several addons across the Ember ecosystem release updates recently, 
 
 ## [Whiskey Web and Whatnot Episode with Dan Gebhardt 🔊](https://twitter.com/shipshapecode/status/1547916152055091208)
 
-<!--alex ignore alumna-alumnus-->
+<!--alex ignore alumnae-alumni-->
 There's another new episode of Whiskey Web and Whatnot that you might want to check out and it features Ember core team alumni [Dan Gebhardt (@dgeb)](https://github.com/dgeb)! 🔥
 
 [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape chat with Dan about syncing data sources and handling spotty network connections, how Orbit.js helps to address these issues, and more!
