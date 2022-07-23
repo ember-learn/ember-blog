@@ -55,7 +55,7 @@ Listen to [the episode](https://www.whiskeywebandwhatnot.fm/developing-orbit-and
 
 [Liam Potter (@evoactivity)](https://github.com/evoactivity) wrote a nice article about how to best use modern approaches to handling CSS in an embroider enabled Ember app! 🙌
 
-The article covers setting up PostCSS and Tailwind configs, using Webpack, and more! Go checkout [the article]https://github.com/evoactivity/ember-modern-css/blob/main/README.md) today!
+The article covers setting up PostCSS and Tailwind configs, using Webpack, and more! Go checkout [the article](https://github.com/evoactivity/ember-modern-css/blob/main/README.md) today!
 
 ---
 
