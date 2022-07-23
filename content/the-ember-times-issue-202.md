@@ -10,7 +10,8 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-RFC: Evolving Ember's Major Version Process 🌲
+RFC: Evolving Ember's Major Version Process 🌲,
+Ember Addon Roundup 🌐
 
 ---
 
@@ -26,15 +27,14 @@ Read more about the RFC and add your comments on [GitHub](https://github.com/emb
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## Ember Addon Roundup 🌐
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+We’ve had several addons across the Ember ecosystem release updates recently, here’s what you may have missed:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli)'s `eslint-plugin-decorator-position` [now supports es-lint 8](https://twitter.com/nullvoxpopuli/status/1547769958230155269).
+- [Nick Schot (@nickschot)](https://github.com/nickschot) [announced the v3 release](https://twitter.com/nickschot/status/1550438922882371584) of `ember-mobile-menu` which includes support for PointerEvents so gestures for mouse or pen users can be enabled. Check the [release notes](https://github.com/nickschot/ember-mobile-menu/releases/tag/v3.0.0) for a bunch of other modernizations.
+- Not a release, but [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) announced [a draft PR](https://github.com/emberjs/ember-test-helpers/pull/1234) that introduces public TypeScript support in `ember-test-helpers`. This is the first official library publishing types under the TypeScript support policy adopted earlier this year.
+- [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) introduced [`ember-codemod-pod-to-octane`](https://github.com/ijlee2/ember-codemod-pod-to-octane), a codemod to help you un-pod Ember apps, addons, and engines.
 
 ---
 
