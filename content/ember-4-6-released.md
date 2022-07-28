@@ -1,5 +1,5 @@
 ---
-title: Ember 4.5 Released
+title: Ember 4.6 Released
 authors:
   - jen-weber
   - chris-thoburn
