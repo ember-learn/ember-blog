@@ -75,7 +75,17 @@ v4.5 of Ember Data drops support for Node 12. Node 12 became end of life (it no 
 
 #### Bug Fixes
 
-Ember Data 4.5 introduced 9 bug fixes. Details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.5.0).
+Ember Data 4.5 introduced 9 bug fixes. Additional Details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.5.0).
+
+* [#8083](https://github.com/emberjs/data/pull/8083) [BUGFIX] Serialize null array items as empty strings 
+* [#7901](https://github.com/emberjs/data/pull/7901) Waiter should be always on
+* [#8042](https://github.com/emberjs/data/pull/8042) `RecordState` cleanup 
+* [#8008](https://github.com/emberjs/data/pull/8008) schedule watchTypeIfUnseen to prevent loop
+* [#8013](https://github.com/emberjs/data/pull/8013) Fix generated import paths for test setup functions in addons
+* [#8025](https://github.com/emberjs/data/pull/8025) Fix `PromiseProxy` Deprecation for Save ([@runspired](https://github.com/runspired))
+* [#7902](https://github.com/emberjs/data/pull/7902) test for async hasMany does not trigger relationship fetch
+* Pass correct args to `keyFor<Attribute|Relationship>` when normalizing
+* [#7945](https://github.com/emberjs/data/pull/7945) fix for an issue with computed chains not updated for async hasMany loading
 
 #### Features
 
