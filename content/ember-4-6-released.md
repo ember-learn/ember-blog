@@ -3,6 +3,7 @@ title: Ember 4.6 Released
 authors:
   - jen-weber
   - chris-thoburn
+  - katie-gengler
 date: 2022-07-28T21:00:00.000Z
 tags:
   - releases
