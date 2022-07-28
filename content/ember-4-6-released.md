@@ -43,6 +43,7 @@ now we ensure that the first character is a letter.
 #### Features
 
 Ember.js 4.6 introduced 0 features.
+
 #### Deprecations
 
 Ember.js 4.6 introduced 0 deprecations.
