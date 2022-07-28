@@ -2,6 +2,7 @@
 title: Ember 4.5 Released
 authors:
   - jen-weber
+  - chris-thoburn
 date: 2022-07-13T21:00:00.000Z
 tags:
   - releases
@@ -9,7 +10,7 @@ tags:
   - version-4-x
 ---
 
-Today the Ember project is releasing version 4.6 of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
+Today the Ember project is releasing version 4.6 of Ember.js, Ember Data, and Ember CLI.
 
 This release kicks off the 4.7 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -53,19 +54,56 @@ For more details on changes in Ember.js 4.6, please review the [Ember.js 4.6.0 r
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-### Changes in Ember Data 4.6
+### Changes in Ember Data
+
+The Ember Data team has multiple releases to announce! We will go through them
+one by one in the section below.
+
+Firstly, Ember CLI's blueprints for creating new apps and upgrading existing apps
+still point to v4.4 of Ember Data. If you want to take advantage of the progress
+described below, update the version number in your `package.json` after completing
+your upgrade.
+
+Now let's cover what is in v4.5 and v4.6. These two versions are identical.
+The aim is to catch up to the versioning number of Ember CLI and Ember.js.
+
+Version 4.5 includes a number of new deprecations, a significant internal refactoring of the store architecture and several bug fixes described below. 
+
+In addition, v4.5 of Ember Data drops support for Node 12. Node 12 became end of life (it no longer receives security updates) in April 2022.
 
 #### Bug Fixes
 
-Ember Data 4.6 introduced 0 bug fixes.
+Ember Data 4.5 introduced 9 bug fixes.
 
 #### Features
 
-Ember Data 4.6 introduced 0 features.
+Ember Data 4.5 introduced improvements to build size.
+
+Users of just the core of Ember Data may expect their builds to be 35-50% smaller. This is due to most of the legacy support for `@ember-data/model` having now found its final location at home in that package instead of within the `@ember-data/store package`. The size of `@ember-data/store` is reduced from ~16kb compressed to ~9.5kb compressed, potentially a little less depending on what deprecations are resolved and what other packages are present. We expect the core to continue to shrink as we complete the final stages of removing `InternalModel`, complete implementations for recently accepted deprecation RFCs, and introduce `RecordDataV2`.
 
 #### Deprecations
 
-Ember Data 4.6 introduced 0 deprecations.
+Ember Data 4.5 introduced 8 deprecations. Some private APIs have also
+been deprecated or removed, and some methods deprecated during v3 of Ember are
+now removed. For the full list of removed APIs, visit the [release notes](https://github.com/emberjs/data/releases/tag/v4.5.0).
+
+The new deprecations are below, and support for the deprecated APIs will be removed
+in the next major version of Ember:
+
+- deprecating some internal usage of `RSVP.Promise` that applications may have become dependent on if their tests are leaky. This was
+proposed in [RFC 796](https://rfcs.emberjs.com/id/0796-ember-data-deprecate-rsvp)
+- deprecating the `type` property on snapshots (which would lookup the model class).
+- deprecating `store.find`, a private method that has been maintained in case users accidentally fell into using ember's hidden autofetch behavior in routes
+- deprecating `store.hasRecordForId`, as `peekRecord` is generally more useful and provides the same information (and more).
+- deprecating `store.recordWasInvalid`, an unused internal api that `ember-model-validations` appears to be using.
+- deprecating passing strings to the schema lookup functions `attributesDefinitionFor` and `relationshipsDefinitionFor`, these APIs now expect an object with at least a `type` property representing the model name.
+- deprecating the `-json-api` fallback adapter, a hidden behavior that provided an adapter if the application failed to define one.
+
+As always, deprecated code can be eliminated from the build output by specifying the `compatWith` arg on the [emberData configuration in your app](https://api.emberjs.com/ember-data/release/modules/@ember-data%2Fdeprecations).
+
+##### Private API removals
+
+Users of private store APIs may find these APIs have now been deprecated or removed. Internal restructuring will be high the next 6 months as we polish off the removal of `InternalModel` and continue to simplify codepaths which that removal allows us to do. All but a few private methods have been entirely eliminated from the store.
 
 For more details on changes in Ember Data 4.6, please review the
 [Ember Data 4.6.0 release page](https://github.com/emberjs/data/releases/tag/v4.6.0).
