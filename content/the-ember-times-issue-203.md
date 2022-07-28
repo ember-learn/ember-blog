@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. XXS
 authors:
   - jared-galanis
+  - bryan-mishkin
 date: 2022-08-07T00:00:00.000Z
 tags:
   - newsletter
@@ -12,17 +13,13 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
+eslint-plugin-ember 11.0 Released 🧹
+
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [eslint-plugin-ember 11.0 Released 🧹](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Bryan Mishkin (@bmish)](https://github.com/bmish) has released [v11.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Aside from housekeeping, there's better support for ESLint v8 and one new recommended rule [no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md). And as always, come by the repository if you would like to suggest an idea for or help out with implementing a new lint rule to catch a common mistake or enforce a best practice.
 
 ---
 
@@ -136,4 +133,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis the crowd and the Learning Team
+Jared Galanis, Bryan Mishkin, the crowd and the Learning Team
