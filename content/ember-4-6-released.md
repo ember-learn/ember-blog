@@ -28,30 +28,22 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 4.6
 
-Ember.js 4.6 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
+Ember.js 4.6 is an incremental, backwards compatible release of Ember with bug fixes.
 
 #### Bug Fixes
 
-Ember.js 4.6 introduced 0 bug fixes.
+Ember.js 4.6 introduced 2 bug fixes.
+
+- [Replace deprecated `substr()` method](https://github.com/emberjs/ember.js/pull/20125) with `substring()` method
+- [Adjust `uniqueId()` implementation](https://github.com/emberjs/ember.js/pull/20120) to only generate valid selectors. [`querySelector`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) does not work if the first character is a number, so
+now we ensure that the first character is a letter.
 
 #### Features
 
-Ember.js 4.6 introduced 2 features.
-
-1. Feature description
-2. Feature description
-
+Ember.js 4.6 introduced 0 features.
 #### Deprecations
 
 Ember.js 4.6 introduced 0 deprecations.
-
-<!-- Block start: If there were no deprecations, remove this block -->
-
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-
-<!-- Block end -->
 
 For more details on changes in Ember.js 4.6, please review the [Ember.js 4.6.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.6.0).
 
