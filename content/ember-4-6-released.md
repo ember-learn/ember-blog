@@ -69,11 +69,13 @@ The aim is to catch up to the versioning number of Ember CLI and Ember.js.
 
 Version 4.5 includes a number of new deprecations, a significant internal refactoring of the store architecture and several bug fixes described below. 
 
-In addition, v4.5 of Ember Data drops support for Node 12. Node 12 became end of life (it no longer receives security updates) in April 2022.
+#### Node support
+
+v4.5 of Ember Data drops support for Node 12. Node 12 became end of life (it no longer receives security updates) in April 2022.
 
 #### Bug Fixes
 
-Ember Data 4.5 introduced 9 bug fixes.
+Ember Data 4.5 introduced 9 bug fixes. Details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.5.0).
 
 #### Features
 
@@ -128,6 +130,14 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 ### Changes in Ember CLI 4.6
 
+This version included some changes to Node support, a new deprecation,
+some removals of previously deprecated code, and a 
+[variety of internal cleanup and refactor efforts](https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md).
+
+#### Node support
+
+v4.5 of Ember CLI drops support for Node 12 and adds support for Node 18. Node 12 became end of life (it no longer receives security updates) in April 2022.
+
 #### Bug Fixes
 
 Ember CLI 4.6 introduced 0 bug fixes.
@@ -138,7 +148,12 @@ Ember CLI 4.6 introduced 0 features.
 
 #### Deprecations
 
-Ember CLI 4.6 introduced 0 deprecations.
+Ember CLI 4.6 introduced 1 deprecation.
+
+[The `vendor-shim` blueprint is deprecated](https://github.com/ember-cli/ember-cli/pull/9903). Please use `ember-auto-import` instead.
+
+In addition, some deprecations introduced in earlier major versions of
+Ember have now been removed, including [support for `ember-cli-inject-live-reload`](https://github.com/ember-cli/ember-cli/pull/9902), [`silent` error](https://github.com/ember-cli/ember-cli/pull/9899), and [`addonJsFiles`](https://github.com/ember-cli/ember-cli/pull/9898).
 
 For more details on the changes in Ember CLI 4.6 and detailed upgrade
 instructions, please review the [Ember CLI 4.6.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.6.0).
