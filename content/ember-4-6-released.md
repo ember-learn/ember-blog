@@ -79,9 +79,9 @@ v4.5 of Ember Data drops support for Node 12. Node 12 became end of life (it no 
 Ember Data 4.5 introduced 9 bug fixes. Additional Details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.5.0).
 
 * [#8083](https://github.com/emberjs/data/pull/8083) [BUGFIX] Serialize null array items as empty strings 
-* [#7901](https://github.com/emberjs/data/pull/7901) Waiter should be always on
+* [#7901](https://github.com/emberjs/data/pull/7901) <!-- alex ignore waiter -->`waiter` should be always on
 * [#8042](https://github.com/emberjs/data/pull/8042) `RecordState` cleanup 
-* [#8008](https://github.com/emberjs/data/pull/8008) schedule watchTypeIfUnseen to prevent loop
+* [#8008](https://github.com/emberjs/data/pull/8008) schedule `watchTypeIfUnseen` to prevent loop
 * [#8013](https://github.com/emberjs/data/pull/8013) Fix generated import paths for test setup functions in addons
 * [#8025](https://github.com/emberjs/data/pull/8025) Fix `PromiseProxy` Deprecation for Save ([@runspired](https://github.com/runspired))
 * [#7902](https://github.com/emberjs/data/pull/7902) test for async hasMany does not trigger relationship fetch
@@ -92,7 +92,7 @@ Ember Data 4.5 introduced 9 bug fixes. Additional Details are in the [release no
 
 Ember Data 4.5 introduced improvements to build size.
 
-Users of just the core of Ember Data may expect their builds to be 35-50% smaller. This is due to most of the legacy support for `@ember-data/model` having now found its final location at home in that package instead of within the `@ember-data/store package`. The size of `@ember-data/store` is reduced from ~16kb compressed to ~9.5kb compressed, potentially a little less depending on what deprecations are resolved and what other packages are present. We expect the core to continue to shrink as we complete the final stages of removing `InternalModel`, complete implementations for recently accepted deprecation RFCs, and introduce `RecordDataV2`.
+Users of solely the core of Ember Data may expect their builds to be 35-50% smaller. This is due to most of the legacy support for `@ember-data/model` having now found its final location at home in that package instead of within the `@ember-data/store package`. The size of `@ember-data/store` is reduced from ~16kb compressed to ~9.5kb compressed, potentially a little less depending on what deprecations are resolved and what other packages are present. We expect the core to continue to shrink as we complete the final stages of removing `InternalModel`, complete implementations for recently accepted deprecation RFCs, and introduce `RecordDataV2`.
 
 #### Deprecations
 
