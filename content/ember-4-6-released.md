@@ -4,7 +4,7 @@ authors:
   - jen-weber
   - chris-thoburn
   - katie-gengler
-date: 2022-07-28T21:00:00.000Z
+date: 2022-07-29T21:00:00.000Z
 tags:
   - releases
   - '2022'
@@ -93,7 +93,7 @@ Ember Data 4.5 introduced 9 bug fixes. Additional Details are in the [release no
 
 Ember Data 4.5 introduced improvements to build size.
 
-Users of solely the core of Ember Data may expect their builds to be 35-50% smaller. This is due to most of the legacy support for `@ember-data/model` having now found its final location at home in that package instead of within the `@ember-data/store package`. The size of `@ember-data/store` is reduced from ~16kb compressed to ~9.5kb compressed, potentially a little less depending on what deprecations are resolved and what other packages are present. We expect the core to continue to shrink as we complete the final stages of removing `InternalModel`, complete implementations for recently accepted deprecation RFCs, and introduce `RecordDataV2`.
+Users of solely the core of Ember Data, namely the `store` and `ember-inflector` packages, may expect the builds of those dependencies to be 35-50% smaller. This is due to most of the legacy support for `@ember-data/model` having now found its final location at home in that package instead of within the `@ember-data/store package`. The size of `@ember-data/store` is reduced from ~16kb compressed to ~9.5kb compressed, potentially a little less depending on what deprecations are resolved and what other packages are present. We expect the core to continue to shrink as we complete the final stages of removing `InternalModel`, complete implementations for recently accepted deprecation RFCs, and introduce `RecordDataV2`.
 
 #### Deprecations
 
@@ -143,7 +143,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 ### Changes in Ember CLI 4.6
 
 This version included some changes to Node support, a new deprecation,
-some removals of previously deprecated code, and a 
+some removals of previously deprecated code, and a
 [variety of internal cleanup and refactor efforts](https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md).
 
 #### Node support
