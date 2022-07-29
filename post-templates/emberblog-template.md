@@ -2,10 +2,10 @@
 title: Ember VER Released
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2021-XX-XXT00:00:00.000Z
+date: 2022-XX-XXT00:00:00.000Z
 tags:
   - releases
-  - '2021'
+  - '2022'
   - version-4-x
 ---
 
