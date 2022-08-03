@@ -180,7 +180,7 @@ In the method example above, I showed using `this.shouldShow` as a helper. In no
 
 ```hbs
 {{#each @items as |item|}}
-  {{#if (this.hiddenItems.hasItem item)}}
+  {{#if (this.hiddenItems.has item)}}
     ...
   {{/if}}
 {{/each}}
