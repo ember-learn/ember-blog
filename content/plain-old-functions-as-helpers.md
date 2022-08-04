@@ -2,7 +2,7 @@
 title: Plain Old Functions as Helpers
 authors:
   - chris-krycho
-date: 2022-08-09T13:30:00.000Z
+date: 2022-08-04T13:30:00.000Z
 tags:
   - '2022'
   - announcement
@@ -80,6 +80,7 @@ We’ll have more to say on that in the future!
 Instead of writing `helper(function(pos, named) { ... })` you can define a function normally and make it the default export from a file in your app or addon's `helpers` directory. For example, here’s how you might have defined a `parse-int` helper before:
 
 ```js
+// app/helpers/parse-int.js
 import { helper } from '@ember/component/helper';
 
 export default helper(function parseInt([numberToParse], { radix = 10 }) {
@@ -90,8 +91,9 @@ export default helper(function parseInt([numberToParse], { radix = 10 }) {
 Here's how we would define that now that we have the ability to use normal functions as helpers:
 
 ```js
+// app/helpers/parse-int.js
 export default function parseInt(numberToParse, { radix = 10 }) {
-  // ...
+  return Number.parseInt(numberToParse, radix);
 }
 ```
 
