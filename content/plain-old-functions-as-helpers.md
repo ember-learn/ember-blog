@@ -2,7 +2,7 @@
 title: Plain Old Functions as Helpers
 authors:
   - chris-krycho
-date: 2022-08-08T14:30:00.000Z
+date: 2022-08-09T13:30:00.000Z
 tags:
   - '2022'
   - announcement
