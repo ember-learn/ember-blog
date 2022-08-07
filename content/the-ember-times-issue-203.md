@@ -26,6 +26,19 @@ Head on over to the [4.6 release blog post](https://blog.emberjs.com/ember-4-6-r
 
 ---
 
+## [Plain Old Functions as Helpers 😎](https://blog.emberjs.com/plain-old-functions-as-helpers)
+
+In case you missed it, there's a new post by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) that covers a long-awaited feature that was released recently in Ember 4.5, plain old JavaScript functions as helpers! 😎
+
+As the post indicates, this means two things today:
+
+1. You can use (bound) methods on your backing class as helpers directly.
+2. You can define function-based helpers without importing and using helper().
+
+Also, in the future, there should be even better support when the <template> feature lands!
+
+---
+
 ## [eslint-plugin-ember 11.0 Released 🧹](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0)
 
 [Bryan Mishkin (@bmish)](https://github.com/bmish) has released [v11.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Aside from housekeeping, there's better support for ESLint v8 and one new recommended rule [no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md).
