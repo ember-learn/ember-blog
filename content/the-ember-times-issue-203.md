@@ -18,7 +18,7 @@ eslint-plugin-ember 11.0 Released 🧹
 
 ## [Ember 4.6 Released 🔥](https://blog.emberjs.com/ember-4-6-released)
 
-Ember 4.6 was recently released! 🔥 
+Ember 4.6 was recently released! 🔥
 
 This release included a few bug fixes for Ember.js, 1 deprecation for Ember CLI, and 9 bug fixes for Ember Data. The release also includes 8 deprecations for Ember Data and improvements to Ember Data's build size!
 
