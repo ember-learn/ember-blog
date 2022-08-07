@@ -19,7 +19,14 @@ eslint-plugin-ember 11.0 Released 🧹
 
 ## [eslint-plugin-ember 11.0 Released 🧹](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0)
 
-[Bryan Mishkin (@bmish)](https://github.com/bmish) has released [v11.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Aside from housekeeping, there's better support for ESLint v8 and one new recommended rule [no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md). And as always, come by the repository if you would like to suggest an idea for or help out with implementing a new lint rule to catch a common mistake or enforce a best practice.
+[Bryan Mishkin (@bmish)](https://github.com/bmish) has released [v11.0.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.0.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Aside from housekeeping, there's better support for ESLint v8 and one new recommended rule [no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md).
+
+👋 If you would like to get involved with linting and open source, there are a lot of options for contributing:
+
+* Suggest an idea for a new lint rule to catch a common mistake or enforce a best practice ([file new issue for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues/new) or [file new issue for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues/new))
+* Implement a new lint rule (see [list of 25+ ideas for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?q=is%3Aissue+is%3Aopen+label%3A%22New+Rule%22) or [list of 20+ ideas for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?q=is%3Aissue+is%3Aopen+label%3A%22New+Rule%22))
+* Implement an autofixer for an existing rule (see [list of 5+ ideas for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues/1556) or [list of 10+ ideas for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues/2571))
+* Even just tweaking the documentation for a rule or fixing a small bug can have an impact and is always appreciated!
 
 ---
 
