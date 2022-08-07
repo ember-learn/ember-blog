@@ -12,7 +12,8 @@ tags:
 👋 Emberistas! 🐹
 
 Ember 4.6 Released 🔥,
-eslint-plugin-ember 11.0 Released 🧹
+Plain Old Functions as Helpers 😎,
+eslint-plugin-ember 11.0 Released 🧹,
 
 ---
 
