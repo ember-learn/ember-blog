@@ -11,9 +11,18 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
+Ember 4.6 Released 🔥,
 eslint-plugin-ember 11.0 Released 🧹
+
+---
+
+## [Ember 4.6 Released 🔥](https://blog.emberjs.com/ember-4-6-released)
+
+Ember 4.6 was recently released! 🔥 
+
+This release included a few bug fixes for Ember.js, 1 deprecation for Ember CLI, and 9 bug fixes for Ember Data. The release also includes 8 deprecations for Ember Data and improvements to Ember Data's build size!
+
+Head on over to the [4.6 release blog post](https://blog.emberjs.com/ember-4-6-released) and give it a read today!
 
 ---
 
@@ -26,6 +35,7 @@ eslint-plugin-ember 11.0 Released 🧹
 * Suggest an idea for a new lint rule to catch a common mistake or enforce a best practice ([file new issue for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues/new) or [file new issue for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues/new))
 * Implement a new lint rule (see [list of 25+ ideas for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues?q=is%3Aissue+is%3Aopen+label%3A%22New+Rule%22) or [list of 20+ ideas for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues?q=is%3Aissue+is%3Aopen+label%3A%22New+Rule%22))
 * Implement an autofixer for an existing rule (see [list of 5+ ideas for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues/1556) or [list of 10+ ideas for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues/2571))
+<!-- alex ignore just -->
 * Even just tweaking the documentation for a rule or fixing a small bug can have an impact and is always appreciated!
 
 ---
