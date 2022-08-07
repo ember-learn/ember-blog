@@ -28,7 +28,7 @@ Head on over to the [4.6 release blog post](https://blog.emberjs.com/ember-4-6-r
 
 ## [Plain Old Functions as Helpers 😎](https://blog.emberjs.com/plain-old-functions-as-helpers)
 
-In case you missed it, there's a new post by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) that covers a long-awaited feature that was released recently in Ember 4.5, plain old JavaScript functions as helpers! 😎
+In case you missed it, there's a [new post](https://blog.emberjs.com/plain-old-functions-as-helpers) by [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) that covers a long-awaited feature that was released recently in Ember 4.5, plain old JavaScript functions as helpers! 😎
 
 As the post indicates, this means two things today:
 
