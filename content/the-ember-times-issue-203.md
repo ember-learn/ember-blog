@@ -14,12 +14,12 @@ tags:
 Ember 4.6 Released 🔥,
 Plain Old Functions as Helpers 😎,
 Deprecate Proxies in Ember Data RFC ✨,
+Speed Improvements Coming to Ember Data Tests 🏎,
 eslint-plugin-ember 11.0 Released 🧹,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
 Ember Chessboard Videos Part 3 📼,
 Migrate ember-data models to Octane 📓,
-Speed Improvements Coming to Ember Data Tests 🏎,
 Effects in Ember 🙌,
 Prevent Load Flashing ⚡️
 
@@ -57,6 +57,14 @@ When proxies in Ember Data were introduced Native Proxies did not yet exist. Thi
 Additionally, [this may mean Ember Data can be portable and potentially used outside of Ember in the future](https://twitter.com/not_runspired/status/1560375248498876417?s=20&t=xvBGa68l4S5ePSbkOopadA)! As the RFC indicates, "Importantly, this simplification will allow for us to address the performance of the most expensive costs of managing and presenting data. It will also sever one of the last entanglements the core of EmberData has with the Framework. While this RFC does not in itself enable Ember-less usage of EmberData, it does in effect make this a near possibility."
 
 Go ahead and head on over to [the RFC](https://github.com/emberjs/rfcs/pull/846) and give it a read or leave a comment today!
+
+---
+
+## [Speed Improvements Coming to Ember Data Tests 🏎](https://twitter.com/not_runspired/status/1559336272484655104?s=20&t=el5PTWrJeRm6cMAnFEDJWA)
+
+[Chris Thoburn (@runspired)](https://github.com/runspired) recently announced that there are some ✨ significant speed improvements ✨ coming to tests that set up records in Ember Data!
+
+Significant as in there are a large number of scenarios that are 75-90% faster in Ember Data 4.8 than 4.6. These improvements, along with other performance improvements, should land in Ember Data 4.8. 😎
 
 ---
 
@@ -113,14 +121,6 @@ Give [the post](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-i
 
 ---
 
-## [Speed Improvements Coming to Ember Data Tests 🏎](https://twitter.com/not_runspired/status/1559336272484655104?s=20&t=el5PTWrJeRm6cMAnFEDJWA)
-
-[Chris Thoburn (@runspired)](https://github.com/runspired) recently announced that there are some ✨ significant speed improvements ✨ coming to tests that set up records in Ember Data!
-
-Significant as in there are a large number of scenarios that are 75-90% faster in Ember Data 4.8 than 4.6. These improvements, along with other performance improvements, should land in Ember Data 4.8. 😎
-
----
-
 ## [Effects in Ember 🙌](https://twitter.com/nullvoxpopuli/status/1553417252594241543)
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) recently tweeted about how to do Effects in Ember! Nullvox says they are essentially they are function calls, but with auto-tracking, but without the need to specify a list of dependencies.
@@ -137,7 +137,7 @@ Checkout [the example](https://limber.glimdown.com/edit?format=glimdown&t=%23%20
 
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank our <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, <a href="https://github.com/VincentMolinie" rel="noopener noreferrer" target="_blank">Vincent Molinié (@VincentMolinie)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth Schot-van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/charlesfries" rel="noopener noreferrer" target="_blank">Charles Fries (@charlesfries)</a>, <a href="https://github.com/jalexakos" rel="noopener noreferrer" target="_blank">Josh Alexakos (@jalexakos)</a>, <a href="https://github.com/silentkdev" rel="noopener noreferrer" target="_blank">Andrew Knox (@silentkdev)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/bendemboski" rel="noopener noreferrer" target="_blank">Ben Demboski (@bendemboski)</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/Sadeedpv" rel="noopener noreferrer" target="_blank">Sadeed pv (@Sadeedpv)</a>, <a href="https://github.com/aliHafizji" rel="noopener noreferrer" target="_blank">Kauserali (@aliHafizji)</a>, <a href="https://github.com/ben-hamel" rel="noopener noreferrer" target="_blank">Ben Hamel (@ben-hamel)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/ardeliatay" rel="noopener noreferrer" target="_blank">@ardeliatay</a>, <a href="https://github.com/law-rence" rel="noopener noreferrer" target="_blank">@law-rence</a>, <a href="https://github.com/kaermorchen" rel="noopener noreferrer" target="_blank">Stanislav Romanov (@kaermorchen)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/maxwondercorn" rel="noopener noreferrer" target="_blank">Gregg Martell (@maxwondercorn)</a>, <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/kiwiupover" rel="noopener noreferrer" target="_blank">Dave Laird (@kiwiupover)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/deanylev" rel="noopener noreferrer" target="_blank">Dean Levinson (@deanylev)</a>, <a href="https://github.com/krisselden" rel="noopener noreferrer" target="_blank">Kris Selden (@krisselden)</a>, <a href="https://github.com/CvX" rel="noopener noreferrer" target="_blank">Jarek Radosz (@CvX)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/halfbyte" rel="noopener noreferrer" target="_blank">Jan Krutisch (@halfbyte)</a>, <a href="https://github.com/StreakInTheSky" rel="noopener noreferrer" target="_blank">Ross Baquir (@StreakInTheSky)</a>, <a href="https://github.com/locks" rel="noopener noreferrer" target="_blank">Ricardo Mendes (@locks)</a>, <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/chadhietala" rel="noopener noreferrer" target="_blank">Chad Hietala (@chadhietala)</a>, <a href="https://github.com/dfreeman" rel="noopener noreferrer" target="_blank">Dan Freeman (@dfreeman)</a>, and <a href="https://github.com/patricklx" rel="noopener noreferrer" target="_blank">@patricklx</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
