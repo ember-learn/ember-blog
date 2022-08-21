@@ -99,7 +99,7 @@ We’ve had several other addons and libraries across the Ember ecosystem releas
 
 There's another new episode of Whiskey Web and Whatnot that you might want to check out and it features [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli)! 🔥
 
-[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape chat with NullVox about NullVox's journey into Ember, comparing Ember to React without angering either side, why NullVox values Ember resources and has worked to create various libraries, what emerging tech NullVox is thrilled to be working on these issues, and more!
+[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape chat with NullVox about NullVox's journey into Ember, comparing Ember to React without angering either side, why NullVox values Ember resources and has worked to create various libraries, what emerging tech NullVox is thrilled to be working, and more!
 
 Listen to [the episode](https://www.whiskeywebandwhatnot.fm/emerging-tech-a-resource-renaissance-and-embracing-ember-with-preston-sego/) today.
 
