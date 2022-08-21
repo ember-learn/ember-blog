@@ -16,6 +16,7 @@ Plain Old Functions as Helpers 😎,
 eslint-plugin-ember 11.0 Released 🧹,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
+Ember Chessboard Videos Part 3 📼,
 
 ---
 
@@ -75,6 +76,13 @@ There's another new episode of Whiskey Web and Whatnot that you might want to ch
 [Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape chat with NullVox about NullVox's journey into Ember, comparing Ember to React without angering either side, why NullVox values Ember resources and has worked to create various libraries, what emerging tech NullVox is thrilled to be working on these issues, and more!
 
 Listen to [the episode](https://www.whiskeywebandwhatnot.fm/emerging-tech-a-resource-renaissance-and-embracing-ember-with-preston-sego/) today.
+
+---
+## [Ember Chessboard Videos Part 3 📼](https://twitter.com/knownasilya/status/1552290159424569349?s=20&t=ED_L2NyVRLJuxYdY2jKdXw)
+
+[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) released a third part of his video series that runs through building an Ember.js chessboard.js app using an exciting new (alpha) scaffolding library called [Engage](https://github.com/warp-drive-engineering/engage) that's authored by [Chris Thoburn (@runspired)](https://github.com/runspired)!
+
+Head on over to YouTube and check out [part 3](https://www.youtube.com/watch?v=Lsbk9IAYFSk)!
 
 ---
 
