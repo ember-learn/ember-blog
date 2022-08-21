@@ -15,6 +15,7 @@ Ember 4.6 Released 🔥,
 Plain Old Functions as Helpers 😎,
 eslint-plugin-ember 11.0 Released 🧹,
 Ember Addon Roundup 🌐,
+Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
 
 ---
 
@@ -59,11 +60,21 @@ Also, in the future, there should be even better support when the <template> fea
 
 We’ve had several other addons and libraries across the Ember ecosystem release updates recently, here’s what you may have missed:
 
-- [v0.1.12](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/releases/tag/v0.1.12) of [`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) now supports Glimmer / Handlebars.
-- [v0.8.23](https://github.com/ember-engines/ember-engines/releases/tag/v0.8.23) of `ember-engines` has been released by [Chris Thoburn (@runspired)](https://github.com/runspired) with an improved testing API.
-- [v5.1.0, v5.1.1, v5.2.0, v5.2.1] of `ember-resources` have been released by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and the releases include a `cell` new utility for helping with more focused reactivity usage, a new `keepLatest` util and some bug fixes.
-- [v2.31.0](https://github.com/Foodee/ember-foxy-forms/releases/tag/v2.31.0) of `ember-foxy-forms` has been released by [Joe Gaudet (@joegaudet)](https://github.com/joegaudet) with a new attribute that allows the form to scroll its parent container to the first field with an error and relaxation for the comparison in ff-abstract-select to allow for fuzzy comparison.
-- [v5.9.2, v5.10.0](https://github.com/prysmex/ember-eui/releases) of `ember-eui` have been released by [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) with a new super date picker component and css and checkbox validations.
+* [v0.1.12](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/releases/tag/v0.1.12) of [`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) now supports Glimmer / Handlebars.
+* [v0.8.23](https://github.com/ember-engines/ember-engines/releases/tag/v0.8.23) of `ember-engines` has been released by [Chris Thoburn (@runspired)](https://github.com/runspired) with an improved testing API.
+* [v5.1.0, v5.1.1, v5.2.0, v5.2.1] of `ember-resources` have been released by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and the releases include a `cell` new utility for helping with more focused reactivity usage, a new `keepLatest` util and some bug fixes.
+* [v2.31.0](https://github.com/Foodee/ember-foxy-forms/releases/tag/v2.31.0) of `ember-foxy-forms` has been released by [Joe Gaudet (@joegaudet)](https://github.com/joegaudet) with a new attribute that allows the form to scroll its parent container to the first field with an error and relaxation for the comparison in ff-abstract-select to allow for fuzzy comparison.
+* [v5.9.2, v5.10.0](https://github.com/prysmex/ember-eui/releases) of `ember-eui` have been released by [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) with a new super date picker component and css and checkbox validations.
+
+---
+
+## [Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊](https://twitter.com/shipshapecode/status/1553426907261292544)
+
+There's another new episode of Whiskey Web and Whatnot that you might want to check out and it features [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli)! 🔥
+
+[Robert Wagner (@rwwagner90)](https://github.com/rwwagner90) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) of Ship Shape chat with NullVox about NullVox's journey into Ember, comparing Ember to React without angering either side, why NullVox values Ember resources and has worked to create various libraries, what emerging tech NullVox is thrilled to be working on these issues, and more!
+
+Listen to [the episode](https://www.whiskeywebandwhatnot.fm/emerging-tech-a-resource-renaissance-and-embracing-ember-with-preston-sego/) today.
 
 ---
 
