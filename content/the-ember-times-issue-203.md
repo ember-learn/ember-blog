@@ -1,9 +1,9 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 203
 authors:
   - jared-galanis
   - bryan-mishkin
-date: 2022-08-07T00:00:00.000Z
+date: 2022-08-21T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
@@ -17,6 +17,7 @@ eslint-plugin-ember 11.0 Released 🧹,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
 Ember Chessboard Videos Part 3 📼,
+Migrate ember-data models to Octane 📓,
 
 ---
 
@@ -87,15 +88,11 @@ Head on over to YouTube and check out [part 3](https://www.youtube.com/watch?v=L
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Migrate ember-data models to Octane 📓](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-ipb)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In case you haven't had a chnace to check it out, you might want to look at a super helpful new blog post by [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi) about how to migrate Ember Data models to Octane syntax given that codemods don't support this area of conversion.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Give [the post](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-ipb) a read today!
 
 ---
 
