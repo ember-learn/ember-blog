@@ -18,6 +18,7 @@ Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
 Ember Chessboard Videos Part 3 📼,
 Migrate ember-data models to Octane 📓,
+Speed Improvements Coming to Ember Data Tests 🏎,
 
 ---
 
@@ -96,15 +97,11 @@ Give [the post](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-i
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Speed Improvements Coming to Ember Data Tests 🏎](https://twitter.com/not_runspired/status/1559336272484655104?s=20&t=el5PTWrJeRm6cMAnFEDJWA)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Thoburn (@runspired)](https://github.com/runspired) recently announced that there are some ✨ significant speed improvements ✨ coming to tests that set up records in Ember Data!
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Significant as in there are a large number of scenarios that are 75-90% faster in Ember Data 4.8 than 4.6. These improvements, along with other performance improvements, should land in Ember Data 4.8. 😎
 
 ---
 
