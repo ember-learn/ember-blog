@@ -78,6 +78,7 @@ There's another new episode of Whiskey Web and Whatnot that you might want to ch
 Listen to [the episode](https://www.whiskeywebandwhatnot.fm/emerging-tech-a-resource-renaissance-and-embracing-ember-with-preston-sego/) today.
 
 ---
+
 ## [Ember Chessboard Videos Part 3 📼](https://twitter.com/knownasilya/status/1552290159424569349?s=20&t=ED_L2NyVRLJuxYdY2jKdXw)
 
 [Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) released a third part of his video series that runs through building an Ember.js chessboard.js app using an exciting new (alpha) scaffolding library called [Engage](https://github.com/warp-drive-engineering/engage) that's authored by [Chris Thoburn (@runspired)](https://github.com/runspired)!
