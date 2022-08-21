@@ -14,6 +14,7 @@ tags:
 Ember 4.6 Released 🔥,
 Plain Old Functions as Helpers 😎,
 eslint-plugin-ember 11.0 Released 🧹,
+Ember Addon Roundup 🌐,
 
 ---
 
@@ -51,6 +52,18 @@ Also, in the future, there should be even better support when the <template> fea
 * Implement an autofixer for an existing rule (see [list of 5+ ideas for eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember/issues/1556) or [list of 10+ ideas for ember-template-lint](https://github.com/ember-template-lint/ember-template-lint/issues/2571))
 <!-- alex ignore just -->
 * Even just tweaking the documentation for a rule or fixing a small bug can have an impact and is always appreciated!
+
+---
+
+## Ember Addon Roundup 🌐
+
+We’ve had several other addons and libraries across the Ember ecosystem release updates recently, here’s what you may have missed:
+
+- [v0.1.12](https://github.com/tailwindlabs/prettier-plugin-tailwindcss/releases/tag/v0.1.12) of [`prettier-plugin-tailwindcss`](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) now supports Glimmer / Handlebars.
+- [v0.8.23](https://github.com/ember-engines/ember-engines/releases/tag/v0.8.23) of `ember-engines` has been released by [Chris Thoburn (@runspired)](https://github.com/runspired) with an improved testing API.
+- [v5.1.0, v5.1.1, v5.2.0, v5.2.1] of `ember-resources` have been released by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and the releases include a `cell` new utility for helping with more focused reactivity usage, a new `keepLatest` util and some bug fixes.
+- [v2.31.0](https://github.com/Foodee/ember-foxy-forms/releases/tag/v2.31.0) of `ember-foxy-forms` has been released by [Joe Gaudet (@joegaudet)](https://github.com/joegaudet) with a new attribute that allows the form to scroll its parent container to the first field with an error and relaxation for the comparison in ff-abstract-select to allow for fuzzy comparison.
+- [v5.9.2, v5.10.0](https://github.com/prysmex/ember-eui/releases) of `ember-eui` have been released by [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) with a new super date picker component and css and checkbox validations.
 
 ---
 
