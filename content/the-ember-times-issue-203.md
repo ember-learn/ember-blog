@@ -14,7 +14,7 @@ tags:
 Ember 4.6 Released 🔥,
 Plain Old Functions as Helpers 😎,
 Deprecate Proxies in Ember Data RFC ✨,
-Speed Improvements Coming to Ember Data Tests 🏎,
+Speed Improvements in Ember Data Tests 🏎,
 eslint-plugin-ember 11.0 Released 🧹,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
@@ -27,7 +27,7 @@ Prevent Load Flashing ⚡️
 
 ## [Ember 4.6 Released 🔥](https://blog.emberjs.com/ember-4-6-released)
 
-Ember 4.6 was recently released! 🔥
+Ember 4.6 was recently released!
 
 This release included a few bug fixes for Ember.js, 1 deprecation for Ember CLI, and 9 bug fixes for Ember Data. The release also includes 8 deprecations for Ember Data and improvements to Ember Data's build size!
 
@@ -60,7 +60,7 @@ Go ahead and head on over to [the RFC](https://github.com/emberjs/rfcs/pull/846)
 
 ---
 
-## [Speed Improvements Coming to Ember Data Tests 🏎](https://twitter.com/not_runspired/status/1559336272484655104?s=20&t=el5PTWrJeRm6cMAnFEDJWA)
+## [Speed Improvements in Ember Data Tests 🏎](https://twitter.com/not_runspired/status/1559336272484655104?s=20&t=el5PTWrJeRm6cMAnFEDJWA)
 
 [Chris Thoburn (@runspired)](https://github.com/runspired) recently announced that there are some ✨ significant speed improvements ✨ coming to tests that set up records in Ember Data!
 
@@ -91,7 +91,7 @@ We’ve had several other addons and libraries across the Ember ecosystem releas
 * [v5.1.0, v5.1.1, v5.2.0, v5.2.1] of `ember-resources` have been released by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and the releases include a `cell` new utility for helping with more focused reactivity usage, a new `keepLatest` util and some bug fixes.
 * [v2.31.0](https://github.com/Foodee/ember-foxy-forms/releases/tag/v2.31.0) of `ember-foxy-forms` has been released by [Joe Gaudet (@joegaudet)](https://github.com/joegaudet) with a new attribute that allows the form to scroll its parent container to the first field with an error and relaxation for the comparison in ff-abstract-select to allow for fuzzy comparison.
 * [v5.9.2, v5.10.0](https://github.com/prysmex/ember-eui/releases) of `ember-eui` have been released by [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) with a new super date picker component and css and checkbox validations.
-* [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has announced some improvements to the [`limber`](https://github.com/NullVoxPopuli/limber), an editor that allows live runnable demos for Ember and Glimmer. Using @codemirror as the main editor shortens the time-to-edit by a good amount and is more accessible for keyboard users, and even works on mobile.
+* [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has announced some improvements to [`limber`](https://github.com/NullVoxPopuli/limber), an editor that allows live runnable demos for Ember and Glimmer. Using @codemirror as the main editor shortens the time-to-edit by a good amount and is more accessible for keyboard users, and even works on mobile.
 
 ---
 
@@ -107,7 +107,7 @@ Listen to [the episode](https://www.whiskeywebandwhatnot.fm/emerging-tech-a-reso
 
 ## [Ember Chessboard Videos Part 3 📼](https://twitter.com/knownasilya/status/1552290159424569349?s=20&t=ED_L2NyVRLJuxYdY2jKdXw)
 
-[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) released a third part of his video series that runs through building an Ember.js chessboard.js app using an exciting new (alpha) scaffolding library called [Engage](https://github.com/warp-drive-engineering/engage) that's authored by [Chris Thoburn (@runspired)](https://github.com/runspired)!
+[Ilya Radchenko (@knownasilya)](https://github.com/knownasilya) released the third part of his video series that runs through building an Ember.js chessboard.js app using an exciting new (alpha) scaffolding library called [Engage](https://github.com/warp-drive-engineering/engage) that's authored by [Chris Thoburn (@runspired)](https://github.com/runspired)!
 
 Head on over to YouTube and check out [part 3](https://www.youtube.com/watch?v=Lsbk9IAYFSk)!
 
@@ -115,7 +115,7 @@ Head on over to YouTube and check out [part 3](https://www.youtube.com/watch?v=L
 
 ## [Migrate ember-data models to Octane 📓](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-ipb)
 
-In case you haven't had a chnace to check it out, you might want to look at a super helpful new blog post by [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi) about how to migrate Ember Data models to Octane syntax given that codemods don't support this area of conversion.
+In case you haven't had a chance to check it out, you might want to look at a super helpful new blog post by [Michal Bryxí (@MichalBryxi)](https://github.com/MichalBryxi) about how to migrate Ember Data models to Octane syntax given that codemods don't support this area of conversion.
 
 Give [the post](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-ipb) a read today!
 
