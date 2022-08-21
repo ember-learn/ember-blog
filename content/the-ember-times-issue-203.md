@@ -44,7 +44,7 @@ As the post indicates, this means two things today:
 1. You can use (bound) methods on your backing class as helpers directly.
 2. You can define function-based helpers without importing and using helper().
 
-Also, in the future, there should be even better support when the <template> feature lands!
+Also, in the future, there should be even better support when the `template` feature lands!
 
 ---
 
