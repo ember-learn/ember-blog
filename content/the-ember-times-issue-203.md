@@ -20,6 +20,8 @@ Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
 Ember Chessboard Videos Part 3 📼,
 Migrate ember-data models to Octane 📓,
 Speed Improvements Coming to Ember Data Tests 🏎,
+Effects in Ember 🙌,
+Prevent Load Flashing ⚡️
 
 ---
 
@@ -81,6 +83,7 @@ We’ve had several other addons and libraries across the Ember ecosystem releas
 * [v5.1.0, v5.1.1, v5.2.0, v5.2.1] of `ember-resources` have been released by [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and the releases include a `cell` new utility for helping with more focused reactivity usage, a new `keepLatest` util and some bug fixes.
 * [v2.31.0](https://github.com/Foodee/ember-foxy-forms/releases/tag/v2.31.0) of `ember-foxy-forms` has been released by [Joe Gaudet (@joegaudet)](https://github.com/joegaudet) with a new attribute that allows the form to scroll its parent container to the first field with an error and relaxation for the comparison in ff-abstract-select to allow for fuzzy comparison.
 * [v5.9.2, v5.10.0](https://github.com/prysmex/ember-eui/releases) of `ember-eui` have been released by [Alberto Cantú Gómez (@betocantu93)](https://github.com/betocantu93) with a new super date picker component and css and checkbox validations.
+* [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) has announced some improvements to the [`limber`](https://github.com/NullVoxPopuli/limber), an editor that allows live runnable demos for Ember and Glimmer. Using @codemirror as the main editor shortens the time-to-edit by a good amount and is more accessible for keyboard users, and even works on mobile.
 
 ---
 
@@ -118,51 +121,17 @@ Significant as in there are a large number of scenarios that are 75-90% faster i
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [Effects in Ember 🙌](https://twitter.com/nullvoxpopuli/status/1553417252594241543)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) recently tweeted about how to do Effects in Ember! Nullvox says they are essentially they are function calls, but with auto-tracking, but without the need to specify a list of dependencies.
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [Prevent Load Flashing ⚡️](https://twitter.com/nullvoxpopuli/status/1553184820418805762)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) also recently shared a one-line function, that prevents loading flashing when refreshing or loading new data. 😎
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Checkout [the example](https://limber.glimdown.com/edit?format=glimdown&t=%23%20RemoteData%0A%0A`RemoteData`%20is%20a%20utility%20`Resource`%20from%20[ember-resources][gh-resources]%0Athat%20provides%20an%20easy%20way%20to%20interact%20with%20[`fetch`][mdn-fetch]%0Awith%20a%20pre-wired%20[`AbortController`][mdn-AbortController].%0A%0AIn%20this%20example%2C%20the%20fetching%20of%20data%20from%20the%20[StarWars%20API][swapi]%20occurs%0Aautomatically%20based%20on%20changes%20to%20the%20URL.%0AYou%20may%20change%20the%20`id`%20of%20the%20Person%20to%20fetch%20from%20the%20StarWars%20API.%0A%0A```gjs%20live%0Aimport%20Component%20from%20%27%40glimmer%2Fcomponent%27%3B%0Aimport%20{%20tracked%20}%20from%20%27%40glimmer%2Ftracking%27%3B%0Aimport%20{%20on%20}%20from%20%27%40ember%2Fmodifier%27%3B%0A%0Aimport%20{%20RemoteData%20}%20from%20%27ember-resources%2Futil%2Fremote-data%27%3B%0A%0Aconst%20urlFor%20%3D%20(id)%20%3D%3E%20`https%3A%2F%2Fswapi.dev%2Fapi%2Fpeople%2F%24{id}`%3B%0A%0Alet%20previous%3B%0Aconst%20keepLatest%20%3D%20(data)%20%3D%3E%20previous%20%3D%20data%20||%20previous%3B%0A%0Aconst%20Person%20%3D%20%3Ctemplate%3E%0A%20%20{{%23let%20(RemoteData%20(urlFor%20%40id))%20as%20|request|}}%0A%20%20%20%20{{keepLatest%20request.value.name}}%0A%0A%20%20%20%20{{%23if%20request.isLoading}}%20...%20loading%20{{%40id}}%20...%20{{%2Fif}}%0A%20%20{{%2Flet}}%0A%3C%2Ftemplate%3E%3B%0A%0Aexport%20default%20class%20Demo%20extends%20Component%20{%0A%20%20%40tracked%20id%20%3D%2051%3B%0A%20%20updateId%20%3D%20(event)%20%3D%3E%20this.id%20%3D%20event.target.value%3B%0A%0A%20%20%3Ctemplate%3E%0A%20%20%20%20%3Cdiv%20class%3D%22border%20p-4%20grid%20gap-4%22%3E%0A%20%20%20%20%20%20%20%20%3CPerson%20%40id%3D{{this.id}}%20%2F%3E%0A%0A%20%20%20%20%20%20%20%20%3Clabel%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20Person%20ID%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cinput%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20type%3D%27number%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20class%3D%27border%20px-3%20py-2%27%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20value%3D{{this.id}}%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20{{on%20%27input%27%20this.updateId}}%3E%0A%20%20%20%20%20%20%20%20%3C%2Flabel%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2Ftemplate%3E%0A}%0A```%0A%0ADocs%20for%20`RemoteData`%20can%20[be%20found%20here][docs-remote-data].%0AInformation%20about%20how%20Resources%20fit%20in%20to%20the%20next%20edition%20of%20Ember%20can%20be%20[found%20here][polaris-reactivity]%0A%0A%0A%0A[gh-resources]%3A%20https%3A%2F%2Fgithub.com%2Fnullvoxpopuli%2Fember-resources%0A[mdn-fetch]%3A%20https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FFetch_API%2FUsing_Fetch%0A[mdn-AbortController]%3A%20https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FAbortController%0A[docs-remote-data]%3A%20https%3A%2F%2Fember-resources.pages.dev%2Fmodules%2Futil_remote_data%0A[polaris-reactivity]%3A%20https%3A%2F%2Fwycats.github.io%2Fpolaris-sketchwork%2Freactivity.html%0A[swapi]%3A%20https%3A%2F%2Fswapi.dev%2F%0A) today!
 
 ---
 
