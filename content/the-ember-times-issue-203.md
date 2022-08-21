@@ -13,13 +13,13 @@ tags:
 
 Ember 4.6 Released 🔥,
 Plain Old Functions as Helpers 😎,
+Deprecate Proxies in Ember Data RFC ✨,
 eslint-plugin-ember 11.0 Released 🧹,
 Ember Addon Roundup 🌐,
 Whiskey Web and Whatnot Episode with NullVoxPopuli 🔊,
 Ember Chessboard Videos Part 3 📼,
 Migrate ember-data models to Octane 📓,
 Speed Improvements Coming to Ember Data Tests 🏎,
-Deprecate Proxies in Ember Data RFC 🔥,
 
 ---
 
@@ -43,6 +43,18 @@ As the post indicates, this means two things today:
 2. You can define function-based helpers without importing and using helper().
 
 Also, in the future, there should be even better support when the <template> feature lands!
+
+---
+
+## [Deprecate Proxies in Ember Data RFC ✨](https://github.com/emberjs/rfcs/pull/846)
+
+[Chris Thoburn (@runspired)](https://github.com/runspired) also recently opened [an RFC that proposes deprecating proxies in Ember Data](https://github.com/emberjs/rfcs/pull/846)!
+
+When proxies in Ember Data were introduced Native Proxies did not yet exist. This is no longer the case and the RFC describes how Ember Data can be simplified and improve performance by deprecating them.
+
+Additionally, [this may mean Ember Data can be portable and potentially used outside of Ember in the future](https://twitter.com/not_runspired/status/1560375248498876417?s=20&t=xvBGa68l4S5ePSbkOopadA)! As the RFC indicates, "Importantly, this simplification will allow for us to address the performance of the most expensive costs of managing and presenting data. It will also sever one of the last entanglements the core of EmberData has with the Framework. While this RFC does not in itself enable Ember-less usage of EmberData, it does in effect make this a near possibility."
+
+Go ahead and head on over to [the RFC](https://github.com/emberjs/rfcs/pull/846) and give it a read or leave a comment today!
 
 ---
 
@@ -103,18 +115,6 @@ Give [the post](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-i
 [Chris Thoburn (@runspired)](https://github.com/runspired) recently announced that there are some ✨ significant speed improvements ✨ coming to tests that set up records in Ember Data!
 
 Significant as in there are a large number of scenarios that are 75-90% faster in Ember Data 4.8 than 4.6. These improvements, along with other performance improvements, should land in Ember Data 4.8. 😎
-
----
-
-## [Deprecate Proxies in Ember Data RFC 🔥](https://github.com/emberjs/rfcs/pull/846)
-
-[Chris Thoburn (@runspired)](https://github.com/runspired) also recently opened [an RFC that proposes deprecating proxies in Ember Data](https://github.com/emberjs/rfcs/pull/846)!
-
-When proxies in Ember Data were introduced Native Proxies did not yet exist. This is no longer the case and the RFC describes how Ember Data can be simplified and improve performance by deprecating them.
-
-Additionally, [this may mean Ember Data can be portable and potentially used outside of Ember in the future](https://twitter.com/not_runspired/status/1560375248498876417?s=20&t=xvBGa68l4S5ePSbkOopadA)! As the RFC indicates, "Importantly, this simplification will allow for us to address the performance of the most expensive costs of managing and presenting data. It will also sever one of the last entanglements the core of EmberData has with the Framework. While this RFC does not in itself enable Ember-less usage of EmberData, it does in effect make this a near possibility."
-
-Go ahead and head on over to [the RFC](https://github.com/emberjs/rfcs/pull/846) and give it a read or leave a comment today!
 
 ---
 
