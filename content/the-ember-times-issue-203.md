@@ -131,7 +131,7 @@ Give [the post](https://dev.to/michalbryxi/migrate-ember-data-models-to-octane-i
 
 [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) also recently shared a one-line function, that prevents loading flashing when refreshing or loading new data. 😎
 
-Checkout [the example](tinyurl.com/2p8kjte8) today!
+Checkout [the example](https://t.co/rUswdpKwlN) today!
 
 ---
 
