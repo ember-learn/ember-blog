@@ -34,7 +34,7 @@ Ember.js 4.7 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 4.7 introduced 1 bug fix.
 
-- [Replacing Firefox detection that used a deprecated browser API](https://github.com/emberjs/ember.js/pull/20126) 
+- [Replacing Firefox detection that used a deprecated browser API](https://github.com/emberjs/ember.js/pull/20126)
 
 #### Features
 
@@ -60,7 +60,7 @@ Version 4.7 implements a "2.1" cache spec while deprecating the v1 cache spec. T
 
 #### Bug Fixes
 
-Ember Data 4.7 introduced 8 bug fixes and some tests and documentation improvements. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1
+Ember Data 4.7 introduced 8 bug fixes and some tests and documentation improvements. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1).
 
 - [#8089](https://github.com/emberjs/data/pull/8089) Unpin yarn for consumers
 - [#8108](https://github.com/emberjs/data/pull/8108) Fix earlier versions of node-14
@@ -80,7 +80,7 @@ Ember Data 4.7 introduced 2 features.
 
 #### Deprecations
 
-Ember Data 4.7 introduced 8 deprecations. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1
+Ember Data 4.7 introduced 8 deprecations. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1).
 
 - [#8093](https://github.com/emberjs/data/pull/8093) Implement helper deprecations ([RFC 742](https://rfcs.emberjs.com/id/0742-ember-data-deprecate-helper-functions)).
 - [#8092](https://github.com/emberjs/data/pull/8092) Deprecate `Model.reopen`/`reopenClass` and eager static fields lookups (implements [RFC 738](https://rfcs.emberjs.com/id/0738-ember-data-deprecate-model-reopen) and [RFC 741](https://rfcs.emberjs.com/id/0741-ember-data-deprecate-model-static-field-access-without-lookup)).
