@@ -11,7 +11,7 @@ tags:
 
 Today the Ember project is releasing version 4.7 of Ember.js, Ember Data, and Ember CLI.
 
-This release kicks off the 4.7 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+This release kicks off the 4.8 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -58,6 +58,19 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 Version 4.7 implements a "2.1" cache spec while deprecating the v1 cache spec. This spec differs somewhat from the [original 2.0 RFC](https://rfcs.emberjs.com/id/0461-ember-data-singleton-record-data), an updated RFC specifying the modifications will be published soon. Users looking to migrate to the 2.1 cache should expect that the finalized version of 2.1 enforces that the cache is always a singleton (vs merely allowed to be a singleton), and that data provided to the store and queries to the store from the cache should always contain identifiers in their stable form. This latter point is enforced in 4.7, the former is not yet enforced.
 
+*Performance Improvements*
+
+> Note: many performance improvements are gated by deprecation removal, meaning that you need to resolve all deprecations for EmberData 4.7 and mark your app as compatible with that version in order to opt in to the fastest codepaths.
+All applications should observe significant speed improvements when using EmberData 4.7. The below call-outs are in relation to EmberData 4.6.
+
+- Pushing new data into the cache is now ~33% faster
+- Accessing the LiveArray (peekAll / findAll) for the first time is now 97% faster
+- Initial Access of Related Records is now ~80% faster
+- Destroying all records (e.g. also sending an API request) in a loop is 62% faster
+- Unloading all records (of all types) is ~98% faster
+
+Read more in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1).
+
 #### Bug Fixes
 
 Ember Data 4.7 introduced 8 bug fixes and some tests and documentation improvements. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1).
@@ -80,15 +93,12 @@ Ember Data 4.7 introduced 2 features.
 
 #### Deprecations
 
-Ember Data 4.7 introduced 8 deprecations. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1).
+Ember Data 4.7 introduced 13 deprecations. Additional details are in the [release notes](https://github.com/emberjs/data/releases/tag/v4.7.1).
 
 - [#8093](https://github.com/emberjs/data/pull/8093) Implement helper deprecations ([RFC 742](https://rfcs.emberjs.com/id/0742-ember-data-deprecate-helper-functions)).
 - [#8092](https://github.com/emberjs/data/pull/8092) Deprecate `Model.reopen`/`reopenClass` and eager static fields lookups (implements [RFC 738](https://rfcs.emberjs.com/id/0738-ember-data-deprecate-model-reopen) and [RFC 741](https://rfcs.emberjs.com/id/0741-ember-data-deprecate-model-static-field-access-without-lookup)).
 - [#8084](https://github.com/emberjs/data/pull/8084) Eliminate InternalModel, nearly all private API's have undergone significant change, if your app previously used these APIs the most likely refactor is to use a custom model or a custom cache.
 - [#8115](https://github.com/emberjs/data/pull/8115) Implement strict relationships ([RFC 739](https://rfcs.emberjs.com/id/0739-ember-data-deprecate-non-strict-relationships)).
-
-Support for the `toJSON` method on Ember Data records has been removed. It was deprecated in `3.x` and slated for removal in `4.x`.
-If your app uses this method, follow the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_record-toJSON).
 
 For more details on changes in Ember Data 4.7, please review the
 [Ember Data 4.7.1 commits](https://github.com/emberjs/data/compare/v4.1.0...v4.7.1).
