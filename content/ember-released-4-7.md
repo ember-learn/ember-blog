@@ -58,8 +58,8 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 Version 4.7 implements a "2.1" cache spec while deprecating the v1 cache spec. This spec differs somewhat from the [original 2.0 RFC](https://rfcs.emberjs.com/id/0461-ember-data-singleton-record-data), an updated RFC specifying the modifications will be published soon. Users looking to migrate to the 2.1 cache should expect that the finalized version of 2.1 enforces that the cache is always a singleton (vs merely allowed to be a singleton), and that data provided to the store and queries to the store from the cache should always contain identifiers in their stable form. This latter point is enforced in 4.7, the former is not yet enforced.
 
-*Performance Improvements*
-
+<!-- alex disable no-emphasis-as-heading -->
+**Performance Improvements**
 > Note: many performance improvements are gated by deprecation removal, meaning that you need to resolve all deprecations for EmberData 4.7 and mark your app as compatible with that version in order to opt in to the fastest codepaths.
 All applications should observe significant speed improvements when using EmberData 4.7. The below call-outs are in relation to EmberData 4.6.
 
