@@ -315,6 +315,10 @@ These types, as a fairly direct extraction from DefinitelyTyped, currently maint
 
 In line with [RFC 0821: Public API for Type-Only Imports][0821], this PR also removes support for importing the types for `Transition`, `RouteInfo`, and `RouteInfoWithMetadata` from the private locations that DefinitelyTyped presently supports for backwards compatibility. Users will need to migrate to using the correct import paths when switching to use these imports.
 
+- `import Transition from '@ember/routing/-private/transition'` → `import Transition from '@ember/routing/transition'`
+- `import RouteInfo from '@ember/routing/-private/route-info'` → `import RouteInfo from '@ember/routing/route-info'`
+- `import { RouteInfoWithMetadata } from '@ember/routing/-private/route-info-with-metadata'` → `import { RouteInfoWithMetadata } from '@ember/routing/route-info'`
+
 
 ## New TypeScript users
 
