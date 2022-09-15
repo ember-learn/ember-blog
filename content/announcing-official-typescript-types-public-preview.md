@@ -277,7 +277,7 @@ const instance = Foo.create({
 
 ##### `.reopenClass()`
 
-As with `.reopen()`, the use of `.reopenClass()` is an antipattern you should move away from over time, preferring to use regular functions in module scope or normal static methods on native classes. In the meantime, you can use *namespace merging* to get the types to work
+As with `.reopen()`, the use of `.reopenClass()` is an antipattern you should move away from over time, preferring to use regular functions in module scope or normal static methods on native classes. In the meantime, you can use *namespace merging* to represent how it works:
 
 ```ts
 import EmberObject from '@ember/object';
