@@ -59,6 +59,8 @@ Also, given that these are *preview* types, we will continue to maintain the typ
 1. File an issue on [the ember.js repo][repo] with a report about the issue you had.
 2. Switch back to the `@types` packages!
 
+[repo]: https://github.com/emberjs/ember.js/issues
+
 We will make sure there are no blocking bugs before stabilizing.
 
 
