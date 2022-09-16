@@ -30,7 +30,7 @@ The rest of this post is broken into four sections:
 - [How the preview period will work](#toc_how-the-preview-period-will-work)
 - [Migrating from DefinitelyTyped](#toc_migrating-from-definitelytyped)
 - [New TypeScript users](#toc_new-typescript-users)
-- [What's next on Ember’s road to TypeScript?](#toc_whats-next-on-embers-road-to-typescript)
+- [What's next on Ember’s road to TypeScript?](#toc_whats-next-on-ember’s-road-to-typescript)
 
 If you’re curious about the details of how this approach to publishing TypeScript types for Ember works, check out [the PR which introduced support](https://github.com/emberjs/ember.js/pull/20180)!
 
