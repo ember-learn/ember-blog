@@ -2,7 +2,7 @@
 title: Announcing the Official TypeScript Types Public Preview
 authors:
   - chris-krycho
-date: 2022-09-16T22:00:00.000Z
+date: 2022-09-16T16:30:00.000Z
 tags:
   - '2022'
   - typescript
