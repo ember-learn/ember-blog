@@ -379,7 +379,7 @@ Here’s the process as of today:
 
 The first beta release has the following known issues (which we will fix during the beta period):
 
-- The `@types/ember-data` packages are not compatible with these types, because they assume. If you are using Ember Data with TypeScript, you will need to wait for a future update.
+- The `@types/ember-data` packages are not compatible with these types, because they assume the presence of many of the Ember Classic types we removed in this migration. If you are using Ember Data with TypeScript, you will need to wait for a future update.
 - The import file for stable types does not exist yet, so TypeScript will warn you that there is no type for the module. We expect to fix this before releasing `4.8.0-beta.3`!
 
 
