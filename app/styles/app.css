@@ -1,3 +1,24 @@
 article.post-content .float-right {
   float: right;
 }
+
+table {
+  table-layout: auto;
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--spacing-2);
+}
+
+th, td {
+  padding-left: var(--spacing-2);
+  padding-right: var(--spacing-2);
+}
+
+thead {
+  background-color: var(--color-gray-300);
+  border-bottom: 1px solid;
+}
+
+tr.highlight {
+  background-color: var(--color-gray-200);
+}
