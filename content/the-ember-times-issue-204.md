@@ -127,4 +127,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, the crowd and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
