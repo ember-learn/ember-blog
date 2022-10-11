@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 204
 authors:
   - jared-galanis
+  - anne-greeth-schot-van-herwijnen
 date: 2022-09-04T00:00:00.000Z
 tags:
   - newsletter
@@ -10,6 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
+Watch the movies 🎞,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -26,15 +28,9 @@ tags:
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [🎞 EmberFest videos are live!](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Last month a group of Emberistas gathered in Paris to enjoy the [latest edition of EmberFest](https://emberfest.eu). The talks of this awesome hybrid event are now live on [YouTube](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV). So if you missed a talk because of timezone struggles, want to watch back your own amazing performance or are interested in the talks in general, go check [**them**](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV) out right now!
 
 ---
 
@@ -136,4 +132,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, the crowd and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen the crowd and the Learning Team
