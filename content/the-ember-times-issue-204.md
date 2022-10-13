@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 204
 authors:
   - jared-galanis
+  - chris-ng
 date: 2022-09-04T00:00:00.000Z
 tags:
   - newsletter
@@ -9,7 +10,7 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-
+Announcing the Official TypeScript Types Public Preview 🔥
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -38,15 +39,16 @@ tags:
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## [Announcing the Official TypeScript Types Public Preview 🔥](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) wrote a [post](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/) on how Ember is shipping a public preview of the official TypeScript support for the framework itself. Anyone using TypeScript with Ember 4.8.0 Beta 2 or later can opt into using these preview types by removing the corresponding `@types` packages and adding the following import in your `types/<your app>/index.d.ts` file:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+```js
+import 'ember-source/types';
+import 'ember-source/types/preview';
+```
+
+Note there is a known issue when using the `@types/ember-data` packages which are not compatible with these types because they assume the presence of many of the Ember Classic types we removed in this migration. If you are using Ember Data with TypeScript, you will need to wait for a future update. The key difference between the stable and preview types is: our stable types must be generated from Ember's own TypeScript source code, while the preview types are hand-written type definitions. All public API remains supported however there will only be minimal support for Ember Classic APIs around class definitions (see [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan/) for more details).
 
 ---
 
@@ -136,4 +138,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, the crowd and the Learning Team
+Jared Galanis, Chris Ng, the crowd and the Learning Team
