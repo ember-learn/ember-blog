@@ -33,7 +33,7 @@ Starting in the current 4.0 cycle, Ember major versions will be 18 months long, 
 
 - **Our approach to minor releases is not changing.** We will keep releasing on the same steady cadence. Features will be in, or not, based on whether they’re ready.
 - **Our approach to Long Term Support releases is not changing.** That means that every major version will have 3 LTS releases over its life: the `.4`, `.8`, and `.12` releases.
-- **Our approach to Editions is not changing.** Just like we did with Octane, we will release Polaris and any future edition in a minor release, when it is fully ready.
+- **Our approach to Editions is not changing.** Similar to what we did with Octane, we will release Polaris and any future edition in a minor release, when it is fully ready.
 - **Our approach to breaking changes is not changing.** We will not be making more breaking changes because of this policy, and we will not make breaking changes without clear migration paths. We have also committed not to introduce new deprecations targeting the next major after the `.10` release of the current major.
 
 This change enables Ember to have a predictable cadence for major versions similar to what we have had for minor versions. Read more about this change in the full [blog post](https://blog.emberjs.com/evolving-embers-major-version-process).
