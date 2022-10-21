@@ -29,7 +29,9 @@ Evolving Ember’s Major Version Process ⭕
 
 ## [Evolving Ember’s Major Version Process ⭕](https://blog.emberjs.com/evolving-embers-major-version-process)
 
-Starting in the current 4.0 cycle, Ember major versions will be 18 months long, running from the `.0` release up to the `.12` release, and then starting a new major version as outlined in the [RFC](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process/). While this is a significant shift in how we think about versioning in Ember, there are principles which will remain unchanged namely:
+Starting in the current 4.0 cycle, Ember major versions will be 18 months long, running from the `.0` release up to the `.12` release, and then starting a new major version as outlined in [RFC 0830](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process/). This means that you can expect 5.0 in May 2023, 6.0 in November 2024, 7.0 in May 2026, and so on.
+
+While this is a significant shift in how we think about *major* versions in Ember, there are a lot of things which remain unchanged:
 
 - **Our approach to minor releases is not changing.** We will keep releasing on the same steady cadence. Features will be in, or not, based on whether they’re ready.
 - **Our approach to Long Term Support releases is not changing.** That means that every major version will have 3 LTS releases over its life: the `.4`, `.8`, and `.12` releases.
