@@ -32,12 +32,19 @@ Ember.js 4.8 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug Fixes
 
+Ember.js 4.8 introduced 1 bug fix.
+
+- [#20166](https://github.com/emberjs/ember.js/pull/20166) - fixed a bug where calling RouteInfo.find() method executes callback with undefined object since 4.3.0.
 
 #### Features
 
+Ember.js 4.8 introduced 1 feature.
+
+- [#20180](https://github.com/emberjs/ember.js/pull/20180) - an opt-in preview of public types for Ember is now available. This is meant to serve as a way to get early feedback, in line with Ember's normal path to stabilizing features. Users can opt into the types here, but no one will be interacting with these types automatically. Please see the [pull request](https://github.com/emberjs/ember.js/pull/2018) for more detail on the implementation and mechanics involved.
 
 #### Deprecations
 
+Ember.js 4.8 introduced 0 deprecations.
 
 <!-- Block end -->
 
