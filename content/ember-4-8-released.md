@@ -2,7 +2,7 @@
 title: Ember 4.8 Released
 authors:
   - jared-galanis
-date: 2022-10-21T00:00:00.000Z
+date: 2022-10-24T00:00:00.000Z
 tags:
   - releases
   - '2022'
