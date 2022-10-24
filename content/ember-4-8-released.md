@@ -40,7 +40,7 @@ Ember.js 4.8 introduced 1 bug fix.
 
 Ember.js 4.8 introduced 1 feature.
 
-- [#20180](https://github.com/emberjs/ember.js/pull/20180) - an opt-in preview of public types for Ember is now available. This is meant to serve as a way to get early feedback, in line with Ember's normal path to stabilizing features. Users can opt into the types here, but no one will be interacting with these types automatically. Please see the [pull request](https://github.com/emberjs/ember.js/pull/2018) for more detail on the implementation and mechanics involved.
+- [#20180](https://github.com/emberjs/ember.js/pull/20180) - an opt-in preview of Ember's official TypeScript types. This is the latest step in implementing [RFC 0800: TypeScript Adoption Plan](https://rfcs.emberjs.com/id/0800-ts-adoption-plan). These types serve as a way to get early feedback, in line with Ember's normal path to stabilizing features. You can opt into the types now, but won't be opted in automatically until they're stable. Check out [the announcement blog post](https://blog.emberjs.com/announcing-official-typescript-types-public-preview) for details on how you can try out the preview, and see the [pull request](https://github.com/emberjs/ember.js/pull/2018) for more detail on the implementation and mechanics involved.
 
 #### Deprecations
 
