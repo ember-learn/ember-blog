@@ -90,12 +90,23 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
+Ember CLI 4.8 introduced 4 bug fixes.
+
+- [#10014](https://github.com/ember-cli/ember-cli/pull/10014) - a fix that makes sure newly installed addons are discovered when running ember install.
+- [#9920](https://github.com/ember-cli/ember-cli/pull/9920) - a fix that makes sure a blueprint’s options object and project instance are always available for all public hooks.
+- [#9987](https://github.com/ember-cli/ember-cli/pull/9987) - a fix that makes sure we handle rebuild failures without exiting.
+- [#9988](https://github.com/ember-cli/ember-cli/pull/9988) - a fix for a glob matching issue when npm-run-all and Yarn 2+ are used together.
 
 #### Features
 
+Ember CLI 4.8 introduced 2 features.
+
+- [#9945](https://github.com/ember-cli/ember-cli/pull/9945) - Added Node v18 to engines in the app and addon blueprints (removes support for Node v17, which is a breaking change).
+- [#9975](https://github.com/ember-cli/ember-cli/pull/9975) - Updated the app and addon blueprints to use const to avoid unnecessary linting errors.
 
 #### Deprecations
 
+Ember CLI 4.8 introduced 0 deprecations.
 
 ## Thank You!
 
