@@ -10,6 +10,7 @@ tags:
 
 👋 Emberistas! 🐹
 
+Evolving Ember’s Major Version Process ⭕
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -26,15 +27,19 @@ tags:
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [Evolving Ember’s Major Version Process ⭕](https://blog.emberjs.com/evolving-embers-major-version-process)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Starting in the current 4.0 cycle, Ember major versions will be 18 months long, running from the `.0` release up to the `.12` release, and then starting a new major version as outlined in [RFC 0830](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process/). This means that you can expect 5.0 in May 2023, 6.0 in November 2024, 7.0 in May 2026, and so on.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+While this is a significant shift in how we think about *major* versions in Ember, there are a lot of things which remain unchanged:
+
+- **Our approach to minor releases is not changing.** We will keep releasing on the same steady cadence. Features will be in, or not, based on whether they’re ready.
+- **Our approach to Long Term Support releases is not changing.** That means that every major version will have 3 LTS releases over its life: the `.4`, `.8`, and `.12` releases.
+- **Our approach to Editions is not changing.** Similar to what we did with Octane, we will release Polaris and any future edition in a minor release, when it is fully ready.
+- **Our approach to breaking changes is not changing.** We will not be making more breaking changes because of this policy, and we will not make breaking changes without clear migration paths. We have also committed not to introduce new deprecations targeting the next major after the `.10` release of the current major.
+
+This change enables Ember to have a predictable cadence for major versions similar to what we have had for minor versions. Read more about this change in the full [blog post](https://blog.emberjs.com/evolving-embers-major-version-process).
+
 
 ---
 
