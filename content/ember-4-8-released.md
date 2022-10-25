@@ -56,17 +56,11 @@ For more details on changes in Ember.js 4.8, please review the [Ember.js 4.8.0 r
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-### Changes in Ember Data 4.8
+### Changes in Ember Data
 
+Due to low availability for the Ember Data team this cycle, Ember Data does not have a new release, so it remains at 4.7.
 
-#### Bug Fixes
-
-
-#### Features
-
-
-#### Deprecations
-
+Please see the [Ember 4.7 release blog post](https://blog.emberjs.com/ember-released-4-7) for details about v4.7 of Ember Data.
 
 ---
 
