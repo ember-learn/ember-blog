@@ -48,7 +48,7 @@ import 'ember-source/types';
 import 'ember-source/types/preview';
 ```
 
-Note there is a known issue when using the `@types/ember-data` packages which are not compatible with these types because they assume the presence of many of the Ember Classic types we removed in this migration. If you are using Ember Data with TypeScript, you will need to wait for a future update. The key difference between the stable and preview types is: our stable types must be generated from Ember's own TypeScript source code, while the preview types are hand-written type definitions. All public API remains supported however there will only be minimal support for Ember Classic APIs around class definitions (see [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan/) for more details).
+Note there is a known issue when using the `@types/ember-data` packages which are not compatible with these types because they assume the presence of many of the Ember Classic types that were removed in this migration. If you are using Ember Data with TypeScript, you will need to wait for a future update. The key difference between the stable and preview types is: our stable types must be generated from Ember's own TypeScript source code, while the preview types are hand-written type definitions. All public API remains supported however there will only be minimal support for Ember Classic APIs around class definitions (see [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan/) for more details).
 
 ---
 
