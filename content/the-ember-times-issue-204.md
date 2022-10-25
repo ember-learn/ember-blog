@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 204
 authors:
   - jared-galanis
+  - bryan-mishkin
   - chris-ng
 date: 2022-09-04T00:00:00.000Z
 tags:
@@ -10,21 +11,19 @@ tags:
 ---
 
 👋 Emberistas! 🐹
-Announcing the Official TypeScript Types Public Preview 🔥
+
+Deprecation of Ember array prototype extensions 🧹,
 Evolving Ember’s Major Version Process ⭕
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+Announcing the Official TypeScript Types Public Preview 🔥
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [Deprecation of Ember array prototype extensions 🧹](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+<!-- alex ignore Hang -->
+A long-awaited [RFC](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/) written by [Hang Li (@smilland)](https://github.com/smilland) to deprecate Ember array prototype extensions was recently [merged](https://github.com/emberjs/rfcs/pull/848). Prototype extensions now come [disabled](https://github.com/ember-cli/ember-cli/pull/10017) by default as of ember-cli [v4.9.0-beta.0](https://github.com/ember-cli/ember-cli/releases/tag/v4.9.0-beta.0).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Santhosh Venkata Rama Siva Thanakala Gani (@tgvrssanthosh)](https://github.com/tgvrssanthosh) has implemented an auto-fixer for the [ember/no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md) lint rule which works for all Ember array prototype extensions that do not involve reactivity in [v11.1.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.1.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Try enabling the rule in your codebase and running the autofixer. There's also an auto-fixable [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) version of [no-array-prototype-extensions](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-array-prototype-extensions.md) to try out.
 
 ---
 
@@ -143,4 +142,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Chris Ng, the crowd and the Learning Team
+Jared Galanis, Bryan Mishkin, Chris Ng, the crowd and the Learning Team
