@@ -18,6 +18,8 @@ Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕
 Announcing the Official TypeScript Types Public Preview 🔥
 
+Ember QUnit 6.0.0 Release 🚀
+
 ---
 
 ## [Deprecation of Ember array prototype extensions 🧹](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/)
@@ -111,15 +113,9 @@ Note there is a known issue when using the `@types/ember-data` packages which ar
 
 ---
 
-## [🐹 8. Section title in sentence case](section-url)
+## [Ember QUnit 6.0.0 Release 🚀](https://github.com/emberjs/ember-qunit/releases/tag/v6.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) along with [Bert De Block (@bertdeblock)](https://github.com/bertdeblock) and [Francesco Novy (@mydea)](https://github.com/mydea) released ember-qunit v6.0.0, which adds full support for Ember v4, including [ember-auto-import](https://github.com/ef4/ember-auto-import) v2, and drops support for Ember < v3.24, and bug fixes around focus related tests.
 
 ---
 
