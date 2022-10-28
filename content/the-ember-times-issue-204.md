@@ -19,7 +19,7 @@ Dive into modern `@ember-data` 🏗️, Learn how to overwrite the default trans
 
 ## [🏗️ Dive into modern `@ember-data` - part 1](https://blog.lux.name/2-dive-into-ember-data-1/)
 
-In this blog post series, [Lukas Kohler (@luxferrsum)](https://github.com/luxferresum) will talk about the future of `@ember-data` that we already have in parts, and how to use it, from the perspective of someone that didn’t develop it. In this [first blog post](https://blog.lux.name/2-dive-into-ember-data-1/), [Lukas](https://github.com/luxferresum) will show you how to build your **own** `@ember-data/model` and use the new `@ember-data` APIs: Schema and RecordData.
+In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxferresum) will talk about the future of `@ember-data` and how to use it from the perspective of someone that didn’t develop it. In the [first blog post](https://blog.lux.name/2-dive-into-ember-data-1/), [Lukas](https://github.com/luxferresum) will explains how to build your **own** `@ember-data/model` and use the new `@ember-data` APIs: `Schema` and `RecordData`.
 
 ---
 <!-- alex ignore simple -->
