@@ -90,7 +90,7 @@ Note there is a known issue when using the `@types/ember-data` packages which ar
 
 ## [Ember Resources Release 🎉](https://twitter.com/nullvoxpopuli/status/1568694246521319424)
 
-[Thomas Gossmann (@gossi)](https://github.com/gossi) together with [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released a new version of [ember-resources](https://github.com/NullVoxPopuli/ember-resources), an addon that implements the [Resource pattern](https://ember-resources.pages.dev/#what-is-a-resource). The new release starting in [v5.4.0](https://github.com/NullVoxPopuli/ember-resources/releases/tag/v5.4.0) adds the "owner" (app/engine instance) to function-based resources so now resources can access services, or whatever else is in the registry. 
+[Thomas Gossmann (@gossi)](https://github.com/gossi) together with [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released a new version of [ember-resources](https://github.com/NullVoxPopuli/ember-resources), an addon that implements the [Resource pattern](https://ember-resources.pages.dev/#what-is-a-resource). The new release starting in [v5.4.0](https://github.com/NullVoxPopuli/ember-resources/releases/tag/v5.4.0) adds the "owner" (app/engine instance) to function-based resources so now resources can access services, or whatever else is in the registry.
 
 ```js
 const myResource = resource(({ on, owner }) => {
