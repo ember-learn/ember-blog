@@ -17,6 +17,7 @@ Deprecation of Ember array prototype extensions 🧹,
 Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕
 Announcing the Official TypeScript Types Public Preview 🔥
+Ember Resources Release 🎉
 
 ---
 
@@ -87,15 +88,19 @@ Note there is a known issue when using the `@types/ember-data` packages which ar
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [Ember Resources Release 🎉](https://twitter.com/nullvoxpopuli/status/1568694246521319424)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Thomas Gossmann (@gossi)](https://github.com/gossi) together with [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released a new version of [ember-resources](https://github.com/NullVoxPopuli/ember-resources), an addon that implements the [Resource pattern](https://ember-resources.pages.dev/#what-is-a-resource). The new release starting in [v5.4.0](https://github.com/NullVoxPopuli/ember-resources/releases/tag/v5.4.0) adds the "owner" (app/engine instance) to function-based resources so now resources can access services, or whatever else is in the registry. 
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+```js
+const myResource = resource(({ on, owner }) => {
+  let foo = owner.lookup('service:foo');
+
+  return () => foo.someValue;
+});
+```
+
+Try it out today by [installing](https://ember-resources.pages.dev/#installation) it in your app!
 
 ---
 
