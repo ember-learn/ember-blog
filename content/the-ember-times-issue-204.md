@@ -17,6 +17,7 @@ Deprecation of Ember array prototype extensions 🧹,
 Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕
 Announcing the Official TypeScript Types Public Preview 🔥
+RFC 848 - Deprecate array prototype extensions ✍️
 
 ---
 
@@ -63,15 +64,11 @@ Note there is a known issue when using the `@types/ember-data` packages which ar
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [RFC 848 - Deprecate array prototype extensions ✍️](https://github.com/emberjs/rfcs/pull/848)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Hang Li (@smilland)](https://github.com/smilland) proposed and submitted [RFC 848](https://github.com/emberjs/rfcs/pull/848) which deprecates array prototype extensions by default for new applications. Ember historically extended the prototypes of native Javascript arrays to implement `Ember.Enumerable`, `Ember.MutableEnumerable`, `Ember.MutableArray`, `Ember.Array` for convenience to participate in the Ember Classic reactivity system. The accepted RFC recommends using native array functions as opposed to convenient prototype extension methods, and the usage of `@tracked` properties or `TrackedArray` over classic reactivity methods.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+For existing apps, a deprecation message will be displayed when the `EmberENV.EXTEND_PROTOTYPES` flag is not set to `false`. There are lint rules available for both [eslint](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md) and [template lint](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-array-prototype-extensions.md) to help migrate off relying on array prototype extensions.
 
 ---
 
