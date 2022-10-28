@@ -30,7 +30,7 @@ Watch the movies 🎞,
 
 ## [🎞 EmberFest videos are live!](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV)
 
-Last month a group of Emberistas gathered in Paris to enjoy the [latest edition of EmberFest](https://emberfest.eu). The talks of this awesome hybrid event are now live on [YouTube](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV). So if you missed a talk because of timezone struggles, want to watch back your own amazing performance or are interested in the talks in general, go check [**them**](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV) out right now!
+Last September a group of Emberistas gathered in Paris to enjoy the [latest edition of EmberFest](https://emberfest.eu). The talks of this awesome hybrid event are now live on [YouTube](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV). So if you missed a talk because of timezone struggles, want to watch back your own amazing performance or are interested in the talks in general, go check [**them**](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV) out right now!
 
 ---
 
