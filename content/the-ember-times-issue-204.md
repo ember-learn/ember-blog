@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 204
 authors:
   - jared-galanis
+  - anne-greeth-schot-van-herwijnen
   - bryan-mishkin
   - chris-ng
 date: 2022-09-04T00:00:00.000Z
@@ -13,6 +14,7 @@ tags:
 👋 Emberistas! 🐹
 
 Deprecation of Ember array prototype extensions 🧹,
+Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕
 Announcing the Official TypeScript Types Public Preview 🔥
 
@@ -24,6 +26,12 @@ Announcing the Official TypeScript Types Public Preview 🔥
 A long-awaited [RFC](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/) written by [Hang Li (@smilland)](https://github.com/smilland) to deprecate Ember array prototype extensions was recently [merged](https://github.com/emberjs/rfcs/pull/848). Prototype extensions now come [disabled](https://github.com/ember-cli/ember-cli/pull/10017) by default as of ember-cli [v4.9.0-beta.0](https://github.com/ember-cli/ember-cli/releases/tag/v4.9.0-beta.0).
 
 [Santhosh Venkata Rama Siva Thanakala Gani (@tgvrssanthosh)](https://github.com/tgvrssanthosh) has implemented an auto-fixer for the [ember/no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md) lint rule which works for all Ember array prototype extensions that do not involve reactivity in [v11.1.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.1.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Try enabling the rule in your codebase and running the autofixer. There's also an auto-fixable [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) version of [no-array-prototype-extensions](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-array-prototype-extensions.md) to try out.
+
+---
+
+## [🎞 EmberFest videos are live!](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV)
+
+Last September a group of Emberistas gathered in Paris to enjoy the [latest edition of EmberFest](https://emberfest.eu). The talks of this awesome hybrid event are now live on [YouTube](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV). So if you missed a talk because of timezone struggles, want to watch back your own amazing performance or are interested in the talks in general, go check [**them**](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV) out right now!
 
 ---
 
@@ -39,7 +47,6 @@ While this is a significant shift in how we think about *major* versions in Embe
 - **Our approach to breaking changes is not changing.** We will not be making more breaking changes because of this policy, and we will not make breaking changes without clear migration paths. We have also committed not to introduce new deprecations targeting the next major after the `.10` release of the current major.
 
 This change enables Ember to have a predictable cadence for major versions similar to what we have had for minor versions. Read more about this change in the full [blog post](https://blog.emberjs.com/evolving-embers-major-version-process).
-
 
 ---
 
@@ -142,4 +149,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Bryan Mishkin, Chris Ng, the crowd and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, Bryan Mishkin, Chris Ng, the crowd and the Learning Team
