@@ -35,7 +35,6 @@ In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxfe
 <!-- alex ignore simple -->
 This blog post by [Sabin Hertanu (@herzzanu)](https://github.com/herzzanu) will cover how to protect your routes, get rid of Ember Simple Auth mixins and how you can overwrite the default transitions defined in Ember Simple Auth. If you are still using the Ember Simple Auth mixins follow the steps in the [blog post](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication) to migrate away from them and get rid of **all** deprecation warnings.
 
-
 ---
 
 ## [Deprecation of Ember array prototype extensions 🧹](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/)
