@@ -115,7 +115,7 @@ Note there is a known issue when using the `@types/ember-data` packages which ar
 
 ## [Ember QUnit 6.0.0 Release 🚀](https://github.com/emberjs/ember-qunit/releases/tag/v6.0.0)
 
-[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) along with [Bert De Block (@bertdeblock)](https://github.com/bertdeblock) and [Francesco Novy (@mydea)](https://github.com/mydea) released ember-qunit v6.0.0, which adds full support for Ember v4, including [ember-auto-import](https://github.com/ef4/ember-auto-import) v2, and drops support for Ember < v3.24, and bug fixes around focus related tests.
+[Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) along with [Bert De Block (@bertdeblock)](https://github.com/bertdeblock) and [Francesco Novy (@mydea)](https://github.com/mydea) released ember-qunit v6.0.0, which adds full support for Ember v4, including [ember-auto-import](https://github.com/ef4/ember-auto-import) v2, and drops support for Ember versions before v3.24, and fixes bugs around focus related tests.
 
 ---
 
