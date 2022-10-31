@@ -13,11 +13,28 @@ tags:
 
 👋 Emberistas! 🐹
 
+Dive into modern `@ember-data` 🏗️,
+Learn how to overwrite the default transition after authentication 🗝️
 Deprecation of Ember array prototype extensions 🧹,
 Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕
 Announcing the Official TypeScript Types Public Preview 🔥
 Ember Resources Release 🎉
+<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## [🏗️ Dive into modern `@ember-data` - part 1](https://blog.lux.name/2-dive-into-ember-data-1/)
+
+In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxferresum) will talk about the future of `@ember-data` and how to use it from the perspective of someone that didn’t develop it. In the [first blog post](https://blog.lux.name/2-dive-into-ember-data-1/), [Lukas](https://github.com/luxferresum) will explains how to build your **own** `@ember-data/model` and use the new `@ember-data` APIs: `Schema` and `RecordData`.
+
+---
+<!-- alex ignore simple -->
+## [🗝️ Ember Simple Auth - how to overwrite the default transition after authentication](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication)
+
+<!-- alex ignore simple -->
+This blog post by [Sabin Hertanu (@herzzanu)](https://github.com/herzzanu) will cover how to protect your routes, get rid of Ember Simple Auth mixins and how you can overwrite the default transitions defined in Ember Simple Auth. If you are still using the Ember Simple Auth mixins follow the steps in the [blog post](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication) to migrate away from them and get rid of **all** deprecation warnings.
+
 
 ---
 
