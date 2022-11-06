@@ -16,6 +16,7 @@ tags:
 Ember Security Releases Blog Post 🔒,
 Ember 4.8 released 🐹,
 prettier-plugin-ember-template-tag released 🙌,
+more-confetti-addon released 🥳,
 Dive into modern `@ember-data` 🏗️,
 Learn how to overwrite the default transition after authentication 🗝️
 Deprecation of Ember array prototype extensions 🧹,
@@ -51,6 +52,14 @@ Head on over to the [4.8 release blog post](https://blog.emberjs.com/ember-4-8-r
 [Krystan HuffMenne (@gitKrystan)](https://github.com/gitKrystan) just released `prettier-plugin-ember-template-tag` for prettifying your <template> tags in both `.gjs` and `.gts` files!
 
 Go check out the [repo](https://github.com/gitKrystan/prettier-plugin-ember-template-tag) today.
+
+---
+
+## [more-confetti-addon released 🥳](https://twitter.com/agvanherwijnen/status/1588260038107226112?s=46&t=2KcBfrqJichoraVvI3uWSA)
+
+[Anne-Greeth Schot-van Herwijnen (@MinThaMie)](https://github.com/MinThaMie) announced the release of `more-confetti-addon`, an addon that provides a helper to call the [canvas-confetti package](https://www.npmjs.com/package/canvas-confetti) in your Ember templates!
+
+Check out the [repo](https://github.com/MinThaMie/more-confetti-addon#readme) and the [docs page](https://more-ember-confetti.netlify.app/) today!
 
 ---
 
