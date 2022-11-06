@@ -46,6 +46,8 @@ Head on over to the [4.8 release blog post](https://blog.emberjs.com/ember-4-8-r
 
 ## [prettier-plugin-ember-template-tag released 🙌](https://twitter.com/HM_Krystan/status/1588313200919216129)
 
+<!-- alex ignore just-->
+
 [Krystan HuffMenne (@gitKrystan)](https://github.com/gitKrystan) just released `prettier-plugin-ember-template-tag` for prettifying your <template> tags in both `.gjs` and `.gts` files!
 
 Go check out the [repo](https://github.com/gitKrystan/prettier-plugin-ember-template-tag) today.
