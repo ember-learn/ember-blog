@@ -13,6 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
+Ember Security Releases Blog Post 🔒,
 Ember 4.8 released 🐹,
 Dive into modern `@ember-data` 🏗️,
 Learn how to overwrite the default transition after authentication 🗝️
@@ -22,6 +23,15 @@ Evolving Ember’s Major Version Process ⭕,
 Announcing the Official TypeScript Types Public Preview 🔥,
 Ember Resources Release 🎉
 
+---
+
+## [Ember Security Releases Blog Post 🔒](https://blog.emberjs.com/ember-4-8-1-released)
+
+Ember.js 3.24.7, 3.28.10, 4.4.4, 4.8.1, and 4.9.0-beta.3 were recently released to patch a security vulnerability for apps that pass untrusted input as paths to `EmberObject.setProperties` or `EmberObject.set`, or the corresponding standalone functions `setProperties` or `set` and may get surprising results that, in combination with other application bugs, could lead to cross-site scripting vulnerabilities.
+
+Head on over to the [blog post](https://blog.emberjs.com/ember-4-8-1-released) to read more about the security patch.
+
+---
 
 ## [Ember 4.8 released 🐹](https://blog.emberjs.com/ember-4-8-released)
 
