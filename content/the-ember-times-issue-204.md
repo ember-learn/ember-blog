@@ -13,14 +13,24 @@ tags:
 
 👋 Emberistas! 🐹
 
+Ember 4.8 released 🐹,
 Dive into modern `@ember-data` 🏗️,
 Learn how to overwrite the default transition after authentication 🗝️
 Deprecation of Ember array prototype extensions 🧹,
 Watch the movies 🎞,
-Evolving Ember’s Major Version Process ⭕
-Announcing the Official TypeScript Types Public Preview 🔥
+Evolving Ember’s Major Version Process ⭕,
+Announcing the Official TypeScript Types Public Preview 🔥,
 Ember Resources Release 🎉
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## [Ember 4.8 released 🐹](https://blog.emberjs.com/ember-4-8-released)
+
+Ember 4.8 was recently released!
+
+This release included 1 new feature for Ember.js that provides an opt-in preview of Ember's official TypesScript types, one bug fix for Ember.js, adds a few new features for EmberCLI and 4 bug fixes for Ember CLI.
+
+Head on over to the [4.8 release blog post](https://blog.emberjs.com/ember-4-8-released) and give it a read today!
 
 ---
 
@@ -29,10 +39,13 @@ Ember Resources Release 🎉
 In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxferresum) will talk about the future of `@ember-data` and how to use it from the perspective of someone that didn’t develop it. In the [first blog post](https://blog.lux.name/2-dive-into-ember-data-1/), [Lukas](https://github.com/luxferresum) will explains how to build your **own** `@ember-data/model` and use the new `@ember-data` APIs: `Schema` and `RecordData`.
 
 ---
+
 <!-- alex ignore simple -->
+
 ## [🗝️ Ember Simple Auth - how to overwrite the default transition after authentication](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication)
 
 <!-- alex ignore simple -->
+
 This blog post by [Sabin Hertanu (@herzzanu)](https://github.com/herzzanu) will cover how to protect your routes, get rid of Ember Simple Auth mixins and how you can overwrite the default transitions defined in Ember Simple Auth. If you are still using the Ember Simple Auth mixins follow the steps in the [blog post](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication) to migrate away from them and get rid of **all** deprecation warnings.
 
 Ember QUnit 6.0.0 Release 🚀
@@ -42,6 +55,7 @@ Ember QUnit 6.0.0 Release 🚀
 ## [Deprecation of Ember array prototype extensions 🧹](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/)
 
 <!-- alex ignore Hang -->
+
 A long-awaited [RFC](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-extensions/) written by [Hang Li (@smilland)](https://github.com/smilland) to deprecate Ember array prototype extensions was recently [merged](https://github.com/emberjs/rfcs/pull/848). Prototype extensions now come [disabled](https://github.com/ember-cli/ember-cli/pull/10017) by default as of ember-cli [v4.9.0-beta.0](https://github.com/ember-cli/ember-cli/releases/tag/v4.9.0-beta.0).
 
 [Santhosh Venkata Rama Siva Thanakala Gani (@tgvrssanthosh)](https://github.com/tgvrssanthosh) has implemented an auto-fixer for the [ember/no-array-prototype-extensions](https://github.com/ember-cli/eslint-plugin-ember/blob/master/docs/rules/no-array-prototype-extensions.md) lint rule which works for all Ember array prototype extensions that do not involve reactivity in [v11.1.0](https://github.com/ember-cli/eslint-plugin-ember/releases/tag/v11.1.0) of [eslint-plugin-ember](https://github.com/ember-cli/eslint-plugin-ember). Try enabling the rule in your codebase and running the autofixer. There's also an auto-fixable [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) version of [no-array-prototype-extensions](https://github.com/ember-template-lint/ember-template-lint/blob/master/docs/rule/no-array-prototype-extensions.md) to try out.
@@ -58,7 +72,7 @@ Last September a group of Emberistas gathered in Paris to enjoy the [latest edit
 
 Starting in the current 4.0 cycle, Ember major versions will be 18 months long, running from the `.0` release up to the `.12` release, and then starting a new major version as outlined in [RFC 0830](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process/). This means that you can expect 5.0 in May 2023, 6.0 in November 2024, 7.0 in May 2026, and so on.
 
-While this is a significant shift in how we think about *major* versions in Ember, there are a lot of things which remain unchanged:
+While this is a significant shift in how we think about _major_ versions in Ember, there are a lot of things which remain unchanged:
 
 - **Our approach to minor releases is not changing.** We will keep releasing on the same steady cadence. Features will be in, or not, based on whether they’re ready.
 - **Our approach to Long Term Support releases is not changing.** That means that every major version will have 3 LTS releases over its life: the `.4`, `.8`, and `.12` releases.
