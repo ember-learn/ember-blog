@@ -13,6 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
+Ember 4.8 released 🐹,
 Dive into modern `@ember-data` 🏗️,
 Learn how to overwrite the default transition after authentication 🗝️
 Deprecation of Ember array prototype extensions 🧹,
@@ -20,6 +21,15 @@ Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕,
 Announcing the Official TypeScript Types Public Preview 🔥,
 Ember Resources Release 🎉
+
+
+## [Ember 4.8 released 🐹](https://blog.emberjs.com/ember-4-8-released)
+
+Ember 4.8 was recently released!
+
+This release included 1 new feature for Ember.js that provides an opt-in preview of Ember's official TypesScript types, one bug fix for Ember.js, adds a few new features for EmberCLI and 4 bug fixes for Ember CLI.
+
+Head on over to the [4.8 release blog post](https://blog.emberjs.com/ember-4-8-released) and give it a read today!
 
 ---
 
