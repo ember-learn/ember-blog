@@ -18,7 +18,7 @@ Ember 4.8 released 🐹,
 prettier-plugin-ember-template-tag released 🙌,
 more-confetti-addon released 🥳,
 Dive into modern `@ember-data` 🏗️,
-Learn how to overwrite the default transition after authentication 🗝️
+Learn how to overwrite the default transition after authentication 🗝️,
 Deprecation of Ember array prototype extensions 🧹,
 Watch the movies 🎞,
 Evolving Ember’s Major Version Process ⭕,
@@ -173,4 +173,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Anne-Greeth Schot-van Herwijnen, Bryan Mishkin, Chris Ng, the crowd and the Learning Team
+Jared Galanis, Anne-Greeth Schot-van Herwijnen, Bryan Mishkin, Chris Ng and the Learning Team
