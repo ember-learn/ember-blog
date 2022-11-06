@@ -41,6 +41,8 @@ Ember 4.8 was recently released!
 
 This release included 1 new feature for Ember.js that provides an opt-in preview of Ember's official TypesScript types, one bug fix for Ember.js, adds a few new features for EmberCLI and 4 bug fixes for Ember CLI.
 
+Ember Data 4.8 was also recently released and includes a number of bug fixes and several new features including preventing backtracking render errors, adding `identifier` data to the `Reference` public API, and enhanced logging options for debugging. The release details can be found [here](https://github.com/emberjs/data/releases/tag/v4.8.2).
+
 Head on over to the [4.8 release blog post](https://blog.emberjs.com/ember-4-8-released) and give it a read today!
 
 ---
