@@ -5,7 +5,7 @@ authors:
   - anne-greeth-schot-van-herwijnen
   - bryan-mishkin
   - chris-ng
-date: 2022-09-04T00:00:00.000Z
+date: 2022-11-06T00:00:00.000Z
 tags:
   - newsletter
   - '2022'
@@ -22,7 +22,6 @@ Evolving Ember’s Major Version Process ⭕,
 Announcing the Official TypeScript Types Public Preview 🔥,
 Ember Resources Release 🎉
 
----
 
 ## [Ember 4.8 released 🐹](https://blog.emberjs.com/ember-4-8-released)
 
@@ -36,7 +35,7 @@ Head on over to the [4.8 release blog post](https://blog.emberjs.com/ember-4-8-r
 
 ## [🏗️ Dive into modern `@ember-data` - part 1](https://blog.lux.name/2-dive-into-ember-data-1/)
 
-In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxferresum) will talk about the future of `@ember-data` and how to use it from the perspective of someone that didn’t develop it. In the [first blog post](https://blog.lux.name/2-dive-into-ember-data-1/), [Lukas](https://github.com/luxferresum) will explains how to build your **own** `@ember-data/model` and use the new `@ember-data` APIs: `Schema` and `RecordData`.
+In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxferresum) talks about the future of `@ember-data` and how to use it from the perspective of someone that didn’t develop it. In the [first blog post](https://blog.lux.name/2-dive-into-ember-data-1/), [Lukas](https://github.com/luxferresum) explains how to build your **own** `@ember-data/model` and use the new `@ember-data` APIs: `Schema` and `RecordData`.
 
 ---
 
@@ -47,8 +46,6 @@ In a series of blog posts, [Lukas Kohler (@luxferrsum)](https://github.com/luxfe
 <!-- alex ignore simple -->
 
 This blog post by [Sabin Hertanu (@herzzanu)](https://github.com/herzzanu) will cover how to protect your routes, get rid of Ember Simple Auth mixins and how you can overwrite the default transitions defined in Ember Simple Auth. If you are still using the Ember Simple Auth mixins follow the steps in the [blog post](https://sabin.dev/ember-simple-auth-how-to-overwrite-the-default-transition-after-authentication) to migrate away from them and get rid of **all** deprecation warnings.
-
-Ember QUnit 6.0.0 Release 🚀
 
 ---
 
@@ -64,7 +61,7 @@ A long-awaited [RFC](https://rfcs.emberjs.com/id/0848-deprecate-array-prototype-
 
 ## [🎞 EmberFest videos are live!](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV)
 
-Last September a group of Emberistas gathered in Paris to enjoy the [latest edition of EmberFest](https://emberfest.eu). The talks of this awesome hybrid event are now live on [YouTube](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV). So if you missed a talk because of timezone struggles, want to watch back your own amazing performance or are interested in the talks in general, go check [**them**](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV) out right now!
+Last September a group of Emberistas gathered in Paris to enjoy the [latest edition of EmberFest](https://emberfest.eu). The talks of this awesome hybrid event are now live on [YouTube](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV). So if you missed a talk because of timezone struggles, want to watch your own amazing performance or are interested in the talks in general, go check [**them**](https://youtube.com/playlist?list=PLN4SpDLOSVkTA8pYgcgKlo5AsQnZ0fiWV) out right now!
 
 ---
 
@@ -96,30 +93,6 @@ Note there is a known issue when using the `@types/ember-data` packages which ar
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 5. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
 ## [Ember Resources Release 🎉](https://twitter.com/nullvoxpopuli/status/1568694246521319424)
 
 [Thomas Gossmann (@gossi)](https://github.com/gossi) together with [NullVoxPopuli (@NullVoxPopuli)](https://github.com/NullVoxPopuli) released a new version of [ember-resources](https://github.com/NullVoxPopuli/ember-resources), an addon that implements the [Resource pattern](https://ember-resources.pages.dev/#what-is-a-resource). The new release starting in [v5.4.0](https://github.com/NullVoxPopuli/ember-resources/releases/tag/v5.4.0) adds the "owner" (app/engine instance) to function-based resources so now resources can access services, or whatever else is in the registry.
@@ -133,18 +106,6 @@ const myResource = resource(({ on, owner }) => {
 ```
 
 Try it out today by [installing](https://ember-resources.pages.dev/#installation) it in your app!
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
