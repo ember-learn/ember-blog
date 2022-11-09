@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 200
 authors:
   - jared-galanis
   - chris-ng
-  - NullVoxPopuli
+  - nullvoxpopuli
   - anne-greeth-schot-van-herwijnen
   - chris-manson
 date: 2022-06-26T00:00:00.000Z
