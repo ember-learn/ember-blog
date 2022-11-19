@@ -1,7 +1,8 @@
 ---
-title: The Ember Times - Issue No. 206
+title: The Ember Times - Issue No. 205
 authors:
   - jared-galanis
+  - bryan-mishkin
 date: 2022-11-20T00:00:00.000Z
 tags:
   - newsletter
@@ -10,19 +11,22 @@ tags:
 
 👋 Emberistas! 🐹
 
+ember-template-lint 5.0 released 🧹,
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [ember-template-lint 5.0.0 released 🧹](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v5.0.0)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+[Version 5.0](https://github.com/ember-template-lint/ember-template-lint/releases/tag/v5.0.0) has been released for [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint), the linter for best practices with Ember handlebars templates.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The key changes include:
+
+- Linting embedded templates by default
+- Adding nearly a dozen rules to the `recommended` config
+- Changing a few rule names and option defaults
+- Dropping support for old versions of Node
 
 ---
 
@@ -136,4 +140,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, and the Learning Team
+Jared Galanis, Bryan Mishkin, and the Learning Team
