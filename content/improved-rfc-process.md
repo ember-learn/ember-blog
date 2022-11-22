@@ -45,6 +45,6 @@ The RFC process is way we design, implement, and shepherd changes and features a
 
 The revised process streamlines and unifies our existing process by bringing it all to one system. It also increases transparency by moving previously closed process to the open on Github.
 
-Learn more about the motivation and detailed specification of this new process by consulting [RFC #617](https://rfcs.emberjs.com/id/0617-rfc-stages/). See an example of the new process as we tried it out to implement this very RFC: [Pull Request to advance RFC #617 to Stage Ready for Release](https://github.com/emberjs/rfcs/pull/836), [Pull request to advance #617 to Stage Released], [Pull Request to advance #617 to Recommended].
+Learn more about the motivation and detailed specification of this new process by consulting [RFC #617](https://rfcs.emberjs.com/id/0617-rfc-stages/). See an example of the new process as we tried it out to implement this very RFC: [Pull Request to advance RFC #617 to Stage Ready for Release](https://github.com/emberjs/rfcs/pull/836), [Pull request to advance #617 to Stage Released](https://github.com/emberjs/rfcs/pull/862), [Pull Request to advance #617 to Recommended](https://github.com/emberjs/rfcs/pull/863).
 
 We are working to back-fill stages to earlier merged RFCs, and that work is one of the criteria for RFC #617 to achieve the Recommended stage.
