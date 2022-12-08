@@ -34,22 +34,21 @@ Ember.js 4.9 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 4.9 introduced 8 bug fixes.
 
-<!-- TODO write this content -->
-#20274 [BUGFIX] Add some missing types to preview types
-#20256 [BUGFIX] Correct types for Ember Arrays
-#20257 [BUGFIX] Fix types for getOwner and GlimmerComponent
-#20233 [BUGFIX] Include package name in deprecation error message
-#20235 [BUGFIX] Update @types/node for TS 4.9 issue
-#20238 [BUGFIX] Update Node.js versions to match support policy
-#20227 [BUGFIX] Fix unsafe internal cast for NativeArray
-#20228 [BUGFIX] Remove type export for ControllerMixin
+[#20274](https://github.com/emberjs/ember.js/pull/20274) - Adds some missing type tests and APIs to preview types.
+[#20256](https://github.com/emberjs/ember.js/pull/20256) - Improve types for Ember Arrays unifying internal array types with external preview types and don't override methods from native JS arrays.
+[#20257](https://github.com/emberjs/ember.js/pull/20257) - Fix types for `getOwner` and `GlimmerComponent`.
+[#20233](https://github.com/emberjs/ember.js/pull/20233/files) - Include package name in deprecation error message rather than hardcoding Ember.
+[#20235](https://github.com/emberjs/ember.js/pull/20235) - Update @types/node and TypeScript to address a TypeScript 4.9 issue.
+[#20238](https://github.com/emberjs/ember.js/pull/20238) - Update Node.js versions to match support policy as support for Node 12 was dropped in Ember 4.6.
+[#20227](https://github.com/emberjs/ember.js/pull/20227) - Fix unsafe internal cast for `NativeArray` making casting from `EmberArray` to `NativeArray` even more explicitly unsafe and for handling a proxy getter flagging the type of `this` may not be exactly `CoreObject`.
+[#20228](https://github.com/emberjs/ember.js/pull/20228) - Remove type export for `ControllerMixin` as the type does not exist to be imported from the location it existed at in the definitions.
 
 #### Features
 
 Ember.js 4.9 introduced 1 feature.
 
-<!-- TODO write this content -->
-#20203 / #20204 [FEATURE] Preview types: Update to Typescript 4.8
+[#20203](https://github.com/emberjs/ember.js/pull/20203) - upgrades TypeScript dependency to use version 4.8.
+[#20204](https://github.com/emberjs/ember.js/pull/20204) - introduces support for testing all supported versions of TypeScript against our types and removes type checking from lint scripts.
 
 #### Deprecations
 
