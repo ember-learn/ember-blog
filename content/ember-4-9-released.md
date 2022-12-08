@@ -68,16 +68,18 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 #### Bug Fixes
 
-<!-- TODO write this content -->
+[#8314](https://github.com/emberjs/data/pull/8314) - Fix build module resolution issues where the tracking package declared exports while v1.
+[#8308](https://github.com/emberjs/data/pull/8308) - Fix tracking package issue by using prepack addon tree for embroider.
+[#8307](https://github.com/emberjs/data/pull/8307) - Fix store issue where calling `deleteRecord` and `destroyRecord` on newly created unsaved records would throw a `stable Identifier to subscribe to` error due to the use of `run`.
+[#8306](https://github.com/emberjs/data/pull/8306) - Fix store issue where using `peekAll` after `destroyRecord` return `invalid length` and records without stable Identifier via ensuring not to skip LiveArray removal if the pending queue is not empty.
 
 #### Features
 
-<!-- TODO write this content -->
+Ember Data 4.9 introduced 0 features.
 
 #### Deprecations
 
-<!-- TODO write this content -->
-
+Ember Data 4.9 introduced 0 deprecations.
 
 ---
 
