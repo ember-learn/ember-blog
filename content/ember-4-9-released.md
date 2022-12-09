@@ -81,6 +81,8 @@ Ember Data 4.9 introduced 0 features.
 
 Ember Data 4.9 introduced 0 deprecations.
 
+For more details on changes in Ember.js 4.9, please review the [Ember Data 4.9.1 release page](https://github.com/emberjs/data/releases/tag/v4.9.1).
+
 ---
 
 ## Ember CLI
@@ -103,16 +105,28 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
-<!-- TODO write this content -->
+Ember CLI 4.9 introduced 2 bug fixes.
+
+[#10018](https://github.com/ember-cli/ember-cli/pull/10018) - Trap unhandled failures rather than resulting in a successful process exit code in Node versions below 16.
+[#10020](https://github.com/ember-cli/ember-cli/pull/10020) - Fix typos in serve command test.
 
 #### Features
 
-<!-- TODO write this content -->
+Ember CLI 4.9 introduced 6 features.
+
+[#10024](https://github.com/ember-cli/ember-cli/pull/10024) - Add ember-source to peerDependencies in addon blueprint.
+[#10025](https://github.com/ember-cli/ember-cli/pull/10025) - Update NPM version constraints to include more recent versions.
+[#10026](https://github.com/ember-cli/ember-cli/pull/10026) - Display info message when running the lint:fix script post blueprint generation.
+[#10053](https://github.com/ember-cli/ember-cli/pull/10053) - Add support for node ES Module syntax addons.
+[#9824](https://github.com/ember-cli/ember-cli/pull/9824) - Add interactive way to create new Ember apps and addons.
+[#9972](https://github.com/ember-cli/ember-cli/pull/9972) - Add support for `--typescript` flag to app and addon blueprints.
 
 #### Deprecations
 
-<!-- TODO write this content -->
+Ember CLI 4.9 introduced 2 deprecations.
 
+[#10017](https://github.com/ember-cli/ember-cli/pull/10017) - Disable prototype extensions by default in app blueprint.
+[#10021](https://github.com/ember-cli/ember-cli/pull/10021) - Drop support for using `usePods: true` and the `--pod` flag simultaneously.
 
 ## Thank You!
 
