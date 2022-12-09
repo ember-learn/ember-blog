@@ -107,7 +107,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 Ember CLI 4.9 introduced 2 bug fixes.
 
-- [#10018](https://github.com/ember-cli/ember-cli/pull/10018) - Trap unhandled failures rather than resulting in a successful process exit code in Node versions below 16.
+- [#10018](https://github.com/ember-cli/ember-cli/pull/10018) - Handle failures rather than resulting in a successful process exit code in Node versions below 16.
 - [#10020](https://github.com/ember-cli/ember-cli/pull/10020) - Fix typos in serve command test.
 
 #### Features
