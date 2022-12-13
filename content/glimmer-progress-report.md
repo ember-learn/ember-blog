@@ -41,8 +41,8 @@ One of the themes we discussed in our keynote was a new focus on _unlocking
 experimentation_, that is, allowing people to easily try out and share unproven
 ideas on top of the stable Ember core.
 
-Unlocking experimentation doesn't just allow for <span style="font-style: italic;">more</span> ideas; it also leads to
-<span style="font-style: italic;">better</span> ideas, because you can try things without worrying about breaking
+Unlocking experimentation doesn't just allow for _more_ ideas; it also leads to
+_better_ ideas, because you can try things without worrying about breaking
 changes. With Glimmer.js, we wanted to eat our own experimental dogfood.
 
 We've wanted to overhaul the component API in Ember for some time now. But
