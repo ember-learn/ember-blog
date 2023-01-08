@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 205
 authors:
   - jared-galanis
   - bryan-mishkin
+  - anne-greeth-schot-van-herwijnen
 date: 2022-11-20T00:00:00.000Z
 tags:
   - newsletter
@@ -11,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹,
+ember-template-lint 5.0 released 🧹, EmberConf News 🎤,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -30,15 +31,9 @@ The key changes include:
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [🎤 EmberConf News]
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+We know everyone is getting excited about EmberConf and you might be wondering when it's coming. We are working on getting our ducks in a row. After three years of virtual EmberConf we're working out a way to match everybodies expectations around a possible hybrid conference. In the mean time you can of course keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happend in March, but this time it will be later in the year. Hope to see you there!
 
 ---
 
@@ -140,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Bryan Mishkin, and the Learning Team
+Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen and the Learning Team
