@@ -4,6 +4,7 @@ authors:
   - jared-galanis
   - bryan-mishkin
   - anne-greeth-schot-van-herwijnen
+  - chris-ng
 date: 2022-11-20T00:00:00.000Z
 tags:
   - newsletter
@@ -83,15 +84,11 @@ Want to help get Ember’s official TS support out the door? [RFC 800](https://r
 
 ---
 
-## [🐹 8. Section title in sentence case](section-url)
+## [▶️ Wacky Tricks We Use in Publishing TypeScript Types](https://www.youtube.com/watch?v=VuF3GY-Ho-s)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+In this [YouTube video](https://www.youtube.com/watch?v=VuF3GY-Ho-s), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Asa Kusuma (@asakusuma)](https://github.com/asakusuma) discussed how we are publishing TypeScript types for Ember. Chris discusses how it is difficult for TypeScript to resolve types for [ember-source](https://www.npmjs.com/package/ember-source) given the public API for Ember is usually not imported directly from `ember-source` but from packages such as `@ember/utils` or `@ember/object`. Learn more by watching the full video on [YouTube](https://www.youtube.com/watch?v=VuF3GY-Ho-s) where “despite all the shenanigans” we are able to get Ember’s type to be “stable” and publish from Ember’s own TS source code.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Do you want to contribute to help get Ember’s [official TypeScript support](https://rfcs.emberjs.com/id/0800-ts-adoption-plan/) out the door? Check out this [quest issue](https://github.com/emberjs/ember.js/issues/20162) on GitHub and sign up for a task!
 
 ---
 
@@ -121,4 +118,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen and the Learning Team
+Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen, Chris Ng, and the Learning Team
