@@ -41,20 +41,20 @@ We know everyone is getting excited about EmberConf and you might be wondering w
 
 ## ✨ The new addons in the block
 
-* [ember-blur](https://ember-blur.netlify.app/) - [Geordan Neukum (@geneukum)](https://github.com/geneukum) provides us an Ember modifier that allows you to blur an element dynamically.
-* [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
+- [ember-blur](https://ember-blur.netlify.app/) - [Geordan Neukum (@geneukum)](https://github.com/geneukum) provides us an Ember modifier that allows you to blur an element dynamically.
+- [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
 <!-- alex ignore simple -->
-* [ember-metrics-simple-analytics](https://github.com/mrloop/ember-metrics-simple-analytics) - [Ewan McDougall (@mrloop)](https://github.com/mrloop) released the first version of this ember-metrics adapter for [Simple Analytics](https://simpleanalytics.com/).
+- [ember-metrics-simple-analytics](https://github.com/mrloop/ember-metrics-simple-analytics) - [Ewan McDougall (@mrloop)](https://github.com/mrloop) released the first version of this ember-metrics adapter for [Simple Analytics](https://simpleanalytics.com/).
 
 ---
 
 ## 📬 Addon updates
 
-* [ember-model-validator v4.4.0](https://github.com/esbanarango/ember-model-validator/releases/tag/v4.4.0) is now fully compatible with EmberJS 4.0+, the latest ember-data and adds Typescript support.
-* [ember-container-query v3.2.0](https://github.com/ijlee2/ember-container-query/releases) now supports Glint users. The PR commits ([#140](https://github.com/ijlee2/ember-container-query/pull/140/commits) & [#141](https://github.com/ijlee2/ember-container-query/pull/141/commits)) serve as a learning material along the [offical documentation](https://typed-ember.gitbook.io/glint/).
-* [ember-test-helpers v2.9.3](https://github.com/emberjs/ember-test-helpers/releases/tag/v2.9.3) brings you TS support, performance improvements, bug fixes and documentation improvements.
-* [ember-user-activity v7.0.0](https://github.com/elwayman02/ember-user-activity) adds EmberJS 4.0+ support thanks to [Ewan McDougall (@mrloop)](https://github.com/mrloop) helping with the maintainance.
-* [ember-scroll-modifiers v5.0.0](https://github.com/elwayman02/ember-scroll-modifiers) supports Ember 4.9, is fully migrated to the [ember-modifier v4 API](https://github.com/ember-modifier/ember-modifier), and adds a new feature for specifying a nested scroll container target for the scroll-into-view modifier.
+- [ember-model-validator v4.4.0](https://github.com/esbanarango/ember-model-validator/releases/tag/v4.4.0) is now fully compatible with EmberJS 4.0+, the latest ember-data and adds Typescript support.
+- [ember-container-query v3.2.0](https://github.com/ijlee2/ember-container-query/releases) now supports Glint users. The PR commits ([#140](https://github.com/ijlee2/ember-container-query/pull/140/commits) & [#141](https://github.com/ijlee2/ember-container-query/pull/141/commits)) serve as a learning material along the [offical documentation](https://typed-ember.gitbook.io/glint/).
+- [ember-test-helpers v2.9.3](https://github.com/emberjs/ember-test-helpers/releases/tag/v2.9.3) brings you TS support, performance improvements, bug fixes and documentation improvements.
+- [ember-user-activity v7.0.0](https://github.com/elwayman02/ember-user-activity) adds EmberJS 4.0+ support thanks to [Ewan McDougall (@mrloop)](https://github.com/mrloop) helping with the maintainance.
+- [ember-scroll-modifiers v5.0.0](https://github.com/elwayman02/ember-scroll-modifiers) supports Ember 4.9, is fully migrated to the [ember-modifier v4 API](https://github.com/ember-modifier/ember-modifier), and adds a new feature for specifying a nested scroll container target for the scroll-into-view modifier.
 
 ---
 
