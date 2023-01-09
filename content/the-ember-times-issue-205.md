@@ -35,14 +35,15 @@ The key changes include:
 
 ## 🎤 EmberConf News
 
-We know everyone is getting excited about EmberConf and you might be wondering when it's coming. We are working on getting our ducks in a row. After three years of virtual EmberConf we're working out a way to match everybodies expectations around a possible hybrid conference. In the mean time you can of course keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happend in March, but this time it will be later in the year. Hope to see you there!
+We know everyone is getting excited about EmberConf and you might be wondering when it's coming. We are working on getting our ducks in a row. After three years of virtual EmberConf we're working out a way to match everybodies expectations around a possible hybrid conference. In the mean time you can definitely keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happend in March, but this time it will be later in the year. Hope to see you there!
 
 ---
 
 ## ✨ The new addons in the block
 
 * [ember-blur](https://ember-blur.netlify.app/) - [Geordan Neukum (@geneukum)](https://github.com/geneukum) provides us an Ember modifier that allows you to blur an element dynamically.
-* [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to easily create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
+* [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
+<!-- alex ignore simple -->
 * [ember-metrics-simple-analytics](https://github.com/mrloop/ember-metrics-simple-analytics) - [Ewan McDougall (@mrloop)](https://github.com/mrloop) released the first version of this ember-metrics adapter for [Simple Analytics](https://simpleanalytics.com/).
 
 ---
