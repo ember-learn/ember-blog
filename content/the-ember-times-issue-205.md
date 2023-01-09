@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨,
+ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS suppor in Ember 📦,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -57,31 +57,22 @@ We know everyone is getting excited about EmberConf and you might be wondering w
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [🐹 Ember 4.0: What is blocking you?](https://docs.google.com/forms/d/e/1FAIpQLSd6EB519gLpH_bpDRrOUQkHH1kJcqqdbRA6c_-vGTUq6L7QHQ/viewform)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Ember 4.0 has been around for a bit now and we would love to know what is keeping you from upgrading. Fill in this [short survey](https://docs.google.com/forms/d/e/1FAIpQLSd6EB519gLpH_bpDRrOUQkHH1kJcqqdbRA6c_-vGTUq6L7QHQ/viewform) so that we might be able to improve the experience.
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [📦 We need you for TypeScript support!](https://github.com/emberjs/ember.js/issues/20162 )
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Want to help get Ember’s official TS support out the door? [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan) describes the Typescript adoption plan and you can [sign up](https://github.com/emberjs/ember.js/issues/20162) to help with issues all across our codebase! You can always check the [`#topic-typesscript` channel](https://discord.com/channels/480462759797063690/484421406659182603) on our [Discord server](https://discord.gg/emberjs).
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [🚀 Accelerating Code Delivery By 97% With Yarn Workspaces](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces)
+
+[Jordan Hawker (@elwayman02)](https://github.com/elwayman02) details in this [blogpost](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) how they moved to Yarn Workspaces and how it improved the lead time for delivering commits to their deployment pipeline, from 39 hours to 125 mins. Yarn workspaces enabled the evolution of the application architecture without sacrificing the benefits of their previous multi-repo strategy. This [post](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) will give you insight to see if this solution might benefit you.
+> "While one approach may serve well at a given point in time, there is no one-size-fits-all solution." 
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
