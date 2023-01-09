@@ -35,25 +35,26 @@ The key changes include:
 
 ## 🎤 EmberConf News
 
-We know everyone is getting excited about EmberConf and you might be wondering when it's coming. We are working on getting our ducks in a row. After three years of virtual EmberConf we're working out a way to match everybodies expectations around a possible hybrid conference. In the mean time you can of course keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happend in March, but this time it will be later in the year. Hope to see you there!
+We know everyone is getting excited about EmberConf and you might be wondering when it's coming. We are working on getting our ducks in a row. After three years of virtual EmberConf we're working out a way to match everybodies expectations around a possible hybrid conference. In the mean time you can definitely keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happend in March, but this time it will be later in the year. Hope to see you there!
 
 ---
 
 ## ✨ The new addons in the block
 
-* [ember-blur](https://ember-blur.netlify.app/) - [Geordan Neukum (@geneukum)](https://github.com/geneukum) provides us an Ember modifier that allows you to blur an element dynamically.
-* [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to easily create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
-* [ember-metrics-simple-analytics](https://github.com/mrloop/ember-metrics-simple-analytics) - [Ewan McDougall (@mrloop)](https://github.com/mrloop) released the first version of this ember-metrics adapter for [Simple Analytics](https://simpleanalytics.com/).
+- [ember-blur](https://ember-blur.netlify.app/) - [Geordan Neukum (@geneukum)](https://github.com/geneukum) provides us an Ember modifier that allows you to blur an element dynamically.
+- [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
+<!-- alex ignore simple -->
+- [ember-metrics-simple-analytics](https://github.com/mrloop/ember-metrics-simple-analytics) - [Ewan McDougall (@mrloop)](https://github.com/mrloop) released the first version of this ember-metrics adapter for [Simple Analytics](https://simpleanalytics.com/).
 
 ---
 
 ## 📬 Addon updates
 
-* [ember-model-validator v4.4.0](https://github.com/esbanarango/ember-model-validator/releases/tag/v4.4.0) is now fully compatible with EmberJS 4.0+, the latest ember-data and adds Typescript support.
-* [ember-container-query v3.2.0](https://github.com/ijlee2/ember-container-query/releases) now supports Glint users. The PR commits ([#140](https://github.com/ijlee2/ember-container-query/pull/140/commits) & [#141](https://github.com/ijlee2/ember-container-query/pull/141/commits)) serve as a learning material along the [offical documentation](https://typed-ember.gitbook.io/glint/).
-* [ember-test-helpers v2.9.3](https://github.com/emberjs/ember-test-helpers/releases/tag/v2.9.3) brings you TS support, performance improvements, bug fixes and documentation improvements.
-* [ember-user-activity v7.0.0](https://github.com/elwayman02/ember-user-activity) adds EmberJS 4.0+ support thanks to [Ewan McDougall (@mrloop)](https://github.com/mrloop) helping with the maintainance.
-* [ember-scroll-modifiers v5.0.0](https://github.com/elwayman02/ember-scroll-modifiers) supports Ember 4.9, is fully migrated to the [ember-modifier v4 API](https://github.com/ember-modifier/ember-modifier), and adds a new feature for specifying a nested scroll container target for the scroll-into-view modifier.
+- [ember-model-validator v4.4.0](https://github.com/esbanarango/ember-model-validator/releases/tag/v4.4.0) is now fully compatible with EmberJS 4.0+, the latest ember-data and adds Typescript support.
+- [ember-container-query v3.2.0](https://github.com/ijlee2/ember-container-query/releases) now supports Glint users. The PR commits ([#140](https://github.com/ijlee2/ember-container-query/pull/140/commits) & [#141](https://github.com/ijlee2/ember-container-query/pull/141/commits)) serve as a learning material along the [offical documentation](https://typed-ember.gitbook.io/glint/).
+- [ember-test-helpers v2.9.3](https://github.com/emberjs/ember-test-helpers/releases/tag/v2.9.3) brings you TS support, performance improvements, bug fixes and documentation improvements.
+- [ember-user-activity v7.0.0](https://github.com/elwayman02/ember-user-activity) adds EmberJS 4.0+ support thanks to [Ewan McDougall (@mrloop)](https://github.com/mrloop) helping with the maintainance.
+- [ember-scroll-modifiers v5.0.0](https://github.com/elwayman02/ember-scroll-modifiers) supports Ember 4.9, is fully migrated to the [ember-modifier v4 API](https://github.com/ember-modifier/ember-modifier), and adds a new feature for specifying a nested scroll container target for the scroll-into-view modifier.
 
 ---
 
@@ -72,7 +73,7 @@ Want to help get Ember’s official TS support out the door? [RFC 800](https://r
 ## [🚀 Accelerating Code Delivery By 97% With Yarn Workspaces](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces)
 
 [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) details in this [blogpost](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) how they moved to Yarn Workspaces and how it improved the lead time for delivering commits to their deployment pipeline, from 39 hours to 125 mins. Yarn workspaces enabled the evolution of the application architecture without sacrificing the benefits of their previous multi-repo strategy. This [post](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) will give you insight to see if this solution might benefit you.
-> "While one approach may serve well at a given point in time, there is no one-size-fits-all solution." 
+> "While one approach may serve well at a given point in time, there is no one-size-fits-all solution."
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
