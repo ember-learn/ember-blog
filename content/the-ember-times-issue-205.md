@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨,
+ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, updated addons 📬,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -45,15 +45,13 @@ We know everyone is getting excited about EmberConf and you might be wondering w
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## 📬 Addon updates
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+* [ember-model-validator v4.4.0](https://github.com/esbanarango/ember-model-validator/releases/tag/v4.4.0) is now fully compatible with EmberJS 4.0+, the latest ember-data and adds Typescript support.
+* [ember-container-query v3.2.0](https://github.com/ijlee2/ember-container-query/releases) now supports Glint users. The PR commits ([#140](https://github.com/ijlee2/ember-container-query/pull/140/commits) & [#141](https://github.com/ijlee2/ember-container-query/pull/1401/commits)) serve as a learning material along the [offical documentation](https://typed-ember.gitbook.io/glint/).
+* [ember-test-helpers v2.9.3](https://github.com/emberjs/ember-test-helpers/releases/tag/v2.9.3) brings you TS support, performance improvements, bug fixes and documentation improvements.
+* [ember-user-activity v7.0.0](https://github.com/elwayman02/ember-user-activity) adds EmberJS 4.0+ support thanks to [Ewan McDougall (@mrloop)](https://github.com/mrloop) helping with the maintainance.
+* [ember-scroll-modifiers v5.0.0](https://github.com/elwayman02/ember-scroll-modifiers) supports Ember 4.9, is fully migrated to the [ember-modifier v4 API](https://github.com/ember-modifier/ember-modifier), and adds a new feature for specifying a nested scroll container target for the scroll-into-view modifier.
 
 ---
 
