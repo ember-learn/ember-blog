@@ -73,7 +73,7 @@ Want to help get Ember’s official TS support out the door? [RFC 800](https://r
 ## [🚀 Accelerating Code Delivery By 97% With Yarn Workspaces](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces)
 
 [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) details in this [blogpost](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) how they moved to Yarn Workspaces and how it improved the lead time for delivering commits to their deployment pipeline, from 39 hours to 125 mins. Yarn workspaces enabled the evolution of the application architecture without sacrificing the benefits of their previous multi-repo strategy. This [post](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) will give you insight to see if this solution might benefit you.
-> "While one approach may serve well at a given point in time, there is no one-size-fits-all solution." 
+> "While one approach may serve well at a given point in time, there is no one-size-fits-all solution."
 
 <change section title emoji>
 <consider adding some bold to your paragraph>
