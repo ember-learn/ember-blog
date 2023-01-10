@@ -35,7 +35,7 @@ The key changes include:
 
 ## 🎤 EmberConf News
 
-We know everyone is getting excited about EmberConf and you might be wondering when it's coming. We are working on getting our ducks in a row. After three years of virtual EmberConf we're working out a way to match everybodies expectations around a possible hybrid conference. In the mean time you can definitely keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happend in March, but this time it will be later in the year. Hope to see you there!
+We know folks are getting excited about EmberConf, and might be wondering when it's happening. Currently, we're still getting our ducks in a row. After three years of virtual EmberConf, we're working out a way to match everybody's expectations around a possible hybrid conference. In the mean time, you can definitely keep working on those proposals and we’ll release more details as soon as we can. Historically EmberConf has happened in March, but this time it will be later in the year. Hope to see you there!
 
 ---
 
