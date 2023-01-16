@@ -13,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS suppor in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️,
+ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS support in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️,
 
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
