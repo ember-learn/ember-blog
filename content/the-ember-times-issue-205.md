@@ -39,7 +39,7 @@ We know folks are getting excited about EmberConf and might be wondering when it
 
 ---
 
-## ✨ The new addons in the block
+## ✨ The new addons on the block
 
 - [ember-blur](https://ember-blur.netlify.app/) - [Geordan Neukum (@geneukum)](https://github.com/geneukum) provides us an Ember modifier that allows you to blur an element dynamically.
 - [ember-tsparticles](https://github.com/IgnaceMaes/ember-tsparticles) - [Ignace Maes (@IgnaceMaes)](https://github.com/IgnaceMaes) made this addon that creates an Ember.js component for using tsParticles. This allows you to create highly customizable JavaScript particles effects, confetti explosions and fireworks animations and use them as animated backgrounds for your website.
