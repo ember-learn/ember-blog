@@ -67,7 +67,7 @@ Ember 4.0 has been around for a bit now and we would love to know what is keepin
 
 ## [📦 We need you for TypeScript support!](https://github.com/emberjs/ember.js/issues/20162 )
 
-Want to help get Ember’s official TS support out the door? [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan) describes the Typescript adoption plan and you can [sign up](https://github.com/emberjs/ember.js/issues/20162) to help with issues all across our codebase! You can always check the [`#topic-typesscript` channel](https://discord.com/channels/480462759797063690/484421406659182603) on our [Discord server](https://discord.gg/emberjs).
+Want to help get Ember’s official TS support out the door? [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan) describes the Typescript adoption plan and you can [sign up](https://github.com/emberjs/ember.js/issues/20162) to help with issues all across our codebase! You can always check the [`#topic-typescript` channel](https://discord.com/channels/480462759797063690/484421406659182603) on our [Discord server](https://discord.gg/emberjs).
 
 ---
 
