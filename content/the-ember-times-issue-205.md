@@ -5,6 +5,7 @@ authors:
   - bryan-mishkin
   - anne-greeth-schot-van-herwijnen
   - chris-ng
+  - isaac-lee
 date: 2022-11-20T00:00:00.000Z
 tags:
   - newsletter
@@ -13,7 +14,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS support in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️,
+ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS support in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️, a new codemod to migrate addons to v2 format 📣
 
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
@@ -93,6 +94,20 @@ Do you want to contribute to help get Ember’s [official TypeScript support](ht
 
 ---
 
+## [📣 A new codemod to migrate addons to v2 format](https://github.com/ijlee2/ember-codemod-v1-to-v2)
+
+With one command, you can get started with migrating Ember addons to v2 format:
+
+```sh
+npx ember-codemod-v1-to-v2
+```
+
+[ember-codemod-v1-to-v2](https://github.com/ijlee2/ember-codemod-v1-to-v2) helps you meet the latest standards set by [@embroider/addon-blueprint](https://github.com/embroider-build/addon-blueprint). The codemod takes care of moving files and updating references to the moved files, while you remain in charge of re-configuring the packages.
+
+[Isaac Lee (@ijlee2)](https://github.com/ijlee2) hopes that `ember-codemod-v1-to-v2`, along with [ember-addon-migrator](https://github.com/NullVoxPopuli/ember-addon-migrator), can help you push Embroider forward. Check out [ember-container-query](https://github.com/ijlee2/ember-container-query/pull/151) for a real-life example.
+
+---
+
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
 <p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
@@ -119,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen, Chris Ng, and the Learning Team
+Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen, Chris Ng, Isaac Lee and the Learning Team
