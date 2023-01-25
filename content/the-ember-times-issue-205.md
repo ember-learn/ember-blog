@@ -5,6 +5,7 @@ authors:
   - bryan-mishkin
   - anne-greeth-schot-van-herwijnen
   - chris-ng
+  - isaac-lee
 date: 2022-11-20T00:00:00.000Z
 tags:
   - newsletter
@@ -13,7 +14,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS support in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️,
+ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS support in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️, a new codemod to migrate addons to v2 format 📣
 
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
@@ -66,7 +67,7 @@ Ember 4.0 has been around for a bit now and we would love to know what is keepin
 
 ## [📦 We need you for TypeScript support!](https://github.com/emberjs/ember.js/issues/20162 )
 
-Want to help get Ember’s official TS support out the door? [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan) describes the Typescript adoption plan and you can [sign up](https://github.com/emberjs/ember.js/issues/20162) to help with issues all across our codebase! You can always check the [`#topic-typesscript` channel](https://discord.com/channels/480462759797063690/484421406659182603) on our [Discord server](https://discord.gg/emberjs).
+Want to help get Ember’s official TS support out the door? [RFC 800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan) describes the Typescript adoption plan and you can [sign up](https://github.com/emberjs/ember.js/issues/20162) to help with issues all across our codebase! You can always check the [`#topic-typescript` channel](https://discord.com/channels/480462759797063690/484421406659182603) on our [Discord server](https://discord.gg/emberjs).
 
 ---
 
@@ -90,6 +91,20 @@ Want to help get Ember’s official TS support out the door? [RFC 800](https://r
 In this [YouTube video](https://www.youtube.com/watch?v=VuF3GY-Ho-s), [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Asa Kusuma (@asakusuma)](https://github.com/asakusuma) discussed how we are publishing TypeScript types for Ember. Chris discusses how it is difficult for TypeScript to resolve types for [ember-source](https://www.npmjs.com/package/ember-source) given the public API for Ember is usually not imported directly from `ember-source` but from packages such as `@ember/utils` or `@ember/object`. Learn more by watching the full video on [YouTube](https://www.youtube.com/watch?v=VuF3GY-Ho-s) where “despite all the shenanigans” we are able to get Ember’s type to be “stable” and publish from Ember’s own TS source code.
 
 Do you want to contribute to help get Ember’s [official TypeScript support](https://rfcs.emberjs.com/id/0800-ts-adoption-plan/) out the door? Check out this [quest issue](https://github.com/emberjs/ember.js/issues/20162) on GitHub and sign up for a task!
+
+---
+
+## [📣 A new codemod to migrate addons to v2 format](https://github.com/ijlee2/ember-codemod-v1-to-v2)
+
+With one command, you can get started with migrating Ember addons to v2 format:
+
+```sh
+npx ember-codemod-v1-to-v2
+```
+
+[ember-codemod-v1-to-v2](https://github.com/ijlee2/ember-codemod-v1-to-v2) helps you meet the latest standards set by [@embroider/addon-blueprint](https://github.com/embroider-build/addon-blueprint). The codemod takes care of moving files and updating references to the moved files, while you remain in charge of re-configuring the packages.
+
+[Isaac Lee (@ijlee2)](https://github.com/ijlee2) hopes that `ember-codemod-v1-to-v2`, along with [ember-addon-migrator](https://github.com/NullVoxPopuli/ember-addon-migrator), can help you push Embroider forward. Check out [ember-container-query](https://github.com/ijlee2/ember-container-query/pull/151) for a real-life example.
 
 ---
 
@@ -119,4 +134,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen, Chris Ng, and the Learning Team
+Jared Galanis, Bryan Mishkin, Anne-Greeth Schot-van Herwijnen, Chris Ng, Isaac Lee and the Learning Team
