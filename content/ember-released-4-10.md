@@ -39,9 +39,11 @@ Ember.js 4.10 introduced 2 bug fixes.
 
 #### Features
 
-Ember.js 4.10 introduced 1 features.
+Ember.js 4.10 introduced 3 features.
 
 - [#20270](https://github.com/emberjs/ember.js/pull/20270) / [#20271](https://github.com/emberjs/ember.js/pull/20271) - Add new imports for `getOwner` and `setOwner` from `@ember/owner` and introduce new `@ember/routing` sub-modules
+- [#20253](https://github.com/emberjs/ember.js/pull/20253) - Add the `Resolver` type to preview types
+- [#20319](https://github.com/emberjs/ember.js/pull/20319) - resolve services with `Owner.lookup`
 
 #### Deprecations
 
@@ -50,14 +52,6 @@ Ember.js 4.10 introduced 3 deprecations.
 - [#20341](https://github.com/emberjs/ember.js/pull/20341) - Deprecations for importing `htmlSafe` and `isHTMLSafe` from `@ember/string`. They have moved to `@ember/template`
 - [#20344](https://github.com/emberjs/ember.js/pull/20344) - Deprecate `@ember/string` when used from ember-source. You should use the `@ember/string`-addon
 - [#20342](https://github.com/emberjs/ember.js/pull/20342) - Deprecate @ember/error
-
-#### Types
-
-Ember.js 4.10 introduced 2 types.
-
-- [#20253](https://github.com/emberjs/ember.js/pull/20253) - Add the `Resolver` type to preview types
-- [#20319](https://github.com/emberjs/ember.js/pull/20319) - resolve services with `Owner.lookup`
-
 <!-- Block end -->
 
 For more details on changes in Ember.js 4.10, please review the [Ember.js 4.10.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.10.0).
@@ -114,7 +108,13 @@ Ember CLI 4.10 introduced 0 bug fixes.
 
 #### Features
 
-Ember CLI 4.10 introduced 0 features.
+Ember CLI 4.10 introduced 5 features.
+
+- [#10048](https://github.com/ember-cli/ember-cli/pull/10048) Make addAddonsToProject support creating a new project with custom target directory
+- [#10054](https://github.com/ember-cli/ember-cli/pull/10054) Conditionally apply ESLint parser options in `app` and `addon` blueprints
+- [#10060](https://github.com/ember-cli/ember-cli/pull/10060) Replace `eslint-plugin-node` with `eslint-plugin-n` in blueprints
+- [#10062](https://github.com/ember-cli/ember-cli/pull/10062) Update Prettier config in blueprints to only use single quotes for `.js` and `.ts` files
+- [#10132](https://github.com/ember-cli/ember-cli/pull/10132) Add @ember/string as a dependency of projects
 
 #### Deprecations
 
