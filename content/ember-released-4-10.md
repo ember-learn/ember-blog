@@ -64,23 +64,9 @@ Ember Data is the official data persistence library for Ember.js applications.
 
 ### Changes in Ember Data 4.10
 
-#### Bug Fixes
+Due to low availability for the Ember Data team this cycle, Ember Data does not have a new release, so it remains at 4.9.
 
-Ember Data 4.10 introduced 0 bug fixes and some tests and documentation improvements.
-
-#### Features
-
-Ember Data 4.10 introduced 0 features.
-
-#### Deprecations
-
-Ember Data 4.10 introduced 0 deprecations.
-
-Support for the `toJSON` method on Ember Data records has been removed. It was deprecated in `3.x` and slated for removal in `4.x`.
-If your app uses this method, follow the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_record-toJSON).
-
-For more details on changes in Ember Data 4.10, please review the
-[Ember Data 4.10.0 commits](https://github.com/emberjs/data/compare/v4.1.0...v4.10.0).
+Please see the [Ember 4.0 release blog post](https://blog.emberjs.com/ember-4-9-released) for details about v4.9 of Ember Data.
 
 ---
 
