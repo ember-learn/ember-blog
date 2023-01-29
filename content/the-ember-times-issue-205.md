@@ -6,18 +6,33 @@ authors:
   - anne-greeth-schot-van-herwijnen
   - chris-ng
   - isaac-lee
-date: 2022-11-20T00:00:00.000Z
+date: 2023-01-29T00:00:00.000Z
 tags:
   - newsletter
-  - '2022'
+  - '2023'
 ---
 
 👋 Emberistas! 🐹
 
-ember-template-lint 5.0 released 🧹, EmberConf News 🎤, new addons ✨, Ember 4.0+ upgrade survey 🐹, call for support with TS support in Ember 📦, updated addons 📬, Wacky Tricks We Use in Publishing TypeScript Types ▶️, a new codemod to migrate addons to v2 format 📣
+Ember 4.8 released 🐹,
+ember-template-lint 5.0 released 🧹,
+EmberConf News 🎤,
+new addons ✨,
+Ember 4.0+ upgrade survey 🐹,
+call for support with TS support in Ember 📦,
+updated addons 📬,
+Wacky Tricks We Use in Publishing TypeScript Types ▶️,
+a new codemod to migrate addons to v2 format 📣
 
+---
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+## [Ember 4.10 released 🐹](https://blog.emberjs.com/ember-released-4-10)
+
+Ember 4.10 was recently released!
+
+This release included several new features for Ember.js including the introduction of the `@ember/owner` package as specified in the [API for Type-Only Imports RFC](https://rfcs.emberjs.com/id/0821-public-types/), 2 bug fixes for Ember.js and several deprecations. The release also includes 5 new features for Ember CLI.
+
+Head on over to the [4.10 release blog post](https://blog.emberjs.com/ember-released-4-10) and give it a read today!
 
 ---
 
@@ -76,14 +91,6 @@ Want to help get Ember’s official TS support out the door? [RFC 800](https://r
 [Jordan Hawker (@elwayman02)](https://github.com/elwayman02) details in this [blogpost](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) how they moved to Yarn Workspaces and how it improved the lead time for delivering commits to their deployment pipeline, from 39 hours to 125 mins. Yarn workspaces enabled the evolution of the application architecture without sacrificing the benefits of their previous multi-repo strategy. This [post](https://engineering.linkedin.com/blog/2022/accelerating-code-delivery-by-97--with-yarn-workspaces) will give you insight to see if this solution might benefit you.
 > "While one approach may serve well at a given point in time, there is no one-size-fits-all solution."
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
 ---
 
 ## [▶️ Wacky Tricks We Use in Publishing TypeScript Types](https://www.youtube.com/watch?v=VuF3GY-Ho-s)
@@ -110,7 +117,7 @@ npx ember-codemod-v1-to-v2
 
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/SkoebaSteve" rel="noopener noreferrer" target="_blank">Steef Janssen (@SkoebaSteve)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/jiangzj1008" rel="noopener noreferrer" target="_blank">@jiangzj1008</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/Windvis" rel="noopener noreferrer" target="_blank">Sam Van Campenhout (@Windvis)</a>, <a href="https://github.com/rwjblue" rel="noopener noreferrer" target="_blank">Robert Jackson (@rwjblue)</a>, <a href="https://github.com/geneukum" rel="noopener noreferrer" target="_blank">Geordan Neukum (@geneukum)</a>, <a href="https://github.com/arafatiqbal" rel="noopener noreferrer" target="_blank">Arafat Iqbal (@arafatiqbal)</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/hjdivad" rel="noopener noreferrer" target="_blank">David J. Hamilton (@hjdivad)</a>, <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/mikrostew" rel="noopener noreferrer" target="_blank">Michael Stewart (@mikrostew)</a>, <a href="https://github.com/emberjs-rfcs-bot" rel="noopener noreferrer" target="_blank">@emberjs-rfcs-bot</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/dknutsen" rel="noopener noreferrer" target="_blank">Dan Knutsen (@dknutsen)</a>, <a href="https://github.com/candunaj" rel="noopener noreferrer" target="_blank">Stanislav Dunajcan (@candunaj)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/gitKrystan" rel="noopener noreferrer" target="_blank">Krystan HuffMenne (@gitKrystan)</a>, <a href="https://github.com/tniezurawski" rel="noopener noreferrer" target="_blank">Tomek Nieżurawski (@tniezurawski)</a>, <a href="https://github.com/rpemberton" rel="noopener noreferrer" target="_blank">rpemberton (@rpemberton)</a>, <a href="https://github.com/BoussonKarel" rel="noopener noreferrer" target="_blank">@BoussonKarel</a>, <a href="https://github.com/olenderhub" rel="noopener noreferrer" target="_blank">Hubert Olender (@olenderhub)</a>, <a href="https://github.com/joancc" rel="noopener noreferrer" target="_blank">Joan Cejudo (@joancc)</a>, <a href="https://github.com/rwwagner90" rel="noopener noreferrer" target="_blank">Robert Wagner (@rwwagner90)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/canrozanes" rel="noopener noreferrer" target="_blank">Can Rozanes (@canrozanes)</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/mkszepp" rel="noopener noreferrer" target="_blank">@mkszepp</a>, <a href="https://github.com/leoeuclids" rel="noopener noreferrer" target="_blank">Leo Euclides (@leoeuclids)</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/boris-petrov" rel="noopener noreferrer" target="_blank">Boris Petrov (@boris-petrov)</a>, <a href="https://github.com/fivetanley" rel="noopener noreferrer" target="_blank">Stanley Stuart (@fivetanley)</a>, <a href="https://github.com/jelhan" rel="noopener noreferrer" target="_blank">Jeldrik Hanschke (@jelhan)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/charlesfries" rel="noopener noreferrer" target="_blank">Charles Fries (@charlesfries)</a>, <a href="https://github.com/bmish" rel="noopener noreferrer" target="_blank">Bryan Mishkin (@bmish)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth Schot-van Herwijnen (@MinThaMie)</a>, and <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
