@@ -14,7 +14,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-Ember 4.8 released 🐹,
+Ember 4.10 released 🐹,
 ember-template-lint 5.0 released 🧹,
 EmberConf News 🎤,
 New addons ✨,
