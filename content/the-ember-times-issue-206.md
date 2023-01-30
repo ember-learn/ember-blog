@@ -1,8 +1,8 @@
 ---
-title: The Ember Times - Issue No. XXS
+title: The Ember Times - Issue No. 206
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2022-XX-XXT00:00:00.000Z
+date: 2022-02-11T00:00:00.000Z
 tags:
   - newsletter
   - '2023'
