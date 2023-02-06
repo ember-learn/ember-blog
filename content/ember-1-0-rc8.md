@@ -352,7 +352,7 @@ cat.get('isDead');
 
 After we have asked the cat object for its `isDead` property, we can
 categorically say which it is. But before we ask, the value of the
-computed property doesn't really <span style="font-style: italic;">exist</span>.
+computed property doesn't really _exist_.
 
 Now, let's introduce observers into the mix. If the value of a computed
 property doesn't exist yet, should observers fire if one of its

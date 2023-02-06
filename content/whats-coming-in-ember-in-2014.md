@@ -62,7 +62,7 @@ Two notable projects have come out of this work:
 It's important to note that we have been planning for module support for
 some time. In fact, one of the last features that was blocking our
 initial 1.0 release was to have the entire framework go through an object
-called the <span style="font-style: italic;">resolver</span>.
+called the _resolver_.
 
 The resolver is the part of our dependency injection system that is
 responsible for determining naming conventions. For example, imagine a

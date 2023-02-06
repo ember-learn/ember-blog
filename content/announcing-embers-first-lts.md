@@ -143,7 +143,7 @@ or October with the release of Ember 2.8 LTS.
 ### See You Soon
 
 LTS releases are just one of the many things we've been working on; the core
-team has had a <span style="font-style: italic;">long</span> couple of months and we're excited to share everything.
+team has had a _long_ couple of months and we're excited to share everything.
 There will be more announcements and plans shared at [EmberConf](http://emberconf.com/)
 (March 29-30 in Portland), looking forward to seeing so many of you there!
 

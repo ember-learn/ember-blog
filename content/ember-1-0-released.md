@@ -36,7 +36,7 @@ it's clear that this strategy turned out to be the right one.
 
 As we began work on Ember.js, however, we soon realized that there was a
 fundamental problem. Just having templates that were bound to models was
-not enough. We also needed to help developers decide <span style="font-style: italic;">which</span> templates and
+not enough. We also needed to help developers decide _which_ templates and
 models to display at any given time.
 
 While struggling to figure out the best solution, we couldn't help but notice
