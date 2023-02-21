@@ -2,6 +2,7 @@
 title: Ember 4.11 Released
 authors:
   - jen-weber
+  - chris-krycho
 date: 2023-02-25T12:00:00.000Z
 tags:
   - releases
