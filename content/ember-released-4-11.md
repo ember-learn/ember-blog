@@ -38,8 +38,19 @@ Ember.js 4.11 introduced 0 bug fixes.
 
 Ember.js 4.11 introduced 2 features.
 
-1. Feature description
-2. Feature description
+1. Stable TypeScript types for the `@ember/owner` package (first released in 4.10).
+2. Stable TypeScript types for the `@ember/error` package.
+
+Both of these packages already had tyeps available as part of [the public preview types](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), so you might wonder: _What is new here?_ The answer is: these are the first type definitions generated from Ember's own TypeScript source code, instead of written by hand. This means that these type are _guaranteed_ to match Ember's own behavior: they literally cannot get out of sync.
+
+If you are already using the public preview types, as documented in [the announcement post](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), you don't have to do anything. If you would like to opt into using the new stable and preview types, you can add this to your project (e.g. in `app.ts`):
+
+```ts
+import 'ember-source/types';
+import 'ember-source/types/preview';
+```
+
+**Reminder:** while these two packages are now stable, much of Ember's types are still in preview, and subject to change between minor releases. We expect to finish getting the rest of Ember's types stable, and therefore following Ember's normal stability rules, early in the upcoming 5.x releases!
 
 #### Deprecations
 
@@ -47,7 +58,7 @@ Ember.js 4.11 introduced 0 deprecations.
 
 <!-- Block start: If there were no deprecations, remove this block -->
 
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
+Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework. No new deprecations are allowed after the `.10` release, to minimize churn before the next major release.
 
 Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
 
