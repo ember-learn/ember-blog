@@ -42,7 +42,7 @@ Ember.js 4.11 introduced 2 features.
 1. Stable TypeScript types for the `@ember/owner` package (first released in 4.10).
 2. Stable TypeScript types for the `@ember/error` package.
 
-Both of these packages already had tyeps available as part of [the public preview types](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), so you might wonder: _What is new here?_ The answer is: these are the first type definitions generated from Ember's own TypeScript source code, instead of written by hand. This means that these type are _guaranteed_ to match Ember's own behavior: they literally cannot get out of sync.
+Both of these packages already had types available as part of [the public preview types](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), so you might wonder: _What is new here?_ The answer is: these are the first type definitions generated from Ember's own TypeScript source code, instead of written by hand. This means that these type are _guaranteed_ to match Ember's own behavior: they literally cannot get out of sync.
 
 If you are already using the public preview types, as documented in [the announcement post](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), you don't have to do anything. If you would like to opt into using the new stable and preview types, you can add this to your project (e.g. in `app.ts`):
 
