@@ -3,7 +3,8 @@ title: Ember 4.11 Released
 authors:
   - jen-weber
   - chris-krycho
-date: 2023-02-25T12:00:00.000Z
+  - jared-galanis
+date: 2023-03-04T12:00:00.000Z
 tags:
   - releases
   - '2023'
@@ -73,11 +74,19 @@ For more details on changes in Ember.js 4.11, please review the [Ember.js 4.11.0
 
 Ember Data is the official data persistence library for Ember.js applications.
 
+Ember Data 4.10, which was not released at the time of the broader Ember 4.10 release, has now been releaed and is essentially a re-release of Ember Data 4.9 with some fixes around`@ember/error` and `@ember/string` deprecations. Ember Data 4.11.0 is also a re-release of Ember Data 4.10. However, there were several very important fixes shipped in Ember Data 4.11.1, 4.11.2 and 4.11.3 that users should be aware of.
+
 ### Changes in Ember Data 4.11
 
 #### Bug Fixes
 
 Ember Data 4.11 introduced 0 bug fixes.
+
+Ember Data 4.11.1 introduced 1 important bug fix for a bug around embroider compatability that prevented users from using Ember Data in embroider Ember applications starting in Ember Data 4.8. [The fix](https://github.com/emberjs/data/pull/8427) means that Ember apps using Ember Data can also use embroider again!
+
+Ember Data 4.11.2 introduced [1 bug fix](https://github.com/emberjs/data/pull/8433) that addresses computed chains not updating in EmberData 4.8 and up.
+
+Ember Data 4.11.3 introduced [1 bug fix](https://github.com/emberjs/data/pull/8439) that addresses an issue around infinite recursion in ember-concurrency and another involving SSR/test memory leaks.
 
 #### Features
 
@@ -109,6 +118,10 @@ This utility will help you to update your app or addon to the latest Ember CLI v
 While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
 ### Changes in Ember CLI 4.11
+
+Ember CLI
+
+Ember CLI did not introduce new bug fixes, features or deprecations, but there were a few updates that added [`ember-modifier`](https://github.com/ember-cli/ember-cli/pull/10103) and [`tracked-built-ins`](https://github.com/ember-cli/ember-cli/pull/10109) to the app blueprint and there was [one update](https://github.com/ember-cli/ember-cli/pull/10110) addressing a dependency vulnerability.
 
 #### Bug Fixes
 
