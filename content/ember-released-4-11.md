@@ -43,7 +43,7 @@ Ember.js 4.11 introduced 2 features.
 1. Stable TypeScript types for the `@ember/owner` package (first released in 4.10).
 2. Stable TypeScript types for the `@ember/error` package.
 
-Both of these packages already had types available as part of [the public preview types](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), so you might wonder: _What is new here?_ The answer is: these are the first type definitions generated from Ember's own TypeScript source code, instead of written by hand. This means that these type are _guaranteed_ to match Ember's own behavior: they literally cannot get out of sync.
+Both of these packages already had types available as part of [the public preview types](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), so you might wonder: _What is new here?_ The answer is: these are the first type definitions generated from Ember's own TypeScript source code, instead of written by hand. This means that these types are _guaranteed_ to match Ember's own behavior: they literally cannot get out of sync.
 
 If you are already using the public preview types, as documented in [the announcement post](https://blog.emberjs.com/announcing-official-typescript-types-public-preview/), you don't have to do anything. If you would like to opt into using the new stable and preview types, you can add this to your project (e.g. in `app.ts`):
 
@@ -74,7 +74,7 @@ For more details on changes in Ember.js 4.11, please review the [Ember.js 4.11.0
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-Ember Data 4.10, which was not released at the time of the broader Ember 4.10 release, has now been releaed and is essentially a re-release of Ember Data 4.9 with some fixes around `@ember/error` and `@ember/string` deprecations. Ember Data 4.11.0 is also a re-release of Ember Data 4.10. However, there were several very important fixes shipped in Ember Data 4.11.1, 4.11.2 and 4.11.3 that users should be aware of.
+Ember Data 4.10, which was not released at the time of the broader Ember 4.10 release, has now been released and is essentially a re-release of Ember Data 4.9 with some fixes around `@ember/error` and `@ember/string` deprecations. Ember Data 4.11.0 is also a re-release of Ember Data 4.10. However, there were several very important fixes shipped in Ember Data 4.11.1, 4.11.2 and 4.11.3 that users should be aware of.
 
 ### Changes in Ember Data 4.11
 
@@ -82,7 +82,7 @@ Ember Data 4.10, which was not released at the time of the broader Ember 4.10 re
 
 Ember Data 4.11 introduced 0 bug fixes.
 
-Ember Data 4.11.1 introduced 1 important bug fix for a bug around embroider compatability that prevented users from using Ember Data in embroider Ember applications starting in Ember Data 4.8. [The fix](https://github.com/emberjs/data/pull/8427) means that Ember apps using Ember Data can also use embroider again!
+Ember Data 4.11.1 introduced 1 important bug fix for a bug around embroider compatibility that prevented users from using Ember Data in embroider Ember applications starting in Ember Data 4.8. [The fix](https://github.com/emberjs/data/pull/8427) means that Ember apps using Ember Data can also use embroider again!
 
 Ember Data 4.11.2 introduced [1 bug fix](https://github.com/emberjs/data/pull/8433) that addresses computed chains not updating in EmberData 4.8 and up.
 
