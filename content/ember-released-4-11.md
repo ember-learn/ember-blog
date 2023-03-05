@@ -66,7 +66,7 @@ Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/e
 
 <!-- Block end -->
 
-For more details on changes in Ember.js 4.11, please review the [Ember.js 4.11.0 release page](https://github.com/emberjs/ember.js/releases/tag/vVER.0).
+For more details on changes in Ember.js 4.11, please review the [Ember.js 4.11.0 release page](https://github.com/emberjs/ember.js/releases/tag/v4.11.0).
 
 ---
 
@@ -74,7 +74,7 @@ For more details on changes in Ember.js 4.11, please review the [Ember.js 4.11.0
 
 Ember Data is the official data persistence library for Ember.js applications.
 
-Ember Data 4.10, which was not released at the time of the broader Ember 4.10 release, has now been releaed and is essentially a re-release of Ember Data 4.9 with some fixes around`@ember/error` and `@ember/string` deprecations. Ember Data 4.11.0 is also a re-release of Ember Data 4.10. However, there were several very important fixes shipped in Ember Data 4.11.1, 4.11.2 and 4.11.3 that users should be aware of.
+Ember Data 4.10, which was not released at the time of the broader Ember 4.10 release, has now been releaed and is essentially a re-release of Ember Data 4.9 with some fixes around `@ember/error` and `@ember/string` deprecations. Ember Data 4.11.0 is also a re-release of Ember Data 4.10. However, there were several very important fixes shipped in Ember Data 4.11.1, 4.11.2 and 4.11.3 that users should be aware of.
 
 ### Changes in Ember Data 4.11
 
@@ -96,8 +96,8 @@ Ember Data 4.11 introduced 0 features.
 
 Ember Data 4.11 introduced 0 deprecations.
 
-For more details on changes in Ember Data 4.11, please review the
-[Ember Data 4.11.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
+For more details on changes in Ember Data 4.11 (and 4.11.1, 4.11.2 and 4.11.3) please review the
+[Ember Data 4.11.0 release page](https://github.com/emberjs/data/releases/tag/v4.11.0) and the [Ember Data changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md).
 
 ---
 
@@ -136,7 +136,7 @@ Ember CLI 4.11 introduced 0 features.
 Ember CLI 4.11 introduced 0 deprecations.
 
 For more details on the changes in Ember CLI 4.11 and detailed upgrade
-instructions, please review the [Ember CLI 4.11.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/vVER.0).
+instructions, please review the [Ember CLI 4.11.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v4.11.0).
 
 ## Thank You!
 
