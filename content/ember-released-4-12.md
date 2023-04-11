@@ -2,7 +2,7 @@
 title: Ember 4.12 Released
 authors:
   - jared-galanis
-date: 2023-04-07T12:00:00.000Z
+date: 2023-04-11T12:00:00.000Z
 tags:
   - releases
   - '2023'
@@ -32,15 +32,24 @@ Ember.js 4.12 is an incremental, backwards compatible release of Ember with bug 
 
 #### Bug Fixes
 
-Ember.js 4.12 introduced <insert number here> bug fixes.
+Ember.js 4.12 introduced 3 bug fixes.
+
+- [#20388](https://github.com/emberjs/ember.js/pull/20388) - Don't run getters while applying mixins, ensuring that getters are never evaluated while applying
+  mixins.
+- [#20398](https://github.com/emberjs/ember.js/pull/20398) - Fix runloop types on TypeScript 5.0+ where types aroudn `bind` were flagged with an assignability error.
+- [#20385](https://github.com/emberjs/ember.js/pull/20385) - Improve the error for owner methods called after destroy where the error message did not indicate what was being looked up.
 
 #### Features
 
-Ember.js 4.12 introduced <insert number here> features.
+Ember.js 4.12 introduced 3 features.
+
+- [#20352](https://github.com/emberjs/ember.js/releases/tag/v4.12.0) - Enable generating Typescript blueprints when `isTypeScriptProject` is `true` without additional environment variables per [RFC #800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan).
+- [#20355](https://github.com/emberjs/ember.js/pull/20355) - Enhance the Typescript blueprint for generated services per [RFC #800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan).
+- [#20356](https://github.com/emberjs/ember.js/pull/20356) - Generate signature in TypeScript Glimmer Component blueprints per [RFC #800](https://rfcs.emberjs.com/id/0800-ts-adoption-plan).
 
 #### Deprecations
 
-Ember.js 4.12 introduced <insert number here> deprecations.
+Ember.js 4.12 introduced 0 deprecations.
 
 <!-- Block start: If there were no deprecations, remove this block -->
 
@@ -58,22 +67,31 @@ For more details on changes in Ember.js 4.12, please review the [Ember.js 4.12.0
 
 Ember Data is the official data persistence library for Ember.js applications.
 
+There were many significant changes to Ember Data in 4.12, including:
+
+- some big steps towards Embroider support with improved build times and addons that are close to v2 addons - full embroider support is the flip of a switch away once a few issues are resolved;
+- lots of improved documentation, including the docs around Cache, Notifications, Identity Management, and Record Lifecycle, also includes inline deprecation docs and granular stripping;
+- introducing `@ember-data/request` and the `RequestManager`, a package that can be used independently (but also comes bundled with Ember Data) that re-envisions how data fetching is managed for both EmberData and applications more broadly - see the [docs](https://github.com/emberjs/data/tree/v4.12.0/packages/request#readme) and [related RFC](https://github.com/emberjs/rfcs/pull/860);
+- Cache Spec 2.1 implemenation - using the power of `store.request`, requests are now capable of providing a cache-key or being cached by URL, with full lifecycle control and notification subscriptions. Documents are a first-class citizen of the Cache and Ember Data more broadly. Read more about Cache 2.1 in the [related RFC](https://github.com/emberjs/rfcs/pull/854).
+
+We are not listing all the work done here, and it is significant, so for more context on the Ember Data 4.12 please read the detailed [release notes](https://github.com/emberjs/data/releases/tag/v4.12.0).
+
 ### Changes in Ember Data 4.12
 
 #### Bug Fixes
 
-Ember Data 4.12 introduced <insert number here> bug fixes.
+Ember Data 4.12 introduced 20 bug fixes.
 
 #### Features
 
-Ember Data 4.12 introduced <insert number here> features.
+Ember Data 4.12 introduced 24 features.
 
 #### Deprecations
 
-Ember Data 4.11 introduced <insert number here> deprecations.
+Ember Data 4.11 introduced 2 deprecation removals.
 
 For more details on changes in Ember Data 4.12 please review the
-[Ember Data 4.12.0 release page](https://github.com/emberjs/data/releases/tag/v4.12.0), <insert reference to standalone blog post here> and the [Ember Data changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md).
+[Ember Data 4.12.0 release page](https://github.com/emberjs/data/releases/tag/v4.12.0) and the [Ember Data changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md).
 
 ---
 
@@ -101,11 +119,26 @@ Ember CLI did not introduce new bug fixes, features or deprecations, but there w
 
 #### Bug Fixes
 
-Ember CLI 4.12 introduced 0 bug fixes.
+Ember CLI 4.12 introduced 2 bug fixes.
+
+- [#10091](https://github.com/ember-cli/ember-cli/pull/10091) - Fix looking up the default blueprint for scoped addons
+- [#10192](https://github.com/ember-cli/ember-cli/pull/10192) - The `addon` command should throw when no addon name is provided
 
 #### Features
 
-Ember CLI 4.12 introduced 0 features.
+Ember CLI 4.12 introduced 11 features.
+
+- [#10122](https://github.com/ember-cli/ember-cli/pull/10122) - Add Stylelint setup to `app` and `addon` blueprints
+- [#10142](https://github.com/ember-cli/ember-cli/pull/10142) - Update ESLint to v8 in `app` and `addon` blueprints
+- [#10157](https://github.com/ember-cli/ember-cli/pull/10157) - Exclude `ember-cli-terser` when generating apps using the `--embroider` option
+- [#10159](https://github.com/ember-cli/ember-cli/pull/10159) - Exclude `ember-cli-sri` when generating apps using the `--embroider` option
+- [#10161](https://github.com/ember-cli/ember-cli/pull/10161) - Remove NPM version checking
+- [#10169](https://github.com/ember-cli/ember-cli/pull/10169) - Remove `app.import` comment in `app` blueprint
+- [#10172](https://github.com/ember-cli/ember-cli/pull/10172) - Lazy require heavier packages
+- [#10173](https://github.com/ember-cli/ember-cli/pull/10173) - Don't delete the newly-generated app directory when an error occurs
+- [#10180](https://github.com/ember-cli/ember-cli/pull/10180) - Update `ember-welcome-page` to v7 in `app` blueprint
+- [#10188](https://github.com/ember-cli/ember-cli/pull/10188) - Update ESLint parser `ecmaVersion` to `latest` in `app` blueprint
+- [#10189](https://github.com/ember-cli/ember-cli/pull/10189) - Add v4.8 LTS to `addon` blueprint - Remove v3.28 LTS and `ember-classic` scenario
 
 #### Deprecations
 
