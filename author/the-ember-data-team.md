@@ -1,5 +1,5 @@
 ---
-name: the Ember Data Team
+name: The EmberData Team
 image: ''
 cover: ''
 website: ''

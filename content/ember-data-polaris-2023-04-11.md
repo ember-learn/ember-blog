@@ -22,7 +22,7 @@ The primary focus of these changes was to support caching **Documents** and to e
 
 > *Note:* Historically, Model has mapped to a resource "type" and serves to present the data for a resource. It may be useful to think about resources as the backing data for a Model; however, resources can be far more generic than this and could even be anything. This includes raw strings, html, xml, buffers, images, blobs, and streams!
 
-Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities on top of of familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager](https://github.com/emberjs/rfcs/pull/860) and [Cache](https://github.com/emberjs/rfcs/pull/854) to gain a fuller appreciation of the motivations and capabilities they bring.
+Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities within familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager](https://github.com/emberjs/rfcs/pull/860) and [Cache](https://github.com/emberjs/rfcs/pull/854) to gain a fuller appreciation of the motivations and capabilities they bring.
 
 While these new primitives may not at first feel like a substantial shift, over the course of 5.x as the new request story is polished we expect for the recommended experience when using EmberData to significantly evolve, with that evolution driven by these changes.
 
