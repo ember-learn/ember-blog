@@ -36,7 +36,7 @@ Ember.js 4.12 introduced 3 bug fixes.
 
 - [#20388](https://github.com/emberjs/ember.js/pull/20388) - Don't run getters while applying mixins, ensuring that getters are never evaluated while applying
   mixins.
-- [#20398](https://github.com/emberjs/ember.js/pull/20398) - Fix runloop types on TypeScript 5.0+ where types aroudn `bind` were flagged with an assignability error.
+- [#20398](https://github.com/emberjs/ember.js/pull/20398) - Fix runloop types on TypeScript 5.0+ where types around `bind` were flagged with an assignability error.
 - [#20385](https://github.com/emberjs/ember.js/pull/20385) - Improve the error for owner methods called after destroy where the error message did not indicate what was being looked up.
 
 #### Features
@@ -74,8 +74,6 @@ There were many significant changes to EmberData in 4.12, including:
 - introducing `@ember-data/request` and the `RequestManager`, a package that can be used independently (but also comes bundled with `ember-data`) that re-envisions how data fetching is managed for both EmberData and applications more broadly - see the [docs](https://github.com/emberjs/data/tree/v4.12.0/packages/request#readme) and [related RFC](https://github.com/emberjs/rfcs/pull/860);
 - Cache Spec 2.1 implementation - using the power of `store.request`, requests are now capable of providing a cache-key or being cached by URL, with full lifecycle control and notification subscriptions. Documents are a first-class citizen of the Cache and EmberData more broadly. To go with this, the `JSON:API` cache previously provided by `@ember-data/record-data` is now upgraded to the 2.1 spec and available as the `@ember-data/json-api` package. While this cache does not yet implement the full suite of cache 2.1 APIs, support for all Cache 2.1 APIs has been added to the store. Read more about Cache 2.1 in the [related RFC](https://github.com/emberjs/rfcs/pull/854).
 
-We are not listing all the work done here, and it is significant, so for more context on the EmberData 4.12 please read the detailed [release notes](https://github.com/emberjs/data/releases/tag/v4.12.0).
-
 ### Changes in EmberData 4.12
 
 #### Bug Fixes
@@ -90,8 +88,8 @@ EmberData 4.12 introduced 24 features.
 
 EmberData 4.12 introduced 2 deprecation removals.
 
-For more details on changes in EmberData 4.12 please review the
-[EmberData 4.12.0 release page](https://github.com/emberjs/data/releases/tag/v4.12.0) and the [EmberData changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md).
+We are not detailing all the work done in this release, here, so for more details on changes in EmberData 4.12 please review the thorough notes on the
+[EmberData 4.12.0 release page](https://github.com/emberjs/data/releases/tag/v4.12.0) and the [EmberData changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md)
 
 ---
 
