@@ -36,7 +36,7 @@ In more recent years, various 3rd party attempts have been made to address some 
 
 Although we appreciate each of these addons for tackling challenging aspects of EmberData and addressing the genuine needs of our consumers, many of these features were built on an unstable foundation and rely on constantly changing private and intimate API contracts. Consequently, applications using these addons have encountered significant difficulties when attempting to upgrade their version of EmberData.
 
-So throughout the 3.x and 4.x cycles, we began evolving a new set up public APIs on top which we could support these ideas without compromise, and plotting to bring ideas explored by each of these libraries into the core recommended experience of EmberData itself. RequestManager and Cache are the result of these efforts.
+So throughout the 3.x and 4.x cycles, we began evolving a new set of public APIs on top which we could support these ideas without compromise, and plotting to bring ideas explored by each of these libraries into the core recommended experience of EmberData itself. RequestManager and Cache are the result of these efforts.
 
 **What does this mean?**
 
