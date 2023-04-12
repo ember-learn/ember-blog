@@ -16,11 +16,11 @@ This week, in coordination with the broader Ember project, EmberData released 4.
 
 ## A wrap on 4.x
 
-This final release of the 4.x cycle introduced several new concepts to support a new paradigm for managing [Requests]() and new capabilities for [Caching Data]().
+This final release of the 4.x cycle introduced several new concepts to support a new paradigm for managing [Requests](https://github.com/emberjs/data/tree/v4.12.0/packages/request#readme) and new capabilities for [Caching Data](https://api.emberjs.com/ember-data/release/classes/%3CInterface%3E%20Cache).
 
 The primary focus of these changes was to support the concept of a [Document]() as a cache primitive and to complete the work to ensure that the [Resource]() concept is handled opaquely.
 
-Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities on top of of familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager]() and [Cache]() to gain a fuller appreciation of the motivations and capabilities they bring.
+Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities on top of of familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager](https://github.com/emberjs/rfcs/pull/860) and [Cache](https://github.com/emberjs/rfcs/pull/854) to gain a fuller appreciation of the motivations and capabilities they bring.
 
 While these new primitives may not at first feel like a substantial shift, over the course of 5.x as the new request story is polished we expect for the recommended experience when using EmberData to significantly evolve, with that evolution driven by these changes.
 
@@ -30,7 +30,7 @@ Throughout the 5.x cycle we expect to introduce two important new defaults while
 
 For nearly 17 years, [Model](https://github.com/sproutcore/sproutcore/commit/f6248b1650a688a401cc6eea135fbe983e20cd12#diff-011979c89114a908391f35c2053dc2ba84da4d331cc97730039b2b2da623ffee) has been a foundational primitive around which EmberData was understood. Since those earliest days, the language and ecosystem have evolved, the kinds of applications we build has evolved, and the patterns by which we access and mutate data have evolved. While Model has undergone small amounts of evolution in syntax, its underlying patterns have remained unevolved.
 
-In more recent years, various 3rd party attempts have been made to address some of the shortcomings of the Model paradigm. [ember-m3]() explored what it might mean to have schema-driven models. [ember-data-model-fragments]() offered a deep-tracking workaround. [ember-data-storefront]() offered alternative data access patterns to simplify the mental model of asyncronous edges in relational data. [ember-data-changetracker](), [ember-changesets](), and [ember-buffered-proxy]() offered mechanisms for streamlined mutation flows and more easily discardable changes.
+In more recent years, various 3rd party attempts have been made to address some of the shortcomings of the Model paradigm. [ember-m3](https://github.com/hjdivad/ember-m3) explored what it might mean to have schema-driven models. [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-data-model-fragments) offered a deep-tracking workaround. [ember-data-storefront](https://github.com/embermap/ember-data-storefront) offered alternative data access patterns to simplify the mental model of asyncronous edges in relational data. [ember-data-changetracker](https://github.com/danielspaniel/ember-data-change-tracker), [ember-changeset](https://github.com/poteto/ember-changeset), and [ember-buffered-proxy](https://github.com/yapplabs/ember-buffered-proxy) offered mechanisms for streamlined mutation flows and more easily discardable changes.
 
 Although we appreciate each of these addons for tackling challenging aspects of EmberData and addressing the genuine needs of our consumers, many of these features were built on an unstable foundation and rely on constantly changing private and intimate API contracts. Consequently, applications using these addons have encountered significant difficulties when attempting to upgrade their version of EmberData.
 
@@ -42,7 +42,7 @@ The importance of shipping RequestManager and Cache in 4.12 is that these are th
 
 Today, Model serves two competing purposes: its static properties are used to declare schema information for attributes and relationships, while at runtime it is also the class we instantiate to present the data for a single resource out of the cache.
 
-Importantly, both of these behaviors (schema and presentation) are just a *configuration* of public APIs (respectively, via `Store.registerSchemaDefinitionService` and the hook `Store.instantiateRecord`) done by the `@ember-data/model` package. Schema no longer *needs* to be sourced from a Model, and record instances no longer *need* to be instances of Model. While this has been true for some time, when paired with the new request and cache APIs the potential now exists for far more declarative schema sources and far more powerful presentation classes.
+Importantly, both of these behaviors (schema and presentation) are just a *configuration* of public APIs (respectively, via [registerSchema](https://api.emberjs.com/ember-data/4.12/classes/Store/methods/registerSchema?anchor=registerSchema&show=inherited) and the hook [instantiateRecord](https://api.emberjs.com/ember-data/4.12/classes/Store/methods/instantiateRecord%20(hook)?anchor=instantiateRecord%20(hook)) done for the `@ember-data/model` package. Schema no longer *needs* to be sourced from a Model, and record instances no longer *need* to be instances of Model. While this has been true for some time, when paired with the new request and cache APIs the potential now exists for far more declarative schema sources and far more powerful presentation classes.
 
 Over the course of 5.x, we expect to introduce new defaults for declaring schemas, and new experiences for working with cached data: especially around presenting asynchronous data, paginated data, and handling mutation flows.
 
@@ -61,9 +61,9 @@ A significant motivation for shipping Request and Cache in the 4.x series, even 
 
 By shipping the request and cache APIs in 4.12, we've ensured that powerful replacements can be built that are compatible with 4.x enabling this migration path to be created. While we expect many applications might choose to implement their own presentation class – as often a custom class is capable of doing powerful things derived from Schema that a more generic presentation class could not do – **we are additionally committing to making the official Model replacement compatible with EmberData 4.12**
 
-This means (for instance) that the migration path for an application using [ember-data-model-fragments]() is to help that library become compatible with 4.12, update their application to 4.12, and begin incrementally migrating from Model+ModelFragments to the new presentation class which will offer deep-tracking out of the box.
+This means (for instance) that the migration path for an application using [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-data-model-fragments) is to help that library become compatible with 4.12, update their application to 4.12, and begin incrementally migrating from Model+ModelFragments to the new presentation class which will offer deep-tracking out of the box.
 
-For [ember-data-model-fragments]() specifically, we commit to providing extensive time to assist in adding support for 4.12 to the current 3.28+ branch that some teams have been using today. In this way, we hope to give even those teams facing hurdles in the jump to 4.0 a carrot and a mechanism to leap quickly to 5.x.
+For [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-data-model-fragments) specifically, we commit to providing extensive time to assist in adding support for 4.12 to the current 3.28+ branch that some teams have been using today. In this way, we hope to give even those teams facing hurdles in the jump to 4.0 a carrot and a mechanism to leap quickly to 5.x.
 
 ## 4.12 will become a Special LTS
 
