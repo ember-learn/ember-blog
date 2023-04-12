@@ -58,7 +58,7 @@ From a features perspective:
 
 A significant motivation for shipping Request and Cache in the 4.x series, even if it took till the end (as it did) is that we believe the easiest migration path for most applications looking to resolve deprecations around promise-proxies, async relationships, computed chains, and array-like APIs will be to incrementally migrate from Model to its replacement.
 
-By shipping the request and cache APIs in 4.12, we've ensured that powerful replacements can be built that are compatible with 4.x enabling this migration path to be created. Whie we expect many applications might choose to implement their own presentation class – as often a custom class is capable of doing powerful things derived from Schema that a more generic presentation class could not do – **we are additionally committing to making the official Model replacement compatible with EmberData 4.12**
+By shipping the request and cache APIs in 4.12, we've ensured that powerful replacements can be built that are compatible with 4.x enabling this migration path to be created. While we expect many applications might choose to implement their own presentation class – as often a custom class is capable of doing powerful things derived from Schema that a more generic presentation class could not do – **we are additionally committing to making the official Model replacement compatible with EmberData 4.12**
 
 This means (for instance) that the migration path for an application using [ember-data-model-fragments]() is to help that library become compatible with 4.12, update their application to 4.12, and begin incrementally migrating from Model+ModelFragments to the new presentation class which will offer deep-tracking out of the box.
 
