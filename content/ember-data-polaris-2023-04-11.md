@@ -6,7 +6,7 @@ date: 2023-04-11T00:00:00.000Z
 tags:
   - '2023'
   - ember-data
-  - Polaris
+  - ember-polaris
 
 ---
 
