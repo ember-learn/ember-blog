@@ -8,8 +8,9 @@ tags:
   - '2023'
   - ember-data
   - ember-polaris
-
 ---
+
+<!--alex disable just primitive mental special simple easily easy -->
 
 This week, in coordination with the broader Ember project, EmberData released 4.12, its final
 4.x version, and began iterating towards the first release of the 5.x series.
@@ -30,6 +31,7 @@ While these new primitives may not at first feel like a substantial shift, over 
 
 Throughout the 5.x cycle we expect to introduce two important new defaults while deprecating an old stalwart.
 
+<!--alex disable primitive -->
 For nearly 17 years, [Model](https://github.com/sproutcore/sproutcore/commit/f6248b1650a688a401cc6eea135fbe983e20cd12#diff-011979c89114a908391f35c2053dc2ba84da4d331cc97730039b2b2da623ffee) has been a foundational primitive around which EmberData was understood. Since those earliest days, the language and ecosystem have evolved, the kinds of applications we build has evolved, and the patterns by which we access and mutate data have evolved. While Model has undergone small amounts of evolution in syntax, its underlying patterns have remained unevolved.
 
 In more recent years, various 3rd party attempts have been made to address some of the shortcomings of the Model paradigm. [ember-m3](https://github.com/hjdivad/ember-m3) explored what it might mean to have schema-driven models. [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-data-model-fragments) offered a deep-tracking workaround. [ember-data-storefront](https://github.com/embermap/ember-data-storefront) offered alternative data access patterns to simplify the mental model of asynchronous edges in relational data. [ember-data-changetracker](https://github.com/danielspaniel/ember-data-change-tracker), [ember-changeset](https://github.com/poteto/ember-changeset), and [ember-buffered-proxy](https://github.com/yapplabs/ember-buffered-proxy) offered mechanisms for streamlined mutation flows and more easily discardable changes.
