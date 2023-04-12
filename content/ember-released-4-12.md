@@ -2,14 +2,14 @@
 title: Ember 4.12 Released
 authors:
   - jared-galanis
-date: 2023-04-11T12:00:00.000Z
+date: 2023-04-12T12:00:00.000Z
 tags:
   - releases
   - '2023'
   - version-4-x
 ---
 
-Today the Ember project is releasing version 4.12 of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
+Today the Ember project is releasing version 4.12 of Ember.js, EmberData, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
 
 This release kicks off the 5.0 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -63,35 +63,35 @@ For more details on changes in Ember.js 4.12, please review the [Ember.js 4.12.0
 
 ---
 
-## Ember Data
+## EmberData
 
-Ember Data is the official data persistence library for Ember.js applications.
+EmberData is the official data persistence library for Ember.js applications.
 
-There were many significant changes to Ember Data in 4.12, including:
+There were many significant changes to EmberData in 4.12, including:
 
 - some big steps towards Embroider support with improved build times and addons that are close to v2 addons - full embroider support is the flip of a switch away once a few issues are resolved;
 - lots of improved documentation, including the docs around Cache, Notifications, Identity Management, and Record Lifecycle, also includes inline deprecation docs and granular stripping;
-- introducing `@ember-data/request` and the `RequestManager`, a package that can be used independently (but also comes bundled with Ember Data) that re-envisions how data fetching is managed for both EmberData and applications more broadly - see the [docs](https://github.com/emberjs/data/tree/v4.12.0/packages/request#readme) and [related RFC](https://github.com/emberjs/rfcs/pull/860);
-- Cache Spec 2.1 implemenation - using the power of `store.request`, requests are now capable of providing a cache-key or being cached by URL, with full lifecycle control and notification subscriptions. Documents are a first-class citizen of the Cache and Ember Data more broadly. Read more about Cache 2.1 in the [related RFC](https://github.com/emberjs/rfcs/pull/854).
+- introducing `@ember-data/request` and the `RequestManager`, a package that can be used independently (but also comes bundled with `ember-data`) that re-envisions how data fetching is managed for both EmberData and applications more broadly - see the [docs](https://github.com/emberjs/data/tree/v4.12.0/packages/request#readme) and [related RFC](https://github.com/emberjs/rfcs/pull/860);
+- Cache Spec 2.1 implementation - using the power of `store.request`, requests are now capable of providing a cache-key or being cached by URL, with full lifecycle control and notification subscriptions. Documents are a first-class citizen of the Cache and EmberData more broadly. To go with this, the `JSON:API` cache previously provided by `@ember-data/record-data` is now upgraded to the 2.1 spec and available as the `@ember-data/json-api` package. While this cache does not yet implement the full suite of cache 2.1 APIs, support for all Cache 2.1 APIs has been added to the store. Read more about Cache 2.1 in the [related RFC](https://github.com/emberjs/rfcs/pull/854).
 
-We are not listing all the work done here, and it is significant, so for more context on the Ember Data 4.12 please read the detailed [release notes](https://github.com/emberjs/data/releases/tag/v4.12.0).
+We are not listing all the work done here, and it is significant, so for more context on the EmberData 4.12 please read the detailed [release notes](https://github.com/emberjs/data/releases/tag/v4.12.0).
 
-### Changes in Ember Data 4.12
+### Changes in EmberData 4.12
 
 #### Bug Fixes
 
-Ember Data 4.12 introduced 20 bug fixes.
+EmberData 4.12 introduced 20 bug fixes.
 
 #### Features
 
-Ember Data 4.12 introduced 24 features.
+EmberData 4.12 introduced 24 features.
 
 #### Deprecations
 
-Ember Data 4.11 introduced 2 deprecation removals.
+EmberData 4.12 introduced 2 deprecation removals.
 
-For more details on changes in Ember Data 4.12 please review the
-[Ember Data 4.12.0 release page](https://github.com/emberjs/data/releases/tag/v4.12.0) and the [Ember Data changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md).
+For more details on changes in EmberData 4.12 please review the
+[EmberData 4.12.0 release page](https://github.com/emberjs/data/releases/tag/v4.12.0) and the [EmberData changelog](https://github.com/emberjs/data/blob/master/CHANGELOG.md).
 
 ---
 
@@ -109,7 +109,7 @@ npx ember-cli-update
 
 This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
 
-While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
+While it is recommended to keep Ember CLI versions in sync with Ember and EmberData, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or EmberData by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
 ### Changes in Ember CLI 4.12
 
