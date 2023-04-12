@@ -67,8 +67,8 @@ For [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-d
 
 ## 4.12 will become a Special LTS
 
-In addition to the committments above, we are planning on declaring 4.12 as a special LTS release.
+In addition to the committments above, we are planning on declaring 4.12 as a special LTS release for EmberData.
 
-4.12 will remain an actively supported LTS for the entire duration of the 5.x cycle, extending until the first 6.x LTS is released. This is in addition to our regular LTS support policy.
+4.12 will remain an actively supported LTS for the entire duration of the 5.x cycle, extending until the first 6.x LTS is released. This is in addition to our regular LTS support policy, and *only applies to the EmberData project*
 
 This support extends *beyond* simple bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is simple: we want no one left behind.
