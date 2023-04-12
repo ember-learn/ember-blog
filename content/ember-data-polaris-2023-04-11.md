@@ -31,7 +31,7 @@ For nearly 17 years, [Model](https://github.com/sproutcore/sproutcore/commit/f62
 
 In more recent years, various 3rd party attempts have been made to address some of the shortcomings of the Model paradigm. [ember-m3]() explored what it might mean to have schema-driven models. [ember-data-model-fragments]() offered a deep-tracking workaround. [ember-data-storefront]() offered alternative data access patterns to simplify the mental model of asyncronous edges in relational data. [ember-data-changetracker](), [ember-changesets](), and [ember-buffered-proxy]() offered mechanisms for streamlined mutation flows and more easily discardable changes.
 
-While we appreciate each of these addons for taking on a challenging aspect of EmberData and solving real needs of our consumers, the nature of many of these features having been built overtop a shaky foundation and against a shifting target of private and intimate API contracts has meant that applications using these addons have faced unexpectedly large challenges when upgrading their version of EmberData.
+Although we appreciate each of these addons for tackling challenging aspects of EmberData and addressing the genuine needs of our consumers, many of these features were built on an unstable foundation and rely on constantly changing private and intimate API contracts. Consequently, applications using these addons have encountered significant difficulties when attempting to upgrade their version of EmberData.
 
 So throughout the 3.x and 4.x cycles, we began evolving a new set up public APIs overtop which we could support these ideas without compromise, and plotting to bring ideas explored by each of these libraries into the core recommended experience of EmberData itself.
 
