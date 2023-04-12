@@ -36,9 +36,7 @@ In more recent years, various 3rd party attempts have been made to address some 
 
 Although we appreciate each of these addons for tackling challenging aspects of EmberData and addressing the genuine needs of our consumers, many of these features were built on an unstable foundation and rely on constantly changing private and intimate API contracts. Consequently, applications using these addons have encountered significant difficulties when attempting to upgrade their version of EmberData.
 
-So throughout the 3.x and 4.x cycles, we began evolving a new set up public APIs overtop which we could support these ideas without compromise, and plotting to bring ideas explored by each of these libraries into the core recommended experience of EmberData itself.
-
-The importance of shipping RequestManager and Cache in 4.12 is that these are the APIs overtop of which these ideas can be implemented in a first-class manner.
+So throughout the 3.x and 4.x cycles, we began evolving a new set up public APIs on top which we could support these ideas without compromise, and plotting to bring ideas explored by each of these libraries into the core recommended experience of EmberData itself. RequestManager and Cache are the result of these efforts.
 
 **What does this mean?**
 
@@ -55,7 +53,7 @@ From a features perspective:
 - immutable record state
 - deep tracking of dirty state on mutable copies of records
 - paginated relationships by default
-- always-sync access to current relationship state, with easy access request APIs that can be invoked from JS or templates. (This will be built overtop of the [Document Presentation Class](https://github.com/emberjs/data/blob/v4.12.0/packages/store/src/-private/document.ts) introduced in 4.12.
+- always-sync access to current relationship state, with easy access request APIs that can be invoked from JS or templates. (This will be similar to the [Document Presentation Class](https://github.com/emberjs/data/blob/v4.12.0/packages/store/src/-private/document.ts) introduced in 4.12.
 
 ## Lifting all Tides
 
