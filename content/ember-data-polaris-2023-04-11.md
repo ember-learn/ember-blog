@@ -49,7 +49,7 @@ Over the course of 5.x, we expect to introduce new defaults for declaring schema
 From a features perspective:
 
 - an optional JS-like/Model-familiar schema syntax for build-time-compilation of schemas
-  - by default these schemas would be imported as JSON by your application, though just-in-time fetching of schemas is also possible
+    - by default these schemas would be imported as JSON by your application, though just-in-time fetching of schemas is also possible
 - immutable record state
 - deep tracking of dirty state on mutable copies of records
 - paginated relationships by default
@@ -67,7 +67,7 @@ For [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-d
 
 ## 4.12 will become a Special LTS
 
-In addition to the committments above, we are planning on declaring 4.12 as a special LTS release. 
+In addition to the committments above, we are planning on declaring 4.12 as a special LTS release.
 
 4.12 will remain an actively supported LTS for the entire duration of the 5.x cycle, extending until the first 6.x LTS is released. This is in addition to our regular LTS support policy.
 
