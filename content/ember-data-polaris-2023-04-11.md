@@ -19,7 +19,7 @@ This final release of the 4.x cycle introduced several new concepts to support a
 
 The primary focus of these changes was to support the concept of a [Document]() as a cache primitive and to complete the work to ensure that the [Resource]() concept is handled opaquely.
 
-Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities overtop of familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager]() and [Cache]() to gain a fuller appreciation of the motivations and capabilities they bring.
+Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities on top of of familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager]() and [Cache]() to gain a fuller appreciation of the motivations and capabilities they bring.
 
 While these new primitives may not at first feel like a substantial shift, over the course of 5.x as the new request story is polished we expect for the recommended experience when using EmberData to significantly evolve, with that evolution driven by these changes.
 
