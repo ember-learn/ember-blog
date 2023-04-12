@@ -20,7 +20,7 @@ This final release of the 4.x cycle introduced several new concepts to support a
 
 The primary focus of these changes was to support caching **Documents** and to ensure that **Resources** are handled opaquely. Loosely defined: A Document encompasses the full response returned by an API request, and can typically be identified uniquely by url. Documents may contain many resources or references to resources, where a resource is defined as some data which your application or the API treats as uniquely identitifiable.
 
-> **Note** Historically, Model has mapped to a resource type and serves to present the data for a specific resource. It may be useful to think about resources as the backing data for a Model; however, resources can be far more generic than this and could even be buffers, images, blobs, or streams.
+> *Note:* Historically, Model has mapped to a resource "type" and serves to present the data for a resource. It may be useful to think about resources as the backing data for a Model; however, resources can be far more generic than this and could even be anything. This includes raw strings, html, xml, buffers, images, blobs, and streams!
 
 Collectively, these changes allow applications the capability of building highly advanced request and cache capabilities on top of of familiar EmberData paradigms. We suggest reading the respective RFCs for [RequestManager](https://github.com/emberjs/rfcs/pull/860) and [Cache](https://github.com/emberjs/rfcs/pull/854) to gain a fuller appreciation of the motivations and capabilities they bring.
 
