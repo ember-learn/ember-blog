@@ -48,12 +48,12 @@ Over the course of 5.x, we expect to introduce new defaults for declaring schema
 
 From a features perspective:
 
- - an optional JS-like/Model-familiar schema syntax for build-time-compilation of schemas
-   - by default these schemas would be imported as JSON by your application, though just-in-time fetching of schemas is also possible
- - immutable record state
- - deep tracking of dirty state on mutable copies of records
- - paginated relationships by default
- - always-sync access to current relationship state, with easy access request APIs that can be invoked from JS or templates. (This will be built overtop of the [Document Presentation Class](https://github.com/emberjs/data/blob/v4.12.0/packages/store/src/-private/document.ts) introduced in 4.12.
+- an optional JS-like/Model-familiar schema syntax for build-time-compilation of schemas
+  - by default these schemas would be imported as JSON by your application, though just-in-time fetching of schemas is also possible
+- immutable record state
+- deep tracking of dirty state on mutable copies of records
+- paginated relationships by default
+- always-sync access to current relationship state, with easy access request APIs that can be invoked from JS or templates. (This will be built overtop of the [Document Presentation Class](https://github.com/emberjs/data/blob/v4.12.0/packages/store/src/-private/document.ts) introduced in 4.12.
 
 ## Lifting all Tides
 
