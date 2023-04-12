@@ -2,6 +2,7 @@
 title: EmberData Polaris Update
 authors:
   - chris-thoburn
+  - the-ember-data-team
 date: 2023-04-11T00:00:00.000Z
 tags:
   - '2023'
