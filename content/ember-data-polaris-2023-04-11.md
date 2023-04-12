@@ -65,7 +65,7 @@ This means (for instance) that the migration path for an application using [embe
 
 For [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-data-model-fragments) specifically, we commit to providing extensive time to assist in adding support for 4.12 to the current 3.28+ branch that some teams have been using today. In this way, we hope to give even those teams facing hurdles in the jump to 4.0 a carrot and a mechanism to leap quickly to 5.x.
 
-## 4.12 will become a Special LTS
+## EmberData 4.12 will become a Special LTS
 
 In addition to the committments above, we are planning on declaring 4.12 as a special LTS release for EmberData.
 
