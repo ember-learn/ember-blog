@@ -41,7 +41,7 @@ The importance of shipping RequestManager and Cache in 4.12 is that these are th
 
 Today, Model serves two competing purposes: its static properties are used to declare schema information for attributes and relationships, while at runtime it is also the class we instantiate to present the data for a single resource out of the cache.
 
-Importantly, both of these behaviors (schema and presentation) are just a *configuration* of public APIs (respectively, via `Store.registerSchemaDefinitionService` and the hook `Store.instantiateRecord`) done by the `@ember-data/model` package. Schema no longer *needs* to be sourced from a Model, and model instances no longer *need* to be instances of Model. While this has been true for some time, when paired with the new request and cache APIs the potential now exists for far more declarative schema sources and far more powerful presentation classes.
+Importantly, both of these behaviors (schema and presentation) are just a *configuration* of public APIs (respectively, via `Store.registerSchemaDefinitionService` and the hook `Store.instantiateRecord`) done by the `@ember-data/model` package. Schema no longer *needs* to be sourced from a Model, and record instances no longer *need* to be instances of Model. While this has been true for some time, when paired with the new request and cache APIs the potential now exists for far more declarative schema sources and far more powerful presentation classes.
 
 Over the course of 5.x, we expect to introduce new defaults for declaring schemas, and new experiences for working with cached data: especially around presenting asynchronous data, paginated data, and handling mutation flows.
 
