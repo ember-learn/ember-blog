@@ -1,5 +1,5 @@
 ---
-title: EmberData Polaris Update
+title: EmberData 5.X Update
 authors:
   - chris-thoburn
   - the-ember-data-team
@@ -27,6 +27,8 @@ Collectively, these changes allow applications the capability of building highly
 
 While these new primitives may not at first feel like a substantial shift, over the course of 5.x as the new request story is polished we expect for the recommended experience when using EmberData to significantly evolve, with that evolution driven by these changes.
 
+The Polaris experience for EmberData will be focused around this new request experience, working with documents (and pagination) by default, and the new presentation class described below.
+
 ## Looking ahead to 5.x
 
 Throughout the 5.x cycle we expect to introduce two important new defaults while deprecating an old stalwart.
@@ -36,9 +38,13 @@ For nearly 17 years, [Model](https://github.com/sproutcore/sproutcore/commit/f62
 
 In more recent years, various 3rd party attempts have been made to address some of the shortcomings of the Model paradigm. [ember-m3](https://github.com/hjdivad/ember-m3) explored what it might mean to have schema-driven models. [ember-data-model-fragments](https://github.com/adopted-ember-addons/ember-data-model-fragments) offered a deep-tracking workaround. [ember-data-storefront](https://github.com/embermap/ember-data-storefront) offered alternative data access patterns to simplify the mental model of asynchronous edges in relational data. [ember-data-changetracker](https://github.com/danielspaniel/ember-data-change-tracker), [ember-changeset](https://github.com/poteto/ember-changeset), and [ember-buffered-proxy](https://github.com/yapplabs/ember-buffered-proxy) offered mechanisms for streamlined mutation flows and more easily discardable changes.
 
-Although we appreciate each of these addons for tackling challenging aspects of EmberData and addressing the genuine needs of our consumers, many of these features were built on an unstable foundation and rely on constantly changing private and intimate API contracts. Consequently, applications using these addons have encountered significant difficulties when attempting to upgrade their version of EmberData.
+We appreciate each of these addons for tackling challenging aspects of working with EmberData and addressing the genuine needs of our consumers, and we are thankful to all the maintainers over the years that helped these projects along.
 
-So throughout the 3.x and 4.x cycles, we began evolving a new set of public APIs on top which we could support these ideas without compromise, and plotting to bring ideas explored by each of these libraries into the core recommended experience of EmberData itself. RequestManager and Cache are the result of these efforts.
+In the absence the public APIs that EmberData now offers, many of these libraries built features on an unstable foundation and relied on private and intimate API contracts that cwere onstantly changing. Consequently, applications using these addons have encountered significant difficulties when attempting to upgrade their version of EmberData.
+
+So throughout the 3.x and 4.x cycles, we began evolving a new set of public APIs on top which we could support these ideas without compromise. RequestManager and Cache are the result of these efforts.
+
+While this means these libraries can now rewrite to utilize public APIs and achieve improved stability, we also intend to bring most of the ideas explored by each of these libraries into the core recommended experience of EmberData itself. 
 
 **What does this mean?**
 
