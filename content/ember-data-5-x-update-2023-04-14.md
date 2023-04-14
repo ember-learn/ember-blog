@@ -3,7 +3,7 @@ title: EmberData 5.X Update
 authors:
   - chris-thoburn
   - the-ember-data-team
-date: 2023-04-12T00:00:00.000Z
+date: 2023-04-14T00:00:00.000Z
 tags:
   - '2023'
   - ember-data
