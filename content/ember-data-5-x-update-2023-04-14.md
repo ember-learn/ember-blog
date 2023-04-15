@@ -44,7 +44,7 @@ In the absence the public APIs that EmberData now offers, many of these librarie
 
 So throughout the 3.x and 4.x cycles, we began evolving a new set of public APIs on top which we could support these ideas without compromise. RequestManager and Cache are the result of these efforts.
 
-While this means these libraries can now rewrite to utilize public APIs and achieve improved stability, we also intend to bring most of the ideas explored by each of these libraries into the core recommended experience of EmberData itself. 
+While this means these libraries can now rewrite to utilize public APIs and achieve improved stability, we also intend to bring most of the ideas explored by each of these libraries into the core recommended experience of EmberData itself.
 
 **What does this mean?**
 
