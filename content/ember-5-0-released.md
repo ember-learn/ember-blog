@@ -38,7 +38,7 @@ This release kicks off the 5.1 beta cycle for all sub-projects. We encourage our
 
 The most common approach for upgrading to 5.0 is to upgrade your app to the last
 version of Ember 4, which is 4.12, resolve all deprecation warnings, and then upgrade to 5.0. If your app or addon runs with no deprecations in the latest release of 4.12,
-you should be able to upgrade to Ember 4 with no additional changes. Step by step directions are below.
+you should be able to upgrade to Ember 5 with no additional changes. Step by step directions are below.
 
 If your app is at a much earlier version in the 4.x series, we
 recommend upgrading in steps across the LTS versions: 4.4, 4.8, and then 4.12.
