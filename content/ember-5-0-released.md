@@ -19,8 +19,8 @@ Today the Ember project is releasing version 5.0 of Ember.js, Ember Data, and Em
 <!-- TODO - need a nice catchy intro that newsletters can copy paste -->
 
 This is the first major release under the new release strategy and goals proposed in [RFC 830, Evolving Ember's Major Version Process](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process). 
-To summarize, every 12 minor release, Ember will ship a new major release, which removes any deprecated code targeted for that major version. 
-When it comes to introducing new features, Ember generally aims to ship new features in minor releases, offering backwards compatibility for existing code at the same time as giving developers the change to try out new capabilities.
+To summarize, every 12 minor releases, Ember will ship a new major release, which removes any deprecated code targeted for that major version. 
+When it comes to introducing new features, Ember generally aims to ship new features in minor releases, offering backwards compatibility for existing code at the same time as giving developers the chance to try out new capabilities.
 This approach reduces the challenges that teams face for major upgrades, compared to producing big, breaking, splashy major versions with lots of new features.
 
 You can read more about our general release process here:
