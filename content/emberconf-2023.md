@@ -5,7 +5,8 @@ authors:
   - melanie-sumner
 date: 2024-04-24T12:00:00.000Z
 tags:
-  - emberconf
+  - announcement
+  - events
   - '2023'
 ---
 
