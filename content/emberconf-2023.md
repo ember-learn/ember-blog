@@ -9,7 +9,7 @@ tags:
   - '2023'
 ---
 
-![EmberConf 2023 in Portland Oregon](https://emberjs.com/blog/public/images/blog/emberconf-2023.png)
+![EmberConf 2023 in Portland Oregon](https://blog.emberjs.com/images/blog/emberconf-2023.png)
 
 
 We are thrilled to announce that [EmberConf 2023](https://www.emberconf.com) will take place on July 20-21 at the Oregon Convention Center in Portland, OR. The venue is state-of-the-art and fully accessible. We're excited to offer both in-person and live online attendance options. [Tickets are on sale now](http://www.emberconf.com)!
