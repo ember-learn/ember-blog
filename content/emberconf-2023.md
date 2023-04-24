@@ -3,7 +3,7 @@ title: EmberConf 2023
 authors:
   - leah-silber
   - melanie-sumner
-date: 2024-04-24T12:00:00.000Z
+date: 2023-04-24T12:00:00.000Z
 tags:
   - announcement
   - events
