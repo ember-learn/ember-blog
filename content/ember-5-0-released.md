@@ -23,6 +23,41 @@ To summarize, every 12 minor releases, Ember will ship a new major release, whic
 When it comes to introducing new features, Ember generally aims to ship new features in minor releases, offering backwards compatibility for existing code at the same time as giving developers the chance to try out new capabilities.
 This approach reduces the challenges that teams face for major upgrades, compared to producing big, breaking, splashy major versions with lots of new features.
 
+In Ember 4.x minor releases, we landed a bunch of features (along with various bug fixes, of course):
+
+- In [Ember 4.1](https://blog.emberjs.com/ember-4-1-released/), we shipped a bunch of quality-of-life improvements:
+    - the `@cached` decorator for caching expensive getters
+    - the `@service` decorator so you don't have to `import { inject as service }` anymore
+    - the `refresh` method on the Ember router, making it easier to refresh the data for the whole current route tree
+
+- In [Ember 4.4](https://blog.emberjs.com/ember-released-4-4/), we shipped a `{{unique-id}}` helper to make it easier to write accessible forms and made it easier to customize tests with improved blueprints for `setupTest`.
+
+- In [Ember 4.5](https://blog.emberjs.com/ember-4-5-released/), we made it possible to use plain old JavaScript functions as helpers: no need to wrap them with `helper()` any more!
+    We also shipped a new testing primitive, `renderSettled`, which lets you wait for when Ember has re-rendered but *other* promises are still in flight—handy for testing your loading spinners, for example.
+
+- In [Ember 4.8](https://blog.emberjs.com/ember-4-8-released/), we shipped a preview of our native TypeScript support, starting out with hand-authored types.
+
+- In [Ember 4.9](https://blog.emberjs.com/ember-4-9-released/), we did a *ton* of internal polish work on our types and started testing Ember itself against our supported range of TypeScript versions.
+
+- In [Ember 4.10](https://blog.emberjs.com/ember-released-4-10/), we introduced a new, carefully-designed API for Ember's Dependency Injection system: `Owner` is a subset of the `ApplicationInstance` type which covers all of its APIs with less duplication and confusion about what to use.
+
+- In [Ember 4.11](https://blog.emberjs.com/ember-released-4-11/), we published the first TypeScript types in Ember generated from Ember's own source code.
+
+- In [Ember 4.12](https://blog.emberjs.com/ember-released-4-12/), we enabled generating TypeScript blueprints with `ember generate`.
+
+We also made significant strides in key parts of the ecosystem outside the core framework itself over the past 18 months:
+
+- We committed to shipping a new component format using `<template>` tags to get the best parts of “single-file components” and formats like JSX, while keeping the best parts of Ember’s declarative Handlebars templates.
+    We shipped support for `<template>` tags in `.gjs` and `.gts` files over the course of 2022.
+    That includes [ESLint integration](https://github.com/ember-cli/eslint-plugin-ember) and [a Prettier plugin](https://github.com/gitKrystan/prettier-plugin-ember-template-tag), as well as [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) support!
+    We expect to recommend `<template>` as the default authoring format during Ember 5.x.
+
+- We [shipped Glint 1.0](https://blog.emberjs.com/glint-1-0-released/), providing top-notch editor tooling for Ember's Handlebars templates in both JavaScript and TypeScript code bases, powered by TypeScript under the hood.
+
+- Ember Data [massively improved performance](https://blog.emberjs.com/ember-released-4-7/) and [laid a foundation](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/) for a total overhaul in the 5.x series.
+
+Ember 5.0 has no new features, because we did all that work in minor releases instead.
+
 You can read more about our general release process here:
 
 - [Release Dashboard](http://emberjs.com/releases/)
