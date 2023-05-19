@@ -144,7 +144,7 @@ Ember.js 5.0 introduced 2 features.
 Ember.js 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.10 and slated for removal in 5.0.
 
-There were only 5 deprecations for Ember 5.0:
+Ember 5.0 removes five features deprecated during 4.x:
 
 - Removing Ember's `assign`, a polyfill for [the `Object.assign` static function](http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign), since the built-in is supported by all major browsers in Ember's support matrix.
 - Removing the API for implicit injections. These were deprecated in Ember 3.26, and became no-ops in Ember 4.0; 5.0 removes them.
