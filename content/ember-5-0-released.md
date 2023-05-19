@@ -144,6 +144,15 @@ Ember.js 5.0 introduced 2 features.
 Ember.js 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.10 and slated for removal in 5.0.
 
+There were only 5 deprecations for Ember 5.0:
+
+- Removing Ember's `assign`, a polyfill for [the `Object.assign` static function](http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign), since the built-in is supported by all major browsers in Ember's support matrix.
+- Removing the API for implicit injections. These were deprecated in Ember 3.26, and became no-ops in Ember 4.0; 5.0 removes them.
+- Removing the `AutoLocation` class in favor of having apps explicitly choose to use one of the built-in `HistoryLocation`, `HashLocation`, `NoneLocation` classes, or to supply their own.
+- Removing the `@ember/error` package, which for many years has only re-exported the `Error` built-in type.
+- Removing support for `Ember.String`: developers who are using its utilities should explicitly install the `@ember/string` package and use it instead of the `Ember.String` namespace. We also encourage users to use other tools than the `@ember/string` package, including [browser builtins like `Intl.PluralRules`](http://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules) or other libraries from the JavaScript ecosystem, but the package is still supported.
+
+For more details on how to resolve these deprecations in your app, see [the deprecations guide](https://deprecations.emberjs.com/v4.x).
 <!-- Block start: If there were no deprecations, remove this block -->
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
