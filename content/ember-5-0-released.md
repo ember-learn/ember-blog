@@ -223,6 +223,10 @@ Ember CLI 5.0 introduced 0 deprecations.
 For more details on the changes in Ember CLI 5.0 and detailed upgrade
 instructions, please review the [Ember CLI 5.0.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.0.0).
 
+### Changes for TypeScript
+
+There are no specific changes to Ember's TypeScript support for Ember 5.0. However, Ember now ships a [preview](https://blog.emberjs.com/announcing-official-typescript-types-public-preview) of its own types, and will be shipping a stable version early in the 5.x series. Accordingly, the Ember TypeScript team does not plan to update the `@types` packages on DefinitelyTyped for Ember 5.0. We will publish a dedicated blog post covering more details on the plan for stabilizing Ember's types in the next few weeks.
+
 ## Thank You!
 
 As a community-driven open-source project with an ambitious scope, each of these releases serves as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
