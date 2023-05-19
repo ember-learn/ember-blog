@@ -123,7 +123,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 5.0
 
-Ember.js 5.0 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
+Ember.js 5.0 introduces no new public API. Instead, it is comprised of bug fixes and the removal of previously deprecated public API from the 4.x cycle.
 
 This release drops support for Node 14. Node 14 became end of life (it no longer receives security updates) as of April 2023.
 
