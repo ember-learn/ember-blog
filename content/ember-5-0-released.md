@@ -217,7 +217,15 @@ Ember CLI 5.0 introduced 0 features.
 #### Deprecations
 
 Ember CLI 5.0 introduced 0 deprecations.
+Ember CLI 5.0 removed features and APIs that were deprecated in 4.x or earlier, please see the [Deprecation guide](https://deprecations.emberjs.com/ember-cli/v4.x) for more information:
 
+- Removed the `blacklist` and `whitelist` build options, they have been renamed to `exclude` and `include`. 
+- Removed various `bower` related APIs 
+- Removed support for `ember-cli-jshint`
+- Removed the `vendor-shim` blueprint in favor of `ember-auto-import`
+- Removed support for `baseURL` environment option ([deprecated way back in v2.7](https://deprecations.emberjs.com/ember-cli/v2.x#toc_base-url))
+
+A special thanks to Bert De Block for [singlehandedly cleaning up `ember-cli` for v5.0](https://github.com/ember-cli/ember-cli/issues/10163)
 For more details on the changes in Ember CLI 5.0 and detailed upgrade
 instructions, please review the [Ember CLI 5.0.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.0.0).
 
