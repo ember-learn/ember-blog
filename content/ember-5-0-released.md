@@ -136,7 +136,6 @@ Ember.js 5.0 introduced 0 bug fixes.
 
 Ember.js 5.0 introduced 2 features.
 
-2. Feature description
 
 #### Deprecations
 
