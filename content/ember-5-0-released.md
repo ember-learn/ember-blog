@@ -208,7 +208,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
-Ember CLI 5.0 introduced 0 bug fixes.
+- `minifyCSS` behavior was extracted to an addon, `ember-cli-clean-css`, that is now included in the default blueprint. This addon version currently uses an old version of `clean-css` so as to exactly match the previous built-in behavior. If you upgrade the addon (and thus `clean-css`) be aware that your built CSS may change. 
 
 #### Features
 
