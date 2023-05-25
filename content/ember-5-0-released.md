@@ -8,6 +8,8 @@ featured: true
 authors:
   - jen-weber
   - chris-krycho
+  - katie-gengler
+  - jared-galanis
 date: Mon May 15 2023 14:29:48 GMT-0400 (Eastern Daylight Time)
 tags:
   - releases
