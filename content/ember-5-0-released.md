@@ -93,6 +93,9 @@ for more details about specific deprecations and how to resolve them.
 Applications that need to upgrade through several versions may want to
 consider isolating individual deprecations by using
 [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow).
+    - *Note:* If you see a deprecation for `@ember/string`, please review the
+[deprecation guide for importing from @ember/string without @ember/string as a dependency](https://deprecations.emberjs.com/v4.x#toc_ember-string-add-package) for instructions.
+There is a known bug in the implementation of this deprecation.
 4. Make sure your app builds successfully and your test suite passes with no
    deprecations.
 5. Upgrade your app to Ember 5.0. Again,
