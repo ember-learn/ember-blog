@@ -130,11 +130,11 @@ This release drops support for Node 14. Node 14 became end of life (it no longer
 
 #### Bug Fixes
 
-Ember.js 5.0 introduced 0 bug fixes.
+Ember.js 5.0 introduced 4 bug fixes in the preview types.
 
 #### Features
 
-Ember.js 5.0 introduced 2 features.
+Ember.js 5.0 introduced no new features.
 
 
 #### Deprecations
