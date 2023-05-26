@@ -21,11 +21,13 @@ Today the Ember project is releasing version 5.0 of Ember.js, Ember Data, and Em
 
 <!-- TODO - need a nice catchy intro that newsletters can copy paste -->
 
-This is the first major release under the new release strategy and goals proposed in [RFC 830, Evolving Ember's Major Version Process](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process). 
-To summarize, every 12 minor releases, Ember will ship a new major release, which removes any deprecated code targeted for that major version. 
+This is the first major release under the new release strategy and goals proposed in [RFC 830, Evolving Ember's Major Version Process](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process).
+To summarize, every 12 minor releases, Ember will ship a new major release, which removes any
+deprecated code targeted for that major version.
 When it comes to introducing new features, Ember generally aims to ship new features in minor releases, offering backwards compatibility for existing code at the same time as giving developers the chance to try out new capabilities.
 This approach reduces the challenges that teams face for major upgrades, compared to producing big, breaking, splashy major versions with lots of new features.
 
+<!-- alex ignore retext-equality -->
 In Ember 4.x minor releases, we landed a bunch of features (along with various bug fixes, of course):
 
 - In [Ember 4.1](https://blog.emberjs.com/ember-4-1-released/), we shipped a bunch of quality-of-life improvements:
@@ -36,6 +38,7 @@ In Ember 4.x minor releases, we landed a bunch of features (along with various b
 - In [Ember 4.4](https://blog.emberjs.com/ember-released-4-4/), we shipped a `{{unique-id}}` helper to make it easier to write accessible forms and made it easier to customize tests with improved blueprints for `setupTest`.
 
 - In [Ember 4.5](https://blog.emberjs.com/ember-4-5-released/), we made it possible to use plain old JavaScript functions as helpers: no need to wrap them with `helper()` any more!
+    <!-- alex ignore retext-equality -->
     We also shipped a new testing primitive, `renderSettled`, which lets you wait for when Ember has re-rendered but *other* promises are still in flight—handy for testing your loading spinners, for example.
 
 - In [Ember 4.8](https://blog.emberjs.com/ember-4-8-released/), we shipped a preview of our native TypeScript support, starting out with hand-authored types.
@@ -89,7 +92,7 @@ Follow these steps in order:
    [general Ember upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself)
    has more details about how to upgrade your Ember app/addon.
 2. Make sure your app builds successfully.
-3. Resolve all deprecation warnings. These Deprecated APIs are removed in Ember 5.0. You may need to upgrade some of your addon dependencies if they are using deprecated APIs. 
+3. Resolve all deprecation warnings. These Deprecated APIs are removed in Ember 5.0. You may need to upgrade some of your addon dependencies if they are using deprecated APIs.
 See the [Ember Deprecation Guide](https://deprecations.emberjs.com/)
 for more details about specific deprecations and how to resolve them.
 Applications that need to upgrade through several versions may want to
@@ -213,7 +216,7 @@ While it is recommended to keep Ember CLI versions in sync with Ember and Ember 
 
 #### Bug Fixes
 
-- `minifyCSS` behavior was extracted to an addon, `ember-cli-clean-css`, that is now included in the default blueprint. This addon version currently uses an old version of `clean-css` so as to exactly match the previous built-in behavior. If you upgrade the addon (and thus `clean-css`) be aware that your built CSS may change. 
+- `minifyCSS` behavior was extracted to an addon, `ember-cli-clean-css`, that is now included in the default blueprint. This addon version currently uses an old version of `clean-css` so as to exactly match the previous built-in behavior. If you upgrade the addon (and thus `clean-css`) be aware that your built CSS may change.
 
 #### Features
 
@@ -224,12 +227,13 @@ Ember CLI 5.0 introduced 0 features.
 Ember CLI 5.0 introduced 0 deprecations.
 Ember CLI 5.0 removed features and APIs that were deprecated in 4.x or earlier, please see the [Deprecation guide](https://deprecations.emberjs.com/ember-cli/v4.x) for more information:
 
-- Removed the `blacklist` and `whitelist` build options, they have been renamed to `exclude` and `include`. 
-- Removed various `bower` related APIs 
+- Removed the `blacklist` and `whitelist` build options, they have been renamed to `exclude` and `include`.
+- Removed various `bower` related APIs
 - Removed support for `ember-cli-jshint`
 - Removed the `vendor-shim` blueprint in favor of `ember-auto-import`
 - Removed support for `baseURL` environment option ([deprecated way back in v2.7](https://deprecations.emberjs.com/ember-cli/v2.x#toc_base-url))
 
+<!-- alex ignore retext-equality -->
 A special thanks to Bert De Block for [singlehandedly cleaning up `ember-cli` for v5.0](https://github.com/ember-cli/ember-cli/issues/10163)
 For more details on the changes in Ember CLI 5.0 and detailed upgrade
 instructions, please review the [Ember CLI 5.0.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.0.0).
