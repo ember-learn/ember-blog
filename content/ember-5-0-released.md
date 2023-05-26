@@ -17,7 +17,7 @@ tags:
   - version-5-x
 ---
 
-Today the Ember project is releasing version 5.0 of Ember.js, Ember Data, and Ember CLI. This post will cover our release strategy, how to upgrade, what to expect, and deprecated APIs that were removed.
+Today the Ember project is releasing version 5.0 of Ember.js, EmberData, and Ember CLI. This post will cover our release strategy, how to upgrade, what to expect, and deprecated APIs that were removed.
 
 <!-- TODO - need a nice catchy intro that newsletters can copy paste -->
 
@@ -60,7 +60,7 @@ We also made significant strides in key parts of the ecosystem outside the core 
 
 - We [shipped Glint 1.0](https://blog.emberjs.com/glint-1-0-released/), providing top-notch editor tooling for Ember's Handlebars templates in both JavaScript and TypeScript code bases, powered by TypeScript under the hood.
 
-- Ember Data [massively improved performance](https://blog.emberjs.com/ember-released-4-7/) and [laid a foundation](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/) for a total overhaul in the 5.x series.
+- EmberData [massively improved performance](https://blog.emberjs.com/ember-released-4-7/) and [laid a foundation](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/) for a total overhaul in the 5.x series.
 
 Ember 5.0 has no new features, because we did all that work in minor releases instead.
 
@@ -171,28 +171,37 @@ For more details on changes in Ember.js 5.0, please review the [Ember.js 5.0.0 r
 
 ---
 
-## Ember Data
+## EmberData
 
-Ember Data is the official data persistence library for Ember.js applications.
+EmberData is the official data persistence library for Ember.js applications.
 
-To learn about the motivation and goals for changes to Ember Data between 4.x and 5.x, check out the [blog post, EmberData 5.X Update](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/).
+EmberData 4.12 will remain an actively supported LTS for the entire duration of the 5.x cycle, extending until the first 6.x LTS is released. This is in addition to our regular LTS support policy, and only applies to the EmberData project.
 
-### Changes in Ember Data 5.0
+This support extends beyond simple bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is simple: we want no one left behind.
+
+To learn about the motivation and goals for upcoming changes to EmberData in 5.x, 
+read the [blog post, EmberData 5.X Update](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/).
+This will help you form the mental model of what to expect across the 5.x series.
+
+The sections below will provide a high-level summary of what has changed between
+EmberData 4.12 and 5.0.
+
+### Changes in EmberData 5.0
 
 #### Bug Fixes
 
-Ember Data 5.0 introduced 0 bug fixes.
+EmberData 5.0 introduced 0 bug fixes.
 
 #### Features
 
-Ember Data 5.0 introduced 0 features.
+EmberData 5.0 introduced 0 features.
 
 #### Deprecations
 
-Ember Data 5.0 introduced 0 deprecations.
+EmberData 5.0 introduced 0 deprecations.
 
-For more details on changes in Ember Data 5.0, please review the
-[Ember Data 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.0.0).
+For more details on changes in EmberData 5.0, please review the
+[EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.0.0).
 
 ---
 
@@ -210,7 +219,7 @@ npx ember-cli-update
 
 This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
 
-While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
+While it is recommended to keep Ember CLI versions in sync with Ember and EmberData, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or EmberData by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
 ### Changes in Ember CLI 5.0
 
