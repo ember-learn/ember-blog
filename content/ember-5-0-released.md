@@ -246,7 +246,7 @@ Use `store.modelFor(<modelName>)` instead.
 - `pushData` for v1 caches - use `upsert` instead
 - `clientDidCreate`
 - `setDirtyAttribute` - use `setAttr` instead
-- `changedAttributes` - use `changedAttrs` instead
+- `Cache.changedAttributes` - use `changedAttrs` instead
 - `hasChangedAttributes` - use `hasChangedAttrs`
 - `rollbackAttributes`- use `rollbackAttrs`
 - `getBelongsTo` and `getHasMany` - use `getRelationship`
