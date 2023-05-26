@@ -198,7 +198,63 @@ EmberData 5.0 introduced 0 features.
 
 #### Deprecations
 
-EmberData 5.0 introduced 0 deprecations.
+EmberData 5.0 introduced 0 deprecations. It removed all deprecations that were
+introduced before 4.10 and slated for removal in 5.0.
+
+EmberData 5.0 removes five features deprecated during 4.x:
+
+- `relationshipsDefinitionFor` - Use `wrapper.getSchemaDefinitionService().relationshipsDefinitionFor()`
+  instead.
+- `attributesDefinitionFor` - Use `wrapper.getSchemaDefinitionService().attributesDefinitionFor()`    
+  instead.
+- `isRecordInUse` - Use `hasRecord` instead.
+- `notifyPropertyChange`, `notifyHasManyChange`, `notifyBelongsToChange`, 
+`notifyErrorsChange`, and `notifyStateChange` - Use `notifyChange` instead.
+- `recordDataFor` - `RecordData` has become `Cache`, and `Cache` is always
+a singleton. This method is no longer needed, as the caller is its own cache reference.
+- `errorsHashToArray`
+- `errorsArrayToHash`
+- If a Promise did not resolve by the time the store was destroyed, EmberData did
+not error. In 5.0, this situation will now error.
+- Using `SnapshotRecordArray.type` and `Snapshot.type` to access the ModelClass for a record is removed.
+Use `store.modelFor(<modelName>)` instead.
+- Accessing schema information on Models without looking up the model via the store is disallowed. Use `store.modelFor`, `Snapshots`, or the `store.getSchemaDefinitionService()` apis instead.
+- `Model.reopen`- Use `MyCustomClassName extends Model` to extend your class instead.
+- Using `A()` on an EmberData PromiseManyArray`
+- Promise proxies have been removed. That means that a variety of helper methods on `PromiseManyArray` are removed as well in favor of using native Promises and array methods. Await the Promise and work with the `ManyArray` directly instead.
+  - `createRecord`
+  - `firstObject`
+  - `lastObject`
+  - `addObserver`
+  - `cacheFor`
+  - `decrementProperty`
+  - `get`
+  - `getProperties`
+  - ...and more
+- `normalizeModelName` - use model names that are already normalized, or use string helpers of your own.
+- Providing a string to `attributesDefinitionFor` or `relationshipsDefinitionFor` - provide a record identifier or an argument of shape `{ type: string }` instead
+- `getResourceIdentifier` for v1 caches
+- `pushData` for v1 caches - use `upsert` instead
+- `clientDidCreate`
+- `setDirtyAttribute` - use `setAttr` instead
+- `changedAttributes` - use `changedAttrs` instead
+- `hasChangedAttributes` - use `hasChangedAttrs`
+- `rollbackAttributes`- use `rollbackAttrs`
+- `getBelongsTo` and `getHasMany` - use `getRelationship`
+- `setDirtyBelongsTo`, `addToHasMany`, `removeFromHasMany` - use `update`
+- `setDirtyHasMany` - use `setHasMany`
+
+
+<!-- TODO 
+- DEPRECATE_V1_RECORD_DATA
+- DEPRECATE_RELATIONSHIPS_WITHOUT_TYPE ember-data:deprecate-non-strict-relationships
+- DEPRECATE_RELATIONSHIPS_WITHOUT_ASYNC ember-data:deprecate-non-strict-relationships
+- DEPRECATE_RELATIONSHIPS_WITHOUT_INVERSE `ember-data:deprecate-non-strict-relationships`
+- ember-data:model-save-promise
+- DEPRECATE_PROMISE_PROXIES ember-data:deprecate-promise-proxies
+- ember-data:deprecate-v1-cache
+- ember-data:deprecate-array-like
+-->
 
 For more details on changes in EmberData 5.0, please review the
 [EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.0.0).
