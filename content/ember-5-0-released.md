@@ -205,7 +205,12 @@ EmberData 5.0 introduced 0 features.
 EmberData 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.10 and slated for removal in 5.0.
 
-EmberData 5.0 removes many features deprecated during 4.x:
+#### API removals
+
+Below we've listed some of the most significant API removals in EmberData 5.0.
+For an exhaustive list of removals, see the EmberData 4.x deprecation guide.
+<!-- TODO link to the deprecation guide once it is up. Pare down this
+list to show only the highlights -->
 
 - `relationshipsDefinitionFor` - Use `wrapper.getSchemaDefinitionService().relationshipsDefinitionFor()`
   instead.
