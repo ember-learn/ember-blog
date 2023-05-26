@@ -179,7 +179,7 @@ EmberData 4.12 will remain an actively supported LTS for the entire duration of 
 
 This support extends beyond bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is taht we want no one left behind.
 
-To learn about the motivation and goals for upcoming changes to EmberData in 5.x, 
+To learn about the motivation and goals for upcoming changes to EmberData in 5.x,
 read the [blog post, EmberData 5.X Update](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/).
 <!-- alex ignore retext-equality -->
 This will help you form the mental model of what to expect across the 5.x series,
@@ -214,10 +214,10 @@ list to show only the highlights -->
 
 - `relationshipsDefinitionFor` - Use `wrapper.getSchemaDefinitionService().relationshipsDefinitionFor()`
   instead.
-- `attributesDefinitionFor` - Use `wrapper.getSchemaDefinitionService().attributesDefinitionFor()`    
+- `attributesDefinitionFor` - Use `wrapper.getSchemaDefinitionService().attributesDefinitionFor()`
   instead.
 - `isRecordInUse` - Use `hasRecord` instead.
-- `notifyPropertyChange`, `notifyHasManyChange`, `notifyBelongsToChange`, 
+- `notifyPropertyChange`, `notifyHasManyChange`, `notifyBelongsToChange`,
 `notifyErrorsChange`, and `notifyStateChange` - Use `notifyChange` instead.
 - `recordDataFor` - `RecordData` has become `Cache`, and `Cache` is always
 a singleton. This method is no longer needed, as the caller is its own cache reference.
@@ -231,15 +231,15 @@ Use `store.modelFor(<modelName>)` instead.
 - `Model.reopen`- Use `MyCustomClassName extends Model` to extend your class instead.
 - Using `A()` on an EmberData PromiseManyArray`
 - Promise proxies have been removed. That means that a variety of helper methods on `PromiseManyArray` are removed as well in favor of using native Promises and array methods. Await the Promise and work with the `ManyArray` directly instead.
-  - `createRecord`
-  - `firstObject`
-  - `lastObject`
-  - `addObserver`
-  - `cacheFor`
-  - `decrementProperty`
-  - `get`
-  - `getProperties`
-  - ...and more
+    - `createRecord`
+    - `firstObject`
+    - `lastObject`
+    - `addObserver`
+    - `cacheFor`
+    - `decrementProperty`
+    - `get`
+    - `getProperties`
+    - ...and more
 - `normalizeModelName` - use model names that are already normalized, or use string helpers of your own.
 - Providing a string to `attributesDefinitionFor` or `relationshipsDefinitionFor` - provide a record identifier or an argument of shape `{ type: string }` instead
 - `getResourceIdentifier` for v1 caches
