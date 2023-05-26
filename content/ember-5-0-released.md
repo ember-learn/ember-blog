@@ -177,11 +177,13 @@ EmberData is the official data persistence library for Ember.js applications.
 
 EmberData 4.12 will remain an actively supported LTS for the entire duration of the 5.x cycle, extending until the first 6.x LTS is released. This is in addition to our regular LTS support policy, and only applies to the EmberData project.
 
-This support extends beyond simple bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is simple: we want no one left behind.
+This support extends beyond bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is taht we want no one left behind.
 
 To learn about the motivation and goals for upcoming changes to EmberData in 5.x, 
 read the [blog post, EmberData 5.X Update](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/).
-This will help you form the mental model of what to expect across the 5.x series.
+<!-- alex ignore retext-equality -->
+This will help you form the mental model of what to expect across the 5.x series,
+and understand deprecation removals in the context of the upcoming goals.
 
 The sections below will provide a high-level summary of what has changed between
 EmberData 4.12 and 5.0.
@@ -191,17 +193,19 @@ EmberData 4.12 and 5.0.
 #### Bug Fixes
 
 EmberData 5.0 introduced 0 bug fixes.
+<!-- TODO after changelog is done -->
 
 #### Features
 
 EmberData 5.0 introduced 0 features.
+<!-- TODO after changelog is done -->
 
 #### Deprecations
 
 EmberData 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.10 and slated for removal in 5.0.
 
-EmberData 5.0 removes five features deprecated during 4.x:
+EmberData 5.0 removes many features deprecated during 4.x:
 
 - `relationshipsDefinitionFor` - Use `wrapper.getSchemaDefinitionService().relationshipsDefinitionFor()`
   instead.
