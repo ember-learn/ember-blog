@@ -177,7 +177,7 @@ EmberData is the official data persistence library for Ember.js applications.
 
 EmberData 4.12 will remain an actively supported LTS for the entire duration of the 5.x cycle, extending until the first 6.x LTS is released. This is in addition to our regular LTS support policy, and only applies to the EmberData project.
 
-This support extends beyond bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is taht we want no one left behind.
+This support extends beyond bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is that we want no one left behind.
 
 To learn about the motivation and goals for upcoming changes to EmberData in 5.x,
 read the [blog post, EmberData 5.X Update](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/).
