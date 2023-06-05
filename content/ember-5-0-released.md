@@ -1,5 +1,5 @@
 ---
-title: Ember 5 0 Released
+title: Ember 5.0 Released
 image:
 imageMeta:
   attribution:
