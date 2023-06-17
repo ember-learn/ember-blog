@@ -194,22 +194,29 @@ EmberData 4.12 and 5.0.
 
 EmberData 5.0 introduced 0 bug fixes.
 <!-- TODO after changelog is done -->
+EmberData 5.0 introduced 7 bug fixes:
+
+- [#8621](https://github.com/emberjs/data/pull/8621) - `normalizeErrorResponse` will provide serialized JSON instead of `[object Object]` if an object is part of the return.
+- [#8598](https://github.com/emberjs/data/pull/8598) - api docs generation should maintain a stable relative path, fixing `Edit on Github` and `Defined in:` links.
+- [#8566](https://github.com/emberjs/data/pull/8566) - previously, an identity notification was being triggered unnecessarily every time a record was saved.
+- [#8597](https://github.com/emberjs/data/pull/8597) - this fix ensures that promise caches are not shared among different fields.
+- [#8594](https://github.com/emberjs/data/pull/8594) - regression that caused the Store class to no longer extend from EmberObject has been fixed.
+- [#8570](https://github.com/emberjs/data/pull/8570) - fixes an issue where the entire RecordArray was being cleared, even if the remaining record did not match the record that was removed.
+- [#8555](https://github.com/emberjs/data/pull/8555) - fixes polymorphic assertions when deprecated code is removed and improves polymorphic developer experience.
 
 #### Features
 
 EmberData 5.0 introduced 0 features.
-<!-- TODO after changelog is done -->
 
 #### Deprecations
 
 EmberData 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.10 and slated for removal in 5.0.
 
-#### API removals
-
 Below we've listed some of the most significant API removals in EmberData 5.0.
-For an exhaustive list of removals, see the EmberData 4.x deprecation guide.
-<!-- TODO link to the deprecation guide once it is up. Pare down this
+For an exhaustive list of removals, see the [EmberData 4.x deprecation guide](https://deprecations.emberjs.com/ember-data/v4.x) and [#8550](https://github.com/emberjs/data/pull/8550).
+
+<!-- Pare down this
 list to show only the highlights -->
 
 - `relationshipsDefinitionFor` - Use `wrapper.getSchemaDefinitionService().relationshipsDefinitionFor()`
