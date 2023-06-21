@@ -212,67 +212,7 @@ EmberData 5.0 introduced 0 features.
 EmberData 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.12 and slated for removal in 5.0.
 
-Below we've listed some of the most significant API removals in EmberData 5.0.
-For an exhaustive list of removals, see the [EmberData 4.x deprecation guide](https://deprecations.emberjs.com/ember-data/v4.x) and [#8550](https://github.com/emberjs/data/pull/8550).
-
-<!-- Pare down this
-list to show only the highlights -->
-
-- `relationshipsDefinitionFor` - Use `wrapper.getSchemaDefinitionService().relationshipsDefinitionFor()`
-  instead.
-- `attributesDefinitionFor` - Use `wrapper.getSchemaDefinitionService().attributesDefinitionFor()`
-  instead.
-- `isRecordInUse` - Use `hasRecord` instead.
-- `notifyPropertyChange`, `notifyHasManyChange`, `notifyBelongsToChange`,
-`notifyErrorsChange`, and `notifyStateChange` - Use `notifyChange` instead.
-- `recordDataFor` - `RecordData` has become `Cache`, and `Cache` is always
-a singleton. This method is no longer needed, as the caller is its own cache reference.
-- `errorsHashToArray`
-- `errorsArrayToHash`
-- If a Promise did not resolve by the time the store was destroyed, EmberData did
-not error. In 5.0, this situation will now error.
-- Using `SnapshotRecordArray.type` and `Snapshot.type` to access the ModelClass for a record is removed.
-Use `store.modelFor(<modelName>)` instead.
-- Accessing schema information on Models without looking up the model via the store is disallowed. Use `store.modelFor`, `Snapshots`, or the `store.getSchemaDefinitionService()` apis instead.
-- `Model.reopen`- Use `MyCustomClassName extends Model` to extend your class instead.
-- Using `A()` on an EmberData `PromiseManyArray`
-- Promise proxies have been removed. That means that a variety of helper methods on `PromiseManyArray` are removed as well in favor of using native Promises and array methods. Await the Promise and work with the `ManyArray` directly instead.
-    - `createRecord`
-    - `firstObject`
-    - `lastObject`
-    - `addObserver`
-    - `cacheFor`
-    - `decrementProperty`
-    - `get`
-    - `getProperties`
-    - ...and more
-- `normalizeModelName` - use model names that are already normalized, or use string helpers of your own.
-- Providing a string to `attributesDefinitionFor` or `relationshipsDefinitionFor` - provide a record identifier or an argument of shape `{ type: string }` instead
-- `getResourceIdentifier` for v1 caches
-- `pushData` for v1 caches - use `upsert` instead
-- `clientDidCreate`
-- `setDirtyAttribute` - use `setAttr` instead
-- `Cache.changedAttributes` - use `changedAttrs` instead
-- `hasChangedAttributes` - use `hasChangedAttrs`
-- `rollbackAttributes`- use `rollbackAttrs`
-- `getBelongsTo` and `getHasMany` - use `getRelationship`
-- `setDirtyBelongsTo`, `addToHasMany`, `removeFromHasMany` - use `update`
-- `setDirtyHasMany` - use `setHasMany`
-- `DEPRECATE_V1_RECORD_DATA` - Instantiating a non-singleton cache via `store.createRecordDataFor` is deprecated in favor of a singleton-cache via `store.createCache`
-- `DEPRECATE_RELATIONSHIPS_WITHOUT_TYPE` - Deprecates when belongsTo and hasMany relationships are defined without specifying the inverse record's type.
-- `DEPRECATE_RELATIONSHIPS_WITHOUT_ASYNC` - Deprecates when belongsTo and hasMany relationships are defined without specifying whether the relationship is asynchronous.
-- `DEPRECATE_RELATIONSHIPS_WITHOUT_INVERSE` - Deprecates when belongsTo and hasMany relationships are defined without specifying the inverse field on the related type.
-- `DEPRECATE_SAVE_PROMISE_ACCESS` - Deprecates the promise-proxy returned by these methods in favor of a Promise return value. To resolve this deprecation, await or .then the return value before doing work with the result instead of accessing values via the proxy.
--
-- `DEPRECATE_PROMISE_PROXIES` - Deprecates using the proxy object/proxy array capabilities of values returned from the following methods. These methods will now return a native Promise that resolves with the value:
-  - store.findRecord
-  - store.findAll
-  - store.query
-  - store.queryRecord
-  - record.save
-  - recordArray.save
-  - recordArray.update
-- `DEPRECATE_ARRAY_LIKE` - Use of Ember "Array-like" methods on `RecordArray` and `ManyArray` is deprecated. These are the arrays returned respectively by `store.peekAll()`, `store.findAll()` and `hasMany` relationships on instance of `Model` or `record.hasMany('relationshipName').value()`. The appropriate refactor is to treat these arrays as native arrays and to use native array methods.
+There were more than 20 deprecation removals in 5.0 so we will not detail them in this post. Instead, for an exhaustive list of removals, see the [EmberData 4.x deprecation guide](https://deprecations.emberjs.com/ember-data/v4.x) and [#8550](https://github.com/emberjs/data/pull/8550).
 
 For more details on changes in EmberData 5.0, please review the
 [EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.0.0).
