@@ -58,7 +58,7 @@ We also made significant strides in key parts of the ecosystem outside the core 
     That includes [ESLint integration](https://github.com/ember-cli/eslint-plugin-ember) and [a Prettier plugin](https://github.com/gitKrystan/prettier-plugin-ember-template-tag), as well as [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) support!
     We expect to recommend `<template>` as the default authoring format during Ember 5.x.
 
-- We [shipped Glint 1.0](https://blog.emberjs.com/glint-1-0-released/), providing top-notch editor tooling for Ember's Handlebars templates in both JavaScript and TypeScript code bases, powered by TypeScript under the hood.
+- We [shipped Glint 1.0](https://blog.emberjs.com/glint-1-0-released/), providing top-notch editor tooling for Ember's templates in both JavaScript and TypeScript code bases, powered by TypeScript under the hood.
 
 - EmberData [massively improved performance](https://blog.emberjs.com/ember-released-4-7/) and [laid a foundation](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/) for a total overhaul in the 5.x series.
 
