@@ -53,7 +53,7 @@ In Ember 4.x minor releases, we landed a bunch of features (along with various b
 
 We also made significant strides in key parts of the ecosystem outside the core framework itself over the past 18 months:
 
-- We committed to shipping a new component format using `<template>` tags to get the best parts of “single-file components” and formats like JSX, while keeping the best parts of Ember’s declarative Handlebars templates.
+- We committed to shipping a new component format using `<template>` tags to get the best parts of “single-file components” and formats like JSX, while keeping the best parts of Ember’s declarative templates.
     We shipped support for `<template>` tags in `.gjs` and `.gts` files over the course of 2022.
     That includes [ESLint integration](https://github.com/ember-cli/eslint-plugin-ember) and [a Prettier plugin](https://github.com/gitKrystan/prettier-plugin-ember-template-tag), as well as [ember-template-lint](https://github.com/ember-template-lint/ember-template-lint) support!
     We expect to recommend `<template>` as the default authoring format during Ember 5.x.
