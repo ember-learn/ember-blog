@@ -212,7 +212,7 @@ EmberData 5.0 introduced 0 features.
 EmberData 5.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 4.12 and slated for removal in 5.0.
 
-There were more than 20 deprecation removals in 5.0 so we will not detail them in this post. Instead, for an exhaustive list of removals, see the [EmberData 4.x deprecation guide](https://deprecations.emberjs.com/ember-data/v4.x) and [#8550](https://github.com/emberjs/data/pull/8550).
+There were more than 20 deprecation removals in 5.0 so we will not detail them in this post. Instead, for an exhaustive list of removals, see the [EmberData 4.x deprecation guide](https://deprecations.emberjs.com/ember-data/v4.x), the corresponding Ember Data API docs [CurrentDeprecations list](https://api.emberjs.com/ember-data/4.12/classes/CurrentDeprecations/properties) and [#8550](https://github.com/emberjs/data/pull/8550). You can also follow the instructions [here](https://api.emberjs.com/ember-data/4.12/modules/@ember-data%2Fdeprecations) for learning about how to opt-in and remove code that exists to support deprecated behaviors.
 
 For more details on changes in EmberData 5.0, please review the
 [EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.0.0).
