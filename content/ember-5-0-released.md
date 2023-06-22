@@ -10,7 +10,7 @@ authors:
   - chris-krycho
   - katie-gengler
   - jared-galanis
-date: Mon May 15 2023 14:29:48 GMT-0400 (Eastern Daylight Time)
+date: Thurs June 22 2023 20:00:00 GMT-0400 (Eastern Daylight Time)
 tags:
   - releases
   - '2023'
@@ -87,13 +87,15 @@ recommend upgrading in steps across the LTS versions: 4.4, 4.8, and then 4.12.
 
 Follow these steps in order:
 
-1. Upgrade your project to the latest patch version of Ember 4.12.
+1. Consider [upgrading addons used in your app](https://cli.emberjs.com/release/basic-use/upgrading/#upgradingaddondependencies)
+   to the latest version that you can. This will reduce the uses of deprecated APIs in your dependencies.
+2. Upgrade your project to the latest patch version of Ember 4.12.
    Many developers can do this by running
    `npx ember-cli-update --to 4.12`. The
    [general Ember upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself)
    has more details about how to upgrade your Ember app/addon.
-2. Make sure your app builds successfully.
-3. Resolve all deprecation warnings. These Deprecated APIs are removed in Ember 5.0. You may need to upgrade some of your addon dependencies if they are using deprecated APIs.
+3. Make sure your app builds successfully.
+4. Resolve all deprecation warnings. These Deprecated APIs are removed in Ember 5.0. You may need to upgrade some of your addon dependencies if they are using deprecated APIs.
 See the [Ember Deprecation Guide](https://deprecations.emberjs.com/)
 for more details about specific deprecations and how to resolve them.
 Applications that need to upgrade through several versions may want to
@@ -102,9 +104,9 @@ consider isolating individual deprecations by using
     - *Note:* If you see a deprecation for `@ember/string`, please review the
 [deprecation guide for importing from @ember/string without @ember/string as a dependency](https://deprecations.emberjs.com/v4.x#toc_ember-string-add-package) for instructions.
 There is a known bug in the implementation of this deprecation.
-4. Make sure your app builds successfully and your test suite passes with no
+5. Make sure your app builds successfully and your test suite passes with no
    deprecations.
-5. Upgrade your app to Ember 5.0. Again,
+6. Upgrade your app to Ember 5.0. Again,
    many developers can do this by running
    `npx ember-cli-update --to 5.0`. Refer to the
    [general Ember upgrade guide](https://cli.emberjs.com/release/basic-use/upgrading/#upgradinganemberappitself)
