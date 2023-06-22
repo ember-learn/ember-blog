@@ -17,7 +17,7 @@ tags:
   - version-5-x
 ---
 
-EmberJS 5.0 embodies the commitment to stability and reliability that developers have come to expect from the Ember ecosystem. The Ember team has worked hard to remove all the depractions and make us move towards Polaris. Get up-to-date with the latest in Ember and enjoy!
+EmberJS 5.0 embodies the commitment to stability and reliability that developers have come to expect from the Ember ecosystem. The Ember team has worked hard to remove all the deprecations and make us move towards Polaris. Get up-to-date with the latest in Ember and enjoy!
 
 <!-- TODO - need a nice catchy intro that newsletters can copy paste -->
 
