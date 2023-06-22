@@ -19,7 +19,7 @@ tags:
 
 EmberJS 5.0 embodies the commitment to stability and reliability that developers have come to expect from the Ember ecosystem. The Ember team has worked hard to remove all the deprecations and make us move towards Polaris. Get up-to-date with the latest in Ember and enjoy!
 
-<!-- TODO - need a nice catchy intro that newsletters can copy paste -->
+This post will cover our release strategy, how to upgrade, what to expect, and deprecated APIs that were removed.
 
 This is the first major release under the new release strategy and goals proposed in [RFC 830, Evolving Ember's Major Version Process](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process).
 To summarize, every 12 minor releases, Ember will ship a new major release, which removes any
@@ -111,8 +111,6 @@ There is a known bug in the implementation of this deprecation.
    for more details about how to upgrade your Ember app/addon.
 
 For help or advice along the way, visit [Ember's forums or chat groups](https://emberjs.com/community/).
-
-<!-- TODO - do we need to mention anything here about htmlbars, fastboot, embroider, or ember-auto-import? -->
 
 ## The journey towards Ember Polaris
 
