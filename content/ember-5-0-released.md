@@ -17,7 +17,7 @@ tags:
   - version-5-x
 ---
 
-Today the Ember project is releasing version 5.0 of Ember.js, EmberData, and Ember CLI. This post will cover our release strategy, how to upgrade, what to expect, and deprecated APIs that were removed.
+EmberJS 5.0 embodies the commitment to stability and reliability that developers have come to expect from the Ember ecosystem. The Ember team has worked hard to remove all the depractions and make us move towards Polaris. Get up-to-date with the latest in Ember and enjoy!
 
 <!-- TODO - need a nice catchy intro that newsletters can copy paste -->
 
