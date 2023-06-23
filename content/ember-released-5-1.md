@@ -32,11 +32,15 @@ Ember.js 5.1 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug Fixes
 
-Ember.js 5.1 introduced 0 bug fixes.
+Ember.js 5.1 introduced 1 bug fix:
+
+- [#20461](https://github.com/emberjs/ember.js/pull/20461) Fix a cyclic module crash when using Ember Engines and Ember FastBoot.
 
 #### Features
 
-Ember.js 5.1 introduced 0 features.
+Ember.js 5.1 introduced 1 feature:
+
+- [#20449](https://github.com/emberjs/ember.js/pull/20449) Publish stable TypeScript types built from Ember's source.
 
 #### Deprecations
 
