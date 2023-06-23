@@ -10,12 +10,14 @@ authors:
   - chris-krycho
   - katie-gengler
   - jared-galanis
-date: Thurs June 22 2023 20:00:00 GMT-0400 (Eastern Daylight Time)
+date: 2023-06-22T20:00:00.000Z
 tags:
   - releases
   - '2023'
   - version-5-x
 ---
+
+![Ember 5 is here! Ember mascots Tomster and Zoey have their party gear.](/images/blog/ember-5-is-here.png)
 
 EmberJS 5.0 embodies the commitment to stability and reliability that developers have come to expect from the Ember ecosystem. The Ember team has worked hard to remove all the deprecations and make us move towards Polaris. Get up-to-date with the latest in Ember and enjoy!
 
