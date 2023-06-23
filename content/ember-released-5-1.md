@@ -26,6 +26,10 @@ You can read more about our general release process here:
 
 Ember.js is the core framework for building ambitious web applications.
 
+The headlining feature of this release is stable [TypeScript](https://www.typescriptlang.org) support! 🎉 The framework now publishes TypeScript types built from Ember's own source code, with Ember's [strong Semantic Versioning commitment](https://emberjs.com/releases/) baked in—bringing benefits for both TypeScript and JavaScript users. For details, check out [the accompanying blog post][stable-ember-types].
+
+[stable-ember-types]: https://blog.emberjs.com/stable-typescript-types-in-ember-5-1
+
 ### Changes in Ember.js 5.1
 
 Ember.js 5.1 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
