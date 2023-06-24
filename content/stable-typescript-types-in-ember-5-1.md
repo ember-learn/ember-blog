@@ -43,7 +43,10 @@ This is all that is necessary to unlock autocomplete and in-editor documentation
 
 ### TypeScript
 
-For a new TypeScript project, the setup is similar, but has some additional steps for now. In the future, these steps will not be necessary. For now, the default TypeScript blueprint continues to set up users for maximum backward compatibility with the rest of the Ember ecosystem.
+Using the stable types in a new TypeScript projects is similar to setting it up for JavaScript, but has a few additional steps. To provide maximum backward compatibility with the rest of the Ember ecosystem, the default TypeScript blueprint still uses the `@types` packages, and configures those packages to use Array prototype extensions. Both of these are incompatible with the stable types, so we need to remove them! In the future, once we can switch to defaulting to using the stable types in the default blueprint, these extra steps will not be necessary.
+
+(For details on migrating *existing* Ember TypeScript projects, see the [Migration Guide](#toc_migration-guide) below as well.)
+
 
 First, in `types/<your-app>/index.d.ts`, you will likely have something like this:
 
@@ -92,8 +95,6 @@ Finally, you will need to remove the following packages from your `package.json`
 - `@types/ember__template`
 - `@types/ember__test`
 - `@types/ember__utils`
-
-For details on migrating existing Ember TypeScript projects, see the [Migration Guide](#toc_migration-guide) below!
 
 That's all you need to do to enjoy the new TypeScript support!
 
