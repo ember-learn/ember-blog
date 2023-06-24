@@ -96,22 +96,20 @@ Finally, you will need to remove the following packages from your `package.json`
 - `@types/ember__test`
 - `@types/ember__utils`
 
-That's all you need to do to enjoy the new TypeScript support!
+That's all you need to do to enjoy the new TypeScript support! However, there are a couple important caveats you should know about.
 
 
 ## Caveats
 
-However, there are a couple important caveats you should know about.
+**First, and most importantly, these new types are not compatible with the existing `@types` definitions for Ember Data.** Unfortunately, Ember Data's hand-written type definitions rely in a number of key areas on some of the mistakes in the `@types` packages for Ember—mistakes that are fixed by using types published from Ember's own source code. So far, the Ember Data team has had too few contributors to make fixing this a top priority. We made the choice to go ahead and publish these stable types from Ember anyway for two reasons:
 
-1. These new types are not compatible with the existing `@types` definitions for Ember Data. Unfortunately, Ember Data's hand-written type definitions rely in a number of key areas on some of the mistakes in the `@types` packages for Ember—mistakes that are fixed by using types published from Ember's own source code. So far, the Ember Data team has had too few contributors to make fixing this a top priority. We made the choice to go ahead and publish these stable types from Ember anyway for two reasons:
+- While many Ember users *do* rely on Ember Data, not all do, and this makes the best possible types for Ember available to anyone who is not blocked in this way.
 
-    - While many Ember users *do* rely on Ember Data, not all do, and this makes the best possible types for Ember available to anyone who is not blocked in this way.
+- Ember Data itself can now take advantage of the Ember types! This was a long-standing chicken-or-egg problem: Ember Data could not really publish its own stable types while relying on the hand-written `@types` packages for Ember!
 
-    - Ember Data itself can now take advantage of the Ember types! This was a long-standing chicken-or-egg problem: Ember Data could not really publish its own stable types while relying on the hand-written `@types` packages for Ember!
+Happily, the two newest members of the Ember TypeScript team, Peter Wagenet and Krystan HuffMenne, are both actively interested in tackling this problem, so there will hopefully be good progress in this space in the rest of 2023. (This is a great place to chip in and help, by the way!)
 
-    Happily, the two newest members of the Ember TypeScript team, Peter Wagenet and Krystan HuffMenne, are both actively interested in tackling this problem, so there will hopefully be good progress in this space in the rest of 2023. (This is a great place to chip in and help, by the way!)
-
-2. Ember's stable types do not have full support for the Ember Classic programming model. If you rely heavily on the Ember Classic programming model, we encourage you to update your code to the Ember Octane programming model—for *many* reasons! For details on absorbing these changes in particular, see the [Migration Guide](#toc_migration-guide) below.
+**Second, Ember's stable types do not have full support for the Ember Classic programming model.** If you rely heavily on the Ember Classic programming model, we encourage you to update your code to the Ember Octane programming model—for *many* reasons! For details on absorbing these changes in particular, see the [Migration Guide](#toc_migration-guide) below.
 
 
 ## Stability
