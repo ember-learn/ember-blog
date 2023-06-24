@@ -39,7 +39,7 @@ In your `app/app.js`, add this single doc comment to the bottom of the file:
  */
 ```
 
-Now you will get autocomplete and in-editor documentation for all the `@ember/*` packages which ship with Ember with no other adjustment required!
+This is all that is necessary to unlock autocomplete and in-editor documentation for all the `@ember/*` packages which ship with Ember with no other adjustment required! Any editor configured to use the TypeScript language server for JavaScript support will "just work" once you make this change—including VS Code, where this works in a default installation.
 
 ### TypeScript
 
