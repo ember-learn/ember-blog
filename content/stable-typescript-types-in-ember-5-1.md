@@ -124,9 +124,13 @@ Because of the interop challenge with Ember Data, our TypeScript support is *Rel
 4. **Released:** The work is published. If it is codebase-related work, it is in a stable version of the relevant package(s).
 5. **Recommended:** The feature/resource is recommended for general use.
 
-Since TypeScript is *Released*, you can rely on all of our normal SemVer guarantees. Ember's types are now part of our public contract with you as a user, and they have to be maintained with the exact same care as any other part of the framework. Additionally, Chris Krycho and the rest of the Ember TypeScript team developed [a spec for Semantic Versioning for TypeScript Types][semver-ts], which allows Ember (and any other framework or library!) to define how it manages supported TypeScript versions and absorb breaking changes from TypeScript. That means it is totally safe for you to rely on these types if you are not impacted by the caveats described above!
+Since TypeScript is *Released*, you can rely on all of our normal SemVer guarantees. Ember's types are now part of our public contract with you as a user, and they have to be maintained with the exact same care as any other part of the framework. Additionally, Chris Krycho and the rest of the Ember TypeScript team developed [a spec for Semantic Versioning for TypeScript Types][semver-ts], which allows Ember (and any other framework or library) to define how it manages supported TypeScript versions and absorb breaking changes from TypeScript. That means it is totally safe for you to rely on these types if you are not impacted by the caveats described above!
 
-The only things that will change once Ember Data publishes types which are compatible with these and we can thus move to “Recommended” are:
+One specific point: as described on our [Releases](https://emberjs.com/releases/) page, the Ember framework itself uses a “rolling window” support policy for TypeScript versions. This means Ember can bump its minimum supported TypeScript version in an Ember minor release, just like it can for Node.js versions—but the supported range of TypeScript versions across two Ember LTS releases must always overlap. So if Ember 5.4 LTS supports TypeScript 4.9–5.3, Ember 5.8 LTS *could* drop support for TypeScript versions earlier than TypeScript 5.3, but must include at least TypeScript 5.3. That guarantees that users can always upgrade their TypeScript and Ember versions separately. In practice, we expect to maintain a fairly wide TypeScript version support window to minimize the impact on the ecosystem—likely (though not guaranteed to be) 4 to 6 recent TypeScript versions at any given time.
+
+Ember's initial supported TypeScript version range is TypeScript 4.9, 5.0, and 5.1.
+
+The only other things that will change once Ember Data publishes types which are compatible with these and we can thus move to “Recommended” are:
 
 - We will include the relevant doc comments or type imports automatically when creating new projects so everyone is opted into getting these types by default, whereas today you must opt in explicitly.
 
