@@ -39,6 +39,7 @@ In your `app/app.js`, add this single doc comment to the bottom of the file:
  */
 ```
 
+<!-- alex ignore just-->
 This is all that is necessary to unlock autocomplete and in-editor documentation for all the `@ember/*` packages which ship with Ember with no other adjustment required! Any editor configured to use the TypeScript language server for JavaScript support will "just work" once you make this change—including VS Code, where this works in a default installation.
 
 ### TypeScript
@@ -64,6 +65,7 @@ declare global {
 export {};
 ```
 
+<!-- alex ignore just-->
 You can replace that whole gnarly mess with just this:
 
 ```ts
@@ -125,7 +127,7 @@ Because of the interop challenge with Ember Data, our TypeScript support is *Rel
 
 Since TypeScript is *Released*, you can rely on all of our normal SemVer guarantees. Ember's types are now part of our public contract with you as a user, and they have to be maintained with the exact same care as any other part of the framework. Additionally, Chris Krycho and the rest of the Ember TypeScript team developed [a spec for Semantic Versioning for TypeScript Types][semver-ts], which allows Ember (and any other framework or library) to define how it manages supported TypeScript versions and absorb breaking changes from TypeScript. That means it is totally safe for you to rely on these types if you are not impacted by the caveats described above!
 
-One specific point: as described on our [Releases](https://emberjs.com/releases/) page, the Ember framework itself uses a “rolling window” support policy for TypeScript versions. This means Ember can bump its minimum supported TypeScript version in an Ember minor release, just like it can for Node.js versions—but the supported range of TypeScript versions across two Ember LTS releases must always overlap. So if Ember 5.4 LTS supports TypeScript 4.9–5.3, Ember 5.8 LTS *could* drop support for TypeScript versions earlier than TypeScript 5.3, but must include at least TypeScript 5.3. That guarantees that users can always upgrade their TypeScript and Ember versions separately. In practice, we expect to maintain a fairly wide TypeScript version support window to minimize the impact on the ecosystem—likely (though not guaranteed to be) 4 to 6 recent TypeScript versions at any given time.
+One specific point: as described on our [Releases](https://emberjs.com/releases/) page, the Ember framework itself uses a “rolling window” support policy for TypeScript versions. This means Ember can bump its minimum supported TypeScript version in an Ember minor release, the same as it can for Node.js versions—but the supported range of TypeScript versions across two Ember LTS releases must always overlap. So if Ember 5.4 LTS supports TypeScript 4.9–5.3, Ember 5.8 LTS *could* drop support for TypeScript versions earlier than TypeScript 5.3, but must include at least TypeScript 5.3. That guarantees that users can always upgrade their TypeScript and Ember versions separately. In practice, we expect to maintain a fairly wide TypeScript version support window to minimize the impact on the ecosystem—likely (though not guaranteed to be) 4 to 6 recent TypeScript versions at any given time.
 
 Ember's initial supported TypeScript version range is TypeScript 4.9, 5.0, and 5.1.
 
@@ -143,7 +145,7 @@ For existing Ember TypeScript users, there are a few additional changes you shou
 
 ### From the preview types
 
-If you are using the preview types we published starting in Ember 4.8, there is nothing you *have* to do! Everything should just keep working. However, you can feel free to delete the preview type import from your `types/<your-app>/index.d.ts` file:
+If you are using the preview types we published starting in Ember 4.8, there is nothing you *have* to do! Everything should keep working. However, you can feel free to delete the preview type import from your `types/<your-app>/index.d.ts` file:
 
 ```diff
  import 'ember-source/types';
@@ -165,6 +167,7 @@ If you are switching to the stable types from the `@types` packages from Definit
 
 #### Fixes to problems in the existing definitions
 
+<!-- alex ignore simply -->
 During the preview period, we identified and fixed a number of type errors in Ember's internals, as well as many places the `@types` packages were simply wrong. As a result, you may find some differences when you switch over. In every case, these represent *bug fixes*, but we recognize they may involve some work!
 
 
@@ -338,7 +341,7 @@ In line with [RFC 0821: Public API for Type-Only Imports][0821], this PR also re
 
 Since 2017, Ember has had TypeScript support via the `@types` packages published from DefinitelyTyped. In Ember 4.8, we began publishing [a preview][preview] of types published with Ember itself. Those type definitions were written by hand, so they were sometimes wrong. We always did our best to match them up to the reality of Ember’s source code, but it was never perfect. With this release, we no longer publish *any* hand-authored types for Ember itself. Instead, the type come straight from Ember’s own TypeScript source. This means they are *always* in sync with Ember itself—they *cannot* be accidentally wrong.
 
-Given that Ember’s source has been written in TypeScript for years, why did it take us so long to get here? For one thing, we needed to [decide to make TypeScript a first-class language][rfc-0724] and [come up with a plan for shipping it][rfc-0800]. For another, Ember’s internals needed a *lot* of polish to be ready to publish. Like many TypeScript code bases, Ember started off as a JavaScript-only code base, and its conversion happend in fits and starts over many years. Some parts of it were still entirely in JavaScript even just a year ago. Finally, we needed to build some custom build infrastructure to make the types usable, since you depend on `ember-source` in your `package.json` file, but import from packages like `@ember/owner`.
+Given that Ember’s source has been written in TypeScript for years, why did it take us so long to get here? For one thing, we needed to [decide to make TypeScript a first-class language][rfc-0724] and [come up with a plan for shipping it][rfc-0800]. For another, Ember’s internals needed a *lot* of polish to be ready to publish. Like many TypeScript code bases, Ember started off as a JavaScript-only code base, and its conversion happend in fits and starts over many years. Some parts of it were still entirely in JavaScript even only a year ago. Finally, we needed to build some custom build infrastructure to make the types usable, since you depend on `ember-source` in your `package.json` file, but import from packages like `@ember/owner`.
 
 If you're curious about the nitty-gritty details, you can check out [the build script][build-script] used to generate types from Ember's source. Additionally, this YouTube video includes a detailed walkthrough of the mechanics of publishing our types:
 
