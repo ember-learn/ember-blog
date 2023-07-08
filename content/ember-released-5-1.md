@@ -8,7 +8,7 @@ date: 2023-07-08T00:00:00.000Z
 tags:
   - releases
   - '2023'
-  - version-5-1
+  - version-5-x
 ---
 
 Today the Ember project is releasing version 5.1 of Ember.js, EmberData, and Ember CLI.
@@ -51,8 +51,6 @@ Ember.js 5.1 introduced 1 feature:
 #### Deprecations
 
 Ember.js 5.1 introduced 0 deprecations.
-
-<!-- Block end -->
 
 For more details on changes in Ember.js 5.1, please review the [Ember.js 5.1.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.1.0).
 
