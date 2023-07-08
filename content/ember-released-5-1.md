@@ -80,7 +80,7 @@ EmberData 5.1 introduced 0 features.
 EmberData 5.1 introduced 0 deprecations.
 
 For more details on changes in EmberData 5.1, please review the
-[EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.1.0).
+[EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.1.0) and for future planning please refer to the new 🎉 [EmberData Roadmap](https://github.com/emberjs/data/blob/main/ROADMAP.md).
 
 ---
 
