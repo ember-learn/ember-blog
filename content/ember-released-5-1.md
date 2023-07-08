@@ -1,15 +1,17 @@
 ---
 title: Ember 5.1 Released
 authors:
-  - the-ember-learning-team
-date: 2023-06-23T00:00:00.000Z
+  - jen-weber
+  - chris-krycho
+  - jared-galanis
+date: 2023-07-08T00:00:00.000Z
 tags:
   - releases
   - '2023'
-  - version-5-x
+  - version-5-1
 ---
 
-Today the Ember project is releasing version 5.1 of Ember.js, Ember Data, and Ember CLI.
+Today the Ember project is releasing version 5.1 of Ember.js, EmberData, and Ember CLI.
 
 This release kicks off the 5.2 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -56,29 +58,29 @@ For more details on changes in Ember.js 5.1, please review the [Ember.js 5.1.0 r
 
 ---
 
-## Ember Data
+## EmberData
 
-Ember Data is the official data persistence library for Ember.js applications.
+EmberData is the official data persistence library for Ember.js applications.
 
-### Changes in Ember Data 5.1
+### Changes in EmberData 5.1
 
 #### Bug Fixes
 
-Ember Data 5.1 introduced 0 bug fixes and some tests and documentation improvements.
+EmberData 5.1 introduced 2 bug fixes:
+
+  * [#8657](https://github.com/emberjs/data/pull/8657) - ensure deprecation configs are threaded to each package
+  * [#8649](https://github.com/emberjs/data/pull/8649) - NotificationManager should only invoke resource/document callbacks owned by the originating store
 
 #### Features
 
-Ember Data 5.1 introduced 0 features.
+EmberData 5.1 introduced 0 features.
 
 #### Deprecations
 
-Ember Data 5.1 introduced 0 deprecations.
+EmberData 5.1 introduced 0 deprecations.
 
-Support for the `toJSON` method on Ember Data records has been removed. It was deprecated in `3.x` and slated for removal in `4.x`.
-If your app uses this method, follow the [deprecation guide](https://deprecations.emberjs.com/ember-data/v3.x/#toc_record-toJSON).
-
-For more details on changes in Ember Data 5.1, please review the
-[Ember Data 5.1.0 commits](https://github.com/emberjs/data/compare/v4.1.0...v5.1.0).
+For more details on changes in EmberData 5.1, please review the
+[EmberData 5.0.0 release page](https://github.com/emberjs/data/releases/tag/v5.1.0).
 
 ---
 
@@ -96,7 +98,7 @@ npx ember-cli-update
 
 This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
 
-While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
+While it is recommended to keep Ember CLI versions in sync with Ember and EmberData, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or EmberData by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
 ### Changes in Ember CLI 5.1
 
