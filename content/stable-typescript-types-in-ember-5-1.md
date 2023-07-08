@@ -1,9 +1,9 @@
 ---
-title: Stable TypeScript Types in Ember 5.1 
+title: Stable TypeScript Types in Ember 5.1
 authors:
   - chris-krycho
   - the-ember-typescript-team
-date: 2023-06-26T00:00:00.000Z
+date: 2023-07-08T00:00:00.000Z
 tags:
   - '2023'
   - typescript
