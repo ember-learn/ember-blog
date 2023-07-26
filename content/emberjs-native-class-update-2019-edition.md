@@ -13,7 +13,6 @@ tags:
 
 (This post was originally published on [www.pzuraq.com](https://www.pzuraq.com/emberjs-native-class-update-2019-edition/))
 
-<!--alex disable just easy-->
 These are exciting times in Ember! With Ember Octane just around the corner, native class support has [officially landed in v3.6](https://emberjs.com/blog/2018/12/13/ember-3-6-released.html#toc_new-features-2) (with a [polyfill](https://github.com/pzuraq/ember-native-class-polyfill) supporting v3.4+), and the [Decorators RFC](https://github.com/emberjs/rfcs/blob/master/text/0408-decorators.md) has been merged and will be implemented soon (pending decorators moving to stage 3 in the January meeting). Some time ago, I wrote [an article](https://medium.com/build-addepar/es-classes-in-ember-js-63e948e9d78e) that detailed how to use native classes in Ember, along with best practices for writing them. Since then, some major changes have occured, and I wanted to give a quick update for early adopters and folks who are curious about them in general.
 
 This post will focus on changes since the original article and current best practices.  We'll be talking about:

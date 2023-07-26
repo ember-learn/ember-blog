@@ -9,7 +9,6 @@ tags:
   - accessibility
 ---
 
-<!--alex disable easy just -->
 
 Happy Global Accessibility Awareness Day!
 

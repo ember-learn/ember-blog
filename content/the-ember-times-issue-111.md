@@ -42,7 +42,6 @@ So what are you *waiting* for? Learn how you can write async-aware tests in Embe
 
 ---
 
-<!--alex disable king-queen-->
 ## [New Empress Zoey 📷](https://twitter.com/melaniersumner/status/1156652744092069888)
 
 <div class="blog-row">

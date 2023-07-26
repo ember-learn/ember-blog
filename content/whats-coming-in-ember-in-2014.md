@@ -9,7 +9,6 @@ tags:
 ---
 
 
-<!--alex disable just host-hostess-->
 Every few months, the Ember core team likes to get together to discuss
 issues face-to-face and set our priorities for the following quarter.
 

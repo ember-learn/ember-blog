@@ -44,7 +44,6 @@ Ember Octane introduces the idea of editions. Let's look at what an edition mean
 
 In Ember, an [edition](https://emberjs.com/editions/) represents a **cohesive programming model** and can focus on a particular theme. For example, the Octane edition is focused on productivity and performance!
 
-<!--alex disable easy-->
 Having editions helps you and the Ember teams in many ways:
 
 1. You can see the big picture of how features work together. Before editions were introduced, you might have had to stay on top of RFCs and release notes to understand why a feature was added or removed.

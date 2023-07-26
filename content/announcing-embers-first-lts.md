@@ -12,7 +12,6 @@ tags:
 ---
 
 
-<!--alex disable of-course just-->
 Currently, Ember uses [release channels](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html)
 to help users balance between a desire for new features (canary or beta
 channels) with stability (the release channel). While semver guarantees mean

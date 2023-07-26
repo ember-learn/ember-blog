@@ -43,7 +43,6 @@ Ember.js 3.23 introduced several bug fixes, including:
 
 #### New Features
 
-<!--alex disable savage-->
 Ember.js 3.23 introduced 2 features.
 
 1. Implemented and enabled `invokeHelper` from [JavaScript Helper Invocation API RFC](https://github.com/emberjs/rfcs/blob/master/text/0626-invoke-helper.md). The `invokeHelper` can be used to create and call an instance of the helper in a component. ([#19171](https://github.com/emberjs/ember.js/pull/19171), [#19182](https://github.com/emberjs/ember.js/pull/19182))

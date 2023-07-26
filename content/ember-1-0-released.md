@@ -11,7 +11,6 @@ tags:
 ---
 
 
-<!--alex disable just easy nuts manhours special gals-men-->
 Today, we're excited to announce the final release of Ember.js 1.0.
 
 The first commit to the repository that would become Ember.js happened on April

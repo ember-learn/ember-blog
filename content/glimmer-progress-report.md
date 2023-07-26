@@ -9,7 +9,6 @@ tags:
 ---
 
 
-<!--alex disable easy just gal-guy of-course nuts white host-hostess-->
 At EmberConf in March of this year, [we announced Glimmer.js][ann-glimmer-js], a
 library for building modern UI components optimized for the mobile web. I wanted
 to give an update on what we've been working on since then.
