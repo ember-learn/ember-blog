@@ -21,7 +21,8 @@ Mentorship is a responsibility shared by our entire community, and we’re excit
 
 In addition to some fun new plans, the Ember Mentorship Program umbrella captures and unifies a bunch of existing efforts. Some are face-to-face events, others are remote, and some combine the two.
 
-
+<!--alex disable gals-men-->
+<!--alex disable women-->
 Some of the things we've already been doing:
 
 - The annual Mentorship Workshop and Mixer, an event at [EmberConf](https://emberconf.com) that matches mentors with mentees, giving them time to get to know each other both ahead of and during the conference.

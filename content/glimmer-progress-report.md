@@ -54,6 +54,7 @@ address.
 Glimmer.js is our way to iterate on a new component API until we have something
 we feel confident submitting to the Ember RFC process.
 
+<!--alex disable gal-guy-->
 We've already received incredibly useful feedback from early adopters. In
 addition, fellow core team member Chad Hietala and I have been on a team at
 LinkedIn using Glimmer.js to build a production application.
