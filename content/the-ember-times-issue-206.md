@@ -10,6 +10,8 @@ tags:
 
 👋 Emberistas! 🐹
 
+Open Core Team Meetings 💻 , 
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -50,15 +52,16 @@ tags:
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## 💻 Open Core Team Meetings
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Starting last week, the EmberJS team meetings are open to the public on our [Discord server](https://discord.gg/emberjs). This will increase the **visibility** and **transparency** around the process and progress within the framework and community. It will also allow you to work together more easily, provide input and get up to date. Checkout the events in the [Discord server](https://discord.gg/emberjs) for the time (in your timezone) and dates.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+| Day      | Topic |
+|----------|---|
+| Monday   | Learning team  |
+| Tuesday  | Tooling team (combination of CLI & Embroider)  |
+| Thursday |  Spec meeting  |
+| Friday   |  RFC review, EmberData meeting |
 
 ---
 
