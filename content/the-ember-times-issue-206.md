@@ -11,7 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, 
+EmberConf 2023 🎙️, EmberFest 2023 🇪🇸,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
