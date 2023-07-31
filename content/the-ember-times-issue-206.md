@@ -42,7 +42,7 @@ After a great EmberConf, next up is [EmberFest](https://emberfest.eu) on the 21s
 ---
 
 ## 💻 Open Core Team Meetings
-<!--alex ignore easily-->
+<!--alex ignore easy-->
 Starting last week, the EmberJS team meetings are open to the public on our [Discord server](https://discord.gg/emberjs). This will increase the **visibility** and **transparency** around the process and progress within the framework and community. It will also allow you to work together more easily, provide input and get up to date. Checkout the events in the [Discord server](https://discord.gg/emberjs) for the time (in your timezone) and dates.
 
 | Day      | Topic |
