@@ -13,7 +13,6 @@ tags:
 ---
 
 
-<!--alex disable just-->
 With Ember 1.0 RC8, we have reached the final RC before 1.0 final, which
 we hope to release this weekend if all goes well.
 

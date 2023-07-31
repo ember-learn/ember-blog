@@ -34,7 +34,6 @@ The goal of the roadmap is to align the Ember community around a set of shared, 
 
 Now that Ember Octane has shipped, it’s time to turn our attention to new efforts in 2020. Our goal is to build on Octane's release and capitalize on that cutting-edge foundation.
 
-<!--alex disable nuts-->
 - **Invest in Octane.** Octane's mental model and basic components are complete, but a number of practical and conceptual gaps remain. We will close these gaps with work on tooling, by deprecating classic APIs to simplify Ember for new users, and by introducing additional functionality where appropriate.
 - **Modernize our build system.** This year we will prioritize improvements to the Ember application build pipeline, and to Ember itself, which will bring modern optimizations like tree shaking and code splitting to both new applications *and* existing codebases.
 - **Better a11y by default**. We will better support assistive technologies via updates to the router. Additionally we will provide developers more tools for understanding and improving the accessibility of their Ember applications. Our goal is a great "out of the box" experience with Ember and assistive technologies.
@@ -46,7 +45,6 @@ Ember Octane put the framework on a strong footing by modernizing its most found
 
 Many of the rough edges in Octane aren't on the features themselves, but in the supporting tooling. The usefulness of stack traces from Glimmer, the ability to use TypeScript with Ember templates, how tracked properties and Glimmer components are reflected in the Ember Inspector, and the build speed of our application pipelines are all important parts of Octane's DX. We will invest in these areas of work.
 
-<!--alex disable nuts-->
 For developers who are new to Ember, the presence of classic non-Octane APIs can be disorienting. We will look for creative solutions that make those features trivial for existing apps to continue using while also making them less expensive (in payload, performance, and mental model) for new adopters.
 
 Finally there are some areas of Octane features which can still benefit from new feature work:

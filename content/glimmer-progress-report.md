@@ -9,7 +9,6 @@ tags:
 ---
 
 
-<!--alex disable easy just gal-guy of-course nuts white host-hostess-->
 At EmberConf in March of this year, [we announced Glimmer.js][ann-glimmer-js], a
 library for building modern UI components optimized for the mobile web. I wanted
 to give an update on what we've been working on since then.
@@ -55,6 +54,7 @@ address.
 Glimmer.js is our way to iterate on a new component API until we have something
 we feel confident submitting to the Ember RFC process.
 
+<!--alex disable gal-guy-->
 We've already received incredibly useful feedback from early adopters. In
 addition, fellow core team member Chad Hietala and I have been on a team at
 LinkedIn using Glimmer.js to build a production application.

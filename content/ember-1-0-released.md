@@ -11,7 +11,6 @@ tags:
 ---
 
 
-<!--alex disable just easy nuts manhours special gals-men-->
 Today, we're excited to announce the final release of Ember.js 1.0.
 
 The first commit to the repository that would become Ember.js happened on April
@@ -245,7 +244,7 @@ a number of companies over the years.
 
 * LivingSocial, which funded much of the original work on Ember Data.
 * Yapp, whose employees have been working on Ember (and SproutCore before
-  Ember) for years, and which has dedicated countless man-hours to making Ember
+  Ember) for years, and which has dedicated countless hours to making Ember
   better.
 * Zendesk, an early user and contributor to Ember. Thank you for betting on
   Ember as early as you did.
@@ -264,7 +263,7 @@ users a place to look at large, real-world projects.
 * [Travis CI][18]: A very early Ember adopter. The Ember project makes heavy use of
   Travis, so thank you!
 * [Discourse][19]: The increasingly popular forum engine that now powers
-  TalkingPointsMemo and BoingBoing. These guys have contributed heavily to Ember
+  TalkingPointsMemo and BoingBoing. These folks have contributed heavily to Ember
   and its community.
 * Balanced: Balanced is an [open-source][20], **open company**. They use Ember
   for their [dashboard][21].

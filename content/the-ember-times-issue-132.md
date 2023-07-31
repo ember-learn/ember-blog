@@ -47,7 +47,6 @@ Surely, you remember him as [the Emberista who built a blog site with Ember & No
 recall him [say JAM 46 times](https://twitter.com/real_ate/status/1207683401446313984) in his [jammiest introduction to the JAM (JavaScript, APIs and Markup) stack for humans](https://www.youtube.com/watch?v=eQULGb10MbQ)!
 This year, [Chris Manson (@mansona)](https://github.com/mansona) has even more insights into the modern JAM stack to share with you!
 
-<!--alex disable king-queen-->
 At [this year's EmberConf](https://emberconf.com/) he's going to teach us about [**An Octane-Powered JAM Stack**](https://emberconf.com/#/schedule/day-1_an-octane-powered-jam-stack); why the JAM Stack has become so popular and how Ember Octane blends in well with this approach of web development. But that's not all: you can learn hands-on how to build your first JAM Stack site with Octane and Empress at his EmberConf workshop [**Build and Publish Your Own empress-blog Template**](https://emberconf.com/#/schedule/pre-conf_build-and-publish-your-own-%60empress-blog%60-template).
 
 In an exclusive interview with The Ember Times, Chris shares with us, how popular the JAM stack is and why it is so useful for building modern websites in 2020:

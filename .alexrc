@@ -1,7 +1,17 @@
 {
   "allow": [
+    "clearly",
+    "easy",
     "he-she",
-    "her-him"
+    "her-him",
+    "host-hostess",
+    "just",
+    "king-queen",
+    "nuts",
+    "of-course",
+    "savage",
+    "simple",
+    "special"
   ],
-  "profanitySureness": 1
+  "profanitySureness": 2
 }
