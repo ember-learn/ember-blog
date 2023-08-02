@@ -68,13 +68,13 @@ You can automate the required change by running [`ember-codemod-args-to-signatur
 
 ```sh
 # Apps
-ember-codemod-args-to-signature --src app/components
+npx ember-codemod-args-to-signature --src app/components
 
 # V1 addons
-ember-codemod-args-to-signature --src addon/components
+npx ember-codemod-args-to-signature --src addon/components
 
 # V2 addons
-ember-codemod-args-to-signature --src src/components
+npx ember-codemod-args-to-signature --src src/components
 ```
 
 The codemod will partially fill out signatures and template registries. It will also fix related code, so that your project is consistent in syntax and follows Ember's naming conventions. If you've previously taken the effort to add  `Args` to your components (the former way of defining the signature), the codemod will use what you already know to create `Signature`.
