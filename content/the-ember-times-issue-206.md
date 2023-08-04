@@ -1,7 +1,7 @@
 ---
 title: The Ember Times - Issue No. 206
 authors:
-  - anne-greeth-schot-vanherwijnen
+  - anne-greeth-schot-van-herwijnen
   - isaac-lee
   - chris-ng
   - melanie-sumner
@@ -23,7 +23,7 @@ a codemod to help introduce Glint ✨,
 Ember Inspector in Safari 🔎,
 release of prettier-plugin-ember-template-tag 🔥,
 make VS Code ready for EmberJS 📦,
-Europe Ember.js Video 🐹🇪🇺,
+Europe Ember.js Video 🇪🇺,
 start contributing today 🐹
 
 ---
@@ -56,7 +56,7 @@ After a great EmberConf, next up is [EmberFest](https://emberfest.eu) on the 21s
 
 <!--alex ignore easy-->
 
-Starting last week, the EmberJS team meetings are open to the public on our [Discord server](https://discord.gg/emberjs). This will increase the **visibility** and **transparency** around the process and progress within the framework and community. It will also allow you to work together more easily, provide input and get up to date. Checkout the events in the [Discord server](https://discord.gg/emberjs) for the time (in your timezone) and dates.
+Starting last week, the EmberJS team meetings are open to the public on our [Discord server](https://discord.gg/emberjs). This will increase the **visibility** and **transparency** around the process and progress within the framework and community. It will also allow you to work together more easily, provide input and get up to date. Check out the events in the [Discord server](https://discord.gg/emberjs) for the time (in your timezone) and dates.
 
 - Monday - [Learning team](https://discord.gg/jRGtH96JfS?event=1135596295210410024)
 - Tuesday - [Tooling team (combination of CLI & Embroider)](https://discord.gg/jRGtH96JfS?event=1136304805673971793)
@@ -100,7 +100,7 @@ npx ember-codemod-args-to-signature --src addon/components
 npx ember-codemod-args-to-signature --src src/components
 ```
 
-The codemod will partially fill out signatures and template registries. It will also fix related code, so that your project is consistent in syntax and follows Ember's naming conventions. If you've previously taken the effort to add `Args` to your components (the former way of defining the signature), the codemod will use what you already know to create `Signature`.
+The codemod will partially fill out signatures and template registries. It will also fix related code so that your project is consistent in syntax and follows Ember's naming conventions. If you've previously taken the effort to add `Args` to your components (the former way of defining the signature), the codemod will use what you already know to create `Signature`.
 
 ---
 
@@ -134,9 +134,9 @@ You can checkout the [extension pack on GitHub](https://github.com/ember-tooling
 
 ---
 
-## [🐹🇪🇺 Ember Europe Video](https://www.youtube.com/watch?v=0kzm3ahGK84&list=PLD-8Z0-VnQIAIU6hJoE4H27DjzpcWkMks)
+## [🇪🇺 Ember Europe Video](https://www.youtube.com/watch?v=0kzm3ahGK84&list=PLD-8Z0-VnQIAIU6hJoE4H27DjzpcWkMks)
 
-If you didn't get a chance to watch the live streamed Europe Ember.js meetup event from June 2023, you can now watch the ✨ awesome ✨ [recorded video](https://www.youtube.com/watch?v=0kzm3ahGK84&list=PLD-8Z0-VnQIAIU6hJoE4H27DjzpcWkMks).
+If you didn't get a chance to watch the live-streamed Europe Ember.js meetup event from June 2023, you can now watch the ✨ awesome ✨ [recorded video](https://www.youtube.com/watch?v=0kzm3ahGK84&list=PLD-8Z0-VnQIAIU6hJoE4H27DjzpcWkMks).
 
 The talk features a really cool talk by [Richard Livsey (@rlivsey)](https://github.com/rlivsey) who shares the journey of building Intercom's Inbox! 🚀
 
@@ -146,7 +146,7 @@ Many thanks to the organizers and members of Europe Ember.js meetup for continui
 
 ## 🐹 Contributing to the Framework and the Community
 
-If you are looking for a way to start contributing to EmberJS, checkout the new [#new-contributors channel on Discord](https://discord.com/channels/480462759797063690/1131610462207873025). This channel is made for everyone who is looking for something to contribute on, and some guidance on how to get started. Does working on code feel a bit too overwheling you can always reach out to the [EmberTimes editors](https://discord.com/channels/480462759797063690/485450546887786506) to start writing for the [EmberTimes on GitHub](https://github.com/ember-learn/ember-blog/).
+If you are looking for a way to start contributing to EmberJS, check out the new [#new-contributors channel on Discord](https://discord.com/channels/480462759797063690/1131610462207873025). This channel is made for everyone who is looking for something to contribute to, and some guidance on how to get started. Does working on code feel a bit too overwhelming you can always reach out to the [EmberTimes editors](https://discord.com/channels/480462759797063690/485450546887786506) to start writing for the [EmberTimes on GitHub](https://github.com/ember-learn/ember-blog/).
 
 > Ember works best when we **all** participate - Mel Sumner
 
