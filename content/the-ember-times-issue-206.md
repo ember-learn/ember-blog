@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨,
+EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -93,15 +93,9 @@ The codemod will partially fill out signatures and template registries. It will 
 
 ---
 
-## [🐹 6. Section title in sentence case](section-url)
+## [🔎 EmberJS Inspector in Safari](https://apps.apple.com/us/app/emberjs-inspector/id6451499514?mt=12)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+[Robbie Wagner (@RobbieTheWagner)](https://github.com/robbiethewagner) released our trusted EmberJS inspector to the [Mac App Store](https://apps.apple.com/us/app/emberjs-inspector/id6451499514?mt=12), so you can now also use it in **Safari**. If you run into bugs or have improvements, please reach out on [GitHub](https://github.com/emberjs/ember-inspector). You can contribute to the [Ember Inspector](https://github.com/emberjs/ember-inspector) because it's an Ember app!
 
 ---
 
