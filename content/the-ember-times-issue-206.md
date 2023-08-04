@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎, make VS Code ready for EmberJS 📦
+EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎, make VS Code ready for EmberJS 📦, start contributing today 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -32,7 +32,7 @@ EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , 
 
 ## [🎙️ EmberConf 2023](https://www.emberconf.com)
 
-Two weeks ago, on the 20th and 21st of July about **150 Emberistas** met in Portland (OR) for the first in-person EmberConf since COVID-19. It was amazing to see so many people getting to know each other and sharing knowledge about our framework, EmberJS. Hopefully, you’ve enjoyed the live stream with the [great line-up of speakers](https://www.emberconf.com/speakers). If you have missed it or want to watch something back, the live streams of [day 1](https://www.youtube.com/watch?v=LvrpUrdq5Gc) and [day 2](https://www.youtube.com/watch?v=cDT_WPgK3xI) are already available (but hidden on YouTube). The separate videos will follow later. On the [Discord server](https://discord.gg/wks7HMrG), each talk got its own channel, in case you want to get in contact about that talk specifically. Let's get **inspired**!
+Two weeks ago, on the 20th and 21st of July about **150 Emberistas** met in Portland (OR) for the first in-person EmberConf since COVID-19. It was amazing to see so many people getting to know each other and sharing knowledge about our framework, EmberJS. Hopefully, you’ve enjoyed the live stream with the [great line-up of speakers](https://www.emberconf.com/speakers). If you have missed it or want to watch something back, the [playlist with all talks is released on YouTube](https://www.youtube.com/playlist?list=PL4eq2DPpyBbn9eFgZIxo23_q9sAtqGtvt). On the [Discord server](https://discord.gg/wks7HMrG), each talk got its own channel, in case you want to get in contact about that talk specifically. Let's get **inspired**!
 
 ---
 
@@ -115,15 +115,11 @@ You can checkout the [extension pack on GitHub](https://github.com/ember-tooling
 
 ---
 
-## [🐹 8. Section title in sentence case](section-url)
+## 🐹 Contributing to the Framework and the Community
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+If you are looking for a way to start contributing to EmberJS, checkout the new [#new-contributors channel on Discord](https://discord.com/channels/480462759797063690/1131610462207873025). This channel is made for everyone who is looking for something to contribute on, and some guidance on how to get started. Does working on code feel a bit too overwheling you can always reach out to the [EmberTimes editors](https://discord.com/channels/480462759797063690/485450546887786506) to start writing for the [EmberTimes on GitHub](https://github.com/ember-learn/ember-blog/).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+> Ember works best when we **all** participate" - Mel Sumner
 
 ---
 
