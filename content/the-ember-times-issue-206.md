@@ -12,9 +12,8 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸,
-a modern way to write codemods,
-a codemod to help introduce Glint,
+EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨,
+
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -40,6 +39,19 @@ Two weeks ago, on the 20th and 21st of July about **150 Emberistas** met in Port
 ## [🇪🇸 EmberFest 2023](https://emberfest.eu)
 
 After a great EmberConf, next up is [EmberFest](https://emberfest.eu) on the 21st and 22nd of September in **Madrid, Spain**. EmberFest is the European Community Ember Conference. If you’re looking for updates on the latest and greatest in Ember and Glimmer this is the place to be. Do you want to get an impression of EmberFest, check out the [Paris highlight video of last year's EmberFest](https://youtu.be/hvg35gS1Xjo). You can attend this conference in person and remotely, so get your [tickets](https://emberfest.eu/?tito=%2Femberfest%2Femberfest-2023%2Fen%2Fregistrations%2Fnew%3Fprefill%3D%257B%257D) **now**! Ed Faulkner ([@ef4](https://github.com/ef4)) and Mel Sumner ([@melsumner](https://github.com/melsumner)) are already confirmed speakers.
+
+---
+
+## 💻 Open Core Team Meetings
+<!--alex ignore easy-->
+Starting last week, the EmberJS team meetings are open to the public on our [Discord server](https://discord.gg/emberjs). This will increase the **visibility** and **transparency** around the process and progress within the framework and community. It will also allow you to work together more easily, provide input and get up to date. Checkout the events in the [Discord server](https://discord.gg/emberjs) for the time (in your timezone) and dates.
+
+| Day      | Topic |
+|----------|---|
+| Monday   | Learning team  |
+| Tuesday  | Tooling team (combination of CLI & Embroider)  |
+| Thursday |  Spec meeting  |
+| Friday   |  RFC review, EmberData meeting |
 
 ---
 
