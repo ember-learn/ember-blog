@@ -3,6 +3,7 @@ title: The Ember Times - Issue No. 206
 authors:
   - anne-greeth-schot-vanherwijnen
   - isaac-lee
+  - melanie-sumner
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2023-08-04T00:00:00.000Z
 tags:
@@ -12,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎, make VS Code ready for EmberJS 📦, start contributing today 🐹
+Update on Polaris, EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎, make VS Code ready for EmberJS 📦, start contributing today 🐹
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -27,6 +28,18 @@ EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , 
 
 <add your name to author list, top and bottom>
 <add short title to "SOME-INTRO-HERE">
+
+---
+
+## [🚀 Update: The Polaris Edition of Ember](https://github.com/orgs/emberjs/projects/9)
+
+We’re trying something new with this edition of Ember-- using a GitHub Project! [The Polaris Project](https://github.com/orgs/emberjs/projects/9) is not only a great way to keep track of the active updates to the work being done for this edition, but also look for ways that you can participate!
+
+While we are still working to define success for this edition (stay tuned for that!), using standard project management has been an improved way to give more transparency to our work and our hypothesis is that it will also increase community member participation as a result.
+
+The Polaris edition intends not only to continue deprecating Ember features that now have native web equivalents, but also re-work the router to better suit the needs of the modern web application. We’ll also see a new, long-requested framework feature come to life: a CSS solution! Yet one more thing you won’t have to worry about (unless you want to!).
+
+Anyway, check out the [Polaris Project](https://github.com/orgs/emberjs/projects/9) board for yourself, and join the open meetings (look for the [EmberJS Spec Meeting](https://discord.gg/VzKEzH8Q?event=1137029571976372284) event on Discord) if you want to get involved! If we all participate, we can make these ideas happen.
 
 ---
 
@@ -119,7 +132,7 @@ You can checkout the [extension pack on GitHub](https://github.com/ember-tooling
 
 If you are looking for a way to start contributing to EmberJS, checkout the new [#new-contributors channel on Discord](https://discord.com/channels/480462759797063690/1131610462207873025). This channel is made for everyone who is looking for something to contribute on, and some guidance on how to get started. Does working on code feel a bit too overwheling you can always reach out to the [EmberTimes editors](https://discord.com/channels/480462759797063690/485450546887786506) to start writing for the [EmberTimes on GitHub](https://github.com/ember-learn/ember-blog/).
 
-> Ember works best when we **all** participate" - Mel Sumner
+> "Ember works best when we **all** participate" - Mel Sumner
 
 ---
 
@@ -149,4 +162,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, Isaac Lee, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Isaac Lee, Melanie Sumner, the crowd and the Learning Team
