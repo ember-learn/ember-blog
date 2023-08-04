@@ -12,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎
+EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎, make VS Code ready for EmberJS 📦
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -99,15 +99,19 @@ The codemod will partially fill out signatures and template registries. It will 
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [📦 VS Code EmberJS Extension Pack](https://marketplace.visualstudio.com/items?itemName=EmberTooling.emberjs)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Is Visual Studio Code your editor of choice, [Liam Potter (@evoactivity)](https://github.com/evoactivity) released a new version of the EmberJS Extension Pack.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+This Extension Pack includes the following extensions:
+
+- [Glimmer Syntax for VS Code](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-glimmer-syntax)
+- [Stable Ember Language Server](https://marketplace.visualstudio.com/items?itemName=lifeart.vscode-ember-unstable)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+You can checkout the [extension pack on GitHub](https://github.com/ember-tooling/vscode-ember-pack). Time to make VS Code ready for EmberJS with one extension!
 
 ---
 
