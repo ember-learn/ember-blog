@@ -102,7 +102,7 @@ The codemod will partially fill out signatures and template registries. It will 
 
 ## [🔥 1.0.0 Release of prettier-plugin-ember-template-tag](https://github.com/gitKrystan/prettier-plugin-ember-template-tag/releases/tag/v1.0.0)
 
-[Krystan HuffMenne (@gitKrystan)](https://github.com/gitKrystan) released 1.0.0 of [prettier-plugin-ember-template-tag(https://github.com/gitKrystan/prettier-plugin-ember-template-tag) which supports [Prettier 3.0.0](https://prettier.io/blog/2023/07/05/3.0.0.html). The project, prettier-plugin-ember-template-tag, is a prettier plugin for formatting [Ember template tags](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) for both `.gjs` and `.gts` files.
+[Krystan HuffMenne (@gitKrystan)](https://github.com/gitKrystan) released 1.0.0 of [prettier-plugin-ember-template-tag](https://github.com/gitKrystan/prettier-plugin-ember-template-tag) which supports [Prettier 3.0.0](https://prettier.io/blog/2023/07/05/3.0.0.html). The project, prettier-plugin-ember-template-tag, is a prettier plugin for formatting [Ember template tags](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) for both `.gjs` and `.gts` files.
 
 If you are interested in contributing please check out the [GitHub of this project](https://github.com/gitKrystan/prettier-plugin-ember-template-tag/issues)!
 
