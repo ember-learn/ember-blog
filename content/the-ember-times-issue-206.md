@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 206
 authors:
   - anne-greeth-schot-vanherwijnen
+  - isaac-lee
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
 date: 2023-08-04T00:00:00.000Z
 tags:
@@ -11,7 +12,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 ,
+EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨,
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
@@ -54,15 +55,41 @@ Starting last week, the EmberJS team meetings are open to the public on our [Dis
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [🤖 A modern way to write codemods](https://github.com/ijlee2/codemod-utils)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+A few EmberConf talks brought up the need for more codemods. Isaac Lee ([@ijlee2](https://github.com/ijlee2)) has been working on [`@codemod-utils`](https://github.com/ijlee2/codemod-utils), a set of tools and conventions for writing codemods, and a CLI (command-line interface) to help you get started:
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+```sh
+npx @codemod-utils/cli --name <your-codemod-name>
+```
+
+<!-- alex ignore simple -->
+`@codemod-utils` encourages taking small and simple steps, as they are key to writing codemods that can be maintained and extended. Isaac, in the talk "[In 1 Year](https://crunchingnumbers.live/2023/07/20/in-1-year)," explained:
+
+> My hope is, we can lower the [entry] barrier enough that, if a person can write a function in Node.js, then they can start writing a codemod.
+
+To learn how to write a codemod, check out [the main tutorial](https://github.com/ijlee2/codemod-utils#tutorials) and [the codemods written with `@codemod-utils`](https://github.com/ijlee2/codemod-utils#codemods-written-with-codemod-utils).
+
+---
+
+## [✨ Codemod to help introduce Glint](https://github.com/ijlee2/ember-codemod-args-to-signature)
+
+To introduce Glint, you will need to write the [signature](https://typed-ember.gitbook.io/glint/environments/ember/component-signatures) and [template registry](https://typed-ember.gitbook.io/glint/environments/ember/template-registry) for each component. This can be an error-prone, onerous task for large projects.
+
+You can automate the required change by running [`ember-codemod-args-to-signature`](https://github.com/ijlee2/ember-codemod-args-to-signature).
+
+```sh
+# Apps
+npx ember-codemod-args-to-signature --src app/components
+
+# V1 addons
+npx ember-codemod-args-to-signature --src addon/components
+
+# V2 addons
+npx ember-codemod-args-to-signature --src src/components
+```
+
+The codemod will partially fill out signatures and template registries. It will also fix related code, so that your project is consistent in syntax and follows Ember's naming conventions. If you've previously taken the effort to add  `Args` to your components (the former way of defining the signature), the codemod will use what you already know to create `Signature`.
 
 ---
 
@@ -128,4 +155,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Isaac Lee, the crowd and the Learning Team
