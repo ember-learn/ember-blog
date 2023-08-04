@@ -23,8 +23,8 @@ a codemod to help introduce Glint ✨,
 Ember Inspector in Safari 🔎,
 release of prettier-plugin-ember-template-tag 🔥,
 make VS Code ready for EmberJS 📦,
-start contributing today 🐹,
-Europe Ember.js Video 🐹🇪🇺
+Europe Ember.js Video 🐹🇪🇺,
+start contributing today 🐹
 
 ---
 
@@ -180,4 +180,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Anne-Greeth Schot-van Herwijnen, Isaac Lee, Melanie Sumner, Chris Ng, the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, Isaac Lee, Melanie Sumner, Chris Ng, Jared Galanis and the Learning Team
