@@ -5,7 +5,7 @@ authors:
   - isaac-lee
   - chris-ng
   - melanie-sumner
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - jared-galanis
 date: 2023-08-04T00:00:00.000Z
 tags:
   - newsletter
@@ -14,21 +14,17 @@ tags:
 
 👋 Emberistas! 🐹
 
-Polaris Update 🚀, EmberConf 2023 🎙️, EmberFest 2023 🇪🇸, Open Core Team Meetings 💻 , a modern way to write codemods 🤖, a codemod to help introduce Glint ✨, Ember Inspector in Safari 🔎, release of prettier-plugin-ember-template-tag 🔥, make VS Code ready for EmberJS 📦, start contributing today 🐹
-
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
----
-
-## [🐹 1. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Polaris Update 🚀,
+EmberConf 2023 🎙️,
+EmberFest 2023 🇪🇸,
+Open Core Team Meetings 💻 ,
+a modern way to write codemods 🤖,
+a codemod to help introduce Glint ✨,
+Ember Inspector in Safari 🔎,
+release of prettier-plugin-ember-template-tag 🔥,
+make VS Code ready for EmberJS 📦,
+start contributing today 🐹,
+Europe Ember.js Video 🐹🇪🇺
 
 ---
 
@@ -57,15 +53,17 @@ After a great EmberConf, next up is [EmberFest](https://emberfest.eu) on the 21s
 ---
 
 ## 💻 Open Core Team Meetings
+
 <!--alex ignore easy-->
+
 Starting last week, the EmberJS team meetings are open to the public on our [Discord server](https://discord.gg/emberjs). This will increase the **visibility** and **transparency** around the process and progress within the framework and community. It will also allow you to work together more easily, provide input and get up to date. Checkout the events in the [Discord server](https://discord.gg/emberjs) for the time (in your timezone) and dates.
 
-| Day      | Topic |
-|----------|---|
-| Monday   | [Learning team](https://discord.gg/jRGtH96JfS?event=1135596295210410024)  |
-| Tuesday  | [Tooling team (combination of CLI & Embroider)](https://discord.gg/jRGtH96JfS?event=1136304805673971793)  |
-| Thursday |  [Spec meeting](https://discord.gg/jRGtH96JfS?event=1137029571976372284)  |
-| Friday   |  [RFC review](https://discord.gg/jRGtH96JfS?event=1134855271823441960), [EmberData meeting](https://discord.gg/jRGtH96JfS?event=1134855268480602113) |
+| Day      | Topic                                                                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Monday   | [Learning team](https://discord.gg/jRGtH96JfS?event=1135596295210410024)                                                                            |
+| Tuesday  | [Tooling team (combination of CLI & Embroider)](https://discord.gg/jRGtH96JfS?event=1136304805673971793)                                            |
+| Thursday | [Spec meeting](https://discord.gg/jRGtH96JfS?event=1137029571976372284)                                                                             |
+| Friday   | [RFC review](https://discord.gg/jRGtH96JfS?event=1134855271823441960), [EmberData meeting](https://discord.gg/jRGtH96JfS?event=1134855268480602113) |
 
 ---
 
@@ -78,6 +76,7 @@ npx @codemod-utils/cli --name <your-codemod-name>
 ```
 
 <!-- alex ignore simple -->
+
 `@codemod-utils` encourages taking small and simple steps, as they are key to writing codemods that can be maintained and extended. Isaac, in the talk "[In 1 Year](https://crunchingnumbers.live/2023/07/20/in-1-year)," explained:
 
 > My hope is, we can lower the [entry] barrier enough that, if a person can write a function in Node.js, then they can start writing a codemod.
@@ -103,7 +102,7 @@ npx ember-codemod-args-to-signature --src addon/components
 npx ember-codemod-args-to-signature --src src/components
 ```
 
-The codemod will partially fill out signatures and template registries. It will also fix related code, so that your project is consistent in syntax and follows Ember's naming conventions. If you've previously taken the effort to add  `Args` to your components (the former way of defining the signature), the codemod will use what you already know to create `Signature`.
+The codemod will partially fill out signatures and template registries. It will also fix related code, so that your project is consistent in syntax and follows Ember's naming conventions. If you've previously taken the effort to add `Args` to your components (the former way of defining the signature), the codemod will use what you already know to create `Signature`.
 
 ---
 
@@ -134,6 +133,16 @@ This Extension Pack includes the following extensions:
 - [Editor Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 You can checkout the [extension pack on GitHub](https://github.com/ember-tooling/vscode-ember-pack). Time to make VS Code ready for EmberJS with one extension!
+
+---
+
+## [🐹🇪🇺 Ember Europe Video](https://www.youtube.com/watch?v=0kzm3ahGK84&list=PLD-8Z0-VnQIAIU6hJoE4H27DjzpcWkMks)
+
+If you didn't get a chance to watch the live streamed Europe Ember.js meetup event from June 2023, you can now watch the ✨ awesome ✨ [recorded video](https://www.youtube.com/watch?v=0kzm3ahGK84&list=PLD-8Z0-VnQIAIU6hJoE4H27DjzpcWkMks).
+
+The talk features a really cool talk by [Richard Livsey (@rlivsey)](https://github.com/rlivsey) who shares the journey of building Intercom's Inbox! 🚀
+
+Many thanks to the organizers and members of Europe Ember.js meetup for continuing to bring great Ember content!
 
 ---
 
