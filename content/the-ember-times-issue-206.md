@@ -150,7 +150,7 @@ Many thanks to the organizers and members of Europe Ember.js meetup for continui
 
 If you are looking for a way to start contributing to EmberJS, checkout the new [#new-contributors channel on Discord](https://discord.com/channels/480462759797063690/1131610462207873025). This channel is made for everyone who is looking for something to contribute on, and some guidance on how to get started. Does working on code feel a bit too overwheling you can always reach out to the [EmberTimes editors](https://discord.com/channels/480462759797063690/485450546887786506) to start writing for the [EmberTimes on GitHub](https://github.com/ember-learn/ember-blog/).
 
-> Ember works best when we **all** participate" - Mel Sumner
+> Ember works best when we **all** participate - Mel Sumner
 
 ---
 
