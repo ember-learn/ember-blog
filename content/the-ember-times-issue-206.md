@@ -62,10 +62,10 @@ Starting last week, the EmberJS team meetings are open to the public on our [Dis
 
 | Day      | Topic |
 |----------|---|
-| Monday   | Learning team  |
-| Tuesday  | Tooling team (combination of CLI & Embroider)  |
-| Thursday |  Spec meeting  |
-| Friday   |  RFC review, EmberData meeting |
+| Monday   | [Learning team](https://discord.gg/jRGtH96JfS?event=1135596295210410024)  |
+| Tuesday  | [Tooling team (combination of CLI & Embroider)](https://discord.gg/jRGtH96JfS?event=1136304805673971793)  |
+| Thursday |  [Spec meeting](https://discord.gg/jRGtH96JfS?event=1137029571976372284)  |
+| Friday   |  [RFC review](https://discord.gg/jRGtH96JfS?event=1134855271823441960), [EmberData meeting](https://discord.gg/jRGtH96JfS?event=1134855268480602113) |
 
 ---
 
@@ -82,7 +82,7 @@ npx @codemod-utils/cli --name <your-codemod-name>
 
 > My hope is, we can lower the [entry] barrier enough that, if a person can write a function in Node.js, then they can start writing a codemod.
 
-To learn how to write a codemod, check out [the main tutorial](https://github.com/ijlee2/codemod-utils#tutorials) and [the codemods written with `@codemod-utils`](https://github.com/ijlee2/codemod-utils#codemods-written-with-codemod-utils).
+To learn how to write a codemod, check out [the main tutorial](https://github.com/ijlee2/codemod-utils#tutorials) and [the codemods written with `@codemod-utils`](https://github.com/ijlee2/codemod-utils#codemods-written-with-codemod-utils). If you want to learn from Isaac himself on how to utilize codemods to bring your projects up to date, check out his [amazing talk at EmberConf 2023](https://www.youtube.com/watch?v=qXq67sQxdCU&list=PL4eq2DPpyBbn9eFgZIxo23_q9sAtqGtvt&index=10)!
 
 ---
 
@@ -147,7 +147,7 @@ If you are looking for a way to start contributing to EmberJS, checkout the new 
 
 ## [👏 Contributors' corner](https://guides.emberjs.com/release/contributing/repositories/)
 
-<p>This week we'd like to thank our siblings for their contributions to Ember and related repositories! 💖</p>
+<p>This week we'd like to thank  <a href="https://github.com/halfbyte" rel="noopener noreferrer" target="_blank">Jan Krutisch (@halfbyte)</a>, <a href="https://github.com/leepfrog" rel="noopener noreferrer" target="_blank">Andy Tran (@leepfrog)</a>, <a href="https://github.com/wagenet" rel="noopener noreferrer" target="_blank">Peter Wagenet (@wagenet)</a>, <a href="https://github.com/SergeAstapov" rel="noopener noreferrer" target="_blank">Sergey Astapov (@SergeAstapov)</a>, <a href="https://github.com/chriskrycho" rel="noopener noreferrer" target="_blank">Chris Krycho (@chriskrycho)</a>, <a href="https://github.com/robinborst95" rel="noopener noreferrer" target="_blank">Robin Borst (@robinborst95)</a>, <a href="https://github.com/patricklx" rel="noopener noreferrer" target="_blank">Patrick Pircher (@patricklx)</a>, <a href="https://github.com/ijlee2" rel="noopener noreferrer" target="_blank">Isaac Lee (@ijlee2)</a>, <a href="https://github.com/RobbieTheWagner" rel="noopener noreferrer" target="_blank">Robbie Wagner (@RobbieTheWagner)</a>, <a href="https://github.com/MinThaMie" rel="noopener noreferrer" target="_blank">Anne-Greeth Schot-van Herwijnen (@MinThaMie)</a>, <a href="https://github.com/boris-petrov" rel="noopener noreferrer" target="_blank">Boris Petrov (@boris-petrov)</a>, <a href="https://github.com/MelSumner" rel="noopener noreferrer" target="_blank">Melanie Sumner (@MelSumner)</a>, <a href="https://github.com/VincentMolinie" rel="noopener noreferrer" target="_blank">Vincent Molinié (@VincentMolinie)</a>, <a href="https://github.com/jaredgalanis" rel="noopener noreferrer" target="_blank">Jared Galanis (@jaredgalanis)</a>, <a href="https://github.com/chrisrng" rel="noopener noreferrer" target="_blank">Chris Ng (@chrisrng)</a>, <a href="https://github.com/gitKrystan" rel="noopener noreferrer" target="_blank">Krystan HuffMenne (@gitKrystan)</a>, <a href="https://github.com/lifeart" rel="noopener noreferrer" target="_blank">Alex Kanunnikov (@lifeart)</a>, <a href="https://github.com/ef4" rel="noopener noreferrer" target="_blank">Edward Faulkner (@ef4)</a>, <a href="https://github.com/bertdeblock" rel="noopener noreferrer" target="_blank">Bert De Block (@bertdeblock)</a>, <a href="https://github.com/a13o" rel="noopener noreferrer" target="_blank">Andrew Pellerano (@a13o)</a>, <a href="https://github.com/gilest" rel="noopener noreferrer" target="_blank">Giles Thompson (@gilest)</a>, <a href="https://github.com/jrjohnson" rel="noopener noreferrer" target="_blank">Jon Johnson (@jrjohnson)</a>, <a href="https://github.com/kellyselden" rel="noopener noreferrer" target="_blank">Kelly Selden (@kellyselden)</a>, <a href="https://github.com/runspired" rel="noopener noreferrer" target="_blank">Chris Thoburn (@runspired)</a>, <a href="https://github.com/deanmarano" rel="noopener noreferrer" target="_blank">Dean Marano (@deanmarano)</a>, <a href="https://github.com/gabrielcsapo" rel="noopener noreferrer" target="_blank">Gabriel Csapo (@gabrielcsapo)</a>, <a href="https://github.com/mansona" rel="noopener noreferrer" target="_blank">Chris Manson (@mansona)</a>, <a href="https://github.com/NullVoxPopuli" rel="noopener noreferrer" target="_blank">@NullVoxPopuli</a>, <a href="https://github.com/jenweber" rel="noopener noreferrer" target="_blank">Jen Weber (@jenweber)</a>, <a href="https://github.com/survesh-vrl" rel="noopener noreferrer" target="_blank">Survesh (@survesh-vrl)</a>, <a href="https://github.com/simonihmig" rel="noopener noreferrer" target="_blank">Simon Ihmig (@simonihmig)</a>, <a href="https://github.com/kategengler" rel="noopener noreferrer" target="_blank">Katie Gengler (@kategengler)</a>, <a href="https://github.com/wycats" rel="noopener noreferrer" target="_blank">Yehuda Katz (@wycats)</a>, <a href="https://github.com/dhochbaum-dcp" rel="noopener noreferrer" target="_blank">@dhochbaum-dcp</a>, and <a href="https://github.com/nickschot" rel="noopener noreferrer" target="_blank">Nick Schot (@nickschot)</a> for their contributions to Ember and related repositories! 💖</p>
 
 ---
 
