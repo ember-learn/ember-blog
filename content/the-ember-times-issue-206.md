@@ -79,7 +79,7 @@ npx @codemod-utils/cli --name <your-codemod-name>
 
 > My hope is, we can lower the [entry] barrier enough that, if a person can write a function in Node.js, then they can start writing a codemod.
 
-To learn how to write a codemod, check out [the main tutorial](https://github.com/ijlee2/codemod-utils#tutorials) and [the codemods written with `@codemod-utils`](https://github.com/ijlee2/codemod-utils#codemods-written-with-codemod-utils). If you want to learn from Isaac himself on how to utilize codemods to bring your projects up to date, check out his [amazing talk at EmberConf 2023](https://www.youtube.com/watch?v=qXq67sQxdCU&list=PL4eq2DPpyBbn9eFgZIxo23_q9sAtqGtvt&index=10)!
+To learn how to write a codemod, check out [the main tutorial](https://github.com/ijlee2/codemod-utils#tutorials) and [the codemods written with `@codemod-utils`](https://github.com/ijlee2/codemod-utils#codemods-written-with-codemod-utils). If you want to learn from Isaac on how to utilize codemods to bring your projects up to date, check out Isaac's [amazing talk at EmberConf 2023](https://www.youtube.com/watch?v=qXq67sQxdCU&list=PL4eq2DPpyBbn9eFgZIxo23_q9sAtqGtvt&index=10)!
 
 ---
 
