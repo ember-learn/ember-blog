@@ -2,7 +2,7 @@
 title: Ember 5.2 Released
 authors:
   - jared-galanis
-date: 2023-08-15T00:00:00.000Z
+date: 2023-08-19T00:00:00.000Z
 tags:
   - releases
   - '2023'
@@ -34,7 +34,7 @@ Ember.js 5.2 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 5.2 introduced 2 bug fixes:
 
-- [#20505](https://github.com/emberjs/ember.js/pull/20505) Remove use of this.element in component-test and helper-test blueprints. d
+- [#20505](https://github.com/emberjs/ember.js/pull/20505) Remove use of this.element in component-test and helper-test blueprints.
 - [#20501](https://github.com/emberjs/ember.js/pull/20501) Fix the types for the mutation-methods of NativeArray.
 
 #### Features
@@ -91,15 +91,17 @@ While it is recommended to keep Ember CLI versions in sync with Ember and EmberD
 
 #### Bug Fixes
 
-Ember CLI 5.2 introduced <replace here> bug fixes:
+Ember CLI 5.2 introduced no bug fixes.
 
 #### Features
 
-Ember CLI 5.2 introduced <replace here> features:
+Ember CLI 5.2 introduced 1 new feature:
+
+- [#10283](https://github.com/ember-cli/ember-cli/pull/10283) - refactor `--typescript` support in blueprints to not use `ember-cli-typescript`.
 
 #### Deprecations
 
-Ember CLI 5.2 introduced <replace here> deprecations.
+Ember CLI 5.2 introduced no deprecations.
 
 For more details on the changes in Ember CLI 5.2 and detailed upgrade
 instructions, please review the [Ember CLI 5.2.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.2.0).
