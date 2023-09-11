@@ -19,7 +19,7 @@ ember-shiki 🌈
 
 ## [🌈 1. New addon for syntax highlighting in Ember](https://github.com/IgnaceMaes/ember-shiki)
 
-Have you ever wanted to show pretty code snippets in your Ember apps? Then today you're in luck. The new [ember-shiki](https://github.com/IgnaceMaes/ember-shiki) addon was just released by Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes)) which makes using the [Shiki](https://github.com/shikijs/shiki) syntax highlighter in Ember a breeze. It is a modern v2 addon with TypeScript and Glint interfaces and supports Fastboot. On top of that it also offers theming, code block grouping, and line highlighting. Ember's new `.gjs` and `.gts` file formats are also supported out of the box.
+Have you ever wanted to show pretty code snippets in your Ember apps? Then today you're in luck. The new [ember-shiki](https://github.com/IgnaceMaes/ember-shiki) addon was just released by Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes)) which makes using the [Shiki](https://github.com/shikijs/shiki) syntax highlighter in Ember a breeze. It is a modern v2 addon with TypeScript and Glint interfaces and has support for Fastboot. On top of that it comes with theming options, code block grouping, and line highlighting. Ember's new `.gjs` and `.gts` file formats are also supported out of the box.
 
 Give it a try, for all your syntax highlighting needs!
 
