@@ -2,6 +2,7 @@
 title: The Ember Times - Issue No. 207
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
+  - Ignace Maes
 date: 2023-XX-XXT00:00:00.000Z
 tags:
   - newsletter
@@ -12,17 +13,15 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
+ember-shiki 🌈
+
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [🌈 1. New addon for syntax highlighting in Ember](https://github.com/IgnaceMaes/ember-shiki)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Have you ever wanted to show pretty code snippets in your Ember apps? Then today you're in luck. The new [ember-shiki](https://github.com/IgnaceMaes/ember-shiki) addon was just released by Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes)) which makes using the [Shiki](https://github.com/shikijs/shiki) syntax highlighter in Ember a breeze. It is a modern v2 addon with TypeScript and Glint interfaces and supports Fastboot. On top of that it also offers theming, code block grouping, and line highlighting. Ember's new `.gjs` and `.gts` file formats are also supported out of the box.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+Give it a try, for all your syntax highlighting needs!
 
 ---
 
@@ -136,4 +135,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Ignace Maes and the Learning Team
