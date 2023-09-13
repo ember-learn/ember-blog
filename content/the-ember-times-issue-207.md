@@ -13,7 +13,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
-ember-shiki 🌈
+ember-shiki 🌈, Ember videos 🎞️
 
 ---
 
@@ -25,15 +25,14 @@ Give it a try, for all your syntax highlighting needs!
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## 🎞️ Videos on the latest hot topics in Ember
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The [Whiskey, Web and Whatnot podcast](https://whiskeywebandwhatnot.fm) released their [newest episode](https://whiskeywebandwhatnot.fm/polaris-vite-and-exploring-the-future-of-ember-with-jared-galanis-and-preston-sego) on Polaris, Vite and the workings of learning team in these exciting times. [Preston Sego III (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis) discussed all this and more with the hosts [Robbie Wagner (@RobbieTheWagner)](https://github.com/robbiethewagner) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter) during EmberConf 2023. 
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+When talking about the new things in Ember, Glint is a favourite topic. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), together with [Dan Freeman (@dfreeman)](https://github.com/dfreeman) released [their first screencast](https://www.youtube.com/watch?v=MLpP8D3cY7M&list=PLelyiwKWHHAokRRAEO3sD5yc6_C8WnXOm) in a series with the amazing title: [You did WHAT with TypeScript?—Glint Architecture Overview](https://www.youtube.com/watch?v=MLpP8D3cY7M&list=PLelyiwKWHHAokRRAEO3sD5yc6_C8WnXOm).
+
+If you like more short bits of information checkout [Preston](https://github.com/NullVoxPopuli)’s [TikTok videos](https://www.tiktok.com/@nullvoxpopuli) or [YouTube Shorts](https://www.youtube.com/channel/UCOZ7i6NiYjG0NyH9_fQ6xfg), on `template-tag`, OTP component and publishing to NPM and more.
+
 
 ---
 
