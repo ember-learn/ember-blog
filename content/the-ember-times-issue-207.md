@@ -52,15 +52,17 @@ The [Whiskey, Web and Whatnot podcast](https://whiskeywebandwhatnot.fm) released
 
 ---
 
-## [🐹 5. Section title in sentence case](section-url)
+## [✨ Addon releases](section-url)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+The Ember ecosystem is not standing still and below you can see some of the latest updates to addons.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [`typed-ember/glint` v1.1.0](https://github.com/typed-ember/glint/releases/tag/1.1.0) updates the documentation, fixes a bug concerning the LinkTo component type and exposes the `loadConfig` function.
+- [`ember-file-upload` v8.2.0](https://github.com/adopted-ember-addons/ember-file-upload/releases/tag/v8.2.0) adds Glint types to the addon and documentation for this.
+- [`ember-scroll-modifiers` v7.1.0](https://github.com/elwayman02/ember-scroll-modifiers/releases/tag/v7.1.0) supports `Additional state` to be passed as the `IntersectionObserverEntry`.
+- [`embroider-build/addon-blueprint` v2.5.0](https://github.com/embroider-build/addon-blueprint/releases/tag/v2.5.0) fixes a bug to now propely handle `.gts` files and more enhancements.
+- [`ember-codemode-v1-to-v2` v1.0.0](https://github.com/ijlee2/ember-codemod-v1-to-v2/releases) downstreams changes from the `addon-blueprint` (in version 0.10.0) up to v2.2.0. In [v1.0.0](https://github.com/ijlee2/ember-codemod-v1-to-v2/releases/tag/1.0.0)] support for [Node 16] is dropped and the changes from `addon-blueprint` are downstreamed up to version 2.5.0.
+
+If you want your addon to be mentioned here, post about your releases in the [#news-and-announcement](https://discord.com/channels/480462759797063690/480499624663056390) channel on our [Discord server](https://discord.gg/emberjs).
 
 ---
 
