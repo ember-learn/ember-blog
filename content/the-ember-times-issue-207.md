@@ -14,7 +14,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
-ember-shiki 🌈, Ember videos 🎞️,  Whiskey, Web and Whatnot 🎙️,
+ember-shiki 🌈, Ember videos 🎞️,  Whiskey, Web and Whatnot 🎙️, Addon releases ✨
 
 ---
 
