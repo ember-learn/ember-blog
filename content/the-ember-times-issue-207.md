@@ -2,7 +2,8 @@
 title: The Ember Times - Issue No. 207
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-  - Ignace Maes
+  - ignace-maes
+  - aaron-chambers
   - anne-greeth.schot-van-herwijnen
 date: 2023-XX-XXT00:00:00.000Z
 tags:
@@ -14,7 +15,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
-ember-shiki 🌈, Ember videos 🎞️,  Whiskey, Web and Whatnot 🎙️, Addon releases ✨
+ember-shiki 🌈, Ember videos 🎞️,  Whiskey, Web and Whatnot 🎙️, Addon releases ✨, audit addons 🧀
 
 ---
 
@@ -40,15 +41,11 @@ The [Whiskey, Web and Whatnot podcast](https://whiskeywebandwhatnot.fm) released
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## [🧀 Audit your addons for Embroider compatibility](https://github.com/achambers/xcheese)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Recently, [Aaron Chambers (@achambers)](https://github.com/achambers) published a [small package](https://github.com/achambers/xcheese) to help audit an app's addons to see which are V1 vs V2. When run from the terminal using `npx`, it will print a table showing which of the addons in your app are already V2, which are V1, and of those, which ones have a V2 version available. This should make it easier to keep track of which addons you have left to update to V2 on your journey to adopting [Embroider](https://github.com/embroider-build/embroider).
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+To try it out, run `npx github:achambers/xcheese -h` in your Ember app directory to for instructions on how to use it.
 
 ---
 
@@ -128,4 +125,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ignace Maes, Anne-Greeth Schot-van Herwijnen and the Learning Team
+Ignace Maes, Aaron Chambers, Anne-Greeth Schot-van Herwijnen and the Learning Team
