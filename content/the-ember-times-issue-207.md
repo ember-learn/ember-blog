@@ -41,7 +41,7 @@ The [Whiskey, Web and Whatnot podcast](https://whiskeywebandwhatnot.fm) released
 
 ---
 
-## [🧀 Audit your addons for Embroider compatibility](section-url)
+## [🧀 Audit your addons for Embroider compatibility](https://github.com/achambers/xcheese)
 
 Recently, [Aaron Chambers (@achambers)](https://github.com/achambers) published a [small package](https://github.com/achambers/xcheese) to help audit an app's addons to see which are V1 vs V2. When run from the terminal using `npx`, it will print a table showing which of the addons in your app are already V2, which are V1, and of those, which ones have a V2 version available. This should make it easier to keep track of which addons you have left to update to V2 on your journey to adopting [Embroider](https://github.com/embroider-build/embroider).
 
