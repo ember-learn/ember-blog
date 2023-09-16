@@ -4,6 +4,7 @@ authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - ignace-maes
   - aaron-chambers
+  - anne-greeth.schot-van-herwijnen
 date: 2023-XX-XXT00:00:00.000Z
 tags:
   - newsletter
@@ -14,7 +15,7 @@ tags:
 
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
-ember-shiki 🌈, audit addons 🧀
+ember-shiki 🌈, Ember videos 🎞️,  Whiskey, Web and Whatnot 🎙️, audit addons 🧀
 
 ---
 
@@ -26,27 +27,17 @@ Give it a try, for all your syntax highlighting needs!
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## 🎞️ Learn more about Ember with videos
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+When talking about the new things in Ember, Glint is a favourite topic. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), together with [Dan Freeman (@dfreeman)](https://github.com/dfreeman) are publishing a series of screencast on this topic. Their first screencast has the amazing title: [You did WHAT with TypeScript?—Glint Architecture Overview](https://youtu.be/MLpP8D3cY7M?si=7ro6801LQZtkjaVT), and will explain the big picture of how the Glint project works. In their second screencast, [Vacuous Lies: How the Glint/TypeScript transform works](https://www.youtube.com/watch?v=Xhv1jAV5cZI), they dig into the details of how Glint transforms EmberJS and GlimmerJS templates into TypeScript.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you like more short bits of information checkout [Preston](https://github.com/NullVoxPopuli)’s [TikTok videos](https://www.tiktok.com/@nullvoxpopuli) or [YouTube Shorts](https://www.youtube.com/channel/UCOZ7i6NiYjG0NyH9_fQ6xfg), on `template-tag`, OTP component and publishing to NPM and more.
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+## [🎙️ Whiskey, Web and Whatnot EmberConf podcasts](https://whiskeywebandwhatnot.fm)
+<!-- alex ignore hosts -->
+The [Whiskey, Web and Whatnot podcast](https://whiskeywebandwhatnot.fm) released two new episodes, recorded at EmberConf. The [first episode](https://whiskeywebandwhatnot.fm/polaris-vite-and-exploring-the-future-of-ember-with-jared-galanis-and-preston-sego) covers [Polaris (the upcoming Ember edition)](https://emberjs.com/editions/polaris/), [Vite](https://vitejs.dev) and the workings of learning team in these exciting times. [Preston Sego III (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis) discussed all this and more with the hosts [Robbie Wagner (@RobbieTheWagner)](https://github.com/robbiethewagner) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter). In the [second episode](https://whiskeywebandwhatnot.fm/vite-debugging-and-pnpm-with-ed-faulkner) dives [Ed Faulkner (@ef4)](https://github.com/ef4) into the depts of [Vite](https://vitejs.dev), a build tool known for its speed and user-friendliness. If you want to know more about what [PNPM (a package manager)](https://pnpm.io) and [Vite](https://vitejs.dev) can bring to your Ember experience, check it out!
 
 ---
 
@@ -132,4 +123,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ignace Maes, Aaron Chambers and the Learning Team
+Ignace Maes, Aaron Chambers, Anne-Greeth Schot-van Herwijnen and the Learning Team
