@@ -1,11 +1,11 @@
 ---
 title: The Ember Times - Issue No. 207
 authors:
-  - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
   - ignace-maes
   - aaron-chambers
   - anne-greeth.schot-van-herwijnen
-date: 2023-XX-XXT00:00:00.000Z
+  - jared-galanis
+date: 2023-09-18T00:00:00.000Z
 tags:
   - newsletter
   - '2023'
@@ -13,13 +13,11 @@ tags:
 
 👋 Emberistas! 🐹
 
-<SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
-
-ember-shiki 🌈, Ember videos 🎞️,  Whiskey, Web and Whatnot 🎙️, Addon releases ✨, audit addons 🧀
+ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
 
 ---
 
-## [🌈 1. New addon for syntax highlighting in Ember](https://github.com/IgnaceMaes/ember-shiki)
+## [🌈 New addon for syntax highlighting in Ember](https://github.com/IgnaceMaes/ember-shiki)
 
 Have you ever wanted to show pretty code snippets in your Ember apps? Then today you're in luck. The new [ember-shiki](https://github.com/IgnaceMaes/ember-shiki) addon was just released by Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes)) which makes using the [Shiki](https://github.com/shikijs/shiki) syntax highlighter in Ember a breeze. It is a modern v2 addon with TypeScript and Glint interfaces and has support for Fastboot. On top of that it comes with theming options, code block grouping, and line highlighting. Ember's new `.gjs` and `.gts` file formats are also supported out of the box.
 
@@ -36,7 +34,9 @@ If you like more short bits of information checkout [Preston](https://github.com
 ---
 
 ## [🎙️ Whiskey, Web and Whatnot EmberConf podcasts](https://whiskeywebandwhatnot.fm)
+
 <!-- alex ignore hosts -->
+
 The [Whiskey, Web and Whatnot podcast](https://whiskeywebandwhatnot.fm) released two new episodes, recorded at EmberConf. The [first episode](https://whiskeywebandwhatnot.fm/polaris-vite-and-exploring-the-future-of-ember-with-jared-galanis-and-preston-sego) covers [Polaris (the upcoming Ember edition)](https://emberjs.com/editions/polaris/), [Vite](https://vitejs.dev) and the workings of learning team in these exciting times. [Preston Sego III (@NullVoxPopuli)](https://github.com/NullVoxPopuli) and [Jared Galanis (@jaredgalanis)](https://github.com/jaredgalanis) discussed all this and more with the hosts [Robbie Wagner (@RobbieTheWagner)](https://github.com/robbiethewagner) and [Chuck Carpenter (@chuckcarpenter)](https://github.com/chuckcarpenter). In the [second episode](https://whiskeywebandwhatnot.fm/vite-debugging-and-pnpm-with-ed-faulkner) dives [Ed Faulkner (@ef4)](https://github.com/ef4) into the depts of [Vite](https://vitejs.dev), a build tool known for its speed and user-friendliness. If you want to know more about what [PNPM (a package manager)](https://pnpm.io) and [Vite](https://vitejs.dev) can bring to your Ember experience, check it out!
 
 ---
@@ -60,42 +60,6 @@ The Ember ecosystem is not standing still and below you can see some of the late
 - [`ember-codemode-v1-to-v2` v1.0.0](https://github.com/ijlee2/ember-codemod-v1-to-v2/releases) downstreams changes from the `addon-blueprint` (in version 0.10.0) up to v2.2.0. In [v1.0.0](https://github.com/ijlee2/ember-codemod-v1-to-v2/releases/tag/1.0.0)] support for [Node 16] is dropped and the changes from `addon-blueprint` are downstreamed up to version 2.5.0.
 
 If you want your addon to be mentioned here, post about your releases in the [#news-and-announcement](https://discord.com/channels/480462759797063690/480499624663056390) channel on our [Discord server](https://discord.gg/emberjs).
-
----
-
-## [🐹 6. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 7. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
-
----
-
-## [🐹 8. Section title in sentence case](section-url)
-
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
 
 ---
 
@@ -125,4 +89,4 @@ That's another wrap! ✨
 
 Be kind,
 
-Ignace Maes, Aaron Chambers, Anne-Greeth Schot-van Herwijnen and the Learning Team
+Ignace Maes, Aaron Chambers, Anne-Greeth Schot-van Herwijnen, Jared Galanis and the Learning Team
