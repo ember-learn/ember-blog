@@ -58,6 +58,7 @@ The Ember ecosystem is not standing still and below you can see some of the late
 - [`ember-scroll-modifiers` v7.1.0](https://github.com/elwayman02/ember-scroll-modifiers/releases/tag/v7.1.0) supports `Additional state` to be passed as the `IntersectionObserverEntry`.
 - [`embroider-build/addon-blueprint` v2.5.0](https://github.com/embroider-build/addon-blueprint/releases/tag/v2.5.0) fixes a bug to now propely handle `.gts` files and more enhancements.
 - [`ember-codemode-v1-to-v2` v1.0.0](https://github.com/ijlee2/ember-codemod-v1-to-v2/releases) downstreams changes from the `addon-blueprint` (in version 0.10.0) up to v2.2.0. In [v1.0.0](https://github.com/ijlee2/ember-codemod-v1-to-v2/releases/tag/1.0.0)] support for [Node 16] is dropped and the changes from `addon-blueprint` are downstreamed up to version 2.5.0.
+- [`ember-truth-helpers` v4.0.3](https://github.com/jmurphyau/ember-truth-helpers/releases) converted to V2 Embroider native format, adds Glint types and provides imports for usage in `gts` or `gjs` files.
 
 If you want your addon to be mentioned here, post about your releases in the [#news-and-announcement](https://discord.com/channels/480462759797063690/480499624663056390) channel on our [Discord server](https://discord.gg/emberjs).
 
