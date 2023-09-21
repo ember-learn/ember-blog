@@ -61,7 +61,7 @@ EmberData 5.3 introduced 10 bug fixes. Details are in the
 
 #### Features
 
-EmberData 5.3 introduced 3 features.
+EmberData 5.3 introduced several new features.
 
 This release primarily focused on polish for the `RequestManager` story, introducing builder utils, builders for `REST` `ActiveRecord` and `JSON:API` requests as well as serialization utils for `JSON:API` requests.
 
