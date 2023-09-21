@@ -111,15 +111,14 @@ While it is recommended to keep Ember CLI versions in sync with Ember and EmberD
 
 #### Bug Fixes
 
-Ember CLI 5.3 introduced 0 bug fixes.
+Ember CLI 5.3 introduced 3 bug fixes.
 
-#### Features
-
-Ember CLI 5.3 introduced 0 features.
 
 #### Deprecations
 
-Ember CLI 5.3 introduced 0 deprecations.
+Ember CLI 5.3 introduced 1 deprecation.
+
+- Deprecate outputPaths build option, as output paths will no longer be predetermined under Embroider
 
 For more details on the changes in Ember CLI 5.3 and detailed upgrade
 instructions, please review the [Ember CLI 5.3.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.3.0).
