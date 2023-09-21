@@ -11,7 +11,7 @@ tags:
 
 Today the Ember project is releasing version 5.3 of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
 
-This release kicks off the 5.3.1 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+This release kicks off the 5.4 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 You can read more about our general release process here:
 
@@ -36,15 +36,15 @@ Ember.js 5.3 introduced 0 bug fixes.
 
 #### Features
 
-Ember.js 5.3 introduced 2 features.
+Ember.js 5.3 introduced 0 features.
 
 1. Feature description
 2. Feature description
 
 #### Deprecations
 
-Ember.js 5.3 introduced 0 deprecations.
-
+Ember.js 5.3 introduced 1 deprecation.
+1. Deprecate implicit record loading in Ember Route per [RFC #774](https://rfcs.emberjs.com/id/0774-implicit-record-route-loading). Please see [the deprecation guide](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model) for more information.
 <!-- Block start: If there were no deprecations, remove this block -->
 
 Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
