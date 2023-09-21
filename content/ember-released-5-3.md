@@ -56,15 +56,35 @@ EmberData is the official data persistence library for Ember.js applications.
 
 #### Bug Fixes
 
-EmberData 5.3 introduced 0 bug fixes.
+EmberData 5.3 introduced 10 bug fixes. Details are in the
+[EmberData 5.3.0 release page](https://github.com/emberjs/data/releases/tag/v5.3.0).
 
 #### Features
 
-EmberData 5.3 introduced 0 features.
+EmberData 5.3 introduced 3 features.
+
+This release primarily focused on polish for the `RequestManager` story, introducing builder utils, builders for `REST` `ActiveRecord` and `JSON:API` requests as well as serialization utils for `JSON:API` requests.
+
+As part of shipping serialization utils, we implemented several long-awaited cache features to support them:
+
+- `cache.changedRelationships` retrieves a diff of what has been added or removed from each relationship for a resource
+- `cache.hasChangedRelationships` answers whether any relationships have changed for a resource
+- `cache.rollbackRelationships` will reset all relationships for that resource to their "remote" state, removing any local changes.
 
 #### Deprecations
 
-EmberData 5.3 introduced 0 deprecations.
+EmberData 5.3 introduced 5 deprecations.
+
+As part of our ongoing efforts to modernize the library and to support the above changes, we implemented several new deprecations.
+
+- Deprecate legacy import paths (`ember-data/`) except for `ember-data/store`
+- Deprecate non-strict-type (e.g. "users" or "myType" instead of "user" and "my-type")
+- Deprecate non-strict-id (e.g . `1` instead of `"1"`)
+
+And in relationships specifically:
+
+- deprecate fixing non-unique relationship payloads (when the same record is referenced multiple times in a related collection)
+- deprecate remote updates clearing local changes (an upcoming blog post will explain the new behavior here in detail)
 
 For more details on changes in EmberData 5.3, please review the
 [EmberData 5.3.0 release page](https://github.com/emberjs/data/releases/tag/v5.3.0).
