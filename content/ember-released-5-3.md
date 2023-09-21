@@ -3,7 +3,8 @@ title: Ember 5.3 Released
 authors:
   - jen-weber
   - katie-gengler
-date: 2023-09-23T00:00:00.000Z
+  - jared-galanis
+date: 2023-09-21T00:00:00.000Z
 tags:
   - releases
   - '2023'
@@ -109,10 +110,15 @@ While it is recommended to keep Ember CLI versions in sync with Ember and EmberD
 
 ### Changes in Ember CLI 5.3
 
+#### Features
+
+Ember CLI 5.3 introduced 1 new feature:
+
+- [#10337](https://github.com/ember-cli/ember-cli/pull/10337) - the feature flag for pnpm support was removed, officially allowing using of the `--pnpm` flag.
+
 #### Bug Fixes
 
 Ember CLI 5.3 introduced 3 bug fixes.
-
 
 #### Deprecations
 
