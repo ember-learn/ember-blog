@@ -9,7 +9,7 @@ tags:
   - version-4-x
 ---
 
-Today the Ember project is releasing version VER of Ember.js, Ember Data, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
+Today the Ember project is releasing version VER of Ember.js, EmberData, and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
 
 This release kicks off the VER+0.1 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -57,26 +57,26 @@ For more details on changes in Ember.js VER, please review the [Ember.js VER.0 r
 
 ---
 
-## Ember Data
+## EmberData
 
-Ember Data is the official data persistence library for Ember.js applications.
+EmberData is the official data persistence library for Ember.js applications.
 
-### Changes in Ember Data VER
+### Changes in EmberData VER
 
 #### Bug Fixes
 
-Ember Data VER introduced 0 bug fixes.
+EmberData VER introduced 0 bug fixes.
 
 #### Features
 
-Ember Data VER introduced 0 features.
+EmberData VER introduced 0 features.
 
 #### Deprecations
 
-Ember Data VER introduced 0 deprecations.
+EmberData VER introduced 0 deprecations.
 
-For more details on changes in Ember Data VER, please review the
-[Ember Data VER.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
+For more details on changes in EmberData VER, please review the
+[EmberData VER.0 release page](https://github.com/emberjs/data/releases/tag/vVER.0).
 
 ---
 
@@ -94,7 +94,7 @@ npx ember-cli-update
 
 This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
 
-While it is recommended to keep Ember CLI versions in sync with Ember and Ember Data, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or Ember Data by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
+While it is recommended to keep Ember CLI versions in sync with Ember and EmberData, this is not required. After updating ember-cli, you can keep your current version(s) of Ember or EmberData by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
 ### Changes in Ember CLI VER
 
