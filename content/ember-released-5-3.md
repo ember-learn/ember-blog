@@ -1,7 +1,8 @@
 ---
 title: Ember 5.3 Released
 authors:
-  - jen-weber 
+  - jen-weber
+  - katie-gengler
 date: 2023-09-23T00:00:00.000Z
 tags:
   - releases
@@ -30,20 +31,10 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 5.3 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-#### Bug Fixes
-
-Ember.js 5.3 introduced 0 bug fixes.
-
-#### Features
-
-Ember.js 5.3 introduced 0 features.
-
-1. Feature description
-2. Feature description
-
 #### Deprecations
 
 Ember.js 5.3 introduced 1 deprecation.
+
 1. Deprecate implicit record loading in Ember Route per [RFC #774](https://rfcs.emberjs.com/id/0774-implicit-record-route-loading). Please see [the deprecation guide](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model) for more information.
 <!-- Block start: If there were no deprecations, remove this block -->
 
