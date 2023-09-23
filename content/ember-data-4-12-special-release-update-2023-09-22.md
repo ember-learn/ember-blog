@@ -11,12 +11,15 @@ tags:
 ---
 
 <!-- alex ignore special-->
+
 ## EmberData 4.12 Special LTS Update
 
 <!-- alex ignore just-->
+
 In our [5.0 Announcement](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15) we promised extended support for 4.12 LTS **beyond** _just bug fixes_.
 
 <!-- alex ignore simple-->
+
 > This support extends beyond simple bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 4.x series we will willingly accept them. Our goal is simple: we want no one left behind.
 
 To this end, here are the changes we currently plan to make for 4.12 to ensure our users can both upgrade to 4.12 from 4.6 and 4.11 more seamlessly _and_ to provide additional tools for users on 4.12 to begin shifting to the RequestManager paradigm as early as possible for their app.
@@ -25,23 +28,23 @@ To this end, here are the changes we currently plan to make for 4.12 to ensure o
 
 1. The first LTS release of `@ember-data/rest` and `@ember-data/active-record` will have their peer-dependency supported versions set to include `~4.12.3` of `@ember-data/store`.
 
-- Once apps have updated from 4.12 to the 5.x LTS they should use the associated release's version to ensure maximum inter-compatibility.
+    - Once apps have updated from 4.12 to the 5.x LTS they should use the associated release's version to ensure maximum inter-compatibility.
 
 2. `@ember-data/request-utils` has no dependencies or peer-dependencies on other EmberData packages, and thus can be used with any version immediately. However, when using it with `4.12` we suggest pinning to a 5.x LTS version once it is available.
 
-- Once apps have updated from 4.12 to the 5.x LTS they should use the associated release's version to ensure maximum inter-compatibility.
+    - Once apps have updated from 4.12 to the 5.x LTS they should use the associated release's version to ensure maximum inter-compatibility.
 
 3. `@ember-data/json-api/request` will be backported
 
-- we are unsure we will be able to backport support for `serializePatch` or the new cache relationships diffing APIs. More likely than not these will not be backported. If any portion of them is, they are likely to operate somewhat differently due to a different underlying graph implementation.
+    - we are unsure we will be able to backport support for `serializePatch` or the new cache relationships diffing APIs. More likely than not these will not be backported. If any portion of them is, they are likely to operate somewhat differently due to a different underlying graph implementation.
 
-- we may investigate whether `@ember-data/json-api` and `@ember-data/graph` could have their peer-dependencies loosened to allow 4.x store as an alternative path to support diffing. Many apps may find this a feasible approach as the deprecations that affect them in 4.x were relatively minor. Similarly 4.12 packages would have theirs loosened to allow their 5.x counterparts.
+    - we may investigate whether `@ember-data/json-api` and `@ember-data/graph` could have their peer-dependencies loosened to allow 4.x store as an alternative path to support diffing. Many apps may find this a feasible approach as the deprecations that affect them in 4.x were relatively minor. Similarly 4.12 packages would have theirs loosened to allow their 5.x counterparts.
 
 ## RequestManager
 
-4. Improvements to the CacheHandler made in 5.x leading up to the first 5.x LTS will be backported. We anticipate this part being relatively straightfoward.
+Improvements to the CacheHandler made in 5.x leading up to the first 5.x LTS will be backported. We anticipate this part being relatively straightfoward.
 
-5. 4.12 LTS will have its peer-deps loosened to allow `@ember-data/request` 5.x
+4.12 LTS will have its peer-deps loosened to allow `@ember-data/request` 5.x.
 
 ## Removal of ember runloop to support upgrading from 4.x to 4.12
 
