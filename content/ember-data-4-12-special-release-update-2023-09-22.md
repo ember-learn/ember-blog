@@ -60,7 +60,19 @@ RSVP.configure('async', (callback, arg) => queueMicrotask(() => callback(arg)));
 This change will make RSVP promises behave almost identically to real promises. The reason
 this could help is because we have noticed that many of the most difficult aspects of upgrading to 4.12 and beyond were due to accidental interleaved renders. RSVP Promises without this fix are one source of such renders.
 
-### A Parting Request
+## SchemaRecord Update
+
+We are in the early phases of building the replacement for `@ember-data/model`. As we've said before, we believe this replacement will provide an improved migration path from 4.12 to 5.x for many applications. We also believe it will replace the need for ModelFragments entirely for those users.
+
+A few of the things we're currently working on to support this migration path:
+
+- [Native Class Codemod for models](https://github.com/emberjs/data/issues/8884)
+- [Strict Relationships Codemod](https://github.com/emberjs/data/issues/8893)
+- [Replacement decorators for attr|belongsTo|hasMany](https://github.com/emberjs/data/issues/8887)
+
+You can use the [v4-to-v5 label](https://github.com/emberjs/data/issues?q=is%3Aissue+is%3Aopen+label%3Av4-to-v5) to see a full list of the things we're currently tracking to help with the v4 to v5 migration.
+
+## A Parting Request
 
 If your app is currently stuck on a 4.x version of EmberData for reasons beyond needing to resolve deprecations or usage of ModelFragments (we're coming for you still), we'd like to hear from you!
  
