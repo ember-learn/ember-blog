@@ -76,4 +76,4 @@ You can use the [v4-to-v5 label](https://github.com/emberjs/data/issues?q=is%3Ai
 
 If your app is currently stuck on a 4.x version of EmberData for reasons beyond needing to resolve deprecations or usage of ModelFragments (we're coming for you still), we'd like to hear from you!
  
-For those users we see still downloading 3.x versions, we'd like to hear more about where you got stuck as well. Was it a particular deprecation in EmberData? In ember-source? Please open a ticket on https://github.com/emberjs/data or start a discusion in the #ember-data channel on [Discord](https://discord.gg/emberjs) to discuss.
+For those users we see still downloading 3.x versions, we'd like to hear more about where you got stuck as well. Was it a particular deprecation in EmberData? In ember-source? Please open a ticket with [EmberData](https://github.com/emberjs/data) or start a discussion in the #ember-data channel on [Discord](https://discord.gg/emberjs) to discuss.
