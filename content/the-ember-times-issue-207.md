@@ -3,7 +3,7 @@ title: The Ember Times - Issue No. 207
 authors:
   - ignace-maes
   - aaron-chambers
-  - anne-greeth.schot-van-herwijnen
+  - anne-greeth-schot-van-herwijnen
   - jared-galanis
 date: 2023-09-24T00:00:00.000Z
 tags:
