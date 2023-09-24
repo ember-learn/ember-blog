@@ -81,6 +81,7 @@ The Ember ecosystem is not standing still and below you can see some of the late
 - [`ember-truth-helpers` v4.0.3](https://github.com/jmurphyau/ember-truth-helpers/releases) converted to V2 Embroider native format, adds Glint types and provides imports for usage in `gts` or `gjs` files.
 - [`ember-container-query` 5.0.0](https://github.com/ijlee2/ember-container-query/releases/tag/5.0.0) dropped Node 16 support. Checkout the release notes for migration paths from version 4.
 - [`embroider-css-modules` 1.0.0](https://github.com/ijlee2/embroider-css-modules/releases/tag/1.0.0) also dropped Node 16 support and was marked stable!
+- [`ember-intl` 6.1.0](https://github.com/ember-intl/ember-intl/blob/main/CHANGELOG.md) 6.1.0 has been released and marks the beginning of the `6.x` series. Many thanks to those who have continued to use `ember-intl` and even tried out `6.0.0-beta.x`. If you run into a breaking change that hasn't been documented, please let the maintainers know by opening an issue and/or creating a pull request. Also, checkout the helpful [migration guide](https://ember-intl.github.io/ember-intl/docs/guide/migration-5-0-to-6-1).
 
 If you want your addon to be mentioned here, post about your releases in the [#news-and-announcement](https://discord.com/channels/480462759797063690/480499624663056390) channel on our [Discord server](https://discord.gg/emberjs).
 
