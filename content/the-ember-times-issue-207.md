@@ -13,15 +13,17 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberFest 2023 is a wrap 🐹, Ember 5.3 is released 🚀, ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
+EmberFest 2023 is a wrap 🇪🇸, Ember 5.3 is released 🚀, ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
 
 ---
 
-## [🐹 EmberFest 2023 is a wrap!](https://emberfest.eu/)
+## [🇪🇸 EmberFest 2023 is a wrap!](https://emberfest.eu/)
 
-EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. A huge thank you to all who were involved in cooridinating and presenting and otherwise helping in put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
+EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. There were talks from Ed Faulkner ([@ef4](https://github.com/ef4)), Mel Sumner ([@melsumner](https://github.com/melsumner)), Chris Thoburn ([@runspired](https://github.com/runspired)), Preston Sego ([@NullVoxPopuli](https://github.com/NullVoxPopuli)) and more!
 
-EmberFest videos should be forthcoming at some point in the not too distance future hopefully 🤞. We'll post here in the Times when they are, so keep an eye out!
+A huge thank you to all who were involved in coordinating and presenting and otherwise helping in put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
+
+EmberFest videos may be forthcoming at some point in the not too distance future hopefully 🤞. We'll post here in the Times if and when they are, so keep an eye out!
 
 ---
 
