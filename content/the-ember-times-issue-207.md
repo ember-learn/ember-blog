@@ -5,7 +5,7 @@ authors:
   - aaron-chambers
   - anne-greeth.schot-van-herwijnen
   - jared-galanis
-date: 2023-09-18T00:00:00.000Z
+date: 2023-09-24T00:00:00.000Z
 tags:
   - newsletter
   - '2023'
@@ -13,7 +13,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberFest 2023 is a wrap 🐹, ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
+EmberFest 2023 is a wrap 🐹, Ember 5.3 is released 🚀, ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
 
 ---
 
@@ -22,6 +22,12 @@ EmberFest 2023 is a wrap 🐹, ember-shiki 🌈, Ember videos 🎞️, Whiskey, 
 EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. A huge thank you to all who were involved in cooridinating and presenting and otherwise helping in put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
 
 EmberFest videos should be forthcoming at some point in the not too distance future hopefully 🤞. We'll post here in the Times when they are, so keep an eye out!
+
+---
+
+## [🚀 Ember 5.3 is released](https://blog.emberjs.com/ember-released-5-3)
+
+Ember 5.3 has been released. There were a few deprecations for Ember and Ember CLI. Ember CLI now officially supports `--pnpm`🔥. EmberData shipped quite a bit of work around `RequestManager`.  For EmberData, 5.3 introduced builder utils, builders for `REST`, `ActiveRecord` and `JSON:API` requests as well as serialization utils for `JSON:API` requests ✨✨✨. There were also several deprecations for EmberData. For more detailed information go check out the [release blog post](https://blog.emberjs.com/ember-released-5-3)!
 
 ---
 
