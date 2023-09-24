@@ -21,9 +21,9 @@ EmberFest 2023 is a wrap 🇪🇸, Ember 5.3 is released 🚀, ember-shiki 🌈,
 
 EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. There were talks from Ed Faulkner ([@ef4](https://github.com/ef4)), Mel Sumner ([@melsumner](https://github.com/melsumner)), Chris Thoburn ([@runspired](https://github.com/runspired)), Preston Sego ([@NullVoxPopuli](https://github.com/NullVoxPopuli)) and more!
 
-A huge thank you to all who were involved in coordinating and presenting and otherwise helping in put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
+A huge thank you to all who were involved in coordinating and presenting and otherwise helping to put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
 
-EmberFest videos may be forthcoming at some point in the not too distance future hopefully 🤞. We'll post here in the Times if and when they are, so keep an eye out!
+EmberFest videos may be forthcoming at some point in the not too distant future hopefully 🤞. We'll post here in the Times if and when they are, so keep an eye out!
 
 ---
 
@@ -41,7 +41,7 @@ Give it a try, for all your syntax highlighting needs!
 
 ## [RFC EmberData | deprecate legacy finder support](https://github.com/emberjs/rfcs/pull/964)
 
-The EmberData related RFC that proposes deprecating legacy finder support has been moved to exploring status! This is a signficant change that deprecates methods on `store` and `model` that utilize non-request-manager request paradigms. These methods are no longer recommended in the face of the greater utility of `store.request` and the `RequestManager`. Head over to the [RFC](https://github.com/emberjs/rfcs/pull/964) to participate and/or learn more!
+The EmberData related RFC that proposes deprecating legacy finder support has been moved to exploring status! This is a significant change that deprecates methods on `store` and `model` that utilize non-request-manager request paradigms. These methods are no longer recommended in the face of the greater utility of `store.request` and the `RequestManager`. Head over to the [RFC](https://github.com/emberjs/rfcs/pull/964) to participate and/or learn more!
 
 This is also a friendly reminder that there are not one, but two (to accommodate as many schedules as possible), EmberJS RFC Review meetings that occur every week on Fridays and are open to the community. If you are interested in learning more, you should attend! Checkout the Events section of the Ember Discord server for specific times and information.
 
@@ -49,7 +49,7 @@ This is also a friendly reminder that there are not one, but two (to accommodate
 
 ## 🎞️ Learn more about Ember with videos
 
-When talking about the new things in Ember, Glint is a favourite topic. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), together with [Dan Freeman (@dfreeman)](https://github.com/dfreeman) are publishing a series of screencasts on this topic. Their first screencast has the amazing title: [You did WHAT with TypeScript?—Glint Architecture Overview](https://youtu.be/MLpP8D3cY7M?si=7ro6801LQZtkjaVT), and will explain the big picture of how the Glint project works. In their second screencast, [Vacuous Lies: How the Glint/TypeScript transform works](https://www.youtube.com/watch?v=Xhv1jAV5cZI), they dig into the details of how Glint transforms EmberJS and GlimmerJS templates into TypeScript and in the third installment, [Big Gamma Energy](https://www.youtube.com/watch?v=6-TWGx8j9RU), Chris and Dan go over components and the types that power themd.
+When talking about the new things in Ember, Glint is a favourite topic. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), together with [Dan Freeman (@dfreeman)](https://github.com/dfreeman) are publishing a series of screencasts on this topic. Their first screencast has the amazing title: [You did WHAT with TypeScript?—Glint Architecture Overview](https://youtu.be/MLpP8D3cY7M?si=7ro6801LQZtkjaVT), and will explain the big picture of how the Glint project works. In their second screencast, [Vacuous Lies: How the Glint/TypeScript transform works](https://www.youtube.com/watch?v=Xhv1jAV5cZI), they dig into the details of how Glint transforms EmberJS and GlimmerJS templates into TypeScript and in the third installment, [Big Gamma Energy](https://www.youtube.com/watch?v=6-TWGx8j9RU), Chris and Dan go over components and the types that power them.
 
 If you like more short bits of information checkout [Preston](https://github.com/NullVoxPopuli)’s [TikTok videos](https://www.tiktok.com/@nullvoxpopuli) or [YouTube Shorts](https://www.youtube.com/channel/UCOZ7i6NiYjG0NyH9_fQ6xfg), on `template-tag`, OTP component and publishing to NPM, dynamically render components in Ember Polaris, how to use Effects and more!
 
