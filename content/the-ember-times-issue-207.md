@@ -13,7 +13,15 @@ tags:
 
 👋 Emberistas! 🐹
 
-ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
+EmberFest 2023 is a wrap 🐹, ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
+
+---
+
+## [🐹 EmberFest 2023 is a wrap!](https://emberfest.eu/)
+
+EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. A huge thank you to all who were involved in cooridinating and presenting and otherwise helping in put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
+
+EmberFest videos should be forthcoming at some point in the not too distance future hopefully 🤞. We'll post here in the Times when they are, so keep an eye out!
 
 ---
 
