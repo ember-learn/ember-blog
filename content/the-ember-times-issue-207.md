@@ -37,6 +37,12 @@ Have you ever wanted to show pretty code snippets in your Ember apps? Then today
 
 Give it a try, for all your syntax highlighting needs!
 
+## [RFC EmberData | deprecate legacy finder support](https://github.com/emberjs/rfcs/pull/964)
+
+The EmberData related RFC that proposes deprecating legacy finder support has been moved to exploring status! This is a signficant change that deprecates methods on `store` and `model` that utilize non-request-manager request paradigms. These methods are no longer recommended in the face of the greater utility of `store.request` and the `RequestManager`. Head over to the [RFC](https://github.com/emberjs/rfcs/pull/964) to participate and/or learn more!
+
+This is also a friendly reminder that there are not one, but two (to accommodate as many schedules as possible), EmberJS RFC Review meetings that occur every week on Fridays and are open to the community. If you are interested in learning more, you should attend! Checkout the Events section of the Ember Discord server for specific times and information.
+
 ---
 
 ## 🎞️ Learn more about Ember with videos
