@@ -2,10 +2,10 @@
 title: The Ember Times - Issue No. XXS
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2022-XX-XXT00:00:00.000Z
+date: 2023-XX-XXT00:00:00.000Z
 tags:
   - newsletter
-  - '2022'
+  - '2023'
 ---
 
 👋 Emberistas! 🐹
