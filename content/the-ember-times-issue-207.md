@@ -15,13 +15,14 @@ tags:
 
 EmberFest 2023 is a wrap 🇪🇸, Ember 5.3 is released 🚀, ember-shiki 🌈, Ember videos 🎞️, Whiskey, Web and Whatnot 🎙️, Addon releases ✨, Embroider addon audits 🧀
 
+
 ---
 
 ## [🇪🇸 EmberFest 2023 is a wrap!](https://emberfest.eu/)
 
 EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. There were talks from Ed Faulkner ([@ef4](https://github.com/ef4)), Mel Sumner ([@melsumner](https://github.com/melsumner)), Chris Thoburn ([@runspired](https://github.com/runspired)), Preston Sego ([@NullVoxPopuli](https://github.com/NullVoxPopuli)) and more!
 
-A huge thank you to all who were involved in coordinating and presenting and otherwise helping to put EmberFest together. We are already excited for next year's event 🎉🐹🔥!
+A huge thank you to all who were involved in coordinating and presenting and otherwise helping to put EmberFest together. We are already excited for next year's event 🎉🐹🔥🇪🇺!
 
 EmberFest videos may be forthcoming at some point in the not too distant future hopefully 🤞. We'll post here in the Times if and when they are, so keep an eye out!
 
@@ -33,17 +34,19 @@ Ember 5.3 has been released. There were a few deprecations for Ember and Ember C
 
 ---
 
-## [🌈 New addon for syntax highlighting in Ember](https://github.com/IgnaceMaes/ember-shiki)
-
-Have you ever wanted to show pretty code snippets in your Ember apps? Then today you're in luck. The new [ember-shiki](https://github.com/IgnaceMaes/ember-shiki) addon was just released by Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes)) which makes using the [Shiki](https://github.com/shikijs/shiki) syntax highlighter in Ember a breeze. It is a modern v2 addon with TypeScript and Glint interfaces and has support for Fastboot. On top of that it comes with theming options, code block grouping, and line highlighting. Ember's new `.gjs` and `.gts` file formats are also supported out of the box.
-
-Give it a try, for all your syntax highlighting needs!
-
 ## [RFC EmberData | deprecate legacy finder support](https://github.com/emberjs/rfcs/pull/964)
 
 The EmberData related RFC that proposes deprecating legacy finder support has been moved to exploring status! This is a significant change that deprecates methods on `store` and `model` that utilize non-request-manager request paradigms. These methods are no longer recommended in the face of the greater utility of `store.request` and the `RequestManager`. Head over to the [RFC](https://github.com/emberjs/rfcs/pull/964) to participate and/or learn more!
 
 This is also a friendly reminder that there are not one, but two (to accommodate as many schedules as possible), EmberJS RFC Review meetings that occur every week on Fridays and are open to the community. If you are interested in learning more, you should attend! Checkout the Events section of the Ember Discord server for specific times and information.
+
+---
+
+## [🌈 New addon for syntax highlighting in Ember](https://github.com/IgnaceMaes/ember-shiki)
+
+Have you ever wanted to show pretty code snippets in your Ember apps? Then today you're in luck. The new [ember-shiki](https://github.com/IgnaceMaes/ember-shiki) addon was just released by Ignace Maes ([@IgnaceMaes](https://github.com/IgnaceMaes)) which makes using the [Shiki](https://github.com/shikijs/shiki) syntax highlighter in Ember a breeze. It is a modern v2 addon with TypeScript and Glint interfaces and has support for Fastboot. On top of that it comes with theming options, code block grouping, and line highlighting. Ember's new `.gjs` and `.gts` file formats are also supported out of the box.
+
+Give it a try, for all your syntax highlighting needs!
 
 ---
 
