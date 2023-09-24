@@ -43,7 +43,7 @@ Give it a try, for all your syntax highlighting needs!
 
 When talking about the new things in Ember, Glint is a favourite topic. [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho), together with [Dan Freeman (@dfreeman)](https://github.com/dfreeman) are publishing a series of screencasts on this topic. Their first screencast has the amazing title: [You did WHAT with TypeScript?—Glint Architecture Overview](https://youtu.be/MLpP8D3cY7M?si=7ro6801LQZtkjaVT), and will explain the big picture of how the Glint project works. In their second screencast, [Vacuous Lies: How the Glint/TypeScript transform works](https://www.youtube.com/watch?v=Xhv1jAV5cZI), they dig into the details of how Glint transforms EmberJS and GlimmerJS templates into TypeScript and in the third installment, [Big Gamma Energy](https://www.youtube.com/watch?v=6-TWGx8j9RU), Chris and Dan go over components and the types that power themd.
 
-If you like more short bits of information checkout [Preston](https://github.com/NullVoxPopuli)’s [TikTok videos](https://www.tiktok.com/@nullvoxpopuli) or [YouTube Shorts](https://www.youtube.com/channel/UCOZ7i6NiYjG0NyH9_fQ6xfg), on `template-tag`, OTP component and publishing to NPM and more.
+If you like more short bits of information checkout [Preston](https://github.com/NullVoxPopuli)’s [TikTok videos](https://www.tiktok.com/@nullvoxpopuli) or [YouTube Shorts](https://www.youtube.com/channel/UCOZ7i6NiYjG0NyH9_fQ6xfg), on `template-tag`, OTP component and publishing to NPM, dynamically render components in Ember Polaris, how to use Effects and more!
 
 ---
 
