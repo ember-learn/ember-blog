@@ -20,7 +20,7 @@ EmberFest 2023 is a wrap 🇪🇸, Ember 5.3 is released 🚀, ember-shiki 🌈,
 
 ## [🇪🇸 EmberFest 2023 is a wrap!](https://emberfest.eu/)
 
-EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. There were talks from Ed Faulkner ([@ef4](https://github.com/ef4)), Mel Sumner ([@melsumner](https://github.com/melsumner)), Chris Thoburn ([@runspired](https://github.com/runspired)), Preston Sego ([@NullVoxPopuli](https://github.com/NullVoxPopuli)) and more!
+EmberFest 2023 happened this past week and it was full of exciting talks that hopefully you were able to see in person or remotely. There were talks from Ed Faulkner ([@ef4](https://github.com/ef4)), Chris Thoburn ([@runspired](https://github.com/runspired)), Preston Sego ([@NullVoxPopuli](https://github.com/NullVoxPopuli)) and more!
 
 A huge thank you to all who were involved in coordinating and presenting and otherwise helping to put EmberFest together. We are already excited for next year's event 🎉🐹🔥🇪🇺!
 
