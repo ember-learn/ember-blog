@@ -3,7 +3,7 @@ title: EmberData 4.12 Special LTS Update
 authors:
   - chris-thoburn
   - the-ember-data-team
-date: 2023-09-23T00:00:00.000Z
+date: 2023-09-25T00:00:00.000Z
 tags:
   - '2023'
   - ember-data
