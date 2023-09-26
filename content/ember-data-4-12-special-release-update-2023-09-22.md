@@ -42,7 +42,7 @@ To this end, here are the changes we currently plan to make for 4.12 to ensure o
 
 ## RequestManager
 
-Improvements to the CacheHandler made in 5.x leading up to the first 5.x LTS will be backported. We anticipate this part being relatively straightfoward.
+Improvements to the CacheHandler made in 5.x leading up to the first 5.x LTS will be backported. We anticipate this part being relatively straightforward.
 
 4.12 LTS will have its peer-deps loosened to allow `@ember-data/request` 5.x.
 
