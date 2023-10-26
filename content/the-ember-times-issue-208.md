@@ -2,7 +2,8 @@
 title: The Ember Times - Issue No. 208
 authors:
   - the-crowd # replace with real authors from the author folder (add yourself if you're not there)
-date: 2023-10-XXT00:00:00.000Z
+  - anne-greeth-schot-van-herwijnen
+date: 2023-10-28T00:00:00.000Z
 tags:
   - newsletter
   - '2023'
@@ -10,31 +11,25 @@ tags:
 
 👋 Emberistas! 🐹
 
+EmberFest 2023 videos 🇪🇸, Ember Europe meet-up  🇪🇺, Glint Deep Dives 🤿,
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
 
-## [🐹 1. Section title in sentence case](section-url)
+## [🇪🇸 EmberFest 2023 videos](https://www.youtube.com/@emberfest)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+On the 21st and 22nd of September about 150 Emberistas got together for [EmberFest 2023](https://emberfest.eu) in Madrid. The great variaty of talks is now available on [YouTube](https://www.youtube.com/@emberfest). Checkout all amazing speakers, both those on the [schedule](https://emberfest.eu/schedule/day/1/), as well as a suprise [Q&A](https://www.youtube.com/watch?v=oY289Gk6NcY) with [Ed Faulkner (@ef4)](https://github.com/ef4) and the [lightning talks](https://www.youtube.com/watch?v=VVvRxAOBCVQ).
 
 ---
 
-## [🐹 2. Section title in sentence case](section-url)
+## [🇪🇺 Ember Europe meet-up](https://www.meetup.com/ember-europe/events/296967770/?chapterContext=true)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
+Are you looking for more ways to connect and get inspired, checkout the [Ember Europe meet-up Q4](https://www.meetup.com/ember-europe/events/296967770/?chapterContext=true) on the 30th of November. This version will be completely remote, with engaging talks and some online activities to connect with eachother.
 
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+---
+## [🤿 Glint Deep Dives](https://www.youtube.com/playlist?list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t)
+
+Time to start binging, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Dan Freeman (@dfreeman)](https://github.com/dfreeman) have released their 6th, and final, screencast on Glint. The last three episodes cover [how to turn Handlebars into TypeScript](https://www.youtube.com/watch?v=9RjaREOmFAA&list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t&index=4&pp=iAQB), [actually invoking TypeScript in the Glint pipeline](https://www.youtube.com/watch?v=oqIAyLbp6Rc&list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t&index=5&pp=iAQB) and [language server shenanigans](https://www.youtube.com/watch?v=VUXROd82Ljk&list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t&index=6&pp=iAQB). Enjoy the dynamic duo, while they cover all you need to know and more about Glint.
 
 ---
 
@@ -136,4 +131,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+Anne-Greeth Schot-van Herwijnen, the crowd and the Learning Team
