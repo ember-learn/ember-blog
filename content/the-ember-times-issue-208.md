@@ -11,7 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberFest 2023 videos 🇪🇸, Ember Europe meet-up  🇪🇺, Glint Deep Dives 🤿,
+EmberFest 2023 videos 🇪🇸, Ember Europe meet-up  🇪🇺, Glint Deep Dives 🤿,  Practicle Blogposts 📝
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -27,21 +27,19 @@ On the 21st and 22nd of September about 150 Emberistas got together for [EmberFe
 Are you looking for more ways to connect and get inspired, checkout the [Ember Europe meet-up Q4](https://www.meetup.com/ember-europe/events/296967770/?chapterContext=true) on the 30th of November. This version will be completely remote, with engaging talks and some online activities to connect with eachother.
 
 ---
+
 ## [🤿 Glint Deep Dives](https://www.youtube.com/playlist?list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t)
 
 Time to start binging, [Chris Krycho (@chriskrycho)](https://github.com/chriskrycho) and [Dan Freeman (@dfreeman)](https://github.com/dfreeman) have released their 6th, and final, screencast on Glint. The last three episodes cover [how to turn Handlebars into TypeScript](https://www.youtube.com/watch?v=9RjaREOmFAA&list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t&index=4&pp=iAQB), [actually invoking TypeScript in the Glint pipeline](https://www.youtube.com/watch?v=oqIAyLbp6Rc&list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t&index=5&pp=iAQB) and [language server shenanigans](https://www.youtube.com/watch?v=VUXROd82Ljk&list=PLelyiwKWHHApkoeXQjwKPHPAHgKXZyl3t&index=6&pp=iAQB). Enjoy the dynamic duo, while they cover all you need to know and more about Glint.
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## 📝 Crispy blogpost to help you along
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [Context leaking in EmberJS tests](https://dev.to/michalbryxi/context-leaking-in-emberjs-tests-52nm) by [Michal Bryxí (MichalBryxi)](https://github.com/MichalBryxi) explains why test migth be floppy when it comes to state and what you can do about it.
+- [What to use instead of `@ember/string`](https://dev.to/nullvoxpopuli/what-to-use-instead-of-emberstring-34mo) by [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) shows you how to migrate from `@ember/string` to [`change-case`](https://www.npmjs.com/package/change-case)
+- [Setting up Tailwind, the easy way](https://dev.to/nullvoxpopuli/setting-up-tailwind-the-easy-way-5843) by [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) helps you to set-up Tailwind in 8 steps or if you are on node 18 with `npx ember-apply tailwind`.
+- [Troubleshooting CI test failures with Jenkins](https://hackernoon.com/troubleshooting-ci-test-failures-in-ember-js-with-jenkins-a-journey-of-discoveries) by [Vasanth Kumar (@vasind)](https://github.com/vasind) demystifies the problem where errors only show up in CI and how to learn from that.
 
 ---
 
