@@ -4,7 +4,7 @@ authors:
   - chris-thoburn
   - jared-galanis
   - the-ember-data-team
-date: 2023-10-31T00:00:00.000Z
+date: 2023-11-01T00:00:00.000Z
 tags:
   - '2023'
   - ember-data
