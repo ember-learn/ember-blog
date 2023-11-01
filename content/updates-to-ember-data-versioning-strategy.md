@@ -22,7 +22,7 @@ First, by releasing fewer versions that contain no effective changes other than 
 Second, if the only changes are bugfixes then these fixes are applied to the latest minor
 instead of becoming strung out across multiple minors.
 
-Third, for the project to be able to move more carefully at times when more substantive changes
+Third, this should enable the project to move more carefully at times when more substantive changes
 are being made.
 
 Our hope is that this new policy will improve the ability for us to invest in upgrade paths for
