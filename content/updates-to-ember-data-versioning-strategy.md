@@ -17,7 +17,7 @@ versioning with the broader Ember.js project.
 
 The primary goals of these changes is to improve version-to-version stability for our consumers. We see this being beneficial in several ways.
 
-First, for the project to release fewer versions that contain no effective changes other than the version bump. We believe this will help consumers navigate version-by-version and lts-by-lts upgrades with greater stability.
+First, by releasing fewer versions that contain no effective changes other than the version bump. We believe this will help consumers navigate version-by-version and lts-by-lts upgrades with greater stability.
 
 Second, so that if the only changes are bugfixes these fixes are applied to the latest minor
 instead of becoming strung out across multiple minors.
