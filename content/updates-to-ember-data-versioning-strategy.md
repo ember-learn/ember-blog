@@ -40,12 +40,12 @@ consumers using older versions by focusing on providing the most robust release 
 ## Mitigating Effects
 
 - The API Docs will continue to function as expected except that when viewing docs for EmberData the version dropdown will only include versions available for EmberData. Additionally, linking from places in the EmberData API docs to the Ember API docs will take you to the matching version number of Ember - not necessarily the most recently released version of Ember.
-- The releases overview on the website \_\_\_\_
 - EmberData's README has added a compatibility table
 - New releases (including patch and lts releases) of EmberData beginning today will always list the range of compatible ember-source versions in the release notes at time of release
 - EmberData will begin setting an explicit peerDependency on ember-source set to all tested compatible versions matching the range specified in the release notes
   - Note: this peerDependency will at times be much broader than EmberData's official LTS support policy of "last 2 ember-source LTS releases".
-- ember-cli will ship the latest version of EmberData at times of release in the new app blueprint
+- ember-cli will ship the latest version of EmberData at times of release in the new app blueprint.
+- The releases overview on the website will continue to offer instructions for installing the latest version of Ember.js, which will include the latest version of EmberData (see previous bullet point).
 
 ## Examples
 
