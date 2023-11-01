@@ -52,7 +52,7 @@ consumers using older versions by focusing on providing the most robust release 
 - ember-source releases a new minor (5.4), EmberData chooses to not release and remains at 5.3
 - ember-source releases a new LTS (5.4), EmberData's latest release is 5.3 and thus releases 5.3 as LTS
 - ember-source releases a new minor (5.5), EmberData chooses to release and thus bumps from 5.3 to 5.4
-- ember-source releases a new major (5.0), EmberData will release 5.0
+- ember-source releases a new major (6.0), EmberData will release 6.0
 
 ## Timeline
 
