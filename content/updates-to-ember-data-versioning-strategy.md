@@ -19,7 +19,7 @@ The primary goals of these changes is to improve version-to-version stability fo
 
 First, by releasing fewer versions that contain no effective changes other than the version bump. We believe this will help consumers navigate version-by-version and lts-by-lts upgrades with greater stability.
 
-Second, so that if the only changes are bugfixes these fixes are applied to the latest minor
+Second, if the only changes are bugfixes then these fixes are applied to the latest minor
 instead of becoming strung out across multiple minors.
 
 Third, for the project to be able to move more carefully at times when more substantive changes
