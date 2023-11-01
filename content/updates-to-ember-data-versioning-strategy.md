@@ -39,7 +39,7 @@ consumers using older versions by focusing on providing the most robust release 
 
 ## Mitigating Effects
 
-- The API Docs will continue to function as expected except that when viewing docs for EmberData the version dropdown will only include versions available for EmberData. Additionally, linking from places in the EmberData API docs will take you to the same version number of Ember that was released with that version of EmberData - not necessarily the most recently release for Ember in the API docs.
+- The API Docs will continue to function as expected except that when viewing docs for EmberData the version dropdown will only include versions available for EmberData. Additionally, linking from places in the EmberData API docs to the Ember API docs will take you to the matching version number of Ember - not necessarily the most recently released version of Ember.
 - The releases overview on the website \_\_\_\_
 - EmberData's README has added a compatibility table
 - New releases (including patch and lts releases) of EmberData beginning today will always list the range of compatible ember-source versions in the release notes at time of release
