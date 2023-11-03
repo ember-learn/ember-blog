@@ -34,7 +34,7 @@ Ember.js 5.4 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 5.4 introduced 1 feature:
 
-- [#20521](https://github.com/emberjs/ember.js/pull/20521) Add TypeScript support for looking up controllers in dependency injection registry
+- [#20521](https://github.com/emberjs/ember.js/pull/20521) Add TypeScript support for looking up controllers in the dependency injection registry
 
 #### Bug fixes
 
