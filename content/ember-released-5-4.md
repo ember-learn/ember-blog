@@ -9,7 +9,7 @@ tags:
   - version-5-x
 ---
 
-Today the Ember project is releasing version 5.4 of Ember.js and Ember CLI. <!-- Block start: Uncomment if an LTS candidate --><!--This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.--><!-- Block end -->
+Today the Ember project is releasing version 5.4 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
 
 This release kicks off the 5.5 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -59,7 +59,9 @@ For more details on changes in Ember.js 5.4, please review the [Ember.js 5.4.0 r
 
 EmberData is the official data persistence library for Ember.js applications.
 
-EmberData did not release a new minor version during this release cycle. Please see the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) addressing EmberData's new versioning strategy for more information.
+EmberData did not release a new minor version during this release cycle, as such EmberData remains at 5.3 and 5.3 is a LTS candidate for EmberData.
+
+Please see the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) addressing EmberData's new versioning strategy for more information.
 
 ---
 
