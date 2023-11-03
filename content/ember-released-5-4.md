@@ -38,7 +38,7 @@ Ember.js 5.4 introduced 1 feature:
 
 #### Deprecations
 
-Ember.js 5.4 introduced 2 deprecations.
+Ember.js 5.4 introduced 2 bug fixes.
 
 - [#20529](https://github.com/emberjs/ember.js/pull/20529) - Don't rethrow string errors in handleTransitionReject
 - [#20210](https://github.com/emberjs/ember.js/pull/20210) - Fix hanging tests caused by legacy rsvp code
