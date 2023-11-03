@@ -34,7 +34,7 @@ Ember.js 5.4 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 5.4 introduced 1 feature:
 
-- [#20521](https://github.com/emberjs/ember.js/pull/20521) Add TypeScript support for looking up controllers in DI registry
+- [#20521](https://github.com/emberjs/ember.js/pull/20521) Add TypeScript support for looking up controllers in dependency injection registry
 
 #### Deprecations
 
@@ -94,7 +94,7 @@ Ember CLI 5.4 introduced 4 new features.
 
 Ember CLI 5.4 introduced 1 bug fix.
 
-- [#10345](https://github.com/ember-cli/ember-cli/pull/10345) App blueprint may not have explicit-any in ember-data types @NullVoxPopuli
+- [#10345](https://github.com/ember-cli/ember-cli/pull/10345) App blueprint may not have explicit-any in ember-data types
 
 #### Deprecations
 
