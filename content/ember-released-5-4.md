@@ -90,8 +90,6 @@ Ember CLI 5.4 introduced 4 new features.
 - [#10353](https://github.com/ember-cli/ember-cli/pull/10353) Remove all telemetry
 - [#10368](https://github.com/ember-cli/ember-cli/pull/10368) Streamline package-manager CLI options
 
-- [#10337](https://github.com/ember-cli/ember-cli/pull/10337) - the feature flag for pnpm support was removed, officially allowing using of the `--pnpm` flag.
-
 #### Bug Fixes
 
 Ember CLI 5.4 introduced 1 bug fix.
