@@ -43,14 +43,6 @@ Ember.js 5.4 introduced 2 bug fixes.
 - [#20529](https://github.com/emberjs/ember.js/pull/20529) - Don't rethrow string errors in handleTransitionReject
 - [#20210](https://github.com/emberjs/ember.js/pull/20210) - Fix hanging tests caused by legacy rsvp code
 
-<!-- Block start: If there were no deprecations, remove this block -->
-
-Deprecations are added to Ember.js when an API will be removed at a later date. Each deprecation has an entry in the deprecation guide describing the migration path to a more stable API. Deprecated public APIs are not removed until a major release of the framework.
-
-Consider using the [ember-cli-deprecation-workflow](https://github.com/mixonic/ember-cli-deprecation-workflow) addon if you would like to upgrade your application without immediately addressing deprecations.
-
-<!-- Block end -->
-
 For more details on changes in Ember.js 5.4, please review the [Ember.js 5.4.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.3.0).
 
 ---
