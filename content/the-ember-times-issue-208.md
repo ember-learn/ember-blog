@@ -11,7 +11,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberFest 2023 videos 🇪🇸, Ember Europe meet-up  🇪🇺, Glint Deep Dives 🤿,
+EmberFest 2023 videos 🇪🇸, Ember Europe meet-up  🇪🇺, Glint Deep Dives 🤿,  Practicle Blogposts 📝
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -34,15 +34,12 @@ Time to start binging, [Chris Krycho (@chriskrycho)](https://github.com/chriskry
 
 ---
 
-## [🐹 3. Section title in sentence case](section-url)
+## 📝 Crispy blogpost to help you along
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [Context leaking in EmberJS tests](https://dev.to/michalbryxi/context-leaking-in-emberjs-tests-52nm) by [Michal Bryxí (MichalBryxi)](https://github.com/MichalBryxi) explains why test migth be floppy when it comes to state and what you can do about it.
+- [What to use instead of `@ember/string`](https://dev.to/nullvoxpopuli/what-to-use-instead-of-emberstring-34mo) by [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) shows you how to migrate from `@ember/string` to [`change-case`](https://www.npmjs.com/package/change-case)
+- [Setting up Tailwind, the easy way](https://dev.to/nullvoxpopuli/setting-up-tailwind-the-easy-way-5843) by [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) helps you to set-up Tailwind in 8 steps or if you are on node 18 with `npx ember-apply tailwind`.
+- [Troubleshooting CI test failures with Jenkins](https://hackernoon.com/troubleshooting-ci-test-failures-in-ember-js-with-jenkins-a-journey-of-discoveries) by [Vasanth Kumar (@vasind)](https://github.com/vasind) demystifies the problem where errors only show up in CI and how to learn from that.
 
 ---
 
