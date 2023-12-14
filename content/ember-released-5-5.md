@@ -45,7 +45,7 @@ For more details on changes in Ember.js 5.5, please review the [Ember.js 5.5.0 r
 
 EmberData is the official data persistence library for Ember.js applications.
 
-<!-- ignore easy -->
+<!-- alex ignore easy -->
 This release cycle EmberData is again electing to not release a new minor. Currently work in the library is focused primarily on continuing to align 4.12 and 5.3 to enable as many folks in the community to seamlessly upgrade as possible. We also want to take our time with 5.4 as we intend to introduce a major new paradigm with it (the replacement for @ember-data/model) and believe releasing this new feature at once on the heels of two very robust LTSs (4.12 and 5.3) is the best approach for users looking to navigate upgrades easily.
 
 Please see the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) addressing EmberData's new versioning strategy for more information.
