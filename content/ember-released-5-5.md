@@ -2,7 +2,7 @@
 title: Ember 5.5 Released
 authors:
   - jared-galanis
-date: 2023-11-03T00:00:00.000Z
+date: 2023-12-15T00:00:00.000Z
 tags:
   - releases
   - '2023'
@@ -30,15 +30,12 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 5.5 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-#### Features
-
-Ember.js 5.5 introduced xx feature:
-
-
 #### Bug fixes
 
-Ember.js 5.5 introduced xx bug fixes.
+Ember.js 5.5 introduced 2 bug fixes.
 
+- [#20575](https://github.com/emberjs/ember.js/pull/20575) Update backburner.js to 2.4.2 to ensure scheduleOnce works correctly following a cancelled job
+- [#20578](https://github.com/emberjs/ember.js/pull/20578) Deprecate outlet TemplateFactory support
 
 For more details on changes in Ember.js 5.5, please review the [Ember.js 5.5.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.5.0).
 
