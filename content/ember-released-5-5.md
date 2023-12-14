@@ -72,18 +72,24 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Features
 
-Ember CLI 5.5 introduced xx new features.
+Ember CLI 5.5 introduced 3 new features.
 
-
+- [#10332](https://github.com/ember-cli/ember-cli/pull/10332) Support converting gts to gjs files in blueprint
+- [#10370](https://github.com/ember-cli/ember-cli/pull/10370) When generating a new app with --embroider use all optimisation flags
+- [#10393](https://github.com/ember-cli/ember-cli/pull/10393) feat: add skip-install alias to skip-npm
 
 #### Bug Fixes
 
-Ember CLI 5.5 introduced xx bug fix.
+Ember CLI 5.5 introduced 1 bug fix.
 
+#10403 Fix some docs that were showing up weirdly in generated api docs @kategengler
 
 #### Deprecations
 
-Ember CLI 5.5 introduced xx deprecations.
+Ember CLI 5.5 introduced 1 deprecation.
+
+- [#10350](https://github.com/ember-cli/ember-cli/pull/10350) Deprecate Travis CI support
+
 
 For more details on the changes in Ember CLI 5.5 and detailed upgrade
 instructions, please review the [Ember CLI 5.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.5.0).
