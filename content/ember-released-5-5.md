@@ -82,7 +82,7 @@ Ember CLI 5.5 introduced 3 new features.
 
 Ember CLI 5.5 introduced 1 bug fix.
 
-#10403 Fix some docs that were showing up weirdly in generated api docs @kategengler
+- [#10403](https://github.com/ember-cli/ember-cli/pull/10403) Fix some docs that were showing up weirdly in generated api docs
 
 #### Deprecations
 
