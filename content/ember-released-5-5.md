@@ -2,7 +2,7 @@
 title: Ember 5.5 Released
 authors:
   - jared-galanis
-date: 2023-12-15T00:00:00.000Z
+date: 2023-12-17T00:00:00.000Z
 tags:
   - releases
   - '2023'
@@ -52,6 +52,7 @@ This release cycle EmberData is again electing to not release a new minor.
 Currently work in the library is focused primarily on continuing to align 4.12 and 5.3 to enable as many folks in the community to seamlessly upgrade as possible.
 
 <!-- alex ignore easy -->
+
 We also want to take our time with 5.4 as we intend to introduce a major new paradigm with it (the replacement for @ember-data/model) and believe releasing this new feature at once on the heels of two very robust LTSs (4.12 and 5.3) is the best approach for users looking to navigate upgrades easily.
 
 Please see the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) addressing EmberData's new versioning strategy for more information.
@@ -95,7 +96,6 @@ Ember CLI 5.5 introduced 1 bug fix.
 Ember CLI 5.5 introduced 1 deprecation.
 
 - [#10350](https://github.com/ember-cli/ember-cli/pull/10350) Deprecate Travis CI support
-
 
 For more details on the changes in Ember CLI 5.5 and detailed upgrade
 instructions, please review the [Ember CLI 5.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.5.0).
