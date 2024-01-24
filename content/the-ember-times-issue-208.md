@@ -6,13 +6,19 @@ authors:
 date: 2023-10-28T00:00:00.000Z
 tags:
   - newsletter
-  - '2023'
+  - '2024'
 ---
 
-👋 Emberistas! 🐹
+👋 Welcome to 2024, Emberistas! 🐹
 
-EmberFest 2023 videos 🇪🇸, Ember Europe meet-up  🇪🇺, Glint Deep Dives 🤿,  Practicle Blogposts 📝
+EmberFest 2023 videos 🇪🇸, Ember Europe meet-up video,  🇪🇺, Glint Deep Dives 🤿,  Practicle Blogposts 📝, Addons since 1st of January
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
+
+---
+
+## Welcome to 2024!
+
+It's been an irregular year when it comes to this amazing blog/newsletter. This edition does it's best to wrap up some of the important resources released in the last quarter of 2023. It will not cover all the releases of the addons we usually cover. Starting this February we'll try to send out the Ember Times bi-weekly again and we could use your help. Are you interested in writing for the Ember Times, please reach out on [Discord (#support-ember-times)](https://discord.com/channels/480462759797063690/485450546887786506)!
 
 ---
 
@@ -22,9 +28,13 @@ On the 21st and 22nd of September about 150 Emberistas got together for [EmberFe
 
 ---
 
-## [🇪🇺 Ember Europe meet-up](https://www.meetup.com/ember-europe/events/296967770/?chapterContext=true)
+## [🇪🇺 Ember Europe: Update on Embroider initiative](https://www.youtube.com/watch?v=gPMzrQzryZI)
 
-Are you looking for more ways to connect and get inspired, checkout the [Ember Europe meet-up Q4](https://www.meetup.com/ember-europe/events/296967770/?chapterContext=true) on the 30th of November. This version will be completely remote, with engaging talks and some online activities to connect with eachother.
+[Chris Manson (@mansona)](https://github.com/mansona) provided an update on the [Embroider Initiative](https://mainmatter.com/embroider-initiative/)'s progress during his talk at Ember Europe’s final 2023 Meetup. 
+
+He addressed the [Vite](https://vitejs.dev) support and demonstrated an Ember app on Vite, explaining the importance of using ESM-compatible dependencies. He also discussed the challenges faced during the integration process, such as add-ons not being fully converted to ESM. 
+
+Chris introduced the upcoming [unstable Embroider release](https://github.com/embroider-build/embroider/releases) and encouraged users to remain optimistic despite encountering issues due to cache busting by showcasing debugging techniques and the advantages of Vite's network tab.
 
 ---
 
@@ -43,15 +53,12 @@ Time to start binging, [Chris Krycho (@chriskrycho)](https://github.com/chriskry
 
 ---
 
-## [🐹 4. Section title in sentence case](section-url)
+## 🐹 Addon releases since the 1st of January
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+- [ember-style-modifier v4](https://github.com/jelhan/ember-style-modifier/releases/tag/v4.0.0). This addon provides a {{style}} element modifier to set element's style. This allows to set custom CSS of an element without requiring a Content Security Policy style-src-attr: "unsafe-inline". The breaking changes for v4 are dropping support for node versions 14 and 16 and all Ember versions below 4.12.
+- [pretty-ts-errors v0.5.3](https://github.com/yoavbls/pretty-ts-errors/releases/tag/v0.5.3). This VSCode extensions makes TypeScript errors prettier and human-readable. The latest version added support for Ember template tag components in `.gjs` and `.gts` files reported by Glint.
+- [ember-eui v8.0.1](https://github.com/prysmex/ember-eui/releases/tag/v8.0.1) is now a v2 addon with glint signatures, single file components and pnpm. This addons provides Ember JS components for Elastic design system.
+- [ember-page-title v8.2.0](https://github.com/ember-cli/ember-page-title/releases/tag/v8.2.0) now ships its own types! This addon provides a helper for changing the title of the page you're on.
 
 ---
 
