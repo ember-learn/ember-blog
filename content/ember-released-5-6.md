@@ -34,7 +34,7 @@ Ember.js 5.6 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 5.6 introduced 3 bug fixes.
 
-- [#20595](https://github.com/emberjs/ember.js/pull/20595) - An addon re-export should always be a JavaScript file, not a TypeScript file.
+- [#20595](https://github.com/emberjs/ember.js/pull/20595) - A blueprint-generated file for an addon re-export should always be a JavaScript file, not a TypeScript file.
 - [#20603](https://github.com/emberjs/ember.js/pull/20603) - Internal templates should be strictMode and fix the declared types for `precompileTemplate`.
 - [#20605](https://github.com/emberjs/ember.js/pull/20605) - Move babel-plugin-ember-template-compilation to dependencies from devDependencies.
 
