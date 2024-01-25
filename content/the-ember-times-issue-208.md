@@ -34,7 +34,7 @@ On the 21st and 22nd of September about 150 Emberistas got together for [EmberFe
 
 He addressed the [Vite](https://vitejs.dev) support and demonstrated an Ember app on Vite, explaining the importance of using ESM-compatible dependencies. He also discussed the challenges faced during the integration process, such as add-ons not being fully converted to ESM. 
 
-Chris introduced the upcoming [unstable Embroider release](https://github.com/embroider-build/embroider/releases) and encouraged users to remain optimistic despite encountering issues due to cache busting by showcasing debugging techniques and the advantages of Vite's network tab.
+Chris introduced what will be in the [next major release of Embroider](https://github.com/embroider-build/embroider/pull/1701) and encouraged users to remain optimistic despite encountering issues due to cache busting by showcasing debugging techniques and the advantages of Vite's network tab.
 
 ---
 
