@@ -25,7 +25,6 @@ If you are interested to keep up to date with all that is going on within the Em
 - Thursday - Spec meeting
 - Friday - RFC review **(twice)**, EmberData meeting
 
-
 ---
 
 ## [🇪🇸 EmberFest 2023 videos](https://www.youtube.com/@emberfest)
@@ -36,9 +35,9 @@ On the 21st and 22nd of September about 150 Emberistas got together for [EmberFe
 
 ## [🇪🇺 Ember Europe: Update on Embroider initiative](https://www.youtube.com/watch?v=gPMzrQzryZI)
 
-[Chris Manson (@mansona)](https://github.com/mansona) provided an update on the [Embroider Initiative](https://mainmatter.com/embroider-initiative/)'s progress during his talk at Ember Europe’s final 2023 Meetup. 
+[Chris Manson (@mansona)](https://github.com/mansona) provided an update on the [Embroider Initiative](https://mainmatter.com/embroider-initiative/)'s progress during his talk at Ember Europe’s final 2023 Meetup.
 
-He addressed the [Vite](https://vitejs.dev) support and demonstrated an Ember app on Vite, explaining the importance of using ESM-compatible dependencies. He also discussed the challenges faced during the integration process, such as add-ons not being fully converted to ESM. 
+He addressed the [Vite](https://vitejs.dev) support and demonstrated an Ember app on Vite, explaining the importance of using ESM-compatible dependencies. He also discussed the challenges faced during the integration process, such as add-ons not being fully converted to ESM.
 
 Chris introduced what will be in the [next major release of Embroider](https://github.com/embroider-build/embroider/pull/1701) and encouraged users to remain optimistic despite encountering issues due to cache busting by showcasing debugging techniques and the advantages of Vite's network tab.
 
