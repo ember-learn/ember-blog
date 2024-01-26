@@ -20,6 +20,7 @@ EmberFest 2023 videos 🇪🇸, Ember Europe meet-up video 🇪🇺, Glint Deep 
 It's been an irregular year when it comes to this amazing blog/newsletter. This edition does its best to wrap up some of the important resources released in the last quarter of 2023. It will not cover all the releases of the addons we usually cover. Starting this February we'll try to send out the Ember Times bi-weekly again and we could use your help. If you are interested in writing for the Ember Times, please reach out on [Discord (#support-ember-times)](https://discord.com/channels/480462759797063690/485450546887786506)!
 
 If you are interested in keeping up with all that is going on within the Ember Core teams, you can join the meetings on our [Discord server](https://discord.gg/emberjs). Since the last time we published this list, two things changed. The RFC meeting happens twice on Friday to make it more accessible for people in/around the EU timezone. With [Polaris](https://emberjs.com/editions/polaris/) coming up, on Monday you can join this meeting to see how you can contribute to making Polaris a reality.
+
 - Monday - Learning team, **Polaris shepperding meeting**
 - Tuesday - Tooling team (combination of CLI & Embroider)
 - Thursday - Spec meeting
