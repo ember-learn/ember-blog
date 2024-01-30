@@ -2,7 +2,7 @@
 title: Ember 5.6 Released
 authors:
   - jared-galanis
-date: 2024-01-26T00:00:00.000Z
+date: 2024-01-30T00:00:00.000Z
 tags:
   - releases
   - '2024'
