@@ -18,13 +18,13 @@ Modern EmberData 📜, faster components 🚀, v2 addons, learning EmberJS at Au
 
 ## [📜 Modern EmberData](https://runspired.com/2024/01/31/modern-ember-data.html)
 
-Chris Thoburn ([@runspired](https://github.com/runspired)) walks you through one of the key changes that come with RequestManager that highlights the advantages of the changing architecture, as well as tease a bit of what is still to come: **All requests should use EmberData**. The [blog post](https://runspired.com/2024/01/31/modern-ember-data.html) will highlight what's to come and what has happened over the last years to set EmberData up to be ready for the future that is schema and spec-driven.
+[Chris Thoburn (@runspired)](https://github.com/runspired) walks you through one of the key changes that come with RequestManager that highlights the advantages of the changing architecture, as well as tease a bit of what is still to come: **All requests should use EmberData**. The [blog post](https://runspired.com/2024/01/31/modern-ember-data.html) will highlight what's to come and what has happened over the last years to set EmberData up to be ready for the future that is schema and spec-driven.
 
 ---
 
 ## [🚀 Are template-only components faster?](https://nullvoxpopuli.com/2023-12-20-template-only-vs-class-components/)
 
-Preston Sego ([@NullVoxPopuli](https://github.com/NullVoxPopuli)) puts components to the test in this clear blog post and explains how you can test your components. So if you are interested in the answer to the question "Are template-only components faster?", check out their **[blog post](https://nullvoxpopuli.com/2023-12-20-template-only-vs-class-components/)**!
+[Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli) puts components to the test in this clear blog post and explains how you can test your components. So if you are interested in the answer to the question "Are template-only components faster?", check out their **[blog post](https://nullvoxpopuli.com/2023-12-20-template-only-vs-class-components/)**!
 
 ---
 
@@ -42,7 +42,7 @@ This week we highlight:
 
 ## [📚 Learning EmberJS at AuditBoard](https://abengineering.medium.com/learning-emberjs-at-auditboard-aebb8ade97b1)
 
-Jacob Beltran ([@jacob-beltran](https://github.com/jacob-beltran)) joined AuditBoard about 1,5 years ago and was surprised to find EmberJS being used "still". In this [blog post](https://abengineering.medium.com/learning-emberjs-at-auditboard-aebb8ade97b1), he will highlight why he decided to work with Ember.
+[Jacob Beltran (@jacob-beltran)](https://github.com/jacob-beltran) joined AuditBoard about 1,5 years ago and was surprised to find EmberJS being used "still". In this [blog post](https://abengineering.medium.com/learning-emberjs-at-auditboard-aebb8ade97b1), he will highlight why he decided to work with Ember.
 
 1. Good people make you better.
 2. Interesting problems are framework-agnostic.
@@ -53,7 +53,7 @@ And he leaves us with an important lesson: "Sometimes **leveling up** means taki
 
 ## [🐹 Help the adopted-ember-addons](https://github.com/adopted-ember-addons/program-guidelines/issues/28)
 
-Melanie Sumner ([@MelSumner](https://github.com/MelSumner)) asks for your help! In the Ember community, we believe that it's important to care for addons that need a new maintainer. This is why we have the [Adopted Ember addons program](https://github.com/adopted-ember-addons/program-guidelines). Currently, this program is caring for a lot of addons that are not all in line when it comes to release processes, their CI workflow, and branch names. If you are willing to help review PRs, submit PRs to improve addons, or even evaluate addons for retirement, please reach out to Melanie Sumner ([@MelSumner](https://github.com/MelSumner))!
+[Melanie Sumner (@MelSumner)](https://github.com/MelSumner) asks for your help! In the Ember community, we believe that it's important to care for addons that need a new maintainer. This is why we have the [Adopted Ember addons program](https://github.com/adopted-ember-addons/program-guidelines). Currently, this program is caring for a lot of addons that are not all in line when it comes to release processes, their CI workflow, and branch names. If you are willing to help review PRs, submit PRs to improve addons, or even evaluate addons for retirement, please reach out to [Mel](https://github.com/MelSumner)!
 
 ---
 
