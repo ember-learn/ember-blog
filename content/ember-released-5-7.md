@@ -86,7 +86,7 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 Ember CLI 5.7 introduced 1 new features.
 
-- [#10440](https://github.com/ember-cli/ember-cli/pull/10440) - Add an optional feature `no-implicit-route-model` to allow the removal of the implicit loading of a model per [RFC #774](https://rfcs.emberjs.com/id/0774-implicit-record-route-loading) and facilitated by [`ember-optional-features`](https://github.com/emberjs/ember-optional-features/pull/334) and the [related](https://github.com/emberjs/ember.js/pull/20639) Ember.js pull request.
+- [#10440](https://github.com/ember-cli/ember-cli/pull/10440) - Add an optional feature `no-implicit-route-model` to opt-in to the removal of the implicit loading of a model per [RFC #774](https://rfcs.emberjs.com/id/0774-implicit-record-route-loading) and facilitated by [`ember-optional-features`](https://github.com/emberjs/ember-optional-features/pull/334) and the [related](https://github.com/emberjs/ember.js/pull/20639) Ember.js pull request. Enabling this feature can be used to clear the [deprecation of the implicit route model behavior](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model) once you ensure your project is not relying on that behavior.
 
 For more details on the changes in Ember CLI 5.7 and detailed upgrade
 instructions, please review the [Ember CLI 5.7.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.7.0).
