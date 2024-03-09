@@ -34,7 +34,7 @@ Ember.js 5.7 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 5.7 introduced 2 features.
 
-- [#20639](https://github.com/emberjs/ember.js/pull/20639) - Add an optional feature `no-implicit-route-model` to allow the removal of the implicit loading of a model per [RFC #774](https://rfcs.emberjs.com/id/0774-implicit-record-route-loading) and facilitated by [`ember-optional-features`](https://github.com/emberjs/ember-optional-features/pull/334).
+- [#20639](https://github.com/emberjs/ember.js/pull/20639) - Add an optional feature `no-implicit-route-model` to opt-in to the removal of the implicit loading of a model per [RFC #774](https://rfcs.emberjs.com/id/0774-implicit-record-route-loading) and facilitated by [`ember-optional-features`](https://github.com/emberjs/ember-optional-features/pull/334). Enabling this feature can be used to clear the [deprecation of the implicit route model behavior](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model) once you ensure your project is not relying on that behavior.
 - [#20597](https://github.com/emberjs/ember.js/pull/20597) - Add explicit support for TypeScript versions 5.1, 5.2, and 5.3.
 
 #### Bug fixes
