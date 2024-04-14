@@ -19,7 +19,7 @@ News 🗞️, EmberData updates 🛸,  Addons ✨, EmberEurope Q1 videos 🇪�
 
 - GitHub now has full support for syntax highlighting the template tag component authoring format. (`.gjs`/`.gts`). Thanks to everyone who contributed by converting their files 👏.
 - [Ember's Discord server](https://discord.gg/emberjs) has now an amazing [showcase channel](https://discord.com/channels/480462759797063690/1221113538396028938). The goal of this place is to share amazing apps or addons build with Ember!
-- EmberConf is happening in New York City 🗽 on the 31st of May. With this short timeline the [opened CFP](https://forms.gle/k6MDnSomcyB4XZueA) will close on the 17th of April and talks will be accepted on a rolling basis. So do you want to share your Ember story from the Big 🍎, [send your CFP now](https://forms.gle/k6MDnSomcyB4XZueA)!
+- EmberConf is happening in New York City 🗽 on the 31st of May. With this short timeline, the [opened CFP](https://forms.gle/k6MDnSomcyB4XZueA) will close on the 17th of April and talks will be accepted on a rolling basis. So do you want to share your Ember story from the Big 🍎, [send your CFP now](https://forms.gle/k6MDnSomcyB4XZueA)!
 
 ---
 
@@ -42,15 +42,15 @@ If you are looking for a place to contribute, EmberData has opened a [Polaris tr
 Check out the list of updated addons, and all they bring!
 
 - [ember-power-select (v8.1.0)](https://github.com/cibernox/ember-power-select/releases/tag/v8.1.0) is since v8.0.0 a v2 addon, brings accesibility and type improvements
-- [ember-bootstrap (v6.2.0)](https://github.com/ember-bootstrap/ember-bootstrap/releases/tag/v6.2.0) is starting with the effort of converting Ember Bootstrap to Typescript, so it's currently shipping some types, but they are neither complete nor considered stable. Checkout the [TypeScript tracking issue](https://github.com/ember-bootstrap/ember-bootstrap/issues/2053) if you want to help with the effort.
+- [ember-bootstrap (v6.2.0)](https://github.com/ember-bootstrap/ember-bootstrap/releases/tag/v6.2.0) is starting with the effort of converting Ember Bootstrap to Typescript, so it's currently shipping some types, but they are neither complete nor considered stable. Check out the [TypeScript tracking issue](https://github.com/ember-bootstrap/ember-bootstrap/issues/2053) if you want to help with the effort.
 - [ember-popper-modifier (v4.1.0)](https://github.com/adopted-ember-addons/ember-popper-modifier/blob/main/CHANGELOG.md#v410-2024-02-26) migrates the addon to TypeScript and results in published Glint types.
-- [ember-mobile-menu (v5.1.1)](https://github.com/nickschot/ember-mobile-menu/blob/master/CHANGELOG.md#release-2024-02-16) is since v5.0.0 a v2 addon, with a plain CSS approach instead of SCSS. It also dropped support for the `mm.LinkTo` component. In v5.1.0 the scroll lock library is added inline, because it's unmaintained and this also opens up fastboot possibilities.
+- [ember-mobile-menu (v5.1.1)](https://github.com/nickschot/ember-mobile-menu/blob/master/CHANGELOG.md#release-2024-02-16) is since v5.0.0 a v2 addon, with a plain CSS approach instead of SCSS. It also dropped support for the `mm.LinkTo` component. In v5.1.0 the scroll lock library is added inline because it's unmaintained and this also opens up fastboot possibilities.
 - [ember-cli-deploy-s3 (v5.0.0-beta)](https://github.com/ember-cli-deploy/ember-cli-deploy-s3/releases) is as mentioned a beta release. This version upgrades the `aws-sdk` to v3. In theory, it is not breaking, but in practice, there seem to be some credential setups that have issues. Please try it on your configuration and open issues or PRs so they can get it solid for everyone.
 - [ember-native-class-codemode (v4.1.1)](https://github.com/ember-codemods/ember-native-class-codemod/blob/main/CHANGELOG.md#release-2024-02-26) adds the option to run in `NO_TELEMETRY` mode, with the inherent risks. This codemod converts Ember objects to es6 native classes.
-- [ember-cli-typescript (v5.3.0)](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v5.3.0) drops support for Node 12, and loosens the version check against ember-cli-babel.
+- [ember-cli-typescript (v5.3.0)](https://github.com/typed-ember/ember-cli-typescript/releases/tag/v5.3.0) drops support for Node 12 and loosens the version check against ember-cli-babel.
 <!-- alex ignore whitelist -->
 - [ember-intl-analyzer (v4.6.0)](https://github.com/mainmatter/ember-intl-analyzer/releases/tag/v4.6.0) now supports custom `t` wrappers and a new option to flag redundant whitelist entries.
-- [ember-intl (v6.5.3)](https://github.com/ember-intl/ember-intl/releases) fixes a memory leak introduced in v6.3. The [documentation](https://ember-intl.github.io/ember-intl/versions/v6.5.3/docs/quickstart-addons) now also shows who to use ember-intl in your v2 addons. In v6.5 the `intl` service was refactored, it removes unused code and makes what should be private private. This could be breaking if you overwrote a method from the service.
+- [ember-intl (v6.5.3)](https://github.com/ember-intl/ember-intl/releases) fixes a memory leak introduced in v6.3. The [documentation](https://ember-intl.github.io/ember-intl/versions/v6.5.3/docs/quickstart-addons) now also shows how to use ember-intl in your v2 addons. In v6.5 the `intl` service was refactored, it removes unused code and makes what should be private, private. This could be breaking if you overwrote a method from the service.
 
 The group of addons below has joined the evergrowing v2 addon ecosystem.
 
@@ -62,33 +62,33 @@ The group of addons below has joined the evergrowing v2 addon ecosystem.
 
 ## [🇪🇺 Ember Europe Q1](https://www.youtube.com/playlist?list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4)
 
-The first Ember Europe of 2024 is a fact. On the 21st of March a group of Ember enthousiastics gathered remotely to hear the talks of [Alex Matchneer (@matchy)](https://github.com/machty) about[language tooling](https://www.youtube.com/watch?v=6zy4nLHj83g&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=3&pp=iAQB), [Chris Manson](https://github.com/mansona)'s update on [Embroider (and maybe something about Vite 🤫)](https://www.youtube.com/watch?v=SCWpDNE0IaA&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=2&pp=iAQB), and [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) about [CSS modules and internationalization](https://www.youtube.com/watch?v=J64q5SxY8rE&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=1&pp=iAQB).
+The first Ember Europe of 2024 is a fact. On the 21st of March, a group of Ember enthusiasts gathered remotely to hear the talks of [Alex Matchneer (@matchy)](https://github.com/machty) about [language tooling](https://www.youtube.com/watch?v=6zy4nLHj83g&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=3&pp=iAQB), [Chris Manson](https://github.com/mansona)'s update on [Embroider (and maybe something about Vite 🤫)](https://www.youtube.com/watch?v=SCWpDNE0IaA&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=2&pp=iAQB), and [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) about [CSS modules and internationalization](https://www.youtube.com/watch?v=J64q5SxY8rE&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=1&pp=iAQB).
 Join the [Meetup Ember.js Europe group](https://www.meetup.com/ember-europe/) to get updates on the next edition!
 
 ---
 
 ## [📦 Webpack Subresource Integrity plugin for Embroider](https://github.com/jelhan/webpack-subresource-integrity-embroider)
 
-[Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) published the [Webpack Subresource Integrity plugin for Embroider](https://github.com/jelhan/webpack-subresource-integrity-embroider). The [ember-cli-sri](https://github.com/jonathanKingston/ember-cli-sri) addon provided Subresource Integrity support for Ember applications. With the migrations to Embroider, which uses Webpack as bundler, the ember-cli-sri addon does not work anymore. [This webpack plugin](https://github.com/jelhan/webpack-subresource-integrity-embroider) will make that possible again.
+[Jeldrik Hanschke (@jelhan)](https://github.com/jelhan) published the [Webpack Subresource Integrity plugin for Embroider](https://github.com/jelhan/webpack-subresource-integrity-embroider). The [ember-cli-sri](https://github.com/jonathanKingston/ember-cli-sri) addon provided Subresource Integrity support for Ember applications. With the migrations to Embroider, which uses Webpack as a bundler, the ember-cli-sri addon does not work anymore. [This webpack plugin](https://github.com/jelhan/webpack-subresource-integrity-embroider) will make that possible again.
 
 ---
 
 ## [🚚 ember-serviceable-helper](https://github.com/chancancode/ember-serviceable-helper)
 
-[Godfrey Chan (@chancancode)](https://github.com/chancancode) released an API for writing functions that need access to Ember services. This will help your functions to stay plain, even if they need to access some app-wide global state via services. Checkout the [documentation](https://github.com/chancancode/ember-serviceable-helper/blob/main/ember-serviceable-helper/README.md) to learn more about this convinient helper.
+[Godfrey Chan (@chancancode)](https://github.com/chancancode) released an API for writing functions that need access to Ember services. This will help your functions to stay plain, even if they need to access some app-wide global state via services. Check out the [documentation](https://github.com/chancancode/ember-serviceable-helper/blob/main/ember-serviceable-helper/README.md) to learn more about this convenient helper.
 
 ---
 
 ## [🗂️ Generate Glint template registry](https://github.com/bertdeblock/generate-template-registry)
 
-[Bert De Block (@bertdeblock)](https://github.com/bertdeblock) released a new package to make [template registry](https://typed-ember.gitbook.io/glint/environments/ember/template-registry) for [Glint](https://typed-ember.gitbook.io/glint) easy.
-You can run the package `npx @bertdeblock/generate-template-registry@latest` and it will give you your registry. Be aware that if your app or addon has components, helpers or modifiers with the same name, duplicate template registry entries will be generated, which will need to be fixed manually.
+[Bert De Block (@bertdeblock)](https://github.com/bertdeblock) released a new package to make a [template registry](https://typed-ember.gitbook.io/glint/environments/ember/template-registry) for [Glint](https://typed-ember.gitbook.io/glint) easy.
+You can run the package `npx @bertdeblock/generate-template-registry@latest` and it will give you your registry. Be aware that if your app or addon has components, helpers, or modifiers with the same name, duplicate template registry entries will be generated, which will need to be fixed manually.
 
 ---
 
 ## [🫚 Gember](https://github.com/bertdeblock/gember)
 
-[Bert De Block (@bertdeblock)](https://github.com/bertdeblock) release this new package called [gember](https://github.com/bertdeblock/gember). This package allows you to generate components, helpers, modifiers and services in v2 addons. It only supports `.gjs` and `.gts` files for components.
+[Bert De Block (@bertdeblock)](https://github.com/bertdeblock) released this new package called [gember](https://github.com/bertdeblock/gember). This package allows you to generate components, helpers, modifiers, and services in v2 addons. It only supports `.gjs` and `.gts` files for components.
 
 If you are wondering about the 🫚 icon, gember is the Dutch word for ginger.
 
