@@ -25,7 +25,7 @@ News 🗞️, EmberData updates 🛸,  Addons ✨, EmberEurope Q1 videos 🇪�
 
 ## [🛸 EmberData updates](https://github.com/emberjs/data/releases)
 
-[EmberData](https://github.com/emberjs/data) has made some exciting updates recently. A [TypeScript Guide](https://github.com/emberjs/data/blob/main/guides/index.md) has been added to their in-repo guides, along with badges that show the latest published versions for each active channel to every README. They have also updated the[Compatibility table](https://github.com/emberjs/data?tab=readme-ov-file#compatibility) and made it auto-update versions of associated EmberData channels.
+[EmberData](https://github.com/emberjs/data) has made some exciting updates recently. A [TypeScript Guide](https://github.com/emberjs/data/blob/main/guides/index.md) has been added to their in-repo guides, along with badges that show the latest published versions for each active channel to every README. They have also updated the [Compatibility table](https://github.com/emberjs/data?tab=readme-ov-file#compatibility) and made it auto-update versions of associated EmberData channels.
 
 In addition, EmberData has published mirror packages and types packages, which unlock a new migration path. This allows for two completely distinct versions of EmberData in your app at once, making it possible to incrementally migrate smaller regions of your app to new patterns independent from the state in the rest of your app. The mirror package equivalents can be installed alongside the regular packages, and a second store can be configured.
 
