@@ -62,7 +62,7 @@ The group of addons below has joined the evergrowing v2 addon ecosystem.
 
 ## [🇪🇺 Ember Europe Q1](https://www.youtube.com/playlist?list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4)
 
-The first Ember Europe of 2024 is a fact. On the 21st of March a group of Ember enthousiastics gathered remotely to hear the talks of [Alex Matchneer (@matchy)](https://github.com/machty) about[language tooling](https://www.youtube.com/watch?v=6zy4nLHj83g&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=3&pp=iAQB), [Chris Manson](https://github.com/mansona)'s update on [Embroider (and maybe something about Vite 🤫)](https://www.youtube.com/watch?v=SCWpDNE0IaA&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=2&pp=iAQB), and [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) about [CSS modules and internationalization](https://www.youtube.com/watch?v=J64q5SxY8rE&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=1&pp=iAQB).
+The first Ember Europe of 2024 is a fact. On the 21st of March a group of Ember enthousiastics gathered remotely to hear the talks of [Alex Matchneer (@matchy)](https://github.com/machty) about [language tooling](https://www.youtube.com/watch?v=6zy4nLHj83g&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=3&pp=iAQB), [Chris Manson](https://github.com/mansona)'s update on [Embroider (and maybe something about Vite 🤫)](https://www.youtube.com/watch?v=SCWpDNE0IaA&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=2&pp=iAQB), and [Isaac Lee (@ijlee2)](https://github.com/ijlee2/) about [CSS modules and internationalization](https://www.youtube.com/watch?v=J64q5SxY8rE&list=PLD-8Z0-VnQIB6dblBSFy4MCXWzggLIlW4&index=1&pp=iAQB).
 Join the [Meetup Ember.js Europe group](https://www.meetup.com/ember-europe/) to get updates on the next edition!
 
 ---
