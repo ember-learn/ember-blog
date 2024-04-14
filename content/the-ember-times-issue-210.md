@@ -10,7 +10,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-News 🗞️, Addons ✨, EmberEurope Q1 videos 🇪🇺, Webpack Subresource Integrity plugin for Embroider 📦, ember-serviceable-helper 🚚, Generate Glint template registry 🗂️ and Gember 🫚
+News 🗞️, EmberData updates 🛸,  Addons ✨, EmberEurope Q1 videos 🇪🇺, Webpack Subresource Integrity plugin for Embroider 📦, ember-serviceable-helper 🚚, Generate Glint template registry 🗂️ and Gember 🫚
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -19,8 +19,21 @@ News 🗞️, Addons ✨, EmberEurope Q1 videos 🇪🇺, Webpack Subresource In
 
 - GitHub now has full support for syntax highlighting the template tag component authoring format. (`.gjs`/`.gts`). Thanks to everyone who contributed by converting their files 👏.
 - [Ember's Discord server](https://discord.gg/emberjs) has now an amazing [showcase channel](https://discord.com/channels/480462759797063690/1221113538396028938). The goal of this place is to share amazing apps or addons build with Ember!
-- If you are looking for a place to contribute, EmberData has opened a [Polaris tracking issue](https://github.com/emberjs/data/issues/9337), so check this out and help EmberData into a new era.
 - EmberConf is happening in New York City 🗽 on the 31st of May. With this short timeline the [opened CFP](https://forms.gle/k6MDnSomcyB4XZueA) will close on the 17th of April and talks will be accepted on a rolling basis. So do you want to share your Ember story from the Big 🍎, [send your CFP now](https://forms.gle/k6MDnSomcyB4XZueA)!
+
+---
+
+## [🛸 EmberData updates](https://github.com/emberjs/data/releases)
+
+[EmberData](https://github.com/emberjs/data) has made some exciting updates recently. A [TypeScript Guide](https://github.com/emberjs/data/blob/main/guides/index.md) has been added to their in-repo guides, along with badges that show the latest published versions for each active channel to every README. They have also updated the[Compatibility table](https://github.com/emberjs/data?tab=readme-ov-file#compatibility) and made it auto-update versions of associated EmberData channels.
+
+In addition, EmberData has published mirror packages and types packages, which unlock a new migration path. This allows for two completely distinct versions of EmberData in your app at once, making it possible to incrementally migrate smaller regions of your app to new patterns independent from the state in the rest of your app. The mirror package equivalents can be installed alongside the regular packages, and a second store can be configured.
+
+EmberData has also added types for older EmberData versions, allowing experimentation with the native types alphas in older versions of EmberData. The types will match the types for the version number they publish under, but for the most part, they will be more accurate for 4.7+ than the DT types, and nearly exact for 4.12.
+
+Finally, EmberData has released a new v2 addon, [@warp-drive/ember](https://github.com/emberjs/data/blob/main/packages/ember/README.md), containing various utils and components to make it simpler to work with promises and requests reactively. The `<Request />` component will pull `store` from a context if the [library](https://github.com/customerio/ember-provide-consume-context) is present in your app.
+
+If you are looking for a place to contribute, EmberData has opened a [Polaris tracking issue](https://github.com/emberjs/data/issues/9337), so check this out!
 
 ---
 
