@@ -36,7 +36,7 @@ Ember.js 5.8 introduced 1 bug fix.
 
 - [#20672](https://github.com/emberjs/ember.js/pull/20672) - Restore `{{this.attrs.foo}}` deprecation from the 3.x era. The API was accidentally not removed in 4.0, but the deprecation was removed.
 
-For more details on changes in Ember.js 5.8, please review the [Ember.js 5.8.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.7.0).
+For more details on changes in Ember.js 5.8, please review the [Ember.js 5.8.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.8.0).
 
 ---
 
