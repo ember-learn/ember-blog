@@ -88,7 +88,7 @@ Ember CLI 5.8 introduced 2 bug fixes.
 - [#10438](https://github.com/ember-cli/ember-cli/pull/10438) - Add declarations folder to `.eslintignore` file in app blueprint so that running the `lint` script after the `prepack` script does not result in ESLint errors.
 
 For more details on the changes in Ember CLI 5.8 and detailed upgrade
-instructions, please review the [Ember CLI 5.8.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.7.0).
+instructions, please review the [Ember CLI 5.8.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.8.0).
 
 ## Thank You!
 
