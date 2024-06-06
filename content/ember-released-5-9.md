@@ -9,7 +9,9 @@ tags:
   - version-5-x
 ---
 
-Today the Ember project is releasing version 5.9 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
+Today the Ember project is releasing version 5.9 of Ember.js and Ember CLI.
+
+Version 5.8 of Ember.js is now promoted to LTS (Long Term Support). The current LTS version of EmberData remains at version 5.3. An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version of Ember.js was 5.4.
 
 This release kicks off the 5.10 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
