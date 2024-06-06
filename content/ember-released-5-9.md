@@ -1,15 +1,15 @@
 ---
-title: Ember 5.8 Released
+title: Ember 5.9 Released
 authors:
   - jared-galanis
-date: 2024-04-20T00:00:00.000Z
+date: 2024-06-06T00:00:00.000Z
 tags:
   - releases
   - '2024'
   - version-5-x
 ---
 
-Today the Ember project is releasing version 5.8 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
+Today the Ember project is releasing version 5.9 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) candidate. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
 
 This release kicks off the 5.9 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
@@ -26,17 +26,29 @@ You can read more about our general release process here:
 
 Ember.js is the core framework for building ambitious web applications.
 
-### Changes in Ember.js 5.8
+### Changes in Ember.js 5.9
 
-Ember.js 5.8 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
+Ember.js 5.9 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
 #### Bug fixes
 
-Ember.js 5.8 introduced 1 bug fix.
+Ember.js 5.9 introduced 1 bug fix.
 
-- [#20672](https://github.com/emberjs/ember.js/pull/20672) - Restore `{{this.attrs.foo}}` deprecation from the 3.x era. The API was accidentally not removed in 4.0, but the deprecation was removed.
+- [#20656](https://github.com/emberjs/ember.js/pull/20656) and [#20664](https://github.com/emberjs/ember.js/pull/20664) - Upgrade `router_js` to support `exactOptionalPropertyTypes`.
 
-For more details on changes in Ember.js 5.8, please review the [Ember.js 5.8.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.8.0).
+#### Features
+
+Ember.js 5.9 introduced 1 feature:
+
+- [#20669](https://github.com/emberjs/ember.js/pull/20669) - Make deprecations throw when the until for `ember-source` has passed per [RFC #0830](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process).
+
+#### Deprecations
+
+Ember.js 5.9 introduced 1 deprecation:
+
+- [#20653](https://github.com/emberjs/ember.js/pull/20653) - Deprecate `(action)` and `{{action}}` in templates per [RFC #1006](emberjs/rfcs#1006).
+
+For more details on changes in Ember.js 5.9, please review the [Ember.js 5.9.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.9.0).
 
 ---
 
@@ -72,23 +84,23 @@ This utility will help you to update your app or addon to the latest Ember CLI v
 
 It is not required to keep Ember CLI versions in sync with Ember and EmberData. After updating ember-cli, you can keep your current version(s) of Ember or EmberData by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
 
-### Changes in Ember CLI 5.8
+### Changes in Ember CLI 5.9
 
 #### Features
 
-Ember CLI 5.8 introduced 1 new feature.
+Ember CLI 5.9 introduced 2 new features:
 
-- [#10418](https://github.com/ember-cli/ember-cli/pull/10418) - Use `content-tag` to parse `.gts` files in blueprints rather than `ember-template-tag`.
+- [#10446](https://github.com/ember-cli/ember-cli/pull/10446) - Format markdown files in blueprints with Prettier.
+- [#10450](https://github.com/ember-cli/ember-cli/pull/10450) - Remove warning when encountering a `.js` file when generating a `TS` blueprint.
 
 #### Bug fixes
 
-Ember CLI 5.8 introduced 2 bug fixes.
+Ember CLI 5.9 introduced 1 bug fix:
 
-- [#10432](https://github.com/ember-cli/ember-cli/pull/10432) - Filter out tsconfig.declarations.json when running the addon blueprint without typescript enabled.
-- [#10438](https://github.com/ember-cli/ember-cli/pull/10438) - Add declarations folder to `.eslintignore` file in app blueprint so that running the `lint` script after the `prepack` script does not result in ESLint errors.
+- [#10452](https://github.com/ember-cli/ember-cli/pull/10452) - Make sure to use the correct package manager in concurrently scripts.
 
-For more details on the changes in Ember CLI 5.8 and detailed upgrade
-instructions, please review the [Ember CLI 5.8.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.8.0).
+For more details on the changes in Ember CLI 5.9 and detailed upgrade
+instructions, please review the [Ember CLI 5.9.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v5.9.0).
 
 ## Thank You!
 
