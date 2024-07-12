@@ -10,7 +10,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2024 videos 🗽, Ember Europe Q2 🇪🇺, Games with Ember 👾, New addons & libraries 🎊, Updated addons 🌟, Security fix for ember-cli-polyfill-io 🔓
+EmberConf 2024 videos 🗽, Ember Europe Q2 🇪🇺, Games with Ember 👾, New addons & libraries 🎊, Updated addons 🌟, Security fix for ember-cli-polyfill-io 🔓, read up on template tag & named blocks in the guides 🧱
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -61,27 +61,15 @@ Delivering polyfills from `polyfill.io` has turned into a service provider attac
 
 ---
 
-## [🐹 7. Section title in sentence case](section-url)
+## [📚 Documentation on Template Tag Format](https://guides.emberjs.com/release/components/template-tag-format/)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+The [Ember guides](https://guides.emberjs.com/) now include extensive information about our [`<template>` tag format](https://guides.emberjs.com/release/components/template-tag-format/). The template tag format is a powerful, new way to write components in Ember. It's a single-file format that combines the component's JavaScript and Glimmer template code. The <template> tag is used to keep a clear separation between the template language and the JavaScript around it. If you want to know more about this, check out the [documentation](https://guides.emberjs.com/release/components/template-tag-format/).
 
 ---
 
-## [🐹 8. Section title in sentence case](section-url)
+## [🧱 Documentation on Named Blocks](https://guides.emberjs.com/release/components/block-content/#toc_named-blocks)
 
-<change section title emoji>
-<consider adding some bold to your paragraph>
-<add the contributor in the post in format "FirstName LastName (@githubUserName)" linked to their GitHub account>
-<please include link to external article/repo/etc in paragraph / body text, not just header title above>
-
-<add your name to author list, top and bottom>
-<add short title to "SOME-INTRO-HERE">
+If you want to yield content to different spots in the same component, you can use named blocks. However our guides were lacking information on how to do this. Thanks to [Shirin Boomi (@Shishouille)](https://github.com/Shishouille) you can now learn how to use it and make the most of `yield`ing information throughout your components.
 
 ---
 
