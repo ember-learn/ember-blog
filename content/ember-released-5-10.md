@@ -9,7 +9,7 @@ tags:
   - version-5-x
 ---
 
-Today the Ember project is releasing version 5.10 of Ember.js and Ember CLI.
+Today the Ember project is releasing version 5.10 of Ember.js and Ember CLI. Following [Ember's Major Version Policy](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process), 5.10 is the last release of the 5.x series that will have deprecations targeting 6.0. Version 5.12 in September will be the final release of the 5.x series.
 
 This release kicks off the 5.11 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
