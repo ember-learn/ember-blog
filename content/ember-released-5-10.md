@@ -30,8 +30,6 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 5.10 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-#20675 [INTERNAL] Build reform
-
 #### Bug fixes
 
 Ember.js 5.10 introduced 2 bug fixes.
