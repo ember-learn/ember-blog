@@ -55,9 +55,12 @@ Are you looking for a few minutes to distract yourself from all work challenges,
 
 - [ember-qunit v8.1.0](https://github.com/emberjs/ember-qunit/releases/tag/v8.1.0) now ships with a `theme` config option that allows you to use the `qunit-theme-ember` to give your tests a real EmberJS look.
 - [ember-a11y-refocus v4.1.0](https://github.com/ember-a11y/ember-a11y-refocus) provides some dependency updates, updated documentation (in the README), and a new flag called `excludeAllQueryParams`, an optional flag that will allow you to opt completely out of route evaluation (for transition announcements or focus management) if query params are involved. The new feature will allow some older apps to use the addon while they refactor code to allow them to simply use the addon w/o any customizations.
+- [ember-can v5](https://github.com/minutebase/ember-can/releases/tag/v5.0.0) converts the addon to v2 and it now supports TypeScript!
+- [ember-string v4](https://github.com/emberjs/ember-string/releases/tag/v4.0.0-%40ember%2Fstring) converts the addon to v2.
 - [ember-intl v7.x](https://github.com/ember-intl/ember-intl/releases/tag/v7.0.0) has entered a new era with it's 7.x series. This new major brings you a minimized API (to improve onboarding and project maintainability), provides native types for improved TS and Glint support and adds better documentation. To upgrade check out the [migration guide](https://ember-intl.github.io/ember-intl/docs/migration/v7).
 - To support your developer experience you can use the `Ember Language Server` VSCode extention. The latest update supports template-lint configs in `mjs` format. If you are still using `lifeart.vscode-ember-unstable` you can migrate to `embertooling.vscode-ember`.
 - [NullVoxPopuli/eslint-configs v4](https://github.com/NullVoxPopuli/eslint-configs) are [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli)'s preferred ESLint configs for all their projects. They use only overrides so that they're easy to maintain and update. Version 4 now supports `gjs` and `gts` out of the box.
+- [ember-sortable v5.1.0](https://github.com/adopted-ember-addons/ember-sortable/releases/tag/v5.1.0-ember-sortable) adds the feature that allows you to create a sortable list that works with a grid. Items can be moved up, down, right, or left within the same list.
 
 ---
 
