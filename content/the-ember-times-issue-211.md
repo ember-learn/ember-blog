@@ -21,6 +21,12 @@ We enjoyed an energyzing EmberConf on the 31st of May in New York City. If you m
 
 ---
 
+## [Live Coding at EmberConf 2024: WarpDrive Legacy Relationships Support](https://www.youtube.com/watch?v=YagBVhaq_NM)
+
+Join us as we dive into the exciting world of[WarpDrive previously known as EmberData live](https://www.youtube.com/watch?v=YagBVhaq_NM) from New York City! Despite the hustle and bustle, we're tackling some critical updates and sharing our progress with you. Apologies for the background noise, we couldn't find a quiet spot, but the energy of the city is all part of the experience. Stay tuned for insights, discussions, and a peek into our development process in this vibrant atmosphere!
+
+---
+
 ## [🇪🇺 Ember Europe remote event - 18th of July](https://www.meetup.com/ember-europe/events/301437560/)
 
 Join a group of enthousiastic Emberistas for an informative and inspiring fully remote [meet-up](https://www.meetup.com/ember-europe/events/301437560/). On the 18th of July Ember Europe will host their [Q2 event](https://www.meetup.com/ember-europe/events/301437560/). On the program are [Chris Manson (@mansona)](https://github.com/mansona) & [Marco Otte-Witte](https://github.com/marcoow) to inform you about the Embroider Initiative and what's next, after that [Alex (@void-mAlex)](https://github.com/void-mAlex) will tell us about `<template>template</template>🪞`s and to close it off there is the mingling part of the event!
@@ -52,6 +58,20 @@ Are you looking for a few minutes to distract yourself from all work challenges,
 - [ember-intl v7.x](https://github.com/ember-intl/ember-intl/releases/tag/v7.0.0) has entered a new era with it's 7.x series. This new major brings you a minimized API (to improve onboarding and project maintainability), provides native types for improved TS and Glint support and adds better documentation. To upgrade check out the [migration guide](https://ember-intl.github.io/ember-intl/docs/migration/v7).
 - To support your developer experience you can use the `Ember Language Server` VSCode extention. The latest update supports template-lint configs in `mjs` format. If you are still using `lifeart.vscode-ember-unstable` you can migrate to `embertooling.vscode-ember`.
 - [NullVoxPopuli/eslint-configs v4](https://github.com/NullVoxPopuli/eslint-configs) are [Preston Sego (@NullVoxPopuli)](https://github.com/NullVoxPopuli)'s preferred ESLint configs for all their projects. They use only overrides so that they're easy to maintain and update. Version 4 now supports `gjs` and `gts` out of the box.
+
+---
+
+## [📦 EmberData v5.3.x](https://github.com/emberjs/data/releases/tag/v5.3.4)
+
+We are happy to inform you about this massive improvement that shipped to EmberData. Since v5.3.4:
+
+- it ships fully as v2-addons,
+- all packages ship native types,
+- mirror packages are now available for 5.3,
+- a new cli tool has been added to helpquickly configure your 4.x project for typescript,
+- `ember-inflector` and `@ember/string` are no longer project dependencies.
+
+Dive into the details of the [latest release](https://github.com/emberjs/data/releases/tag/v5.3.4) now.
 
 ---
 
