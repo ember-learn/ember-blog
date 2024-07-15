@@ -10,7 +10,7 @@ tags:
 
 👋 Emberistas! 🐹
 
-EmberConf 2024 videos 🗽, Ember Europe Q2 🇪🇺, Games with Ember 👾, New addons & libraries 🎊, Updated addons 🌟, Security fix for ember-cli-polyfill-io 🔓, read up on template tag & named blocks in the guides 🧱
+EmberConf 2024 videos 🗽, Live coding WarpDrive 🌌, Ember Europe Q2 🇪🇺, Games with Ember 👾, New addons & libraries 🎊, Updated addons 🌟, EmberData v5.3.x 📦, Security fix for ember-cli-polyfill-io 🔓, read up on template tag & named blocks in the guides 🧱
 <SOME-INTRO-HERE-TO-KEEP-THEM-SUBSCRIBERS-READING>
 
 ---
@@ -21,7 +21,7 @@ We enjoyed an energizing EmberConf on the 31st of May in New York City. If you m
 
 ---
 
-## [Live Coding at EmberConf 2024: WarpDrive Legacy Relationships Support](https://www.youtube.com/watch?v=YagBVhaq_NM)
+## [🌌 Live Coding at EmberConf 2024: WarpDrive Legacy Relationships Support](https://www.youtube.com/watch?v=YagBVhaq_NM)
 
 Join us as we dive into the exciting world of[WarpDrive previously known as EmberData live](https://www.youtube.com/watch?v=YagBVhaq_NM) from New York City! Despite the hustle and bustle, we're tackling some critical updates and sharing our progress with you. Apologies for the background noise, we couldn't find a quiet spot, but the energy of the city is all part of the experience. Stay tuned for insights, discussions, and a peek into our development process in this vibrant atmosphere!
 
@@ -122,4 +122,4 @@ That's another wrap! ✨
 
 Be kind,
 
-the crowd and the Learning Team
+the Learning Team
