@@ -23,7 +23,7 @@ We enjoyed an energizing EmberConf on the 31st of May in New York City. If you m
 
 ## [🌌 Live Coding at EmberConf 2024: WarpDrive Legacy Relationships Support](https://www.youtube.com/watch?v=YagBVhaq_NM)
 
-Join us as we dive into the exciting world of[WarpDrive previously known as EmberData live](https://www.youtube.com/watch?v=YagBVhaq_NM) from New York City! Despite the hustle and bustle, we're tackling some critical updates and sharing our progress with you. Apologies for the background noise, we couldn't find a quiet spot, but the energy of the city is all part of the experience. Stay tuned for insights, discussions, and a peek into our development process in this vibrant atmosphere!
+Join us as we dive into the exciting world of [WarpDrive (previously known as EmberData) live](https://www.youtube.com/watch?v=YagBVhaq_NM) from New York City! Despite the hustle and bustle, we're tackling some critical updates and sharing our progress with you. Apologies for the background noise, we couldn't find a quiet spot, but the energy of the city is all part of the experience. Stay tuned for insights, discussions, and a peek into our development process in this vibrant atmosphere!
 
 ---
 
