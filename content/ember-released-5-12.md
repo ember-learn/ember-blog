@@ -45,6 +45,8 @@ Ember.js 5.12 introduced no new features.
 
 Ember.js 5.12 introduced no new deprecations.
 
+For more details on changes in Ember.js 5.12, please review the [Ember.js 5.12.0 release page](https://github.com/emberjs/ember.js/releases/tag/v5.12.0).
+
 ---
 
 ## EmberData
