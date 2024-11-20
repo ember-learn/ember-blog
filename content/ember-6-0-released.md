@@ -96,7 +96,7 @@ For help or advice along the way, visit [Ember's forums or chat groups](https://
 
 ## The journey towards Ember Polaris
 
-Polaris is the name of an upcoming edition of Ember, first announced at EmberConf 2021. Over the course of 5.x, new features will be added to Ember that will eventually make up the new edition.
+Polaris is the name of an upcoming edition of Ember, first announced at EmberConf 2021. Over the course of 6.x, new features will be added to Ember that will eventually make up the new edition.
 
 Since our major versions tend to be uneventful, Editions are the moment where the Ember community comes together to learn and build in new ways.
 An edition is a set of features, corresponding documentation, and tools that create a cohesive programming model.
@@ -117,7 +117,7 @@ Ember.js 6.0 introduces no new public API. Instead, it is comprised of bug fixes
 
 #### Bug Fixes
 
-[list bug fixes]
+- [#20731](https://github.com/emberjs/ember.js/pull/20731) - Bump barrel file deprecations until 7.0.0
 
 #### Features
 
@@ -129,6 +129,11 @@ Ember.js 6.0 introduced 0 deprecations. It removed all deprecations that were
 introduced before 5.10 and slated for removal in 6.0.
 
 Ember 6.0 removes the following features deprecated during 5.x:
+
+- [Removing](https://deprecations.emberjs.com/id/deprecate-implicit-route-model) the implicit route model hook behavior where if no `Route#model` hook was specified and a `_id` parameter was present, Ember would attempt to figure out how to load that model for you.
+- [Removing](https://deprecations.emberjs.com/id/template-action) the `(action)` template helper and `{{action}}` modifier now that we have native classes and the `{{on}}` modifier.
+- [Removing](https://deprecations.emberjs.com/id/component-template-resolving) the runtime resolution of component templates, so if there is an import involved, there is no runtime resolution.
+- [Removing](https://deprecations.emberjs.com/id/deprecate-array-prototype-extensions) the extension of the prototypes of native Javascript arrays to implement `Ember.Enumerable`, `Ember.MutableEnumerable`, `Ember.MutableArray`, `Ember.Array`. For convenient functions like `filterBy` or `compact`, you can directly convert to use native array methods.
 
 [list deprecation removals]
 
