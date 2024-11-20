@@ -10,7 +10,7 @@ authors:
 date: 2024-11-20T00:00:00.000Z
 tags:
   - releases
-  - '2023'
+  - '2024'
   - version-6-x
 ---
 
