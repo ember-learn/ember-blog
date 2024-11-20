@@ -11,7 +11,7 @@ date: 2024-11-20T00:00:00.000Z
 tags:
   - releases
   - '2023'
-  - version-5-x
+  - version-6-x
 ---
 
 EmberJS 6.0 embodies the commitment to stability and reliability that developers have come to expect from the Ember ecosystem. The Ember team has worked hard to remove all the deprecations and make us move towards Polaris. Get up-to-date with the latest in Ember and enjoy!
