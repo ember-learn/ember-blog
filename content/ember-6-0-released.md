@@ -29,7 +29,7 @@ This approach reduces the challenges that teams face for major upgrades, compare
 
 In Ember 5.x minor releases, we landed a bunch of features (along with various bug fixes, of course):
 
-- In [Ember 5.1]()
+- In [Ember 5.1](https://blog.emberjs.com/ember-released-5-1/)
 - In [Ember 5.2]()
 - In [Ember 5.3]()
 - In [Ember 5.4]()
