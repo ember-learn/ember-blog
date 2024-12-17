@@ -7,6 +7,7 @@ imageMeta:
 featured: true
 authors:
   - jared-galanis
+  - katie-gengler
 date: 2024-11-20T00:00:00.000Z
 tags:
   - releases
