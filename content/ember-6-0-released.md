@@ -18,7 +18,7 @@ EmberJS 6.0 embodies the commitment to stability and reliability that developers
 
 This post will cover our release strategy, how to upgrade, what to expect, and deprecated APIs that were removed.
 
-This release follwos the release strategy and goals proposed in [RFC 830, Evolving Ember's Major Version Process](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process).
+This release follows the release strategy and goals proposed in [RFC 830, Evolving Ember's Major Version Process](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process).
 To summarize, every 12 minor releases, Ember will ship a new major release, which removes any
 deprecated code targeted for that major version.
 
