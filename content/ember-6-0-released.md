@@ -51,7 +51,7 @@ We also made significant strides in key parts of the ecosystem outside the core 
 
 In November 2023, we updated the Lockstep Versioning strategy for Ember Data. EmberData continues to support all Ember LTS'es with an LTS of their own, but the exact versions no longer match. See the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) for more details.
 
-[list strides here]
+[The Embroider Initiative](https://mainmatter.com/blog/2024/07/16/embroider-update/) brought a large amount of energy into our build tooling and has made it possible to build Ember apps with Vite. [The RFC to make this the default](https://github.com/emberjs/rfcs/pull/977) for new apps is currently in Final Comment Period.
 
 Ember 6.0 has no new features over Ember 5.12, because we did all that work in minor releases instead.
 
