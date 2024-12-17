@@ -30,17 +30,17 @@ This approach reduces the challenges that teams face for major upgrades, compare
 In Ember 5.x minor releases, we landed a bunch of features (along with various bug fixes, of course):
 
 - In [Ember 5.1](https://blog.emberjs.com/ember-released-5-1/)
-- In [Ember 5.2]()
-- In [Ember 5.3]()
-- In [Ember 5.4]()
-- In [Ember 5.5]()
-- In [Ember 5.6]()
-- In [Ember 5.7]()
-- In [Ember 5.8]()
-- In [Ember 5.9]()
-- In [Ember 5.10]()
-- In [Ember 5.11]()
-- In [Ember 5.12]()
+- In [Ember 5.2](https://blog.emberjs.com/ember-released-5-2/)
+- In [Ember 5.3](https://blog.emberjs.com/ember-released-5-3/)
+- In [Ember 5.4](https://blog.emberjs.com/ember-released-5-4/)
+- In [Ember 5.5](https://blog.emberjs.com/ember-released-5-5/)
+- In [Ember 5.6](https://blog.emberjs.com/ember-released-5-6/)
+- In [Ember 5.7](https://blog.emberjs.com/ember-released-5-7/)
+- In [Ember 5.8](https://blog.emberjs.com/ember-released-5-8/)
+- In [Ember 5.9](https://blog.emberjs.com/ember-released-5-9/)
+- In [Ember 5.10](https://blog.emberjs.com/ember-released-5-10/)
+- In [Ember 5.11](https://blog.emberjs.com/ember-released-5-11/)
+- In [Ember 5.12](https://blog.emberjs.com/ember-released-5-12/)
 
 We also made significant strides in key parts of the ecosystem outside the core framework itself over the past 18 months:
 
