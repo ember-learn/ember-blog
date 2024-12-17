@@ -35,22 +35,22 @@ In Ember 5.x minor releases, we landed a bunch of features (along with various b
 - In [Ember 5.3](https://blog.emberjs.com/ember-released-5-3/), we [deprecated implicit record loading in Ember Routes](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model).
 - In [Ember 5.5](https://blog.emberjs.com/ember-released-5-5/), we made several changes to `ember-cli` to smooth the way to `embroider` and `<template>`. We also deprecated built-in support for using Travis CI as a CI provider.
 - In [Ember 5.6](https://blog.emberjs.com/ember-released-5-6/), `ember-cli` gained a small but helpful feature to automatically choose a port when `4200` is already in use.
-- In [Ember 5.7](https://blog.emberjs.com/ember-released-5-7/), we added an optional feature to opt-in to the new behavior of [deprecated implicit record loading in Ember Routes](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model) ahead of 6.0.
+- In [Ember 5.7](https://blog.emberjs.com/ember-released-5-7/), we added an optional feature to opt in to the new behavior of [deprecated implicit record loading in Ember Routes](https://deprecations.emberjs.com/v5.x#toc_deprecate-implicit-route-model) ahead of 6.0.
 - In [Ember 5.8](https://blog.emberjs.com/ember-released-5-8/), we improved the parsing of `.gts` files in blueprints in `ember-cli`.
-- In [Ember 5.9](https://blog.emberjs.com/ember-released-5-9/), we made a major improvement to our major version release process. When the `until` of a deprecation for `ember-source` or `ember-cli` is less than or equal to the version of the package being used, deprecations will throw. 
-In this way, deprecations automatically "break" when they were intended to break and do not need to be manually cleaned up. If we leave the deprecations in place for at least the x.0 release, this has a nice side-effect for users in that any missed deprecations will now throw once you upgrade, rather than vanish. This was part of [RFC #0830](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process). 
+- In [Ember 5.9](https://blog.emberjs.com/ember-released-5-9/), we made a major improvement to our major version release process. When the `until` of a deprecation for `ember-source` or `ember-cli` is less than or equal to the version of the package being used, deprecations will throw.
+In this way, deprecations automatically "break" when they were intended to break and do not need to be manually cleaned up. If we leave the deprecations in place for at least the x.0 release, this has a nice side effect for users in that any missed deprecations will now throw once you upgrade, rather than vanish. This was part of [RFC #0830](https://rfcs.emberjs.com/id/0830-evolving-embers-major-version-process).
 
-We also deprecated `(action)` and `{{action}}` in favor of `on`.
+  We also deprecated `(action)` and `{{action}}` in favor of `on`.
 - In [Ember 5.10](https://blog.emberjs.com/ember-released-5-10/), we made internal changes to `ember-source` to build with [Vite](https://vite.dev/), with no AMD loader present. This ensures that Ember.js is strictly following the ES module spec.
 
-We also [deprecated non-colocated component template resolution](https://deprecations.emberjs.com/v5.x#toc_component-template-resolving) (component templates living in `app/templates/components` instead of `app/components`).
+  We also [deprecated non-colocated component template resolution](https://deprecations.emberjs.com/v5.x#toc_component-template-resolving) (component templates living in `app/templates/components` instead of `app/components`).
 
-Another deprecation of note is the [Array Prototype extensions](https://deprecations.emberjs.com/v5.x#toc_deprecate-array-prototype-extensions).
-- In [Ember 5.12](https://blog.emberjs.com/ember-released-5-12/), there was an update to `glimmer-vm` that brought with it performance improvements. 
+  Another deprecation of note is the [Array Prototype extensions](https://deprecations.emberjs.com/v5.x#toc_deprecate-array-prototype-extensions).
+- In [Ember 5.12](https://blog.emberjs.com/ember-released-5-12/), there was an update to `glimmer-vm` that brought with it performance improvements.
 
 We also made significant strides in key parts of the ecosystem outside the core framework itself over the past 18 months:
 
-In November 2023, we updated the Lockstep Versioning strategy for Ember Data. EmberData continues to support all Ember LTS'es with an LTS of their own, but the exact versions no longer match. See the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) for more details.
+In November 2023, we updated the Lockstep Versioning strategy for Ember Data. EmberData continues to support all Ember LTS releases with an LTS of their own, but the exact versions no longer match. See the [blog post](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy) for more details.
 
 [The Embroider Initiative](https://mainmatter.com/blog/2024/07/16/embroider-update/) brought a large amount of energy into our build tooling and has made it possible to build Ember apps with Vite. [The RFC to make this the default](https://github.com/emberjs/rfcs/pull/977) for new apps is currently in Final Comment Period.
 
@@ -65,7 +65,7 @@ You can read more about our general release process here:
 
 ## Beta cycle
 
-This release kicks off the 6.1 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
+This release kicks off the 6.1 beta cycle for all subprojects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
 
 Version 5.12 of Ember.js is now promoted to LTS (Long Term Support). The current LTS version of EmberData remains at version 5.3. An LTS version of Ember continues to receive security updates for 9 release cycles (54 weeks) and bugfixes for 6 cycles (36 weeks). LTS releases typically occur every four minor versions. The previous LTS version of Ember.js was 5.8.
 
@@ -73,7 +73,7 @@ Version 5.12 of Ember.js is now promoted to LTS (Long Term Support). The current
 
 The most common approach for upgrading to 6.0 is to upgrade your app to the last
 version of Ember 5, which is 5.12, resolve all deprecation warnings, and then upgrade to 6.0. If your app or addon runs with no deprecations in the latest release of 5.12,
-you should be able to upgrade to Ember 6 with no additional changes. Step by step directions are below.
+you should be able to upgrade to Ember 6 with no additional changes. Step-by-step directions are below.
 
 If your app is at a much earlier version in the 5.x series, we
 recommend upgrading in steps across the LTS versions: 5.4, 5.8, and then 5.12.
@@ -123,7 +123,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 ### Changes in Ember.js 6.0
 
-Ember.js 6.0 introduces no new public API. Instead, it is comprised of bug fixes and the breakage of previously deprecated public API from the 5.x cycle.
+Ember.js 6.0 introduces no new public API. Instead, it comprises bug fixes and the breakage of previously deprecated public API from the 5.x cycle.
 
 #### Bug Fixes
 
@@ -166,7 +166,7 @@ EmberData is the official data persistence library for Ember.js applications.
 
 EmberData [broke from Lockstep versioning in November 2023](https://blog.emberjs.com/updates-to-ember-data-versioning-strategy). Under the new policy, EmberData 5.3 is an LTS that supports `ember-source` 5.12 and `ember-source` 6.0. More compatibility info is available in the [README](https://github.com/emberjs/data#compatibility).
 
-EmberData is also in the process of a rebrand to WarpDrive. Stay tuned for more info!
+EmberData is also in the process of rebranding to WarpDrive. Stay tuned for more info!
 
 This support extends beyond bug-fixes. If minor enhancements can be made to better support new presentation class implementations that support the 5.x series we will willingly accept them. Our goal is that we want no one left behind.
 
@@ -215,8 +215,6 @@ While it is recommended to keep Ember CLI versions in sync with Ember and EmberD
 
 ### Changes in Ember CLI 6.0
 
-
-
 #### Features
 
 Ember CLI 6.0 introduced 0 features.
@@ -226,7 +224,7 @@ Ember CLI 6.0 introduced 0 features.
 Ember CLI 6.0 introduced 0 deprecations.
 Ember CLI 6.0 removed features and APIs that were deprecated in 5.x or earlier, please see the [Deprecation guide](https://deprecations.emberjs.com/ember-cli/v5.x) for more information:
 
-- `outputPaths` build option was [deprecated in 5.3](https://deprecations.emberjs.com/id/ember-cli-output-paths-build-option) and is now removed. 
+- `outputPaths` build option was [deprecated in 5.3](https://deprecations.emberjs.com/id/ember-cli-output-paths-build-option) and is now removed.
 - Travis CI built-in support was [deprecated in 5.5](https://deprecations.emberjs.com/id/travis-ci-support) and is now removed, including the `--ci-provider=travis` command-line flag.
 
 <!-- alex ignore retext-equality -->
