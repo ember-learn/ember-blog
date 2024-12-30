@@ -96,9 +96,10 @@ Ember CLI 6.1 introduced 2 bug fixes and backported one of the fixes to 6.0.
 
 #### Features
 
-Ember CLI 6.1 introduced no new features, but there were several internal dependency updates you can find [here](https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md#v610).
+- eslint 9 and flat config
+- added gjs / gts by default
 
-#### Deprecations
+### Deprecations
 
 Ember CLI 6.1 introduced no new deprecations.
 
