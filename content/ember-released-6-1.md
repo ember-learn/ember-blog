@@ -91,12 +91,16 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 Ember CLI 6.1 introduced 2 bug fixes and backported one of the fixes to 6.0.
 
 - [#10564](https://github.com/ember-cli/ember-cli/pull/10564) - Add missing package for TS eslint config.
-- [#10527](https://github.com/ember-cli/ember-cli/pull/10527) - Update @ember/test-helpers, which was causing problems for the cli@6.0.0 blueprints, since test-helpers 3.3.1 has a peer-dep on ember-source 4 || 5, while the blueprint has ember-source@~6.0.0.
+- [#10527](https://github.com/ember-cli/ember-cli/pull/10527) - Update `@ember/test-helpers`, which was causing problems for the `cli@6.0.0` blueprints, since `test-helpers` 3.3.1 has a peer-dep on `ember-source` 4 || 5, while the blueprint has `ember-source@~6.0.0`.
 - [#10563](https://github.com/ember-cli/ember-cli/pull/10563) - Backport of the above fix to 6.0.
 
 #### Features
 
-Ember CLI 6.1 introduced no new features, but there were several internal dependency updates you can find [here](https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md#v610).
+Ember CLI 6.1 introduced 2 new features in a single pull request.
+
+- [#10516](https://github.com/ember-cli/ember-cli/pull/10516) - Adds support for `eslint` 9 and the [new flat config system](https://eslint.org/blog/2022/08/new-config-system-part-2/) and also adds support for `gjs` / `gts` by default.
+
+There were also several internal dependency updates you can find [here](https://github.com/ember-cli/ember-cli/blob/master/CHANGELOG.md#v610).
 
 #### Deprecations
 
