@@ -34,14 +34,14 @@ Ember.js 6.2 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 6.2 introduced 1 bug fix.
 
-- (20811)[https://github.com/emberjs/ember.js/pull/20811] - fixes a type bug that prevented using the latest version of TypeScript.
+- [20811](https://github.com/emberjs/ember.js/pull/20811) - fixes a type bug that prevented using the latest version of TypeScript.
 
 #### Features
 
 Ember.js 6.2 introduced no new features, but it did include several pieces of clean up:
 
-- (20798)[https://github.com/emberjs/ember.js/pull/20798] - Remove old code that supported old ember-test-helpers
-- (20809)[https://github.com/emberjs/ember.js/pull/20809] - Remove long enabled EMBER_TYPESCRIPT_BLUEPRINTS feature flag
+- [20798](https://github.com/emberjs/ember.js/pull/20798) - Remove old code that supported old ember-test-helpers
+- [20809](https://github.com/emberjs/ember.js/pull/20809) - Remove long enabled EMBER_TYPESCRIPT_BLUEPRINTS feature flag
 
 #### Deprecations
 
@@ -97,18 +97,18 @@ Ember CLI 6.2 introduced no new bux fixes.
 
 Ember CLI 6.2 introduced 2 new features in a single pull request.
 
-- (10562)[https://github.com/ember-cli/ember-cli/pull/10562] - Allow creating apps and addons everywhere, including inside of a project directory.
+- [10562](https://github.com/ember-cli/ember-cli/pull/10562) - Allow creating apps and addons everywhere, including inside of a project directory.
 
 There were also several pieces of cleanup, enhancements and internal dependency updates:
 
-- (10496)[https://github.com/ember-cli/ember-cli/pull/10496] - Clean up support for incorrect values for BROCCOLI_VIZ env var
-- (10555)[https://github.com/ember-cli/ember-cli/pull/10555] - Bump pnpm/action-setup to v4 in app and addon blueprints
-- (10577)[https://github.com/ember-cli/ember-cli/pull/10577] - Remove @ember/string from app blueprint @bertdeblock
-- (10578)[https://github.com/ember-cli/ember-cli/pull/10578] - Test against Node v22
-- (10579)[https://github.com/ember-cli/ember-cli/pull/10579] - Update sort-package-json
-- (10580)[https://github.com/ember-cli/ember-cli/pull/10580] - Update LTS versions in blueprints
-- (10583)[https://github.com/ember-cli/ember-cli/pull/10583] - Update app blueprint to support ember-qunit v9
-- (10585)[https://github.com/ember-cli/ember-cli/pull/10585] - Support WRITE_FIXTURES in more test files
+- [10496](https://github.com/ember-cli/ember-cli/pull/10496) - Clean up support for incorrect values for BROCCOLI_VIZ env var
+- [10555](https://github.com/ember-cli/ember-cli/pull/10555) - Bump pnpm/action-setup to v4 in app and addon blueprints
+- [10577](https://github.com/ember-cli/ember-cli/pull/10577) - Remove @ember/string from app blueprint @bertdeblock
+- [10578](https://github.com/ember-cli/ember-cli/pull/10578) - Test against Node v22
+- [10579](https://github.com/ember-cli/ember-cli/pull/10579) - Update sort-package-json
+- [10580](https://github.com/ember-cli/ember-cli/pull/10580) - Update LTS versions in blueprints
+- [10583](https://github.com/ember-cli/ember-cli/pull/10583) - Update app blueprint to support ember-qunit v9
+- [10585](https://github.com/ember-cli/ember-cli/pull/10585) - Support WRITE_FIXTURES in more test files
 
 #### Deprecations
 
