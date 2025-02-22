@@ -95,7 +95,7 @@ Ember CLI 6.2 introduced no new bux fixes.
 
 #### Features
 
-Ember CLI 6.2 introduced 2 new features in a single pull request.
+Ember CLI 6.2 introduced 1 new feature.
 
 - [10562](https://github.com/ember-cli/ember-cli/pull/10562) - Allow creating apps and addons everywhere, including inside of a project directory.
 
