@@ -103,7 +103,7 @@ There were also several pieces of cleanup, enhancements and internal dependency 
 
 - [10496](https://github.com/ember-cli/ember-cli/pull/10496) - Clean up support for incorrect values for BROCCOLI_VIZ env var
 - [10555](https://github.com/ember-cli/ember-cli/pull/10555) - Bump pnpm/action-setup to v4 in app and addon blueprints
-- [10577](https://github.com/ember-cli/ember-cli/pull/10577) - Remove @ember/string from app blueprint @bertdeblock
+- [10577](https://github.com/ember-cli/ember-cli/pull/10577) - Remove @ember/string from app blueprint
 - [10578](https://github.com/ember-cli/ember-cli/pull/10578) - Test against Node v22
 - [10579](https://github.com/ember-cli/ember-cli/pull/10579) - Update sort-package-json
 - [10580](https://github.com/ember-cli/ember-cli/pull/10580) - Update LTS versions in blueprints
