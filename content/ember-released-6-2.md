@@ -91,7 +91,7 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.2 introduced no new bux fixes.
+Ember CLI 6.2 introduced no new bug fixes.
 
 #### Features
 
