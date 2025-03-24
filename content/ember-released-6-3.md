@@ -108,7 +108,30 @@ Ember CLI 6.3 includes 4 noteworthy bug fixes:
 
 #### Features
 
-Ember CLI 6.3 introduced <insert_number> new features.
+Ember CLI 6.3 introduces 5 new feature and noteworthy enhancements:
+
+##### Vanilla `Prettier` setup per [RFC #1055](https://rfcs.emberjs.com/id/1055-vanilla-prettier-setup-in-blueprints)
+[#10596](https://github.com/ember-cli/ember-cli/pull/10596) moves the default [`Prettier`](https://prettier.io/) setup to no longer be run through linters (ESLint, Stylelint) but to be run directly. 
+The following scripts are adding to package.json via the blueprint: 
+  * `npm run format` runs `prettier . --cache --write`. This will format all files with Prettier that are not ignored in the Prettier configuration. Previously this would only have applied to files configured in your linters. `npm run lint:fix` will run this command. 
+  * `npm run lint:format` runs `prettier . --cache --check` This runs `prettier` as a linter and allows `npm run lint` to fail if prettier has not run. 
+  
+As noted in the RFC: we use `format` instead of `lint:format:fix`, because we don't want to run Prettier parallel to ESLint and Stylelint when fixing lint errors. The `lint:fix` script will always run `format` last to avoid competing changes.
+
+
+##### Add ember-cli-deprecation-workflow to app blueprint per [RFC #1009](https://rfcs.emberjs.com/id/1009-move-deprecation-workflow-to-apps)
+
+[#10588](https://github.com/ember-cli/ember-cli/pull/10588) Adds the `ember-cli-deprecation-workflow` addon to the default blueprint for apps and generates the setup for the addon as well. 
+
+The addon enables collecting deprecations as they happen and creating a configuration so that you can silence deprecations or make them throw. See [the README](https://github.com/ember-cli/ember-cli-deprecation-workflow#ember-cli-deprecation-workflow) for more information. 
+
+For example, you may wish to silence a deprecation that is coming from an addon while you await an updated version, or you may wish to cause a deprecation to throw that you have already cleared and do not wish to allow to regress.
+
+##### Other enhancements of note
+
+- [#10613](https://github.com/ember-cli/ember-cli/pull/10613) Support --ember-data / --no-ember-data flags when creating a new app
+- [#10617](https://github.com/ember-cli/ember-cli/pull/10617) Use `staticInvokables` in the app (embroider) blueprint
+- [#10595](https://github.com/ember-cli/ember-cli/pull/10595) Update @glimmer/component to v2 in blueprints
 
 #### Deprecations
 
