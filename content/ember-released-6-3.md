@@ -135,7 +135,19 @@ For example, you may wish to silence a deprecation that is coming from an addon 
 
 #### Deprecations
 
-Ember CLI 6.3 introduced <insert_number> new deprecations.
+Ember CLI 6.3 introduces 1 new deprecation:
+
+##### Deprecate v1 addon `contentFor` types per [RFC #1029](https://rfcs.emberjs.com/id/1029-deprecate-app-prefix/)
+
+[#10589](https://github.com/ember-cli/ember-cli/pull/10589) deprecates `contentFor` with the following types: 
+- app-prefix
+- app-suffix
+- tests-prefix
+- tests-suffix
+- vendor-prefix
+- vendor-suffix
+
+The deprecation guide is not yet published but the content can be read in the [RFC](https://rfcs.emberjs.com/id/1029-deprecate-app-prefix/). 
 
 For more details on the changes in Ember CLI 6.3 and detailed upgrade
 instructions, please review the [Ember CLI 6.3.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.3.0).
