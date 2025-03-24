@@ -32,7 +32,10 @@ Ember.js 6.3 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug fixes
 
-Ember.js 6.3 introduced <insert_number> bug fixes.
+Ember.js 6.3 includes 1 noteworthy bug fix:
+
+* [#20825](https://github.com/emberjs/ember.js/pull/20825) Remove the `helper` wrapper from the helper generator; [Plain functions as helpers](https://guides.emberjs.com/release/components/helper-functions/#toc_global-helper-functions) have been supported since v4.5.
+
 
 #### Features
 
