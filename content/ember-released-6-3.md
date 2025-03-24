@@ -49,7 +49,11 @@ This is a replacement for the [ember-route-template](https://github.com/discours
 
 #### Deprecations
 
-Ember.js 6.3 introduced <insert_number> new deprecations.
+Ember.js 6.3 introduces 1 new deprecation.
+
+##### [#20526](https://github.com/emberjs/ember.js/pull/20526) Deprecates importing inject from @ember/service. 
+
+The export is renamed to service per [RFC #0752](https://rfcs.emberjs.com/id/0752-inject-service/). See the [deprecation guide](https://deprecations.emberjs.com/id/importing-inject-from-ember-service) for more information.
 
 For more details on changes in Ember.js 6.3, please review the [Ember.js 6.3.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.3.0-ember-source).
 
