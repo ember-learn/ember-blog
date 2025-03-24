@@ -39,7 +39,13 @@ Ember.js 6.3 includes 1 noteworthy bug fix:
 
 #### Features
 
-Ember.js 6.3 introduced <insert_number> new features.
+Ember.js 6.3 introduces 1 new feature.
+
+##### [#20800](https://github.com/emberjs/ember.js/pull/20800) Template Tag support in Routes 
+
+Following [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes/), Ember now supports the use of `<template>` authoring-format Glimmer components (gjs | gts) in place of route templates. 
+
+This is a replacement for the [ember-route-template](https://github.com/discourse/ember-route-template) addon.
 
 #### Deprecations
 
