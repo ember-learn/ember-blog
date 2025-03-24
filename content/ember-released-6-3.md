@@ -99,7 +99,12 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.3 introduced <insert_number> new bux fixes.
+Ember CLI 6.3 includes 4 noteworthy bug fixes:
+
+- [#10612](https://github.com/ember-cli/ember-cli/pull/10612) Fix ember-data TS config in monorepo when using npm or yarn v1
+- [#10592](https://github.com/ember-cli/ember-cli/pull/10592)  Fix ESLint config for v1 addons
+- [#10633](https://github.com/ember-cli/ember-cli/pull/10633) / [#10638](https://github.com/ember-cli/ember-cli/pull/10638) Fix Ember Data package versions in the blueprint
+- [#10643](https://github.com/ember-cli/ember-cli/pull/10643) Remove unmaintained ember-cli-lodash-subset in favor of requiring functions directly from lodash
 
 #### Features
 
