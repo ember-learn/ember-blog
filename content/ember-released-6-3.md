@@ -2,6 +2,7 @@
 title: Ember 6.3 Released
 authors:
   - jared-galanis
+  - katie-gengler
 date: 2025-03-28T00:00:00.000Z
 tags:
   - releases
@@ -118,6 +119,8 @@ The following scripts are adding to package.json via the blueprint:
 - `npm run lint:format` runs `prettier . --cache --check` This runs `prettier` as a linter and allows `npm run lint` to fail if prettier has not run.
 
 As noted in the RFC: we use `format` instead of `lint:format:fix`, because we don't want to run Prettier parallel to ESLint and Stylelint when fixing lint errors. The `lint:fix` script will always run `format` last to avoid competing changes.
+
+Prettier will now run over all files, not just JavaScript and TypeScript. Files can be excludde by adding globs to the [`.prettierignore` file](https://prettier.io/docs/ignore).
 
 ##### Add ember-cli-deprecation-workflow to app blueprint per [RFC #1009](https://rfcs.emberjs.com/id/1009-move-deprecation-workflow-to-apps)
 
