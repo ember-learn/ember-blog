@@ -2,7 +2,7 @@
 title: Ember 6.3 Released
 authors:
   - jared-galanis
-date: 2025-03-21T00:00:00.000Z
+date: 2025-03-28T00:00:00.000Z
 tags:
   - releases
   - '2025'
@@ -34,16 +34,15 @@ Ember.js 6.3 is an incremental, backwards compatible release of Ember with bug f
 
 Ember.js 6.3 includes 1 noteworthy bug fix:
 
-* [#20825](https://github.com/emberjs/ember.js/pull/20825) Remove the `helper` wrapper from the helper generator; [Plain functions as helpers](https://guides.emberjs.com/release/components/helper-functions/#toc_global-helper-functions) have been supported since v4.5.
-
+- [#20825](https://github.com/emberjs/ember.js/pull/20825) Remove the `helper` wrapper from the helper generator; [Plain functions as helpers](https://guides.emberjs.com/release/components/helper-functions/#toc_global-helper-functions) have been supported since v4.5.
 
 #### Features
 
 Ember.js 6.3 introduces 1 new feature.
 
-##### [#20800](https://github.com/emberjs/ember.js/pull/20800) Template Tag support in Routes 
+##### [#20800](https://github.com/emberjs/ember.js/pull/20800) Template Tag support in Routes
 
-Following [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes/), Ember now supports the use of `<template>` authoring-format Glimmer components (gjs | gts) in place of route templates. 
+Following [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes/), Ember now supports the use of `<template>` authoring-format Glimmer components (gjs | gts) in place of route templates.
 
 This is a replacement for the [ember-route-template](https://github.com/discourse/ember-route-template) addon.
 
@@ -51,7 +50,7 @@ This is a replacement for the [ember-route-template](https://github.com/discours
 
 Ember.js 6.3 introduces 1 new deprecation.
 
-##### [#20526](https://github.com/emberjs/ember.js/pull/20526) Deprecates importing inject from @ember/service. 
+##### [#20526](https://github.com/emberjs/ember.js/pull/20526) Deprecates importing inject from @ember/service.
 
 The export is renamed to service per [RFC #0752](https://rfcs.emberjs.com/id/0752-inject-service/). See the [deprecation guide](https://deprecations.emberjs.com/id/importing-inject-from-ember-service) for more information.
 
@@ -102,7 +101,7 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 Ember CLI 6.3 includes 4 noteworthy bug fixes:
 
 - [#10612](https://github.com/ember-cli/ember-cli/pull/10612) Fix ember-data TS config in monorepo when using npm or yarn v1
-- [#10592](https://github.com/ember-cli/ember-cli/pull/10592)  Fix ESLint config for v1 addons
+- [#10592](https://github.com/ember-cli/ember-cli/pull/10592) Fix ESLint config for v1 addons
 - [#10633](https://github.com/ember-cli/ember-cli/pull/10633) / [#10638](https://github.com/ember-cli/ember-cli/pull/10638) Fix Ember Data package versions in the blueprint
 - [#10643](https://github.com/ember-cli/ember-cli/pull/10643) Remove unmaintained ember-cli-lodash-subset in favor of requiring functions directly from lodash
 
@@ -111,19 +110,20 @@ Ember CLI 6.3 includes 4 noteworthy bug fixes:
 Ember CLI 6.3 introduces 5 new feature and noteworthy enhancements:
 
 ##### Vanilla `Prettier` setup per [RFC #1055](https://rfcs.emberjs.com/id/1055-vanilla-prettier-setup-in-blueprints)
-[#10596](https://github.com/ember-cli/ember-cli/pull/10596) moves the default [`Prettier`](https://prettier.io/) setup to no longer be run through linters (ESLint, Stylelint) but to be run directly. 
-The following scripts are adding to package.json via the blueprint: 
-  * `npm run format` runs `prettier . --cache --write`. This will format all files with Prettier that are not ignored in the Prettier configuration. Previously this would only have applied to files configured in your linters. `npm run lint:fix` will run this command. 
-  * `npm run lint:format` runs `prettier . --cache --check` This runs `prettier` as a linter and allows `npm run lint` to fail if prettier has not run. 
-  
-As noted in the RFC: we use `format` instead of `lint:format:fix`, because we don't want to run Prettier parallel to ESLint and Stylelint when fixing lint errors. The `lint:fix` script will always run `format` last to avoid competing changes.
 
+[#10596](https://github.com/ember-cli/ember-cli/pull/10596) moves the default [`Prettier`](https://prettier.io/) setup to no longer be run through linters (ESLint, Stylelint) but to be run directly.
+The following scripts are adding to package.json via the blueprint:
+
+- `npm run format` runs `prettier . --cache --write`. This will format all files with Prettier that are not ignored in the Prettier configuration. Previously this would only have applied to files configured in your linters. `npm run lint:fix` will run this command.
+- `npm run lint:format` runs `prettier . --cache --check` This runs `prettier` as a linter and allows `npm run lint` to fail if prettier has not run.
+
+As noted in the RFC: we use `format` instead of `lint:format:fix`, because we don't want to run Prettier parallel to ESLint and Stylelint when fixing lint errors. The `lint:fix` script will always run `format` last to avoid competing changes.
 
 ##### Add ember-cli-deprecation-workflow to app blueprint per [RFC #1009](https://rfcs.emberjs.com/id/1009-move-deprecation-workflow-to-apps)
 
-[#10588](https://github.com/ember-cli/ember-cli/pull/10588) Adds the `ember-cli-deprecation-workflow` addon to the default blueprint for apps and generates the setup for the addon as well. 
+[#10588](https://github.com/ember-cli/ember-cli/pull/10588) Adds the `ember-cli-deprecation-workflow` addon to the default blueprint for apps and generates the setup for the addon as well.
 
-The addon enables collecting deprecations as they happen and creating a configuration so that you can silence deprecations or make them throw. See [the README](https://github.com/ember-cli/ember-cli-deprecation-workflow#ember-cli-deprecation-workflow) for more information. 
+The addon enables collecting deprecations as they happen and creating a configuration so that you can silence deprecations or make them throw. See [the README](https://github.com/ember-cli/ember-cli-deprecation-workflow#ember-cli-deprecation-workflow) for more information.
 
 For example, you may wish to silence a deprecation that is coming from an addon while you await an updated version, or you may wish to cause a deprecation to throw that you have already cleared and do not wish to allow to regress.
 
@@ -139,7 +139,8 @@ Ember CLI 6.3 introduces 1 new deprecation:
 
 ##### Deprecate v1 addon `contentFor` types per [RFC #1029](https://rfcs.emberjs.com/id/1029-deprecate-app-prefix/)
 
-[#10589](https://github.com/ember-cli/ember-cli/pull/10589) deprecates `contentFor` with the following types: 
+[#10589](https://github.com/ember-cli/ember-cli/pull/10589) deprecates `contentFor` with the following types:
+
 - app-prefix
 - app-suffix
 - tests-prefix
@@ -147,7 +148,7 @@ Ember CLI 6.3 introduces 1 new deprecation:
 - vendor-prefix
 - vendor-suffix
 
-The deprecation guide is not yet published but the content can be read in the [RFC](https://rfcs.emberjs.com/id/1029-deprecate-app-prefix/). 
+The deprecation guide is not yet published but the content can be read in the [RFC](https://rfcs.emberjs.com/id/1029-deprecate-app-prefix/).
 
 For more details on the changes in Ember CLI 6.3 and detailed upgrade
 instructions, please review the [Ember CLI 6.3.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.3.0).
