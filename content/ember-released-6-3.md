@@ -2,6 +2,7 @@
 title: Ember 6.3 Released
 authors:
   - jared-galanis
+  - katie-gengler
 date: 2025-03-28T00:00:00.000Z
 tags:
   - releases
