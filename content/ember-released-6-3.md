@@ -119,6 +119,8 @@ The following scripts are adding to package.json via the blueprint:
 
 As noted in the RFC: we use `format` instead of `lint:format:fix`, because we don't want to run Prettier parallel to ESLint and Stylelint when fixing lint errors. The `lint:fix` script will always run `format` last to avoid competing changes.
 
+Prettier will now run over all files, not just JavaScript and TypeScript. Files can be excludde by adding globs to the [`.prettierignore` file](https://prettier.io/docs/ignore).
+
 ##### Add ember-cli-deprecation-workflow to app blueprint per [RFC #1009](https://rfcs.emberjs.com/id/1009-move-deprecation-workflow-to-apps)
 
 [#10588](https://github.com/ember-cli/ember-cli/pull/10588) Adds the `ember-cli-deprecation-workflow` addon to the default blueprint for apps and generates the setup for the addon as well.
