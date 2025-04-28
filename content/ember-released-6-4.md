@@ -53,7 +53,7 @@ Ember.js 6.4 introduces [insert number here] new features:
 
 #### Deprecations
 
-Ember.js 6.4 introduces [insert number here] new deprecations:
+Ember.js 6.4 introduces no new deprecations.
 
 ---
 
