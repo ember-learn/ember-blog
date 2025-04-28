@@ -85,7 +85,9 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.4 includes [insert number here] bug fixes:
+Ember CLI 6.4 includes 1 noteworthy bug fix:
+
+[#10685](https://github.com/ember-cli/ember-cli/pull/10685) Add configuration to opt new projects out of the deprecated behavior of the Store class extending EmberObject. If upgrading you may need to alter this configuration when updating with `ember-cli-update` or otherwise applying the blueprint.
 
 #### Features
 
