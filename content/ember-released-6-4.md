@@ -49,7 +49,7 @@ Ember.js 6.4 includes 4 noteworthy bug fixes:
 
 #### Features
 
-Ember.js 6.4 introduces [insert number here] new features:
+Ember.js 6.4 introduces no new features. 
 
 #### Deprecations
 
