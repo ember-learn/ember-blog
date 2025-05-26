@@ -2,7 +2,7 @@
 title: Ember 6.4 Released
 authors:
   - jared-galanis
-date: 2025-05-02T00:00:00.000Z
+date: 2025-05-26T00:00:00.000Z
 tags:
   - releases
   - '2025'
@@ -39,17 +39,17 @@ Ember.js 6.4 includes 4 noteworthy bug fixes:
 - [#20850](https://github.com/emberjs/ember.js/pull/20850) Correct publication of source maps for ember-source
 - [#20867](https://github.com/emberjs/ember.js/pull/20867) Fix LOG_VERSIONS.
 
-#### Potentially Breaking 
+#### Potentially Breaking
 
-- [#20842](https://github.com/emberjs/ember.js/pull/20842) [BREAKING] Drop support for TypeScript 4.9 to allow for glimmer-vm upgrade. 
-  * Ember now tests against TypeScript 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7. 
-  Per the rolling support window, following [Semantic Versioning for TypeScript Types](https://www.semver-ts.org/), the supported range of TypeScript versions across two Ember LTS releases must always overlap.
-  For more examples, see the [Stability heading in this blog post](https://blog.emberjs.com/stable-typescript-types-in-ember-5-1/).
-  * We now require consumers use `verbatimModuleSyntax`.
+- [#20842](https://github.com/emberjs/ember.js/pull/20842) [BREAKING] Drop support for TypeScript 4.9 to allow for glimmer-vm upgrade.
+  - Ember now tests against TypeScript 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7.
+    Per the rolling support window, following [Semantic Versioning for TypeScript Types](https://www.semver-ts.org/), the supported range of TypeScript versions across two Ember LTS releases must always overlap.
+    For more examples, see the [Stability heading in this blog post](https://blog.emberjs.com/stable-typescript-types-in-ember-5-1/).
+  - We now require consumers use `verbatimModuleSyntax`.
 
 #### Features
 
-Ember.js 6.4 introduces no new features. 
+Ember.js 6.4 introduces no new features.
 
 #### Deprecations
 
@@ -85,17 +85,22 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.4 includes 1 noteworthy bug fix:
+Ember CLI 6.4 includes 4 bug fixes:
 
-[#10685](https://github.com/ember-cli/ember-cli/pull/10685) Add configuration to opt new projects out of the deprecated behavior of the Store class extending EmberObject. If upgrading you may need to alter this configuration when updating with `ember-cli-update` or otherwise applying the blueprint.
+- [#10685](https://github.com/ember-cli/ember-cli/pull/10685) Add configuration to opt new projects out of the deprecated behavior of the Store class extending EmberObject. If upgrading you may need to alter this configuration when updating with `ember-cli-update` or otherwise applying the blueprint.
+- [#10620](https://github.com/ember-cli/ember-cli/pull/10620) Handle errors gracefully when proxy target is down.
+- [#10641](https://github.com/ember-cli/ember-cli/pull/10641) Fix eslint parser for js when using --typescript flag.
+- [#10659](https://github.com/ember-cli/ember-cli/pull/10659/files) Improve de-typing .gts files.
 
 #### Features
 
-Ember CLI 6.4 introduces [insert number here] new feature:
+Ember CLI 6.4 introduces 1 new feature:
+
+- [#10661](https://github.com/ember-cli/ember-cli/pull/10661) Update ember-try to v4 in blueprints.
 
 #### Deprecations
 
-Ember CLI 6.4 introduces [insert number here] new deprecations:
+Ember CLI 6.4 introduces no new deprecations.
 
 For more details on the changes in Ember CLI 6.4 and detailed upgrade
 instructions, please review the [Ember CLI 6.4.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.4.0).
