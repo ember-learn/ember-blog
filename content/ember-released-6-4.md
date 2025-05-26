@@ -42,10 +42,10 @@ Ember.js 6.4 includes 4 noteworthy bug fixes:
 #### Potentially Breaking
 
 - [#20842](https://github.com/emberjs/ember.js/pull/20842) [BREAKING] Drop support for TypeScript 4.9 to allow for glimmer-vm upgrade.
-  - Ember now tests against TypeScript 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7.
+    - Ember now tests against TypeScript 5.0, 5.1, 5.2, 5.3, 5.4, 5.5, 5.6, 5.7.
     Per the rolling support window, following [Semantic Versioning for TypeScript Types](https://www.semver-ts.org/), the supported range of TypeScript versions across two Ember LTS releases must always overlap.
     For more examples, see the [Stability heading in this blog post](https://blog.emberjs.com/stable-typescript-types-in-ember-5-1/).
-  - We now require consumers use `verbatimModuleSyntax`.
+    - We now require consumers use `verbatimModuleSyntax`.
 
 #### Features
 
