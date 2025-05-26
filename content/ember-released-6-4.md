@@ -61,7 +61,9 @@ Ember.js 6.4 introduces no new deprecations.
 
 EmberData is the official data persistence library for Ember.js applications.
 
-[NOTING HERE THAT Data 5.4 is released and we need to update this in some fashion. There is so much that was released it may make sene to cover that comprehensively in a stand alone blog post. Will discuss with Data team].
+EmberData 5.4 has been released with many updates that will be more extensively covered in a separate blog posts. A few of the more notable features are:
+
+- <insert feature>
 
 ---
 
