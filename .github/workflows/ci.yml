@@ -21,7 +21,7 @@ jobs:
       - uses: mansona/npm-lockfile-version@v1
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           cache: 'npm'
           node-version: ${{ env.NODE_VERSION }}
@@ -32,7 +32,6 @@ jobs:
       - name: Lint
         run: npm run lint
 
-
   test-app:
     name: Test app
     runs-on: ubuntu-latest
@@ -42,7 +41,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           cache: 'npm'
           node-version: ${{ env.NODE_VERSION }}
