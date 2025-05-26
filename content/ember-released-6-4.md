@@ -63,6 +63,16 @@ EmberData is the official data persistence library for Ember.js applications.
 
 EmberData 5.4 has been released with many updates that will be more extensively covered in a full stand alone blog post.
 
+EmberData is also in the process of rebranding to WarpDrive. Stay tuned for more info!
+
+To learn about the motivation and goals for upcoming changes to EmberData in 5.x,
+read the [blog post, EmberData 5.X Update](https://blog.emberjs.com/ember-data-5-x-update-2023-04-15/).
+
+<!-- alex ignore retext-equality -->
+
+This will help you form the mental model of what to expect across the 5.x series,
+and understand deprecation removals in the context of the upcoming goals.
+
 ---
 
 ## Ember CLI
