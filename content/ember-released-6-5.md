@@ -2,7 +2,10 @@
 title: Ember 6.5 Released
 authors:
   - jared-galanis
-date: 2025-06-13T00:00:00.000Z
+  - katie-gengler
+  - chris-manson
+  - anne-greeth-schot-van-herwijnen
+date: 2025-07-04T00:00:00.000Z
 tags:
   - releases
   - '2025'
@@ -38,16 +41,16 @@ Ember.js 6.5 introduced no bug fixes.
 
 #### Features
 
-Ember.js 6.5 introduces  2 new features:
+Ember.js 6.5 introduces 2 new features:
 
 - A `--route-authoring-format=strict` option has been added to the route generator to generate template-tag components as route templates per [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes).
-- Options  `--strict` or `--tt` were added to the Component blueprint to generate template-tag components per [RFC #0779](https://rfcs.emberjs.com/id/0779-first-class-component-templates).
+- Options `--strict` or `--tt` were added to the Component blueprint to generate template-tag components per [RFC #0779](https://rfcs.emberjs.com/id/0779-first-class-component-templates).
 
 #### Deprecations
 
 Ember.js 6.5 introduces 1 new deprecation:
 
--  `import Ember from 'ember'` has been deprecated per [RFC #1003](https://rfcs.emberjs.com/id/1003-deprecation-import-ember-from-ember). This deprecates many APIs that were available off of that Ember import. The deprecation guides for each of those APIs can be found [here](https://deprecations.emberjs.com/v6.x).
+- `import Ember from 'ember'` has been deprecated per [RFC #1003](https://rfcs.emberjs.com/id/1003-deprecation-import-ember-from-ember). This deprecates many APIs that were available off of that Ember import. The deprecation guides for each of those APIs can be found [here](https://deprecations.emberjs.com/v6.x).
 
 For more details on changes in Ember.js 6.5, please review the [Ember.js 6.5.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.5.0-ember-source).
 
