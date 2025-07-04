@@ -38,13 +38,18 @@ Ember.js 6.5 includes <insert> noteworthy bug fixes:
 
 #### Features
 
-Ember.js 6.5 introduces <insert> new features:
+Ember.js 6.5 introduces  2 new features:
+
+- A `--route-authoring-format=strict` option has been added to the route generator to generate template-tag components as route templates per [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes).
+- Options  `--strict` or `--tt` were added to the Component blueprint to generate template-tag components per [RFC #0779](https://rfcs.emberjs.com/id/0779-first-class-component-templates).
 
 #### Deprecations
 
-Ember.js 6.5 introduces <insert> new deprecations:
+Ember.js 6.5 introduces 1 new deprecation:
 
-For more details on changes in Ember.js 6.5, please review the [Ember.js 6.5.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.5.0).
+-  `import Ember from 'ember'` has been deprecated per [RFC #1003](https://rfcs.emberjs.com/id/1003-deprecation-import-ember-from-ember). This deprecates many APIs that were available off of that Ember import. The deprecation guides for each of those APIs can be found [here](https://deprecations.emberjs.com/v6.x).
+
+For more details on changes in Ember.js 6.5, please review the [Ember.js 6.5.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.5.0-ember-source).
 
 ---
 
@@ -90,14 +95,16 @@ Ember CLI 6.5 includes <insert> bug fixes:
 
 #### Features
 
-Ember CLI 6.5 introduces <insert> new feature:
+Ember CLI 6.5 introduces 1 new feature:
+
+- A `--strict` flag is now available for `ember new` and `ember addon` to generate components and routes as template-tag components per [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes) and [RFC #0779](https://rfcs.emberjs.com/id/0779-first-class-component-templates).
 
 #### Deprecations
 
 Ember CLI 6.5 introduces <insert> new deprecations:
 
 For more details on the changes in Ember CLI 6.5 and detailed upgrade
-instructions, please review the [Ember CLI 6.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.5.0).
+instructions, please review the [Ember CLI 6.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.5.0-ember-cli).
 
 ## Thank You!
 
