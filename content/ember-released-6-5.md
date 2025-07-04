@@ -34,7 +34,7 @@ Ember.js 6.5 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug fixes
 
-Ember.js 6.5 includes <insert> noteworthy bug fixes:
+Ember.js 6.5 introduced no bug fixes.
 
 #### Features
 
@@ -91,7 +91,7 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.5 includes <insert> bug fixes:
+Ember CLI 6.5 introduced no bug fixes.
 
 #### Features
 
@@ -101,7 +101,7 @@ Ember CLI 6.5 introduces 1 new feature:
 
 #### Deprecations
 
-Ember CLI 6.5 introduces <insert> new deprecations:
+Ember CLI 6.5 introduces no new deprecations.
 
 For more details on the changes in Ember CLI 6.5 and detailed upgrade
 instructions, please review the [Ember CLI 6.5.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.5.0-ember-cli).
