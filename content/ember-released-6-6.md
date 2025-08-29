@@ -2,7 +2,7 @@
 title: Ember 6.6 Released
 authors:
   - jared-galanis
-date: 2025-07-25T00:00:00.000Z
+date: 2025-08-29T00:00:00.000Z
 tags:
   - releases
   - '2025'
@@ -30,17 +30,22 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 6.6 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
+Ember.js 6.6 introduced a few pieces of clean up, but generally introduced no new features, bug fixes or deprecations:
+
+- [#20909](https://github.com/emberjs/ember.js/pull/20909) - remove microtask in runtime compiler.
+- [#20627](https://github.com/emberjs/ember.js/pull/20627) - remove escapeExpression from `@ember/template`.
+
 #### Bug fixes
 
-Ember.js 6.6 introduced <insert> bug fixes.
+Ember.js 6.6 introduced 0 bug fixes.
 
 #### Features
 
-Ember.js 6.6 introduces <insert> new features:
+Ember.js 6.6 introduces 0 new features:
 
 #### Deprecations
 
-Ember.js 6.6 introduces <insert> new deprecation:
+Ember.js 6.6 introduces 0 new deprecation:
 
 For more details on changes in Ember.js 6.6, please review the [Ember.js 6.6.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.6.0-ember-source).
 
@@ -84,11 +89,19 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.6 introduced <insert> bug fixes.
+Ember CLI 6.6 introduced 2 bug fixes.
+
+- [#10711](https://github.com/ember-cli/ember-cli/pull/10711) - fix yuidoc generation on publish.
+- [#10702](https://github.com/ember-cli/ember-cli/pull/10702) - update ember-data and unify the versions between `@` and non-`@`.
 
 #### Features
 
-Ember CLI 6.6 introduces <insert> new features.
+Ember CLI 6.6 introduces 4 new features and pieces of cleanup.
+
+- [#10749](https://github.com/ember-cli/ember-cli/pull/10749) - Update all dependencies for 6.6 release.
+- [#10751](https://github.com/ember-cli/ember-cli/pull/10751) - [BETA BACKPORT] Backport drop node 18.
+- [#10701](https://github.com/ember-cli/ember-cli/pull/10701) - [ENHANCEMENT] Support Bun.
+- [#10664](https://github.com/ember-cli/ember-cli/pull/10664) - [ENHANCEMENT] Remove ember-fetch.
 
 #### Deprecations
 
