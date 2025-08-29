@@ -30,7 +30,7 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 6.6 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-Ember.js 6.6 introduced a few pieces of clean up, but generally introduced no new features, bug fixes or deprecations:
+Ember.js 6.6 introduced a few pieces of clean up, but generally introduced no new features, bug fixes or deprecations.
 
 - [#20909](https://github.com/emberjs/ember.js/pull/20909) - remove microtask in runtime compiler.
 - [#20627](https://github.com/emberjs/ember.js/pull/20627) - remove escapeExpression from `@ember/template`.
@@ -99,9 +99,9 @@ Ember CLI 6.6 introduced 2 bug fixes.
 Ember CLI 6.6 introduces 4 new features and pieces of cleanup.
 
 - [#10749](https://github.com/ember-cli/ember-cli/pull/10749) - Update all dependencies for 6.6 release.
-- [#10751](https://github.com/ember-cli/ember-cli/pull/10751) - [BETA BACKPORT] Backport drop node 18.
-- [#10701](https://github.com/ember-cli/ember-cli/pull/10701) - [ENHANCEMENT] Support Bun.
-- [#10664](https://github.com/ember-cli/ember-cli/pull/10664) - [ENHANCEMENT] Remove ember-fetch.
+- [#10751](https://github.com/ember-cli/ember-cli/pull/10751) - Backport drop node 18.
+- [#10701](https://github.com/ember-cli/ember-cli/pull/10701) - Support Bun.
+- [#10664](https://github.com/ember-cli/ember-cli/pull/10664) - Remove ember-fetch.
 
 #### Deprecations
 
