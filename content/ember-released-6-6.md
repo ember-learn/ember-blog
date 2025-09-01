@@ -2,7 +2,7 @@
 title: Ember 6.6 Released
 authors:
   - jared-galanis
-date: 2025-08-29T00:00:00.000Z
+date: 2025-09-01T00:00:00.000Z
 tags:
   - releases
   - '2025'
@@ -105,7 +105,7 @@ Ember CLI 6.6 introduces 4 new features and pieces of cleanup.
 
 #### Deprecations
 
-Ember CLI 6.6 introduces <insert> new deprecations.
+Ember CLI 6.6 introduces 0 new deprecations.
 
 For more details on the changes in Ember CLI 6.6 and detailed upgrade
 instructions, please review the [Ember CLI 6.6.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.6.0-ember-cli).
