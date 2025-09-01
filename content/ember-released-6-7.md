@@ -2,7 +2,7 @@
 title: Ember 6.7 Released
 authors:
   - jared-galanis
-date: 2025-08-29T00:00:00.000Z
+date: 2025-09-03T00:00:00.000Z
 tags:
   - releases
   - '2025'
