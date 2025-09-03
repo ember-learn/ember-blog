@@ -32,7 +32,7 @@ Ember.js 6.7 is an incremental, backwards compatible release of Ember with bug f
 
 #### Bug fixes
 
-Ember.js 6.7 introduced <insert> bug fixes.
+Ember.js 6.7 introduced no unreleased bug fixes.
 
 #### Features
 
