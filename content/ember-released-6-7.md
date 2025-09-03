@@ -36,7 +36,10 @@ Ember.js 6.7 introduced no unreleased bug fixes.
 
 #### Features
 
-Ember.js 6.7 introduces <insert> new features:
+Ember.js 6.7 introduces no new features, but includes 1 enhancement:
+
+- [#20939](https://github.com/emberjs/ember.js/pull/20939) Adds `import { trustHTML } from '@ember/template';` as an alias of `import { htmlSafe } from '@ember/template', for naming that better matches the behavior.
+
 
 #### Deprecations
 
