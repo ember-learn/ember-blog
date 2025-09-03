@@ -43,7 +43,7 @@ Ember.js 6.7 introduces no new features, but includes 1 enhancement:
 
 #### Deprecations
 
-Ember.js 6.7 introduces <insert> new deprecation:
+Ember.js 6.7 introduces no new deprecations.
 
 For more details on changes in Ember.js 6.7, please review the [Ember.js 6.7.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.7.0-ember-source).
 
