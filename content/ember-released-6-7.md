@@ -11,14 +11,7 @@ tags:
 
 Today the Ember project is releasing version 6.7 of Ember.js and Ember CLI.
 
-This release kicks off the 6.8 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time. The [ember-try](https://github.com/ember-cli/ember-try) addon is a great way to continuously test your projects against the latest Ember releases.
-
-You can read more about our general release process here:
-
-- [Release Dashboard](http://emberjs.com/releases/)
-- [The Ember Release Cycle](https://blog.emberjs.com/new-ember-release-process/)
-- [The Ember Project](https://blog.emberjs.com/ember-project-at-2-0/)
-- [Ember LTS Releases](https://blog.emberjs.com/announcing-embers-first-lts/)
+A release of Ember is comprised of many projects: ember-source, ember-cli, and all the learning team projects. We follow a [6-week release train](http://emberjs.com/releases/) that includes alpha and beta cycles to ensure changes are well-tested. We encourage our community (especially addon authors) to help test the beta builds and report any bugs before they are published as a final release. The `ember-try` addon is a great way to continuously test your projects against the latest Ember releases. While we consider the release to be complete upon publication of the blog post but the 6-week cycle is anchored by the release of the ember-source package. Every 4th minor version will become a `LTS` release, so checkout [Ember LTS Releases](https://blog.emberjs.com/announcing-embers-first-lts/) if you want to know more.
 
 ---
 
@@ -87,15 +80,19 @@ It is not required to keep Ember CLI versions in sync with Ember and EmberData. 
 
 #### Bug fixes
 
-Ember CLI 6.7 introduced <insert> bug fixes.
+Ember CLI 6.7 introduced 1 bug fix.
+
+- [#10794](https://github.com/ember-cli/ember-cli/pull/10794) fixes a null pointer exception, this bug seems to have been introduced since 6.4.0.
 
 #### Features
 
-Ember CLI 6.7 introduces <insert> new features.
+Ember CLI 6.7 introduces 1 new feature.
+
+- [#10742](https://github.com/ember-cli/ember-cli/pull/10742) drops support for Node 18, making Node 20 the default for Ember CLI and adds support for Node 24.
 
 #### Deprecations
 
-Ember CLI 6.7 introduces <insert> new deprecations.
+Ember CLI 6.7 introduces 0 new deprecations.
 
 For more details on the changes in Ember CLI 6.7 and detailed upgrade
 instructions, please review the [Ember CLI 6.7.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.7.0-ember-cli).
