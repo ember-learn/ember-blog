@@ -52,6 +52,7 @@ result.destroy();
 ```
 
 The API supports several configuration options including:
+
 - `into`: The DOM element to render into
 - `args`: Arguments to pass to the component - these can be a `trackedObject`
 - `owner`: Optional owner object for service access, (or minimal partial implementation of what your component needs)
@@ -91,7 +92,6 @@ const addItem = (arr, item) => arr.push(item);
 You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1068-tracked-collections/)
 
 This feature was inspired by `tracked-built-ins` and brings these essential reactivity primitives directly into the framework core.
-
 
 
 #### Deprecations
