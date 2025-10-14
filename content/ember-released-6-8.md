@@ -2,6 +2,7 @@
 title: Ember 6.8 Released
 authors:
   - jared-galanis
+  - nullvoxpopuli
 date: 2025-10-15T00:00:00.000Z
 tags:
   - releases
@@ -29,7 +30,70 @@ Ember.js 6.8 introduced <insert number here> bug fixes.
 
 #### Features
 
-Ember.js 6.8 introduces <insert number here> new features.
+Ember.js 6.8 introduces 2 new features.
+
+##### `renderComponent`
+
+The new `renderComponent` API provides a powerful way to render components into any DOM element, making it easier to integrate components in other environments like d3, ag-grid, WYSIWYG editors, and more! This feature is particularly useful for micro applications, REPLs, and "islands"-based tools.
+
+`renderComponent` can be imported from `@ember/renderer` and accepts a component definition along with configuration options:
+
+```gjs
+import { renderComponent } from '@ember/renderer';
+
+const Greeting = <template>Hello {{@name}}!</template>;
+
+const result = renderComponent(Greeting, {
+  into: document.querySelector('#my-element'),
+  args: { name: 'World' }
+});
+
+// Clean up when done
+result.destroy();
+```
+
+The API supports several configuration options including:
+
+- `into`: The DOM element to render into
+- `args`: Arguments to pass to the component - these can be a `trackedObject`
+- `owner`: Optional owner object for service access, (or minimal partial implementation of what your component needs)
+
+[Live Demo](https://limber.glimdown.com/edit?c=JYWwDg9gTgLgBAbzlApgOwCYqgYQuCNdeAXzgDMp84ByAARRACNsB6VTbbGgbgChQkWIjgwoAQwDGAaxQYA8kwBWKSaQpUQtBszaopMYADcUrSRAA2F1YcIBnXnz7m0d%2BG-EwUcALyiJMnKKKmoAFEh8cHDmAK5oMABccAAMADRwkXDAaJKhAJQiHl4AdLHxANTlcGR8JHn8zvbwAGIQEL5wADxe4BaeKAB8mZ3kwCgWGHYoMAOd1gDm6BgDrRCdrAtLQ1FRCAhFKKUQcTAkJJlRnUwxMDCEcISSFsAyPnsHxdmSZyttlevXW6EbZdVijcaTaZDdY9MB9LwDBrkOJqYD3DhYKD5RCZazwcaMYgdDAQSQxEDEUr6LwAUWsFPioRoGGMNHqmQx2DwBCIjNW6SQ2TuSQJDNI7KiqBgMSgaDgouI-HOfG6jDh-RBAGUYP04OJMMgUAZjMAYABPPWoOB2AAW4lQGASTku4ImUxmcxQi0wAwASm0YOtNj6Loh9jqSmVTucdl1AXc5Y9nq93hHDl8fqt-qx48DhmCxm6oZlMntQpyoHkzirWLD4YMgA&format=gjs&shadowdom=on)
+
+You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1099-rendercomponent/)
+
+
+##### `@ember/reactive/collections`
+
+Ember 6.8 introduces a new package `@ember/reactive/collections` that provides built-in tracking utilities for common collections. This package includes tracked versions of JavaScript's native collection types: `trackedArray`, `trackedObject`, `trackedMap`, `trackedSet`, `trackedWeakMap`, and `trackedWeakSet`.
+
+These utilities offer performance and ergonomics improvements over what has been used via public APIs.
+
+```gjs
+import { trackedArray } from '@ember/reactive/collections';
+
+const items = ['apple', 'banana'];
+const addItem = (arr, item) => arr.push(item);
+
+<template>
+  {{#let (trackedArray items) as |list|}}
+    {{#each list as |item|}}
+      <div>{{item}}</div>
+    {{/each}}
+    
+    <button {{on 'click' (fn addItem list 'cherry')}}>
+      Add Item
+    </button>
+  {{/let}}
+</template>
+```
+
+[Live Demo](https://limber.glimdown.com/edit?c=JYWwDg9gTgLgBAbzjKBDAxgawKYBMCCUaAnnAL5wBmUEIcA5AALYgBG2UA9FNhjMADdsndBAA2Y7On4QAdgGd6AbgBQoSLERw55KjTpMW7LiAi5glYB2Vrw0eEkqzd1Wg2ZsOnABbYxYa1UVUQV4YBgWeTgAXjgAbXpUMDBJegAaBlZUWWzUegBdVRD5eFRcXABJCLpYgApUIgzwlgBKGIA%2BOAaoADowAFd5b1rmkBaggB5qlNQI9pU4RAQAYkl4WpQMHAIiVFJR%2BTbUKIAfMWASk7IyBcWl5d50bzhzkq7T0aubu7uJ8wF2ggEKNrhNOP95j8gZxHt5rrdFgi4BNWP0YDAdECdPR0OcsPQ4LUnF1ylUWC8LvAcb4iMR6C1rpCfnB8OU4GSQEiwaj0XImdC1vCwdMxLNsO0gA&format=gjs)
+
+You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1068-tracked-collections/)
+
+This feature was inspired by `tracked-built-ins` and brings these essential reactivity primitives directly into the framework core.
+
 
 #### Deprecations
 
