@@ -24,6 +24,10 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 6.8 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
+v6.8.0 of `ember-source` is the first minor version of the package to be published to `npm` with [Trusted Publishing](https://docs.npmjs.com/trusted-publishers). We will be implementing this across all our packages. 
+
+At the bottom of the [npm package page](https://www.npmjs.com/package/ember-source), you'll find a section labeled 'Provenance' that provides verification that the package contents were published from the source repository.  
+
 #### Bug fixes
 
 Ember.js 6.8 introduced <insert number here> bug fixes.
