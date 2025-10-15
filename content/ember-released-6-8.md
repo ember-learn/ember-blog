@@ -30,7 +30,9 @@ At the bottom of the [npm package page](https://www.npmjs.com/package/ember-sour
 
 #### Bug fixes
 
-Ember.js 6.8 introduced <insert number here> bug fixes.
+Ember.js 6.8 introduces 1 bug fix.
+
+- Removes unnecessary package ember-cli-htmlbars-inline-precompile from component-test blueprint
 
 #### Features
 
