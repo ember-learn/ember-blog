@@ -24,9 +24,9 @@ Ember.js is the core framework for building ambitious web applications.
 
 Ember.js 6.8 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-v6.8.0 of `ember-source` is the first minor version of the package to be published to `npm` with [Trusted Publishing](https://docs.npmjs.com/trusted-publishers). We will be implementing this across all our packages. 
+v6.8.0 of `ember-source` is the first minor version of the package to be published to `npm` with [Trusted Publishing](https://docs.npmjs.com/trusted-publishers). We will be implementing this across all our packages.
 
-At the bottom of the [npm package page](https://www.npmjs.com/package/ember-source), you'll find a section labeled 'Provenance' that provides verification that the package contents were published from the source repository.  
+At the bottom of the [npm package page](https://www.npmjs.com/package/ember-source), you'll find a section labeled 'Provenance' that provides verification that the package contents were published from the source repository.
 
 #### Bug fixes
 
@@ -68,7 +68,6 @@ The API supports several configuration options including:
 
 You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1099-rendercomponent/)
 
-
 ##### `@ember/reactive/collections`
 
 Ember 6.8 introduces a new package `@ember/reactive/collections` that provides built-in tracking utilities for common collections. This package includes tracked versions of JavaScript's native collection types: `trackedArray`, `trackedObject`, `trackedMap`, `trackedSet`, `trackedWeakMap`, and `trackedWeakSet`.
@@ -86,7 +85,7 @@ const addItem = (arr, item) => arr.push(item);
     {{#each list as |item|}}
       <div>{{item}}</div>
     {{/each}}
-    
+
     <button {{on 'click' (fn addItem list 'cherry')}}>
       Add Item
     </button>
@@ -99,7 +98,6 @@ const addItem = (arr, item) => arr.push(item);
 You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1068-tracked-collections/)
 
 This feature was inspired by `tracked-built-ins` and brings these essential reactivity primitives directly into the framework core.
-
 
 #### Deprecations
 
