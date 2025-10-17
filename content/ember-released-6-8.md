@@ -3,7 +3,9 @@ title: Ember 6.8 Released
 authors:
   - jared-galanis
   - nullvoxpopuli
-date: 2025-10-15T00:00:00.000Z
+  - katie-gengler
+  - chris-manson
+date: 2025-10-17T00:00:00.000Z
 tags:
   - releases
   - '2025'
@@ -101,7 +103,7 @@ This feature was inspired by `tracked-built-ins` and brings these essential reac
 
 #### Deprecations
 
-Ember.js 6.8 introduces <insert number here> new deprecations.
+Ember.js 6.8 introduces 0 new deprecations.
 
 For more details on changes in Ember.js 6.8, please review the [Ember.js 6.8.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.8.0-ember-source).
 
