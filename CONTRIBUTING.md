@@ -32,7 +32,7 @@ If you have questions or need help with writing, please visit the `#dev-ember-le
 1. Install packages.
 
     ```bash
-    npm install
+    pnpm install
     ```
 
 </details>
