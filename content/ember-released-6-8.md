@@ -12,9 +12,7 @@ tags:
   - version-6-x
 ---
 
-// TODO add some overally summary here of all the awesome stuff in this blogpost
-
-Today the Ember project is releasing version 6.8 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) **candidate**. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
+// TODO add some overall summary here of all the awesome stuff in this blogpost
 
 ## Ember.js v6.8 
 
@@ -116,24 +114,25 @@ This is the first release that enables Embroider by default 🎉 This has been a
 
 These are just some of the highlights, but one key theme that has been true throughout the effort to make Vite the default build system for Ember apps is that we now have an oportunity to integrate much more seemlessly with the wider JS ecosystem. Ember is no longer working in a walled garden, forced to re-implement every good idea that the JS community comes up with. If someone comes up with a Vite plugin that does something cool, chances are that adding it to your Vite config in your Ember app will just work!
 
+Anyone generating a new app using `ember new` after Ember CLI v6.8 will get an app generated with the new `@ember/app-blueprint` by default. The new app blueprint has a lot of changes, but each change is exaplained in great detail in the [V2 App Format RFC](https://rfcs.emberjs.com/id/0977-v2-app-format) so it's worth taking a look to understand all the changes.
 
+If you have the need to generate a new app with the classic blueprint after Ember CLI v6.8, we have provided a new blueprint `@ember-tooling/classic-build-app-blueprint`. You can opt into this blueprint with the `-b` argument: 
 
-// new blueprint - enabled by default for ember new
+```
+ember new -b @ember-tooling/classic-build-app-blueprint
+```
 
-// ember-cli-update won't update you - use ember-vite-codemod
+This is not intended to be used long term, for most teams the new default Vite-based blueprint will be the right choice and it represents the intended future direction of the Ember project. Providing the legacy classic-build blueprint is in keeping with Ember's dedication to backwards compatability and will give teams that can't yet upgrade to Vite some breathing space to upgrade at their own pace. 
 
-// generate a classic app - please don't - but if you need to
-
-// look at the RFC for more details about the new bluerpint
-
- 
-* [#10802](https://github.com/ember-cli/ember-cli/pull/10802) enable Vite blueprint by default for `ember new`
+This also means that any team relying on [`ember-cli-update`](https://github.com/ember-cli/ember-cli-update) can still have an update path without being autmatically upgraded to Vite. If you have an existing application and you do want to upgrade to vite you should check out the [`ember-vite-codemod`](https://github.com/mainmatter/ember-vite-codemod) which will guide you through the upgrade process.
 
 #### Component and Route `--strict` by default
 
+Now that the default blueprint is using Vite by default it makes sense for newly generated Components and Route templates to use template-tag format (a.k.a GJS). This means that all of the templates in your app will be in "strict mode" and not look up any of the Invokables (Components, Helpers, or Modifiers) on the global resolver, but instead use local scoping to know what Invokable to use in your templates. In pracice, for most people, this would mean importing any components that you are using at the top of the file that you are using them (this is why this feature is sometimes referred to as template-imports). This allows build systems to have a better understanding of where your code is coming from and can significanly improve tree-shaking and developer tooling performance.
 
+With the Vite blueprint it makes sense to enable the strict-mode template generation by default, and to keep the new app blueprint and the classic app blueprint in sync we also decided to make it the default for new apps generated with the classic app blueprint. In practice this only sets the required setting in the `.ember-cli` settings file in your repo to the new default values.
 
-* [#10831](https://github.com/ember-cli/ember-cli/pull/10831) enable `--strict` by default in classic blueprints to match new Vite app blueprint
+You can read more about the specifics of this feature in the [First-Class Component Templates RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates). 
 
 ### Other Features
 
@@ -190,6 +189,8 @@ Ember.js 6.8 is an incremental, backwards compatible release of Ember with bug f
 
 For more details on the changes in Ember CLI 6.8 and detailed upgrade
 instructions, please review the [Ember CLI 6.8.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.8.0-ember-cli).
+
+Today the Ember project is releasing version 6.8 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) **candidate**. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
 
 ## Thank You!
 
