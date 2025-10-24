@@ -48,8 +48,8 @@ importers:
         specifier: ^3.2.0
         version: 3.3.3(ember-cli@3.27.0(babel-core@6.26.3)(handlebars@4.7.8)(underscore@1.13.7))
       ember-cli-fastboot:
-        specifier: ^3.2.0-beta.5
-        version: 3.3.2
+        specifier: ^4.1.5
+        version: 4.1.5(ember-source@3.27.5(@babel/core@7.28.0))
       ember-cli-htmlbars:
         specifier: ^5.7.1
         version: 5.7.2
@@ -128,11 +128,14 @@ importers:
       markdownlint-cli:
         specifier: ^0.28.1
         version: 0.28.1
+      normalize.css:
+        specifier: ^8.0.1
+        version: 8.0.1
       npm-run-all:
         specifier: ^4.1.5
         version: 4.1.5
       prember:
-        specifier: ^2.0.0
+        specifier: ^2.1.0
         version: 2.1.0
       prettier:
         specifier: ^2.3.2
@@ -3148,9 +3151,11 @@ packages:
     peerDependencies:
       ember-cli: ^3.2.0 || >=4.0.0
 
-  ember-cli-fastboot@3.3.2:
-    resolution: {integrity: sha512-3nPyXapAv9SwCV6KVdSg9CdjMtONkb5V8VZJiWTNMowu1HiODO5HUykaAd0niH94qnJivdpbH544S3g0TZ+Jfw==}
-    engines: {node: 12.* || 14.* || >=16}
+  ember-cli-fastboot@4.1.5:
+    resolution: {integrity: sha512-XVigHzn+xXMqvovdrPNQHXRCzVOkU78ij6adU8Qt7PAaF3stR9oPh/35f30aJ2vcL6jwR72glnuCyXpm3EL22A==}
+    engines: {node: 14.* || 16.* || >= 18}
+    peerDependencies:
+      ember-source: '>=3.16'
 
   ember-cli-get-component-path-option@1.0.0:
     resolution: {integrity: sha512-k47TDwcJ2zPideBCZE8sCiShSxQSpebY2BHcX2DdipMmBox5gsfyVrbKJWIHeSTTKyEUgmBIvQkqTOozEziCZA==}
@@ -3765,15 +3770,15 @@ packages:
   fast-uri@3.0.6:
     resolution: {integrity: sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==}
 
-  fastboot-express-middleware@3.3.2:
-    resolution: {integrity: sha512-/Fgr29Q1bMDiv65BeCYmFR88otTg9QJYvmVIWrgkwWSkfya5h1XzCQYEz+VqyhWT1v+BQWq98SuyKfpNrL2cRA==}
+  fastboot-express-middleware@4.1.2:
+    resolution: {integrity: sha512-vnzEBV7gZ3lSoGiqG/7+006nHNA3z+ZnU/5u9jPHtKpjH28yEbvZq6PnAeTu24UR98jZVR0pnFbfX0co+O9PeA==}
     engines: {node: 12.* || 14.* || >=16}
 
   fastboot-transform@0.1.3:
     resolution: {integrity: sha512-6otygPIJw1ARp1jJb+6KVO56iKBjhO+5x59RSC9qiZTbZRrv+HZAuP00KD3s+nWMvcFDemtdkugki9DNFTTwCQ==}
 
-  fastboot@3.3.2:
-    resolution: {integrity: sha512-2NKTW32GvEsDyBrdw1trW1JsbS+9/7sAQuKwkht12mNitimRrSKVLP2AxsM/HSXQE+aiET4XCfKdyeIy0kQbKQ==}
+  fastboot@4.1.2:
+    resolution: {integrity: sha512-VJLmF0xdCNwIIuA7DQtN1KTAKfEGsbZGJ0cfKh64h6DeMh3Fhr2FCCxkPh8zYqGoqzjXFdFbtk60WS3f6HKqBg==}
     engines: {node: 12.* || 14.* || >=16}
 
   fastboot@4.1.5:
@@ -12275,7 +12280,7 @@ snapshots:
       resolve: 1.22.10
       semver: 5.7.2
 
-  ember-cli-fastboot@3.3.2:
+  ember-cli-fastboot@4.1.5(ember-source@3.27.5(@babel/core@7.28.0)):
     dependencies:
       broccoli-concat: 4.2.5
       broccoli-file-creator: 2.1.1
@@ -12287,8 +12292,9 @@ snapshots:
       ember-cli-lodash-subset: 2.0.1
       ember-cli-preprocess-registry: 3.3.0
       ember-cli-version-checker: 5.1.2
-      fastboot: 3.3.2
-      fastboot-express-middleware: 3.3.2
+      ember-source: 3.27.5(@babel/core@7.28.0)
+      fastboot: 4.1.5
+      fastboot-express-middleware: 4.1.2
       fastboot-transform: 0.1.3
       fs-extra: 10.1.0
       json-stable-stringify: 1.3.0
@@ -13666,10 +13672,10 @@ snapshots:
 
   fast-uri@3.0.6: {}
 
-  fastboot-express-middleware@3.3.2:
+  fastboot-express-middleware@4.1.2:
     dependencies:
       chalk: 4.1.2
-      fastboot: 3.3.2
+      fastboot: 4.1.2
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -13683,7 +13689,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  fastboot@3.3.2:
+  fastboot@4.1.2:
     dependencies:
       chalk: 4.1.2
       cookie: 0.4.2
