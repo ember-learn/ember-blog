@@ -117,7 +117,7 @@ Anyone generating a new app using `ember new` after Ember CLI v6.8 will get an a
 
 If you have the need to generate a new app with the classic blueprint after Ember CLI v6.8, we have provided a new blueprint `@ember-tooling/classic-build-app-blueprint`. You can opt into this blueprint with the `-b` argument:
 
-```
+```bash
 ember new -b @ember-tooling/classic-build-app-blueprint
 ```
 
