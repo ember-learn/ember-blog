@@ -12,19 +12,13 @@ tags:
   - version-6-x
 ---
 
-// TODO add some overall summary here of all the awesome stuff in this blogpost
+The Ember project is excited to announce the release of Ember v6.8. This is a normal minor release as part of the [standard Ember Release Train process](https://emberjs.com/releases/), but this release isn't just like every other release! We have some exciting new framework features that unlock a new world of experimentation and our build system is now using [Vite](https://vite.dev) by default when you generate a new app 🎉 Keep reading to find out all the details!
 
 ## Ember.js v6.8 
 
-Ember.js 6.8 introduces 3 key features, 2 new things for Ember developers to use today and a new way to publish the `ember-source` package. 
+Ember.js 6.8 introduces 3 key features, 2 new things for Ember developers to use today and a new way to publish the `ember-source` package. We have also included one bugfix and there are no new deprecations.
 
 ### Key Features
-
-#### Trusted publishing
-
-v6.8.0 of `ember-source` is the first minor version of the package to be published to `npm` with [Trusted Publishing](https://docs.npmjs.com/trusted-publishers). We will be implementing this across all our packages.
-
-At the bottom of the [npm package page](https://www.npmjs.com/package/ember-source), you'll find a section labeled 'Provenance' that provides verification that the package contents were published from the source repository.
 
 #### `renderComponent`
 
@@ -52,7 +46,7 @@ The API supports several configuration options including:
 - `args`: Arguments to pass to the component - these can be a `trackedObject`
 - `owner`: Optional owner object for service access, (or minimal partial implementation of what your component needs)
 
-You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1099-rendercomponent/)
+You can read more about this on in [`renderComponent()` RFC #1068](https://rfcs.emberjs.com/id/1099-rendercomponent/)
 
 #### `@ember/reactive/collections`
 
@@ -80,9 +74,15 @@ const addItem = (item) => items.push('cherry');
 </template>
 ```
 
-You can read more about this on the page for [RFC #1068](https://rfcs.emberjs.com/id/1068-tracked-collections/)
+You can read more about this in the [Built in tracking utilities for common collections RFC #1068](https://rfcs.emberjs.com/id/1068-tracked-collections/)
 
 This feature was inspired by `tracked-built-ins` and brings these essential reactivity primitives directly into the framework core.
+
+#### Trusted publishing
+
+v6.8.0 of `ember-source` is the first minor version of the package to be published to `npm` with [Trusted Publishing](https://docs.npmjs.com/trusted-publishers). We will be implementing this across all our packages.
+
+At the bottom of the [npm package page](https://www.npmjs.com/package/ember-source), you'll find a section labeled 'Provenance' that provides verification that the package contents were published from the source repository.
 
 ### Bug fixes
 
@@ -90,15 +90,11 @@ Ember.js 6.8 introduces 1 bug fix.
 
 - [#20988](https://github.com/emberjs/ember.js/pull/20988) Removes unnecessary package ember-cli-htmlbars-inline-precompile from component-test blueprint
 
-#### Deprecations
-
-Ember.js 6.8 introduces no new deprecations.
-
 ---
 
 ## Ember CLI v6.8
 
-Ember CLI v6.8 introduces Ember CLI 6.8 introduces 5 new features.
+Ember CLI 6.8 introduces 2 key features, a brand-new default app blueprint and a new default for generated templates. There are also 3 minor features, 5 bugfixes, and 2 new deprecations introduced.
 
 ### Key Features
 
@@ -161,36 +157,6 @@ Ember CLI 6.8 introduces 2 new deprecations.
 #### `ember new --embroider`
 
 Generating an ember app with `ember new --embroider` generated an app using Embroider@v3 with Webpack. Since Embroider@v4 and Vite is now the default for newly generated apps and provides a significantly better developer experience, nobody should be generating new apps with Embroider@v3 any more. To support people who haven't yet upgraded from Embroider@v3 to Embroider@v4 yet, we have opted not to make this argument generate a new Vite app and instead deprecated it. You can read more about the deprecation on the [deprecation guide for `dont-use-embroider-option`](https://deprecations.emberjs.com/id/dont-use-embroider-option/)
-
-
-## The Ember Release process
-
-For more details on changes in Ember.js 6.8, please review the [Ember.js 6.8.0 release page](https://github.com/emberjs/ember.js/releases/tag/v6.8.0-ember-source).
-
-Ember.js is the core framework for building ambitious web applications.
-
-Ember CLI is the command line interface for managing and packaging Ember.js applications.
-
-### Upgrading Ember CLI
-
-You may upgrade Ember CLI using the `ember-cli-update` project:
-
-```bash
-npx ember-cli-update
-```
-
-This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
-
-It is not required to keep Ember CLI versions in sync with Ember and EmberData. After updating ember-cli, you can keep your current version(s) of Ember or EmberData by editing `package.json` to revert the changes to the lines containing `ember-source` and `ember-data`.
-
-A release of Ember is comprised of many projects: ember-source, ember-cli, and all the learning team projects. We follow a [6-week release train](http://emberjs.com/releases/) that includes alpha and beta cycles to ensure changes are well-tested. We encourage our community (especially addon authors) to help test the beta builds and report any bugs before they are published as a final release. The `ember-try` addon is a great way to continuously test your projects against the latest Ember releases. While we only consider the release to be complete upon publication of the blog post, the 6-week cycle is anchored by the release of the ember-source package at the beginning of the process. Releases x.4, x.8 and x.12 will become an LTS candidate, so checkout [Ember LTS Releases](https://blog.emberjs.com/announcing-embers-first-lts/) if you want to know more.
-
-Ember.js 6.8 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
-
-For more details on the changes in Ember CLI 6.8 and detailed upgrade
-instructions, please review the [Ember CLI 6.8.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v6.8.0-ember-cli).
-
-Today the Ember project is releasing version 6.8 of Ember.js and Ember CLI. This release of Ember.js is an LTS (Long Term Support) **candidate**. LTS candidates prioritize stability over the addition of new features, and have an extended support schedule.
 
 ## Thank You!
 
