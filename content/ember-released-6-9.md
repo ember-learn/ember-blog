@@ -15,25 +15,7 @@ The Ember project is excited to announce the release of Ember v6.9. This is a st
 
 ## Ember.js v6.9
 
-Ember.js 6.9 introduces <insert high level features to feature> for Ember developers to use today and a new way to publish the `ember-source` package. We have also included one bugfix and there are no new deprecations.
-
-### Key Features
-
-<insert key features>
-
-### Other Features
-
-<insert other features>
-
-#### Trusted publishing
-
-v6.9.0 of `ember-source` is the first minor version of the package to be published to `npm` with [Trusted Publishing](https://docs.npmjs.com/trusted-publishers). We will be implementing this across all our packages.
-
-At the bottom of the [npm package page](https://www.npmjs.com/package/ember-source), you'll find a section labeled 'Provenance' that provides verification that the package contents were published from the source repository.
-
-### Bug fixes
-
-Ember.js 6.9 introduces <insert number of> bug fixes.
+All changes in Ember.js 6.9 were internal, docs, and/or bugfixes that were backported.
 
 ---
 
