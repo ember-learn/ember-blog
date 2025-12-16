@@ -41,7 +41,7 @@ Ember.js 6.9 introduces <insert number of> bug fixes.
 
 Ember CLI 6.9 upgrades `broccoli` to `^4.0.0` and as a consequence, the minimum Node version Ember CLI supports is now 20.19. This is in accordance with our [Node Support Policy](https://emberjs.com/node-support/).
 
-We have released a new major of `broccoli` to address security vulnerabilities and deprecations in dependencies of the package. These vulnerabilities should not have been exploitable as `broccoli` should only ever be run in a development environment but this fixes a number of `npm audit` headaches. There is more work to do here in updating our long-tail of depdendcies. The major of `broccoli` is otherwise completely API-compatible. We have dropped support for `node` < `20.19` because we need the [`require(esm)`](https://nodejs.org/pt-br/blog/release/v20.19.0) feature that was backported to that version.
+We have released a new major of `broccoli` to address security vulnerabilities and deprecations in dependencies of the package. These vulnerabilities should not have been exploitable as `broccoli` should only ever be run in a development environment but this fixes a number of `npm audit` headaches. There is more work to do here in updating our long-tail of dependencies. The major of `broccoli` is otherwise completely API-compatible. We have dropped support for `node` < `20.19` because we need the [`require(esm)`](https://nodejs.org/pt-br/blog/release/v20.19.0) feature that was backported to that version.
 
 
 ## Thank You!
