@@ -21,7 +21,7 @@ The super-short version of the instructions if you just want to give it a try ar
 1. Make sure you don't have any uncommitted changes, because we're about to start mutating all your files!
 2. Run `npx @embroider/template-tag-codemod`.
 3. (Optional but highly recommended) Use `prettier` (with GJS support enabled) to make the results pretty.
-4. (Optioanl but highly recommended again) use `npx @embroider/template-tag-codemod merge-history --help`
+4. (Optional but highly recommended again) use `npx @embroider/template-tag-codemod merge-history --help`
 
 The default behavior will attempt to convert _everything_ in your app, and it will target the most forward-looking output format.
 
