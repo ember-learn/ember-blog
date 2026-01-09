@@ -2,7 +2,9 @@
 title: Ember 6.9 Released
 authors:
   - jared-galanis
-date: 2025-12-05T00:00:00.000Z
+  - katie-gengler
+  - bert-de-block
+date: 2026-01-09T00:00:00.000Z
 tags:
   - releases
   - '2025'
