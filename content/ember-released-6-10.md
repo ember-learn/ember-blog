@@ -23,7 +23,7 @@ Ember.js 6.10 introduced no new bug fixes.
 
 #### Features
 
-Ember.js 6.10 introduces no new features and only had 1 internal update.
+Ember.js 6.10 introduces no new features.
 
 #### Deprecations
 
