@@ -7,7 +7,7 @@ on:
   pull_request:
 
 env:
-  NODE_VERSION: 18
+  NODE_VERSION: 22
 
 jobs:
   lint:
@@ -15,40 +15,26 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Check out a copy of the repo
-        uses: actions/checkout@v2
-
-      - uses: mansona/npm-lockfile-version@v1
-
-      - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
         with:
-          cache: 'npm'
+          cache: 'pnpm'
           node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Lint
-        run: npm run lint
-
+      - run: pnpm install
+      - run: pnpm run lint
 
   test-app:
     name: Test app
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Check out a copy of the repo
-        uses: actions/checkout@v2
-
-      - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
         with:
-          cache: 'npm'
+          cache: 'pnpm'
           node-version: ${{ env.NODE_VERSION }}
-
-      - name: Install dependencies
-        run: npm install
-
+      - run: pnpm install
       - name: Test
-        run: npm run test
+        run: pnpm run test
