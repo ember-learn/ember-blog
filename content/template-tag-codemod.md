@@ -2,10 +2,10 @@
 title: Try out the Template Tag Codemod
 authors:
   - edward-faulkner
-date: 2025-02-21T00:00:00.000Z
+date: 2026-01-09T00:00:00.000Z
 tags:
   - ember-polaris
-  - '2025'
+  - '2026'
   - template-tag
   - embroider
 ---
