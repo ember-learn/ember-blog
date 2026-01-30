@@ -10,6 +10,7 @@ tags:
 
 ---
 
+*Updates 2026-01-30: This security fix was also backported to 2.18.3 so that legacy apps on the 2.x major series can also benefit. No CVE number was ever issued to us for this issue.*
 
 Today we are releasing Ember.js 3.24.7, 3.28.10, 4.4.4, 4.8.1, and 4.9.0-beta.3 to patch a security vulnerability.  *A CVE number is pending and this post will be updated to include it once it's been issued.*
 
