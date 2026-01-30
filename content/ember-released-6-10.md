@@ -11,19 +11,20 @@ tags:
 
 <!-- alex ignore just -->
 
-The Ember project is excited to announce the release of Ember v6.10. This is a standard minor release as part of the [standard Ember Release Train process](https://emberjs.com/releases/).
+The Ember project is excited to announce the release of Ember v6.10. This is a standard minor release as part of the [standard Ember Release Train process](https://emberjs.com/releases/). This release release takes a big swing at cleaning up the blueprint for newly generated Ember apps by updating deprecated dependencies and upgrading the use of WarpDrive and Glint 🎉 Keep reading to find out more!
 
-### Changes in Ember.js 6.10
+## Ember.js 6.10
 
-Ember.js 6.10 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-#### Bug fixes
+Ember.js 6.10 does not introduce any new features, but we have added one deprecation related to how the `ember-source` package will be published going forward.
 
-Ember.js 6.10 introduced no new bug fixes.
+### Deprecating Ember Vendor Bundles
 
-#### Features
+Today, the published `ember-source` package contains several AMD-specific bundled builds of Ember that are appended to vendor.js in the classic build system. This used to be the main way that people got the Ember framework code into their apps before we started [generating new apps with Vite and Embroider in Ember 6.8](/ember-released-6-8/#toc_embroider-and-vite-by-default). Since then, for newly generated apps, the Vite build system would access the ESM sources in the published `ember-source` package directly.
 
-Ember.js 6.10 introduces no new features.
+For anyone who has not yet upgraded their build system to Vite, they will still be getting the old build behaviour where the pre-built AMD bundles will be added to vendor.js. The newly added deprecation will mean that after Ember 7.0 we will no longer publish `ember-source` with these pre-built AMD bundles and apps that are on the classic build system will start to consume `ember-source` via `ember-auto-import`, just like any other v2 addon (`ember-source` has been published as a v2 addon since [Ember 6.1](/ember-released-6-1)).
+
+For more information and motivation you can check out the [Deprecate Ember Vendor Bundles RFC](https://rfcs.emberjs.com/id/1101-deprecate-ember-vendor-bundles/)
 
 #### Deprecations
 
