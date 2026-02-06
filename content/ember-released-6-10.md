@@ -3,7 +3,7 @@ title: Ember 6.10 Released
 authors:
   - jared-galanis
   - chris-manson
-date: 2026-01-09T00:00:00.000Z
+date: 2026-02-06T00:00:00.000Z
 tags:
   - releases
   - '2026'
