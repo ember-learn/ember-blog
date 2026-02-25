@@ -71,7 +71,7 @@ These talks give a great snapshot lots of exciting developments happening around
   
 ## [ember-engines v0.8.18 is out! 🎉](https://twitter.com/MVillander/status/1406367740668092420)
 
-If you're already using [ember-engines](https://ember-engines.com/) or plan on using it, be sure to [upgrade your dependency](https://twitter.com/MVillander/status/1406367740668092420)!
+If you're already using [ember-engines](https://ember-engines.netlify.app/) or plan on using it, be sure to [upgrade your dependency](https://twitter.com/MVillander/status/1406367740668092420)!
 
 The **latest patch release** of ember-engines not only includes bug fixes for older Ember apps, but also several build fixes and new deprecation warnings to help up you keep your application up-to-date.
 

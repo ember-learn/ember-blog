@@ -18,7 +18,7 @@ be building applications with Ember.
   Included were the framework's first two Long-Term Support (LTS) releases.
 - [Glimmer 2](http://emberjs.com/blog/2016/07/29/announcing-the-glimmer-2-alpha.html),
   a major rewrite of Ember's rendering system, landed in Ember.js 2.10.
-- Framework support for [Ember Engines](http://ember-engines.com/) landed in
+- Framework support for [Ember Engines](https://ember-engines.netlify.app/) landed in
   in Ember.js 2.8.
 - Support for [Ember FastBoot](https://ember-fastboot.com/) stabilized in
   Ember.js 2.4.
