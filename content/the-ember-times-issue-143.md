@@ -43,7 +43,7 @@ Please visit the [RFC page](https://github.com/emberjs/rfcs/blob/destroyables/te
 
 Updates include detailed explanations that range from what Ember Engines are and why should you use them, to differentiating the behaviour between _standard_ and _in-repo_ addons for Engines. The guide also goes through routable vs route-less Engines as well as how to “mount” them into your application. Finally, it also covers how to test code within Engines.
 
-Huge thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb) and [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo)! Check out the [new Ember Engines docs](https://ember-engines.com/docs) today and [help contribute](https://github.com/ember-engines/ember-engines.com) to make them better!
+Huge thanks to [Dan Gebhardt (@dgeb)](https://github.com/dgeb) and [Gabriel Csapo (@gabrielcsapo)](https://github.com/gabrielcsapo)! Check out the [new Ember Engines docs](https://ember-engines.netlify.app/docs) today and [help contribute](https://github.com/ember-engines/ember-engines-website) to make them better!
 
 ---
 

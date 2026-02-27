@@ -39,7 +39,7 @@ Additionally, a soon-to-be-released version of the Guides will shine with [a rev
 
 ## [How to Write a Really, Really Ambitious SPA in 2019 🤗](https://medium.com/@lukedeniston/how-to-write-a-really-really-ambitious-spa-in-2019-60fc38de89db)
 
-When building enterprise applications with many routes, [Ember Engines](http://ember-engines.com/) can help you **lazy-load [engines](http://ember-engines.com/guide/what-are-engines) for better user experience** and **encapsulate code for better developer experience**.
+When building enterprise applications with many routes, [Ember Engines](https://ember-engines.netlify.app/) can help you **lazy-load [engines](https://ember-engines.netlify.app/guide/what-are-engines) for better user experience** and **encapsulate code for better developer experience**.
 
 Ember Engines, by itself, isn't perfect, however. [@luketheobscure](https://github.com/luketheobscure) shared his team's experiences of having to manually update versions (making pull requests across three different repos) to fix a single bug.
 

@@ -113,9 +113,9 @@ A big, big **thank you** to all of those who participated in the 2019 Ember Comm
 
 ## [Quest: Ember Engines Guides MVP 🚂](https://twitter.com/MVillander/status/1113833794237341696)
 
-[@villander](https://github.com/villander) started a [quest issue](https://github.com/ember-engines/ember-engines.com/issues/55) to track all the work left to do to get an MVP of the [Ember Engines](https://github.com/ember-engines/ember-engines) Guides out!
+[@villander](https://github.com/villander) started a [quest issue](https://github.com/ember-engines/ember-engines-website/issues/55) to track all the work left to do to get an MVP of the [Ember Engines](https://github.com/ember-engines/ember-engines) Guides out!
 
-There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.com](http://www.ember-engines.com/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines.com/issues/57) and intended uses for engines. Plenty for everyone with **all levels of experience** with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines.com/issues/55)!
+There are tasks open from [moving docs](https://github.com/ember-engines/ember-engines/issues/540) from the README to [ember-engines.netlify.app](https://ember-engines.netlify.app/) to [clarifying the philosophy](https://github.com/ember-engines/ember-engines-website/issues/57) and intended uses for engines. Plenty for everyone with **all levels of experience** with Ember Engines to [contribute](https://github.com/ember-engines/ember-engines-website/issues/55)!
 
 ---
 
