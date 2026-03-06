@@ -18,11 +18,11 @@ The Ember project is excited to announce the release of Ember v6.11. This is a s
 
 Ember.js 6.10 introduce no new features, fixes one bug related using the new `@ember/reactive` namespace in Classic builds (those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE.
 
-### Adding `@ember/reactive` to the AMD bundles. 
+### Adding `@ember/reactive` to the AMD bundles.
 
-If you are already using the new default Vite-based build system you can skip this one because it only affects people still on the Classic ember-cli-based build system. 
+If you are already using the new default Vite-based build system you can skip this one because it only affects people still on the Classic ember-cli-based build system.
 
-`@ember/reactive` was [released in Ember@6.8](/ember-released-6-8/#toc_emberreactivecollections) and provides built-in tracking utilities for common collection types (you can read more about it in the [Built in tracking utilities for common collections RFC](https://rfcs.emberjs.com/id/1068-tracked-collections/)). For anyone already building their apps on Vite, or on Embroider@3 with Webpack and the `staticEmberSource: true` setting turned on, they would have been able to import from `@ember/reactive` without any problem. 
+`@ember/reactive` was [released in Ember@6.8](/ember-released-6-8/#toc_emberreactivecollections) and provides built-in tracking utilities for common collection types (you can read more about it in the [Built in tracking utilities for common collections RFC](https://rfcs.emberjs.com/id/1068-tracked-collections/)). For anyone already building their apps on Vite, or on Embroider@3 with Webpack and the `staticEmberSource: true` setting turned on, they would have been able to import from `@ember/reactive` without any problem.
 
 Ember apps still using ember-cli for their build system don't use the sub-packages from the `ember-source` npm package directly, but instead rely on a pre-compiled vendor asset that defines all the "packages" available to import using AMD. This bugfix makes sure that `@ember/reactive` is included in those pre-compiled AMD bundles. To understand more about the AMD bundles you can check out the [Deprecate Ember Vendor Bundles RFC](https://rfcs.emberjs.com/id/1101-deprecate-ember-vendor-bundles/) that explains more of the context.
 
