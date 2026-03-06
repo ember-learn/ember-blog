@@ -16,7 +16,7 @@ The Ember project is excited to announce the release of Ember v6.11. This is a s
 
 ## Ember.js 6.11
 
-Ember.js 6.10 introduce no new features, fixes one bug related using the new `@ember/reactive` namespace in Classic builds (those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE.
+Ember.js 6.10 introduces no new features, fixes one bug related to using the new `@ember/reactive` namespace in Classic builds (for those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE.
 
 ### Adding `@ember/reactive` to the AMD bundles.
 
@@ -30,7 +30,7 @@ Fixed in [emberjs/ember.js PR#21024](https://github.com/emberjs/ember.js/pull/21
 
 ### Rename default export GlimmerComponent to Component for autocomplete DX
 
-This is a very minor enhancement to the internals of the Ember codebase that helps give better hints to typescript autocomplete. You can read more about it in the [PR description that added this enhancement](https://github.com/emberjs/ember.js/pull/21014) but the short summary is that when you are typing "Component" in your editor (such as VSCode), you would never get an autocomplete suggestion to add the import statement:
+This is a very minor enhancement to the internals of the Ember codebase that helps give better hints to TypeScript autocomplete. You can read more about it in the [description of PR #21014 that added this enhancement](https://github.com/emberjs/ember.js/pull/21014) but the short summary is that when you are typing "Component" in your editor (such as VSCode), you would never get an autocomplete suggestion to add the import statement:
 
 ```import Component from '@glimmer/component'```
 
@@ -44,7 +44,7 @@ Ember CLI had no new features, but fixed one bug in the configuration of babel f
 
 ### Fix decorator-transforms runtime path in babel.config.mjs
 
-In the `@ember/app-blueprint@6.10.0` the `babel.config.cjs` was moved to `babel.config.mjs`, for most cases this doesn't make any difference. The one thing that can change when moving from CommonJS to ESM is how you resolve other modules. In CommonJS, in Node, you can use `require.resolve()` to get the **path** to another module using Node resolution rules. We used this in the default babel config to resolve the path to the runtime module you need for [decorator-transforms](https://github.com/ef4/decorator-transforms). When swapping to ESM, you need to update any `require.resolve()` to use newer `import.meta.resolve()` function to locate that module. This can cause a subtle problem because `import.meta.resolve()` does not return a **path** but instead it returns a **fileURL**. The parts of babel that need to read the path to the runtime module for `decorator-transforms` don't understand fileURLs so we needed to pass the fileURL returned from `import.meta.resolve()` through the `fileURLToPath()` function.
+In the `@ember/app-blueprint@6.10.0` the `babel.config.cjs` was moved to `babel.config.mjs`. For most cases this doesn't make any difference. The one thing that can change when moving from CommonJS to ESM is how you resolve other modules. In CommonJS, in Node, you can use `require.resolve()` to get the **path** to another module using Node resolution rules. We used this in the default babel config to resolve the path to the runtime module you need for [decorator-transforms](https://github.com/ef4/decorator-transforms). When swapping to ESM, you need to update any `require.resolve()` to use the newer `import.meta.resolve()` function to locate that module. This can cause a subtle problem because `import.meta.resolve()` does not return a **path** but instead it returns a **fileURL**. The parts of babel that need to read the path to the runtime module for `decorator-transforms` don't understand fileURLs so we needed to pass the fileURL returned from `import.meta.resolve()` through the `fileURLToPath()` function.
 
 This change has also been backported to `@ember/app-blueprint@6.10.5`
 
