@@ -17,13 +17,13 @@ The Ember project is excited to announce the release of Ember v6.11. This is a s
 
 Ember.js 6.11 is an incremental, backwards compatible release of Ember with bug fixes, performance improvements, and minor deprecations.
 
-#### Bug fixes
+### Bug fixes
 
 Ember.js 6.11 introduced 1 bug fix:
 
 - [21024](https://github.com/emberjs/ember.js/pull/21024) Add @ember/reactive into the AMD bundles.
 
-#### Features
+### Features
 
 Ember.js 6.11 introduces no new features, but includes 1 enhancement:
 
@@ -31,7 +31,7 @@ Ember.js 6.11 introduces no new features, but includes 1 enhancement:
 
 - [#20939](https://github.com/emberjs/ember.js/pull/20939) Adds `import { trustHTML } from '@ember/template';` as an alias of `import { htmlSafe } from '@ember/template', for naming that better matches the behavior.
 
-#### Deprecations
+### Deprecations
 
 Ember.js 6.11 introduces no new deprecations.
 
