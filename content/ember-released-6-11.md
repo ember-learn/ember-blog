@@ -16,7 +16,7 @@ The Ember project is excited to announce the release of Ember v6.11. This is a s
 
 ## Ember.js 6.11
 
-Ember.js 6.10 introduces no new features, fixes one bug related to using the new `@ember/reactive` namespace in Classic builds (for those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE.
+Ember.js 6.11 introduces no new features, fixes one bug related to using the new `@ember/reactive` namespace in Classic builds (for those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE.
 
 ### Adding `@ember/reactive` to the AMD bundles.
 
