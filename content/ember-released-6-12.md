@@ -2,6 +2,7 @@
 title: Ember 6.12 Released
 authors:
   - jared-galanis
+  - chris-manson
 date: 2026-03-30T00:00:00.000Z
 tags:
   - releases
