@@ -33,8 +33,8 @@ The `glimmer-vm` repo has also been archived to communicate that there will be n
 
 Ember.js 6.12 introduces 3 bugfixes
 
-- [#20995](https://github.com/emberjs/ember.js/pull/20995) `renderComponent` error: 'attempted to close a tracking frame, but one was not open'
-- [#20996](https://github.com/emberjs/ember.js/pull/20996) `renderComponent` error: 'Cannot read property of undefined: reading syscall'
+- [#20995](https://github.com/emberjs/ember.js/pull/20995) `renderComponent` fix error: 'attempted to close a tracking frame, but one was not open'
+- [#20996](https://github.com/emberjs/ember.js/pull/20996) `renderComponent` fix error: 'Cannot read property of undefined: reading syscall'
 - [#21091](https://github.com/emberjs/ember.js/pull/21091) Fix `on` modifier error message regression
 
 ## Ember CLI v6.12
