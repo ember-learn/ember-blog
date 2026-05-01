@@ -20,11 +20,11 @@ Ember.js 6.12 does not introduce any new features in this release, but we have d
 
 ### Merging the Glimmer and Ember monorepos
 
-It has been over 9 years since we [announced the publication of Glimmer.js](/emberconf-2017-state-of-the-union/#toc_introducing-glimmerjs) as a separate repo with the intention that people could use Glimmer independently of Ember. The idea was that you could start any small app with just the reactivity layer that Glimmer gives you and "npm install your way to Ember"
+It has been over 9 years since we [announced the publication of Glimmer.js](/emberconf-2017-state-of-the-union/#toc_introducing-glimmerjs) as a separate repo with the intention that people could use Glimmer independently of Ember. The idea was that you could start any small app with only the reactivity layer that Glimmer gives you and "npm install your way to Ember"
 
 ![Diagram showing a spectrum from less complext to more complex. On the left side is Glimmer logo for less complex applications. On the right side is Ember, for ambitious applications. In the middle is a sequence of npm install commands that show how you can move incrementally up the scale, one package at a time: npm install @ember/router, npm install @ember/service, and npm install @ember data.](/images/blog/2017-04-05-emberconf-2017-state-of-the-union/spectrum-of-app-complexity.png)
 
-A lot has changed in both Ember and the wider JavaScript ecosystem since 2017, and with those changes the need for having a separate repository for Glimmer, with separate releases, has just gone away. Since the introduction of [renderComponent()](/ember-released-6-8#toc_rendercomponent) and the [build system moving to Embroider and Vite by default](/ember-released-6-8#toc_embroider-and-vite-by-default) in Ember 6.8 we can mostly rely on our build systems to just not include the code you aren't using in your bundle. 
+A lot has changed in both Ember and the wider JavaScript ecosystem since 2017, and with those changes the need for having a separate repository for Glimmer, with separate releases, has gone away. Since the introduction of [renderComponent()](/ember-released-6-8#toc_rendercomponent) and the [build system moving to Embroider and Vite by default](/ember-released-6-8#toc_embroider-and-vite-by-default) in Ember 6.8 we can mostly rely on our build systems to not include the code you aren't using in your bundle.
 
 There are more improvements to be made, but merging the Ember and Glimmer monorepos will significantly improve stability of future releases (all the test harnesses are now integrated) and make it much easier to make big improvements to the architecture of the `ember-source` package.
 
@@ -40,17 +40,17 @@ Ember.js 6.12 introduces 3 bugfixes
 
 ## Ember CLI v6.12
 
-Ember CLI has had a number of improvements to the blueprints, a few bugfixes, and we continue to reduce the number of packages that are reported as deprecated during initial installation. 
+Ember CLI has had a number of improvements to the blueprints, a few bugfixes, and we continue to reduce the number of packages that are reported as deprecated during initial installation.
 
 ### Update classic blueprint to use WarpDrive packages
 
-Since Ember 6.8, when you generate a new app you will get the Embroider and Vite blueprint by default. This has been great for a lot of people but, for whatever reason, some apps haven't been able to upgrade to Vite quite yet. Because we still support building apps with ember-cli we are maintaining a legacy blueprint `@ember-tooling/classic-build-app-blueprint`. 
+Since Ember 6.8, when you generate a new app you will get the Embroider and Vite blueprint by default. This has been great for a lot of people but, for whatever reason, some apps haven't been able to upgrade to Vite quite yet. Because we still support building apps with ember-cli we are maintaining a legacy blueprint `@ember-tooling/classic-build-app-blueprint`.
 
-As much as possible we want to keep this legacy blueprint up to date with what is happening in the modern default blueprint, but sometimes changes can lag a little. In `@ember-tooling/classic-build-app-blueprint@6.12` we have converted the ember-data setup to match the WarpDrive setup that was added to the default `@ember/app-blueprint` in version 6.8. 
+As much as possible we want to keep this legacy blueprint up to date with what is happening in the modern default blueprint, but sometimes changes can lag a little. In `@ember-tooling/classic-build-app-blueprint@6.12` we have converted the ember-data setup to match the WarpDrive setup that was added to the default `@ember/app-blueprint` in version 6.8.
 
 ### Update modern blueprint to have better lint setup
 
-The previous section was about changes made to the modern blueprint that hadn't yet made their way to the legacy blueprints, this section is about the opposite. Just before the modern application blueprint was forked from the classic one there were a number of improvements made to the eslint configs that helped catch issues with tests and correctness in JS files. In v6.12 we ported those improvements to the modern `@ember/app-blueprint`. 
+The previous section was about changes made to the modern blueprint that hadn't yet made their way to the legacy blueprints, this section is about the opposite. Right before the modern application blueprint was forked from the classic one there were a number of improvements made to the eslint configs that helped catch issues with tests and correctness in JS files. In v6.12 we ported those improvements to the modern `@ember/app-blueprint`.
 
 ### Convert `ember-cli-build.js` to an ESM file
 
@@ -60,7 +60,7 @@ As more and more of our stack becomes fully ESM we are getting closer to the poi
 
 As we mentioned in previous release blogs, there is an effort to [reduce the number of deprecation warnings when generating a new Ember App](https://github.com/ember-cli/ember-cli/issues/10943). Since this effort has started we have removed **half** of the deprecated npm dependencies 🎉 While this is great news there is still a long way to go, and if anyone is looking for a good way to contribute to Ember this is a task that could do with more help!
 
-### Remove `using-amd-bundles` deprecations 
+### Remove `using-amd-bundles` deprecations
 
 In Ember 7 we will be removing the AMD bundles that are shipped with the `ember-source` npm package. To prepare people for this change we introduced the [using-amd-bundles deprecation](https://deprecations.emberjs.com/id/using-amd-bundles) in Ember v6.10 and in Ember v6.12 we have made sure that there are no more deprecation warnings displayed when you generate either a modern `@ember/app-bluerpint` app or one with the classic blueprint. This means that if you use `ember-cli-update` to update to 6.12 you will likely have successfully cleared the `using-amd-bundles` deprecation and will be ready for Ember v7 💪
 
