@@ -40,32 +40,37 @@ Ember.js 6.12 introduces 3 bugfixes
 
 ## Ember CLI v6.12
 
-* `ember-cli`, `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
-  * [#10993](https://github.com/ember-cli/ember-cli/pull/10993) Promote Beta and update all dependencies for 6.12 release ([@mansona](https://github.com/mansona))
-* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
-  * [#10939](https://github.com/ember-cli/ember-cli/pull/10939) Add warpDrive support to app-blueprint ([@Copilot](https://github.com/apps/copilot-swe-agent))
-* `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
-  * [#10969](https://github.com/ember-cli/ember-cli/pull/10969) Update ember-cli-htmlbars to ^7.0.0 in app-blueprint ([@Copilot](https://github.com/apps/copilot-swe-agent))
-  *   [#144](https://github.com/ember-cli/ember-app-blueprint/pull/144) feat: move ember-cli-build to `mjs` ([@aklkv](https://github.com/aklkv))
-  *   [#119](https://github.com/ember-cli/ember-app-blueprint/pull/119) fix: align linters with recent changes in classic app blueprint ([@aklkv](https://github.com/aklkv))
-  *   [#208](https://github.com/ember-cli/ember-app-blueprint/pull/208) [Bugfix release] Add `globals.browser` to eslint config for TS files ([@mkszepp](https://github.com/mkszepp))
+Ember CLI has had a number of improvements to the blueprints, a few bugfixes, and we continue to reduce the number of packages that are reported as deprecated during initial installation. 
 
+### Update classic blueprint to use WarpDrive packages
 
-bugfixes
+Since Ember 6.8, when you generate a new app you will get the Embroider and Vite blueprint by default. This has been great for a lot of people but, for whatever reason, some apps haven't been able to upgrade to Vite quite yet. Because we still support building apps with ember-cli we are maintaining a legacy blueprint `@ember-tooling/classic-build-app-blueprint`. 
 
-* * `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`
-  * [#10976](https://github.com/ember-cli/ember-cli/pull/10976) Enable `use-ember-modules` in blueprint optional-features.json ([@Copilot](https://github.com/apps/copilot-swe-agent))
-* `ember-cli`
-  * [#10941](https://github.com/ember-cli/ember-cli/pull/10941) Downgrade isbinaryfile ([@mansona](https://github.com/mansona))
-* `@ember-tooling/classic-build-addon-blueprint`, `@ember-tooling/classic-build-app-blueprint`, `ember-cli`
-  * [#10932](https://github.com/ember-cli/ember-cli/pull/10932) Remove tracked-built-ins (it comes built in with ember-source 6.8+) ([@NullVoxPopuli](https://github.com/NullVoxPopuli))
+As much as possible we want to keep this legacy blueprint up to date with what is happening in the modern default blueprint, but sometimes changes can lag a little. In `@ember-tooling/classic-build-app-blueprint@6.12` we have converted the ember-data setup to match the WarpDrive setup that was added to the default `@ember/app-blueprint` in version 6.8. 
 
-minor improvements
+### Update modern blueprint to have better lint setup
 
-  * [#10967](https://github.com/ember-cli/ember-cli/pull/10967) Replace `temp` package with Node.js built-in `fs.mkdtemp` ([@Copilot](https://github.com/apps/copilot-swe-agent))
-  *   * [#10945](https://github.com/ember-cli/ember-cli/pull/10945) update release-plan for OIDC ([@mansona](https://github.com/mansona))
+The previous section was about changes made to the modern blueprint that hadn't yet made their way to the legacy blueprints, this section is about the opposite. Just before the modern application blueprint was forked from the classic one there were a number of improvements made to the eslint configs that helped catch issues with tests and correctness in JS files. In v6.12 we ported those improvements to the modern `@ember/app-blueprint`. 
 
-<!-- Ember CLI features, bug fixes, and deprecations content here -->
+### Convert `ember-cli-build.js` to an ESM file
+
+As more and more of our stack becomes fully ESM we are getting closer to the point where we can add `type: "module"` to our package.json files and finally consider every file in your stack an ESM file. Until that day finally happens we are converting each of the files that can be converted to ESM by changing the extension from `.js` to `.mjs`. This will simplify some of the slightly confusing syntax that we have had to do up until this point.
+
+### Progress on the removal of deprecated npm dependencies
+
+As we mentioned in previous release blogs, there is an effort to [reduce the number of deprecation warnings when generating a new Ember App](https://github.com/ember-cli/ember-cli/issues/10943). Since this effort has started we have removed **half** of the deprecated npm dependencies 🎉 While this is great news there is still a long way to go, and if anyone is looking for a good way to contribute to Ember this is a task that could do with more help!
+
+### Remove `using-amd-bundles` deprecations 
+
+In Ember 7 we will be removing the AMD bundles that are shipped with the `ember-source` npm package. To prepare people for this change we introduced the [using-amd-bundles deprecation](https://deprecations.emberjs.com/id/using-amd-bundles) in Ember v6.10 and in Ember v6.12 we have made sure that there are no more deprecation warnings displayed when you generate either a modern `@ember/app-bluerpint` app or one with the classic blueprint. This means that if you use `ember-cli-update` to update to 6.12 you will likely have successfully cleared the `using-amd-bundles` deprecation and will be ready for Ember v7 💪
+
+## Bug Fixes
+
+Ember CLI v6.12 has also introduced 3 bugfixes (not already highlighted above)
+
+- [#10941](https://github.com/ember-cli/ember-cli/pull/10941) Downgrade `isbinaryfile` to maintain node support
+- [#10932](https://github.com/ember-cli/ember-cli/pull/10932) Remove tracked-built-ins as it is now actually built-in
+- [#208](https://github.com/ember-cli/ember-app-blueprint/pull/208) Add `globals.browser` to eslint config for TS files
 
 ## Thank You!
 
