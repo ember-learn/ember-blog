@@ -28,7 +28,7 @@ In Ember 6.x minor releases, we landed many notable features:
 - [Also in Ember 6.8](/ember-released-6-8/#toc_rendercomponent) we added the [`renderComponent` API](https://rfcs.emberjs.com/id/1099-rendercomponent/) that allows rendering individual components without a full project.
 - [Also in Ember 6.8](/ember-released-6-8/#toc_emberreactivecollections) we built in tracked versions of JavaScript's native collection types: `trackedArray`, `trackedObject`, `trackedMap`, `trackedSet`, `trackedWeakMap`, and `trackedWeakSet`.
 
-Ember v6.8 was the change to how an Ember project is built in recent memory. The Ember Core Teams have been working on the Embroider+Vite build system and the strict-mode-templates (a.k.a template-tag) for literal years, and this is the first version that we made them the default experience for newly generated Ember apps. Early adopters have been opting into these features for quite some time, but generating an app with Ember v6.8 (or newer) now gives you an incredibly modern developer experience 🎉
+Ember v6.8 was the biggest change to how an Ember project is built in recent memory. The Ember Core Teams have been working on the Embroider+Vite build system and the strict-mode-templates (a.k.a template-tag) for literal years, and this is the first version that we made them the default experience for newly generated Ember apps. Early adopters have been opting into these features for quite some time, but generating an app with Ember v6.8 (or newer) now gives you an incredibly modern developer experience 🎉
 
 Along with these features, countless bugfixes, deprecations that cleared the way
 for future improvements, RFCs setting the stage for new features, in 6.x the community also:
