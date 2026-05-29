@@ -25,10 +25,10 @@ In Ember 6.x minor releases, we landed many notable features:
 - [In Ember 6.3](/ember-released-6-3/) we added support for template-tag components as route templates per [RFC #1046](https://rfcs.emberjs.com/id/1046-template-tag-in-routes).
 - [In Ember 6.8](/ember-released-6-8/#toc_embroider-and-vite-by-default) we landed a new app blueprint with `Embroider` and `Vite`-based build system as the default.
 - [Also in Ember 6.8](/ember-released-6-8/#toc_component-and-route---strict-by-default) we moved to `strict-mode` (aka `template-tag`) component authoring format as the default.
-- [Also in Ember 6.8](/ember-released-6-8/#toc_rendercomponent) we added the [`renderComponent` API](https://rfcs.emberjs.com/id/1099-rendercomponent/) that allows rendering individual components without a full project. 
+- [Also in Ember 6.8](/ember-released-6-8/#toc_rendercomponent) we added the [`renderComponent` API](https://rfcs.emberjs.com/id/1099-rendercomponent/) that allows rendering individual components without a full project.
 - [Also in Ember 6.8](/ember-released-6-8/#toc_emberreactivecollections) we built in tracked versions of JavaScript's native collection types: `trackedArray`, `trackedObject`, `trackedMap`, `trackedSet`, `trackedWeakMap`, and `trackedWeakSet`.
 
-Ember 6.8 was the biggest change to how an Ember project is built in recent memory. 
+Ember 6.8 was the biggest change to how an Ember project is built in recent memory.
 We flipped the defaults in v6.8 but both Embroider+Vite-based build-system and
 the strict-mode (aka template-tag) component authoring format were literally many
 years of effort.
@@ -38,13 +38,13 @@ for future improvements, RFCs setting the stage for new features, in 6.x the com
 
 - Merged the `glimmer-vm` monorepo into `ember.js` to faciliate faster iteration on the rendering engine and the integration with `ember.js`.
 - Merged the `router.js` repo into the `ember.js` repo to prepare for experimentation with a new router architecture and the implementation of the [Route Manager RFC](https://rfcs.emberjs.com/id/1169-route-manager-api/)
-- Updated our packages to publish via `OIDC`. 
+- Updated our packages to publish via `OIDC`.
 - Updated `broccoli` and other dependencies in an ongoing effort to reduce the number of security vulnerabilities. Current vulnerability warnings are only a concern in development mode and should not be exploitable but are annoying.
 - Strived to [reduce the number of deprecation warnings when generating a new Ember App](https://github.com/ember-cli/ember-cli/issues/10943). This is an ongoing task.
 - The [v2 of Glint](https://typed-ember.gitbook.io/glint/v2-upgrade) was released. This enabled us to make the template-tag component authoring format the default.
 - Created the [template tag codemod](https://blog.emberjs.com/template-tag-codemod/) to help migration to the new authoring format.
 - Created the [Vite codemod](https://github.com/mainmatter/ember-vite-codemod) to help migration to the new build system.
-- Created a legacy Classic Blueprint (@ember-tooling/classic-build-app-blueprint) and supported it in [ember-cli-update](https://github.com/ember-cli/ember-cli-update) so that projects can update without moving to the new build system, if necessary. 
+- Created a legacy Classic Blueprint (@ember-tooling/classic-build-app-blueprint) and supported it in [ember-cli-update](https://github.com/ember-cli/ember-cli-update) so that projects can update without moving to the new build system, if necessary.
 
 Thank you to all the contributors that helped make this major-version cycle possible!
 
@@ -62,7 +62,7 @@ Follow these steps in order:
 1. Consider upgrading addons used in your app to the latest version that you can. This will reduce the uses of deprecated APIs in your dependencies.
 2. Upgrade your project to the latest patch version of Ember 6.12.
    Many projects can do this by running
-   `npx ember-cli-update --to 6.12`. 
+   `npx ember-cli-update --to 6.12`.
 
    When upgrading across the 6.8 boundary, due to changes in the build system, you need to [adjust the configuration for ember-cli](https://github.com/ember-cli/ember-cli-update/blob/master/docs/upgrading-past-6-7-0.md).
 3. Make sure your app builds successfully.
