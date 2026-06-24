@@ -50,7 +50,6 @@ This required much work beyond the implementation of the format itself:
 
 The simplest example of this format is template-only:
 
-```app/components/avatar.gjs
 <template>
   <aside>
     <div class="avatar" title={{@title}}>{{@initial}}</div>
@@ -61,7 +60,6 @@ The simplest example of this format is template-only:
 With Template Tag you can also wrap `<template>` with the JavaScript class for
 a component:
 
-```app/components/avatar.gjs
 import Component from '@glimmer/component';
 
 export default class Avatar extends Component {
@@ -86,7 +84,6 @@ which is described in an earlier RFC, for those that are interested in the detai
 Because of that, Components, helpers, modifiers ("invokables") must be imported
 to be used in the Template Tag format:
 
-```app/components/message.gjs
 import Avatar from './avatar';
 
 <template>
