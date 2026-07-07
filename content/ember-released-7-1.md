@@ -6,7 +6,7 @@ authors:
 date: 2026-07-03T00:00:00.000Z
 tags:
   - releases
-  - '2025'
+  - '2026'
   - version-7-x
 ---
 
