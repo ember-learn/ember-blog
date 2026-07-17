@@ -31,7 +31,7 @@ Ember.js 7.1 is an incremental, backwards compatible release of Ember with some 
 
 There are no noteworthy bugfixes in 7.1
 
-In [#21468](https://github.com/emberjs/ember.js/pull/21468) We updated the API docs to use the template tag authoring format, where appropriate. 
+In [#21468](https://github.com/emberjs/ember.js/pull/21468) We updated the API docs to use the template tag authoring format, where appropriate.
 
 #### Features
 
@@ -76,7 +76,7 @@ Ember CLI changes for 7.1 were mostly dependency updates to both the blueprints 
 
 #### Bug fixes
 
-- [#11028](https://github.com/ember-cli/ember-cli/pull/11028) A fix that allows blueprints to be authored in esm. This fix was backported to 7.0.1 as well. As of version 7.2, running blueprints from `ember-source` will require Ember CLI v7.0.1 or higher. 
+- [#11028](https://github.com/ember-cli/ember-cli/pull/11028) A fix that allows blueprints to be authored in esm. This fix was backported to 7.0.1 as well. As of version 7.2, running blueprints from `ember-source` will require Ember CLI v7.0.1 or higher.
 
 For more details on the changes in Ember CLI 7.1 and detailed upgrade
 instructions, please review the [Ember CLI 7.1.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v7.1.0-ember-cli).
