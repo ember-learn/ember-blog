@@ -13,15 +13,63 @@ tags:
 
 <!-- alex ignore just -->
 
-Today the Ember project is releasing version 7.1 of Ember.js and Ember CLI.
+The Ember project is excited to announce the release of Ember v7.1. This is a standard minor release as part of the [standard Ember Release Train process](https://emberjs.com/releases/). 
 
-This release kicks off the 7.2 beta cycle for all sub-projects. We encourage our community (especially addon authors) to help test these beta builds and report any bugs before they are published as a final release in six weeks' time.
 
----
 
-## Ember.js
+This release is relatively light, considering the big things that we have released recently, but contains some very useful bugfixes and enhancements 💪
 
-Ember.js is the core framework for building ambitious web applications.
+
+
+
+## Ember.js 7.1
+
+<!-- Ember.js 6.11 introduces no new features, fixes one bug related to using the new `@ember/reactive` namespace in Classic builds (for those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE. -->
+
+
+### Element Helper
+
+This release is the first time that the `{{element}}` helper has been included in Ember.js itself. This helper was originally proposed in [RFC #389](https://rfcs.emberjs.com/id/0389-dynamic-tag-names/) - back in 2018! The element helper is a useful tool when you need to generate a specific DOM element based on dynamic data. For example, if you had a component that needed to chose to render a `<div>` or a `<span>` based on some data passed to your component, you could do something like this: 
+
+```gjs
+{{#if (eq @renderTag 'div')}} 
+  <div ...attributes>{{@text}}</div>
+{{else if (eq @renderTag 'span')}}
+  <span ...attributes>{{@text}}</span>
+{{/if}}
+```
+
+As you can imagine this can get a bit hard to manage when needing to cater for many different tag types. But now you can use the `{{element}}` helper to dynamically generate the tag and use it directly in your code: 
+
+```gjs
+{{#let (element @renderTag) as |Tag|}}
+  <Tag ...attributes>
+    {{@text}}
+  </Tag>
+{{/let}}
+```
+
+Since the RFC was proposed teams have been directly consuming the reference implementation for the RFC that was [published as an addon](https://github.com/emberjs/ember-element-helper), so with this release that addon is no longer needed. With it being available from Ember.js directly that means that it can be included in the set of "Built-in helpers" which you will learn more about if you keep reading 😉
+
+### Logical, Equality, and Numeric Comparison Operators
+
+[`ember-truth-helpers`](https://github.com/jmurphyau/ember-truth-helpers) is one of the most popular Ember Addons in the wider ecosystem, and most apps have installed it either directly or indirectly through other Ember Addons depending on it. It is so popular that [RFC #562](https://rfcs.emberjs.com/id/0562-add-logical-operators/) proposed that the `{{and}}`, `{{or}}`, and `{{not}}` helpers provided by `ember-truth-helpers` should be included in Ember.js by default. Also, [RFC #561](https://rfcs.emberjs.com/id/0561-add-numeric-comparison-operators/) proposed the inclusion of the `{{lt}}`, `{{lte}}`, `{{gt}}`, and `{{gte}}` helpers into Ember.js and [RFC #560](https://rfcs.emberjs.com/id/0560-add-equality-operators/) proposed the inclusion of the `{{eq}}` and `{{neq}}` helpers. 
+
+Because `ember-truth-helpers` was such a popular (and useful) addon, there was little motivation to do the work and include these helpers in Ember.js by default. But just like the `{{element}}` helper above, now that we have the ability to provide "Built-in helpers" for templates we can significantly improve the ergonomics for Ember developers by finally implementing these RFCs and making the helpers a part of Ember.js by default. I guess it's time to explain what I mean by "Built-in helpers".
+
+### Built-in Modifiers and Helpers
+
+TODO
+
+- background on benefits of GJS and when it was the default
+- good that we know where things are coming from when it comes to addons, but odd that we have to do the same for ember
+- also to make it worse all the improts are from different fake "packages" that nobody needs to care about the difference
+- link to one RFC explaining the idea (or all of them that talked about making them built-in 🤷) 
+- show a (contrived) before and after example of all of the things that are now built-in 
+
+### Updating API documentation to GJS
+
+
 
 ### Changes in Ember.js 7.1
 
