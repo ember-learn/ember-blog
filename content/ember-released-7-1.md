@@ -59,17 +59,42 @@ Because `ember-truth-helpers` was such a popular (and useful) addon, there was l
 
 ### Built-in Modifiers and Helpers
 
-TODO
+In the blueprints shipped with Ember 6.8 we made the [new GJS template format the default experience for the generators in apps](/ember-released-6-8#toc_component-and-route---strict-by-default), so when you generate a component or a route template you will get a `.gjs` file instead of what was previously a `.hbs` file. You can go and read more about the benefits of GJS files in [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/), but a very short summary of the biggest difference is that you need to import everything that use use before you use it. This is achieved by compiling GJS files with "strict mode", which means that templates no longer realy on the Ember Resolver to look up Invokables (Components, Helpers, and Modifiers) by name but instead just check local scope of the file to find the Invokable before adding it to the template. 
 
-- background on benefits of GJS and when it was the default
-- good that we know where things are coming from when it comes to addons, but odd that we have to do the same for ember
-- also to make it worse all the improts are from different fake "packages" that nobody needs to care about the difference
-- link to one RFC explaining the idea (or all of them that talked about making them built-in 🤷) 
-- show a (contrived) before and after example of all of the things that are now built-in 
+This one simple change has helped Ember templates feel a lot less "magical" for developers who are new to Ember, no longer haiving to guess which (potentially nessted) addon a random `<FancyButton />` component is coming from, but this change did come with a slight cost. Now that you need to import everything that you are using in template, you suddenly need to start importing things that Ember.js automatically provides for you such as the `{{on}}` modifier, the `{{fn}}` helper, or the `<LinkTo />` component. And to make it even more challenging each of these Invokables are imported from different places: `@ember/modifier`, `@ember/helper`, and `@ember/routing` respectively. While there has been some efforts to improve tooling so that when you use one of these Invokables in a template your editor would help you to auto-complete the import statement for you, this doesn't represent a full fix for the problem and can't help anyone developing in an environment that can't make use of the modern [Glint](https://github.com/typed-ember/glint) toolchain. 
+
+In [RFC #997](https://rfcs.emberjs.com/id/0997-make-on-built-in/) it was proposed that the `{{on}}` helper would be **automatically imported** for you when you use it in a strict template (e.g. GTS) and Ember.js 7.1 is the first version where this RFC has been implemented. This release also includes the implementation for [RFC #998](https://rfcs.emberjs.com/id/0998-make-fn-built-in/) to make the `{{fn}}` helper be automatically imported into strict templates, [RFC #999](https://rfcs.emberjs.com/id/0999-make-hash-built-in/) for the `{{hash}}` helper, and [RFC #1000](https://rfcs.emberjs.com/id/1000-make-array-built-in/) for the `{{array}}` helper. What's more since the Element helper and the Logical, Equality, and Numeric Comparison Operators described above were added in the Ember.js version that introduced the concept of auto-importing Invokables, they have also been added to the list 🎉
+
+This means that if you had the following (slightly contrived) example of a GJS component template in Ember.js 7.0: 
+
+```gjs
+import { on } from '@ember/modifier';
+import { fn } from '@ember/helper';
+
+function say(message) { alert(message); }
+
+<template>
+  <button {{on "click" (fn say "hello there")}}>Say hello</button>
+</template>
+```
+
+can be updated to: 
+
+```gjs
+function say(message) { alert(message); }
+
+<template>
+  <button {{on "click" (fn say "hello there")}}>Say hello</button>
+</template>
+```
+
+which I think we can all agree is a lot better 😍.
 
 ### Updating API documentation to GJS
 
+Since the new [RFC Stages RFC](https://rfcs.emberjs.com/id/0617-rfc-stages) was adopted, we have had a very clear definition of when an RFC is considered done. 
 
+TODO finish this
 
 ### Changes in Ember.js 7.1
 
