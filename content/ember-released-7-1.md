@@ -15,16 +15,11 @@ tags:
 
 The Ember project is excited to announce the release of Ember v7.1. This is a standard minor release as part of the [standard Ember Release Train process](https://emberjs.com/releases/). 
 
-
-
-This release is relatively light, considering the big things that we have released recently, but contains some very useful bugfixes and enhancements 💪
-
-
-
+This release contains some serious improvlement to the Developer Experience of people using GJS files, adds some new built-in helpers, and furthers our commitement to reduce the number of deprecated npm package warnings you see when generating a new application.
 
 ## Ember.js 7.1
 
-<!-- Ember.js 6.11 introduces no new features, fixes one bug related to using the new `@ember/reactive` namespace in Classic builds (for those not yet using the default Embroider+Vite build), and ships one minor enhancement that improves the developer experience of people using auto-complete in an IDE. -->
+Ember 7.1 introduces a number of long-awaited new built-in helpers (`{{element}}`, `{{and}}`, `{{or}}`, `{{lt}}` `{{lte}}`, `{{gt}}`, `{{gte}}`, `{{eq}}`, and `{{neq}}`) and a significant improvement to the Developer Experience of using some often used helpers and modifiers in GJS files. The template examples in the API documentation app have all been updated to use `<template />` tag format.
 
 
 ### Element Helper
@@ -61,7 +56,7 @@ Because `ember-truth-helpers` was such a popular (and useful) addon, there was l
 
 In the blueprints shipped with Ember 6.8 we made the [new GJS template format the default experience for the generators in apps](/ember-released-6-8#toc_component-and-route---strict-by-default), so when you generate a component or a route template you will get a `.gjs` file instead of what was previously a `.hbs` file. You can go and read more about the benefits of GJS files in [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/), but a very short summary of the biggest difference is that you need to import everything that use use before you use it. This is achieved by compiling GJS files with "strict mode", which means that templates no longer realy on the Ember Resolver to look up Invokables (Components, Helpers, and Modifiers) by name but instead just check local scope of the file to find the Invokable before adding it to the template. 
 
-This one simple change has helped Ember templates feel a lot less "magical" for developers who are new to Ember, no longer haiving to guess which (potentially nessted) addon a random `<FancyButton />` component is coming from, but this change did come with a slight cost. Now that you need to import everything that you are using in template, you suddenly need to start importing things that Ember.js automatically provides for you such as the `{{on}}` modifier, the `{{fn}}` helper, or the `<LinkTo />` component. And to make it even more challenging each of these Invokables are imported from different places: `@ember/modifier`, `@ember/helper`, and `@ember/routing` respectively. While there has been some efforts to improve tooling so that when you use one of these Invokables in a template your editor would help you to auto-complete the import statement for you, this doesn't represent a full fix for the problem and can't help anyone developing in an environment that can't make use of the modern [Glint](https://github.com/typed-ember/glint) toolchain. 
+This one simple change has helped Ember templates feel a lot less "magical" for developers who are new to Ember, no longer haiving to guess which (potentially nested) addon a random `<FancyButton />` component is coming from, but this change did come with a slight cost. Now that you need to import everything that you are using in template, you suddenly need to start importing things that Ember.js automatically provides for you such as the `{{on}}` modifier, the `{{fn}}` helper, or the `<LinkTo />` component. And to make it even more challenging each of these Invokables are imported from different places: `@ember/modifier`, `@ember/helper`, and `@ember/routing` respectively. While there has been some efforts to improve tooling so that when you use one of these Invokables in a template your editor would help you to auto-complete the import statement for you, this doesn't represent a full fix for the problem and can't help anyone developing in an environment that can't make use of the modern [Glint](https://github.com/typed-ember/glint) toolchain. 
 
 In [RFC #997](https://rfcs.emberjs.com/id/0997-make-on-built-in/) it was proposed that the `{{on}}` helper would be **automatically imported** for you when you use it in a strict template (e.g. GTS) and Ember.js 7.1 is the first version where this RFC has been implemented. This release also includes the implementation for [RFC #998](https://rfcs.emberjs.com/id/0998-make-fn-built-in/) to make the `{{fn}}` helper be automatically imported into strict templates, [RFC #999](https://rfcs.emberjs.com/id/0999-make-hash-built-in/) for the `{{hash}}` helper, and [RFC #1000](https://rfcs.emberjs.com/id/1000-make-array-built-in/) for the `{{array}}` helper. What's more since the Element helper and the Logical, Equality, and Numeric Comparison Operators described above were added in the Ember.js version that introduced the concept of auto-importing Invokables, they have also been added to the list 🎉
 
@@ -92,42 +87,9 @@ which I think we can all agree is a lot better 😍.
 
 ### Updating API documentation to GJS
 
-Since the new [RFC Stages RFC](https://rfcs.emberjs.com/id/0617-rfc-stages) was adopted, we have had a very clear definition of when an RFC is considered done. 
+Since the new [RFC Stages RFC](https://rfcs.emberjs.com/id/0617-rfc-stages) was adopted, we have had a very clear definition of when an RFC is considered done, and the necessary code to implement a new feature being written is only step 3 of 5! Once something is released (Stage 4) we continue to track the work until it becomes Recommended (Stage 5). The precice definition of Recommended is different for every RFC, but it is safe to assume that updating the all of the documentation around changes proposed in an RFC will be a prerequsite before an RFC can be marked as Recommended i.e. fully and completely done.
 
-TODO finish this
-
-### Changes in Ember.js 7.1
-
-Ember.js 7.1 is an incremental, backwards compatible release of Ember with some new features.
-
-#### Bug fixes
-
-There are no noteworthy bugfixes in 7.1
-
-In [#21468](https://github.com/emberjs/ember.js/pull/21468) We updated the API docs to use the template tag authoring format, where appropriate.
-
-#### Features
-
-In 7.1, the implementation of many RFCs to make some helpers and modifiers become "built in" and not need to be imported in strict-mode templates (aka Template Tag authoring format). The following no longer need
-to be imported:
-
-- [#21068](https://github.com/emberjs/ember.js/pull/21068) The `{{on}}` modifier per [RFC# 997](https://rfcs.emberjs.com/id/0997-make-on-built-in).
-- [#21299](https://github.com/emberjs/ember.js/pull/21299) The `{{fn}}` helper per [RFC #998](https://rfcs.emberjs.com/id/0998-make-fn-built-in).
-- [#21334](https://github.com/emberjs/ember.js/pull/21334) The `{{hash}}` helper per [RFC# 999](https://rfcs.emberjs.com/id/0999-make-hash-built-in).
-- [#21336](https://github.com/emberjs/ember.js/pull/21336) The `{{array}}` helper per [RFC#1000](https://rfcs.emberjs.com/id/1000-make-array-built-in).
-
-
-The following are also now built in for strict-mode, but previously came from addons or polyfills:
-
-- [#21230](https://github.com/emberjs/ember.js/pull/21230) / [#21343](https://github.com/emberjs/ember.js/pull/21343) The built-in `(element)`/ `{{element}}` helper and modifier for dynamic tag names per [RFC #389](https://rfcs.emberjs.com/id/0389-dynamic-tag-names).
-- [#21337](https://github.com/emberjs/ember.js/pull/21337) `{{and}}`, `{{or}}`, `{{not}}` helpers per [RFC #562](https://rfcs.emberjs.com/id/0562-add-logical-operators/).
-- [#21339](https://github.com/emberjs/ember.js/pull/21339) `{{eq}}` and `{{neq}}` helpers per [RFC #560](https://rfcs.emberjs.com/id/0560-add-equality-operators/).
-- [#21342](https://github.com/emberjs/ember.js/pull/21342) `{{lt}}`, `{{lte}}`, `{{gt}}`, `{{gte}}` helpers per [RFC# 561](https://rfcs.emberjs.com/id/0561-add-numeric-comparison-operators).
-
-
-For more details on changes in Ember.js 7.1, please review the [Ember.js 7.1.0 release page](https://github.com/emberjs/ember.js/releases/tag/v7.1.0-ember-source).
-
----
+This release includes one of the last changes necessary before [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) (the RFC that introduced GJS files) could be marked as Recommended. All of the API documentation embedded in the Ember.js source code (and that gets extracted into the [Ember API Docs](https://api.emberjs.com/ember/release) app) has been updated to use `<template>` tag syntax rather than "bare templates" that rely on the resolver to find Invokables. 
 
 ## Ember CLI
 
