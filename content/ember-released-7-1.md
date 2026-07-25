@@ -13,8 +13,6 @@ tags:
 
 <!-- alex ignore just -->
 
-test
-
 The Ember project is excited to announce the release of Ember v7.1. This is a standard minor release as part of the [Ember Release Train process](https://emberjs.com/releases/). 
 
 This release contains some serious improvements to the Developer Experience for people using GJS files, adds some new built-in helpers, and furthers our commitement to reduce the number of deprecated npm package warnings you see when generating a new application.
