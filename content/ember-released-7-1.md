@@ -13,13 +13,15 @@ tags:
 
 <!-- alex ignore just -->
 
-The Ember project is excited to announce the release of Ember v7.1. This is a standard minor release as part of the [standard Ember Release Train process](https://emberjs.com/releases/). 
+test
 
-This release contains some serious improvlement to the Developer Experience of people using GJS files, adds some new built-in helpers, and furthers our commitement to reduce the number of deprecated npm package warnings you see when generating a new application.
+The Ember project is excited to announce the release of Ember v7.1. This is a standard minor release as part of the [Ember Release Train process](https://emberjs.com/releases/). 
+
+This release contains some serious improvements to the Developer Experience for people using GJS files, adds some new built-in helpers, and furthers our commitement to reduce the number of deprecated npm package warnings you see when generating a new application.
 
 ## Ember.js 7.1
 
-Ember 7.1 introduces a number of long-awaited new built-in helpers (`{{element}}`, `{{and}}`, `{{or}}`, `{{lt}}` `{{lte}}`, `{{gt}}`, `{{gte}}`, `{{eq}}`, and `{{neq}}`) and a significant improvement to the Developer Experience of using some often used helpers and modifiers in GJS files. The template examples in the API documentation app have all been updated to use `<template />` tag format.
+Ember 7.1 introduces a number of long-awaited new built-in helpers (`{{element}}`, `{{and}}`, `{{or}}`, `{{lt}}` `{{lte}}`, `{{gt}}`, `{{gte}}`, `{{eq}}`, and `{{neq}}`) and a significant improvement to the Developer Experience of using some often used helpers and modifiers in GJS files. Also, the API documentation has been updated so that all of the template examples have all been updated to use `<template />` tag format.
 
 
 ### Element Helper
@@ -44,13 +46,13 @@ As you can imagine this can get a bit hard to manage when needing to cater for m
 {{/let}}
 ```
 
-Since the RFC was proposed teams have been directly consuming the reference implementation for the RFC that was [published as an addon](https://github.com/emberjs/ember-element-helper), so with this release that addon is no longer needed. With it being available from Ember.js directly that means that it can be included in the set of "Built-in helpers" which you will learn more about if you keep reading 😉
+Since the RFC was proposed, Ember developers have been directly consuming the reference implementation for the RFC that was [published as an addon](https://github.com/emberjs/ember-element-helper), so with this release that addon is no longer needed. With it being available from Ember.js directly that means that it can be included in the set of "Built-in helpers" which you will learn more about if you keep reading 😉
 
 ### Logical, Equality, and Numeric Comparison Operators
 
 [`ember-truth-helpers`](https://github.com/jmurphyau/ember-truth-helpers) is one of the most popular Ember Addons in the wider ecosystem, and most apps have installed it either directly or indirectly through other Ember Addons depending on it. It is so popular that [RFC #562](https://rfcs.emberjs.com/id/0562-add-logical-operators/) proposed that the `{{and}}`, `{{or}}`, and `{{not}}` helpers provided by `ember-truth-helpers` should be included in Ember.js by default. Also, [RFC #561](https://rfcs.emberjs.com/id/0561-add-numeric-comparison-operators/) proposed the inclusion of the `{{lt}}`, `{{lte}}`, `{{gt}}`, and `{{gte}}` helpers into Ember.js and [RFC #560](https://rfcs.emberjs.com/id/0560-add-equality-operators/) proposed the inclusion of the `{{eq}}` and `{{neq}}` helpers. 
 
-Because `ember-truth-helpers` was such a popular (and useful) addon, there was little motivation to do the work and include these helpers in Ember.js by default. But just like the `{{element}}` helper above, now that we have the ability to provide "Built-in helpers" for templates we can significantly improve the ergonomics for Ember developers by finally implementing these RFCs and making the helpers a part of Ember.js by default. I guess it's time to explain what I mean by "Built-in helpers".
+Because `ember-truth-helpers` was such a popular (and useful) addon, there was little motivation to do the work and include these helpers in Ember.js by default. But just like the `{{element}}` helper above, now that we have the ability to provide "Built-in helpers" for templates we can significantly improve the ergonomics for Ember developers by finally implementing these RFCs and making the helpers a part of Ember.js by default. With that, I guess it's time to explain what I mean by "Built-in helpers" 😂
 
 ### Built-in Modifiers and Helpers
 
@@ -58,7 +60,7 @@ In the blueprints shipped with Ember 6.8 we made the [new GJS template format th
 
 This one simple change has helped Ember templates feel a lot less "magical" for developers who are new to Ember, no longer haiving to guess which (potentially nested) addon a random `<FancyButton />` component is coming from, but this change did come with a slight cost. Now that you need to import everything that you are using in template, you suddenly need to start importing things that Ember.js automatically provides for you such as the `{{on}}` modifier, the `{{fn}}` helper, or the `<LinkTo />` component. And to make it even more challenging each of these Invokables are imported from different places: `@ember/modifier`, `@ember/helper`, and `@ember/routing` respectively. While there has been some efforts to improve tooling so that when you use one of these Invokables in a template your editor would help you to auto-complete the import statement for you, this doesn't represent a full fix for the problem and can't help anyone developing in an environment that can't make use of the modern [Glint](https://github.com/typed-ember/glint) toolchain. 
 
-In [RFC #997](https://rfcs.emberjs.com/id/0997-make-on-built-in/) it was proposed that the `{{on}}` helper would be **automatically imported** for you when you use it in a strict template (e.g. GTS) and Ember.js 7.1 is the first version where this RFC has been implemented. This release also includes the implementation for [RFC #998](https://rfcs.emberjs.com/id/0998-make-fn-built-in/) to make the `{{fn}}` helper be automatically imported into strict templates, [RFC #999](https://rfcs.emberjs.com/id/0999-make-hash-built-in/) for the `{{hash}}` helper, and [RFC #1000](https://rfcs.emberjs.com/id/1000-make-array-built-in/) for the `{{array}}` helper. What's more since the Element helper and the Logical, Equality, and Numeric Comparison Operators described above were added in the Ember.js version that introduced the concept of auto-importing Invokables, they have also been added to the list 🎉
+In [RFC #997](https://rfcs.emberjs.com/id/0997-make-on-built-in/) it was proposed that the `{{on}}` helper would be **automatically imported** for you when you use it in a strict template (e.g. GJS) and Ember.js 7.1 is the first version where this RFC has been implemented. This release also includes the implementation for [RFC #998](https://rfcs.emberjs.com/id/0998-make-fn-built-in/) to make the `{{fn}}` helper be automatically imported into strict templates, [RFC #999](https://rfcs.emberjs.com/id/0999-make-hash-built-in/) for the `{{hash}}` helper, and [RFC #1000](https://rfcs.emberjs.com/id/1000-make-array-built-in/) for the `{{array}}` helper. What's more since the Element helper and the Logical, Equality, and Numeric Comparison Operators described above were added in the Ember.js version that introduced the concept of auto-importing Invokables, they have also been added to the list 🎉
 
 This means that if you had the following (slightly contrived) example of a GJS component template in Ember.js 7.0: 
 
@@ -91,30 +93,27 @@ Since the new [RFC Stages RFC](https://rfcs.emberjs.com/id/0617-rfc-stages) was 
 
 This release includes one of the last changes necessary before [RFC #779](https://rfcs.emberjs.com/id/0779-first-class-component-templates/) (the RFC that introduced GJS files) could be marked as Recommended. All of the API documentation embedded in the Ember.js source code (and that gets extracted into the [Ember API Docs](https://api.emberjs.com/ember/release) app) has been updated to use `<template>` tag syntax rather than "bare templates" that rely on the resolver to find Invokables. 
 
-## Ember CLI
+## Ember CLI 7.1
 
-Ember CLI is the command line interface for managing and packaging Ember.js applications.
+This release of ember-cli brings a new library that extracts common deprecation behaviour, a small but important improvement to quest to reduce npm deprecation warnings, and a bugfix to the blueprint system that supports modern JS tooling. 
 
-### Upgrading Ember CLI
+### Extract custom semver behaviour into new package
 
-You may upgrade Ember CLI using the `ember-cli-update` project:
+If you are used to Ember’s release process you will know that we do semver a little bit differently to most other JS projects. We add new features in minor versions in such a way that you can use both the old and the new features side-by-side, giving you time to migrate to the new paragdime. Then when we want to remove code, we add a new deprecation (at least 2 minors before the next major) with clear instructions on how to clear the deprecation before the next major. Then, if you are running your app and all its tests on the version just before the next major release **with no deprecations being throw** it should be safe to upgrade your Ember version without any problems.
 
-```bash
-npx ember-cli-update
-```
+This process works great in theory, but we had a few cases in the past where deprecated features were mistakenly not removed in the first version of the next major release 🙈 This means, because of our commitment to semver, we had to wait another whole major cycle before we could remove that deprecation 🫠 
 
-This utility will help you to update your app or addon to the latest Ember CLI version. You will probably encounter merge conflicts, in which the default behavior is to let you resolve conflicts on your own. For more information on the `ember-cli-update` project, see [the GitHub README](https://github.com/ember-cli/ember-cli-update).
+To prevent this from happening again, we improved our `deprecate()` function so that it was aware of what the current version of Ember.js or ember-cli you are using and we made it **throw an error** if you had passed the version that the code was due to be removed in. This means that we can be certain that no application is relying on this code path and we can safely remove the code as part of a cleanup without breaking our semver commitments. 
 
-### Changes in Ember CLI 7.1
+For complicated internal monorepo reasons (which should hopefully feature in future releases!) we needed to extract the code that manages these deprecations into a [separate library](https://github.com/ember-cli/semver-deprecat), and this release is the first time we are consuming our own new library. If you like the “Ember way” to do deprecations you can feel free to start using this library too!
 
-Ember CLI changes for 7.1 were mostly dependency updates to both the blueprints and to the main package.
+### Update many dependencies across majors
 
-#### Bug fixes
+In previous releases we have been talking about our [commitment to reduce the number of deprecated npm package warnings](https://github.com/ember-cli/ember-cli/issues/10943) you see when installing a new ember app. While this release may not seem like it made much progress (only reducing the number of deprecation warnings by 1), we made an important structural change to the ember-cli release process that means that updating dependencies across major boundaries will happen naturally as part of the ember-cli release train. This is the first version where that structural change is paying off, and we updated 6 dependencies (both in ember-cli and the blueprint) across major boundaries (and in some cases across multiple majors!)
 
-- [#11028](https://github.com/ember-cli/ember-cli/pull/11028) A fix that allows blueprints to be authored in esm. This fix was backported to 7.0.1 as well. As of version 7.2, running blueprints from `ember-source` will require Ember CLI v7.0.1 or higher.
+### Backported support for blueprints written in ESM
 
-For more details on the changes in Ember CLI 7.1 and detailed upgrade
-instructions, please review the [Ember CLI 7.1.0 release page](https://github.com/ember-cli/ember-cli/releases/tag/v7.1.0-ember-cli).
+Anyone following the work of the Ember Core Tooling team might have seen an effort that was trying to enable our build system to support setting `”type”=“module”` in the package.json of an addon. This setting [tells JS tooling that all `.js` files in a package are ESM modules](https://nodejs.org/api/packages.html#packagejson-and-file-extensions). We will talk more about this in an upcoming release, but in the mean time we needed to make sure that our entire tooling stack works properly with ESM files. It turns out that the blueprint system provided by ember-cli did not tolerate the blueprint index files being defined in ESM, so we needed to fix ember-cli so that it can support ESM files in blueprints. This fix was backported to ember-cli v7.0.1.
 
 ## Thank You!
 
