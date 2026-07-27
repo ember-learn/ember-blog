@@ -106,8 +106,8 @@ things you will use in templates (ex: [`LinkTo`](https://api.emberjs.com/ember/r
 Several commonly used helpers are now (as of v7.1.0) built-in as keywords in
 when used within `<template>`:
 
-- [`on` modifier]()
-- [`element` helper and modifier]()
+- [`on` modifier](https://api.emberjs.com/ember/7.1.0/classes/ember.templates.helpers/#on)
+- [`element` helper and modifier](https://api.emberjs.com/ember/7.1.0/classes/ember.templates.helpers/#element)
 - [`fn` helper]()
 - [`hash` helper]()
 - [`array` helper]()
