@@ -105,7 +105,7 @@ For complicated internal monorepo reasons (which should hopefully feature in fut
 
 ### Update many dependencies across majors
 
-In previous releases we have been talking about our [commitment to reduce the number of deprecated npm package warnings](https://github.com/ember-cli/ember-cli/issues/10943) you see when generating a new ember app. While this release may not seem like it made much progress (only reducing the number of deprecation warnings by 1), we made an important structural change to the ember-cli release process that means that updating dependencies across major boundaries will happen naturally as part of the ember-cli release train. This is the first version where that structural change is paying off, and we updated 6 dependencies (both in ember-cli and the blueprint) across major boundaries (and in some cases across multiple majors!)
+We made an important structural [change to the ember-cli release process](https://github.com/ember-cli/ember-cli/blob/master/RELEASE.md#update-all-packages) that means that updating dependencies across major boundaries will happen naturally as part of the ember-cli release train. This is the first version where that structural change is paying off, and we updated 6 dependencies (both in ember-cli and the blueprint) across major boundaries (and in some cases across multiple majors!)
 
 ### Backported support for blueprints written in ESM
 
