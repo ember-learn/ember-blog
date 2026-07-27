@@ -109,7 +109,49 @@ We made an important structural [change to the ember-cli release process](https:
 
 ### Backported support for blueprints written in ESM
 
-Anyone following the work of the Ember Core Tooling team might have seen an effort that was trying to enable our build system to support setting `”type”=“module”` in the package.json of an addon. This setting [tells JS tooling that all `.js` files in a package are ESM modules](https://nodejs.org/api/packages.html#packagejson-and-file-extensions). We will talk more about this in an upcoming release, but in the meantime we needed to make sure that our entire tooling stack works properly with ESM files. It turns out that the blueprint system provided by ember-cli did not tolerate the blueprint index files being defined in ESM, so we needed to fix ember-cli so that it can support ESM files in blueprints. This fix was backported to ember-cli v7.0.1.
+Every `ember generate` call in Ember is backed by a blueprint provided by an Ember Addon. Each blueprint has a "Blueprint index" file that provides some extention points for the blueprint to preform different actions, or customise template variables while the blueprint is being generated. Up until ember-cli 7.1 the Blueprint index files **needed** to be written as a CJS module using the old `module.exports` syntax:
+
+```js
+'use strict';
+
+module.exports = {
+  description: 'A super fancy blueprint',
+
+  // locals(options) {
+  //   // Return custom template variables here.
+  //   return {
+  //     foo: options.entity.options.foo
+  //   };
+  // }
+
+  // afterInstall(options) {
+  //   // Perform extra work here.
+  // }
+};
+```
+
+We have fixed this now, so you can write your Blueprint index files as true ESM modules: 
+
+```js
+export default {
+  description: 'A super fancy blueprint',
+
+  // locals(options) {
+  //   // Return custom template variables here.
+  //   return {
+  //     foo: options.entity.options.foo
+  //   };
+  // }
+
+  // afterInstall(options) {
+  //   // Perform extra work here.
+  // }
+};
+```
+
+This may not seem like a major change, but this represents one of the final obstacles to setting `type=module` in the `package.json` field of `ember-source` (which we may be hearing more about in the next release!). If you aren't aware of `type=module` then you can read more about it in the [Node.js documentation page on ESM modules](https://nodejs.org/api/packages.html#packagejson-and-file-extensions).
+
+This fix was also backported to ember-cli v7.0.1.
 
 ## Thank You!
 
