@@ -130,7 +130,7 @@ module.exports = {
 };
 ```
 
-We have fixed this now, so you can write your Blueprint index files as true ESM modules: 
+We have fixed this now, so you can write your Blueprint index files as true ESM modules:
 
 ```js
 export default {
