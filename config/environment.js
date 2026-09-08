@@ -28,6 +28,18 @@ module.exports = function (environment) {
       prefixHeaderId: 'toc_',
     },
 
+    'ember-showdown-shiki': {
+      languages: [
+        'javascript',
+        'typescript',
+        'handlebars',
+        'glimmer-ts',
+        'glimmer-js',
+        'json',
+        'css',
+      ],
+    },
+
     blog: {
       title: 'Ember.js Blog',
       description: 'Official Blog for the Ember.js Open Source Project',
