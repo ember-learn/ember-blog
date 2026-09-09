@@ -22,13 +22,17 @@ ember-cli (2026-09-01). Before publishing, re-check:
 - The Ember CLI section is empty as of beta.1. Fill it in or trim it to a
   sentence once the stable release is out.
 - Confirm the hello-world bundle numbers with the final release.
+- WarpDrive section: confirm with Chris Thoburn (a) whether the 7.3 blueprint
+  will bump to 5.9 (changes the second paragraph), and (b) the import path for
+  `<Paginate />`, since the README examples still import it from
+  `@warp-drive/ember/experiments` even though PR #10945 tagged the APIs public.
 -->
 
 <!-- alex ignore just -->
 
 The Ember project is excited to announce the release of Ember v7.3. This is a standard minor release as part of the [Ember Release Train process](https://emberjs.com/releases/).
 
-This release brings a new way to create reactive state that doesn't need a class, makes a serious dent in the size of the JavaScript bundle for apps that are on the modern build system, and fixes a handful of long-standing bugs in the router 🎉
+This release brings a new way to create reactive state that doesn't need a class, makes a serious dent in the size of the JavaScript bundle for apps that are on the modern build system, and fixes a handful of long-standing bugs in the router 🎉 We also have a lot to say about EmberData (WarpDrive) 5.9, which shipped a few days before this release.
 
 ## Ember.js 7.3
 
@@ -147,6 +151,87 @@ The API docs for `{{each}}` and `{{each-in}}` now document that they support nat
 ## Ember CLI 7.3
 
 Ember CLI 7.3 is a maintenance release. It updates the dependencies for `ember-cli` and both classic blueprints in line with the release train, but introduces no new features, deprecations, or bugfixes. Most of the tooling team's attention this cycle has been on the [blueprint model that was extracted in 7.2](/ember-released-7-2#toc_blueprint-model-extracted-into-its-own-package) and on the new v2 addon blueprint, so watch this space.
+
+## EmberData (WarpDrive) 5.9
+
+WarpDrive, the data library that still ships the `ember-data` and `@ember-data/*` packages as its legacy layer, has not been on the six-week release train for a while now, so it doesn't always get a section in these posts. Every package, old name and new, is published together at the same version. This time it earns one. Version 5.9.0 shipped on the 5th of September and it rolls up about five months of work since 5.8.2, including the first ergonomic way to author schemas, a codemod to get you there from your existing models, a set of pagination utilities, and a very large documentation push.
+
+One thing to be clear about up front: the Ember 7.3 app blueprint still pins the WarpDrive packages at 5.8.2. If you want 5.9 in a new or existing app you will need to bump the `@warp-drive/*` (and, if you still have them, `@ember-data/*`) dependencies yourself. Nothing in 5.9 requires Ember 7.3, and nothing in Ember 7.3 requires WarpDrive 5.9.
+
+### Schema DSL
+
+If you have looked at WarpDrive's "Polaris" mode you will know that the modern way to describe your data is with schemas, plain objects that describe a resource's fields, rather than with `Model` classes and `@attr` decorators. Schemas are great for the runtime, because they are cheap to create and easy to ship over the wire, but writing them out by hand as JSON-ish objects is not a lot of fun, and you lose all the editor support that you get from writing a class.
+
+The new `@warp-drive/schema-dsl` package lets you write a schema as a decorated TypeScript class:
+
+```ts
+// app/schemas/user.ts
+import { Resource, field, id } from '@warp-drive/schema-dsl';
+
+@Resource
+class User {
+  @id declare id: string;
+  @field declare firstName: string;
+  @field declare lastName: string;
+  @field declare email: string;
+}
+```
+
+The trick is that these decorators do nothing at runtime. A Vite plugin (`schemaDSL()` from `@warp-drive/schema-dsl/vite`) compiles the classes into schema objects at build time and exposes them through a `virtual:warp-drive-schemas` module that you register with your store, so the class itself never ships to the browser. This release includes the full set of field and class decorators along with `schemaObject` and `schemaArray` for nested structures, and supports both the modern and legacy schema output formats. You can read more in the [Schema DSL guide](https://warp-drive.io/guide/schemas/dsl).
+
+Introduced in [warp-drive PR #10508](https://github.com/warp-drive-data/warp-drive/pull/10508), [PR #10904](https://github.com/warp-drive-data/warp-drive/pull/10904), and [PR #10994](https://github.com/warp-drive-data/warp-drive/pull/10994)
+
+### Model to schema codemod
+
+Going along with the Schema DSL, there is now a codemod that will migrate your existing `Model` classes (and mixins) to WarpDrive schemas:
+
+```bash
+pnpx @ember-data/codemods apply migrate-to-schema
+```
+
+This is an early release. The codemod already works well for simpler applications, but it does not yet generate TypeScript imports or register the schemas on the store for you, so expect to do some cleanup after running it. The codemods CLI is also now distributed as a portable Node bundle so it should work the same on every platform.
+
+Introduced in [warp-drive PR #10466](https://github.com/warp-drive-data/warp-drive/pull/10466)
+
+### Pagination utilities
+
+`@warp-drive/ember` has had `<Request />` and `<Await />` for a while now as layout-less components that manage the state of a request for you. This release adds a matching set of tools for paginated collections: a `PaginationState` (and `getPaginationState()` for use in JavaScript), a `<Paginate />` component that mirrors the `<Request />` API, an `<EachLink />` component for rendering page links, and a new `<:idle>` block. `<Paginate />` has a `@mode` argument to choose between classic paged navigation and an infinite, accumulating list, and page caches are shared between every component paginating the same collection.
+
+```gjs
+<Paginate @request={{@request}} @mode="infinite">
+  <:content as |pages features|>
+    {{#each pages.data as |item|}}{{item.title}}{{/each}}
+    {{#if pages.hasNext}}
+      <button {{on "click" features.loadNext}}>Load more</button>
+    {{/if}}
+  </:content>
+</Paginate>
+```
+
+It all works because WarpDrive understands pagination links in response documents, so if your API doesn't provide them you will want a request handler that adds them. See the [`@warp-drive/ember` documentation](https://warp-drive.io/api/@warp-drive/ember/) for the details.
+
+Introduced in [warp-drive PR #10014](https://github.com/warp-drive-data/warp-drive/pull/10014)
+
+### Generators without ember-cli
+
+If you read the [Ember CLI section of the 7.2 release blog](/ember-released-7-2#toc_blueprint-model-extracted-into-its-own-package) you will remember that we are working towards being able to run generators without depending on all of ember-cli. WarpDrive has taken a similar step from the other direction: the `model`, `adapter`, `serializer`, and `transform` blueprints (and their test counterparts) are now backed by plain generation functions in the `warp-drive` CLI package, and you can run them directly with `warp-drive generate model <name>`. The `ember generate` versions still work exactly as before, they are now thin shims over the same code. Two legacy behaviours were dropped from the generators as part of this: classic `Model.extend()` output and pods layout.
+
+Introduced in [warp-drive PR #10866](https://github.com/warp-drive-data/warp-drive/pull/10866)
+
+### Other changes
+
+A few smaller things that are worth knowing about:
+
+- [#10560](https://github.com/warp-drive-data/warp-drive/pull/10560) Cache notifications now have a `'local' | 'remote'` channel. This fixes a class of bugs where Polaris-mode immutable records could miss updates, and it is fully backwards compatible. If you write a custom cache you may want to read the PR.
+- [#10614](https://github.com/warp-drive-data/warp-drive/pull/10614) Attribute notifications are batched, which removes a significant amount of overhead when many records update at once.
+- [#10551](https://github.com/warp-drive-data/warp-drive/pull/10551) `useLegacyStore()` and `useRecommendedStore()` accept a callback for defining handlers, which makes stateful handlers much easier to set up.
+- [#10463](https://github.com/warp-drive-data/warp-drive/pull/10463) The `Fetch` handler supports `HEAD` requests.
+- [#10613](https://github.com/warp-drive-data/warp-drive/pull/10613) `eslint-plugin-warp-drive` gained a `template-always-use-request-content` rule that flags `<Request />` usages that never use their result, with a new `recommended-templates` config for `.gjs` and `.gts` files.
+- [#10528](https://github.com/warp-drive-data/warp-drive/pull/10528) A new `ReactiveStorage` experiment for reactive local data.
+
+### Documentation
+
+Well over a hundred of the entries in the 5.9 changelog are documentation, the result of a concerted effort to document the entire public API surface of every WarpDrive package, from the request pipeline types through to the legacy adapter and serializer classes. That documentation lives on the [WarpDrive API docs](https://warp-drive.io/api/), which is where you should be looking for anything WarpDrive related. The ember-data section of the Ember API docs is no longer the best source.
 
 ## Thank You!
 
