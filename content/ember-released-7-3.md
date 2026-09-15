@@ -2,7 +2,7 @@
 title: Ember 7.3 Released
 authors:
   - jared-galanis
-date: 2026-09-25T00:00:00.000Z
+date: 2026-09-18T00:00:00.000Z
 tags:
   - releases
   - '2026'
@@ -15,10 +15,11 @@ DRAFT NOTES (remove before publishing)
 This post was drafted against v7.3.0-beta.1 of ember-source (2026-08-09) and
 ember-cli (2026-09-01). Before publishing, re-check:
 
-- The `date` above targets the Friday of release week (week of 2026-09-21). Adjust if the release slips.
-- Compare the final v7.3.0 release notes against the beta.1 changelogs. Later
-  betas can add entries, and anything merged to ember.js `main` after the beta
-  cut (e.g. mixin / Evented / Proxy deprecations) goes to 7.4 unless backported.
+- The `date` above targets the Friday of release week (week of 2026-09-14, per the handbook rule: six weeks from the planned Monday, regardless of slips). Adjust if the release slips.
+- ember-source v7.3.0 stable (tagged 2026-09-14) checked on 2026-09-15: identical to
+  beta.1 plus #21591 (modifier leak) and #21573 (docs link), both folded in above.
+  ember-cli 7.3.0 stable is NOT tagged yet; re-check its notes when it lands.
+  Mixin / Evented / Proxy deprecations are 7.4 unless backported.
 - The Ember CLI section is empty as of beta.1. Fill it in or trim it to a
   sentence once the stable release is out.
 - Confirm the hello-world bundle numbers with the final release.
@@ -32,7 +33,7 @@ This release brings a new way to create reactive state that doesn't need a class
 
 ## Ember.js 7.3
 
-Ember.js 7.3 introduces one new feature, `tracked()` being usable outside of classes per [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), includes some internal restructuring that lets bundlers drop a lot more unused code from `ember-source`, and ships seven bugfixes. There are no new deprecations.
+Ember.js 7.3 introduces one new feature, `tracked()` being usable outside of classes per [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), includes some internal restructuring that lets bundlers drop a lot more unused code from `ember-source`, and ships eight bugfixes. There are no new deprecations.
 
 ### `tracked()` outside of classes
 
@@ -124,9 +125,10 @@ Introduced in [emberjs/ember.js PR #21456](https://github.com/emberjs/ember.js/p
 
 ### Bug Fixes
 
-Ember.js 7.3 introduces 7 bugfixes:
+Ember.js 7.3 introduces 8 bugfixes:
 
 - [#21203](https://github.com/emberjs/ember.js/pull/21203) Fix `@model` becomes `undefined` or changes to the wrong route's model during Glimmer component `willDestroy`
+- [#21591](https://github.com/emberjs/ember.js/pull/21591) Destroy dynamic modifiers that were set after the initial render, fixing a memory leak
 - [#21409](https://github.com/emberjs/ember.js/pull/21409) Fix query params trigger model refresh unnecessarily
 - [#21410](https://github.com/emberjs/ember.js/pull/21410) Fix query param redirects during active transitions
 - [#21521](https://github.com/emberjs/ember.js/pull/21521) Treat nullish `<LinkTo>` `@query` as an empty query object
@@ -136,13 +138,15 @@ Ember.js 7.3 introduces 7 bugfixes:
 
 A couple of these deserve a special mention. The first one fixes a bug that has been [open since 2019](https://github.com/emberjs/ember.js/issues/18987) and, from the git history, has probably existed since `@model` was introduced in Ember 3.14. If a component in a route template read `@model` in its `willDestroy` hook while you were transitioning to a different route, it could see `undefined` or, worse, the *other* route's model. This mostly showed up as confusing bugs in cleanup code, and it is now fixed for every kind of transition.
 
+The second one is a memory leak that has been with us since Ember 3.25. If a dynamic modifier like `{{this.mod}}` started out as `undefined` and was set to a real modifier after the first render (or was swapped for a different modifier later), its destructor never ran when the element went away, so anything the modifier had set up, such as the floating-ui observers in ember-primitives, leaked. The fix registers the updating opcode with its block so teardown reaches it. It has also been marked for backport to the LTS line.
+
 The query param fixes are part of a [larger effort to improve the router's test coverage](https://github.com/emberjs/ember.js/issues/19609), and each of them closes an issue that people have been hitting for years: parent routes no longer re-run their `model` hook when you transition to a child route with unchanged query params, and redirecting from `beforeModel` back to the same route with different query params no longer loses those params or crashes on a direct visit. And if you have ever had a `<LinkTo>` blow up because you passed `@query={{this.maybeParams}}` and it happened to be `null`, that now works as expected.
 
 Finally, a small security hardening that is not in the list above: the guard that stops `set()` from `@ember/object` walking through `__proto__` and `constructor` in a path now also blocks `prototype`, closing a prototype pollution edge case. See [PR #21451](https://github.com/emberjs/ember.js/pull/21451).
 
 ### Documentation
 
-The API docs for `{{each}}` and `{{each-in}}` now document that they support native `Set` and `Map` respectively, which they have done since the iterable refactor but never said so. See [PR #21523](https://github.com/emberjs/ember.js/pull/21523).
+The API docs for `{{each}}` and `{{each-in}}` now document that they support native `Set` and `Map` respectively, which they have done since the iterable refactor but never said so. See [PR #21523](https://github.com/emberjs/ember.js/pull/21523). The `Ember.Templates.helpers` docs also link to `@ember/helper` correctly again ([PR #21573](https://github.com/emberjs/ember.js/pull/21573)).
 
 ## Ember CLI 7.3
 
