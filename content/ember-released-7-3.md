@@ -33,7 +33,7 @@ This release brings a new way to create reactive state that doesn't need a class
 
 ## Ember.js 7.3
 
-Ember.js 7.3 introduces one new feature, `tracked()` being usable outside of classes per [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), includes some internal restructuring that lets bundlers drop a lot more unused code from `ember-source`, and ships eight bugfixes. There are no new deprecations.
+Ember.js 7.3 introduces one new feature per [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/): `tracked` can now be used outside of classes, and, arguably more importantly, both forms of `tracked` let you configure equality so that setting a value to what it already was no longer triggers a re-render. The release also includes some internal restructuring that lets bundlers drop a lot more unused code from `ember-source`, and ships eight bugfixes. There are no new deprecations.
 
 ### `tracked()` outside of classes
 
@@ -52,7 +52,7 @@ export default class Counter extends Component {
 
 This works great and is still what we recommend for the vast majority of app code, but it does mean that if you want a single reactive value you first need a class to put it on. That gets in the way in a few places: helpers, modifiers, and resources that are written as plain functions, tests that want a bit of state to poke at, and demos where every extra line of boilerplate is a distraction from the thing you are actually trying to show.
 
-Ember 7.3 implements [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), which overloads the existing `tracked` import so that when you call it as a function with an initial value it returns a standalone reactive value:
+Ember 7.3 implements [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), which does two things to the existing `tracked` import. First, when you call it as a function with an initial value it returns a standalone reactive value:
 
 ```gjs
 import { tracked } from '@glimmer/tracking';
@@ -96,7 +96,11 @@ export class Session {
 
 If any of this looks familiar it's because the idea has been floating around the ecosystem for a while. It was prototyped as `Cell` in [Starbeam](https://starbeamjs.com/guides/fundamentals/cells.html) and has been available to Ember developers as `cell` from [ember-resources](https://github.com/NullVoxPopuli/ember-resources). Now it's built in, with no extra import, and it gives us a much better tool for teaching. Rather than `@tracked` being "magic" that only works with decorators, we can now describe it as syntactic sugar on top of a reactive value that you could build yourself.
 
-**A note on equality.** The standalone form takes an optional second argument with an `equals` function that decides whether a write should notify consumers, and it defaults to `Object.is`. That means `count.value = count.value` will *not* cause a re-render. This is a deliberate difference from the `@tracked` decorator, which (for historical reasons) always notifies consumers when you set it, even to the same value. If you want that behaviour on a standalone value you can pass `{ equals: () => false }`. And going the other direction, the `@tracked` decorator now accepts the same options object, so you can opt a class property into equality-based notification:
+### Configurable equality
+
+The second thing RFC #1071 does may matter more to existing apps than the standalone form. Until now, setting a `@tracked` property always notified consumers, even when you set it to the exact value it already held, so `this.count = this.count` re-rendered everything that read `count`. That was a historical choice and there was no way to change it. Both forms of `tracked` now accept an options object with an `equals` function that decides whether a write counts as a change.
+
+The standalone form defaults to `Object.is`, so `count.value = count.value` does *not* re-render, and you can pass `{ equals: () => false }` to get the old always-notify behaviour. The `@tracked` decorator keeps its always-notify default for backwards compatibility, and you can now opt a property into equality-based notification:
 
 ```js
 class Counter {
