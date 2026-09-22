@@ -18,10 +18,10 @@ ember-cli (2026-09-01). Before publishing, re-check:
 - The `date` above targets the Friday of release week (week of 2026-09-14, per the handbook rule: six weeks from the planned Monday, regardless of slips). Adjust if the release slips.
 - ember-source v7.3.0 stable (tagged 2026-09-14) checked on 2026-09-15: identical to
   beta.1 plus #21591 (modifier leak) and #21573 (docs link), both folded in above.
-  ember-cli 7.3.0 stable is NOT tagged yet; re-check its notes when it lands.
+  ember-cli v7.3.0 stable (tagged 2026-09-21) checked on 2026-09-22: only #11060 (prepare beta)
+  and #11064 (promote + dependency updates, no major bumps). Blueprint pins ember-source ~7.3.0
+  and @warp-drive/core ~5.8.2, so no WarpDrive section.
   Mixin / Evented / Proxy deprecations are 7.4 unless backported.
-- The Ember CLI section is empty as of beta.1. Fill it in or trim it to a
-  sentence once the stable release is out.
 - Confirm the hello-world bundle numbers with the final release.
 -->
 
@@ -154,7 +154,22 @@ The API docs for `{{each}}` and `{{each-in}}` now document that they support nat
 
 ## Ember CLI 7.3
 
-Ember CLI 7.3 is a maintenance release. It updates the dependencies for `ember-cli` and both classic blueprints in line with the release train, but introduces no new features, deprecations, or bugfixes. Most of the tooling team's attention this cycle has been on the [blueprint model that was extracted in 7.2](/ember-released-7-2#toc_blueprint-model-extracted-into-its-own-package) and on the new v2 addon blueprint, so watch this space.
+Ember CLI 7.3 is a maintenance release for `ember-cli` itself: no new features, no deprecations, and no bugfixes. The only changes there are the routine dependency updates that happen as part of the release train: `ember-cli` itself picked up patch releases of things like `testem` and `morgan`, and the default app blueprint now generates apps on `ember-source` 7.3 with the current `@embroider/macros`, `@glint/template`, and `eslint-plugin-warp-drive` versions. None of those updates crossed a major version boundary, so there is nothing to do when you upgrade. As with 7.2, newly generated apps still get WarpDrive 5.8.
+
+### Tests run through testem directly
+
+The [`@ember/app-blueprint`](https://github.com/ember-cli/ember-app-blueprint) that `ember new` uses did get one change worth knowing about. Since Ember 6.8, `pnpm test` in a new app has built the app with Vite and then handed the built output to `ember test --path dist`. In 7.3 that second step calls [testem](https://github.com/testem/testem) directly:
+
+```json
+"test": "vite build --mode development && testem ci --port 0"
+```
+
+with a `cwd: 'dist'` line added to `testem.cjs` so testem serves the built app. Nothing changes about how your tests are written or which browser runs them. `ember test` was only ever a thin wrapper around testem for Vite apps, and calling testem directly removes a layer that could make it unclear which tool owned the flags you were passing. If you already have an app you do not need to change anything, but if you want the same setup you can copy the script and the one config line.
+
+Introduced in [ember-cli/ember-app-blueprint PR #307](https://github.com/ember-cli/ember-app-blueprint/pull/307)
+
+
+Most of the tooling team's attention this cycle has been on the [blueprint model that was extracted in 7.2](/ember-released-7-2#toc_blueprint-model-extracted-into-its-own-package) and on the new v2 addon blueprint, so watch this space.
 
 ## Thank You!
 
