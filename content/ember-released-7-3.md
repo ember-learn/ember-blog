@@ -154,6 +154,6 @@ Introduced in [ember-cli/ember-app-blueprint PR #307](https://github.com/ember-c
 
 ## Thank You!
 
-Just a final note that this post has been drafted with the help of artificial intelligence, but a human has participated and reviewed the post in its entirety.
+A final note: this post was drafted with the help of artificial intelligence, and a human reviewed it in its entirety.
 
 As a community-driven open-source project with an ambitious scope, each of these releases serves as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
