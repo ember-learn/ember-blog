@@ -29,7 +29,7 @@ ember-cli (2026-09-01). Before publishing, re-check:
 
 The Ember project is excited to announce the release of Ember v7.3. This is a standard minor release as part of the [Ember Release Train process](https://emberjs.com/releases/).
 
-This release brings a new way to create reactive state that doesn't need a class, makes a serious dent in the size of the JavaScript bundle for apps that are on the modern build system, and fixes a handful of long-standing bugs in the router 🎉
+This release brings a new way to create reactive state that doesn't need a class, makes a serious dent in the size of the JavaScript bundle for apps that are on the modern build system, and fixes a handful of long-standing bugs in the router and elsewhere! 🎉😃
 
 ## Ember.js 7.3
 
@@ -52,7 +52,7 @@ export default class Counter extends Component {
 
 This works great and is still what we recommend for the vast majority of app code, but it does mean that if you want a single reactive value you first need a class to put it on. That gets in the way in a few places: helpers, modifiers, and resources that are written as plain functions, tests that want a bit of state to poke at, and demos where every extra line of boilerplate is a distraction from the thing you are actually trying to show.
 
-Ember 7.3 implements [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), which does two things to the existing `tracked` import. First, when you call it as a function with an initial value it returns a standalone reactive value:
+Ember 7.3 implements [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), which does two things to the existing `tracked` import. First, when you call it as a function with an initial value it returns a standalone reactive value usable outside of classes:
 
 ```gjs
 import { tracked } from '@glimmer/tracking';
@@ -67,7 +67,7 @@ const increment = () => count.value++;
 </template>
 ```
 
-Reading `count.value` in a template (or in a getter that a template uses) entangles with the render exactly like reading a `@tracked` property would, and writing to it causes a re-render. Alongside `.value` there are a few function short-hands that are handy when you want to partially apply things in a template with `{{fn}}`:
+Reading `count.value` in a template (or in a getter that a template uses) entangles with the render similarly to reading a `@tracked` property would, and writing to it causes a re-render. Alongside .value there are four function short-hands:
 
 ```js
 count.get();                // same as reading count.value
@@ -76,7 +76,7 @@ count.update((n) => n + 1); // write based on the current value, without consumi
 count.freeze();             // prevent any further writes
 ```
 
-One nice pattern that this unlocks is keeping mutable state private to a class while exposing a read-only view of it, without having to reach for a second property:
+One nice pattern that this unlocks is keeping mutable state private to a class while exposing a read-only view of it:
 
 ```js
 import { tracked } from '@glimmer/tracking';
@@ -94,7 +94,7 @@ export class Session {
 }
 ```
 
-If any of this looks familiar it's because the idea has been floating around the ecosystem for a while. It was prototyped as `Cell` in [Starbeam](https://starbeamjs.com/guides/fundamentals/cells.html) and has been available to Ember developers as `cell` from [ember-resources](https://github.com/NullVoxPopuli/ember-resources). Now it's built in, with no extra import, and it gives us a much better tool for teaching. Rather than `@tracked` being "magic" that only works with decorators, we can now describe it as syntactic sugar on top of a reactive value that you could build yourself.
+If any of this looks familiar it's because the idea has been floating around the ecosystem for a while. It was prototyped as `Cell` in [Starbeam](https://starbeamjs.com/guides/fundamentals/cells.html) and has been available to Ember developers as `cell` from [ember-resources](https://github.com/NullVoxPopuli/ember-resources). Now it's built in, with no extra import. Rather than `@tracked` being "magic, we can utilize `tracked()` as a storytelling tool to demystify how `@tracked` works.
 
 ### Configurable equality
 
