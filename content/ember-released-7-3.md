@@ -9,22 +9,6 @@ tags:
   - version-7-x
 ---
 
-<!--
-DRAFT NOTES (remove before publishing)
-
-This post was drafted against v7.3.0-beta.1 of ember-source (2026-08-09) and
-ember-cli (2026-09-01). Before publishing, re-check:
-
-- The `date` above targets the Friday of release week (week of 2026-09-14, per the handbook rule: six weeks from the planned Monday, regardless of slips). Adjust if the release slips.
-- ember-source v7.3.0 stable (tagged 2026-09-14) checked on 2026-09-15: identical to
-  beta.1 plus #21591 (modifier leak) and #21573 (docs link), both folded in above.
-  ember-cli v7.3.0 stable (tagged 2026-09-21) checked on 2026-09-22: only #11060 (prepare beta)
-  and #11064 (promote + dependency updates, no major bumps). Blueprint pins ember-source ~7.3.0
-  and @warp-drive/core ~5.8.2, so no WarpDrive section.
-  Mixin / Evented / Proxy deprecations are 7.4 unless backported.
-- Confirm the hello-world bundle numbers with the final release.
--->
-
 <!-- alex ignore just -->
 
 The Ember project is excited to announce the release of Ember v7.3. This is a standard minor release as part of the [Ember Release Train process](https://emberjs.com/releases/).
@@ -169,5 +153,7 @@ with a `cwd: 'dist'` line added to `testem.cjs` so testem serves the built app. 
 Introduced in [ember-cli/ember-app-blueprint PR #307](https://github.com/ember-cli/ember-app-blueprint/pull/307)
 
 ## Thank You!
+
+Just a final note that this post has been drafted with the help of artificial intelligence, but a human has reviewed the post in its entirety.
 
 As a community-driven open-source project with an ambitious scope, each of these releases serves as a reminder that the Ember project would not have been possible without your continued support. We are extremely grateful to our contributors for their efforts.
