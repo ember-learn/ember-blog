@@ -50,7 +50,7 @@ export default class Counter extends Component {
 }
 ```
 
-This works great and is still what we recommend for the vast majority of app code, but it does mean that if you want a single reactive value you first need a class to put it on. That gets in the way in a few places: helpers, modifiers, and resources that are written as plain functions, tests that want a bit of state to poke at, and demos where every extra line of boilerplate is a distraction from the thing you are actually trying to show.
+This works great and is still what we recommend for the vast majority of app code, but it does mean that if you want a single reactive value you first need a class to put it on. That gets in the way in a few places: helpers and modifiers that are written as plain functions, tests that want a bit of state to poke at, and demos where every extra line of boilerplate is a distraction from the thing you are actually trying to show.
 
 Ember 7.3 implements [RFC #1071](https://rfcs.emberjs.com/id/1071-overload-tracked-for-non-class-use/), which does two things to the existing `tracked` import. First, when you call it as a function with an initial value it returns a standalone reactive value usable outside of classes:
 
@@ -98,9 +98,9 @@ If any of this looks familiar it's because the idea has been floating around the
 
 ### Configurable equality
 
-The second thing RFC #1071 does may matter more to existing apps than the standalone form. Until now, setting a `@tracked` property always notified consumers, even when you set it to the exact value it already held, so `this.count = this.count` re-rendered everything that read `count`. That was a historical choice and there was no way to change it. Both forms of `tracked` now accept an options object with an `equals` function that decides whether a write counts as a change.
+Until now, setting a `@tracked` property always notified consumers, even when you set it to the exact value it already held, so `this.count = this.count` re-rendered everything that read `count`. That was a historical choice and there was no way to change it. Both forms of `tracked` now accept an options object with an `equals` function that decides whether a write counts as a change.
 
-The standalone form defaults to `Object.is`, so `count.value = count.value` does *not* re-render, and you can pass `{ equals: () => false }` to get the old always-notify behaviour. The `@tracked` decorator keeps its always-notify default for backwards compatibility, and you can now opt a property into equality-based notification:
+The non-decorator form defaults to `Object.is`, so `count.value = count.value` does *not* re-render, and you can pass `{ equals: () => false }` to get the old always-notify behaviour. The `@tracked` decorator keeps its always-notify default for backwards compatibility, and you can now opt a property into equality-based notification:
 
 ```js
 class Counter {
@@ -142,7 +142,7 @@ Ember.js 7.3 introduces 8 bugfixes:
 
 A couple of these deserve a special mention. The first one fixes a bug that was [reported in 2020](https://github.com/emberjs/ember.js/issues/18987) and, from the git history, has probably existed since `@model` was introduced in Ember 3.14. If a component in a route template read `@model` in its `willDestroy` hook while you were transitioning to a different route, it could see `undefined` or, worse, the *other* route's model. The fix adds a check on the controller's identity so the outlet cannot be redirected mid-teardown, and the new smoke test covers transitions to sibling, parent, cousin, and unrelated routes.
 
-The second one is a memory leak that has been with us since Ember 3.25. If a dynamic modifier like `{{this.mod}}` started out as `undefined` and was set to a real modifier after the first render (or was swapped for a different modifier later), its destructor never ran when the element went away, so anything the modifier had set up, such as the floating-ui observers in ember-primitives, leaked. The fix registers the updating opcode with its block so teardown reaches it. The PR is tagged for backport to the LTS release, so watch for it in a 6.12 patch.
+The second one is a memory leak that has been with us since Ember 3.25. If a dynamic modifier like `{{this.mod}}` started out as `undefined` and was set to a real modifier after the first render (or was swapped for a different modifier later), its destructor never ran when the element went away, so anything the modifier had set up, such as the floating-ui observers in ember-primitives, leaked. The fix registers the updating opcode with its block so teardown reaches it. The PR is tagged for backport to an LTS.
 
 The query param fixes are part of a [larger effort to improve the router's test coverage](https://github.com/emberjs/ember.js/issues/19609), and each of them closes an issue that people have been hitting for years: parent routes no longer re-run their `model` hook when you transition to a child route with unchanged query params, and redirecting from `beforeModel` back to the same route with different query params no longer loses those params or crashes on a direct visit. And if you have ever had a `<LinkTo>` blow up because you passed `@query={{this.maybeParams}}` and it happened to be `null`, that now works as expected.
 
@@ -164,12 +164,9 @@ The [`@ember/app-blueprint`](https://github.com/ember-cli/ember-app-blueprint) t
 "test": "vite build --mode development && testem ci --port 0"
 ```
 
-with a `cwd: 'dist'` line added to `testem.cjs` so testem serves the built app. Nothing changes about how your tests are written or which browser runs them. `ember test` was only ever a thin wrapper around testem for Vite apps, and calling testem directly removes a layer that could make it unclear which tool owned the flags you were passing. If you already have an app you do not need to change anything, but if you want the same setup you can copy the script and the one config line.
+with a `cwd: 'dist'` line added to `testem.cjs` so testem serves the built app. Nothing changes about how your tests are written or which browser runs them. `ember test` was a thin wrapper around testem for Vite apps, and now it calls testem directly, removing a layer that could make it unclear which tool owned the flags you were passing. If you already have an app you do not need to change anything, but if you want the same setup you can copy the script and the one config line.
 
 Introduced in [ember-cli/ember-app-blueprint PR #307](https://github.com/ember-cli/ember-app-blueprint/pull/307)
-
-
-Most of the tooling team's attention this cycle has been on the [blueprint model that was extracted in 7.2](/ember-released-7-2#toc_blueprint-model-extracted-into-its-own-package) and on the new v2 addon blueprint, so watch this space.
 
 ## Thank You!
 
