@@ -2,7 +2,7 @@
 title: Ember 7.3 Released
 authors:
   - jared-galanis
-date: 2026-10-02T00:00:00.000Z
+date: 2026-10-05T00:00:00.000Z
 tags:
   - releases
   - '2026'
